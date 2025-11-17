@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-29 11:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:5
+#, no-c-format
+msgid "The Acquire Images tool is dedicated to scan images using a flat scanner."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk5
+#: tool-acquireimages.docbook:11
+#, no-c-format
+msgid "Flat scanner"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-acquireimages.docbook:15
+#, no-c-format
+msgid "Acquire Images Tool"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:17
+#, no-c-format
+msgid "This tool can be used to scan images using a flat scanner. The tool uses libksane, an interface for SANE library to control flat scanners."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:19
+#, no-c-format
+msgid "It can save images in all main image containers, as for example the following formats:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:22
+#, no-c-format
+msgid "png (8 and 16 bits per color)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:25
+#, no-c-format
+msgid "jpeg, jpg, jpeg 2000"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:28
+#, no-c-format
+msgid "tiff"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:34
+#, no-c-format
+msgid "You can check the status of your scanner support from the SANE project website by entering the information on this search page: <ulink url=\"http://www.sane-project.org/cgi-bin/driver.pl\">http://www.sane-project.org/cgi-bin/driver.pl</ulink>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-acquireimages.docbook:37
+#, no-c-format
+msgid "Scanner Selection"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:38
+#, no-c-format
+msgid "If the selected scanner cannot be opened or if no default scanner is provided, a scanner selection dialog is opened."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:40
+#, no-c-format
+msgid "The user can choose the scanner to be used and press <guibutton>OK</guibutton> to open the scanner. Pressing <guibutton>Cancel</guibutton> will cause the tool to exit."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: tool-acquireimages.docbook:45
+#, no-c-format
+msgid "<screeninfo>No scanner found</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: tool-acquireimages.docbook:51
+#, no-c-format
+msgid "<phrase>No scanner found</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:56
+#, no-c-format
+msgid "In case no devices were found, maybe because the scanner is not plugged in or switched off, correct that. Then the <guibutton>Reload device list</guibutton> can be used to reload the list of scanners."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:60
+#, no-c-format
+msgid "Not all drivers/backends support this feature. In that case quit the tool, connect your scanner and restart the application."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-acquireimages.docbook:67
+#, no-c-format
+msgid "Main Dialog"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: tool-acquireimages.docbook:69
+#, no-c-format
+msgid "<screeninfo>Main dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: tool-acquireimages.docbook:75
+#, no-c-format
+msgid "<phrase>Main dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:80
+#, no-c-format
+msgid "In the main window, the user has two sets of scan options: <guilabel>Basic Options</guilabel> and <guilabel>Scanner Specific Options</guilabel>. The <guilabel>Basic Options</guilabel> tab contains the most common parameters that the SANE scanner backends provide, while the <guilabel>Scanner Specific Options</guilabel> tab contains all the options of the backend. The options listed here depend on SANE support for your driver: libksane (which the tool uses) should be able to display most of the types of parameters that SANE provides (analog gamma tables are not supported at this time)."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: tool-acquireimages.docbook:85
+#, no-c-format
+msgid "<screeninfo>Scanner Specific Options tab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: tool-acquireimages.docbook:91
+#, no-c-format
+msgid "<phrase>Scanner Specific Options tab</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:96
+#, no-c-format
+msgid "The scanner specific options contains more detailed options of the backends. The tool does not have any special handling for these options."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:100
+#, no-c-format
+msgid "If you are satisfied with your settings, you can use the little arrow on the top of the options splitter. When clicked it collapses or expands the options. The collapser can overlap the preview area, but fades away when the mouse cursor moves out of the collapser."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-acquireimages.docbook:106
+#, no-c-format
+msgid "Scanning"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:107
+#, no-c-format
+msgid "To scan an image, the user can start with a preview scan and then select the part of the scan area to do the final scan on. The preview scan is started by pressing the preview button."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: tool-acquireimages.docbook:112
+#, no-c-format
+msgid "<screeninfo>The Preview Button</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: tool-acquireimages.docbook:118
+#, no-c-format
+msgid "<phrase>The Preview Button</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:123
+#, no-c-format
+msgid "When the preview is scanned the area for the final image can be selected."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: tool-acquireimages.docbook:127
+#, no-c-format
+msgid "<screeninfo>Selection and zoom</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: tool-acquireimages.docbook:133
+#, no-c-format
+msgid "<phrase>Selection and zoom</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:137
+#, no-c-format
+msgid "To better select the image the user can zoom in, out, to the current selection or zoom to fit the whole preview to the window."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: tool-acquireimages.docbook:141
+#, no-c-format
+msgid "<screeninfo>The \"zoom to fit\" button</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: tool-acquireimages.docbook:147
+#, no-c-format
+msgid "<phrase>The \"zoom to fit\" button</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:152
+#, no-c-format
+msgid "When the image is selected the final image can be acquired by pressing the final scan button."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: tool-acquireimages.docbook:157
+#, no-c-format
+msgid "<screeninfo>The final scan button</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: tool-acquireimages.docbook:163
+#, no-c-format
+msgid "<phrase>The final scan button</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:168
+#, no-c-format
+msgid "You will see the progress of the scan."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: tool-acquireimages.docbook:172
+#, no-c-format
+msgid "<screeninfo>Scanning in progress</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: tool-acquireimages.docbook:178
+#, no-c-format
+msgid "<phrase>Scanning in progress</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-acquireimages.docbook:185
+#, no-c-format
+msgid "Scanning Multiple Selections"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:186
+#, no-c-format
+msgid "Sometimes you need only certain parts of an image. Instead of scanning the whole picture and then using a graphics application (&eg; &kolourpaint;) to save the different image parts into separate files, use the tool multiple selection feature."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: tool-acquireimages.docbook:193
+#, no-c-format
+msgid "<screeninfo>Multiple Selections</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: tool-acquireimages.docbook:199
+#, no-c-format
+msgid "<phrase>Multiple Selections</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:203
+#, no-c-format
+msgid "Scan a preview and then use the &LMB; to select the first part of the image in the preview. Hover the selected area with mouse cursor and click on the green <guiicon>+</guiicon> icon to select the area. Selected areas are indicated by a red border. Now select the next parts of the image in the same way."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:207
+#, no-c-format
+msgid "To remove a single selection hover the area with the mouse cursor and click on the red <guiicon>-</guiicon> icon. With <guilabel>Clear Selections</guilabel> from the context menu launched with the &RMB; all selections in a preview can be removed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:211
+#, no-c-format
+msgid "If you placed two separate images or photos on you scanner and started a preview the tool automatically preselect the different areas."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:214
+#, no-c-format
+msgid "If you are satisfied with your choice starting the final batch scan of all selections. The selected parts of the image are scanned and saved separately into different files."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-acquireimages.docbook:220
+#, no-c-format
+msgid "Help and Close"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:221
+#, no-c-format
+msgid "At the bottom of the main window you find the <guibutton>Help</guibutton> and <guibutton>Close</guibutton> buttons."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-acquireimages.docbook:224
+#, no-c-format
+msgid "The <guibutton>Help</guibutton> button brings up the menu described in the section <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink>. The <guibutton>Close</guibutton> button is used to exit the tool."
+msgstr ""

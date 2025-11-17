@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-29 11:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: editor-color-mixer.docbook:4
+#, no-c-format
+msgid "Channel Mixer"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:7
+#, no-c-format
+msgid "The &digikam; image <emphasis>Channel Mixer</emphasis> is a tool to remix the color channels to improve or modify the photograph color shades."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: editor-color-mixer.docbook:14
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:16
+#, no-c-format
+msgid "The Channel Mixer is an another sophisticated tool to refine the images' tonality. Start it from the <menuchoice><guimenu>Color</guimenu><guimenuitem>Channel Mixer</guimenuitem></menuchoice> Image Editor menu."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: editor-color-mixer.docbook:21
+#, no-c-format
+msgid "Using the Channel Mixer"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: editor-color-mixer.docbook:25
+#, no-c-format
+msgid "The Channel Mixer Tool Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:28
+#, no-c-format
+msgid "With the channel combo box you select and display the histogram per color. It gives a first hint of how to correct the channels by their relative distribution and amplitude. The left half of the dialog window always shows a preview of what you are doing. The original for comparison can be seen when selecting its own window tab."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:32
+#, no-c-format
+msgid "The target photo preview has a red marker available. If you place this marker somewhere in the image, a corresponding vertical bar will be drawn in the histogram indicating the color level value in the current channel selected."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:36
+#, no-c-format
+msgid "Now the controls are to the lower right: <guilabel>Red</guilabel>, <guilabel>Green</guilabel> and <guilabel>Blue</guilabel> slider controls enable you to mix the channels. If you check <guilabel>Preserve Luminosity</guilabel> the image will retain its overall luminosity despite you changing its color components. This feature is particularly useful when you also ticked the <guilabel>Monochrome</guilabel> box. Because the channel mixer is THE tool to make great black and white conversions of your photographs. Try to reduce the green channel for black and white portraits."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:40
+#, no-c-format
+msgid "Sometimes, especially when doing monochrome mixing, reducing one color channel may increase visible noise, which actually originates in the chroma noise. Chroma noise means that the little noise specs do not appear at the same location in all the color channels, but the noise patterns looks different in every channel. If that is the case you can improve the monochrome conversion by reducing the chroma noise first."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:44
+#, no-c-format
+msgid "<guilabel>Save As...</guilabel> and <guilabel>Load...</guilabel> buttons are used to do just that. Any mixer settings that you have set can be saved to the filesystem and loaded later. The used file format is The Gimp channel mixer format."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:48
+#, no-c-format
+msgid "<guilabel>Over Exposure Indicator</guilabel> option adds up the colors if more than one channel in a pixel is over-exposed, and you will see the combined color resulting of channel gain settings. This rule is applying to target preview area and haven't effect to final rendering."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:52
+#, no-c-format
+msgid "<guilabel>Reset All</guilabel> button resets all channel mixer settings to default values."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: editor-color-mixer.docbook:59
+#, no-c-format
+msgid "The channel mixer in action"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-color-mixer.docbook:61
+#, no-c-format
+msgid "Below, you can see a photograph color tone adjustments for the <guilabel>Blue</guilabel> channel. <guilabel>Preserve luminosity</guilabel> option is on. The original image is (1), the corrected image (2)."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: editor-color-mixer.docbook:67
+#, no-c-format
+msgid "The Channel Mixer in Action"
+msgstr ""

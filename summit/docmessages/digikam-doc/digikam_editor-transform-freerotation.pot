@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-29 11:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: editor-transform-freerotation.docbook:4
+#, no-c-format
+msgid "Free Rotation"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:7
+#, no-c-format
+msgid "The &digikam; <emphasis>Free Rotation</emphasis> is a tool for image rotation by any arbitrary angle."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: editor-transform-freerotation.docbook:14
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:16
+#, no-c-format
+msgid "When taking an image it is all too easy to hold the camera not quite perfectly vertical or horizontal, resulting in an image where things are tilted at an angle. The way to fix this with the &digikam; Image Editor is to use the Free Rotation tool. Select <menuchoice><guimenu>Transform</guimenu> <guimenuitem>Free Rotation</guimenuitem></menuchoice> and adjust to the target angle."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: editor-transform-freerotation.docbook:22
+#, no-c-format
+msgid "Free Rotation Tool"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:24
+#, no-c-format
+msgid "Rotate your image by using the <guilabel>Angle</guilabel> slider (value in degrees). Press to <guilabel>Reset Values</guilabel> for reset the slider to zero. A rotating effect preview is available on the right side of the dialog. The new target image dimensions in pixels are shown."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:28
+#, no-c-format
+msgid "For better orientation, the Free Rotation tool provides a vertical and horizontal guide. Move the mouse cursor under image preview to display the dashed line guide. Move the cursor to an supposedly vertical or horizontal feature in the image like the sea or a building border and press the &LMB; for freeze the dashed lines position. Now, adjust the angle accordingly with the guide."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:33
+#, no-c-format
+msgid "After rotating the image, you often find that things are better but not quite perfect. One solution is to rotate a bit more, but there is a disadvantage to that approach. Each time you rotate an image, because the rotated pixels don't line up precisely with the original pixels, the image inevitably gets blurred a little bit. For a single rotation, the amount of blurring is quite small, but two rotations cause twice as much blurring as one, and there is no reason to blur things more than you have to. Sure, the guide tool available in the Free Rotation preview can help you to apply correctly at the first time an angle adjustment to an image."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: editor-transform-freerotation.docbook:40
+#, no-c-format
+msgid "Free Rotation action"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:42
+#, no-c-format
+msgid "The Free Rotation dialog tool in action is available below."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: editor-transform-freerotation.docbook:48
+#, no-c-format
+msgid "The Free Rotation Tool Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:51
+#, no-c-format
+msgid "After you have rotated an image, there will be unpleasant triangular \"holes\" at the corners. One way to fix them is to crop the image with <menuchoice><guimenu>Transform</guimenu> <guimenuitem>Crop</guimenuitem></menuchoice> Image Editor menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:57
+#, no-c-format
+msgid "A more elegant way to crop the rotated image is to use the <guilabel>Auto-crop</guilabel> function. Choose anyone of the following options from the combo-box to your preference:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:61
+#, no-c-format
+msgid "<guilabel>Widest area</guilabel> This option crops the rotated image to the widest possible (width) rectangular section."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:63
+#, no-c-format
+msgid "<guilabel>Largest area</guilabel> This options crops the rotated image to the biggest surface."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:67
+#, no-c-format
+msgid "Hold the mouse over the combo-box and scroll with the wheel between the two possibilities."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: editor-transform-freerotation.docbook:69
+#, no-c-format
+msgid "The <guilabel>Anti-aliasing</guilabel> checkbox will smooth the image a bit after rotation. Please read the warning above."
+msgstr ""

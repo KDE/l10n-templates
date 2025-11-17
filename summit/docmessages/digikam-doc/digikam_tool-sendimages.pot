@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-29 11:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:5
+#, no-c-format
+msgid "<quote>Send Images</quote> is a tool for sending images directly by e-mail."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-sendimages.docbook:12
+#, no-c-format
+msgid "Send Images Tool"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-sendimages.docbook:15
+#, no-c-format
+msgid "Using the Module"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:16
+#, no-c-format
+msgid "With this tool you can e-mail the selected images with your favorite e-mail agent. Resizing images is possible. You can use drag and drop to add more images to the list of images to send."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-sendimages.docbook:23
+#, no-c-format
+msgid "Image Selection"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:25
+#, no-c-format
+msgid "When opening the tool from the host application, the <guilabel>Email Images Options</guilabel> dialog will appear with your pre-selected images already in the list at the left part of the dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:31
+#, no-c-format
+msgid "Below the image list there are five buttons. The two left buttons are used to move a selected image in the list up or down. The middle button opens a file browser to add more files as needed in the usual file selection manner."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:37
+#, no-c-format
+msgid "When clicking on the other buttons the selected images will be removed from the list or the list will be cleared."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:42
+#, no-c-format
+msgid "You can drag and drop images between the host application window and the image file list to add new items to e-mail."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:47
+#, no-c-format
+msgid "Be sure not to overload your own or your addressees e-mail transmission limit; most providers limit the e-mail size to some megabytes of data. Use several e-mails if you want to send a lot of data."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-sendimages.docbook:56
+#, no-c-format
+msgid "Mail Settings"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:58
+#, no-c-format
+msgid "The right part of the dialog is used to change the settings of the images to be sent. These settings will be remembered when you close the tool until you change them."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:63
+#, no-c-format
+msgid "Select your favorite e-mail client from the drop-down menu. <guilabel>Default</guilabel> is the current email program set in &kde; &systemsettings;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:68
+#, no-c-format
+msgid "If you select <guilabel>Attach a file with image properties from <replaceable>Application</replaceable></guilabel> the comments, rating or tags included with the images will be merged to a text file and attached in the mail."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:74
+#, no-c-format
+msgid "The next three items allow you to set-up the image properties to be sent. To enable these options check <guilabel>Adjust image properties</guilabel>. First select an <guilabel>Image size</guilabel> suitable for your Internet connection speed and the target mailbox size."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:81
+#, no-c-format
+msgid "The <guilabel>PNG</guilabel> format in the <guilabel>Image file format</guilabel> drop-down menu is not well adapted to reduce photographic images file size, but is best suited for compressing lossless items like the TIFF file format. <guilabel>PNG</guilabel> must be used if you use dialup speed Internet and you want to preserve the photo quality. Otherwise, <guilabel>JPEG</guilabel> is the recommended format."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:90
+#, no-c-format
+msgid "The <guilabel>Image quality</guilabel> can be chosen with the input box. 75% is the standard compression ratio for <guilabel>JPEG</guilabel> files. Setting compression to 100% will result in lossless compression at the cost of the largest file size. The difference in file size between 90% and 100% can be quite dramatic, whereas the gain in quality is minor. Very good quality is already obtained with 85% compression."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:99
+#, no-c-format
+msgid "If you choose <guilabel>JPEG</guilabel> as the <guilabel>Image file format</guilabel> and the original files were in <guilabel>JPEG</guilabel> format, the original Exif data included is preserved in e-mailed images."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-sendimages.docbook:106
+#, no-c-format
+msgid "The Email Images Dialog"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-sendimages.docbook:115
+#, no-c-format
+msgid "Email Images in Action"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:117
+#, no-c-format
+msgid "When you have finished selecting your files, click <guibutton>OK</guibutton> to open the composer window of your favorite e-mail client. You just need to add the addressee and the subject. The selected images will be already be listed as attachments."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:124
+#, no-c-format
+msgid "A progress dialog gives you feedback on the progress of your operation. Press the <guibutton>Cancel</guibutton> button during this stage if you want to abort the process."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-sendimages.docbook:130
+#, no-c-format
+msgid "When all jobs are completed, this dialog will not close automatically and you can consult the progress messages if any errors occured during this stage. The mail agent will be started automatically at the end. Press the <guibutton>Close</guibutton> button to close this dialog."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-sendimages.docbook:138
+#, no-c-format
+msgid "The E-mail Images Tool in Action"
+msgstr ""

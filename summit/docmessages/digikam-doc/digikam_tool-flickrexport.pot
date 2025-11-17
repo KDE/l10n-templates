@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-29 11:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:5
+#, no-c-format
+msgid "FlickrExport tool allows the user to upload photos to the <ulink url=\"http://www.flickr.com\">Flickr</ulink> web service."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-flickrexport.docbook:12
+#, no-c-format
+msgid "Flickr Export Tool"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:14
+#, no-c-format
+msgid "Flickr is an online photo management application. Flickr is a way to get your photos to the people who matter to you. With Flickr you can show off your favorite photos to the world, blog the photos you take with a cameraphone, and securely and privately show photos to your friends and family around the world."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:21
+#, no-c-format
+msgid "The FlickrExport tool can be used to upload an image collection from your computer to the remote flickr server using the Internet."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-flickrexport.docbook:27
+#, no-c-format
+msgid "Tool initialization on first access"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:29
+#, no-c-format
+msgid "When accessing the tool for the first time you are taken through the process of obtaining a token which is used for authentication purposes. The following dialog will popup and a browser window will be launched you will log in to <ulink url=\"http://www.flickr.com\">Flickr</ulink>:"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-flickrexport.docbook:37
+#, no-c-format
+msgid "The First Sign Up Dialog Preview"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:43
+#, no-c-format
+msgid "After successful signup FlickrUploadr will be allowed to send photos to the flickr website. You will be presented with the following page on successful signup:"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-flickrexport.docbook:50
+#, no-c-format
+msgid "The Successful Signup Flickr page"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:56
+#, no-c-format
+msgid "Then, simply close the browser windows and return to the host application dialog. After clicking <guilabel>Yes</guilabel>, you will see the interface used to upload photos to Flickr, described in the next section."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-flickrexport.docbook:65
+#, no-c-format
+msgid "Regular Tool Usage"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:67
+#, no-c-format
+msgid "When the flickrexport tool is invoked for second time or later you are greeted with the following dialog, which shows the current access permissions the Flickr Export tool has. The uploading process requires <quote>write</quote> permissions. The tool doesn't allow any other permissions as of now. You are then asked if they want to proceed with their current permissions."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-flickrexport.docbook:75
+#, no-c-format
+msgid "Current Permissions Dialog preview"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:81
+#, no-c-format
+msgid "After clicking <guibutton>Yes</guibutton>, you will see the interface to upload photos to Flickr."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:85
+#, no-c-format
+msgid "After clicking <guibutton>No</guibutton>, the authentication process is repeated."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:89
+#, no-c-format
+msgid "The Main upload dialog is shown below:"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-flickrexport.docbook:94
+#, no-c-format
+msgid "The Main Uploading Dialog Preview"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:100
+#, no-c-format
+msgid "The <guibutton>Add Photos</guibutton> button should be clicked once user has set the other options in the dialog. After clicking this button an image selector dialog opens up where you can select the photos you want to upload and click <guibutton>OK</guibutton>, whereupon the image uploading starts."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:107
+#, no-c-format
+msgid "The <guilabel>Tags</guilabel> field can be filled with a series of words (comma separated) which will be assigned as tags to the images uploaded."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:112
+#, no-c-format
+msgid "The <guilabel>Public</guilabel>, <guilabel>Friends</guilabel>, and <guilabel>Family</guilabel> checkboxes can be checked to assign appropriate access permissions to the images you upload. By default the images uploaded are private."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:118
+#, no-c-format
+msgid "If the <guilabel>Resize photos before uploading</guilabel> option is selected, the photos will be resized before uploading. The values will be read from the <guilabel>Maximum dimension</guilabel> combobox."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:124
+#, no-c-format
+msgid "The <guilabel>Maximum Dimension</guilabel> combobox can be used to adjust the maximum height to which the photos will be resized before uploading. The width calculation will be done so as to have the aspect ratio conserved."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: tool-flickrexport.docbook:131
+#, no-c-format
+msgid "The Uploading Progress Dialog Preview"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:136
+#, no-c-format
+msgid "You can click <guilabel>Cancel</guilabel> button to abort the uploading of photos."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: tool-flickrexport.docbook:140
+#, no-c-format
+msgid "Finally, you can view the uploaded photos by visiting the <ulink url=\"http://www.flickr.com\">Flickr</ulink> website."
+msgstr ""

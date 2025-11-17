@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-29 11:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: using-setup-editor-raw.docbook:2
+#, no-c-format
+msgid "RAW Decoding Settings"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-setup-editor-raw.docbook:4
+#, no-c-format
+msgid "In the early versions of &digikam; the Image Editor was just a viewer for photographs, but it is rapidly developing into a very useful photo manipulation tool. This dialog allows you to control how the Image Editor will behave when opening RAW files."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk5
+#: using-setup-editor-raw.docbook:15
+#, no-c-format
+msgid "Fast and simple, as 8 bit image"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-setup-editor-raw.docbook:18
+#, no-c-format
+msgid "RAW files will be decoded to 8-bit color depth with a BT.709 gamma curve and a 99th-percentile white point. This mode is faster than 16-bit decoding. In 8-bit mode only the <guilabel>Auto Brightness</guilabel> setting will be taken into account (dcraw limitation)."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk5
+#: using-setup-editor-raw.docbook:23
+#, no-c-format
+msgid "Use the default settings, in 16 bit"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-setup-editor-raw.docbook:26
+#, no-c-format
+msgid "If enabled, all RAW files will be decoded to 16-bit color depth using a linear gamma curve and according to the settings in the <guilabel>RAW Default Settings</guilabel> tab. To prevent dark image rendering in the editor, it is recommended to use Color Management in this mode."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk5
+#: using-setup-editor-raw.docbook:31
+#, no-c-format
+msgid "Always open the Raw Import Tool to customize settings"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-setup-editor-raw.docbook:34
+#, no-c-format
+msgid "With this option checked the Raw Import Tool will open at the Right Side Bar in the Image Editor so that you can set individual parameters for every image you open."
+msgstr ""

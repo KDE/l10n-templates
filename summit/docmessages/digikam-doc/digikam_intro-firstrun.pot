@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-12-03 12:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: intro-firstrun.docbook:1
+#, no-c-format
+msgid "Getting Started"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: intro-firstrun.docbook:7
+#, no-c-format
+msgid "The First Run Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:16
+#, no-c-format
+msgid "When you start &digikam; for the very first time, it will ask you where you store your photographs. You can choose any local, remote or removable folder. Just type in the path name of a folder or click on the <guilabel>Browse...</guilabel> icon to select a folder from the dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:20
+#, no-c-format
+msgid "Later on you can add as many locations as you like - &digikam; will add them to the album library. <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure digiKam</guimenuitem><guimenuitem>Collections</guimenuitem></menuchoice>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: intro-firstrun.docbook:27
+#, no-c-format
+msgid "Choosing database path for &digikam;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:31
+#, no-c-format
+msgid "Then you have to specify a local folder that resides on your computer, in which the database will be stored. This path will be the same for all image folders. For details about the database type selection have a look at <link linkend=\"intro-database-intro\">The &digikam; Database</link>. If you have a local installation and a collection of less than 30.000 photographs you may well keep the default setting (SQLite)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:41
+#, no-c-format
+msgid "Next, you will have to choose the way you would like to open RAW files: either with automatic adjustments or with the digiKam RAW import tool to adjust corrections manually."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:45
+#, no-c-format
+msgid "If you don't know what a RAW file is, or if your camera doesn't support RAW files, you should keep the default setting and skip this step."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: intro-firstrun.docbook:52
+#, no-c-format
+msgid "RAW import"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:56
+#, no-c-format
+msgid "Metadata information storage may be important if you plan to work with another photo management program and you should choose <guilabel>Add information to files</guilabel>. But if you don't want to alter your pictures, keep the default setting: <guilabel>Do nothing</guilabel>."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: intro-firstrun.docbook:63
+#, no-c-format
+msgid "Metadata information"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:67
+#, no-c-format
+msgid "Then choose how digiKam will load images in preview mode and light table. Reduced version will load faster but at the cost of quality."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: intro-firstrun.docbook:74
+#, no-c-format
+msgid "Preview image method"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:78
+#, no-c-format
+msgid "Now decide how digiKam will open images with a click of the &RMB;. Previews will load faster but you won't be able to make any corrections."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: intro-firstrun.docbook:85
+#, no-c-format
+msgid "Open image method"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:89
+#, no-c-format
+msgid "Tooltips are a fast and easy way to display important information about a photograph; they popup as the mouse hovers over a thumbnail. Select \"Use tooltips\" if you want to display them."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5
+#: intro-firstrun.docbook:96 intro-firstrun.docbook:107
+#, no-c-format
+msgid "Tooltips"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:100
+#, no-c-format
+msgid "Click on <guibutton>Finish</guibutton>. DigiKam will now start to scan for photographs..."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:111
+#, no-c-format
+msgid "Nothing really to select here. You can cancel or start the scan with <guilabel>Finish</guilabel>. None of the photographs will be altered. During folders parsing you can see a progress bar in the lower right corner like this:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:122
+#, no-c-format
+msgid "&digikam; will recurse the library path to its full depth. You cannot exclude (prune) any sub-path unless you make that sub-path hidden. You have to do that from outside of &digikam; by putting a dot in front of the sub-path."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:127
+#, no-c-format
+msgid "As &digikam; uses your folders on your hard disk directly, other applications like file managers can remove any albums outside a &digikam; session. In this case &digikam; will ask you at the next session whether all albums that have been removed from the &digikam; photographs root path shall be deleted from albums database. If you want to move folders around and don't want to do that in &digikam;, we suggest you do that while &digikam; is running, so the database will be kept in sync and you do not lose any metadata."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:131
+#, no-c-format
+msgid "When you use an existing folder of photographs as the Album Library folder, you will notice that the Albums in the Album list do not have photographs as their icons. You can change that by dragging any photograph in the Album onto the folder icon in the left sidebar and use this as the Album icon. See the <link linkend=\"using-mainwindow-albumsview\">Album</link> section for details of how to change the Album icon."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:135
+#, no-c-format
+msgid "&digikam; uses a dedicated database to store thumbnails with an optimized wavelets compression algorithm (PGF). There is no way of hiding non-standard thumbnail folders from the <quote>Albums</quote> list. If you want to keep them you could create an Album Category that just contains all the thumbnail Folders and then view your Albums in <menuchoice><guimenu>View</guimenu><guimenuitem>Sort Albums</guimenuitem><guimenuitem>By Category</guimenuitem></menuchoice> order. See the <link linkend=\"using-mainwindow-albumsview\">Album</link> section for more about Album Categories."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: intro-firstrun.docbook:139
+#, no-c-format
+msgid "Once you have configured the Album Library Folder you can set up &digikam; to work with your digital camera and then learn how to use <link linkend=\"using-mainwindow-albumsview\">Albums</link> and <link linkend=\"using-mainwindow-tagsview\">Tags</link> to arrange your photograph Albums."
+msgstr ""

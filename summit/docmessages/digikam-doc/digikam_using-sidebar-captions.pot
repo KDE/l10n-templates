@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-29 11:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: using-sidebar-captions.docbook:2
+#, no-c-format
+msgid "Captions"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-sidebar-captions.docbook:5
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:7
+#, no-c-format
+msgid "This sidebar tab serves to apply and edit image attributes like captions, rating, date and tags. The attributes are stored in the associated database, in the IPTC and EXIF data fields and become part of the image. All attributes are accessible in one sidebar view as shown in the screenshot below. During image reading the order of priority is a) database b) IPTC and c) EXIF. So if there is a discrepancy between any of the three, this priority will take effect and a synchronization will take place. This sidebar has a first-previous-next-last arrow navigator field on top if shown in the main application."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-sidebar-captions.docbook:12
+#, no-c-format
+msgid "sidebar Comments &amp; Tags example"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5
+#: using-sidebar-captions.docbook:14
+#, no-c-format
+msgid "sidebar Comments &amp; Tags Example"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-sidebar-captions.docbook:24
+#, no-c-format
+msgid "Comment View"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:26
+#, no-c-format
+msgid "The caption view can be used to type or paste in a caption of unlimited size (see note below). The text is UTF-8 compatible, meaning that all special characters are allowed. The captions are copied to EXIF and IPTC fields to be used by other applications."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:30
+#, no-c-format
+msgid "IPTC data only supports ASCII characters and is limited to 2000 characters (old American norm). All texts will be truncated after 2000 chars, and special characters will be malformed. If you intend to use the IPTC caption field in other applications you should be compliant with these restrictions."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:34
+#, no-c-format
+msgid "After commenting, either choose the <guibutton>Apply</guibutton> button or go straight to the next image, the captions will be saved."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:38
+#, no-c-format
+msgid "Next to the Apply button there is the <guibutton>More</guibutton> button. From it you can either choose to read metadata from the selected file to the database, or the other way around, to write metadata to the files (the latter take place anyway if you chose a metadata setting so that all metadata is always saved to the images)."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-sidebar-captions.docbook:46
+#, no-c-format
+msgid "Date &amp; Time"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:48
+#, no-c-format
+msgid "In the Date &amp; Time section, which reflects the time of taking the photograph, you can change all values. From the date combo-box a calendar opens, and the time setting spin-box can also be written by directly typing the time. The dating is copied to the EXIF 'Date and Time' field. If you need to change a number of images for their creating time &amp; date, there is a more comfortable method available in Batch Queue Manager. This latter option can be found under <menuchoice><guimenuitem>Image</guimenuitem><guimenuitem>Adjust time &amp; date...</guimenuitem></menuchoice>. Select the images to be changed in the main view and call the tool."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-sidebar-captions.docbook:55
+#, no-c-format
+msgid "Rating"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:57
+#, no-c-format
+msgid "The Rating section displays a 0...5 star rating scheme that can be used in searches and sort orders. It can be applied by a single mouse click to the 5 stars in the sidebar or with a keyboard short-cut <keycombo>&Ctrl;<keycap>0...5</keycap></keycombo>. The rating from the sidebar is always applied to one image at a time. To rate a number of images, select them and pop-up the context menu (click with the &RMB;) to apply a common rating."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:61
+#, no-c-format
+msgid "The rating is then transcribed into the IPTC 'urgency' data field. The transcoding follows the scheme in this table:"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:68
+#, no-c-format
+msgid "&digikam; Rating"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:69
+#, no-c-format
+msgid "IPTC Urgency"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:73
+#, no-c-format
+msgid "<entry>-</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:73
+#, no-c-format
+msgid "<entry>8</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:75 using-sidebar-captions.docbook:77
+#, no-c-format
+msgid "<entry>*</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:75
+#, no-c-format
+msgid "<entry>7</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:77
+#, no-c-format
+msgid "<entry>6</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:79
+#, no-c-format
+msgid "<entry>**</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:79
+#, no-c-format
+msgid "<entry>5</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:81
+#, no-c-format
+msgid "<entry>***</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:81
+#, no-c-format
+msgid "<entry>4</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:83 using-sidebar-captions.docbook:85
+#, no-c-format
+msgid "****"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:83
+#, no-c-format
+msgid "<entry>3</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:85
+#, no-c-format
+msgid "<entry>2</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:87
+#, no-c-format
+msgid "*****"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk5
+#: using-sidebar-captions.docbook:87
+#, no-c-format
+msgid "<entry>1</entry>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-sidebar-captions.docbook:95
+#, no-c-format
+msgid "Tag Tree"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:97
+#, no-c-format
+msgid "The tag view shows an adaptive filter tag search box, the tag tree and a combo-box containing the tags previously applied in this &digikam; session."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:101
+#, no-c-format
+msgid "The tag tree will be adapted dynamically as a function of the search word as you type into the box. So it is easy to quickly reduce the number of possibilities when searching for a tag. Of course, this feature is only useful if you have many tags."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:105
+#, no-c-format
+msgid "The combo-box at the bottom is another ergonomic feature for easy tagging of an image series. As you apply different tags they will be memorized in this box for quick access."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:109
+#, no-c-format
+msgid "Otherwise tags are simply applied by checking the respective boxes in the tree. All tags of an image are transcribed into the IPTC 'keyword' data field."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:113
+#, no-c-format
+msgid "In case you have selected a number of images in the main view and you check a tag in the tag tree, this one is only applied to the highlighted image, and not to the whole selection. If you want to tag selections, refer to the <link linkend=\"using-sidebar-filters\">Filters</link> section."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-sidebar-captions.docbook:120
+#, no-c-format
+msgid "Information View"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-sidebar-captions.docbook:122
+#, no-c-format
+msgid "TODO"
+msgstr ""

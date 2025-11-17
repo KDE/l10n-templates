@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-29 11:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: using-bqm.docbook:1
+#, no-c-format
+msgid "The &digikam; Batch Queue Manager"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-bqm.docbook:4
+#, no-c-format
+msgid "The Batch Queue Manager Window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:6
+#, no-c-format
+msgid "TODO"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-bqm.docbook:12
+#, no-c-format
+msgid "Batch RAW Workflow"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-bqm.docbook:14
+#, no-c-format
+msgid "Introduction to Raw Converter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:16
+#, no-c-format
+msgid "With the Batch Queue Manager, you can import/convert your images stored in <emphasis>RAW format</emphasis> to a target formats as (<guilabel>JPEG</guilabel>, <guilabel>TIFF</guilabel>, or <guilabel>PNG</guilabel>)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:22
+#, no-c-format
+msgid "There are ome considerations before your convert, and even before you shoot in raw format. RAW image file formats keep the original information of the exposure supposedly without loss (when compressed, they use reversible, lossless compressions algorithms). Many photographers prefer to take their picture in RAW mode because the camera's built-in conversion program is often of lesser quality than what you can achieve with digital image processing. The whitebalance of the digital camera is registered but not applied to the image. Some CMOS CCD's create four types of color filter data: RGBG, Red, Green, Blue and another Green mask for contrast enhancement. This tool can take this into account."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:33
+#, no-c-format
+msgid "The conversion is actually based on <command>libraw</command>. Don't expect to produce the same images as software provided by the camera vendor but sometimes libraw gives better results."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: using-bqm.docbook:40
+#, no-c-format
+msgid "Using Raw Converter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:42
+#, no-c-format
+msgid "Select the RAW files to convert and load them to a dedicate batch queue."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:46
+#, no-c-format
+msgid "In Batch Queue Manager settings view, you can adjust the available check and value boxes to optimize the RAW conversion process. The first checkbox indicates to use the camera settings for white balance. The essential parameters like brightness, and red/blue amplifier may be adjusted. If the result is not quite optimal, don't worry, it is always possible to fine-tune the image later on."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:55
+#, no-c-format
+msgid "A <guilabel>Interpolate RGB as four colors</guilabel> conversion can be selected to use contrast information. (If your camera works in RGB mode, the RGBG setting has no effect)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:60
+#, no-c-format
+msgid "You must choose one output formats to save the conversion result by placing the target file format conversion tool. The file name will stay the same by default, only the extension changes. <guilabel>JPEG</guilabel> uses the lossy algorithm and produces the smallest output file size. In opposite the tagged image format (<guilabel>TIFF</guilabel>) preserves all information of your image while using lossless LZW compression."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:67
+#, no-c-format
+msgid "If you intend to work a lot on your images or if it is likely that you have to reuse it later on, then don't use <guilabel>JPEG</guilabel> format because it allows a limited number of operations before it deteriorates visibly. <guilabel>TIFF</guilabel> and <guilabel>PNG</guilabel> are better suited to keep the original data."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:75
+#, no-c-format
+msgid "If you choose <guilabel>JPEG</guilabel>, or <guilabel>TIFF</guilabel>, or <guilabel>PNG</guilabel> as the <guilabel>Save Format</guilabel> then the metadata included in RAW file will be included in the target files as Exif information."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: using-bqm.docbook:80
+#, no-c-format
+msgid "When you have finished to setup the queue, click the <guibutton>Process</guibutton> button to start the conversion. If you want abort image conversion, press the <guibutton>Abort</guibutton> button."
+msgstr ""
