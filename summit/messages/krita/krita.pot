@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-19 00:54+0100\n"
+"POT-Creation-Date: 2025-11-19 09:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31317,7 +31317,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgdisplaysettings.ui:513
-#: libs/ui/forms/wdggeneralsettings.ui:1188
+#: libs/ui/forms/wdggeneralsettings.ui:1194
 #, kde-format
 msgid "Miscellaneous"
 msgstr ""
@@ -31929,7 +31929,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdggeneralsettings.ui:598
-#: libs/ui/forms/wdggeneralsettings.ui:1632
+#: libs/ui/forms/wdggeneralsettings.ui:1638
 #, kde-format
 msgid "(needs restart)"
 msgstr ""
@@ -31966,65 +31966,74 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, m_showEraserOutlinePainting)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdggeneralsettings.ui:711
-#: libs/ui/forms/wdggeneralsettings.ui:817
+#: libs/ui/forms/wdggeneralsettings.ui:820
 #, kde-format
 msgid "Show outline"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_changeBrushOutline)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_changeEraserBrushOutline)
+#. +> trunk5
+#: libs/ui/forms/wdggeneralsettings.ui:718
+#: libs/ui/forms/wdggeneralsettings.ui:827
+#, kde-format
+msgid "Dynamically adjust outline to match the effective size of the brush. (For example, as brush size changes due to pen pressure.)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_changeBrushOutline)
 #. i18n: ectx: property (text), widget (QCheckBox, m_changeEraserBrushOutline)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:718
-#: libs/ui/forms/wdggeneralsettings.ui:824
+#: libs/ui/forms/wdggeneralsettings.ui:721
+#: libs/ui/forms/wdggeneralsettings.ui:830
 #, kde-format
 msgid "Use effective outline size"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_chkSeparateEraserCursor)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:731
+#: libs/ui/forms/wdggeneralsettings.ui:734
 #, kde-format
 msgid "Use separate settings for eraser"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:752
+#: libs/ui/forms/wdggeneralsettings.ui:755
 #, kde-format
 msgid "Eraser Cursor Icon:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:765
+#: libs/ui/forms/wdggeneralsettings.ui:768
 #, kde-format
 msgid "Eraser Outline Shape:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:802
+#: libs/ui/forms/wdggeneralsettings.ui:805
 #, kde-format
 msgid "While painting with an eraser..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:837
+#: libs/ui/forms/wdggeneralsettings.ui:843
 #, kde-format
 msgid "Eraser Outline Color:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:873
+#: libs/ui/forms/wdggeneralsettings.ui:879
 #, kde-format
 msgid "Brush Outline Color:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, Tools)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:894
+#: libs/ui/forms/wdggeneralsettings.ui:900
 #: plugins/dockers/logdocker/LogDockerDock.cpp:139
 #, kde-format
 msgid "Tools"
@@ -32032,175 +32041,175 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:900
+#: libs/ui/forms/wdggeneralsettings.ui:906
 #, kde-format
 msgid "Tool Options Location (needs restart)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInDocker)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:906
+#: libs/ui/forms/wdggeneralsettings.ui:912
 #, kde-format
 msgid "In Doc&ker"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInToolbar)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:913
+#: libs/ui/forms/wdggeneralsettings.ui:919
 #, kde-format
 msgid "I&n Toolbar"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlowMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:926
+#: libs/ui/forms/wdggeneralsettings.ui:932
 #, kde-format
 msgid "Brush Flow Mode (needs restart):"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:934
+#: libs/ui/forms/wdggeneralsettings.ui:940
 #, kde-format
 msgid "Creamy (Krita 4.2+)"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:939
+#: libs/ui/forms/wdggeneralsettings.ui:945
 #, kde-format
 msgid "Hard (Krita 4.1 and earlier versions)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblCmykBlendingMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:947
+#: libs/ui/forms/wdggeneralsettings.ui:953
 #, kde-format
 msgid "CMYK blending mode (needs restart):"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbCmykBlendingMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:955
+#: libs/ui/forms/wdggeneralsettings.ui:961
 #, kde-format
 msgid "Subtractive (Krita 5.2+)"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbCmykBlendingMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:960
+#: libs/ui/forms/wdggeneralsettings.ui:966
 #, kde-format
 msgid "Additive (Krita 5.1 and earlier versions)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkSwitchSelectionCtrlAlt)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:968
+#: libs/ui/forms/wdggeneralsettings.ui:974
 #, kde-format
 msgid "Switch Control/Alt Selection Modifiers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblTouchPainting)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:975
+#: libs/ui/forms/wdggeneralsettings.ui:981
 #, kde-format
 msgid "Touch Painting:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkTouchPressureSensitivity)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:982
+#: libs/ui/forms/wdggeneralsettings.ui:988
 #, kde-format
 msgid "Enable reading of pressure state for touch events. This data may be broken on some platforms, e.g. on some Android devices, where pressure may be reported as 0.0 all the time."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkTouchPressureSensitivity)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:985
+#: libs/ui/forms/wdggeneralsettings.ui:991
 #, kde-format
 msgid "Enable Touch Pressure Sensitivity (may be broken)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTransformToolAfterPaste)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:992
+#: libs/ui/forms/wdggeneralsettings.ui:998
 #, kde-format
 msgid "Activate transform tool after pasting"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblZoomSteps)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:999
+#: libs/ui/forms/wdggeneralsettings.ui:1005
 #, kde-format
 msgid "Zoom steps between powers of 2"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkZoomHorizontally)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1016
+#: libs/ui/forms/wdggeneralsettings.ui:1022
 #, kde-format
 msgid "Use horizontal axis for Canvas Zoom Action"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblSelectionActionBar)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1036
+#: libs/ui/forms/wdggeneralsettings.ui:1042
 #, kde-format
 msgid "Selection Actions Bar"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkEnableSelectionActionBar)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1043
+#: libs/ui/forms/wdggeneralsettings.ui:1049
 #, kde-format
 msgid "When enabled, any selections will produce a small floating panel of useful selection-related actions."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableSelectionActionBar)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1046
+#: libs/ui/forms/wdggeneralsettings.ui:1052
 #, kde-format
 msgid "Enable Selection Actions Bar"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, Animation)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1060
+#: libs/ui/forms/wdggeneralsettings.ui:1066
 #, kde-format
 msgid "Animation"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpAnimation)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1066
+#: libs/ui/forms/wdggeneralsettings.ui:1072
 #, kde-format
 msgid "Animation Settings"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkAutoPin)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1072
+#: libs/ui/forms/wdggeneralsettings.ui:1078
 #, kde-format
 msgid "When this option is checked newly created layers will be automatically pinned to the animation timeline. This is useful when animating with a small number of layers or when many elements on different animated layers are interacting with each other."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1075
+#: libs/ui/forms/wdggeneralsettings.ui:1081
 #, kde-format
 msgid "Automatically pin new layers to timeline"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkAdaptivePlaybackRange)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1082
+#: libs/ui/forms/wdggeneralsettings.ui:1088
 #, kde-format
 msgid "When checked, this option automatically adjusts the document's \"start\" and \"end\" frames so that newly created keyframes are always within the animation playback range. This feature is recommended to speed up animation workflow when improvising a scene without a predetermined length."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1085
+#: libs/ui/forms/wdggeneralsettings.ui:1091
 #, kde-format
 msgid "Automatically adapt playback range to keyframes"
 msgstr ""
@@ -32214,14 +32223,14 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkAutoZoom)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1092
+#: libs/ui/forms/wdggeneralsettings.ui:1098
 #, kde-format
 msgid "When checked, this option will automatically scale the Animation Timeline Docker's frames view to best fit the document's playback range. A smaller playback range will cause the timeline to zoom in, while a larger playback range will cause the timeline to zoom out."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoZoom)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1095
+#: libs/ui/forms/wdggeneralsettings.ui:1101
 #, kde-format
 msgid "Automatically zoom timeline to fit playback range"
 msgstr ""
@@ -32229,7 +32238,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, Resources)
 #. i18n: ectx: attribute (title), widget (QWidget, tabResources)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1132
+#: libs/ui/forms/wdggeneralsettings.ui:1138
 #: plugins/extensions/dbexplorer/WdgDbExplorer.ui:37
 #, kde-format
 msgid "Resources"
@@ -32237,28 +32246,28 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1138
+#: libs/ui/forms/wdggeneralsettings.ui:1144
 #, kde-format
 msgid "Resource Folder:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1242
+#: libs/ui/forms/wdggeneralsettings.ui:1248
 #, kde-format
 msgid "When Krita starts:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveSessionOnQuit)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1259
+#: libs/ui/forms/wdggeneralsettings.ui:1265
 #, kde-format
 msgid "Save session when Krita closes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkConvertOnImport)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1266
+#: libs/ui/forms/wdggeneralsettings.ui:1272
 #, kde-format
 msgid "On importing images as layers, convert to the image colorspace"
 msgstr ""
@@ -32266,85 +32275,85 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, m_undoStackSize)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1279
-#: libs/ui/forms/wdggeneralsettings.ui:1289
+#: libs/ui/forms/wdggeneralsettings.ui:1285
+#: libs/ui/forms/wdggeneralsettings.ui:1295
 #, kde-format
 msgid "Only applies to new or newly opened images."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1282
+#: libs/ui/forms/wdggeneralsettings.ui:1288
 #, kde-format
 msgid "Undo stack size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCumulativeUndo)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1310
+#: libs/ui/forms/wdggeneralsettings.ui:1316
 #, kde-format
 msgid "Use cumulative undo"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvancedCumulativeUndo)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1330
+#: libs/ui/forms/wdggeneralsettings.ui:1336
 #, kde-format
 msgid "Advanced..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowRootLayer)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1339
+#: libs/ui/forms/wdggeneralsettings.ui:1345
 #, kde-format
 msgid "Show root layer"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUsageLogging)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1346
+#: libs/ui/forms/wdggeneralsettings.ui:1352
 #, kde-format
 msgid "Enable Logging for bug reports"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkNativeFileDialog)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1377
+#: libs/ui/forms/wdggeneralsettings.ui:1383
 #, kde-format
 msgid "Warning: if you enable this setting and the file dialogs do weird stuff, do not report a bug."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1380
+#: libs/ui/forms/wdggeneralsettings.ui:1386
 #, kde-format
 msgid "Enable native file dialogs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1403
+#: libs/ui/forms/wdggeneralsettings.ui:1409
 #, kde-format
 msgid "(Warning: may not work correctly on some systems)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1413
+#: libs/ui/forms/wdggeneralsettings.ui:1419
 #, kde-format
 msgid "Maximum brush size:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intMaxBrushSize)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1441
+#: libs/ui/forms/wdggeneralsettings.ui:1447
 #, kde-format
 msgid "The maximum diameter of a brush in pixels."
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intMaxBrushSize)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1444
+#: libs/ui/forms/wdggeneralsettings.ui:1450
 #, kde-format
 msgctxt "pixel"
 msgid "px"
@@ -32352,21 +32361,21 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1479
+#: libs/ui/forms/wdggeneralsettings.ui:1485
 #, kde-format
 msgid "(Needs restart)"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkForcedFontDPI)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1489
+#: libs/ui/forms/wdggeneralsettings.ui:1495
 #, kde-format
 msgid "Font DPI Workaround"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1504
+#: libs/ui/forms/wdggeneralsettings.ui:1510
 #, kde-format
 msgid ""
 "In some Krita versions before 5.0 text size could be dependent on the current display DPI (which was a bug).\n"
@@ -32380,7 +32389,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1507
+#: libs/ui/forms/wdggeneralsettings.ui:1513
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:71
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:183
 #, kde-format
@@ -32389,7 +32398,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intForcedFontDPI)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1516
+#: libs/ui/forms/wdggeneralsettings.ui:1522
 #, kde-format
 msgid ""
 "In some versions of Krita before 4.4.3 text size could be dependent on the current display DPI (which was a bug).\n"
@@ -32399,7 +32408,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_51)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1529
+#: libs/ui/forms/wdggeneralsettings.ui:1535
 #, kde-format
 msgid "Automatic layer naming"
 msgstr ""
@@ -32413,7 +32422,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenameMergedLayers)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1535
+#: libs/ui/forms/wdggeneralsettings.ui:1541
 #, kde-format
 msgid "Append \"Merged\" to merged group layers"
 msgstr ""
@@ -32427,7 +32436,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenamePastedLayers)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1542
+#: libs/ui/forms/wdggeneralsettings.ui:1548
 #, kde-format
 msgid "Append \"(pasted)\" to pasted layers"
 msgstr ""
@@ -32441,49 +32450,49 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenameDuplicatedLayers)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1549
+#: libs/ui/forms/wdggeneralsettings.ui:1555
 #, kde-format
 msgid "Prepend \"Copy of\" to duplicated layers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableLongPress)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1559
+#: libs/ui/forms/wdggeneralsettings.ui:1565
 #, kde-format
 msgid "Long-press to open context menus"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1566
+#: libs/ui/forms/wdggeneralsettings.ui:1572
 #, kde-format
 msgid "Kinetic Scrolling (needs restart)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelKineticScrollingSensitivity)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1581
+#: libs/ui/forms/wdggeneralsettings.ui:1587
 #, kde-format
 msgid "Sensitivity:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1606
+#: libs/ui/forms/wdggeneralsettings.ui:1612
 #, kde-format
 msgid "Hide docker scrollbars if kinetic scrolling is enabled"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkIgnoreHighFunctionKeys)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1658
+#: libs/ui/forms/wdggeneralsettings.ui:1664
 #, kde-format
 msgid "Some applications may emulate presses of function keys with high numbers (e.g. F22) to bring themselves to the foreground. This may break Krita's shortcuts and actions system. If you have a keyboard with F13 or higher function keys, and you wish to use them, try disabling this option, but take this potential problem into account."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkIgnoreHighFunctionKeys)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1661
+#: libs/ui/forms/wdggeneralsettings.ui:1667
 #, kde-format
 msgid "Ignore high function keys (F13-F24)"
 msgstr ""
