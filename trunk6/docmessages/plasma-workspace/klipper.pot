@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:03+0000\n"
+"POT-Creation-Date: 2025-11-20 00:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -468,66 +468,14 @@ msgid ""
 "to display the actions pop-up on that item, if appropriate."
 msgstr ""
 
-#. Tag: guibutton
-#: index.docbook:292
-#, no-c-format
-msgid "Exclude Windows"
-msgstr ""
-
-#. Tag: para
-#: index.docbook:293
-#, no-c-format
-msgid ""
-"Brings up the <guilabel>Disable Actions for windows of type WM_CLASS</"
-"guilabel> dialog."
-msgstr ""
-
-#. Tag: para
-#: index.docbook:295
-#, no-c-format
-msgid ""
-"Some programs, such as &konqueror;, use the clipboard internally. If you get "
-"unwanted &klipper; pop-ups all the time when using a certain application, do "
-"the following:"
-msgstr ""
-
-#. Tag: para
-#: index.docbook:300
-#, no-c-format
-msgid "Open the application."
-msgstr ""
-
-#. Tag: para
-#: index.docbook:301
-#, no-c-format
-msgid ""
-"From a terminal, run <userinput><command>xprop</command> | <command>grep</"
-"command> <parameter>WM_CLASS</parameter></userinput> and then click on the "
-"window of the application you are running."
-msgstr ""
-
-#. Tag: para
-#: index.docbook:305
-#, no-c-format
-msgid "The first string after the equals sign is the one to enter."
-msgstr ""
-
-#. Tag: para
-#: index.docbook:309
-#, no-c-format
-msgid ""
-"Once the WM_CLASS is added, no more actions will be generated for windows of "
-"that application."
-msgstr ""
-
 #. Tag: guilabel
-#: index.docbook:315
+#: index.docbook:293
 #, no-c-format
 msgid "Remove white space when executing actions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:316
+#: index.docbook:294
 #, no-c-format
 msgid ""
 "If selected, any white space (spaces, tabs, &etc;) at the beginning and end "
@@ -538,13 +486,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:325
+#: index.docbook:303
 #, no-c-format
 msgid "Include MIME actions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:326
+#: index.docbook:304
 #, no-c-format
 msgid ""
 "If selected, include applications that can accept its &MIME; type of a file "
@@ -552,19 +500,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:334
+#: index.docbook:312
 #, no-c-format
 msgid "Actions Configuration"
 msgstr ""
 
 #. Tag: term
-#: index.docbook:338
+#: index.docbook:316
 #, no-c-format
 msgid "Editing Expressions/Actions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:339
+#: index.docbook:317
 #, no-c-format
 msgid ""
 "On the <guilabel>Actions</guilabel> page, double-click the regular "
@@ -574,13 +522,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:346
+#: index.docbook:324
 #, no-c-format
 msgid "Adding Expressions/Actions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:347
+#: index.docbook:325
 #, no-c-format
 msgid ""
 "Click the <guibutton>Add Action...</guibutton> button to add a regular "
@@ -590,7 +538,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:351
+#: index.docbook:329
 #, no-c-format
 msgid ""
 "You can add a description of the regular expression type (&eg; <quote>HTTP "
@@ -599,7 +547,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:355
+#: index.docbook:333
 #, no-c-format
 msgid ""
 "You can find detailed information about the use of "
@@ -609,7 +557,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:360
+#: index.docbook:338
 #, no-c-format
 msgid ""
 "Edit the regular expression as described above. To add a command to execute, "
@@ -618,7 +566,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:364
+#: index.docbook:342
 #, no-c-format
 msgid ""
 "Note that <token>%s</token> in the command line is replaced with the "
@@ -631,7 +579,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:373
+#: index.docbook:351
 #, no-c-format
 msgid ""
 "Entries <userinput><token>%0</token></userinput> through <userinput><token>"
@@ -640,13 +588,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:384
+#: index.docbook:362
 #, no-c-format
 msgid "Shortcuts Options"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:386
+#: index.docbook:364
 #, no-c-format
 msgid ""
 "The shortcuts page allows you to change the keyboard shortcuts which are "
@@ -655,25 +603,25 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:392
+#: index.docbook:370
 #, no-c-format
 msgid "None"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:393
+#: index.docbook:371
 #, no-c-format
 msgid "The selected action cannot be accessed directly from the keyboard"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:397
+#: index.docbook:375
 #, no-c-format
 msgid "Default"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:398
+#: index.docbook:376
 #, no-c-format
 msgid ""
 "The selected action uses &klipper;'s default key. These are the shortcuts "
@@ -681,19 +629,19 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:402
+#: index.docbook:380
 #, no-c-format
 msgid "Custom"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:403
+#: index.docbook:381
 #, no-c-format
 msgid "The selected action is assigned to the keys you choose."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:404
+#: index.docbook:382
 #, no-c-format
 msgid ""
 "To choose a custom key for the action you have selected, click on "
@@ -702,7 +650,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:411
+#: index.docbook:389
 #, no-c-format
 msgid ""
 "If you define a shortcut for <guilabel>Open Klipper at Mouse Position</"
@@ -712,32 +660,32 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:420
+#: index.docbook:398
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:422
+#: index.docbook:400
 #, no-c-format
 msgid "&klipper;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:425
+#: index.docbook:403
 #, no-c-format
 msgid ""
 "Program copyright 1998 &Andrew.Stanley-Jones; <email>asj@cban.com</email>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:428
+#: index.docbook:406
 #, no-c-format
 msgid "Program copyright 1998-2000 &Carsten.Pfeiffer; &Carsten.Pfeiffer.mail;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:430
+#: index.docbook:408
 #, no-c-format
 msgid ""
 "Currently maintained by Esben Mose Hansen. See <ulink url=\"http://"
@@ -745,7 +693,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:436
+#: index.docbook:414
 #, no-c-format
 msgid ""
 "Documentation copyright 2000-2003, 2005 &Philip.Rodrigues; &Philip.Rodrigues."
@@ -753,13 +701,13 @@ msgid ""
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:440
+#: index.docbook:418
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:440
+#: index.docbook:418
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
