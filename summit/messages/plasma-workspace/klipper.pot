@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-19 00:54+0100\n"
+"POT-Creation-Date: 2025-11-20 14:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31,13 +31,13 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:85
+#: configdialog.cpp:84
 #, kde-format
 msgid "Clipboard history:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: configdialog.cpp:91
+#: configdialog.cpp:90
 #, kde-format
 msgctxt "Number of entries"
 msgid "%v entry"
@@ -55,13 +55,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:100
+#: configdialog.cpp:99
 #, kde-format
 msgid "Selection and Clipboard:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:107
+#: configdialog.cpp:106
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -72,69 +72,81 @@ msgid ""
 "When turned on this option keeps the selection and the clipboard the same, so that any selection is immediately available to paste by any means. If it is turned off, the selection may still be saved in the clipboard history (subject to the options below), but it can only be pasted using the middle mouse button."
 msgstr ""
 
+#. +> stable6 stable5
+#: configdialog.cpp:714
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"The name that needs to be entered here is the WM_CLASS name of the window to be excluded. To find the WM_CLASS name for a window, in another terminal window enter the command:<nl/>"
+"<nl/>"
+"&nbsp;&nbsp;<icode>xprop | grep WM_CLASS</icode><nl/>"
+"<nl/>"
+"and click on the window that you want to exclude. The first name that it displays after the equal sign is the one that you need to enter."
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:136 configdialog.cpp:174
+#: configdialog.cpp:135 configdialog.cpp:173
 #, kde-format
 msgid "Always save in history"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:140
+#: configdialog.cpp:139
 #, kde-format
 msgid "Text selection:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:142 configdialog.cpp:180
+#: configdialog.cpp:141 configdialog.cpp:179
 #, kde-format
 msgid "Only when explicitly copied"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:147
+#: configdialog.cpp:146
 #, kde-format
 msgid "Whether text selections are saved in the clipboard history."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:178
+#: configdialog.cpp:177
 #, kde-format
 msgid "Non-text selection:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:185
+#: configdialog.cpp:184
 #, kde-format
 msgid "Never save in history"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:190
+#: configdialog.cpp:189
 #, kde-format
 msgid "Whether non-text selections (such as images) are saved in the clipboard history."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:264
+#: configdialog.cpp:263
 #, kde-format
 msgid "Show action popup menu:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:274
+#: configdialog.cpp:273
 #, kde-kuit-format
 msgctxt "@info"
 msgid "When text that matches an action pattern is selected or is chosen from the clipboard history, automatically show the popup menu with applicable actions. If the automatic menu is turned off here, or it is not shown for an excluded window, then it can be shown by using the <shortcut>%1</shortcut> key shortcut."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable6 stable5
 #: configdialog.cpp:283
 #, kde-format
 msgid "Exclude Windows..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: configdialog.cpp:297
+#: configdialog.cpp:285
 #, kde-format
 msgctxt "Unit of time"
 msgid "%v second"
@@ -152,72 +164,72 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:298
+#: configdialog.cpp:286
 #, kde-format
 msgctxt "No timeout"
 msgid "None"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:307
+#: configdialog.cpp:295
 #, kde-format
 msgid "Options:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:334
-#, kde-format
-msgid "Exclude Windows"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:364
+#: configdialog.cpp:320
 #, kde-kuit-format
 msgctxt "@info"
 msgid "When a <interface>match pattern</interface> matches the clipboard contents, its <interface>commands</interface> appear in the Klipper popup menu and can be executed."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:373
+#: configdialog.cpp:329
 #, kde-format
 msgctxt "@title:column"
 msgid "Match pattern and commands"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:373
+#: configdialog.cpp:329
 #, kde-format
 msgctxt "@title:column"
 msgid "Description"
 msgstr ""
 
+#. +> stable6 stable5
+#: configdialog.cpp:334
+#, kde-format
+msgid "Exclude Windows"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:379
+#: configdialog.cpp:335
 #, kde-format
 msgid "Add Action..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:383
+#: configdialog.cpp:339
 #, kde-format
 msgid "Edit Action..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:388
+#: configdialog.cpp:344
 #, kde-format
 msgid "Delete Action"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:395
+#: configdialog.cpp:351
 #, kde-kuit-format
 msgctxt "@info"
 msgid "These actions appear in the popup menu which can be configured on the <interface>Action Menu</interface> page."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:590
+#: configdialog.cpp:546
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -225,66 +237,8 @@ msgid ""
 "and all of its commands?"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:591
-#, kde-format
-msgid "Confirm Delete Action"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:644
-#, kde-format
-msgctxt "General Config"
-msgid "General"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:644
-#, kde-format
-msgid "General Configuration"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:645
-#, kde-format
-msgctxt "Popup Menu Config"
-msgid "Action Menu"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:645
-#, kde-format
-msgid "Action Menu"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:646
-#, kde-format
-msgctxt "Actions Config"
-msgid "Actions Configuration"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:646
-#, kde-format
-msgid "Actions Configuration"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:649
-#, kde-format
-msgctxt "Shortcuts Config"
-msgid "Shortcuts"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:649
-#, kde-format
-msgid "Shortcuts Configuration"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:735
+#. +> stable6 stable5
+#: configdialog.cpp:701
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -294,15 +248,61 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:748
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid ""
-"The name that needs to be entered here is the WM_CLASS name of the window to be excluded. To find the WM_CLASS name for a window, in another terminal window enter the command:<nl/>"
-"<nl/>"
-"&nbsp;&nbsp;<icode>xprop | grep WM_CLASS</icode><nl/>"
-"<nl/>"
-"and click on the window that you want to exclude. The first name that it displays after the equal sign is the one that you need to enter."
+#: configdialog.cpp:547
+#, kde-format
+msgid "Confirm Delete Action"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:600
+#, kde-format
+msgctxt "General Config"
+msgid "General"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:600
+#, kde-format
+msgid "General Configuration"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:601
+#, kde-format
+msgctxt "Popup Menu Config"
+msgid "Action Menu"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:601
+#, kde-format
+msgid "Action Menu"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:602
+#, kde-format
+msgctxt "Actions Config"
+msgid "Actions Configuration"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:602
+#, kde-format
+msgid "Actions Configuration"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:605
+#, kde-format
+msgctxt "Shortcuts Config"
+msgid "Shortcuts"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:605
+#, kde-format
+msgid "Shortcuts Configuration"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1025,86 +1025,86 @@ msgstr ""
 msgid "Show the popup menu of applicable actions as soon as a selection is made."
 msgstr ""
 
-#. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
+#. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
 #. +> trunk6 stable6 stable5
+#: klipper.kcfg:56
+#, kde-format
+msgid "Automatic action menu time:"
+msgstr ""
+
+#. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
+#. +> stable6 stable5
 #: klipper.kcfg:57
 #, kde-format
 msgid "No actions for WM_CLASS"
 msgstr ""
 
-#. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
-#. +> trunk6 stable6 stable5
-#: klipper.kcfg:60
-#, kde-format
-msgid "Automatic action menu time:"
-msgstr ""
-
 #. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:64
+#: klipper.kcfg:60
 #, kde-format
 msgid "Display the automatic action popup menu for this time."
 msgstr ""
 
 #. i18n: ectx: label, entry (MaxClipItems), group (General)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:67
+#: klipper.kcfg:63
 #, kde-format
 msgid "History size:"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (MaxClipItems), group (General)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:71
+#: klipper.kcfg:67
 #, kde-format
 msgid "The clipboard history will store up to this many items."
 msgstr ""
 
 #. i18n: ectx: label, entry (ActionList), group (General)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:74
+#: klipper.kcfg:70
 #, kde-format
 msgid "Dummy entry for indicating changes in an action's tree widget"
 msgstr ""
 
 #. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:84
+#: klipper.kcfg:80
 #, kde-format
 msgid "Trim whitespace from selection"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:86
+#: klipper.kcfg:82
 #, kde-format
 msgid "Remove any whitespace from the start and end of selected text, before performing an action. For example, this ensures that a URL pasted in a browser is interpreted as expected. The text saved on the clipboard is not affected."
 msgstr ""
 
 #. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:89
+#: klipper.kcfg:85
 #, kde-format
 msgid "For an item chosen from history"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (ReplayActionInHistory), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:91
+#: klipper.kcfg:87
 #, kde-format
 msgid "Show the popup menu of applicable actions if an entry is chosen from the clipboard history."
 msgstr ""
 
 #. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:94
+#: klipper.kcfg:90
 #, kde-format
 msgid "Include MIME actions"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (EnableMagicMimeActions), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:96
+#: klipper.kcfg:92
 #, kde-format
 msgid "If a file name or URL is selected, include applications that can accept its MIME type in the popup menu."
 msgstr ""
@@ -1115,16 +1115,16 @@ msgstr ""
 msgid "Clipboard Popup"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: urlgrabber.cpp:195
+#, kde-format
+msgid "&Cancel"
+msgstr ""
+
 #. +> stable5
 #: urlgrabber.cpp:200
 #, kde-format
 msgid "Disable This Popup"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: urlgrabber.cpp:202
-#, kde-format
-msgid "&Cancel"
 msgstr ""
 
 #. +> stable5

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-12 00:54+0100\n"
+"POT-Creation-Date: 2025-11-20 14:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -633,7 +633,7 @@ msgid "Loading failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:30 qml/ElisaMainWindow.qml:302
+#: qml/ElisaMainWindow.qml:30 qml/ElisaMainWindow.qml:310
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
@@ -668,7 +668,7 @@ msgid "Hide playlist drawer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:179 qml/ElisaMainWindow.qml:612
+#: qml/ElisaMainWindow.qml:179 qml/ElisaMainWindow.qml:625
 #, kde-format
 msgctxt "@info:status"
 msgid "Could not load some files. Elisa can only open audio and playlist files."
@@ -689,20 +689,13 @@ msgid "%1 — Elisa"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:286
+#: qml/ElisaMainWindow.qml:290
 #, kde-format
 msgctxt "@option file type (mime type) for m3u, m3u8 playlist file formats; do not translate *.m3u*"
 msgid "m3u8, m3u Playlist File (*.m3u*)"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:286
-#, kde-format
-msgctxt "@option file type (mime type) for pls playlist file formats; do not translate *.pls"
-msgid "pls Playlist File (*.pls)"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> stable6
 #: qml/ElisaMainWindow.qml:292
 #, kde-format
 msgctxt "@option file type (mime type) for m3u, m3u8 and pls playlist file formats; do not translate *.m3u8 *.m3u *.pls"
@@ -710,7 +703,35 @@ msgid "m3u8, m3u, pls Playlist File (*.m3u8 *.m3u *.pls)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:302
+#: qml/ElisaMainWindow.qml:290
+#, kde-format
+msgctxt "@option file type (mime type) for pls playlist file formats; do not translate *.pls"
+msgid "pls Playlist File (*.pls)"
+msgstr ""
+
+#. +> trunk6
+#: qml/ElisaMainWindow.qml:297
+#, kde-format
+msgctxt "@option Allow opening music and playlist files. %1 and %2 are lists of untranslated file extensions"
+msgid "Playlist files and music files (%1 %2) (%1 %2)"
+msgstr ""
+
+#. +> trunk6
+#: qml/ElisaMainWindow.qml:298
+#, kde-format
+msgctxt "@option Allow opening playlist files. %1 is an untranslated list of file extensions"
+msgid "Playlist files (%1) (%1)"
+msgstr ""
+
+#. +> trunk6
+#: qml/ElisaMainWindow.qml:299
+#, kde-format
+msgctxt "@option Allow opening music files. %1 is an untranslated list of file extensions"
+msgid "Music files (%1) (%1)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ElisaMainWindow.qml:310
 #, kde-format
 msgctxt "@label"
 msgid "Saving failed"
@@ -892,50 +913,64 @@ msgctxt "@action:button Save a playlist file"
 msgid "Save…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/MediaPlayListView.qml:101
+#, kde-format
+msgctxt "@action:button Load a playlist file"
+msgid "Open…"
+msgstr ""
+
+#. +> stable6
 #: qml/MediaPlayListView.qml:101
 #, kde-format
 msgctxt "@action:button Load a playlist file"
 msgid "Load…"
 msgstr ""
 
+#. +> trunk6
+#: qml/MediaPlayListView.qml:102
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open music files or saved playlists"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:126
+#: qml/MediaPlayListView.qml:127
 #, kde-format
 msgctxt "@info"
 msgid "Failed to load some tracks. Make sure that they have not been removed or renamed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:132
+#: qml/MediaPlayListView.qml:133
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit Playlist File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:302
+#: qml/MediaPlayListView.qml:303
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Playlist is empty"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:303
+#: qml/MediaPlayListView.qml:304
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Add some songs to get started. You can browse your music using the views on the left."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:378
+#: qml/MediaPlayListView.qml:379
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Your playlist is empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:475 qml/MediaPlayListView.qml:484
+#: qml/MediaPlayListView.qml:476 qml/MediaPlayListView.qml:485
 #, kde-format
 msgctxt "@info:status %2 is always bigger than 1"
 msgid "%1/%2 tracks remaining"
@@ -944,29 +979,29 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:476
+#: qml/MediaPlayListView.qml:477
 #, kde-format
 msgctxt "@info:status %1 and %2 are formatted like hh:mm:ss or mm:ss"
 msgid "%1 remaining, %2 total"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:477 qml/MediaPlayListView.qml:486
-#: qml/MediaPlayListView.qml:495
+#: qml/MediaPlayListView.qml:478 qml/MediaPlayListView.qml:487
+#: qml/MediaPlayListView.qml:496
 #, kde-format
 msgctxt "@info:status %1 is total tracks and tracks remaining. %2 is total time and time remaining"
 msgid "%1, %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:485 qml/MediaPlayListView.qml:494
+#: qml/MediaPlayListView.qml:486 qml/MediaPlayListView.qml:495
 #, kde-format
 msgctxt "@info:status %1 and %2 are formatted like hh:mm:ss or mm:ss"
 msgid "%1/%2 remaining"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:493
+#: qml/MediaPlayListView.qml:494
 #, kde-format
 msgctxt "@info:status %2 is always bigger than 1"
 msgid "%1/%2 tracks"
@@ -975,7 +1010,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:502
+#: qml/MediaPlayListView.qml:503
 #, kde-format
 msgctxt "@info:status %1 is the total number of tracks of the playlist"
 msgid "%1 track"
@@ -984,7 +1019,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:503
+#: qml/MediaPlayListView.qml:504
 #, kde-format
 msgctxt "@info:status %1 is the total number of radios of the playlist"
 msgid "%1 radio"
@@ -993,14 +1028,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:504
+#: qml/MediaPlayListView.qml:505
 #, kde-format
 msgctxt "@info:status %1 is the translation of tracks, %2 is the translation of total radios"
 msgid "%1, %2 total"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:507
+#: qml/MediaPlayListView.qml:508
 #, kde-format
 msgctxt "@info:status %1 is the total tracks of the playlist. %2 is the total duration formatted like hh:mm:ss or mm:ss"
 msgid "%1 track, %2 total"
@@ -1009,7 +1044,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:509
+#: qml/MediaPlayListView.qml:510
 #, kde-format
 msgctxt "@info:status %1 is the remaining duration of the playlist. It is formatted like hh:mm:ss or mm:ss"
 msgid "1 track, %1min remaining"
