@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-13 09:39+0100\n"
+"POT-Creation-Date: 2025-11-22 10:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -205,7 +205,7 @@ msgid "Internal Debugger Error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:337 midebugsession.cpp:503
+#: midebugger.cpp:337 midebugsession.cpp:528
 #, kde-format
 msgid "Process exited"
 msgstr ""
@@ -347,55 +347,55 @@ msgid "A program is already being debugged. Do you want to abort the currently r
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:256
+#: midebugsession.cpp:281
 #, kde-format
 msgid "Running program"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:329
+#: midebugsession.cpp:354
 #, kde-format
 msgid "Attaching to process %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:359
+#: midebugsession.cpp:384
 #, kde-format
 msgid "<b>Could not attach debugger:</b><br />"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:372
+#: midebugsession.cpp:397
 #, kde-format
 msgid "<b>Could not start debugger:</b><br />"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:386
+#: midebugsession.cpp:411
 #, kde-format
 msgid "Examining core file %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:489
+#: midebugsession.cpp:514
 #, kde-format
 msgid "Debugger stopped"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:508
+#: midebugsession.cpp:533
 #, kde-format
 msgid "Application is running"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:513
+#: midebugsession.cpp:538
 #, kde-format
 msgid "Application is paused"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:818
+#: midebugsession.cpp:843
 #, kde-format
 msgid ""
 "<b>Gdb command sent when debugger is not running</b><br>"
@@ -404,7 +404,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:930
+#: midebugsession.cpp:955
 #, kde-format
 msgid ""
 "<b>Invalid debugger command</b><br>"
@@ -412,37 +412,65 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1005
+#: midebugsession.cpp:1035
 #, kde-format
 msgid "<b>Failed to load core file:</b><br />"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1094
+#: midebugsession.cpp:1124
 #, kde-format
 msgid "Exited with return code: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1096
+#: midebugsession.cpp:1126
 #, kde-format
 msgid "Exited normally"
 msgstr ""
 
-#. +> trunk6 stable6
-#: midebugsession.cpp:1103
+#. +> trunk6
+#: midebugsession.cpp:1135
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal"
+msgid "Exited on signal %1"
+msgstr ""
+
+#. +> stable6
+#: midebugsession.cpp:1111
 #, kde-format
 msgid "Exited on signal %1"
 msgstr ""
 
-#. +> trunk6 stable6
-#: midebugsession.cpp:1138
+#. +> trunk6
+#: midebugsession.cpp:1137
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal, %2 - a user-friendly name of the same signal"
+msgid "Exited on signal %1 (%2)"
+msgstr ""
+
+#. +> trunk6
+#: midebugsession.cpp:1173
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal"
+msgid "Program received signal %1"
+msgstr ""
+
+#. +> trunk6
+#: midebugsession.cpp:1175
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal, %2 - a user-friendly name of the same signal"
+msgid "Program received signal %1 (%2)"
+msgstr ""
+
+#. +> stable6
+#: midebugsession.cpp:1146
 #, kde-format
 msgid "Program received signal %1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1254
+#: midebugsession.cpp:1294
 #, kde-format
 msgid "1 command in queue\n"
 msgid_plural "%1 commands in queue\n"
@@ -450,7 +478,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1255
+#: midebugsession.cpp:1295
 #, kde-format
 msgctxt "Only the 0 and 1 cases need to be translated"
 msgid "1 command being processed by gdb\n"
@@ -459,13 +487,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1256
+#: midebugsession.cpp:1296
 #, kde-format
 msgid "Debugger state: %1\n"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1259
+#: midebugsession.cpp:1299
 #, kde-format
 msgid ""
 "Current command class: '%1'\n"
@@ -474,7 +502,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1284
+#: midebugsession.cpp:1324
 #, kde-format
 msgid "<b>Debugger error:</b><br />"
 msgstr ""
