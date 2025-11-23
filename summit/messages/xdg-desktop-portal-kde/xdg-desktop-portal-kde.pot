@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-22 10:34+0100\n"
+"POT-Creation-Date: 2025-11-23 11:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1007,7 +1007,14 @@ msgctxt "@action:inmenu stops screen/window sharing"
 msgid "End"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: src/session.cpp:288
+#, kde-format
+msgctxt "SNI title that indicates there's a process remotely controlling the system"
+msgid "Remote Control"
+msgstr ""
+
+#. +> stable6 stable5
 #: src/session.cpp:288
 #, kde-format
 msgctxt "SNI title that indicates there's a process remotely controlling the system"
