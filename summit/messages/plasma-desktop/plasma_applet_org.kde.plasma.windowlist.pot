@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-05 11:50+0200\n"
+"POT-Creation-Date: 2025-11-24 09:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -23,20 +23,48 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ConfigGeneral.qml:29
+#, kde-format
+msgctxt "@label:listbox"
+msgid "For active application, show:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ConfigGeneral.qml:30
 #, kde-format
 msgid "Show active application's name on Panel button"
 msgstr ""
 
+#. +> trunk6
+#: ConfigGeneral.qml:34
+#, kde-format
+msgctxt "@item:inlistbox what to show for active application in horizontal panel"
+msgid "Icon and name"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:35
+#, kde-format
+msgctxt "@item:inlistbox what to show for active application in horizontal panel"
+msgid "Icon"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:36
+#, kde-format
+msgctxt "@item:inlistbox what to show for active application in horizontal panel"
+msgid "Name"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:50
+#: ConfigGeneral.qml:83
 #, kde-format
 msgid "Only icons can be shown when the Panel is vertical."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:52
+#: ConfigGeneral.qml:85
 #, kde-format
 msgid "Not applicable when the widget is on the Desktop."
 msgstr ""
