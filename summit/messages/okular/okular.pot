@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-20 14:06+0100\n"
+"POT-Creation-Date: 2025-11-25 08:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -437,7 +437,7 @@ msgid "The page print size is invalid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/document.cpp:5493 part/part.cpp:1145
+#: core/document.cpp:5493 part/part.cpp:1155
 #, kde-format
 msgid "Could not open '%1'. File does not exist"
 msgstr ""
@@ -1889,7 +1889,7 @@ msgid "Page %1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/annotationmodel.cpp:322 part/part.cpp:3169
+#: part/annotationmodel.cpp:322 part/part.cpp:3185
 #, kde-format
 msgid "Page %1"
 msgstr ""
@@ -1911,13 +1911,13 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: part/annotationpopup.cpp:95 part/annotationpopup.cpp:153
-#: part/bookmarklist.cpp:265 part/part.cpp:2265 part/part.cpp:3175
+#: part/bookmarklist.cpp:265 part/part.cpp:2281 part/part.cpp:3191
 #, kde-format
 msgid "Remove Bookmark"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/annotationpopup.cpp:99 part/annotationpopup.cpp:156 part/part.cpp:3177
+#: part/annotationpopup.cpp:99 part/annotationpopup.cpp:156 part/part.cpp:3193
 #, kde-format
 msgid "Add Bookmark"
 msgstr ""
@@ -1930,8 +1930,8 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: part/annotationpopup.cpp:109 part/annotationpopup.cpp:165
-#: part/pageview.cpp:2554 part/pageview.cpp:2874 part/pageview.cpp:3018
-#: part/pageview.cpp:3074
+#: part/pageview.cpp:2561 part/pageview.cpp:2884 part/pageview.cpp:2886
+#: part/pageview.cpp:3037 part/pageview.cpp:3095 part/pageview.cpp:3097
 #, kde-format
 msgid "Copy forbidden by DRM"
 msgstr ""
@@ -1943,7 +1943,7 @@ msgid "&Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/annotationpopup.cpp:128 part/annotationpopup.cpp:174 part/part.cpp:773
+#: part/annotationpopup.cpp:128 part/annotationpopup.cpp:174 part/part.cpp:774
 #: part/propertiesdialog.cpp:54
 #, kde-format
 msgid "&Properties"
@@ -2609,13 +2609,13 @@ msgid "Search…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/bookmarklist.cpp:261 part/bookmarklist.cpp:295 part/part.cpp:3160
+#: part/bookmarklist.cpp:261 part/bookmarklist.cpp:295 part/part.cpp:3176
 #, kde-format
 msgid "Expand All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/bookmarklist.cpp:262 part/bookmarklist.cpp:296 part/part.cpp:3161
+#: part/bookmarklist.cpp:262 part/bookmarklist.cpp:296 part/part.cpp:3177
 #, kde-format
 msgid "Collapse All"
 msgstr ""
@@ -2628,7 +2628,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: part/bookmarklist.cpp:264 part/bookmarklist.cpp:301 part/part.cpp:705
-#: part/part.cpp:2460
+#: part/part.cpp:2476
 #, kde-format
 msgid "Rename Bookmark"
 msgstr ""
@@ -4094,7 +4094,7 @@ msgid "Regular Expression"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/layers.cpp:35 part/part.cpp:2308
+#: part/layers.cpp:35 part/part.cpp:2324
 #, kde-format
 msgid "Layers"
 msgstr ""
@@ -4349,7 +4349,7 @@ msgid "Show Forms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:1279
+#: part/pageview.cpp:1285
 #, kde-format
 msgid " Loaded a one-page document."
 msgid_plural " Loaded a %1-page document."
@@ -4357,13 +4357,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2549
+#: part/pageview.cpp:2555
 #, kde-format
 msgid "Copy Table Contents to Clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2868
+#: part/pageview.cpp:2876
 #, kde-format
 msgid "Text (1 character)"
 msgid_plural "Text (%1 characters)"
@@ -4371,194 +4371,200 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2869 part/pageview.cpp:2887
+#: part/pageview.cpp:2877 part/pageview.cpp:2899
 #, kde-format
 msgid "Copy to Clipboard"
 msgstr ""
 
+#. +> trunk6
+#: part/pageview.cpp:2879 part/pageview.cpp:3086 part/part.cpp:858
+#, kde-format
+msgid "Copy Text (Without line breaks)"
+msgstr ""
+
 #. +> trunk6 stable6
-#: part/pageview.cpp:2878 part/pageview.cpp:3069
+#: part/pageview.cpp:2890 part/pageview.cpp:3090
 #, kde-format
 msgid "Speak Text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2886
+#: part/pageview.cpp:2898
 #, kde-format
 msgid "Image (%1 × %2 pixels)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2888
+#: part/pageview.cpp:2900
 #, kde-format
 msgid "Save to File…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2908
+#: part/pageview.cpp:2920
 #, kde-format
 msgid "Image [%1 × %2] copied to clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2911
+#: part/pageview.cpp:2923
 #, kde-format
 msgid "Save file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2911
+#: part/pageview.cpp:2923
 #, kde-format
 msgid "Images (*.png *.jpeg)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2913
+#: part/pageview.cpp:2925
 #, kde-format
 msgid "File not saved."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:2924
+#: part/pageview.cpp:2936
 #, kde-format
 msgid "Image [%1 × %2] saved to %3 file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:3065
+#: part/pageview.cpp:3085
 #, kde-format
 msgid "Copy Text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:3085
+#: part/pageview.cpp:3108
 #, kde-format
 msgid "Go to '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4107 part/part.cpp:3180
+#: part/pageview.cpp:4132 part/part.cpp:3196
 #, kde-format
 msgid "Fit Width"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4107
+#: part/pageview.cpp:4132
 #, kde-format
 msgid "Fit Page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4107
+#: part/pageview.cpp:4132
 #, kde-format
 msgid "Auto Fit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4130
+#: part/pageview.cpp:4155
 #, kde-format
 msgctxt "Zoom percentage value %1 will be replaced by the actual zoom factor value, so make sure you include it in your translation in order to not to break anything"
 msgid "%1%"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4413
+#: part/pageview.cpp:4438
 #, kde-format
 msgid "Search for '%1' with"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4427
+#: part/pageview.cpp:4452
 #, kde-format
 msgid "Configure Web Shortcuts…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4453
+#: part/pageview.cpp:4478
 #, kde-format
 msgid "Follow This Link"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4456
+#: part/pageview.cpp:4481
 #, kde-format
 msgid "Play this Sound"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4458
+#: part/pageview.cpp:4483
 #, kde-format
 msgid "Stop Sound"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4464
+#: part/pageview.cpp:4489
 #, kde-format
 msgid "Copy Link Address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4485
+#: part/pageview.cpp:4510
 #, kde-format
 msgid "Search for '%1' in this document"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5017
+#: part/pageview.cpp:5042
 #, kde-format
 msgid "Welcome"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5139
+#: part/pageview.cpp:5164
 #, kde-format
 msgid "Select zooming area. Right-click to zoom out."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5152
+#: part/pageview.cpp:5177
 #, kde-format
 msgid "Click to see the magnified view."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5167
+#: part/pageview.cpp:5192
 #, kde-format
 msgid "Draw a rectangle around the text/graphics to copy."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5181
+#: part/pageview.cpp:5206
 #, kde-format
 msgid "Select text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5195
+#: part/pageview.cpp:5220
 #, kde-format
 msgid "Draw a rectangle around the table, then click near edges to divide up; press Esc to clear."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5210 part/pageview.cpp:5218
+#: part/pageview.cpp:5235 part/pageview.cpp:5243
 #, kde-format
 msgid "All your signing certificates are invalid. In case signing worked before, please check their validity dates."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5211
+#: part/pageview.cpp:5236
 #, kde-format
 msgid "No valid certificates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5212 part/pageview.cpp:5227
+#: part/pageview.cpp:5237 part/pageview.cpp:5252
 #, kde-format
 msgid "Open Certificate Manager"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5223
+#: part/pageview.cpp:5248
 #, kde-format
 msgid ""
 "There are no available signing certificates.<br/>"
@@ -4567,13 +4573,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5226 part/pageview.cpp:5238
+#: part/pageview.cpp:5251 part/pageview.cpp:5263
 #, kde-format
 msgid "No certificates found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5236
+#: part/pageview.cpp:5261
 #, kde-format
 msgid ""
 "There are no available signing certificates.<br/>"
@@ -4581,19 +4587,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5261
+#: part/pageview.cpp:5286
 #, kde-format
 msgid "You have unsaved changes. Please save the document before signing it."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5284
+#: part/pageview.cpp:5309
 #, kde-format
 msgid "Draw a rectangle to insert the signature field"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:5428
+#: part/pageview.cpp:5453
 #, kde-format
 msgid "Draw a rectangle around the page area you wish to keep visible"
 msgstr ""
@@ -4770,21 +4776,21 @@ msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #. +> trunk6 stable6
-#: part/part-viewermode.rc:10 part/part.rc:91
+#: part/part-viewermode.rc:10 part/part.rc:92
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: Menu (help)
 #. +> trunk6 stable6
-#: part/part-viewermode.rc:15 part/part.rc:98
+#: part/part-viewermode.rc:15 part/part.rc:99
 #, kde-format
 msgid "&Help"
 msgstr ""
 
 #. i18n: ectx: Menu (view_orientation)
 #. +> trunk6 stable6
-#: part/part-viewermode.rc:32 part/part.rc:44
+#: part/part-viewermode.rc:32 part/part.rc:45
 #, kde-format
 msgid "&Orientation"
 msgstr ""
@@ -4792,7 +4798,7 @@ msgstr ""
 #. i18n: ectx: Menu (bookmarks)
 #. i18n: ectx: Menu (okular_bookmarks)
 #. +> trunk6 stable6
-#: part/part-viewermode.rc:50 part/part.rc:65
+#: part/part-viewermode.rc:50 part/part.rc:66
 #, kde-format
 msgid "&Bookmarks"
 msgstr ""
@@ -4936,152 +4942,152 @@ msgid "Go to the next bookmark"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:748
+#: part/part.cpp:749
 #, kde-format
 msgid "Configure Okular…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:751
+#: part/part.cpp:752
 #, kde-format
 msgid "Configure Viewer…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:757
+#: part/part.cpp:758
 #, kde-format
 msgid "Configure Viewer Backends…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:759
+#: part/part.cpp:760
 #, kde-format
 msgid "Configure Backends…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:795
+#: part/part.cpp:796
 #, kde-format
 msgid "About Backend"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:800
+#: part/part.cpp:801
 #, kde-format
 msgid "Reloa&d"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:802
+#: part/part.cpp:803
 #, kde-format
 msgid "Reload the current document from disk."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:808
+#: part/part.cpp:809
 #, kde-format
 msgid "Close &Find Bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:813
+#: part/part.cpp:814
 #, kde-format
 msgid "Page Number"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:817
+#: part/part.cpp:818
 #, kde-format
 msgctxt "@action"
 msgid "Configure Color Modes…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:858
+#: part/part.cpp:868
 #, kde-format
 msgid "Select All Text on Current Page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:871
+#: part/part.cpp:881
 #, kde-format
 msgid "Show S&idebar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:880
+#: part/part.cpp:890
 #, kde-format
 msgid "Show &Page Bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:886
+#: part/part.cpp:896
 #, kde-format
 msgid "Show &Signatures Panel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:897
+#: part/part.cpp:907
 #, kde-format
 msgid "&Embedded Files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:903
+#: part/part.cpp:913
 #, kde-format
 msgid "E&xport As"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:915
+#: part/part.cpp:925
 #, kde-format
 msgid "S&hare"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:924
+#: part/part.cpp:934
 #, kde-format
 msgid "P&resentation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:931
+#: part/part.cpp:941
 #, kde-format
 msgid "Open Con&taining Folder"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:945
+#: part/part.cpp:955
 #, kde-format
 msgid "&Import PostScript as PDF…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:949
+#: part/part.cpp:959
 #, kde-format
 msgid "Switch Blackscreen Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:957
+#: part/part.cpp:967
 #, kde-format
 msgid "Erase Drawing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:962
+#: part/part.cpp:972
 #, kde-format
 msgid "Configure Annotations…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:967
+#: part/part.cpp:977
 #, kde-format
 msgid "Play/Pause Presentation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1122
+#: part/part.cpp:1132
 #, kde-format
 msgid ""
 "You have just modified the open document, but this kind of document can not be saved.\n"
@@ -5089,103 +5095,103 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1123
+#: part/part.cpp:1133
 #, kde-format
 msgid "Document can't be saved"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1152
+#: part/part.cpp:1162
 #, kde-format
 msgid "Could not open '%1' (%2) "
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1205
+#: part/part.cpp:1215
 #, kde-format
 msgid "The loading of %1 has been canceled."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1221
+#: part/part.cpp:1231
 #, kde-format
 msgid "Could not open %1. Reason: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1249
+#: part/part.cpp:1259
 #, kde-format
 msgid "Configure Viewer Backends"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1251
+#: part/part.cpp:1261
 #, kde-format
 msgid "Configure Backends"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1336
+#: part/part.cpp:1346
 #, kde-format
 msgid "The program \"ps2pdf\" was not found, so Okular can not import PS files using it."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1336
+#: part/part.cpp:1346
 #, kde-format
 msgid "ps2pdf not found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1341
+#: part/part.cpp:1351
 #, kde-format
 msgid "PostScript files (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1357
+#: part/part.cpp:1367
 #, kde-format
 msgid "Importing PS file as PDF (this may take a while)…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1489
+#: part/part.cpp:1499
 #, kde-format
 msgid "Please enter the password to read the document:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1491
+#: part/part.cpp:1501
 #, kde-format
 msgid "Incorrect password. Try again:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1502
+#: part/part.cpp:1512
 #, kde-format
 msgid "Document Password"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1625
+#: part/part.cpp:1635
 #, kde-format
 msgid "This document has XFA forms, which are currently <b>unsupported</b>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1632
+#: part/part.cpp:1642
 #, kde-format
 msgid "This document has forms. Click on the button to interact with them, or use View -> Show Forms."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1648
+#: part/part.cpp:1658
 #, kde-format
 msgid "All editing and interactive features for this document are disabled. Please save a copy and reopen to edit this document."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1736
+#: part/part.cpp:1746
 #, kde-format
 msgid ""
 "This document wants to be shown full screen.\n"
@@ -5193,31 +5199,31 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1738
+#: part/part.cpp:1748
 #, kde-format
 msgid "Request to Change Viewing Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1739
+#: part/part.cpp:1749
 #, kde-format
 msgid "Enter Presentation Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1740
+#: part/part.cpp:1750
 #, kde-format
 msgid "Deny Request"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1830
+#: part/part.cpp:1840
 #, kde-format
 msgid "Could not open %1. %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1860
+#: part/part.cpp:1870
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5227,25 +5233,25 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1864 part/part.cpp:1874
+#: part/part.cpp:1874 part/part.cpp:1884
 #, kde-format
 msgid "File Changed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1865
+#: part/part.cpp:1875
 #, kde-format
 msgid "Continue Reloading"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1866
+#: part/part.cpp:1876
 #, kde-format
 msgid "Abort Reloading"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1870
+#: part/part.cpp:1880
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5255,91 +5261,91 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1875
+#: part/part.cpp:1885
 #, kde-format
 msgid "Continue Closing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1876
+#: part/part.cpp:1886
 #, kde-format
 msgid "Abort Closing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1883
+#: part/part.cpp:1893
 #, kde-format
 msgid "Do you want to save your changes to \"%1\" or discard them?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1883
+#: part/part.cpp:1893
 #, kde-format
 msgid "Close Document"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2015
+#: part/part.cpp:2025
 #, kde-format
 msgid "This link points to a close document action that does not work when using the embedded viewer."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2021
+#: part/part.cpp:2031
 #, kde-format
 msgid "This link points to a quit application action that does not work when using the embedded viewer."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2113 part/part.cpp:2131
+#: part/part.cpp:2123 part/part.cpp:2141
 #, kde-format
 msgid "Reloading the document…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2288 part/toc.cpp:38
+#: part/part.cpp:2304 part/toc.cpp:38
 #, kde-format
 msgid "Contents"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2317 part/signaturepanel.cpp:47
+#: part/part.cpp:2333 part/signaturepanel.cpp:47
 #, kde-format
 msgid "Signatures"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2344
+#: part/part.cpp:2360
 #, kde-format
 msgid "Go to Page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2367
+#: part/part.cpp:2383
 #, kde-format
 msgid "&Page:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2460
+#: part/part.cpp:2476
 #, kde-format
 msgid "Enter the new name of the bookmark:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2506
+#: part/part.cpp:2522
 #, kde-format
 msgid "Rename this Bookmark"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2509
+#: part/part.cpp:2525
 #, kde-format
 msgid "Remove this Bookmark"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2595 part/part.cpp:2596 part/part.cpp:3486
+#: part/part.cpp:2611 part/part.cpp:2612 part/part.cpp:3503
 #: part/signaturepartutils.cpp:261
 #, kde-format
 msgctxt "File type name and pattern"
@@ -5347,51 +5353,51 @@ msgid "%1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2603 part/revisionviewer.cpp:44
+#: part/part.cpp:2619 part/revisionviewer.cpp:44
 #, kde-format
 msgid "Save As"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2620
+#: part/part.cpp:2636
 #, kde-format
 msgid "You have chosen to save an Okular Archive without the file name ending with the '%1' extension. That is not allowed, do you want to choose a new name?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2621
+#: part/part.cpp:2637
 #, kde-format
 msgid "Unsupported extension"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2622
+#: part/part.cpp:2638
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose New Name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2665
+#: part/part.cpp:2681
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The file <filename>%1</filename> has been modified by another program. If you save now, any changes made in the other program will be lost. Are you sure you want to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2668 part/part.cpp:2687 part/part.cpp:2739
+#: part/part.cpp:2684 part/part.cpp:2703 part/part.cpp:2755
 #, kde-format
 msgid "Save - Warning"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2670
+#: part/part.cpp:2686
 #, kde-format
 msgid "Save a Copy Elsewhere"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2686
+#: part/part.cpp:2702
 #, kde-format
 msgid ""
 "The current document is protected with a password.<br />"
@@ -5400,20 +5406,20 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2713
+#: part/part.cpp:2729
 #, kde-format
 msgid "Could not open the temporary file for saving."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2726
+#: part/part.cpp:2742
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not overwrite <filename>%1</filename> because that file is read-only. Try saving to another location or changing that file's permissions."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2738
+#: part/part.cpp:2754
 #, kde-format
 msgid ""
 "After saving, the current document format requires the file to be reloaded. Your undo/redo history will be lost.<br />"
@@ -5421,73 +5427,73 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2753 part/part.cpp:2822 part/part.cpp:2843 part/part.cpp:3501
+#: part/part.cpp:2769 part/part.cpp:2838 part/part.cpp:2859 part/part.cpp:3518
 #, kde-format
 msgid "File could not be saved in '%1'. Try to save it to another location."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2766
+#: part/part.cpp:2782
 #, kde-format
 msgid "Filled form contents"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2769
+#: part/part.cpp:2785
 #, kde-format
 msgid "User annotations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2774
+#: part/part.cpp:2790
 #, kde-format
 msgid "You are about to save changes, but the current file format does not support saving the following elements. Please use the <i>Okular document archive</i> format to preserve them."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2778 part/part.cpp:2800
+#: part/part.cpp:2794 part/part.cpp:2816
 #, kde-format
 msgid "Warning"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2779 part/part.cpp:2801
+#: part/part.cpp:2795 part/part.cpp:2817
 #, kde-format
 msgid "Save as Okular document archive…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2791
+#: part/part.cpp:2807
 #, kde-format
 msgid "You are about to save changes, but the current file format does not support saving the following elements. Please use the <i>Okular document archive</i> format to preserve them. Click <i>Continue</i> to save the document and discard these elements."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2794
+#: part/part.cpp:2810
 #, kde-format
 msgid "You are about to save changes, but the current file format does not support saving the following elements. Please use the <i>Okular document archive</i> format to preserve them. Click <i>Continue</i> to save, but you will lose these elements as well as the undo/redo history."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2796
+#: part/part.cpp:2812
 #, kde-format
 msgid "Continue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2796
+#: part/part.cpp:2812
 #, kde-format
 msgid "Continue losing changes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2824
+#: part/part.cpp:2840
 #, kde-format
 msgid "File could not be saved in '%1'. %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2863
+#: part/part.cpp:2879
 #, kde-format
 msgid ""
 "Okular cannot copy %1 to the specified location.\n"
@@ -5496,135 +5502,135 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2899
+#: part/part.cpp:2915
 #, kde-format
 msgid "File could not be saved in '%1'. Error: '%2'. Try to save it to another location."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3158
+#: part/part.cpp:3174
 #, kde-format
 msgid "Expand Whole Section"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3159
+#: part/part.cpp:3175
 #, kde-format
 msgid "Collapse Whole Section"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3172
+#: part/part.cpp:3188
 #, kde-format
 msgid "Sync Thumbnail with Page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3199
+#: part/part.cpp:3215
 #, kde-format
 msgid "Tools"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3381
+#: part/part.cpp:3398
 #, kde-format
 msgctxt "@action:inmenu menu that contains actions to control text to speach"
 msgid "Speak"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3539
+#: part/part.cpp:3556
 #, kde-format
 msgctxt "@title:window"
 msgid "Print"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3602
+#: part/part.cpp:3619
 #, kde-format
 msgid "Printing this document is not allowed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3615
+#: part/part.cpp:3632
 #, kde-format
 msgid "Could not print the document. Unknown error. Please report to bugs.kde.org"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3617
+#: part/part.cpp:3634
 #, kde-format
 msgid "Could not print the document. Detailed error is \"%1\". Please report to bugs.kde.org"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3706
+#: part/part.cpp:3723
 #, kde-format
 msgid "Go to the place you were before"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3710
+#: part/part.cpp:3727
 #, kde-format
 msgid "Go to the place you were after"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3735
+#: part/part.cpp:3752
 #, kde-format
 msgid "<qt><strong>File Error!</strong> Could not create temporary file <nobr><strong>%1</strong></nobr>.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3747
+#: part/part.cpp:3764
 #, kde-format
 msgid "<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</strong></nobr> for uncompression. The file will not be loaded.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3751
+#: part/part.cpp:3768
 #, kde-format
 msgid "<qt>This error typically occurs if you do not have enough permissions to read the file. You can check ownership and permissions if you right-click on the file in the Dolphin file manager, then choose the 'Properties' option, and select 'Permissions' tab in the opened window.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3773
+#: part/part.cpp:3790
 #, kde-format
 msgid "<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>%1</strong></nobr>. The file will not be loaded.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3777
+#: part/part.cpp:3794
 #, kde-format
 msgid "<qt>This error typically occurs if the file is corrupt. If you want to be sure, try to decompress the file manually using command-line tools.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3803
+#: part/part.cpp:3820
 #, kde-format
 msgid "No Bookmarks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3874
+#: part/part.cpp:3891
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3874 part/part.cpp:3880
+#: part/part.cpp:3891 part/part.cpp:3897
 #, kde-format
 msgid "Share"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3878
+#: part/part.cpp:3895
 #, kde-format
 msgid "Document shared successfully"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3880
+#: part/part.cpp:3897
 #, kde-format
 msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
 msgstr ""
@@ -5638,42 +5644,42 @@ msgstr ""
 
 #. i18n: ectx: Menu (view)
 #. +> trunk6 stable6
-#: part/part.rc:32
+#: part/part.rc:33
 #, kde-format
 msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (go)
 #. +> trunk6 stable6
-#: part/part.rc:53
+#: part/part.rc:54
 #, kde-format
 msgid "&Go"
 msgstr ""
 
 #. i18n: ectx: Menu (tools)
 #. +> trunk6 stable6
-#: part/part.rc:73
+#: part/part.rc:74
 #, kde-format
 msgid "&Tools"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #. +> trunk6 stable6
-#: part/part.rc:102 shell/shell.rc:24
+#: part/part.rc:103 shell/shell.rc:24
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: ectx: ToolBar (annotationToolBar)
 #. +> trunk6 stable6
-#: part/part.rc:123
+#: part/part.rc:124
 #, kde-format
 msgid "Annotation Toolbar"
 msgstr ""
 
 #. i18n: ectx: ToolBar (quickAnnotationToolBar)
 #. +> trunk6 stable6
-#: part/part.rc:147
+#: part/part.rc:148
 #, kde-format
 msgid "Quick Annotation Toolbar"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-23 11:27+0100\n"
+"POT-Creation-Date: 2025-11-25 08:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -57,8 +57,15 @@ msgctxt "@info"
 msgid "Choose an application to open <filename>%1</filename>"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: src/AppChooserDialog.qml:34
+#, kde-format
+msgctxt "Find some more apps that can open this content using the Discover app store"
+msgid "Find More in Discover…"
+msgstr ""
+
+#. +> stable6 stable5
+#: src/AppChooserDialog.qml:35
 #, kde-format
 msgctxt "Find some more apps that can open this content using the Discover app"
 msgid "Find More in Discover"
@@ -142,39 +149,39 @@ msgctxt "@info"
 msgid "No installed applications can open <filename>%1</filename>"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/AppChooserDialog.qml:233
-#, kde-format
-msgctxt "@title:group"
-msgid "Terminal Options"
+#. +> stable6 stable5
+#: src/AppChooserDialog.qml:297
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Don't see the right app? Find more in <link>Discover</link>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:249
+#: src/AppChooserDialog.qml:224
 #, kde-format
 msgctxt "@option:check"
 msgid "Run in terminal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:258
+#: src/AppChooserDialog.qml:232
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not close when command exits"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/AppChooserDialog.qml:271
+#. +> stable6
+#: src/AppChooserDialog.qml:238
+#, kde-format
+msgctxt "@title:group"
+msgid "Terminal Options"
+msgstr ""
+
+#. +> stable6
+#: src/AppChooserDialog.qml:276
 #, kde-format
 msgctxt "@title:group"
 msgid "Discover More Applications"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/AppChooserDialog.qml:292
-#, kde-kuit-format
-msgctxt "@info"
-msgid "Don't see the right app? Find more in <link>Discover</link>."
 msgstr ""
 
 #. +> stable5

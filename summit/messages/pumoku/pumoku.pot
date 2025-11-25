@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pumoku\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-24 09:42+0100\n"
+"POT-Creation-Date: 2025-11-25 08:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,169 +18,175 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:117
-#, kde-format
-msgid "using "
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/GamePage.qml:120
+#: contents/ui/GamePage.qml:119
 #, kde-format
 msgid "There is your solution."
 msgstr ""
 
 #. +> trunk6
+#: contents/ui/GamePage.qml:120
+#, kde-format
+msgid "You gave in after %1 steps"
+msgstr ""
+
+#. +> trunk6
 #: contents/ui/GamePage.qml:121
 #, kde-format
-msgid "You gave in after "
+msgid "Automatically solved. Hints: %1"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:123 contents/ui/GamePage.qml:131
-#, kde-format
-msgid "Hints: "
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/GamePage.qml:126 contents/ui/GamePage.qml:136
+#: contents/ui/GamePage.qml:124 contents/ui/GamePage.qml:134
 #, kde-format
 msgid "Well done!"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:127 contents/ui/GamePage.qml:135
+#: contents/ui/GamePage.qml:125
 #, kde-format
-msgid "You finished this "
+msgid "You finished this %1 suduko (with a bit of help) using %2 steps in"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:127
+#, kde-format
+msgid "Auto pencilmarks used."
 msgstr ""
 
 #. +> trunk6
 #: contents/ui/GamePage.qml:129
 #, kde-format
-msgid "Auto pencilmarks used. "
+msgid "Hints: %1 "
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:134
+#: contents/ui/GamePage.qml:132
 #, kde-format
 msgid "CONGRATULATIONS!!"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:376
+#: contents/ui/GamePage.qml:133
+#, kde-format
+msgid "You finished this %1 suduko with no hints or help using %2 steps in "
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:374
 #, kde-format
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:385
+#: contents/ui/GamePage.qml:383
 #, kde-format
 msgid "Redo"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:394
+#: contents/ui/GamePage.qml:392
 #, kde-format
 msgid "Hint"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:400
+#: contents/ui/GamePage.qml:398
 #, kde-format
 msgid "Solve cell"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:405
+#: contents/ui/GamePage.qml:403
 #, kde-format
 msgid "Set pencilmarks"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:447
+#: contents/ui/GamePage.qml:448
 #, kde-format
 msgid "Pencil"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:455
+#: contents/ui/GamePage.qml:456
 #, kde-format
 msgid "Erase"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:463 contents/ui/Settings.qml:18
+#: contents/ui/GamePage.qml:464 contents/ui/Settings.qml:18
 #, kde-format
 msgid "Game"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:469
+#: contents/ui/GamePage.qml:470
 #, kde-format
 msgid "Reset game"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:473
+#: contents/ui/GamePage.qml:474
 #, kde-format
 msgid "Reset game?"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:474
+#: contents/ui/GamePage.qml:475
 #, kde-format
 msgid "You loose any changes you have made, reset can't be undone."
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:483
+#: contents/ui/GamePage.qml:484
 #, kde-format
 msgid "Clear pencilmarks"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:487
+#: contents/ui/GamePage.qml:488
 #, kde-format
 msgid "Give up"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:491
+#: contents/ui/GamePage.qml:492
 #, kde-format
 msgid "Give up?"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:492
+#: contents/ui/GamePage.qml:493
 #, kde-format
 msgid "Giving up means that you loose any changes you have made, it can't be undone."
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:501
+#: contents/ui/GamePage.qml:502
 #, kde-format
 msgid "Solve game"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:505
+#: contents/ui/GamePage.qml:506
 #, kde-format
 msgid "Are you sure??"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:506
+#: contents/ui/GamePage.qml:507
 #, kde-format
-msgid "you loose any changes you have made, and can't solve the puzzele on your own!"
+msgid "you loose any changes you have made, and can't solve the puzzle on your own!"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:618
+#: contents/ui/GamePage.qml:619
 #, kde-format
-msgid "Another "
+msgid "Another %1"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:622 contents/ui/Main.qml:64
+#: contents/ui/GamePage.qml:623 contents/ui/Main.qml:64
 #, kde-format
 msgid "Main menu"
 msgstr ""
@@ -197,7 +203,7 @@ msgstr ""
 msgid ""
 "Enter or paste a string of 81 characters. 1-9 for given cells, zero or any single non-numeric character except space will do for blanks cells. PuMoKu will check that the sudoku is solvable and calculate the level.\n"
 "\n"
-"Line breaks and spaces are silently removed, so that you can enter one row pr line with some optional whitespace."
+"Line breaks and spaces are silently removed, so that you can enter one row per line with some optional whitespace."
 msgstr ""
 
 #. +> trunk6
@@ -264,7 +270,7 @@ msgstr ""
 #. +> trunk6
 #: contents/ui/MainMenu.qml:21
 #, kde-format
-msgid "Wellcome to PuMoKu"
+msgid "Welcome to PuMoKu"
 msgstr ""
 
 #. +> trunk6
@@ -276,13 +282,13 @@ msgstr ""
 #. +> trunk6
 #: contents/ui/MainMenu.qml:56
 #, kde-format
-msgid "Continue ..."
+msgid "Continue …"
 msgstr ""
 
 #. +> trunk6
 #: contents/ui/MainMenu.qml:63
 #, kde-format
-msgid "Import ..."
+msgid "Import …"
 msgstr ""
 
 #. +> trunk6
@@ -377,47 +383,47 @@ msgid "Wrong values"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:64
+#: main.cpp:70
 #, kde-format
 msgctxt "@title"
 msgid "PuMoKu"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:68
+#: main.cpp:74
 #, kde-format
 msgid "PuMoKu is a classic sudoku game, developed for mobile."
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:72
+#: main.cpp:78
 #, kde-format
 msgid "(c) 2024"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:73
+#: main.cpp:79
 #, kde-format
 msgctxt "@info:credit"
 msgid "Anders Lund"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:73
+#: main.cpp:79
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:74
+#: main.cpp:80
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:74
+#: main.cpp:80
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
