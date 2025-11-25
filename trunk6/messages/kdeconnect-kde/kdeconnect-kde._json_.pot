@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:01+0000\n"
+"POT-Creation-Date: 2025-11-25 00:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: plugins/clipboard/kdeconnect_clipboard.json
 msgctxt "Name"
-msgid "Clipboard"
+msgid "Clipboard synchronization"
 msgstr ""
 
 #: plugins/connectivity-report/kdeconnect_connectivity_report.json
@@ -38,12 +38,12 @@ msgstr ""
 
 #: plugins/contacts/kdeconnect_contacts.json
 msgctxt "Name"
-msgid "Contacts"
+msgid "Sync Contacts"
 msgstr ""
 
 #: plugins/findmyphone/kdeconnect_findmyphone.json
 msgctxt "Name"
-msgid "Ring my phone"
+msgid "Find other devices"
 msgstr ""
 
 #: plugins/findthisdevice/kdeconnect_findthisdevice.json
@@ -53,7 +53,7 @@ msgstr ""
 
 #: plugins/lockdevice/kdeconnect_lockdevice.json
 msgctxt "Name"
-msgid "LockDevice"
+msgid "Lock Device"
 msgstr ""
 
 #: plugins/mmtelephony/kdeconnect_mmtelephony.json
@@ -63,7 +63,7 @@ msgstr ""
 
 #: plugins/mousepad/kdeconnect_mousepad.json
 msgctxt "Name"
-msgid "Virtual input"
+msgid "Receive remote input"
 msgstr ""
 
 #: plugins/mpriscontrol/kdeconnect_mpriscontrol.json
@@ -73,7 +73,7 @@ msgstr ""
 
 #: plugins/mprisremote/kdeconnect_mprisremote.json
 msgctxt "Name"
-msgid "MprisRemote"
+msgid "Send multimedia control commands"
 msgstr ""
 
 #: plugins/notifications/kdeconnect_notifications.json
@@ -98,27 +98,27 @@ msgstr ""
 
 #: plugins/remotecommands/kdeconnect_remotecommands.json
 msgctxt "Name"
-msgid "Host remote commands"
+msgid "Send commands to execute"
 msgstr ""
 
 #: plugins/remotecontrol/kdeconnect_remotecontrol.json
 msgctxt "Name"
-msgid "RemoteControl"
+msgid "Send remote mouse input"
 msgstr ""
 
 #: plugins/remotekeyboard/kdeconnect_remotekeyboard.json
 msgctxt "Name"
-msgid "Remote keyboard from the desktop"
+msgid "Send remote keyboard input"
 msgstr ""
 
 #: plugins/remotesystemvolume/kdeconnect_remotesystemvolume.json
 msgctxt "Name"
-msgid "Remote system volume"
+msgid "Remote volume control"
 msgstr ""
 
 #: plugins/runcommand/kdeconnect_runcommand.json
 msgctxt "Name"
-msgid "Run commands"
+msgid "Execute remote commands"
 msgstr ""
 
 #: plugins/screensaver-inhibit/kdeconnect_screensaver_inhibit.json
@@ -143,12 +143,12 @@ msgstr ""
 
 #: plugins/sms/kdeconnect_sms.json
 msgctxt "Name"
-msgid "SMS"
+msgid "SMS integration"
 msgstr ""
 
 #: plugins/systemvolume/kdeconnect_systemvolume.json
 msgctxt "Name"
-msgid "System volume"
+msgid "Receive volume controls"
 msgstr ""
 
 #: plugins/telephony/kdeconnect_telephony.json
@@ -173,7 +173,7 @@ msgstr ""
 
 #: plugins/battery/kdeconnect_battery.json
 msgctxt "Description"
-msgid "Show your phone battery next to your computer battery"
+msgid "Share the battery status between devices"
 msgstr ""
 
 #: plugins/clipboard/kdeconnect_clipboard.json
@@ -188,7 +188,7 @@ msgstr ""
 
 #: plugins/contacts/kdeconnect_contacts.json
 msgctxt "Description"
-msgid "Synchronize Contacts from the Connected Device to the Desktop"
+msgid "Synchronize contacts from the connected device"
 msgstr ""
 
 #: plugins/findmyphone/kdeconnect_findmyphone.json
@@ -203,7 +203,7 @@ msgstr ""
 
 #: plugins/lockdevice/kdeconnect_lockdevice.json
 msgctxt "Description"
-msgid "Locks your systems"
+msgid "Remotely lock and unlock your screen"
 msgstr ""
 
 #: plugins/mmtelephony/kdeconnect_mmtelephony.json
@@ -224,7 +224,7 @@ msgstr ""
 
 #: plugins/mprisremote/kdeconnect_mprisremote.json
 msgctxt "Description"
-msgid "Control MPRIS services"
+msgid "Control multimedia players from this device"
 msgstr ""
 
 #: plugins/notifications/kdeconnect_notifications.json
@@ -244,7 +244,7 @@ msgstr ""
 
 #: plugins/presenter/kdeconnect_presenter.json
 msgctxt "Description"
-msgid "Use your mobile device to point to things on the screen"
+msgid "Use your mobile device as a presentation pointer"
 msgstr ""
 
 #: plugins/remotecommands/kdeconnect_remotecommands.json
@@ -254,12 +254,12 @@ msgstr ""
 
 #: plugins/remotecontrol/kdeconnect_remotecontrol.json
 msgctxt "Description"
-msgid "Control Remote systems"
+msgid "Use your mouse to send input to another device"
 msgstr ""
 
 #: plugins/remotekeyboard/kdeconnect_remotekeyboard.json
 msgctxt "Description"
-msgid "Use your keyboard to send key-events to your paired device"
+msgid "Use your keyboard to send input to another device"
 msgstr ""
 
 #: plugins/remotesystemvolume/kdeconnect_remotesystemvolume.json
@@ -269,7 +269,7 @@ msgstr ""
 
 #: plugins/runcommand/kdeconnect_runcommand.json
 msgctxt "Description"
-msgid "Execute console commands remotely"
+msgid "Execute predefined commands remotely"
 msgstr ""
 
 #: plugins/screensaver-inhibit/kdeconnect_screensaver_inhibit.json
@@ -291,7 +291,7 @@ msgstr ""
 
 #: plugins/share/kdeconnect_share.json
 msgctxt "Description"
-msgid "Receive and send files, URLs or plain text easily"
+msgid "Receive and send files, URLs, or plain text"
 msgstr ""
 
 #: plugins/sms/kdeconnect_sms.json
@@ -301,7 +301,7 @@ msgstr ""
 
 #: plugins/systemvolume/kdeconnect_systemvolume.json
 msgctxt "Description"
-msgid "Control the system volume from your phone"
+msgid "Enable volume to be controlled from the connected device"
 msgstr ""
 
 #: plugins/virtualmonitor/kdeconnect_virtualmonitor.json
