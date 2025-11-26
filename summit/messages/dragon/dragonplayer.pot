@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dragon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-06 19:23+0100\n"
+"POT-Creation-Date: 2025-11-26 10:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -158,7 +158,16 @@ msgid ""
 "Please <link url=\"%1\">contact the %2 developers</link> about this issue."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/PlayerPage.qml:87
+msgctxt "@info"
+msgid ""
+"Not all video codecs are installed. Video playback support may be less reliable than expected.\n"
+"Please install codecs-extra by running:\n"
+"<para><command>flatpak install org.freedesktop.Platform.codecs-extra//25.08-extra</command></para>"
+msgstr ""
+
+#. +> stable6
 #: src/qml/PlayerPage.qml:86
 msgctxt "@info"
 msgid ""
@@ -168,7 +177,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/PlayerPage.qml:93
+#: src/qml/PlayerPage.qml:94
 msgctxt "@info %2 is the name of a distribution"
 msgid ""
 "Could not locate full support for the H.264 video codec; video playback support may be less reliable than expected.\n"
@@ -179,7 +188,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/PlayerPage.qml:334
+#: src/qml/PlayerPage.qml:335
 msgctxt "@info overlay on top of video. %1 is the amount of time played %2 is the total duration of the video"
 msgid "%1 / %2"
 msgstr ""

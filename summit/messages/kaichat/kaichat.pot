@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 08:52+0100\n"
+"POT-Creation-Date: 2025-11-26 10:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31,46 +31,52 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: apps/main.cpp:65 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:67 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr ""
 
 #. +> trunk6 stable6
-#: apps/main.cpp:67
+#: apps/main.cpp:69
 #, kde-format
 msgid "AI Chat"
 msgstr ""
 
 #. +> trunk6 stable6
-#: apps/main.cpp:69
+#: apps/main.cpp:71
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: apps/main.cpp:70
+#: apps/main.cpp:72
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: apps/main.cpp:70
+#: apps/main.cpp:72
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: apps/main.cpp:89
+#: apps/main.cpp:91
 #, kde-format
 msgid "The following instances are available:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: apps/main.cpp:101
+#: apps/main.cpp:103
 #, kde-format
 msgid "List of Chats:"
+msgstr ""
+
+#. +> trunk6
+#: apps/main.cpp:116
+#, kde-format
+msgid "Plugins:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -87,57 +93,87 @@ msgctxt "@info:shell"
 msgid "Start with specific instance"
 msgstr ""
 
-#. +> trunk6 stable6
-#: core/kaichatcommandlineparser.cpp:26
+#. +> trunk6
+#: core/kaichatcommandlineparser.cpp:25
 #, kde-format
-msgctxt "@info:shell"
-msgid "Create new chat"
+msgid "Instance Name"
 msgstr ""
 
 #. +> trunk6 stable6
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
+msgid "Create new chat"
+msgstr ""
+
+#. +> trunk6
+#: core/kaichatcommandlineparser.cpp:27
+#, kde-format
+msgid "New Chat Title"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/kaichatcommandlineparser.cpp:28
+#, kde-format
+msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/kaichatcommandlineparser.cpp:29
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr ""
 
+#. +> trunk6
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgid "Chat Name"
+msgstr ""
+
 #. +> trunk6 stable6
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: core/kaichatcommandlineparser.cpp:33
+#, kde-format
+msgid "Chat Identifier"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr ""
 
+#. +> trunk6
+#: core/kaichatcommandlineparser.cpp:35
+#, kde-format
+msgid "Message"
+msgstr ""
+
 #. +> trunk6 stable6
-#: core/kaichatcommandlineparser.cpp:34
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr ""
 
 #. +> trunk6
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr ""
 
 #. +> trunk6
-#: core/kaichatcommandlineparser.cpp:37
+#: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
@@ -146,8 +182,27 @@ msgstr ""
 #. +> trunk6
 #: core/kaichatcommandlineparser.cpp:40
 #, kde-format
+msgid "Attachment Url"
+msgstr ""
+
+#. +> trunk6
+#: core/kaichatcommandlineparser.cpp:42
+#, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
+msgstr ""
+
+#. +> trunk6
+#: core/kaichatcommandlineparser.cpp:43
+#, kde-format
+msgid "Tool Name"
+msgstr ""
+
+#. +> trunk6
+#: core/kaichatcommandlineparser.cpp:44
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return plugins info"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -405,7 +460,7 @@ msgid "Open Quick Ask…"
 msgstr ""
 
 #. +> stable6
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:182
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr ""
@@ -431,13 +486,13 @@ msgid "Export Chats"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:385
+#: widgets/kaichatmainwindow.cpp:395
 #, kde-format
 msgid "Model Download Done"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:386
+#: widgets/kaichatmainwindow.cpp:396
 #, kde-format
 msgid "Model %1 was download."
 msgstr ""
