@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-22 10:33+0100\n"
+"POT-Creation-Date: 2025-11-27 09:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -49,14 +49,26 @@ msgctxt "Title of nested KWin Wayland with Wayland socket identifier as argument
 msgid "KDE Wayland Compositor %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: backends/wayland/wayland_output.cpp:517
+#, kde-format
+msgid "- LogicalOutput disabled"
+msgstr ""
+
+#. +> stable6
+#: backends/wayland/wayland_output.cpp:505
 #, kde-format
 msgid "- Output disabled"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: backends/wayland/wayland_output.cpp:519
+#, kde-format
+msgid "- LogicalOutput dimmed"
+msgstr ""
+
+#. +> stable6
+#: backends/wayland/wayland_output.cpp:507
 #, kde-format
 msgid "- Output dimmed"
 msgstr ""

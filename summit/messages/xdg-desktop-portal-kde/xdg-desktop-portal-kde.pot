@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 08:53+0100\n"
+"POT-Creation-Date: 2025-11-27 09:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -655,7 +655,7 @@ msgid "Virtual Output (shared with %1)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/remotedesktop.cpp:286
+#: src/remotedesktop.cpp:289
 #, kde-format
 msgctxt "title of notification about input systems taken over"
 msgid "Remote control session started"
@@ -775,7 +775,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/RemoteDesktopDialog.qml:31 src/ScreenChooserDialog.qml:96
+#: src/RemoteDesktopDialog.qml:31 src/ScreenChooserDialog.qml:76
 #, kde-format
 msgid "Allow restoring on future sessions"
 msgstr ""
@@ -801,7 +801,14 @@ msgctxt "Do not disturb mode is enabled because..."
 msgid "Screen sharing in progress"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: src/screenchooserdialog.cpp:145
+#, kde-format
+msgctxt "@title:window %1 is an application name (e.g. Falkon)"
+msgid "Share screen with %1"
+msgstr ""
+
+#. +> stable6 stable5
 #: src/screenchooserdialog.cpp:145
 #, kde-format
 msgid "Screen Sharing"
@@ -903,22 +910,29 @@ msgstr ""
 msgid "Choose what to share with %1:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: src/ScreenChooserDialog.qml:38
+#. +> trunk6
+#: src/ScreenChooserDialog.qml:54
 #, kde-format
-msgid "Screens"
+msgctxt "@label separator line label between screen selection and window selection"
+msgid "Windows"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: src/ScreenChooserDialog.qml:41
+#. +> stable6 stable5
+#: src/ScreenChooserDialog.qml:42
 #, kde-format
 msgid "Windows"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/ScreenChooserDialog.qml:100
+#: src/ScreenChooserDialog.qml:80
 #, kde-format
 msgid "Share"
+msgstr ""
+
+#. +> stable6 stable5
+#: src/ScreenChooserDialog.qml:39
+#, kde-format
+msgid "Screens"
 msgstr ""
 
 #. +> trunk6 stable6 stable5

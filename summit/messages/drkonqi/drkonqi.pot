@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-22 10:33+0100\n"
+"POT-Creation-Date: 2025-11-27 09:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -215,7 +215,7 @@ msgstr ""
 
 #. i18nc here because that'd close the html tag but we need to append an unordered list of paths
 #. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:409 qml/DeveloperPage.qml:240
+#: backtracewidget.cpp:409 qml/DeveloperPage.qml:265
 #, kde-format
 msgid "The packages containing debug information for the following application and libraries are missing:"
 msgstr ""
@@ -559,28 +559,28 @@ msgid "Use this button to restart the crashed application."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:126
+#: drkonqiwidgetsdialog.cpp:56
 #, kde-format
 msgctxt "@title:tab general information"
 msgid "&General"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:130
+#: drkonqiwidgetsdialog.cpp:60
 #, kde-format
 msgctxt "@title:tab"
 msgid "&Developer Information"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:165
+#: drkonqiwidgetsdialog.cpp:95
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:173
+#: drkonqiwidgetsdialog.cpp:103
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -590,7 +590,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:183
+#: drkonqiwidgetsdialog.cpp:113
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -599,7 +599,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:192
+#: drkonqiwidgetsdialog.cpp:122
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -608,7 +608,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:201 qml/main.qml:64
+#: drkonqiwidgetsdialog.cpp:131 qml/main.qml:64
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -617,24 +617,31 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:208 qml/main.qml:26
+#: drkonqiwidgetsdialog.cpp:138 qml/main.qml:26
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>You cannot report this error, because <application>%1</application> does not provide a bug reporting address.</para>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:216
+#: drkonqiwidgetsdialog.cpp:146
 #, kde-format
 msgctxt "@label"
 msgid "Details:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:220
+#: drkonqiwidgetsdialog.cpp:150
 #, kde-kuit-format
 msgctxt "@info Note the time information is divided into date and time parts"
 msgid "<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) Time: %5 %6</para>"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: drkonqiwidgetsdialog.cpp:179
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close this dialog (you will lose the crash information.)"
 msgstr ""
 
 #. +> stable5
@@ -642,13 +649,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button this is the debug menu button label which contains the debugging applications"
 msgid "&Debug"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:249
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Close this dialog (you will lose the crash information.)"
 msgstr ""
 
 #. +> stable5
@@ -666,7 +666,7 @@ msgid "Debug in %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:155
+#: main.cpp:156
 #, kde-format
 msgid "Crash Handler"
 msgstr ""
@@ -678,7 +678,7 @@ msgid "The KDE Crash Handler"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:157
+#: main.cpp:158
 #, kde-format
 msgid "Crash Handler gives the user feedback if a program has crashed."
 msgstr ""
@@ -690,139 +690,139 @@ msgid "The KDE Crash Handler gives the user feedback if a program has crashed."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:160
-#, kde-format
-msgid "(C) 2000-2018, The DrKonqi Authors"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
 #: main.cpp:161
 #, kde-format
-msgctxt "@info:credit"
-msgid "Hans Petter Bieker"
+msgid "(C) 2000-2018, The DrKonqi Authors"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:162
 #, kde-format
 msgctxt "@info:credit"
-msgid "Dario Andres Rodriguez"
+msgid "Hans Petter Bieker"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:163
 #, kde-format
 msgctxt "@info:credit"
-msgid "George Kiagiadakis"
+msgid "Dario Andres Rodriguez"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:164
 #, kde-format
 msgctxt "@info:credit"
-msgid "A. L. Spehr"
+msgid "George Kiagiadakis"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:171
+#: main.cpp:165
 #, kde-format
-msgctxt "@info:shell"
-msgid "The signal <number> that was caught"
+msgctxt "@info:credit"
+msgid "A. L. Spehr"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:172
 #, kde-format
 msgctxt "@info:shell"
-msgid "<Name> of the program"
+msgid "The signal <number> that was caught"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:173
 #, kde-format
 msgctxt "@info:shell"
-msgid "<Path> to the executable"
+msgid "<Name> of the program"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:174
 #, kde-format
 msgctxt "@info:shell"
-msgid "The <version> of the program"
+msgid "<Path> to the executable"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:175
 #, kde-format
 msgctxt "@info:shell"
-msgid "The bug <address> to use"
+msgid "The <version> of the program"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:176
 #, kde-format
 msgctxt "@info:shell"
-msgid "Translated <name> of the program"
+msgid "The bug <address> to use"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:177
 #, kde-format
 msgctxt "@info:shell"
-msgid "Bugzilla product name"
+msgid "Translated <name> of the program"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:178
 #, kde-format
 msgctxt "@info:shell"
-msgid "The <PID> of the program"
+msgid "Bugzilla product name"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:179
 #, kde-format
 msgctxt "@info:shell"
-msgid "Startup <ID> of the program"
+msgid "The <PID> of the program"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:180
 #, kde-format
 msgctxt "@info:shell"
-msgid "The program was started by kdeinit"
+msgid "Startup <ID> of the program"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:181
 #, kde-format
 msgctxt "@info:shell"
-msgid "Disable arbitrary disk access"
+msgid "The program was started by kdeinit"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:182
 #, kde-format
 msgctxt "@info:shell"
+msgid "Disable arbitrary disk access"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:183
+#, kde-format
+msgctxt "@info:shell"
 msgid "The program has already been restarted"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:185
+#: main.cpp:186
 #, kde-format
 msgctxt "@info:shell"
 msgid "Keep the program running and generate the backtrace at startup"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:187
+#: main.cpp:188
 #, kde-format
 msgctxt "@info:shell"
 msgid "The <thread id> of the failing thread"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:188
+#: main.cpp:189
 #, kde-format
 msgctxt "@info:shell"
 msgid "Do not show a notification but launch the debug dialog directly"
@@ -943,7 +943,7 @@ msgid "Custom settings of the application that may be related"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/ContextPage.qml:85 qml/DeveloperPage.qml:233
+#: qml/ContextPage.qml:85 qml/DeveloperPage.qml:258
 msgctxt "@title"
 msgid "Not Sufficiently Useful"
 msgstr ""
@@ -1044,7 +1044,7 @@ msgid "Retry"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:193
+#: qml/DeveloperPage.qml:218
 msgctxt "@info/rich"
 msgid ""
 "Click the <interface>Install Debug Symbols</interface> button in order to automatically install the missing debugging information packages. If this method\n"
@@ -1062,7 +1062,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:201
+#: qml/DeveloperPage.qml:226
 msgctxt "@info/rich"
 msgid ""
 "Read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace, install the needed packages\n"
@@ -1078,13 +1078,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:208
+#: qml/DeveloperPage.qml:233
 msgctxt "@info/rich"
 msgid "Try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:212
+#: qml/DeveloperPage.qml:237
 msgctxt "@info/rich"
 msgid "<emphasis strong='true'>First install the debugger application (%1), then click the <interface>Reload</interface> button.</emphasis>"
 msgstr ""
@@ -1096,7 +1096,7 @@ msgid "<emphasis strong='true'>You need to first install the debugger applicatio
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:216
+#: qml/DeveloperPage.qml:241
 msgctxt "@info/rich"
 msgid "The backtrace generation was stopped due to memory pressure. You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
 msgstr ""

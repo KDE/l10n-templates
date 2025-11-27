@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 10:42+0100\n"
+"POT-Creation-Date: 2025-11-27 09:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2649,16 +2649,16 @@ msgstr ""
 msgid "left the room"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/libneochat/eventhandler.cpp:392
 #, kde-format
-msgid "has put %1 out of the room: %2"
+msgid "has removed %1 from the room: %2"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/libneochat/eventhandler.cpp:394
 #, kde-format
-msgid "has put %1 out of the room"
+msgid "has removed %1 from the room"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2993,6 +2993,18 @@ msgstr ""
 #: src/libneochat/eventhandler.cpp:621
 #, kde-format
 msgid "%1 put a user out of the room"
+msgstr ""
+
+#. +> stable6
+#: src/libneochat/eventhandler.cpp:392
+#, kde-format
+msgid "has put %1 out of the room: %2"
+msgstr ""
+
+#. +> stable6
+#: src/libneochat/eventhandler.cpp:394
+#, kde-format
+msgid "has put %1 out of the room"
 msgstr ""
 
 #. +> trunk6 stable6
