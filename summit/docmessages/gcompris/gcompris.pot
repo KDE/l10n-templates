@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-11 12:19+0200\n"
+"POT-Creation-Date: 2025-11-29 10:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1092,37 +1092,51 @@ msgstr ""
 msgid "Use openGL renderer instead of software (faster and more graphical effects but can crash with some graphical cards). Deprecated, use --renderer=opengl instead."
 msgstr ""
 
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:332
+#, no-c-format
+msgid "--locale=locale"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:333
+#, no-c-format
+msgid "Run &gcompris; with the specified locale."
+msgstr ""
+
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:336
+#: index.docbook:340
 #, no-c-format
 msgid "&Windows; Example"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:337
+#: index.docbook:341
 #, no-c-format
 msgid "You can add these switches in the desktop icon properties. Here is an example that runs &gcompris; in kiosk mode in full screen, without Configuration button and cursor:"
 msgstr ""
 
 #. Tag: command
 #. +> trunk6 stable6
-#: index.docbook:338
+#: index.docbook:342
 #, no-c-format
 msgid "\"C:\\Program Files\\GCompris-Qt\\bin\\GCompris.exe\" --enable-kioskmode -f -C"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:342
+#: index.docbook:346
 #, no-c-format
 msgid "&GNU;/&Linux; Example"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:343
+#: index.docbook:347
 #, no-c-format
 msgid "Create an application launcher and configure the command line parameters. Here is an example that runs &gcompris; in kiosk mode in fullscreen, without Configuration button and cursor:"
 msgstr ""
@@ -1136,28 +1150,28 @@ msgstr ""
 
 #. Tag: command
 #. +> trunk6 stable6
-#: index.docbook:344
+#: index.docbook:348
 #, no-c-format
 msgid "gcompris-qt --enable-kioskmode -f -C"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:352
+#: index.docbook:356
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:354
+#: index.docbook:358
 #, no-c-format
 msgid "&gcompris;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:357
+#: index.docbook:361
 #, no-c-format
 msgid "Program copyright © 2000–2025 Timothée Giet and others"
 msgstr ""
@@ -1171,14 +1185,14 @@ msgstr ""
 
 #. Tag: trans_comment
 #. +> trunk6 stable6
-#: index.docbook:361
+#: index.docbook:365
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
 #. +> trunk6 stable6
-#: index.docbook:361
+#: index.docbook:365
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
