@@ -1,0 +1,839 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-01 00:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:19
+#, no-c-format
+msgid "The GCompris Teachers Administration Handbook"
+msgstr ""
+
+#. Tag: personname
+#: index.docbook:23
+#, no-c-format
+msgid "<firstname>Johnny</firstname> <surname>Jazeix</surname>"
+msgstr ""
+
+#. Tag: personname
+#: index.docbook:29
+#, no-c-format
+msgid "<firstname>Timothée</firstname> <surname>Giet</surname>"
+msgstr ""
+
+#. Tag: othername
+#: index.docbook:36
+#, no-c-format
+msgid "The &gcompris; Team"
+msgstr ""
+
+#. Tag: contrib
+#: index.docbook:37
+#, no-c-format
+msgid "Developers"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:40
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:49
+#, no-c-format
+msgid "2025-11-30"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:54
+#, no-c-format
+msgid "26.0"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:59
+#, no-c-format
+msgid ""
+"GCompris is a multi-activity educational software. This documentation is for "
+"the gcompris-teachers administration tool we provide."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:65
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:66
+#, no-c-format
+msgid "education"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:67
+#, no-c-format
+msgid "children"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:68
+#, no-c-format
+msgid "games"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:74
+#, no-c-format
+msgid "Overview"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid "The goal of gcompris-teachers is to enable teachers to:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:79
+#, no-c-format
+msgid "create and manage pupils groups."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:80
+#, no-c-format
+msgid "create specific work plans."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:81
+#, no-c-format
+msgid "connect and send a work plan to pupils."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:82
+#, no-c-format
+msgid "visualize the work results per group and pupil."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid "analyse pupils answers."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:87
+#, no-c-format
+msgid "Specifications"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:88
+#, no-c-format
+msgid ""
+"The following section describes the different screens implementing these "
+"functionalities."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:93
+#, no-c-format
+msgid "Main screen overview"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:94
+#, no-c-format
+msgid "The main screen allows to access:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:98
+#, no-c-format
+msgid "Dashboard page."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:99
+#, no-c-format
+msgid "Manage pupils page."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:100
+#, no-c-format
+msgid "Connect devices page."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:101
+#, no-c-format
+msgid "Follow activities results page ."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:102
+#, no-c-format
+msgid "Manage datasets page."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:103
+#, no-c-format
+msgid "Display results as charts page."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:104
+#, no-c-format
+msgid "Settings page."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:105
+#, no-c-format
+msgid ""
+"The Development (WIP) page only used for debug purposes and won’t be "
+"described here."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:107
+#, no-c-format
+msgid ""
+"By default the Dashboard page is shown, containing the login dialog, and the "
+"side menu bar to access the other pages is hidden until a teacher account is "
+"logged in."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:116
+#, no-c-format
+msgid "main_screen"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:120
+#, no-c-format
+msgid ""
+"A button to show/hide the title of the buttons in the side menu bar (the "
+"sandwich icon) allows to save some space once the user knows the meaning of "
+"each icon."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:128
+#, no-c-format
+msgid "main_screen_hamburger"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:134
+#, no-c-format
+msgid "Dashboard - Login dialog"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:135
+#, no-c-format
+msgid ""
+"To create a new teacher login and database, input the name and the password. "
+"You’ll then be able to choose if you want to encrypt the database (to avoid "
+"anyone to read it without the password)."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:144
+#, no-c-format
+msgid "main_screen_create_db"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:150
+#, no-c-format
+msgid "Manage groups and pupils"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:151
+#, no-c-format
+msgid ""
+"This page allows to create the different pupils and groups for your class."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:158
+#, no-c-format
+msgid "pupils_groups"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:163
+#, no-c-format
+msgid "Create a group"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:164
+#, no-c-format
+msgid ""
+"Click on the <quote>Add a group</quote> button on the bottom right and in "
+"the dialog fill the <quote>Name</quote> and optionally the "
+"<quote>Description</quote>."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:173
+#, no-c-format
+msgid "group_add"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:179
+#, no-c-format
+msgid "Modify a group name or Delete it"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:180
+#, no-c-format
+msgid ""
+"To edit or delete a group, hover it on the group list and the <quote>Edit</"
+"quote> and <quote>Delete</quote> buttons will appear. <mediaobject> "
+"<imageobject> <imagedata fileref=\"images/group_delete_button.png\"/> </"
+"imageobject> <textobject> <phrase>group_delete_button</phrase> </textobject> "
+"</mediaobject> Clicking on the <quote>Delete</quote> button will allow you "
+"to delete the group. Note that the pupils will be removed from the groups "
+"but not deleted from the database. If you want to remove pupils, follow the "
+"next section."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:200
+#, no-c-format
+msgid "group_delete_confirmation"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:206
+#, no-c-format
+msgid "Create a single pupil"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid ""
+"Click on <quote>Add a pupil</quote> to create a new pupil in the database. "
+"There, you can set the pupil's name and the password to connect from the "
+"clients. You can also directly add them in pre-existing groups."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:216
+#, no-c-format
+msgid "pupil_create"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:222
+#, no-c-format
+msgid "Create several pupils using csv strings / Export pupils to a file"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:224
+#, no-c-format
+msgid "You can directly import a list of pupils using a csv file."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:231
+#, no-c-format
+msgid "pupil_import"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:235
+#, no-c-format
+msgid "Exporting a list of pupils is also possible:"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:241
+#, no-c-format
+msgid "pupil_export_csv"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:247
+#, no-c-format
+msgid "Managing pupils"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:248
+#, no-c-format
+msgid ""
+"The interface also proposes buttons to edit pupils, add or remove them from "
+"groups."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:255
+#, no-c-format
+msgid "pupil_add_to_group"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:262
+#, no-c-format
+msgid "pupil_remove_from_group"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:266
+#, no-c-format
+msgid ""
+"You can also delete pupils. Note that deleting a pupil does not delete its "
+"group."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:273
+#, no-c-format
+msgid "pupil_delete"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:280
+#, no-c-format
+msgid "Connect devices"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:281
+#, no-c-format
+msgid ""
+"Once the database is ready, it’s now time to communicate with the different "
+"clients. The <quote>Connect devices</quote> page shows the different groups "
+"and pupils. By default, no group is selected so all the pupils are visible. "
+"Selecting a group will filter the visible pupils to only work with this "
+"specific group."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:292
+#, no-c-format
+msgid "connect_devices"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:297
+#, no-c-format
+msgid "Configuration of the server and client devices"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:298
+#, no-c-format
+msgid ""
+"The teacher needs to configure the server and client devices they want to "
+"connect to before being able to connect. All the devices need to be "
+"connected on the same local network. On the server, go to the "
+"<quote>Settings</quote> page and choose a unique <quote>Server ID</quote> "
+"(at least unique for the local network) and a <quote>Port</quote> (if you "
+"don’t know, keep the default one)."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:309 index.docbook:590
+#, no-c-format
+msgid "settings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:313
+#, no-c-format
+msgid ""
+"On GCompris devices side, go to the <quote>Configuration</quote> page from "
+"the main menu, and scroll to the bottom to find the <quote>Teacher’s server "
+"config</quote> button. <mediaobject> <imageobject> <imagedata fileref="
+"\"images/gcompris_teacher_config_button.png\"/> </imageobject> <textobject> "
+"<phrase>gcompris_teacher_config_button</phrase> </textobject> </mediaobject> "
+"After clicking it, make sure to have the same settings as the server: "
+"<mediaobject> <imageobject> <imagedata fileref=\"images/"
+"gcompris_teacher_settings.png\"/> </imageobject> <textobject> "
+"<phrase>gcompris_teacher_settings</phrase> </textobject> </mediaobject> "
+"Also, if the device running the server or the client has a firewall, make "
+"sure to open the chosen port in the firewall configuration to let the "
+"devices communicate."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:338
+#, no-c-format
+msgid "Daily connection workflow"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:339
+#, no-c-format
+msgid ""
+"The connection workflow is the following: <emphasis>The teacher asks the "
+"pupils to switch on their devices and start GCompris, and then from the "
+"<quote>Connect devices</quote> page press the <quote>Connect devices</quote> "
+"button.</emphasis> On the client devices, a dialog will appear asking "
+"confirmation to connect to the server. Note that client devices need to be "
+"on the GCompris main menu, not on any activity or configuration page."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:350
+#, no-c-format
+msgid "gcompris_connect"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:354
+#, no-c-format
+msgid ""
+"After confirmation from the pupils, the teacher selects which logins they "
+"want to send from the <quote>Pupils</quote> list and press <quote>Send login "
+"list</quote>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:358
+#, no-c-format
+msgid ""
+"The client devices will display a new dialog allowing to select the login "
+"they want."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:365
+#, no-c-format
+msgid "gcompris_select_login"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:369
+#, no-c-format
+msgid "Once confirmed, a second dialog will open to enter the password."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:375
+#, no-c-format
+msgid "gcompris_password"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:379
+#, no-c-format
+msgid ""
+"If the password is correct, the client will see a green button on the bar "
+"indicating a successful connection."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:386
+#, no-c-format
+msgid "gcompris_connect_ok"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:390
+#, no-c-format
+msgid "And the server will receive a notification:"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:396
+#, no-c-format
+msgid "connect_devices_password_correct_incorrect"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:402
+#, no-c-format
+msgid "The different colors are:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:405
+#, no-c-format
+msgid "Green: connected"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:406
+#, no-c-format
+msgid "Red: wrong password"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:407
+#, no-c-format
+msgid ""
+"Grey: disconnected (it was connected at some point but got disconnected)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:409
+#, no-c-format
+msgid "Transparent: nobody tried to connect using this login."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:416
+#, no-c-format
+msgid "connect_devices_password_disconnected_not_connected"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:423
+#, no-c-format
+msgid "Activities"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:424
+#, no-c-format
+msgid ""
+"This page allows to display the different results filtered by date, groups, "
+"pupils and activities."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:431
+#, no-c-format
+msgid "activities"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:435
+#, no-c-format
+msgid ""
+"The following image shows the results for the <quote>Vertical subtraction</"
+"quote> activity (each activity which handles sending data to the server has "
+"its own visualisation). <mediaobject> <imageobject> <imagedata fileref="
+"\"images/activities_results.png\"/> </imageobject> <textobject> "
+"<phrase>activities_results</phrase> </textobject> </mediaobject> We can see "
+"the pupil entered an incorrect answer on the first try and a correct answer "
+"on the second try, and the answers details to spot the errors."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:452
+#, no-c-format
+msgid "Datasets"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:453
+#, no-c-format
+msgid ""
+"The datasets page allows teachers to create/update/delete specific datasets "
+"for the activities to target specific needs, and send/remove them to/from "
+"the clients."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:461
+#, no-c-format
+msgid "datasets"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:465
+#, no-c-format
+msgid ""
+"One limitation for now is that only activities following the GCompris "
+"dataset format can be edited (so no <quote>Grammatical classes</quote> or "
+"<quote>Falling words</quote> for example). You can find the list of "
+"supported activities (which can send data or have a dataset editor) on this "
+"page of our development wiki: <ulink url=\"https://invent.kde.org/education/"
+"gcompris/-/wikis/Teacher-administration-tool#supported-activities\"></ulink>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:473
+#, no-c-format
+msgid ""
+"Here is an example for the <quote>Binary Bulb</quote> activity. The common "
+"part of all activity editors contains fields to enter the dataset name, the "
+"goal and the difficulty. Then, each activity will have a specific editor."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:482
+#, no-c-format
+msgid "dataset_create_update"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:486
+#, no-c-format
+msgid ""
+"The <quote>Instructions</quote> button on the bottom left is provided to "
+"give some specific information about how to fill the dataset when needed."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:494
+#, no-c-format
+msgid "dataset_instructions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:498
+#, no-c-format
+msgid ""
+"If you want to delete a dataset: select it, press the <quote>Remove dataset</"
+"quote> button and confirm in the following dialog:"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:506
+#, no-c-format
+msgid "dataset_delete"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:510
+#, no-c-format
+msgid ""
+"If you have clients connected, you may want to send them a specific dataset "
+"to be available on their side. Select the dataset and press the <quote>Send "
+"to clients</quote> button. The list of all the connected clients will be "
+"displayed and you will be able to select which will receive it."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:520
+#, no-c-format
+msgid "dataset_send_client"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:525
+#, no-c-format
+msgid "Specific activities for the server"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:526
+#, no-c-format
+msgid ""
+"We have created the <quote>Multiple-choice questions</quote> activity that "
+"is only visible when the device contains datasets for it. This activity "
+"allows teachers to create multiple-choice questionnaires on any topic."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:535
+#, no-c-format
+msgid "gcompris_multiple-choice_questions"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:542
+#, no-c-format
+msgid "Charts"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:543
+#, no-c-format
+msgid ""
+"The Charts page is similar to the Activities page and allows to display the "
+"different results filtered by date, groups, pupils and activities as charts."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:551
+#, no-c-format
+msgid "charts"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:555
+#, no-c-format
+msgid ""
+"For now, the visualization is really limited but will be improved depending "
+"on teachers feedback. After clicking on an activity on the chart, there is a "
+"view similar to what is shown on the Activities page. If the <quote>Pupils</"
+"quote> tab is selected, you can see all the results for a specific pupil: "
+"<mediaobject> <imageobject> <imagedata fileref=\"images/"
+"charts_view_results_pupil.png\"/> </imageobject> <textobject> "
+"<phrase>charts_view_results_pupil</phrase> </textobject> </mediaobject> If "
+"the <quote>Activities</quote> tab is selected, you can see all the results "
+"for a specific activity:"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:575
+#, no-c-format
+msgid "charts_view_results_activity"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:581
+#, no-c-format
+msgid "Settings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:582
+#, no-c-format
+msgid ""
+"The settings page allows to customize the interface and get some information "
+"on the current database and session."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:599
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:601
+#, no-c-format
+msgid "&gcompris;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:604
+#, no-c-format
+msgid "Program copyright © 2000–2025 Timothée Giet and others"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:608
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:608
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""
