@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-30 12:08+0100\n"
+"POT-Creation-Date: 2025-12-01 10:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -9476,9 +9476,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, shutterOpen)
 #. +> trunk5
 #: ekos/align/opsastrometryindexfiles.ui:276
-#: ekos/observatory/observatory.cpp:416 ekos/observatory/observatory.cpp:459
-#: ekos/observatory/observatory.cpp:463 ekos/observatory/observatory.cpp:575
-#: ekos/observatory/observatory.ui:673
+#: ekos/observatory/observatory.cpp:459 ekos/observatory/observatory.cpp:463
+#: ekos/observatory/observatory.cpp:575 ekos/observatory/observatory.ui:673
 #, kde-format
 msgid "Open"
 msgstr ""
@@ -15380,10 +15379,10 @@ msgid "Use the frame exposure value"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, captureCalibrationDurationManual)
-#. i18n: ectx: property (text), widget (QPushButton, helpB)
 #. +> trunk5
-#: ekos/capture/calibrationoptions.ui:159 ekos/manager.ui:1062
+#: ekos/capture/calibrationoptions.ui:159
 #, kde-format
+msgctxt "manual flat field ADU"
 msgid "Manual"
 msgstr ""
 
@@ -26086,6 +26085,14 @@ msgstr ""
 msgid "  --"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, helpB)
+#. +> trunk5
+#: ekos/manager.ui:1062
+#, kde-format
+msgctxt "opens handbook"
+msgid "Manual"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, ekosOptionsB)
 #. +> trunk5
 #: ekos/manager.ui:1069
@@ -26879,6 +26886,13 @@ msgstr ""
 #: ekos/observatory/observatory.cpp:410
 #, kde-format
 msgid "Unparked"
+msgstr ""
+
+#. +> trunk5
+#: ekos/observatory/observatory.cpp:416
+#, kde-format
+msgctxt "Rolloff roof state"
+msgid "Open"
 msgstr ""
 
 #. +> trunk5
