@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-01 10:36+0100\n"
+"POT-Creation-Date: 2025-12-02 10:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -473,6 +473,30 @@ msgstr ""
 #: core/apps/appsmarketplaceinfo.cpp:675
 #, kde-format
 msgid "Allow to read oauth app settings"
+msgstr ""
+
+#. +> trunk6
+#: core/apps/appsmarketplaceinfo.cpp:677
+#, kde-format
+msgid "Allow to write video conference settings"
+msgstr ""
+
+#. +> trunk6
+#: core/apps/appsmarketplaceinfo.cpp:679
+#, kde-format
+msgid "Allow to read video conference settings"
+msgstr ""
+
+#. +> trunk6
+#: core/apps/appsmarketplaceinfo.cpp:681
+#, kde-format
+msgid "Allow to change video conference provider settings"
+msgstr ""
+
+#. +> trunk6
+#: core/apps/appsmarketplaceinfo.cpp:683
+#, kde-format
+msgid "Allow to register button"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -8448,7 +8472,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/common/authenticationloginwidget.cpp:162
-#: widgets/ruqolamainwindow.cpp:1103
+#: widgets/ruqolamainwindow.cpp:1104
 #, kde-format
 msgid ""
 "We have sent you an email to confirm your registration.\n"
@@ -8457,7 +8481,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/common/authenticationloginwidget.cpp:163
-#: widgets/ruqolamainwindow.cpp:1104
+#: widgets/ruqolamainwindow.cpp:1105
 #, kde-format
 msgctxt "@title:window"
 msgid "Register New User"
@@ -11582,65 +11606,16 @@ msgid "Debug"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:122
-#, kde-format
-msgctxt "@title:window"
-msgid "Open Attachment?"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:123
-#, kde-kuit-format
-msgctxt "@info"
-msgid "Open attachment <filename>%1</filename>?<nl/>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:127
-#, kde-format
-msgctxt "@action:button"
-msgid "Open"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:130
-#, kde-format
-msgctxt "@action:button"
-msgid "&Open With '%1'"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:133
-#, kde-format
-msgctxt "@action:button"
-msgid "Open &With…"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:135
-#, kde-format
-msgctxt "@action:button"
-msgid "Save &As…"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:179
+#: widgets/room/delegate/messageattachmentdelegatehelperopenfilejob.cpp:76
 #, kde-format
 msgid "Impossible to open %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:179
+#: widgets/room/delegate/messageattachmentdelegatehelperopenfilejob.cpp:76
 #, kde-format
 msgctxt "@title:window"
 msgid "Error Opening File"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:195
-#, kde-format
-msgctxt "@title:window"
-msgid "Save File"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -12865,34 +12840,34 @@ msgid "Show Channel Log"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/ruqolamainwindow.cpp:1175
+#: widgets/ruqolamainwindow.cpp:1176
 #, kde-format
 msgctxt "@item:inmenu Instant message presence status"
 msgid "Status"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/ruqolamainwindow.cpp:1262
+#: widgets/ruqolamainwindow.cpp:1263
 #, kde-format
 msgid "<qt>This will hide the menu bar completely. You can show it again by typing %1.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/ruqolamainwindow.cpp:1265
+#: widgets/ruqolamainwindow.cpp:1266
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr ""
 
 #. +> trunk6
-#: widgets/ruqolamainwindow.cpp:1439
+#: widgets/ruqolamainwindow.cpp:1440
 #, kde-format
 msgctxt "@action"
 msgid "Work Online"
 msgstr ""
 
 #. +> trunk6
-#: widgets/ruqolamainwindow.cpp:1442
+#: widgets/ruqolamainwindow.cpp:1443
 #, kde-format
 msgctxt "@action"
 msgid "Work Offline"
@@ -13894,6 +13869,55 @@ msgstr ""
 #: widgets/needupdateversion/needupdateversionwidget.cpp:47
 #, kde-format
 msgid "Your version is older than 1 year, we strongly encourage you to upgrade."
+msgstr ""
+
+#. +> stable6
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:117
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Attachment?"
+msgstr ""
+
+#. +> stable6
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:118
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Open attachment <filename>%1</filename>?<nl/>"
+msgstr ""
+
+#. +> stable6
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:122
+#, kde-format
+msgctxt "@action:button"
+msgid "Open"
+msgstr ""
+
+#. +> stable6
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:125
+#, kde-format
+msgctxt "@action:button"
+msgid "&Open With '%1'"
+msgstr ""
+
+#. +> stable6
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:128
+#, kde-format
+msgctxt "@action:button"
+msgid "Open &With…"
+msgstr ""
+
+#. +> stable6
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:130
+#, kde-format
+msgctxt "@action:button"
+msgid "Save &As…"
+msgstr ""
+
+#. +> stable6
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:190
+#, kde-format
+msgctxt "@title:window"
+msgid "Save File"
 msgstr ""
 
 #. +> stable6
