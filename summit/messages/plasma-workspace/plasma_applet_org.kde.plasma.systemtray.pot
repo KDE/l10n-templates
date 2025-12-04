@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-03 10:33+0100\n"
+"POT-Creation-Date: 2025-12-04 09:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29,28 +29,32 @@ msgstr ""
 msgid "Entries"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: package/contents/ui/ConfigGeneral.qml:43
 #, kde-format
-msgid "Shown when relevant"
+msgctxt "@item:inlistbox Show this System Tray item when relevant"
+msgid "Show when relevant"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: package/contents/ui/ConfigGeneral.qml:47
 #, kde-format
-msgid "Always shown"
+msgctxt "@item:inlistbox Always show this System Tray item"
+msgid "Always show"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: package/contents/ui/ConfigGeneral.qml:51
 #, kde-format
-msgid "Always hidden"
+msgctxt "@item:inlistbox Show this System Tray item only in the expanded popup"
+msgid "Show only in popup"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: package/contents/ui/ConfigGeneral.qml:55
 #, kde-format
-msgid "Disabled"
+msgctxt "@item:inlistbox Never show this System Tray item; disable it"
+msgid "Never show (disabled)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -283,6 +287,30 @@ msgstr ""
 #, kde-format
 msgctxt "Some letters with tall characters, ascenders, descenders, etc"
 msgid "AILlmyjgGJP"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ConfigEntries.qml:39
+#, kde-format
+msgid "Shown when relevant"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ConfigEntries.qml:43
+#, kde-format
+msgid "Always shown"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ConfigEntries.qml:47
+#, kde-format
+msgid "Always hidden"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ConfigEntries.qml:51
+#, kde-format
+msgid "Disabled"
 msgstr ""
 
 #. +> stable6
