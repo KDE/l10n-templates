@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-04 09:40+0100\n"
+"POT-Creation-Date: 2025-12-05 10:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,77 +18,95 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/config/config.qml:13
+#: qml/config.qml:13
 #, kde-format
 msgid "General"
 msgstr ""
 
 #. +> stable6 stable5
-#: package/contents/config/config.qml:18
+#: package/contents/ui/ConfigEntries.qml:39
 #, kde-format
-msgid "Entries"
+msgid "Shown when relevant"
 msgstr ""
 
 #. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:43
+#: qml/ConfigGeneral.qml:43
 #, kde-format
 msgctxt "@item:inlistbox Show this System Tray item when relevant"
 msgid "Show when relevant"
 msgstr ""
 
+#. +> stable6 stable5
+#: package/contents/ui/ConfigEntries.qml:43
+#, kde-format
+msgid "Always shown"
+msgstr ""
+
 #. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:47
+#: qml/ConfigGeneral.qml:47
 #, kde-format
 msgctxt "@item:inlistbox Always show this System Tray item"
 msgid "Always show"
 msgstr ""
 
+#. +> stable6 stable5
+#: package/contents/ui/ConfigEntries.qml:47
+#, kde-format
+msgid "Always hidden"
+msgstr ""
+
 #. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:51
+#: qml/ConfigGeneral.qml:51
 #, kde-format
 msgctxt "@item:inlistbox Show this System Tray item only in the expanded popup"
 msgid "Show only in popup"
 msgstr ""
 
+#. +> stable6 stable5
+#: package/contents/ui/ConfigEntries.qml:51
+#, kde-format
+msgid "Disabled"
+msgstr ""
+
 #. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:55
+#: qml/ConfigGeneral.qml:55
 #, kde-format
 msgctxt "@item:inlistbox Never show this System Tray item; disable it"
 msgid "Never show (disabled)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:126
+#: qml/ConfigGeneral.qml:126
 #, kde-format
 msgid "Application Status"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:128
+#: qml/ConfigGeneral.qml:128
 #, kde-format
 msgid "Communications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:130
+#: qml/ConfigGeneral.qml:130
 #, kde-format
 msgid "System Services"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:132
+#: qml/ConfigGeneral.qml:132
 #, kde-format
 msgid "Hardware Control"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:135
+#: qml/ConfigGeneral.qml:135
 #, kde-format
 msgid "Miscellaneous"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigGeneral.qml:172
+#: qml/ConfigGeneral.qml:172
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -98,14 +116,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigGeneral.qml:175
+#: qml/ConfigGeneral.qml:175
 #, kde-format
 msgctxt "@action:button"
 msgid "I understand the risks"
 msgstr ""
 
 #. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:187
+#: qml/ConfigGeneral.qml:187
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -115,7 +133,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:196
+#: qml/ConfigGeneral.qml:196
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -124,8 +142,18 @@ msgid ""
 "Only do this if you’ve manually added a standalone Notifications widget somewhere else, or are intentionally using a 3rd-party notification manager to handle notifications."
 msgstr ""
 
+#. +> stable6
+#: package/contents/ui/ConfigEntries.qml:189
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the clipboard is not recommended, as it will cause copied data to be lost when the application it was copied from is closed.<nl/>"
+"<nl/>"
+"Instead consider configuring the clipboard to disable its history, or only remember one item at a time."
+msgstr ""
+
 #. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:208
+#: qml/ConfigGeneral.qml:208
 #, kde-format
 msgctxt "@item:inlistbox Icon size"
 msgid "Scale with Panel height"
@@ -138,7 +166,7 @@ msgid "Scale with Panel height"
 msgstr ""
 
 #. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:209
+#: qml/ConfigGeneral.qml:209
 #, kde-format
 msgctxt "@item:inlistbox Icon size"
 msgid "Scale with Panel width"
@@ -151,7 +179,7 @@ msgid "Scale with Panel width"
 msgstr ""
 
 #. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:211
+#: qml/ConfigGeneral.qml:211
 #, kde-format
 msgctxt "@label:listbox The spacing between system tray icons in the Panel"
 msgid "Panel icon size:"
@@ -165,8 +193,7 @@ msgid "Panel icon size:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:215
-#: package/contents/ui/ConfigGeneral.qml:256
+#: qml/ConfigGeneral.qml:215 qml/ConfigGeneral.qml:256
 #, kde-format
 msgctxt "@item:inlistbox Icon spacing"
 msgid "Small"
@@ -176,151 +203,6 @@ msgstr ""
 #: package/contents/ui/ConfigGeneral.qml:25
 #, kde-format
 msgid "Small"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:244
-#, kde-format
-msgid "Automatically enabled when in Touch Mode"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:252
-#, kde-format
-msgctxt "@label:listbox The spacing between system tray icons in the Panel"
-msgid "Panel icon spacing:"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:260
-#, kde-format
-msgctxt "@item:inlistbox Icon spacing"
-msgid "Normal"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:264
-#, kde-format
-msgctxt "@item:inlistbox Icon spacing"
-msgid "Large"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigGeneral.qml:289
-#, kde-format
-msgctxt "@info:usagetip under a combobox when Touch Mode is on"
-msgid "Automatically set to Large when in Touch Mode"
-msgstr ""
-
-#. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:315
-#, kde-format
-msgctxt "@title:column"
-msgid "Entries"
-msgstr ""
-
-#. +> trunk6
-#: package/contents/ui/ConfigGeneral.qml:319
-#, kde-format
-msgctxt "@option:check, This is referring to system tray entries"
-msgid "Always show all"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ExpandedRepresentation.qml:59
-#, kde-format
-msgctxt "@action:button"
-msgid "Go Back"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ExpandedRepresentation.qml:71
-#, kde-format
-msgid "Status and Notifications"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ExpandedRepresentation.qml:140
-#, kde-format
-msgid "More actions"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ExpandedRepresentation.qml:240
-#, kde-format
-msgid "Keep Open"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/ExpanderArrow.qml:23
-#, kde-format
-msgid "Expand System Tray"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ExpanderArrow.qml:26
-#, kde-format
-msgid "Show all the items in the system tray in a popup"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ExpanderArrow.qml:40
-#, kde-format
-msgid "Close popup"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ExpanderArrow.qml:40
-#, kde-format
-msgid "Show hidden icons"
-msgstr ""
-
-#. +> trunk6 stable6
-#: package/contents/ui/HiddenItemsView.qml:42
-#, kde-format
-msgctxt "@info:whatsthis accessible description for popup grid"
-msgid "Grid with %1 items in %2 columns"
-msgstr ""
-
-#. +> trunk6 stable6
-#: package/contents/ui/HiddenItemsView.qml:46
-#, kde-format
-msgctxt "Some letters with tall characters, ascenders, descenders, etc"
-msgid "AILlmyjgGJP"
-msgstr ""
-
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:39
-#, kde-format
-msgid "Shown when relevant"
-msgstr ""
-
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:43
-#, kde-format
-msgid "Always shown"
-msgstr ""
-
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:47
-#, kde-format
-msgid "Always hidden"
-msgstr ""
-
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:51
-#, kde-format
-msgid "Disabled"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/ConfigEntries.qml:189
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"Disabling the clipboard is not recommended, as it will cause copied data to be lost when the application it was copied from is closed.<nl/>"
-"<nl/>"
-"Instead consider configuring the clipboard to disable its history, or only remember one item at a time."
 msgstr ""
 
 #. +> stable6 stable5
@@ -342,8 +224,125 @@ msgstr ""
 msgid "Keyboard Shortcut"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: qml/ConfigGeneral.qml:244
+#, kde-format
+msgid "Automatically enabled when in Touch Mode"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ConfigGeneral.qml:252
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Panel icon spacing:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ConfigGeneral.qml:260
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr ""
+
 #. +> stable6 stable5
 #: package/contents/ui/ConfigEntries.qml:263
 #, kde-format
 msgid "Always show all entries"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ConfigGeneral.qml:264
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ConfigGeneral.qml:289
+#, kde-format
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr ""
+
+#. +> trunk6
+#: qml/ConfigGeneral.qml:315
+#, kde-format
+msgctxt "@title:column"
+msgid "Entries"
+msgstr ""
+
+#. +> trunk6
+#: qml/ConfigGeneral.qml:319
+#, kde-format
+msgctxt "@option:check, This is referring to system tray entries"
+msgid "Always show all"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ExpandedRepresentation.qml:59
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ExpandedRepresentation.qml:71
+#, kde-format
+msgid "Status and Notifications"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ExpandedRepresentation.qml:140
+#, kde-format
+msgid "More actions"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ExpandedRepresentation.qml:240
+#, kde-format
+msgid "Keep Open"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ExpanderArrow.qml:23
+#, kde-format
+msgid "Expand System Tray"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ExpanderArrow.qml:26
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ExpanderArrow.qml:40
+#, kde-format
+msgid "Close popup"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ExpanderArrow.qml:40
+#, kde-format
+msgid "Show hidden icons"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/HiddenItemsView.qml:40
+#, kde-format
+msgctxt "@info:whatsthis accessible description for popup grid"
+msgid "Grid with %1 items in %2 columns"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/HiddenItemsView.qml:44
+#, kde-format
+msgctxt "Some letters with tall characters, ascenders, descenders, etc"
+msgid "AILlmyjgGJP"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/config/config.qml:18
+#, kde-format
+msgid "Entries"
 msgstr ""

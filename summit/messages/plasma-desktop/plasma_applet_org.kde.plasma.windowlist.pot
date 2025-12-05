@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 10:42+0100\n"
+"POT-Creation-Date: 2025-12-05 10:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,7 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr ""
+
+#. +> stable6 stable5
 #: config.qml:13
 #, kde-format
 msgid "General"
@@ -85,7 +92,7 @@ msgid "Enabled, with delay:"
 msgstr ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:125
+#: ConfigGeneral.qml:118
 #, kde-format
 msgid "%1 ms"
 msgid_plural "%1 ms"
@@ -93,7 +100,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:134
+#: ConfigGeneral.qml:127
 #, kde-format
 msgctxt "short for millisecond(s)"
 msgid "ms"
@@ -102,20 +109,27 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:137
+#: ConfigGeneral.qml:130
 #, kde-format
-msgctxt "@label:spinbox accessible"
-msgid "Hover open delay %1"
+msgctxt "@label:spinbox accessible %1 is milliseconds"
+msgid "Hover open delay %1 ms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.qml:92
+#: main.qml:92 main.qml:150
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No open windows"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: main.qml:121
+#, kde-format
+msgctxt "@title:window title shown e.g. for desktop and expanded widgets"
+msgid "Plasma Desktop"
+msgstr ""
+
+#. +> stable6 stable5
 #: main.qml:119
 #, kde-format
 msgid "Plasma Desktop"
