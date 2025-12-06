@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-11-28 09:59+0100\n"
+"POT-Creation-Date: 2025-12-06 11:14+0100\n"
 
 #. +> trunk6 stable6
 #: src/Account.cpp:493
@@ -286,6 +286,12 @@ msgstr ""
 #, qt-format
 msgctxt "FileSharingController|"
 msgid "Could not upload file: %1"
+msgstr ""
+
+#. +> trunk6
+#: src/Globals.h:99
+msgctxt "QObject|"
+msgid "No selection"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -734,25 +740,25 @@ msgctxt "QObject|"
 msgid "Offline"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/ProviderListModel.cpp:32
-msgctxt "ProviderListModel|"
+#. +> trunk6
+#: src/ProviderModel.cpp:73
+msgctxt "ProviderModel|"
 msgid "Custom provider"
 msgstr ""
 
 #. Unlimited file size for uploading
 #. ----------
 #. Deletion of message history stored on provider
-#. +> trunk6 stable6
-#: src/ProviderListModel.cpp:101 src/ProviderListModel.cpp:111
-msgctxt "ProviderListModel|"
+#. +> trunk6
+#: src/ProviderModel.cpp:114 src/ProviderModel.cpp:130
+msgctxt "ProviderModel|"
 msgid "Unlimited"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/ProviderListModel.cpp:113
+#. +> trunk6
+#: src/ProviderModel.cpp:132
 #, qt-format
-msgctxt "ProviderListModel|"
+msgctxt "ProviderModel|"
 msgid "%1 days"
 msgstr ""
 
@@ -3231,6 +3237,108 @@ msgctxt "MessageReactionRetryButton|"
 msgid "Retry updating reactions"
 msgstr ""
 
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:18
+msgctxt "ProviderFilterArea|"
+msgid "Registration via Kaidan"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:19
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that allow to create an account directly via Kaidan"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:25
+msgctxt "ProviderFilterArea|"
+msgid "Free of charge"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:26
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that are free of charge"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:32
+msgctxt "ProviderFilterArea|"
+msgid "Password reset"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:33
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that allow to reset your password"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:39
+msgctxt "ProviderFilterArea|"
+msgid "Green hosting"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:40
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers whose service runs on renewable energy"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:46
+msgctxt "ProviderFilterArea|"
+msgid "Bus factor"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:54
+msgctxt "ProviderFilterArea|"
+msgid "Location"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:55
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that store and process their data in the selected country"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:62
+msgctxt "ProviderFilterArea|"
+msgid "Size of shared media"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:70
+msgctxt "ProviderFilterArea|"
+msgid "Size of all shared media in total"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:78
+msgctxt "ProviderFilterArea|"
+msgid "Media storage duration"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:86
+msgctxt "ProviderFilterArea|"
+msgid "Message storage duration"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:94
+msgctxt "ProviderFilterArea|"
+msgid "Availability"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:102
+msgctxt "ProviderFilterArea|"
+msgid "Organization"
+msgstr ""
+
 #. +> trunk6 stable6
 #: src/qml/elements/PublicGroupChatSearchDialog.qml:20
 #, qt-format
@@ -3330,61 +3438,61 @@ msgid "Media"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:27
+#: src/qml/elements/RosterFilterArea.qml:28
 msgctxt "RosterFilterArea|"
 msgid "Available contacts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:31
+#: src/qml/elements/RosterFilterArea.qml:32
 msgctxt "RosterFilterArea|"
 msgid "Unavailable contacts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:35
+#: src/qml/elements/RosterFilterArea.qml:36
 msgctxt "RosterFilterArea|"
 msgid "Private groups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:39
+#: src/qml/elements/RosterFilterArea.qml:40
 msgctxt "RosterFilterArea|"
 msgid "Public groups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:51
+#: src/qml/elements/RosterFilterArea.qml:52
 msgctxt "RosterFilterArea|"
 msgid "Filter by type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:52
+#: src/qml/elements/RosterFilterArea.qml:53
 msgctxt "RosterFilterArea|"
 msgid "Show only entries of specific types"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:113
+#: src/qml/elements/RosterFilterArea.qml:114
 msgctxt "RosterFilterArea|"
 msgid "Filter by accounts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:114
+#: src/qml/elements/RosterFilterArea.qml:115
 msgctxt "RosterFilterArea|"
 msgid "Show only chats of selected accounts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:175
+#: src/qml/elements/RosterFilterArea.qml:176
 msgctxt "RosterFilterArea|"
 msgid "Filter by labels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:176
+#: src/qml/elements/RosterFilterArea.qml:177
 msgctxt "RosterFilterArea|"
 msgid "Show only chats with selected labels"
 msgstr ""
@@ -3717,20 +3825,28 @@ msgctxt "ProviderPage|"
 msgid "Choose a Provider"
 msgstr ""
 
+#. +> trunk6
+#: src/qml/registration/ProviderPage.qml:26
+#: src/qml/registration/ProviderPage.qml:270
+#: src/qml/registration/ProviderPage.qml:283
+msgctxt "ProviderPage|"
+msgid "Filter"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:39
+#: src/qml/registration/ProviderPage.qml:50
 msgctxt "ProviderPage|"
 msgid "Choose a provider to register!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:106
+#: src/qml/registration/ProviderPage.qml:117
 msgctxt "ProviderPage|"
 msgid "Provider Address"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/registration/ProviderPage.qml:117
+#: src/qml/registration/ProviderPage.qml:128
 msgctxt "ProviderPage|"
 msgid "Show connection settings"
 msgstr ""
@@ -3741,76 +3857,88 @@ msgctxt "ProviderPage|"
 msgid "Connection settings"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:165
-msgctxt "ProviderPage|"
-msgid "Server locations"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:170
-msgctxt "ProviderPage|"
-msgid "Languages"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/qml/registration/ProviderPage.qml:175
 msgctxt "ProviderPage|"
-msgid "Available/Listed since"
+msgid "Data storage/processing locations"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/qml/registration/ProviderPage.qml:180
 msgctxt "ProviderPage|"
-msgid "Maximum size of shared media"
+msgid "Languages"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/qml/registration/ProviderPage.qml:185
 msgctxt "ProviderPage|"
-msgid "Messages storage duration"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:189
-msgctxt "ProviderPage|"
-msgid "Visit details page"
+msgid "Available/Listed since"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/qml/registration/ProviderPage.qml:190
 msgctxt "ProviderPage|"
+msgid "Maximum size of shared media"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/registration/ProviderPage.qml:195
+msgctxt "ProviderPage|"
+msgid "Message storage duration"
+msgstr ""
+
+#. +> stable6
+#: src/qml/registration/ProviderPage.qml:192
+msgctxt "ProviderPage|"
+msgid "Messages storage duration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/registration/ProviderPage.qml:200
+msgctxt "ProviderPage|"
+msgid "Visit details page"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/registration/ProviderPage.qml:201
+msgctxt "ProviderPage|"
 msgid "Open the provider's details web page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:204
+#: src/qml/registration/ProviderPage.qml:215
 msgctxt "ProviderPage|"
 msgid "Choose"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:205
+#: src/qml/registration/ProviderPage.qml:216
 msgctxt "ProviderPage|"
 msgid "Requesting registration…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:227
+#: src/qml/registration/ProviderPage.qml:238
 msgctxt "ProviderPage|"
 msgid "You must enter a provider address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:293
+#: src/qml/registration/ProviderPage.qml:333
 msgctxt "ProviderPage|"
 msgid "The provider does not support registration via this app."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:296
+#: src/qml/registration/ProviderPage.qml:336
 msgctxt "ProviderPage|"
 msgid "You are temporarily blocked: "
+msgstr ""
+
+#. +> stable6
+#: src/qml/registration/ProviderPage.qml:172
+msgctxt "ProviderPage|"
+msgid "Server locations"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4077,6 +4205,28 @@ msgstr ""
 #: src/VCardModel.cpp:142
 msgctxt "VCardModel|"
 msgid "Website"
+msgstr ""
+
+#. +> stable6
+#: src/ProviderListModel.cpp:32
+msgctxt "ProviderListModel|"
+msgid "Custom provider"
+msgstr ""
+
+#. Unlimited file size for uploading
+#. ----------
+#. Deletion of message history stored on provider
+#. +> stable6
+#: src/ProviderListModel.cpp:101 src/ProviderListModel.cpp:111
+msgctxt "ProviderListModel|"
+msgid "Unlimited"
+msgstr ""
+
+#. +> stable6
+#: src/ProviderListModel.cpp:113
+#, qt-format
+msgctxt "ProviderListModel|"
+msgid "%1 days"
 msgstr ""
 
 #. +> stable6

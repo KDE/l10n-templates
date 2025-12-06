@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-28 09:59+0100\n"
+"POT-Creation-Date: 2025-12-06 11:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -300,7 +300,18 @@ msgid_plural "%1 health certificates imported."
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/applicationcontroller.cpp:345 app/applicationcontroller.cpp:388
+#: app/applicationcontroller.cpp:406 app/applicationcontroller.cpp:453
+#: app/applicationcontroller.cpp:492 app/applicationcontroller.cpp:510
+#: app/applicationcontroller.cpp:551 app/applicationcontroller.cpp:587
+#: app/applicationcontroller.cpp:605
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Export failed: %1"
+msgstr ""
+
+#. +> stable6
 #: app/applicationcontroller.cpp:345 app/applicationcontroller.cpp:388
 #: app/applicationcontroller.cpp:406 app/applicationcontroller.cpp:453
 #: app/applicationcontroller.cpp:492 app/applicationcontroller.cpp:510
@@ -336,7 +347,14 @@ msgstr ""
 msgid "Pass sent."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/applicationcontroller.cpp:635
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Saving failed: %1"
+msgstr ""
+
+#. +> stable6
 #: app/applicationcontroller.cpp:635
 #, kde-format
 msgid "Saving failed: %1"
@@ -850,7 +868,14 @@ msgctxt "Bus arrival"
 msgid "Arrival"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/calendarhelper.cpp:28
+#, kde-format
+msgctxt "%1 is the transfer destination"
+msgid "Transfer to %1"
+msgstr ""
+
+#. +> stable6
 #: app/calendarhelper.cpp:28
 #, kde-format
 msgid "Transfer to %1"
@@ -875,7 +900,14 @@ msgstr ""
 msgid "Rental Car Pick-up"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/CarRentalDelegate.qml:57
+#, kde-format
+msgctxt "%1 is a date/time"
+msgid "Drop-off: %1"
+msgstr ""
+
+#. +> stable6
 #: app/CarRentalDelegate.qml:57
 #, kde-format
 msgid "Drop-off: %1"
@@ -1066,13 +1098,27 @@ msgstr ""
 msgid "Add Document…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/downloadjob.cpp:162
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Network error: %1"
+msgstr ""
+
+#. +> stable6
 #: app/downloadjob.cpp:162
 #, kde-format
 msgid "Network error: %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/downloadjob.cpp:193
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Download failed: %1"
+msgstr ""
+
+#. +> stable6
 #: app/downloadjob.cpp:193
 #, kde-format
 msgid "Download failed: %1"
@@ -1264,7 +1310,14 @@ msgstr ""
 msgid "Work"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/favoritelocationmodel.cpp:161
+#, kde-format
+msgctxt "%1 is a number"
+msgid "Location %1"
+msgstr ""
+
+#. +> stable6
 #: app/favoritelocationmodel.cpp:161
 #, kde-format
 msgid "Location %1"
@@ -1830,19 +1883,40 @@ msgstr ""
 msgid "Ferry from %1 to %2"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/HealthCertificateBarcode.qml:34
+#, kde-format
+msgctxt "%1 is a person name"
+msgid "Vaccination certificate of %1"
+msgstr ""
+
+#. +> stable6
 #: app/HealthCertificateBarcode.qml:34
 #, kde-format
 msgid "Vaccination certificate of %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/HealthCertificateBarcode.qml:36
+#, kde-format
+msgctxt "%1 is a person name, 'Test certificate' is a compound noun"
+msgid "Test certificate of %1"
+msgstr ""
+
+#. +> stable6
 #: app/HealthCertificateBarcode.qml:36
 #, kde-format
 msgid "Test certificate of %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/HealthCertificateBarcode.qml:38
+#, kde-format
+msgctxt "%1 is a person name"
+msgid "Recovery certificate of %1"
+msgstr ""
+
+#. +> stable6
 #: app/HealthCertificateBarcode.qml:38
 #, kde-format
 msgid "Recovery certificate of %1"
@@ -1921,13 +1995,27 @@ msgctxt "health certificate"
 msgid "%1 (%2)"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/healthcertificatemanager.cpp:154
+#, kde-format
+msgctxt "%1 is a disease, %2 the amount of applied doses, %3 the amount of total doses"
+msgid "Vaccination for %1 (%2/%3)"
+msgstr ""
+
+#. +> stable6
 #: app/healthcertificatemanager.cpp:154
 #, kde-format
 msgid "Vaccination for %1 (%2/%3)"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/healthcertificatemanager.cpp:157
+#, kde-format
+msgctxt "%1 is a disease"
+msgid "Vaccination for %1"
+msgstr ""
+
+#. +> stable6
 #: app/healthcertificatemanager.cpp:157
 #, kde-format
 msgid "Vaccination for %1"
@@ -1939,13 +2027,27 @@ msgstr ""
 msgid "Vaccination"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/healthcertificatemanager.cpp:163
+#, kde-format
+msgctxt "%1 is a disease, %2 is a date"
+msgid "Test for %1 – %2"
+msgstr ""
+
+#. +> stable6
 #: app/healthcertificatemanager.cpp:163
 #, kde-format
 msgid "Test %1 for %2"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/healthcertificatemanager.cpp:168
+#, kde-format
+msgctxt "%1 is a disease, %2 is a date"
+msgid "Recovery from %1 – %2"
+msgstr ""
+
+#. +> stable6
 #: app/healthcertificatemanager.cpp:169
 #, kde-format
 msgid "Recovery %1 for %2"
@@ -2343,7 +2445,14 @@ msgctxt "Name of the train company in France"
 msgid "From SNCF reservation number"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/importcontroller.cpp:153 app/importcontroller.cpp:475
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Import failed: %1"
+msgstr ""
+
+#. +> stable6
 #: app/importcontroller.cpp:153 app/importcontroller.cpp:475
 #, kde-format
 msgid "Import failed: %1"
@@ -3903,9 +4012,10 @@ msgctxt "name - valid time range"
 msgid "%1 - %2"
 msgstr ""
 
-#. +> trunk6 stable6
-#: app/passmanager.cpp:289 app/TripGroupPage.qml:426
+#. +> trunk6
+#: app/passmanager.cpp:289
 #, kde-format
+msgctxt "%1 and %2 are dates"
 msgid "%1 - %2"
 msgstr ""
 
@@ -4467,13 +4577,26 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/SettingsPage.qml:328
+#, kde-format
+msgid "Träwelling Integration"
+msgstr ""
+
+#. +> stable6
 #: app/SettingsPage.qml:328
 #, kde-format
 msgid "Traewelling Integration"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/SettingsPage.qml:333
+#, kde-format
+msgctxt "@info"
+msgid "Träwelling is a free check-in service that lets you tell your friends where you are and where you can log your public transit journeys. For more information, visit <a href=\"https://traewelling.de\">traewelling.de</a>"
+msgstr ""
+
+#. +> stable6
 #: app/SettingsPage.qml:333
 #, kde-format
 msgctxt "@info"
@@ -4731,20 +4854,41 @@ msgstr ""
 msgid "Paste"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: app/tickettokenmodel.cpp:88
+#, kde-format
+msgctxt "%1 is a number"
+msgid "Attendee %1"
+msgstr ""
+
+#. +> stable6
+#: app/tickettokenmodel.cpp:74
 #, kde-format
 msgid "Attendee %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: app/tickettokenmodel.cpp:90
+#, kde-format
+msgctxt "%1 is a number"
+msgid "Traveler %1"
+msgstr ""
+
+#. +> stable6
+#: app/tickettokenmodel.cpp:76
 #, kde-format
 msgid "Traveler %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: app/tickettokenmodel.cpp:137
+#, kde-format
+msgctxt "%1 is a person name, %2 is a ticket name"
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> stable6
+#: app/tickettokenmodel.cpp:116
 #, kde-format
 msgid "%1 (%2)"
 msgstr ""
@@ -5031,21 +5175,40 @@ msgstr ""
 msgid "Arrival Vehicle Layout"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: app/TrainPage.qml:340
+#, kde-format
+msgctxt "@action:button"
+msgid "Add to Träwelling"
+msgstr ""
+
+#. +> stable6
+#: app/TrainPage.qml:339
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Traewelling"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: app/TrainPage.qml:385
+#, kde-format
+msgid "Added to Träwelling"
+msgstr ""
+
+#. +> stable6
+#: app/TrainPage.qml:384
 #, kde-format
 msgid "Added to Traewelling"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: app/TrainPage.qml:385
+#, kde-format
+msgid "Failed to add to Träwelling"
+msgstr ""
+
+#. +> stable6
+#: app/TrainPage.qml:384
 #, kde-format
 msgid "Failed to add to Traewelling"
 msgstr ""
@@ -5310,6 +5473,12 @@ msgid "Do you really want to delete the trip '%1'?"
 msgstr ""
 
 #. +> trunk6 stable6
+#: app/TripGroupPage.qml:426
+#, kde-format
+msgid "%1 - %2"
+msgstr ""
+
+#. +> trunk6 stable6
 #: app/TripGroupPage.qml:427
 #, kde-format
 msgid "One day"
@@ -5517,13 +5686,27 @@ msgstr ""
 msgid "Vehicle Layout"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/VehicleLayoutPage.qml:93
+#, kde-format
+msgctxt "%1 is a date/time"
+msgid "Departure: %1"
+msgstr ""
+
+#. +> stable6
 #: app/VehicleLayoutPage.qml:93
 #, kde-format
 msgid "Departure: %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/VehicleLayoutPage.qml:95
+#, kde-format
+msgctxt "%1 is a date/time"
+msgid "Arrival: %1"
+msgstr ""
+
+#. +> stable6
 #: app/VehicleLayoutPage.qml:95
 #, kde-format
 msgid "Arrival: %1"
