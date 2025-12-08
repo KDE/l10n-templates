@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-02 10:43+0100\n"
+"POT-Creation-Date: 2025-12-08 11:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -109,8 +109,14 @@ msgstr ""
 msgid "Blocked"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/Device.qml:196
+#, kde-format
+msgid "When enabled, all incoming connections from this device will be rejected."
+msgstr ""
+
+#. +> stable6
+#: ui/Device.qml:173
 #, kde-format
 msgid "Any incoming connections from a blocked device will be immediately rejected."
 msgstr ""
