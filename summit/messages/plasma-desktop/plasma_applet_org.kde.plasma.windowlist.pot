@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-05 10:42+0100\n"
+"POT-Creation-Date: 2025-12-09 09:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -38,61 +38,61 @@ msgid "Show active application's name on Panel button"
 msgstr ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:31
+#: ConfigGeneral.qml:35
 #, kde-format
 msgctxt "@label:listbox"
 msgid "For active application, show:"
 msgstr ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:36
+#: ConfigGeneral.qml:40
 #, kde-format
 msgctxt "@item:inlistbox what to show for active application in horizontal panel"
 msgid "Icon and name"
 msgstr ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:37
+#: ConfigGeneral.qml:41
 #, kde-format
 msgctxt "@item:inlistbox what to show for active application in horizontal panel"
 msgid "Icon"
 msgstr ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:38
+#: ConfigGeneral.qml:42
 #, kde-format
 msgctxt "@item:inlistbox what to show for active application in horizontal panel"
 msgid "Name"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:85
+#: ConfigGeneral.qml:89
 #, kde-format
 msgid "Only icons can be shown when the Panel is vertical."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:87
+#: ConfigGeneral.qml:91
 #, kde-format
 msgid "Not applicable when the widget is on the Desktop."
 msgstr ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:100
+#: ConfigGeneral.qml:104
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Open on hover:"
 msgstr ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:105
+#: ConfigGeneral.qml:109
 #, kde-format
 msgctxt "@option:check open-on-hover is enabled, with the following delay:"
 msgid "Enabled, with delay:"
 msgstr ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:118
+#: ConfigGeneral.qml:122
 #, kde-format
 msgid "%1 ms"
 msgid_plural "%1 ms"
@@ -100,7 +100,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:127
+#: ConfigGeneral.qml:131
 #, kde-format
 msgctxt "short for millisecond(s)"
 msgid "ms"
@@ -109,21 +109,56 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: ConfigGeneral.qml:130
+#: ConfigGeneral.qml:134
 #, kde-format
 msgctxt "@label:spinbox accessible %1 is milliseconds"
 msgid "Hover open delay %1 ms"
 msgstr ""
 
+#. +> trunk6
+#: ConfigGeneral.qml:144
+#, kde-format
+msgctxt "@label for checkbox group, completes sentence like: … from current screen"
+msgid "Show only windows:"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@option:check completes sentence: show only windows"
+msgid "From the current desktop"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:150
+#, kde-format
+msgctxt "@option:check completes sentence: show only windows"
+msgid "From the current activity"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:155
+#, kde-format
+msgctxt "@option:check completes sentence: show only windows"
+msgid "From the current screen"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:160
+#, kde-format
+msgctxt "@option:check completes sentence: show only windows"
+msgid "That are minimized"
+msgstr ""
+
 #. +> trunk6 stable6
-#: main.qml:92 main.qml:150
+#: main.qml:110 main.qml:168
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No open windows"
 msgstr ""
 
 #. +> trunk6
-#: main.qml:121
+#: main.qml:139
 #, kde-format
 msgctxt "@title:window title shown e.g. for desktop and expanded widgets"
 msgid "Plasma Desktop"

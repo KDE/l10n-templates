@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-04 09:39+0100\n"
+"POT-Creation-Date: 2025-12-09 09:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2241,7 +2241,7 @@ msgstr ""
 
 #. +> trunk6 trunk5
 #: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:150
-#: widgets/renamedialog.cpp:608
+#: widgets/renamedialog.cpp:637
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -5395,13 +5395,13 @@ msgid "Creating directory"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:376
+#: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:387
 #, kde-format
 msgid "Source"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:378
+#: widgets/fileundomanager.cpp:131 widgets/renamedialog.cpp:389
 #, kde-format
 msgid "Destination"
 msgstr ""
@@ -7561,25 +7561,25 @@ msgid "Filename for dropped contents:"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:67
+#: widgets/renamedialog.cpp:70
 #, kde-format
 msgid "Date: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:76
+#: widgets/renamedialog.cpp:79
 #, kde-format
 msgid "Size: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:232
+#: widgets/renamedialog.cpp:243
 #, kde-format
 msgid "Appl&y to All"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:233
+#: widgets/renamedialog.cpp:244
 #, kde-format
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent folder conflicts for the remainder of the current job.\n"
@@ -7587,50 +7587,50 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:237
+#: widgets/renamedialog.cpp:248
 #, kde-format
 msgid "When this is checked the button pressed will be applied to all subsequent conflicts for the remainder of the current job."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:243
+#: widgets/renamedialog.cpp:254
 #, kde-format
 msgid "&Rename"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:245
+#: widgets/renamedialog.cpp:256
 #, kde-format
 msgid "Suggest New &Name"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:251
+#: widgets/renamedialog.cpp:262
 #, kde-format
 msgid "&Skip"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:252
+#: widgets/renamedialog.cpp:263
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:253
+#: widgets/renamedialog.cpp:264
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:264
+#: widgets/renamedialog.cpp:275
 #, kde-format
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:267
+#: widgets/renamedialog.cpp:278
 #, kde-format
 msgid ""
 "Files and folders will be copied into the existing directory, alongside its existing contents.\n"
@@ -7638,26 +7638,26 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:272
+#: widgets/renamedialog.cpp:283
 #, kde-format
 msgctxt "Overwrite files into an existing folder when files are older"
 msgid "&Overwrite older files"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:276
+#: widgets/renamedialog.cpp:287
 #, kde-format
 msgid "Destination files which have older modification times will be overwritten by the source, skipped otherwise."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:288
+#: widgets/renamedialog.cpp:299
 #, kde-format
 msgid "&Resume"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:297
+#: widgets/renamedialog.cpp:308
 #, kde-format
 msgid ""
 "This action would overwrite '%1' with itself.\n"
@@ -7665,13 +7665,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:303
+#: widgets/renamedialog.cpp:314
 #, kde-format
 msgid "C&ontinue"
 msgstr ""
 
 #. +> trunk6
-#: widgets/renamedialog.cpp:365
+#: widgets/renamedialog.cpp:376
 #, kde-format
 msgid "Would you like to overwrite the destination?"
 msgstr ""
@@ -7683,7 +7683,7 @@ msgid "This action will overwrite the destination."
 msgstr ""
 
 #. +> trunk6
-#: widgets/renamedialog.cpp:367
+#: widgets/renamedialog.cpp:378
 #, kde-format
 msgid "Would you like to merge the contents of '%1' into '%2'?"
 msgstr ""
@@ -7695,19 +7695,19 @@ msgid "Differences"
 msgstr ""
 
 #. +> trunk6
-#: widgets/renamedialog.cpp:409
+#: widgets/renamedialog.cpp:421
 #, kde-format
 msgid "The source is <b>more recent</b>."
 msgstr ""
 
 #. +> trunk6
-#: widgets/renamedialog.cpp:411
+#: widgets/renamedialog.cpp:423
 #, kde-format
 msgid "The source is <b>older</b>."
 msgstr ""
 
 #. +> trunk6
-#: widgets/renamedialog.cpp:420
+#: widgets/renamedialog.cpp:432
 #, kde-format
 msgid "The source is <b>smaller by %1</b>."
 msgstr ""
@@ -7719,7 +7719,7 @@ msgid "The destination is <b>smaller by %1</b>"
 msgstr ""
 
 #. +> trunk6
-#: widgets/renamedialog.cpp:423
+#: widgets/renamedialog.cpp:435
 #, kde-format
 msgid "The source is <b>bigger by %1</b>."
 msgstr ""
@@ -7731,7 +7731,7 @@ msgid "The destination is <b>bigger by %1</b>"
 msgstr ""
 
 #. +> trunk6
-#: widgets/renamedialog.cpp:436
+#: widgets/renamedialog.cpp:449
 #, kde-format
 msgid "The files are <b>identical</b>."
 msgstr ""
@@ -7743,7 +7743,7 @@ msgid "The files are identical."
 msgstr ""
 
 #. +> trunk6
-#: widgets/renamedialog.cpp:439
+#: widgets/renamedialog.cpp:452
 #, kde-format
 msgid "The files <b>seem identical</b>."
 msgstr ""
@@ -7755,7 +7755,7 @@ msgid "The files seem identical."
 msgstr ""
 
 #. +> trunk6
-#: widgets/renamedialog.cpp:442
+#: widgets/renamedialog.cpp:456
 #, kde-format
 msgid "The files are <b>different</b>."
 msgstr ""
@@ -7767,31 +7767,38 @@ msgid "The files are different."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:449
+#: widgets/renamedialog.cpp:464
 #, kde-format
 msgid "The files are likely to be identical: they have the same size and their contents are the same at the beginning, middle and end."
 msgstr ""
 
+#. +> trunk6
+#: widgets/renamedialog.cpp:478
+#, kde-format
+msgctxt "@action:button"
+msgid "Compare Files"
+msgstr ""
+
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:467
+#: widgets/renamedialog.cpp:491
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:469
+#: widgets/renamedialog.cpp:493
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:471
+#: widgets/renamedialog.cpp:495
 #, kde-format
 msgid "A more recent item named '%1' already exists."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/renamedialog.cpp:484
+#: widgets/renamedialog.cpp:508
 #, kde-format
 msgid "Rename:"
 msgstr ""
