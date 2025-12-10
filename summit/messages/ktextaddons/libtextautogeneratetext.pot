@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-09 09:22+0100\n"
+"POT-Creation-Date: 2025-12-10 10:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1825,13 +1825,13 @@ msgid "Allow to select tools"
 msgstr ""
 
 #. +> trunk6
-#: widgets/common/textautogeneratetextopenfilejob.cpp:59
+#: widgets/common/textautogeneratetextopenfilejob.cpp:75
 #, kde-format
 msgid "Impossible to open %1"
 msgstr ""
 
 #. +> trunk6
-#: widgets/common/textautogeneratetextopenfilejob.cpp:59
+#: widgets/common/textautogeneratetextopenfilejob.cpp:75
 #, kde-format
 msgctxt "@title:window"
 msgid "Error Opening File"
@@ -2234,35 +2234,53 @@ msgid "Copy Block Code"
 msgstr ""
 
 #. +> trunk6
-#: widgets/view/images/textautogenerateshowimagedialog.cpp:26
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Display Image"
 msgstr ""
 
 #. +> trunk6
-#: widgets/view/images/textautogenerateshowimagewidget.cpp:46
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:59
+#, kde-format
+msgid "Copy Image to Clipboard"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:61
+#, kde-format
+msgid "Copy Location to Clipboard"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:142
+#, kde-format
+msgid "Other Application..."
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagewidget.cpp:47
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Zoom:"
 msgstr ""
 
 #. +> trunk6
-#: widgets/view/images/textautogenerateshowimagewidget.cpp:63
+#: widgets/view/images/textautogenerateshowimagewidget.cpp:64
 #, kde-format
 msgctxt "@action:button"
 msgid "100%"
 msgstr ""
 
 #. +> trunk6
-#: widgets/view/images/textautogenerateshowimagewidget.cpp:70
+#: widgets/view/images/textautogenerateshowimagewidget.cpp:71
 #, kde-format
 msgctxt "@action:button"
 msgid "Fit to View"
 msgstr ""
 
 #. +> trunk6
-#: widgets/view/images/textautogenerateshowimagewidget.cpp:100
+#: widgets/view/images/textautogenerateshowimagewidget.cpp:101
 #, kde-format
 msgid "Save Image"
 msgstr ""

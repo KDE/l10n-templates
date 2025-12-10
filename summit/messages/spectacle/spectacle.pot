@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-01 10:36+0100\n"
+"POT-Creation-Date: 2025-12-10 10:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2782,8 +2782,18 @@ msgstr ""
 #. i18nc because it doesn't work with the link replacement logic.
 #. Also see https://invent.kde.org/graphics/spectacle/-/merge_requests/432#note_1111125
 #.
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/SpectacleCore.cpp:531
+#, kde-format
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr ""
+
+#. i18nc because it doesn't work with the link replacement logic.
+#. Also see https://invent.kde.org/graphics/spectacle/-/merge_requests/432#note_1111125
+#.
+#. +> stable6
+#: src/SpectacleCore.cpp:532
 #, kde-format
 msgctxt "@info"
 msgid "QR Code found: %1"
