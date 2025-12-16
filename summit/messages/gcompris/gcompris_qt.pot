@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-12-14 16:13+0100\n"
+"POT-Creation-Date: 2025-12-16 18:00+0100\n"
 
 #. +> trunk6 stable6
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -200,7 +200,7 @@ msgstr ""
 #: activities/colors/ActivityInfo.qml:25
 #: activities/comparator/ActivityInfo.qml:27
 #: activities/crane/ActivityInfo.qml:30
-#: activities/drawing_wheels/ActivityInfo.qml:24
+#: activities/drawing_wheels/ActivityInfo.qml:29
 #: activities/enumerate/ActivityInfo.qml:25
 #: activities/fifteen/ActivityInfo.qml:24
 #: activities/find_the_day/ActivityInfo.qml:25
@@ -6445,226 +6445,227 @@ msgstr ""
 
 #. Activity title
 #. +> trunk6
-#: activities/drawing_wheels/ActivityInfo.qml:14
+#: activities/drawing_wheels/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Drawing wheels"
 msgstr ""
 
+#. Help title
+#. +> trunk6
+#: activities/drawing_wheels/ActivityInfo.qml:21
+msgctxt "ActivityInfo|"
+msgid "Roll the gear in the cogwheel to draw."
+msgstr ""
+
 #. Help goal
 #. +> trunk6
-#: activities/drawing_wheels/ActivityInfo.qml:19
+#: activities/drawing_wheels/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
-msgid "Make beautiful drawings by turning the gear in the cogwheel with the chosen pen."
+msgid "Discover hypotrochoids and use them as digital painting tools."
 msgstr ""
 
 #. Help manual
 #. +> trunk6
-#: activities/drawing_wheels/ActivityInfo.qml:23
+#: activities/drawing_wheels/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid ""
-"Select wheel, gear, pen's position and color from the foldable panels and start the gear.<br>"
+"Make beautiful drawings by rolling the gear in the cogwheel with the chosen pen. Select a wheel size, a gear size, pen's settings and color from the popup panels, and press the play button to roll the gear. You can use the file menu to save your image, open a previously saved image, or create a new image with selected background color. Saving an image will save it in an SVG file (vector format), along with a PNG file (pixel format). Only the SVG file can be opened again from the activity.<br>"
 "<br>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/drawing_wheels/ActivityInfo.qml:25
+#: activities/drawing_wheels/ActivityInfo.qml:30
 #: activities/sketch/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Ctrl + Z: undo last action"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/drawing_wheels/ActivityInfo.qml:26
+#: activities/drawing_wheels/ActivityInfo.qml:31
 #: activities/sketch/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "Ctrl + Y: redo last action"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/drawing_wheels/ActivityInfo.qml:27
+#: activities/drawing_wheels/ActivityInfo.qml:32
 #: activities/sketch/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Ctrl + S: save the image"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/ActivityInfo.qml:28
-msgctxt "ActivityInfo|"
-msgid "Ctrl + D: save the drawing"
-msgstr ""
-
 #. +> trunk6 stable6
-#: activities/drawing_wheels/ActivityInfo.qml:29
+#: activities/drawing_wheels/ActivityInfo.qml:33
 #: activities/sketch/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "Ctrl + O: open an image"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:375
+#: activities/drawing_wheels/DrawingWheels.qml:377
 msgctxt "DrawingWheels|"
-msgid "Save drawing"
+msgid "File menu"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:387
+#: activities/drawing_wheels/DrawingWheels.qml:389
 msgctxt "DrawingWheels|"
 msgid "Wheel and gear"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:411
+#: activities/drawing_wheels/DrawingWheels.qml:413
 msgctxt "DrawingWheels|"
 msgid "Pencil size and position"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:423
+#: activities/drawing_wheels/DrawingWheels.qml:425
 msgctxt "DrawingWheels|"
 msgid "Color selector"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:450
+#: activities/drawing_wheels/DrawingWheels.qml:452
 msgctxt "DrawingWheels|"
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:462
+#: activities/drawing_wheels/DrawingWheels.qml:464
 msgctxt "DrawingWheels|"
 msgid "Redo"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:496
+#: activities/drawing_wheels/DrawingWheels.qml:498
 msgctxt "DrawingWheels|"
 msgid "Stop drawing"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:496
+#: activities/drawing_wheels/DrawingWheels.qml:498
 msgctxt "DrawingWheels|"
 msgid "Start drawing"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:529
+#: activities/drawing_wheels/DrawingWheels.qml:531
 msgctxt "DrawingWheels|"
 msgid "Show wheel and gear"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:529
+#: activities/drawing_wheels/DrawingWheels.qml:531
 msgctxt "DrawingWheels|"
 msgid "Hide wheel and gear"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:688
+#: activities/drawing_wheels/DrawingWheels.qml:690
 msgctxt "DrawingWheels|"
-msgid "Save vector image (SVG)"
+msgid "Save your image"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:702
+#: activities/drawing_wheels/DrawingWheels.qml:705
 msgctxt "DrawingWheels|"
 msgid "Open an image"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:731
+#: activities/drawing_wheels/DrawingWheels.qml:734
 msgctxt "DrawingWheels|"
 msgid "Create a new image"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:750
+#: activities/drawing_wheels/DrawingWheels.qml:753
 msgctxt "DrawingWheels|"
 msgid "Background color"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:820
+#: activities/drawing_wheels/DrawingWheels.qml:823
 msgctxt "DrawingWheels|"
 msgid "Wheel"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:895
+#: activities/drawing_wheels/DrawingWheels.qml:898
 msgctxt "DrawingWheels|"
 msgid "Gear"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:958
+#: activities/drawing_wheels/DrawingWheels.qml:961
 #, qt-format
 msgctxt "DrawingWheels|"
 msgid "%1 spikes"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:976
+#: activities/drawing_wheels/DrawingWheels.qml:979
 msgctxt "DrawingWheels|"
 msgid "Speed"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:992
+#: activities/drawing_wheels/DrawingWheels.qml:995
 msgctxt "DrawingWheels|"
 msgid "Slow"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1012
+#: activities/drawing_wheels/DrawingWheels.qml:1015
 msgctxt "DrawingWheels|"
 msgid "Fast"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1055
+#: activities/drawing_wheels/DrawingWheels.qml:1058
 msgctxt "DrawingWheels|"
 msgid "Pen size"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1092
+#: activities/drawing_wheels/DrawingWheels.qml:1095
 msgctxt "DrawingWheels|"
 msgid "Opacity"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1135
+#: activities/drawing_wheels/DrawingWheels.qml:1138
 msgctxt "DrawingWheels|"
 msgid "Offset"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1173
+#: activities/drawing_wheels/DrawingWheels.qml:1176
 msgctxt "DrawingWheels|"
 msgid "Start tooth"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1351
+#: activities/drawing_wheels/DrawingWheels.qml:1356
 msgctxt "DrawingWheels|"
 msgid "You did not save this image. Do you want to close this activity?"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1352
+#: activities/drawing_wheels/DrawingWheels.qml:1357
 msgctxt "DrawingWheels|"
 msgid "Do you want to erase this image?"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1353
+#: activities/drawing_wheels/DrawingWheels.qml:1358
 msgctxt "DrawingWheels|"
 msgid "Yes"
 msgstr ""
 
 #. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1354
+#: activities/drawing_wheels/DrawingWheels.qml:1359
 msgctxt "DrawingWheels|"
 msgid "No"
 msgstr ""
@@ -27951,85 +27952,103 @@ msgctxt "QObject|"
 msgid "No data found for %1."
 msgstr ""
 
-#. +> trunk6 stable6
-#: core/GCCreationHandler.qml:176
+#. +> trunk6
+#: core/GCCreationHandler.qml:185
+msgctxt "GCCreationHandler|"
+msgid "File deleted successfully!"
+msgstr ""
+
+#. +> stable6
+#: core/GCCreationHandler.qml:175
 #, qt-format
 msgctxt "GCCreationHandler|"
 msgid "%1 deleted successfully!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:177 core/GCCreationHandler.qml:182
-#: core/GCCreationHandler.qml:235
+#: core/GCCreationHandler.qml:186 core/GCCreationHandler.qml:194
+#: core/GCCreationHandler.qml:253
 msgctxt "GCCreationHandler|"
 msgid "OK"
 msgstr ""
 
-#. +> trunk6 stable6
-#: core/GCCreationHandler.qml:181
+#. +> trunk6
+#: core/GCCreationHandler.qml:193
+msgctxt "GCCreationHandler|"
+msgid "Unable to delete the file!"
+msgstr ""
+
+#. +> stable6
+#: core/GCCreationHandler.qml:180
 #, qt-format
 msgctxt "GCCreationHandler|"
 msgid "Unable to delete %1!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:215
+#: core/GCCreationHandler.qml:230
 msgctxt "GCCreationHandler|"
 msgid "A file with this name already exists. Do you want to replace it?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:216 core/GCCreationHandler.qml:223
+#: core/GCCreationHandler.qml:231 core/GCCreationHandler.qml:238
 msgctxt "GCCreationHandler|"
 msgid "Yes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:216 core/GCCreationHandler.qml:223
+#: core/GCCreationHandler.qml:231 core/GCCreationHandler.qml:238
 msgctxt "GCCreationHandler|"
 msgid "No"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:222
+#: core/GCCreationHandler.qml:237
 msgctxt "GCCreationHandler|"
 msgid "Do you really want to delete this file?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:234
+#: core/GCCreationHandler.qml:252
 msgctxt "GCCreationHandler|"
 msgid "Saved successfully!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:265
+#: core/GCCreationHandler.qml:283
 msgctxt "GCCreationHandler|"
 msgid "Enter file name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:265
+#: core/GCCreationHandler.qml:283
 msgctxt "GCCreationHandler|"
 msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:279
+#: core/GCCreationHandler.qml:297
 msgctxt "GCCreationHandler|"
 msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:385
+#: core/GCCreationHandler.qml:409
 msgctxt "GCCreationHandler|"
 msgid "Load"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:395
+#: core/GCCreationHandler.qml:419
 msgctxt "GCCreationHandler|"
 msgid "Delete"
+msgstr ""
+
+#. +> trunk6
+#: core/GCCreationHandler.qml:429
+msgctxt "GCCreationHandler|"
+msgid "Open folder"
 msgstr ""
 
 #. +> trunk6 stable6

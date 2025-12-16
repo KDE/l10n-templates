@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-14 16:13+0100\n"
+"POT-Creation-Date: 2025-12-16 18:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31,39 +31,27 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/accountsintegration.cpp:86
-#, kde-format
-msgid "There is currently no account configured."
-msgstr ""
-
-#. +> trunk6 stable6
-#: agentbase/accountsintegration.cpp:103
-#, kde-format
-msgid "Accounts integration is not supported"
-msgstr ""
-
-#. +> trunk6 stable6
 #: agentbase/agentbase.cpp:307 agentbase/preprocessorbase_p.cpp:26
 #, kde-format
 msgid "Unable to register object at dbus: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/agentbase.cpp:398
+#: agentbase/agentbase.cpp:400
 #, kde-format
 msgctxt "Name and type of Akonadi resource"
 msgid "%1 of type %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/agentbase.cpp:816
+#: agentbase/agentbase.cpp:818
 #, kde-format
 msgctxt "@info:shell"
 msgid "Agent identifier"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/agentbase.cpp:822
+#: agentbase/agentbase.cpp:824
 #, kde-format
 msgid "Akonadi Agent"
 msgstr ""
@@ -191,7 +179,7 @@ msgid "Job canceled."
 msgstr ""
 
 #. +> trunk6 stable6
-#: akonadicontrol/main.cpp:54 akonadicontrol/main.cpp:56
+#: akonadicontrol/main.cpp:53 akonadicontrol/main.cpp:55
 #, kde-format
 msgid "Akonadi Control"
 msgstr ""
@@ -502,6 +490,20 @@ msgid "Name"
 msgstr ""
 
 #. +> trunk6 stable6
+#: core/models/colorproxymodel.cpp:85
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Offline)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/models/colorproxymodel.cpp:88
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Default)"
+msgstr ""
+
+#. +> trunk6 stable6
 #: core/models/entitytreemodel.cpp:206
 #, kde-format
 msgctxt "@info:status"
@@ -667,7 +669,7 @@ msgid "No description available"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/servermanager.cpp:265
+#: core/servermanager.cpp:271
 #, kde-format
 msgid ""
 "The Akonadi server protocol version differs from the protocol version used by this application.\n"
@@ -675,35 +677,21 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/servermanager.cpp:282
+#: core/servermanager.cpp:288
 #, kde-format
 msgid "There are no Akonadi Agents available. Please verify your KDE PIM installation."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/session.cpp:185
+#: core/session.cpp:184
 #, kde-format
 msgid "Protocol version mismatch. Server version is older (%1) than ours (%2). If you updated your system recently please restart the Akonadi server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/session.cpp:194
+#: core/session.cpp:193
 #, kde-format
 msgid "Protocol version mismatch. Server version is newer (%1) than ours (%2). If you updated your system recently please restart all KDE PIM applications."
-msgstr ""
-
-#. +> trunk6 stable6
-#: quick/colorproxymodel.cpp:84
-#, kde-format
-msgctxt "@item this is the default calendar"
-msgid "%1 (Offline)"
-msgstr ""
-
-#. +> trunk6 stable6
-#: quick/colorproxymodel.cpp:87
-#, kde-format
-msgctxt "@item this is the default calendar"
-msgid "%1 (Default)"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -862,7 +850,7 @@ msgid "Do you really want to delete the selected agent instance?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/agentconfigurationdialog.cpp:54
+#: widgets/agentconfigurationdialog.cpp:46
 #, kde-format
 msgctxt "@title:window, %1 = agent name"
 msgid "%1 Configuration"
@@ -2731,13 +2719,13 @@ msgid "Go Online"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/standardactionmanager.cpp:1685
+#: widgets/standardactionmanager.cpp:1684
 #, kde-format
 msgid "Move to This Folder"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/standardactionmanager.cpp:1685
+#: widgets/standardactionmanager.cpp:1684
 #, kde-format
 msgid "Copy to This Folder"
 msgstr ""
@@ -2960,4 +2948,16 @@ msgstr ""
 #: xml/xmldocument.cpp:302
 #, kde-format
 msgid "Unable to find collection %1"
+msgstr ""
+
+#. +> stable6
+#: agentbase/accountsintegration.cpp:86
+#, kde-format
+msgid "There is currently no account configured."
+msgstr ""
+
+#. +> stable6
+#: agentbase/accountsintegration.cpp:103
+#, kde-format
+msgid "Accounts integration is not supported"
 msgstr ""
