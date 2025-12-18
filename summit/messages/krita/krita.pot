@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-12 07:30+0100\n"
+"POT-Creation-Date: 2025-12-18 07:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17615,7 +17615,7 @@ msgid "Style Sample"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/flake/svg/SvgParser.cpp:1704
+#: libs/flake/svg/SvgParser.cpp:1760
 #, kde-format
 msgctxt "warning while loading SVG text"
 msgid "The document has vector text created in Krita 4.x. When you save the document, the text object will be converted into Krita 5 format that will no longer be compatible with Krita 4.x"
@@ -55153,7 +55153,7 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:226
-#: plugins/filters/colorsfilters/virtual_channel_info.cpp:29
+#: plugins/filters/colorsfilters/virtual_channel_info.cpp:30
 #: plugins/paintops/libpaintop/KisStandardOptionData.h:85
 #, kde-format
 msgid "Hue"
@@ -55162,7 +55162,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, saturationCBox)
 #. +> trunk5 stable5
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:227
-#: plugins/filters/colorsfilters/virtual_channel_info.cpp:33
+#: plugins/filters/colorsfilters/virtual_channel_info.cpp:34
 #: plugins/paintops/hairy/wdghairyeoptions.ui:314
 #: plugins/paintops/hairy/wdgInkOptions.ui:75
 #: plugins/paintops/libpaintop/KisStandardOptionData.h:93
@@ -55241,7 +55241,14 @@ msgstr ""
 msgid "Color Adjustment"
 msgstr ""
 
-#. +> trunk5 stable5
+#. +> trunk5
+#: plugins/filters/colorsfilters/virtual_channel_info.cpp:38
+#, kde-format
+msgctxt "Lightness L*a*b*"
+msgid "Lightness"
+msgstr ""
+
+#. +> stable5
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:37
 #, kde-format
 msgctxt "Lightness HSI"
