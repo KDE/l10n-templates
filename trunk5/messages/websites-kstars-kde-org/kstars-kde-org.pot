@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kstars-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 09:01+0000\n"
+"POT-Creation-Date: 2025-12-22 02:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: config.yaml:0 content/get-involved.md:0 content/users.md:0
-#: i18n/en.yaml:0
+#: i18n/en.yaml:3
 msgid "KStars"
 msgstr ""
 
@@ -734,30 +734,36 @@ msgid ""
 "of other downloadable catalogs."
 msgstr ""
 
+#. date-format
 #. Date format
-#: i18n/en.yaml:0
+#: i18n/en.yaml:6
 msgid "%d %B %Y"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. release-notes
+#: i18n/en.yaml:9
 msgid "Release Notes"
 msgstr ""
 
+#. kstars-copyright
 #. %1 year
-#: i18n/en.yaml:0
+#: i18n/en.yaml:11
 msgid "© **2001-%1 the KStars Team**"
 msgstr ""
 
+#. home.download
 #. %1 version number, %2 date
-#: i18n/en.yaml:0
+#: i18n/en.yaml:15
 msgid "Version %1 (released on %2)"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. home.download.other
+#: i18n/en.yaml:18
 msgid "Other download options"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. home.features
+#: i18n/en.yaml:20
 msgid ""
 "**KStars** caters to a wide-variety of use cases. Whether you are a student,"
 " an educator, an amateur astronomer or an astronomy enthusiast, you will "
@@ -766,102 +772,123 @@ msgid ""
 " case."
 msgstr ""
 
+#. download.intro
 #. %1 version number, %2 date
-#: i18n/en.yaml:0
+#: i18n/en.yaml:23
 msgid "The latest version is %1, released on %2"
 msgstr ""
 
+#. download.sha256-link
 #. %1 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:26
 msgid "[SHA256](%1)"
 msgstr ""
 
+#. download.windows
 #. %1 version number, %2 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:29
 msgid "[64bit KStars %1 Installer](%2) for Windows 10 or later"
 msgstr ""
 
+#. download.windows.guide
 #. %1 Quick Hash GUI link, %2 SHA256 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:32 i18n/en.yaml:38
 msgid ""
 "Use the [Quick Hash GUI](%1) to verify the integrity of the executable file "
 "by comparing it to the [SHA256 checksum](%2)."
 msgstr ""
 
+#. download.macos
 #. %1 version number, %2 link, %3 macOS version, e.g. "10.15+"
-#: i18n/en.yaml:0
+#: i18n/en.yaml:35
 msgid "[64bit KStars %1 Installer](%2) for macOS %3"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.appstream
+#: i18n/en.yaml:41
 msgid ""
 "Install KStars from your Linux distribution [software "
 "center](appstream://org.kde.kstars.desktop)."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.ubuntu
+#: i18n/en.yaml:43
 msgid ""
 "Under Ubuntu/Mint, you can install the latest KStars by typing the following"
 " commands in the console:"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.flatpak.flathub
+#: i18n/en.yaml:45
 msgid "Add flathub repository:"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.flatpak
+#: i18n/en.yaml:47
 msgid "Install KStars:"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.flatpak.nightly.remote
+#: i18n/en.yaml:49
 msgid "Add KStars Nightly repository:"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.flatpak.nightly.install
+#: i18n/en.yaml:51
 msgid "Install KStars Nightly:"
 msgstr ""
 
+#. download.snap
 #. %1 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:53
 msgid ""
 "Install the [latest and stable KStars](%1) on many linux distributions using"
 " Snap."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.source.title
+#: i18n/en.yaml:56
 msgid "Building from source"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.source.tarball
+#: i18n/en.yaml:58
 msgid "Source tarball"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.source.mirror-list
+#: i18n/en.yaml:60
 msgid "Mirror list"
 msgstr ""
 
+#. download.source.detail
 #. %1 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:62
 msgid "See [Building KStars from Source](%1) for details."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.windows.link
+#: i18n/en.yaml:65
 msgid "Download for Windows"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.macos.link
+#: i18n/en.yaml:67
 msgid "Download for macOS"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.linux.link
+#: i18n/en.yaml:69
 msgid "Download for Linux"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.verification.title
+#: i18n/en.yaml:71
 msgid "Verification"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. users.help.description
+#: i18n/en.yaml:74
 msgid ""
 "You are most welcome to tell us about your problems with KStars on our "
 "[mailing list](https://mail.kde.org/mailman/listinfo/kstars-devel) or our "
@@ -873,7 +900,8 @@ msgid ""
 "the [Get Involved](/get-involved) page for more information and pointers."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. users.bug.description
+#: i18n/en.yaml:76
 msgid ""
 "KStars has a lot of known issues, and many unknown issues. In either case, "
 "reporting a bug is always helpful. To report a bug against KStars, you can "
@@ -881,22 +909,26 @@ msgid ""
 "\"kstars\" as the product to file the bug against."
 msgstr ""
 
+#. features.edu
 #. %1 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:79
 msgid "[Education](%1)"
 msgstr ""
 
+#. features.img
 #. %1 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:82
 msgid "[Astrophotography](%1)"
 msgstr ""
 
+#. features.visual
 #. %1 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:85
 msgid "[Visual Observation](%1)"
 msgstr ""
 
+#. features.any
 #. %1 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:88
 msgid "[Astronomy Enthusiasts](%1)"
 msgstr ""

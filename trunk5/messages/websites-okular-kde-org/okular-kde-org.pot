@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-okular-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-13 02:05+0000\n"
+"POT-Creation-Date: 2025-12-22 02:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: config.yaml:0 content/download.md:0 i18n/en.yaml:0
+#: config.yaml:0 content/download.md:0 i18n/en.yaml:3
 msgid "Okular"
 msgstr ""
 
@@ -204,7 +204,8 @@ msgid ""
 " top bugs [here](https://community.kde.org/Okular)."
 msgstr ""
 
-#: content/download.md:0 i18n/en.yaml:0
+#. Home.downloadbutton
+#: content/download.md:0 i18n/en.yaml:13
 msgid "Download"
 msgstr ""
 
@@ -1365,93 +1366,112 @@ msgid ""
 "Toscano for their continued work on improving Okular."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.motto
+#: i18n/en.yaml:7
 msgid "The Universal Document Viewer"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.alt_img
+#: i18n/en.yaml:9
 msgid "Screenshot of Okular"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.figcaption
+#: i18n/en.yaml:11
 msgid ""
 "Illustration from [David Revoy CC-BY-SA-4.0](https://www.peppercarrot.com/)"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.SupportsFormats
+#: i18n/en.yaml:15
 msgid "Support for Many Formats"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.SupportsFormats.description
+#: i18n/en.yaml:17
 msgid ""
 "Okular supports many formats, including  PDF, EPub, DjVU and MD for "
 "documents; JPEG, PNG, GIF, Tiff, WebP for images; CBR and CBZ for comics; "
 "and many, many more."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.SupportsFormats.seemore
+#: i18n/en.yaml:19
 msgid "See Format Compatibility table"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.advancedinterface
+#: i18n/en.yaml:21
 msgid "Advanced User Interface"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.advancedinterface.features
+#: i18n/en.yaml:23
 msgid ""
 "Okular has a wide range of features that lets you easily manage your "
 "documents."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.advancedinterface.alt_img
+#: i18n/en.yaml:25
 msgid "A screenshot from Okular showing its annotation mode."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.annotate
+#: i18n/en.yaml:27
 msgid "Annotate your PDFs"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.annotate.description
+#: i18n/en.yaml:29
 msgid ""
 "With Okular's 'Annotation mode', you can easily add inline and popup notes, "
 "highlight and underline text, or even add your own text."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.selectandview
+#: i18n/en.yaml:31
 msgid "Select and View any Text"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.selectandview.description
+#: i18n/en.yaml:33
 msgid ""
 "With Okular's 'Selection mode', you can copy and paste almost anything from "
 "your documents to elsewhere. And, for those times the text you want to read "
 "is too small, you can use the 'Magnifier mode'."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.selectandview.alt_img1
+#: i18n/en.yaml:35
 msgid ""
 "Okular's 'Selection mode', with text, area and table selection options."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.selectandview.alt_img2
+#: i18n/en.yaml:37
 msgid "Okular's 'Text Magnifier' feature."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.ataglance.alt_img1
+#: i18n/en.yaml:39
 msgid ""
 "Okular's 'Content panel' auto renders a table of contents for a document."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.ataglance.alt_img2
+#: i18n/en.yaml:41
 msgid ""
 "Okular's 'Thumbnails panel' shows a thumbnail for each page of a document."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.ataglance
+#: i18n/en.yaml:43
 msgid "Your Content, at a Glance"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.ataglance.description
+#: i18n/en.yaml:45
 msgid ""
 "Navigating your content is easier than ever. With Okular's 'Thumbnails "
 "panel', you can browse graphically the part of the document you were looking"
@@ -1459,26 +1479,31 @@ msgid ""
 "documents."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.esign
+#: i18n/en.yaml:47
 msgid "First-class Signature Support"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.esign.description
+#: i18n/en.yaml:49
 msgid ""
 "You can view and verify digital signatures embedded in PDFs, check if they "
 "are still valid, and detect any modifications since the moment the document "
 "was signed. You can even sign PDFs yourself!"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.esign.alt_img
+#: i18n/en.yaml:51
 msgid "Okular showing a signed PDF."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.freesoftware
+#: i18n/en.yaml:53
 msgid "Free Software"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.freesoftware.description
+#: i18n/en.yaml:55
 msgid ""
 "Okular is released under the [GPLv2+](https://spdx.org/licenses/GPL-2.0-or-"
 "later.html), and is thus fully Free Software. Find the source code including"
@@ -1488,224 +1513,278 @@ msgid ""
 "Policy](https://kde.org/privacypolicy-apps/)."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.freesoftware.alt_img
+#: i18n/en.yaml:57
 msgid "Logo for the PDF freedom initiative"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. home.rees
+#: i18n/en.yaml:59
 msgid "Resource and Energy-Efficient Software"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. home.rees.description
+#: i18n/en.yaml:61
 msgid ""
 "Okular is the very first software product to receive the Blue Angel ecolabel"
 " for being resource and energy efficient. Click on the label to find out "
 "more."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. home.rees.alt
+#: i18n/en.yaml:63
 msgid ""
 "Blue Angel ecolabel, awarded by the German government to Okular for being "
 "energy efficient, saving resources, and providing transparent interfaces."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.try_it
+#: i18n/en.yaml:65
 msgid "Try Okular now!"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.download_it
+#: i18n/en.yaml:67
 msgid "Visit the download page."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.recentnews
+#: i18n/en.yaml:70
 msgid "Latest News"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.recentnews.view-all
+#: i18n/en.yaml:72
 msgid "View all Development News"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Home.recentnews.read-more
+#: i18n/en.yaml:74
 msgid "Read More"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Header
+#: i18n/en.yaml:79
 msgid "Features/Formats"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.PDF
+#: i18n/en.yaml:81
 msgid "PDF"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.PS
+#: i18n/en.yaml:83
 msgid "PS"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Tiff
+#: i18n/en.yaml:85
 msgid "Tiff"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.ODT
+#: i18n/en.yaml:87
 msgid "ODT"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.DjVu
+#: i18n/en.yaml:89
 msgid "DjVu"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Images
+#: i18n/en.yaml:91
 msgid "Images"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.DVI
+#: i18n/en.yaml:93
 msgid "DVI"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.XPS
+#: i18n/en.yaml:95
 msgid "XPS"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Fiction Book
+#: i18n/en.yaml:97
 msgid "Fiction Book"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Comic Book
+#: i18n/en.yaml:99
 msgid "Comic Book"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Plucker
+#: i18n/en.yaml:101
 msgid "Plucker"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.EPub
+#: i18n/en.yaml:103
 msgid "EPub"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Fax
+#: i18n/en.yaml:105
 msgid "Fax"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Mobipocket
+#: i18n/en.yaml:107
 msgid "Mobipocket"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Mainlib
+#: i18n/en.yaml:110
 msgid "Main library used"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.poppler
+#: i18n/en.yaml:112
 msgid "[poppler](http://poppler.freedesktop.org)"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.libspectre
+#: i18n/en.yaml:114
 msgid "[libspectre](http://libspectre.freedesktop.org)"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.libTIFF
+#: i18n/en.yaml:116
 msgid "[libTIFF](http://www.remotesensing.org/libtiff)"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.DjVuLibre
+#: i18n/en.yaml:118
 msgid "[DjVuLibre](http://djvulibre.djvuzone.org)"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.epub
+#: i18n/en.yaml:120
 msgid "[epub](http://sourceforge.net/projects/ebook-tools)"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Loading
+#: i18n/en.yaml:123
 msgid "Loading"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Rendering
+#: i18n/en.yaml:125
 msgid "Rendering"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Documents
+#: i18n/en.yaml:127
 msgid "Document Information"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Threads
+#: i18n/en.yaml:129
 msgid "Threaded Rendering"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.TOC
+#: i18n/en.yaml:131
 msgid "TOC"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Font
+#: i18n/en.yaml:133
 msgid "Font Information"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.ExtractText
+#: i18n/en.yaml:135
 msgid "Text Extraction"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Links
+#: i18n/en.yaml:137
 msgid "Links"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.PaperSize
+#: i18n/en.yaml:139
 msgid "Paper Size"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Printing
+#: i18n/en.yaml:141
 msgid "Printing"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.TextExporting
+#: i18n/en.yaml:143
 msgid "Text Exporting"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Annotations
+#: i18n/en.yaml:145
 msgid "Annotations"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.OtherFeatures
+#: i18n/en.yaml:148
 msgid "Other Features"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Forms
+#: i18n/en.yaml:150
 msgid "Forms"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.InverseSearch
+#: i18n/en.yaml:152
 msgid "Inverse Search"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.DocumentRights
+#: i18n/en.yaml:154
 msgid "Document Rights"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.EmbeddedFiles
+#: i18n/en.yaml:156
 msgid "Embedded Files"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Sounds
+#: i18n/en.yaml:158
 msgid "Sounds"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.Movies
+#: i18n/en.yaml:160
 msgid "Movies"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.InverseSearch.FormatsDone
+#: i18n/en.yaml:163
 msgid "pdfsync, synctex"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.yes
+#: i18n/en.yaml:166
 msgid "Yes"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.no
+#: i18n/en.yaml:168
 msgid "No"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. Apps.wip
+#: i18n/en.yaml:170
 msgid "Work in Progress"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. download.install.modular
+#: i18n/en.yaml:173
 msgid ""
 "In many cases you will have the opportunity to install Okular in a modular "
 "way, so you can decide to install support for specific formats separately or"

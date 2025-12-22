@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdevelop-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 09:01+0000\n"
+"POT-Creation-Date: 2025-12-22 02:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: config.yaml:0 content/_index.md:0 i18n/en.yaml:0
+#: config.yaml:0 content/_index.md:0 i18n/en.yaml:3
 msgid "KDevelop"
 msgstr ""
 
@@ -24,7 +24,8 @@ msgid ""
 "KDevelop - A cross-platform IDE for C, C++, Python, QML/JavaScript and PHP"
 msgstr ""
 
-#: content/download.md:0 i18n/en.yaml:0
+#. download
+#: content/download.md:0 i18n/en.yaml:8
 msgid "Download"
 msgstr ""
 
@@ -114,7 +115,8 @@ msgid ""
 "may or may not be up to date."
 msgstr ""
 
-#: content/features.md:0 i18n/en.yaml:0
+#. features
+#: content/features.md:0 i18n/en.yaml:10
 msgid "Features"
 msgstr ""
 
@@ -558,15 +560,18 @@ msgid ""
 "better the report the better the chances we can fix the reported problem."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. available
+#: i18n/en.yaml:6
 msgid "Available for Linux, Windows and macOS"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. features-subtitle
+#: i18n/en.yaml:12
 msgid "KDevelop is a Feature-Packed Integrated Development Environment"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. features-desc
+#: i18n/en.yaml:14
 msgid ""
 "KDevelop is a fully-featured Integrated Development Environment, perfect for"
 " C and C++ projects and other supported languages. It has great code "
@@ -574,74 +579,88 @@ msgid ""
 "keeps you close to where you're editing code."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. all-features
+#: i18n/en.yaml:16
 msgid "All Features"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. completion-color
+#: i18n/en.yaml:18
 msgid "Understand your code better with remarkable code comprehension"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. completion-more
+#: i18n/en.yaml:20
 msgid ""
 "KDevelop parses your project on the fly to give you accurate code "
 "completion. C/C++, Objective-C, and QML have first-class support in "
 "KDevelop!"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. language-support
+#: i18n/en.yaml:23
 msgid "Program in every language"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. language-support-desc
+#: i18n/en.yaml:25
 msgid ""
 "KDevelop has great support for C and C++, Objective-C and QML. It even supports some parts of Qt's dialect. Python and PHP have optional plugins enabling better support.\n"
 "\n"
 "KDevelop has support for CMake and QMake as well."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. projects-work
+#: i18n/en.yaml:28
 msgid "Work on multiple projects simultaneously"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. project-desc
+#: i18n/en.yaml:30
 msgid ""
 "KDevelop is a fantastic multi-project IDE, open multiple projects inside of one session and decide the order in which they can be built. KDevelop is a good fit for large scale software projects like KDE or Qt where development happens across several inter-connected frameworks and libraries.\n"
 "\n"
 "KDevelop also has a Git plugin, enabling you to work with an easy to use Git interface, to keep all of your projects up to date easily."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. documentation
+#: i18n/en.yaml:34
 msgid "Check again with documentation integration"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. documentation-desc
+#: i18n/en.yaml:36
 msgid ""
 "Forgot what `strcmp` returns? Need to check Qt documentation quickly without"
 " the help of a search engine? KDevelop can show you Qt documentation, CMake "
 "help pages, and Man pages directly from the editor!"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. plugins
+#: i18n/en.yaml:38
 msgid "Plugins"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. plugins-desc
+#: i18n/en.yaml:40
 msgid ""
 "KDevelop is very extensible, such as enabling Clang-Tidy, Heaptrack and "
 "Perforce support."
 msgstr ""
 
-#: i18n/en.yaml:0
+#. posts
+#: i18n/en.yaml:42
 msgid "News"
 msgstr ""
 
-#: i18n/en.yaml:0
+#. view-all-posts
+#: i18n/en.yaml:44
 msgid "View all news"
 msgstr ""
 
+#. appstream-badges-info
 #. %1 link, %2 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:47
 msgid ""
 "These buttons only work with [Discover](%1) and other AppStream application "
 "stores, such as [GNOME Software](https://wiki.gnome.org/Apps/Software). You "
@@ -649,13 +668,15 @@ msgid ""
 "[Synaptic](https://wiki.debian.org/Synaptic)."
 msgstr ""
 
+#. windows-release
 #. %1 link
-#: i18n/en.yaml:0
+#: i18n/en.yaml:50
 msgid "[Download the release KDevelop 64-bit installer](%1) *"
 msgstr ""
 
+#. contribute-programming
 #. %1, %2, %3, %4, %5 links
-#: i18n/en.yaml:0
+#: i18n/en.yaml:54
 msgid ""
 "If you want to help KDevelop with patches or new plugins, we are more than "
 "willing to help you get your feet wet! Chat with us on [#kdevelop on "
