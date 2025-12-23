@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-12-22 09:06+0100\n"
+"POT-Creation-Date: 2025-12-23 09:04+0100\n"
 
 #. +> trunk6 stable6
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -74,7 +74,7 @@ msgid "Find the requested numbers and drag them to the corresponding spot."
 msgstr ""
 
 #. One or more numbers to find, all at the beginning of the list. Don't display the %n in the translation if possible (actual English strings are "Find the previous number" and "Find the previous numbers")
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/adjacent_numbers/Adjacent_numbers.qml:56
 #, qt-format
 msgctxt "Adjacent_numbers|"
@@ -84,7 +84,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. One or more numbers to find, at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the next number" and "Find the next numbers")
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/adjacent_numbers/Adjacent_numbers.qml:60
 #, qt-format
 msgctxt "Adjacent_numbers|"
@@ -94,7 +94,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. One or more numbers to find, not at the beginning nor at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the in-between number" and "Find the in-between numbers")
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/adjacent_numbers/Adjacent_numbers.qml:64
 #, qt-format
 msgctxt "Adjacent_numbers|"
@@ -104,7 +104,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. More than one number to find, with at least one number at the beginning or at the end of the list. Don't display the %n in the translation if possible (actual English string is "Find the missing numbers")
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/adjacent_numbers/Adjacent_numbers.qml:68
 #, qt-format
 msgctxt "Adjacent_numbers|"
@@ -129,48 +129,6 @@ msgstr ""
 #: activities/adjacent_numbers/resource/3/Data.qml:9
 msgctxt "Data|"
 msgid "Find numbers between 0 and 100."
-msgstr ""
-
-#. +> stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:14
-msgctxt "Data|"
-msgid "Find the next number."
-msgstr ""
-
-#. +> stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:27
-msgctxt "Data|"
-msgid "Find the previous number."
-msgstr ""
-
-#. +> stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:40
-msgctxt "Data|"
-msgid "Find the in-between number."
-msgstr ""
-
-#. +> stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:53
-msgctxt "Data|"
-msgid "Find the missing numbers."
-msgstr ""
-
-#. +> stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:66
-msgctxt "Data|"
-msgid "Find the next numbers."
-msgstr ""
-
-#. +> stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:79
-msgctxt "Data|"
-msgid "Find the previous numbers."
-msgstr ""
-
-#. +> stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:105
-msgctxt "Data|"
-msgid "Find the in-between numbers."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2925,49 +2883,49 @@ msgctxt "BinaryBulb|"
 msgid "What is the binary representation of %1?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/binary_bulb/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Count up to 3 (with counter and with values visible)."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/binary_bulb/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Count up to 3 (without counter and with values visible)."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/binary_bulb/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Count up to 15 (with counter and with values visible)."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/binary_bulb/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Count up to 15 (without counter and with values visible)."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/binary_bulb/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "Count up to 255 (with counter and with values visible)."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/binary_bulb/resource/6/Data.qml:13
 msgctxt "Data|"
 msgid "Count up to 255 (without counter and with values visible)."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/binary_bulb/resource/7/Data.qml:13
 msgctxt "Data|"
 msgid "Count up to 15 (without counter and without values visible)."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/binary_bulb/resource/8/Data.qml:13
 msgctxt "Data|"
 msgid "Count up to 255 (without counter and without values visible)."
@@ -5926,17 +5884,10 @@ msgid "Digital electricity"
 msgstr ""
 
 #. Help title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/digital_electricity/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Create and simulate a digital logic circuit."
-msgstr ""
-
-#. Help title
-#. +> stable6
-#: activities/digital_electricity/ActivityInfo.qml:17
-msgctxt "ActivityInfo|"
-msgid "Create and simulate a digital logic circuit"
 msgstr ""
 
 #. Help goal
@@ -6517,7 +6468,7 @@ msgctxt "TutorialDataset|"
 msgid "Light the bulb using both the switches so that the bulb glows only when either the first switch is on and the second switch is off, or when the first switch is off and the second switch is on."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/ActivityConfig.qml:29
 #: activities/sketch/ActivityConfig.qml:29
 #, qt-format
@@ -6525,7 +6476,7 @@ msgctxt "ActivityConfig|"
 msgid "Number of undo: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/ActivityConfig.qml:44
 #: activities/sketch/ActivityConfig.qml:44
 msgctxt "ActivityConfig|"
@@ -6533,28 +6484,28 @@ msgid "Warning: setting the number of undo too high can make the application cra
 msgstr ""
 
 #. Activity title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Drawing wheels"
 msgstr ""
 
 #. Help title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Roll the gear in the cogwheel to draw."
 msgstr ""
 
 #. Help goal
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Discover hypotrochoids and use them as digital painting tools."
 msgstr ""
 
 #. Help manual
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid ""
@@ -6590,170 +6541,170 @@ msgctxt "ActivityInfo|"
 msgid "Ctrl + O: open an image"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:378
 msgctxt "DrawingWheels|"
 msgid "File menu"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:390
 msgctxt "DrawingWheels|"
 msgid "Wheel and gear"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:414
 msgctxt "DrawingWheels|"
 msgid "Pencil size and position"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:426
 msgctxt "DrawingWheels|"
 msgid "Color selector"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:453
 msgctxt "DrawingWheels|"
 msgid "Undo"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:465
 msgctxt "DrawingWheels|"
 msgid "Redo"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:499
 msgctxt "DrawingWheels|"
 msgid "Stop drawing"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:499
 msgctxt "DrawingWheels|"
 msgid "Start drawing"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:532
 msgctxt "DrawingWheels|"
 msgid "Show wheel and gear"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:532
 msgctxt "DrawingWheels|"
 msgid "Hide wheel and gear"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:691
 msgctxt "DrawingWheels|"
 msgid "Save your image"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:706
 msgctxt "DrawingWheels|"
 msgid "Open an image"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:735
 msgctxt "DrawingWheels|"
 msgid "Create a new image"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:754
 msgctxt "DrawingWheels|"
 msgid "Background color"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:835
 msgctxt "DrawingWheels|"
 msgid "Wheel"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:902
 msgctxt "DrawingWheels|"
 msgid "Gear"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:965
 #, qt-format
 msgctxt "DrawingWheels|"
 msgid "%1 spikes"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:983
 msgctxt "DrawingWheels|"
 msgid "Speed"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:999
 msgctxt "DrawingWheels|"
 msgid "Slow"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:1019
 msgctxt "DrawingWheels|"
 msgid "Fast"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:1062
 msgctxt "DrawingWheels|"
 msgid "Pen size"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:1099
 msgctxt "DrawingWheels|"
 msgid "Opacity"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:1142
 msgctxt "DrawingWheels|"
 msgid "Offset"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:1180
 msgctxt "DrawingWheels|"
 msgid "Start tooth"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:1360
 msgctxt "DrawingWheels|"
 msgid "You did not save this image. Do you want to close this activity?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:1361
 msgctxt "DrawingWheels|"
 msgid "Do you want to erase this image?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:1362
 msgctxt "DrawingWheels|"
 msgid "Yes"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/DrawingWheels.qml:1363
 msgctxt "DrawingWheels|"
 msgid "No"
@@ -7322,16 +7273,10 @@ msgctxt "board1|"
 msgid "Chichén Itzá"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board1.qml:20
 msgctxt "board1|"
 msgid "Chichen Itza, meaning “at the mouth of the Itza well”, is a Mayan City on the Yucatan Peninsula in Mexico, between Valladolid and Merida. It was established before the period of Christopher Columbus and probably served as the religion center of Yucatan for a while."
-msgstr ""
-
-#. +> stable6
-#: activities/explore_monuments/resource/board/board1.qml:20
-msgctxt "board1|"
-msgid "Chichen Itza, meaning “at the mouth of the Itza well”, is a Mayan City on the Yucatan Peninsula in Mexico, between Valladolid and Merida. It was established before the period of Christopher Colombus and probably served as the religion center of Yucatan for a while."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -8035,245 +7980,245 @@ msgctxt "board6|"
 msgid "Click on the location of the given pyramid."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:17
 #: activities/explore_monuments/resource/board/board7.qml:20
 msgctxt "board7|"
 msgid "Forbidden City"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:18
 msgctxt "board7|"
 msgid "The Forbidden City, located in the heart of Beijing, China, is a magnificent imperial palace complex that served as the home of Chinese emperors and the political center of the nation for nearly 500 years, from the Ming dynasty (1368–1644) to the end of the Qing dynasty (1644–1912). Built between 1406 and 1420, this sprawling architectural masterpiece spans 180 acres and features over 980 preserved buildings with 8,700 rooms, showcasing traditional Chinese palatial design. Surrounded by a moat and a massive wall, the Forbidden City was once inaccessible to the general public, symbolizing imperial power and exclusivity."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:28
 #: activities/explore_monuments/resource/board/board7.qml:31
 msgctxt "board7|"
 msgid "Leshan Giant Buddha"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:29
 msgctxt "board7|"
 msgid "The Leshan Giant Buddha, located in Sichuan Province, China, is a colossal statue carved into a cliff at the confluence of the Min, Dadu, and Qingyi rivers. Standing at 71 meters (233 feet), it is the tallest pre-modern statue in the world and a UNESCO World Heritage Site. Built during the Tang Dynasty (713–803 AD), the statue represents Maitreya, the Buddha of the future, and was created to calm the turbulent waters threatening local boat traffic. Ingeniously designed, the statue includes a hidden drainage system to prevent erosion. Its serene expression and intricate craftsmanship make it a symbol of spiritual and artistic achievement."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:39
 #: activities/explore_monuments/resource/board/board7.qml:42
 msgctxt "board7|"
 msgid "Potala Palace"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:40
 msgctxt "board7|"
 msgid "The Potala Palace, perched on Red Hill in Lhasa, Tibet, is an iconic symbol of Tibetan culture and a UNESCO World Heritage Site. Originally built in the 7th century and expanded in the 17th century, it served as the winter residence of the Dalai Lamas and the center of Tibetan governance. Rising 13 stories high with over 1,000 rooms, the palace combines intricate Tibetan architecture, vibrant murals, and sacred relics. It is divided into the White Palace, housing administrative areas, and the Red Palace, dedicated to religious studies and prayer. The Potala Palace stands as a testament to Tibet's spiritual and historical legacy."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:50
 #: activities/explore_monuments/resource/board/board7.qml:53
 msgctxt "board7|"
 msgid "Terracotta Army"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:51
 msgctxt "board7|"
 msgid "The Terracotta Army is a collection of thousands of life-sized clay soldiers, horses, and chariots buried with China's first emperor, Qin Shi Huang, to accompany him in the afterlife. Discovered in 1974 near Xi'an, the figures date back to approximately 210 BCE and are celebrated for their incredible detail, with each warrior uniquely crafted to represent the diverse ranks and roles of an ancient Chinese army."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:61
 #: activities/explore_monuments/resource/board/board7.qml:64
 msgctxt "board7|"
 msgid "Sun and Moon Pagodas"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:62
 msgctxt "board7|"
 msgid "The Sun and Moon Pagodas, located in Guilin, China, are iconic twin towers that symbolize the city's cultural and spiritual heritage. Originally built during the Tang Dynasty, they were reconstructed in the 20th century as striking landmarks on Shanhu Lake. The Sun Pagoda, standing 41 meters tall, is a bronze structure—the tallest of its kind in the world—while the Moon Pagoda, at 35 meters, is built of glazed tiles. These pagodas represent the harmony of yin and yang and are connected by an underwater glass tunnel. Illuminated at night, they are popular attractions showcasing traditional Chinese architecture and modern ingenuity."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:72
 #: activities/explore_monuments/resource/board/board7.qml:75
 msgctxt "board7|"
 msgid "Diaolou Towers"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:73
 msgctxt "board7|"
 msgid "The Diaolou Towers, found in Kaiping, Guangdong Province, China, are fortified multi-story structures built from the late 19th to early 20th centuries to protect against bandits and floods. Blending Western architectural styles like Romanesque and Baroque with traditional Chinese elements, they reflect the wealth and influence of overseas Chinese emigrants. Constructed with reinforced concrete, these towers symbolize a period of cultural and economic transition in rural China. Designated a UNESCO World Heritage Site in 2007, around 1,800 of the original 3,000 towers remain, offering insight into this unique architectural heritage."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:85
 msgctxt "board7|"
 msgid "Monuments of China"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:88
 msgctxt "board7|"
 msgid "Click on the location of the given monument."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:17
 #: activities/explore_monuments/resource/board/board8.qml:20
 msgctxt "board8|"
 msgid "The Pantheon"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:18
 msgctxt "board8|"
 msgid "The Pantheon in Rome, Italy, is an iconic ancient temple built around 126 AD during Emperor Hadrian's reign, on the site of earlier structures commissioned by Marcus Agrippa. Renowned for its architectural brilliance, it features a massive domed roof with a central oculus, symbolizing the heavens, allowing natural light to illuminate the interior. Originally dedicated to all Roman gods, it was later converted into a Christian church, known as the Basilica of St. Mary and the Martyrs (Santa Maria ad Martyres), in 609 AD. Its dome, the largest unreinforced concrete dome in the world, showcases remarkable engineering and symmetry, inspiring architects for centuries. The Pantheon’s harmonious proportions and historical significance make it a timeless masterpiece of classical architecture."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:28
 #: activities/explore_monuments/resource/board/board8.qml:31
 msgctxt "board8|"
 msgid "Duomo Di Milano"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:29
 msgctxt "board8|"
 msgid "The Duomo di Milano, also known as the Milan Cathedral, is an iconic Gothic masterpiece located in the heart of Milan, Italy. Constructed over nearly six centuries, it is one of the largest cathedrals in the world and a symbol of Milan's artistic and cultural heritage. Its intricate façade is adorned with countless statues, spires, and gargoyles, reflecting the grandeur of Gothic architecture. Visitors can explore its stunning interiors, featuring beautiful stained glass windows and intricate marble details, or ascend to the rooftop for breathtaking views of the city and the Alps. The Duomo stands as a testament to Italy's rich history and architectural brilliance."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:39
 #: activities/explore_monuments/resource/board/board8.qml:42
 msgctxt "board8|"
 msgid "Florence Cathedral"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:40
 msgctxt "board8|"
 msgid "The Florence Cathedral, officially known as the Cattedrale di Santa Maria del Fiore, is a renowned masterpiece of Gothic and Renaissance architecture located in Florence, Italy. Completed in 1436, it is famous for its massive red-tiled dome designed by Filippo Brunelleschi, which remains an engineering marvel and a symbol of the city. The cathedral's intricate marble facade, added in the 19th century, complements its richly decorated interior and artistic treasures. Together with Giotto’s Campanile and the Baptistery of St. John, it forms part of a UNESCO World Heritage Site, drawing millions of visitors annually for its historical, cultural, and architectural significance."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:50
 #: activities/explore_monuments/resource/board/board8.qml:53
 msgctxt "board8|"
 msgid "Leaning Tower of Pisa"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:51
 msgctxt "board8|"
 msgid "The Leaning Tower of Pisa, located in the Italian city of Pisa, is a globally renowned architectural marvel. Constructed as the freestanding bell tower for the city's cathedral, it is famous for its unintended tilt, caused by unstable foundation soil. Begun in 1173, the tower's construction spanned nearly 200 years, during which efforts were made to stabilize its inclination. Standing at approximately 56 meters (183 feet), the tower's Romanesque design features eight stories, including a bell chamber, adorned with intricately carved columns and arches. Recognized as a UNESCO World Heritage Site, it remains a symbol of resilience and ingenuity."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:61
 #: activities/explore_monuments/resource/board/board8.qml:64
 msgctxt "board8|"
 msgid "St Mark's Basilica"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:62
 msgctxt "board8|"
 msgid "St. Mark's Basilica, located in Venice, Italy, is an iconic masterpiece of Byzantine architecture and one of the city's most famous landmarks. Originally built in 828 to house the relics of St. Mark the Evangelist, it was rebuilt in its current form in the 11th century. Known for its opulent design, the basilica features a blend of Eastern and Western influences, evident in its five domes, intricate mosaics, and ornate facade adorned with statues and carvings. The interior is richly decorated with gold mosaics and marble floors, showcasing the wealth and power of the Venetian Republic. Adjacent to St. Mark's Square, it remains a symbol of Venice's historical, cultural, and religious heritage."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:72
 #: activities/explore_monuments/resource/board/board8.qml:75
 msgctxt "board8|"
 msgid "Pompeii"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:73
 msgctxt "board8|"
 msgid "Pompeii was an ancient Roman city located near modern-day Naples, Italy, famously preserved after being buried by the eruption of Mount Vesuvius in 79 AD. The eruption unleashed a deadly combination of ash, pumice, and pyroclastic flows, which engulfed the city and its inhabitants, preserving buildings, artifacts, and even human remains in incredible detail. Excavations of Pompeii have provided valuable insights into daily Roman life, architecture, and society, revealing a city with well-planned streets, homes, public baths, and temples. The site is now a UNESCO World Heritage Site and remains one of the most important archaeological discoveries in history."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:85
 msgctxt "board8|"
 msgid "Monuments of Italy"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:88
 msgctxt "board8|"
 msgid "Click on the location of the given monument."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:17
 #: activities/explore_monuments/resource/board/board9.qml:20
 msgctxt "board9|"
 msgid "Himeji Castle"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:18
 msgctxt "board9|"
 msgid "Himeji-jo is the finest surviving example of early 17th-century Japanese castle architecture, comprising 83 buildings with highly developed systems of defence and ingenious protection devices dating from the beginning of the Shogun period. It is a masterpiece of construction in wood, combining function with aesthetic appeal, both in its elegant appearance unified by the white plastered earthen walls and in the subtlety of the relationships between the building masses and the multiple roof layers."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:28
 #: activities/explore_monuments/resource/board/board9.qml:31
 msgctxt "board9|"
 msgid "Hiroshima Peace Memorial Park"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:29
 msgctxt "board9|"
 msgid "Hiroshima Peace Memorial Park is a symbol of peace and a reminder of the devastating consequences of war. Located in Hiroshima, Japan, the park commemorates the victims of the atomic bombing on August 6, 1945. The park features several monuments, including the iconic Atomic Bomb Dome, which was once a government building and now stands as a UNESCO World Heritage Site. The park also houses the Hiroshima Peace Memorial Museum, which educates visitors about the events surrounding the bombing and promotes a message of peace, nonviolence, and the importance of nuclear disarmament. It serves as a solemn space for reflection, honoring the lives lost and advocating for global peace."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:39
 #: activities/explore_monuments/resource/board/board9.qml:42
 msgctxt "board9|"
 msgid "Arakura Fuji Sengen Shrine"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:40
 msgctxt "board9|"
 msgid "The shrine was founded in 705 to enshrine the deity of the site. Following the great eruption of Mt. Fuji in 807, the emperor dispatched an imperial envoy to this shrine to perform a ritual to halt the eruption. It is said that during the Warring States Period, when Takeda Nobutora, the father of a famous warlord Takeda Shingen, battled with the Hojo Family, he set up camp here, prayed for victory, and won the battle. He then dedicated his sword to this shrine. Today, locals and those from afar visit the shrine to ward off evil, to pray for family happiness, and safe childbirth. In the spring, the cherry blossom trees bloom and crowds gather to enjoy the stunning view of Mt. Fuji."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:50
 #: activities/explore_monuments/resource/board/board9.qml:53
 msgctxt "board9|"
 msgid "Okinawa Shuri Castle"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:51
 msgctxt "board9|"
 msgid "Shuri Castle, located in Naha, Okinawa, Japan, is a UNESCO World Heritage Site and a symbol of the Ryukyu Kingdom's rich cultural history. Originally constructed in the 14th century, the castle served as the political, economic, and cultural hub of the kingdom for centuries. Renowned for its distinctive fusion of Chinese and Japanese architectural styles, Shuri Castle features vermilion lacquered structures, ornate decorations, and a commanding hilltop position. Though destroyed during World War II, it was meticulously reconstructed and became a key tourist attraction. Tragically, much of the castle was lost in a fire in 2019, but efforts to restore it are ongoing, reflecting its enduring importance to Okinawa's heritage."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:63
 msgctxt "board9|"
 msgid "Monuments of Japan"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:66
 msgctxt "board9|"
 msgid "Click on the location of the given monument."
@@ -14944,7 +14889,7 @@ msgctxt "Data|"
 msgid "Number to find between 1 and 5."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/graduated_line_read/resource/10/Data.qml:9
 #: activities/graduated_line_use/resource/10/Data.qml:9
 msgctxt "Data|"
@@ -15476,7 +15421,7 @@ msgctxt "Data|"
 msgid "Division required."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/guess24/resource/6/Data.qml:13
 msgctxt "Data|"
 msgid "All operators required."
@@ -17660,16 +17605,10 @@ msgctxt "louis_braille_data|"
 msgid "He became a teacher after graduating and promoted his method while secretly teaching it at the Institute."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/louis-braille/louis_braille_data.js:52
 msgctxt "louis_braille_data|"
 msgid "He revised and extended braille to include mathematics, symbols, punctuation and music notations."
-msgstr ""
-
-#. +> stable6
-#: activities/louis-braille/louis_braille_data.js:52
-msgctxt "louis_braille_data|"
-msgid "He revised and extended braille to include mathematics, symbols, punctuations and music notations."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -17691,18 +17630,10 @@ msgid "Arrange the events in the order in which they happened. Select the line t
 msgstr ""
 
 #. Activity title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/magic-hat-minus/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "The magician hat (subtraction)"
-msgstr ""
-
-#. Activity title
-#. +> stable6
-#: activities/magic-hat-minus/ActivityInfo.qml:15
-#: activities/magic-hat-plus/ActivityInfo.qml:15
-msgctxt "ActivityInfo|"
-msgid "The magician hat"
 msgstr ""
 
 #. Help title
@@ -17801,7 +17732,7 @@ msgid "%1x"
 msgstr ""
 
 #. Activity title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/magic-hat-plus/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "The magician hat (addition)"
@@ -19691,7 +19622,7 @@ msgctxt "ConfigurationItem|"
 msgid "Font letter spacing"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/ConfigurationItem.qml:445
 msgctxt "ConfigurationItem|"
 msgid "Teacher's server config"
@@ -19805,37 +19736,37 @@ msgctxt "Menu|"
 msgid "Vocabulary"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/Menu.qml:211
 msgctxt "Menu|"
 msgid "GCompris is not connected to teacher's server."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/Menu.qml:212
 msgctxt "Menu|"
 msgid "GCompris is connected to teacher's server, but the password entered for selected user is wrong."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/Menu.qml:213
 msgctxt "Menu|"
 msgid "GCompris is connected to teacher's server, and the user is authenticated."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/Menu.qml:214
 msgctxt "Menu|"
 msgid "GCompris has lost the connection to teacher's server."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/Menu.qml:215
 msgctxt "Menu|"
 msgid "GCompris has been disconnected from teacher's server."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/Menu.qml:216
 msgctxt "Menu|"
 msgid "GCompris is connected to teacher's server, but the user is not yet authenticated."
@@ -19859,25 +19790,25 @@ msgctxt "Menu|"
 msgid "Activity Settings"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/ServerConfigPage.qml:61
 msgctxt "ServerConfigPage|"
 msgid "Teacher's server settings"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/ServerConfigPage.qml:111
 msgctxt "ServerConfigPage|"
 msgid "Teacher's identifier"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/ServerConfigPage.qml:142
 msgctxt "ServerConfigPage|"
 msgid "Server port"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/menu/ServerConfigPage.qml:177
 msgctxt "ServerConfigPage|"
 msgid "Server port must be a number between 0 and 65535."
@@ -20431,82 +20362,82 @@ msgid "Up to 24 items, on multiple lines."
 msgstr ""
 
 #. Activity title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Multiple-choice questions"
 msgstr ""
 
 #. Help title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/ActivityInfo.qml:18
 msgctxt "ActivityInfo|"
 msgid "A generic activity for multiple-choice questions."
 msgstr ""
 
 #. Help goal
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Answer questions sent by the teacher."
 msgstr ""
 
 #. Help manual
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Click an answer to select it, then press the OK button to validate. Some questions require a single answer, other questions require multiple answers. For some questions, after validating the answer, a feedback text panel will be displayed: click anywhere to close this panel after reading it."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Up and Down arrows: navigate through the answer list"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Space: select or deselect the highlighted answer"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Enter: validate your answer, or close the feedback text panel"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/resource/1/Data.qml:9
 msgctxt "Data|"
 msgid "Find the correct answer."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/resource/1/Data.qml:17
 msgctxt "Data|"
 msgid "What is the first number?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/resource/1/Data.qml:26
 msgctxt "Data|"
 msgid "What is a color?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/resource/1/Data.qml:40
 msgctxt "Data|"
 msgid "What are the first two numbers?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/resource/1/Data.qml:49
 msgctxt "Data|"
 msgid "What are animals?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/multiple_choice_questions/resource/1/Data.qml:63
 msgctxt "Data|"
 msgid "Answers always in order, select the first one"
@@ -24650,7 +24581,7 @@ msgctxt "GradientToolPanel|"
 msgid "Gradient Tools"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/sketch/PaletteSelector.qml:148
 msgctxt "PaletteSelector|"
 msgid "Palettes"
@@ -27139,17 +27070,10 @@ msgid "Subtraction tables."
 msgstr ""
 
 #. Help manual
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/vertical_subtraction/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to subtract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the minuend on the next column: for example, if you add 10 units to the top number, you need to remove one unit from the top number of the next column. This is called the borrowing by regrouping method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the top number and select -1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
-msgstr ""
-
-#. Help manual
-#. +> stable6
-#: activities/vertical_subtraction/ActivityInfo.qml:24
-msgctxt "ActivityInfo|"
-msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to substract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the minuend on the next column: for example, if you add 10 units to the top number, you need to remove one unit from the top number of the next column. This is called the borrowing by regrouping method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the top number and select -1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -27256,13 +27180,13 @@ msgctxt "subtraction|"
 msgid "Solve: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/vertical_subtraction/VerticalSubtraction.qml:99
 msgctxt "VerticalSubtraction|"
 msgid "Write your own addition and solve it."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/vertical_subtraction/VerticalSubtraction.qml:100
 msgctxt "VerticalSubtraction|"
 msgid "Write your own subtraction and solve it."
@@ -27274,7 +27198,7 @@ msgctxt "VerticalSubtraction|"
 msgid "Ready"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/vertical_subtraction/VerticalSubtraction.qml:464
 msgctxt "VerticalSubtraction|"
 msgid "The result should not be a negative number."
@@ -27295,17 +27219,10 @@ msgid "Learn to solve vertical subtractions, with the borrowing by compensation 
 msgstr ""
 
 #. Help manual
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to subtract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the subtrahend on the next column: for example, if you add 10 units to the top number, you need to add one unit to the bottom number of the next column. This is called the borrowing by compensation method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the bottom number and select +1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
-msgstr ""
-
-#. Help manual
-#. +> stable6
-#: activities/vertical_subtraction_compensation/ActivityInfo.qml:24
-msgctxt "ActivityInfo|"
-msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to substract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the subtrahend on the next column: for example, if you add 10 units to the top number, you need to add one unit to the bottom number of the next column. This is called the borrowing by compensation method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the bottom number and select +1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
 msgstr ""
 
 #. Activity title
@@ -27437,19 +27354,19 @@ msgctxt "ActivityInfo|"
 msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/ChangeLog.qml:30
 msgctxt "ChangeLog|"
 msgid "Translation added for Kannada and Tamil"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/ChangeLog.qml:31
 msgctxt "ChangeLog|"
 msgid "New command-line option to set the locale (--locale locale)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/ChangeLog.qml:32
 msgctxt "ChangeLog|"
 msgid "New command-line option to show/hide the Home button (--hide-home-button/--show-home-button)"
@@ -28207,17 +28124,10 @@ msgctxt "QObject|"
 msgid "No data found for %1."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/GCCreationHandler.qml:185
 msgctxt "GCCreationHandler|"
 msgid "File deleted successfully!"
-msgstr ""
-
-#. +> stable6
-#: core/GCCreationHandler.qml:175
-#, qt-format
-msgctxt "GCCreationHandler|"
-msgid "%1 deleted successfully!"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -28227,17 +28137,10 @@ msgctxt "GCCreationHandler|"
 msgid "OK"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/GCCreationHandler.qml:193
 msgctxt "GCCreationHandler|"
 msgid "Unable to delete the file!"
-msgstr ""
-
-#. +> stable6
-#: core/GCCreationHandler.qml:180
-#, qt-format
-msgctxt "GCCreationHandler|"
-msgid "Unable to delete %1!"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -28300,7 +28203,7 @@ msgctxt "GCCreationHandler|"
 msgid "Delete"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/GCCreationHandler.qml:429
 msgctxt "GCCreationHandler|"
 msgid "Open folder"
@@ -28432,19 +28335,19 @@ msgctxt "QObject|"
 msgid "Specify on which level to start the activity. Only used when --launch option is used."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/main.cpp:146
 msgctxt "QObject|"
 msgid "Specify the locale when starting GCompris."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/main.cpp:150
 msgctxt "QObject|"
 msgid "Hide the Home button in the bar."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/main.cpp:154
 msgctxt "QObject|"
 msgid "Show the Home button in the bar (default)."
@@ -28541,39 +28444,39 @@ msgctxt "main|"
 msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/main.qml:509
 #, qt-format
 msgctxt "main|"
 msgid "Do you want to connect to server %1?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/main.qml:530
 #, qt-format
 msgctxt "main|"
 msgid "Password rejected by server %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/main.qml:531 core/main.qml:550 core/main.qml:625
 msgctxt "main|"
 msgid "OK"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/main.qml:546
 msgctxt "main|"
 msgid "Select your username"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/main.qml:556
 msgctxt "main|"
 msgid "Please select your username in the list or cancel."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/main.qml:623
 msgctxt "main|"
 msgid "Enter your password"
@@ -28607,10 +28510,4 @@ msgstr ""
 #: core/Tutorial.qml:174
 msgctxt "Tutorial|"
 msgid "Start"
-msgstr ""
-
-#. +> stable6
-#: activities/sketch/ColorsPanel.qml:159
-msgctxt "ColorsPanel|"
-msgid "Palettes"
 msgstr ""
