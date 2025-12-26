@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"POT-Creation-Date: 2025-12-26 00:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -765,14 +765,14 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: hacking.docbook:231 hacking.docbook:246 hacking.docbook:253
-#: hacking.docbook:268 hacking.docbook:292
+#: hacking.docbook:231 hacking.docbook:246 hacking.docbook:261
+#: hacking.docbook:285 hacking.docbook:304
 #, no-c-format
 msgid "Example"
 msgstr ""
 
 #. Tag: userinput
-#: hacking.docbook:233 hacking.docbook:255
+#: hacking.docbook:233
 #, no-c-format
 msgid "Max Icon Size=128"
 msgstr ""
@@ -798,33 +798,33 @@ msgid "Icon Cache Size=100"
 msgstr ""
 
 #. Tag: title
-#: hacking.docbook:260
+#: hacking.docbook:253
 #, no-c-format
 msgid "Image Cache Size"
 msgstr ""
 
 #. Tag: para
-#: hacking.docbook:262
+#: hacking.docbook:255
 #, no-c-format
 msgid ""
 "The maximum amount of memory in bytes used for caching all the images may be "
-"changed with this setting. The default value is 67108864."
+"changed with this setting. The default value is 512 MiB."
 msgstr ""
 
 #. Tag: userinput
-#: hacking.docbook:270
+#: hacking.docbook:263
 #, no-c-format
 msgid "Image Cache Size=256000000"
 msgstr ""
 
 #. Tag: title
-#: hacking.docbook:277
+#: hacking.docbook:270
 #, no-c-format
 msgid "[Options - bibtex]"
 msgstr ""
 
 #. Tag: para
-#: hacking.docbook:279
+#: hacking.docbook:272
 #, no-c-format
 msgid ""
 "These settings should be placed in the <emphasis>Options - bibtex</emphasis> "
@@ -832,13 +832,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: hacking.docbook:284
+#: hacking.docbook:277
 #, no-c-format
 msgid "lyxpipe"
 msgstr ""
 
 #. Tag: para
-#: hacking.docbook:286
+#: hacking.docbook:279
 #, no-c-format
 msgid ""
 "This setting is for the location of the lyxpipe for sending bibliographic "
@@ -847,19 +847,51 @@ msgid ""
 msgstr ""
 
 #. Tag: userinput
-#: hacking.docbook:294
+#: hacking.docbook:287
 #, no-c-format
 msgid "lyxpipe=$HOME/.lyx/lyxpipe"
 msgstr ""
 
 #. Tag: title
-#: hacking.docbook:302
+#: hacking.docbook:293
+#, no-c-format
+msgid "[File Reader Options]"
+msgstr ""
+
+#. Tag: para
+#: hacking.docbook:295
+#, no-c-format
+msgid ""
+"These settings should be placed in the <emphasis>File Reader Options</"
+"emphasis> group."
+msgstr ""
+
+#. Tag: title
+#: hacking.docbook:298
+#, no-c-format
+msgid "Preview Size"
+msgstr ""
+
+#. Tag: para
+#: hacking.docbook:300
+#, no-c-format
+msgid "This setting is for the maximum size of the generated file preview."
+msgstr ""
+
+#. Tag: userinput
+#: hacking.docbook:306
+#, no-c-format
+msgid "Preview Size=523"
+msgstr ""
+
+#. Tag: title
+#: hacking.docbook:313
 #, no-c-format
 msgid "Bibtex Character Translation"
 msgstr ""
 
 #. Tag: para
-#: hacking.docbook:304
+#: hacking.docbook:315
 #, no-c-format
 msgid ""
 "When bibtex files are imported or exported, certain characters are "
@@ -872,7 +904,7 @@ msgid ""
 msgstr ""
 
 #. Tag: programlisting
-#: hacking.docbook:308
+#: hacking.docbook:319
 #, no-c-format
 msgid ""
 "<![CDATA[\n"
@@ -881,17 +913,4 @@ msgid ""
 "    <string>\\`{A}</string>\n"
 "  </key>\n"
 "]]>"
-msgstr ""
-
-#. Tag: title
-#: hacking.docbook:313
-#, no-c-format
-msgid "XSLT Tricks"
-msgstr ""
-
-#. Tag: para
-#: hacking.docbook:315
-#, no-c-format
-msgid ""
-"Here are some tips for writing XSLT to parse &appname; &XML; data: (TBD)."
 msgstr ""
