@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-18 07:34+0100\n"
+"POT-Creation-Date: 2025-12-26 06:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -683,42 +683,56 @@ msgid "About KDE"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/InvitationView.qml:52
+#: src/app/qml/InvitationView.qml:53
 #, kde-format
 msgctxt "@info:label 'Username' has invited you to this room at 'timestamp'."
 msgid "%1 has invited you to this room at %2."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/InvitationView.qml:98
+#: src/app/qml/InvitationView.qml:99
 #, kde-format
 msgctxt "@info:label This user invited you to chat at 'timestamp'"
 msgid "This user invited you to chat at %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/InvitationView.qml:113
+#: src/app/qml/InvitationView.qml:114
 #, kde-format
 msgctxt "@action:button Accept this invite"
 msgid "Accept Invite"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/InvitationView.qml:128
+#: src/app/qml/InvitationView.qml:129
 #, kde-format
 msgctxt "@action:button Reject this invite"
 msgid "Reject Invite"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/app/qml/InvitationView.qml:142
+#. +> trunk6
+#: src/app/qml/InvitationView.qml:145
+#, kde-format
+msgctxt "@action:button View this user's profile"
+msgid "View %1's Profile"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/InvitationView.qml:159
+#, kde-format
+msgctxt "@action:button Ignore the user"
+msgid "Ignore %1 and Reject Invite"
+msgstr ""
+
+#. +> stable6
+#: src/app/qml/InvitationView.qml:141
 #, kde-format
 msgctxt "@action:button Block the user"
 msgid "Block %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/InvitationView.qml:181
+#: src/app/qml/InvitationView.qml:198
 #, kde-kuit-format
 msgctxt "@info:label Ensure you are referring to the same translation used for that settings page"
 msgid "You can reject invitations from unknown users under the <interface>Security & Safety</interface> settings."
@@ -1213,7 +1227,7 @@ msgid "You do not have permissions to start Jitsi meetings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/RoomPage.qml:129 src/app/qml/UserDetailDialog.qml:285
+#: src/app/qml/RoomPage.qml:129 src/app/qml/UserDetailDialog.qml:141
 #: src/roominfo/RoomInformation.qml:91
 #, kde-format
 msgctxt "@action:title"
@@ -1481,13 +1495,13 @@ msgid "Request from other Devices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:34
+#: src/app/qml/UserDetailDialog.qml:49
 #, kde-format
 msgctxt "@title:menu Account details dialog"
 msgid "Account Details"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:93
 #, kde-format
 msgctxt "@info"
@@ -1496,19 +1510,110 @@ msgid_plural "%1 mutual rooms"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:109
+#, kde-format
+msgctxt "@action:intoolbar Message this user directly"
+msgid "Message"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:119
+#, kde-format
+msgctxt "@action:intoolbar Unignore or 'unblock' this user"
+msgid "Unignore"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:119
+#, kde-format
+msgctxt "@action:intoolbar Ignore or 'block' this user"
+msgid "Ignore"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:127
+#, kde-format
+msgctxt "@action:intoolbar Copy shareable link for this user"
+msgid "Copy Link"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:133
+#, kde-format
+msgctxt "@action:intoolbar Search for this user's messages."
+msgid "Search Messages…"
+msgstr ""
+
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:146
 #, kde-format
 msgid "Unignore this user"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:146
 #, kde-format
 msgid "Ignore this user"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:147
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Show QR Code"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:163
+#, kde-format
+msgctxt "@action:button 'Report' as in 'Report this user to the administrators'"
+msgid "Report…"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:169
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Report User"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:170
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Reason for reporting this user"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:172
+#, kde-format
+msgctxt "@action:button 'Report' as in 'Report this user to the administrators'"
+msgid "Report"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:174
+#, kde-format
+msgctxt "@title"
+msgid "Report User"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:188
+#, kde-format
+msgctxt "@title Moderation actions for this user"
+msgid "Moderation"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:208
+#, kde-format
+msgctxt "@action:button Kick the user from the room"
+msgid "Kick…"
+msgstr ""
+
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:157
 #, kde-format
 msgctxt "@action:button"
@@ -1516,170 +1621,186 @@ msgid "Kick this user"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:161 src/app/qml/UserDetailDialog.qml:166
+#: src/app/qml/UserDetailDialog.qml:212 src/app/qml/UserDetailDialog.qml:217
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Kick User"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:162
+#: src/app/qml/UserDetailDialog.qml:213
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Reason for kicking this user"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:163
+#: src/app/qml/UserDetailDialog.qml:214
 #, kde-format
 msgctxt "@action:button 'Kick' as in 'Kick this user from the room'"
 msgid "Kick"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:180
-#, kde-format
-msgctxt "@action:button"
-msgid "Invite this user"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:191
-#, kde-format
-msgctxt "@action:button"
-msgid "Ban this user"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:196 src/app/qml/UserDetailDialog.qml:201
-#, kde-format
-msgctxt "@title:dialog"
-msgid "Ban User"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:197
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Reason for banning this user"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:198
-#, kde-format
-msgctxt "@action:button 'Ban' as in 'Ban this user'"
-msgid "Ban"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:214
-#, kde-format
-msgctxt "@action:button"
-msgid "Unban this user"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:225
 #, kde-format
 msgctxt "@action:button"
 msgid "Set user power level"
 msgstr ""
 
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:229
+#, kde-format
+msgctxt "@action:button Ban this user from the room"
+msgid "Ban…"
+msgstr ""
+
 #. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:234 src/app/qml/UserDetailDialog.qml:239
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Ban User"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:235
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Reason for banning this user"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:236
+#, kde-format
+msgctxt "@action:button 'Ban' as in 'Ban this user'"
+msgid "Ban"
+msgstr ""
+
+#. +> stable6
+#: src/app/qml/UserDetailDialog.qml:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Invite this user"
+msgstr ""
+
+#. +> stable6
+#: src/app/qml/UserDetailDialog.qml:191
+#, kde-format
+msgctxt "@action:button"
+msgid "Ban this user"
+msgstr ""
+
+#. +> stable6
+#: src/app/qml/UserDetailDialog.qml:214
+#, kde-format
+msgctxt "@action:button"
+msgid "Unban this user"
+msgstr ""
+
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:247
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove recent messages by this user"
 msgstr ""
 
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:251
+#, kde-format
+msgctxt "@action:button Unban the user from this room"
+msgid "Unban"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:262
+#, kde-format
+msgctxt "@action:button Remove messages from the user in this room"
+msgid "Remove Messages…"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:252
+#: src/app/qml/UserDetailDialog.qml:267
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Remove Messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:253
+#: src/app/qml/UserDetailDialog.qml:268
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Reason for removing this user's recent messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:254
+#: src/app/qml/UserDetailDialog.qml:269
 #, kde-format
 msgctxt "@action:button 'Remove' as in 'Remove these messages'"
 msgid "Remove"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:257
-#, kde-format
-msgctxt "@title"
-msgid "Remove Messages"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:269
 #, kde-format
 msgctxt "%1 is the name of the user."
 msgid "Chat with %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:269
 #, kde-format
 msgid "Invite to private chat"
 msgstr ""
 
 #. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:272
+#, kde-format
+msgctxt "@title"
+msgid "Remove Messages"
+msgstr ""
+
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:278
 #, kde-format
 msgctxt "@action:button %1 is the name of the user."
 msgid "Search room for %1's messages"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:285
+#, kde-format
+msgctxt "@title Role such as 'Admin' or 'Moderator' for this user"
+msgid "Role"
+msgstr ""
+
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:292
 #, kde-format
 msgid "Copy link"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:298
-#, kde-format
-msgctxt "@action:button 'Report' as in 'Report this user to the administrators'"
-msgid "Report…"
-msgstr ""
-
-#. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:303
-#, kde-format
-msgctxt "@title:dialog"
-msgid "Report User"
-msgstr ""
-
-#. +> trunk6
 #: src/app/qml/UserDetailDialog.qml:304
 #, kde-format
-msgctxt "@info:placeholder"
-msgid "Reason for reporting this user"
+msgctxt "@action:button Set the power level (such as 'Admin') for this user"
+msgid "Set Power Level"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:306
+#: src/app/qml/UserDetailDialog.qml:331
 #, kde-format
-msgctxt "@action:button 'Report' as in 'Report this user to the administrators'"
-msgid "Report"
+msgctxt "@title The set of common rooms between your current user and the one shown"
+msgid "Mutual Rooms"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:308
+#: src/app/qml/UserDetailDialog.qml:370
 #, kde-format
-msgctxt "@title"
-msgid "Report User"
-msgstr ""
+msgctxt "@info:label And '%1' more rooms you have in common with this user, but are not shown"
+msgid "and 1 more…"
+msgid_plural "and %1 more…"
+msgstr[0] ""
+msgstr[1] ""
 
 #. +> trunk6 stable6
 #: src/app/qml/UserMenu.qml:62
@@ -5460,28 +5581,42 @@ msgstr ""
 msgid "Show your messages on the right"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/settings/AppearanceSettingsPage.qml:344
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Show link previews"
+msgstr ""
+
+#. +> stable6
 #: src/settings/AppearanceSettingsPage.qml:344
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Show link previews in messages"
 msgstr ""
 
+#. +> trunk6
+#: src/settings/AppearanceSettingsPage.qml:345
+#, kde-format
+msgctxt "@info:label"
+msgid "You can customize this per-room under room settings. If unchecked, disables link previews in every room."
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/settings/AppearanceSettingsPage.qml:354
+#: src/settings/AppearanceSettingsPage.qml:355
 #, kde-format
 msgctxt "@title"
 msgid "Show Avatars"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/AppearanceSettingsPage.qml:358
+#: src/settings/AppearanceSettingsPage.qml:359
 #, kde-format
 msgid "In chat"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/AppearanceSettingsPage.qml:368
+#: src/settings/AppearanceSettingsPage.qml:369
 #, kde-format
 msgid "In sidebar"
 msgstr ""
@@ -7105,21 +7240,98 @@ msgctxt "@action:button"
 msgid "Add new alias"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/settings/RoomGeneralPage.qml:194
+#, kde-format
+msgctxt "@title"
+msgid "Link Previews"
+msgstr ""
+
+#. +> stable6
 #: src/settings/RoomGeneralPage.qml:194
 #, kde-format
 msgctxt "@title"
 msgid "URL Previews"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/settings/RoomGeneralPage.qml:201
+#, kde-format
+msgctxt "As in the user has switched off showing previews of hyperlinks in timeline messages"
+msgid "Link previews are disabled globally in Appearance settings"
+msgstr ""
+
+#. +> stable6
+#: src/settings/RoomGeneralPage.qml:221
+#, kde-format
+msgctxt "As in the user has switched off showing previews of hyperlinks in timeline messages"
+msgid "URL previews are currently disabled for your account"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/RoomGeneralPage.qml:206
+#, kde-format
+msgctxt "@action:button Enable link previews globally"
+msgid "Enable"
+msgstr ""
+
+#. +> stable6
+#: src/settings/RoomGeneralPage.qml:225
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/RoomGeneralPage.qml:218
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Enable link previews for this room"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/RoomGeneralPage.qml:220
+#, kde-format
+msgctxt "@info"
+msgid "Link previews were enabled by default by the room admins."
+msgstr ""
+
+#. +> stable6
+#: src/settings/RoomGeneralPage.qml:209
+#, kde-format
+msgctxt "@info"
+msgid "URL previews are enabled by default in this room"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/RoomGeneralPage.qml:220
+#, kde-format
+msgctxt "@info"
+msgid "Link previews were disabled by default by the room admins."
+msgstr ""
+
+#. +> stable6
+#: src/settings/RoomGeneralPage.qml:209
+#, kde-format
+msgctxt "@info"
+msgid "URL previews are disabled by default in this room"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/RoomGeneralPage.qml:225
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Enable link previews by default"
+msgstr ""
+
+#. +> stable6
 #: src/settings/RoomGeneralPage.qml:198
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable URL previews by default for room members"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/settings/RoomGeneralPage.qml:207
 #, kde-format
 msgctxt "@label:checkbox"
@@ -7127,98 +7339,70 @@ msgid "Enable URL previews"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:209
-#, kde-format
-msgctxt "@info"
-msgid "URL previews are enabled by default in this room"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:209
-#, kde-format
-msgctxt "@info"
-msgid "URL previews are disabled by default in this room"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:221
-#, kde-format
-msgctxt "As in the user has switched off showing previews of hyperlinks in timeline messages"
-msgid "URL previews are currently disabled for your account"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:225
-#, kde-format
-msgctxt "@action:button"
-msgid "Enable"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:233
+#: src/settings/RoomGeneralPage.qml:232
 #, kde-format
 msgctxt "@title"
 msgid "Official Parent Spaces"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:266
+#: src/settings/RoomGeneralPage.qml:265
 #, kde-format
 msgctxt "@action:button"
 msgid "Canonical"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:271
+#: src/settings/RoomGeneralPage.qml:270
 #, kde-format
 msgctxt "@action:button"
 msgid "Make canonical parent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:282
+#: src/settings/RoomGeneralPage.qml:281
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove parent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:295
+#: src/settings/RoomGeneralPage.qml:294
 #, kde-format
 msgctxt "@info"
 msgid "This room has no official parent spaces."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:299
+#: src/settings/RoomGeneralPage.qml:298
 #, kde-format
 msgctxt "@action:button"
 msgid "Add new official parent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:316
+#: src/settings/RoomGeneralPage.qml:315
 #, kde-format
 msgctxt "@info"
 msgid "This room continues another conversation."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:320
+#: src/settings/RoomGeneralPage.qml:319
 #, kde-format
 msgctxt "@action:button"
 msgid "See older messages…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:332
+#: src/settings/RoomGeneralPage.qml:331
 #, kde-format
 msgctxt "@info"
 msgid "This room has been replaced."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:336
+#: src/settings/RoomGeneralPage.qml:335
 #, kde-format
 msgctxt "@action:button"
 msgid "See new room…"
