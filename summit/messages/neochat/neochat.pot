@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-26 06:10+0100\n"
+"POT-Creation-Date: 2025-12-27 12:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -759,62 +759,62 @@ msgid "Session Verification"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:109
+#: src/app/qml/KeyVerificationDialog.qml:100
 #, kde-format
 msgid "Accept"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:115
+#: src/app/qml/KeyVerificationDialog.qml:106
 #, kde-format
 msgid "Decline"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:159
+#: src/app/qml/KeyVerificationDialog.qml:150
 #, kde-format
 msgid "Waiting for device to accept verification."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:161
+#: src/app/qml/KeyVerificationDialog.qml:152
 #, kde-format
 msgid "Incoming key verification request from device **%1**"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:163
+#: src/app/qml/KeyVerificationDialog.qml:154
 #, kde-format
 msgid "Waiting for other party to send us keys."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:165
+#: src/app/qml/KeyVerificationDialog.qml:156
 #, kde-format
 msgid "Waiting for other party to confirm our keys."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:167
+#: src/app/qml/KeyVerificationDialog.qml:158
 #, kde-format
 msgid "Waiting for other party to verify."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:169
+#: src/app/qml/KeyVerificationDialog.qml:160
 #, kde-format
 msgid "Successfully verified device **%1**"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:186
+#: src/app/qml/KeyVerificationDialog.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "Choose a verification method to continue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/KeyVerificationDialog.qml:190
+#: src/app/qml/KeyVerificationDialog.qml:181
 #, kde-format
 msgctxt "@action:button"
 msgid "Emoji Verification"
@@ -2559,20 +2559,34 @@ msgstr ""
 msgid "Admin"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/libneochat/enums/powerlevel.cpp:16
+#, kde-format
+msgctxt "The person that owns a room"
+msgid "Owner"
+msgstr ""
+
+#. +> trunk6
+#: src/libneochat/enums/powerlevel.cpp:18
+#, kde-format
+msgctxt "The person that created a room"
+msgid "Creator"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/libneochat/enums/powerlevel.cpp:20
 #, kde-format
 msgid "Mute"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/enums/powerlevel.cpp:18
+#: src/libneochat/enums/powerlevel.cpp:22
 #, kde-format
 msgid "Custom"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/enums/powerlevel.cpp:88
+#: src/libneochat/enums/powerlevel.cpp:98
 #: src/libneochat/models/userlistmodel.cpp:120
 #: src/settings/models/permissionsmodel.cpp:185
 #, kde-format
@@ -4412,7 +4426,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/messagecontent/CodeComponent.qml:173
-#: src/messagecontent/VideoComponent.qml:374
+#: src/messagecontent/VideoComponent.qml:341
 #, kde-format
 msgctxt "@action:button"
 msgid "Maximize"
@@ -4432,30 +4446,30 @@ msgid "Fetch More Events"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/FileComponent.qml:84
-#: src/messagecontent/FileComponent.qml:167
+#: src/messagecontent/FileComponent.qml:80
+#: src/messagecontent/FileComponent.qml:155
 #, kde-format
 msgctxt "tooltip for a button on a message; offers ability to download its file"
 msgid "Download"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/FileComponent.qml:100
-#: src/messagecontent/FileComponent.qml:157
+#: src/messagecontent/FileComponent.qml:93
+#: src/messagecontent/FileComponent.qml:145
 #, kde-format
 msgctxt "tooltip for a button on a message; offers ability to open its downloaded file with an appropriate application"
 msgid "Open File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/FileComponent.qml:115
+#: src/messagecontent/FileComponent.qml:103
 #, kde-format
 msgctxt "file download progress"
 msgid "%1 / %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/FileComponent.qml:120
+#: src/messagecontent/FileComponent.qml:107
 #, kde-format
 msgctxt "tooltip for a button on a message; stops downloading the message's file"
 msgid "Stop Download"
@@ -4489,7 +4503,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/messagecontent/ImageComponent.qml:55
-#: src/messagecontent/VideoComponent.qml:183
+#: src/messagecontent/VideoComponent.qml:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Hide Image"
@@ -4672,20 +4686,20 @@ msgid "Pl. %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/VideoComponent.qml:211
+#: src/messagecontent/VideoComponent.qml:178
 #, kde-format
 msgid "Video"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/VideoComponent.qml:250
+#: src/messagecontent/VideoComponent.qml:217
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Video"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/VideoComponent.qml:291
+#: src/messagecontent/VideoComponent.qml:258
 #, kde-format
 msgctxt "@action:button"
 msgid "Volume"
