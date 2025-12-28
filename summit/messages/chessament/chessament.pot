@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: chessament\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-22 09:06+0100\n"
+"POT-Creation-Date: 2025-12-28 10:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -759,7 +759,21 @@ msgid "Changing the initial ranking after the fourth round has been paired is no
 msgstr ""
 
 #. +> trunk6
-#: qml/StandingsPage.qml:55
+#: qml/StandingsPage.qml:44 qml/StandingsPage.qml:54
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Final Standings"
+msgstr ""
+
+#. +> trunk6
+#: qml/StandingsPage.qml:46 qml/StandingsPage.qml:56
+#, kde-format
+msgctxt "@item:inlistbox Standings After Round %1"
+msgid "After Round %1"
+msgstr ""
+
+#. +> trunk6
+#: qml/StandingsPage.qml:106
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No standings yet"
