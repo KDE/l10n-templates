@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kjournald\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-28 10:04+0100\n"
+"POT-Creation-Date: 2025-12-29 09:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -314,13 +314,6 @@ msgstr ""
 msgid "Current Journal"
 msgstr ""
 
-#. +> stable6
-#: org/kde/kjournaldbrowser/GlobalMenu.qml:80
-#: org/kde/kjournaldbrowser/TopMenuBar.qml:85
-#, kde-format
-msgid "Localized Realtime"
-msgstr ""
-
 #. +> trunk6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:81
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:80
@@ -353,8 +346,17 @@ msgstr ""
 
 #. +> trunk6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:87
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:87
 #, kde-format
-msgid "@item:inmenu"
+msgctxt "@item:inmenu"
+msgid "Localized Realtime"
+msgstr ""
+
+#. +> stable6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:80
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:85
+#, kde-format
+msgid "Localized Realtime"
 msgstr ""
 
 #. +> trunk6
@@ -387,17 +389,19 @@ msgstr ""
 msgid "Monotonic Time"
 msgstr ""
 
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:112
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:117
+#, kde-format
+msgctxt "@title:menu"
+msgid "Colorize"
+msgstr ""
+
 #. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:105
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:115
 #, kde-format
 msgid "Colorize"
-msgstr ""
-
-#. +> trunk6
-#: org/kde/kjournaldbrowser/GlobalMenu.qml:112
-#, kde-format
-msgid "@title:menu"
 msgstr ""
 
 #. +> trunk6
@@ -668,18 +672,4 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Current View"
-msgstr ""
-
-#. +> trunk6
-#: org/kde/kjournaldbrowser/TopMenuBar.qml:87
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Localized Realtime"
-msgstr ""
-
-#. +> trunk6
-#: org/kde/kjournaldbrowser/TopMenuBar.qml:117
-#, kde-format
-msgctxt "@title:menu"
-msgid "Colorize"
 msgstr ""
