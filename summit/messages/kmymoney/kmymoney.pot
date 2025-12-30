@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-29 09:53+0100\n"
+"POT-Creation-Date: 2025-12-30 07:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -20868,7 +20868,7 @@ msgstr ""
 
 #. +> trunk6 stable5
 #: kmymoney/views/investtransactioneditor.cpp:309
-#: kmymoney/views/multitransactioneditor.cpp:229
+#: kmymoney/views/multitransactioneditor.cpp:231
 #: kmymoney/views/newtransactioneditor.cpp:337
 #, kde-format
 msgid "The posting date is prior to the opening date of account <b>%1</b>."
@@ -23072,52 +23072,64 @@ msgid "Balance: %1"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/views/multitransactioneditor.cpp:207
+#: kmymoney/views/multitransactioneditor.cpp:209
 #: kmymoney/views/newtransactioneditor.cpp:320
 #, kde-format
 msgid "The posting date is invalid."
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/views/multitransactioneditor.cpp:243
+#: kmymoney/views/multitransactioneditor.cpp:245
 #: kmymoney/views/newtransactioneditor.cpp:364
 #, kde-format
 msgid "A cost center assignment is required for a transaction in the selected category."
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/views/multitransactioneditor.cpp:276
+#: kmymoney/views/multitransactioneditor.cpp:278
 #, kde-format
 msgctxt "@info Error when selecting account"
 msgid "A selected transaction has a post date (%1) before the opening date of the selected account (%2)."
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/views/multitransactioneditor.cpp:734
+#: kmymoney/views/multitransactioneditor.cpp:753
 #, kde-format
 msgctxt "@info Error selecting multiple transactions for edit"
 msgid "Cannot edit multiple schedules at once."
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/views/multitransactioneditor.cpp:743
+#: kmymoney/views/multitransactioneditor.cpp:762
 #, kde-format
 msgctxt "@info:tooltip selecting multiple transactions for edit"
 msgid "Selection of category or account is not possible when split transactions are part of the selection."
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/views/multitransactioneditor.cpp:747
+#: kmymoney/views/multitransactioneditor.cpp:766
 #, kde-format
 msgctxt "@info:tooltip selecting multiple transactions for edit"
 msgid "Selection of tags is not possible when split transactions are part of the selection."
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/views/multitransactioneditor.cpp:751
+#: kmymoney/views/multitransactioneditor.cpp:770
 #, kde-format
 msgctxt "@info:tooltip selecting multiple transactions for edit"
 msgid "Selection of cost center is not possible when split transactions are part of the selection."
+msgstr ""
+
+#. +> trunk6 stable5
+#: kmymoney/views/multitransactioneditor.cpp:800
+#, kde-format
+msgid "You have entered only spaces in the memo field which will clear the existing memo content. Do you really want to do this?"
+msgstr ""
+
+#. +> trunk6 stable5
+#: kmymoney/views/multitransactioneditor.cpp:801
+#, kde-format
+msgid "Clear memo"
 msgstr ""
 
 #. +> trunk6 stable5
