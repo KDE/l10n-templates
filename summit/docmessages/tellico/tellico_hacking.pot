@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-26 06:11+0100\n"
+"POT-Creation-Date: 2025-12-31 07:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -721,7 +721,14 @@ msgid "&appname; has some additional configuration options that are not visible 
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: hacking.docbook:211
+#, no-c-format
+msgid "The settings for &appname; are saved in a file in the user's home folder, typically <filename>~/.config/tellicorc</filename>. Within that file, settings are put in groups, which appear with bracketed names, such as [General Options]. To add a setting to the <emphasis>General Options</emphasis> group, find the line in the settings file with that group name. If it does not appear, then create it yourself by adding a line saying [General Options]. Then, the setting can be added underneath the group name."
+msgstr ""
+
+#. Tag: para
+#. +> stable6 stable5
 #: hacking.docbook:211
 #, no-c-format
 msgid "The settings for &appname; are saved in a file in the user's home folder, namely <filename>$<envar>KDEHOME</envar>/share/config/tellicorc</filename>. Within that file, settings are put in groups, which appear with bracketed names, such as [General Options]. To add a setting to the <emphasis>General Options</emphasis> group, find the line in the settings file with that group name. If it does not appear, then create it yourself by adding a line saying [General Options]. Then, the setting can be added underneath the group name."

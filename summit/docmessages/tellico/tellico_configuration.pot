@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-26 10:47+0200\n"
+"POT-Creation-Date: 2025-12-31 07:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -176,7 +176,14 @@ msgid "The <link linkend=\"entry-view\"><interface>Entry View</interface></link>
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: configuration.docbook:134
+#, no-c-format
+msgid "Additional templates may be installed directly, or downloaded from <ulink url=\"https://store.kde.org/\">store.kde.org</ulink> by clicking the <guilabel>Download</guilabel> button. Any templates installed by the user may also be deleted. Entry templates are saved in <filename class=\"directory\">~/.local/share/tellico/entry-templates/</filename>."
+msgstr ""
+
+#. Tag: para
+#. +> stable6 stable5
 #: configuration.docbook:134
 #, no-c-format
 msgid "Additional templates may be installed directly, or downloaded from <ulink url=\"https://store.kde.org/\">store.kde.org</ulink> by clicking the <guilabel>Download</guilabel> button. Any templates installed by the user may also be deleted. Entry templates are saved in <filename class=\"directory\">$<envar>KDEHOME</envar>/share/apps/tellico/entry-templates/</filename>."
