@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-31 07:49+0100\n"
+"POT-Creation-Date: 2026-01-01 10:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -765,7 +765,7 @@ msgstr ""
 #. Tag: title
 #. +> trunk6 stable6 stable5
 #: hacking.docbook:231 hacking.docbook:246 hacking.docbook:261
-#: hacking.docbook:285 hacking.docbook:304
+#: hacking.docbook:285 hacking.docbook:304 hacking.docbook:328
 #, no-c-format
 msgid "Example"
 msgstr ""
@@ -897,10 +897,10 @@ msgid "Preview Size=523"
 msgstr ""
 
 #. Tag: title
-#. +> trunk6 stable6 stable5
-#: hacking.docbook:313
+#. +> trunk6
+#: hacking.docbook:312
 #, no-c-format
-msgid "Bibtex Character Translation"
+msgid "Multi-Disc Options"
 msgstr ""
 
 #. Tag: title
@@ -911,10 +911,10 @@ msgid "XSLT Tricks"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6 stable5
-#: hacking.docbook:315
+#. +> trunk6
+#: hacking.docbook:314
 #, no-c-format
-msgid "When bibtex files are imported or exported, certain characters are translated between their TeX equivalents and the Unicode characters. Those character mappings are contained in the <filename>bibtex-translation.xml</filename> file, located in the installation data directory. The mappings can be modified, as desired. The key element contains the Unicode character, and the string elements within contain the TeX equivalents, which may be a one-to-many mapping. The first one is the one used when exporting to bibtex."
+msgid "The <link linkend=\"musicbrainz\">MusicBrainz</link>, <link linkend=\"discogs\">Discogs</link>, and <link linkend=\"itunes\">iTunes</link> data sources can fetch multi-disc album information, specifying which tracks each disc contains. By default, the track lists are inserted into separate field, one for each disc. Prior to verion 4.0, the track lists were combined. This option provides the pre-4.0 behavior on an individual data source level. Add it to each <emphasis>Data Source</emphasis> section where it is desired."
 msgstr ""
 
 #. Tag: para
@@ -924,9 +924,44 @@ msgstr ""
 msgid "Here are some tips for writing XSLT to parse &appname; &XML; data: (TBD)."
 msgstr ""
 
+#. Tag: title
+#. +> trunk6
+#: hacking.docbook:322
+#, no-c-format
+msgid "Split Tracks By Disc"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: hacking.docbook:324
+#, no-c-format
+msgid "Setting this to <emphasis>false</emphasis> reverts to pre-4.0 behavior where the tracks are collapsed into a single track list."
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: hacking.docbook:330
+#, no-c-format
+msgid "Split Tracks By Disc=false"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: hacking.docbook:338
+#, no-c-format
+msgid "Bibtex Character Translation"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: hacking.docbook:340
+#, no-c-format
+msgid "When bibtex files are imported or exported, certain characters are translated between their TeX equivalents and the Unicode characters. Those character mappings are contained in the <filename>bibtex-translation.xml</filename> file, located in the installation data directory. The mappings can be modified, as desired. The key element contains the Unicode character, and the string elements within contain the TeX equivalents, which may be a one-to-many mapping. The first one is the one used when exporting to bibtex."
+msgstr ""
+
 #. Tag: programlisting
 #. +> trunk6 stable6 stable5
-#: hacking.docbook:319
+#: hacking.docbook:344
 #, no-c-format
 msgid ""
 "<![CDATA[\n"

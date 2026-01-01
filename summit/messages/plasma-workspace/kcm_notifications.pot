@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-24 11:19+0200\n"
+"POT-Creation-Date: 2026-01-01 10:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -318,8 +318,20 @@ msgctxt "Part of a sentence like, 'Hide popup after n seconds'"
 msgid "Hide after:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:306
+#, kde-format
+msgid "Show timeout indicator"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:308
+#, kde-format
+msgid "Configure…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:318
 #, kde-format
 msgctxt "@title:group"
 msgid "Additional feedback"
@@ -332,40 +344,34 @@ msgctxt "@title:group"
 msgid "Application-specific settings"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/main.qml:308
-#, kde-format
-msgid "Configure…"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:312
+#: ui/main.qml:324
 #, kde-format
 msgctxt "Show application jobs in notification widget"
 msgid "Show in notifications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:313
+#: ui/main.qml:325
 #, kde-format
 msgid "Application progress:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:327
+#: ui/main.qml:339
 #, kde-format
 msgctxt "Keep application job popup open for entire duration of job"
 msgid "Keep popup open during progress"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:340
+#: ui/main.qml:352
 #, kde-format
 msgid "Notification badges:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:341
+#: ui/main.qml:353
 #, kde-format
 msgid "Show in task manager"
 msgstr ""
