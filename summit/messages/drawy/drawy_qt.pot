@@ -3,54 +3,402 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-01-01 10:14+0100\n"
+"POT-Creation-Date: 2026-01-02 07:32+0100\n"
 
 #. +> trunk6
-#: context/uicontext.cpp:75
+#: context/uicontext.cpp:72
 msgctxt "UIContext|"
 msgid "Save to File"
 msgstr ""
 
 #. +> trunk6
-#: context/uicontext.cpp:76
+#: context/uicontext.cpp:73
 msgctxt "UIContext|"
 msgid "Open File"
 msgstr ""
 
 #. +> trunk6
-#: context/uicontext.cpp:77
+#: context/uicontext.cpp:74
 msgctxt "UIContext|"
 msgid "Zoom Out"
 msgstr ""
 
 #. +> trunk6
-#: context/uicontext.cpp:78
+#: context/uicontext.cpp:75
 msgctxt "UIContext|"
 msgid "Zoom In"
 msgstr ""
 
 #. +> trunk6
-#: context/uicontext.cpp:79 context/uicontext.cpp:125
+#: context/uicontext.cpp:76 context/uicontext.cpp:122
 msgctxt "UIContext|"
 msgid "Light Mode"
 msgstr ""
 
 #. +> trunk6
-#: context/uicontext.cpp:80
+#: context/uicontext.cpp:77
 msgctxt "UIContext|"
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6
-#: context/uicontext.cpp:81
+#: context/uicontext.cpp:78
 msgctxt "UIContext|"
 msgid "Redo"
 msgstr ""
 
 #. +> trunk6
-#: context/uicontext.cpp:129
+#: context/uicontext.cpp:126
 msgctxt "UIContext|"
 msgid "Dark Mode"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:37
+msgctxt "ActionManager|"
+msgid "Undo"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:38
+msgctxt "ActionManager|"
+msgid "Undo last action"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:44
+msgctxt "ActionManager|"
+msgid "Redo"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:45
+msgctxt "ActionManager|"
+msgid "Redo last undone action"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:51
+msgctxt "ActionManager|"
+msgid "Zoom In"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:52
+msgctxt "ActionManager|"
+msgid "Zoom in"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:58
+msgctxt "ActionManager|"
+msgid "Zoom Out"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:59
+msgctxt "ActionManager|"
+msgid "Zoom out"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:65
+msgctxt "ActionManager|"
+msgid "Freeform Tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:66
+msgctxt "ActionManager|"
+msgid "Switch to freeform drawing tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:72
+msgctxt "ActionManager|"
+msgid "Eraser Tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:73
+msgctxt "ActionManager|"
+msgid "Switch to eraser tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:79
+msgctxt "ActionManager|"
+msgid "Selection Tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:80
+msgctxt "ActionManager|"
+msgid "Switch to selection tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:86
+msgctxt "ActionManager|"
+msgid "Rectangle Tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:87
+msgctxt "ActionManager|"
+msgid "Switch to rectangle drawing tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:93
+msgctxt "ActionManager|"
+msgid "Ellipse Tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:94
+msgctxt "ActionManager|"
+msgid "Switch to ellipse drawing tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:100
+msgctxt "ActionManager|"
+msgid "Line Tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:101
+msgctxt "ActionManager|"
+msgid "Switch to line drawing tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:107
+msgctxt "ActionManager|"
+msgid "Text Tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:108
+msgctxt "ActionManager|"
+msgid "Switch to the text tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:114
+msgctxt "ActionManager|"
+msgid "Arrow Tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:115
+msgctxt "ActionManager|"
+msgid "Switch to arrow drawing tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:121
+msgctxt "ActionManager|"
+msgid "Move Tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:122
+msgctxt "ActionManager|"
+msgid "Switch to move tool"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:128
+msgctxt "ActionManager|"
+msgid "Group Elements"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:129
+msgctxt "ActionManager|"
+msgid "Groups selected items"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:135
+msgctxt "ActionManager|"
+msgid "Ungroup Elements"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:136
+msgctxt "ActionManager|"
+msgid "Ungroups selected groups"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:142
+msgctxt "ActionManager|"
+msgid "Select All"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:143
+msgctxt "ActionManager|"
+msgid "Select all items"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:149 keybindings/actionmanager.cpp:186
+msgctxt "ActionManager|"
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:150
+msgctxt "ActionManager|"
+msgid "Deletes selected items"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:156
+msgctxt "ActionManager|"
+msgid "Save"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:157
+msgctxt "ActionManager|"
+msgid "Save canvas"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:163
+msgctxt "ActionManager|"
+msgid "Open File"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:164
+msgctxt "ActionManager|"
+msgid "Open an existing file"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:170
+msgctxt "ActionManager|"
+msgid "Ctrl+Z"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:171
+msgctxt "ActionManager|"
+msgid "Ctrl+Y"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:172
+msgctxt "ActionManager|"
+msgid "Ctrl+Shift+Z"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:173
+msgctxt "ActionManager|"
+msgid "Ctrl++"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:174
+msgctxt "ActionManager|"
+msgid "Ctrl+-"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:175
+msgctxt "ActionManager|"
+msgid "T"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:176
+msgctxt "ActionManager|"
+msgid "P"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:177
+msgctxt "ActionManager|"
+msgid "B"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:178
+msgctxt "ActionManager|"
+msgid "E"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:179
+msgctxt "ActionManager|"
+msgid "S"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:180
+msgctxt "ActionManager|"
+msgid "R"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:181
+msgctxt "ActionManager|"
+msgid "O"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:182
+msgctxt "ActionManager|"
+msgid "L"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:183
+msgctxt "ActionManager|"
+msgid "A"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:184
+msgctxt "ActionManager|"
+msgid "M"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:185
+msgctxt "ActionManager|"
+msgid "Ctrl+A"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:187
+msgctxt "ActionManager|"
+msgid "Ctrl+S"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:188
+msgctxt "ActionManager|"
+msgid "Ctrl+O"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:189
+msgctxt "ActionManager|"
+msgid "Ctrl+G"
+msgstr ""
+
+#. +> trunk6
+#: keybindings/actionmanager.cpp:190
+msgctxt "ActionManager|"
+msgid "Ctrl+Shift+G"
 msgstr ""
 
 #. +> trunk6
@@ -96,22 +444,34 @@ msgid "Font Size"
 msgstr ""
 
 #. +> trunk6
+#: properties/widgets/strokecolorwidget.cpp:50
+msgctxt "StrokeColorWidget|"
+msgid "Color"
+msgstr ""
+
+#. +> trunk6
 #: properties/widgets/strokewidthwidget.cpp:28
 msgctxt "StrokeWidthWidget|"
 msgid "Thickness"
 msgstr ""
 
 #. +> trunk6
-#: serializer/loader.cpp:31
+#: serializer/loader.cpp:32
 #, qt-format
 msgctxt "QObject|"
 msgid "Drawy (*.%1)"
 msgstr ""
 
 #. +> trunk6
-#: serializer/loader.cpp:35
+#: serializer/loader.cpp:36
 msgctxt "QObject|"
 msgid "Open File"
+msgstr ""
+
+#. +> trunk6
+#: serializer/serializer.cpp:124
+msgctxt "QObject|"
+msgid "Save File"
 msgstr ""
 
 #. +> trunk6
