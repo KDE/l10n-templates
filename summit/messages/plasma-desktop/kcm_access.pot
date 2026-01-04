@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-23 09:05+0100\n"
+"POT-Creation-Date: 2026-01-04 05:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -417,7 +417,14 @@ msgid "Enable Screen Reader"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShakeCursor), group (Plugins)
-#. +> trunk6 stable6
+#. +> trunk6
+#: kcmaccessibilityshakecursor.kcfg:9
+#, kde-format
+msgid "Whether Shake Pointer is enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShakeCursor), group (Plugins)
+#. +> stable6
 #: kcmaccessibilityshakecursor.kcfg:9
 #, kde-format
 msgid "Whether Shake Cursor is enabled"
@@ -1015,7 +1022,14 @@ msgctxt "@title Category name in sidebar, for inverting screen colors"
 msgid "Invert"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:73
+#, kde-format
+msgctxt "Shake pointer to find it"
+msgid "Shake Pointer"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:73
 #, kde-format
 msgctxt "Shake cursor to find it"
@@ -1104,7 +1118,14 @@ msgctxt "@action:button"
 msgid "Configure Notifications…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/MouseNavigation.qml:17
+#, kde-format
+msgctxt "@option:check"
+msgid "Use number pad to move pointer:"
+msgstr ""
+
+#. +> stable6
 #: ui/MouseNavigation.qml:17
 #, kde-format
 msgctxt "@option:check"
@@ -1188,35 +1209,70 @@ msgctxt "@action:button"
 msgid "Launch Orca Screen Reader Configuration…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ShakeCursor.qml:15
+#, kde-format
+msgctxt "@label"
+msgid "Shake pointer to find it:"
+msgstr ""
+
+#. +> stable6
 #: ui/ShakeCursor.qml:15
 #, kde-format
 msgctxt "@label"
 msgid "Shake cursor to find it:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ShakeCursor.qml:16
+#, kde-format
+msgctxt "@option check, Enable shake pointer effect"
+msgid "Enable"
+msgstr ""
+
+#. +> stable6
 #: ui/ShakeCursor.qml:16
 #, kde-format
 msgctxt "@option check, Enable shake cursor effect"
 msgid "Enable"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ShakeCursor.qml:28
+#, kde-format
+msgctxt "@label Pointer magnification level"
+msgid "Magnification:"
+msgstr ""
+
+#. +> stable6
 #: ui/ShakeCursor.qml:28
 #, kde-format
 msgctxt "@label Cursor magnification level"
 msgid "Magnification:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ShakeCursor.qml:55
+#, kde-format
+msgctxt "@label Normal pointer size"
+msgid "Normal"
+msgstr ""
+
+#. +> stable6
 #: ui/ShakeCursor.qml:55
 #, kde-format
 msgctxt "@label Normal cursor size"
 msgid "Normal"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ShakeCursor.qml:62
+#, kde-format
+msgctxt "@label Large pointer size"
+msgid "Large"
+msgstr ""
+
+#. +> stable6
 #: ui/ShakeCursor.qml:62
 #, kde-format
 msgctxt "@label Large cursor size"
@@ -1244,11 +1300,11 @@ msgctxt "@label:spinbox"
 msgid "Show pixel grid at zoom level:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/ZoomMagnifier.qml:85
 #, kde-format
 msgctxt "@label:listbox"
-msgid "Mouse pointer:"
+msgid "Pointer appearance:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1272,8 +1328,22 @@ msgctxt "@item:inlistbox"
 msgid "Hide"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/ZoomMagnifier.qml:123
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Pointer tracking:"
+msgstr ""
+
+#. +> stable6
+#: ui/ZoomMagnifier.qml:85
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Mouse pointer:"
+msgstr ""
+
+#. +> stable6
+#: ui/ZoomMagnifier.qml:98
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Mouse tracking:"
@@ -1290,7 +1360,7 @@ msgstr ""
 #: ui/ZoomMagnifier.qml:129
 #, kde-format
 msgctxt "@item:inlistbox"
-msgid "Zoom area moves in sync with mouse cursor"
+msgid "Zoom area moves in sync with pointer"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1304,7 +1374,7 @@ msgstr ""
 #: ui/ZoomMagnifier.qml:134
 #, kde-format
 msgctxt "@item:inlistbox"
-msgid "Mouse cursor stays centered on-screen, except near screen edges"
+msgid "Pointer stays centered on-screen, except near screen edges"
 msgstr ""
 
 #. +> trunk6
@@ -1318,7 +1388,7 @@ msgstr ""
 #: ui/ZoomMagnifier.qml:139
 #, kde-format
 msgctxt "@item:inlistbox"
-msgid "Mouse cursor stays centered on-screen, even near screen edges"
+msgid "Pointer stays centered on-screen, even near screen edges"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1332,7 +1402,7 @@ msgstr ""
 #: ui/ZoomMagnifier.qml:144
 #, kde-format
 msgctxt "@item:inlistbox"
-msgid "Mouse cursor pushes zoom area at screen edges"
+msgid "Pointer pushes zoom area at screen edges"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1346,7 +1416,7 @@ msgstr ""
 #: ui/ZoomMagnifier.qml:149
 #, kde-format
 msgctxt "@item:inlistbox"
-msgid "Zoom area doesn't follow mouse cursor"
+msgid "Zoom area doesn't follow pointer"
 msgstr ""
 
 #. +> trunk6 stable6
