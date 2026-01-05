@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: chessament\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-04 05:29+0100\n"
+"POT-Creation-Date: 2026-01-05 07:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -60,17 +60,45 @@ msgid "Couldn't export tournament."
 msgstr ""
 
 #. +> trunk6
-#: documents.cpp:18
+#: documents.cpp:19
 #, kde-format
 msgctxt "@title"
 msgid "Starting Rank"
 msgstr ""
 
 #. +> trunk6
-#: documents.cpp:46
+#: documents.cpp:47
 #, kde-format
 msgctxt "@title"
 msgid "Round %1 Pairings"
+msgstr ""
+
+#. +> trunk6
+#: documents.cpp:81
+#, kde-format
+msgctxt "@title"
+msgid "Standings After Round %1"
+msgstr ""
+
+#. +> trunk6
+#: documents.cpp:83
+#, kde-format
+msgctxt "@title"
+msgid "Provisional Standings After Round %1"
+msgstr ""
+
+#. +> trunk6
+#: documents.cpp:87
+#, kde-format
+msgctxt "@title"
+msgid "Final Standings"
+msgstr ""
+
+#. +> trunk6
+#: documents.cpp:89
+#, kde-format
+msgctxt "@title"
+msgid "Provisional Final Standings"
 msgstr ""
 
 #. +> trunk6
@@ -170,21 +198,21 @@ msgid "№"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:178 standingsmodel.cpp:90
+#: playersmodel.cpp:178 standingsmodel.cpp:92
 #, kde-format
 msgctxt "@title:column Player Starting Rank Number"
 msgid "№"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:180 standingsmodel.cpp:92
+#: playersmodel.cpp:180 standingsmodel.cpp:94
 #, kde-format
 msgctxt "@title:column Player Title"
 msgid "Title"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:182 standingsmodel.cpp:94
+#: playersmodel.cpp:182 standingsmodel.cpp:96
 #, kde-format
 msgctxt "@title:column Player Name"
 msgid "Name"
@@ -479,14 +507,14 @@ msgid "Hide finished games"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairingsPage.qml:71 qml/PlayersPage.qml:82
+#: qml/PairingsPage.qml:71 qml/PlayersPage.qml:83 qml/StandingsPage.qml:52
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Print…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairingsPage.qml:76 qml/PlayersPage.qml:87
+#: qml/PairingsPage.qml:76 qml/PlayersPage.qml:88 qml/StandingsPage.qml:57
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Export as PDF…"
@@ -604,42 +632,42 @@ msgid "Round %1"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:59
+#: qml/PlayersPage.qml:60
 #, kde-format
 msgctxt "@action:intoolbar Open player details"
 msgid "Details…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:73
+#: qml/PlayersPage.qml:74
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Sort Players…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:93
+#: qml/PlayersPage.qml:94
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Player…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:186
+#: qml/PlayersPage.qml:187
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No players yet"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:190
+#: qml/PlayersPage.qml:191
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Player…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:208
+#: qml/PlayersPage.qml:209
 #, kde-format
 msgctxt "@info:status Number of players"
 msgid "1 player"
@@ -648,7 +676,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:209
+#: qml/PlayersPage.qml:210
 #, kde-format
 msgctxt "@info:status Number of rated players"
 msgid "1 rated"
@@ -657,7 +685,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:211
+#: qml/PlayersPage.qml:212
 #, kde-format
 msgctxt "@info:status players, rated"
 msgid "%1, %2"
@@ -815,21 +843,21 @@ msgid "Changing the initial ranking after the fourth round has been paired is no
 msgstr ""
 
 #. +> trunk6
-#: qml/StandingsPage.qml:44 qml/StandingsPage.qml:54
+#: qml/StandingsPage.qml:69 qml/StandingsPage.qml:79
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Final Standings"
 msgstr ""
 
 #. +> trunk6
-#: qml/StandingsPage.qml:46 qml/StandingsPage.qml:56
+#: qml/StandingsPage.qml:71 qml/StandingsPage.qml:81
 #, kde-format
 msgctxt "@item:inlistbox Standings After Round %1"
 msgid "After Round %1"
 msgstr ""
 
 #. +> trunk6
-#: qml/StandingsPage.qml:106
+#: qml/StandingsPage.qml:131
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No standings yet"
@@ -1129,7 +1157,7 @@ msgid "Add rating list"
 msgstr ""
 
 #. +> trunk6
-#: standingsmodel.cpp:88
+#: standingsmodel.cpp:90
 #, kde-format
 msgctxt "@title:column Player Ranking"
 msgid "Rank"

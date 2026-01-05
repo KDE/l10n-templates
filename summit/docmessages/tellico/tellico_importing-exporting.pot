@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-01 09:52+0200\n"
+"POT-Creation-Date: 2026-01-05 07:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -512,8 +512,15 @@ msgid "Exporting Zip"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: importing-exporting.docbook:275
+#, no-c-format
+msgid "The standard file format for &appname; is a zipped file, containing the &XML; collection file, and optionally, all the images referenced in the collection. If the images are being stored in the application folder instead, exporting to a Zip file will create a self-contained data file, which includes all the images in the collection."
+msgstr ""
+
+#. Tag: para
+#. +> stable6 stable5
+#: importing-exporting.docbook:274
 #, no-c-format
 msgid "The standard file format for &appname; is a zipped file, contained the &XML; collection file, and optionally, all the images referenced in the collection. If the images are being stored in the application folder instead, exporting to a Zip file will create a self-contained data file, which includes all the images in the collection."
 msgstr ""
