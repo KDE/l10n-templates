@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-05 07:18+0100\n"
+"POT-Creation-Date: 2026-01-06 11:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1242,7 +1242,7 @@ msgid "You do not have permissions to start Jitsi meetings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/RoomPage.qml:129 src/app/qml/UserDetailDialog.qml:141
+#: src/app/qml/RoomPage.qml:129 src/app/qml/UserDetailDialog.qml:143
 #: src/roominfo/RoomInformation.qml:91
 #, kde-format
 msgctxt "@action:title"
@@ -1510,7 +1510,7 @@ msgid "Request from other Devices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:49
+#: src/app/qml/UserDetailDialog.qml:51
 #, kde-format
 msgctxt "@title:menu Account details dialog"
 msgid "Account Details"
@@ -1526,35 +1526,35 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:109
+#: src/app/qml/UserDetailDialog.qml:111
 #, kde-format
 msgctxt "@action:intoolbar Message this user directly"
 msgid "Message"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:119
+#: src/app/qml/UserDetailDialog.qml:121
 #, kde-format
 msgctxt "@action:intoolbar Unignore or 'unblock' this user"
 msgid "Unignore"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:119
+#: src/app/qml/UserDetailDialog.qml:121
 #, kde-format
 msgctxt "@action:intoolbar Ignore or 'block' this user"
 msgid "Ignore"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:127
+#: src/app/qml/UserDetailDialog.qml:129
 #, kde-format
 msgctxt "@action:intoolbar Copy shareable link for this user"
 msgid "Copy Link"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:133
+#: src/app/qml/UserDetailDialog.qml:135
 #, kde-format
 msgctxt "@action:intoolbar Search for this user's messages."
 msgid "Search Messages…"
@@ -1573,59 +1573,59 @@ msgid "Ignore this user"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:147
+#: src/app/qml/UserDetailDialog.qml:149
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Show QR Code"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:163
+#: src/app/qml/UserDetailDialog.qml:165
 #, kde-format
 msgctxt "@action:button 'Report' as in 'Report this user to the administrators'"
 msgid "Report…"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:169
+#: src/app/qml/UserDetailDialog.qml:171
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Report User"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:170
+#: src/app/qml/UserDetailDialog.qml:172
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Reason for reporting this user"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:172
+#: src/app/qml/UserDetailDialog.qml:174
 #, kde-format
 msgctxt "@action:button 'Report' as in 'Report this user to the administrators'"
 msgid "Report"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:174
+#: src/app/qml/UserDetailDialog.qml:176
 #, kde-format
 msgctxt "@title"
 msgid "Report User"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:188
+#: src/app/qml/UserDetailDialog.qml:187
 #, kde-format
-msgctxt "@title Moderation actions for this user"
-msgid "Moderation"
+msgctxt "@action:button"
+msgid "View Main Profile"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:208
+#: src/app/qml/UserDetailDialog.qml:197
 #, kde-format
-msgctxt "@action:button Kick the user from the room"
-msgid "Kick…"
+msgctxt "@action:button"
+msgid "View Room Profile"
 msgstr ""
 
 #. +> stable6
@@ -1633,62 +1633,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Kick this user"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:212 src/app/qml/UserDetailDialog.qml:217
-#, kde-format
-msgctxt "@title:dialog"
-msgid "Kick User"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:213
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Reason for kicking this user"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:214
-#, kde-format
-msgctxt "@action:button 'Kick' as in 'Kick this user from the room'"
-msgid "Kick"
-msgstr ""
-
-#. +> stable6
-#: src/app/qml/UserDetailDialog.qml:225
-#, kde-format
-msgctxt "@action:button"
-msgid "Set user power level"
-msgstr ""
-
-#. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:229
-#, kde-format
-msgctxt "@action:button Ban this user from the room"
-msgid "Ban…"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:234 src/app/qml/UserDetailDialog.qml:239
-#, kde-format
-msgctxt "@title:dialog"
-msgid "Ban User"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:235
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Reason for banning this user"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:236
-#, kde-format
-msgctxt "@action:button 'Ban' as in 'Ban this user'"
-msgid "Ban"
 msgstr ""
 
 #. +> stable6
@@ -1713,6 +1657,13 @@ msgid "Unban this user"
 msgstr ""
 
 #. +> stable6
+#: src/app/qml/UserDetailDialog.qml:225
+#, kde-format
+msgctxt "@action:button"
+msgid "Set user power level"
+msgstr ""
+
+#. +> stable6
 #: src/app/qml/UserDetailDialog.qml:247
 #, kde-format
 msgctxt "@action:button"
@@ -1720,38 +1671,66 @@ msgid "Remove recent messages by this user"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:251
+#: src/app/qml/UserDetailDialog.qml:210
 #, kde-format
-msgctxt "@action:button Unban the user from this room"
-msgid "Unban"
+msgctxt "@title Moderation actions for this user"
+msgid "Moderation"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:262
+#: src/app/qml/UserDetailDialog.qml:230
 #, kde-format
-msgctxt "@action:button Remove messages from the user in this room"
-msgid "Remove Messages…"
+msgctxt "@action:button Kick the user from the room"
+msgid "Kick…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:267
+#: src/app/qml/UserDetailDialog.qml:234 src/app/qml/UserDetailDialog.qml:239
 #, kde-format
 msgctxt "@title:dialog"
-msgid "Remove Messages"
+msgid "Kick User"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:268
+#: src/app/qml/UserDetailDialog.qml:235
 #, kde-format
 msgctxt "@info:placeholder"
-msgid "Reason for removing this user's recent messages"
+msgid "Reason for kicking this user"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:269
+#: src/app/qml/UserDetailDialog.qml:236
 #, kde-format
-msgctxt "@action:button 'Remove' as in 'Remove these messages'"
-msgid "Remove"
+msgctxt "@action:button 'Kick' as in 'Kick this user from the room'"
+msgid "Kick"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:251
+#, kde-format
+msgctxt "@action:button Ban this user from the room"
+msgid "Ban…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:256 src/app/qml/UserDetailDialog.qml:261
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Ban User"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:257
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Reason for banning this user"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:258
+#, kde-format
+msgctxt "@action:button 'Ban' as in 'Ban this user'"
+msgid "Ban"
 msgstr ""
 
 #. +> stable6
@@ -1767,11 +1746,11 @@ msgstr ""
 msgid "Invite to private chat"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/app/qml/UserDetailDialog.qml:272
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:273
 #, kde-format
-msgctxt "@title"
-msgid "Remove Messages"
+msgctxt "@action:button Unban the user from this room"
+msgid "Unban"
 msgstr ""
 
 #. +> stable6
@@ -1782,10 +1761,31 @@ msgid "Search room for %1's messages"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:285
+#: src/app/qml/UserDetailDialog.qml:284
 #, kde-format
-msgctxt "@title Role such as 'Admin' or 'Moderator' for this user"
-msgid "Role"
+msgctxt "@action:button Remove messages from the user in this room"
+msgid "Remove Messages…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:289
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Remove Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:290
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Reason for removing this user's recent messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:291
+#, kde-format
+msgctxt "@action:button 'Remove' as in 'Remove these messages'"
+msgid "Remove"
 msgstr ""
 
 #. +> stable6
@@ -1794,22 +1794,36 @@ msgstr ""
 msgid "Copy link"
 msgstr ""
 
+#. +> trunk6 stable6
+#: src/app/qml/UserDetailDialog.qml:294
+#, kde-format
+msgctxt "@title"
+msgid "Remove Messages"
+msgstr ""
+
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:304
+#: src/app/qml/UserDetailDialog.qml:307
+#, kde-format
+msgctxt "@title Role such as 'Admin' or 'Moderator' for this user"
+msgid "Role"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UserDetailDialog.qml:326
 #, kde-format
 msgctxt "@action:button Set the power level (such as 'Admin') for this user"
 msgid "Set Power Level"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:331
+#: src/app/qml/UserDetailDialog.qml:353
 #, kde-format
 msgctxt "@title The set of common rooms between your current user and the one shown"
 msgid "Mutual Rooms"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UserDetailDialog.qml:370
+#: src/app/qml/UserDetailDialog.qml:392
 #, kde-format
 msgctxt "@info:label And '%1' more rooms you have in common with this user, but are not shown"
 msgid "and 1 more…"
