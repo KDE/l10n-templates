@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-02 07:32+0100\n"
+"POT-Creation-Date: 2026-01-07 06:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -658,7 +658,7 @@ msgstr ""
 #. +> trunk6
 #: app/BookingEditorCard.qml:67
 #, kde-format
-msgctxt "cancled reservation"
+msgctxt "canceled reservation"
 msgid "Booking has been canceled."
 msgstr ""
 
@@ -2901,21 +2901,42 @@ msgstr ""
 msgid "CO₂: %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/JourneySectionStopDelegate.qml:145
+#, kde-format
+msgctxt "Abbreviation of train platform"
+msgid "Pl. %1"
+msgstr ""
+
+#. +> stable6
 #: app/JourneySectionStopDelegate.qml:145
 #, kde-format
 msgctxt "Abreviation of train platform"
 msgid "Pl. %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/JourneySectionStopDelegate.qml:147
+#, kde-format
+msgctxt "Ferry dock, if possible use an abbreviation"
+msgid "Dock %1"
+msgstr ""
+
+#. +> stable6
 #: app/JourneySectionStopDelegate.qml:147
 #, kde-format
 msgctxt "Ferry dock, if possible use an abreviation"
 msgid "Dock %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/JourneySectionStopDelegate.qml:149
+#, kde-format
+msgctxt "Generic abbreviation of platform"
+msgid "Pl. %1"
+msgstr ""
+
+#. +> stable6
 #: app/JourneySectionStopDelegate.qml:149
 #, kde-format
 msgctxt "Generic abreviation of platform"
@@ -3680,7 +3701,14 @@ msgctxt "Matrix session verification"
 msgid "The session verification was canceled due to an unknown error."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/MatrixKeyVerificationPage.qml:114
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Emoji Verification"
+msgstr ""
+
+#. +> stable6
 #: app/MatrixKeyVerificationPage.qml:114
 #, kde-format
 msgctxt "Matrix session verfication"
@@ -4553,7 +4581,13 @@ msgstr ""
 msgid "Enable the location service on your device to access onboard information."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/SettingsPage.qml:242
+#, kde-format
+msgid "Unfortunately, retrieving onboard information is not supported on your device at this time."
+msgstr ""
+
+#. +> stable6
 #: app/SettingsPage.qml:242
 #, kde-format
 msgid "Onboard information are unfortunately not supported on your device at this time."
@@ -5120,7 +5154,13 @@ msgctxt "Train station platform"
 msgid "Platform"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: app/TrainEditor.qml:210 app/TrainEditor.qml:310
+#, kde-format
+msgid "Specifying the departure and arrival location helps Itinerary to find up-to-date information for the train this reservation is valid for."
+msgstr ""
+
+#. +> stable6
 #: app/TrainEditor.qml:210 app/TrainEditor.qml:310
 #, kde-format
 msgid "Specifying the departure and arrival location helps Itinerary to find updated information for the train this reservation is valid for."
