@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-07 00:46+0000\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -44,11 +44,13 @@ msgstr ""
 
 #: config.qml:13
 #, kde-format
+msgctxt "@title:group for configuration dialog page"
 msgid "General"
 msgstr ""
 
 #: ConfigGeneral.qml:48
 #, kde-format
+msgctxt "@label prefix for icon-only button"
 msgid "Icon:"
 msgstr ""
 
@@ -66,120 +68,139 @@ msgstr ""
 
 #: ConfigGeneral.qml:159
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Show applications as:"
 msgstr ""
 
 #: ConfigGeneral.qml:161
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Name only"
 msgstr ""
 
 #: ConfigGeneral.qml:161
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Description only"
 msgstr ""
 
-#: ConfigGeneral.qml:161
+#: ConfigGeneral.qml:162
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Name (Description)"
 msgstr ""
 
-#: ConfigGeneral.qml:161
+#: ConfigGeneral.qml:162
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Description (Name)"
 msgstr ""
 
-#: ConfigGeneral.qml:171
+#: ConfigGeneral.qml:172
 #, kde-format
+msgctxt "@title:group prefix for checkbox group"
 msgid "Behavior:"
 msgstr ""
 
-#: ConfigGeneral.qml:173
+#: ConfigGeneral.qml:174
 #, kde-format
+msgctxt "@option:check"
 msgid "Sort applications alphabetically"
 msgstr ""
 
-#: ConfigGeneral.qml:181
+#: ConfigGeneral.qml:182
 #, kde-format
+msgctxt "@option:check"
 msgid "Flatten sub-menus to a single level"
 msgstr ""
 
-#: ConfigGeneral.qml:189
+#: ConfigGeneral.qml:190
 #, kde-format
+msgctxt "@option:check"
 msgid "Show icons on the root level of the menu"
 msgstr ""
 
-#: ConfigGeneral.qml:199
+#: ConfigGeneral.qml:200
 #, kde-format
+msgctxt "@title:group prefix for checkbox group"
 msgid "Show categories:"
-msgstr ""
-
-#: ConfigGeneral.qml:202
-#, kde-format
-msgid "Recent applications"
 msgstr ""
 
 #: ConfigGeneral.qml:203
 #, kde-format
-msgid "Often used applications"
+msgctxt "@option:check"
+msgid "Recent applications"
 msgstr ""
 
-#: ConfigGeneral.qml:210
+#: ConfigGeneral.qml:204
 #, kde-format
-msgid "Recent files"
+msgctxt "@option:check"
+msgid "Often used applications"
 msgstr ""
 
 #: ConfigGeneral.qml:211
 #, kde-format
+msgctxt "@option:check"
+msgid "Recent files"
+msgstr ""
+
+#: ConfigGeneral.qml:212
+#, kde-format
+msgctxt "@option:check"
 msgid "Often used files"
 msgstr ""
 
-#: ConfigGeneral.qml:217
+#: ConfigGeneral.qml:218
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Sort items in categories by:"
 msgstr ""
 
-#: ConfigGeneral.qml:218
+#: ConfigGeneral.qml:219
 #, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr ""
 
-#: ConfigGeneral.qml:218
+#: ConfigGeneral.qml:219
 #, kde-format
 msgctxt ""
-"@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Often used"
 msgstr ""
 
-#: ConfigGeneral.qml:228
+#: ConfigGeneral.qml:229
 #, kde-format
+msgctxt "@title:group prefix for checkbox group"
 msgid "Search:"
 msgstr ""
 
-#: ConfigGeneral.qml:230
+#: ConfigGeneral.qml:231
 #, kde-format
+msgctxt "@option:check"
 msgid "Expand search to bookmarks, files and emails"
 msgstr ""
 
-#: ConfigGeneral.qml:238
+#: ConfigGeneral.qml:239
 #, kde-format
+msgctxt "@option:check"
 msgid "Align search results to bottom"
 msgstr ""
 
-#: ConfigGeneral.qml:243
+#: ConfigGeneral.qml:244
 #, kde-format
-msgctxt "@label:textbox for a checkbox toggling Dark Mode"
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
 msgid "Appearance:"
 msgstr ""
 
-#: ConfigGeneral.qml:248
+#: ConfigGeneral.qml:249
 #, kde-format
+msgctxt "@option:check"
 msgid "Prefer Dark Mode when available"
 msgstr ""
 
-#: ConfigGeneral.qml:252
+#: ConfigGeneral.qml:253
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -189,6 +210,7 @@ msgstr ""
 
 #: DashboardRepresentation.qml:309
 #, kde-format
+msgctxt "@title:group for column with app and system action grids"
 msgid "Favorites"
 msgstr ""
 
@@ -206,6 +228,7 @@ msgstr ""
 
 #: main.qml:211
 #, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
 msgid "Edit Applications…"
 msgstr ""
 
