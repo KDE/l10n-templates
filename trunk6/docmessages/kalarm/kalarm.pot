@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-07 00:56+0000\n"
+"POT-Creation-Date: 2026-01-08 00:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -61,13 +61,13 @@ msgstr ""
 #. Tag: date
 #: index.docbook:42
 #, no-c-format
-msgid "2026-1-6"
+msgid "2026-1-7"
 msgstr ""
 
 #. Tag: releaseinfo
 #: index.docbook:43
 #, no-c-format
-msgid "3.12.0 (KDE Gear 25.12)"
+msgid "3.13.0 (KDE Gear 26.04)"
 msgstr ""
 
 #. Tag: para
@@ -578,11 +578,11 @@ msgstr ""
 #: index.docbook:366
 #, no-c-format
 msgid ""
-"To preset the alarm's date in the <link linkend=\"alarm-edit-dlg\">Alarm "
-"Edit dialog</link>, <mousebutton>right</mousebutton> click on the desired "
-"date in the alarm date selector (see <link linkend=\"datepicker\">Filtering "
-"the Alarm List by Date</link>) and select the appropriate alarm type from "
-"the context menu."
+"To preset the alarm's date in the <link linkend=\"alarm-edit-dlg-time"
+"\">Alarm Edit dialog</link>, <mousebutton>right</mousebutton> click on the "
+"desired date in the alarm date selector (see <link linkend=\"datepicker"
+"\">Filtering the Alarm List by Date</link>) and select the appropriate alarm "
+"type from the context menu."
 msgstr ""
 
 #. Tag: para
@@ -2904,6 +2904,18 @@ msgstr ""
 #: index.docbook:1973
 #, no-c-format
 msgid ""
+"Display alarms are normally suspended while notifications are inhibited for "
+"the desktop, and do not display on top of full screen applications. To "
+"override these restrictions and always display the alarm if at all possible, "
+"select the <guilabel>Never inhibit alarms</guilabel> check box. Note that "
+"the ability to display messages over full screen applications may depend on "
+"your window manager, and currently only the X11 windowing system allows this."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1982
+#, no-c-format
+msgid ""
 "Select <guilabel>Show in &korganizer;</guilabel> to add the alarm to "
 "&korganizer;'s active calendar, where it will appear as an event without an "
 "alarm. This option allows you to track alarms in &korganizer; while still "
@@ -2911,7 +2923,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1978
+#: index.docbook:1987
 #, no-c-format
 msgid ""
 "If you later modify or delete the alarm in &kalarm;, the &korganizer; event "
@@ -2920,7 +2932,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1983
+#: index.docbook:1992
 #, no-c-format
 msgid ""
 "Press the <guibutton>Load Template</guibutton> button to select a template "
@@ -2929,7 +2941,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1987
+#: index.docbook:1996
 #, no-c-format
 msgid ""
 "Press the <guibutton>Try</guibutton> button to test the alarm and check "
@@ -2940,7 +2952,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1993
+#: index.docbook:2002
 #, no-c-format
 msgid ""
 "Press the <guibutton>OK</guibutton> button when all details are correct, to "
@@ -2950,13 +2962,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2003
+#: index.docbook:2012
 #, no-c-format
 msgid "Alarm Message Display"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2005
+#: index.docbook:2014
 #, no-c-format
 msgid ""
 "Alarm messages may be displayed in windows or as notifications, depending on "
@@ -2965,17 +2977,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2010
+#: index.docbook:2019
 #, no-c-format
 msgid ""
 "If you inhibit notifications for the desktop, the execution of display "
-"alarms will be suspended until notifications are re-enabled. Note that this "
+"alarms will be suspended until notifications are re-enabled, except for "
+"alarms which you have specified in the <link linkend=\"alarm-edit-dlg-other"
+"\">Alarm Edit dialog</link> should never be inhibited. Note that this "
 "applies to all display alarms, regardless of whether they are displayed in "
 "windows or as notifications."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2015
+#: index.docbook:2026
 #, no-c-format
 msgid ""
 "Note that on a single screen system, the window manager may inhibit "
@@ -2984,13 +2998,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2020
+#: index.docbook:2031
 #, no-c-format
 msgid "Alarm Message Window"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2022
+#: index.docbook:2033
 #, no-c-format
 msgid ""
 "Alarm messages which are displayed in windows provide the fullest "
@@ -2998,7 +3012,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2025
+#: index.docbook:2036
 #, no-c-format
 msgid ""
 "When an alarm message is due, it is if possible displayed on each desktop "
@@ -3014,21 +3028,21 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2036
+#: index.docbook:2047
 #, no-c-format
 msgid ""
 "Alarm message windows remain visible until you acknowledge them, unless "
 "<guilabel>Auto-close window after late-cancelation time</guilabel> was "
-"checked in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>. In "
-"the case of a recurring alarm, if an unacknowledged message window remains "
-"from a previous occurrence of the alarm, the existing window is simply "
-"popped up when the alarm recurs. This avoids having to acknowledge multiple "
-"copies of the same message should you not wish, or be unable, to acknowledge "
-"a message at the time it appears."
+"checked in the <link linkend=\"alarm-edit-dlg-cancel\">Alarm Edit dialog</"
+"link>. In the case of a recurring alarm, if an unacknowledged message window "
+"remains from a previous occurrence of the alarm, the existing window is "
+"simply popped up when the alarm recurs. This avoids having to acknowledge "
+"multiple copies of the same message should you not wish, or be unable, to "
+"acknowledge a message at the time it appears."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2046
+#: index.docbook:2057
 #, no-c-format
 msgid ""
 "The alarm message window provides whichever of the following options are "
@@ -3036,7 +3050,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2051
+#: index.docbook:2062
 #, no-c-format
 msgid ""
 "Acknowledge the alarm by clicking the <guibutton>Close</guibutton> button. "
@@ -3045,7 +3059,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2058
+#: index.docbook:2069
 #, no-c-format
 msgid ""
 "Edit the alarm by clicking the <guibutton>Edit...</guibutton> button. This "
@@ -3053,7 +3067,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2064
+#: index.docbook:2075
 #, no-c-format
 msgid ""
 "Display options to defer the alarm until later by clicking the "
@@ -3066,7 +3080,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2074
+#: index.docbook:2085
 #, no-c-format
 msgid ""
 "The time the alarm is deferred to must be earlier than its next scheduled "
@@ -3077,7 +3091,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2080
+#: index.docbook:2091
 #, no-c-format
 msgid ""
 "Note that if a reminder is configured <emphasis>after</emphasis> the alarm, "
@@ -3086,7 +3100,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2085
+#: index.docbook:2096
 #, no-c-format
 msgid ""
 "The <guibutton>Defer...</guibutton> button is not available for alarms which "
@@ -3095,7 +3109,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2092
+#: index.docbook:2103
 #, no-c-format
 msgid ""
 "Stop playing the alarm's sound file by clicking the button showing the "
@@ -3103,7 +3117,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2097
+#: index.docbook:2108
 #, no-c-format
 msgid ""
 "If the alarm message was created by dragging an email from &kmail;, you can "
@@ -3113,7 +3127,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2102
+#: index.docbook:2113
 #, no-c-format
 msgid ""
 "If &kmail;'s indexes are regenerated, the link to the email in &kmail; will "
@@ -3121,7 +3135,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2107
+#: index.docbook:2118
 #, no-c-format
 msgid ""
 "The button showing the <guiicon>&kalarm;</guiicon> icon provides a "
@@ -3130,7 +3144,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2113
+#: index.docbook:2124
 #, no-c-format
 msgid ""
 "The way that alarm message windows are displayed depends on the windowing "
@@ -3138,13 +3152,13 @@ msgid ""
 msgstr ""
 
 #. Tag: application
-#: index.docbook:2118 index.docbook:3111
+#: index.docbook:2129 index.docbook:3122
 #, no-c-format
 msgid "X11 Windowing System"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2120
+#: index.docbook:2131
 #, no-c-format
 msgid ""
 "You can choose in the <link linkend=\"preferences-view\">Configuration "
@@ -3153,7 +3167,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2127
+#: index.docbook:2138
 #, no-c-format
 msgid ""
 "As a normal window. In this mode, the keyboard focus is taken by the alarm "
@@ -3162,7 +3176,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2134
+#: index.docbook:2145
 #, no-c-format
 msgid ""
 "As a non-modal window. In this mode, the keyboard focus is unaffected when "
@@ -3172,7 +3186,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2141
+#: index.docbook:2152
 #, no-c-format
 msgid ""
 "You can choose in the <link linkend=\"preferences-view\">Configuration "
@@ -3181,7 +3195,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2147
+#: index.docbook:2158
 #, no-c-format
 msgid ""
 "The windows are displayed as far away from the current mouse cursor as "
@@ -3190,7 +3204,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2154
+#: index.docbook:2165
 #, no-c-format
 msgid ""
 "The windows are displayed in the center of the screen. To reduce the chance "
@@ -3199,7 +3213,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2161
+#: index.docbook:2172
 #, no-c-format
 msgid ""
 "If you have several alarm message windows, or error messages, displayed, you "
@@ -3211,13 +3225,13 @@ msgid ""
 msgstr ""
 
 #. Tag: application
-#: index.docbook:2172 index.docbook:3142
+#: index.docbook:2183 index.docbook:3153
 #, no-c-format
 msgid "Wayland Windowing System"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2174
+#: index.docbook:2185
 #, no-c-format
 msgid ""
 "The Wayland windowing system does not allow applications to control the "
@@ -3226,7 +3240,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2178
+#: index.docbook:2189
 #, no-c-format
 msgid ""
 "To reduce the chance of accidentally acknowledging the alarm, the buttons on "
@@ -3235,13 +3249,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2189
+#: index.docbook:2200
 #, no-c-format
 msgid "Alarm Message Notifications"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2191
+#: index.docbook:2202
 #, no-c-format
 msgid ""
 "Alarm messages which are displayed as notifications provide less "
@@ -3249,7 +3263,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2194
+#: index.docbook:2205
 #, no-c-format
 msgid ""
 "When an alarm message is due, it is displayed as a notification. The "
@@ -3261,7 +3275,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2202
+#: index.docbook:2213
 #, no-c-format
 msgid ""
 "The notification automatically closes after a short time-out. (Note that the "
@@ -3275,7 +3289,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2212
+#: index.docbook:2223
 #, no-c-format
 msgid ""
 "The alarm message notification provides the following options. Note that "
@@ -3288,7 +3302,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2223
+#: index.docbook:2234
 #, no-c-format
 msgid ""
 "Acknowledge the alarm by clicking the <guibutton>Close</guibutton> button. "
@@ -3296,7 +3310,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2228
+#: index.docbook:2239
 #, no-c-format
 msgid ""
 "Edit the alarm by clicking the <guibutton>Edit</guibutton> button. This "
@@ -3304,7 +3318,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2234
+#: index.docbook:2245
 #, no-c-format
 msgid ""
 "Display options to defer the alarm until later by clicking the "
@@ -3315,7 +3329,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2243
+#: index.docbook:2254
 #, no-c-format
 msgid ""
 "Clicking the notification anywhere other than a button will activate "
@@ -3323,13 +3337,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2253
+#: index.docbook:2264
 #, no-c-format
 msgid "System Tray Operation"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2255
+#: index.docbook:2266
 #, no-c-format
 msgid ""
 "&kalarm; by default displays an icon in the system tray. The icon provides "
@@ -3340,7 +3354,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2262
+#: index.docbook:2273
 #, no-c-format
 msgid ""
 "&kalarm;'s system tray icon is by default automatically hidden whenever "
@@ -3352,7 +3366,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2269
+#: index.docbook:2280
 #, no-c-format
 msgid ""
 "If you hover the mouse cursor over the system tray icon, a summary of the "
@@ -3363,7 +3377,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2275
+#: index.docbook:2286
 #, no-c-format
 msgid ""
 "<mousebutton>Left</mousebutton> click on the system tray icon to toggle "
@@ -3371,7 +3385,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2278
+#: index.docbook:2289
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the system tray icon to display "
@@ -3379,19 +3393,19 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:2283
+#: index.docbook:2294
 #, no-c-format
 msgid "Enable Alarms"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2284
+#: index.docbook:2295
 #, no-c-format
 msgid "Enables or disables monitoring of alarms."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2285
+#: index.docbook:2296
 #, no-c-format
 msgid ""
 "See <link linkend=\"enable-disable\">Enabling and Disabling Alarms</link> "
@@ -3399,13 +3413,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:2292
+#: index.docbook:2303
 #, no-c-format
 msgid "New Alarm"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2293
+#: index.docbook:2304
 #, no-c-format
 msgid ""
 "After you select the alarm type from the list which appears, opens the Alarm "
@@ -3413,25 +3427,25 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:2300
+#: index.docbook:2311
 #, no-c-format
 msgid "Stop Play"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2301
+#: index.docbook:2312
 #, no-c-format
 msgid "Halts playback of the audio file currently playing."
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:2307
+#: index.docbook:2318
 #, no-c-format
 msgid "Spread Windows"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2308
+#: index.docbook:2319
 #, no-c-format
 msgid ""
 "Spreads alarm and error message windows across the screen, or groups them "
@@ -3439,19 +3453,19 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:2314
+#: index.docbook:2325
 #, no-c-format
 msgid "Configure &kalarm;..."
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2315
+#: index.docbook:2326
 #, no-c-format
 msgid "Displays the &kalarm; Configuration dialog."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2316
+#: index.docbook:2327
 #, no-c-format
 msgid ""
 "The Configuration dialog is described in <link linkend=\"preferences"
@@ -3460,43 +3474,43 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:2323
+#: index.docbook:2334
 #, no-c-format
 msgid "Restore / Minimize"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2324
+#: index.docbook:2335
 #, no-c-format
 msgid "Restores or minimizes the main &kalarm; window."
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:2329
+#: index.docbook:2340
 #, no-c-format
 msgid "Quit"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2330
+#: index.docbook:2341
 #, no-c-format
 msgid "Closes the &kalarm; system tray icon and main windows."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2332
+#: index.docbook:2343
 #, no-c-format
 msgid "Quits &kalarm; if no alarm message windows are displayed."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2338
+#: index.docbook:2349
 #, no-c-format
 msgid "Displaying &kalarm; in the System Tray"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2340
+#: index.docbook:2351
 #, no-c-format
 msgid ""
 "You must be running the &plasma; desktop or another suitable window manager "
@@ -3504,7 +3518,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2343
+#: index.docbook:2354
 #, no-c-format
 msgid ""
 "Select <menuchoice><guimenu>View</guimenu> <guimenuitem>Show in System Tray</"
@@ -3514,7 +3528,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2349
+#: index.docbook:2360
 #, no-c-format
 msgid ""
 "To remove &kalarm; from the system tray, deselect <menuchoice><guimenu>View</"
@@ -3522,7 +3536,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2353
+#: index.docbook:2364
 #, no-c-format
 msgid ""
 "To choose whether or not &kalarm; will be shown at startup in the system "
@@ -3531,13 +3545,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2360
+#: index.docbook:2371
 #, no-c-format
 msgid "Refreshing Alarms"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2362
+#: index.docbook:2373
 #, no-c-format
 msgid ""
 "If in the unlikely event that any alarm was not triggered when it should "
@@ -3548,7 +3562,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2370
+#: index.docbook:2381
 #, no-c-format
 msgid ""
 "You can reload an individual calendar and refresh its alarms in the alarm "
@@ -3559,19 +3573,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2381
+#: index.docbook:2392
 #, no-c-format
 msgid "Enabling and Disabling Alarms"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2383
+#: index.docbook:2394
 #, no-c-format
 msgid "Alarms may be enabled and disabled either as a whole or individually:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2388
+#: index.docbook:2399
 #, no-c-format
 msgid ""
 "<quote>Alarm monitoring</quote> applies to alarms as a whole. While alarm "
@@ -3581,7 +3595,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2394
+#: index.docbook:2405
 #, no-c-format
 msgid ""
 "When alarm monitoring is re-enabled, alarms which would have triggered while "
@@ -3591,7 +3605,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2402
+#: index.docbook:2413
 #, no-c-format
 msgid ""
 "Alarms may be individually enabled and disabled, independently of the alarm "
@@ -3603,7 +3617,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2409
+#: index.docbook:2420
 #, no-c-format
 msgid ""
 "When an alarm is individually re-enabled, it is not now triggered if it "
@@ -3612,7 +3626,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2414
+#: index.docbook:2425
 #, no-c-format
 msgid ""
 "An alarm's individual enabled/disabled status is indicated by its color in "
@@ -3621,7 +3635,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2421
+#: index.docbook:2432
 #, no-c-format
 msgid ""
 "For an alarm to trigger, it must be individually enabled as well as alarm "
@@ -3629,13 +3643,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2425
+#: index.docbook:2436
 #, no-c-format
 msgid "Enabling Alarm Monitoring"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2427
+#: index.docbook:2438
 #, no-c-format
 msgid ""
 "For alarm monitoring to occur, &kalarm; must be running. Once you run "
@@ -3645,7 +3659,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2433
+#: index.docbook:2444
 #, no-c-format
 msgid ""
 "If alarm monitoring is currently disabled, do one of the following to enable "
@@ -3653,7 +3667,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2438
+#: index.docbook:2449
 #, no-c-format
 msgid ""
 "Select <menuchoice><guimenu>Actions</guimenu> <guimenuitem>Enable Alarms</"
@@ -3661,7 +3675,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2443
+#: index.docbook:2454
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the system tray icon and choose "
@@ -3670,13 +3684,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2453
+#: index.docbook:2464
 #, no-c-format
 msgid "Disabling Alarm Monitoring"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2455
+#: index.docbook:2466
 #, no-c-format
 msgid ""
 "You can temporarily disable alarm monitoring, which prevents &kalarm; from "
@@ -3686,7 +3700,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2462
+#: index.docbook:2473
 #, no-c-format
 msgid ""
 "Unselect <menuchoice><guimenu>Actions</guimenu> <guimenuitem>Enable Alarms</"
@@ -3694,7 +3708,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2467
+#: index.docbook:2478
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the system tray icon and uncheck "
@@ -3703,14 +3717,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2474
+#: index.docbook:2485
 #, no-c-format
 msgid ""
 "Run &kalarm; with the command line option <option>--disable-all</option>."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2479
+#: index.docbook:2490
 #, no-c-format
 msgid ""
 "Stop &kalarm; as described in <link linkend=\"quitting\">Quitting &kalarm;</"
@@ -3718,7 +3732,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2484
+#: index.docbook:2495
 #, no-c-format
 msgid ""
 "Alarms may be permanently disabled by preventing &kalarm; from being started "
@@ -3727,13 +3741,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2492
+#: index.docbook:2503
 #, no-c-format
 msgid "Enabling and Disabling Individual Alarms"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2494
+#: index.docbook:2505
 #, no-c-format
 msgid ""
 "To enable individual alarms which are currently disabled, do one of the "
@@ -3741,7 +3755,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2499
+#: index.docbook:2510
 #, no-c-format
 msgid ""
 "Select one or more alarms by clicking on their entries in the alarm list. "
@@ -3750,7 +3764,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2506
+#: index.docbook:2517
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the desired entries in the alarm "
@@ -3759,7 +3773,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2513
+#: index.docbook:2524
 #, no-c-format
 msgid ""
 "To disable individual alarms which are currently enabled, do one of the "
@@ -3767,7 +3781,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2518
+#: index.docbook:2529
 #, no-c-format
 msgid ""
 "Select one or more alarms by clicking on their entries in the alarm list. "
@@ -3776,7 +3790,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2525
+#: index.docbook:2536
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the desired entries in the alarm "
@@ -3785,13 +3799,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2536
+#: index.docbook:2547
 #, no-c-format
 msgid "Wake From Suspend"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2538
+#: index.docbook:2549
 #, no-c-format
 msgid ""
 "Alarms can be configured to wake your computer from hibernation or "
@@ -3802,24 +3816,24 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2546
+#: index.docbook:2557
 #, no-c-format
 msgid "Linux Kernel Timer Wake From Suspend"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2548
+#: index.docbook:2559
 #, no-c-format
 msgid ""
 "On Linux systems, if the user has kernel alarm timer "
 "(<literal>cap_wake_alarm</literal>) capability, any number of alarms can be "
 "set to wake from suspend. In this case, wake from suspend is configured for "
-"each individual alarm in the <link linkend=\"alarm-edit-dlg\">Alarm Edit "
-"dialog</link> using its <guilabel>Wake from suspend</guilabel> option."
+"each individual alarm in the <link linkend=\"alarm-edit-dlg-other\">Alarm "
+"Edit dialog</link> using its <guilabel>Wake from suspend</guilabel> option."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2555
+#: index.docbook:2566
 #, no-c-format
 msgid ""
 "You can configure how long before the alarm to wake from suspend, to ensure "
@@ -3828,13 +3842,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2563
+#: index.docbook:2574
 #, no-c-format
 msgid "RTC Wake From Suspend"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2565
+#: index.docbook:2576
 #, no-c-format
 msgid ""
 "On non-Linux systems, or on Linux systems where the user does not have "
@@ -3848,7 +3862,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2574
+#: index.docbook:2585
 #, no-c-format
 msgid ""
 "Use of the Wake From Suspend function requires administrative privileges. "
@@ -3857,7 +3871,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2578
+#: index.docbook:2589
 #, no-c-format
 msgid ""
 "Wake From Suspend is not supported on some computers, especially older ones, "
@@ -3868,7 +3882,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2585
+#: index.docbook:2596
 #, no-c-format
 msgid ""
 "Your computer can only schedule a single Wake From Suspend at a time. If you "
@@ -3880,7 +3894,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2593
+#: index.docbook:2604
 #, no-c-format
 msgid ""
 "The Wake From Suspend dialog is used in conjunction with the alarm list in "
@@ -3888,7 +3902,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2598
+#: index.docbook:2609
 #, no-c-format
 msgid ""
 "<guibutton>Use highlighted alarm</guibutton>: this sets the alarm currently "
@@ -3898,7 +3912,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2606
+#: index.docbook:2617
 #, no-c-format
 msgid ""
 "<guibutton>Cancel wake from suspend</guibutton>: this cancels any existing "
@@ -3909,7 +3923,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2614
+#: index.docbook:2625
 #, no-c-format
 msgid ""
 "<guibutton>Show current alarm</guibutton>: this highlights the current Wake "
@@ -3918,7 +3932,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2621
+#: index.docbook:2632
 #, no-c-format
 msgid ""
 "The <guilabel>Number of minutes before alarm to wake from suspend</guilabel> "
@@ -3928,13 +3942,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2632
+#: index.docbook:2643
 #, no-c-format
 msgid "Quitting &kalarm;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2634
+#: index.docbook:2645
 #, no-c-format
 msgid ""
 "Quit &kalarm; by selecting <menuchoice> <guimenu>File</"
@@ -3945,13 +3959,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2644
+#: index.docbook:2655
 #, no-c-format
 msgid "Configuring &kalarm;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2646
+#: index.docbook:2657
 #, no-c-format
 msgid ""
 "To configure &kalarm;'s operation to suit your system and your personal "
@@ -3961,13 +3975,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2652
+#: index.docbook:2663
 #, no-c-format
 msgid "General"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2654
+#: index.docbook:2665
 #, no-c-format
 msgid ""
 "The <guilabel>General</guilabel> section lets you control &kalarm;'s overall "
@@ -3975,7 +3989,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2659
+#: index.docbook:2670
 #, no-c-format
 msgid ""
 "<guilabel>Run Mode</guilabel>: This allows you to select whether &kalarm; "
@@ -3983,7 +3997,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2664
+#: index.docbook:2675
 #, no-c-format
 msgid ""
 "<guilabel>Run automatically</guilabel>: Select this to run &kalarm; "
@@ -3992,7 +4006,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2671
+#: index.docbook:2682
 #, no-c-format
 msgid ""
 "<guilabel>Run manually only</guilabel>: Select this if you only want to use "
@@ -4002,7 +4016,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2679
+#: index.docbook:2690
 #, no-c-format
 msgid ""
 "<guilabel>Do not run</guilabel>: Select this if you want to stop using "
@@ -4011,7 +4025,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2683
+#: index.docbook:2694
 #, no-c-format
 msgid ""
 "Note that if you later run &kalarm; again after selecting this option, "
@@ -4021,7 +4035,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2693
+#: index.docbook:2704
 #, no-c-format
 msgid ""
 "<guilabel>Warn before quitting</guilabel>: &kalarm; must be running for "
@@ -4033,7 +4047,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2703
+#: index.docbook:2714
 #, no-c-format
 msgid ""
 "<guilabel>Enable alarm names</guilabel>: Specify whether each alarm can be "
@@ -4045,7 +4059,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2711
+#: index.docbook:2722
 #, no-c-format
 msgid ""
 "<guilabel>Confirm alarm deletions</guilabel>: Specify whether you should be "
@@ -4053,7 +4067,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2716
+#: index.docbook:2727
 #, no-c-format
 msgid ""
 "<guilabel>Default defer time interval</guilabel>: Enter the default time "
@@ -4064,7 +4078,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2724
+#: index.docbook:2735
 #, no-c-format
 msgid ""
 "<guilabel>Terminal for Command Alarms</guilabel>: Here, you can select which "
@@ -4077,7 +4091,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2733
+#: index.docbook:2744
 #, no-c-format
 msgid ""
 "If you want to use another application, or want to use one of those listed "
@@ -4089,25 +4103,25 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:2743
+#: index.docbook:2754
 #, no-c-format
 msgid "<term>%c</term>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2745
+#: index.docbook:2756
 #, no-c-format
 msgid "The alarm's command string will be substituted."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:2749
+#: index.docbook:2760
 #, no-c-format
 msgid "<term>%w</term>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2751
+#: index.docbook:2762
 #, no-c-format
 msgid ""
 "The alarm's command string will be substituted, with a <literal>sleep</"
@@ -4115,13 +4129,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:2755
+#: index.docbook:2766
 #, no-c-format
 msgid "<term>%C</term>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2757
+#: index.docbook:2768
 #, no-c-format
 msgid ""
 "A temporary command file containing the alarm's command string will be "
@@ -4129,13 +4143,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:2761
+#: index.docbook:2772
 #, no-c-format
 msgid "<term>%W</term>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2763
+#: index.docbook:2774
 #, no-c-format
 msgid ""
 "A temporary command file containing the alarm's command string will be "
@@ -4144,19 +4158,19 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:2767
+#: index.docbook:2778
 #, no-c-format
 msgid "<term>%t</term>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2769
+#: index.docbook:2780
 #, no-c-format
 msgid "&kalarm;'s name in the current language will be substituted."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2774
+#: index.docbook:2785
 #, no-c-format
 msgid ""
 "When the command alarm is triggered, its command string will be quoted "
@@ -4164,7 +4178,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2779
+#: index.docbook:2790
 #, no-c-format
 msgid ""
 "<guilabel>Plugins</guilabel>: This section allows you to choose which of "
@@ -4172,7 +4186,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2783
+#: index.docbook:2794
 #, no-c-format
 msgid ""
 "<guilabel>Audio Backend</guilabel>: Choose which audio system to use to play "
@@ -4181,7 +4195,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2789
+#: index.docbook:2800
 #, no-c-format
 msgid ""
 "<guilabel>Enable Akonadi</guilabel>: Choose whether to use &akonadi; to "
@@ -4191,13 +4205,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2802
+#: index.docbook:2813
 #, no-c-format
 msgid "Time &amp; Date"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2804
+#: index.docbook:2815
 #, no-c-format
 msgid ""
 "The <guilabel>Time &amp; Date</guilabel> section lets you set options "
@@ -4205,7 +4219,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2808
+#: index.docbook:2819
 #, no-c-format
 msgid ""
 "<guilabel>Time zone</guilabel>: Select your time zone. &kalarm; uses this "
@@ -4213,7 +4227,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2813
+#: index.docbook:2824
 #, no-c-format
 msgid ""
 "<guilabel>Holiday region</guilabel>: Select which country's or region's "
@@ -4222,7 +4236,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2818
+#: index.docbook:2829
 #, no-c-format
 msgid ""
 "<guilabel>Wake from suspend before alarm</guilabel>: Enter the number of "
@@ -4235,7 +4249,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2829
+#: index.docbook:2840
 #, no-c-format
 msgid ""
 "<guilabel>Start of day for date-only alarms</guilabel>: Set the start-of-day "
@@ -4246,23 +4260,23 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2837
+#: index.docbook:2848
 #, no-c-format
 msgid ""
 "<guilabel>Working Hours</guilabel> group box: These options let you define "
 "your working hours, needed when the <guilabel>Only during working hours</"
 "guilabel> option is selected for a recurrence in the <link linkend=\"alarm-"
-"edit-dlg\">Alarm Edit dialog</link>."
+"edit-dlg-recur\">Alarm Edit dialog</link>."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2844
+#: index.docbook:2855
 #, no-c-format
 msgid "Check each day which is a working day."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2847
+#: index.docbook:2858
 #, no-c-format
 msgid ""
 "<guilabel>Daily start time</guilabel>: enter the time at which you start "
@@ -4270,7 +4284,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2851
+#: index.docbook:2862
 #, no-c-format
 msgid ""
 "<guilabel>Daily end time</guilabel>: enter the time at which you finish work "
@@ -4278,7 +4292,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2857
+#: index.docbook:2868
 #, no-c-format
 msgid ""
 "<guilabel>KOrganizer event duration</guilabel>: Enter the event duration to "
@@ -4287,13 +4301,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2866
+#: index.docbook:2877
 #, no-c-format
 msgid "Storage"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2868
+#: index.docbook:2879
 #, no-c-format
 msgid ""
 "The <guilabel>Storage</guilabel> section lets you choose options for saving "
@@ -4301,7 +4315,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2873
+#: index.docbook:2884
 #, no-c-format
 msgid ""
 "<guilabel>New Alarms &amp; Templates</guilabel>: Specify which calendar to "
@@ -4309,7 +4323,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2879
+#: index.docbook:2890
 #, no-c-format
 msgid ""
 "<guilabel>Store in default calendar</guilabel>: New alarms and alarm "
@@ -4318,7 +4332,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2885
+#: index.docbook:2896
 #, no-c-format
 msgid ""
 "<guilabel>Prompt for which calendar to store in</guilabel>: When you create "
@@ -4329,7 +4343,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2895
+#: index.docbook:2906
 #, no-c-format
 msgid ""
 "<guilabel>Archived Alarms</guilabel> group box: These options control the "
@@ -4337,7 +4351,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2900
+#: index.docbook:2911
 #, no-c-format
 msgid ""
 "<guilabel>Keep alarms after expiry</guilabel>: Select this option to archive "
@@ -4348,7 +4362,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2908
+#: index.docbook:2919
 #, no-c-format
 msgid ""
 "<guilabel>Discard archived alarms after</guilabel>: Set the number of days "
@@ -4357,7 +4371,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2913
+#: index.docbook:2924
 #, no-c-format
 msgid ""
 "<guibutton>Clear archived alarms</guibutton>: This button discards all "
@@ -4368,13 +4382,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2927
+#: index.docbook:2938
 #, no-c-format
 msgid "Email"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2929
+#: index.docbook:2940
 #, no-c-format
 msgid ""
 "The <guilabel>Email</guilabel> section lets you choose options for sending "
@@ -4382,7 +4396,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2932
+#: index.docbook:2943
 #, no-c-format
 msgid ""
 "Options dependent on &kmail; are only available if &kalarm;'s <link linkend="
@@ -4390,7 +4404,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2939
+#: index.docbook:2950
 #, no-c-format
 msgid ""
 "<guilabel>Email client</guilabel>: Specify the email client to be used to "
@@ -4398,7 +4412,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2943
+#: index.docbook:2954
 #, no-c-format
 msgid ""
 "<guilabel>KMail</guilabel>: When an email alarm is triggered, the email is "
@@ -4406,7 +4420,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2947
+#: index.docbook:2958
 #, no-c-format
 msgid ""
 "<guilabel>Sendmail</guilabel>: When an email alarm is triggered, the email "
@@ -4417,7 +4431,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2959
+#: index.docbook:2970
 #, no-c-format
 msgid ""
 "<guilabel>Copy sent emails into &kmail;'s \"sent-mail\" folder</guilabel>: "
@@ -4427,7 +4441,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2964
+#: index.docbook:2975
 #, no-c-format
 msgid ""
 "This option is not available when &kmail; is selected as the email client, "
@@ -4435,7 +4449,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2969
+#: index.docbook:2980
 #, no-c-format
 msgid ""
 "<guilabel>Notify when remote emails are queued</guilabel>: Select this "
@@ -4447,20 +4461,20 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2979
+#: index.docbook:2990
 #, no-c-format
 msgid ""
 "Select your email address to be used as the sender's address in email alarms:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2983
+#: index.docbook:2994
 #, no-c-format
 msgid "Select <guilabel>From</guilabel> to enter an email address."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2987 index.docbook:3012
+#: index.docbook:2998 index.docbook:3023
 #, no-c-format
 msgid ""
 "Select <guilabel>Use default KMail identity</guilabel> to use your default "
@@ -4468,7 +4482,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2991
+#: index.docbook:3002
 #, no-c-format
 msgid ""
 "Select <guilabel>Use &kmail; identities</guilabel> to be able to choose at "
@@ -4478,7 +4492,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3001
+#: index.docbook:3012
 #, no-c-format
 msgid ""
 "Select your email address to be used for sending blind copies of email "
@@ -4487,7 +4501,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3006
+#: index.docbook:3017
 #, no-c-format
 msgid ""
 "Select <guilabel>Bcc</guilabel> to enter an email address. If blind copies "
@@ -4496,13 +4510,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3021
+#: index.docbook:3032
 #, no-c-format
 msgid "View"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3023
+#: index.docbook:3034
 #, no-c-format
 msgid ""
 "The <guilabel>View</guilabel> section lets you control some aspects of "
@@ -4510,7 +4524,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3029
+#: index.docbook:3040
 #, no-c-format
 msgid ""
 "<guilabel>Show in system tray</guilabel> group box: When selected, the "
@@ -4519,14 +4533,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3035
+#: index.docbook:3046
 #, no-c-format
 msgid ""
 "<guilabel>Always show</guilabel>: The system tray icon is always displayed."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3040
+#: index.docbook:3051
 #, no-c-format
 msgid ""
 "<guilabel>Automatically hide if no active alarms</guilabel>: The system tray "
@@ -4534,7 +4548,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3045
+#: index.docbook:3056
 #, no-c-format
 msgid ""
 "<guilabel>Automatically hide if no alarm due within time period</guilabel>: "
@@ -4543,7 +4557,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3051
+#: index.docbook:3062
 #, no-c-format
 msgid ""
 "When the system tray icon is automatically hidden, you can make it visible "
@@ -4551,7 +4565,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3054
+#: index.docbook:3065
 #, no-c-format
 msgid ""
 "When <guilabel>Show in system tray</guilabel> is selected, closing the "
@@ -4560,7 +4574,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3060
+#: index.docbook:3071
 #, no-c-format
 msgid ""
 "<guilabel>System Tray Tooltip</guilabel> group box: These options control "
@@ -4569,7 +4583,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3066
+#: index.docbook:3077
 #, no-c-format
 msgid ""
 "<guilabel>Show next 24 hours' alarms</guilabel>: When selected, a summary of "
@@ -4577,7 +4591,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3072
+#: index.docbook:3083
 #, no-c-format
 msgid ""
 "<guilabel>Maximum number of alarms to show</guilabel>: Deselect this option "
@@ -4586,7 +4600,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3078
+#: index.docbook:3089
 #, no-c-format
 msgid ""
 "<guilabel>Show alarm time</guilabel>: Select this option to show the time at "
@@ -4594,7 +4608,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3083
+#: index.docbook:3094
 #, no-c-format
 msgid ""
 "<guilabel>Show time until alarm</guilabel>: Select this option to show the "
@@ -4603,7 +4617,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3089
+#: index.docbook:3100
 #, no-c-format
 msgid ""
 "<guilabel>Prefix</guilabel>: Specify a symbol or text to show in front of "
@@ -4612,7 +4626,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3099
+#: index.docbook:3110
 #, no-c-format
 msgid ""
 "The <guilabel>Alarm List</guilabel> group box allows the selection of the "
@@ -4621,7 +4635,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3105
+#: index.docbook:3116
 #, no-c-format
 msgid ""
 "The <guilabel>Alarm Windows</guilabel> tab contains options to control the "
@@ -4630,7 +4644,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3115
+#: index.docbook:3126
 #, no-c-format
 msgid ""
 "<guilabel>Position windows far from mouse cursor</guilabel>: Select this "
@@ -4641,7 +4655,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3123
+#: index.docbook:3134
 #, no-c-format
 msgid ""
 "<guilabel>Center windows, delay activating window buttons</guilabel>: Select "
@@ -4652,7 +4666,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3132
+#: index.docbook:3143
 #, no-c-format
 msgid ""
 "<guilabel>Message windows have a titlebar and take keyboard focus</"
@@ -4663,7 +4677,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3146
+#: index.docbook:3157
 #, no-c-format
 msgid ""
 "To reduce the chance of accidentally acknowledging the alarm, the window's "
@@ -4672,13 +4686,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3158
+#: index.docbook:3169
 #, no-c-format
 msgid "Edit"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3160
+#: index.docbook:3171
 #, no-c-format
 msgid ""
 "The <guilabel>Edit</guilabel> section lets you choose default values for the "
@@ -4686,7 +4700,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3165
+#: index.docbook:3176
 #, no-c-format
 msgid ""
 "The <guilabel>General</guilabel> tab contains options which apply to all "
@@ -4694,13 +4708,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3169
+#: index.docbook:3180
 #, no-c-format
 msgid "Set the default method for displaying alarm messages."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3173
+#: index.docbook:3184
 #, no-c-format
 msgid ""
 "Set the default states for the <guilabel>Show in KOrganizer</guilabel> and "
@@ -4708,13 +4722,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3178
+#: index.docbook:3189
 #, no-c-format
 msgid "Set the default recurrence type."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3181
+#: index.docbook:3192
 #, no-c-format
 msgid ""
 "Select the default handling in non-leap years of yearly recurrences "
@@ -4722,7 +4736,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3187
+#: index.docbook:3198
 #, no-c-format
 msgid ""
 "The <guilabel>Alarm Types</guilabel> tab contains options which apply to "
@@ -4730,13 +4744,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3192
+#: index.docbook:3203
 #, no-c-format
 msgid "For display alarms:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3195
+#: index.docbook:3206
 #, no-c-format
 msgid ""
 "Set the default states for the <guilabel>Auto-close window after this time</"
@@ -4744,19 +4758,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3200
+#: index.docbook:3211
 #, no-c-format
 msgid "Set the default reminder period units."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3203
+#: index.docbook:3214
 #, no-c-format
 msgid "Set the default special display alarm actions."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3206
+#: index.docbook:3217
 #, no-c-format
 msgid ""
 "Set the default sound options. Note that a default sound file may be "
@@ -4765,13 +4779,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3214
+#: index.docbook:3225
 #, no-c-format
 msgid "For command alarms:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3217
+#: index.docbook:3228
 #, no-c-format
 msgid ""
 "Set the default states for the <guilabel>Enter a script</guilabel> and "
@@ -4779,13 +4793,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3225
+#: index.docbook:3236
 #, no-c-format
 msgid "For email alarms:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3228
+#: index.docbook:3239
 #, no-c-format
 msgid ""
 "Set the default state for the <guilabel>Copy email to self</guilabel> check "
@@ -4793,7 +4807,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3236
+#: index.docbook:3247
 #, no-c-format
 msgid ""
 "The <guilabel>Font &amp; Color</guilabel> tab lets you set the default "
@@ -4802,13 +4816,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3246
+#: index.docbook:3257
 #, no-c-format
 msgid "Command Line Operation"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3248
+#: index.docbook:3259
 #, no-c-format
 msgid ""
 "When command line parameters are supplied, &kalarm; does not display the "
@@ -4818,25 +4832,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3255 index.docbook:3661
+#: index.docbook:3266 index.docbook:3672
 #, no-c-format
 msgid "schedule a new alarm"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3257
+#: index.docbook:3268
 #, no-c-format
 msgid "control &kalarm;'s display mode"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3259
+#: index.docbook:3270
 #, no-c-format
 msgid "obtain help"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3263
+#: index.docbook:3274
 #, no-c-format
 msgid ""
 "Additional command line options are provided primarily to enable other "
@@ -4845,7 +4859,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3268
+#: index.docbook:3279
 #, no-c-format
 msgid ""
 "The command line must only contain options applicable to one &kalarm; "
@@ -4854,50 +4868,50 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3274
+#: index.docbook:3285
 #, no-c-format
 msgid "Schedule a New Alarm"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3276
+#: index.docbook:3287
 #, no-c-format
 msgid "The following options are used to schedule a new alarm:"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3282 index.docbook:3588 index.docbook:4879
+#: index.docbook:3293 index.docbook:3599 index.docbook:4890
 #, no-c-format
 msgid "Option"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3283 index.docbook:3589 index.docbook:4880
+#: index.docbook:3294 index.docbook:3600 index.docbook:4891
 #, no-c-format
 msgid "<entry>Description</entry>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3288
+#: index.docbook:3299
 #, no-c-format
 msgid "<option>-a</option>, <option>--ack-confirm</option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3289
+#: index.docbook:3300
 #, no-c-format
 msgid "Prompt for confirmation when the alarm message is acknowledged."
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3293
+#: index.docbook:3304
 #, no-c-format
 msgid ""
 "<option>-A</option>, <option>--attach <replaceable>URL</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3294
+#: index.docbook:3305
 #, no-c-format
 msgid ""
 "Specify the path or &URL; of a file which is to be attached to the email. "
@@ -4906,13 +4920,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3299
+#: index.docbook:3310
 #, no-c-format
 msgid "--auto-close"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3300
+#: index.docbook:3311
 #, no-c-format
 msgid ""
 "Automatically close the alarm window after the expiry of the <option>--late-"
@@ -4921,13 +4935,13 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3306
+#: index.docbook:3317
 #, no-c-format
 msgid "<option>-b</option>, <option>--beep</option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3307
+#: index.docbook:3318
 #, no-c-format
 msgid ""
 "Make an audible beep when the message is displayed. <option>--speak</"
@@ -4936,13 +4950,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3313
+#: index.docbook:3324
 #, no-c-format
 msgid "--bcc"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3314
+#: index.docbook:3325
 #, no-c-format
 msgid ""
 "Blind copy the email to yourself. <option>--mail</option> must be specified "
@@ -4950,7 +4964,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3318
+#: index.docbook:3329
 #, no-c-format
 msgid ""
 "<option>-c</option>, <option>--color</option>, <option>--colour "
@@ -4958,7 +4972,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3320
+#: index.docbook:3331
 #, no-c-format
 msgid ""
 "Set the message background color to the specified &Qt; color name or hex "
@@ -4966,7 +4980,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3324
+#: index.docbook:3335
 #, no-c-format
 msgid ""
 "<option>-C</option>, <option>--colorfg</option>, <option>--colourfg "
@@ -4974,7 +4988,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3326
+#: index.docbook:3337
 #, no-c-format
 msgid ""
 "Set the message foreground color to the specified &Qt; color name or hex "
@@ -4982,26 +4996,26 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3330
+#: index.docbook:3341
 #, no-c-format
 msgid "<option>-d</option>, <option>--disable</option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3331
+#: index.docbook:3342
 #, no-c-format
 msgid ""
 "Disable the alarm. It will not trigger until it has been manually enabled."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3335 index.docbook:3637
+#: index.docbook:3346 index.docbook:3648
 #, no-c-format
 msgid "--disable-all"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3336
+#: index.docbook:3347
 #, no-c-format
 msgid ""
 "Disable alarm monitoring. This prevents any alarms from being triggered "
@@ -5010,7 +5024,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3343
+#: index.docbook:3354
 #, no-c-format
 msgid ""
 "<option>-e</option>, <option>--exec <replaceable>commandline</replaceable></"
@@ -5018,7 +5032,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3344
+#: index.docbook:3355
 #, no-c-format
 msgid ""
 "Specify a shell command to execute. If specified, this option must be the "
@@ -5031,7 +5045,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3355
+#: index.docbook:3366
 #, no-c-format
 msgid ""
 "<option>-E</option>, <option>--exec-display <replaceable>commandline</"
@@ -5039,7 +5053,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3356
+#: index.docbook:3367
 #, no-c-format
 msgid ""
 "Specify a shell command to execute to generate the alarm message text. If "
@@ -5051,14 +5065,14 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3364
+#: index.docbook:3375
 #, no-c-format
 msgid ""
 "<option>-f</option>, <option>--file <replaceable>URL</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3365
+#: index.docbook:3376
 #, no-c-format
 msgid ""
 "Specify the path or &URL; of a text or image file whose contents are to form "
@@ -5068,14 +5082,14 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3372
+#: index.docbook:3383
 #, no-c-format
 msgid ""
 "<option>-F</option>, <option>--from-id <replaceable>ID</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3374
+#: index.docbook:3385
 #, no-c-format
 msgid ""
 "Use the specified &kmail; identity as the sender of the email. <option>--"
@@ -5083,7 +5097,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3379
+#: index.docbook:3390
 #, no-c-format
 msgid ""
 "<option>-i</option>, <option>--interval <replaceable>period</replaceable></"
@@ -5091,7 +5105,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3381
+#: index.docbook:3392
 #, no-c-format
 msgid ""
 "Set the interval between repetitions of the alarm. Hours/minutes are "
@@ -5106,19 +5120,19 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3395
+#: index.docbook:3406
 #, no-c-format
 msgid "<option>-k</option>, <option>--korganizer</option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3396
+#: index.docbook:3407
 #, no-c-format
 msgid "Show the alarm as an event in &korganizer;'s active calendar."
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3400
+#: index.docbook:3411
 #, no-c-format
 msgid ""
 "<option>-l</option>, <option>--late-cancel <replaceable>period</"
@@ -5126,7 +5140,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3402
+#: index.docbook:3413
 #, no-c-format
 msgid ""
 "Cancel the alarm if it cannot be triggered within the specified "
@@ -5140,13 +5154,13 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3415
+#: index.docbook:3426
 #, no-c-format
 msgid "<option>-L</option>, <option>--login</option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3416
+#: index.docbook:3427
 #, no-c-format
 msgid ""
 "Trigger the alarm every time you log in. <option>--interval</option>, "
@@ -5155,7 +5169,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3422
+#: index.docbook:3433
 #, no-c-format
 msgid ""
 "<option>-m</option>, <option>--mail <replaceable>address</replaceable></"
@@ -5163,7 +5177,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3424
+#: index.docbook:3435
 #, no-c-format
 msgid ""
 "Send an email to the specified address. This option may be repeated as "
@@ -5174,26 +5188,26 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3433
+#: index.docbook:3444
 #, no-c-format
 msgid ""
 "<option>-n</option>, <option>--name <replaceable>name</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3434
+#: index.docbook:3445
 #, no-c-format
 msgid "Specify a name to help you to identify the alarm."
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3437
+#: index.docbook:3448
 #, no-c-format
 msgid "<option>-N</option>, <option>--notify</option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3438
+#: index.docbook:3449
 #, no-c-format
 msgid ""
 "Display the alarm as a notification, not in a window. <option>--color</"
@@ -5203,14 +5217,14 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3445
+#: index.docbook:3456
 #, no-c-format
 msgid ""
 "<option>-p</option>, <option>--play <replaceable>URL</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3446
+#: index.docbook:3457
 #, no-c-format
 msgid ""
 "Specify the path or &URL; of an audio file to be played once, either as an "
@@ -5220,7 +5234,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3453
+#: index.docbook:3464
 #, no-c-format
 msgid ""
 "<option>-P</option>, <option>--play-repeat <replaceable>URL</replaceable></"
@@ -5228,7 +5242,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3454
+#: index.docbook:3465
 #, no-c-format
 msgid ""
 "Specify the path or &URL; of an audio file to be played repeatedly, either "
@@ -5238,13 +5252,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3462
+#: index.docbook:3473
 #, no-c-format
 msgid "--recurrence <replaceable>spec</replaceable>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3464
+#: index.docbook:3475
 #, no-c-format
 msgid ""
 "Set the alarm to recur. Specify the recurrence using iCalendar syntax "
@@ -5254,7 +5268,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3472
+#: index.docbook:3483
 #, no-c-format
 msgid ""
 "<option>-r</option>, <option>--repeat <replaceable>count</replaceable></"
@@ -5262,7 +5276,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3474
+#: index.docbook:3485
 #, no-c-format
 msgid ""
 "Set the number of times the alarm should be triggered, or if a recurrence is "
@@ -5275,7 +5289,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3484
+#: index.docbook:3495
 #, no-c-format
 msgid ""
 "<option>-R</option>, <option>--reminder <replaceable>period</replaceable></"
@@ -5283,7 +5297,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3486
+#: index.docbook:3497
 #, no-c-format
 msgid ""
 "Output a reminder alarm the specified length of time before or after the "
@@ -5297,13 +5311,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3497
+#: index.docbook:3508
 #, no-c-format
 msgid "--reminder-once <replaceable>period</replaceable>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3499
+#: index.docbook:3510
 #, no-c-format
 msgid ""
 "Output a reminder alarm once, the specified length of time before or after "
@@ -5315,13 +5329,13 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3508
+#: index.docbook:3519
 #, no-c-format
 msgid "<option>-s</option>, <option>--speak</option>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3509
+#: index.docbook:3520
 #, no-c-format
 msgid ""
 "Speak the message when it is displayed. This option requires &kalarm; to "
@@ -5331,7 +5345,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3516
+#: index.docbook:3527
 #, no-c-format
 msgid ""
 "<option>-S</option>, <option>--subject <replaceable>subject</replaceable></"
@@ -5339,7 +5353,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3518
+#: index.docbook:3529
 #, no-c-format
 msgid ""
 "The subject line of the email. <option>--mail</option> must be specified "
@@ -5347,7 +5361,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3523
+#: index.docbook:3534
 #, no-c-format
 msgid ""
 "<option>-t</option>, <option>--time <replaceable>date/time</replaceable></"
@@ -5355,7 +5369,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3525
+#: index.docbook:3536
 #, no-c-format
 msgid ""
 "Trigger alarm on the date or at the date/time specified. Specify a date "
@@ -5369,7 +5383,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3537
+#: index.docbook:3548
 #, no-c-format
 msgid ""
 "<option>-v</option>, <option>--volume <replaceable>percentage</replaceable></"
@@ -5377,7 +5391,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3539
+#: index.docbook:3550
 #, no-c-format
 msgid ""
 "Set the audio volume for playing the audio file. This option can only be "
@@ -5386,7 +5400,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3544
+#: index.docbook:3555
 #, no-c-format
 msgid ""
 "<option>-u</option>, <option>--until <replaceable>date/time</replaceable></"
@@ -5394,7 +5408,7 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3546
+#: index.docbook:3557
 #, no-c-format
 msgid ""
 "Repeat the alarm until the date or date/time specified. Specify the date or "
@@ -5406,13 +5420,13 @@ msgid ""
 msgstr ""
 
 #. Tag: replaceable
-#: index.docbook:3556
+#: index.docbook:3567
 #, no-c-format
 msgid "<replaceable>message</replaceable>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3557
+#: index.docbook:3568
 #, no-c-format
 msgid ""
 "Message text to display or, if <option>--mail</option> is specified, the "
@@ -5420,7 +5434,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3564
+#: index.docbook:3575
 #, no-c-format
 msgid ""
 "Either a message text, <option>--file</option>, <option>--exec</option>, "
@@ -5430,7 +5444,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3569
+#: index.docbook:3580
 #, no-c-format
 msgid ""
 "Two alternative examples which display a multi-line message with a red "
@@ -5438,7 +5452,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: index.docbook:3572
+#: index.docbook:3583
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput><command>kalarm</command> <option>-c "
@@ -5452,13 +5466,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3578
+#: index.docbook:3589
 #, no-c-format
 msgid "Other Options"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3580
+#: index.docbook:3591
 #, no-c-format
 msgid ""
 "The following options are used to perform various functions, including "
@@ -5466,13 +5480,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3594
+#: index.docbook:3605
 #, no-c-format
 msgid "--edit <replaceable>eventID</replaceable>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3595
+#: index.docbook:3606
 #, no-c-format
 msgid ""
 "Display the Alarm Edit dialog to edit the alarm with the specified event ID. "
@@ -5482,61 +5496,61 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3602
+#: index.docbook:3613
 #, no-c-format
 msgid "--edit-new-audio"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3603
+#: index.docbook:3614
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new audio alarm."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3607
+#: index.docbook:3618
 #, no-c-format
 msgid "--edit-new-command"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3608
+#: index.docbook:3619
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new command alarm."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3612
+#: index.docbook:3623
 #, no-c-format
 msgid "--edit-new-display"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3613
+#: index.docbook:3624
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new display alarm."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3617
+#: index.docbook:3628
 #, no-c-format
 msgid "--edit-new-email"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3618
+#: index.docbook:3629
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new email alarm."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3622
+#: index.docbook:3633
 #, no-c-format
 msgid "--edit-new-preset <replaceable>templateName</replaceable>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3623
+#: index.docbook:3634
 #, no-c-format
 msgid ""
 "Display the Alarm Edit dialog, preset with the alarm template of the "
@@ -5544,13 +5558,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3627
+#: index.docbook:3638
 #, no-c-format
 msgid "--list"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3628
+#: index.docbook:3639
 #, no-c-format
 msgid ""
 "Output a list of scheduled alarms to <filename>stdout</filename>. The list "
@@ -5559,49 +5573,49 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:3633
+#: index.docbook:3644
 #, no-c-format
 msgid "--tray"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3634
+#: index.docbook:3645
 #, no-c-format
 msgid "Display &kalarm; as an icon in the system tray."
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:3638
+#: index.docbook:3649
 #, no-c-format
 msgid "Disable monitoring of all alarms."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3644
+#: index.docbook:3655
 #, no-c-format
 msgid "See also:"
 msgstr ""
 
 #. Tag: member
-#: index.docbook:3646
+#: index.docbook:3657
 #, no-c-format
 msgid "kf6options(7)"
 msgstr ""
 
 #. Tag: member
-#: index.docbook:3647
+#: index.docbook:3658
 #, no-c-format
 msgid "qt6options(7)"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3655
+#: index.docbook:3666
 #, no-c-format
 msgid "Developer's Guide to &kalarm;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3657
+#: index.docbook:3668
 #, no-c-format
 msgid ""
 "&kalarm; provides an interface to allow other applications to request the "
@@ -5609,31 +5623,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3662
+#: index.docbook:3673
 #, no-c-format
 msgid "cancel an already scheduled alarm"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3663
+#: index.docbook:3674
 #, no-c-format
 msgid "trigger an already scheduled alarm"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3664
+#: index.docbook:3675
 #, no-c-format
 msgid "display the Alarm Edit dialog"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3665
+#: index.docbook:3676
 #, no-c-format
 msgid "list scheduled alarms"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3668
+#: index.docbook:3679
 #, no-c-format
 msgid ""
 "Each of the above functions is implemented both by a &DBus; call and by the "
@@ -5642,13 +5656,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3673
+#: index.docbook:3684
 #, no-c-format
 msgid "&DBus; Interface"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3675
+#: index.docbook:3686
 #, no-c-format
 msgid ""
 "The &DBus; calls described in this document are all implemented in "
@@ -5658,45 +5672,45 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:3683
+#: index.docbook:3694
 #, no-c-format
 msgid "<refentrytitle>cancelEvent</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:3686
+#: index.docbook:3697
 #, no-c-format
 msgid "<refname>cancelEvent</refname>"
 msgstr ""
 
 #. Tag: refpurpose
-#: index.docbook:3687
+#: index.docbook:3698
 #, no-c-format
 msgid "cancel an already scheduled alarm."
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:3690
+#: index.docbook:3701
 #, no-c-format
 msgid "void cancelEvent(const QString&amp; <replaceable>eventID</replaceable>)"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3693 index.docbook:3730 index.docbook:3776 index.docbook:4004
-#: index.docbook:4202 index.docbook:4367 index.docbook:4563 index.docbook:4731
-#: index.docbook:4777
+#: index.docbook:3704 index.docbook:3741 index.docbook:3787 index.docbook:4015
+#: index.docbook:4213 index.docbook:4378 index.docbook:4574 index.docbook:4742
+#: index.docbook:4788
 #, no-c-format
 msgid "Parameters"
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3696 index.docbook:3733 index.docbook:4734
+#: index.docbook:3707 index.docbook:3744 index.docbook:4745
 #, no-c-format
 msgid "eventID"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3698
+#: index.docbook:3709
 #, no-c-format
 msgid ""
 "Specifies the unique ID of the event to be canceled, optionally prefixed by "
@@ -5705,15 +5719,15 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3709 index.docbook:3746 index.docbook:3970 index.docbook:4176
-#: index.docbook:4341 index.docbook:4536 index.docbook:4708 index.docbook:4754
-#: index.docbook:4809 index.docbook:4839
+#: index.docbook:3720 index.docbook:3757 index.docbook:3981 index.docbook:4187
+#: index.docbook:4352 index.docbook:4547 index.docbook:4719 index.docbook:4765
+#: index.docbook:4820 index.docbook:4850
 #, no-c-format
 msgid "<title>Description</title>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3711
+#: index.docbook:3722
 #, no-c-format
 msgid ""
 "<function>cancelEvent()</function> is a &DBus; call to cancel the specified "
@@ -5722,32 +5736,32 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:3720
+#: index.docbook:3731
 #, no-c-format
 msgid "<refentrytitle>triggerEvent</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:3723
+#: index.docbook:3734
 #, no-c-format
 msgid "<refname>triggerEvent</refname>"
 msgstr ""
 
 #. Tag: refpurpose
-#: index.docbook:3724
+#: index.docbook:3735
 #, no-c-format
 msgid "trigger an already scheduled alarm."
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:3727
+#: index.docbook:3738
 #, no-c-format
 msgid ""
 "void triggerEvent(const QString&amp; <replaceable>eventID</replaceable>)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3735
+#: index.docbook:3746
 #, no-c-format
 msgid ""
 "Specifies the unique ID of the event to be triggered, optionally prefixed by "
@@ -5756,7 +5770,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3748
+#: index.docbook:3759
 #, no-c-format
 msgid ""
 "<function>triggerEvent()</function> is a &DBus; call to trigger the "
@@ -5766,7 +5780,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3753
+#: index.docbook:3764
 #, no-c-format
 msgid ""
 "If the alarm is already due, &kalarm; then deletes all scheduled occurrences "
@@ -5776,25 +5790,25 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:3764
+#: index.docbook:3775
 #, no-c-format
 msgid "<refentrytitle>scheduleMessage</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:3767
+#: index.docbook:3778
 #, no-c-format
 msgid "<refname>scheduleMessage</refname>"
 msgstr ""
 
 #. Tag: refpurpose
-#: index.docbook:3768
+#: index.docbook:3779
 #, no-c-format
 msgid "schedule a new alarm message."
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:3771
+#: index.docbook:3782
 #, no-c-format
 msgid ""
 "bool scheduleMessage(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5818,7 +5832,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:3772
+#: index.docbook:3783
 #, no-c-format
 msgid ""
 "bool scheduleMessage(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5841,7 +5855,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:3773
+#: index.docbook:3784
 #, no-c-format
 msgid ""
 "bool scheduleMessage(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5865,27 +5879,27 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3779 index.docbook:4007 index.docbook:4205 index.docbook:4370
-#: index.docbook:4566
+#: index.docbook:3790 index.docbook:4018 index.docbook:4216 index.docbook:4381
+#: index.docbook:4577
 #, no-c-format
 msgid "name"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3781 index.docbook:4009 index.docbook:4207 index.docbook:4372
-#: index.docbook:4568
+#: index.docbook:3792 index.docbook:4020 index.docbook:4218 index.docbook:4383
+#: index.docbook:4579
 #, no-c-format
 msgid "Specifies an optional name for the alarm."
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3786 index.docbook:4401
+#: index.docbook:3797 index.docbook:4412
 #, no-c-format
 msgid "<parameter>message</parameter>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3788
+#: index.docbook:3799
 #, no-c-format
 msgid ""
 "Specifies the text of the message to be scheduled, or if <parameter>flags</"
@@ -5894,15 +5908,15 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3796 index.docbook:4022 index.docbook:4221 index.docbook:4416
-#: index.docbook:4588
+#: index.docbook:3807 index.docbook:4033 index.docbook:4232 index.docbook:4427
+#: index.docbook:4599
 #, no-c-format
 msgid "startDateTime"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3798 index.docbook:4024 index.docbook:4223 index.docbook:4418
-#: index.docbook:4590
+#: index.docbook:3809 index.docbook:4035 index.docbook:4234 index.docbook:4429
+#: index.docbook:4601
 #, no-c-format
 msgid ""
 "Specifies the scheduled date, or date and time, at which the message should "
@@ -5918,8 +5932,8 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3810 index.docbook:4036 index.docbook:4235 index.docbook:4430
-#: index.docbook:4602
+#: index.docbook:3821 index.docbook:4047 index.docbook:4246 index.docbook:4441
+#: index.docbook:4613
 #, no-c-format
 msgid ""
 "If no time zone is specified, the local system time zone is assumed. If a "
@@ -5929,15 +5943,15 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3819 index.docbook:4045 index.docbook:4244 index.docbook:4439
-#: index.docbook:4611
+#: index.docbook:3830 index.docbook:4056 index.docbook:4255 index.docbook:4450
+#: index.docbook:4622
 #, no-c-format
 msgid "lateCancel"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3821 index.docbook:4047 index.docbook:4246 index.docbook:4441
-#: index.docbook:4613
+#: index.docbook:3832 index.docbook:4058 index.docbook:4257 index.docbook:4452
+#: index.docbook:4624
 #, no-c-format
 msgid ""
 "Causes the alarm to be canceled if it cannot be triggered within the "
@@ -5946,14 +5960,14 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3829 index.docbook:4055 index.docbook:4254 index.docbook:4449
-#: index.docbook:4621
+#: index.docbook:3840 index.docbook:4066 index.docbook:4265 index.docbook:4460
+#: index.docbook:4632
 #, no-c-format
 msgid "flags"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3831
+#: index.docbook:3842
 #, no-c-format
 msgid ""
 "Specifies the logical OR of the desired alarm flags. The flag bits are those "
@@ -5962,13 +5976,13 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3839 index.docbook:4065
+#: index.docbook:3850 index.docbook:4076
 #, no-c-format
 msgid "bgColor"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3841
+#: index.docbook:3852
 #, no-c-format
 msgid ""
 "Specifies the background color for displaying the message. The string may be "
@@ -5982,13 +5996,13 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3854
+#: index.docbook:3865
 #, no-c-format
 msgid "fgColor"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3856
+#: index.docbook:3867
 #, no-c-format
 msgid ""
 "Specifies the foreground color for displaying the message. The format of the "
@@ -5997,13 +6011,13 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3864
+#: index.docbook:3875
 #, no-c-format
 msgid "font"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3866
+#: index.docbook:3877
 #, no-c-format
 msgid ""
 "Specifies the font for displaying the message. The format of the string is "
@@ -6013,13 +6027,13 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3874 index.docbook:4080 index.docbook:4573
+#: index.docbook:3885 index.docbook:4091 index.docbook:4584
 #, no-c-format
 msgid "audioURL"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3876 index.docbook:4082
+#: index.docbook:3887 index.docbook:4093
 #, no-c-format
 msgid ""
 "Specifies the audio file which is to be played when the message is "
@@ -6027,13 +6041,13 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3883 index.docbook:4089
+#: index.docbook:3894 index.docbook:4100
 #, no-c-format
 msgid "reminderMins"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3885 index.docbook:4091
+#: index.docbook:3896 index.docbook:4102
 #, no-c-format
 msgid ""
 "Specifies the number of minutes in advance of the main alarm and of each of "
@@ -6043,15 +6057,15 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3893 index.docbook:4099 index.docbook:4264 index.docbook:4459
-#: index.docbook:4631
+#: index.docbook:3904 index.docbook:4110 index.docbook:4275 index.docbook:4470
+#: index.docbook:4642
 #, no-c-format
 msgid "recurrence"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3895 index.docbook:4101 index.docbook:4266 index.docbook:4461
-#: index.docbook:4633
+#: index.docbook:3906 index.docbook:4112 index.docbook:4277 index.docbook:4472
+#: index.docbook:4644
 #, no-c-format
 msgid ""
 "Specifies a regular recurrence for the alarm, using iCalendar syntax as "
@@ -6062,15 +6076,15 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3906 index.docbook:4112 index.docbook:4277 index.docbook:4472
-#: index.docbook:4644
+#: index.docbook:3917 index.docbook:4123 index.docbook:4288 index.docbook:4483
+#: index.docbook:4655
 #, no-c-format
 msgid "recurType"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3908 index.docbook:4114 index.docbook:4279 index.docbook:4474
-#: index.docbook:4646
+#: index.docbook:3919 index.docbook:4125 index.docbook:4290 index.docbook:4485
+#: index.docbook:4657
 #, no-c-format
 msgid ""
 "Specifies the recurrence type for the alarm. The permissible values are "
@@ -6082,15 +6096,15 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3919 index.docbook:4125 index.docbook:4290 index.docbook:4485
-#: index.docbook:4657
+#: index.docbook:3930 index.docbook:4136 index.docbook:4301 index.docbook:4496
+#: index.docbook:4668
 #, no-c-format
 msgid "recurInterval"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3921 index.docbook:4127 index.docbook:4292 index.docbook:4487
-#: index.docbook:4659
+#: index.docbook:3932 index.docbook:4138 index.docbook:4303 index.docbook:4498
+#: index.docbook:4670
 #, no-c-format
 msgid ""
 "Specifies the number of periods (minutes/days/weeks/months/years as "
@@ -6099,15 +6113,15 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3929 index.docbook:4135 index.docbook:4300 index.docbook:4495
-#: index.docbook:4667
+#: index.docbook:3940 index.docbook:4146 index.docbook:4311 index.docbook:4506
+#: index.docbook:4678
 #, no-c-format
 msgid "recurCount"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3931 index.docbook:4137 index.docbook:4302 index.docbook:4497
-#: index.docbook:4669
+#: index.docbook:3942 index.docbook:4148 index.docbook:4313 index.docbook:4508
+#: index.docbook:4680
 #, no-c-format
 msgid ""
 "Specifies the number of times that the alarm should be repeated. Specify -1 "
@@ -6115,15 +6129,15 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3937 index.docbook:4143 index.docbook:4308 index.docbook:4503
-#: index.docbook:4675
+#: index.docbook:3948 index.docbook:4154 index.docbook:4319 index.docbook:4514
+#: index.docbook:4686
 #, no-c-format
 msgid "endDateTime"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3939 index.docbook:4145 index.docbook:4310 index.docbook:4505
-#: index.docbook:4677
+#: index.docbook:3950 index.docbook:4156 index.docbook:4321 index.docbook:4516
+#: index.docbook:4688
 #, no-c-format
 msgid ""
 "Specifies the end date, or date and time, for recurrences of the alarm. If "
@@ -6135,15 +6149,15 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3950 index.docbook:4156 index.docbook:4321 index.docbook:4516
-#: index.docbook:4688
+#: index.docbook:3961 index.docbook:4167 index.docbook:4332 index.docbook:4527
+#: index.docbook:4699
 #, no-c-format
 msgid "subRepeatInterval"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3952 index.docbook:4158 index.docbook:4323 index.docbook:4518
-#: index.docbook:4690
+#: index.docbook:3963 index.docbook:4169 index.docbook:4334 index.docbook:4529
+#: index.docbook:4701
 #, no-c-format
 msgid ""
 "Specifies the number of minutes between sub-repetitions of the alarm. "
@@ -6151,15 +6165,15 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:3959 index.docbook:4165 index.docbook:4330 index.docbook:4525
-#: index.docbook:4697
+#: index.docbook:3970 index.docbook:4176 index.docbook:4341 index.docbook:4536
+#: index.docbook:4708
 #, no-c-format
 msgid "subRepeatCount"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3961 index.docbook:4167 index.docbook:4332 index.docbook:4527
-#: index.docbook:4699
+#: index.docbook:3972 index.docbook:4178 index.docbook:4343 index.docbook:4538
+#: index.docbook:4710
 #, no-c-format
 msgid ""
 "Specifies the number of sub-repetitions of the alarm, including the initial "
@@ -6167,7 +6181,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3971
+#: index.docbook:3982
 #, no-c-format
 msgid ""
 "<function>scheduleMessage()</function> is a &DBus; call to schedule the "
@@ -6179,7 +6193,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3979
+#: index.docbook:3990
 #, no-c-format
 msgid ""
 "If the scheduled time (including any repetitions) has already passed, "
@@ -6191,26 +6205,26 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:3991
+#: index.docbook:4002
 #, no-c-format
 msgid "<refentrytitle>scheduleFile</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:3994
+#: index.docbook:4005
 #, no-c-format
 msgid "<refname>scheduleFile</refname>"
 msgstr ""
 
 #. Tag: refpurpose
-#: index.docbook:3995
+#: index.docbook:4006
 #, no-c-format
 msgid ""
 "schedule a new alarm which displays the contents of a text or image file."
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:3999
+#: index.docbook:4010
 #, no-c-format
 msgid ""
 "bool scheduleFile(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6228,7 +6242,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4000
+#: index.docbook:4011
 #, no-c-format
 msgid ""
 "bool scheduleFile(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6246,7 +6260,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4001
+#: index.docbook:4012
 #, no-c-format
 msgid ""
 "bool scheduleFile(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6264,13 +6278,13 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:4014
+#: index.docbook:4025
 #, no-c-format
 msgid "<parameter>URL</parameter>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4016
+#: index.docbook:4027
 #, no-c-format
 msgid ""
 "Specifies the text or image file whose contents are to be displayed in the "
@@ -6278,7 +6292,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4057
+#: index.docbook:4068
 #, no-c-format
 msgid ""
 "Specifies the logical OR of the desired alarm flags. The flag bits are those "
@@ -6287,7 +6301,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4067
+#: index.docbook:4078
 #, no-c-format
 msgid ""
 "Specifies the background color for displaying the file. The string may be in "
@@ -6301,7 +6315,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4177
+#: index.docbook:4188
 #, no-c-format
 msgid ""
 "<function>scheduleFile()</function> is a &DBus; call to schedule the "
@@ -6313,25 +6327,25 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:4189
+#: index.docbook:4200
 #, no-c-format
 msgid "<refentrytitle>scheduleCommand</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:4192
+#: index.docbook:4203
 #, no-c-format
 msgid "<refname>scheduleCommand</refname>"
 msgstr ""
 
 #. Tag: refpurpose
-#: index.docbook:4193 index.docbook:4554
+#: index.docbook:4204 index.docbook:4565
 #, no-c-format
 msgid "schedule a new alarm which executes a shell command."
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4197
+#: index.docbook:4208
 #, no-c-format
 msgid ""
 "bool scheduleCommand(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6348,7 +6362,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4198
+#: index.docbook:4209
 #, no-c-format
 msgid ""
 "bool scheduleCommand(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6364,7 +6378,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4199
+#: index.docbook:4210
 #, no-c-format
 msgid ""
 "bool scheduleCommand(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6381,13 +6395,13 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:4212
+#: index.docbook:4223
 #, no-c-format
 msgid "commandLine"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4214
+#: index.docbook:4225
 #, no-c-format
 msgid ""
 "Specifies the command whose execution is to be scheduled. The "
@@ -6396,7 +6410,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4256 index.docbook:4623
+#: index.docbook:4267 index.docbook:4634
 #, no-c-format
 msgid ""
 "Specifies the logical OR of the desired alarm flags. The flag bits are those "
@@ -6405,7 +6419,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4342
+#: index.docbook:4353
 #, no-c-format
 msgid ""
 "<function>scheduleCommand()</function> is a &DBus; call to schedule the "
@@ -6417,25 +6431,25 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:4355
+#: index.docbook:4366
 #, no-c-format
 msgid "<refentrytitle>scheduleEmail</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:4358
+#: index.docbook:4369
 #, no-c-format
 msgid "<refname>scheduleEmail</refname>"
 msgstr ""
 
 #. Tag: refpurpose
-#: index.docbook:4359
+#: index.docbook:4370
 #, no-c-format
 msgid "schedule a new alarm which sends an email."
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4362
+#: index.docbook:4373
 #, no-c-format
 msgid ""
 "bool scheduleEmail(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6456,7 +6470,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4363
+#: index.docbook:4374
 #, no-c-format
 msgid ""
 "bool scheduleEmail(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6476,7 +6490,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4364
+#: index.docbook:4375
 #, no-c-format
 msgid ""
 "bool scheduleEmail(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6496,13 +6510,13 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:4377
+#: index.docbook:4388
 #, no-c-format
 msgid "fromID"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4379
+#: index.docbook:4390
 #, no-c-format
 msgid ""
 "The &kmail; identity to use as the sender of the email. If empty, the "
@@ -6511,43 +6525,43 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:4387
+#: index.docbook:4398
 #, no-c-format
 msgid "addresses"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4389
+#: index.docbook:4400
 #, no-c-format
 msgid "A comma separated list of recipients' email addresses."
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:4394
+#: index.docbook:4405
 #, no-c-format
 msgid "subject"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4396
+#: index.docbook:4407
 #, no-c-format
 msgid "Specifies the subject line of the email."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4403
+#: index.docbook:4414
 #, no-c-format
 msgid "Specifies the email message body."
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:4408
+#: index.docbook:4419
 #, no-c-format
 msgid "attachments"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4410
+#: index.docbook:4421
 #, no-c-format
 msgid ""
 "A comma-separated list of paths or &URL;s of files to send as email "
@@ -6555,7 +6569,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4451
+#: index.docbook:4462
 #, no-c-format
 msgid ""
 "Specifies the logical OR of the desired alarm flags. The flag bits are those "
@@ -6564,7 +6578,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4537
+#: index.docbook:4548
 #, no-c-format
 msgid ""
 "<function>scheduleEmail()</function> is a &DBus; call to schedule the "
@@ -6576,19 +6590,19 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:4550
+#: index.docbook:4561
 #, no-c-format
 msgid "<refentrytitle>scheduleAudio</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:4553
+#: index.docbook:4564
 #, no-c-format
 msgid "<refname>scheduleAudio</refname>"
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4558
+#: index.docbook:4569
 #, no-c-format
 msgid ""
 "bool scheduleAudio(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6605,7 +6619,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4559
+#: index.docbook:4570
 #, no-c-format
 msgid ""
 "bool scheduleAudio(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6621,7 +6635,7 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4560
+#: index.docbook:4571
 #, no-c-format
 msgid ""
 "bool scheduleAudio(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -6637,19 +6651,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4575
+#: index.docbook:4586
 #, no-c-format
 msgid "Specifies the audio file which is to be played."
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:4580
+#: index.docbook:4591
 #, no-c-format
 msgid "volumePercent"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4582
+#: index.docbook:4593
 #, no-c-format
 msgid ""
 "Specifies the volume level to use, as a percentage of full volume. Specify "
@@ -6657,7 +6671,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4709
+#: index.docbook:4720
 #, no-c-format
 msgid ""
 "<function>scheduleAudio()</function> is a &DBus; call to schedule the "
@@ -6669,19 +6683,19 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:4720
+#: index.docbook:4731
 #, no-c-format
 msgid "<refentrytitle>edit</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:4723
+#: index.docbook:4734
 #, no-c-format
 msgid "<refname>edit</refname>"
 msgstr ""
 
 #. Tag: refpurpose
-#: index.docbook:4724
+#: index.docbook:4735
 #, no-c-format
 msgid ""
 "Display the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> to "
@@ -6689,13 +6703,13 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4728
+#: index.docbook:4739
 #, no-c-format
 msgid "bool edit(const QString&amp; <replaceable>eventID</replaceable>)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4736
+#: index.docbook:4747
 #, no-c-format
 msgid ""
 "Specifies the unique ID of the event to be edited, optionally prefixed by "
@@ -6704,13 +6718,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:4746 index.docbook:4800 index.docbook:4832
+#: index.docbook:4757 index.docbook:4811 index.docbook:4843
 #, no-c-format
 msgid "Return value"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4747
+#: index.docbook:4758
 #, no-c-format
 msgid ""
 "<returnvalue>false</returnvalue> if the specified alarm could not be found "
@@ -6718,7 +6732,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4756
+#: index.docbook:4767
 #, no-c-format
 msgid ""
 "<function>edit()</function> is a &DBus; call to display the <link linkend="
@@ -6726,19 +6740,19 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:4765
+#: index.docbook:4776
 #, no-c-format
 msgid "<refentrytitle>editNew</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:4768
+#: index.docbook:4779
 #, no-c-format
 msgid "<refname>editNew</refname>"
 msgstr ""
 
 #. Tag: refpurpose
-#: index.docbook:4769
+#: index.docbook:4780
 #, no-c-format
 msgid ""
 "Display the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> to "
@@ -6746,26 +6760,26 @@ msgid ""
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4773
+#: index.docbook:4784
 #, no-c-format
 msgid "bool editNew(int <replaceable>type</replaceable>)"
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4774
+#: index.docbook:4785
 #, no-c-format
 msgid ""
 "bool editNew(const QString&amp; <replaceable>templateName</replaceable>)"
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:4780
+#: index.docbook:4791
 #, no-c-format
 msgid "type"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4782
+#: index.docbook:4793
 #, no-c-format
 msgid ""
 "Specifies the alarm type. The permissible values are DISPLAY, COMMAND, "
@@ -6774,19 +6788,19 @@ msgid ""
 msgstr ""
 
 #. Tag: parameter
-#: index.docbook:4790
+#: index.docbook:4801
 #, no-c-format
 msgid "templateName"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4792
+#: index.docbook:4803
 #, no-c-format
 msgid "Specifies the name of an alarm template to base the new alarm on."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4801
+#: index.docbook:4812
 #, no-c-format
 msgid ""
 "<returnvalue>false</returnvalue> if <parameter>type</parameter> has an "
@@ -6795,7 +6809,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4811
+#: index.docbook:4822
 #, no-c-format
 msgid ""
 "<function>editNew()</function> is a &DBus; call to display the <link linkend="
@@ -6806,31 +6820,31 @@ msgid ""
 msgstr ""
 
 #. Tag: refentrytitle
-#: index.docbook:4822
+#: index.docbook:4833
 #, no-c-format
 msgid "<refentrytitle>list</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
-#: index.docbook:4825
+#: index.docbook:4836
 #, no-c-format
 msgid "<refname>list</refname>"
 msgstr ""
 
 #. Tag: refpurpose
-#: index.docbook:4826
+#: index.docbook:4837
 #, no-c-format
 msgid "Return a list of scheduled alarms."
 msgstr ""
 
 #. Tag: synopsis
-#: index.docbook:4829
+#: index.docbook:4840
 #, no-c-format
 msgid "QString list()"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4833
+#: index.docbook:4844
 #, no-c-format
 msgid ""
 "List of alarms, separated by newlines, each in the format "
@@ -6840,7 +6854,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4841
+#: index.docbook:4852
 #, no-c-format
 msgid ""
 "<function>list()</function> is a &DBus; call to return a string containing a "
@@ -6850,13 +6864,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:4852
+#: index.docbook:4863
 #, no-c-format
 msgid "Command Line Interface"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4854
+#: index.docbook:4865
 #, no-c-format
 msgid ""
 "Command line options are provided to enable other programs to start up "
@@ -6869,7 +6883,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4862
+#: index.docbook:4873
 #, no-c-format
 msgid ""
 "Programs should first check whether &kalarm; is already running; if it is, "
@@ -6877,7 +6891,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4866
+#: index.docbook:4877
 #, no-c-format
 msgid ""
 "The command line options for scheduling a new alarm are as described in the "
@@ -6886,7 +6900,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4871
+#: index.docbook:4882
 #, no-c-format
 msgid ""
 "Normal users may also if they wish use these command line options (assuming "
@@ -6894,13 +6908,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:4885
+#: index.docbook:4896
 #, no-c-format
 msgid "--cancelEvent <replaceable>eventID</replaceable>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:4886
+#: index.docbook:4897
 #, no-c-format
 msgid ""
 "Cancel the alarm with the specified event ID. The event ID is the unique ID "
@@ -6912,13 +6926,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:4896
+#: index.docbook:4907
 #, no-c-format
 msgid "--triggerEvent <replaceable>eventID</replaceable>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:4897
+#: index.docbook:4908
 #, no-c-format
 msgid ""
 "Trigger the alarm with the specified event ID. The event ID is the unique ID "
@@ -6930,13 +6944,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4910
+#: index.docbook:4921
 #, no-c-format
 msgid "Examples are:"
 msgstr ""
 
 #. Tag: screen
-#: index.docbook:4912
+#: index.docbook:4923
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput><command>kalarm</command> <option>--"
@@ -6948,19 +6962,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:4920
+#: index.docbook:4931
 #, no-c-format
 msgid "Questions and Answers"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4925
+#: index.docbook:4936
 #, no-c-format
 msgid "What configuration files does &kalarm; use?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4928
+#: index.docbook:4939
 #, no-c-format
 msgid ""
 "&kalarm;'s configuration is held in the following files in the folder "
@@ -6968,13 +6982,13 @@ msgid ""
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:4933
+#: index.docbook:4944
 #, no-c-format
 msgid "<filename>kalarmrc</filename> holds your &kalarm; preferences."
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:4938
+#: index.docbook:4949
 #, no-c-format
 msgid ""
 "<filename>kalarmresources</filename> holds the list of alarm calendars "
@@ -6982,13 +6996,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4947
+#: index.docbook:4958
 #, no-c-format
 msgid "Where does &kalarm; store its alarms?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4951
+#: index.docbook:4962
 #, no-c-format
 msgid ""
 "When &kalarm; is run the first time, it creates the following alarm "
@@ -6997,25 +7011,25 @@ msgid ""
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:4957
+#: index.docbook:4968
 #, no-c-format
 msgid "<filename>kalarm/calendar.ics</filename>, which holds active alarms."
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:4962
+#: index.docbook:4973
 #, no-c-format
 msgid "<filename>kalarm/expired.ics</filename>, which holds archived alarms."
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:4967
+#: index.docbook:4978
 #, no-c-format
 msgid "<filename>kalarm/template.ics</filename>, which holds alarm templates."
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:4972
+#: index.docbook:4983
 #, no-c-format
 msgid ""
 "<filename>kalarm/displaying.ics</filename>, which is a special calendar file "
@@ -7025,7 +7039,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4979
+#: index.docbook:4990
 #, no-c-format
 msgid ""
 "You can subsequently replace these calendars, except <filename>displaying."
@@ -7035,13 +7049,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4989
+#: index.docbook:5000
 #, no-c-format
 msgid "What format are alarms stored in?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:4992
+#: index.docbook:5003
 #, no-c-format
 msgid ""
 "The calendar files in which &kalarm; stores its alarms are text files whose "
@@ -7054,13 +7068,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5006
+#: index.docbook:5017
 #, no-c-format
 msgid "What is the function of &kalarm;'s Akonadi plugin?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5009
+#: index.docbook:5020
 #, no-c-format
 msgid ""
 "&kalarm; uses its Akonadi plugin to provide all features which depend on "
@@ -7069,7 +7083,7 @@ msgid ""
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:5015
+#: index.docbook:5026
 #, no-c-format
 msgid ""
 "Sending emails via &kmail;, leaving &Sendmail; as the only option to send "
@@ -7077,25 +7091,25 @@ msgid ""
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:5020
+#: index.docbook:5031
 #, no-c-format
 msgid "Drag and drop of emails."
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:5023
+#: index.docbook:5034
 #, no-c-format
 msgid "Selection of email addresses from &kaddressbook;."
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:5026
+#: index.docbook:5037
 #, no-c-format
 msgid "Import of birthdays from &kaddressbook;."
 msgstr ""
 
 #. Tag: simpara
-#: index.docbook:5029
+#: index.docbook:5040
 #, no-c-format
 msgid ""
 "Migration of &akonadi; alarm calendar resources on the first run of a new "
@@ -7103,7 +7117,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5034
+#: index.docbook:5045
 #, no-c-format
 msgid ""
 "If the plugin is installed, it can be enabled or disabled in the <link "
@@ -7112,13 +7126,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5042
+#: index.docbook:5053
 #, no-c-format
 msgid "What is the program <application>kalarmautostart</application>?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5045
+#: index.docbook:5056
 #, no-c-format
 msgid ""
 "<application>kalarmautostart</application> is a little helper program whose "
@@ -7126,7 +7140,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5048
+#: index.docbook:5059
 #, no-c-format
 msgid ""
 "&kalarm; is usually restored by the session manager at login (to redisplay "
@@ -7139,7 +7153,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5057
+#: index.docbook:5068
 #, no-c-format
 msgid ""
 "To avoid this problem, <application>kalarmautostart</application> is "
@@ -7149,13 +7163,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5067
+#: index.docbook:5078
 #, no-c-format
 msgid "How can I use &kalarm; on a non-&plasma; desktop?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5070
+#: index.docbook:5081
 #, no-c-format
 msgid ""
 "To run &kalarm; on a non-&plasma; desktop, the main requirement is to ensure "
@@ -7165,19 +7179,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:5084
+#: index.docbook:5095
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5086
+#: index.docbook:5097
 #, no-c-format
 msgid "&kalarm;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5089
+#: index.docbook:5100
 #, no-c-format
 msgid ""
 "Program copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, "
@@ -7186,7 +7200,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5093
+#: index.docbook:5104
 #, no-c-format
 msgid ""
 "Documentation copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, "
@@ -7195,19 +7209,19 @@ msgid ""
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:5097
+#: index.docbook:5108
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:5097
+#: index.docbook:5108
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:5103
+#: index.docbook:5114
 #, no-c-format
 msgid ""
 "Thanks go to the author of the &kde; 1 KAlarm application, Stefan Nikolaus "
