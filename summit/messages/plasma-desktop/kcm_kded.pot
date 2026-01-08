@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-20 11:50+0200\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -100,7 +100,14 @@ msgctxt "@info"
 msgid "If you're disabling something here to work around an issue, please <link url='%1'>submit a bug report about it as well.</link>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:55
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "The background services manager (kded6) is currently not running. Make sure it is installed correctly."
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:55
 #, kde-format
 msgid "The background services manager (kded6) is currently not running. Make sure it is installed correctly."
@@ -112,13 +119,27 @@ msgstr ""
 msgid "The background services manager (kded5) is currently not running. Make sure it is installed correctly."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:65
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Some services disable themselves again when manually started if they are not useful in the current environment."
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:65
 #, kde-format
 msgid "Some services disable themselves again when manually started if they are not useful in the current environment."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Some services were automatically started/stopped when the background services manager (kded6) was restarted to apply your changes."
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:75
 #, kde-format
 msgid "Some services were automatically started/stopped when the background services manager (kded6) was restarted to apply your changes."
@@ -130,33 +151,68 @@ msgstr ""
 msgid "Some services were automatically started/stopped when the background services manager (kded5) was restarted to apply your changes."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All Services"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:123
 #, kde-format
 msgid "All Services"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:124
+#, kde-format
+msgctxt "@item:inlistbox List running services"
+msgid "Running"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:124
 #, kde-format
 msgctxt "List running services"
 msgid "Running"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:125
+#, kde-format
+msgctxt "@item:inlistbox List not running services"
+msgid "Not Running"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:125
 #, kde-format
 msgctxt "List not running services"
 msgid "Not Running"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:162
+#, kde-format
+msgctxt "@title:group list section"
+msgid "Startup Services"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:162
 #, kde-format
 msgid "Startup Services"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:163
+#, kde-format
+msgctxt "@title:group list section"
+msgid "Load-on-Demand Services"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:163
 #, kde-format
 msgid "Load-on-Demand Services"
@@ -176,19 +232,40 @@ msgctxt "@action:button %1 service name"
 msgid "Enable automatically loading %1 on startup"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:183
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "Toggle automatically loading this service on startup"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:183
 #, kde-format
 msgid "Toggle automatically loading this service on startup"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:227
+#, kde-format
+msgctxt "@info:status"
+msgid "Not running"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:227
 #, kde-format
 msgid "Not running"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:228
+#, kde-format
+msgctxt "@info:status"
+msgid "Running"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:228
 #, kde-format
 msgid "Running"
@@ -208,13 +285,27 @@ msgctxt "@action:button %1 service name"
 msgid "Start %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:251
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Service"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:251
 #, kde-format
 msgid "Stop Service"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:251
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Service"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:251
 #, kde-format
 msgid "Start Service"

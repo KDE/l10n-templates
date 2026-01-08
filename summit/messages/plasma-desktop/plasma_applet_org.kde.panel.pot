@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-03 08:09+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,26 +17,54 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ConfigOverlay.qml:317
+#, kde-format
+msgctxt "@action:inmenu removes widget"
+msgid "Remove"
+msgstr ""
+
+#. +> stable6 stable5
+#: ConfigOverlay.qml:304 ConfigOverlay.qml:341
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ConfigOverlay.qml:327
+#, kde-format
+msgctxt "@action:inmenu opens widget config dialog"
+msgid "Configure…"
+msgstr ""
+
+#. +> stable6 stable5
+#: ConfigOverlay.qml:314
 #, kde-format
 msgid "Configure…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ConfigOverlay.qml:338
+#, kde-format
+msgctxt "@action:inmenu opens widget alternatives explorer"
+msgid "Show Alternatives…"
+msgstr ""
+
+#. +> stable6 stable5
+#: ConfigOverlay.qml:325
 #, kde-format
 msgid "Show Alternatives…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ConfigOverlay.qml:357
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Spacer width"
+msgstr ""
+
+#. +> stable6 stable5
+#: ConfigOverlay.qml:351
 #, kde-format
 msgid "Spacer width"
 msgstr ""
@@ -48,13 +76,27 @@ msgctxt "@option:check Whether to allow a spacer widget to fill available space"
 msgid "Flexible size"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: main.qml:453
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for entering Panel edit mode click area"
+msgid "Open Panel configuration ui"
+msgstr ""
+
+#. +> stable6
 #: main.qml:453
 #, kde-format
 msgid "Open Panel configuration ui"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: main.qml:460
+#, kde-format
+msgctxt "@action:button opens widget explorer"
+msgid "Add Widgets…"
+msgstr ""
+
+#. +> stable6
 #: main.qml:460
 #, kde-format
 msgid "Add Widgets…"

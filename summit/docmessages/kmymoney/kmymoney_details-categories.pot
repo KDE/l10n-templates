@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-09 10:27+0200\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -225,57 +225,64 @@ msgid "When I buy goods, I enter them into a transaction. Let's assume I have se
 msgstr ""
 
 #. Tag: para
+#. +> trunk6
+#: details-categories.docbook:164
+#, no-c-format
+msgid "In contrast, if you have selected the net amount entry method, the amount you enter is treated as excluding VAT. &kmymoney; will calculate the VAT portion, create a separate split for the VAT account, and leave the category amount as entered."
+msgstr ""
+
+#. Tag: para
 #. +> trunk6 stable5
-#: details-categories.docbook:165
+#: details-categories.docbook:170
 #, no-c-format
 msgid "The same applies to income categories but the other way around. Hope that makes sense."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable5
-#: details-categories.docbook:172
+#: details-categories.docbook:177
 #, no-c-format
 msgid "Deleting a category"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-categories.docbook:173
+#: details-categories.docbook:178
 #, no-c-format
 msgid "Deleting a Category is similar to deleting an Account. To delete a category, right-click its name in the Categories View, and select <guimenuitem>Delete Category...</guimenuitem>. If the category has no transactions, schedules, or budgets associated with it, and it is not set as the default category for new transactions with any payee, it will be deleted."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-categories.docbook:181
+#: details-categories.docbook:186
 #, no-c-format
 msgid "If the category has any of those items, a popup will be displayed allowing you to choose another category to which all those items can be reassigned before the category is deleted."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-categories.docbook:187
+#: details-categories.docbook:192
 #, no-c-format
 msgid "If you delete a category which is the parent of any other categories, a dialog will be displayed for you to choose whether to delete that category and all its sub-categories or just the parent category. If you choose to just delete the parent category, then all its sub-categories will be moved to its parent category."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-categories.docbook:195
+#: details-categories.docbook:200
 #, no-c-format
 msgid "Note that deleting some categories may prompt both for where to reassign its data and also whether or not to delete any sub-categories."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable5
-#: details-categories.docbook:201
+#: details-categories.docbook:206
 #, no-c-format
 msgid "Open ledger for a category"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-categories.docbook:202
+#: details-categories.docbook:207
 #, no-c-format
 msgid "The menu options for categories includes a choice to open a ledger for that category. When this option is selected &kmymoney; will display that category in a tab in the Ledgers View, showing all the transactions for the selected category. This allows you to quickly review all the transactions in detail for the selected category. You can then right-click any transaction to obtain additional details about the specific transaction, and can even edit the transaction."
 msgstr ""

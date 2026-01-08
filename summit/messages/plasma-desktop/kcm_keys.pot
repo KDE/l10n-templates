@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-22 10:34+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -171,19 +171,40 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Applications"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:27
 #, kde-format
 msgid "Applications"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Commands"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:27
 #, kde-format
 msgid "Commands"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "System Services"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:27
 #, kde-format
 msgid "System Services"
@@ -195,7 +216,14 @@ msgstr ""
 msgid "System Settings"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Common Actions"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:27
 #, kde-format
 msgid "Common Actions"
@@ -277,13 +305,27 @@ msgctxt "@action:menu accessible"
 msgid "Add new command or script"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Cannot export scheme while there are unsaved changes"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:104
 #, kde-format
 msgid "Cannot export scheme while there are unsaved changes"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:117
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Select the components below that should be included in the exported scheme"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:117
 #, kde-format
 msgid "Select the components below that should be included in the exported scheme"
@@ -392,8 +434,15 @@ msgctxt "@action:button Keep translated text as short as possible"
 msgid "Add Application…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:341
+#, kde-format
+msgctxt "@info:status placeholdermessage"
+msgid "No items matched the search terms"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:323
 #, kde-format
 msgid "No items matched the search terms"
 msgstr ""
@@ -419,14 +468,28 @@ msgctxt "@action:button"
 msgid "Undo deleting shortcuts"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:399
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage"
+msgid "Select an item from the list to view its shortcuts here"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:357
 #, kde-format
 msgid "Select an item from the list to view its shortcuts here"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:412
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Export Shortcut Scheme"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:369
 #, kde-format
 msgid "Export Shortcut Scheme"
 msgstr ""
@@ -437,8 +500,15 @@ msgstr ""
 msgid "Export Scheme…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:412 ui/main.qml:553
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Import Shortcut Scheme"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:369 ui/main.qml:510
 #, kde-format
 msgid "Import Shortcut Scheme"
 msgstr ""
@@ -463,20 +533,41 @@ msgctxt "Template for file dialog"
 msgid "Script file (*.*sh)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:441
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Edit Command"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:398
 #, kde-format
 msgid "Edit Command"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:441
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Add Command"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:398
 #, kde-format
 msgid "Add Command"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:463
+#, kde-format
+msgctxt "@action:button in dialog, save changes to custom command"
+msgid "Save"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:420
 #, kde-format
 msgid "Save"
 msgstr ""
@@ -487,8 +578,15 @@ msgstr ""
 msgid "Save scheme"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:463
+#, kde-format
+msgctxt "@action:button in dialog, add entry as new custom command"
+msgid "Add"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:420
 #, kde-format
 msgid "Add"
 msgstr ""
@@ -514,8 +612,15 @@ msgctxt "@action:button Keep translated text as short as possible"
 msgid "Add Command…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:492
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter a command or choose a script file:"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:449
 #, kde-format
 msgid "Enter a command or choose a script file:"
 msgstr ""
@@ -576,26 +681,54 @@ msgctxt "Filename filters for file dialog. Do not translate any of the filename 
 msgid "Script files (.sh, .bash, .zsh, etc.) (*.*sh)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:561
+#, kde-format
+msgctxt "@label:listbox regarding 'shortcut schemes'"
+msgid "Select the scheme to import:"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:518
 #, kde-format
 msgid "Select the scheme to import:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:580
+#, kde-format
+msgctxt "@item:inlistbox regarding 'shortcut schemes'"
+msgid "Custom Scheme"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:537
 #, kde-format
 msgid "Custom Scheme"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:588
+#, kde-format
+msgctxt "@action:button"
+msgid "Select File…"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:545
 #, kde-format
 msgid "Select File…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:588
+#, kde-format
+msgctxt "@action:button import shortcut scheme"
+msgid "Import"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:545
 #, kde-format
 msgid "Import"
 msgstr ""
@@ -628,8 +761,15 @@ msgctxt "@action:button"
 msgid "Expand to configure shortcuts"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/ShortcutActionDelegate.qml:38
+#, kde-format
+msgctxt "@info:whatsthis accessible name %1 is shortcut label (not sequence)"
+msgid "Editing shortcut: %1"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/ShortcutActionDelegate.qml:34
 #, kde-format
 msgid "Editing shortcut: %1"
 msgstr ""
@@ -641,14 +781,30 @@ msgctxt "%1 is the name action that is triggered by the key sequences following 
 msgid "%1:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/ShortcutActionDelegate.qml:88
+#, kde-format
+msgctxt "@info:status"
+msgid "No active shortcuts"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/ShortcutActionDelegate.qml:81
 #, kde-format
 msgid "No active shortcuts"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/ShortcutActionDelegate.qml:134
+#, kde-format
+msgctxt "@title:column %1 decides if singular or plural will be used"
+msgid "Default shortcut"
+msgid_plural "Default shortcuts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> stable6 stable5
+#: ui/ShortcutActionDelegate.qml:124
 #, kde-format
 msgctxt "%1 decides if singular or plural will be used"
 msgid "Default shortcut"
@@ -656,26 +812,54 @@ msgid_plural "Default shortcuts"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/ShortcutActionDelegate.qml:136
+#, kde-format
+msgctxt "@label for shortcut with no default bindings"
+msgid "No default shortcuts"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/ShortcutActionDelegate.qml:126
 #, kde-format
 msgid "No default shortcuts"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/ShortcutActionDelegate.qml:145
+#, kde-format
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is enabled."
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/ShortcutActionDelegate.qml:135
 #, kde-format
 msgid "Default shortcut %1 is enabled."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/ShortcutActionDelegate.qml:145
+#, kde-format
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is disabled."
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/ShortcutActionDelegate.qml:135
 #, kde-format
 msgid "Default shortcut %1 is disabled."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/ShortcutActionDelegate.qml:168
+#, kde-format
+msgctxt "@title:column"
+msgid "Custom shortcuts"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/ShortcutActionDelegate.qml:158
 #, kde-format
 msgid "Custom shortcuts"
 msgstr ""

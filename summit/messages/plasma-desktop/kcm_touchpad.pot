@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-05 10:42+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -36,7 +36,7 @@ msgid "Cannot connect to X server"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: backends/x11/xlibbackend.cpp:80 ui/main.qml:59
+#: backends/x11/xlibbackend.cpp:80
 #, kde-format
 msgid "No touchpad found"
 msgstr ""
@@ -133,25 +133,47 @@ msgstr ""
 msgid "Touchpad disconnected. No other touchpads found."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:60
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:60
 #, kde-format
 msgid "Connect an external touchpad"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:75
 #, kde-format
 msgid "Device:"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:101
+#. +> trunk6
+#: ui/main.qml:100
 #, kde-format
-msgid "Device enabled"
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable6 stable5
 #: ui/main.qml:100
 #, kde-format
 msgid "General:"
@@ -160,7 +182,14 @@ msgstr ""
 #. +> trunk6
 #: ui/main.qml:101
 #, kde-format
+msgctxt "@option:check"
 msgid "Enable device"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:101
+#, kde-format
+msgid "Device enabled"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -170,7 +199,14 @@ msgctxt "@option:check"
 msgid "Disable while mouse is connected"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:137
+#, kde-format
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:137
 #, kde-format
 msgid "Disable while typing"
@@ -189,10 +225,22 @@ msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
 msgid "This can interfere with video games."
 msgstr ""
 
+#. +> stable6
+#: ui/main.qml:170
+#, kde-format
+msgid "Left-handed mode"
+msgstr ""
+
 #. +> stable5
 #: kcm/libinput/touchpad.qml:171
 #, kde-format
 msgid "Disable touchpad while typing to prevent accidental inputs."
+msgstr ""
+
+#. +> stable5
+#: kcm/libinput/touchpad.qml:195
+#, kde-format
+msgid "Left handed mode"
 msgstr ""
 
 #. +> trunk6
@@ -211,19 +259,8 @@ msgstr ""
 #. +> trunk6
 #: ui/main.qml:175
 #, kde-format
+msgctxt "@option:check"
 msgid "Swap (left-handed mode)"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:170
-#, kde-format
-msgid "Left-handed mode"
-msgstr ""
-
-#. +> stable5
-#: kcm/libinput/touchpad.qml:195
-#, kde-format
-msgid "Left handed mode"
 msgstr ""
 
 #. +> trunk6
@@ -246,14 +283,28 @@ msgctxt "@info:tooltip from ContextualHelpButton"
 msgid "Activating this setting increases click latency by 50ms. The extra delay is needed to correctly detect simultaneous left and right button presses."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:217
+#, kde-format
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:209
 #, kde-format
 msgid "Pointer speed:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:297
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:289
 #, kde-format
 msgid "Enable pointer acceleration"
 msgstr ""
@@ -271,8 +322,15 @@ msgctxt "@info:tooltip from ContextualHelpButton"
 msgid "When enabled, pointer travel distance increases with faster movement speed."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:325
+#, kde-format
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:314
 #, kde-format
 msgid "Scrolling speed:"
 msgstr ""
@@ -283,21 +341,35 @@ msgstr ""
 msgid "Acceleration profile:"
 msgstr ""
 
+#. +> trunk6
+#: ui/main.qml:376
+#, kde-format
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:365
+#, kde-format
+msgctxt "Slower Scroll"
+msgid "Slower"
+msgstr ""
+
 #. +> stable6 stable5
 #: ui/main.qml:380
 #, kde-format
 msgid "Scrolling:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:376
+#. +> trunk6
+#: ui/main.qml:383
 #, kde-format
-msgctxt "Slower Scroll"
-msgid "Slower"
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:383
+#. +> stable6 stable5
+#: ui/main.qml:372
 #, kde-format
 msgctxt "Faster Scroll Speed"
 msgid "Faster"
@@ -318,6 +390,7 @@ msgstr ""
 #. +> trunk6
 #: ui/main.qml:390
 #, kde-format
+msgctxt "@title group begins the sentence 'Scroll by moving two fingers anywhere/moving one finger on edge'"
 msgid "Scroll by:"
 msgstr ""
 
@@ -325,6 +398,12 @@ msgstr ""
 #: kcm/libinput/touchpad.qml:398
 #, kde-format
 msgid "Adaptive"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:399
+#, kde-format
+msgid "Two fingers"
 msgstr ""
 
 #. +> stable5
@@ -342,12 +421,14 @@ msgstr ""
 #. +> trunk6
 #: ui/main.qml:409
 #, kde-format
+msgctxt "@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
 msgid "Moving two fingers anywhere"
 msgstr ""
 
 #. +> trunk6
 #: ui/main.qml:416
 #, kde-format
+msgctxt "@option:radio completes the sentence 'Scroll by moving one finger on edge'"
 msgid "Moving one finger on edge"
 msgstr ""
 
@@ -357,14 +438,28 @@ msgstr ""
 msgid "Single tap is left button click."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:424
+#, kde-format
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:414
 #, kde-format
 msgid "Invert scroll direction (Natural scrolling)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:438
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:428
 #, kde-format
 msgid "Disable horizontal scrolling"
 msgstr ""
@@ -378,7 +473,7 @@ msgstr ""
 #. +> trunk6
 #: ui/main.qml:460
 #, kde-format
-msgctxt "@label for radiobutton group, begins the sentence 'right-click by pressing bottom-right corner/pressing with two fingers'"
+msgctxt "@title:group for radiobutton group, begins the sentence 'right-click by pressing bottom-right corner/pressing with two fingers'"
 msgid "Right-click by:"
 msgstr ""
 
@@ -420,15 +515,29 @@ msgstr ""
 msgid "Press bottom-right corner"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:496
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:577
 #, kde-format
 msgctxt "@info shown below radio button"
 msgid "Middle-click by pressing both bottom corners."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:497
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:578
 #, kde-format
 msgctxt "@info shown below radio button"
 msgid "Middle-click by pressing bottom center."
@@ -537,19 +646,6 @@ msgid "Tap to click"
 msgstr ""
 
 #. +> stable6
-#: ui/main.qml:186
-#, kde-format
-msgctxt "@option:check"
-msgid "Press left and right buttons to middle-click"
-msgstr ""
-
-#. +> stable5
-#: kcm/libinput/touchpad.qml:223
-#, kde-format
-msgid "Press left and right buttons for middle click"
-msgstr ""
-
-#. +> stable6
 #: ui/main.qml:449
 #, kde-format
 msgctxt "@option:check"
@@ -572,6 +668,7 @@ msgstr ""
 #. +> trunk6
 #: ui/main.qml:597
 #, kde-format
+msgctxt "@option:check"
 msgid "Allow dragging after tapping"
 msgstr ""
 
@@ -589,22 +686,43 @@ msgctxt "@label for radiobutton group, configure middle-click with touch-pad int
 msgid "Integrated middle-click:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:616
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:186
+#, kde-format
+msgctxt "@option:check"
+msgid "Press left and right buttons to middle-click"
+msgstr ""
+
+#. +> stable5
+#: kcm/libinput/touchpad.qml:223
+#, kde-format
+msgid "Press left and right buttons for middle click"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:485
 #, kde-format
 msgid "Allow briefly lifting finger during tap-and-drag"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:630
 #, kde-format
+msgctxt "@title:group"
 msgid "Two-finger tap:"
 msgstr ""
 
 #. +> stable6 stable5
-#: ui/main.qml:399
+#: ui/main.qml:499
 #, kde-format
-msgid "Two fingers"
+msgid "Two-finger tap:"
 msgstr ""
 
 #. +> stable6
@@ -614,8 +732,15 @@ msgctxt "@option:check touchpad integrated middle-click"
 msgid "Press touchpad with three fingers"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:650
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:519
 #, kde-format
 msgid "Right-click (three-finger tap to middle-click)"
 msgstr ""
@@ -632,8 +757,15 @@ msgstr ""
 msgid "Tap with two fingers to middle-click."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:651
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:520
 #, kde-format
 msgid "Right-click"
 msgstr ""
@@ -650,8 +782,15 @@ msgstr ""
 msgid "Right-click:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:659
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:528
 #, kde-format
 msgid "Middle-click (three-finger tap to right-click)"
 msgstr ""
@@ -674,8 +813,15 @@ msgstr ""
 msgid "Tap with two fingers to right-click."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:660
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:529
 #, kde-format
 msgid "Middle-click"
 msgstr ""

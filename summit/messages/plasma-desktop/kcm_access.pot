@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-04 05:30+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -486,7 +486,16 @@ msgctxt "@option:check"
 msgid "Disable sticky and slow keys after:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ActivationShortcuts.qml:71
+#, kde-format
+msgctxt "@label:valuesuffix in spinbox %1 is timeout delay"
+msgid "%1 min"
+msgid_plural "%1 min"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> stable6
 #: ui/ActivationShortcuts.qml:71
 #, kde-format
 msgid "%1 min"
@@ -503,37 +512,79 @@ msgid_plural "min"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ActivationShortcuts.qml:89
+#, kde-format
+msgctxt "@title:group for checkbox group"
+msgid "When a shortcut is used:"
+msgstr ""
+
+#. +> stable6
 #: ui/ActivationShortcuts.qml:89
 #, kde-format
 msgid "When a shortcut is used:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/ActivationShortcuts.qml:90
+#, kde-format
+msgctxt "@option:check when shortcut used"
+msgid "Display a confirmation dialog"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/ActivationShortcuts.qml:90
 #, kde-format
 msgid "Display a confirmation dialog"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ActivationShortcuts.qml:101
+#, kde-format
+msgctxt "@option:check when shortcut used"
+msgid "Ring the system bell"
+msgstr ""
+
+#. +> stable6
 #: ui/ActivationShortcuts.qml:101
 #, kde-format
 msgid "Ring the system bell"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/ActivationShortcuts.qml:112
+#, kde-format
+msgctxt "@option:check when shortcut used"
+msgid "Show a notification"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/ActivationShortcuts.qml:112
 #, kde-format
 msgid "Show a notification"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/ActivationShortcuts.qml:123
+#, kde-format
+msgctxt "@action:button opens Notifications kcm"
+msgid "Configure Notifications…"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/ActivationShortcuts.qml:123
 #, kde-format
 msgid "Configure Notifications…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/Bell.qml:19
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Please choose an audio file"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/Bell.qml:19
 #, kde-format
 msgid "Please choose an audio file"
@@ -552,7 +603,14 @@ msgstr ""
 msgid "Audio Files (*.mp3 *.ogg *.wav)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/Bell.qml:30
+#, kde-format
+msgctxt "@label prefix for checkbox"
+msgid "Audible bell:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/Bell.qml:30
 #, kde-format
 msgid "Audible bell:"
@@ -572,25 +630,60 @@ msgctxt "Defines if the system will use a sound system bell"
 msgid "Custom sound:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/Bell.qml:75
+#, kde-format
+msgctxt "@action:button icononly tooltip"
+msgid "Choose audio file for the system bell"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/Bell.qml:75
 #, kde-format
 msgid "Search audio file for the system bell"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/Bell.qml:76
+#, kde-format
+msgctxt "@action button accessible only"
+msgid "Choose audio file"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/Bell.qml:76
 #, kde-format
 msgid "Button search audio file"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/Bell.qml:77
+#, kde-format
+msgctxt "@info:usagetip accessible description for button"
+msgid "Opens dialog"
+msgstr ""
+
+#. +> trunk6
+#: ui/Bell.qml:93
+#, kde-format
+msgctxt "@label prefix for checkbox"
+msgid "Visual bell:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/Bell.qml:92
 #, kde-format
 msgid "Visual bell:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/Bell.qml:94
+#, kde-format
+msgctxt "@option:check Enable visual bell"
+msgid "Enable"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/Bell.qml:93
 #, kde-format
 msgctxt "Enable visual bell"
@@ -598,7 +691,7 @@ msgid "Enable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Bell.qml:107
+#: ui/Bell.qml:108
 #, kde-format
 msgctxt "@option:radio Invert screen colors when a system bell is rung"
 msgid "Invert screen colors"
@@ -612,7 +705,7 @@ msgid "Invert Screen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Bell.qml:125
+#: ui/Bell.qml:126
 #, kde-format
 msgctxt "@option:radio Flash screen when a system bell is rung"
 msgid "Flash screen"
@@ -626,20 +719,29 @@ msgid "Flash"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/Bell.qml:136
+#: ui/Bell.qml:137
 #, kde-format
 msgctxt "Color of the system bell"
 msgid "Color"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/Bell.qml:150
+#: ui/Bell.qml:151
 #, kde-format
 msgctxt "Duration of the system bell"
 msgid "Duration:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/Bell.qml:166
+#, kde-format
+msgctxt "@label:valuesuffix %1 is visible bell duration"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> stable6
 #: ui/Bell.qml:165 ui/KeyboardFilters.qml:56 ui/KeyboardFilters.qml:157
 #: ui/MouseNavigation.qml:53 ui/MouseNavigation.qml:84
 #: ui/MouseNavigation.qml:110
@@ -649,12 +751,10 @@ msgid_plural "%1 ms"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6
-#: ui/Bell.qml:169 ui/KeyboardFilters.qml:65 ui/KeyboardFilters.qml:164
-#: ui/MouseNavigation.qml:61 ui/MouseNavigation.qml:88
-#: ui/MouseNavigation.qml:114
+#. +> trunk6
+#: ui/Bell.qml:170 ui/KeyboardFilters.qml:65 ui/KeyboardFilters.qml:164
 #, kde-format
-msgctxt "short for millisecond(s)"
+msgctxt "@label:valuesuffix short for millisecond(s)"
 msgid "ms"
 msgid_plural "ms"
 msgstr[0] ""
@@ -765,6 +865,30 @@ msgctxt "@label Intense color blindness correction intensity"
 msgid "Intense"
 msgstr ""
 
+#. +> stable6
+#: ui/ColorblindnessCorrection.qml:111
+#, kde-format
+msgid "Red"
+msgstr ""
+
+#. +> stable6
+#: ui/ColorblindnessCorrection.qml:112
+#, kde-format
+msgid "Green"
+msgstr ""
+
+#. +> stable6
+#: ui/ColorblindnessCorrection.qml:113
+#, kde-format
+msgid "Blue"
+msgstr ""
+
+#. +> stable6
+#: ui/ColorblindnessCorrection.qml:114
+#, kde-format
+msgid "Purple"
+msgstr ""
+
 #. +> trunk6
 #: ui/ColorblindnessCorrection.qml:115
 #, kde-format
@@ -775,49 +899,29 @@ msgstr ""
 #. +> trunk6
 #: ui/ColorblindnessCorrection.qml:132
 #, kde-format
+msgctxt "@title:group for color rectangles"
 msgid "Reds:"
-msgstr ""
-
-#. +> stable6
-#: ui/ColorblindnessCorrection.qml:111
-#, kde-format
-msgid "Red"
 msgstr ""
 
 #. +> trunk6
 #: ui/ColorblindnessCorrection.qml:133
 #, kde-format
+msgctxt "@title:group for color rectangles"
 msgid "Greens:"
-msgstr ""
-
-#. +> stable6
-#: ui/ColorblindnessCorrection.qml:112
-#, kde-format
-msgid "Green"
 msgstr ""
 
 #. +> trunk6
 #: ui/ColorblindnessCorrection.qml:134
 #, kde-format
+msgctxt "@title:group for color rectangles"
 msgid "Blues:"
-msgstr ""
-
-#. +> stable6
-#: ui/ColorblindnessCorrection.qml:113
-#, kde-format
-msgid "Blue"
 msgstr ""
 
 #. +> trunk6
 #: ui/ColorblindnessCorrection.qml:135
 #, kde-format
+msgctxt "@title:group for color rectangles"
 msgid "Purples:"
-msgstr ""
-
-#. +> stable6
-#: ui/ColorblindnessCorrection.qml:114
-#, kde-format
-msgid "Purple"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -848,7 +952,14 @@ msgctxt "@action:button"
 msgid "Configure Shortcuts…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:18
+#, kde-format
+msgctxt "@title:group prefix"
+msgid "Slow keys:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:18
 #, kde-format
 msgid "Slow keys:"
@@ -860,7 +971,14 @@ msgstr ""
 msgid "For a key to be accepted, it has to be held until the set amount of time"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:23
+#, kde-format
+msgctxt "@option:check Enable slow keys"
+msgid "Enable"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:23
 #, kde-format
 msgctxt "Enable slow keys"
@@ -874,34 +992,78 @@ msgctxt "@info:tooltip"
 msgid "For a key to be accepted, it has to be held until the set amount of time. Useful if you accidentally type more than one key at a time or have difficulty pressing the key you want the first time."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:41
+#, kde-format
+msgctxt "@label:spinbox Slow keys Delay"
+msgid "Delay:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:41
 #, kde-format
 msgctxt "Slow keys Delay"
 msgid "Delay:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:56
+#, kde-format
+msgctxt "@label:valuesuffix %1 is slow keys delay"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6
+#: ui/KeyboardFilters.qml:74
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Ring system bell:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:74
 #, kde-format
 msgid "Ring system bell:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:75
+#, kde-format
+msgctxt "@option:check Use system bell when a key is pressed"
+msgid "when any key is &pressed"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:75
 #, kde-format
 msgctxt "Use system bell when a key is pressed"
 msgid "when any key is &pressed"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:89
+#, kde-format
+msgctxt "@option:check Use system bell when a key is accepted"
+msgid "when any key is &accepted"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:89
 #, kde-format
 msgctxt "Use system bell when a key is accepted"
 msgid "when any key is &accepted"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:103
+#, kde-format
+msgctxt "@option:check Use system bell when a key is rejected"
+msgid "when any key is &rejected"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:103
 #, kde-format
 msgctxt "Use system bell when a key is rejected"
@@ -914,13 +1076,27 @@ msgstr ""
 msgid "Ignore rapid, repeated keypresses of the same key"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:119
+#, kde-format
+msgctxt "@title:group prefix"
+msgid "Bounce keys:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:119
 #, kde-format
 msgid "Bounce keys:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:124
+#, kde-format
+msgctxt "@option:check Bounce keys enable"
+msgid "Enable"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:124
 #, kde-format
 msgctxt "Bounce keys enable"
@@ -934,14 +1110,37 @@ msgctxt "@info:tooltip"
 msgid "Ignore rapid, repeated keypresses of the same key. Useful if you have hand tremors that cause you to press a key multiple times when you only intend to press once."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:142
+#, kde-format
+msgctxt "@label:spinbox Bounce keys delay"
+msgid "Delay:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:142
 #, kde-format
 msgctxt "Bounce keys delay"
 msgid "Delay:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/KeyboardFilters.qml:157
+#, kde-format
+msgctxt "@label:valuesuffix %1 is bounce keys delay"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6
+#: ui/KeyboardFilters.qml:171
+#, kde-format
+msgctxt "@option:check for bounce keys"
+msgid "Ring system bell when rejected"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/KeyboardFilters.qml:171
 #, kde-format
 msgid "Ring system bell when rejected"
@@ -974,41 +1173,83 @@ msgctxt "@title Category name in sidebar"
 msgid "System Bell"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:38
+#, kde-format
+msgctxt "@title Category name in sidebar"
+msgid "Modifier Keys"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:38
 #, kde-format
 msgctxt "System Modifier Keys"
 msgid "Modifier Keys"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:43
+#, kde-format
+msgctxt "@title Category name in sidebar"
+msgid "Keyboard Filters"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:43
 #, kde-format
 msgctxt "System keyboard filters"
 msgid "Keyboard Filters"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:48
+#, kde-format
+msgctxt "@title Category name in sidebar"
+msgid "Mouse Navigation"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:48
 #, kde-format
 msgctxt "System mouse navigation"
 msgid "Mouse Navigation"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@title Category name in sidebar"
+msgid "Activation Shortcuts"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:53
 #, kde-format
 msgid "Activation Shortcuts"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:58
+#, kde-format
+msgctxt "@title Category name in sidebar"
+msgid "Screen Reader"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:58
 #, kde-format
 msgctxt "System mouse navigation"
 msgid "Screen Reader"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:63
+#, kde-format
+msgctxt "@title Category name in sidebar"
+msgid "Color Blindness Correction"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:63
 #, kde-format
 msgctxt "Correction for color blindness"
@@ -1025,7 +1266,7 @@ msgstr ""
 #. +> trunk6
 #: ui/main.qml:73
 #, kde-format
-msgctxt "Shake pointer to find it"
+msgctxt "@title Category name in sidebar, shake pointer to find it"
 msgid "Shake Pointer"
 msgstr ""
 
@@ -1071,13 +1312,27 @@ msgctxt "@info:tooltip"
 msgid "Pressing a modifier key twice will keep it in active state until pressed again."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/ModifierKeys.qml:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable when two keys are held down"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/ModifierKeys.qml:57
 #, kde-format
 msgid "Disable when two keys are held down"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/ModifierKeys.qml:70
+#, kde-format
+msgctxt "@option:check"
+msgid "Ring system bell when modifier keys are used"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/ModifierKeys.qml:70
 #, kde-format
 msgid "Ring system bell when modifier keys are used"
@@ -1153,6 +1408,25 @@ msgctxt "@label:spinbox"
 msgid "Acceleration delay:"
 msgstr ""
 
+#. +> trunk6
+#: ui/MouseNavigation.qml:53
+#, kde-format
+msgctxt "@label:valuesuffix acceleration delay spinbox %1 is value"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: ui/MouseNavigation.qml:61 ui/MouseNavigation.qml:88
+#: ui/MouseNavigation.qml:114
+#, kde-format
+msgctxt "short for millisecond(s)"
+msgid "ms"
+msgid_plural "ms"
+msgstr[0] ""
+msgstr[1] ""
+
 #. +> trunk6 stable6
 #: ui/MouseNavigation.qml:66
 #, kde-format
@@ -1160,12 +1434,30 @@ msgctxt "@label:spinbox"
 msgid "Repeat interval:"
 msgstr ""
 
+#. +> trunk6
+#: ui/MouseNavigation.qml:84
+#, kde-format
+msgctxt "@label:valuesuffix repeat interval spinbox %1 is value"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] ""
+msgstr[1] ""
+
 #. +> trunk6 stable6
 #: ui/MouseNavigation.qml:93
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Acceleration time:"
 msgstr ""
+
+#. +> trunk6
+#: ui/MouseNavigation.qml:110
+#, kde-format
+msgctxt "@label:valuesuffix acceleration time spinbox %1 is value"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] ""
+msgstr[1] ""
 
 #. +> trunk6 stable6
 #: ui/MouseNavigation.qml:118

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-07 06:48+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -67,7 +67,7 @@ msgstr ""
 #. +> trunk6
 #: index.docbook:42
 #, no-c-format
-msgid "2026-1-6"
+msgid "2026-1-7"
 msgstr ""
 
 #. Tag: date
@@ -78,7 +78,14 @@ msgid "2025-08-30"
 msgstr ""
 
 #. Tag: releaseinfo
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:43
+#, no-c-format
+msgid "3.13.0 (KDE Gear 26.04)"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> stable6
 #: index.docbook:43
 #, no-c-format
 msgid "3.12.0 (KDE Gear 25.12)"
@@ -526,7 +533,14 @@ msgid "Alternatively, you can create new alarms preconfigured from various sourc
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:366
+#, no-c-format
+msgid "To preset the alarm's date in the <link linkend=\"alarm-edit-dlg-time\">Alarm Edit dialog</link>, <mousebutton>right</mousebutton> click on the desired date in the alarm date selector (see <link linkend=\"datepicker\">Filtering the Alarm List by Date</link>) and select the appropriate alarm type from the context menu."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: index.docbook:366
 #, no-c-format
 msgid "To preset the alarm's date in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>, <mousebutton>right</mousebutton> click on the desired date in the alarm date selector (see <link linkend=\"datepicker\">Filtering the Alarm List by Date</link>) and select the appropriate alarm type from the context menu."
@@ -2423,2101 +2437,2136 @@ msgid "For display alarms, the <guilabel>Confirm acknowledgment</guilabel> check
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:1973
+#, no-c-format
+msgid "Display alarms are normally suspended while notifications are inhibited for the desktop, and do not display on top of full screen applications. To override these restrictions and always display the alarm if at all possible, select the <guilabel>Never inhibit alarms</guilabel> check box. Note that the ability to display messages over full screen applications may depend on your window manager, and currently only the X11 windowing system allows this."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1982
 #, no-c-format
 msgid "Select <guilabel>Show in &korganizer;</guilabel> to add the alarm to &korganizer;'s active calendar, where it will appear as an event without an alarm. This option allows you to track alarms in &korganizer; while still making use of &kalarm;'s functions."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:1978
+#: index.docbook:1987
 #, no-c-format
 msgid "If you later modify or delete the alarm in &kalarm;, the &korganizer; event will be modified or deleted correspondingly. But if you change the event in &korganizer;, the alarm in &kalarm; will not be affected."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:1983
+#: index.docbook:1992
 #, no-c-format
 msgid "Press the <guibutton>Load Template</guibutton> button to select a template to preset the dialog with, as described in <link linkend=\"create-edit\">Creating and Manipulating Alarms</link>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:1987
+#: index.docbook:1996
 #, no-c-format
 msgid "Press the <guibutton>Try</guibutton> button to test the alarm and check whether it works correctly. The alarm is executed just as if it had been scheduled in the normal way. In the case of an audio alarm, press the <guibutton>Try</guibutton> button a second time to stop playing the sound file."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:1993
+#: index.docbook:2002
 #, no-c-format
 msgid "Press the <guibutton>OK</guibutton> button when all details are correct, to add the alarm to the scheduled list. Note that when editing an existing alarm, the <guibutton>OK</guibutton> button is disabled while no changes have been made."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2003
+#: index.docbook:2012
 #, no-c-format
 msgid "Alarm Message Display"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2005
+#: index.docbook:2014
 #, no-c-format
 msgid "Alarm messages may be displayed in windows or as notifications, depending on the option chosen in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>. These two display options are described below."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
-#: index.docbook:2010
+#. +> trunk6
+#: index.docbook:2019
+#, no-c-format
+msgid "If you inhibit notifications for the desktop, the execution of display alarms will be suspended until notifications are re-enabled, except for alarms which you have specified in the <link linkend=\"alarm-edit-dlg-other\">Alarm Edit dialog</link> should never be inhibited. Note that this applies to all display alarms, regardless of whether they are displayed in windows or as notifications."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
+#: index.docbook:1994
 #, no-c-format
 msgid "If you inhibit notifications for the desktop, the execution of display alarms will be suspended until notifications are re-enabled. Note that this applies to all display alarms, regardless of whether they are displayed in windows or as notifications."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:2015
+#: index.docbook:2026
 #, no-c-format
 msgid "Note that on a single screen system, the window manager may inhibit notifications while any application is running full screen, which will automatically suspend the execution of display alarms."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2020
+#: index.docbook:2031
 #, no-c-format
 msgid "Alarm Message Window"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2022
+#: index.docbook:2033
 #, no-c-format
 msgid "Alarm messages which are displayed in windows provide the fullest functionality."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2025
+#: index.docbook:2036
 #, no-c-format
 msgid "When an alarm message is due, it is if possible displayed on each desktop and cannot be covered by ordinary windows, to ensure that you see it. (Note that only the X11 windowing system currently provides this facility.) The message window shows the time for which the alarm was scheduled, so that you can see when it popped up if you were away from the computer at the time. If the alarm's scheduled time is in a different time zone from your local computer's setting, its time zone will also be displayed. (For reminder messages, the date/time shown is that for the main alarm or its recurrence, not the reminder message time, and the window title is <quote>Reminder</quote>.)"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
-#: index.docbook:2036
+#. +> trunk6
+#: index.docbook:2047
+#, no-c-format
+msgid "Alarm message windows remain visible until you acknowledge them, unless <guilabel>Auto-close window after late-cancelation time</guilabel> was checked in the <link linkend=\"alarm-edit-dlg-cancel\">Alarm Edit dialog</link>. In the case of a recurring alarm, if an unacknowledged message window remains from a previous occurrence of the alarm, the existing window is simply popped up when the alarm recurs. This avoids having to acknowledge multiple copies of the same message should you not wish, or be unable, to acknowledge a message at the time it appears."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
+#: index.docbook:2016
 #, no-c-format
 msgid "Alarm message windows remain visible until you acknowledge them, unless <guilabel>Auto-close window after late-cancelation time</guilabel> was checked in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>. In the case of a recurring alarm, if an unacknowledged message window remains from a previous occurrence of the alarm, the existing window is simply popped up when the alarm recurs. This avoids having to acknowledge multiple copies of the same message should you not wish, or be unable, to acknowledge a message at the time it appears."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2046
+#: index.docbook:2057
 #, no-c-format
 msgid "The alarm message window provides whichever of the following options are applicable to the displayed alarm:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2051
+#: index.docbook:2062
 #, no-c-format
 msgid "Acknowledge the alarm by clicking the <guibutton>Close</guibutton> button. This closes the window (after a prompt for confirmation, if you selected <guilabel>Confirm acknowledgment</guilabel>)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2058
+#: index.docbook:2069
 #, no-c-format
 msgid "Edit the alarm by clicking the <guibutton>Edit...</guibutton> button. This displays the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2064
+#: index.docbook:2075
 #, no-c-format
 msgid "Display options to defer the alarm until later by clicking the <guibutton>Defer...</guibutton> button. Then select <guilabel>Defer for</guilabel> to enter how long after now the message should be redisplayed (the <guilabel>Preset</guilabel> button lets you select from a list of common time intervals), or select <guilabel>Defer until</guilabel> to enter the date and time when the message is to be redisplayed. Then click <guibutton>OK</guibutton> to defer the alarm message and close its window."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2074
+#: index.docbook:2085
 #, no-c-format
 msgid "The time the alarm is deferred to must be earlier than its next scheduled occurrence or next advance reminder. For this reason, the <guibutton>Defer...</guibutton> button in the alarm message window and the <guibutton>OK</guibutton> button in the Deferral dialog are disabled one minute before the next occurrence or advance reminder."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2080
+#: index.docbook:2091
 #, no-c-format
 msgid "Note that if a reminder is configured <emphasis>after</emphasis> the alarm, you <emphasis>can</emphasis> defer the alarm past its reminder time. In this case, the reminder will be suppressed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2085
+#: index.docbook:2096
 #, no-c-format
 msgid "The <guibutton>Defer...</guibutton> button is not available for alarms which are displayed at login due to the <guilabel>Repeat at login</guilabel> option having been selected."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2092
+#: index.docbook:2103
 #, no-c-format
 msgid "Stop playing the alarm's sound file by clicking the button showing the <quote>stop playing</quote> symbol."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2097
+#: index.docbook:2108
 #, no-c-format
 msgid "If the alarm message was created by dragging an email from &kmail;, you can directly access the email in &kmail; by clicking the button showing the &kmail; icon. This will display the email and select the folder containing the email in &kmail;'s folder list."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2102
+#: index.docbook:2113
 #, no-c-format
 msgid "If &kmail;'s indexes are regenerated, the link to the email in &kmail; will be lost."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2107
+#: index.docbook:2118
 #, no-c-format
 msgid "The button showing the <guiicon>&kalarm;</guiicon> icon provides a convenient way to activate &kalarm;'s main window, with that alarm highlighted."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2113
+#: index.docbook:2124
 #, no-c-format
 msgid "The way that alarm message windows are displayed depends on the windowing system in use."
 msgstr ""
 
 #. Tag: application
 #. +> trunk6 stable6
-#: index.docbook:2118 index.docbook:3111
+#: index.docbook:2129 index.docbook:3122
 #, no-c-format
 msgid "X11 Windowing System"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2120
+#: index.docbook:2131
 #, no-c-format
 msgid "You can choose in the <link linkend=\"preferences-view\">Configuration dialog</link> which of two different modes should be used to display alarm message windows:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2127
+#: index.docbook:2138
 #, no-c-format
 msgid "As a normal window. In this mode, the keyboard focus is taken by the alarm message window when it appears, so if you are typing at the time your keystrokes will be diverted to it rather than your original application."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2134
+#: index.docbook:2145
 #, no-c-format
 msgid "As a non-modal window. In this mode, the keyboard focus is unaffected when the alarm message window appears, so it will not interfere with your typing. However in this mode the window has no titlebar or frame, so you cannot move it or resize it."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2141
+#: index.docbook:2152
 #, no-c-format
 msgid "You can choose in the <link linkend=\"preferences-view\">Configuration dialog</link> which of two schemes should be used to position alarm message windows:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2147
+#: index.docbook:2158
 #, no-c-format
 msgid "The windows are displayed as far away from the current mouse cursor as possible. This minimizes disruption to your work flow and minimizes the possibility of accidentally acknowledging the alarm."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2154
+#: index.docbook:2165
 #, no-c-format
 msgid "The windows are displayed in the center of the screen. To reduce the chance of accidentally acknowledging the alarm, the buttons on the window are initially disabled, becoming active only after a configurable delay."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2161
+#: index.docbook:2172
 #, no-c-format
 msgid "If you have several alarm message windows, or error messages, displayed, you can spread the windows out across the screen to make them all visible, or group them all together again in the top left corner of the screen, by means of the <menuchoice> <guimenu>View</guimenu><guimenuitem>Spread Windows</guimenuitem> </menuchoice> menu option. If you wish, you can set up a global shortcut key for this action."
 msgstr ""
 
 #. Tag: application
 #. +> trunk6 stable6
-#: index.docbook:2172 index.docbook:3142
+#: index.docbook:2183 index.docbook:3153
 #, no-c-format
 msgid "Wayland Windowing System"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2174
+#: index.docbook:2185
 #, no-c-format
 msgid "The Wayland windowing system does not allow applications to control the position or decoration of their windows, so the display options are much more limited."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2178
+#: index.docbook:2189
 #, no-c-format
 msgid "To reduce the chance of accidentally acknowledging the alarm, the buttons on the window are initially disabled, becoming active only after a configurable delay."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2189
+#: index.docbook:2200
 #, no-c-format
 msgid "Alarm Message Notifications"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2191
+#: index.docbook:2202
 #, no-c-format
 msgid "Alarm messages which are displayed as notifications provide less functionality than those displayed in windows."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2194
+#: index.docbook:2205
 #, no-c-format
 msgid "When an alarm message is due, it is displayed as a notification. The notification shows the time for which the alarm was scheduled. If the alarm's scheduled time is in a different time zone from your local computer's setting, its time zone will also be displayed. (For reminder messages, the date/time shown is that for the main alarm or its recurrence, not the reminder message time, and a “Reminder” heading is shown.)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2202
+#: index.docbook:2213
 #, no-c-format
 msgid "The notification automatically closes after a short time-out. (Note that the time-out is common to all applications; it can be changed in &systemsettings;.) After a notification times out, it can still be seen in the notification history until you remove it or until you log out. Because applications have no way to access the notification history, &kalarm; cannot remove or replace notifications in the history as it would for alarm windows. So the history may contain multiple notifications for the same alarm, including reminders and recurrences."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2212
+#: index.docbook:2223
 #, no-c-format
 msgid "The alarm message notification provides the following options. Note that selecting any option will immediately close the notification, and prevent it being shown in the notification history. Note also that these options are only available while the notification is active, before it times out. If you subsequently access the notification in the notification history, then due to the limitations of the notification system, the only interaction available is to remove it from the history."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2223
+#: index.docbook:2234
 #, no-c-format
 msgid "Acknowledge the alarm by clicking the <guibutton>Close</guibutton> button. This closes the notification."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2228
+#: index.docbook:2239
 #, no-c-format
 msgid "Edit the alarm by clicking the <guibutton>Edit</guibutton> button. This displays the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2234
+#: index.docbook:2245
 #, no-c-format
 msgid "Display options to defer the alarm until later by clicking the <guibutton>Defer</guibutton> button. This button is only shown if it is possible to defer the alarm. See the description of the defer option in the <link linkend=\"message-window\">Alarm Message Window</link> section for details."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2243
+#: index.docbook:2254
 #, no-c-format
 msgid "Clicking the notification anywhere other than a button will activate &kalarm;'s main window, with that alarm highlighted."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2253
+#: index.docbook:2264
 #, no-c-format
 msgid "System Tray Operation"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2255
+#: index.docbook:2266
 #, no-c-format
 msgid "&kalarm; by default displays an icon in the system tray. The icon provides both control and an alarm monitoring status indication. A normal &kalarm; icon indicates that all alarms are being monitored, while two different modified icons indicate either that some alarms, or that all alarms, are not being monitored. The icon modifications depend on the icon theme being used."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2262
+#: index.docbook:2273
 #, no-c-format
 msgid "&kalarm;'s system tray icon is by default automatically hidden whenever there are no alarms due in the next 24 hours. You can change the auto-hide time limit, or always show the system tray icon, using the <link linkend=\"preferences-view\">Configuration dialog</link>. To show the icon when it has been automatically hidden, click the arrow in the system tray to reveal hidden icons."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2269
+#: index.docbook:2280
 #, no-c-format
 msgid "If you hover the mouse cursor over the system tray icon, a summary of the first few message alarms due in the next 24 hours are displayed as a tooltip. You can switch this feature off, or configure the number of alarms to display and their format, in the <link linkend=\"preferences-view\">Configuration dialog</link>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2275
+#: index.docbook:2286
 #, no-c-format
 msgid "<mousebutton>Left</mousebutton> click on the system tray icon to toggle between displaying and hiding the &kalarm; main window."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2278
+#: index.docbook:2289
 #, no-c-format
 msgid "<mousebutton>Right</mousebutton> click on the system tray icon to display its context menu:"
 msgstr ""
 
 #. Tag: guimenuitem
 #. +> trunk6 stable6
-#: index.docbook:2283
+#: index.docbook:2294
 #, no-c-format
 msgid "Enable Alarms"
 msgstr ""
 
 #. Tag: action
 #. +> trunk6 stable6
-#: index.docbook:2284
+#: index.docbook:2295
 #, no-c-format
 msgid "Enables or disables monitoring of alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2285
+#: index.docbook:2296
 #, no-c-format
 msgid "See <link linkend=\"enable-disable\">Enabling and Disabling Alarms</link> for details."
 msgstr ""
 
 #. Tag: guimenuitem
 #. +> trunk6 stable6
-#: index.docbook:2292
+#: index.docbook:2303
 #, no-c-format
 msgid "New Alarm"
 msgstr ""
 
 #. Tag: action
 #. +> trunk6 stable6
-#: index.docbook:2293
+#: index.docbook:2304
 #, no-c-format
 msgid "After you select the alarm type from the list which appears, opens the Alarm Edit dialog to create a new alarm."
 msgstr ""
 
 #. Tag: guimenuitem
 #. +> trunk6 stable6
-#: index.docbook:2300
+#: index.docbook:2311
 #, no-c-format
 msgid "Stop Play"
 msgstr ""
 
 #. Tag: action
 #. +> trunk6 stable6
-#: index.docbook:2301
+#: index.docbook:2312
 #, no-c-format
 msgid "Halts playback of the audio file currently playing."
 msgstr ""
 
 #. Tag: guimenuitem
 #. +> trunk6 stable6
-#: index.docbook:2307
+#: index.docbook:2318
 #, no-c-format
 msgid "Spread Windows"
 msgstr ""
 
 #. Tag: action
 #. +> trunk6 stable6
-#: index.docbook:2308
+#: index.docbook:2319
 #, no-c-format
 msgid "Spreads alarm and error message windows across the screen, or groups them together again."
 msgstr ""
 
 #. Tag: guimenuitem
 #. +> trunk6 stable6
-#: index.docbook:2314
+#: index.docbook:2325
 #, no-c-format
 msgid "Configure &kalarm;..."
 msgstr ""
 
 #. Tag: action
 #. +> trunk6 stable6
-#: index.docbook:2315
+#: index.docbook:2326
 #, no-c-format
 msgid "Displays the &kalarm; Configuration dialog."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2316
+#: index.docbook:2327
 #, no-c-format
 msgid "The Configuration dialog is described in <link linkend=\"preferences\">Configuring &kalarm;</link>. It includes options relating to the &kalarm; system tray icon."
 msgstr ""
 
 #. Tag: guimenuitem
 #. +> trunk6 stable6
-#: index.docbook:2323
+#: index.docbook:2334
 #, no-c-format
 msgid "Restore / Minimize"
 msgstr ""
 
 #. Tag: action
 #. +> trunk6 stable6
-#: index.docbook:2324
+#: index.docbook:2335
 #, no-c-format
 msgid "Restores or minimizes the main &kalarm; window."
 msgstr ""
 
 #. Tag: guimenuitem
 #. +> trunk6 stable6
-#: index.docbook:2329
+#: index.docbook:2340
 #, no-c-format
 msgid "Quit"
 msgstr ""
 
 #. Tag: action
 #. +> trunk6 stable6
-#: index.docbook:2330
+#: index.docbook:2341
 #, no-c-format
 msgid "Closes the &kalarm; system tray icon and main windows."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2332
+#: index.docbook:2343
 #, no-c-format
 msgid "Quits &kalarm; if no alarm message windows are displayed."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2338
+#: index.docbook:2349
 #, no-c-format
 msgid "Displaying &kalarm; in the System Tray"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2340
+#: index.docbook:2351
 #, no-c-format
 msgid "You must be running the &plasma; desktop or another suitable window manager in order to display &kalarm; in the system tray."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2343
+#: index.docbook:2354
 #, no-c-format
 msgid "Select <menuchoice><guimenu>View</guimenu> <guimenuitem>Show in System Tray</guimenuitem></menuchoice> to display &kalarm; in the system tray according to the preferences set in the <link linkend=\"preferences-view\">View</link> tab of the Configuration dialog."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2349
+#: index.docbook:2360
 #, no-c-format
 msgid "To remove &kalarm; from the system tray, deselect <menuchoice><guimenu>View</guimenu> <guimenuitem>Show in System Tray</guimenuitem></menuchoice>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2353
+#: index.docbook:2364
 #, no-c-format
 msgid "To choose whether or not &kalarm; will be shown at startup in the system tray, use the <link linkend=\"preferences-view\">View</link> tab of the Configuration dialog."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2360
+#: index.docbook:2371
 #, no-c-format
 msgid "Refreshing Alarms"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2362
+#: index.docbook:2373
 #, no-c-format
 msgid "If in the unlikely event that any alarm was not triggered when it should have been, you can refresh the alarm list and trigger any missed alarms by selecting <menuchoice> <guimenu>Actions</guimenu><guimenuitem>Refresh Alarms</guimenuitem> </menuchoice>. This causes &kalarm; to reload all alarm calendars."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2370
+#: index.docbook:2381
 #, no-c-format
 msgid "You can reload an individual calendar and refresh its alarms in the alarm list by <mousebutton>Right</mousebutton> clicking the calendar in the calendars list and selecting the <menuchoice><guimenuitem>Reload</guimenuitem></menuchoice> menu option. See <link linkend=\"calendars\">Alarm Calendars</link> for details."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2381
+#: index.docbook:2392
 #, no-c-format
 msgid "Enabling and Disabling Alarms"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2383
+#: index.docbook:2394
 #, no-c-format
 msgid "Alarms may be enabled and disabled either as a whole or individually:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2388
+#: index.docbook:2399
 #, no-c-format
 msgid "<quote>Alarm monitoring</quote> applies to alarms as a whole. While alarm monitoring is disabled, no alarms are triggered at all. While alarm monitoring is enabled (the normal situation), all alarms which are not individually disabled will trigger at the appropriate times."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2394
+#: index.docbook:2405
 #, no-c-format
 msgid "When alarm monitoring is re-enabled, alarms which would have triggered while it was disabled are now triggered (unless any late-cancel option prevents this). In other words, disabling alarm monitoring has the same effect as stopping &kalarm; &ndash; alarms are postponed until it is re-enabled."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2402
+#: index.docbook:2413
 #, no-c-format
 msgid "Alarms may be individually enabled and disabled, independently of the alarm monitoring status. So the enabled/disabled status of individual alarms will be unchanged by disabling and then re-enabling alarm monitoring. Unlike alarm monitoring which could potentially be disabled due to &kalarm; not running, individual alarms can only be disabled if you use menu commands to do so."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2409
+#: index.docbook:2420
 #, no-c-format
 msgid "When an alarm is individually re-enabled, it is not now triggered if it became due while disabled. In other words, disabling an individual alarm cancels all its occurrences until it is re-enabled."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2414
+#: index.docbook:2425
 #, no-c-format
 msgid "An alarm's individual enabled/disabled status is indicated by its color in the alarm list (the color being configurable in the <link linkend=\"preferences-view\">View</link> tab of the Configuration dialog)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2421
+#: index.docbook:2432
 #, no-c-format
 msgid "For an alarm to trigger, it must be individually enabled as well as alarm monitoring being enabled."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2425
+#: index.docbook:2436
 #, no-c-format
 msgid "Enabling Alarm Monitoring"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2427
+#: index.docbook:2438
 #, no-c-format
 msgid "For alarm monitoring to occur, &kalarm; must be running. Once you run &kalarm;, it will from then on start automatically whenever you log in unless you later disable it in the <link linkend=\"preferences-general\">General</link> tab of the Configuration dialog."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2433
+#: index.docbook:2444
 #, no-c-format
 msgid "If alarm monitoring is currently disabled, do one of the following to enable alarms:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2438
+#: index.docbook:2449
 #, no-c-format
 msgid "Select <menuchoice><guimenu>Actions</guimenu> <guimenuitem>Enable Alarms</guimenuitem></menuchoice>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2443
+#: index.docbook:2454
 #, no-c-format
 msgid "<mousebutton>Right</mousebutton> click on the system tray icon and choose <menuchoice><guimenuitem>Enable Alarms</guimenuitem></menuchoice> from the context menu."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2453
+#: index.docbook:2464
 #, no-c-format
 msgid "Disabling Alarm Monitoring"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2455
+#: index.docbook:2466
 #, no-c-format
 msgid "You can temporarily disable alarm monitoring, which prevents &kalarm; from checking any alarms either until you re-enable alarms, or &ndash; assuming that &kalarm; is configured to start at login &ndash; until the next time you log in."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2462
+#: index.docbook:2473
 #, no-c-format
 msgid "Unselect <menuchoice><guimenu>Actions</guimenu> <guimenuitem>Enable Alarms</guimenuitem></menuchoice>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2467
+#: index.docbook:2478
 #, no-c-format
 msgid "<mousebutton>Right</mousebutton> click on the system tray icon and uncheck <menuchoice><guimenuitem>Enable Alarms</guimenuitem></menuchoice> from the context menu."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2474
+#: index.docbook:2485
 #, no-c-format
 msgid "Run &kalarm; with the command line option <option>--disable-all</option>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2479
+#: index.docbook:2490
 #, no-c-format
 msgid "Stop &kalarm; as described in <link linkend=\"quitting\">Quitting &kalarm;</link>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2484
+#: index.docbook:2495
 #, no-c-format
 msgid "Alarms may be permanently disabled by preventing &kalarm; from being started at login using the <link linkend=\"preferences-general\">General</link> tab of the Configuration dialog."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2492
+#: index.docbook:2503
 #, no-c-format
 msgid "Enabling and Disabling Individual Alarms"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2494
+#: index.docbook:2505
 #, no-c-format
 msgid "To enable individual alarms which are currently disabled, do one of the following:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2499
+#: index.docbook:2510
 #, no-c-format
 msgid "Select one or more alarms by clicking on their entries in the alarm list. Then choose <menuchoice> <guimenu>Actions</guimenu><guimenuitem>Enable</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2506
+#: index.docbook:2517
 #, no-c-format
 msgid "<mousebutton>Right</mousebutton> click on the desired entries in the alarm list and choose <menuchoice><guimenuitem>Enable</guimenuitem></menuchoice> from the context menu."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2513
+#: index.docbook:2524
 #, no-c-format
 msgid "To disable individual alarms which are currently enabled, do one of the following:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2518
+#: index.docbook:2529
 #, no-c-format
 msgid "Select one or more alarms by clicking on their entries in the alarm list. Then choose <menuchoice> <guimenu>Actions</guimenu><guimenuitem>Disable</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2525
+#: index.docbook:2536
 #, no-c-format
 msgid "<mousebutton>Right</mousebutton> click on the desired entries in the alarm list and choose <menuchoice><guimenuitem>Disable</guimenuitem></menuchoice> from the context menu."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2536
+#: index.docbook:2547
 #, no-c-format
 msgid "Wake From Suspend"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2538
+#: index.docbook:2549
 #, no-c-format
 msgid "Alarms can be configured to wake your computer from hibernation or suspension when the alarm triggers, so that the alarm action can occur even when the system is shut down. The mechanism used by &kalarm; to wake the system, and the user interface to control it, depend on the type of system and user permissions. There are two possibilities:"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2546
+#: index.docbook:2557
 #, no-c-format
 msgid "Linux Kernel Timer Wake From Suspend"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
-#: index.docbook:2548
+#. +> trunk6
+#: index.docbook:2559
+#, no-c-format
+msgid "On Linux systems, if the user has kernel alarm timer (<literal>cap_wake_alarm</literal>) capability, any number of alarms can be set to wake from suspend. In this case, wake from suspend is configured for each individual alarm in the <link linkend=\"alarm-edit-dlg-other\">Alarm Edit dialog</link> using its <guilabel>Wake from suspend</guilabel> option."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
+#: index.docbook:2528
 #, no-c-format
 msgid "On Linux systems, if the user has kernel alarm timer (<literal>cap_wake_alarm</literal>) capability, any number of alarms can be set to wake from suspend. In this case, wake from suspend is configured for each individual alarm in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> using its <guilabel>Wake from suspend</guilabel> option."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2555
+#: index.docbook:2566
 #, no-c-format
 msgid "You can configure how long before the alarm to wake from suspend, to ensure that the system has time to fully restore itself before the alarm triggers, in the <link linkend=\"preferences-time\">Configuration dialog</link>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2563
+#: index.docbook:2574
 #, no-c-format
 msgid "RTC Wake From Suspend"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2565
+#: index.docbook:2576
 #, no-c-format
 msgid "On non-Linux systems, or on Linux systems where the user does not have <literal>cap_wake_alarm</literal> capability, the real time clock (<acronym>RTC</acronym>) alarm is used. This can only be set for one alarm at a time. In this case, a special Wake From Suspend dialog is used to configure it. The dialog allows the Wake From Suspend alarm to be set, cancelled or displayed. To access the dialog, select <menuchoice><guimenu>Actions</guimenu> <guimenuitem>Wake From Suspend</guimenuitem></menuchoice>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2574
+#: index.docbook:2585
 #, no-c-format
 msgid "Use of the Wake From Suspend function requires administrative privileges. You will be prompted for the root password when you set or cancel a Wake From Suspend alarm."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2578
+#: index.docbook:2589
 #, no-c-format
 msgid "Wake From Suspend is not supported on some computers, especially older ones, and some computers only support setting a wakeup time up to 24 hours ahead. There may also be restrictions on which suspend mode the function will wake from. You should consider setting up test alarms to check your system's capability before relying on this feature."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2585
+#: index.docbook:2596
 #, no-c-format
 msgid "Your computer can only schedule a single Wake From Suspend at a time. If you use this function with &kalarm;, you must ensure that this does not conflict with any other application which also uses Wake From Suspend. Whenever an application schedules or clears Wake From Suspend, this cancels any previously set Wake From Suspend, no matter whether set by &kalarm; or any other application."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2593
+#: index.docbook:2604
 #, no-c-format
 msgid "The Wake From Suspend dialog is used in conjunction with the alarm list in &kalarm;'s main window."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2598
+#: index.docbook:2609
 #, no-c-format
 msgid "<guibutton>Use highlighted alarm</guibutton>: this sets the alarm currently highlighted in the alarm list as the Wake From Suspend alarm. Any existing scheduled Wake From Suspend is cancelled, as explained above. The button is enabled only if exactly one alarm is highlighted."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2606
+#: index.docbook:2617
 #, no-c-format
 msgid "<guibutton>Cancel wake from suspend</guibutton>: this cancels any existing Wake From Suspend (whether set by &kalarm; or any other application - see above). Note that this only cancels the wakeup function associated with the alarm; the alarm itself is not deleted and will continue to operate as normal."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2614
+#: index.docbook:2625
 #, no-c-format
 msgid "<guibutton>Show current alarm</guibutton>: this highlights the current Wake From Suspend alarm in the alarm list, so that it can be identified. The button is disabled if no Wake From Suspend is currently configured."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2621
+#: index.docbook:2632
 #, no-c-format
 msgid "The <guilabel>Number of minutes before alarm to wake from suspend</guilabel> control allows you, if you wish, to ensure that the system has time to fully restore itself before the alarm triggers, so that the alarm can trigger at the correct time."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2632
+#: index.docbook:2643
 #, no-c-format
 msgid "Quitting &kalarm;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2634
+#: index.docbook:2645
 #, no-c-format
 msgid "Quit &kalarm; by selecting <menuchoice> <guimenu>File</guimenu><guimenuitem>Quit</guimenuitem></menuchoice>, or <menuchoice><guimenuitem>Quit</guimenuitem></menuchoice> in the system tray icon context menu. Alternatively, if the system tray icon is not visible, close all &kalarm;'s windows."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2644
+#: index.docbook:2655
 #, no-c-format
 msgid "Configuring &kalarm;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2646
+#: index.docbook:2657
 #, no-c-format
 msgid "To configure &kalarm;'s operation to suit your system and your personal preferences, select <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kalarm;...</guimenuitem></menuchoice>. This displays the Configuration dialog."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2652
+#: index.docbook:2663
 #, no-c-format
 msgid "General"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2654
+#: index.docbook:2665
 #, no-c-format
 msgid "The <guilabel>General</guilabel> section lets you control &kalarm;'s overall behavior:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2659
+#: index.docbook:2670
 #, no-c-format
 msgid "<guilabel>Run Mode</guilabel>: This allows you to select whether &kalarm; should run automatically, manually or not at all."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2664
+#: index.docbook:2675
 #, no-c-format
 msgid "<guilabel>Run automatically</guilabel>: Select this to run &kalarm; automatically at login to ensure that it always runs. This option must be selected for &kalarm; to function normally and to always trigger alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2671
+#: index.docbook:2682
 #, no-c-format
 msgid "<guilabel>Run manually only</guilabel>: Select this if you only want to use &kalarm; occasionally. It will not run automatically, and you will need to run it manually when you require it. Once it quits (or after you log out), it will no longer function or trigger alarms until you run it manually again."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2679
+#: index.docbook:2690
 #, no-c-format
 msgid "<guilabel>Do not run</guilabel>: Select this if you want to stop using &kalarm;. It will no longer be started at login and after it quits or you log out, it will no longer trigger alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2683
+#: index.docbook:2694
 #, no-c-format
 msgid "Note that if you later run &kalarm; again after selecting this option, &kalarm; will then resume normal functioning and will be run automatically at login. If you still do not want to use &kalarm; after that, you will need to select this <guilabel>Do not run</guilabel> option once more."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2693
+#: index.docbook:2704
 #, no-c-format
 msgid "<guilabel>Warn before quitting</guilabel>: &kalarm; must be running for alarms to trigger. Select this option so that if you attempt to terminate &kalarm; using its <menuchoice><guimenu>Quit</guimenu></menuchoice> option, you will be warned that alarms will be disabled and prompted for confirmation. This prevents accidental disabling of alarms. For safety, this option is automatically re-enabled by default whenever you change run mode."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2703
+#: index.docbook:2714
 #, no-c-format
 msgid "<guilabel>Enable alarm names</guilabel>: Specify whether each alarm can be given a name to help you to identify it. This determines whether the <guilabel>Name</guilabel> column will be shown in the <link linkend=\"alarm-list\">alarm list</link>, and whether the <guilabel>Alarm name</guilabel> field will appear in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2711
+#: index.docbook:2722
 #, no-c-format
 msgid "<guilabel>Confirm alarm deletions</guilabel>: Specify whether you should be prompted for confirmation each time you delete an alarm."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2716
+#: index.docbook:2727
 #, no-c-format
 msgid "<guilabel>Default defer time interval</guilabel>: Enter the default time interval, in hours and minutes, to show initially when the Defer Alarm dialog is displayed. Note that if an alarm has been deferred previously, the interval shown initially in the Defer Alarm dialog will be equal to the deferral interval used the last time that alarm was deferred."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2724
+#: index.docbook:2735
 #, no-c-format
 msgid "<guilabel>Terminal for Command Alarms</guilabel>: Here, you can select which type of terminal window should be used for command alarms which are executed in a terminal window. Some of the most common terminal window applications are preconfigured, &eg; <application>xterm</application>, &konsole;, although only those which are installed on your system will be shown here. You can view the actual command options used for each application by displaying the context help for its radio button."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2733
+#: index.docbook:2744
 #, no-c-format
 msgid "If you want to use another application, or want to use one of those listed but with different command options, select <guilabel>Other</guilabel> and enter the command to invoke the terminal window. By default, the alarm's command string will be appended to what you specify. Alternatively, you may specify where the alarm's command string should be inserted, by use of the following codes:"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: index.docbook:2743
+#: index.docbook:2754
 #, no-c-format
 msgid "<term>%c</term>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2745
+#: index.docbook:2756
 #, no-c-format
 msgid "The alarm's command string will be substituted."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: index.docbook:2749
+#: index.docbook:2760
 #, no-c-format
 msgid "<term>%w</term>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2751
+#: index.docbook:2762
 #, no-c-format
 msgid "The alarm's command string will be substituted, with a <literal>sleep</literal> appended."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: index.docbook:2755
+#: index.docbook:2766
 #, no-c-format
 msgid "<term>%C</term>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2757
+#: index.docbook:2768
 #, no-c-format
 msgid "A temporary command file containing the alarm's command string will be created, and the command to execute the file will be substituted."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: index.docbook:2761
+#: index.docbook:2772
 #, no-c-format
 msgid "<term>%W</term>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2763
+#: index.docbook:2774
 #, no-c-format
 msgid "A temporary command file containing the alarm's command string will be created with a <literal>sleep</literal> appended, and the command to execute the file will be substituted."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: index.docbook:2767
+#: index.docbook:2778
 #, no-c-format
 msgid "<term>%t</term>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2769
+#: index.docbook:2780
 #, no-c-format
 msgid "&kalarm;'s name in the current language will be substituted."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2774
+#: index.docbook:2785
 #, no-c-format
 msgid "When the command alarm is triggered, its command string will be quoted before being inserted into the terminal window command."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2779
+#: index.docbook:2790
 #, no-c-format
 msgid "<guilabel>Plugins</guilabel>: This section allows you to choose which of &kalarm;'s installed plugins to use."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2783
+#: index.docbook:2794
 #, no-c-format
 msgid "<guilabel>Audio Backend</guilabel>: Choose which audio system to use to play sound files. Only installed audio plugins are listed; if none is installed, this option is not shown."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2789
+#: index.docbook:2800
 #, no-c-format
 msgid "<guilabel>Enable Akonadi</guilabel>: Choose whether to use &akonadi; to provide features which depend on it. See <link linkend=\"akonadi-plugin\">Akonadi plugin</link> for details. Note that this option is only shown if the Akonadi plugin is installed."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2802
+#: index.docbook:2813
 #, no-c-format
 msgid "Time &amp; Date"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2804
+#: index.docbook:2815
 #, no-c-format
 msgid "The <guilabel>Time &amp; Date</guilabel> section lets you set options relating to time and date:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2808
+#: index.docbook:2819
 #, no-c-format
 msgid "<guilabel>Time zone</guilabel>: Select your time zone. &kalarm; uses this time zone throughout, except when you override it for individual alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2813
+#: index.docbook:2824
 #, no-c-format
 msgid "<guilabel>Holiday region</guilabel>: Select which country's or region's holidays to use. This affects recurring alarms for which the option to exclude holidays is selected."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2818
+#: index.docbook:2829
 #, no-c-format
 msgid "<guilabel>Wake from suspend before alarm</guilabel>: Enter the number of minutes before the alarm trigger time to wake the system, for alarms set to wake from suspend. This allows you to ensure that the system has time to fully restore itself before the alarm triggers, so that the alarm can trigger at the correct time. This option is only shown if the system configuration allows multiple alarms to wake the system from suspension. See <link linkend=\"wake-suspend\">Wake From Suspend</link> for more information."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2829
+#: index.docbook:2840
 #, no-c-format
 msgid "<guilabel>Start of day for date-only alarms</guilabel>: Set the start-of-day time for the purposes of triggering date-only alarms, &ie; ones for which the <guilabel>Any time</guilabel> option was selected. On the date when they are due, such alarms will be output at the earliest opportunity during the 24 hours starting from the start-of-day time."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
-#: index.docbook:2837
+#. +> trunk6
+#: index.docbook:2848
+#, no-c-format
+msgid "<guilabel>Working Hours</guilabel> group box: These options let you define your working hours, needed when the <guilabel>Only during working hours</guilabel> option is selected for a recurrence in the <link linkend=\"alarm-edit-dlg-recur\">Alarm Edit dialog</link>."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
+#: index.docbook:2817
 #, no-c-format
 msgid "<guilabel>Working Hours</guilabel> group box: These options let you define your working hours, needed when the <guilabel>Only during working hours</guilabel> option is selected for a recurrence in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2844
+#: index.docbook:2855
 #, no-c-format
 msgid "Check each day which is a working day."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2847
+#: index.docbook:2858
 #, no-c-format
 msgid "<guilabel>Daily start time</guilabel>: enter the time at which you start work each day."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2851
+#: index.docbook:2862
 #, no-c-format
 msgid "<guilabel>Daily end time</guilabel>: enter the time at which you finish work each day."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2857
+#: index.docbook:2868
 #, no-c-format
 msgid "<guilabel>KOrganizer event duration</guilabel>: Enter the event duration to set in &korganizer; for alarms which are copied to &korganizer;. The default duration is zero."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2866
+#: index.docbook:2877
 #, no-c-format
 msgid "Storage"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2868
+#: index.docbook:2879
 #, no-c-format
 msgid "The <guilabel>Storage</guilabel> section lets you choose options for saving and archiving alarms:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2873
+#: index.docbook:2884
 #, no-c-format
 msgid "<guilabel>New Alarms &amp; Templates</guilabel>: Specify which calendar to store new alarms and alarm templates in when using multiple alarm calendars:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2879
+#: index.docbook:2890
 #, no-c-format
 msgid "<guilabel>Store in default calendar</guilabel>: New alarms and alarm templates are automatically added to the default alarm calendar without prompting for confirmation."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2885
+#: index.docbook:2896
 #, no-c-format
 msgid "<guilabel>Prompt for which calendar to store in</guilabel>: When you create a new alarm or alarm template and there is more than one writeable alarm calendar, you will be prompted to choose which calendar to save it in. Note that when alarms are saved on expiry, they are always stored in the default archived alarm calendar without prompting."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2895
+#: index.docbook:2906
 #, no-c-format
 msgid "<guilabel>Archived Alarms</guilabel> group box: These options control the storage of archived alarms in the default archived alarm calendar."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2900
+#: index.docbook:2911
 #, no-c-format
 msgid "<guilabel>Keep alarms after expiry</guilabel>: Select this option to archive expired and deleted alarms. Deselect it to keep no record of alarms once they cease to be active. Note that deleted alarms are only archived if they have previously been triggered. If you delete an alarm before it ever triggers, it is discarded."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2908
+#: index.docbook:2919
 #, no-c-format
 msgid "<guilabel>Discard archived alarms after</guilabel>: Set the number of days to store expired and deleted alarms in the archive, after which they are permanently deleted."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2913
+#: index.docbook:2924
 #, no-c-format
 msgid "<guibutton>Clear archived alarms</guibutton>: This button discards all currently archived alarms from the default archived alarm calendar. (Other archived alarm calendars are left unchanged in case they are shared with other people.) This has no effect on alarms which subsequently expire or are deleted; they will continue to be archived according to the selected options."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:2927
+#: index.docbook:2938
 #, no-c-format
 msgid "Email"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2929
+#: index.docbook:2940
 #, no-c-format
 msgid "The <guilabel>Email</guilabel> section lets you choose options for sending and addressing email alarms:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2932
+#: index.docbook:2943
 #, no-c-format
 msgid "Options dependent on &kmail; are only available if &kalarm;'s <link linkend=\"akonadi-plugin\">Akonadi plugin</link> is installed and enabled."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2939
+#: index.docbook:2950
 #, no-c-format
 msgid "<guilabel>Email client</guilabel>: Specify the email client to be used to send email alarms:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2943
+#: index.docbook:2954
 #, no-c-format
 msgid "<guilabel>KMail</guilabel>: When an email alarm is triggered, the email is sent automatically using &kmail;."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2947
+#: index.docbook:2958
 #, no-c-format
 msgid "<guilabel>Sendmail</guilabel>: When an email alarm is triggered, the email is sent automatically using &Sendmail;. This option will only work if your system is configured to use &Sendmail;, or a &Sendmail; compatible mail transport agent such as <application>postfix</application> or <application>qmail</application>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2959
+#: index.docbook:2970
 #, no-c-format
 msgid "<guilabel>Copy sent emails into &kmail;'s \"sent-mail\" folder</guilabel>: Select this option if, every time an email alarm is triggered, you want a copy of the transmitted email to be stored in &kmail;'s <filename>sent-mail</filename> folder."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2964
+#: index.docbook:2975
 #, no-c-format
 msgid "This option is not available when &kmail; is selected as the email client, since &kmail; automatically does this."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2969
+#: index.docbook:2980
 #, no-c-format
 msgid "<guilabel>Notify when remote emails are queued</guilabel>: Select this option to display a notification whenever an email alarm queues an email for sending to a remote system. This may be useful if, for example, you have a dial-up connection, or email is queued in &kmail;'s <filename>outbox</filename> folder, so that you can ensure that you do whatever is needed to actually transmit the email."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2979
+#: index.docbook:2990
 #, no-c-format
 msgid "Select your email address to be used as the sender's address in email alarms:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2983
+#: index.docbook:2994
 #, no-c-format
 msgid "Select <guilabel>From</guilabel> to enter an email address."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2987 index.docbook:3012
+#: index.docbook:2998 index.docbook:3023
 #, no-c-format
 msgid "Select <guilabel>Use default KMail identity</guilabel> to use your default email address which is configured in &kmail;."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:2991
+#: index.docbook:3002
 #, no-c-format
 msgid "Select <guilabel>Use &kmail; identities</guilabel> to be able to choose at the time you configure an email alarm which of &kmail;'s email identities to use. &kmail;'s default identity will be used for alarms which were already configured before you selected this option."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3001
+#: index.docbook:3012
 #, no-c-format
 msgid "Select your email address to be used for sending blind copies of email alarms to yourself when the <guilabel>Copy email to self</guilabel> option is selected:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3006
+#: index.docbook:3017
 #, no-c-format
 msgid "Select <guilabel>Bcc</guilabel> to enter an email address. If blind copies are to be sent to your account on the computer which &kalarm; runs on, you could simply enter your user login name here."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:3021
+#: index.docbook:3032
 #, no-c-format
 msgid "View"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3023
+#: index.docbook:3034
 #, no-c-format
 msgid "The <guilabel>View</guilabel> section lets you control some aspects of &kalarm;'s appearance. In the <guilabel>General</guilabel> tab:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3029
+#: index.docbook:3040
 #, no-c-format
 msgid "<guilabel>Show in system tray</guilabel> group box: When selected, the system tray icon is displayed while &kalarm; is running, subject to the selected option:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3035
+#: index.docbook:3046
 #, no-c-format
 msgid "<guilabel>Always show</guilabel>: The system tray icon is always displayed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3040
+#: index.docbook:3051
 #, no-c-format
 msgid "<guilabel>Automatically hide if no active alarms</guilabel>: The system tray icon is hidden if there are no active alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3045
+#: index.docbook:3056
 #, no-c-format
 msgid "<guilabel>Automatically hide if no alarm due within time period</guilabel>: The system tray icon is hidden if no alarm is due within the entered time period, starting from now."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3051
+#: index.docbook:3062
 #, no-c-format
 msgid "When the system tray icon is automatically hidden, you can make it visible by means of the system tray option to show hidden icons."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3054
+#: index.docbook:3065
 #, no-c-format
 msgid "When <guilabel>Show in system tray</guilabel> is selected, closing the system tray icon closes all &kalarm; main windows, and if no message windows are visible, quits the application."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3060
+#: index.docbook:3071
 #, no-c-format
 msgid "<guilabel>System Tray Tooltip</guilabel> group box: These options control what information is shown in the tooltip which appears when the mouse cursor hovers over &kalarm;'s system tray icon."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3066
+#: index.docbook:3077
 #, no-c-format
 msgid "<guilabel>Show next 24 hours' alarms</guilabel>: When selected, a summary of the first few alarms due in the next 24 hours is displayed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3072
+#: index.docbook:3083
 #, no-c-format
 msgid "<guilabel>Maximum number of alarms to show</guilabel>: Deselect this option to display all of the next 24 hours' alarms. Select it to set the maximum number of alarms which will be displayed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3078
+#: index.docbook:3089
 #, no-c-format
 msgid "<guilabel>Show alarm time</guilabel>: Select this option to show the time at which each alarm is scheduled."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3083
+#: index.docbook:3094
 #, no-c-format
 msgid "<guilabel>Show time until alarm</guilabel>: Select this option to show the length of time remaining before each alarm's next scheduled occurrence. The length of time is shown in hours and minutes."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3089
+#: index.docbook:3100
 #, no-c-format
 msgid "<guilabel>Prefix</guilabel>: Specify a symbol or text to show in front of the length of time until the alarm, to distinguish it from the time at which the alarm is scheduled."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3099
+#: index.docbook:3110
 #, no-c-format
 msgid "The <guilabel>Alarm List</guilabel> group box allows the selection of the colors used in the alarm list in &kalarm;'s main window, to show disabled and archived alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3105
+#: index.docbook:3116
 #, no-c-format
 msgid "The <guilabel>Alarm Windows</guilabel> tab contains options to control the appearance of alarm message windows. The available options depend on the windowing system in use."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3115
+#: index.docbook:3126
 #, no-c-format
 msgid "<guilabel>Position windows far from mouse cursor</guilabel>: Select this option to display alarm message windows as far away from the current mouse cursor position as possible. This minimizes the chance of accidentally acknowledging an alarm by unintentionally clicking on a button just as the message window appears."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3123
+#: index.docbook:3134
 #, no-c-format
 msgid "<guilabel>Center windows, delay activating window buttons</guilabel>: Select this option to display alarm message windows in the center of the screen. To reduce the chance of accidentally acknowledging the alarm, the window's buttons are initially disabled. The delay in seconds before they become active is set in <guilabel>Button activation delay (seconds)</guilabel>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3132
+#: index.docbook:3143
 #, no-c-format
 msgid "<guilabel>Message windows have a titlebar and take keyboard focus</guilabel>: This option controls whether alarm message windows are modal or not, &ie; whether they grab the keyboard focus when they appear. See the <link linkend=\"message-display\">Alarm Message Display</link> section for details."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3146
+#: index.docbook:3157
 #, no-c-format
 msgid "To reduce the chance of accidentally acknowledging the alarm, the window's buttons are initially disabled. The delay in seconds before they become active is set in <guilabel>Button activation delay (seconds)</guilabel>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:3158
+#: index.docbook:3169
 #, no-c-format
 msgid "Edit"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3160
+#: index.docbook:3171
 #, no-c-format
 msgid "The <guilabel>Edit</guilabel> section lets you choose default values for the options in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3165
+#: index.docbook:3176
 #, no-c-format
 msgid "The <guilabel>General</guilabel> tab contains options which apply to all alarm types."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3169
+#: index.docbook:3180
 #, no-c-format
 msgid "Set the default method for displaying alarm messages."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3173
+#: index.docbook:3184
 #, no-c-format
 msgid "Set the default states for the <guilabel>Show in KOrganizer</guilabel> and <guilabel>Cancel if late</guilabel> check boxes."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3178
+#: index.docbook:3189
 #, no-c-format
 msgid "Set the default recurrence type."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3181
+#: index.docbook:3192
 #, no-c-format
 msgid "Select the default handling in non-leap years of yearly recurrences scheduled for February 29th."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3187
+#: index.docbook:3198
 #, no-c-format
 msgid "The <guilabel>Alarm Types</guilabel> tab contains options which apply to specific types of alarm."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3192
+#: index.docbook:3203
 #, no-c-format
 msgid "For display alarms:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3195
+#: index.docbook:3206
 #, no-c-format
 msgid "Set the default states for the <guilabel>Auto-close window after this time</guilabel> and <guilabel>Confirm acknowledgment</guilabel> check boxes."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3200
+#: index.docbook:3211
 #, no-c-format
 msgid "Set the default reminder period units."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3203
+#: index.docbook:3214
 #, no-c-format
 msgid "Set the default special display alarm actions."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3206
+#: index.docbook:3217
 #, no-c-format
 msgid "Set the default sound options. Note that a default sound file may be specified even if the sound type is not set to <guilabel>Sound file</guilabel>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3214
+#: index.docbook:3225
 #, no-c-format
 msgid "For command alarms:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3217
+#: index.docbook:3228
 #, no-c-format
 msgid "Set the default states for the <guilabel>Enter a script</guilabel> and <guilabel>Execute in terminal window</guilabel> check boxes."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3225
+#: index.docbook:3236
 #, no-c-format
 msgid "For email alarms:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3228
+#: index.docbook:3239
 #, no-c-format
 msgid "Set the default state for the <guilabel>Copy email to self</guilabel> check box."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3236
+#: index.docbook:3247
 #, no-c-format
 msgid "The <guilabel>Font &amp; Color</guilabel> tab lets you set the default appearance of alarm messages. Select their default font, and foreground and background colors."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:3246
+#: index.docbook:3257
 #, no-c-format
 msgid "Command Line Operation"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3248
+#: index.docbook:3259
 #, no-c-format
 msgid "When command line parameters are supplied, &kalarm; does not display the list of scheduled alarms as described in <link linkend=\"using-kalarm\">Using &kalarm;</link> above. Command line options specific to &kalarm; may be used to perform the following operations:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3255 index.docbook:3661
+#: index.docbook:3266 index.docbook:3672
 #, no-c-format
 msgid "schedule a new alarm"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3257
+#: index.docbook:3268
 #, no-c-format
 msgid "control &kalarm;'s display mode"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3259
+#: index.docbook:3270
 #, no-c-format
 msgid "obtain help"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3263
+#: index.docbook:3274
 #, no-c-format
 msgid "Additional command line options are provided primarily to enable other programs to interface to &kalarm;. They are described in the chapter <link linkend=\"cmdline-interface\">Developer's Guide to &kalarm;</link>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3268
+#: index.docbook:3279
 #, no-c-format
 msgid "The command line must only contain options applicable to one &kalarm; operation. If you want to perform multiple operations, you must invoke &kalarm; multiple times with a single set of options each time."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:3274
+#: index.docbook:3285
 #, no-c-format
 msgid "Schedule a New Alarm"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3276
+#: index.docbook:3287
 #, no-c-format
 msgid "The following options are used to schedule a new alarm:"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3282 index.docbook:3588 index.docbook:4879
+#: index.docbook:3293 index.docbook:3599 index.docbook:4890
 #, no-c-format
 msgid "Option"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3283 index.docbook:3589 index.docbook:4880
+#: index.docbook:3294 index.docbook:3600 index.docbook:4891
 #, no-c-format
 msgid "<entry>Description</entry>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3288
+#: index.docbook:3299
 #, no-c-format
 msgid "<option>-a</option>, <option>--ack-confirm</option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3289
+#: index.docbook:3300
 #, no-c-format
 msgid "Prompt for confirmation when the alarm message is acknowledged."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3293
+#: index.docbook:3304
 #, no-c-format
 msgid "<option>-A</option>, <option>--attach <replaceable>URL</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3294
+#: index.docbook:3305
 #, no-c-format
 msgid "Specify the path or &URL; of a file which is to be attached to the email. This option may be repeated as necessary. <option>--mail</option> must be specified with this option."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3299
+#: index.docbook:3310
 #, no-c-format
 msgid "--auto-close"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3300
+#: index.docbook:3311
 #, no-c-format
 msgid "Automatically close the alarm window after the expiry of the <option>--late-cancel</option> period. <option>--late-cancel</option> must be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3306
+#: index.docbook:3317
 #, no-c-format
 msgid "<option>-b</option>, <option>--beep</option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3307
+#: index.docbook:3318
 #, no-c-format
 msgid "Make an audible beep when the message is displayed. <option>--speak</option>, <option>--play</option> and <option>--play-repeat</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3313
+#: index.docbook:3324
 #, no-c-format
 msgid "--bcc"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3314
+#: index.docbook:3325
 #, no-c-format
 msgid "Blind copy the email to yourself. <option>--mail</option> must be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3318
+#: index.docbook:3329
 #, no-c-format
 msgid "<option>-c</option>, <option>--color</option>, <option>--colour <replaceable>color</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3320
+#: index.docbook:3331
 #, no-c-format
 msgid "Set the message background color to the specified &Qt; color name or hex code 0xRRGGBB."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3324
+#: index.docbook:3335
 #, no-c-format
 msgid "<option>-C</option>, <option>--colorfg</option>, <option>--colourfg <replaceable>color</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3326
+#: index.docbook:3337
 #, no-c-format
 msgid "Set the message foreground color to the specified &Qt; color name or hex code 0xRRGGBB."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3330
+#: index.docbook:3341
 #, no-c-format
 msgid "<option>-d</option>, <option>--disable</option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3331
+#: index.docbook:3342
 #, no-c-format
 msgid "Disable the alarm. It will not trigger until it has been manually enabled."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3335 index.docbook:3637
+#: index.docbook:3346 index.docbook:3648
 #, no-c-format
 msgid "--disable-all"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3336
+#: index.docbook:3347
 #, no-c-format
 msgid "Disable alarm monitoring. This prevents any alarms from being triggered until you re-enable alarms or restart &kalarm;, &eg; at next login. <option>--triggerEvent</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3343
+#: index.docbook:3354
 #, no-c-format
 msgid "<option>-e</option>, <option>--exec <replaceable>commandline</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3344
+#: index.docbook:3355
 #, no-c-format
 msgid "Specify a shell command to execute. If specified, this option must be the last &kalarm; option in &kalarm;'s command line. All subsequent command parameters and options are interpreted as forming the command line to execute. <option>--file</option> and <option>--exec-display</option> and <option>--mail</option> cannot be specified with this option. <option>--ack-confirm</option>, <option>--beep</option>, <option>--color</option> and <option>--colorfg</option> are ignored with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3355
+#: index.docbook:3366
 #, no-c-format
 msgid "<option>-E</option>, <option>--exec-display <replaceable>commandline</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3356
+#: index.docbook:3367
 #, no-c-format
 msgid "Specify a shell command to execute to generate the alarm message text. If specified, this option must be the last &kalarm; option in &kalarm;'s command line. All subsequent command parameters and options are interpreted as forming the command line to execute. <option>--exec</option>, <option>--file</option> and <option>--mail</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3364
+#: index.docbook:3375
 #, no-c-format
 msgid "<option>-f</option>, <option>--file <replaceable>URL</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3365
+#: index.docbook:3376
 #, no-c-format
 msgid "Specify the path or &URL; of a text or image file whose contents are to form the alarm message. <option>--exec</option>, <option>--exec-display</option> and <option>--mail</option> cannot be specified, and <replaceable>message</replaceable> must not be present with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3372
+#: index.docbook:3383
 #, no-c-format
 msgid "<option>-F</option>, <option>--from-id <replaceable>ID</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3374
+#: index.docbook:3385
 #, no-c-format
 msgid "Use the specified &kmail; identity as the sender of the email. <option>--mail</option> must be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3379
+#: index.docbook:3390
 #, no-c-format
 msgid "<option>-i</option>, <option>--interval <replaceable>period</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3381
+#: index.docbook:3392
 #, no-c-format
 msgid "Set the interval between repetitions of the alarm. Hours/minutes are specified in the format <replaceable>nHnM</replaceable>, where <replaceable>n</replaceable> is a number, &eg; 3H30M. Other time periods are specified in the format <replaceable>nX</replaceable>, where <replaceable>n</replaceable> is a number and <replaceable>X</replaceable> is one of the following letters: Y (years), M (months), W (weeks), D (days). If <option>--recurrence</option> is also specified, Y (years) and M (months) are not allowed. Mandatory if <option>--repeat</option> or <option>--until</option> is specified."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3395
+#: index.docbook:3406
 #, no-c-format
 msgid "<option>-k</option>, <option>--korganizer</option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3396
+#: index.docbook:3407
 #, no-c-format
 msgid "Show the alarm as an event in &korganizer;'s active calendar."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3400
+#: index.docbook:3411
 #, no-c-format
 msgid "<option>-l</option>, <option>--late-cancel <replaceable>period</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3402
+#: index.docbook:3413
 #, no-c-format
 msgid "Cancel the alarm if it cannot be triggered within the specified <replaceable>period</replaceable> after the correct time. Hours/minutes are specified in the format <replaceable>nHnM</replaceable>, where <replaceable>n</replaceable> is a number, &eg; 3H30M. Other time periods are specified in the format <replaceable>nX</replaceable>, where <replaceable>n</replaceable> is a number and <replaceable>X</replaceable> is one of the following letters: W (weeks), D (days). The default value of <replaceable>period</replaceable> is 1 minute."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3415
+#: index.docbook:3426
 #, no-c-format
 msgid "<option>-L</option>, <option>--login</option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3416
+#: index.docbook:3427
 #, no-c-format
 msgid "Trigger the alarm every time you log in. <option>--interval</option>, <option>--repeat</option> and <option>--until</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3422
+#: index.docbook:3433
 #, no-c-format
 msgid "<option>-m</option>, <option>--mail <replaceable>address</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3424
+#: index.docbook:3435
 #, no-c-format
 msgid "Send an email to the specified address. This option may be repeated as necessary. <option>--exec</option>, <option>--exec-display</option> and <option>--file</option> cannot be specified with this option. <option>--ack-confirm</option>, <option>--beep</option>, <option>--color</option> and <option>--colorfg</option> are ignored with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3433
+#: index.docbook:3444
 #, no-c-format
 msgid "<option>-n</option>, <option>--name <replaceable>name</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3434
+#: index.docbook:3445
 #, no-c-format
 msgid "Specify a name to help you to identify the alarm."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3437
+#: index.docbook:3448
 #, no-c-format
 msgid "<option>-N</option>, <option>--notify</option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3438
+#: index.docbook:3449
 #, no-c-format
 msgid "Display the alarm as a notification, not in a window. <option>--color</option>, <option>--colorfg</option>, <option>--play</option>, <option>--ack-confirm</option> and <option>--auto-close</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3445
+#: index.docbook:3456
 #, no-c-format
 msgid "<option>-p</option>, <option>--play <replaceable>URL</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3446
+#: index.docbook:3457
 #, no-c-format
 msgid "Specify the path or &URL; of an audio file to be played once, either as an audio alarm or when the alarm message is displayed. <option>--play-repeat</option>, <option>--beep</option> and <option>--speak</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3453
+#: index.docbook:3464
 #, no-c-format
 msgid "<option>-P</option>, <option>--play-repeat <replaceable>URL</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3454
+#: index.docbook:3465
 #, no-c-format
 msgid "Specify the path or &URL; of an audio file to be played repeatedly, either until <guilabel>Stop Play</guilabel> is used, or for as long as the alarm message is displayed. <option>--play</option>, <option>--beep</option> and <option>--speak</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3462
+#: index.docbook:3473
 #, no-c-format
 msgid "--recurrence <replaceable>spec</replaceable>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3464
+#: index.docbook:3475
 #, no-c-format
 msgid "Set the alarm to recur. Specify the recurrence using iCalendar syntax (defined in <ulink url=\"http://www.w3.org/2002/12/cal/rfc2445.html\">RFC2445</ulink>), &eg; <quote>FREQ=MONTHLY;COUNT=4;INTERVAL=3;BYDAY=-1MO</quote>. <option>--until</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3472
+#: index.docbook:3483
 #, no-c-format
 msgid "<option>-r</option>, <option>--repeat <replaceable>count</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3474
+#: index.docbook:3485
 #, no-c-format
 msgid "Set the number of times the alarm should be triggered, or if a recurrence is specified with <option>--recurrence</option>, the number of times the alarm should be triggered each time <option>--recurrence</option> activates it (&ie; a repetition within a recurrence). If <option>--recurrence</option> is not present, specify -1 to repeat the alarm indefinitely. <option>--interval</option> must be, and <option>--until</option> cannot be, specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3484
+#: index.docbook:3495
 #, no-c-format
 msgid "<option>-R</option>, <option>--reminder <replaceable>period</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3486
+#: index.docbook:3497
 #, no-c-format
 msgid "Output a reminder alarm the specified length of time before or after the main alarm and each of its recurrences (if any). The <replaceable>period</replaceable> is specified in the same format as described for <option>--late-cancel</option>. By default, the reminder will occur before the alarm. To specify a reminder after the alarm, prefix <replaceable>period</replaceable> with <replaceable>+</replaceable>, &eg; +3D. This option cannot be specified with <option>--exec</option>, <option>--mail</option> or <option>--reminder-once</option>."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3497
+#: index.docbook:3508
 #, no-c-format
 msgid "--reminder-once <replaceable>period</replaceable>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3499
+#: index.docbook:3510
 #, no-c-format
 msgid "Output a reminder alarm once, the specified length of time before or after the first recurrence of the alarm. No reminder will be displayed before or after subsequent recurrences (if any). The <replaceable>period</replaceable> is specified in the same format as described for <option>--reminder</option>. This option cannot be specified with <option>--exec</option>, <option>--mail</option> or <option>--reminder</option>."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3508
+#: index.docbook:3519
 #, no-c-format
 msgid "<option>-s</option>, <option>--speak</option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3509
+#: index.docbook:3520
 #, no-c-format
 msgid "Speak the message when it is displayed. This option requires &kalarm; to have been built with speech enabled and the &Qt; Speech module to be installed and working. <option>--beep</option>, <option>--play</option> and <option>--play-repeat</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3516
+#: index.docbook:3527
 #, no-c-format
 msgid "<option>-S</option>, <option>--subject <replaceable>subject</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3518
+#: index.docbook:3529
 #, no-c-format
 msgid "The subject line of the email. <option>--mail</option> must be specified with this option."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3523
+#: index.docbook:3534
 #, no-c-format
 msgid "<option>-t</option>, <option>--time <replaceable>date/time</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3525
+#: index.docbook:3536
 #, no-c-format
 msgid "Trigger alarm on the date or at the date/time specified. Specify a date without a time in the format <replaceable>yyyy-mm-dd[ TZ]</replaceable>; specify a date and time by <replaceable>[[[yyyy-]mm-]dd-]hh:mm[ TZ]</replaceable> (where omitted, date fields default to the values for today). If no time zone is specified, the local system time zone is assumed. If a time zone specifier <replaceable>TZ</replaceable> is present, it may be the name of a system time zone (&eg; <userinput>Europe/London</userinput>), or <userinput>UTC</userinput> representing the UTC time zone."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3537
+#: index.docbook:3548
 #, no-c-format
 msgid "<option>-v</option>, <option>--volume <replaceable>percentage</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3539
+#: index.docbook:3550
 #, no-c-format
 msgid "Set the audio volume for playing the audio file. This option can only be used when <option>--play</option> or <option>--play-repeat</option> is specified."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3544
+#: index.docbook:3555
 #, no-c-format
 msgid "<option>-u</option>, <option>--until <replaceable>date/time</replaceable></option>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3546
+#: index.docbook:3557
 #, no-c-format
 msgid "Repeat the alarm until the date or date/time specified. Specify the date or date/time using the same syntax as for <option>--time</option>. Note that if <option>--time</option> is specified, the time zone will be taken from its value and no time zone may be included in the <option>--until</option> value. <option>--interval</option> must be, and <option>--repeat</option> and <option>--recurrence</option> cannot be, specified with this option."
 msgstr ""
 
 #. Tag: replaceable
 #. +> trunk6 stable6
-#: index.docbook:3556
+#: index.docbook:3567
 #, no-c-format
 msgid "<replaceable>message</replaceable>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3557
+#: index.docbook:3568
 #, no-c-format
 msgid "Message text to display or, if <option>--mail</option> is specified, the body of the email message."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3564
+#: index.docbook:3575
 #, no-c-format
 msgid "Either a message text, <option>--file</option>, <option>--exec</option>, <option>--exec-display</option>, <option>--play</option> or <option>--play-repeat</option> must be specified; except as noted above, all the options are optional."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3569
+#: index.docbook:3580
 #, no-c-format
 msgid "Two alternative examples which display a multi-line message with a red background at 10 p.m. on the 27th of this month are:"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: index.docbook:3572
+#: index.docbook:3583
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput><command>kalarm</command> <option>-c <replaceable>red</replaceable></option> <option>-t <replaceable>27-22:00</replaceable></option> <option><replaceable>\"Remember to\\nSTOP\"</replaceable></option></userinput>\n"
@@ -4526,361 +4575,361 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:3578
+#: index.docbook:3589
 #, no-c-format
 msgid "Other Options"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3580
+#: index.docbook:3591
 #, no-c-format
 msgid "The following options are used to perform various functions, including displaying the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3594
+#: index.docbook:3605
 #, no-c-format
 msgid "--edit <replaceable>eventID</replaceable>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3595
+#: index.docbook:3606
 #, no-c-format
 msgid "Display the Alarm Edit dialog to edit the alarm with the specified event ID. The event ID is the unique ID of the event, optionally prefixed by the configuration name or numeric ID of the resource containing the event, in the format <replaceable>[resourceID:]eventUID</replaceable>."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3602
+#: index.docbook:3613
 #, no-c-format
 msgid "--edit-new-audio"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3603
+#: index.docbook:3614
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new audio alarm."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3607
+#: index.docbook:3618
 #, no-c-format
 msgid "--edit-new-command"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3608
+#: index.docbook:3619
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new command alarm."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3612
+#: index.docbook:3623
 #, no-c-format
 msgid "--edit-new-display"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3613
+#: index.docbook:3624
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new display alarm."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3617
+#: index.docbook:3628
 #, no-c-format
 msgid "--edit-new-email"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3618
+#: index.docbook:3629
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new email alarm."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3622
+#: index.docbook:3633
 #, no-c-format
 msgid "--edit-new-preset <replaceable>templateName</replaceable>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3623
+#: index.docbook:3634
 #, no-c-format
 msgid "Display the Alarm Edit dialog, preset with the alarm template of the specified name, in order to edit a new alarm."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3627
+#: index.docbook:3638
 #, no-c-format
 msgid "--list"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3628
+#: index.docbook:3639
 #, no-c-format
 msgid "Output a list of scheduled alarms to <filename>stdout</filename>. The list shows brief details of each pending alarm: its resource identifier, UID, next scheduled time and message text or file."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:3633
+#: index.docbook:3644
 #, no-c-format
 msgid "--tray"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3634
+#: index.docbook:3645
 #, no-c-format
 msgid "Display &kalarm; as an icon in the system tray."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:3638
+#: index.docbook:3649
 #, no-c-format
 msgid "Disable monitoring of all alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3644
+#: index.docbook:3655
 #, no-c-format
 msgid "See also:"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: index.docbook:3646
+#: index.docbook:3657
 #, no-c-format
 msgid "kf6options(7)"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: index.docbook:3647
+#: index.docbook:3658
 #, no-c-format
 msgid "qt6options(7)"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:3655
+#: index.docbook:3666
 #, no-c-format
 msgid "Developer's Guide to &kalarm;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3657
+#: index.docbook:3668
 #, no-c-format
 msgid "&kalarm; provides an interface to allow other applications to request the following functions:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3662
+#: index.docbook:3673
 #, no-c-format
 msgid "cancel an already scheduled alarm"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3663
+#: index.docbook:3674
 #, no-c-format
 msgid "trigger an already scheduled alarm"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3664
+#: index.docbook:3675
 #, no-c-format
 msgid "display the Alarm Edit dialog"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3665
+#: index.docbook:3676
 #, no-c-format
 msgid "list scheduled alarms"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3668
+#: index.docbook:3679
 #, no-c-format
 msgid "Each of the above functions is implemented both by a &DBus; call and by the command line. &DBus; calls should be used in preference if &kalarm; is already running."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:3673
+#: index.docbook:3684
 #, no-c-format
 msgid "&DBus; Interface"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3675
+#: index.docbook:3686
 #, no-c-format
 msgid "The &DBus; calls described in this document are all implemented in &kalarm;'s <constant>/kalarm</constant> &DBus; object path. The interface is defined in the files <filename>org.kde.kalarm.kalarm.xml</filename> and <filename>kalarmiface.h</filename>."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:3683
+#: index.docbook:3694
 #, no-c-format
 msgid "<refentrytitle>cancelEvent</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:3686
+#: index.docbook:3697
 #, no-c-format
 msgid "<refname>cancelEvent</refname>"
 msgstr ""
 
 #. Tag: refpurpose
 #. +> trunk6 stable6
-#: index.docbook:3687
+#: index.docbook:3698
 #, no-c-format
 msgid "cancel an already scheduled alarm."
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:3690
+#: index.docbook:3701
 #, no-c-format
 msgid "void cancelEvent(const QString&amp; <replaceable>eventID</replaceable>)"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:3693 index.docbook:3730 index.docbook:3776 index.docbook:4004
-#: index.docbook:4202 index.docbook:4367 index.docbook:4563 index.docbook:4731
-#: index.docbook:4777
+#: index.docbook:3704 index.docbook:3741 index.docbook:3787 index.docbook:4015
+#: index.docbook:4213 index.docbook:4378 index.docbook:4574 index.docbook:4742
+#: index.docbook:4788
 #, no-c-format
 msgid "Parameters"
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3696 index.docbook:3733 index.docbook:4734
+#: index.docbook:3707 index.docbook:3744 index.docbook:4745
 #, no-c-format
 msgid "eventID"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3698
+#: index.docbook:3709
 #, no-c-format
 msgid "Specifies the unique ID of the event to be canceled, optionally prefixed by the configuration name or numeric ID of the resource containing the event, in the format <replaceable>[resourceID:]eventUID</replaceable>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:3709 index.docbook:3746 index.docbook:3970 index.docbook:4176
-#: index.docbook:4341 index.docbook:4536 index.docbook:4708 index.docbook:4754
-#: index.docbook:4809 index.docbook:4839
+#: index.docbook:3720 index.docbook:3757 index.docbook:3981 index.docbook:4187
+#: index.docbook:4352 index.docbook:4547 index.docbook:4719 index.docbook:4765
+#: index.docbook:4820 index.docbook:4850
 #, no-c-format
 msgid "<title>Description</title>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3711
+#: index.docbook:3722
 #, no-c-format
 msgid "<function>cancelEvent()</function> is a &DBus; call to cancel the specified alarm. &kalarm; deletes the alarm from the calendar without displaying or executing it."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:3720
+#: index.docbook:3731
 #, no-c-format
 msgid "<refentrytitle>triggerEvent</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:3723
+#: index.docbook:3734
 #, no-c-format
 msgid "<refname>triggerEvent</refname>"
 msgstr ""
 
 #. Tag: refpurpose
 #. +> trunk6 stable6
-#: index.docbook:3724
+#: index.docbook:3735
 #, no-c-format
 msgid "trigger an already scheduled alarm."
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:3727
+#: index.docbook:3738
 #, no-c-format
 msgid "void triggerEvent(const QString&amp; <replaceable>eventID</replaceable>)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3735
+#: index.docbook:3746
 #, no-c-format
 msgid "Specifies the unique ID of the event to be triggered, optionally prefixed by the configuration name or numeric ID of the resource containing the event, in the format <replaceable>[resourceID:]eventUID</replaceable>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3748
+#: index.docbook:3759
 #, no-c-format
 msgid "<function>triggerEvent()</function> is a &DBus; call to trigger the immediate display or execution of the specified alarm (regardless of what time it is scheduled for). &kalarm; retrieves the alarm from the calendar and then displays or executes it."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3753
+#: index.docbook:3764
 #, no-c-format
 msgid "If the alarm is already due, &kalarm; then deletes all scheduled occurrences of the alarm up to the current time, and if no repetitions of the alarm still remain, the alarm is deleted from the calendar. If the alarm is not due yet, its scheduled occurrences are left unchanged."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:3764
+#: index.docbook:3775
 #, no-c-format
 msgid "<refentrytitle>scheduleMessage</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:3767
+#: index.docbook:3778
 #, no-c-format
 msgid "<refname>scheduleMessage</refname>"
 msgstr ""
 
 #. Tag: refpurpose
 #. +> trunk6 stable6
-#: index.docbook:3768
+#: index.docbook:3779
 #, no-c-format
 msgid "schedule a new alarm message."
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:3771
+#: index.docbook:3782
 #, no-c-format
 msgid ""
 "bool scheduleMessage(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -4900,7 +4949,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:3772
+#: index.docbook:3783
 #, no-c-format
 msgid ""
 "bool scheduleMessage(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -4920,7 +4969,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:3773
+#: index.docbook:3784
 #, no-c-format
 msgid ""
 "bool scheduleMessage(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -4940,64 +4989,48 @@ msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3779 index.docbook:4007 index.docbook:4205 index.docbook:4370
-#: index.docbook:4566
+#: index.docbook:3790 index.docbook:4018 index.docbook:4216 index.docbook:4381
+#: index.docbook:4577
 #, no-c-format
 msgid "name"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3781 index.docbook:4009 index.docbook:4207 index.docbook:4372
-#: index.docbook:4568
+#: index.docbook:3792 index.docbook:4020 index.docbook:4218 index.docbook:4383
+#: index.docbook:4579
 #, no-c-format
 msgid "Specifies an optional name for the alarm."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3786 index.docbook:4401
+#: index.docbook:3797 index.docbook:4412
 #, no-c-format
 msgid "<parameter>message</parameter>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3788
+#: index.docbook:3799
 #, no-c-format
 msgid "Specifies the text of the message to be scheduled, or if <parameter>flags</parameter> has the <userinput>DISPLAY_COMMAND</userinput> bit set, specifies the command line to execute to generate the message text."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3796 index.docbook:4022 index.docbook:4221 index.docbook:4416
-#: index.docbook:4588
+#: index.docbook:3807 index.docbook:4033 index.docbook:4232 index.docbook:4427
+#: index.docbook:4599
 #, no-c-format
 msgid "startDateTime"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3798 index.docbook:4024 index.docbook:4223 index.docbook:4418
-#: index.docbook:4590
+#: index.docbook:3809 index.docbook:4035 index.docbook:4234 index.docbook:4429
+#: index.docbook:4601
 #, no-c-format
 msgid "Specifies the scheduled date, or date and time, at which the message should be displayed. For a date-only alarm, the string should be in the format <replaceable>YYYY-MM-DD[ TZ]</replaceable> (as returned by <methodname>QDate::toString(Qt::ISODate)</methodname>). For an alarm with a date and time, the string should be in the format <replaceable>YYYY-MM-DDTHH:MM[:SS][ TZ]</replaceable> (as returned by <methodname>QDateTime::toString(Qt::ISODate)</methodname>) or <replaceable>HH:MM[:SS]</replaceable> (as returned by <methodname>QTime::toString(Qt::ISODate)</methodname>). If no date is specified, today's date is used. Note that any seconds value is ignored."
-msgstr ""
-
-#. Tag: para
-#. +> trunk6 stable6
-#: index.docbook:3810 index.docbook:4036 index.docbook:4235 index.docbook:4430
-#: index.docbook:4602
-#, no-c-format
-msgid "If no time zone is specified, the local system time zone is assumed. If a time zone specifier <replaceable>TZ</replaceable> is present, it may be the name of a system time zone (&eg; <userinput>Europe/London</userinput>), or <userinput>UTC</userinput> representing the UTC time zone."
-msgstr ""
-
-#. Tag: parameter
-#. +> trunk6 stable6
-#: index.docbook:3819 index.docbook:4045 index.docbook:4244 index.docbook:4439
-#: index.docbook:4611
-#, no-c-format
-msgid "lateCancel"
 msgstr ""
 
 #. Tag: para
@@ -5005,244 +5038,260 @@ msgstr ""
 #: index.docbook:3821 index.docbook:4047 index.docbook:4246 index.docbook:4441
 #: index.docbook:4613
 #, no-c-format
+msgid "If no time zone is specified, the local system time zone is assumed. If a time zone specifier <replaceable>TZ</replaceable> is present, it may be the name of a system time zone (&eg; <userinput>Europe/London</userinput>), or <userinput>UTC</userinput> representing the UTC time zone."
+msgstr ""
+
+#. Tag: parameter
+#. +> trunk6 stable6
+#: index.docbook:3830 index.docbook:4056 index.docbook:4255 index.docbook:4450
+#: index.docbook:4622
+#, no-c-format
+msgid "lateCancel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:3832 index.docbook:4058 index.docbook:4257 index.docbook:4452
+#: index.docbook:4624
+#, no-c-format
 msgid "Causes the alarm to be canceled if it cannot be triggered within the specified number of minutes after the alarm's scheduled time. If the value is 0, the alarm will not be canceled no matter how late it is triggered."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3829 index.docbook:4055 index.docbook:4254 index.docbook:4449
-#: index.docbook:4621
+#: index.docbook:3840 index.docbook:4066 index.docbook:4265 index.docbook:4460
+#: index.docbook:4632
 #, no-c-format
 msgid "flags"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3831
+#: index.docbook:3842
 #, no-c-format
 msgid "Specifies the logical OR of the desired alarm flags. The flag bits are those defined in class <classname>KAlarmIface</classname> in <filename>kalarmiface.h</filename>. Note that not all flag bits are applicable to message alarms."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3839 index.docbook:4065
+#: index.docbook:3850 index.docbook:4076
 #, no-c-format
 msgid "bgColor"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3841
+#: index.docbook:3852
 #, no-c-format
 msgid "Specifies the background color for displaying the message. The string may be in the format <quote>#RRGGBB</quote> (as returned by <methodname>QColor::name()</methodname>) where RR, GG and BB are two-digit hexadecimal values for red, green and blue. Alternatively the string may be in any of the other formats accepted by <methodname>QColor::setNamedColor()</methodname>, such as a name from the X color database (&eg; <quote>red</quote> or <quote>steelblue</quote>). Set the string to null to specify the current default background color."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3854
+#: index.docbook:3865
 #, no-c-format
 msgid "fgColor"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3856
+#: index.docbook:3867
 #, no-c-format
 msgid "Specifies the foreground color for displaying the message. The format of the string is the same as for <parameter>bgColor</parameter>, or alternatively set the string to null to specify the current default foreground color."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3864
+#: index.docbook:3875
 #, no-c-format
 msgid "font"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3866
+#: index.docbook:3877
 #, no-c-format
 msgid "Specifies the font for displaying the message. The format of the string is that output by <methodname>QFont::toString()</methodname>. Set the string to null to use the default message font current at the time the message is displayed."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3874 index.docbook:4080 index.docbook:4573
+#: index.docbook:3885 index.docbook:4091 index.docbook:4584
 #, no-c-format
 msgid "audioURL"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3876 index.docbook:4082
+#: index.docbook:3887 index.docbook:4093
 #, no-c-format
 msgid "Specifies the audio file which is to be played when the message is displayed. Set the value to null if no audio file is to be played."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3883 index.docbook:4089
+#: index.docbook:3894 index.docbook:4100
 #, no-c-format
 msgid "reminderMins"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3885 index.docbook:4091
+#: index.docbook:3896 index.docbook:4102
 #, no-c-format
 msgid "Specifies the number of minutes in advance of the main alarm and of each of its recurrences (if any) at which a reminder alarm should be displayed. Specify a negative value for a reminder to be displayed after the main alarm. Specify 0 if no reminder is required."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3893 index.docbook:4099 index.docbook:4264 index.docbook:4459
-#: index.docbook:4631
+#: index.docbook:3904 index.docbook:4110 index.docbook:4275 index.docbook:4470
+#: index.docbook:4642
 #, no-c-format
 msgid "recurrence"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3895 index.docbook:4101 index.docbook:4266 index.docbook:4461
-#: index.docbook:4633
+#: index.docbook:3906 index.docbook:4112 index.docbook:4277 index.docbook:4472
+#: index.docbook:4644
 #, no-c-format
 msgid "Specifies a regular recurrence for the alarm, using iCalendar syntax as defined in <ulink url=\"http://www.w3.org/2002/12/cal/rfc2445.html\">RFC2445</ulink>. For example, <quote>FREQ=MONTHLY;COUNT=4;INTERVAL=3;BYDAY=-1MO</quote> would specify 4 repetitions at 3-monthly intervals on the last Monday of the month. For a non-recurring alarm, specify an empty string."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3906 index.docbook:4112 index.docbook:4277 index.docbook:4472
-#: index.docbook:4644
+#: index.docbook:3917 index.docbook:4123 index.docbook:4288 index.docbook:4483
+#: index.docbook:4655
 #, no-c-format
 msgid "recurType"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3908 index.docbook:4114 index.docbook:4279 index.docbook:4474
-#: index.docbook:4646
+#: index.docbook:3919 index.docbook:4125 index.docbook:4290 index.docbook:4485
+#: index.docbook:4657
 #, no-c-format
 msgid "Specifies the recurrence type for the alarm. The permissible values are MINUTELY, DAILY, WEEKLY, MONTHLY, YEARLY. These are defined in class <classname>KAlarmIface</classname> in <filename>kalarmiface.h</filename>. Monthly recurrences are of the day of the month type, and yearly recurrences are of the date in the year type, with the date in both cases taken from the <parameter>startDateTime</parameter> parameter."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3919 index.docbook:4125 index.docbook:4290 index.docbook:4485
-#: index.docbook:4657
+#: index.docbook:3930 index.docbook:4136 index.docbook:4301 index.docbook:4496
+#: index.docbook:4668
 #, no-c-format
 msgid "recurInterval"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3921 index.docbook:4127 index.docbook:4292 index.docbook:4487
-#: index.docbook:4659
+#: index.docbook:3932 index.docbook:4138 index.docbook:4303 index.docbook:4498
+#: index.docbook:4670
 #, no-c-format
 msgid "Specifies the number of periods (minutes/days/weeks/months/years as specified by <parameter>recurType</parameter>) between recurrences of the alarm."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3929 index.docbook:4135 index.docbook:4300 index.docbook:4495
-#: index.docbook:4667
+#: index.docbook:3940 index.docbook:4146 index.docbook:4311 index.docbook:4506
+#: index.docbook:4678
 #, no-c-format
 msgid "recurCount"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3931 index.docbook:4137 index.docbook:4302 index.docbook:4497
-#: index.docbook:4669
+#: index.docbook:3942 index.docbook:4148 index.docbook:4313 index.docbook:4508
+#: index.docbook:4680
 #, no-c-format
 msgid "Specifies the number of times that the alarm should be repeated. Specify -1 to repeat the alarm indefinitely."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3937 index.docbook:4143 index.docbook:4308 index.docbook:4503
-#: index.docbook:4675
+#: index.docbook:3948 index.docbook:4154 index.docbook:4319 index.docbook:4514
+#: index.docbook:4686
 #, no-c-format
 msgid "endDateTime"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3939 index.docbook:4145 index.docbook:4310 index.docbook:4505
-#: index.docbook:4677
+#: index.docbook:3950 index.docbook:4156 index.docbook:4321 index.docbook:4516
+#: index.docbook:4688
 #, no-c-format
 msgid "Specifies the end date, or date and time, for recurrences of the alarm. If <parameter>startDateTime</parameter> includes a time, this parameter must also include a time; if <parameter>startDateTime</parameter> contains only a date, this parameter must also contain only a date. It must not contain a time zone specifier; the same time zone as for <parameter>startDateTime</parameter> is used to interpret this parameter's value."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3950 index.docbook:4156 index.docbook:4321 index.docbook:4516
-#: index.docbook:4688
+#: index.docbook:3961 index.docbook:4167 index.docbook:4332 index.docbook:4527
+#: index.docbook:4699
 #, no-c-format
 msgid "subRepeatInterval"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3952 index.docbook:4158 index.docbook:4323 index.docbook:4518
-#: index.docbook:4690
+#: index.docbook:3963 index.docbook:4169 index.docbook:4334 index.docbook:4529
+#: index.docbook:4701
 #, no-c-format
 msgid "Specifies the number of minutes between sub-repetitions of the alarm. Specify 0 for no sub-repetition. Ignored if no recurrence is specified."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:3959 index.docbook:4165 index.docbook:4330 index.docbook:4525
-#: index.docbook:4697
+#: index.docbook:3970 index.docbook:4176 index.docbook:4341 index.docbook:4536
+#: index.docbook:4708
 #, no-c-format
 msgid "subRepeatCount"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3961 index.docbook:4167 index.docbook:4332 index.docbook:4527
-#: index.docbook:4699
+#: index.docbook:3972 index.docbook:4178 index.docbook:4343 index.docbook:4538
+#: index.docbook:4710
 #, no-c-format
 msgid "Specifies the number of sub-repetitions of the alarm, including the initial occurrence."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3971
+#: index.docbook:3982
 #, no-c-format
 msgid "<function>scheduleMessage()</function> is a &DBus; call to schedule the specified alarm message for display at the specified date and time. It has three forms. The most general form allows an arbitrary recurrence to be specified &ndash; use this also for non-repeating alarms. The other forms provide convenient access to a restricted set of alarm recurrence types, one specifying a repetition count and the other an end time."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:3979
+#: index.docbook:3990
 #, no-c-format
 msgid "If the scheduled time (including any repetitions) has already passed, &kalarm; immediately displays the message (unless the <parameter>lateCancel</parameter> value indicates that it is now too late to display the alarm, in which case &kalarm; ignores the request). If the scheduled time (or a repetition) is in the future, &kalarm; adds the alarm message to the default active alarm calendar for later display."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:3991
+#: index.docbook:4002
 #, no-c-format
 msgid "<refentrytitle>scheduleFile</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:3994
+#: index.docbook:4005
 #, no-c-format
 msgid "<refname>scheduleFile</refname>"
 msgstr ""
 
 #. Tag: refpurpose
 #. +> trunk6 stable6
-#: index.docbook:3995
+#: index.docbook:4006
 #, no-c-format
 msgid "schedule a new alarm which displays the contents of a text or image file."
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:3999
+#: index.docbook:4010
 #, no-c-format
 msgid ""
 "bool scheduleFile(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5260,7 +5309,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4000
+#: index.docbook:4011
 #, no-c-format
 msgid ""
 "bool scheduleFile(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5278,7 +5327,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4001
+#: index.docbook:4012
 #, no-c-format
 msgid ""
 "bool scheduleFile(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5296,63 +5345,63 @@ msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:4014
+#: index.docbook:4025
 #, no-c-format
 msgid "<parameter>URL</parameter>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4016
+#: index.docbook:4027
 #, no-c-format
 msgid "Specifies the text or image file whose contents are to be displayed in the message to be scheduled."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4057
+#: index.docbook:4068
 #, no-c-format
 msgid "Specifies the logical OR of the desired alarm flags. The flag bits are those defined in class <classname>KAlarmIface</classname> in <filename>kalarmiface.h</filename>. Note that not all flag bits are applicable to file alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4067
+#: index.docbook:4078
 #, no-c-format
 msgid "Specifies the background color for displaying the file. The string may be in the format <quote>#RRGGBB</quote> (as returned by <methodname>QColor::name()</methodname>) where RR, GG and BB are two-digit hexadecimal values for red, green and blue. Alternatively the string may be in any of the other formats accepted by <methodname>QColor::setNamedColor()</methodname>, such as a name from the X color database (&eg; <quote>red</quote> or <quote>steelblue</quote>). Set the string to null to specify the current default background color."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4177
+#: index.docbook:4188
 #, no-c-format
 msgid "<function>scheduleFile()</function> is a &DBus; call to schedule the specified text or image file for display at the specified date and time. Apart from specifying a file path or &URL; and omitting the foreground color and font, its usage is identical to <link linkend=\"scheduleMessage-descrip\"><function>scheduleMessage</function></link> - see the description of that function for further details."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:4189
+#: index.docbook:4200
 #, no-c-format
 msgid "<refentrytitle>scheduleCommand</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:4192
+#: index.docbook:4203
 #, no-c-format
 msgid "<refname>scheduleCommand</refname>"
 msgstr ""
 
 #. Tag: refpurpose
 #. +> trunk6 stable6
-#: index.docbook:4193 index.docbook:4554
+#: index.docbook:4204 index.docbook:4565
 #, no-c-format
 msgid "schedule a new alarm which executes a shell command."
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4197
+#: index.docbook:4208
 #, no-c-format
 msgid ""
 "bool scheduleCommand(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5367,7 +5416,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4198
+#: index.docbook:4209
 #, no-c-format
 msgid ""
 "bool scheduleCommand(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5382,7 +5431,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4199
+#: index.docbook:4210
 #, no-c-format
 msgid ""
 "bool scheduleCommand(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5397,56 +5446,56 @@ msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:4212
+#: index.docbook:4223
 #, no-c-format
 msgid "commandLine"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4214
+#: index.docbook:4225
 #, no-c-format
 msgid "Specifies the command whose execution is to be scheduled. The <parameter>flags</parameter> parameter indicates whether this parameter contains a shell command line or a command script."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4256 index.docbook:4623
+#: index.docbook:4267 index.docbook:4634
 #, no-c-format
 msgid "Specifies the logical OR of the desired alarm flags. The flag bits are those defined in class <classname>KAlarmIface</classname> in <filename>kalarmiface.h</filename>. Note that not all flag bits are applicable to command alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4342
+#: index.docbook:4353
 #, no-c-format
 msgid "<function>scheduleCommand()</function> is a &DBus; call to schedule the specified shell command line, or command script, for execution at the specified date and time. Apart from specifying a command and omitting the message color, font and audio file parameters, its usage is identical to <link linkend=\"scheduleMessage-descrip\"><function>scheduleMessage</function></link> - see the description of that function for further details."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:4355
+#: index.docbook:4366
 #, no-c-format
 msgid "<refentrytitle>scheduleEmail</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:4358
+#: index.docbook:4369
 #, no-c-format
 msgid "<refname>scheduleEmail</refname>"
 msgstr ""
 
 #. Tag: refpurpose
 #. +> trunk6 stable6
-#: index.docbook:4359
+#: index.docbook:4370
 #, no-c-format
 msgid "schedule a new alarm which sends an email."
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4362
+#: index.docbook:4373
 #, no-c-format
 msgid ""
 "bool scheduleEmail(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5465,7 +5514,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4363
+#: index.docbook:4374
 #, no-c-format
 msgid ""
 "bool scheduleEmail(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5484,7 +5533,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4364
+#: index.docbook:4375
 #, no-c-format
 msgid ""
 "bool scheduleEmail(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5503,98 +5552,98 @@ msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:4377
+#: index.docbook:4388
 #, no-c-format
 msgid "fromID"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4379
+#: index.docbook:4390
 #, no-c-format
 msgid "The &kmail; identity to use as the sender of the email. If empty, the sender's email address will be that configured in &kalarm;'s <link linkend=\"preferences-email\">Email preferences</link>."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:4387
+#: index.docbook:4398
 #, no-c-format
 msgid "addresses"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4389
+#: index.docbook:4400
 #, no-c-format
 msgid "A comma separated list of recipients' email addresses."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:4394
+#: index.docbook:4405
 #, no-c-format
 msgid "subject"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4396
+#: index.docbook:4407
 #, no-c-format
 msgid "Specifies the subject line of the email."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4403
+#: index.docbook:4414
 #, no-c-format
 msgid "Specifies the email message body."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:4408
+#: index.docbook:4419
 #, no-c-format
 msgid "attachments"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4410
+#: index.docbook:4421
 #, no-c-format
 msgid "A comma-separated list of paths or &URL;s of files to send as email attachments."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4451
+#: index.docbook:4462
 #, no-c-format
 msgid "Specifies the logical OR of the desired alarm flags. The flag bits are those defined in class <classname>KAlarmIface</classname> in <filename>kalarmiface.h</filename>. Note that not all flag bits are applicable to email alarms."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4537
+#: index.docbook:4548
 #, no-c-format
 msgid "<function>scheduleEmail()</function> is a &DBus; call to schedule the specified email for sending at the specified date and time. Apart from specifying the email header and contents and omitting the message color, font and audio file parameters, its usage is identical to <link linkend=\"scheduleMessage-descrip\"><function>scheduleMessage</function></link> - see the description of that function for further details."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:4550
+#: index.docbook:4561
 #, no-c-format
 msgid "<refentrytitle>scheduleAudio</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:4553
+#: index.docbook:4564
 #, no-c-format
 msgid "<refname>scheduleAudio</refname>"
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4558
+#: index.docbook:4569
 #, no-c-format
 msgid ""
 "bool scheduleAudio(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5610,7 +5659,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4559
+#: index.docbook:4570
 #, no-c-format
 msgid ""
 "bool scheduleAudio(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5626,7 +5675,7 @@ msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4560
+#: index.docbook:4571
 #, no-c-format
 msgid ""
 "bool scheduleAudio(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -5642,280 +5691,280 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4575
+#: index.docbook:4586
 #, no-c-format
 msgid "Specifies the audio file which is to be played."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:4580
+#: index.docbook:4591
 #, no-c-format
 msgid "volumePercent"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4582
+#: index.docbook:4593
 #, no-c-format
 msgid "Specifies the volume level to use, as a percentage of full volume. Specify -1 to use the default volume."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4709
+#: index.docbook:4720
 #, no-c-format
 msgid "<function>scheduleAudio()</function> is a &DBus; call to schedule the specified audio file to be played at the specified date and time. Apart from specifying a volume and omitting the message color and font parameters, its usage is identical to <link linkend=\"scheduleMessage-descrip\"><function>scheduleMessage</function></link> - see the description of that function for further details."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:4720
+#: index.docbook:4731
 #, no-c-format
 msgid "<refentrytitle>edit</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:4723
+#: index.docbook:4734
 #, no-c-format
 msgid "<refname>edit</refname>"
 msgstr ""
 
 #. Tag: refpurpose
 #. +> trunk6 stable6
-#: index.docbook:4724
+#: index.docbook:4735
 #, no-c-format
 msgid "Display the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> to edit an alarm."
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4728
+#: index.docbook:4739
 #, no-c-format
 msgid "bool edit(const QString&amp; <replaceable>eventID</replaceable>)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4736
+#: index.docbook:4747
 #, no-c-format
 msgid "Specifies the unique ID of the event to be edited, optionally prefixed by the configuration name or numeric ID of the resource containing the event, in the format <replaceable>[resourceID:]eventUID</replaceable>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:4746 index.docbook:4800 index.docbook:4832
+#: index.docbook:4757 index.docbook:4811 index.docbook:4843
 #, no-c-format
 msgid "Return value"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4747
+#: index.docbook:4758
 #, no-c-format
 msgid "<returnvalue>false</returnvalue> if the specified alarm could not be found or is read-only, <returnvalue>true</returnvalue> otherwise."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4756
+#: index.docbook:4767
 #, no-c-format
 msgid "<function>edit()</function> is a &DBus; call to display the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> to edit the specified alarm."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:4765
+#: index.docbook:4776
 #, no-c-format
 msgid "<refentrytitle>editNew</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:4768
+#: index.docbook:4779
 #, no-c-format
 msgid "<refname>editNew</refname>"
 msgstr ""
 
 #. Tag: refpurpose
 #. +> trunk6 stable6
-#: index.docbook:4769
+#: index.docbook:4780
 #, no-c-format
 msgid "Display the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> to edit a new alarm."
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4773
+#: index.docbook:4784
 #, no-c-format
 msgid "bool editNew(int <replaceable>type</replaceable>)"
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4774
+#: index.docbook:4785
 #, no-c-format
 msgid "bool editNew(const QString&amp; <replaceable>templateName</replaceable>)"
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:4780
+#: index.docbook:4791
 #, no-c-format
 msgid "type"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4782
+#: index.docbook:4793
 #, no-c-format
 msgid "Specifies the alarm type. The permissible values are DISPLAY, COMMAND, EMAIL, AUDIO. These are defined in class <classname>KAlarmIface</classname> in <filename>kalarmiface.h</filename>."
 msgstr ""
 
 #. Tag: parameter
 #. +> trunk6 stable6
-#: index.docbook:4790
+#: index.docbook:4801
 #, no-c-format
 msgid "templateName"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4792
+#: index.docbook:4803
 #, no-c-format
 msgid "Specifies the name of an alarm template to base the new alarm on."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4801
+#: index.docbook:4812
 #, no-c-format
 msgid "<returnvalue>false</returnvalue> if <parameter>type</parameter> has an invalid value, or if no template with the name <parameter>templateName</parameter> can be found; <returnvalue>true</returnvalue> otherwise."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4811
+#: index.docbook:4822
 #, no-c-format
 msgid "<function>editNew()</function> is a &DBus; call to display the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> to edit a new alarm. If an alarm type is specified as a parameter, a blank dialog is displayed. Alternatively, if an alarm template name is specified as a parameter, the dialog is preset with details from the template."
 msgstr ""
 
 #. Tag: refentrytitle
 #. +> trunk6 stable6
-#: index.docbook:4822
+#: index.docbook:4833
 #, no-c-format
 msgid "<refentrytitle>list</refentrytitle>"
 msgstr ""
 
 #. Tag: refname
 #. +> trunk6 stable6
-#: index.docbook:4825
+#: index.docbook:4836
 #, no-c-format
 msgid "<refname>list</refname>"
 msgstr ""
 
 #. Tag: refpurpose
 #. +> trunk6 stable6
-#: index.docbook:4826
+#: index.docbook:4837
 #, no-c-format
 msgid "Return a list of scheduled alarms."
 msgstr ""
 
 #. Tag: synopsis
 #. +> trunk6 stable6
-#: index.docbook:4829
+#: index.docbook:4840
 #, no-c-format
 msgid "QString list()"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4833
+#: index.docbook:4844
 #, no-c-format
 msgid "List of alarms, separated by newlines, each in the format <returnvalue><replaceable>resource_id</replaceable>:<replaceable>UID</replaceable> <replaceable>time</replaceable> <replaceable>text</replaceable></returnvalue>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4841
+#: index.docbook:4852
 #, no-c-format
 msgid "<function>list()</function> is a &DBus; call to return a string containing a summary of scheduled alarms. The list shows brief details of each pending alarm: its resource identifier, UID, next scheduled time and message text or file."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:4852
+#: index.docbook:4863
 #, no-c-format
 msgid "Command Line Interface"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4854
+#: index.docbook:4865
 #, no-c-format
 msgid "Command line options are provided to enable other programs to start up &kalarm; if it is not already running, in order to trigger or cancel scheduled alarms, or schedule new alarms. The reason for using command line options for this purpose is that if &kalarm; were started without any command line parameters and then sent &DBus; requests, it would start in its default graphical mode, which is clearly undesirable for an inter-program request."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4862
+#: index.docbook:4873
 #, no-c-format
 msgid "Programs should first check whether &kalarm; is already running; if it is, they should instead use &DBus; calls to request these operations."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4866
+#: index.docbook:4877
 #, no-c-format
 msgid "The command line options for scheduling a new alarm are as described in the chapter <link linkend=\"cmdline-operation\">Command Line Operation</link>. The options for triggering and canceling scheduled alarms are as follows:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4871
+#: index.docbook:4882
 #, no-c-format
 msgid "Normal users may also if they wish use these command line options (assuming that they can supply the necessary parameter information)."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:4885
+#: index.docbook:4896
 #, no-c-format
 msgid "--cancelEvent <replaceable>eventID</replaceable>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:4886
+#: index.docbook:4897
 #, no-c-format
 msgid "Cancel the alarm with the specified event ID. The event ID is the unique ID of the event, optionally prefixed by the ID of the resource containing the event, in the format <replaceable>[resourceID:]eventUID</replaceable>. The action taken is the same as for the <link linkend=\"cancelEvent\">cancelEvent()</link> &DBus; call. <option>--triggerEvent</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
-#: index.docbook:4896
+#: index.docbook:4907
 #, no-c-format
 msgid "--triggerEvent <replaceable>eventID</replaceable>"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: index.docbook:4897
+#: index.docbook:4908
 #, no-c-format
 msgid "Trigger the alarm with the specified event ID. The event ID is the unique ID of the event, optionally prefixed by the ID of the resource containing the event, in the format <replaceable>[resourceID:]eventUID</replaceable>. The action taken is the same as for the <link linkend=\"triggerEvent\">triggerEvent()</link> &DBus; call. <option>--cancelEvent</option> cannot be specified with this option."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4910
+#: index.docbook:4921
 #, no-c-format
 msgid "Examples are:"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: index.docbook:4912
+#: index.docbook:4923
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput><command>kalarm</command> <option>--triggerEvent <replaceable>&kalarm;-387486299.702</replaceable></option></userinput>\n"
@@ -5924,217 +5973,217 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:4920
+#: index.docbook:4931
 #, no-c-format
 msgid "Questions and Answers"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4925
+#: index.docbook:4936
 #, no-c-format
 msgid "What configuration files does &kalarm; use?"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4928
+#: index.docbook:4939
 #, no-c-format
 msgid "&kalarm;'s configuration is held in the following files in the folder <command>qtpaths --paths GenericConfigLocation</command> :"
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:4933
+#: index.docbook:4944
 #, no-c-format
 msgid "<filename>kalarmrc</filename> holds your &kalarm; preferences."
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:4938
+#: index.docbook:4949
 #, no-c-format
 msgid "<filename>kalarmresources</filename> holds the list of alarm calendars currently used by &kalarm;."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4947
+#: index.docbook:4958
 #, no-c-format
 msgid "Where does &kalarm; store its alarms?"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4951
+#: index.docbook:4962
 #, no-c-format
 msgid "When &kalarm; is run the first time, it creates the following alarm calendars in the folder <command>qtpaths --paths GenericDataLocation</command> :"
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:4957
+#: index.docbook:4968
 #, no-c-format
 msgid "<filename>kalarm/calendar.ics</filename>, which holds active alarms."
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:4962
+#: index.docbook:4973
 #, no-c-format
 msgid "<filename>kalarm/expired.ics</filename>, which holds archived alarms."
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:4967
+#: index.docbook:4978
 #, no-c-format
 msgid "<filename>kalarm/template.ics</filename>, which holds alarm templates."
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:4972
+#: index.docbook:4983
 #, no-c-format
 msgid "<filename>kalarm/displaying.ics</filename>, which is a special calendar file to hold details of alarms currently being displayed, which allows &kalarm;, when it is restarted, to redisplay alarms which were being displayed when it last stopped."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4979
+#: index.docbook:4990
 #, no-c-format
 msgid "You can subsequently replace these calendars, except <filename>displaying.ics</filename>, or create additional alarm calendars in any location which you choose. You can find out which calendar files are currently in use by viewing each calendar's details in the alarm calendars list."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4989
+#: index.docbook:5000
 #, no-c-format
 msgid "What format are alarms stored in?"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:4992
+#: index.docbook:5003
 #, no-c-format
 msgid "The calendar files in which &kalarm; stores its alarms are text files whose format is defined by the document <ulink url=\"http://www.w3.org/2002/12/cal/rfc2445.html\">RFC2445 - Internet Calendaring and Scheduling Core Object Specification (iCalendar)</ulink>. This is the standard format used by all kdepim applications. &kalarm; uses certain non-standard properties, in conformance with RFC2445. These are documented in the <filename>DESIGN-kalarmcalendar.html</filename> file which is distributed with &kalarm;."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5006
+#: index.docbook:5017
 #, no-c-format
 msgid "What is the function of &kalarm;'s Akonadi plugin?"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5009
+#: index.docbook:5020
 #, no-c-format
 msgid "&kalarm; uses its Akonadi plugin to provide all features which depend on &akonadi; (the &kde; &PIM; cross-desktop storage service). If this plugin is not installed and enabled, &kalarm; will lack the following features:"
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:5015
+#: index.docbook:5026
 #, no-c-format
 msgid "Sending emails via &kmail;, leaving &Sendmail; as the only option to send emails (see <link linkend=\"preferences-email\">Email preferences</link>)."
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:5020
+#: index.docbook:5031
 #, no-c-format
 msgid "Drag and drop of emails."
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:5023
+#: index.docbook:5034
 #, no-c-format
 msgid "Selection of email addresses from &kaddressbook;."
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:5026
+#: index.docbook:5037
 #, no-c-format
 msgid "Import of birthdays from &kaddressbook;."
 msgstr ""
 
 #. Tag: simpara
 #. +> trunk6 stable6
-#: index.docbook:5029
+#: index.docbook:5040
 #, no-c-format
 msgid "Migration of &akonadi; alarm calendar resources on the first run of a new version of &kalarm;."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5034
+#: index.docbook:5045
 #, no-c-format
 msgid "If the plugin is installed, it can be enabled or disabled in the <link linkend=\"preferences-general\">General</link> tab of the Configuration dialog."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5042
+#: index.docbook:5053
 #, no-c-format
 msgid "What is the program <application>kalarmautostart</application>?"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5045
+#: index.docbook:5056
 #, no-c-format
 msgid "<application>kalarmautostart</application> is a little helper program whose function is to autostart &kalarm; at login."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5048
+#: index.docbook:5059
 #, no-c-format
 msgid "&kalarm; is usually restored by the session manager at login (to redisplay its windows in the same state as they were when you logged off). But if it was not running when you logged off, it would not be started by the session manager and therefore needs to be autostarted. The problem is that when an application is both session managed and autostarted, there is no guarantee as to which will occur first. If autostart gets in first, it will prevent the session manager from restoring the application's state."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5057
+#: index.docbook:5068
 #, no-c-format
 msgid "To avoid this problem, <application>kalarmautostart</application> is autostarted at login instead of &kalarm;. All it does is wait for a short time (to ensure that the session manager has time to do its job) before starting &kalarm;, at which point it terminates."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5067
+#: index.docbook:5078
 #, no-c-format
 msgid "How can I use &kalarm; on a non-&plasma; desktop?"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5070
+#: index.docbook:5081
 #, no-c-format
 msgid "To run &kalarm; on a non-&plasma; desktop, the main requirement is to ensure that &kalarm; is run automatically whenever you log in. More detailed instructions are contained in the <filename>INSTALL</filename> file which is distributed with &kalarm;."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:5084
+#: index.docbook:5095
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5086
+#: index.docbook:5097
 #, no-c-format
 msgid "&kalarm;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:5089
+#: index.docbook:5100
 #, no-c-format
 msgid "Program copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 &David.Jarvie; &David.Jarvie.mail;"
 msgstr ""
@@ -6148,7 +6197,7 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:5093
+#: index.docbook:5104
 #, no-c-format
 msgid "Documentation copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 &David.Jarvie; &David.Jarvie.mail;"
 msgstr ""
@@ -6162,21 +6211,21 @@ msgstr ""
 
 #. Tag: trans_comment
 #. +> trunk6 stable6
-#: index.docbook:5097
+#: index.docbook:5108
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
 #. +> trunk6 stable6
-#: index.docbook:5097
+#: index.docbook:5108
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:5103
+#: index.docbook:5114
 #, no-c-format
 msgid "Thanks go to the author of the &kde; 1 KAlarm application, Stefan Nikolaus <email>stefan.nikolaus@stuco.uni-oldenburg.de</email>, who kindly agreed to allow the name &kalarm; to be used by this application, which has been available for &kde; 2 onwards."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-04 09:40+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -23,31 +23,66 @@ msgstr ""
 msgid "This module lets you configure the file indexer and search functionality."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Pause Indexer"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:44
 #, kde-format
 msgid "Pause Indexer"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Resume Indexer"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:44
 #, kde-format
 msgid "Resume Indexer"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:61
+#, kde-format
+msgctxt "@info inlinemessage"
+msgid "This will disable file searching in KRunner and launcher menus, and remove extended metadata display from all KDE applications."
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:61
 #, kde-format
 msgid "This will disable file searching in KRunner and launcher menus, and remove extended metadata display from all KDE applications."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:71
+#, kde-format
+msgctxt "@info inlinemessage"
+msgid "Do you want to delete the saved index data? %1 of space will be freed, but if indexing is re-enabled later, the entire index will have to be re-created from scratch. This may take some time, depending on how many files you have."
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:71
 #, kde-format
 msgid "Do you want to delete the saved index data? %1 of space will be freed, but if indexing is re-enabled later, the entire index will have to be re-created from scratch. This may take some time, depending on how many files you have."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Index Data"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:73
 #, kde-format
 msgid "Delete Index Data"
@@ -65,7 +100,14 @@ msgstr ""
 msgid "Delete entry"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:91
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "File Search helps you quickly locate your files. You can choose which folders and what types of file data are indexed."
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:91
 #, kde-format
 msgid "File Search helps you quickly locate your files. You can choose which folders and what types of file data are indexed."
@@ -107,25 +149,15 @@ msgstr ""
 #. +> trunk6
 #: ui/main.qml:109
 #, kde-format
+msgctxt "@option:radio Data to index"
 msgid "Nothing (disable indexing entirely)"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:121
 #, kde-format
+msgctxt "@option:radio Data to index"
 msgid "File names only"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:136
-#, kde-format
-msgid "File names and contents"
-msgstr ""
-
-#. +> trunk6
-#: ui/main.qml:157
-#, kde-format
-msgid "Also index hidden files and folders"
 msgstr ""
 
 #. +> stable5
@@ -134,16 +166,42 @@ msgstr ""
 msgid "Also index file content"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/main.qml:136
+#. +> stable6
+#: ui/main.qml:137
 #, kde-format
-msgid "Index hidden files and folders"
+msgid "File names only"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:136
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "File names and contents"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:124
+#, kde-format
+msgid "File names and contents"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@option:check"
+msgid "Also index hidden files and folders"
 msgstr ""
 
 #. +> stable6
 #: ui/main.qml:156
 #, kde-format
 msgid "Hidden files and folders"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:136
+#, kde-format
+msgid "Index hidden files and folders"
 msgstr ""
 
 #. +> stable5
@@ -218,14 +276,28 @@ msgctxt "@info Currently Indexing"
 msgid "Currently indexing: <filename>%1</filename>"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:270
+#, kde-format
+msgctxt "@info:status"
+msgid "Not indexed"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:271
 #, kde-format
 msgid "Not indexed"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:271
+#, kde-format
+msgctxt "@info:status"
+msgid "Indexed"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:272
 #, kde-format
 msgid "Indexed"
 msgstr ""
@@ -237,14 +309,28 @@ msgctxt "Remove the list item for this filesystem path"
 msgid "Remove entry"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:318
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a folder to include"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:317
 #, kde-format
 msgid "Select a folder to include"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:318
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a folder to exclude"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:317
 #, kde-format
 msgid "Select a folder to exclude"
 msgstr ""

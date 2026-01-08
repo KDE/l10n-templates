@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-03 08:09+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -55,8 +55,15 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: app/ui/CategoryPage.qml:112
+#, kde-format
+msgctxt "@action:button clear emoji history"
+msgid "Clear History"
+msgstr ""
+
+#. +> stable6 stable5
+#: app/ui/CategoryPage.qml:111
 #, kde-format
 msgid "Clear History"
 msgstr ""
@@ -73,6 +80,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:page All emojis"
 msgid "All"
+msgstr ""
+
+#. +> stable6 stable5
+#: app/ui/CategoryPage.qml:140 app/ui/CategoryPage.qml:148
+#: app/ui/Emojier.qml:45
+#, kde-format
+msgid "%1 copied to the clipboard"
 msgstr ""
 
 #. +> trunk6
@@ -173,8 +187,15 @@ msgctxt "@item:inmenu"
 msgid "Copy Description"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: app/ui/CategoryPage.qml:368
+#, kde-format
+msgctxt "@label placeholder for empty recent emoji list"
+msgid "No recent Emojis"
+msgstr ""
+
+#. +> stable6 stable5
+#: app/ui/CategoryPage.qml:235
 #, kde-format
 msgid "No recent Emojis"
 msgstr ""
@@ -186,14 +207,22 @@ msgctxt "@label placeholder for no emoji found in category"
 msgid "No matching emoji found"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: app/ui/Emojier.qml:44
 #, kde-format
+msgctxt "@info:status passive notification as action feedback"
 msgid "%1 copied to the clipboard"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: app/ui/Emojier.qml:58
+#, kde-format
+msgctxt "@title page title for Recent Emoji view, and sidebar label for it"
+msgid "Recent"
+msgstr ""
+
+#. +> stable6 stable5
+#: app/ui/Emojier.qml:51
 #, kde-format
 msgid "Recent"
 msgstr ""

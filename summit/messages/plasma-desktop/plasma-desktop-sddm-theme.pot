@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-04 11:38+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,27 +17,63 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: KeyboardButton.qml:19
+msgctxt "@action:button opens layout chooser %1 is current"
+msgid "Keyboard Layout: %1"
+msgstr ""
+
+#. +> stable6 stable5
 #: KeyboardButton.qml:19
 msgid "Keyboard Layout: %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: Login.qml:86
+msgctxt "@info:placeholder in textfield"
+msgid "Username"
+msgstr ""
+
+#. +> stable6 stable5
 #: Login.qml:86
 msgid "Username"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: Login.qml:103
+msgctxt "@info:placeholder in textfield"
+msgid "Password"
+msgstr ""
+
+#. +> stable6 stable5
 #: Login.qml:103
 msgid "Password"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: Login.qml:145
+msgctxt "@action:button Accessible name"
+msgid "Log in"
+msgstr ""
+
+#. +> trunk6
+#: Login.qml:151
+msgctxt "@action:button"
+msgid "Log In"
+msgstr ""
+
+#. +> stable6 stable5
 #: Login.qml:145 Login.qml:151
 msgid "Log In"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: Main.qml:200
+msgctxt "@info:status"
+msgid "Caps Lock is on"
+msgstr ""
+
+#. +> stable6 stable5
 #: Main.qml:200
 msgid "Caps Lock is on"
 msgstr ""
@@ -60,32 +96,56 @@ msgstr ""
 msgid "Hibernate"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: Main.qml:218 Main.qml:357
+msgctxt "@action:button Suspend to RAM"
+msgid "Sleep"
+msgstr ""
+
+#. +> stable6 stable5
 #: Main.qml:218 Main.qml:357
 msgctxt "Suspend to RAM"
 msgid "Sleep"
+msgstr ""
+
+#. +> trunk6
+#: Main.qml:224 Main.qml:363
+msgctxt "@action:button"
+msgid "Restart"
+msgstr ""
+
+#. +> stable6 stable5
+#: Main.qml:224 Main.qml:363
+msgid "Restart"
+msgstr ""
+
+#. +> trunk6
+#: Main.qml:230 Main.qml:369
+msgctxt "@action:button"
+msgid "Shut Down"
+msgstr ""
+
+#. +> stable6 stable5
+#: Main.qml:230 Main.qml:369
+msgid "Shut Down"
+msgstr ""
+
+#. +> trunk6
+#: Main.qml:236
+msgctxt "@action:button For switching to a username and password prompt"
+msgid "Other…"
+msgstr ""
+
+#. +> stable6 stable5
+#: Main.qml:236
+msgctxt "For switching to a username and password prompt"
+msgid "Other…"
 msgstr ""
 
 #. +> stable5
 #: contents/lockscreen/LockScreenUi.qml:332
 #, kde-format
 msgid "Sleep"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: Main.qml:224 Main.qml:363
-msgid "Restart"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: Main.qml:230 Main.qml:369
-msgid "Shut Down"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: Main.qml:236
-msgctxt "For switching to a username and password prompt"
-msgid "Other…"
 msgstr ""
 
 #. +> stable5
@@ -100,12 +160,24 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: Main.qml:343
+msgctxt "@info:usagetip"
+msgid "Type in Username and Password"
+msgstr ""
+
+#. +> stable6 stable5
 #: Main.qml:343
 msgid "Type in Username and Password"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: Main.qml:375
+msgctxt "@action:button"
+msgid "List Users"
+msgstr ""
+
+#. +> stable6 stable5
 #: Main.qml:375
 msgid "List Users"
 msgstr ""
@@ -122,7 +194,13 @@ msgctxt "Button to show/hide virtual keyboard"
 msgid "Virtual Keyboard"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: Main.qml:516
+msgctxt "@info:status"
+msgid "Login Failed"
+msgstr ""
+
+#. +> stable6 stable5
 #: Main.qml:516
 msgid "Login Failed"
 msgstr ""
@@ -158,7 +236,13 @@ msgctxt "Button to change keyboard layout"
 msgid "Switch layout"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: SessionButton.qml:18
+msgctxt "@action:button opens sessions menu %1 is current"
+msgid "Desktop Session: %1"
+msgstr ""
+
+#. +> stable6 stable5
 #: SessionButton.qml:18
 msgid "Desktop Session: %1"
 msgstr ""

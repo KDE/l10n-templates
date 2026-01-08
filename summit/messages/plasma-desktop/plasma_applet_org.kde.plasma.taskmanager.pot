@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-09 09:22+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -124,15 +124,17 @@ msgctxt "Over 9999 new messages, overlay, keep short"
 msgid "9,999+"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/config.qml:13
 #, kde-format
+msgctxt "@title:group for configuration dialog page"
 msgid "Appearance"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/config.qml:18
 #, kde-format
+msgctxt "@title:group for configuration dialog page"
 msgid "Behavior"
 msgstr ""
 
@@ -983,20 +985,41 @@ msgctxt "@option:check completes sentence: New tasks appear"
 msgid "On the top"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:100
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Places"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:102
 #, kde-format
 msgid "Places"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:106
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Recent Files"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:108
 #, kde-format
 msgid "Recent Files"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:116
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Actions"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:118
 #, kde-format
 msgid "Actions"
 msgstr ""
@@ -1050,34 +1073,76 @@ msgctxt "Open or bring to the front window of media player app"
 msgid "Restore"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:266
+#, kde-format
+msgctxt "@option:check inmenu, no separate unmute action"
+msgid "Mute"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:268
 #, kde-format
 msgid "Mute"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:277
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Open New Window"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:279
 #, kde-format
 msgid "Open New Window"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:293
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move to &Desktop"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:295
 #, kde-format
 msgid "Move to &Desktop"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:323
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move &To Current Desktop"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:325
 #, kde-format
 msgid "Move &To Current Desktop"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:332
 #, kde-format
+msgctxt "action:inmenu"
 msgid "&All Desktops"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:334
+#, kde-format
+msgid "&All Desktops"
+msgstr ""
+
+#. +> trunk6
+#: qml/ContextMenu.qml:360
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&New Desktop"
 msgstr ""
 
 #. +> stable5
@@ -1087,110 +1152,230 @@ msgctxt "1 = number of desktop, 2 = desktop name"
 msgid "&%1 %2"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: qml/ContextMenu.qml:360
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:362
 #, kde-format
 msgid "&New Desktop"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:380
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Show in &Activities"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:382
 #, kde-format
 msgid "Show in &Activities"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:404
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Add To Current Activity"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:406
 #, kde-format
 msgid "Add To Current Activity"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:414
+#, kde-format
+msgctxt "action:inmenu"
+msgid "All Activities"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:416
 #, kde-format
 msgid "All Activities"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:470
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move to %1"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:472
 #, kde-format
 msgid "Move to %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:496 qml/ContextMenu.qml:512
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Pin to Task Manager"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:498
+#: package/contents/ui/ContextMenu.qml:514
 #, kde-format
 msgid "&Pin to Task Manager"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:564
+#, kde-format
+msgctxt "action:inmenu"
+msgid "On All Activities"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:566
 #, kde-format
 msgid "On All Activities"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:570
+#, kde-format
+msgctxt "action:inmenu"
+msgid "On The Current Activity"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:572
 #, kde-format
 msgid "On The Current Activity"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:594
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Unpin from Task Manager"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:596
 #, kde-format
 msgid "Unpin from Task Manager"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:609
+#, kde-format
+msgctxt "item:inmenu opens submenu"
+msgid "More"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:611
 #, kde-format
 msgid "More"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:618
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Move"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:620
 #, kde-format
 msgid "&Move"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:627
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Re&size"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:629
 #, kde-format
 msgid "Re&size"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:641
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Ma&ximize"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:643
 #, kde-format
 msgid "Ma&ximize"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:655
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Mi&nimize"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:657
 #, kde-format
 msgid "Mi&nimize"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:665
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Keep &Above Others"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:667
 #, kde-format
 msgid "Keep &Above Others"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:675
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Keep &Below Others"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:677
 #, kde-format
 msgid "Keep &Below Others"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:687
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Fullscreen"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:689
 #, kde-format
 msgid "&Fullscreen"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:700
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Shade"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:701
 #, kde-format
 msgid "&Shade"
 msgstr ""
@@ -1209,21 +1394,42 @@ msgctxt "@action:inmenu"
 msgid "&Hide from Screencast"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:741
+#, kde-format
+msgctxt "@option:check inmenu"
+msgid "Allow this program to be grouped"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:729
 #, kde-format
 msgid "Allow this program to be grouped"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: qml/ContextMenu.qml:787
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Close All"
+msgstr ""
+
+#. +> stable6
+#: package/contents/ui/ContextMenu.qml:775
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "&Close All"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ContextMenu.qml:787
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Close"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ContextMenu.qml:775
 #, kde-format
 msgid "&Close"
 msgstr ""
@@ -1265,8 +1471,15 @@ msgctxt "@info:usagetip %1 task name"
 msgid "Open textual list of windows for %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/Task.qml:179
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Activate %1"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/Task.qml:182
 #, kde-format
 msgid "Activate %1"
 msgstr ""
@@ -1346,4 +1559,16 @@ msgstr ""
 #, kde-format
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/config/config.qml:18
+#, kde-format
+msgid "Behavior"
 msgstr ""

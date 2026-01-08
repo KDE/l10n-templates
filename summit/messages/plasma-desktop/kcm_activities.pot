@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-23 10:37+0200\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -65,34 +65,69 @@ msgctxt "@label:textbox"
 msgid "Description:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ActivityEditor.qml:84
+#, kde-format
+msgctxt "@title:group for checkbox group"
+msgid "While on this activity, allow:"
+msgstr ""
+
+#. +> stable6
 #: ui/ActivityEditor.qml:84
 #, kde-format
 msgctxt "@option:check"
 msgid "While on this activity, allow:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ActivityEditor.qml:85
+#, kde-format
+msgctxt "@option:check While on activity, allow"
+msgid "Tracking file and app use"
+msgstr ""
+
+#. +> stable6
 #: ui/ActivityEditor.qml:85
 #, kde-format
 msgid "Tracking file and app use"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ActivityEditor.qml:91
+#, kde-format
+msgctxt "@option:check While on activity, allow"
+msgid "Automatically turning off the screen"
+msgstr ""
+
+#. +> stable6
 #: ui/ActivityEditor.qml:91
 #, kde-format
 msgctxt "@option:check"
 msgid "Automatically turning off the screen"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/ActivityEditor.qml:97
+#, kde-format
+msgctxt "@option:check While on activity, allow"
+msgid "Automatically shutting down or sleeping"
+msgstr ""
+
+#. +> stable6
 #: ui/ActivityEditor.qml:97
 #, kde-format
 msgctxt "@option:check"
 msgid "Automatically shutting down or sleeping"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/ActivityEditor.qml:103
+#, kde-format
+msgctxt "@label prefix for keyboard shortcut input button"
+msgid "Shortcut for switching:"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/ActivityEditor.qml:103
 #, kde-format
 msgid "Shortcut for switching:"
@@ -105,7 +140,14 @@ msgctxt "@info:tooltip"
 msgid "Delete %1 activity"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: ui/main.qml:74
+#, kde-format
+msgctxt "@action:button Create new Activity"
+msgid "Create New…"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:74
 #, kde-format
 msgid "Create New…"
@@ -118,6 +160,12 @@ msgctxt "@title:window"
 msgid "Delete Activity"
 msgstr ""
 
+#. +> stable6
+#: ui/main.qml:94
+#, kde-format
+msgid "Delete Activity"
+msgstr ""
+
 #. +> trunk6 stable6
 #: ui/main.qml:87
 #, kde-format
@@ -125,9 +173,10 @@ msgctxt "%1 is an activity name"
 msgid "Do you want to delete activity '%1'?"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:94
 #, kde-format
+msgctxt "@action:button in dialog confirms deletion"
 msgid "Delete Activity"
 msgstr ""
 

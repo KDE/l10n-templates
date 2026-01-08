@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-08 11:37+0100\n"
+"POT-Creation-Date: 2026-01-08 06:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -24,33 +24,38 @@ msgctxt "@title page"
 msgid "Appearance"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ConfigAppearance.qml:23
 #, kde-format
+msgctxt "@title:group prefix for radiobutton group"
 msgid "Icon:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ConfigAppearance.qml:25
 #, kde-format
+msgctxt "@option:radio"
 msgid "Show the current activity icon"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ConfigAppearance.qml:31
 #, kde-format
+msgctxt "@option:radio"
 msgid "Show the generic activity icon"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ConfigAppearance.qml:41
 #, kde-format
+msgctxt "@label prefix for checkbox"
 msgid "Title:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/ConfigAppearance.qml:43
 #, kde-format
+msgctxt "@option:check title"
 msgid "Show the current activity name"
 msgstr ""
 
@@ -61,15 +66,17 @@ msgctxt "@info:tooltip"
 msgid "Current activity is %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/main.qml:76
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Show Activity Manager"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: qml/main.qml:77
 #, kde-format
+msgctxt "@info:tooltip subtext"
 msgid "Click to show the activity manager"
 msgstr ""
 
@@ -84,4 +91,46 @@ msgstr ""
 #: package/contents/config/config.qml:13
 #, kde-format
 msgid "Appearance"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ConfigAppearance.qml:23
+#, kde-format
+msgid "Icon:"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ConfigAppearance.qml:25
+#, kde-format
+msgid "Show the current activity icon"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ConfigAppearance.qml:31
+#, kde-format
+msgid "Show the generic activity icon"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ConfigAppearance.qml:41
+#, kde-format
+msgid "Title:"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/ConfigAppearance.qml:43
+#, kde-format
+msgid "Show the current activity name"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/main.qml:76
+#, kde-format
+msgid "Show Activity Manager"
+msgstr ""
+
+#. +> stable6 stable5
+#: package/contents/ui/main.qml:77
+#, kde-format
+msgid "Click to show the activity manager"
 msgstr ""
