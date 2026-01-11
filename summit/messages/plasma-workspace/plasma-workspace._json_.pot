@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-09 07:22+0100\n"
+"POT-Creation-Date: 2026-01-11 08:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -113,7 +113,7 @@ msgid "Fushan Wen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/clipboard/metadata.json klipper/plasma-dataengine-clipboard.json
+#: applets/clipboard/metadata.json
 msgctxt "Name"
 msgid "Clipboard"
 msgstr ""
@@ -125,7 +125,7 @@ msgid "Provides access to the clipboard history"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/clipboard/metadata.json klipper/plasma-dataengine-clipboard.json
+#: applets/clipboard/metadata.json
 msgctxt "Authors Name"
 msgid "Martin Gräßlin"
 msgstr ""
@@ -503,42 +503,6 @@ msgstr ""
 #: containmentactions/switchwindow/plasma-containmentactions-switchwindow.json
 msgctxt "Description"
 msgid "Show a list of windows to switch to"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
-msgctxt "Name"
-msgid "Application Job Information"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
-msgctxt "Description"
-msgid "Application job updates (via kuiserver)"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: dataengines/executable/plasma-dataengine-executable.json
-msgctxt "Name"
-msgid "Run Commands"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: dataengines/executable/plasma-dataengine-executable.json
-msgctxt "Description"
-msgid "Run Executable Data Engine"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: dataengines/notifications/plasma-dataengine-notifications.json
-msgctxt "Name"
-msgid "Application Notifications"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: dataengines/notifications/plasma-dataengine-notifications.json
-msgctxt "Description"
-msgid "Passive visual notifications for the user."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -974,12 +938,6 @@ msgid "Monitors directories for changes"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: klipper/plasma-dataengine-clipboard.json
-msgctxt "Description"
-msgid "Clipboard Tool."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
 #: ktimezoned/ktimezoned.json
 msgctxt "Name"
 msgid "Time Zone"
@@ -1364,6 +1322,42 @@ msgid "Access hidden applications minimized in the system tray"
 msgstr ""
 
 #. +> stable6 stable5
+#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
+msgctxt "Name"
+msgid "Application Job Information"
+msgstr ""
+
+#. +> stable6 stable5
+#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
+msgctxt "Description"
+msgid "Application job updates (via kuiserver)"
+msgstr ""
+
+#. +> stable6 stable5
+#: dataengines/executable/plasma-dataengine-executable.json
+msgctxt "Name"
+msgid "Run Commands"
+msgstr ""
+
+#. +> stable6 stable5
+#: dataengines/executable/plasma-dataengine-executable.json
+msgctxt "Description"
+msgid "Run Executable Data Engine"
+msgstr ""
+
+#. +> stable6 stable5
+#: dataengines/notifications/plasma-dataengine-notifications.json
+msgctxt "Name"
+msgid "Application Notifications"
+msgstr ""
+
+#. +> stable6 stable5
+#: dataengines/notifications/plasma-dataengine-notifications.json
+msgctxt "Description"
+msgid "Passive visual notifications for the user."
+msgstr ""
+
+#. +> stable6 stable5
 #: dataengines/time/plasma-dataengine-time.json
 msgctxt "Name"
 msgid "Date and Time"
@@ -1379,6 +1373,12 @@ msgstr ""
 #: dataengines/time/plasma-dataengine-time.json
 msgctxt "Authors Name"
 msgid "Aaron Seigo"
+msgstr ""
+
+#. +> stable6 stable5
+#: klipper/plasma-dataengine-clipboard.json
+msgctxt "Description"
+msgid "Clipboard Tool."
 msgstr ""
 
 #. +> stable6 stable5

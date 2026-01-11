@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-03 08:08+0100\n"
+"POT-Creation-Date: 2026-01-11 08:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -60,8 +60,14 @@ msgstr ""
 msgid "Export Search Result Matches"
 msgstr ""
 
+#. +> trunk6
+#: MatchExportDialog.cpp:21
+#, kde-format
+msgid "Export pattern: \\0 for full match, \\1,\\2,.. for regular expression captures"
+msgstr ""
+
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, exportPatternText)
-#. +> trunk6 stable6
+#. +> stable6
 #: MatchExportDialog.ui:31
 #, kde-format
 msgid "Export Pattern"
@@ -69,14 +75,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #. +> trunk6 stable6
-#: MatchExportDialog.ui:38
+#: MatchExportDialog.ui:35
 #, kde-format
 msgid "Generate"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QPlainTextEdit, exportResultText)
 #. +> trunk6 stable6
-#: MatchExportDialog.ui:50
+#: MatchExportDialog.ui:47
 #, kde-format
 msgid "Result"
 msgstr ""
@@ -690,109 +696,115 @@ msgid "Find"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:1172
+#: SearchPlugin.cpp:1171
 #, kde-format
 msgid "Search was not started as directory '%1' to search in doesn't exist."
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:1345
+#: SearchPlugin.cpp:1344
 #, kde-format
 msgid "Searching while you type was interrupted. It would have taken too long."
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:1678
+#: SearchPlugin.cpp:1677
 #, kde-format
 msgid "Search Match"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:1855 SearchPlugin.cpp:1931
+#: SearchPlugin.cpp:1854 SearchPlugin.cpp:1930
 #, kde-format
 msgid "Next from cursor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:1872
+#: SearchPlugin.cpp:1871
 #, kde-format
 msgid "Starting from first match"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:1892
+#: SearchPlugin.cpp:1891
 #, kde-format
 msgid "Continuing from first match"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:1948
+#: SearchPlugin.cpp:1947
 #, kde-format
 msgid "Starting from last match"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:1968
+#: SearchPlugin.cpp:1967
 #, kde-format
 msgid "Continuing from last match"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2129
+#: SearchPlugin.cpp:2128
 #, kde-format
 msgid "Search: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2272
+#: SearchPlugin.cpp:2271
 #, kde-format
 msgid "Copy all"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2277
+#: SearchPlugin.cpp:2276
 #, kde-format
 msgid "Copy expanded"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2280
+#: SearchPlugin.cpp:2279
 #, kde-format
 msgid "Export matches"
 msgstr ""
 
+#. +> trunk6
+#: SearchPlugin.cpp:2280
+#, kde-format
+msgid "Transform and export search matches using a replacement pattern. To export the whole matches, use \\0. To export regular expression captures, use \\1,\\2,... The other text in the pattern is returned in the export results."
+msgstr ""
+
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2285
+#: SearchPlugin.cpp:2283
 #, kde-format
 msgid "Open as Editor Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2293
+#: SearchPlugin.cpp:2291
 #, kde-format
 msgid "Clear"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2403 SearchPlugin.cpp:2437
+#: SearchPlugin.cpp:2401 SearchPlugin.cpp:2435
 #, kde-format
 msgid "Add..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2415
+#: SearchPlugin.cpp:2413
 #, kde-format
 msgid "Search As You Type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2486
+#: SearchPlugin.cpp:2484
 #, kde-format
 msgid "In Current Project"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SearchPlugin.cpp:2488
+#: SearchPlugin.cpp:2486
 #, kde-format
 msgid "In All Open Projects"
 msgstr ""
