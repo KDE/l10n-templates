@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 10:02+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1080,7 +1080,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/app/qml/NotificationsView.qml:20 src/rooms/SpaceDrawer.qml:70
-#: src/settings/RoomSettingsView.qml:71
+#: src/settings/RoomSettingsView.qml:82
 #, kde-format
 msgctxt "@title"
 msgid "Notifications"
@@ -2638,7 +2638,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: src/libneochat/enums/powerlevel.cpp:98
 #: src/libneochat/models/userlistmodel.cpp:120
-#: src/settings/models/permissionsmodel.cpp:185
+#: src/settings/models/permissionsmodel.cpp:222
 #, kde-format
 msgctxt "%1 is the name of the power level, e.g. admin and %2 is the value that represents."
 msgid "%1 (%2)"
@@ -6312,145 +6312,233 @@ msgctxt "@info:label"
 msgid "Go to Next Unread Room"
 msgstr ""
 
+#. +> trunk6
+#: src/settings/Members.qml:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Members"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/Members.qml:32
+#, kde-format
+msgctxt "@title"
+msgid "Privileged Members"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/Members.qml:169
+#, kde-format
+msgctxt "@info"
+msgid "No users found."
+msgstr ""
+
 #. +> trunk6 stable6
+#: src/settings/Members.qml:244 src/settings/Permissions.qml:302
+#, kde-format
+msgctxt "@placeholder"
+msgid "Loading…"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:61
+msgctxt "Room permission type"
+msgid "Default power level"
+msgstr ""
+
+#. +> stable6
 #: src/settings/models/permissionsmodel.cpp:57
 msgctxt "Room permission type"
 msgid "Default user power level"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:62
+msgctxt "Room permission type"
+msgid "Default power level to change room state"
+msgstr ""
+
+#. +> stable6
 #: src/settings/models/permissionsmodel.cpp:58
 msgctxt "Room permission type"
 msgid "Default power level to set the room state"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:59
+#: src/settings/models/permissionsmodel.cpp:63
 msgctxt "Room permission type"
 msgid "Default power level to send messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:60
+#: src/settings/models/permissionsmodel.cpp:64
 msgctxt "Room permission type"
 msgid "Invite users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:61
+#: src/settings/models/permissionsmodel.cpp:65
 msgctxt "Room permission type"
 msgid "Kick users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:62
+#: src/settings/models/permissionsmodel.cpp:66
 msgctxt "Room permission type"
 msgid "Ban users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:63
+#: src/settings/models/permissionsmodel.cpp:67
 msgctxt "Room permission type"
 msgid "Remove messages sent by other users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:64
+#: src/settings/models/permissionsmodel.cpp:68
 msgctxt "Room permission type"
 msgid "Send reactions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:65
+#: src/settings/models/permissionsmodel.cpp:69
 msgctxt "Room permission type"
 msgid "Remove their own messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:66
+#: src/settings/models/permissionsmodel.cpp:70
 msgctxt "Room permission type"
 msgid "Change user permissions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:67
+#: src/settings/models/permissionsmodel.cpp:71
 msgctxt "Room permission type"
 msgid "Change the room name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:68
+#: src/settings/models/permissionsmodel.cpp:72
 msgctxt "Room permission type"
 msgid "Change the room avatar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:69
+#: src/settings/models/permissionsmodel.cpp:73
 msgctxt "Room permission type"
 msgid "Change the room canonical alias"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:70
+#: src/settings/models/permissionsmodel.cpp:74
 msgctxt "Room permission type"
 msgid "Change the room topic"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:71
+#: src/settings/models/permissionsmodel.cpp:75
 msgctxt "Room permission type"
 msgid "Enable encryption for the room"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:72
+#: src/settings/models/permissionsmodel.cpp:76
 msgctxt "Room permission type"
 msgid "Change the room history visibility"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:73
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:77
 msgctxt "Room permission type"
-msgid "Set pinned events"
+msgid "Pin and unpin messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:74
+#: src/settings/models/permissionsmodel.cpp:78
 msgctxt "Room permission type"
 msgid "Upgrade the room"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:75
+#: src/settings/models/permissionsmodel.cpp:79
 msgctxt "Room permission type"
 msgid "Set the room server access control list (ACL)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:76
+#: src/settings/models/permissionsmodel.cpp:80
 msgctxt "Room permission type"
 msgid "Set the children of this space"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/models/permissionsmodel.cpp:77
+#: src/settings/models/permissionsmodel.cpp:81
 msgctxt "Room permission type"
 msgid "Set the parent space of this room"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:82
+msgctxt "Room permission type"
+msgid "Send live location updates"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:83
+msgctxt "Room permission type"
+msgid "Start polls"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:84
+msgctxt "Room permission type"
+msgid "Vote in polls"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:85
+msgctxt "Room permission type"
+msgid "Close polls"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:90
+msgctxt "Room permission type"
+msgid "This is the power level for all new users when joining the room."
+msgstr ""
+
+#. +> stable6
 #: src/settings/models/permissionsmodel.cpp:82
 msgctxt "Room permission type"
 msgid "This is the power level for all new users when joining the room"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:91
+msgctxt "Room permission type"
+msgid "This is used for all state-type events that do not have their own entry."
+msgstr ""
+
+#. +> stable6
 #: src/settings/models/permissionsmodel.cpp:83
 msgctxt "Room permission type"
 msgid "This is used for all state events that do not have their own entry here"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/settings/models/permissionsmodel.cpp:92
+msgctxt "Room permission type"
+msgid "This is used for all message-type events that do not have their own entry."
+msgstr ""
+
+#. +> stable6
+#: src/settings/models/permissionsmodel.cpp:73
+msgctxt "Room permission type"
+msgid "Set pinned events"
+msgstr ""
+
+#. +> stable6
 #: src/settings/models/permissionsmodel.cpp:84
 msgctxt "Room permission type"
 msgid "This is used for all message events that do not have their own entry here"
@@ -7103,28 +7191,64 @@ msgctxt "@label:textbox"
 msgid "Password:"
 msgstr ""
 
+#. +> trunk6
+#: src/settings/Permissions.qml:36
+#, kde-format
+msgctxt "@title"
+msgid "Power Levels"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/Permissions.qml:75
+#, kde-format
+msgctxt "@title"
+msgid "Messages"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/Permissions.qml:114
+#, kde-format
+msgctxt "@title"
+msgid "Moderation"
+msgstr ""
+
 #. +> trunk6 stable6
+#: src/settings/Permissions.qml:153 src/settings/RoomGeneralPage.qml:24
+#: src/settings/RoomSettingsView.qml:37
+#, kde-format
+msgctxt "@title"
+msgid "General"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/Permissions.qml:192
+#, kde-format
+msgctxt "@title"
+msgid "Other Events"
+msgstr ""
+
+#. +> stable6
 #: src/settings/Permissions.qml:36
 #, kde-format
 msgctxt "@title"
 msgid "Privileged Users"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/settings/Permissions.qml:233
 #, kde-format
 msgctxt "@title"
 msgid "Default permissions"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/settings/Permissions.qml:273
 #, kde-format
 msgctxt "@title"
 msgid "Basic permissions"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/settings/Permissions.qml:313
 #, kde-format
 msgctxt "@title"
@@ -7132,24 +7256,17 @@ msgid "Event permissions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/Permissions.qml:360
+#: src/settings/Permissions.qml:250
 #, kde-format
 msgctxt "@placeholder"
 msgid "Event Type…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/Permissions.qml:386
+#: src/settings/Permissions.qml:276
 #, kde-format
 msgctxt "@action:button"
 msgid "Add keyword"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/Permissions.qml:412
-#, kde-format
-msgctxt "@placeholder"
-msgid "Loading…"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -7246,13 +7363,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Confirm"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/RoomGeneralPage.qml:24 src/settings/RoomSettingsView.qml:37
-#, kde-format
-msgctxt "@title"
-msgid "General"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -7710,22 +7820,29 @@ msgctxt "@title:window"
 msgid "Room Settings"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/settings/RoomSettingsView.qml:60
+#, kde-format
+msgctxt "@title"
+msgid "Members"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/settings/RoomSettingsView.qml:71
 #, kde-format
 msgctxt "@title"
 msgid "Permissions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomSettingsView.qml:82
+#: src/settings/RoomSettingsView.qml:93
 #, kde-format
 msgctxt "@title"
 msgid "Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/RoomSettingsView.qml:93
+#: src/settings/RoomSettingsView.qml:104
 #, kde-format
 msgctxt "@title"
 msgid "Advanced"

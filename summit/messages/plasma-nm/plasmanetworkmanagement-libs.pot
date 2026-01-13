@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-07 06:48+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -46,23 +46,16 @@ msgstr ""
 msgid "Access Point (SSID)"
 msgstr ""
 
-#. +> trunk6 stable6
-#: editor/connectiondetails.cpp:136
-#, kde-format
-msgid "Signal Strength"
-msgstr ""
-
-#. +> trunk6
-#: editor/connectiondetails.cpp:136
-#, kde-format
-msgctxt "Wi-Fi signal strength percentage indicator"
-msgid "%1%"
-msgstr ""
-
 #. +> stable5
 #: models/networkmodelitem.cpp:646
 #, kde-format
 msgid "Access point (SSID)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/connectiondetails.cpp:136
+#, kde-format
+msgid "Signal Strength"
 msgstr ""
 
 #. +> stable5
@@ -71,16 +64,10 @@ msgstr ""
 msgid "Signal strength"
 msgstr ""
 
-#. +> stable5
-#: models/networkmodelitem.cpp:650
+#. +> trunk6 stable6
+#: editor/connectiondetails.cpp:136
 #, kde-format
-msgid "Security type"
-msgstr ""
-
-#. +> stable6
-#: models/networkmodelitem.cpp:656
-#, kde-format
-msgctxt "WiFi signal strength percentage indicator"
+msgctxt "Wi-Fi signal strength percentage indicator"
 msgid "%1%"
 msgstr ""
 
@@ -88,6 +75,12 @@ msgstr ""
 #: editor/connectiondetails.cpp:141 editor/connectiondetails.cpp:151
 #, kde-format
 msgid "Security Type"
+msgstr ""
+
+#. +> stable5
+#: models/networkmodelitem.cpp:650
+#, kde-format
+msgid "Security type"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -157,6 +150,12 @@ msgstr ""
 #: editor/connectiondetails.cpp:214 editor/connectiondetails.cpp:235
 #, kde-format
 msgid "VPN Plugin"
+msgstr ""
+
+#. +> stable5
+#: models/networkmodelitem.cpp:686
+#, kde-format
+msgid "VPN plugin"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -263,7 +262,7 @@ msgstr ""
 msgid "Device"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editor/connectiondetails.cpp:316
 #, kde-format
 msgid "General"
@@ -335,7 +334,7 @@ msgstr ""
 msgid "IPv6"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editor/connectioneditorbase.cpp:204
 #, kde-format
 msgctxt "@title:tab Connection status and details"
@@ -544,7 +543,7 @@ msgstr ""
 msgid "PAN (personal area network)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editor/settings/connectionstatuswidget.cpp:33
 #, kde-format
 msgid "Disconnected"
@@ -4049,133 +4048,133 @@ msgstr ""
 msgid "Import a saved configuration file"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:42
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Unknown"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:43
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is ADSL"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:44
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Bluetooth"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:45
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Bridge"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:46
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is CDMA"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:47
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is GSM"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:48
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Infiniband"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:49
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is OLPC Mesh"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:50
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is PPOPE"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:51
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is VLAN"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:52
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is VPN"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:53
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Wimax"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:54
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Wired"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:55
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Wireless"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:56
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Team"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:57
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Generic"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:58
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Tunnel"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:59
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is IP Tunnel"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: models/networkmodelitem.cpp:60
 #, kde-format
 msgctxt "@info:tooltip"
@@ -4183,30 +4182,24 @@ msgid "The connection type is WireGuard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/networkmodelitem.cpp:335
+#: models/networkmodelitem.cpp:339
 #, kde-format
 msgctxt "@title:column header for list of available network connections"
 msgid "Available"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/networkmodelitem.cpp:341
+#: models/networkmodelitem.cpp:345
 #, kde-format
 msgctxt "@title:column header for list of connected network connections"
 msgid "Connected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/networkmodelitem.cpp:343
+#: models/networkmodelitem.cpp:347
 #, kde-format
 msgctxt "@title:column header for list of previously connected network connections"
 msgid "Previously Used, Unavailable"
-msgstr ""
-
-#. +> stable5
-#: models/networkmodelitem.cpp:686
-#, kde-format
-msgid "VPN plugin"
 msgstr ""
 
 #. +> trunk6 stable6 stable5

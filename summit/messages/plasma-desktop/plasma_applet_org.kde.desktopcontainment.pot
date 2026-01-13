@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-08 06:13+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,135 +17,162 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/config/config.qml:17
 #, kde-format
 msgctxt "@title:group for configuration dialog page"
 msgid "Location"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: package/contents/config/config.qml:16
 #, kde-format
 msgid "Location"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/config/config.qml:24
 #, kde-format
 msgctxt "@title:group for configuration dialog page"
 msgid "Icons"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: package/contents/config/config.qml:23
-#: package/contents/ui/FolderViewLayer.qml:358
+#: package/contents/ui/FolderViewLayer.qml:435
 #, kde-format
 msgid "Icons"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/config/config.qml:31
 #, kde-format
 msgctxt "@title:group for configuration dialog page"
 msgid "Filter"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: package/contents/config/config.qml:30
 #, kde-format
 msgid "Filter"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/BackButtonItem.qml:105
 #, kde-format
 msgctxt "@action:button"
 msgid "Back"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/BackButtonItem.qml:104
+#. +> stable5
+#: package/contents/ui/BackButtonItem.qml:103
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:63
 #, kde-format
 msgctxt "@label:listbox filter mode"
 msgid "Files:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:63
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:64
 #, kde-format
 msgid "Files:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:64
 #, kde-format
 msgctxt "@item:inlistbox filter mode"
 msgid "Show all"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:64
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:65
 #, kde-format
 msgid "Show all"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:64
 #, kde-format
 msgctxt "@item:inlistbox filter mode"
 msgid "Show matching"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:64
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:65
 #, kde-format
 msgid "Show matching"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:64
 #, kde-format
 msgctxt "@item:inlistbox filter mode"
 msgid "Hide matching"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:64
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:65
 #, kde-format
 msgid "Hide matching"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:69
 #, kde-format
 msgctxt "@label:textbox"
 msgid "File name pattern:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:69
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:70
 #, kde-format
 msgid "File name pattern:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:76
 #, kde-format
 msgctxt "@label:textbox filter list by"
 msgid "File types:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:76
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:77
 #, kde-format
 msgid "File types:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigFilter.qml:82
+#, kde-format
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:83
+#, kde-format
+msgid "Show hidden files:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigFilter.qml:111
+#, kde-format
+msgctxt "@title:column"
+msgid "File Type"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigFilter.qml:112
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
 msgstr ""
 
 #. +> stable5
@@ -154,106 +181,67 @@ msgstr ""
 msgid "File type"
 msgstr ""
 
-#. +> trunk6
-#: package/contents/ui/ConfigFilter.qml:82
-#, kde-format
-msgctxt "@option:check prefix"
-msgid "Show hidden files:"
-msgstr ""
-
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:82
-#, kde-format
-msgid "Show hidden files:"
-msgstr ""
-
-#. +> trunk6
-#: package/contents/ui/ConfigFilter.qml:111
-#, kde-format
-msgctxt "@title:column"
-msgid "File Type"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/ConfigFilter.qml:111
-#, kde-format
-msgid "File Type"
-msgstr ""
-
-#. +> trunk6
-#: package/contents/ui/ConfigFilter.qml:112
-#, kde-format
-msgctxt "@title:column"
-msgid "Description"
-msgstr ""
-
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:112
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:188
 #, kde-format
 msgid "Description"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:182
 #, kde-format
 msgctxt "@action:button tooltip only Select all filetypes"
 msgid "Select All"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:182
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:201
 #, kde-format
 msgid "Select All"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:192
 #, kde-format
 msgctxt "@action:button tooltip only Deselect all filetypes"
 msgid "Deselect All"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigFilter.qml:192
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:211
 #, kde-format
 msgid "Deselect All"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:201
 #, kde-format
 msgctxt "@action:button tooltip only, ascending/descending"
 msgid "Switch Sort Order"
 msgstr ""
 
-#. +> stable6
-#: package/contents/ui/ConfigFilter.qml:201
-#, kde-format
-msgid "Switch Sort Order"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:57
 #, kde-format
 msgctxt "@title:group prefix for checkbox + button"
 msgid "Panel button:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:59
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:63
 #, kde-format
 msgid "Panel button:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:63
 #, kde-format
 msgctxt "@option:check"
 msgid "Use a custom icon"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:65
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:69
 #, kde-format
 msgid "Use a custom icon"
 msgstr ""
@@ -272,15 +260,15 @@ msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:122
 #, kde-format
 msgctxt "@label:listbox columns/rows"
 msgid "Arrangement:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:124
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:128
 #, kde-format
 msgid "Arrangement:"
 msgstr ""
@@ -320,16 +308,10 @@ msgctxt "@item:inlistbox arrangement of icons"
 msgid "Top to Bottom"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:135
 #, kde-format
 msgctxt "@label:listbox, LtR/RtL"
-msgid "Sort Alignment:"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/ConfigIcons.qml:137
-#, kde-format
 msgid "Sort Alignment:"
 msgstr ""
 
@@ -361,36 +343,30 @@ msgctxt "@item:inlistbox alignment of icons"
 msgid "Align right"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:161
 #, kde-format
 msgctxt "@option:check lock icon positions"
 msgid "Lock in place"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:163
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:159
 #, kde-format
 msgid "Lock in place"
-msgstr ""
-
-#. +> trunk6
-#: package/contents/ui/ConfigIcons.qml:175
-#, kde-format
-msgctxt "@label:listbox sort items by field"
-msgid "Sort by:"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/ConfigIcons.qml:177
-#, kde-format
-msgid "Sort by:"
 msgstr ""
 
 #. +> stable5
 #: package/contents/ui/ConfigIcons.qml:173
 #, kde-format
 msgid "Sorting:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:175
+#, kde-format
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -463,56 +439,56 @@ msgctxt "@item:inlistbox show icons in a grid"
 msgid "Grid"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:234
 #, kde-format
 msgctxt "@label:slider"
 msgid "Icon size:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:236
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:232
 #, kde-format
 msgid "Icon size:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:249
 #, kde-format
 msgctxt "@item:inrange smallest icon size"
 msgid "Small"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:251
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:247
 #, kde-format
 msgctxt "@label:slider smallest icon size"
 msgid "Small"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:258
 #, kde-format
 msgctxt "@item:inrange largest icon size"
 msgid "Large"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:260
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:256
 #, kde-format
 msgctxt "@label:slider largest icon size"
 msgid "Large"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:267
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Label width:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:269
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:265
 #, kde-format
 msgid "Label width:"
 msgstr ""
@@ -538,132 +514,132 @@ msgctxt "@item:inlistbox how long a text label should be"
 msgid "Wide"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:280
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Text lines:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:282
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:278
 #, kde-format
 msgid "Text lines:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:296
 #, kde-format
 msgctxt "@title:group prefix for checkbox group"
 msgid "When hovering over icons:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:298
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:294
 #, kde-format
 msgid "When hovering over icons:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:298
 #, kde-format
 msgctxt "@option:check When hovering over icons…"
 msgid "Show tooltips"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:300
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:296
 #, kde-format
 msgid "Show tooltips"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:305
 #, kde-format
 msgctxt "@option:check When hovering over icons…"
 msgid "Show selection markers"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:307
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:303
 #, kde-format
 msgid "Show selection markers"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:312
 #, kde-format
 msgctxt "@option:check When hovering over icons…"
 msgid "Show folder preview popups"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:314
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:310
 #, kde-format
 msgid "Show folder preview popups"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:322
 #, kde-format
 msgctxt "@label prefix for checkbox"
 msgid "Rename:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:324
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:320
 #, kde-format
 msgid "Rename:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:326
 #, kde-format
 msgctxt "@option:check"
 msgid "Rename inline by clicking selected item's text"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:328
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:324
 #, kde-format
 msgid "Rename inline by clicking selected item's text"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:337
 #, kde-format
 msgctxt "@title:group prefix for checkbox and button"
 msgid "Previews:"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:339
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:335
 #, kde-format
 msgid "Previews:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:339
 #, kde-format
 msgctxt "@option:check"
 msgid "Show preview thumbnails"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:341
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:337
 #, kde-format
 msgid "Show preview thumbnails"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:347
 #, kde-format
 msgctxt "@action:button opens dialog"
 msgid "Configure Preview Plugins…"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:349
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:345
 #, kde-format
 msgid "Configure Preview Plugins…"
 msgstr ""
@@ -824,16 +800,16 @@ msgctxt "@info:placeholder custom window title"
 msgid "Enter title…"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: package/contents/ui/ConfigOverlay.qml:91
+#, kde-format
+msgid "Rotate"
+msgstr ""
+
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigOverlay.qml:97
 #, kde-format
 msgctxt "@action:button tooltip rotate widget"
-msgid "Click and drag to rotate"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/ConfigOverlay.qml:98
-#, kde-format
 msgid "Click and drag to rotate"
 msgstr ""
 
@@ -843,59 +819,53 @@ msgstr ""
 msgid "Open Externally"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigOverlay.qml:183
 #, kde-format
 msgctxt "@action:button tooltip hide widget background"
 msgid "Hide Background"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigOverlay.qml:184
+#. +> stable5
+#: package/contents/ui/ConfigOverlay.qml:193
 #, kde-format
 msgid "Hide Background"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigOverlay.qml:183
 #, kde-format
 msgctxt "@action:button tooltip"
 msgid "Show Background"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigOverlay.qml:184
+#. +> stable5
+#: package/contents/ui/ConfigOverlay.qml:193
 #, kde-format
 msgid "Show Background"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigOverlay.qml:231
 #, kde-format
 msgctxt "@action:button tooltip remove widget"
 msgid "Remove"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigOverlay.qml:232
+#. +> stable5
+#: package/contents/ui/ConfigOverlay.qml:241
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/ConfigOverlay.qml:91
-#, kde-format
-msgid "Rotate"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Preview Plugins"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:19
 #, kde-format
 msgid "Preview Plugins"
@@ -915,30 +885,24 @@ msgctxt "@info:placeholder"
 msgid "Folder is empty"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/FolderViewLayer.qml:357
 #, kde-format
 msgctxt "@item:inmenu opens submenu with view options like sorting"
 msgid "Icons"
 msgstr ""
 
-#. +> trunk6
-#: package/contents/ui/main.qml:439
-#, kde-format
-msgctxt "@action:inmenu opens config dialog"
-msgid "Desktop and Wallpaper"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/main.qml:426
-#, kde-format
-msgid "Desktop and Wallpaper"
-msgstr ""
-
 #. +> stable5
 #: package/contents/ui/main.qml:356
 #, kde-format
 msgid "Configure Desktop and Wallpaper…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/main.qml:439
+#, kde-format
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
 msgstr ""
 
 #. +> trunk6 stable6 stable5

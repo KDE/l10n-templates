@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-11 08:13+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -403,7 +403,7 @@ msgctxt "Name"
 msgid "System Tray"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: applets/systemtray/metadata.json
 msgctxt "Description"
 msgid "Quickly access system features and application status icons"
@@ -913,16 +913,10 @@ msgctxt "Description"
 msgid "Configure the wallpaper"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcms/wallpaper/kcm_wallpaper.json
 msgctxt "X-KDE-Keywords"
 msgid "wallpaper,desktop,background,slideshow,haenau,hunyango,picture of the day,dynamic wallpaper,live wallpaper,animated wallpaper"
-msgstr ""
-
-#. +> stable6
-#: kcms/wallpaper/kcm_wallpaper.json
-msgctxt "X-KDE-Keywords"
-msgid "wallpaper,desktop"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -1315,78 +1309,6 @@ msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
 
-#. +> stable6 stable5
-#: applets/systemtray/package/metadata.json
-msgctxt "Description"
-msgid "Access hidden applications minimized in the system tray"
-msgstr ""
-
-#. +> stable6 stable5
-#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
-msgctxt "Name"
-msgid "Application Job Information"
-msgstr ""
-
-#. +> stable6 stable5
-#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
-msgctxt "Description"
-msgid "Application job updates (via kuiserver)"
-msgstr ""
-
-#. +> stable6 stable5
-#: dataengines/executable/plasma-dataengine-executable.json
-msgctxt "Name"
-msgid "Run Commands"
-msgstr ""
-
-#. +> stable6 stable5
-#: dataengines/executable/plasma-dataengine-executable.json
-msgctxt "Description"
-msgid "Run Executable Data Engine"
-msgstr ""
-
-#. +> stable6 stable5
-#: dataengines/notifications/plasma-dataengine-notifications.json
-msgctxt "Name"
-msgid "Application Notifications"
-msgstr ""
-
-#. +> stable6 stable5
-#: dataengines/notifications/plasma-dataengine-notifications.json
-msgctxt "Description"
-msgid "Passive visual notifications for the user."
-msgstr ""
-
-#. +> stable6 stable5
-#: dataengines/time/plasma-dataengine-time.json
-msgctxt "Name"
-msgid "Date and Time"
-msgstr ""
-
-#. +> stable6 stable5
-#: dataengines/time/plasma-dataengine-time.json
-msgctxt "Description"
-msgid "Date and time by timezone"
-msgstr ""
-
-#. +> stable6 stable5
-#: dataengines/time/plasma-dataengine-time.json
-msgctxt "Authors Name"
-msgid "Aaron Seigo"
-msgstr ""
-
-#. +> stable6 stable5
-#: klipper/plasma-dataengine-clipboard.json
-msgctxt "Description"
-msgid "Clipboard Tool."
-msgstr ""
-
-#. +> stable6 stable5
-#: phonon/platform_kde/phononbackend.json
-msgctxt "Name"
-msgid "KDE Multimedia Backend"
-msgstr ""
-
 #. +> stable5
 #: applets/batterymonitor/package/metadata.json
 msgctxt "Name"
@@ -1412,6 +1334,12 @@ msgid "Media Player Controls"
 msgstr ""
 
 #. +> stable5
+#: applets/systemtray/container/package/metadata.json
+msgctxt "Description"
+msgid "Access hidden applications minimized in the system tray"
+msgstr ""
+
+#. +> stable5
 #: dataengines/activities/plasma-dataengine-activities.json
 msgctxt "Name"
 msgid "Activities Engine"
@@ -1427,6 +1355,18 @@ msgstr ""
 #: dataengines/activities/plasma-dataengine-activities.json
 msgctxt "Authors Name"
 msgid "Chani Armitage"
+msgstr ""
+
+#. +> stable5
+#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
+msgctxt "Name"
+msgid "Application Job Information"
+msgstr ""
+
+#. +> stable5
+#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
+msgctxt "Description"
+msgid "Application job updates (via kuiserver)"
 msgstr ""
 
 #. +> stable5
@@ -1463,6 +1403,18 @@ msgstr ""
 #: dataengines/dict/plasma-dataengine-dict.json
 msgctxt "Description"
 msgid "Look up word meanings"
+msgstr ""
+
+#. +> stable5
+#: dataengines/executable/plasma-dataengine-executable.json
+msgctxt "Name"
+msgid "Run Commands"
+msgstr ""
+
+#. +> stable5
+#: dataengines/executable/plasma-dataengine-executable.json
+msgctxt "Description"
+msgid "Run Executable Data Engine"
 msgstr ""
 
 #. +> stable5
@@ -1556,6 +1508,13 @@ msgid "Keyboard modifier and mouse buttons states"
 msgstr ""
 
 #. +> stable5
+#: dataengines/keystate/plasma-dataengine-keystate.json
+#: dataengines/time/plasma-dataengine-time.json
+msgctxt "Authors Name"
+msgid "Aaron Seigo"
+msgstr ""
+
+#. +> stable5
 #: dataengines/mouse/plasma-dataengine-mouse.json
 msgctxt "Name"
 msgid "Pointer Position"
@@ -1577,6 +1536,18 @@ msgstr ""
 #: dataengines/mpris2/plasma-dataengine-mpris2.json
 msgctxt "Description"
 msgid "Provides information from and control over media players via MPRIS2"
+msgstr ""
+
+#. +> stable5
+#: dataengines/notifications/plasma-dataengine-notifications.json
+msgctxt "Name"
+msgid "Application Notifications"
+msgstr ""
+
+#. +> stable5
+#: dataengines/notifications/plasma-dataengine-notifications.json
+msgctxt "Description"
+msgid "Passive visual notifications for the user."
 msgstr ""
 
 #. +> stable5
@@ -1661,6 +1632,18 @@ msgstr ""
 #: dataengines/systemmonitor/plasma-dataengine-systemmonitor.json
 msgctxt "Description"
 msgid "System status information"
+msgstr ""
+
+#. +> stable5
+#: dataengines/time/plasma-dataengine-time.json
+msgctxt "Name"
+msgid "Date and Time"
+msgstr ""
+
+#. +> stable5
+#: dataengines/time/plasma-dataengine-time.json
+msgctxt "Description"
+msgid "Date and time by timezone"
 msgstr ""
 
 #. +> stable5
@@ -1754,6 +1737,12 @@ msgid "Adjust color temperature based on time"
 msgstr ""
 
 #. +> stable5
+#: klipper/plasma-dataengine-clipboard.json
+msgctxt "Description"
+msgid "Clipboard Tool."
+msgstr ""
+
+#. +> stable5
 #: libcolorcorrect/kded/colorcorrectlocationupdater.json
 msgctxt "Name"
 msgid "Automatic Location for Night Color"
@@ -1763,6 +1752,12 @@ msgstr ""
 #: libcolorcorrect/kded/colorcorrectlocationupdater.json
 msgctxt "Description"
 msgid "Provides location updates for Night Color"
+msgstr ""
+
+#. +> stable5
+#: phonon/platform_kde/phononbackend.json
+msgctxt "Name"
+msgid "KDE Multimedia Backend"
 msgstr ""
 
 #. +> stable5

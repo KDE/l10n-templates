@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-08 06:13+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -163,66 +163,42 @@ msgctxt "@action:button"
 msgid "Configure Extra Buttons…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:64
 #, kde-format
 msgctxt "@title:listbox select device"
 msgid "Device:"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:64
-#, kde-format
-msgid "Device:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:87
 #, kde-format
 msgctxt "@title:group"
 msgid "General:"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:87
-#, kde-format
-msgid "General:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:88
 #, kde-format
 msgctxt "@option:check enable this mouse device"
 msgid "Enable device"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:88
-#, kde-format
-msgid "Device enabled"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:103
-#, kde-format
-msgid "Left-handed mode"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:105
 #, kde-format
 msgctxt "@title:group"
 msgid "Left and right buttons:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:106
 #, kde-format
 msgctxt "@option:check Left and right buttons"
 msgid "Swap (left-handed mode)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:121
 #, kde-format
 msgctxt "@option:check 'both' refers to the left and right buttons'"
@@ -236,56 +212,31 @@ msgctxt "@info:tooltip from ContextualHelpButton"
 msgid "Activating this setting increases click latency by 50ms. The extra delay is needed to correctly detect simultaneous left and right button presses."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:148
 #, kde-format
 msgctxt "@label:slider and @label:spinbox"
 msgid "Pointer speed:"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:142
-#, kde-format
-msgid "Pointer speed:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:227
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable pointer acceleration"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:221
-#, kde-format
-msgid "Enable pointer acceleration"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:241
 #, kde-format
 msgctxt "@info:whatsthis ContextualHelpButton tooltip"
 msgid "When enabled, pointer travel distance increases with faster movement speed."
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:235
-#, kde-format
-msgctxt "@info:tooltip from ContextualHelpButton"
-msgid "When enabled, pointer travel distance increases with faster movement speed."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:254
 #, kde-format
 msgctxt "@label:slider and @label:spinbox"
-msgid "Scrolling speed:"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:245
-#, kde-format
 msgid "Scrolling speed:"
 msgstr ""
 
@@ -303,63 +254,31 @@ msgctxt "Faster Scroll Speed"
 msgid "Faster"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:321
 #, kde-format
 msgctxt "@title:group"
 msgid "Scrolling:"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:312
-#, kde-format
-msgid "Scrolling:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:322
 #, kde-format
 msgctxt "@option:check"
 msgid "Invert scroll direction"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:313
-#, kde-format
-msgid "Invert scroll direction"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:339
 #, kde-format
 msgctxt "@option:check"
 msgid "Hold down middle button and move mouse to scroll"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:118
-#, kde-format
-msgctxt "@option:check"
-msgid "Press left and right buttons for middle-click"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:330
-#, kde-format
-msgid "Hold down middle button and move mouse to scroll"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:351
 #, kde-format
 msgctxt "@info:whatsthis ContextualHelpButton tooltip"
-msgid "This will interfere with applications that use middle-button drag, such as some image editors, document viewers, or video games. It may be used on any device, but is intended primarily as a substitute for scroll wheels on devices that do not have any."
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:342
-#, kde-format
-msgctxt "@info:tooltip from ContextualHelpButton"
 msgid "This will interfere with applications that use middle-button drag, such as some image editors, document viewers, or video games. It may be used on any device, but is intended primarily as a substitute for scroll wheels on devices that do not have any."
 msgstr ""
 
@@ -373,6 +292,24 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#. +> stable5
+#: kcm/libinput/main.qml:79
+#, kde-format
+msgid "Device:"
+msgstr ""
+
+#. +> stable5
+#: kcm/libinput/main.qml:103 kcm/libinput/main_deviceless.qml:54
+#, kde-format
+msgid "General:"
+msgstr ""
+
+#. +> stable5
+#: kcm/libinput/main.qml:105
+#, kde-format
+msgid "Device enabled"
 msgstr ""
 
 #. +> stable5
@@ -406,6 +343,12 @@ msgid "Clicking left and right button simultaneously sends middle button click."
 msgstr ""
 
 #. +> stable5
+#: kcm/libinput/main.qml:184 kcm/libinput/main_deviceless.qml:110
+#, kde-format
+msgid "Pointer speed:"
+msgstr ""
+
+#. +> stable5
 #: kcm/libinput/main.qml:216 kcm/libinput/main_deviceless.qml:142
 #, kde-format
 msgid "Acceleration profile:"
@@ -436,9 +379,27 @@ msgid "Cursor travel distance depends on the mouse movement speed."
 msgstr ""
 
 #. +> stable5
+#: kcm/libinput/main.qml:272 kcm/libinput/main_deviceless.qml:198
+#, kde-format
+msgid "Scrolling:"
+msgstr ""
+
+#. +> stable5
+#: kcm/libinput/main.qml:274 kcm/libinput/main_deviceless.qml:200
+#, kde-format
+msgid "Invert scroll direction"
+msgstr ""
+
+#. +> stable5
 #: kcm/libinput/main.qml:289 kcm/libinput/main_deviceless.qml:215
 #, kde-format
 msgid "Touchscreen like scrolling."
+msgstr ""
+
+#. +> stable5
+#: kcm/libinput/main.qml:295
+#, kde-format
+msgid "Scrolling speed:"
 msgstr ""
 
 #. +> stable5

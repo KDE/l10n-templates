@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-20 14:07+0100\n"
+"POT-Creation-Date: 2026-01-13 14:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -434,25 +434,11 @@ msgstr ""
 msgid "If this is switched on, selecting an item from the history causes &klipper; to display the actions pop-up on that item, if appropriate."
 msgstr ""
 
-#. Tag: guibutton
-#. +> stable6 stable5
-#: index.docbook:292
-#, no-c-format
-msgid "Exclude Windows"
-msgstr ""
-
 #. Tag: guilabel
 #. +> trunk6 stable6 stable5
 #: index.docbook:293
 #, no-c-format
 msgid "Remove white space when executing actions"
-msgstr ""
-
-#. Tag: para
-#. +> stable6 stable5
-#: index.docbook:293
-#, no-c-format
-msgid "Brings up the <guilabel>Disable Actions for windows of type WM_CLASS</guilabel> dialog."
 msgstr ""
 
 #. Tag: para
@@ -462,25 +448,25 @@ msgstr ""
 msgid "If selected, any white space (spaces, tabs, &etc;) at the beginning and end of the clipboard contents will be removed before passing the clipboard contents to an application. This is useful, for example, if the clipboard contains a &URL; with spaces which, if opened by a web browser, would cause an error."
 msgstr ""
 
+#. Tag: guibutton
+#. +> stable5
+#: index.docbook:296
+#, no-c-format
+msgid "Exclude Windows"
+msgstr ""
+
 #. Tag: para
-#. +> stable6 stable5
-#: index.docbook:295
+#. +> stable5
+#: index.docbook:297
+#, no-c-format
+msgid "Brings up the <guilabel>Disable Actions for windows of type WM_CLASS</guilabel> dialog."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:299
 #, no-c-format
 msgid "Some programs, such as &konqueror;, use the clipboard internally. If you get unwanted &klipper; pop-ups all the time when using a certain application, do the following:"
-msgstr ""
-
-#. Tag: para
-#. +> stable6 stable5
-#: index.docbook:300
-#, no-c-format
-msgid "Open the application."
-msgstr ""
-
-#. Tag: para
-#. +> stable6 stable5
-#: index.docbook:301
-#, no-c-format
-msgid "From a terminal, run <userinput><command>xprop</command> | <command>grep</command> <parameter>WM_CLASS</parameter></userinput> and then click on the window of the application you are running."
 msgstr ""
 
 #. Tag: guilabel
@@ -498,17 +484,24 @@ msgid "If selected, include applications that can accept its &MIME; type of a fi
 msgstr ""
 
 #. Tag: para
-#. +> stable6 stable5
-#: index.docbook:305
+#. +> stable5
+#: index.docbook:304
 #, no-c-format
-msgid "The first string after the equals sign is the one to enter."
+msgid "Open the application."
 msgstr ""
 
 #. Tag: para
-#. +> stable6 stable5
+#. +> stable5
+#: index.docbook:305
+#, no-c-format
+msgid "From a terminal, run <userinput><command>xprop</command> | <command>grep</command> <parameter>WM_CLASS</parameter></userinput> and then click on the window of the application you are running."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
 #: index.docbook:309
 #, no-c-format
-msgid "Once the WM_CLASS is added, no more actions will be generated for windows of that application."
+msgid "The first string after the equals sign is the one to enter."
 msgstr ""
 
 #. Tag: title
@@ -516,6 +509,13 @@ msgstr ""
 #: index.docbook:312
 #, no-c-format
 msgid "Actions Configuration"
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:313
+#, no-c-format
+msgid "Once the WM_CLASS is added, no more actions will be generated for windows of that application."
 msgstr ""
 
 #. Tag: term

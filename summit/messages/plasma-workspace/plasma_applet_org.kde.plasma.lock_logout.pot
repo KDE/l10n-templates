@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-05 07:18+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -23,39 +23,7 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#. +> stable6 stable5
-#: ConfigGeneral.qml:36
-#, kde-format
-msgctxt "Heading for a list of actions (leave, lock, switch user, hibernate, suspend)"
-msgid "Show actions:"
-msgstr ""
-
-#. +> stable6
-#: ConfigGeneral.qml:37
-#, kde-format
-msgid "Log Out"
-msgstr ""
-
-#. +> stable6
-#: ConfigGeneral.qml:44
-#, kde-format
-msgctxt "@option:check"
-msgid "Show logout screen"
-msgstr ""
-
-#. +> stable6
-#: ConfigGeneral.qml:50
-#, kde-format
-msgid "Shut Down"
-msgstr ""
-
-#. +> stable6 stable5
-#: ConfigGeneral.qml:68
-#, kde-format
-msgid "Switch User"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:118
 #, kde-format
 msgid "Unavailable"
@@ -73,16 +41,22 @@ msgstr ""
 msgid "Lock the screen"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: data.js:12
 #, kde-format
 msgid "Switch user…"
 msgstr ""
 
-#. +> stable6 stable5
-#: data.js:12
+#. +> stable5
+#: contents/ui/data.js:12
 #, kde-format
 msgid "Switch user"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:58
+#, kde-format
+msgid "Switch User"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -91,16 +65,22 @@ msgstr ""
 msgid "Start a parallel session as a different user"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: data.js:19
 #, kde-format
 msgid "Shut down"
 msgstr ""
 
-#. +> stable6 stable5
-#: data.js:19
+#. +> stable5
+#: contents/ui/data.js:18
 #, kde-format
 msgid "Shutdown…"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:43
+#, kde-format
+msgid "Shutdown"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -115,8 +95,8 @@ msgstr ""
 msgid "Restart"
 msgstr ""
 
-#. +> stable6 stable5
-#: data.js:26
+#. +> stable5
+#: contents/ui/data.js:25
 #, kde-format
 msgid "Restart…"
 msgstr ""
@@ -127,22 +107,35 @@ msgstr ""
 msgid "Reboot the computer"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: data.js:33
 #, kde-format
 msgid "Log out"
 msgstr ""
 
-#. +> stable6 stable5
-#: data.js:33
+#. +> stable5
+#: contents/ui/data.js:32
 #, kde-format
 msgid "Logout…"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:37
+#, kde-format
+msgid "Logout"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: data.js:34
 #, kde-format
 msgid "End the session"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:36
+#, kde-format
+msgctxt "Heading for a list of actions (leave, lock, switch user, hibernate, suspend)"
+msgid "Show actions:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -171,6 +164,12 @@ msgstr ""
 msgid "Sleep (suspend to RAM)"
 msgstr ""
 
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:48
+#, kde-format
+msgid "Reboot"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: data.js:54
 #, kde-format
@@ -181,22 +180,4 @@ msgstr ""
 #: data.js:55
 #, kde-format
 msgid "Hibernate (suspend to disk)"
-msgstr ""
-
-#. +> stable5
-#: contents/ui/ConfigGeneral.qml:37
-#, kde-format
-msgid "Logout"
-msgstr ""
-
-#. +> stable5
-#: contents/ui/ConfigGeneral.qml:43
-#, kde-format
-msgid "Shutdown"
-msgstr ""
-
-#. +> stable5
-#: contents/ui/ConfigGeneral.qml:48
-#, kde-format
-msgid "Reboot"
 msgstr ""

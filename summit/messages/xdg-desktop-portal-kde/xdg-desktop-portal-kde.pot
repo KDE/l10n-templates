@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-05 07:18+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -57,15 +57,15 @@ msgctxt "@info"
 msgid "Choose an application to open <filename>%1</filename>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/AppChooserDialog.qml:34
 #, kde-format
 msgctxt "Find some more apps that can open this content using the Discover app store"
 msgid "Find More in Discover…"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/AppChooserDialog.qml:35
+#. +> stable5
+#: src/AppChooserDialog.qml:194
 #, kde-format
 msgctxt "Find some more apps that can open this content using the Discover app"
 msgid "Find More in Discover"
@@ -149,8 +149,8 @@ msgctxt "@info"
 msgid "No installed applications can open <filename>%1</filename>"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/AppChooserDialog.qml:297
+#. +> stable5
+#: src/AppChooserDialog.qml:209
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Don't see the right app? Find more in <link>Discover</link>."
@@ -168,20 +168,6 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not close when command exits"
-msgstr ""
-
-#. +> stable6
-#: src/AppChooserDialog.qml:238
-#, kde-format
-msgctxt "@title:group"
-msgid "Terminal Options"
-msgstr ""
-
-#. +> stable6
-#: src/AppChooserDialog.qml:276
-#, kde-format
-msgctxt "@title:group"
-msgid "Discover More Applications"
 msgstr ""
 
 #. +> stable5
@@ -530,38 +516,32 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/outputsmodel.cpp:21
 #, kde-format
 msgid "Share virtual screen"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/outputsmodel.cpp:21
+#. +> stable5
+#: src/outputsmodel.cpp:22
 #, kde-format
 msgid "New Virtual Output"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/outputsmodel.cpp:25
 #, kde-format
 msgid "Share region"
 msgstr ""
 
-#. +> stable6
-#: src/outputsmodel.cpp:25
-#, kde-format
-msgid "Rectangular Region"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/outputsmodel.cpp:36
 #, kde-format
 msgid "Share full Workspace"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/outputsmodel.cpp:36
+#. +> stable5
+#: src/outputsmodel.cpp:18
 #, kde-format
 msgid "Full Workspace"
 msgstr ""
@@ -572,21 +552,21 @@ msgstr ""
 msgid "Laptop screen"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/outputsmodel.cpp:246
 #, kde-format
 msgctxt "@info"
 msgid "Share the entire workspace across all screens"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/outputsmodel.cpp:248
 #, kde-format
 msgctxt "@info"
 msgid "Creates a screen inside a window, then share"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/outputsmodel.cpp:250
 #, kde-format
 msgctxt "@info"
@@ -667,39 +647,25 @@ msgctxt "title of notification about input systems taken over"
 msgid "Remote control session started"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/remotedesktop.cpp:580
 #, kde-format
 msgctxt "SNI title that indicates there's a process remotely controlling the system"
 msgid "Remote Control"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/remotedesktopdialog.cpp:26
 #, kde-format
 msgctxt "Title of the dialog that requests remote input privileges"
 msgid "Remote Control"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/remotedesktopdialog.cpp:26
+#. +> stable5
+#: src/remotedesktopdialog.cpp:23
 #, kde-format
 msgctxt "Title of the dialog that requests remote input privileges"
 msgid "Remote control requested"
-msgstr ""
-
-#. +> trunk6
-#: src/remotedesktopdialog.cpp:41
-#, kde-format
-msgctxt "@info"
-msgid "An application is asking for special privileges:\n"
-msgstr ""
-
-#. +> stable6
-#: src/remotedesktopdialog.cpp:41
-#, kde-format
-msgctxt "Unordered list with privileges granted to an external process"
-msgid "An application requested access to remotely control:\n"
 msgstr ""
 
 #. +> stable5
@@ -709,35 +675,42 @@ msgctxt "Unordered list with privileges granted to an external process"
 msgid "Requested access to:\n"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: src/remotedesktopdialog.cpp:34
+#, kde-format
+msgctxt "Unordered list with privileges granted to an external process, included the app's name"
+msgid "%1 requested access to remotely control:\n"
+msgstr ""
+
+#. +> stable5
+#: src/remotedesktopdialog.cpp:37
+#, kde-format
+msgctxt "Will allow the app to see what's on the outputs, in markdown"
+msgid " - Screens\n"
+msgstr ""
+
+#. +> stable5
+#: src/remotedesktopdialog.cpp:40
+#, kde-format
+msgctxt "Will allow the app to send input events, in markdown"
+msgid " - Input devices\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/remotedesktopdialog.cpp:41
+#, kde-format
+msgctxt "@info"
+msgid "An application is asking for special privileges:\n"
+msgstr ""
+
+#. +> trunk6 stable6
 #: src/remotedesktopdialog.cpp:42
 #, kde-format
 msgctxt "@info"
 msgid "%1 is asking for special privileges:"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/remotedesktopdialog.cpp:43
-#, kde-format
-msgctxt "Unordered list with privileges granted to an external process, included the app's name"
-msgid "%1 requested access to remotely control:\n"
-msgstr ""
-
-#. +> stable6 stable5
-#: src/remotedesktopdialog.cpp:46
-#, kde-format
-msgctxt "Will allow the app to see what's on the outputs, in markdown"
-msgid " - Screens\n"
-msgstr ""
-
-#. +> stable6 stable5
-#: src/remotedesktopdialog.cpp:49
-#, kde-format
-msgctxt "Will allow the app to send input events, in markdown"
-msgid " - Input devices\n"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/remotedesktopdialog.cpp:50
 #, kde-format
 msgctxt "@info As in, 'an application requested access to see what’s on the screen'. '-' is Markdown, do not translate"
@@ -746,7 +719,7 @@ msgid ""
 " - See what’s on the screen"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/remotedesktopdialog.cpp:54
 #, kde-format
 msgctxt "@info As in, 'an application requested access to control input devices'. '-' is Markdown, do not translate"
@@ -755,21 +728,21 @@ msgid ""
 " - Control input devices"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/remotedesktopdialog.cpp:62
 #, kde-format
 msgctxt "@info"
 msgid "An application is exercising special permissions:\n"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/remotedesktopdialog.cpp:63
 #, kde-format
 msgctxt "@info"
 msgid "%1 is exercising special privileges:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/remotedesktopdialog.cpp:67
 #, kde-format
 msgctxt "@info As in, 'an application is exercising privileges to access to see what’s on the screen'. '-' is Markdown, do not translate"
@@ -778,7 +751,7 @@ msgid ""
 " - See what’s on the screen"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/remotedesktopdialog.cpp:71
 #, kde-format
 msgctxt "@info As in, 'an application is exercising privileges to control input devices'. '-' is Markdown, do not translate"
@@ -793,14 +766,14 @@ msgstr ""
 msgid "Allow restoring on future sessions"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/RemoteDesktopDialog.qml:38
 #, kde-format
 msgctxt "@action:button Approve the application gaining extra privileges"
 msgid "Approve"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/RemoteDesktopDialog.qml:39
 #, kde-format
 msgctxt "@action:button Deny the application gaining extra privileges"
@@ -837,17 +810,17 @@ msgctxt "SNI title that indicates there's a process seeing our windows or screen
 msgid "Screen casting"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: src/screenchooserdialog.cpp:138
+#, kde-format
+msgid "Screen Sharing"
+msgstr ""
+
+#. +> trunk6 stable6
 #: src/screenchooserdialog.cpp:145
 #, kde-format
 msgctxt "@title:window %1 is an application name (e.g. Falkon)"
 msgid "Share screen with %1"
-msgstr ""
-
-#. +> stable6 stable5
-#: src/screenchooserdialog.cpp:145
-#, kde-format
-msgid "Screen Sharing"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -946,15 +919,15 @@ msgstr ""
 msgid "Choose what to share with %1:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/ScreenChooserDialog.qml:54
 #, kde-format
 msgctxt "@label separator line label between screen selection and window selection"
 msgid "Windows"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/ScreenChooserDialog.qml:42
+#. +> stable5
+#: src/ScreenChooserDialog.qml:39
 #, kde-format
 msgid "Windows"
 msgstr ""
@@ -965,8 +938,8 @@ msgstr ""
 msgid "Share"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/ScreenChooserDialog.qml:39
+#. +> stable5
+#: src/ScreenChooserDialog.qml:36
 #, kde-format
 msgid "Screens"
 msgstr ""
@@ -1057,14 +1030,14 @@ msgstr ""
 msgid "Take"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/UsbDialog.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Access to USB Devices Requested"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/UsbDialog.qml:23
 #, kde-format
 msgctxt "The application is unknown"
@@ -1073,7 +1046,7 @@ msgid_plural "An application wants to access the following devices:"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/UsbDialog.qml:25
 #, kde-format
 msgctxt "%2 is the name of the application"
@@ -1083,50 +1056,32 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> stable5
+#: src/userinfodialog.cpp:32
+#, kde-format
+msgid "Share Information"
+msgstr ""
+
+#. +> stable5
 #: src/userinfodialog.cpp:33
 #, kde-format
 msgid "Share your personal information with the requesting application?"
 msgstr ""
 
-#. +> stable6
-#: src/userinfodialog.cpp:40
-#, kde-format
-msgid "%1 wants access to your user info."
-msgstr ""
-
-#. +> stable6
-#: src/userinfodialog.cpp:42
-#, kde-format
-msgid "This app will be given access to your avatar and name."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/userinfodialog.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Share user info with %1"
 msgstr ""
 
-#. +> stable6
-#: src/userinfodialog.cpp:39
-#, kde-format
-msgid "Share User Information with %1"
-msgstr ""
-
-#. +> stable5
-#: src/userinfodialog.cpp:32
-#, kde-format
-msgid "Share Information"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/userinfodialog.cpp:54
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Allows your username, full name, and profile picture to be used by the application."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/UserInfoDialog.qml:18
 #, kde-format
 msgctxt "@action:button"
@@ -1201,13 +1156,6 @@ msgstr ""
 msgid "Remote desktop"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/session.cpp:288
-#, kde-format
-msgctxt "SNI title that indicates there's a process remotely controlling the system"
-msgid "Remote Desktop"
-msgstr ""
-
 #. +> stable5
 #: src/kirigami-filepicker/declarative/FilePickerWindow.qml:57
 #, kde-format
@@ -1240,6 +1188,13 @@ msgstr ""
 msgid ""
 "Manufacturer: %1\n"
 "Model: %2"
+msgstr ""
+
+#. +> stable5
+#: src/session.cpp:255
+#, kde-format
+msgctxt "SNI title that indicates there's a process remotely controlling the system"
+msgid "Remote Desktop"
 msgstr ""
 
 #. +> stable5

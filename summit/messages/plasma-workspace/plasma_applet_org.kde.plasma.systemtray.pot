@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-05 07:18+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -23,56 +23,51 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:39
-#, kde-format
-msgid "Shown when relevant"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:43
 #, kde-format
 msgctxt "@item:inlistbox Show this System Tray item when relevant"
 msgid "Show when relevant"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:43
-#, kde-format
-msgid "Always shown"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:47
 #, kde-format
 msgctxt "@item:inlistbox Always show this System Tray item"
 msgid "Always show"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:47
-#, kde-format
-msgid "Always hidden"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:51
 #, kde-format
 msgctxt "@item:inlistbox Show this System Tray item only in the expanded popup"
 msgid "Show only in popup"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:51
-#, kde-format
-msgid "Disabled"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:55
 #, kde-format
 msgctxt "@item:inlistbox Never show this System Tray item; disable it"
 msgid "Never show (disabled)"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigEntries.qml:89
+#, kde-format
+msgctxt "Name of the system tray entry"
+msgid "Entry"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigEntries.qml:94
+#, kde-format
+msgid "Visibility"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigEntries.qml:100
+#, kde-format
+msgid "Keyboard Shortcut"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -122,7 +117,7 @@ msgctxt "@action:button"
 msgid "I understand the risks"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:187
 #, kde-kuit-format
 msgctxt "@info:usagetip"
@@ -132,7 +127,7 @@ msgid ""
 "Only do this if you’ve manually added a standalone Clipboard widget somewhere else, or are using a 3rd-party clipboard manager. Also, instead consider configuring the clipboard to not save history, or to only remember one item at a time."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:196
 #, kde-kuit-format
 msgctxt "@info:usagetip"
@@ -142,50 +137,40 @@ msgid ""
 "Only do this if you’ve manually added a standalone Notifications widget somewhere else, or are intentionally using a 3rd-party notification manager to handle notifications."
 msgstr ""
 
-#. +> stable6
-#: package/contents/ui/ConfigEntries.qml:189
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid ""
-"Disabling the clipboard is not recommended, as it will cause copied data to be lost when the application it was copied from is closed.<nl/>"
-"<nl/>"
-"Instead consider configuring the clipboard to disable its history, or only remember one item at a time."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:208
 #, kde-format
 msgctxt "@item:inlistbox Icon size"
 msgid "Scale with Panel height"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: package/contents/ui/ConfigGeneral.qml:32
 #, kde-format
 msgid "Scale with Panel height"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:209
 #, kde-format
 msgctxt "@item:inlistbox Icon size"
 msgid "Scale with Panel width"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: package/contents/ui/ConfigGeneral.qml:33
 #, kde-format
 msgid "Scale with Panel width"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:211
 #, kde-format
 msgctxt "@label:listbox The spacing between system tray icons in the Panel"
 msgid "Panel icon size:"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: package/contents/ui/ConfigGeneral.qml:23
 #, kde-format
 msgctxt "The arrangement of system tray icons in the Panel"
@@ -199,35 +184,40 @@ msgctxt "@item:inlistbox Icon spacing"
 msgid "Small"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: package/contents/ui/ConfigGeneral.qml:25
 #, kde-format
 msgid "Small"
-msgstr ""
-
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:217
-#, kde-format
-msgctxt "Name of the system tray entry"
-msgid "Entry"
-msgstr ""
-
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:224
-#, kde-format
-msgid "Visibility"
-msgstr ""
-
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:231
-#, kde-format
-msgid "Keyboard Shortcut"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: qml/ConfigGeneral.qml:244
 #, kde-format
 msgid "Automatically enabled when in Touch Mode"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigEntries.qml:246
+#, kde-format
+msgid "Shown when relevant"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigEntries.qml:247
+#, kde-format
+msgid "Always shown"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigEntries.qml:248
+#, kde-format
+msgid "Always hidden"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigEntries.qml:249
+#, kde-format
+msgid "Disabled"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -244,12 +234,6 @@ msgctxt "@item:inlistbox Icon spacing"
 msgid "Normal"
 msgstr ""
 
-#. +> stable6 stable5
-#: package/contents/ui/ConfigEntries.qml:263
-#, kde-format
-msgid "Always show all entries"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: qml/ConfigGeneral.qml:264
 #, kde-format
@@ -264,14 +248,20 @@ msgctxt "@info:usagetip under a combobox when Touch Mode is on"
 msgid "Automatically set to Large when in Touch Mode"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: package/contents/ui/ConfigEntries.qml:314
+#, kde-format
+msgid "Always show all entries"
+msgstr ""
+
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:315
 #, kde-format
 msgctxt "@title:column"
 msgid "Entries"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:319
 #, kde-format
 msgctxt "@option:check, This is referring to system tray entries"
@@ -341,7 +331,7 @@ msgctxt "Some letters with tall characters, ascenders, descenders, etc"
 msgid "AILlmyjgGJP"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: package/contents/config/config.qml:18
 #, kde-format
 msgid "Entries"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 10:02+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -932,8 +932,8 @@ msgstr ""
 msgid "Button"
 msgstr ""
 
-#. +> stable6 stable5
-#: debug_console.cpp:555 debug_console.cpp:574
+#. +> stable5
+#: debug_console.cpp:516
 #, kde-format
 msgid "Buttons"
 msgstr ""
@@ -1935,7 +1935,7 @@ msgid "Noise strength:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelSaturation)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/blur/blur_config.ui:128
 #, kde-format
 msgid "Saturation:"
@@ -2859,7 +2859,7 @@ msgstr ""
 msgid "Failed to connect PipeWire context"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/screencast/screencastmanager.cpp:56
 #: plugins/screencast/screencastmanager.cpp:81
 #: plugins/screencast/screencastmanager.cpp:97
@@ -4319,7 +4319,7 @@ msgstr ""
 msgid "&No Titlebar and Frame"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: useractions.cpp:251
 #, kde-format
 msgid "&Hide from Screencast"
@@ -5036,18 +5036,6 @@ msgstr ""
 msgid "Switch to Desktop %1"
 msgstr ""
 
-#. +> stable6
-#: wayland/outputmanagement_v2.cpp:544
-#, kde-format
-msgid "The provided output order doesn't contain all outputs"
-msgstr ""
-
-#. +> stable6
-#: wayland/outputmanagement_v2.cpp:562
-#, kde-format
-msgid "The provided output order is invalid"
-msgstr ""
-
 #. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:602
 #, kde-format
@@ -5060,25 +5048,25 @@ msgstr ""
 msgid "Disabling all outputs through configuration changes is not allowed"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:631
 #, kde-format
 msgid "Cannot add a custom mode with an empty size"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:635
 #, kde-format
 msgid "Cannot add a custom mode with a refresh rate of zero Hz"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:642
 #, kde-format
 msgid "Position of output %s is negative, that is not supported"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:646
 #, kde-format
 msgid "Position of output %s is way too large (%d, %d)"
@@ -5098,7 +5086,7 @@ msgid "(Not Responding)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1704
+#: workspace.cpp:1710
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-23 11:27+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -60,8 +60,8 @@ msgid ""
 "When turned on this option keeps the selection and the clipboard the same, so that any selection is immediately available to paste by any means. If it is turned off, the selection may still be saved in the clipboard history (subject to the options below), but it can only be pasted using the middle mouse button."
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:714
+#. +> stable5
+#: configdialog.cpp:703
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -127,8 +127,8 @@ msgctxt "@info"
 msgid "When text that matches an action pattern is selected or is chosen from the clipboard history, automatically show the popup menu with applicable actions. If the automatic menu is turned off here, or it is not shown for an excluded window, then it can be shown by using the <shortcut>%1</shortcut> key shortcut."
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:283
+#. +> stable5
+#: configdialog.cpp:278
 #, kde-format
 msgid "Exclude Windows..."
 msgstr ""
@@ -185,8 +185,8 @@ msgctxt "@title:column"
 msgid "Description"
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:334
+#. +> stable5
+#: configdialog.cpp:329
 #, kde-format
 msgid "Exclude Windows"
 msgstr ""
@@ -225,8 +225,8 @@ msgid ""
 "and all of its commands?"
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:701
+#. +> stable5
+#: configdialog.cpp:690
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -856,12 +856,6 @@ msgstr ""
 msgid "current"
 msgstr ""
 
-#. +> stable6 stable5
-#: klipper.cpp:437
-#, kde-format
-msgid "Mobile Barcode"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: klipper.cpp:442
 #, kde-format
@@ -897,6 +891,12 @@ msgstr ""
 #: klipper.cpp:609
 #, kde-format
 msgid "Do Not Start"
+msgstr ""
+
+#. +> stable5
+#: klipper.cpp:1024
+#, kde-format
+msgid "Mobile Barcode"
 msgstr ""
 
 #. i18n: ectx: label, entry (Version), group (General)
@@ -1021,7 +1021,7 @@ msgid "Automatic action menu time:"
 msgstr ""
 
 #. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
-#. +> stable6 stable5
+#. +> stable5
 #: klipper.kcfg:57
 #, kde-format
 msgid "No actions for WM_CLASS"
@@ -1113,18 +1113,6 @@ msgstr ""
 #: urlgrabber.cpp:200
 #, kde-format
 msgid "Disable This Popup"
-msgstr ""
-
-#. +> stable6 stable5
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#. +> stable6 stable5
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
 msgstr ""
 
 #. +> stable5
@@ -1224,6 +1212,20 @@ msgstr ""
 #: main.cpp:44
 #, kde-format
 msgid "Maintainer"
+msgstr ""
+
+#. +> stable5
+#: main.cpp:46
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> stable5
+#: main.cpp:46
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
 msgstr ""
 
 #. +> stable5

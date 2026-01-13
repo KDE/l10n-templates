@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-08 06:13+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,28 +18,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:25
 #, kde-format
 msgctxt "@info:status inlinemessage"
 msgid "The system must be restarted before changes to the middle-click paste setting can take effect."
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:25
+#. +> stable5
+#: package/contents/ui/main.qml:27
 #, kde-format
 msgid "The system must be restarted before changes to the middle-click paste setting can take effect."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:31
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:31
+#. +> stable5
+#: package/contents/ui/main.qml:33
 #, kde-format
 msgid "Restart"
 msgstr ""
@@ -85,16 +85,10 @@ msgstr ""
 msgid "Display visual feedback for status changes"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:69
 #, kde-format
 msgctxt "@info:whatsthis contextualhelpbutton tooltip"
-msgid "Allows all Plasma panel and desktop widgets to show descriptive tooltips when hovered with the pointer. This setting has no effect on the small tooltips displayed when hovering over individual buttons and other user interface elements."
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:69
-#, kde-format
 msgid "Allows all Plasma panel and desktop widgets to show descriptive tooltips when hovered with the pointer. This setting has no effect on the small tooltips displayed when hovering over individual buttons and other user interface elements."
 msgstr ""
 
@@ -111,16 +105,10 @@ msgstr ""
 msgid "Animation speed:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:87
 #, kde-format
 msgctxt "@info:whatsthis contextualhelpbutton tooltip"
-msgid "Allows all Plasma widgets to show on-screen display (OSD) popups for changes like volume and brightness level, or audio device switching."
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:87
-#, kde-format
 msgid "Allows all Plasma widgets to show on-screen display (OSD) popups for changes like volume and brightness level, or audio device switching."
 msgstr ""
 
@@ -131,30 +119,23 @@ msgctxt "@title:group"
 msgid "Scrolling"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:100
 #, kde-format
 msgctxt "@title:group prefix radiobutton group"
 msgid "Clicking in scrollbar track:"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:100
+#. +> stable5
+#: package/contents/ui/main.qml:175
 #, kde-format
 msgid "Clicking in scrollbar track:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:101
 #, kde-format
 msgctxt "@option:radio part of a complete sentence: 'Clicking in scrollbar track scrolls to the clicked location'"
-msgid "Scrolls to the clicked location"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:101
-#, kde-format
-msgctxt "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls to the clicked location'"
 msgid "Scrolls to the clicked location"
 msgstr ""
 
@@ -172,29 +153,36 @@ msgctxt "Animation speed"
 msgid "Instant"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: package/contents/ui/main.qml:198
+#, kde-format
+msgctxt "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls to the clicked location'"
+msgid "Scrolls to the clicked location"
+msgstr ""
+
+#. +> trunk6 stable6
 #: ui/main.qml:119
 #, kde-format
 msgctxt "@option:radio part of a complete sentence: 'Clicking in scrollbar track scrolls one page up or down'"
 msgid "Scrolls one page up or down"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:119
+#. +> stable5
+#: package/contents/ui/main.qml:176
 #, kde-format
 msgctxt "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls one page up or down'"
 msgid "Scrolls one page up or down"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:137
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Middle-click to scroll to clicked location"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:137
+#. +> stable5
+#: package/contents/ui/main.qml:188
 #, kde-format
 msgid "Middle-click to scroll to clicked location"
 msgstr ""
@@ -234,15 +222,15 @@ msgctxt "part of a sentence: 'Clicking files or folders selects them'"
 msgid "Selects them"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:201
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Open by double-clicking instead"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:201
+#. +> stable5
+#: package/contents/ui/main.qml:160
 #, kde-format
 msgid "Open by double-clicking instead"
 msgstr ""
@@ -266,17 +254,23 @@ msgstr ""
 msgid "Paste selected text"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:232
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Select by clicking on item's selection marker"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:232
+#. +> stable5
+#: package/contents/ui/main.qml:137
 #, kde-format
 msgid "Select by clicking on item's selection marker"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:236
+#, kde-format
+msgid "Touch Mode:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -293,16 +287,10 @@ msgctxt "@option:check part of a complete sentence: 'Middle click pastes selecte
 msgid "Pastes selected text"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:268
 #, kde-format
 msgctxt "@label:spinbox"
-msgid "Double-click interval:"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:268
-#, kde-format
 msgid "Double-click interval:"
 msgstr ""
 
@@ -322,16 +310,10 @@ msgctxt "short for millisecond(s)"
 msgid "ms"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:301
 #, kde-format
 msgctxt "@info:whatsthis contextualhelpbutton tooltip"
-msgid "Two clicks within this duration are considered a double-click. Some applications may not honor this setting."
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:301
-#, kde-format
 msgid "Two clicks within this duration are considered a double-click. Some applications may not honor this setting."
 msgstr ""
 
@@ -342,42 +324,24 @@ msgctxt "Test double-click speed"
 msgid "Double-click the folder to test. If it does not change its appearance, increase double-click interval."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:354
 #, kde-format
 msgctxt "@title:group prefix radiobutton group"
 msgid "Drag and Drop"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:354
-#, kde-format
-msgid "Drag and Drop"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:361
 #, kde-format
 msgctxt "@title:group prefix radiobutton group"
 msgid "When dragging files or folders:"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:361
-#, kde-format
-msgid "When dragging files or folders:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:362
 #, kde-format
 msgctxt "@option:radio When dragging..."
-msgid "Always ask what to do"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:362
-#, kde-format
 msgid "Always ask what to do"
 msgstr ""
 
@@ -388,16 +352,10 @@ msgctxt "@info"
 msgid "Hold <shortcut>Shift</shortcut> to move, <shortcut>Ctrl</shortcut> to copy, and <shortcut>Shift+Ctrl</shortcut> to create a symlink. Otherwise show a dialog."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:386
 #, kde-format
 msgctxt "@option:radio When dragging…"
-msgid "Move if on the same device"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:386
-#, kde-format
 msgid "Move if on the same device"
 msgstr ""
 
@@ -415,62 +373,50 @@ msgctxt "@title:group"
 msgid "Touch"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:416
 #, kde-format
 msgctxt "@title:group prefix radiobutton group"
 msgid "Enable Touch Mode:"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:416
-#, kde-format
-msgid "Enable Touch Mode:"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:236
-#, kde-format
-msgid "Touch Mode:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:418
 #, kde-format
 msgctxt "@option:radio As in: 'Touch Mode is automatically enabled as needed'"
 msgid "Automatically enable as needed"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:418
+#. +> stable5
+#: package/contents/ui/main.qml:238
 #, kde-format
 msgctxt "As in: 'Touch Mode is automatically enabled as needed'"
 msgid "Automatically enable as needed"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:418
 #, kde-format
 msgctxt "option:radio As in: 'Touch Mode is never enabled'"
 msgid "Never enabled"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:418
+#. +> stable5
+#: package/contents/ui/main.qml:238 package/contents/ui/main.qml:267
 #, kde-format
 msgctxt "As in: 'Touch Mode is never enabled'"
 msgid "Never enabled"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:435
 #, kde-format
 msgctxt "@info:whatsthis contextualhelpbutton tooltip"
 msgid "Touch Mode will be automatically activated whenever the system detects a touchscreen but no mouse or touchpad. For example: when a transformable laptop's keyboard is flipped around or detached."
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:435
+#. +> stable5
+#: package/contents/ui/main.qml:250
 #, kde-format
 msgid "Touch Mode will be automatically activated whenever the system detects a touchscreen but no mouse or touchpad. For example: when a transformable laptop's keyboard is flipped around or detached."
 msgstr ""
@@ -496,15 +442,15 @@ msgctxt "As in: 'Touch Mode is never enabled'"
 msgid "Disabled"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:486
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "In Touch Mode, many elements of the user interface will become larger to more easily accommodate touch interaction."
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:486
+#. +> stable5
+#: package/contents/ui/main.qml:280
 #, kde-format
 msgid "In Touch Mode, many elements of the user interface will become larger to more easily accommodate touch interaction."
 msgstr ""
