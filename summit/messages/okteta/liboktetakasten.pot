@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okteta\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-05 07:18+0100\n"
+"POT-Creation-Date: 2026-01-14 12:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2133,7 +2133,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/array/complexarraydata.cpp:96
+#: controllers/view/structures/datatypes/array/complexarraydata.cpp:104
 #, kde-format
 msgctxt "type name, then array length"
 msgid "%1[%2]"
@@ -2155,14 +2155,14 @@ msgid "%1 %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/datainformation.cpp:203
+#: controllers/view/structures/datatypes/datainformation.cpp:201
 #, kde-format
 msgctxt "invalid value (End of file reached)"
 msgid "<EOF reached>"
 msgstr ""
 
 #. +> stable5
-#: controllers/view/structures/datatypes/datainformation.cpp:214
+#: controllers/view/structures/datatypes/datainformation.cpp:212
 #, kde-format
 msgid ""
 "Name: %1\n"
@@ -2173,7 +2173,7 @@ msgid ""
 msgstr ""
 
 #. +> stable5
-#: controllers/view/structures/datatypes/datainformation.cpp:217
+#: controllers/view/structures/datatypes/datainformation.cpp:215
 #, kde-format
 msgid ""
 "Name: %1\n"
@@ -2186,31 +2186,31 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: controllers/view/structures/datatypes/datainformation.cpp:232
+#: controllers/view/structures/datatypes/datainformation.cpp:230
 #, kde-format
 msgid "Name:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/datainformation.cpp:233
+#: controllers/view/structures/datatypes/datainformation.cpp:231
 #, kde-format
 msgid "Type:"
 msgstr ""
 
 #. +> trunk5
-#: controllers/view/structures/datatypes/datainformation.cpp:234
+#: controllers/view/structures/datatypes/datainformation.cpp:232
 #, kde-format
 msgid "Value:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/datainformation.cpp:235
+#: controllers/view/structures/datatypes/datainformation.cpp:233
 #, kde-format
 msgid "Size:"
 msgstr ""
 
 #. +> trunk5
-#: controllers/view/structures/datatypes/datainformation.cpp:241
+#: controllers/view/structures/datatypes/datainformation.cpp:239
 #, kde-format
 msgctxt "size (elements)"
 msgid "%2 (%1 child)"
@@ -2219,16 +2219,16 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/datainformation.cpp:266
-#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:208
+#: controllers/view/structures/datatypes/datainformation.cpp:264
+#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:207
 #, kde-format
 msgctxt "not all values in this structure are as they should be"
 msgid "Validation failed."
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/datainformation.cpp:269
-#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:211
+#: controllers/view/structures/datatypes/datainformation.cpp:267
+#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:210
 #, kde-format
 msgctxt "not all values in this structure are as they should be"
 msgid "Validation failed: \"%1\""
@@ -2259,7 +2259,7 @@ msgid "true"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/primitive/bitfield/boolbitfielddatainformation.cpp:93
+#: controllers/view/structures/datatypes/primitive/bitfield/boolbitfielddatainformation.cpp:91
 #, kde-format
 msgctxt "Data type"
 msgid "boolean bitfield (%1 bit wide)"
@@ -2293,21 +2293,21 @@ msgid "true (%1)"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:43
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:80
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:42
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:77
 #, kde-format
 msgid "%1 (value not in enum)"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:49
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:77
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:48
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:74
 #, kde-format
 msgid "%1 (%2)"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:87
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:84
 #, kde-format
 msgctxt "Displayed in the type column. first comes the name of the enum, then the underlying type (e.g. uint32)"
 msgid "enum %1 (%2)"
@@ -2327,7 +2327,7 @@ msgid "flag %1 (%2)"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/datatypes/primitive/pointerdatainformation.cpp:119
+#: controllers/view/structures/datatypes/primitive/pointerdatainformation.cpp:117
 #, kde-format
 msgctxt "memory pointer with underlying type"
 msgid "%1 pointer"
@@ -2585,8 +2585,8 @@ msgid "union %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/parsers/osdparser.cpp:120
-#: controllers/view/structures/parsers/osdparser.cpp:202
+#: controllers/view/structures/parsers/osdparser.cpp:117
+#: controllers/view/structures/parsers/osdparser.cpp:199
 #, kde-format
 msgid "<invalid name>"
 msgstr ""
@@ -3022,28 +3022,28 @@ msgid "Structures"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/structurestool.cpp:201
+#: controllers/view/structures/structurestool.cpp:200
 #, kde-format
 msgctxt "name of a data structure"
 msgid "Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/structurestool.cpp:203
+#: controllers/view/structures/structurestool.cpp:202
 #, kde-format
 msgctxt "type of a data structure"
 msgid "Type"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/structurestool.cpp:205
+#: controllers/view/structures/structurestool.cpp:204
 #, kde-format
 msgctxt "value of a data structure (primitive type)"
 msgid "Value"
 msgstr ""
 
 #. +> trunk5
-#: controllers/view/structures/structurestool.cpp:207
+#: controllers/view/structures/structurestool.cpp:206
 #, kde-format
 msgctxt "size of a data structure"
 msgid "Size"
@@ -4856,7 +4856,7 @@ msgid "UTF-8"
 msgstr ""
 
 #. +> stable5
-#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:216
+#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:215
 #, kde-format
 msgid ""
 "Name: %2\n"
@@ -4878,7 +4878,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> stable5
-#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:221
+#: controllers/view/structures/datatypes/datainformationwithchildren.cpp:220
 #, kde-format
 msgid ""
 "Name: %2\n"
