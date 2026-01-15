@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-09 07:22+0100\n"
+"POT-Creation-Date: 2026-01-15 08:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -603,7 +603,6 @@ msgstr ""
 
 #. +> trunk5
 #: content/download/_index.md:11 content/linux.md:92
-#: content/support/_index.md:0
 msgid "General Information"
 msgstr ""
 
@@ -4689,8 +4688,18 @@ msgid "Miscellaneous KDE resources"
 msgstr ""
 
 #. +> trunk5
-#: content/support/_index.md:51
-msgid "This page lists different ways to get help and support when using KDE software."
+#: content/support/_index.md:40
+msgid "These resources can help if you’re experiencing an issue with KDE software."
+msgstr ""
+
+#. +> trunk5
+#: content/support/_index.md:42
+msgid "If you’ve purchased [a product running KDE software](/hardware), first contact the company that sold the product, as they may offer a warranty and professional support."
+msgstr ""
+
+#. +> trunk5
+#: content/support/_index.md:44
+msgid "Otherwise, read on to learn how to get support from the KDE community. Keep in mind that any such support is provided with no warranty, by passionate volunteers. Please be kind and ask for help in a way that maximizes the chances of a positive outcome!"
 msgstr ""
 
 #. +> trunk5
@@ -4705,47 +4714,17 @@ msgstr ""
 
 #. +> trunk5
 #: content/support/_index.md:0
-msgid "Documentation"
-msgstr ""
-
-#. +> trunk5
-#: content/support/_index.md:0
-msgid "These resources can help you learn how to get the most out of KDE software."
-msgstr ""
-
-#. +> trunk5
-#: content/support/_index.md:0
-msgid "General information about KDE applications and products from a user perspective can be found here:"
-msgstr ""
-
-#. +> trunk5
-#: content/support/_index.md:0
-msgid "For Users"
-msgstr ""
-
-#. +> trunk5
-#: content/support/_index.md:0
-msgid "KDE apps include their own official documentation, available offline. You can access it using the \"[application name] Handbook\" menu item in KDE apps, or by pressing the F1 key. You can also find it online here:"
-msgstr ""
-
-#. +> trunk5
-#: content/support/_index.md:0
-msgid "For System Administrators"
-msgstr ""
-
-#. +> trunk5
-#: content/support/_index.md:0
-msgid "System administrators deploying KDE software in their organization can find relevant information here:"
-msgstr ""
-
-#. +> trunk5
-#: content/support/_index.md:0
 msgid "Community Support"
 msgstr ""
 
 #. +> trunk5
 #: content/support/_index.md:0
-msgid "These resources can help if you're experiencing an issue with KDE software. If you've purchased a product running KDE software, first contact the company that sold the product, as they may offer a warranty and professional support. Otherwise, read on to learn how to get support from the KDE community. Keep in mind that any such support is provided with no warranty, by passionate volunteers. Please be kind and read through [tips on asking questions](https://userbase.kde.org/Asking_Questions) to learn how to ask for help in a way that maximizes the chances of a positive outcome."
+msgid "Troubleshooting"
+msgstr ""
+
+#. +> trunk5
+#: content/support/_index.md:0
+msgid "Having a problem with KDE software? [Learn how to troubleshoot it here](https://community.kde.org/Troubleshooting)."
 msgstr ""
 
 #. +> trunk5
@@ -4755,7 +4734,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/support/_index.md:0
-msgid "For general KDE questions, or to get help with an issue if you're not sure whether it might be a bug in the software, ask here first:"
+msgid "For general KDE questions, or to get help with an issue you haven’t been able to [troubleshoot](https://community.kde.org/Troubleshooting) yourself, [ask in the discussion forum](https://discuss.kde.org)."
 msgstr ""
 
 #. +> trunk5
@@ -4765,7 +4744,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/support/_index.md:0
-msgid "Real-time support is also available in [KDE's Matrix rooms](https://go.kde.org/matrix/#/#kde:kde.org). You can see the [list of rooms here](https://community.kde.org/Matrix#Rooms)."
+msgid "Real-time support is also available in [KDE’s Matrix rooms](https://go.kde.org/matrix/#/#kde:kde.org). You can see the [list of rooms here](https://community.kde.org/Matrix#Rooms)."
 msgstr ""
 
 #. +> trunk5
@@ -4775,7 +4754,32 @@ msgstr ""
 
 #. +> trunk5
 #: content/support/_index.md:0
-msgid "Country-specific websites containing information about KDE software in a language other than English can be found here:"
+msgid "Country-specific websites containing information about KDE software in a language other than English [can be found here](/support/international)"
+msgstr ""
+
+#. +> trunk5
+#: content/support/_index.md:0
+msgid "Documentation"
+msgstr ""
+
+#. +> trunk5
+#: content/support/_index.md:0
+msgid "For Users"
+msgstr ""
+
+#. +> trunk5
+#: content/support/_index.md:0
+msgid "KDE apps include offline documentation. You can access it using the “[application name] Handbook” menu item in KDE apps, or by pressing the F1 key. You can also [find it online](https://docs.kde.org)."
+msgstr ""
+
+#. +> trunk5
+#: content/support/_index.md:0
+msgid "For System Administrators"
+msgstr ""
+
+#. +> trunk5
+#: content/support/_index.md:0
+msgid "System administrators deploying KDE software in their organization can find [relevant information here](https://develop.kde.org/docs/administration)"
 msgstr ""
 
 #. +> trunk5
@@ -4785,7 +4789,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/support/_index.md:0
-msgid "If you're having a problem logging into one of your KDE accounts or creating a new one, submit a [sysadmin ticket](https://go.kde.org/u/systickets) about it. If you can't log into the account needed to see that page, [send an email to KDE's sysadmins](mailto:sysadmin@kde.org)."
+msgid "If you’re having a problem logging into one of your KDE accounts or creating a new one, submit a [sysadmin ticket](https://go.kde.org/u/systickets) about it. If you can’t log into the account needed to see that page, [send an email to KDE’s sysadmins](mailto:sysadmin@kde.org)."
 msgstr ""
 
 #. +> trunk5
@@ -4795,17 +4799,12 @@ msgstr ""
 
 #. +> trunk5
 #: content/support/_index.md:0
-msgid "These resources can help you report issues and defects in KDE software."
-msgstr ""
-
-#. +> trunk5
-#: content/support/_index.md:0
 msgid "Security Issues"
 msgstr ""
 
 #. +> trunk5
 #: content/support/_index.md:0
-msgid "If you believe you've discovered a security issue in KDE software, report it here. You can also find an up-to-date list of security advisories to be aware of."
+msgid "If you believe you’ve discovered a security issue in KDE software, [report it here](/info/security/). There you can also find an up-to-date list of security advisories."
 msgstr ""
 
 #. +> trunk5
@@ -4815,7 +4814,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/support/_index.md:0
-msgid "If you believe you've discovered a bug in KDE software, report it here. If you're not sure that the issue is in fact a bug (maybe it could be a local setup or configuration issue, or an issue with an update from your operating system), it's best to [discuss it on the forum](https://discuss.kde.org) first, and others can help you determine if it's a bug or not."
+msgid "If your [troubleshooting](https://community.kde.org/Troubleshooting) has pointed to a bug in KDE software, [learn how to report it here](https://community.kde.org/Get_Involved/Issue_Reporting). If you’re not sure that the issue is in fact a bug, [discuss it on the forum](https://discuss.kde.org) first, and others can help you determine that."
 msgstr ""
 
 #. +> trunk5
