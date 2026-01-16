@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-13 14:37+0100\n"
+"POT-Creation-Date: 2026-01-16 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -39,11 +39,11 @@ msgctxt "@title:column Available but not connected Bluetooth devices"
 msgid "Available"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: devicesstateproxymodel.cpp:273
 #, kde-format
-msgctxt "@label %1 is human-readable device name, %2 is low-level device address"
-msgid "%1 (%2)"
+msgctxt "@label %1 is the name of a Bluetooth device"
+msgid "Could not connect to device “%1”"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -126,6 +126,13 @@ msgstr ""
 #: qml/DeviceItem.qml:220
 #, kde-format
 msgctxt "@label %1 is human-readable adapter name, %2 is HCI"
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/DeviceItem.qml:351
+#, kde-format
+msgctxt "@label %1 is human-readable device name, %2 is low-level device address"
 msgid "%1 (%2)"
 msgstr ""
 

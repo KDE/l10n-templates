@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-02 10:43+0100\n"
+"POT-Creation-Date: 2026-01-16 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -53,8 +53,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: applet/devicesstateproxymodel.cpp:273
 #, kde-format
-msgctxt "@label %1 is human-readable device name, %2 is low-level device address"
-msgid "%1 (%2)"
+msgctxt "@label %1 is the name of a Bluetooth device"
+msgid "Could not connect to device “%1”"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -117,6 +117,13 @@ msgstr ""
 msgid "Previous Maintainer"
 msgstr ""
 
+#. +> trunk6 stable6
+#: kded/helpers/requestauthorization.cpp:25
+#, kde-format
+msgctxt "@label %1 is the name of a Bluetooth device"
+msgid "Access request from device “%1”"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: kded/helpers/requestauthorization.cpp:29
 #, kde-format
@@ -145,6 +152,13 @@ msgctxt "Deny access to a remote bluetooth device"
 msgid "Deny"
 msgstr ""
 
+#. +> trunk6 stable6
+#: kded/helpers/requestconfirmation.cpp:24
+#, kde-format
+msgctxt "@label %1 is the name of a Bluetooth device"
+msgid "Verify PIN for device “%1”"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: kded/helpers/requestconfirmation.cpp:28
 #, kde-format
@@ -164,6 +178,13 @@ msgstr ""
 #, kde-format
 msgctxt "Notification button to say that the PIN is wrong"
 msgid "PIN incorrect"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kded/helpers/requestpin.cpp:32
+#, kde-format
+msgctxt "@label %1 is the name of a Bluetooth device"
+msgid "PIN for device “%1”"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -206,6 +227,13 @@ msgstr ""
 #: kded/helpers/requestpin.ui:65
 #, kde-format
 msgid "1234"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kded/receivefilejob.cpp:131
+#, kde-format
+msgctxt "%1 is the name of a Bluetooth device"
+msgid "Incoming file from device “%1”"
 msgstr ""
 
 #. +> trunk6 stable6 stable5

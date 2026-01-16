@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkleo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-15 08:10+0100\n"
+"POT-Creation-Date: 2026-01-16 10:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3809,7 +3809,7 @@ msgid "Bad signature"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/formatting.cpp:1662 utils/formatting.cpp:1685
+#: utils/formatting.cpp:1662 utils/formatting.cpp:1734
 #, kde-format
 msgid "The signature is invalid: %1"
 msgstr ""
@@ -3820,16 +3820,87 @@ msgstr ""
 msgid "You can search the certificate on a keyserver or import it from a file."
 msgstr ""
 
-#. +> trunk6 stable6
-#: utils/formatting.cpp:1680
+#. +> trunk6
+#: utils/formatting.cpp:1680 utils/formatting.cpp:1690
 #, kde-format
+msgctxt "@info"
+msgid "The signature is valid but the used key is not certified by you or any trusted person."
+msgstr ""
+
+#. +> trunk6
+#: utils/formatting.cpp:1682 utils/formatting.cpp:1727
+#, kde-format
+msgctxt "@info"
+msgid "The signature is valid but the used certificate is not certified by a trustworthy Certificate Authority or the Certificate Authority is unknown."
+msgstr ""
+
+#. +> stable6
+#: utils/formatting.cpp:1682
+#, kde-format
+msgid "The used certificate is not certified by a trustworthy Certificate Authority or the Certificate Authority is unknown."
+msgstr ""
+
+#. +> trunk6
+#: utils/formatting.cpp:1685 utils/formatting.cpp:1707
+#: utils/formatting.cpp:1730
+#, kde-format
+msgctxt "@info"
+msgid "<strong>Warning:</strong> There is no indication that the signature belongs to the owner."
+msgstr ""
+
+#. +> trunk6
+#: utils/formatting.cpp:1691 utils/formatting.cpp:1703
+#, kde-format
+msgctxt "@info"
+msgid "<strong>Warning:</strong> It is not certain that the signature belongs to the owner."
+msgstr ""
+
+#. +> trunk6
+#: utils/formatting.cpp:1699
+#, kde-format
+msgctxt "@info"
+msgid "The signature is valid but it has expired."
+msgstr ""
+
+#. +> trunk6
+#: utils/formatting.cpp:1701 utils/formatting.cpp:1705
+#, kde-format
+msgctxt "@info"
+msgid "The signature is valid but it has expired and the used key is not certified by you or any trusted person."
+msgstr ""
+
+#. +> trunk6
+#: utils/formatting.cpp:1716
+#, kde-format
+msgctxt "@info"
+msgid "The signature is valid but the used key has expired."
+msgstr ""
+
+#. +> trunk6
+#: utils/formatting.cpp:1722
+#, kde-format
+msgctxt "@info"
+msgid "The signature is valid but the used key has been revoked."
+msgstr ""
+
+#. +> trunk6
+#: utils/formatting.cpp:1723
+#, kde-format
+msgctxt "@info"
+msgid "<strong>Warning:</strong> This could mean that the signature is forged."
+msgstr ""
+
+#. +> trunk6
+#: utils/formatting.cpp:1725
+#, kde-format
+msgctxt "@info"
 msgid "The used key is not certified by you or any trusted person."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: utils/formatting.cpp:1681
 #, kde-format
-msgid "The used certificate is not certified by a trustworthy Certificate Authority or the Certificate Authority is unknown."
+msgid "The used key is not certified by you or any trusted person."
 msgstr ""
 
 #. +> trunk6 stable6
