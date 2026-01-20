@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-15 08:10+0100\n"
+"POT-Creation-Date: 2026-01-20 08:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7590,16 +7590,30 @@ msgstr ""
 msgid "Appl&y to All"
 msgstr ""
 
-#. +> trunk6 trunk5
+#. +> trunk6
 #: widgets/renamedialog.cpp:244
+#, kde-format
+msgid ""
+"When this is checked, the button pressed will be applied to all subsequent folder conflicts for the remainder of the current job.\n"
+"Unless you press Skip you will still be prompted in case of a conflict with an existing file in the directory."
+msgstr ""
+
+#. +> trunk5
+#: widgets/renamedialog.cpp:227
 #, kde-format
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent folder conflicts for the remainder of the current job.\n"
 "Unless you press Skip you will still be prompted in case of a conflict with an existing file in the directory."
 msgstr ""
 
-#. +> trunk6 trunk5
+#. +> trunk6
 #: widgets/renamedialog.cpp:248
+#, kde-format
+msgid "When this is checked, the button pressed will be applied to all subsequent conflicts for the remainder of the current job."
+msgstr ""
+
+#. +> trunk5
+#: widgets/renamedialog.cpp:231
 #, kde-format
 msgid "When this is checked the button pressed will be applied to all subsequent conflicts for the remainder of the current job."
 msgstr ""
