@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-17 14:14+0100\n"
+"POT-Creation-Date: 2026-01-22 10:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -148,7 +148,7 @@ msgid "Defer for:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: alarmtimewidget.cpp:137 editdlg.cpp:330
+#: alarmtimewidget.cpp:137 editdlg.cpp:344
 #, kde-format
 msgctxt "@option:radio"
 msgid "Time from now:"
@@ -169,7 +169,7 @@ msgid "Schedule the alarm after the specified time interval from now."
 msgstr ""
 
 #. +> trunk6 stable6
-#: alarmtimewidget.cpp:149 editdlg.cpp:341
+#: alarmtimewidget.cpp:149 editdlg.cpp:355
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2325,8 +2325,15 @@ msgctxt "@title:group"
 msgid "Action"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: editdlg.cpp:268
+#, kde-format
+msgctxt "@title:group"
+msgid "Deferred / Skipped Alarm"
+msgstr ""
+
+#. +> stable6
+#: editdlg.cpp:267
 #, kde-format
 msgctxt "@title:group"
 msgid "Deferred Alarm"
@@ -2353,43 +2360,71 @@ msgctxt "@info:whatsthis"
 msgid "Change the alarm's deferred time, or cancel the deferral"
 msgstr ""
 
+#. +> trunk6
+#: editdlg.cpp:282
+#, kde-format
+msgctxt "@label When the alarm will next trigger after being skipped"
+msgid "Skipping until:"
+msgstr ""
+
+#. +> trunk6
+#: editdlg.cpp:286
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The next time the alarm will trigger, when it will resume normal activation."
+msgstr ""
+
+#. +> trunk6
+#: editdlg.cpp:290
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel skip"
+msgstr ""
+
+#. +> trunk6
+#: editdlg.cpp:292
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Cancel skipping of the alarm"
+msgstr ""
+
 #. +> trunk6 stable6
-#: editdlg.cpp:289 editdlg.cpp:350
+#: editdlg.cpp:303 editdlg.cpp:364
 #, kde-format
 msgctxt "@title:group"
 msgid "Time"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:296
+#: editdlg.cpp:310
 #, kde-format
 msgctxt "@option:radio"
 msgid "Default time"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:298
+#: editdlg.cpp:312
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Do not specify a start time for alarms based on this template. The normal default start time will be used."
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:306
+#: editdlg.cpp:320
 #, kde-format
 msgctxt "@option:radio"
 msgid "Time:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:308
+#: editdlg.cpp:322
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Specify a start time for alarms based on this template."
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:314
+#: editdlg.cpp:328
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2398,63 +2433,63 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:321
+#: editdlg.cpp:335
 #, kde-format
 msgctxt "@option:radio"
 msgid "Date only"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:323
+#: editdlg.cpp:337
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Set the <interface>Any time</interface> option for alarms based on this template."
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:333
+#: editdlg.cpp:347
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Set alarms based on this template to start after the specified time interval from when the alarm is created."
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:397
+#: editdlg.cpp:411
 #, kde-format
 msgctxt "@option:check"
 msgid "Wake from suspend"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:399
+#: editdlg.cpp:413
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Check to wake the system if the alarm triggers while the system is suspended"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:416
+#: editdlg.cpp:430
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Check to copy the alarm into KOrganizer's calendar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1034
+#: editdlg.cpp:1112
 #, kde-format
 msgctxt "@info"
 msgid "You must enter a name for the alarm template"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1038
+#: editdlg.cpp:1116
 #, kde-format
 msgctxt "@info"
 msgid "Template name is already in use"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1064
+#: editdlg.cpp:1142
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2463,98 +2498,98 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1097
+#: editdlg.cpp:1175
 #, kde-format
 msgctxt "@info The parameter is a date value"
 msgid "The start date does not match the alarm's recurrence pattern, so it will be adjusted to the date of the next recurrence (%1)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1101
+#: editdlg.cpp:1179
 #, kde-format
 msgctxt "@info The parameter is a date/time value"
 msgid "The start date/time does not match the alarm's recurrence pattern, so it will be adjusted to the date/time of the next recurrence (%1)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1124
+#: editdlg.cpp:1202
 #, kde-format
 msgctxt "@info"
 msgid "Recurrence has already expired"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1135
+#: editdlg.cpp:1213
 #, kde-format
 msgctxt "@info"
 msgid "The alarm will never occur during working hours"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1164
+#: editdlg.cpp:1242
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Reminder period must be less than the recurrence interval, unless <interface>%1</interface> is checked."
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1179
+#: editdlg.cpp:1257
 #, kde-format
 msgctxt "@info"
 msgid "The duration of a repetition within the recurrence must be less than the recurrence interval minus any reminder period"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1186
+#: editdlg.cpp:1264
 #, kde-format
 msgctxt "@info"
 msgid "For a repetition within the recurrence, its period must be in units of days or weeks for a date-only alarm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1217
+#: editdlg.cpp:1295
 #, kde-format
 msgctxt "@info"
 msgid "You must select a calendar to save the alarm in"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1298
+#: editdlg.cpp:1376
 #, kde-format
 msgctxt "@action:Button"
 msgid "Fewer Options <<"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1299
+#: editdlg.cpp:1377
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show fewer options"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1304
+#: editdlg.cpp:1382
 #, kde-format
 msgctxt "@action:button"
 msgid "More Options >>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editdlg.cpp:1305
+#: editdlg.cpp:1383
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show more options"
 msgstr ""
 
 #. +> trunk6
-#: editdlg.cpp:1534
+#: editdlg.cpp:1623
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Check to always execute the alarm when it is due, regardless of notification inhibition or active full screen applications"
 msgstr ""
 
 #. +> trunk6
-#: editdlg.cpp:1536
+#: editdlg.cpp:1625
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Check to always execute the alarm when it is due, regardless of notification inhibition or active full screen applications."
@@ -3603,7 +3638,7 @@ msgid "You must enable a template calendar to save the template in"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:1686
+#: functions.cpp:1687
 #, kde-kuit-format
 msgctxt "@info Please set the 'From' email address..."
 msgid ""
@@ -3612,7 +3647,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:1690
+#: functions.cpp:1691
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3621,70 +3656,70 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:1691
+#: functions.cpp:1692
 #, kde-format
 msgctxt "@action:button"
 msgid "Enable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:1691
+#: functions.cpp:1692
 #, kde-format
 msgctxt "@action:button"
 msgid "Keep Disabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:2061
+#: functions.cpp:2062
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:2062
+#: functions.cpp:2063
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:2065
+#: functions.cpp:2066
 #, kde-format
 msgctxt "@info"
 msgid "Error deleting alarms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:2066
+#: functions.cpp:2067
 #, kde-format
 msgctxt "@info"
 msgid "Error deleting alarm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:2069
+#: functions.cpp:2070
 #, kde-format
 msgctxt "@info"
 msgid "Error saving reactivated alarms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:2070
+#: functions.cpp:2071
 #, kde-format
 msgctxt "@info"
 msgid "Error saving reactivated alarm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:2073
+#: functions.cpp:2074
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarm templates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions.cpp:2074
+#: functions.cpp:2075
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarm template"
@@ -3855,21 +3890,21 @@ msgid "KAlarm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3494
+#: kalarmcalendar/kaevent.cpp:3525
 #, kde-format
 msgctxt "@info Brief form of 'At Login'"
 msgid "Login"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3494
+#: kalarmcalendar/kaevent.cpp:3525
 #, kde-format
 msgctxt "@info"
 msgid "At login"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3503 kalarmcalendar/kaevent.cpp:3596
+#: kalarmcalendar/kaevent.cpp:3534 kalarmcalendar/kaevent.cpp:3627
 #: kalarmcalendar/kaeventformatter.cpp:429
 #: kalarmcalendar/kaeventformatter.cpp:443
 #, kde-format
@@ -3880,7 +3915,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3505 kalarmcalendar/kaevent.cpp:3598
+#: kalarmcalendar/kaevent.cpp:3536 kalarmcalendar/kaevent.cpp:3629
 #: kalarmcalendar/kaeventformatter.cpp:445
 #, kde-format
 msgctxt "@info"
@@ -3890,14 +3925,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3507 kalarmcalendar/kaevent.cpp:3599
+#: kalarmcalendar/kaevent.cpp:3538 kalarmcalendar/kaevent.cpp:3630
 #, kde-format
 msgctxt "@info Hours and minutes"
 msgid "%1h %2m"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3510 kalarmcalendar/kaevent.cpp:3589
+#: kalarmcalendar/kaevent.cpp:3541 kalarmcalendar/kaevent.cpp:3620
 #: kalarmcalendar/kaeventformatter.cpp:447
 #, kde-format
 msgctxt "@info"
@@ -3907,7 +3942,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3512 kalarmcalendar/kaevent.cpp:3590
+#: kalarmcalendar/kaevent.cpp:3543 kalarmcalendar/kaevent.cpp:3621
 #, kde-format
 msgctxt "@info"
 msgid "1 Week"
@@ -3916,7 +3951,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3514
+#: kalarmcalendar/kaevent.cpp:3545
 #, kde-format
 msgctxt "@info"
 msgid "1 Month"
@@ -3925,7 +3960,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3516
+#: kalarmcalendar/kaevent.cpp:3547
 #, kde-format
 msgctxt "@info"
 msgid "1 Year"
@@ -3934,14 +3969,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3522
+#: kalarmcalendar/kaevent.cpp:3553
 #, kde-format
 msgctxt "@info No recurrence"
 msgid "None"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kalarmcalendar/kaevent.cpp:3602
+#: kalarmcalendar/kaevent.cpp:3633
 #, kde-format
 msgctxt "@info No repetition"
 msgid "None"
@@ -4905,7 +4940,7 @@ msgid "Refresh Alarms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:820
+#: mainwindow.cpp:821
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to delete the selected alarm?"
@@ -4914,7 +4949,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:822
+#: mainwindow.cpp:823
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Alarm"
@@ -4923,131 +4958,131 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:823 recurrenceedit.cpp:318 templatedlg.cpp:93
+#: mainwindow.cpp:824 recurrenceedit.cpp:318 templatedlg.cpp:93
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6
-#: mainwindow.cpp:910
+#: mainwindow.cpp:911
 #, kde-format
 msgctxt "@title:window"
 msgid "Skip Alarm"
 msgstr ""
 
 #. +> trunk6
-#: mainwindow.cpp:911
+#: mainwindow.cpp:912
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Number of activations to skip:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:942
+#: mainwindow.cpp:943
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide Archived Alarms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:943
+#: mainwindow.cpp:944
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show Archived Alarms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1019
+#: mainwindow.cpp:1020
 #, kde-format
 msgctxt "@info"
 msgid "Import birthdays"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1271
+#: mainwindow.cpp:1272
 #, kde-format
 msgctxt "@action Undo/Redo [action]"
 msgid "%1 %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1272
+#: mainwindow.cpp:1273
 #, kde-format
 msgctxt "@action Undo [action]: message"
 msgid "%1 %2: %3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1338
+#: mainwindow.cpp:1339
 #, kde-format
 msgid "<qt>This will hide the menu bar completely. You can show it again by typing %1.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1340
+#: mainwindow.cpp:1341
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1580
+#: mainwindow.cpp:1581
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Display Alarm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1582
+#: mainwindow.cpp:1583
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Email Alarm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1584
+#: mainwindow.cpp:1585
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Command Alarm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1586
+#: mainwindow.cpp:1587
 #, kde-format
 msgctxt "@title:window"
 msgid "Alarm Type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1587
+#: mainwindow.cpp:1588
 #, kde-format
 msgctxt "@info"
 msgid "Choose alarm type to create:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1739
+#: mainwindow.cpp:1722
 #, kde-format
 msgctxt "@action"
 msgid "Enable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1739
+#: mainwindow.cpp:1722
 #, kde-format
 msgctxt "@action"
 msgid "Disable"
 msgstr ""
 
 #. +> trunk6
-#: mainwindow.cpp:1748
+#: mainwindow.cpp:1781
 #, kde-format
 msgctxt "@action"
 msgid "Skip..."
 msgstr ""
 
 #. +> trunk6
-#: mainwindow.cpp:1748
+#: mainwindow.cpp:1781
 #, kde-format
 msgctxt "@action"
 msgid "Cancel skip"
