@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-01 10:16+0100\n"
+"POT-Creation-Date: 2026-01-23 10:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -176,14 +176,14 @@ msgid "The <link linkend=\"entry-view\"><interface>Entry View</interface></link>
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: configuration.docbook:134
 #, no-c-format
 msgid "Additional templates may be installed directly, or downloaded from <ulink url=\"https://store.kde.org/\">store.kde.org</ulink> by clicking the <guilabel>Download</guilabel> button. Any templates installed by the user may also be deleted. Entry templates are saved in <filename class=\"directory\">~/.local/share/tellico/entry-templates/</filename>."
 msgstr ""
 
 #. Tag: para
-#. +> stable6 stable5
+#. +> stable5
 #: configuration.docbook:134
 #, no-c-format
 msgid "Additional templates may be installed directly, or downloaded from <ulink url=\"https://store.kde.org/\">store.kde.org</ulink> by clicking the <guilabel>Download</guilabel> button. Any templates installed by the user may also be deleted. Entry templates are saved in <filename class=\"directory\">$<envar>KDEHOME</envar>/share/apps/tellico/entry-templates/</filename>."
@@ -316,7 +316,7 @@ msgid "<link linkend=\"musicbrainz\">MusicBrainz.org</link>,"
 msgstr ""
 
 #. Tag: simpara
-#. +> trunk6
+#. +> trunk6 stable6
 #: configuration.docbook:178
 #, no-c-format
 msgid "<link linkend=\"itunes\">iTunes</link>,"
@@ -505,21 +505,21 @@ msgid "SRU Servers"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: configuration.docbook:261
 #, no-c-format
 msgid "<acronym>SRU</acronym> stands for <ulink url=\"http://www.loc.gov/standards/sru/\">Search/Retrieve via &URL;</ulink> and is a standard search protocol for Internet searches. Some libraries use it for providing access to their data catalogs. Among them, the <ulink url=\"http://www.loc.gov/z3950/lcserver.html#oppr\">US Library of Congress</ulink> is probably the best known."
 msgstr ""
 
 #. Tag: para
-#. +> stable6 stable5
-#: configuration.docbook:260
+#. +> stable5
+#: configuration.docbook:261
 #, no-c-format
 msgid "SRU stands for <ulink url=\"http://www.loc.gov/standards/sru/\">Search/Retrieve via &URL;</ulink> and is a standard search protocol for Internet searches. Some libraries use it for providing access to their data catalogs. Among them, the <ulink url=\"http://www.loc.gov/z3950/lcserver.html#oppr\">US Library of Congress</ulink> is probably the best known."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: configuration.docbook:266
 #, no-c-format
 msgid "Custom fields can be added to tweak Tellico's interaction with the SRU server. To override particular query protocols, use the x-tellico prefix and the desired field name. For example, to query ISBN using the bib schema instead of the bath schema, set <userinput>x-tellico-isbn</userinput>=<userinput>bib.isbn</userinput>. &tellico; can also make the SRU request by the POST method, if <userinput>x-tellico-method</userinput>=<userinput>POST</userinput>. In order to override the record schema, add a custom field setting <userinput>recordSchema</userinput>=<userinput>unimarcXchange</userinput>."
@@ -743,14 +743,14 @@ msgid "<ulink url=\"http://musicbrainz.org\">MusicBrainz.org</ulink> is a commun
 msgstr ""
 
 #. Tag: title
-#. +> trunk6
+#. +> trunk6 stable6
 #: configuration.docbook:400
 #, no-c-format
 msgid "iTunes Search"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: configuration.docbook:401
 #, no-c-format
 msgid "The <ulink url=\"https://performance-partners.apple.com/search-api\">iTunes Search</ulink> provides information on content within the iTunes Store and Apple Books Store. You can search for a variety of content; including books, movies, podcasts, music, music videos, audiobooks, and TV shows."

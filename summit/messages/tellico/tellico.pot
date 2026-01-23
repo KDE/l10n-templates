@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tellico\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 10:02+0100\n"
+"POT-Creation-Date: 2026-01-23 10:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -103,18 +103,18 @@ msgctxt "Group View XSL Template"
 msgid "Group View"
 msgstr ""
 
+#. i18n: file: xslt/report-templates/Group_Summary.xsl
+#. +> stable5
+#, kde-format
+msgctxt "Group Summary XSL Template"
+msgid "Group Summary"
+msgstr ""
+
 #. i18n: file: xslt/report-templates/Group_Statistics.xsl
 #. +> stable5
 #, kde-format
 msgctxt "Group Statistics XSL Template"
 msgid "Group Statistics"
-msgstr ""
-
-#. i18n: file: xslt/report-templates/Group_Summary.xsl
-#. +> stable6 stable5
-#, kde-format
-msgctxt "Group Summary XSL Template"
-msgid "Group Summary"
 msgstr ""
 
 #. i18n: file: xslt/report-templates/Loan_View.xsl
@@ -3280,63 +3280,63 @@ msgstr ""
 msgid "Overwrite File?"
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:27
 #, kde-format
 msgid "Tellico is unable to open the file - %1."
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:28
 #, kde-format
 msgid "Tellico is unable to load the file - %1."
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:29
 #, kde-format
 msgid "Tellico is unable to write the file - %1."
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:30
 #, kde-format
 msgid "Tellico is unable to upload the file - %1."
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:31
 msgid "Only collections with the same type of entries as the current one can be appended. No changes are being made to the current collection."
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:34
 msgid "Only collections with the same type of entries as the current one can be merged. No changes are being made to the current collection."
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:37
 #, kde-format
 msgid "Tellico is unable to load an image from the file - %1."
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:39
 msgid "Untitled"
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:40
 #, kde-format
 msgid "This information was freely provided by <a href=\"%1\">%2</a>."
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:43
 msgid "Features"
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:44
 msgid "Other People"
 msgstr ""
@@ -3349,7 +3349,7 @@ msgstr ""
 msgid "Publishing"
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/core/tellico_strings.cpp:46
 msgid "Classification"
 msgstr ""
@@ -3474,7 +3474,7 @@ msgstr ""
 msgid "Unsaved Changes"
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: src/entrygroup.cpp:32
 msgid "(Empty)"
 msgstr ""
@@ -4031,9 +4031,9 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: src/fetch/arxivfetcher.cpp:347 src/fetch/bedethequefetcher.cpp:442
 #: src/fetch/bibsonomyfetcher.cpp:190 src/fetch/dbcfetcher.cpp:160
-#: src/fetch/dblpfetcher.cpp:132 src/fetch/doubanfetcher.cpp:629
-#: src/fetch/dvdfrfetcher.cpp:181 src/fetch/filmasterfetcher.cpp:328
-#: src/fetch/gaminghistoryfetcher.cpp:436
+#: src/fetch/dblpfetcher.cpp:132 src/fetch/doifetcher.cpp:178
+#: src/fetch/doubanfetcher.cpp:629 src/fetch/dvdfrfetcher.cpp:181
+#: src/fetch/filmasterfetcher.cpp:328 src/fetch/gaminghistoryfetcher.cpp:436
 #: src/fetch/googlescholarfetcher.cpp:278 src/fetch/hathitrustfetcher.cpp:313
 #: src/fetch/ibsfetcher.cpp:403 src/fetch/igdbfetcher.cpp:606
 #: src/fetch/isfdbfetcher.cpp:158 src/fetch/kinofetcher.cpp:455
@@ -4663,7 +4663,7 @@ msgstr ""
 msgid "Batch searching for ISBN values is faster but only available for Premium or Pro plans."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/fetch/isfdbfetcher.cpp:151
 #, kde-format
 msgid "ISFDB Link"
@@ -4687,25 +4687,25 @@ msgstr ""
 msgid "Kino-Teatr Link"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/fetch/metronfetcher.cpp:183
 #, kde-format
 msgid "The rate limit has been exceeded."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/fetch/metronfetcher.cpp:244 src/fetch/metronfetcher.cpp:430
 #, kde-format
 msgid "Metron Link"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/fetch/metronfetcher.cpp:396
 #, kde-format
 msgid "Please enter your Metron username and password"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/fetch/metronfetcher.cpp:401
 #, kde-format
 msgid "Registration is required to use this data source."
@@ -6474,13 +6474,13 @@ msgstr ""
 msgid "Import data from Data Crow"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:389
 #, kde-format
 msgid "Import OnMyShelf Data..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:390
 #, kde-format
 msgid "Import data from OnMyShelf"
@@ -8520,30 +8520,6 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#. +> stable6 stable5
-#: xslt/report-templates/Group_Summary.xsl:168
-#, kde-format
-msgid ": Group Summary"
-msgstr ""
-
-#. +> stable6 stable5
-#: xslt/report-templates/Group_Summary.xsl:178
-#, kde-format
-msgid "Total number of fields:"
-msgstr ""
-
-#. +> stable6 stable5
-#: xslt/report-templates/Group_Summary.xsl:182
-#, kde-format
-msgid "Total number of entries:"
-msgstr ""
-
-#. +> stable6 stable5
-#: xslt/report-templates/Group_Summary.xsl:296
-#, kde-format
-msgid "Distinct values: "
-msgstr ""
-
 #. +> stable5
 #: src/fetch/allocinefetcher.cpp:319 src/fetch/allocinefetcher.cpp:504
 #, kde-format
@@ -8740,4 +8716,28 @@ msgid ""
 "types by respecting proper sorting at the same time. Consider for example\n"
 "a number field followed by a text subfield with entries 3b, 14a.</p>"
 "\n"
+msgstr ""
+
+#. +> stable5
+#: xslt/report-templates/Group_Summary.xsl:163
+#, kde-format
+msgid ": Group Summary"
+msgstr ""
+
+#. +> stable5
+#: xslt/report-templates/Group_Summary.xsl:171
+#, kde-format
+msgid "Total number of fields:"
+msgstr ""
+
+#. +> stable5
+#: xslt/report-templates/Group_Summary.xsl:175
+#, kde-format
+msgid "Total number of entries:"
+msgstr ""
+
+#. +> stable5
+#: xslt/report-templates/Group_Summary.xsl:289
+#, kde-format
+msgid "Distinct values: "
 msgstr ""

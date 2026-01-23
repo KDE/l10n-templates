@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-02 07:34+0100\n"
+"POT-Creation-Date: 2026-01-23 10:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -721,14 +721,14 @@ msgid "&appname; has some additional configuration options that are not visible 
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:211
 #, no-c-format
 msgid "The settings for &appname; are saved in a file in the user's home folder, typically <filename>~/.config/tellicorc</filename>. Within that file, settings are put in groups, which appear with bracketed names, such as [General Options]. To add a setting to the <emphasis>General Options</emphasis> group, find the line in the settings file with that group name. If it does not appear, then create it yourself by adding a line saying [General Options]. Then, the setting can be added underneath the group name."
 msgstr ""
 
 #. Tag: para
-#. +> stable6 stable5
+#. +> stable5
 #: hacking.docbook:211
 #, no-c-format
 msgid "The settings for &appname; are saved in a file in the user's home folder, namely <filename>$<envar>KDEHOME</envar>/share/config/tellicorc</filename>. Within that file, settings are put in groups, which appear with bracketed names, such as [General Options]. To add a setting to the <emphasis>General Options</emphasis> group, find the line in the settings file with that group name. If it does not appear, then create it yourself by adding a line saying [General Options]. Then, the setting can be added underneath the group name."
@@ -806,14 +806,14 @@ msgid "Image Cache Size"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:255
 #, no-c-format
 msgid "The maximum amount of memory in bytes used for caching all the images may be changed with this setting. The default value is 512 MiB."
 msgstr ""
 
 #. Tag: para
-#. +> stable6 stable5
+#. +> stable5
 #: hacking.docbook:262
 #, no-c-format
 msgid "The maximum amount of memory in bytes used for caching all the images may be changed with this setting. The default value is 67108864."
@@ -862,84 +862,84 @@ msgid "lyxpipe=$HOME/.lyx/lyxpipe"
 msgstr ""
 
 #. Tag: title
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:293
 #, no-c-format
 msgid "[File Reader Options]"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:295
 #, no-c-format
 msgid "These settings should be placed in the <emphasis>File Reader Options</emphasis> group."
 msgstr ""
 
 #. Tag: title
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:298
 #, no-c-format
 msgid "Preview Size"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:300
 #, no-c-format
 msgid "This setting is for the maximum size of the generated file preview."
 msgstr ""
 
 #. Tag: userinput
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:306
 #, no-c-format
 msgid "Preview Size=523"
 msgstr ""
 
 #. Tag: title
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:312
 #, no-c-format
 msgid "Multi-Disc Options"
 msgstr ""
 
 #. Tag: title
-#. +> stable6 stable5
+#. +> stable5
 #: hacking.docbook:313
 #, no-c-format
 msgid "XSLT Tricks"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:314
 #, no-c-format
 msgid "The <link linkend=\"musicbrainz\">MusicBrainz</link>, <link linkend=\"discogs\">Discogs</link>, and <link linkend=\"itunes\">iTunes</link> data sources can fetch multi-disc album information, specifying which tracks each disc contains. By default, the track lists are inserted into separate field, one for each disc. Prior to version 4.0, the track lists were combined. This option provides the pre-4.0 behavior on an individual data source level. Add it to each <emphasis>Data Source</emphasis> section where it is desired."
 msgstr ""
 
 #. Tag: para
-#. +> stable6 stable5
+#. +> stable5
 #: hacking.docbook:315
 #, no-c-format
 msgid "Here are some tips for writing XSLT to parse &appname; &XML; data: (TBD)."
 msgstr ""
 
 #. Tag: title
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:322
 #, no-c-format
 msgid "Split Tracks By Disc"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:324
 #, no-c-format
 msgid "Setting this to <emphasis>false</emphasis> reverts to pre-4.0 behavior where the tracks are collapsed into a single track list."
 msgstr ""
 
 #. Tag: userinput
-#. +> trunk6
+#. +> trunk6 stable6
 #: hacking.docbook:330
 #, no-c-format
 msgid "Split Tracks By Disc=false"
