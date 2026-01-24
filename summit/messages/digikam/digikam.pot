@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-22 10:14+0100\n"
+"POT-Creation-Date: 2026-01-24 08:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -10874,7 +10874,7 @@ msgstr ""
 
 #. +> trunk6
 #: core/dplugins/editor/transform/contentawareresize/contentawareresizetool.cpp:387
-#: core/utilities/setup/setupicc.cpp:441
+#: core/utilities/setup/icc/setupicc.cpp:344
 #, kde-format
 msgid "Advanced Settings"
 msgstr ""
@@ -31717,7 +31717,7 @@ msgstr ""
 #: core/libs/onlineversion/onlineversiondlg.cpp:194
 #: core/libs/progressmanager/progressview.cpp:197
 #: core/libs/progressmanager/statusbarprogresswidget.cpp:98
-#: core/utilities/setup/downloader/filesdownloader.cpp:180
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:83
 #, kde-format
 msgctxt "%p is the percent value, % is the percent sign"
 msgid "%p%"
@@ -39490,7 +39490,7 @@ msgstr ""
 
 #. +> trunk6
 #: core/libs/onlineversion/onlineversiondlg.cpp:261
-#: core/utilities/setup/downloader/filesdownloader.cpp:154
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:57
 #, kde-format
 msgid "Download"
 msgstr ""
@@ -53959,7 +53959,7 @@ msgid "Effec&ts"
 msgstr ""
 
 #. +> trunk6
-#: core/showfoto/setup/showfotosetup.cpp:97 core/utilities/setup/setup.cpp:122
+#: core/showfoto/setup/showfotosetup.cpp:97 core/utilities/setup/setup.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
@@ -54038,14 +54038,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/showfoto/setup/showfotosetup.cpp:143 core/utilities/setup/setup.cpp:182
+#: core/showfoto/setup/showfotosetup.cpp:143 core/utilities/setup/setup.cpp:91
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Geolocation"
 msgstr ""
 
 #. +> trunk6
-#: core/showfoto/setup/showfotosetup.cpp:144 core/utilities/setup/setup.cpp:183
+#: core/showfoto/setup/showfotosetup.cpp:144 core/utilities/setup/setup.cpp:92
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -61628,7 +61628,7 @@ msgstr ""
 #: core/utilities/setup/album/setupcategory.cpp:95
 #: core/utilities/setup/camera/setupcamera.cpp:275
 #: core/utilities/setup/camera/setupcamera.cpp:398
-#: core/utilities/setup/setuptemplate.cpp:114
+#: core/utilities/setup/template/setuptemplate.cpp:68
 #, kde-format
 msgid "&Remove"
 msgstr ""
@@ -62885,7 +62885,7 @@ msgstr ""
 #. +> trunk6
 #: core/utilities/imageeditor/dialogs/colorcorrectiondlg.cpp:373
 #: core/utilities/imageeditor/dialogs/colorcorrectiondlg.cpp:472
-#: core/utilities/setup/setupicc.cpp:717
+#: core/utilities/setup/icc/setupicc_helpers.cpp:60
 #, kde-format
 msgid "No Profile Available"
 msgstr ""
@@ -62940,7 +62940,7 @@ msgstr ""
 
 #. +> trunk6
 #: core/utilities/imageeditor/dialogs/colorcorrectiondlg.cpp:514
-#: core/utilities/setup/setupicc.cpp:719
+#: core/utilities/setup/icc/setupicc_helpers.cpp:62
 #, kde-format
 msgid "No Input Profile Available"
 msgstr ""
@@ -63002,7 +63002,7 @@ msgstr ""
 
 #. +> trunk6
 #: core/utilities/imageeditor/dialogs/softproofdialog.cpp:95
-#: core/utilities/setup/setupicc.cpp:392
+#: core/utilities/setup/icc/setupicc.cpp:295
 #, kde-format
 msgid "<p>Select the profile for your output device (usually, your printer). This profile will be used to do a soft proof, so you will be able to preview how an image will be rendered via an output device.</p>"
 msgstr ""
@@ -63033,7 +63033,7 @@ msgstr ""
 
 #. +> trunk6
 #: core/utilities/imageeditor/dialogs/softproofdialog.cpp:218
-#: core/utilities/setup/setupicc.cpp:829
+#: core/utilities/setup/icc/setupicc_helpers.cpp:107
 #, kde-format
 msgctxt "@title:window"
 msgid "Profile Error"
@@ -63041,7 +63041,7 @@ msgstr ""
 
 #. +> trunk6
 #: core/utilities/imageeditor/dialogs/softproofdialog.cpp:218
-#: core/utilities/setup/setupicc.cpp:829
+#: core/utilities/setup/icc/setupicc_helpers.cpp:107
 #, kde-format
 msgid "No profile is selected."
 msgstr ""
@@ -63105,7 +63105,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/imageeditor/editor/editortool.cpp:388
+#: core/utilities/imageeditor/editor/editortool.cpp:406
 #, kde-format
 msgid "(%1,%2) RGBA:%3,%4,%5,%6"
 msgstr ""
@@ -63931,14 +63931,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/imageeditor/widgets/imageguidewidget.cpp:90
+#: core/utilities/imageeditor/widgets/imageguidewidget.cpp:91
 #, kde-format
 msgctxt "Preview image (before filter has been applied)"
 msgid "Before"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/imageeditor/widgets/imageguidewidget.cpp:92
+#: core/utilities/imageeditor/widgets/imageguidewidget.cpp:93
 #, kde-format
 msgctxt "Preview image (after filter has been applied)"
 msgid "After"
@@ -63963,7 +63963,7 @@ msgid "After"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/imageeditor/widgets/imageregionwidget.cpp:77
+#: core/utilities/imageeditor/widgets/imageregionwidget.cpp:79
 #, kde-format
 msgid ""
 "<p>Here you can see the original clip image which will be used for the preview computation.</p>"
@@ -69126,7 +69126,7 @@ msgstr ""
 #: core/utilities/setup/album/setupcategory.cpp:94
 #: core/utilities/setup/camera/setupcamera.cpp:273
 #: core/utilities/setup/camera/setupcamera.cpp:396
-#: core/utilities/setup/setuptemplate.cpp:112
+#: core/utilities/setup/template/setuptemplate.cpp:66
 #, kde-format
 msgid "&Add..."
 msgstr ""
@@ -70055,77 +70055,83 @@ msgid "Your collection will use this category:"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:141
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:44
 #, kde-format
 msgctxt "@title:window"
 msgid "Download Required Model Files"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:157
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:60
 #: core/utilities/setup/misc/systemsettingswidget.cpp:154
 #, kde-format
 msgid "Open local directory used for the data files storage."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:163
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:66
 #, kde-format
 msgid "Location of the face management model files:"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:171
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:74
 #, kde-format
 msgctxt "@title:window"
 msgid "Face Management Model Target"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:172
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:75
 #, kde-format
 msgid "Sets the target address to download the face management model files to."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:174
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:77
 #, kde-format
 msgid "Use AI Auto-Tools features"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:175
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:78
 #, kde-format
 msgid "Use Face Management feature"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:176
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:79
 #, kde-format
 msgid "Use Aesthetic Detection feature"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:177
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:80
 #, kde-format
 msgid "Use AutoTags Assignment feature"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:278
+#: core/utilities/setup/downloader/filesdownloader_helpers.cpp:279
+#, kde-format
+msgid "Clean up unused AI/DNN model files..."
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:45
 #, kde-format
 msgid "All model files were downloaded successfully."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:287
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:54
 #, kde-format
 msgctxt "@title:window"
 msgid "Download Error"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:288
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:55
 #, kde-format
 msgid ""
 "An error occurred during the download.\n"
@@ -70138,38 +70144,38 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:296
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:63
 #, kde-format
 msgctxt "@action:button"
 msgid "Try Again"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:434
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:135
 #, kde-format
 msgid "Checksum is incorrect."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:458
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:159
 #, kde-format
 msgid "File write error."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:465
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:166
 #, kde-format
 msgid "File open error."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:480
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:181
 #, kde-format
 msgid "File on the server is too large."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:591
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:256
 #, kde-format
 msgid ""
 "<p>digiKam relies on large binary model files to power features like face management, image classification based on aesthetics, AI AutoTools such as automatic image rotation, and automatic tag assignment. You have the option to select the specific features you want to enable.</p>"
@@ -70177,7 +70183,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:596
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:261
 #, kde-format
 msgid ""
 "<p>Some required files are missing. Click “Download” to start installing the necessary model files. If you close this dialog you will be prompted again the next time you launch digiKam. The selected features will not function without these files.</p>"
@@ -70185,22 +70191,16 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:603
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:268
 #, kde-format
 msgctxt "%1: file counter, %2: disk size with unit"
 msgid "The download requires %1 files with a size of %2."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:629
+#: core/utilities/setup/downloader/filesdownloader_slots.cpp:294
 #, kde-format
 msgid "All files for the selected features were found."
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/downloader/filesdownloader.cpp:657
-#, kde-format
-msgid "Clean up unused AI/DNN model files..."
 msgstr ""
 
 #. +> trunk6
@@ -70640,6 +70640,372 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<item><emphasis strong='true'>AVIF</emphasis>: AV1 Image File Format is a specification for storing images in the ISOBMFF container (as HEIF) compressed with AOMedia Video 1 (AV1) codec, an open and royalty-free encoding format. </item>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:42
+#, kde-format
+msgid "Enable Color Management"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:43
+#, kde-format
+msgid ""
+"<ul>"
+"<li>Checked: Color Management is enabled</li>"
+"<li>Unchecked: Color Management is disabled</li>"
+"</ul>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:50
+#, kde-format
+msgid "Visit Little CMS project website"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:60
+#, kde-format
+msgid "Working Color Space"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:66
+#, kde-format
+msgid "<p>This is the color space all the images will be converted to when opened (if you choose to convert) and the profile that will be embedded when saving. Good and safe choices are <b>Adobe RGB (1998)</b> and <b>sRGB IEC61966-2.1</b></p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:72
+#, kde-format
+msgid "<p>You can use this button to get more detailed information about the selected workspace profile.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:86
+#, kde-format
+msgid "When the profile of an image does not match the working color space"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:94
+#: core/utilities/setup/icc/setupicc.cpp:125
+#, kde-format
+msgid "Ask when opening the image"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:95
+#, kde-format
+msgid "<p>If an image has an embedded color profile not matching the working space profile, digiKam will ask if you want to convert to the working space, keep the embedded profile or discard the embedded profile and assign a different one.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:101
+#, kde-format
+msgid "Convert the image to the working color space"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:102
+#, kde-format
+msgid "<p>If an image has an embedded color profile not matching the working space profile, digiKam will convert the image's color information to the working color space. This changes the pixel data, but not the appearance of the image.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:118
+#, kde-format
+msgid "When an image has no color profile information"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:126
+#, kde-format
+msgid "<p>If an image has no embedded color profile, digiKam will ask which color space shall be used to interpret the image and to which color space it shall be transformed for editing.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:130
+#, kde-format
+msgid "Assume it is using the sRGB color space (Internet standard)"
+msgstr ""
+
+#. i18n("<p></p>"));
+#.
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:136
+#, kde-format
+msgid "and convert it to the working color space"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:149
+#, kde-format
+msgid "Assume it is using the working color space"
+msgstr ""
+
+#. i18n("<p></p>"));
+#.
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:155
+#, kde-format
+msgid "Convert it from default input color space to working space"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:174
+#, kde-format
+msgid "When loading a RAW file with uncalibrated colors"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:181
+#, kde-format
+msgid "Ask for the input profile"
+msgstr ""
+
+#. i18n("<p></p>"));
+#.
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:187
+#, kde-format
+msgid "Automatic color correction"
+msgstr ""
+
+#. i18n("<p></p>"));
+#.
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:193
+#, kde-format
+msgid "Convert it from the default input profile"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:217
+#, kde-format
+msgid "Color Managed View"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:222
+#, kde-format
+msgid "Monitor profile:"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:226
+#, kde-format
+msgid "<p>If your desktop do not provide a color profile for your screen, select here the default one. If no profile is set, sRGB will be used as fail-back. In all cases, the color management workflow will try to get in first the profile set for your monitor in your the desktop</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:234
+#, kde-format
+msgid "<p>You can use this button to get more detailed information about the selected monitor profile.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:238
+#, kde-format
+msgid "Use color managed view in editor"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:239
+#, kde-format
+msgid "<p>Turn on this option if you want to use your <b>Monitor Color Profile</b> to show your pictures in the Image Editor window with a color correction adapted to your monitor. You can at any time toggle this option from the Editor window. <i>Warning</i>: This can slow down rendering of the image, depending on the speed of your computer.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:246
+#, kde-format
+msgid "Use color managed view for previews and thumbnails"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:262
+#, kde-format
+msgid "Camera and Scanner"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:267
+#, kde-format
+msgid "Default input color profile:"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:269
+#, kde-format
+msgid "<p>This is the default color profile for your input device (that is your camera - or your scanner). A camera input profile is recommended for correct conversion of RAW images in 16bit. Some of the options about loading behavior above refer to this profile.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:276
+#, kde-format
+msgid "<p>You can use this button to get more detailed information about the selected input profile.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:287
+#, kde-format
+msgid "Printing and Proofing"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:292
+#, kde-format
+msgid "Output device profile:"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:301
+#, kde-format
+msgid "<p>You can use this button to get more detailed information about the selected proofing profile.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:312
+#, kde-format
+msgid "Color Profiles Repository"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:317
+#, kde-format
+msgid "digiKam looks for ICC profiles in a number of <a href='default'>default locations</a>. You can specify an additional folder:"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:325
+#, kde-format
+msgid "<p>digiKam searches ICC profiles in default system folders and ships itself a few selected profiles. Store all your additional color profiles in the directory set here.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:348
+#, kde-format
+msgid "Use black point compensation"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:349
+#, kde-format
+msgid "<p><b>Black Point Compensation</b> is a way to make adjustments between the maximum black levels of digital files and the black capabilities of various digital devices.</p>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:355
+#, kde-format
+msgid "Rendering Intents:"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:370
+#, kde-format
+msgctxt "@title: icc panel tab"
+msgid "Behavior"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:371
+#, kde-format
+msgctxt "@title: icc panel tab"
+msgid "Profiles"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc.cpp:372
+#, kde-format
+msgctxt "@title: icc panel tab"
+msgid "Advanced"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc_helpers.cpp:45
+#, kde-format
+msgid "No ICC profiles files found."
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc_helpers.cpp:61
+#, kde-format
+msgid "No Display Profile Available"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc_helpers.cpp:63
+#, kde-format
+msgid "No Output Profile Available"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc_settings.cpp:160
+#, kde-format
+msgid "Monitor Profile From System Settings"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc_slots.cpp:116
+#, kde-format
+msgctxt "none of the paths"
+msgid "none"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc_slots.cpp:125
+#, kde-format
+msgid ""
+"On Windows, the default search paths include "
+"<ul>"
+"<li>%1/Windows/System32/spool/drivers/color/</li>"
+"<li>%1/Windows/Spool/Drivers/Color/</li>"
+"<li>%2/Windows/Color/</li>"
+"</ul>"
+"On your system, currently these paths exist and are scanned:"
+"<ul>"
+"<li>%3</li>"
+"</ul>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc_slots.cpp:141
+#, kde-format
+msgid ""
+"On macOS, the default search paths include "
+"<ul>"
+"<li>/System/Library/ColorSync/Profiles</li>"
+"<li>/Library/ColorSync/Profiles</li>"
+"<li>~/Library/ColorSync/Profiles</li>"
+"<li>/opt/local/share/color/icc</li>"
+"<li>%1/Contents/Resources/digikam/profiles/</li>"
+"<li>~/.local/share/color/icc/</li>"
+"<li>~/.local/share/icc/</li>"
+"<li>~/.color/icc/</li>"
+"</ul>"
+"On your system, currently these paths exist and are scanned:"
+"<ul>"
+"<li>%2</li>"
+"</ul>"
+msgstr ""
+
+#. +> trunk6
+#: core/utilities/setup/icc/setupicc_slots.cpp:160
+#, kde-format
+msgid ""
+"On Linux, the default search paths include "
+"<ul>"
+"<li>/usr/share/color/icc</li>"
+"<li>/usr/local/share/color/icc</li>"
+"<li>~/.local/share/color/icc/</li>"
+"<li>~/.local/share/icc/</li>"
+"<li>~/.color/icc/</li>"
+"</ul>"
+"On your system, currently these paths exist and are scanned:"
+"<ul>"
+"<li>%1</li>"
+"</ul>"
 msgstr ""
 
 #. +> trunk6
@@ -72216,14 +72582,14 @@ msgid "Enable internal debug logging"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:130
+#: core/utilities/setup/setup.cpp:39
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Database"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:131
+#: core/utilities/setup/setup.cpp:40
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72232,14 +72598,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:135
+#: core/utilities/setup/setup.cpp:44
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Collections"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:136
+#: core/utilities/setup/setup.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72248,14 +72614,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:140
+#: core/utilities/setup/setup.cpp:49
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Views"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:141
+#: core/utilities/setup/setup.cpp:50
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72264,14 +72630,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:145
+#: core/utilities/setup/setup.cpp:54
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Tool-Tip"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:146
+#: core/utilities/setup/setup.cpp:55
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72280,14 +72646,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:150
+#: core/utilities/setup/setup.cpp:59
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Metadata"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:151
+#: core/utilities/setup/setup.cpp:60
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72296,14 +72662,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:155
+#: core/utilities/setup/setup.cpp:64
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Templates"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:156
+#: core/utilities/setup/setup.cpp:65
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72312,14 +72678,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:160
+#: core/utilities/setup/setup.cpp:69
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Image Editor"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:161
+#: core/utilities/setup/setup.cpp:70
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72328,14 +72694,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:165
+#: core/utilities/setup/setup.cpp:74
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Color Management"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:166
+#: core/utilities/setup/setup.cpp:75
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72344,14 +72710,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:170
+#: core/utilities/setup/setup.cpp:79
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Light Table"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:171
+#: core/utilities/setup/setup.cpp:80
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72360,14 +72726,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:175
+#: core/utilities/setup/setup.cpp:84
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Survey"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:176
+#: core/utilities/setup/setup.cpp:85
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72376,14 +72742,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:189
+#: core/utilities/setup/setup.cpp:98
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Cameras"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:190
+#: core/utilities/setup/setup.cpp:99
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72392,14 +72758,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:197
+#: core/utilities/setup/setup.cpp:106
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Plugins"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:198
+#: core/utilities/setup/setup.cpp:107
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72408,14 +72774,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:202
+#: core/utilities/setup/setup.cpp:111
 #, kde-format
 msgctxt "@title: settings section"
 msgid "Miscellaneous"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setup.cpp:203
+#: core/utilities/setup/setup.cpp:112
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -72475,371 +72841,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "To work friendly, Google Maps requires an API key that end users must buy online to gain credentials. Without this key, Google Maps is still usable but with an overlay frame annotated \"For Development Only\". For more information, see this <a href='https://mapsplatform.google.com/pricing/'>Google page</a> about usages, practices, and prices."
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:139
-#, kde-format
-msgid "Enable Color Management"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:140
-#, kde-format
-msgid ""
-"<ul>"
-"<li>Checked: Color Management is enabled</li>"
-"<li>Unchecked: Color Management is disabled</li>"
-"</ul>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:147
-#, kde-format
-msgid "Visit Little CMS project website"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:157
-#, kde-format
-msgid "Working Color Space"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:163
-#, kde-format
-msgid "<p>This is the color space all the images will be converted to when opened (if you choose to convert) and the profile that will be embedded when saving. Good and safe choices are <b>Adobe RGB (1998)</b> and <b>sRGB IEC61966-2.1</b></p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:169
-#, kde-format
-msgid "<p>You can use this button to get more detailed information about the selected workspace profile.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:183
-#, kde-format
-msgid "When the profile of an image does not match the working color space"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:191 core/utilities/setup/setupicc.cpp:222
-#, kde-format
-msgid "Ask when opening the image"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:192
-#, kde-format
-msgid "<p>If an image has an embedded color profile not matching the working space profile, digiKam will ask if you want to convert to the working space, keep the embedded profile or discard the embedded profile and assign a different one.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:198
-#, kde-format
-msgid "Convert the image to the working color space"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:199
-#, kde-format
-msgid "<p>If an image has an embedded color profile not matching the working space profile, digiKam will convert the image's color information to the working color space. This changes the pixel data, but not the appearance of the image.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:215
-#, kde-format
-msgid "When an image has no color profile information"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:223
-#, kde-format
-msgid "<p>If an image has no embedded color profile, digiKam will ask which color space shall be used to interpret the image and to which color space it shall be transformed for editing.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:227
-#, kde-format
-msgid "Assume it is using the sRGB color space (Internet standard)"
-msgstr ""
-
-#. i18n("<p></p>"));
-#.
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:233
-#, kde-format
-msgid "and convert it to the working color space"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:246
-#, kde-format
-msgid "Assume it is using the working color space"
-msgstr ""
-
-#. i18n("<p></p>"));
-#.
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:252
-#, kde-format
-msgid "Convert it from default input color space to working space"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:271
-#, kde-format
-msgid "When loading a RAW file with uncalibrated colors"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:278
-#, kde-format
-msgid "Ask for the input profile"
-msgstr ""
-
-#. i18n("<p></p>"));
-#.
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:284
-#, kde-format
-msgid "Automatic color correction"
-msgstr ""
-
-#. i18n("<p></p>"));
-#.
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:290
-#, kde-format
-msgid "Convert it from the default input profile"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:314
-#, kde-format
-msgid "Color Managed View"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:319
-#, kde-format
-msgid "Monitor profile:"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:323
-#, kde-format
-msgid "<p>If your desktop do not provide a color profile for your screen, select here the default one. If no profile is set, sRGB will be used as fail-back. In all cases, the color management workflow will try to get in first the profile set for your monitor in your the desktop</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:331
-#, kde-format
-msgid "<p>You can use this button to get more detailed information about the selected monitor profile.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:335
-#, kde-format
-msgid "Use color managed view in editor"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:336
-#, kde-format
-msgid "<p>Turn on this option if you want to use your <b>Monitor Color Profile</b> to show your pictures in the Image Editor window with a color correction adapted to your monitor. You can at any time toggle this option from the Editor window. <i>Warning</i>: This can slow down rendering of the image, depending on the speed of your computer.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:343
-#, kde-format
-msgid "Use color managed view for previews and thumbnails"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:359
-#, kde-format
-msgid "Camera and Scanner"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:364
-#, kde-format
-msgid "Default input color profile:"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:366
-#, kde-format
-msgid "<p>This is the default color profile for your input device (that is your camera - or your scanner). A camera input profile is recommended for correct conversion of RAW images in 16bit. Some of the options about loading behavior above refer to this profile.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:373
-#, kde-format
-msgid "<p>You can use this button to get more detailed information about the selected input profile.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:384
-#, kde-format
-msgid "Printing and Proofing"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:389
-#, kde-format
-msgid "Output device profile:"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:398
-#, kde-format
-msgid "<p>You can use this button to get more detailed information about the selected proofing profile.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:409
-#, kde-format
-msgid "Color Profiles Repository"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:414
-#, kde-format
-msgid "digiKam looks for ICC profiles in a number of <a href='default'>default locations</a>. You can specify an additional folder:"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:422
-#, kde-format
-msgid "<p>digiKam searches ICC profiles in default system folders and ships itself a few selected profiles. Store all your additional color profiles in the directory set here.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:445
-#, kde-format
-msgid "Use black point compensation"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:446
-#, kde-format
-msgid "<p><b>Black Point Compensation</b> is a way to make adjustments between the maximum black levels of digital files and the black capabilities of various digital devices.</p>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:452
-#, kde-format
-msgid "Rendering Intents:"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:467
-#, kde-format
-msgctxt "@title: icc panel tab"
-msgid "Behavior"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:468
-#, kde-format
-msgctxt "@title: icc panel tab"
-msgid "Profiles"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:469
-#, kde-format
-msgctxt "@title: icc panel tab"
-msgid "Advanced"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:670
-#, kde-format
-msgid "Monitor Profile From System Settings"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:702
-#, kde-format
-msgid "No ICC profiles files found."
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:718
-#, kde-format
-msgid "No Display Profile Available"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:720
-#, kde-format
-msgid "No Output Profile Available"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:854
-#, kde-format
-msgctxt "none of the paths"
-msgid "none"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:863
-#, kde-format
-msgid ""
-"On Windows, the default search paths include "
-"<ul>"
-"<li>%1/Windows/System32/spool/drivers/color/</li>"
-"<li>%1/Windows/Spool/Drivers/Color/</li>"
-"<li>%2/Windows/Color/</li>"
-"</ul>"
-"On your system, currently these paths exist and are scanned:"
-"<ul>"
-"<li>%3</li>"
-"</ul>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:879
-#, kde-format
-msgid ""
-"On macOS, the default search paths include "
-"<ul>"
-"<li>/System/Library/ColorSync/Profiles</li>"
-"<li>/Library/ColorSync/Profiles</li>"
-"<li>~/Library/ColorSync/Profiles</li>"
-"<li>/opt/local/share/color/icc</li>"
-"<li>%1/Contents/Resources/digikam/profiles/</li>"
-"<li>~/.local/share/color/icc/</li>"
-"<li>~/.local/share/icc/</li>"
-"<li>~/.color/icc/</li>"
-"</ul>"
-"On your system, currently these paths exist and are scanned:"
-"<ul>"
-"<li>%2</li>"
-"</ul>"
-msgstr ""
-
-#. +> trunk6
-#: core/utilities/setup/setupicc.cpp:898
-#, kde-format
-msgid ""
-"On Linux, the default search paths include "
-"<ul>"
-"<li>/usr/share/color/icc</li>"
-"<li>/usr/local/share/color/icc</li>"
-"<li>~/.local/share/color/icc/</li>"
-"<li>~/.local/share/icc/</li>"
-"<li>~/.color/icc/</li>"
-"</ul>"
-"On your system, currently these paths exist and are scanned:"
-"<ul>"
-"<li>%1</li>"
-"</ul>"
 msgstr ""
 
 #. +> trunk6
@@ -72907,50 +72908,50 @@ msgid "Image Loaders"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setuptemplate.cpp:81
+#: core/utilities/setup/template/setuptemplate.cpp:35
 #, kde-format
 msgid "Template Title:"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setuptemplate.cpp:84
+#: core/utilities/setup/template/setuptemplate.cpp:38
 #, kde-format
 msgid "Enter the metadata template title here."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setuptemplate.cpp:85
+#: core/utilities/setup/template/setuptemplate.cpp:39
 #, kde-format
 msgid "<p>Enter the metadata template title here. This title will be used to identify a template in your collection.</p>"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setuptemplate.cpp:89
+#: core/utilities/setup/template/setuptemplate.cpp:43
 #, kde-format
 msgid "Merge Template"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setuptemplate.cpp:97
+#: core/utilities/setup/template/setuptemplate.cpp:51
 #, kde-format
 msgid "<b>Note: These information are used to set <b><a href='https://en.wikipedia.org/wiki/Extensible_Metadata_Platform'>XMP</a></b> and <b><a href='https://en.wikipedia.org/wiki/IPTC'>IPTC</a></b> tag contents. There is no limitation with XMP, but note that IPTC text tag sizes are limited. Use contextual help for details.</b>"
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setuptemplate.cpp:116
+#: core/utilities/setup/template/setuptemplate.cpp:70
 #, kde-format
 msgid "&Replace..."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setuptemplate.cpp:255
-#: core/utilities/setup/setuptemplate.cpp:289
+#: core/utilities/setup/template/setuptemplate_slots.cpp:44
+#: core/utilities/setup/template/setuptemplate_slots.cpp:78
 #, kde-format
 msgid "Cannot register new metadata template without title."
 msgstr ""
 
 #. +> trunk6
-#: core/utilities/setup/setuptemplate.cpp:262
+#: core/utilities/setup/template/setuptemplate_slots.cpp:51
 #, kde-format
 msgid "A metadata template named '%1' already exists."
 msgstr ""

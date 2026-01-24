@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-23 10:51+0100\n"
+"POT-Creation-Date: 2026-01-24 08:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -734,26 +734,26 @@ msgid "Local bundle"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1928
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1933
 #: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:839
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2058
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2063
 #, kde-format
 msgid "Failed to add source '%1': %2"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2185
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2190
 #, kde-format
 msgid "There are no Flatpak sources."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2189
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:2194
 #, kde-format
 msgid "Failed to load \"%1\" source"
 msgstr ""
@@ -1317,6 +1317,25 @@ msgstr ""
 #: libdiscover/backends/FwupdBackend/FwupdSourcesBackend.cpp:137
 #, kde-format
 msgid "Could not enable remote %1: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libdiscover/backends/HoloBackend/HoloBackend.cpp:71
+#, kde-format
+msgid "SteamOS"
+msgstr ""
+
+#. +> trunk6
+#: libdiscover/backends/HoloBackend/HoloBackend.cpp:73
+#, kde-format
+msgid "Holo"
+msgstr ""
+
+#. +> trunk6
+#: libdiscover/backends/HoloBackend/HoloBackend.cpp:113
+#, kde-format
+msgctxt "%1 is the pretty name of the distro e.g. Holo or SteamOS"
+msgid "Holo: Unable to query atomupd for %1 Updates..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -3075,18 +3094,6 @@ msgstr ""
 msgid "This Snap application is not compatible with security sandboxing and will have full access to this computer. Install it anyway?"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: libdiscover/backends/SteamOSBackend/SteamOSBackend.cpp:94
-#, kde-format
-msgid "SteamOS: Unable to query atomupd for SteamOS Updates..."
-msgstr ""
-
-#. +> trunk6 stable6
-#: libdiscover/backends/SteamOSBackend/SteamOSResource.cpp:16
-#, kde-format
-msgid "SteamOS"
-msgstr ""
-
 #. +> trunk6 stable6
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:149
 #, kde-kuit-format
@@ -3303,6 +3310,12 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Addons"
+msgstr ""
+
+#. +> stable6 stable5
+#: libdiscover/backends/SteamOSBackend/SteamOSBackend.cpp:94
+#, kde-format
+msgid "SteamOS: Unable to query atomupd for SteamOS Updates..."
 msgstr ""
 
 #. +> stable5
