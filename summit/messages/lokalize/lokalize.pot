@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lokalize\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-11 08:13+0100\n"
+"POT-Creation-Date: 2026-01-25 16:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2453,17 +2453,24 @@ msgid ""
 "If you need more information or documentation, then a visit to <a href=\"%2\">%2</a> will provide you with what you need.</html>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/lokalizemainwindow.cpp:120
+#, kde-format
+msgid "&Configure Lokalize…"
+msgstr ""
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:117
 #, kde-format
 msgid "&Configure Lokalize"
 msgstr ""
 
 #. +> trunk6
-#: src/lokalizemainwindow.cpp:121 src/project/projecttab.cpp:155
+#: src/lokalizemainwindow.cpp:121 src/lokalizemainwindow.cpp:671
+#: src/project/projecttab.cpp:155
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Open Project"
+msgid "Open Project…"
 msgstr ""
 
 #. +> stable6
@@ -2484,7 +2491,7 @@ msgstr ""
 #: src/lokalizemainwindow.cpp:122
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Translate Software"
+msgid "Translate Software…"
 msgstr ""
 
 #. +> stable6
@@ -2494,8 +2501,15 @@ msgctxt "@action:inmenu"
 msgid "Translate software"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/lokalizemainwindow.cpp:123
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Translate OpenDocument…"
+msgstr ""
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Translate OpenDocument"
@@ -2677,13 +2691,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Create OpenDocument translation project..."
-msgstr ""
-
-#. +> trunk6
-#: src/lokalizemainwindow.cpp:671
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open Project…"
 msgstr ""
 
 #. +> trunk6
@@ -3416,14 +3423,28 @@ msgctxt "@title"
 msgid "Project Required"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/prefs/prefs.cpp:147
+#, kde-format
+msgctxt "@action"
+msgid "Create Project…"
+msgstr ""
+
+#. +> stable6
 #: src/prefs/prefs.cpp:147
 #, kde-format
 msgctxt "@action"
 msgid "Create Project"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/prefs/prefs.cpp:148
+#, kde-format
+msgctxt "@action"
+msgid "Open Project…"
+msgstr ""
+
+#. +> stable6
 #: src/prefs/prefs.cpp:148
 #, kde-format
 msgctxt "@action"
@@ -4730,14 +4751,28 @@ msgid "Add Data"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, importTMX)
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/managedatabases.ui:33
+#, kde-format
+msgid "Add Data from TMX…"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, importTMX)
+#. +> stable6
 #: src/tm/managedatabases.ui:33
 #, kde-format
 msgid "Add Data from TMX"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, exportTMX)
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/managedatabases.ui:40
+#, kde-format
+msgid "Export to TMX…"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, exportTMX)
+#. +> stable6
 #: src/tm/managedatabases.ui:40
 #, kde-format
 msgid "Export to TMX"
