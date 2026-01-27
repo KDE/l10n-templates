@@ -3,94 +3,94 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-01-21 08:33+0100\n"
+"POT-Creation-Date: 2026-01-27 04:38+0100\n"
 
 #. +> trunk6 stable6
-#: src/Account.cpp:474
+#: src/Account.cpp:475
 msgctxt "Connection|"
 msgid "Disconnected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:476
+#: src/Account.cpp:477
 msgctxt "Connection|"
 msgid "Connecting…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:478
+#: src/Account.cpp:479
 msgctxt "Connection|"
 msgid "Connected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:489
+#: src/Account.cpp:490
 msgctxt "Connection|"
 msgid "Invalid username or password."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:491
+#: src/Account.cpp:492
 msgctxt "Connection|"
 msgid "Cannot connect to the server. Please check your internet connection."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:493
+#: src/Account.cpp:494
 msgctxt "Connection|"
 msgid "Error while trying to connect securely."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:495
+#: src/Account.cpp:496
 msgctxt "Connection|"
 msgid "The server doesn't support secure connections."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:497
+#: src/Account.cpp:498
 msgctxt "Connection|"
 msgid "Could not connect to the server. Please check your internet connection or your server name."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:499
+#: src/Account.cpp:500
 msgctxt "Connection|"
 msgid "The server is offline or blocked by a firewall."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:501
+#: src/Account.cpp:502
 msgctxt "Connection|"
 msgid "Authentication protocol not supported by the server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:503
+#: src/Account.cpp:504
 msgctxt "Connection|"
 msgid "The connection could not be refreshed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:505
+#: src/Account.cpp:506
 msgctxt "Connection|"
 msgid "The internet access is not permitted. Please check your system's internet access configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:507
+#: src/Account.cpp:508
 msgctxt "Connection|"
 msgid "This server does not support registration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:509
+#: src/Account.cpp:510
 msgctxt "Connection|"
 msgid "Could not log in. Confirm the email message you received first."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:511
+#: src/Account.cpp:512
 msgctxt "Connection|"
 msgid "Could not connect to the server."
 msgstr ""
@@ -142,6 +142,20 @@ msgstr ""
 #: src/Blocking.cpp:363
 msgctxt "BlockingModel|"
 msgid "Devices on Servers"
+msgstr ""
+
+#. +> trunk6
+#: src/ChatController.cpp:176
+#, qt-format
+msgctxt "ChatController|"
+msgid "%1 is typing…"
+msgstr ""
+
+#. +> trunk6
+#: src/ChatController.cpp:178
+#, qt-format
+msgctxt "ChatController|"
+msgid "%1 paused typing"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -541,14 +555,14 @@ msgid "Message could not be sent."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageController.cpp:624
+#: src/MessageController.cpp:620
 #, qt-format
 msgctxt "MessageController|"
 msgid "This message is encrypted with %1 but could not be decrypted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageController.cpp:1028
+#: src/MessageController.cpp:1024
 #, qt-format
 msgctxt "MessageController|"
 msgid "Reaction could not be sent: %1"
@@ -1741,10 +1755,10 @@ msgctxt "ContactDetailsContent|"
 msgid "Send typing notifications"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/qml/details/ContactDetailsContent.qml:156
 msgctxt "ContactDetailsContent|"
-msgid "Indicate when you have this conversation open, are typing and stopped typing"
+msgid "Indicate when you are typing"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1793,6 +1807,12 @@ msgstr ""
 #: src/qml/details/ContactDetailsContent.qml:209
 msgctxt "ContactDetailsContent|"
 msgid "Removing contact…"
+msgstr ""
+
+#. +> stable6
+#: src/qml/details/ContactDetailsContent.qml:156
+msgctxt "ContactDetailsContent|"
+msgid "Indicate when you have this conversation open, are typing and stopped typing"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2073,10 +2093,10 @@ msgctxt "GroupChatDetailsContent|"
 msgid "Send typing notifications"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/qml/details/GroupChatDetailsContent.qml:353
 msgctxt "GroupChatDetailsContent|"
-msgid "Indicate when you have this conversation open, are typing and stopped typing"
+msgid "Indicate when you are typing"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2145,6 +2165,12 @@ msgstr ""
 #, qt-format
 msgctxt "GroupChatDetailsContent|"
 msgid "The group %1 could not be deleted%2"
+msgstr ""
+
+#. +> stable6
+#: src/qml/details/GroupChatDetailsContent.qml:353
+msgctxt "GroupChatDetailsContent|"
+msgid "Indicate when you have this conversation open, are typing and stopped typing"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4117,21 +4143,21 @@ msgctxt "QmlUtils|"
 msgid "Unknown size"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/QmlUtils.cpp:238
 #, qt-format
 msgctxt "QmlUtils|"
 msgid "%1 is online"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/QmlUtils.cpp:240
 #, qt-format
 msgctxt "QmlUtils|"
 msgid "%1 is typing…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/QmlUtils.cpp:242
 #, qt-format
 msgctxt "QmlUtils|"
@@ -4197,7 +4223,7 @@ msgid "Notes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterModel.cpp:755
+#: src/RosterModel.cpp:759
 msgctxt "RosterModel|"
 msgid "Yesterday"
 msgstr ""
