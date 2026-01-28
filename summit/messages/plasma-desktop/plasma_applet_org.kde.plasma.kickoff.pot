@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-13 14:38+0100\n"
+"POT-Creation-Date: 2026-01-28 11:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -116,57 +116,22 @@ msgctxt "@action:inmenu"
 msgid "Remove icon"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ConfigGeneral.qml:120
-#, kde-format
-msgctxt "@label:listbox"
-msgid "Show applications as:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ConfigGeneral.qml:122
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Name only"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ConfigGeneral.qml:122
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Description only"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ConfigGeneral.qml:122
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Name (Description)"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ConfigGeneral.qml:122
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Description (Name)"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:132
+#: ConfigGeneral.qml:116
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Text label:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:134
+#: ConfigGeneral.qml:118
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Type here to add a text label"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:148
+#: ConfigGeneral.qml:132
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset menu label"
@@ -180,21 +145,56 @@ msgid "Configure Enabled Search Plugins…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:161
+#: ConfigGeneral.qml:145
 #, kde-format
 msgctxt "@info"
 msgid "A text label cannot be set when the Panel is vertical."
 msgstr ""
 
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:157
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:171
+#: ConfigGeneral.qml:167
 #, kde-format
 msgctxt "General options"
 msgid "General:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:175
+#: ConfigGeneral.qml:171
 #, kde-format
 msgctxt "@option:check"
 msgid "Sort applications alphabetically"
@@ -207,14 +207,14 @@ msgid "Always sort applications alphabetically"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:179
+#: ConfigGeneral.qml:175
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "This doesn't affect how applications are sorted in either search results or the favorites page."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:185
+#: ConfigGeneral.qml:181
 #, kde-format
 msgctxt "@option:check"
 msgid "Use compact list item style"
@@ -227,63 +227,63 @@ msgid "Use compact list item style"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:191
+#: ConfigGeneral.qml:187
 #, kde-format
 msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
 msgid "Automatically disabled when in Touch Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:199
+#: ConfigGeneral.qml:195
 #, kde-format
 msgctxt "@option:check"
 msgid "Highlight newly installed applications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:204
+#: ConfigGeneral.qml:200
 #, kde-format
 msgctxt "@option:check"
 msgid "Switch sidebar categories when hovering over them"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:210
+#: ConfigGeneral.qml:206
 #, kde-format
 msgctxt "@action:button opens plasmasearch kcm"
 msgid "Configure Search Plugins…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:220
+#: ConfigGeneral.qml:216
 #, kde-format
 msgctxt "@label:group prefix for radio button group"
 msgid "Sidebar position:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:221 ConfigGeneral.qml:229
+#: ConfigGeneral.qml:217 ConfigGeneral.qml:225
 #, kde-format
 msgctxt "@option:radio sidebar position"
 msgid "Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:221
+#: ConfigGeneral.qml:217
 #, kde-format
 msgctxt "option:radio sidebar position"
 msgid "Left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:229
+#: ConfigGeneral.qml:225
 #, kde-format
 msgctxt "@option:radio sidebar position"
 msgid "Left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:237
+#: ConfigGeneral.qml:233
 #, kde-format
 msgctxt "@title:group prefix for radio button group"
 msgid "Show favorites:"
@@ -296,7 +296,7 @@ msgid "Show favorites:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:238
+#: ConfigGeneral.qml:234
 #, kde-format
 msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
 msgid "In a grid"
@@ -310,7 +310,7 @@ msgid "In a grid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:246
+#: ConfigGeneral.qml:242
 #, kde-format
 msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
 msgid "In a list"
@@ -324,7 +324,7 @@ msgid "In a list"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:254
+#: ConfigGeneral.qml:250
 #, kde-format
 msgctxt "@title:group prefix for radio button group"
 msgid "Show other applications:"
@@ -337,7 +337,7 @@ msgid "Show other applications:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:255
+#: ConfigGeneral.qml:251
 #, kde-format
 msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
 msgid "In a grid"
@@ -351,7 +351,7 @@ msgid "In a grid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:263
+#: ConfigGeneral.qml:259
 #, kde-format
 msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
 msgid "In a list"
@@ -365,7 +365,7 @@ msgid "In a list"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:275
+#: ConfigGeneral.qml:271
 #, kde-format
 msgctxt "@title:group prefix for radio button group"
 msgid "Show buttons for:"
@@ -378,7 +378,7 @@ msgid "Show buttons for:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:276
+#: ConfigGeneral.qml:272
 #, kde-format
 msgctxt "@option:radio Show buttons for"
 msgid "Power"
@@ -392,7 +392,7 @@ msgid "Power"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:285
+#: ConfigGeneral.qml:281
 #, kde-format
 msgctxt "@option:radio Show buttons for"
 msgid "Session"
@@ -405,7 +405,7 @@ msgid "Session"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:294
+#: ConfigGeneral.qml:290
 #, kde-format
 msgctxt "@option:radio Show buttons for"
 msgid "Power and session"
@@ -418,7 +418,7 @@ msgid "Power and session"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:303
+#: ConfigGeneral.qml:299
 #, kde-format
 msgctxt "@option:check"
 msgid "Show action button captions"
