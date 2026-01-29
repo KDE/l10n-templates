@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-27 04:40+0100\n"
+"POT-Creation-Date: 2026-01-29 10:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -50,31 +50,17 @@ msgid "Alexander Reinholdt"
 msgstr ""
 
 #. Tag: date
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:37
 #, no-c-format
 msgid "2026-01-26"
 msgstr ""
 
-#. Tag: date
-#. +> stable6
-#: index.docbook:37
-#, no-c-format
-msgid "2024-12-08"
-msgstr ""
-
 #. Tag: releaseinfo
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:38
 #, no-c-format
 msgid "&smb4k; 4.0.5"
-msgstr ""
-
-#. Tag: releaseinfo
-#. +> stable6
-#: index.docbook:38
-#, no-c-format
-msgid "&smb4k; 4.0.0"
 msgstr ""
 
 #. Tag: para
@@ -113,42 +99,28 @@ msgid "Introduction"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:58
 #, no-c-format
 msgid "&smb4k; is an advanced network neighborhood browser and <ulink url=\"http://www.samba.org\">Samba</ulink> share mounting utility. It provides many handy features that ease your life in a &Windows;-dominated network environment."
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:59
-#, no-c-format
-msgid "&smb4k; is an advanced network neighborhood browser and <ulink url=\"http://www.samba.org\">Samba</ulink> share mounting utility. It provides many handy features that ease your life in a &Windows;-dominated network environment:"
-msgstr ""
-
-#. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:60
 #, no-c-format
 msgid "This handbook describes &smb4k; 4.0.5 and later. To some extent, it is also correct for earlier versions."
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:58
-#, no-c-format
-msgid "This handbook describes &smb4k; 4.0 and to some extent earlier versions."
-msgstr ""
-
-#. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:63
 #, no-c-format
 msgid "In 2025, several security vulnerabilities were found in the KAuth mount helper program (see the <ulink url=\"https://security.opensuse.org/2025/12/10/smb4k-major-issues-in-kauth-helper.html\">report</ulink> by the SUSE Security Team) and were fixed in version 4.0.5. Since the feature set for mounts and unmounts has been restricted, these security improvements have a noticeable impact on the entire program."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:66
 #, no-c-format
 msgid "&smb4k; has got the following features:"
@@ -246,17 +218,10 @@ msgid "<para>System tray widget</para>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:82
 #, no-c-format
 msgid "Support of selected mount options"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:75
-#, no-c-format
-msgid "Support of advanced mount options"
 msgstr ""
 
 #. Tag: para
@@ -680,24 +645,10 @@ msgid "<shortcut><keycombo action=\"simul\">&Ctrl; <keycap>U</keycap></keycombo>
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:321 index.docbook:4378
 #, no-c-format
 msgid "Unmount the selected shares. System mounts, or shares that were mounted by other users cannot be unmounted. This action is invisible by default and will only be visible instead of the <guimenuitem>Mount</guimenuitem> action if at least one mounted share is selected."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:314
-#, no-c-format
-msgid "Unmount the selected shares. This action is invisible by default and will only be visible instead of the <guimenuitem>Mount</guimenuitem> action if at least one mounted share is selected."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:4431
-#, no-c-format
-msgid "Unmount the selected share. This action is invisible by default and will only be visible instead of the <guimenuitem>Mount</guimenuitem> action when the share is currently mounted."
 msgstr ""
 
 #. Tag: para
@@ -799,17 +750,10 @@ msgid "Here you can enter the location of the share as a <ulink url=\"http://en.
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:375
 #, no-c-format
 msgid "In this case a share is password protected, a <link linkend=\"network_neighborhood_browser_authentication\">password dialog</link> will appear and you have to enter the correct user name (if not already present) and password. &smb4k; will proceed with mounting the share unless a wrong user name or password was entered. In that case, the authentication dialog will reappear. If the mount process was successful, you will be shown a notification and the share will appear in the <link linkend=\"shares_view\">Mounted Shares</link> view. If mounting fails, a notification with the error message that was returned by <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> (&Linux;) or <ulink url=\"man:/mount_smbfs\"><citerefentry><refentrytitle>mount_smbfs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> (BSD) will be displayed."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:368
-#, no-c-format
-msgid "In this case a share is password protected, a <link linkend=\"network_neighborhood_browser_authentication\">password dialog</link> will appear and you have to enter the correct user name (if not already present) and password. &smb4k; will proceed with mounting the share unless a wrong user name or password was entered. In that case, the authentication dialog will reappear. If the mount process was successful, the user will be shown a notification and the share will appear in the <link linkend=\"shares_view\">Mounted Shares</link> view. If mounting fails, a notification with the error message that was returned by <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> (&Linux;) or <ulink url=\"man:/mount_smbfs\"><citerefentry><refentrytitle>mount_smbfs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> (BSD) will be displayed."
 msgstr ""
 
 #. Tag: title
@@ -1107,14 +1051,7 @@ msgid "The shares are shown in a list view."
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:540
-#, no-c-format
-msgid "Unmount the selected shares. If no share is selected in the shares view, this button is disabled."
-msgstr ""
-
-#. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:547 index.docbook:4438
 #, no-c-format
 msgid "Unmount the selected shares. This action is restricted to the shares you mounted, though. So, system mounts or shares that belong to other users cannot be unmounted. If no share is selected in the shares view, this button is disabled."
@@ -1135,7 +1072,7 @@ msgid "<shortcut><keycombo action=\"simul\">&Ctrl; <keycap>N</keycap></keycombo>
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:559 index.docbook:829
 #, no-c-format
 msgid "Unmount all your shares at once. System mounts or shares that belong to other users cannot be unmounted with this action. If you have not mounted any shares, this button is disabled."
@@ -1282,17 +1219,10 @@ msgid "Shares Owned by Other Users"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:666
 #, no-c-format
 msgid "Shares owned by other users are only shown if you adjusted the <link linkend=\"configuration_page_mounting_basic_settings_behavior\">settings</link> to display them. You are not allowed to unmount these shares."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:659
-#, no-c-format
-msgid "Shares owned by other users are only shown if you adjusted the <link linkend=\"configuration_page_mounting_basic_settings_behavior\">settings</link> to display them. In the default configuration, you are not allowed to unmount these shares, but you can <link linkend=\"configuration_page_mounting_basic_settings_behavior\">change this behavior</link>, too."
 msgstr ""
 
 #. Tag: title
@@ -1351,20 +1281,6 @@ msgstr ""
 msgid "You can also drag and drop the whole share to the desktop or to another application (&eg; &dolphin;). Again, a popup menu will open asking you, what to do. When choosing the appropriate operation, please remember that under most circumstances moving and linking the share might not be a good idea."
 msgstr ""
 
-#. Tag: para
-#. +> stable6
-#: index.docbook:702
-#, no-c-format
-msgid "One or multiple selected shares may be unmounted by either clicking the <menuchoice><shortcut><keycombo action=\"simul\">&Ctrl; <keycap>U</keycap></keycombo></shortcut><guimenuitem>Unmount</guimenuitem></menuchoice> action, or by pressing its keyboard shortcut. By default, the ability to unmount a share is restricted to the ones that are owned by you. This behavior can be altered in the <link linkend=\"configuration_page_mounting_basic_settings_behavior\">configuration dialog</link>. If you enabled the unmounting of shares that are owned by other users, you will be presented with a warning dialog prior to the actual unmount. If you proceed, the share will definitely be unmounted. So, please think twice before you decide to unmount those shares!"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:704
-#, no-c-format
-msgid "All shares can be unmounted at once by clicking the <menuchoice><shortcut><keycombo action=\"simul\">&Ctrl; <keycap>N</keycap></keycombo></shortcut><guimenuitem>Unmount All</guimenuitem></menuchoice> action. Depending on your settings, this will also unmount foreign and inaccessible shares."
-msgstr ""
-
 #. Tag: title
 #. +> trunk6 stable6
 #: index.docbook:707
@@ -1373,31 +1289,24 @@ msgid "Unmounting Shares"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:709
 #, no-c-format
 msgid "You can unmount either a selection of your shares by using the <menuchoice><shortcut><keycombo action=\"simul\">&Ctrl; <keycap>U</keycap></keycombo></shortcut><guimenuitem>Unmount</guimenuitem></menuchoice> action or all of them with the <menuchoice><shortcut><keycombo action=\"simul\">&Ctrl; <keycap>N</keycap></keycombo></shortcut><guimenuitem>Unmount All</guimenuitem></menuchoice> action."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:710
 #, no-c-format
 msgid "Please note that you can only umount the shares you mounted. System shares or shares that were mounted by other users cannot be unmounted."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:711
 #, no-c-format
 msgid "&smb4k; provides the ability to force unmounting of shares (&Linux; only). This can be useful with inaccessible shares that cannot be unmounted the normal way. To enable this feature, you need to modify the <link linkend=\"configuration_page_mounting_basic_settings_behavior\">settings</link> in the configuration dialog. &smb4k; will then perform a <ulink url=\"man:/umount(8)\">lazy unmount</ulink> on inaccessible shares."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:703
-#, no-c-format
-msgid "&smb4k; provides the ability to force unmounting of shares (&Linux; only). This can be useful with inaccessible shares that cannot in be unmounted the normal way. To enable this feature, you need to modify the <link linkend=\"configuration_page_mounting_basic_settings_behavior\">settings</link> in the configuration dialog. &smb4k; will then perform a <ulink url=\"man:/umount(8)\">lazy unmount</ulink> on inaccessible shares."
 msgstr ""
 
 #. Tag: para
@@ -1589,13 +1498,6 @@ msgstr ""
 msgid "System tray widget's Mounted Shares menu"
 msgstr ""
 
-#. Tag: para
-#. +> stable6
-#: index.docbook:822
-#, no-c-format
-msgid "Unmount all shares at once. Depending on your <link linkend=\"configuration_page_mounting_basic_settings_behavior\">settings</link>, &smb4k; attempts to unmount either only those shares that are owned by you or all that are listed."
-msgstr ""
-
 #. Tag: guimenuitem
 #. +> trunk6 stable6
 #: index.docbook:826
@@ -1618,7 +1520,7 @@ msgid "Unmount"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:842
 #, no-c-format
 msgid "Unmount the share. This action is disabled for shares that do not belong to you."
@@ -1933,17 +1835,10 @@ msgid "At the right side of each entry, three action buttons are arranged. The f
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1008
 #, no-c-format
 msgid "The tool bar contains the <guibutton>Unmount All</guibutton> action that lets you unmount all your shares at once."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:1001
-#, no-c-format
-msgid "The tool bar contains the <guibutton>Unmount All</guibutton> action that lets you unmount all shares at once."
 msgstr ""
 
 #. Tag: title
@@ -2052,17 +1947,10 @@ msgid "Bookmarks"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1089
 #, no-c-format
 msgid "You can add bookmarks to your favorite shares from within the <link linkend=\"network_neighborhood_browser\">network neighborhood browser</link>, the <link linkend=\"shares_view\">shares view</link> and the <link linkend=\"plasmoid\">&plasmoid;</link>. In the main window, this is done by selecting one or more shares and clicking the <menuchoice><guimenuitem>Add Bookmark</guimenuitem></menuchoice> action. In the &plasmoid;, you click the respective bookmark action next to the item's name. The <guilabel>Bookmark Shares</guilabel> dialog will pop up, listing all shares that are to be newly bookmarked."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:1082
-#, no-c-format
-msgid "You can add bookmarks to your favorite shares from within the <link linkend=\"network_neighborhood_browser\">network neighborhood browser</link>, the <link linkend=\"shares_view\">shares view</link> and the <link linkend=\"plasmoid\">&plasmoid;</link>. In the main window, this is done by selecting one or more shares and clicking the <menuchoice><guimenuitem>Add Bookmark</guimenuitem></menuchoice> action. In the &plasmoid;, you click the respective bookmark action next to the item's name. A dialog will then pop up where you can add a label and assign the bookmark to a category. Double-click a bookmark to open the input widget."
 msgstr ""
 
 #. Tag: screeninfo
@@ -2080,21 +1968,21 @@ msgid "Bookmarks addition dialog"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1097
 #, no-c-format
 msgid "To add a label or assign a category, double-click a bookmark. The input widget will open and you can edit the corresponding entries."
 msgstr ""
 
 #. Tag: screeninfo
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1099
 #, no-c-format
 msgid "Screenshot of the bookmarks addition dialog with opened input widget"
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1102
 #, no-c-format
 msgid "Bookmarks addition dialog with opened input widget"
@@ -2932,13 +2820,6 @@ msgstr ""
 msgid "User Interface"
 msgstr ""
 
-#. Tag: guibutton
-#. +> stable6
-#: index.docbook:2391 index.docbook:2743
-#, no-c-format
-msgid "User ID"
-msgstr ""
-
 #. Tag: para
 #. +> trunk6 stable6
 #: index.docbook:1516
@@ -3734,32 +3615,11 @@ msgstr ""
 msgid "Default: 5 s"
 msgstr ""
 
-#. Tag: para
-#. +> stable6
-#: index.docbook:2747
-#, no-c-format
-msgid "Default: your UID"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2756
-#, no-c-format
-msgid "Default: your GID"
-msgstr ""
-
 #. Tag: title
 #. +> trunk6 stable6
 #: index.docbook:2017
 #, no-c-format
 msgid "Mounting"
-msgstr ""
-
-#. Tag: guibutton
-#. +> stable6
-#: index.docbook:2031
-#, no-c-format
-msgid "Mount prefix"
 msgstr ""
 
 #. Tag: para
@@ -3791,31 +3651,10 @@ msgid "The settings in this tab are the same for all supported operating systems
 msgstr ""
 
 #. Tag: guibutton
-#. +> stable6
-#: index.docbook:2040
-#, no-c-format
-msgid "Force generated subdirectories to be lower case"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2043
-#, no-c-format
-msgid "All subdirectories that are created by &smb4k; below the mount prefix will be lower case."
-msgstr ""
-
-#. Tag: guibutton
 #. +> trunk6 stable6
 #: index.docbook:2044
 #, no-c-format
 msgid "Remount shares"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:835
-#, no-c-format
-msgid "Unmount the share."
 msgstr ""
 
 #. Tag: para
@@ -3909,32 +3748,11 @@ msgstr ""
 msgid "You will not only see the shares that were mounted and are owned by you, but also all other mounts using the SMBFS (BSD) and &CIFS; (&Linux;) file system that are present on the system."
 msgstr ""
 
-#. Tag: guibutton
-#. +> stable6
-#: index.docbook:2103
-#, no-c-format
-msgid "Allow the unmounting of shares that are owned by other users"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2106
-#, no-c-format
-msgid "This option will allow you to unmount shares that were mounted by other users."
-msgstr ""
-
 #. Tag: title
 #. +> trunk6 stable6
 #: index.docbook:2107
 #, no-c-format
 msgid "Common Mount Settings (&Linux; only)"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2107
-#, no-c-format
-msgid "USE WITH EXTREME CAUTION!"
 msgstr ""
 
 #. Tag: para
@@ -3949,13 +3767,6 @@ msgstr ""
 #: index.docbook:2112 index.docbook:2686
 #, no-c-format
 msgid "Common Options"
-msgstr ""
-
-#. Tag: guibutton
-#. +> stable6
-#: index.docbook:2718
-#, no-c-format
-msgid "Additional options"
 msgstr ""
 
 #. Tag: guibutton
@@ -4005,13 +3816,6 @@ msgstr ""
 #: index.docbook:2136
 #, no-c-format
 msgid "Option: <option>ro</option>"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2367
-#, no-c-format
-msgid "Option: <option>port=PORT</option>"
 msgstr ""
 
 #. Tag: para
@@ -4414,21 +4218,21 @@ msgid "In case you uncheck this option, consider to switch on permission checks 
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2359 index.docbook:2691
 #, no-c-format
 msgid "Set the user and group ID"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2362
 #, no-c-format
 msgid "Options: <option>uid=UID</option> and <option>gid=GID</option>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2363 index.docbook:2695
 #, no-c-format
 msgid "&smb4k; uses your user and group ID for mounting if this setting is enabled. They are displayed here for information purposes only and cannot be changed."
@@ -4442,31 +4246,10 @@ msgid "In case the support for the &CIFS; Unix extensions is selected, this sett
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2365 index.docbook:2697
 #, no-c-format
 msgid "Default: selected; UID: your UID, GID: your GID"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2368
-#, no-c-format
-msgid "Sets the port number that is used by <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> when mounting a remote share. The default port number (445) should work for all modern operating systems. If you experience problems, try setting the port number to 139. If the problems only occur with a few hosts, it is recommended to leave this option untouched and to use the <link linkend=\"custom_settings\">Custom Settings</link> editor to define individual port numbers for the problematic hosts."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2397
-#, no-c-format
-msgid "Default: selected; UID: your UID"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2408
-#, no-c-format
-msgid "Default: selected; GID: your GID"
 msgstr ""
 
 #. Tag: guibutton
@@ -4477,31 +4260,17 @@ msgid "File mode"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2373
 #, no-c-format
 msgid "Option: <option>file_mode=MODE</option>"
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:2416
-#, no-c-format
-msgid "Option: <option>file_mode=ARG</option>"
-msgstr ""
-
-#. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2374
 #, no-c-format
 msgid "Sets the permissions that are applied to files. The value is given in octal and may have 3 or 4 digits. The SUID, SGID and sticky bit are not allowed. To learn more about the file mode (file_mode), you should read the <ulink url=\"man:/mount(8)\"><citerefentry><refentrytitle>mount</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> and <ulink url=\"man:/umask(2)\"><citerefentry><refentrytitle>umask</refentrytitle><manvolnum>2</manvolnum></citerefentry></ulink> manual pages."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2417
-#, no-c-format
-msgid "Sets the permissions that are applied to files. The value is given in octal and has to have 4 digits. To learn more about the file mode (file_mode), you should read the <ulink url=\"man:/mount(8)\"><citerefentry><refentrytitle>mount</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> and <ulink url=\"man:/umask(2)\"><citerefentry><refentrytitle>umask</refentrytitle><manvolnum>2</manvolnum></citerefentry></ulink> manual pages."
 msgstr ""
 
 #. Tag: para
@@ -4518,53 +4287,18 @@ msgstr ""
 msgid "Directory mode"
 msgstr ""
 
-#. Tag: title
-#. +> stable6
-#: index.docbook:2026
-#, no-c-format
-msgid "Directories"
-msgstr ""
-
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2384
 #, no-c-format
 msgid "Option: <option>dir_mode=MODE</option>"
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:2427
-#, no-c-format
-msgid "Option: <option>dir_mode=ARG</option>"
-msgstr ""
-
-#. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2385
 #, no-c-format
 msgid "Sets the permissions that are applied to directories. The value is given in octal and may have 3 or 4 digits. The SUID, SGID and sticky bit are not allowed. To learn more about the directory mode (dir_mode), you should read the <ulink url=\"man:/mount(8)\"><citerefentry><refentrytitle>mount</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> and <ulink url=\"man:/umask(2)\"><citerefentry><refentrytitle>umask</refentrytitle><manvolnum>2</manvolnum></citerefentry></ulink> manual pages."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2395 index.docbook:2746
-#, no-c-format
-msgid "Sets the owner of the files and directories on the file system. By default, your UID is used. To change the UID, press the search button and choose one from the drop down menu."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2428
-#, no-c-format
-msgid "Sets the permissions that are applied to directories. The value is given in octal and has to have 4 digits. To learn more about the directory mode (dir_mode), you should read the <ulink url=\"man:/mount(8)\"><citerefentry><refentrytitle>mount</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> and <ulink url=\"man:/umask(2)\"><citerefentry><refentrytitle>umask</refentrytitle><manvolnum>2</manvolnum></citerefentry></ulink> manual pages."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2773
-#, no-c-format
-msgid "Sets the permissions that are applied to directories. The value is given in octal and has to have 4 digits. To learn more about the directory mode (dir_mode), you should read the <ulink url=\"man:/mount_smbfs\"><citerefentry><refentrytitle>mount_smbfs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> and <ulink url=\"man:/umask(2)\"><citerefentry><refentrytitle>umask</refentrytitle><manvolnum>2</manvolnum></citerefentry></ulink> manual pages."
 msgstr ""
 
 #. Tag: title
@@ -4582,13 +4316,6 @@ msgid "The <guilabel>Advanced Mount Settings</guilabel> tab is only available un
 msgstr ""
 
 #. Tag: guibutton
-#. +> stable6
-#: index.docbook:2402 index.docbook:2752
-#, no-c-format
-msgid "Group ID"
-msgstr ""
-
-#. Tag: guibutton
 #. +> trunk6 stable6
 #: index.docbook:2405
 #, no-c-format
@@ -4596,31 +4323,10 @@ msgid "Definitely assign the UID"
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:2406 index.docbook:2755
-#, no-c-format
-msgid "Sets the group that owns the files and directories on the file system. By default, your GID is used. To change the GID, press the search button and choose one from the drop down menu."
-msgstr ""
-
-#. Tag: para
 #. +> trunk6 stable6
 #: index.docbook:2408
 #, no-c-format
 msgid "Option: <option>forceuid</option>"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2394
-#, no-c-format
-msgid "Option: <option>uid=UID</option>"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2405
-#, no-c-format
-msgid "Option: <option>uid=GID</option>"
 msgstr ""
 
 #. Tag: para
@@ -5149,31 +4855,24 @@ msgid "The <guilabel>Mount Settings</guilabel> tab is only available under FreeB
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2694
 #, no-c-format
 msgid "Options: <option>-u UID</option> and <option>-g GID</option>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2708
 #, no-c-format
 msgid "Option: <option>-f MODE</option>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2709
 #, no-c-format
 msgid "Sets the permissions that are applied to files. The value is given in octal and may have 3 or 4 digits. The SUID, SGID and sticky bit are not allowed. To learn more about the file mode, you should read the <ulink url=\"man:/mount_smbfs\"><citerefentry><refentrytitle>mount_smbfs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> and <ulink url=\"man:/umask(2)\"><citerefentry><refentrytitle>umask</refentrytitle><manvolnum>2</manvolnum></citerefentry></ulink> manual pages."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2764
-#, no-c-format
-msgid "Sets the permissions that are applied to files. The value is given in octal and has to have 4 digits. To learn more about the file mode, you should read the <ulink url=\"man:/mount_smbfs\"><citerefentry><refentrytitle>mount_smbfs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> and <ulink url=\"man:/umask(2)\"><citerefentry><refentrytitle>umask</refentrytitle><manvolnum>2</manvolnum></citerefentry></ulink> manual pages."
 msgstr ""
 
 #. Tag: para
@@ -5184,24 +4883,17 @@ msgid "Default: 0755"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2718
 #, no-c-format
 msgid "Option: <option>-d MODE</option>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2719
 #, no-c-format
 msgid "Sets the permissions that are applied to directories. The value is given in octal and may have 3 or 4 digits. The SUID, SGID and sticky bit are not allowed. To learn more about the directory mode, you should read the <ulink url=\"man:/mount_smbfs\"><citerefentry><refentrytitle>mount_smbfs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> and <ulink url=\"man:/umask(2)\"><citerefentry><refentrytitle>umask</refentrytitle><manvolnum>2</manvolnum></citerefentry></ulink> manual pages."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2721
-#, no-c-format
-msgid "Define additional options for use with <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink>. Clicking the edit button to the right of the line edit opens an input dialog where the options have to be provided in a comma-separated list. After clicking <guibutton>OK</guibutton> in the input dialog, the options will be checked against a whitelist. All valid entries are accepted and entered into to line edit."
 msgstr ""
 
 #. Tag: title
@@ -5219,7 +4911,7 @@ msgid "Use character sets"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2735
 #, no-c-format
 msgid "Option: <option>-E cs1:cs2</option>"
@@ -5765,13 +5457,6 @@ msgid "This is the base folder below which &smb4k; stores the transferred data u
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:2034
-#, no-c-format
-msgid "This is the base folder (mount prefix) where &smb4k; will mount the remote shares. It can be changed by using the &URL; requester (Click the button with the folder icon.) or by directly entering the new path into the text box. Path variables like <envar>$HOME</envar> are recognized."
-msgstr ""
-
-#. Tag: para
 #. +> trunk6 stable6
 #: index.docbook:3251
 #, no-c-format
@@ -5783,13 +5468,6 @@ msgstr ""
 #: index.docbook:3252
 #, no-c-format
 msgid "Default: <filename class=\"directory\">$HOME/smb4k_sync/</filename>"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2035
-#, no-c-format
-msgid "Default: <filename class=\"directory\">$HOME/smb4k/</filename>"
 msgstr ""
 
 #. Tag: guibutton
@@ -6576,13 +6254,6 @@ msgstr ""
 msgid "File Transfer"
 msgstr ""
 
-#. Tag: guibutton
-#. +> stable6
-#: index.docbook:2364
-#, no-c-format
-msgid "File system port"
-msgstr ""
-
 #. Tag: title
 #. +> trunk6 stable6
 #: index.docbook:3645
@@ -6639,13 +6310,6 @@ msgstr ""
 msgid "Default: not selected; NUM: 0"
 msgstr ""
 
-#. Tag: para
-#. +> stable6
-#: index.docbook:2369
-#, no-c-format
-msgid "Default: not selected; PORT: 445"
-msgstr ""
-
 #. Tag: guibutton
 #. +> trunk6 stable6
 #: index.docbook:3669
@@ -6672,13 +6336,6 @@ msgstr ""
 #: index.docbook:3674
 #, no-c-format
 msgid "Default: not selected; LIST: empty"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2722
-#, no-c-format
-msgid "Default: not selected; empty"
 msgstr ""
 
 #. Tag: title
@@ -7885,13 +7542,6 @@ msgstr ""
 msgid "Unmount all shares at once. The restrictions noted above also apply here. If you do not have any shares mounted, this button is disabled."
 msgstr ""
 
-#. Tag: para
-#. +> stable6
-#: index.docbook:552
-#, no-c-format
-msgid "Unmount all shares at once. If you do not have any shares mounted, this button is disabled."
-msgstr ""
-
 #. Tag: menuchoice
 #. +> trunk6 stable6
 #: index.docbook:4457
@@ -7932,13 +7582,6 @@ msgstr ""
 #: index.docbook:4487
 #, no-c-format
 msgid "Start the <link linkend=\"shares_view_synchronization\">synchronization</link> of a share with a local copy or vice versa. This menu entry is only enabled if you installed the program <ulink url=\"man:/rsync\"><citerefentry><refentrytitle>rsync</refentrytitle><manvolnum>1</manvolnum></citerefentry></ulink> and a share is selected."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:4491
-#, no-c-format
-msgid "Unmount one or multiple selected shares. The ability to unmount shares is by default restricted to the ones that are owned by the user. However, you can change this behavior by changing the <link linkend=\"configuration_page_mounting_basic_settings_behavior\">settings</link> in the configuration dialog. If no share is selected in the shares view, this button is disabled."
 msgstr ""
 
 #. Tag: menuchoice

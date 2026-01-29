@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filelight\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-13 14:38+0100\n"
+"POT-Creation-Date: 2026-01-29 10:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -504,102 +504,109 @@ msgctxt "@info"
 msgid "Filelight analyzes disk usage so you can see what's using lots of space. Choose a folder to proceed:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/qml/SettingsPage.qml:22
 #, kde-format
 msgctxt "@title"
 msgid "Scanning"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/qml/SettingsPage.qml:25
 #, kde-format
 msgctxt "@title"
 msgid "Appearance"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/SettingsPageAppearance.qml:16
+#. +> trunk6
+#: src/qml/SettingsPage.qml:51
 #, kde-format
 msgctxt "@title:group"
-msgid "Color Scheme"
+msgid "Colors:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/SettingsPageAppearance.qml:25
+#. +> trunk6
+#: src/qml/SettingsPage.qml:54
 #, kde-format
-msgctxt "@option:radio a color scheme variant"
+msgctxt "@item:inlistbox Name of a color scheme to use for the graph view"
+msgid "From system color scheme"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/SettingsPage.qml:55
+#, kde-format
+msgctxt "@item:inlistbox Name of a color scheme to use for the graph view"
 msgid "Rainbow"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/SettingsPageAppearance.qml:34
+#. +> trunk6
+#: src/qml/SettingsPage.qml:56
 #, kde-format
-msgctxt "@option:radio a color scheme variant"
-msgid "System colors"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/qml/SettingsPageAppearance.qml:43
-#, kde-format
-msgctxt "@option:radio a color scheme variant"
+msgctxt "@item:inlistbox Name of a color scheme to use for the graph view"
 msgid "High contrast"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/SettingsPageAppearance.qml:52
+#. +> trunk6
+#: src/qml/SettingsPage.qml:82
 #, kde-format
 msgctxt "@label:slider"
-msgid "Contrast"
+msgid "Color contrast:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/SettingsPageAppearance.qml:69
+#. +> trunk6
+#: src/qml/SettingsPage.qml:100
 #, kde-format
-msgctxt "@checkbox"
-msgid "Show small files"
+msgctxt "@title:group Show small files/show folders sidebar"
+msgid "Show:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/SettingsPageAppearance.qml:78
+#. +> trunk6
+#: src/qml/SettingsPage.qml:102
 #, kde-format
-msgctxt "@checkbox"
-msgid "Show folders sidebar"
+msgctxt "@option:check Show small files"
+msgid "Small files"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/SettingsPageScanning.qml:33
+#. +> trunk6
+#: src/qml/SettingsPage.qml:114
 #, kde-format
-msgctxt "@label"
-msgid "Do not scan these folders:"
+msgctxt "@option:check Show files on other disks"
+msgid "Files on other disks"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/SettingsPage.qml:128
+#, kde-format
+msgctxt "@option:check Show files on remote filesystems"
+msgid "Files on remote filesystems"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/SettingsPage.qml:140
+#, kde-format
+msgctxt "@option:check Show folders sidebar"
+msgid "Folders sidebar"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/SettingsPage.qml:172
+#, kde-format
+msgctxt "@title:group"
+msgid "Do not scan these folders"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/SettingsPageScanning.qml:41
+#: src/qml/SettingsPage.qml:175
 #, kde-format
 msgctxt "@action:button remove list entry"
 msgid "Add…"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/SettingsPageScanning.qml:90
+#. +> trunk6
+#: src/qml/SettingsPage.qml:203
 #, kde-format
 msgctxt "@action:button remove list entry"
-msgid "Remove"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/qml/SettingsPageScanning.qml:110
-#, kde-format
-msgctxt "@checkbox"
-msgid "Scan across filesystem boundaries"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/qml/SettingsPageScanning.qml:122
-#, kde-format
-msgctxt "@checkbox"
-msgid "Exclude remote filesystems"
+msgid "Resume scanning this folder"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -613,3 +620,80 @@ msgid_plural ""
 "%1 files, with an average size of %2"
 msgstr[0] ""
 msgstr[1] ""
+
+#. +> stable6
+#: src/qml/SettingsPageAppearance.qml:16
+#, kde-format
+msgctxt "@title:group"
+msgid "Color Scheme"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageAppearance.qml:25
+#, kde-format
+msgctxt "@option:radio a color scheme variant"
+msgid "Rainbow"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageAppearance.qml:34
+#, kde-format
+msgctxt "@option:radio a color scheme variant"
+msgid "System colors"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageAppearance.qml:43
+#, kde-format
+msgctxt "@option:radio a color scheme variant"
+msgid "High contrast"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageAppearance.qml:52
+#, kde-format
+msgctxt "@label:slider"
+msgid "Contrast"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageAppearance.qml:69
+#, kde-format
+msgctxt "@checkbox"
+msgid "Show small files"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageAppearance.qml:78
+#, kde-format
+msgctxt "@checkbox"
+msgid "Show folders sidebar"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageScanning.qml:33
+#, kde-format
+msgctxt "@label"
+msgid "Do not scan these folders:"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageScanning.qml:90
+#, kde-format
+msgctxt "@action:button remove list entry"
+msgid "Remove"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageScanning.qml:110
+#, kde-format
+msgctxt "@checkbox"
+msgid "Scan across filesystem boundaries"
+msgstr ""
+
+#. +> stable6
+#: src/qml/SettingsPageScanning.qml:122
+#, kde-format
+msgctxt "@checkbox"
+msgid "Exclude remote filesystems"
+msgstr ""
