@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-14 12:46+0200\n"
+"POT-Creation-Date: 2026-01-31 15:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -166,10 +166,25 @@ msgstr ""
 msgid "Light Themes"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:173
+#. +> trunk6
+#: ui/main.qml:174
 #, kde-format
-msgid "Remove Theme"
+msgctxt "@info:tooltip"
+msgid "Remove Plasma style"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:176
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active Plasma style"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:178
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed Plasma styles"
 msgstr ""
 
 #. +> stable5
@@ -178,7 +193,32 @@ msgstr ""
 msgid "Get New Plasma Styles…"
 msgstr ""
 
+#. +> trunk6
+#: ui/main.qml:186
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this Plasma style"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
+#: ui/main.qml:205
+#, kde-format
+msgid "Open Theme"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:69
+#, kde-format
+msgid "All Themes"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:173
+#, kde-format
+msgid "Remove Theme"
+msgstr ""
+
+#. +> stable6 stable5
 #: ui/main.qml:180
 #, kde-format
 msgid "Restore Theme"
@@ -191,19 +231,7 @@ msgid "Dark Themes"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:199
-#, kde-format
-msgid "Open Theme"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:69
-#, kde-format
-msgid "All Themes"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:201
+#: ui/main.qml:207
 #, kde-format
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
 msgstr ""

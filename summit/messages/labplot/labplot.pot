@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: labplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-30 06:29+0100\n"
+"POT-Creation-Date: 2026-01-31 15:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -283,7 +283,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/core/AbstractColumn.cpp:224
-#: src/backend/datasources/filters/AsciiFilter.cpp:556
+#: src/backend/datasources/filters/AsciiFilter.cpp:614
 #: src/backend/datasources/filters/MatioFilter.cpp:382
 #: src/backend/datasources/filters/MatioFilter.cpp:428
 #, kde-format
@@ -307,7 +307,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lValuesText)
 #. +> trunk6 stable6 stable5
 #: src/backend/core/AbstractColumn.cpp:230
-#: src/backend/datasources/filters/AsciiFilter.cpp:557
+#: src/backend/datasources/filters/AsciiFilter.cpp:615
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:423
 #: src/frontend/ActionsManager.cpp:517
 #: src/frontend/notebook/NotebookView.cpp:96
@@ -1592,8 +1592,14 @@ msgstr ""
 msgid "Unable to parse header"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable6
 #: src/backend/datasources/filters/AsciiFilter.cpp:223
+#, kde-format
+msgid "Unsupported data source"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: src/backend/datasources/filters/AsciiFilter.cpp:224
 #, kde-format
 msgid "Number of columns: %1"
 msgstr ""
@@ -1611,19 +1617,13 @@ msgid "Invalid number of column names"
 msgstr ""
 
 #. +> stable6
-#: src/backend/datasources/filters/AsciiFilter.cpp:223
-#, kde-format
-msgid "Unsupported data source"
-msgstr ""
-
-#. +> stable6
 #: src/backend/datasources/filters/AsciiFilter.cpp:247
 #, kde-format
 msgid "No columns"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/datasources/filters/AsciiFilter.cpp:225
+#: src/backend/datasources/filters/AsciiFilter.cpp:226
 #, kde-format
 msgid "Number of lines: %1"
 msgstr ""
@@ -1707,8 +1707,8 @@ msgid "Unhandled case"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/datasources/filters/AsciiFilter.cpp:467
-#: src/backend/datasources/filters/AsciiFilter.cpp:1251
+#: src/backend/datasources/filters/AsciiFilter.cpp:515
+#: src/backend/datasources/filters/AsciiFilter.cpp:1365
 #: src/backend/datasources/filters/JsonFilter.cpp:246
 #, kde-format
 msgid "Column %1"
@@ -1723,15 +1723,15 @@ msgid "Value %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/datasources/filters/AsciiFilter.cpp:541
-#: src/backend/datasources/filters/AsciiFilter.cpp:1274
+#: src/backend/datasources/filters/AsciiFilter.cpp:598
+#: src/backend/datasources/filters/AsciiFilter.cpp:1391
 #, kde-format
 msgid "Timestamp"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/datasources/filters/AsciiFilter.cpp:545
-#: src/backend/datasources/filters/AsciiFilter.cpp:1278
+#: src/backend/datasources/filters/AsciiFilter.cpp:603
+#: src/backend/datasources/filters/AsciiFilter.cpp:1396
 #: src/backend/datasources/filters/BinaryFilter.cpp:293
 #: src/backend/datasources/filters/BinaryFilter.cpp:436
 #: src/backend/nsl/nsl_dft.c:29 src/backend/nsl/nsl_filter.c:23
@@ -1740,19 +1740,31 @@ msgid "Index"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/backend/datasources/filters/AsciiFilter.cpp:558
+#: src/backend/datasources/filters/AsciiFilter.cpp:616
 #, kde-format
 msgid "DateTime"
 msgstr ""
 
+#. +> trunk6
+#: src/backend/datasources/filters/AsciiFilter.cpp:617
+#, kde-format
+msgid "Timestamp (Unix)"
+msgstr ""
+
+#. +> trunk6
+#: src/backend/datasources/filters/AsciiFilter.cpp:618
+#, kde-format
+msgid "Timestamp (Windows)"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/backend/datasources/filters/AsciiFilter.cpp:559
+#: src/backend/datasources/filters/AsciiFilter.cpp:619
 #, kde-format
 msgid "Int"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/datasources/filters/AsciiFilter.cpp:560
+#: src/backend/datasources/filters/AsciiFilter.cpp:620
 #: src/backend/datasources/filters/MatioFilter.cpp:398
 #: src/backend/datasources/filters/MatioFilter.cpp:430
 #, kde-format
@@ -14920,8 +14932,46 @@ msgstr ""
 msgid "Custom column data types, comma separated"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/frontend/datasources/AsciiOptionsWidget.cpp:70
+#, kde-format
+msgid ""
+"If not empty, the number of columns must match the number of column names if provided and it must match the number of columns in the imported file.<br>"
+"Data Types:"
+"<table>"
+"<tr>"
+"<td>%1</td>"
+"<td>Integer number with 32bit size (−2.147.483.648 .. 2.147.483.647).</td>"
+"</tr>"
+"<tr>"
+"<td>%2</td>"
+"<td>Integer number with 64bit size (−9.223.372.036.854.775.808 .. 9.223.372.036.854.775.807).</td>"
+"</tr>"
+"<tr>"
+"<td>%3</td>"
+"<td>Floating point number 64bit size. Resolution of around 16 digits.</td>"
+"</tr>"
+"<tr>"
+"<td>%4</td>"
+"<td>Datetime with the format from the datetime text box if not empty, otherwise automatically determined.</td>"
+"</tr>"
+"<tr>"
+"<td>%5</td>"
+"<td>Number of seconds since January 1, 1970 (UTC), converted to DateTime.</td>"
+"</tr>"
+"<tr>"
+"<td>%6</td>"
+"<td>Number of 100-nanosecond intervals since January 1, 1601 (UTC), converted to DateTime.</td>"
+"</tr>"
+"<tr>"
+"<td>%7</td>"
+"<td>A text.</td>"
+"</tr>"
+"</table>"
+msgstr ""
+
+#. +> stable6
+#: src/frontend/datasources/AsciiOptionsWidget.cpp:122
 #, kde-format
 msgid ""
 "If not empty, the number of columns must match the number of column names if provided and it must match the number of columns in the imported file.<br>"
@@ -14951,13 +15001,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/frontend/datasources/AsciiOptionsWidget.cpp:86
+#: src/frontend/datasources/AsciiOptionsWidget.cpp:88
 #, kde-format
 msgid "%1 or %2"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/frontend/datasources/AsciiOptionsWidget.cpp:197
+#. +> trunk6
+#: src/frontend/datasources/AsciiOptionsWidget.cpp:199
+#, kde-format
+msgid "Invalid data type '%1'"
+msgstr ""
+
+#. +> stable6
+#: src/frontend/datasources/AsciiOptionsWidget.cpp:249
 #, kde-format
 msgid "Datatype not found: %1"
 msgstr ""
