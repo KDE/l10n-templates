@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-27 04:38+0100\n"
+"POT-Creation-Date: 2026-02-03 10:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1774,6 +1774,42 @@ msgstr ""
 msgid "Updates"
 msgstr ""
 
+#. +> stable5
+#: discover/qml/UpdatesPage.qml:83
+#, kde-format
+msgid "If you would like to report the update issue to your distribution's packagers, include this information:"
+msgstr ""
+
+#. +> stable5
+#: discover/qml/UpdatesPage.qml:102
+#, kde-format
+msgid "Error message copied to clipboard"
+msgstr ""
+
+#. +> stable5
+#: discover/qml/UpdatesPage.qml:236
+#, kde-format
+msgid "Restart automatically after update has completed"
+msgstr ""
+
+#. +> stable5
+#: discover/qml/UpdatesPage.qml:279
+#, kde-format
+msgid "Restart Now"
+msgstr ""
+
+#. +> stable5
+#: discover/qml/UpdatesPage.qml:379
+#, kde-format
+msgid "%1"
+msgstr ""
+
+#. +> stable6 stable5
+#: discover/qml/UpdatesPage.qml:536
+#, kde-format
+msgid "Update from:"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: discover/qml/UpdatesPage.qml:47
 #, kde-format
@@ -1786,23 +1822,11 @@ msgstr ""
 msgid "There was an issue installing this update. Please try again later."
 msgstr ""
 
-#. +> stable5
-#: discover/qml/UpdatesPage.qml:83
-#, kde-format
-msgid "If you would like to report the update issue to your distribution's packagers, include this information:"
-msgstr ""
-
 #. +> trunk6 stable6
 #: discover/qml/UpdatesPage.qml:96
 #, kde-format
 msgctxt "@info %1 is the name of the user's distro/OS"
 msgid "If the error indicated above looks like a real issue and not a temporary network error, please report it to %1, not KDE."
-msgstr ""
-
-#. +> stable5
-#: discover/qml/UpdatesPage.qml:102
-#, kde-format
-msgid "Error message copied to clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1857,12 +1881,6 @@ msgstr ""
 msgid "Ignore"
 msgstr ""
 
-#. +> stable5
-#: discover/qml/UpdatesPage.qml:236
-#, kde-format
-msgid "Restart automatically after update has completed"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: discover/qml/UpdatesPage.qml:252
 #, kde-format
@@ -1880,12 +1898,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info on the completion of updates, the action that automatically happens after (e.g shut down)"
 msgid "On completion, automatically:"
-msgstr ""
-
-#. +> stable5
-#: discover/qml/UpdatesPage.qml:279
-#, kde-format
-msgid "Restart Now"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1922,82 +1934,84 @@ msgctxt "@action:button"
 msgid "Restart and Install Updates"
 msgstr ""
 
-#. +> stable5
-#: discover/qml/UpdatesPage.qml:379
-#, kde-format
-msgid "%1"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:503
+#: discover/qml/UpdatesPage.qml:514
 #, kde-format
 msgid "Installing"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:536
+#. +> trunk6
+#: discover/qml/UpdatesPage.qml:530
 #, kde-format
-msgid "Update from:"
+msgctxt "@info This update is from the following source"
+msgid "From:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:550
+#: discover/qml/UpdatesPage.qml:547
 #, kde-format
 msgctxt "%1 is the backend that provides this app, %2 is the specific repository or address within that backend"
 msgid "%1 (%2)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: discover/qml/UpdatesPage.qml:559
+#, kde-format
+msgctxt "@action:button minimize the length of this label"
+msgid "More Info…"
+msgstr ""
+
+#. +> stable6 stable5
 #: discover/qml/UpdatesPage.qml:559
 #, kde-format
 msgid "More Information…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:587
+#: discover/qml/UpdatesPage.qml:607
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:602
+#: discover/qml/UpdatesPage.qml:622
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/UpdatesPage.qml:612
+#: discover/qml/UpdatesPage.qml:632
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/UpdatesPage.qml:614
+#: discover/qml/UpdatesPage.qml:634
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:628 discover/qml/UpdatesPage.qml:635
-#: discover/qml/UpdatesPage.qml:642
+#: discover/qml/UpdatesPage.qml:648 discover/qml/UpdatesPage.qml:655
+#: discover/qml/UpdatesPage.qml:662
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:649
+#: discover/qml/UpdatesPage.qml:669
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:656
+#: discover/qml/UpdatesPage.qml:676
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-23 10:51+0100\n"
+"POT-Creation-Date: 2026-02-03 10:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -9848,6 +9848,20 @@ msgstr ""
 msgid "Show more certificate details, such as fingerprint, key length and expiration dates"
 msgstr ""
 
+#. i18n: ectx: label, entry (WelcomeText), group (Welcome)
+#. +> trunk6
+#: src/kcfg/settings.kcfg:291
+#, kde-format
+msgid "Custom Welcome text"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (WelcomeText), group (Welcome)
+#. +> trunk6
+#: src/kcfg/settings.kcfg:292
+#, kde-format
+msgid "This text is shown on the Welcome page replacing most of the standard text."
+msgstr ""
+
 #. i18n: ectx: Menu (file)
 #. +> trunk6 stable6
 #: src/kleopatra.rc:5 src/kwatchgnupg/kwatchgnupgui.rc:4
@@ -12260,7 +12274,7 @@ msgid "Search for certificates on %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/keylistcontroller.cpp:407 src/view/welcomewidget.cpp:178
+#: src/view/keylistcontroller.cpp:407 src/view/welcomewidget.cpp:192
 #, kde-format
 msgid "Import..."
 msgstr ""
@@ -13434,86 +13448,86 @@ msgid "Collapse All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:125
+#: src/view/welcomewidget.cpp:131
 #, kde-format
 msgctxt "%1 is version"
 msgid "Welcome to Kleopatra %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:126
+#: src/view/welcomewidget.cpp:132
 #, kde-format
 msgid "Kleopatra is a front-end for the crypto software <a href=\"https://gnupg.org\">GnuPG</a>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:128
+#: src/view/welcomewidget.cpp:141
 #, kde-format
 msgid "For most actions you need either a public key (certificate) or your own secret key."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:130
+#: src/view/welcomewidget.cpp:143
 #, kde-format
 msgid "The secret key is needed to decrypt or sign."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:131
+#: src/view/welcomewidget.cpp:144
 #, kde-format
 msgid "The public key can be used by others to verify your identity or encrypt to you."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:134
+#: src/view/welcomewidget.cpp:147
 #, kde-format
 msgctxt "More info about public key cryptography, please link to your local version of Wikipedia"
 msgid "https://en.wikipedia.org/wiki/Public-key_cryptography"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:135
+#: src/view/welcomewidget.cpp:148
 #, kde-format
 msgctxt "%1 is a link to a wiki article"
 msgid "You can learn more about this on <a href=\"%1\">Wikipedia</a>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:143
+#: src/view/welcomewidget.cpp:156
 #, kde-format
 msgctxt "@info"
 msgid "With Kleopatra you can encrypt using different methods. Please follow the regulations for classified information of your organization."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:144
+#: src/view/welcomewidget.cpp:157
 #, kde-format
 msgctxt "@info"
 msgid "For password based encryption see this <a href=\"action:help_doc_symenc\">guide</a>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:145
+#: src/view/welcomewidget.cpp:158
 #, kde-format
 msgctxt "@info"
 msgid "For public key encryption you generally have to create your own key pair."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:147
+#: src/view/welcomewidget.cpp:160
 #, kde-format
 msgctxt "@info"
 msgid "You can find step-by-step instructions for public key encryption in this <a href=\"action:help_doc_quickguide\">guide</a>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:174
+#: src/view/welcomewidget.cpp:188
 #, kde-format
 msgid "New Key Pair..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:193
+#: src/view/welcomewidget.cpp:207
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -13522,7 +13536,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/welcomewidget.cpp:208
+#: src/view/welcomewidget.cpp:222
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
