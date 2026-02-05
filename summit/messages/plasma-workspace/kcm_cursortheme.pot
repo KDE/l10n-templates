@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-31 15:35+0100\n"
+"POT-Creation-Date: 2026-02-05 10:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -161,24 +161,17 @@ msgid "Remove Theme"
 msgstr ""
 
 #. +> trunk6
-#: ui/Delegate.qml:44
+#: ui/Delegate.qml:48
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove cursor theme"
 msgstr ""
 
 #. +> trunk6
-#: ui/Delegate.qml:46
+#: ui/Delegate.qml:50
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cannot delete the active cursor theme"
-msgstr ""
-
-#. +> trunk6
-#: ui/Delegate.qml:48
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Cannot delete system-installed cursor themes"
 msgstr ""
 
 #. +> stable6 stable5
@@ -188,7 +181,14 @@ msgid "Restore Cursor Theme"
 msgstr ""
 
 #. +> trunk6
-#: ui/Delegate.qml:56
+#: ui/Delegate.qml:52
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed cursor themes"
+msgstr ""
+
+#. +> trunk6
+#: ui/Delegate.qml:60
 #, kde-format
 msgid "Don’t delete this cursor theme"
 msgstr ""
@@ -278,7 +278,7 @@ msgid "This module lets you choose the mouse cursor theme."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:91 ui/main.qml:129
+#: ui/main.qml:109 ui/main.qml:147
 #, kde-format
 msgid "Size: %1"
 msgstr ""
@@ -290,20 +290,20 @@ msgid "Size:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:144
+#: ui/main.qml:162
 #, kde-format
 msgctxt "@action:button"
 msgid "&Configure Launch Feedback…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:159
+#: ui/main.qml:177
 #, kde-format
 msgid "&Install from File…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:165
+#: ui/main.qml:183
 #, kde-format
 msgid "&Get New…"
 msgstr ""
@@ -315,13 +315,13 @@ msgid "&Get New Cursors…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:179
+#: ui/main.qml:197
 #, kde-format
 msgid "Open Theme"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:181
+#: ui/main.qml:199
 #, kde-format
 msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
 msgstr ""
