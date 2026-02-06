@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-02 09:38+0100\n"
+"POT-Creation-Date: 2026-02-06 08:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -516,14 +516,28 @@ msgid "Enter Full Screen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ApplicationMenu.qml:30 qml/NativeTrayMenu.qml:21
+#: qml/ApplicationMenu.qml:32 qml/NativeGlobalMenu.qml:77
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Playlist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ApplicationMenu.qml:33 qml/NativeGlobalMenu.qml:77
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Playlist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ApplicationMenu.qml:42 qml/NativeTrayMenu.qml:21
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Scan for New Music"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ApplicationMenu.qml:39 qml/NativeGlobalMenu.qml:37
+#: qml/ApplicationMenu.qml:51 qml/NativeGlobalMenu.qml:37
 #: qml/NativeTrayMenu.qml:27
 #, kde-format
 msgctxt "@action:inmenu"
@@ -531,7 +545,7 @@ msgid "Reset Database and Re-Scan Everything"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ApplicationMenu.qml:50
+#: qml/ApplicationMenu.qml:62
 #, kde-format
 msgctxt "@action:inmenu this has child menu items"
 msgid "Color Scheme"
@@ -573,8 +587,8 @@ msgid "Lyrics"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextView.qml:132 qml/MediaPlayerControl.qml:304
-#: qml/mobile/MobileTrackPlayer.qml:396 qml/NavigationActionBar.qml:176
+#: qml/ContextView.qml:132 qml/mobile/MobileTrackPlayer.qml:396
+#: qml/NavigationActionBar.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Playlist"
@@ -737,7 +751,7 @@ msgid "Saving failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/HeaderBar.qml:243 qml/MediaPlayerControl.qml:264
+#: qml/HeaderBar.qml:247 qml/MediaPlayerControl.qml:263
 #: qml/mobile/MobileTrackPlayer.qml:298
 #, kde-format
 msgctxt "@action:inmenu"
@@ -745,17 +759,24 @@ msgid "Playlist"
 msgstr ""
 
 #. +> trunk6
-#: qml/HeaderBar.qml:260
+#: qml/HeaderBar.qml:264
 #, kde-format
 msgctxt "@action:button"
 msgid "Lyrics"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/HeaderBar.qml:274
+#: qml/HeaderBar.qml:287
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen"
+msgstr ""
+
+#. +> trunk6
+#: qml/HeaderBar.qml:288
+#, kde-format
+msgctxt "@action:button"
+msgid "Enter Full Screen"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -766,98 +787,98 @@ msgid "No lyrics found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:92
+#: qml/MediaPlayerControl.qml:91
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip"
 msgid "Exit party mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:93
+#: qml/MediaPlayerControl.qml:92
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip"
 msgid "Enter party mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:101
+#: qml/MediaPlayerControl.qml:100
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip"
 msgid "Skip backward"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:110
+#: qml/MediaPlayerControl.qml:109
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip Pause any media that is playing"
 msgid "Pause"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:111
+#: qml/MediaPlayerControl.qml:110
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip Start playing media"
 msgid "Play"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:119
+#: qml/MediaPlayerControl.qml:118
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip skip forward in playlists"
 msgid "Skip forward"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:147
+#: qml/MediaPlayerControl.qml:146
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip"
 msgid "Unmute"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:148
+#: qml/MediaPlayerControl.qml:147
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip"
 msgid "Mute"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:176 qml/mobile/MobileTrackPlayer.qml:214
+#: qml/MediaPlayerControl.qml:175 qml/mobile/MobileTrackPlayer.qml:214
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: No shuffle"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:177 qml/mobile/MobileTrackPlayer.qml:215
+#: qml/MediaPlayerControl.qml:176 qml/mobile/MobileTrackPlayer.qml:215
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Shuffle tracks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:178 qml/mobile/MobileTrackPlayer.qml:216
+#: qml/MediaPlayerControl.qml:177 qml/mobile/MobileTrackPlayer.qml:216
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Shuffle albums"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:206 qml/mobile/MobileTrackPlayer.qml:245
+#: qml/MediaPlayerControl.qml:205 qml/mobile/MobileTrackPlayer.qml:245
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Track"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:210 qml/mobile/MobileTrackPlayer.qml:249
+#: qml/MediaPlayerControl.qml:209 qml/mobile/MobileTrackPlayer.qml:249
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Album"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:214 qml/MediaPlayerControl.qml:272
+#: qml/MediaPlayerControl.qml:213 qml/MediaPlayerControl.qml:271
 #: qml/mobile/MobileTrackPlayer.qml:253 qml/mobile/MobileTrackPlayer.qml:306
 #, kde-format
 msgctxt "@action:inmenu"
@@ -865,35 +886,35 @@ msgid "None"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:235 qml/mobile/MobileTrackPlayer.qml:267
+#: qml/MediaPlayerControl.qml:234 qml/mobile/MobileTrackPlayer.qml:267
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Don't repeat tracks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:236 qml/mobile/MobileTrackPlayer.qml:268
+#: qml/MediaPlayerControl.qml:235 qml/mobile/MobileTrackPlayer.qml:268
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Repeat current track"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:237 qml/mobile/MobileTrackPlayer.qml:269
+#: qml/MediaPlayerControl.qml:236 qml/mobile/MobileTrackPlayer.qml:269
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Repeat all tracks in playlist"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:268 qml/mobile/MobileTrackPlayer.qml:302
+#: qml/MediaPlayerControl.qml:267 qml/mobile/MobileTrackPlayer.qml:302
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "One track"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:321
+#: qml/MediaPlayerControl.qml:299
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip"
 msgid "Application menu"
@@ -1285,20 +1306,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Party Mode"
-msgstr ""
-
-#. +> trunk6 stable6
-#: qml/NativeGlobalMenu.qml:77
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Hide Playlist"
-msgstr ""
-
-#. +> trunk6 stable6
-#: qml/NativeGlobalMenu.qml:77
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Show Playlist"
 msgstr ""
 
 #. +> trunk6 stable6
