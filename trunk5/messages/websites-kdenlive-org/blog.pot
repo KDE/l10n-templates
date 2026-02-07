@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 09:01+0000\n"
+"POT-Creation-Date: 2026-02-07 02:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,11 +18,13 @@ msgstr ""
 #: content/news/2025/amsterdam-sprint-report/index.md:0
 #: content/news/2025/berlin-sprint/index.md:0
 #: content/news/2025/fundraising-final-report/index.md:0
+#: content/news/2026/dopesheet-status-1-26/index.md:0
 msgid "Jean-Baptiste Mardelle"
 msgstr ""
 
 #: content/news/2025/amsterdam-sprint-report/index.md:0
 #: content/news/2025/berlin-sprint/index.md:0
+#: content/news/2026/dopesheet-status-1-26/index.md:0
 msgid "Inside"
 msgstr ""
 
@@ -97,6 +99,7 @@ msgid "Kdenlive in Berlin"
 msgstr ""
 
 #: content/news/2025/berlin-sprint/index.md:0
+#: content/news/2026/dopesheet-status-1-26/index.md:0
 msgid "kdenlive"
 msgstr ""
 
@@ -281,6 +284,7 @@ msgid "Kdenlive fundraising final report"
 msgstr ""
 
 #: content/news/2025/fundraising-final-report/index.md:0
+#: content/news/2026/dopesheet-status-1-26/index.md:0
 msgid "Fundraising"
 msgstr ""
 
@@ -633,4 +637,81 @@ msgstr ""
 
 #: content/news/2025/kdenlive-cafe-01/index.md:16
 msgid "🌐 https://meet.kde.org/b/far-twm-ebr"
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:0
+msgid "Parametrized Keyframes - Status Report, February 2026"
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:12
+msgid ""
+"In the last month, I have mostly been working on refactoring the Kdenlive "
+"keyframes system to make it more powerful. This is part of a [NGI Zero "
+"Commons grant via NLnet][1]."
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:14
+msgid "Improving existing parameters handling"
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:15
+msgid ""
+"A first step in preparation for this work was to improve the usability of "
+"some effects. In Kdenlive, we support several effect libraries, like MLT, "
+"Frei0r and FFmpeg's avfilters. Not all effects expose their parameters in "
+"the same way. For example in MLT, we have a rectangle parameter allowing to "
+"define a zone in a video frame. Other effects expose several independent "
+"parameters for a rectangle, namely x, y, width and height."
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:17
+msgid ""
+"Currently, these effects are displayed with a list of sliders for each "
+"value: ![](fillborders-before.png \"Effect parameters before the change\")"
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:20
+msgid ""
+"With my latest changes, these will be handled like a rectangle, which means "
+"it can directly be manipulated in the monitor overlay. ![](fillborders-"
+"after.png \"Effect parameters now\")"
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:23
+msgid ""
+"Another improvement is the addition of Point parameters which will allow "
+"selecting a point in the monitor."
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:25
+msgid "These changes are planned to be in the 26.04 release."
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:27
+msgid "Boosting keyframes"
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:28
+msgid ""
+"The next improvement being worked on is support of keyframes per parameter. "
+"Currently, once you add a keyframe to an effect, it is applied to all "
+"parameters, which is sometimes not wanted. This will also allow animating "
+"only one parameter while leaving the others parameters fixed. Below is a "
+"screenshot of a basic UI created to test the feature. ![](dopesheet.png "
+"\"parameter independant keyframes\") Also, currently you cannot see "
+"keyframes for different effects at the same time. Regrouping keyframes for "
+"all effects in one place will enable more powerful editing."
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:33
+msgid "Kdenlive needs your support"
+msgstr ""
+
+#: content/news/2026/dopesheet-status-1-26/index.md:34
+msgid ""
+"Our small team has been working for years to build an intuitive open source "
+"video editor that does not track you, does not use your data, and respects "
+"your privacy. However, to ensure a proper development requires resources, so"
+" please consider a [donation][3] if you enjoy using Kdenlive - even small "
+"amounts can make a big difference."
 msgstr ""
