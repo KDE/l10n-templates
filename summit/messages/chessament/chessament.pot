@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: chessament\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-06 08:31+0100\n"
+"POT-Creation-Date: 2026-02-07 04:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -619,28 +619,35 @@ msgid "Pairings"
 msgstr ""
 
 #. +> trunk6
-#: qml/player/PlayerPairingsPage.qml:20
+#: qml/player/PlayerPairingsPage.qml:21
 #, kde-format
 msgctxt "@title"
 msgid "Pairings"
 msgstr ""
 
 #. +> trunk6
-#: qml/player/PlayerPairingsPage.qml:33
+#: qml/player/PlayerPairingsPage.qml:26
+#, kde-format
+msgctxt "@action:button"
+msgid "Retire player"
+msgstr ""
+
+#. +> trunk6
+#: qml/player/PlayerPairingsPage.qml:46
 #, kde-format
 msgctxt "@item:inlistbox Available to play"
 msgid "Available"
 msgstr ""
 
 #. +> trunk6
-#: qml/player/PlayerPairingsPage.qml:80 qml/TournamentSettingsFormat.qml:42
+#: qml/player/PlayerPairingsPage.qml:83 qml/TournamentSettingsFormat.qml:42
 #, kde-format
 msgctxt "@title:group"
 msgid "Pairings"
 msgstr ""
 
 #. +> trunk6
-#: qml/player/PlayerPairingsPage.qml:99
+#: qml/player/PlayerPairingsPage.qml:108
 #, kde-format
 msgctxt "@info:label"
 msgid "Round %1"
@@ -1336,13 +1343,13 @@ msgid "Average Buchholz of Opponents"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:896
+#: tournament/tournament.cpp:907
 #, kde-format
 msgid "An error ocurred while pairing the round: %1"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:1127
+#: tournament/tournament.cpp:1138
 #, kde-format
 msgid "Couldn't open file"
 msgstr ""
