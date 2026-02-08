@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: chessament\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-07 04:43+0100\n"
+"POT-Creation-Date: 2026-02-08 11:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -142,7 +142,13 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:77
+#: main.cpp:73
+#, kde-format
+msgid "Swiss-system chess tournament pairing engine."
+msgstr ""
+
+#. +> trunk6
+#: main.cpp:82
 #, kde-format
 msgctxt "Command line option description"
 msgid "Import Tournament Report File."
@@ -438,7 +444,7 @@ msgid "Keep byes"
 msgstr ""
 
 #. +> trunk6
-#: qml/DeletePairingsDialog.qml:32
+#: qml/DeletePairingsDialog.qml:33
 #, kde-format
 msgctxt "@action:button Remove pairings"
 msgid "Remove"
@@ -545,7 +551,7 @@ msgstr ""
 #: qml/PairingsPage.qml:111
 #, kde-format
 msgctxt "@action:button"
-msgid "Pair Round %1"
+msgid "Pair Round %1…"
 msgstr ""
 
 #. +> trunk6
@@ -563,42 +569,58 @@ msgid "All games of round %1 have finished"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairRoundDialog.qml:18
+#: qml/PairRoundDialog.qml:21
 #, kde-format
 msgctxt "@title %1 is a number >= 1"
 msgid "Pair Round %1"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairRoundDialog.qml:27
+#: qml/PairRoundDialog.qml:29
+#, kde-format
+msgctxt "@info"
+msgid "All players will be paired."
+msgstr ""
+
+#. +> trunk6
+#: qml/PairRoundDialog.qml:29
+#, kde-format
+msgctxt "@info %1 is a number"
+msgid "The following player won't be paired: %2"
+msgid_plural "The following %1 players won't be paired: %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6
+#: qml/PairRoundDialog.qml:39
 #, kde-format
 msgctxt "@option:check"
 msgid "Sort players"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairRoundDialog.qml:34
+#: qml/PairRoundDialog.qml:46
 #, kde-format
 msgctxt "@label:listbox"
 msgid "First player color:"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairRoundDialog.qml:42
+#: qml/PairRoundDialog.qml:54
 #, kde-format
 msgctxt "@item:inlistbox As in 'Random color'"
 msgid "Random"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairRoundDialog.qml:46
+#: qml/PairRoundDialog.qml:58
 #, kde-format
 msgctxt "@item:inlistbox As in 'White pieces'"
 msgid "White"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairRoundDialog.qml:50
+#: qml/PairRoundDialog.qml:62
 #, kde-format
 msgctxt "@item:inlistbox As in 'Black pieces'"
 msgid "Black"
@@ -980,26 +1002,26 @@ msgid "bbpPairings"
 msgstr ""
 
 #. +> trunk6
-#: qml/TournamentSettingsFormat.qml:52
+#: qml/TournamentSettingsFormat.qml:53
 #, kde-format
 msgid "Pairing allocated bye"
 msgstr ""
 
 #. +> trunk6
-#: qml/TournamentSettingsFormat.qml:53
+#: qml/TournamentSettingsFormat.qml:54
 #, kde-format
 msgid "The value of the pairing allocated bye"
 msgstr ""
 
 #. +> trunk6
-#: qml/TournamentSettingsFormat.qml:59
+#: qml/TournamentSettingsFormat.qml:60
 #, kde-format
 msgctxt "@title:group"
 msgid "Tiebreaks"
 msgstr ""
 
 #. +> trunk6
-#: qml/TournamentSettingsFormat.qml:83
+#: qml/TournamentSettingsFormat.qml:84
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Tiebreak"
@@ -1343,13 +1365,13 @@ msgid "Average Buchholz of Opponents"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:907
+#: tournament/tournament.cpp:922
 #, kde-format
 msgid "An error ocurred while pairing the round: %1"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:1138
+#: tournament/tournament.cpp:1153
 #, kde-format
 msgid "Couldn't open file"
 msgstr ""
