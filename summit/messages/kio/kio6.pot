@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-09 10:14+0100\n"
+"POT-Creation-Date: 2026-02-10 10:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2401,39 +2401,39 @@ msgid "&No"
 msgstr ""
 
 #. +> trunk6
-#: core/worker.cpp:353
+#: core/worker.cpp:303
 #, kde-format
 msgctxt "@info %2 is a path"
 msgid "The security of the KIO worker for protocol ’%1’, which typically asks for elevated permissions, can not be guaranteed because users other than root have permission to modify it at %2."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: core/worker.cpp:391
+#: core/worker.cpp:341
 #, kde-format
 msgid "Unknown protocol '%1'."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: core/worker.cpp:402
+#: core/worker.cpp:352
 #, kde-format
 msgid "Can not find a KIO worker for protocol '%1'."
 msgstr ""
 
 #. +> trunk6
-#: core/worker.cpp:409
+#: core/worker.cpp:359
 #, kde-format
 msgctxt "@info %2 and %3 are paths"
 msgid "The KIO worker for protocol “%1” in %2 was not loaded because all KIO workers which are located outside of %3 and ask for elevated privileges are considered insecure."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: core/worker.cpp:421
+#: core/worker.cpp:371
 #, kde-format
 msgid "Can not create a socket for launching a KIO worker for protocol '%1'."
 msgstr ""
 
 #. +> trunk6
-#: core/worker.cpp:461
+#: core/worker.cpp:411
 #, kde-format
 msgid "Can not find 'kioworker' executable at '%1'"
 msgstr ""
