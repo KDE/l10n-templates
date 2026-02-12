@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: labplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-09 10:14+0100\n"
+"POT-Creation-Date: 2026-02-12 06:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -718,20 +718,20 @@ msgid "%1: set plot designation"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/core/column/columncommands.cpp:705
+#: src/backend/core/column/columncommands.cpp:693
 #: src/backend/matrix/matrixcommands.cpp:86
 #, kde-format
 msgid "%1: set formula"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/core/column/columncommands.cpp:773
+#: src/backend/core/column/columncommands.cpp:761
 #, kde-format
 msgid "%1: set cell formula"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/core/column/columncommands.cpp:815
+#: src/backend/core/column/columncommands.cpp:803
 #, kde-format
 msgid "%1: clear all formulas"
 msgstr ""
@@ -7596,14 +7596,14 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/matrix/Matrix.cpp:143
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3762
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3784
 #, kde-format
 msgid "FITS image"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/matrix/Matrix.cpp:143
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3762
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3784
 #, kde-format
 msgid "FITS table"
 msgstr ""
@@ -14988,8 +14988,8 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/frontend/datapicker/DatapickerImageView.cpp:884
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:4005
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:4060
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:4027
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:4082
 #: src/frontend/worksheet/WorksheetView.cpp:2175
 #, kde-format
 msgid "Failed to export"
@@ -14997,8 +14997,8 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/frontend/datapicker/DatapickerImageView.cpp:884
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:4005
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:4060
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:4027
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:4082
 #: src/frontend/worksheet/WorksheetView.cpp:2175
 #, kde-format
 msgid "Failed to write to '%1'. Please check the path."
@@ -23520,12 +23520,6 @@ msgid "Unfreeze Column"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:1685
-#, kde-format
-msgid "%1: cut selected cells"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
 #: src/frontend/spreadsheet/SpreadsheetView.cpp:1998
 #, kde-format
 msgid "Not enough memory to finalize this operation."
@@ -23792,25 +23786,31 @@ msgid "%1: remove selected rows"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3443
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3463
 #, kde-format
 msgid "%1: clear selected cells"
 msgstr ""
 
+#. +> stable6 stable5
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:1727
+#, kde-format
+msgid "%1: cut selected cells"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3697
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3719
 #, kde-format
 msgid "Selected 1: %1 rows, %2 columns"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3706
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3728
 #, kde-format
 msgid "Selected: %1 cells"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3725
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3747
 #, kde-format
 msgid "row"
 msgid_plural "rows"
@@ -23818,7 +23818,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3726
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3748
 #, kde-format
 msgid "column"
 msgid_plural "columns"
@@ -23826,56 +23826,56 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3727
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3749
 #, kde-format
 msgid "cells"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3728
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3750
 #, kde-format
 msgid "masked value"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3728
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3750
 #, kde-format
 msgid "masked values"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3729
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3751
 #, kde-format
 msgid "missing value"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3729
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3751
 #, kde-format
 msgid "missing values"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3730
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3752
 #, kde-format
 msgid " , "
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3730
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3731
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3752
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3753
 #, kde-format
 msgid "%1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3731
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3753
 #, kde-format
 msgid ", "
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3735
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3757
 #, kde-format
 msgid "Selected: %1 %2, %3 %4%5 %6 %7 %8"
 msgstr ""
@@ -23887,32 +23887,32 @@ msgid "Selected: %1 %2 , %3 %4%5 %6 %7 %8"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3745
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3767
 #, kde-format
 msgid "Selected: %1 %2%3 %4 %5 %6"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:3824
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:3846
 #, kde-format
 msgctxt "@title:window"
 msgid "Print Spreadsheet"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:4439
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:4461
 #, kde-format
 msgid "Couldn't create the SQLite database %1."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:4471
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:4493
 #, kde-format
 msgid "Failed to create table in the SQLite database %1."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/spreadsheet/SpreadsheetView.cpp:4526
+#: src/frontend/spreadsheet/SpreadsheetView.cpp:4548
 #, kde-format
 msgid "Failed to insert values into the table."
 msgstr ""
