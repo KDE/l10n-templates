@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-12 06:21+0100\n"
+"POT-Creation-Date: 2026-02-13 09:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2821,7 +2821,7 @@ msgstr ""
 #: kitemviews/kfileitemmodel.cpp:2829 kitemviews/kfileitemmodel.cpp:2830
 #: kitemviews/kfileitemmodel.cpp:2831 kitemviews/kfileitemmodel.cpp:2832
 #: kitemviews/kfileitemmodel.cpp:2833 kitemviews/kfileitemmodel.cpp:2834
-#: kitemviews/kfileitemmodel.cpp:2835
+#: kitemviews/kfileitemmodel.cpp:2835 kitemviews/kfileitemmodel.cpp:2836
 msgctxt "@label"
 msgid "Audio"
 msgstr ""
@@ -2839,7 +2839,7 @@ msgid "Album"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kitemviews/kfileitemmodel.cpp:2832 kitemviews/kfileitemmodel.cpp:2838
+#: kitemviews/kfileitemmodel.cpp:2832 kitemviews/kfileitemmodel.cpp:2839
 msgctxt "@label"
 msgid "Duration"
 msgstr ""
@@ -2862,90 +2862,115 @@ msgctxt "@label"
 msgid "Release Year"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: kitemviews/kfileitemmodel.cpp:2836
 msgctxt "@label"
-msgid "Aspect Ratio"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kitemviews/kfileitemmodel.cpp:2836 kitemviews/kfileitemmodel.cpp:2837
-#: kitemviews/kfileitemmodel.cpp:2838
-msgctxt "@label"
-msgid "Video"
+msgid "Audio Codec"
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2837
 msgctxt "@label"
+msgid "Aspect Ratio"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kitemviews/kfileitemmodel.cpp:2837 kitemviews/kfileitemmodel.cpp:2838
+#: kitemviews/kfileitemmodel.cpp:2839 kitemviews/kfileitemmodel.cpp:2840
+#: kitemviews/kfileitemmodel.cpp:2841 kitemviews/kfileitemmodel.cpp:2842
+msgctxt "@label"
+msgid "Video"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kitemviews/kfileitemmodel.cpp:2838
+msgctxt "@label"
 msgid "Frame Rate"
 msgstr ""
 
-#. +> trunk6 stable6
-#: kitemviews/kfileitemmodel.cpp:2839
-msgctxt "@label"
-msgid "Path"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kitemviews/kfileitemmodel.cpp:2839 kitemviews/kfileitemmodel.cpp:2840
-#: kitemviews/kfileitemmodel.cpp:2841 kitemviews/kfileitemmodel.cpp:2842
-#: kitemviews/kfileitemmodel.cpp:2843 kitemviews/kfileitemmodel.cpp:2844
-#: kitemviews/kfileitemmodel.cpp:2845 kitemviews/kfileitemmodel.cpp:2846
-msgctxt "@label"
-msgid "Other"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> trunk6
 #: kitemviews/kfileitemmodel.cpp:2840
 msgctxt "@label"
-msgid "File Extension"
+msgid "Video Codec"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: kitemviews/kfileitemmodel.cpp:2841
 msgctxt "@label"
-msgid "Deletion Time"
+msgid "Pixel Format"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: kitemviews/kfileitemmodel.cpp:2842
 msgctxt "@label"
-msgid "Link Destination"
+msgid "Color Space"
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2843
 msgctxt "@label"
-msgid "Downloaded From"
+msgid "Path"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kitemviews/kfileitemmodel.cpp:2843 kitemviews/kfileitemmodel.cpp:2844
+#: kitemviews/kfileitemmodel.cpp:2845 kitemviews/kfileitemmodel.cpp:2846
+#: kitemviews/kfileitemmodel.cpp:2847 kitemviews/kfileitemmodel.cpp:2848
+#: kitemviews/kfileitemmodel.cpp:2849 kitemviews/kfileitemmodel.cpp:2850
+msgctxt "@label"
+msgid "Other"
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2844
 msgctxt "@label"
-msgid "Permissions"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kitemviews/kfileitemmodel.cpp:2844
-msgctxt "@tooltip"
-msgid "The permission format can be changed in settings. Options are Symbolic, Numeric (Octal) or Combined formats"
+msgid "File Extension"
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2845
 msgctxt "@label"
-msgid "Owner"
+msgid "Deletion Time"
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2846
 msgctxt "@label"
+msgid "Link Destination"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kitemviews/kfileitemmodel.cpp:2847
+msgctxt "@label"
+msgid "Downloaded From"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kitemviews/kfileitemmodel.cpp:2848
+msgctxt "@label"
+msgid "Permissions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kitemviews/kfileitemmodel.cpp:2848
+msgctxt "@tooltip"
+msgid "The permission format can be changed in settings. Options are Symbolic, Numeric (Octal) or Combined formats"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kitemviews/kfileitemmodel.cpp:2849
+msgctxt "@label"
+msgid "Owner"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kitemviews/kfileitemmodel.cpp:2850
+msgctxt "@label"
 msgid "User Group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kitemviews/kfileitemmodel.cpp:2947
+#: kitemviews/kfileitemmodel.cpp:2951
 #, kde-format
 msgctxt "@info:status"
 msgid "Unknown error."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-12 06:22+0100\n"
+"POT-Creation-Date: 2026-02-13 10:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1469,6 +1469,123 @@ msgstr ""
 msgid "Primary Selection"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: helpers/dialoghelper/dialoghelper.cpp:38 helpers/killer/killer.cpp:127
+#, kde-format
+msgid "Window Manager"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: helpers/dialoghelper/dialoghelper.cpp:43 helpers/killer/killer.cpp:140
+#, kde-format
+msgid "ID of resource belonging to the application"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: helpers/dialoghelper/dialoghelper.cpp:43 helpers/killer/killer.cpp:140
+#, kde-format
+msgid "id"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: helpers/dialoghelper/dialoghelper.cpp:45 helpers/killer/killer.cpp:142
+#, kde-format
+msgid "Time of user action causing termination"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: helpers/dialoghelper/dialoghelper.cpp:45 helpers/killer/killer.cpp:142
+#, kde-format
+msgid "time"
+msgstr ""
+
+#. +> trunk6
+#: helpers/dialoghelper/dialoghelper.cpp:46
+#, kde-format
+msgid "The message to show (fullscreen, noborder)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: helpers/dialoghelper/dialoghelper.cpp:48 helpers/killer/killer.cpp:144
+#, kde-format
+msgid "KWin helper utility"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: helpers/dialoghelper/dialoghelper.cpp:68
+#: helpers/dialoghelper/dialoghelper.cpp:118 helpers/killer/killer.cpp:172
+#, kde-format
+msgid "This helper utility is not supposed to be called directly."
+msgstr ""
+
+#. +> trunk6
+#: helpers/dialoghelper/dialoghelper.cpp:79
+#, kde-format
+msgid ""
+"You have selected to show a window in fullscreen mode.\n"
+"If the application itself does not have an option to turn the fullscreen mode off you will not be able to disable it again using the mouse: use the %1 keyboard shortcut instead."
+msgstr ""
+
+#. +> trunk6 stable6
+#: helpers/dialoghelper/dialoghelper.cpp:85
+#, kde-format
+msgid ""
+"You have selected to show a window in fullscreen mode.\n"
+"If the application itself does not have an option to turn the fullscreen mode off you will not be able to disable it again using the mouse: use the window menu instead, activated using the %1 keyboard shortcut."
+msgstr ""
+
+#. +> trunk6
+#: helpers/dialoghelper/dialoghelper.cpp:93
+#, kde-format
+msgid ""
+"You have selected to show a window in fullscreen mode.\n"
+"If the application itself does not have an option to turn the fullscreen mode off you will not be able to disable it again using the mouse."
+msgstr ""
+
+#. +> trunk6
+#: helpers/dialoghelper/dialoghelper.cpp:98
+#, kde-format
+msgctxt "@action:button Un-fullscreen"
+msgid "Undo Fullscreen"
+msgstr ""
+
+#. +> trunk6
+#: helpers/dialoghelper/dialoghelper.cpp:101
+#, kde-format
+msgid ""
+"You have selected to show a window without its border.\n"
+"Without the border, you will not be able to enable the border again using the mouse: use the %1 keyboard shortcut instead."
+msgstr ""
+
+#. +> trunk6 stable6
+#: helpers/dialoghelper/dialoghelper.cpp:106
+#, kde-format
+msgid ""
+"You have selected to show a window without its border.\n"
+"Without the border, you will not be able to enable the border again using the mouse: use the window menu instead, activated using the %1 keyboard shortcut."
+msgstr ""
+
+#. +> trunk6
+#: helpers/dialoghelper/dialoghelper.cpp:112
+#, kde-format
+msgid ""
+"You have selected to show a window without its border.\n"
+"Without the border, you will not be able to enable the border again using the mouse."
+msgstr ""
+
+#. +> trunk6
+#: helpers/dialoghelper/dialoghelper.cpp:116
+#, kde-format
+msgctxt "@action:button"
+msgid "Restore Border"
+msgstr ""
+
+#. +> trunk6
+#: helpers/dialoghelper/dialoghelper.cpp:133
+#, kde-format
+msgid "Do not show again"
+msgstr ""
+
 #. +> stable5
 #: helpers/killer/killer.cpp:94
 #, kde-format
@@ -1479,12 +1596,6 @@ msgstr ""
 #: helpers/killer/killer.cpp:95
 #, kde-format
 msgid "Wait Longer"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:127
-#, kde-format
-msgid "Window Manager"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -1533,42 +1644,6 @@ msgstr ""
 #: helpers/killer/killer.cpp:138
 #, kde-format
 msgid "name"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:140
-#, kde-format
-msgid "ID of resource belonging to the application"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:140
-#, kde-format
-msgid "id"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:142
-#, kde-format
-msgid "Time of user action causing termination"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:142
-#, kde-format
-msgid "time"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:144
-#, kde-format
-msgid "KWin helper utility"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:172
-#, kde-format
-msgid "This helper utility is not supposed to be called directly."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4251,28 +4326,12 @@ msgstr ""
 msgid "Touchpad"
 msgstr ""
 
-#. +> trunk6 stable6
-#: useractions.cpp:162
-#, kde-format
-msgid ""
-"You have selected to show a window without its border.\n"
-"Without the border, you will not be able to enable the border again using the mouse: use the window menu instead, activated using the %1 keyboard shortcut."
-msgstr ""
-
 #. +> stable5
 #: useractions.cpp:161
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
 "Without the border, you will not be able to enable the border again using the mouse: use the window operations menu instead, activated using the %1 keyboard shortcut."
-msgstr ""
-
-#. +> trunk6 stable6
-#: useractions.cpp:169
-#, kde-format
-msgid ""
-"You have selected to show a window in fullscreen mode.\n"
-"If the application itself does not have an option to turn the fullscreen mode off you will not be able to disable it again using the mouse: use the window menu instead, activated using the %1 keyboard shortcut."
 msgstr ""
 
 #. +> stable5
@@ -4284,63 +4343,51 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:217
+#: useractions.cpp:224
 #, kde-format
 msgid "&Move"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:222
+#: useractions.cpp:229
 #, kde-format
 msgid "&Resize"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:227
+#: useractions.cpp:234
 #, kde-format
 msgid "Keep &Above Others"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:233
+#: useractions.cpp:240
 #, kde-format
 msgid "Keep &Below Others"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:239
+#: useractions.cpp:246
 #, kde-format
 msgid "&Fullscreen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:245
+#: useractions.cpp:252
 #, kde-format
 msgid "&No Titlebar and Frame"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:251
+#: useractions.cpp:258
 #, kde-format
 msgid "&Hide from Screencast"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:259
+#: useractions.cpp:266
 #, kde-format
 msgid "Set Window Short&cut…"
-msgstr ""
-
-#. +> stable5
-#: useractions.cpp:280
-#, kde-format
-msgid "Set Window Short&cut..."
-msgstr ""
-
-#. +> trunk6 stable6
-#: useractions.cpp:265
-#, kde-format
-msgid "Configure Special &Window Settings…"
 msgstr ""
 
 #. +> stable5
@@ -4350,13 +4397,25 @@ msgid "&Shade"
 msgstr ""
 
 #. +> stable5
+#: useractions.cpp:280
+#, kde-format
+msgid "Set Window Short&cut..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: useractions.cpp:272
+#, kde-format
+msgid "Configure Special &Window Settings…"
+msgstr ""
+
+#. +> stable5
 #: useractions.cpp:286
 #, kde-format
 msgid "Configure Special &Window Settings..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:270
+#: useractions.cpp:277
 #, kde-format
 msgid "Configure S&pecial Application Settings…"
 msgstr ""
@@ -4368,27 +4427,21 @@ msgid "Configure S&pecial Application Settings..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:276
+#: useractions.cpp:283
 #, kde-format
 msgid "Ma&ximize"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:282
+#: useractions.cpp:289
 #, kde-format
 msgid "Mi&nimize"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:288
+#: useractions.cpp:295
 #, kde-format
 msgid "&More Actions"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: useractions.cpp:293
-#, kde-format
-msgid "&Close"
 msgstr ""
 
 #. +> stable5
@@ -4399,37 +4452,43 @@ msgid "Configure W&indow Manager..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:359
+#: useractions.cpp:300
+#, kde-format
+msgid "&Close"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: useractions.cpp:366
 #, kde-format
 msgid "&Extensions"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:409
+#: useractions.cpp:416
 #, kde-format
 msgid "&Desktops"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:425
+#: useractions.cpp:432
 #, kde-format
 msgid "Move to &Screen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:441
+#: useractions.cpp:448
 #, kde-format
 msgid "Show in &Activities"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:457
+#: useractions.cpp:464
 #, kde-format
 msgid "&All Desktops"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:492 useractions.cpp:624
+#: useractions.cpp:499 useractions.cpp:631
 #, kde-format
 msgid "Move to %1"
 msgstr ""
@@ -4441,14 +4500,14 @@ msgid "Move to %1 %2"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:506
+#: useractions.cpp:513
 #, kde-format
 msgctxt "Create a new desktop and add the window to that desktop"
 msgid "Add to &New Desktop"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:518
+#: useractions.cpp:525
 #, kde-format
 msgctxt "Create a new desktop and move the window to that desktop"
 msgid "Move to New Desktop"
@@ -4462,34 +4521,34 @@ msgid "&New Desktop"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:549
+#: useractions.cpp:556
 #, kde-format
 msgctxt "@item:inmenu List of all Screens to send a window to. First argument is a number, second the output identifier. E.g. Screen 1 (HDMI1)"
 msgid "Screen &%1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:576
+#: useractions.cpp:583
 #, kde-format
 msgid "&All Activities"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:743
+#: useractions.cpp:752
 #, kde-format
 msgctxt "'%1' is a keyboard shortcut like 'ctrl+w'"
 msgid "<b>%1</b> is already in use"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:745
+#: useractions.cpp:754
 #, kde-format
 msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
 msgid "<b>%1</b> is used by %2 in %3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:826
+#: useractions.cpp:835
 #, kde-format
 msgid "Window Menu"
 msgstr ""
@@ -4501,49 +4560,49 @@ msgid "Window Operations Menu"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:828
+#: useractions.cpp:837
 #, kde-format
 msgid "Close Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:830
+#: useractions.cpp:839
 #, kde-format
 msgid "Maximize Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:832
+#: useractions.cpp:841
 #, kde-format
 msgid "Maximize Window Vertically"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:834
+#: useractions.cpp:843
 #, kde-format
 msgid "Maximize Window Horizontally"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:836
+#: useractions.cpp:845
 #, kde-format
 msgid "Minimize Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:838
+#: useractions.cpp:847
 #, kde-format
 msgid "Move Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:840
+#: useractions.cpp:849
 #, kde-format
 msgid "Resize Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:842
+#: useractions.cpp:851
 #, kde-format
 msgid "Raise Window"
 msgstr ""
@@ -4555,229 +4614,229 @@ msgid "Shade Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:844
+#: useractions.cpp:853
 #, kde-format
 msgid "Lower Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:846
+#: useractions.cpp:855
 #, kde-format
 msgid "Toggle Window Raise/Lower"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:848
+#: useractions.cpp:857
 #, kde-format
 msgid "Make Window Fullscreen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:850
+#: useractions.cpp:859
 #, kde-format
 msgid "Toggle Window Titlebar and Frame"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:852
+#: useractions.cpp:861
 #, kde-format
 msgid "Keep Window Above Others"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:854
+#: useractions.cpp:863
 #, kde-format
 msgid "Keep Window Below Others"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:856
+#: useractions.cpp:865
 #, kde-format
 msgid "Activate Window Demanding Attention"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:858
+#: useractions.cpp:867
 #, kde-format
 msgid "Setup Window Shortcut"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:860
+#: useractions.cpp:869
 #, kde-format
 msgid "Move Window to the Center"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:862
+#: useractions.cpp:871
 #, kde-format
 msgid "Move Window Right"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:864
+#: useractions.cpp:873
 #, kde-format
 msgid "Move Window Left"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:866
+#: useractions.cpp:875
 #, kde-format
 msgid "Move Window Up"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:868
+#: useractions.cpp:877
 #, kde-format
 msgid "Move Window Down"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:870
+#: useractions.cpp:879
 #, kde-format
 msgid "Expand Window Horizontally"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:872
+#: useractions.cpp:881
 #, kde-format
 msgid "Expand Window Vertically"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:874
+#: useractions.cpp:883
 #, kde-format
 msgid "Shrink Window Horizontally"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:876
+#: useractions.cpp:885
 #, kde-format
 msgid "Shrink Window Vertically"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:878
+#: useractions.cpp:887
 #, kde-format
 msgid "Quick Tile Window to the Left"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:880
+#: useractions.cpp:889
 #, kde-format
 msgid "Quick Tile Window to the Right"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:882
+#: useractions.cpp:891
 #, kde-format
 msgid "Quick Tile Window to the Top"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:884
+#: useractions.cpp:893
 #, kde-format
 msgid "Quick Tile Window to the Bottom"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:886
+#: useractions.cpp:895
 #, kde-format
 msgid "Quick Tile Window to the Top Left"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:888
+#: useractions.cpp:897
 #, kde-format
 msgid "Quick Tile Window to the Bottom Left"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:890
+#: useractions.cpp:899
 #, kde-format
 msgid "Quick Tile Window to the Top Right"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:892
+#: useractions.cpp:901
 #, kde-format
 msgid "Quick Tile Window to the Bottom Right"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:894
+#: useractions.cpp:903
 #, kde-format
 msgid "Switch to Window Above"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:896
+#: useractions.cpp:905
 #, kde-format
 msgid "Switch to Window Below"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:898
+#: useractions.cpp:907
 #, kde-format
 msgid "Switch to Window to the Right"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:900
+#: useractions.cpp:909
 #, kde-format
 msgid "Switch to Window to the Left"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:902
+#: useractions.cpp:911
 #, kde-format
 msgid "Increase Opacity of Active Window by 5%"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:904
+#: useractions.cpp:913
 #, kde-format
 msgid "Decrease Opacity of Active Window by 5%"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:907
+#: useractions.cpp:916
 #, kde-format
 msgid "Keep Window on All Desktops"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:910
+#: useractions.cpp:919
 #, kde-format
 msgid "Custom Quick Tile Window to the Left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:912
+#: useractions.cpp:921
 #, kde-format
 msgid "Custom Quick Tile Window to the Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:914
+#: useractions.cpp:923
 #, kde-format
 msgid "Custom Quick Tile Window to the Top"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:916
+#: useractions.cpp:925
 #, kde-format
 msgid "Custom Quick Tile Window to the Bottom"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:927
+#: useractions.cpp:936
 #, kde-format
 msgid "Window to Desktop %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:929
+#: useractions.cpp:938
 #, kde-format
 msgid "Window to Next Desktop"
 msgstr ""
@@ -4789,37 +4848,37 @@ msgid "Move &To Current Desktop"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:930
+#: useractions.cpp:939
 #, kde-format
 msgid "Window to Previous Desktop"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:931
+#: useractions.cpp:940
 #, kde-format
 msgid "Window One Desktop to the Right"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:933
+#: useractions.cpp:942
 #, kde-format
 msgid "Window One Desktop to the Left"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:935
+#: useractions.cpp:944
 #, kde-format
 msgid "Window One Desktop Up"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:937
+#: useractions.cpp:946
 #, kde-format
 msgid "Window One Desktop Down"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:941
+#: useractions.cpp:950
 #, kde-format
 msgid "Move Window to Screen %1"
 msgstr ""
@@ -4831,7 +4890,7 @@ msgid "Window to Screen %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:948
+#: useractions.cpp:957
 #, kde-format
 msgid "Move Window to Next Screen"
 msgstr ""
@@ -4843,7 +4902,7 @@ msgid "Window to Next Screen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:950
+#: useractions.cpp:959
 #, kde-format
 msgid "Move Window to Previous Screen"
 msgstr ""
@@ -4855,7 +4914,7 @@ msgid "Window to Previous Screen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:952
+#: useractions.cpp:961
 #, kde-format
 msgid "Move Window One Screen to the Right"
 msgstr ""
@@ -4867,7 +4926,7 @@ msgid "Window One Screen to the Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:954
+#: useractions.cpp:963
 #, kde-format
 msgid "Move Window One Screen to the Left"
 msgstr ""
@@ -4879,7 +4938,7 @@ msgid "Window One Screen to the Left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:956
+#: useractions.cpp:965
 #, kde-format
 msgid "Move Window One Screen Up"
 msgstr ""
@@ -4891,7 +4950,7 @@ msgid "Window One Screen Up"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useractions.cpp:958
+#: useractions.cpp:967
 #, kde-format
 msgid "Move Window One Screen Down"
 msgstr ""
@@ -4903,49 +4962,49 @@ msgid "Window One Screen Down"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:962
+#: useractions.cpp:971
 #, kde-format
 msgid "Switch to Screen %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:969
+#: useractions.cpp:978
 #, kde-format
 msgid "Switch to Next Screen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:970
+#: useractions.cpp:979
 #, kde-format
 msgid "Switch to Previous Screen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:971
+#: useractions.cpp:980
 #, kde-format
 msgid "Switch to Screen to the Right"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:973
+#: useractions.cpp:982
 #, kde-format
 msgid "Switch to Screen to the Left"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:975
+#: useractions.cpp:984
 #, kde-format
 msgid "Switch to Screen Above"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:977
+#: useractions.cpp:986
 #, kde-format
 msgid "Switch to Screen Below"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:980
+#: useractions.cpp:989
 #, kde-format
 msgid "Peek at Desktop"
 msgstr ""
@@ -4957,13 +5016,13 @@ msgid "Move to &Desktop"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:983
+#: useractions.cpp:992
 #, kde-format
 msgid "Kill Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1048
+#: useractions.cpp:1057
 #, kde-format
 msgid "Activate Window (%1)"
 msgstr ""
@@ -5092,7 +5151,7 @@ msgid "(Not Responding)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1736
+#: workspace.cpp:1745
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""

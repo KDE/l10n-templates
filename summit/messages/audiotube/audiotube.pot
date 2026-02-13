@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audiotube\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-06 19:22+0100\n"
+"POT-Creation-Date: 2026-02-13 09:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -70,7 +70,14 @@ msgstr ""
 msgid "Share"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: contents/ui/AlbumPage.qml:109
+#, kde-format
+msgctxt "%1 is the artist(s) featured in the album"
+msgid "Album • %1"
+msgstr ""
+
+#. +> stable6
 #: contents/ui/AlbumPage.qml:109
 #, kde-format
 msgid "Album • %1"
@@ -96,7 +103,14 @@ msgstr ""
 msgid "Artist"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: contents/ui/ArtistPage.qml:127
+#, kde-format
+msgctxt "%1 is a video title"
+msgid "Video playback is not supported yet. Do you want to play only the audio of “%1”?"
+msgstr ""
+
+#. +> stable6
 #: contents/ui/ArtistPage.qml:127 contents/ui/SearchPage.qml:74
 #, kde-format
 msgid "Video playback is not supported yet. Do you want to play only the audio of \"%1\"?"
@@ -306,13 +320,13 @@ msgid "No media playing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/MaximizedPlayerPage.qml:538
+#: contents/ui/MaximizedPlayerPage.qml:538 contents/ui/SongMenu.qml:128
 #, kde-format
 msgid "Remove from Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/MaximizedPlayerPage.qml:538
+#: contents/ui/MaximizedPlayerPage.qml:538 contents/ui/SongMenu.qml:128
 #, kde-format
 msgid "Add to Favorites"
 msgstr ""
@@ -335,7 +349,14 @@ msgstr ""
 msgid "Mute Audio"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: contents/ui/MaximizedPlayerPage.qml:709
+#, kde-format
+msgctxt "%1 is the audio volume in percent"
+msgid "%1%"
+msgstr ""
+
+#. +> stable6
 #: contents/ui/MaximizedPlayerPage.qml:709
 #, kde-format
 msgid "%1%"
@@ -378,7 +399,14 @@ msgstr ""
 msgid "Show Queue"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: contents/ui/MaximizedPlayerPage.qml:1069
+#: contents/ui/MaximizedPlayerPage.qml:1314
+#, kde-format
+msgid "Remove Song"
+msgstr ""
+
+#. +> stable6
 #: contents/ui/MaximizedPlayerPage.qml:1069
 #: contents/ui/MaximizedPlayerPage.qml:1314
 #, kde-format
@@ -469,6 +497,13 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
+#. +> trunk6
+#: contents/ui/SearchPage.qml:74
+#, kde-format
+msgctxt "%1 is a video title"
+msgid "Video playback is not supported yet. Do you want to play only the audio of \"%1\"?"
+msgstr ""
+
 #. +> trunk6 stable6
 #: contents/ui/SearchWithDropdown.qml:339
 #, kde-format
@@ -518,18 +553,6 @@ msgid "Add to queue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/SongMenu.qml:128 contents/ui/SongMenu.qml:231
-#, kde-format
-msgid "Remove Favorite"
-msgstr ""
-
-#. +> trunk6 stable6
-#: contents/ui/SongMenu.qml:128 contents/ui/SongMenu.qml:231
-#, kde-format
-msgid "Add Favorite"
-msgstr ""
-
-#. +> trunk6 stable6
 #: contents/ui/SongMenu.qml:147 contents/ui/SongMenu.qml:245
 #, kde-format
 msgid "Remove from History"
@@ -542,13 +565,31 @@ msgid "Add to playlist"
 msgstr ""
 
 #. +> trunk6 stable6
+#: contents/ui/SongMenu.qml:231
+#, kde-format
+msgid "Remove Favorite"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/ui/SongMenu.qml:231
+#, kde-format
+msgid "Add Favorite"
+msgstr ""
+
+#. +> trunk6 stable6
 #: main.cpp:90
 #, kde-format
 msgctxt "YouTube Music is a music streaming service by Google"
 msgid "Stream music from YouTube Music"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: main.cpp:92
+#, kde-format
+msgid "© 2021–2024 Jonah Brüchert, 2021–2024 KDE Community"
+msgstr ""
+
+#. +> stable6
 #: main.cpp:92
 #, kde-format
 msgid "© 2021-2024 Jonah Brüchert, 2021-2024 KDE Community"

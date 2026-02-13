@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-12 06:22+0100\n"
+"POT-Creation-Date: 2026-02-13 10:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -241,7 +241,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/genericnetworkplugin/genericnetworkmanager.cpp:48
-#: plugins/ollama/ollamamanager.cpp:192
+#: plugins/ollama/ollamamanager.cpp:193
 #: plugins/ollamacloud/ollamacloudmanager.cpp:109
 #: plugins/ollamaonline/ollamaonlinemanager.cpp:103
 #, kde-format
@@ -391,9 +391,9 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelcreatefromexistingmodelwidget.cpp:34
-#: plugins/ollama/ollamaconfigurewidget.cpp:58
-#: plugins/ollamacloud/ollamacloudconfigurewidget.cpp:51
-#: plugins/ollamaonline/ollamaonlineconfigurewidget.cpp:52
+#: plugins/ollama/ollamaconfigurewidget.cpp:60
+#: plugins/ollamacloud/ollamacloudconfigurewidget.cpp:53
+#: plugins/ollamaonline/ollamaonlineconfigurewidget.cpp:54
 #: widgets/networkpluginconfigure/textautogeneratenetworkpluginconfigurewidget.cpp:47
 #, kde-format
 msgid "Name:"
@@ -600,40 +600,40 @@ msgid "Create Models"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfigurewidget.cpp:62
-#: plugins/ollamaonline/ollamaonlineconfigurewidget.cpp:56
+#: plugins/ollama/ollamaconfigurewidget.cpp:64
+#: plugins/ollamaonline/ollamaonlineconfigurewidget.cpp:58
 #, kde-format
 msgid "Server Url:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfigurewidget.cpp:66
-#: plugins/ollamacloud/ollamacloudconfigurewidget.cpp:59
-#: plugins/ollamaonline/ollamaonlineconfigurewidget.cpp:65
+#: plugins/ollama/ollamaconfigurewidget.cpp:68
+#: plugins/ollamacloud/ollamacloudconfigurewidget.cpp:61
+#: plugins/ollamaonline/ollamaonlineconfigurewidget.cpp:67
 #, kde-format
 msgid "Model:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfigurewidget.cpp:71
+#: plugins/ollama/ollamaconfigurewidget.cpp:76
 #, kde-format
 msgid "Customize Ollama"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfigurewidget.cpp:81
+#: plugins/ollama/ollamaconfigurewidget.cpp:86
 #, kde-format
 msgid "These entries are optional, they are used to troubleshoot GPU related problems with Ollama."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfigurewidget.cpp:145
+#: plugins/ollama/ollamaconfigurewidget.cpp:152
 #, kde-format
 msgid "Failed to start Ollama"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaplugin.cpp:111
+#: plugins/ollama/ollamaplugin.cpp:94
 #: plugins/ollamacloud/ollamapluginonline.cpp:110
 #: plugins/ollamaonline/ollamapluginonline.cpp:110
 #, kde-format
@@ -667,15 +667,15 @@ msgid "Configure Ollama Cloud"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollamacloud/ollamacloudconfigurewidget.cpp:56
-#: plugins/ollamaonline/ollamaonlineconfigurewidget.cpp:62
+#: plugins/ollamacloud/ollamacloudconfigurewidget.cpp:58
+#: plugins/ollamaonline/ollamaonlineconfigurewidget.cpp:64
 #: widgets/networkpluginconfigure/textautogeneratenetworkpluginconfigurewidget.cpp:48
 #, kde-format
 msgid "Api Key:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollamacloud/ollamacloudplugin.cpp:117
+#: plugins/ollamacloud/ollamacloudplugin.cpp:115
 #, kde-format
 msgid "Ollama Cloud"
 msgstr ""
@@ -685,6 +685,56 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reload Model"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollamacommon/ollamacommonkeepaliveparameterscombobox.cpp:19
+#, kde-format
+msgid "Keep Alive Presets"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollamacommon/ollamacommonkeepaliveparameterscombobox.cpp:20
+#, kde-format
+msgid "Keep Alive Forever"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollamacommon/ollamacommonkeepaliveparameterscombobox.cpp:21
+#, kde-format
+msgid "Unload After Use"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollamacommon/ollamacommonkeepaliveparameterswidget.cpp:24
+#, kde-format
+msgid "Keep Alive"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollamacommon/ollamacommonkeepaliveparameterswidget.cpp:33
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "How the instance should handle idle models"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollamacommon/ollamacommonkeepaliveparameterswidget.cpp:36
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The amount of time the instance should keep models loaded after they go idle."
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollamacommon/ollamacommonkeepaliveparameterswidget.cpp:38
+#, kde-format
+msgid "Presets:"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollamacommon/ollamacommonkeepaliveparameterswidget.cpp:39
+#, kde-format
+msgid "Minutes:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2033,7 +2083,7 @@ msgid "Configure Ollama Online"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollamaonline/ollamaonlineplugin.cpp:121
+#: plugins/ollamaonline/ollamaonlineplugin.cpp:116
 #, kde-format
 msgid "Ollama Online"
 msgstr ""
