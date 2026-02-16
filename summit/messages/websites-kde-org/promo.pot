@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-14 09:57+0100\n"
+"POT-Creation-Date: 2026-02-16 09:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3152,7 +3152,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/linux.md:27 content/linux.md:91 content/linux.md:187
-msgid "{{< linux/button src=\"install/\" description=\"Install KDE Linux\" >}} {{< linux/button src=\"docs/\" description=\"Read the docs\" >}}"
+msgid "{{< linux/button src=\"docs/install\" description=\"Install KDE Linux\" >}} {{< linux/button src=\"docs/\" description=\"Read the docs\" >}}"
 msgstr ""
 
 #. +> trunk5
@@ -3179,7 +3179,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/linux.md:43
-msgid "**Daily-drive KDE Linux** or put it on a secondary machine, especially if you’re a developer or adventurous power user. [Follow the installation instructions](https://kde.org/linux/install/) to the letter; finding mistakes in the installation process and discrepancies in the documentation is also important."
+msgid "**Daily-drive KDE Linux** or put it on a secondary machine, especially if you’re a developer or adventurous power user. [Follow the installation instructions](docs/install) to the letter; finding mistakes in the installation process and discrepancies in the documentation is also important."
 msgstr ""
 
 #. +> trunk5
@@ -3538,131 +3538,146 @@ msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:15
-msgid "Hardware support"
+msgid "Installation"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:16
-msgid "[Use a pre-Turing (older than GTX 1630) NVIDIA GPU](docs/pre-turing-nvidia)"
+msgid "[Install on a device](install)"
 msgstr ""
 
 #. +> trunk5
-#: content/linux/docs.md:19
-msgid "Basic use"
+#: content/linux/docs.md:17
+msgid "[Install in a virtual machine](install-vm)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:20
-msgid "[Install apps and games](docs/apps-and-games)"
+msgid "Hardware support"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:21
-msgid "Install fonts"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/docs.md:22
-msgid "[Keep the system up to date](docs/updates)"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/docs.md:23
-msgid "Back up data"
+msgid "[Use a pre-Turing (older than GTX 1630) NVIDIA GPU](docs/pre-turing-nvidia)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:24
-msgid "[Auto-mount internal disks](docs/automount)"
+msgid "Basic use"
+msgstr ""
+
+#. +> trunk5
+#: content/linux/docs.md:25
+msgid "[Install apps and games](docs/apps-and-games)"
+msgstr ""
+
+#. +> trunk5
+#: content/linux/docs.md:26
+msgid "Install fonts"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:27
-msgid "Advanced use"
+msgid "[Keep the system up to date](docs/updates)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:28
-msgid "[Force software to run on the dedicated GPU with a multi-GPU setup](docs/multi-gpu)"
+msgid "[Back up data](backup)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:29
-msgid "[Install Linux software not available in Discover](docs/more-software)"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/docs.md:30
-msgid "Install software only available on Windows"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/docs.md:31
-msgid "Run Java software"
+msgid "[Auto-mount internal disks](docs/automount)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:32
-msgid "[Use KeepassXC with Web Browsers](docs/keepassxc)"
+msgid "Advanced use"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:33
-msgid "[Add or override content in /usr](docs/override-usr)"
+msgid "[Force software to run on the dedicated GPU with a multi-GPU setup](docs/multi-gpu)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:34
-msgid "[Create and use virtual machines](docs/vm)"
+msgid "[Install Linux software not available in Discover](docs/more-software)"
+msgstr ""
+
+#. +> trunk5
+#: content/linux/docs.md:35
+msgid "Install software only available on Windows"
+msgstr ""
+
+#. +> trunk5
+#: content/linux/docs.md:36
+msgid "Run Java software"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:37
-msgid "Software development"
+msgid "[Use KeepassXC with Web Browsers](docs/keepassxc)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:38
-msgid "[Develop KDE software](docs/kde-dev)"
+msgid "[Add or override content in /usr](docs/override-usr)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:39
-msgid "[Develop or run Python scripts](docs/python-dev)"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/docs.md:40
-msgid "[Develop or debug the kernel](docs/kernel-dev)"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/docs.md:41
-msgid "[Develop other non-KDE software](docs/dev)"
+msgid "[Create and use virtual machines](docs/vm)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:42
-msgid "[Develop KDE Linux locally](docs/kde-linux-dev)"
+msgid "Software development"
+msgstr ""
+
+#. +> trunk5
+#: content/linux/docs.md:43
+msgid "[Develop KDE software](docs/kde-dev)"
+msgstr ""
+
+#. +> trunk5
+#: content/linux/docs.md:44
+msgid "[Develop or run Python scripts](docs/python-dev)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:45
-msgid "Troubleshooting and debugging"
+msgid "[Develop or debug the kernel](docs/kernel-dev)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:46
-msgid "[Recover from a failure to start up properly](boot-failure-recovery)"
+msgid "[Develop other non-KDE software](docs/dev)"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/docs.md:47
+msgid "[Develop KDE Linux locally](docs/kde-linux-dev)"
+msgstr ""
+
+#. +> trunk5
+#: content/linux/docs.md:50
+msgid "Troubleshooting and debugging"
+msgstr ""
+
+#. +> trunk5
+#: content/linux/docs.md:51
+msgid "[Recover from a failure to start up properly](boot-failure-recovery)"
+msgstr ""
+
+#. +> trunk5
+#: content/linux/docs.md:52
 msgid "[Debug crashes in Flatpak apps](flatpak-crashes)"
 msgstr ""
 
 #. +> trunk5
-#: content/linux/docs.md:48
+#: content/linux/docs.md:53
 msgid "[Migrate older installations](migrate-older)"
 msgstr ""
 
@@ -3674,196 +3689,6 @@ msgstr ""
 #. +> trunk5
 #: content/linux/docs.md:0
 msgid "How do do all sorts of things on KDE Linux"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:13
-msgid ""
-"{{< section class=\"text-center warning-bubble\" >}} Currently the Testing edition is available, showcasing the latest and greatest in-development versions of KDE’s [Plasma desktop environment](https://kde.org/plasma-desktop) and [apps](https://apps.kde.org). <br/>"
-"<br/>"
-" Expect frequent changes and regressions, and use it in a production environment at your own risk! <br/>"
-"<br/>"
-" Other editions suitable for the general public are in progress."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:23
-msgid "Requirements"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:24
-msgid "KDE Linux supports almost all PC desktops and laptops with:"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:25
-msgid "UEFI firmware (this includes most sold in the last 15 years)"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:26
-msgid "An AMD or Intel CPU"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:27
-msgid "2 GB of memory (more will make the system faster)"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:28
-msgid "10 GB of storage space (more will allow for system rollbacks)"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:29
-msgid "No DisplayLink screens; DisplayLink is not supported. Display*Port* works fine"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:31
-msgid "Read through the [list of limitations and known issues here]( https://community.kde.org/KDE_Linux#Current_state) and make sure there are no deal-breakers for you."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:33
-msgid "Ultimately the best way to determine compatibility is to create a live USB drive of KDE Linux and preview it on your own computer, with no risk to what’s already on it."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:35
-msgid "To instead install KDE Linux in a virtual machine, [follow the advanced instructions here](https://community.kde.org/KDE_Linux/installing_on_a_virtual_machine). Otherwise, read on:"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:37
-msgid "1. Create a live USB drive"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:38
-msgid "Download the latest `.raw` image from [here](https://files.kde.org/kde-linux/?C=M;O=D)."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:39
-msgid "Verify that the `.raw` file is genuine by following the [instructions here](https://community.kde.org/KDE_Linux#Getting_it)."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:40
-msgid "Install [ISO Image Writer](https://apps.kde.org/isoimagewriter/) and launch it."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:41
-msgid "Click “Path to ISO Image…” and locate the `.raw` file you downloaded."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:42
-msgid "Plug in the USB flash drive and ensure it appears in the “To this USB Drive” area."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:43
-msgid "Click “Create”."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:46
-msgid "2. Prepare the target computer"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:47
-msgid "Ensure that Secure Boot is disabled. If it isn’t, or you don’t know whether it is or not, enter the computer’s UEFI interface and disable it. Here’s how:"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:49
-msgid "First, consult [the table here](https://forums.malwarebytes.com/topic/319165-pc-common-boot-menu-and-bios-setting-hotkeys/) and find the correct keyboard key under the “BIOS/UEFI Key” column for your brand of computer."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:50
-msgid "To enter the UEFI interface, reboot the computer and repeatedly press that key while it starts up."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:51
-msgid "Once you’re in the UEFI interface (you’ll know because it looks very ugly), find where it lets you turn off Secure Boot and turn it off. This is different for every UEFI implementation, so you may need to dig around a bit."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:52
-msgid "Once you’ve turned off Secure Boot, find the “Exit and save changes” option, and use it."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:54
-msgid "This requirement will go away in the future once [KDE Linux supports Secure Boot](https://invent.kde.org/kde-linux/kde-linux/-/issues/3)."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:57
-msgid "3. Boot into the live USB drive"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:58
-msgid "Plug in the USB drive."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:59
-msgid "Consult [the table here](https://forums.malwarebytes.com/topic/319165-pc-common-boot-menu-and-bios-setting-hotkeys/) and note down the keyboard key under the “Boot Menu Key” column for your brand of computer."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:60
-msgid "Reboot the computer and repeatedly press that key while it starts up."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:61
-msgid "When the boot menu appears, use the Up or Down arrow keys to select the entry that looks like it describes your USB flash drive, and then press Enter."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:64
-msgid "4. Explore the live session and install KDE Linux"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:65
-msgid "Now you’re in the “Live Session” of KDE Linux! This lets you see what it will be like if you choose to install it. Go through the welcome wizard and then poke around to make sure everything you care about works. Plug in your typically-used devices and make sure they function properly."
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:67
-msgid "Once you’re ready to install, double-click on the “Install KDE Linux” icon on the desktop and go through the installer. **Don’t do manual partitioning, as it’s [broken right now](https://invent.kde.org/kde-linux/kde-linux/-/issues/299).**"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:69
-msgid "WARNING: if you choose to erase the computer’s hard disk, all of the files and data on it will be erased too. Make sure anything you care about is backed up somewhere!"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:72
-msgid "5. Enjoy KDE Linux"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:73
-msgid "We hope you love it!"
-msgstr ""
-
-#. +> trunk5
-#: content/linux/install.md:0
-msgid "Install KDE Linux"
 msgstr ""
 
 #. +> trunk5
