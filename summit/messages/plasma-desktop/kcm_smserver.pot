@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-13 14:38+0100\n"
+"POT-Creation-Date: 2026-02-17 10:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -64,17 +64,11 @@ msgstr ""
 msgid "Failed to request restart to firmware setup: %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:31
 #, kde-format
 msgctxt "@info:status inlinemessage"
-msgid "Next time the computer is restarted, it will enter the UEFI setup screen."
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:58
-#, kde-format
-msgid "Next time the computer is restarted, it will enter the UEFI setup screen."
+msgid "Next time the computer is restarted, it will enter UEFI firmware settings."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -85,15 +79,28 @@ msgid "Next time the computer is restarted, it will enter the firmware setup scr
 msgstr ""
 
 #. +> stable5
+#: package/contents/ui/main.qml:59
+#, kde-format
+msgid "Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+
+#. +> stable5
 #: package/contents/ui/main.qml:35
 #, kde-format
 msgid "Restart"
 msgstr ""
 
 #. +> stable5
-#: package/contents/ui/main.qml:59
+#: package/contents/ui/main.qml:58
 #, kde-format
-msgid "Next time the computer is restarted, it will enter the firmware setup screen."
+msgid "Next time the computer is restarted, it will enter the UEFI setup screen."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -238,11 +245,11 @@ msgctxt "@label:check part of a sentence: After next restart enter UEFI/Firmware
 msgid "After next restart:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:145
 #, kde-format
 msgctxt "@option:check"
-msgid "Enter UEFI setup screen"
+msgid "Enter UEFI firmware settings"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -250,6 +257,13 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Enter firmware setup screen"
+msgstr ""
+
+#. +> stable6 stable5
+#: ui/main.qml:145
+#, kde-format
+msgctxt "@option:check"
+msgid "Enter UEFI setup screen"
 msgstr ""
 
 #. +> stable5
