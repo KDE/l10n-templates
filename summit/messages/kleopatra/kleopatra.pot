@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-12 06:21+0100\n"
+"POT-Creation-Date: 2026-02-19 10:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2311,7 +2311,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/commands/importcertificatefromfilecommand.cpp:154
-#: src/commands/importcertificatescommand.cpp:157 src/view/keytreeview.cpp:229
+#: src/commands/importcertificatescommand.cpp:157 src/view/keytreeview.cpp:230
 #, kde-format
 msgid "Certificates"
 msgstr ""
@@ -8801,7 +8801,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/subkeyswidget.cpp:197 src/dialogs/useridswidget.cpp:165
-#: src/dialogs/weboftrustwidget.cpp:133
+#: src/dialogs/weboftrustwidget.cpp:134
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show more options"
@@ -9103,116 +9103,124 @@ msgid "Revoke User ID"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:93
+#: src/dialogs/weboftrustwidget.cpp:94
 #, kde-format
 msgid "User IDs and certifications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:99
+#: src/dialogs/weboftrustwidget.cpp:100
 #, kde-format
 msgctxt "@info"
 msgid "Certifications are not available before the certificate is imported."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:104 src/view/smartcardactions.cpp:101
+#: src/dialogs/weboftrustwidget.cpp:105 src/view/smartcardactions.cpp:101
 #, kde-format
 msgctxt "@action"
 msgid "Show Certificate Details"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:109
+#: src/dialogs/weboftrustwidget.cpp:110
 #, kde-format
 msgctxt "@action"
 msgid "Add Certification"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:115
+#: src/dialogs/weboftrustwidget.cpp:116
 #, kde-format
 msgctxt "@action"
 msgid "Revoke Certification"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:121
+#: src/dialogs/weboftrustwidget.cpp:122
 #, kde-format
 msgctxt "@action:button"
 msgid "Fetch Missing Keys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:122
+#: src/dialogs/weboftrustwidget.cpp:123
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Look up and import all keys that were used to certify the user IDs of this key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:142
+#: src/dialogs/weboftrustwidget.cpp:143
 #, kde-format
 msgctxt "label:checkbox"
 msgid "Show only my own certifications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:269
+#: src/dialogs/weboftrustwidget.cpp:270
 #, kde-format
 msgid "You cannot revoke this certification because it wasn't made with one of your keys (or the required secret key is missing)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:272
+#: src/dialogs/weboftrustwidget.cpp:273
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Revocation of self-certifications is currently not possible."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:276
+#: src/dialogs/weboftrustwidget.cpp:277
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "You cannot revoke this revocation certification. (But you can re-certify the corresponding user ID.)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:279
+#: src/dialogs/weboftrustwidget.cpp:280
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "You cannot revoke this expired certification."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:282
+#: src/dialogs/weboftrustwidget.cpp:283
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "You cannot revoke this invalid certification."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:285
+#: src/dialogs/weboftrustwidget.cpp:286
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "You cannot revoke this certification because the required secret key is not available."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:293
+#: src/dialogs/weboftrustwidget.cpp:294
 #, kde-format
 msgid "You cannot revoke any of the certifications of this user ID. Select any of the certifications for details."
 msgstr ""
 
+#. +> trunk6
+#: src/dialogs/weboftrustwidget.cpp:318 src/mainwindow.cpp:674
+#: src/view/keytreeview.cpp:247
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure columns"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:423
+#: src/dialogs/weboftrustwidget.cpp:428
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>An error occurred while loading the certifications: <message>%1</message></para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/weboftrustwidget.cpp:426
+#: src/dialogs/weboftrustwidget.cpp:431
 #, kde-format
 msgctxt "@title"
 msgid "Certifications Loading Failed"
@@ -9904,7 +9912,7 @@ msgstr ""
 #. i18n: ectx: Menu (certMenu)
 #. i18n: ectx: Menu (listview_popup)
 #. +> trunk6 stable6
-#: src/kleopatra.rc:29 src/kleopatra.rc:126
+#: src/kleopatra.rc:29 src/kleopatra.rc:127
 #, kde-format
 msgid "&Certificates"
 msgstr ""
@@ -9925,28 +9933,28 @@ msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #. +> trunk6 stable6
-#: src/kleopatra.rc:85
+#: src/kleopatra.rc:86
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: Menu (help)
 #. +> trunk6 stable6
-#: src/kleopatra.rc:89
+#: src/kleopatra.rc:90
 #, kde-format
 msgid "&Help"
 msgstr ""
 
 #. i18n: ectx: Menu (help_more)
 #. +> trunk6 stable6
-#: src/kleopatra.rc:96
+#: src/kleopatra.rc:97
 #, kde-format
 msgid "&More Documentation"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #. +> trunk6 stable6
-#: src/kleopatra.rc:110 src/kwatchgnupg/kwatchgnupgui.rc:13
+#: src/kleopatra.rc:111 src/kwatchgnupg/kwatchgnupgui.rc:13
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -10267,250 +10275,257 @@ msgid "Error Starting KWatchGnuPG"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:529
+#: src/mainwindow.cpp:536
 #, kde-format
 msgid "GnuPG Log Viewer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:541
+#: src/mainwindow.cpp:548
 #, kde-format
 msgid "GnuPG Command Line"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:554
+#: src/mainwindow.cpp:561
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Restart Background Processes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:555
+#: src/mainwindow.cpp:562
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Restart the background processes, e.g. after making changes to the configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:567
+#: src/mainwindow.cpp:574
 #, kde-format
 msgid "Check for updates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:580
+#: src/mainwindow.cpp:587
 #, kde-format
 msgctxt "@action show input / output area for encrypting/signing resp. decrypting/verifying text"
 msgid "Notepad"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:581
+#: src/mainwindow.cpp:588
 #, kde-format
 msgid "Show pad for encrypting/decrypting and signing/verifying text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:591
+#: src/mainwindow.cpp:598
 #, kde-format
 msgctxt "@action show smartcard management view"
 msgid "Smartcards"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:592
+#: src/mainwindow.cpp:599
 #, kde-format
 msgid "Show smartcard management"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:603
+#: src/mainwindow.cpp:610
 #, kde-format
 msgid "Perform Self-Test"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:614
+#: src/mainwindow.cpp:621
 #, kde-format
 msgid "Manage Groups..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:626
+#: src/mainwindow.cpp:633
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Groups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:657
+#: src/mainwindow.cpp:664
 #, kde-format
 msgctxt "@action"
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/mainwindow.cpp:667
+#. +> trunk6
+#: src/mainwindow.cpp:679 src/view/keytreeview.cpp:250
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure sorting"
+msgstr ""
+
+#. +> stable6
+#: src/mainwindow.cpp:672
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure visible columns"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/mainwindow.cpp:674
+#. +> stable6
+#: src/mainwindow.cpp:679
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure table sort order"
 msgstr ""
 
+#. +> stable6
+#: src/mainwindow.cpp:964
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Ascending"
+msgstr ""
+
+#. +> stable6
+#: src/mainwindow.cpp:974
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Descending"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:685
+#: src/mainwindow.cpp:698
 #, kde-format
 msgid "Gpg4win Compendium"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:689
+#: src/mainwindow.cpp:702
 #, kde-format
 msgctxt "The Gpg4win compendium is only availableat this point (24.7.2017) in german and english.Please check with Gpg4win before translating this filename."
 msgid "gpg4win-compendium-en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:700
+#: src/mainwindow.cpp:713
 #, kde-format
 msgid "&Quick Guide Encrypt and Sign"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:701
+#: src/mainwindow.cpp:714
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "encrypt_and_sign_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:710
+#: src/mainwindow.cpp:723
 #, kde-format
 msgid "Certificate &Groups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:711
+#: src/mainwindow.cpp:724
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "groupfeature_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:720
+#: src/mainwindow.cpp:733
 #, kde-format
 msgid "&Mail Encryption in Outlook"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:721
+#: src/mainwindow.cpp:734
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages. Only shown on Windows."
 msgid "gpgol_outlook_addin_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:731
+#: src/mainwindow.cpp:744
 #, kde-format
 msgid "&Certification Management"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:732
+#: src/mainwindow.cpp:745
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "certification_management_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:740
+#: src/mainwindow.cpp:753
 #, kde-format
 msgid "&Smartcard Setup"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:741
+#: src/mainwindow.cpp:754
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "smartcard_setup_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:748
+#: src/mainwindow.cpp:761
 #, kde-format
 msgid "GnuPG Command&line"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:758
+#: src/mainwindow.cpp:771
 #, kde-format
 msgid "Manual for VS-NfD Approval"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:759
+#: src/mainwindow.cpp:772
 #, kde-format
 msgctxt "Only available in German and English. Keep the English file name for other languages."
 msgid "handbuch_zulassung_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:767
+#: src/mainwindow.cpp:780
 #, kde-format
 msgid "SecOps for VS-NfD Approval"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:768
+#: src/mainwindow.cpp:781
 #, kde-format
 msgctxt "Only available in German and English. Keep the English file name for other languages."
 msgid "BSI-VSA-10867_ENG_secops.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:793
+#: src/mainwindow.cpp:806
 #, kde-format
 msgid "There are still some background operations ongoing. These will be terminated when closing the window. Proceed?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:796
+#: src/mainwindow.cpp:809
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:927
+#: src/mainwindow.cpp:940
 #, kde-format
 msgid "&Password-based Encryption"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:928
+#: src/mainwindow.cpp:941
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "symmetric_encryption_gnupgvsd_en.pdf"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/mainwindow.cpp:959
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Ascending"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/mainwindow.cpp:969
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Descending"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -12581,13 +12596,13 @@ msgid "Disable and Hide Certificate"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/keytreeview.cpp:230 src/view/keytreeview.cpp:512
+#: src/view/keytreeview.cpp:231 src/view/keytreeview.cpp:520
 #, kde-format
 msgid "Hierarchical list of certificates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/view/keytreeview.cpp:230 src/view/keytreeview.cpp:512
+#: src/view/keytreeview.cpp:231 src/view/keytreeview.cpp:520
 #, kde-format
 msgid "List of certificates"
 msgstr ""
