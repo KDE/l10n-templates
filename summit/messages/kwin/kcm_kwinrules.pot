@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-23 10:52+0100\n"
+"POT-Creation-Date: 2026-02-20 16:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -391,7 +391,7 @@ msgid "Screen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:518 rulesmodel.cpp:927
+#: rulesmodel.cpp:518 rulesmodel.cpp:933
 #, kde-format
 msgid "Fullscreen"
 msgstr ""
@@ -579,7 +579,7 @@ msgstr ""
 #: rulesmodel.cpp:606 rulesmodel.cpp:611 rulesmodel.cpp:617 rulesmodel.cpp:622
 #: rulesmodel.cpp:628 rulesmodel.cpp:655 rulesmodel.cpp:683 rulesmodel.cpp:689
 #: rulesmodel.cpp:701 rulesmodel.cpp:706 rulesmodel.cpp:711 rulesmodel.cpp:716
-#: rulesmodel.cpp:722 rulesmodel.cpp:727
+#: rulesmodel.cpp:722 rulesmodel.cpp:727 rulesmodel.cpp:732
 #, kde-format
 msgid "Appearance & Fixes"
 msgstr ""
@@ -735,14 +735,20 @@ msgstr ""
 msgid "Allow tearing"
 msgstr ""
 
+#. +> trunk6
+#: rulesmodel.cpp:732
+#, kde-format
+msgid "Hide from Screencast"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:778
+#: rulesmodel.cpp:784
 #, kde-format
 msgid "Window class not available"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:779
+#: rulesmodel.cpp:785
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -752,7 +758,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:813
+#: rulesmodel.cpp:819
 #, kde-format
 msgid "All window types"
 msgstr ""
@@ -770,7 +776,7 @@ msgid "All Window Types"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:814
+#: rulesmodel.cpp:820
 #, kde-format
 msgid "Normal window"
 msgstr ""
@@ -782,7 +788,7 @@ msgid "Normal Window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:815
+#: rulesmodel.cpp:821
 #, kde-format
 msgid "Dialog window"
 msgstr ""
@@ -794,7 +800,7 @@ msgid "Dialog Window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:816
+#: rulesmodel.cpp:822
 #, kde-format
 msgid "Utility window"
 msgstr ""
@@ -806,19 +812,19 @@ msgid "Utility Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:817
+#: rulesmodel.cpp:823
 #, kde-format
 msgid "Dock (panel)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:818
+#: rulesmodel.cpp:824
 #, kde-format
 msgid "Toolbar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:819
+#: rulesmodel.cpp:825
 #, kde-format
 msgid "Torn-off menu"
 msgstr ""
@@ -830,7 +836,7 @@ msgid "Torn-Off Menu"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:820
+#: rulesmodel.cpp:826
 #, kde-format
 msgid "Splash screen"
 msgstr ""
@@ -842,14 +848,14 @@ msgid "Splash Screen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:821 rulesmodel.cpp:922
+#: rulesmodel.cpp:827 rulesmodel.cpp:928
 #, kde-format
 msgid "Desktop"
 msgstr ""
 
 #. i18n("Unmanaged Window")},  deprecated
 #. +> trunk6 stable6
-#: rulesmodel.cpp:823
+#: rulesmodel.cpp:829
 #, kde-format
 msgid "Standalone menubar"
 msgstr ""
@@ -862,7 +868,7 @@ msgid "Standalone Menubar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:824 rulesmodel.cpp:930
+#: rulesmodel.cpp:830 rulesmodel.cpp:936
 #, kde-format
 msgid "On-screen display"
 msgstr ""
@@ -874,7 +880,7 @@ msgid "On Screen Display"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:834
+#: rulesmodel.cpp:840
 #, kde-format
 msgid "All desktops"
 msgstr ""
@@ -886,14 +892,14 @@ msgid "All Desktops"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:836
+#: rulesmodel.cpp:842
 #, kde-format
 msgctxt "@info:tooltip in the virtual desktop list"
 msgid "Make the window available on all desktops"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:855
+#: rulesmodel.cpp:861
 #, kde-format
 msgid "All activities"
 msgstr ""
@@ -905,20 +911,20 @@ msgid "All Activities"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:857
+#: rulesmodel.cpp:863
 #, kde-format
 msgctxt "@info:tooltip in the activity list"
 msgid "Make the window available on all activities"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:878
+#: rulesmodel.cpp:884
 #, kde-format
 msgid "Default"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:879
+#: rulesmodel.cpp:885
 #, kde-format
 msgid "No placement"
 msgstr ""
@@ -930,7 +936,7 @@ msgid "No Placement"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:880
+#: rulesmodel.cpp:886
 #, kde-format
 msgid "Minimal overlapping"
 msgstr ""
@@ -942,25 +948,25 @@ msgid "Minimal Overlapping"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:881
+#: rulesmodel.cpp:887
 #, kde-format
 msgid "Maximized"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:882
+#: rulesmodel.cpp:888
 #, kde-format
 msgid "Centered"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:883
+#: rulesmodel.cpp:889
 #, kde-format
 msgid "Random"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:884
+#: rulesmodel.cpp:890
 #, kde-format
 msgid "In top-left corner"
 msgstr ""
@@ -972,7 +978,7 @@ msgid "In Top-Left Corner"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:885
+#: rulesmodel.cpp:891
 #, kde-format
 msgid "Under mouse"
 msgstr ""
@@ -984,7 +990,7 @@ msgid "Under Mouse"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:886
+#: rulesmodel.cpp:892
 #, kde-format
 msgid "On main window"
 msgstr ""
@@ -996,79 +1002,79 @@ msgid "On Main Window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:893
+#: rulesmodel.cpp:899
 #, kde-format
 msgid "None"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:894
+#: rulesmodel.cpp:900
 #, kde-format
 msgid "Low"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:895 rulesmodel.cpp:924
+#: rulesmodel.cpp:901 rulesmodel.cpp:930
 #, kde-format
 msgid "Normal"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:896
+#: rulesmodel.cpp:902
 #, kde-format
 msgid "High"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:897
+#: rulesmodel.cpp:903
 #, kde-format
 msgid "Extreme"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:923
+#: rulesmodel.cpp:929
 #, kde-format
 msgid "Below"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:925
+#: rulesmodel.cpp:931
 #, kde-format
 msgid "Above"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:926
+#: rulesmodel.cpp:932
 #, kde-format
 msgid "Notification"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:928
+#: rulesmodel.cpp:934
 #, kde-format
 msgid "Popup"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:929
+#: rulesmodel.cpp:935
 #, kde-format
 msgid "Critical notification"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:931
+#: rulesmodel.cpp:937
 #, kde-format
 msgid "Overlay"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:956
+#: rulesmodel.cpp:962
 #, kde-format
 msgid "Unmanaged window"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:957
+#: rulesmodel.cpp:963
 #, kde-format
 msgid "Could not detect window properties. The window is not managed by KWin."
 msgstr ""
