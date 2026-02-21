@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-20 16:37+0100\n"
+"POT-Creation-Date: 2026-02-21 07:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -412,7 +412,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/app/qml/AttachmentPane.qml:38 src/chatbar/ImageEditorPage.qml:19
-#: src/messagecontent/ImageComponent.qml:89
+#: src/messagecontent/ImageComponent.qml:90
 #: src/timeline/DelegateContextMenu.qml:199
 #, kde-format
 msgid "Edit"
@@ -4289,7 +4289,7 @@ msgid "Creator"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/neochatconnection.cpp:73
+#: src/libneochat/neochatconnection.cpp:76
 #, kde-format
 msgid ""
 "File too large to download.<br />"
@@ -4297,20 +4297,20 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/neochatconnection.cpp:336
+#: src/libneochat/neochatconnection.cpp:339
 #, kde-format
 msgctxt "@info"
 msgid "No identity server configured"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/neochatconnection.cpp:367
+#: src/libneochat/neochatconnection.cpp:370
 #, kde-format
 msgid "Room creation failed: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/neochatconnection.cpp:396
+#: src/libneochat/neochatconnection.cpp:399
 #, kde-format
 msgid "Space creation failed: %1"
 msgstr ""
@@ -4928,7 +4928,7 @@ msgstr ""
 
 #. +> trunk6
 #: src/messagecontent/FileComponent.qml:173
-#: src/messagecontent/ImageComponent.qml:113
+#: src/messagecontent/ImageComponent.qml:114
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove attachment"
@@ -4961,7 +4961,7 @@ msgid "Check-out time: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/ImageComponent.qml:73
+#: src/messagecontent/ImageComponent.qml:74
 #: src/messagecontent/VideoComponent.qml:150
 #, kde-format
 msgctxt "@action:button"
@@ -4969,7 +4969,7 @@ msgid "Hide Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/ImageComponent.qml:190
+#: src/messagecontent/ImageComponent.qml:189
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Image"
@@ -7469,78 +7469,114 @@ msgctxt "@info"
 msgid "When this option is enabled, images and videos are only shown after a button is clicked."
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:92
+#. +> trunk6
+#: src/settings/NeoChatSecurityPage.qml:91
+#, kde-format
+msgctxt "@info:label"
+msgid "Everyone"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/NeoChatSecurityPage.qml:93
+#, kde-format
+msgctxt "@info:description"
+msgid "Anyone can send you invites."
+msgstr ""
+
+#. +> trunk6
+#: src/settings/NeoChatSecurityPage.qml:98
 #, kde-format
 msgctxt "@option:check"
-msgid "Reject invitations from unknown users"
+msgid "Known users"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:93
+#. +> trunk6
+#: src/settings/NeoChatSecurityPage.qml:99
 #, kde-format
 msgctxt "@info"
-msgid "If enabled, NeoChat will reject invitations from users you don't share a room with."
+msgid "Only users you share a room with can send you invites."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:93
+#: src/settings/NeoChatSecurityPage.qml:99
+#: src/settings/NeoChatSecurityPage.qml:112
 #, kde-format
 msgctxt "@info"
 msgid "Your server does not support this setting."
 msgstr ""
 
+#. +> trunk6
+#: src/settings/NeoChatSecurityPage.qml:109
+#, kde-format
+msgctxt "@info:label"
+msgid "No one"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/NeoChatSecurityPage.qml:112
+#, kde-format
+msgctxt "@info:description"
+msgid "No one can send you invites."
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:103
+#: src/settings/NeoChatSecurityPage.qml:117
 #, kde-format
 msgctxt "@title:group"
 msgid "Encryption"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:108
+#: src/settings/NeoChatSecurityPage.qml:122
 #, kde-format
 msgctxt "@option:check"
 msgid "Turn on encryption in new chats"
 msgstr ""
 
+#. +> stable6
+#: src/settings/NeoChatSecurityPage.qml:59
+#, kde-format
+msgctxt "@option:check"
+msgid "Reject invitations from unknown users"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:109
+#: src/settings/NeoChatSecurityPage.qml:123
 #, kde-format
 msgctxt "@info"
 msgid "If enabled, NeoChat will use encryption when starting new direct messages."
 msgstr ""
 
 #. +> trunk6
-#: src/settings/NeoChatSecurityPage.qml:123
+#: src/settings/NeoChatSecurityPage.qml:137
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Manage Key Storage"
 msgstr ""
 
 #. +> trunk6
-#: src/settings/NeoChatSecurityPage.qml:124
+#: src/settings/NeoChatSecurityPage.qml:138
 #, kde-format
 msgctxt "@info"
 msgid "Import or unlock encryption keys from other devices."
 msgstr ""
 
 #. +> trunk6
-#: src/settings/NeoChatSecurityPage.qml:127
+#: src/settings/NeoChatSecurityPage.qml:141
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Secret Backup"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:136
+#: src/settings/NeoChatSecurityPage.qml:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Import Keys"
 msgstr ""
 
 #. +> trunk6
-#: src/settings/NeoChatSecurityPage.qml:137
+#: src/settings/NeoChatSecurityPage.qml:151
 #, kde-format
 msgctxt "@info"
 msgid "Import encryption keys from a backup file."
@@ -7554,31 +7590,38 @@ msgid "Import encryption keys from a backup."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:143
+#: src/settings/NeoChatSecurityPage.qml:157
 #, kde-format
 msgctxt "@title"
 msgid "Import Keys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:146
+#: src/settings/NeoChatSecurityPage.qml:160
 #, kde-format
 msgctxt "@info"
 msgid "Keys imported successfully"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:159
+#: src/settings/NeoChatSecurityPage.qml:173
 #, kde-format
 msgctxt "@action:button"
 msgid "Export Keys"
 msgstr ""
 
 #. +> trunk6
-#: src/settings/NeoChatSecurityPage.qml:160
+#: src/settings/NeoChatSecurityPage.qml:174
 #, kde-format
 msgctxt "@info"
 msgid "Export this device's encryption keys to a file."
+msgstr ""
+
+#. +> stable6
+#: src/settings/NeoChatSecurityPage.qml:60
+#, kde-format
+msgctxt "@info"
+msgid "If enabled, NeoChat will reject invitations from users you don't share a room with."
 msgstr ""
 
 #. +> stable6
@@ -7589,7 +7632,7 @@ msgid "Export this device's encryption keys."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:166
+#: src/settings/NeoChatSecurityPage.qml:180
 #, kde-format
 msgctxt "@title"
 msgid "Export Keys"
