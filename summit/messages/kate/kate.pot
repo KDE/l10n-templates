@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-13 09:59+0100\n"
+"POT-Creation-Date: 2026-02-22 07:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1549,7 +1549,7 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: lib/katedocmanager.cpp:292
 #, kde-format
 msgid ""
@@ -1557,50 +1557,32 @@ msgid ""
 "<p>Do you want to save your changes or discard them?</p>"
 msgstr ""
 
-#. +> trunk6 stable6
-#: lib/katedocmanager.cpp:295 lib/katesavemodifieddialog.cpp:133
-#, kde-format
-msgid "Close Document"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> stable6
 #: lib/katedocmanager.cpp:304
 #, kde-format
 msgid "Save As"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:322 lib/katemainwindow.cpp:826
-#, kde-format
-msgid "New file opened while trying to close Kate, closing aborted."
-msgstr ""
-
-#. +> trunk6 stable6
-#: lib/katedocmanager.cpp:322 lib/katemainwindow.cpp:826
-#, kde-format
-msgid "Closing Aborted"
-msgstr ""
-
-#. +> trunk6 stable6
-#: lib/katedocmanager.cpp:396
+#: lib/katedocmanager.cpp:352
 #, kde-format
 msgid "Starting Up"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:397
+#: lib/katedocmanager.cpp:353
 #, kde-format
 msgid "Reopening files from the last session..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:572
+#: lib/katedocmanager.cpp:528
 #, kde-format
 msgid "Cannot pin untitled documents."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:577
+#: lib/katedocmanager.cpp:533
 #, kde-format
 msgid "Cannot pin non local documents."
 msgstr ""
@@ -2091,6 +2073,18 @@ msgid "Close Others"
 msgstr ""
 
 #. +> trunk6 stable6
+#: lib/katemainwindow.cpp:826
+#, kde-format
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:826
+#, kde-format
+msgid "Closing Aborted"
+msgstr ""
+
+#. +> trunk6 stable6
 #: lib/katemainwindow.cpp:981
 #, kde-format
 msgid "This will hide the menu bar completely. You can show it again by typing %1."
@@ -2447,6 +2441,12 @@ msgstr ""
 #: lib/katesavemodifieddialog.cpp:133
 #, kde-format
 msgid "Save Documents"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katesavemodifieddialog.cpp:133
+#, kde-format
+msgid "Close Document"
 msgstr ""
 
 #. +> trunk6 stable6
