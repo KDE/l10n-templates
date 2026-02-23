@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual 25.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 09:59+0100\n"
+"POT-Creation-Date: 2026-02-23 08:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -24,6 +24,11 @@ msgstr ""
 #. +> trunk5
 #: ../../<rst_epilog>:640
 msgid "windows"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:644
+msgid "apple"
 msgstr ""
 
 #. +> trunk5
@@ -57,93 +62,103 @@ msgid ":file:`kdenliverc`"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:30
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:31
 msgid "General settings of the application. Delete this and restart Kdenlive to reset the application to \"factory\" settings"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:31
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:32
 msgid ":file:`kdenlive-appimagerc`"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:33
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:34
 msgid "Linux AppImage only: contains the general settings of the application"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:34
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:35
 msgid ":file:`kdenlive_*`"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:36
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:37
 msgid "temporary session info"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:40
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:42
 msgid "Audio and video thumbnails, proxy clips, user defined titles, LUTS, lumas, shortcuts"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:44
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:47
 msgid "Contains downloaded effects, export, library, opencv models, profiles, speech models, and titles"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:48
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:52
 msgid "Contains the files used for :doc:`wipes </compositing/transitions/wipe>`"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:52
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:57
 msgid "Auto Save Recovery files"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:56
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:62
 msgid "Contains the different layout files saved by the user"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:60
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:67
 msgid "Contains UI configuration. If your UI is broken, delete this file."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:64
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:72
 msgid "Contains LUT definition"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:68
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:77
 msgid "Contains the downloaded VOSK models"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:72
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:82
 msgid "Contains the downloaded OpenCV models"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:76
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:87
 msgid "Contains the Python virtual environment (venv)"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:79
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:90
 msgid "Contains the SeamlessM4T models for Whisper"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:83
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:94
+msgid "Windows"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:94
 msgid "To reach the above folders: :kbd:`Windows+R` then copy above path into the window."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:84
-msgid "Windows"
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:97
+msgid "To reach the above folders: click on the menu on :menuselection:`Go --> Got to Folder` (:kbd:`Cmd+Shift+G`) and enter :file:`~/Library`."
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:98
+msgid "MacOs"
 msgstr ""
 
 #. +> trunk5
@@ -168,6 +183,11 @@ msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Preferences/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|linux|: :file:`~/.config/session/`"
 msgstr ""
 
@@ -183,12 +203,22 @@ msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Caches/kdenlive/``"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|linux|: :file:`~/.local/share/kdenlive/`"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|windows|: :file:`%AppData%\\\\kdenlive\\\\`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/kdenlive/`"
 msgstr ""
 
 #. +> trunk5
@@ -203,6 +233,11 @@ msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/kdenlive/lumas/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|linux|: :file:`~/.local/share/kdenlive/ .backup/`"
 msgstr ""
 
@@ -213,12 +248,22 @@ msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/kdenlive/.backup/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|linux|: :file:`~/.config/share/kdenlive/ layouts/`"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|windows|: :file:`%LocalAppData%\\\\kdenlive\\\\ layouts\\\\`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/kdenlive/Layouts/`"
 msgstr ""
 
 #. +> trunk5
@@ -238,12 +283,22 @@ msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/kxmlgui5/kdenlive/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid ":file:`knewstuff3`"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|linux|: :file:`~/.local/share/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/knewstuff3/`"
 msgstr ""
 
 #. +> trunk5
@@ -258,6 +313,11 @@ msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/kdenlive/speechmodels/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|linux|: :file:`~/.local/share/kdenlive/ opencvmodels/`"
 msgstr ""
 
@@ -268,12 +328,22 @@ msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/kdenlive/opencvmodels/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|linux|: :file:`~/.local/share/kdenlive/ venv/`"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
 msgid "|windows|: :file:`%LocalAppData%\\\\kdenlive\\\\ venv\\\\`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/kdenlive/venv/`"
 msgstr ""
 
 #. +> trunk5

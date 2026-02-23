@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drawy\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-22 07:18+0100\n"
+"POT-Creation-Date: 2026-02-23 08:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -56,7 +56,7 @@ msgid "Deselect Object"
 msgstr ""
 
 #. +> trunk6
-#: widgets/command/groupcommand.cpp:65
+#: widgets/command/groupcommand.cpp:70
 #, kde-format
 msgid "Group Object"
 msgstr ""
@@ -68,13 +68,19 @@ msgid "Insert Object"
 msgstr ""
 
 #. +> trunk6
+#: widgets/command/lineresizeitemcommand.cpp:75
+#, kde-format
+msgid "Resize Line"
+msgstr ""
+
+#. +> trunk6
 #: widgets/command/lockcommand.cpp:34
 #, kde-format
 msgid "Change Lock"
 msgstr ""
 
 #. +> trunk6
-#: widgets/command/moveitemcommand.cpp:49
+#: widgets/command/moveitemcommand.cpp:64
 #, kde-format
 msgid "Move Object"
 msgstr ""
@@ -83,6 +89,18 @@ msgstr ""
 #: widgets/command/removeitemcommand.cpp:58
 #, kde-format
 msgid "Remove Object"
+msgstr ""
+
+#. +> trunk6
+#: widgets/command/resizeitemcommand.cpp:70
+#, kde-format
+msgid "Resize Object"
+msgstr ""
+
+#. +> trunk6
+#: widgets/command/rotateitemcommand.cpp:56
+#, kde-format
+msgid "Rotate Object"
 msgstr ""
 
 #. +> trunk6
@@ -773,7 +791,7 @@ msgid "Ellipse Tool"
 msgstr ""
 
 #. +> trunk6
-#: widgets/tools/erasertool.cpp:159
+#: widgets/tools/erasertool.cpp:158
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Eraser Tool"
@@ -808,14 +826,14 @@ msgid "Rectangle Tool"
 msgstr ""
 
 #. +> trunk6
-#: widgets/tools/selectiontool/selectiontool.cpp:143
+#: widgets/tools/selectiontool/selectiontool.cpp:253
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Selection Tool"
 msgstr ""
 
 #. +> trunk6
-#: widgets/tools/texttool.cpp:510
+#: widgets/tools/texttool.cpp:505
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Text Tool"
