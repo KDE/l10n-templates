@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Krita Manual 5.2\n"
+"Project-Id-Version: Krita Manual 5.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"POT-Creation-Date: 2026-02-25 09:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. +> trunk5
-#: ../../<rst_epilog>:22
+#: ../../<rst_epilog>:18
 msgid "toolfreehandbrush"
 msgstr ""
 
 #. +> trunk5
-#: ../../<rst_epilog>:22
+#: ../../<rst_epilog>:18
 msgid ".. image:: /images/icons/freehand_brush_tool.svg"
 msgstr ""
 
@@ -93,7 +93,7 @@ msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:41
-#: ../../reference_manual/tools/freehand_brush.rst:79
+#: ../../reference_manual/tools/freehand_brush.rst:82
 msgid "Stabilizer"
 msgstr ""
 
@@ -154,7 +154,6 @@ msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:58
-#: ../../reference_manual/tools/freehand_brush.rst:70
 msgid "Distance"
 msgstr ""
 
@@ -190,13 +189,13 @@ msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:65
-#: ../../reference_manual/tools/freehand_brush.rst:79
+#: ../../reference_manual/tools/freehand_brush.rst:82
 msgid "Scalable Distance"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:65
-#: ../../reference_manual/tools/freehand_brush.rst:79
+#: ../../reference_manual/tools/freehand_brush.rst:83
 msgid "This makes it so that the numbers involved will be scaled along the zoom level."
 msgstr ""
 
@@ -206,66 +205,106 @@ msgid "This option averages all inputs from the tablet. It is different from wei
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/freehand_brush.rst:71
-msgid "This is the strength of the smoothing."
+#: ../../reference_manual/tools/freehand_brush.rst:70
+msgid "distance is replaced by smoothing at max and min speed."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:72
-msgid "Delay"
+msgid "Sample Count at Max Speed"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:73
-msgid "This toggles and determines the size of the dead zone around the cursor. This can be used to create sharp corners with more control."
+msgid "This is the strength of the smoothing when drawing as fast as possible. For the best results, set it much lower than that of min speed. The idea being that a fast stroke needs less smoothing than a slow stroke."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:74
-msgid "Finish Line"
+msgid "Sample Count at Min Speed"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:75
-msgid "This ensures that the line will be finished."
+msgid "This is the strength of the smoothing when drawing as slow as possible. For best results, this one can be set much higher than that of max speed."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:76
-msgid "Stabilize sensors"
+msgid "Delay"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:77
-msgid "Similar to :guilabel:`Smooth Pressure`, this allows the input (pressure, speed, tilt) to be smoother."
+msgid "This toggles and determines the size of the dead zone around the cursor. This can be used to create sharp corners with more control."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/freehand_brush.rst:78
+msgid "Finish Line"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/freehand_brush.rst:79
+msgid "This ensures that the line will be finished."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/freehand_brush.rst:80
+msgid "Stabilize sensors"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:81
+msgid "Similar to :guilabel:`Smooth Pressure`, this allows the input (pressure, speed, tilt) to be smoother."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/freehand_brush.rst:85
+msgid "Keeps lines drawn with a single-pixel brush at single-pixel width, avoiding L-shaped corners or doubling-up of pixels."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/freehand_brush.rst:89
+msgid "Left: result without smoothing. Right: result with :guilabel:`Pixel` smoothing."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/freehand_brush.rst:91
+msgid "Pixel"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/freehand_brush.rst:93
 msgid "Painting Assistants"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/freehand_brush.rst:84
+#: ../../reference_manual/tools/freehand_brush.rst:96
 msgid "Assistants"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/freehand_brush.rst:86
+#: ../../reference_manual/tools/freehand_brush.rst:98
 msgid "Ticking this will allow snapping to :ref:`assistant_tool`, and the hotkey to toggle it is :kbd:`Ctrl + Shift + L`. See :ref:`painting_with_assistants` for more information."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/freehand_brush.rst:88
+#: ../../reference_manual/tools/freehand_brush.rst:100
 msgid "The slider will determine the amount of snapping, with 1000 being perfect snapping, and 0 being no snapping at all. For situations where there is more than one assistant on the canvas, the defaultly ticked :guilabel:`Snap Single` means that Krita will only snap to a single assistant at a time, preventing noise. Unticking it allows you to chain assistants together and snap along them."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/freehand_brush.rst:90
+#: ../../reference_manual/tools/freehand_brush.rst:102
 msgid "You may not always want erasers to snap, especially when using assistants liberally during the sketching process. :guilabel:`Snap Eraser` will allow you to turn off snapping for brushes with the blending mode :ref:`bm_erase`."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/freehand_brush.rst:-1
 msgid "Krita's freehand brush tool reference, containing how to use the stabilizer in krita."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/freehand_brush.rst:0
+msgid ".. image:: /images/tools/stablizer_pixel_result.png"
 msgstr ""

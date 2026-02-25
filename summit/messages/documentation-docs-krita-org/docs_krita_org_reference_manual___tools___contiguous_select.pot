@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Krita Manual 5.2\n"
+"Project-Id-Version: Krita Manual 5.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"POT-Creation-Date: 2026-02-25 09:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -37,12 +37,12 @@ msgid ".. image:: /images/icons/Krita_mouse_right.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../<rst_epilog>:78
+#: ../../<rst_epilog>:72
 msgid "toolselectcontiguous"
 msgstr ""
 
 #. +> trunk5
-#: ../../<rst_epilog>:78
+#: ../../<rst_epilog>:72
 msgid ".. image:: /images/icons/contiguous_select_tool.svg"
 msgstr ""
 
@@ -137,12 +137,7 @@ msgid "This controls whether or not the contiguous selection sees another color 
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:48
-msgid "Selection Extent"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:48
+#: ../../reference_manual/tools/contiguous_select.rst:49
 msgid "Spread"
 msgstr ""
 
@@ -152,91 +147,116 @@ msgid "Set how far the fully opaque portion of the selection should extend. See 
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:51
-msgid "Anti-alias"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:52
-msgid "This will smooth the jagged edges present in the selection. It differs from feathering in that this will smooth in the direction of the edge instead of all directions, and only if the edge is jagged (high contrast)."
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:53
-msgid "Grow Selection"
-msgstr ""
-
-#. +> trunk5
 #: ../../reference_manual/tools/contiguous_select.rst:54
-msgid "This value extends (positive values) or contracts (negative values) the selection."
+msgid "This option sets the minimum gap size that the contiguous fill will be able to propagate into."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:55
-msgid "Adjustments"
+#: ../../reference_manual/tools/contiguous_select.rst:58
+msgid "Left: The original image (black over white) and a green dot marking where the contiguous selection will be initiated. Center: The selection marquee after a selection operation using a gap size of 0 pixels. Right: The selection marquee after a selection operation using a gap size of 8 pixels. Note that the selected regions are emphasized with a light pink color for clarity sake."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:55
-msgid "Feathering Radius"
+#: ../../reference_manual/tools/contiguous_select.rst:59
+msgid "Selection Extent"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:56
-msgid "This value will add a soft border to the selection."
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:60
-msgid "Select which layers to use as a reference for the contiguous select tool. The options are:"
+#: ../../reference_manual/tools/contiguous_select.rst:59
+msgid "Close Gap"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/contiguous_select.rst:62
-msgid "Current Layer"
+msgid "Anti-alias"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/contiguous_select.rst:63
-msgid "Only use the currently selected layer."
+msgid "This will smooth the jagged edges present in the selection. It differs from feathering in that this will smooth in the direction of the edge instead of all directions, and only if the edge is jagged (high contrast)."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/contiguous_select.rst:64
-msgid "All layers"
+msgid "Grow Selection"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/contiguous_select.rst:65
-msgid "Use all visible layers."
+msgid "This value extends (positive values) or contracts (negative values) the selection."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/contiguous_select.rst:67
+msgid "Adjustments"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/contiguous_select.rst:67
+msgid "Feathering Radius"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/contiguous_select.rst:67
+msgid "This value will add a soft border to the selection."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/contiguous_select.rst:72
+msgid "Select which layers to use as a reference for the contiguous select tool. The options are:"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/contiguous_select.rst:74
+msgid "Current Layer"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/contiguous_select.rst:75
+msgid "Only use the currently selected layer."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/contiguous_select.rst:76
+msgid "All layers"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/contiguous_select.rst:77
+msgid "Use all visible layers."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/contiguous_select.rst:79
 msgid "Use only the layers specified with a certain color label. This is useful for complex images, where you might have multiple lineart layers. Label them with the appropriate color label and use these labels to mark which layers to use as a reference."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:70
+#: ../../reference_manual/tools/contiguous_select.rst:82
 msgid "Select the color labels of the layers that should be used as reference."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:71
+#: ../../reference_manual/tools/contiguous_select.rst:83
 msgid "Reference"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:71
+#: ../../reference_manual/tools/contiguous_select.rst:83
 msgid "Color Labeled Layers"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/tools/contiguous_select.rst:71
+#: ../../reference_manual/tools/contiguous_select.rst:83
 msgid "Labels Used"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/tools/contiguous_select.rst:-1
 msgid "Krita's contiguous selection tool reference."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/tools/contiguous_select.rst:0
+msgid ".. image:: /images/tools/contiguous_selection_close_gap.gif"
 msgstr ""

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Krita Manual 5.2\n"
+"Project-Id-Version: Krita Manual 5.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"POT-Creation-Date: 2026-02-25 09:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -138,181 +138,201 @@ msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/dockers/recorder_docker.rst:50
-msgid "Record in Isolate Mode."
+msgid "Threads"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/dockers/recorder_docker.rst:51
-msgid "Record when :ref:`layer isolate mode <layer_docker>` is on. As isolate mode hides all the other layers, it can result in a lot of flickering during the resulting time lapse. Only turn this on when you are not in the habit of switching layers often when in isolate mode."
+msgid "How many of your device's processing threads can be used to record in the background. A value above 1 improves performance on most devices and helps avoids skips in your recordings. However, it is always recommended to have one or two threads less than the maximum possible, as you still need some processing power for your drawing or to handle other programs running on your computer, like a music player."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/dockers/recorder_docker.rst:52
+msgid "Real Time Capture Mode"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/dockers/recorder_docker.rst:53
-msgid "Record automatically"
+msgid "Enable :guilabel:`Real Time Capture Mode`. Instead of configuring a capture interval, Real Time Capture Mode has you set a frames per second value (:guilabel:`Video FPS`). The recorder will then aim to match the specified FPS so that the video plays at the same speed you were drawing. Depending on how powerful your device is and the FPS you selected, this can make Krita's performance while you are drawing much worse! It's not recommended to use this on weaker hardware."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:53
-msgid "Start recording the instant an image is created or loaded. This option is useful for those who want to record each of their drawings."
+#: ../../reference_manual/dockers/recorder_docker.rst:54
+msgid "Record in Isolate Mode."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/dockers/recorder_docker.rst:55
+msgid "Record when :ref:`layer isolate mode <layer_docker>` is on. As isolate mode hides all the other layers, it can result in a lot of flickering during the resulting time lapse. Only turn this on when you are not in the habit of switching layers often when in isolate mode."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/dockers/recorder_docker.rst:57
+msgid "Record automatically"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/dockers/recorder_docker.rst:57
+msgid "Start recording the instant an image is created or loaded. This option is useful for those who want to record each of their drawings."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/dockers/recorder_docker.rst:59
 msgid "Finally, there's :guilabel:`Record` and :guilabel:`Export`. The former starts and stops recording. The latter lets you render the current drawing's timelapse."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:60
+#: ../../reference_manual/dockers/recorder_docker.rst:64
 msgid ".. image:: /images/dockers/recorder_docker_snapshot_manager.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:60
+#: ../../reference_manual/dockers/recorder_docker.rst:64
 msgid "The recordings manager window. This is a list of recordings you have, and how much space they take. You can select recordings to delete them."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:63
+#: ../../reference_manual/dockers/recorder_docker.rst:67
 msgid "Export Options"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:65
+#: ../../reference_manual/dockers/recorder_docker.rst:69
 msgid "Compare these options with the one on the :ref:`render_animation` page, as they do largely the same things."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:67
+#: ../../reference_manual/dockers/recorder_docker.rst:71
 msgid "Recording info:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:68
+#: ../../reference_manual/dockers/recorder_docker.rst:72
 msgid "Shows what kind of frames and how many frames are taken into account when creating the final video file. Pressing :guilabel:`Open Record Directory` will allow you to open the folder where the recordings are located in your file browser."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:69
+#: ../../reference_manual/dockers/recorder_docker.rst:73
 msgid "Input FPS:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:70
+#: ../../reference_manual/dockers/recorder_docker.rst:74
 msgid "How many frames per second should go in. For example, to make your time lapse twice faster, this value should be double that of the :guilabel:`Video fps`."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:71
+#: ../../reference_manual/dockers/recorder_docker.rst:75
 msgid "Video FPS:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:72
+#: ../../reference_manual/dockers/recorder_docker.rst:76
 msgid "The actual FPS of the video."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:74
+#: ../../reference_manual/dockers/recorder_docker.rst:78
 msgid "Whether to hold the last frame and how long to hold the last frame of the recording. This allows a viewer to take a good long at the end result."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:76
+#: ../../reference_manual/dockers/recorder_docker.rst:80
 msgid "Extend End Result"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:79
+#: ../../reference_manual/dockers/recorder_docker.rst:83
 msgid "Whether to add a copy of the last frame to the start and how long to hold this frame. This will show viewers what kind of image is being drawn here."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:81
+#: ../../reference_manual/dockers/recorder_docker.rst:85
 msgid "Enable Result Preview"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:83
+#: ../../reference_manual/dockers/recorder_docker.rst:87
 msgid "Resize:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:84
+#: ../../reference_manual/dockers/recorder_docker.rst:88
 msgid "Scale the final video."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:85
+#: ../../reference_manual/dockers/recorder_docker.rst:89
 msgid "FFMpeg:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:86
+#: ../../reference_manual/dockers/recorder_docker.rst:90
 msgid "The location of the ffmpeg executable."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:87
+#: ../../reference_manual/dockers/recorder_docker.rst:91
 msgid "Render As:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:88
+#: ../../reference_manual/dockers/recorder_docker.rst:92
 msgid "Select the render setting to use. MP4 x264 is sufficient for most drawings and will be accepted on most video sharing sites."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:89
+#: ../../reference_manual/dockers/recorder_docker.rst:93
 msgid "Video Location:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:90
+#: ../../reference_manual/dockers/recorder_docker.rst:94
 msgid "Where to put the resulting video."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:92
+#: ../../reference_manual/dockers/recorder_docker.rst:96
 msgid "Video Duration:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:92
+#: ../../reference_manual/dockers/recorder_docker.rst:96
 msgid "The final video length in seconds. This will change as you change the FPS settings."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:95
+#: ../../reference_manual/dockers/recorder_docker.rst:99
 msgid "After Export"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:97
+#: ../../reference_manual/dockers/recorder_docker.rst:101
 msgid "Watch it:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:98
+#: ../../reference_manual/dockers/recorder_docker.rst:102
 msgid "This will open the resulting file in the default video player on your system."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:99
+#: ../../reference_manual/dockers/recorder_docker.rst:103
 msgid "Show in folder:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:100
+#: ../../reference_manual/dockers/recorder_docker.rst:104
 msgid "This will open the folder where the file is located in your file browser."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:102
+#: ../../reference_manual/dockers/recorder_docker.rst:106
 msgid "Remove the snapshots from your computer."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/dockers/recorder_docker.rst:103
+#: ../../reference_manual/dockers/recorder_docker.rst:107
 msgid "Remove recordings:"
 msgstr ""
 

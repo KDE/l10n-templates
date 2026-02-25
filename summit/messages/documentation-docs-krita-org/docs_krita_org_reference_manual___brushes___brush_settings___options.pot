@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Krita Manual 5.2\n"
+"Project-Id-Version: Krita Manual 5.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"POT-Creation-Date: 2026-02-25 09:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -94,390 +94,540 @@ msgid "Rotation"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:55
-msgid "This allows you to affect Angle of your brush tip with Sensors."
+#: ../../reference_manual/brushes/brush_settings/options.rst:56
+msgid "Brush Tip Angle"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:58
-msgid ".. image:: /images/brushes/Krita_2_9_brushengine_rotation.png"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:60
-msgid ".. image:: /images/brushes/Krita_Pixel_Brush_Settings_Rotation.png"
+msgid "The final brush tip rotation depends on the enabled Rotation Sensors. Let's first review the basic behavior of the brush tip with an example brush that uses the text \"BRUSH\" as the brush tip texture. If no Sensor is active, and the brush tip rotation is 0 degrees, the brush looks like this:"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:61
-msgid "In the above example, several applications of the parameter."
+msgid ".. image:: /images/brushes/brush_tip_rotation_0.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:63
-msgid "Drawing Angle -- A common one, usually used in combination with rake-type brushes. Especially effect because it does not rely on tablet-specific sensors. Sometimes, Tilt-Direction or Rotation is used to achieve a similar-more tablet focused effect, where with Tilt the 0° is at 12 o'clock, Drawing angle uses 3 o'clock as 0°."
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:64
-msgid "Fuzzy -- Also very common, this gives a nice bit of randomness for texture."
+#: ../../reference_manual/brushes/brush_settings/options.rst:62
+msgid "As the brush tip rotation is increased, the tip rotates counter-clockwise:"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:65
-msgid "Distance -- With careful editing of the Sensor curve, you can create nice patterns."
+msgid ".. image:: /images/brushes/brush_tip_rotation_30.png"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:66
-msgid "Fade -- This slowly fades the rotation from one into another."
+msgid "When the Rotation option is enabled, it adds its angle contribution to the base tip angle shown above. Though the way how each sensor affects the brush rotation is different."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:67
-msgid "Pressure -- An interesting one that can create an alternative looking line."
+#: ../../reference_manual/brushes/brush_settings/options.rst:70
+msgid "Pressure sensor"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:72
-msgid "Lightness Strength"
+msgid "For the Pressure sensor, the original non-rotated brush state is linked to the pressure value of 50%. When the user increases the pressure, the brush rotation increases (i.e. rotates counter-clockwise). When the user decreases the pressure, the brush rotation decreases (i.e. rotates clockwise)."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:73
-msgid "This allows you to affect the Lightness Strength of your brush tip with Sensors. Only available with brush tips in Lightness Map mode."
+#: ../../reference_manual/brushes/brush_settings/options.rst:76
+msgid "Most of the sensors behave like the Pressure sensor, i.e. non-rotated state is at sensor value of 50%, increasing the sensor value increases the rotation, decreasing the sensor value decreases the rotation."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:77
-msgid ".. image:: /images/brushes/lightness_strength_demo.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:79
+msgid "There are two notable exceptions to this rule: Tilt Direction and Drawing Angle sensors."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:78
-msgid "This changes the contrast of the brush tip, so that at 100%, the full effect of the lightness variation is visible in the brush, while at 0% the brush paints without any lightness variation.  This allows a variable impasto effect with lightness brushes, and for variation in texture stamp brushes that use a lightness-enabled brush tip."
+#: ../../reference_manual/brushes/brush_settings/options.rst:82
+msgid "Tilt Direction"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:83
-msgid "Scatter"
+#: ../../reference_manual/brushes/brush_settings/options.rst:84
+msgid "Tilt Direction sensor is linked to the physical direction of the stylus in space. It links the vertical axis of the brush to the direction of the stylus:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:85
-msgid "This parameter allows you to set the random placing of a brush-dab. You can affect them with Sensors."
+#: ../../reference_manual/brushes/brush_settings/options.rst:86
+msgid ".. image:: /images/brushes/brush_tip_rotation_tilt_direction_anchor_0.png"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:87
-msgid "X"
+msgid ".. image:: /images/brushes/brush_tip_rotation_tilt_direction_anchor_30.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:88
-msgid "The scattering on the angle you are drawing from."
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:90
-msgid "Y"
+#: ../../reference_manual/brushes/brush_settings/options.rst:89
+msgid ".. image:: /images/brushes/brush_tip_rotation_tilt_direction_anchor_60.png"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:90
-msgid "The scattering, perpendicular to the drawing angle (has the most effect)."
+msgid "When Krita cannot detect stylus' tilt direction, it puts the brush into *neutral position*. The *neutral position* of the pen tilt corresponds to the pen being held in the right hand at a 3 o'clock position"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:93
-msgid ".. image:: /images/brushes/Krita_2_9_brushengine_scatter.png"
+msgid ".. image:: /images/brushes/brush_tip_rotation_tilt_direction_anchor_mouse.png"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:94
+msgid "The neutral position is used in one of the following cases:"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:96
+msgid "the stylus stands strictly vertically"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:97
-msgid "Sharpness"
+msgid "the tablet device doesn't support tilt"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:98
+msgid "the mouse is used (which doesn't support tilt either)"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:100
-msgid ".. image:: /images/brushes/Krita_Pixel_Brush_Settings_Sharpness.png"
+msgid "For left-handed users, there's an option to adjust the global tilt offset in the :ref:`Tablet Settings <tablet_settings_tilt_direction_offset>`. To get the same neutral point rotation but with the left hand, the global tilt offset should be set to 180 degrees."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:101
-msgid "Puts a threshold filter over the brush mask. This can be used for brush like strokes, but it also makes for good pixel art brushes."
+#: ../../reference_manual/brushes/brush_settings/options.rst:102
+msgid "To get a natural looking brush tip with the Tilt Direction sensor enabled, the brush tip rotation angle needs to be set to 90 degrees:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:103
-msgid "Strength"
+#: ../../reference_manual/brushes/brush_settings/options.rst:105
+msgid ".. image:: /images/brushes/brush_tip_rotation_90_tilt_direction.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:104
-msgid "Controls the threshold, and can be controlled by the sensors below."
+#: ../../reference_manual/brushes/brush_settings/options.rst:107
+msgid "Drawing Angle"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:106
-msgid "Soften Edge"
+#: ../../reference_manual/brushes/brush_settings/options.rst:109
+msgid "Drawing Angle sensor is commonly used in combination with rake-type brushes. It is especially useful because it does not rely on tablet-specific sensors."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:106
-msgid "Controls the extra non-fully opaque pixels. This adds a little softness to the stroke."
+#: ../../reference_manual/brushes/brush_settings/options.rst:111
+msgid "In contrast to Tilt Direction it links the **horizontal** axis of the brush to the direction of the direction of the painting stroke:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:110
-msgid "The sensors now control the threshold instead of the subpixel precision, softness slider was added."
+#: ../../reference_manual/brushes/brush_settings/options.rst:113
+msgid ".. image:: /images/brushes/brush_tip_rotation_drawing_angle_anchor_0.png"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:114
-msgid "Whether to have the brush outline align to the pixel grid. This is useful with some forms of pixel art."
+msgid ".. image:: /images/brushes/brush_tip_rotation_drawing_angle_anchor_30.png"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:116
-msgid "Align the brush preview outline to the pixel grid."
+msgid ".. image:: /images/brushes/brush_tip_rotation_drawing_angle_anchor_60.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:121
-msgid "Size"
+#: ../../reference_manual/brushes/brush_settings/options.rst:118
+msgid "Other sensors"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:124
-msgid ".. image:: /images/brushes/Krita_Pixel_Brush_Settings_Size.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:120
+msgid "In addition to the sensors discussed above, there are many other Rotation Sensors available that allow for a variety of effects."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:123
+msgid ".. image:: /images/brushes/Krita_2_9_brushengine_rotation.png"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:125
-msgid "This parameter is not the diameter itself, but rather the curve for how it's affected."
+msgid ".. image:: /images/brushes/Krita_Pixel_Brush_Settings_Rotation.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:127
-msgid "So, if you want to lock the diameter of the brush, lock the Brush tip. Locking the size parameter will only lock this curve. Allowing this curve to be affected by the Sensors can be very useful to get the right kind of brush. For example, if you have trouble drawing fine lines, try to use a concave curve set to pressure. That way you'll have to press hard for thick lines."
+#: ../../reference_manual/brushes/brush_settings/options.rst:126
+msgid "In the above example, several applications of the parameter."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:128
+msgid "Fuzzy -- Also very common, this gives a nice bit of randomness for texture."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:129
+msgid "Distance -- With careful editing of the Sensor curve, you can create nice patterns."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:130
-msgid ".. image:: /images/brushes/Krita_2_9_brushengine_size_01.png"
+msgid "Fade -- This slowly fades the rotation from one into another."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:131
-msgid "Also popular is setting the size to the sensor fuzzy or perspective, with the later in combination with a :ref:`assistant_perspective`."
+msgid "Pressure -- An interesting one that can create an alternative looking line."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:134
-msgid ".. image:: /images/brushes/Krita_2_9_brushengine_size_02.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:136
+msgid "Lightness Strength"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:138
-msgid "Softness"
+#: ../../reference_manual/brushes/brush_settings/options.rst:137
+msgid "This allows you to affect the Lightness Strength of your brush tip with Sensors. Only available with brush tips in Lightness Map mode."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:140
-msgid "This allows you to affect Fade with Sensors."
+#: ../../reference_manual/brushes/brush_settings/options.rst:141
+msgid ".. image:: /images/brushes/lightness_strength_demo.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:143
-msgid ".. image:: /images/brushes/Krita_2_9_brushengine_softness.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:142
+msgid "This changes the contrast of the brush tip, so that at 100%, the full effect of the lightness variation is visible in the brush, while at 0% the brush paints without any lightness variation.  This allows a variable impasto effect with lightness brushes, and for variation in texture stamp brushes that use a lightness-enabled brush tip."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:144
-msgid "Has a slight brush-decreasing effect, especially noticeable with soft-brush, and is overall more noticeable on large brushes."
+#: ../../reference_manual/brushes/brush_settings/options.rst:147
+msgid "Scatter"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:149
-msgid "Source"
+msgid "This parameter allows you to set the random placing of a brush-dab. You can affect them with Sensors."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:151
-msgid "Picks the source-color for the brush-dab."
+msgid "X"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:153
-msgid "Plain Color"
+#: ../../reference_manual/brushes/brush_settings/options.rst:152
+msgid "The scattering on the angle you are drawing from."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:154
-msgid "Current foreground color."
+msgid "Y"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:155
-#: ../../reference_manual/brushes/brush_settings/options.rst:187
-msgid "Gradient"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:156
-msgid "Picks active gradient."
+#: ../../reference_manual/brushes/brush_settings/options.rst:154
+msgid "The scattering, perpendicular to the drawing angle (has the most effect)."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:157
-msgid "Uniform Random"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:158
-msgid "Gives a random color to each brush dab."
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:159
-msgid "Total Random"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:160
-msgid "Random noise pattern is now painted."
+msgid ".. image:: /images/brushes/Krita_2_9_brushengine_scatter.png"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:161
-msgid "Pattern"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:162
-msgid "Uses active pattern, but alignment is different per stroke."
+msgid "Sharpness"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:164
-msgid "Locked Pattern"
+msgid ".. image:: /images/brushes/Krita_Pixel_Brush_Settings_Sharpness.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:164
-msgid "Locks the pattern to the brushdab."
+#: ../../reference_manual/brushes/brush_settings/options.rst:165
+msgid "Puts a threshold filter over the brush mask. This can be used for brush like strokes, but it also makes for good pixel art brushes."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:169
-msgid "Mix"
+#: ../../reference_manual/brushes/brush_settings/options.rst:167
+msgid "Strength"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:171
-msgid "Allows you to affect the mix of the :ref:`option_source` color with Sensors. It will work with Plain Color and Gradient as source. If Plain Color is selected as source, it will mix between the currently selected foreground and background color. If Gradient is selected, it chooses a point on the gradient to use as painting color according to the sensors selected."
+#: ../../reference_manual/brushes/brush_settings/options.rst:168
+msgid "Controls the threshold, and can be controlled by the sensors below."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:170
+msgid "Soften Edge"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:170
+msgid "Controls the extra non-fully opaque pixels. This adds a little softness to the stroke."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:174
-msgid ".. image:: /images/brushes/Krita_2_9_brushengine_mix_01.png"
+msgid "The sensors now control the threshold instead of the subpixel precision, softness slider was added."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:176
-msgid "Uses"
+#: ../../reference_manual/brushes/brush_settings/options.rst:178
+msgid "Whether to have the brush outline align to the pixel grid. This is useful with some forms of pixel art."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:179
-msgid ".. image:: /images/brushes/Krita_2_9_brushengine_mix_02.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:180
+msgid "Align the brush preview outline to the pixel grid."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:181
-msgid "The above example uses a :program:`Krita` painted flowmap in the 3D program :program:`Blender`. A brush was set to :menuselection:`Source --> Gradient` and :menuselection:`Mix --> Drawing angle`. The gradient in question contained the 360° for normal map colors. Flow maps are used in several Shaders, such as brushed metal, hair and certain river-shaders."
+#: ../../reference_manual/brushes/brush_settings/options.rst:185
+msgid "Size"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:182
-msgid "Flow map"
+#: ../../reference_manual/brushes/brush_settings/options.rst:188
+msgid ".. image:: /images/brushes/Krita_Pixel_Brush_Settings_Size.png"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:189
-msgid "Exactly the same as using :menuselection:`Source --> Gradient` with :guilabel:`Mix`, but only available for the Color Smudge Brush."
+msgid "This parameter is not the diameter itself, but rather the curve for how it's affected."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:192
-msgid ".. image:: /images/brushes/Krita-tutorial5-I.6-1.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:191
+msgid "So, if you want to lock the diameter of the brush, lock the Brush tip. Locking the size parameter will only lock this curve. Allowing this curve to be affected by the Sensors can be very useful to get the right kind of brush. For example, if you have trouble drawing fine lines, try to use a concave curve set to pressure. That way you'll have to press hard for thick lines."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:193
-msgid "You can either:"
+#: ../../reference_manual/brushes/brush_settings/options.rst:194
+msgid ".. image:: /images/brushes/Krita_2_9_brushengine_size_01.png"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:195
-msgid "Leave the default :menuselection:`Foreground --> Background gradient` setting, and just change the foreground and background colors"
+msgid "Also popular is setting the size to the sensor fuzzy or perspective, with the later in combination with a :ref:`assistant_perspective`."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:196
-msgid "Select a more specific gradient"
+#: ../../reference_manual/brushes/brush_settings/options.rst:198
+msgid ".. image:: /images/brushes/Krita_2_9_brushengine_size_02.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:197
-msgid "Or make custom gradients."
+#: ../../reference_manual/brushes/brush_settings/options.rst:202
+msgid "Softness"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:199
-#: ../../reference_manual/brushes/brush_settings/options.rst:203
-msgid "Spacing"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:206
-msgid ".. image:: /images/brushes/Krita_Pixel_Brush_Settings_Spacing.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:204
+msgid "This allows you to affect Fade with Sensors."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:207
-msgid "This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`."
+msgid ".. image:: /images/brushes/Krita_2_9_brushengine_softness.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:210
-msgid ".. image:: /images/brushes/Krita_2_9_brushengine_spacing_02.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:208
+msgid "Has a slight brush-decreasing effect, especially noticeable with soft-brush, and is overall more noticeable on large brushes."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:212
-msgid "Isotropic spacing"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:212
-msgid "Instead of the spacing being related to the ratio of the brush, it will be on diameter only."
+#: ../../reference_manual/brushes/brush_settings/options.rst:213
+msgid "Source"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:215
-msgid ".. image:: /images/brushes/Krita_2_9_brushengine_spacing_01.png"
+msgid "Picks the source-color for the brush-dab."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/brushes/brush_settings/options.rst:216
+#: ../../reference_manual/brushes/brush_settings/options.rst:217
+msgid "Plain Color"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:218
+msgid "Current foreground color."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:219
+#: ../../reference_manual/brushes/brush_settings/options.rst:251
+msgid "Gradient"
+msgstr ""
+
+#. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:220
-msgid "Ratio"
+msgid "Picks active gradient."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:221
+msgid "Uniform Random"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_settings/options.rst:222
+msgid "Gives a random color to each brush dab."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:223
+msgid "Total Random"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:224
+msgid "Random noise pattern is now painted."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:225
+msgid "Pattern"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:226
+msgid "Uses active pattern, but alignment is different per stroke."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:228
+msgid "Locked Pattern"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:228
+msgid "Locks the pattern to the brushdab."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:233
+msgid "Mix"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:235
+msgid "Allows you to affect the mix of the :ref:`option_source` color with Sensors. It will work with Plain Color and Gradient as source. If Plain Color is selected as source, it will mix between the currently selected foreground and background color. If Gradient is selected, it chooses a point on the gradient to use as painting color according to the sensors selected."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:238
+msgid ".. image:: /images/brushes/Krita_2_9_brushengine_mix_01.png"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:240
+msgid "Uses"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:243
+msgid ".. image:: /images/brushes/Krita_2_9_brushengine_mix_02.png"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:245
+msgid "The above example uses a :program:`Krita` painted flowmap in the 3D program :program:`Blender`. A brush was set to :menuselection:`Source --> Gradient` and :menuselection:`Mix --> Drawing angle`. The gradient in question contained the 360° for normal map colors. Flow maps are used in several Shaders, such as brushed metal, hair and certain river-shaders."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:246
+msgid "Flow map"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:253
+msgid "Exactly the same as using :menuselection:`Source --> Gradient` with :guilabel:`Mix`, but only available for the Color Smudge Brush."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:256
+msgid ".. image:: /images/brushes/Krita-tutorial5-I.6-1.png"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:257
+msgid "You can either:"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:259
+msgid "Leave the default :menuselection:`Foreground --> Background gradient` setting, and just change the foreground and background colors"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:260
+msgid "Select a more specific gradient"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:261
+msgid "Or make custom gradients."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:263
+#: ../../reference_manual/brushes/brush_settings/options.rst:267
+msgid "Spacing"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:270
+msgid ".. image:: /images/brushes/Krita_Pixel_Brush_Settings_Spacing.png"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:271
+msgid "This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:274
+msgid ".. image:: /images/brushes/Krita_2_9_brushengine_spacing_02.png"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:276
+msgid "Isotropic spacing"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:276
+msgid "Instead of the spacing being related to the ratio of the brush, it will be on diameter only."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:279
+msgid ".. image:: /images/brushes/Krita_2_9_brushengine_spacing_01.png"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:280
+#: ../../reference_manual/brushes/brush_settings/options.rst:284
+msgid "Ratio"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/brushes/brush_settings/options.rst:286
 msgid "Allows you to change the ratio of the brush and bind it to parameters. This also works for predefined brushes."
 msgstr ""
 

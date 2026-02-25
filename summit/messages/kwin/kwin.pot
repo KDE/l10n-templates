@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-23 08:06+0100\n"
+"POT-Creation-Date: 2026-02-25 09:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -5154,38 +5154,50 @@ msgstr ""
 msgid "Disabling all outputs through configuration changes is not allowed"
 msgstr ""
 
+#. +> trunk6
+#: wayland/outputmanagement_v2.cpp:630
+#, kde-format
+msgid "%1 cannot mirror itself"
+msgstr ""
+
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:631
+#: wayland/outputmanagement_v2.cpp:637
 #, kde-format
 msgid "Cannot add a custom mode with an empty size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:635
+#: wayland/outputmanagement_v2.cpp:641
 #, kde-format
 msgid "Cannot add a custom mode with a refresh rate of zero Hz"
 msgstr ""
 
 #. +> trunk6
-#: wayland/outputmanagement_v2.cpp:646
+#: wayland/outputmanagement_v2.cpp:652
 #, kde-format
-msgid "Position of output %s is way too negative (%d, %d)"
+msgid "Position of output %1 is way too negative (%2, %3)"
 msgstr ""
 
 #. +> trunk6
-#: wayland/outputmanagement_v2.cpp:649
+#: wayland/outputmanagement_v2.cpp:655
 #, kde-format
-msgid "Position of enabled output %s is negative (%d, %d)"
+msgid "Position of enabled output %1 is negative (%2, %3)"
 msgstr ""
 
-#. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:653
+#. +> trunk6
+#: wayland/outputmanagement_v2.cpp:659
+#, kde-format
+msgid "Position of output %1 is way too large (%2, %3)"
+msgstr ""
+
+#. +> stable6
+#: wayland/outputmanagement_v2.cpp:659
 #, kde-format
 msgid "Position of output %s is way too large (%d, %d)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:670
+#: wayland/outputmanagement_v2.cpp:676
 #, kde-format
 msgid "The driver rejected the output configuration"
 msgstr ""

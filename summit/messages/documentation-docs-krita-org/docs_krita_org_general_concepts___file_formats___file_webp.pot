@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Krita Manual 5.2\n"
+"Project-Id-Version: Krita Manual 5.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"POT-Creation-Date: 2026-02-25 09:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -107,7 +107,7 @@ msgid "A slider that allows you to select whether saving speed is more important
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:42
+#: ../../general_concepts/file_formats/file_webp.rst:41
 msgid "Dithering:"
 msgstr ""
 
@@ -117,272 +117,292 @@ msgid "This enables dithering, which allows storing fewer colors while still kee
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:45
-msgid "Advanced"
+#: ../../general_concepts/file_formats/file_webp.rst:43
+msgid "Force convert to sRGB:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:47
-msgid "SNS Strength:"
+#: ../../general_concepts/file_formats/file_webp.rst:44
+msgid "This option will convert document color profile into sRGB before exporting, usually for better web upload and sharing compatibility."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:48
-msgid "Specifies the strength of the Spatial Noise Shaping algorithm, which tries to see if parts of the image can be better compressed than other parts."
+#: ../../general_concepts/file_formats/file_webp.rst:46
+msgid "Save ICC Profile:"
+msgstr ""
+
+#. +> trunk5
+#: ../../general_concepts/file_formats/file_webp.rst:46
+msgid "By default, ICC will be preserved during export. Disabling this option will not save ICC to the exported image and can possibly result in smaller file. However it is recommended to convert the color profile to sRGB to prevent color mismatch, as an (WebP) image without color profile will usually considered as sRGB."
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:49
-msgid "Filter Strength:"
-msgstr ""
-
-#. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:50
-msgid "Strength of the deblocking filter. 0% will mean there's no filtering after decoding, with increasing filter strength the image will appear smoother."
+msgid "Advanced"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:51
-msgid "Filter Sharpness:"
+msgid "SNS Strength:"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:52
-msgid "Defines the sharpness of the deblocking filter, with 0 being the sharpest and 7 being the least sharp."
+msgid "Specifies the strength of the Spatial Noise Shaping algorithm, which tries to see if parts of the image can be better compressed than other parts."
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:53
-msgid "Filter Type:"
+msgid "Filter Strength:"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:54
-msgid "Type of deblocking filter, options are :guilabel:`Strong` and :guilabel:`Simple`."
+msgid "Strength of the deblocking filter. 0% will mean there's no filtering after decoding, with increasing filter strength the image will appear smoother."
+msgstr ""
+
+#. +> trunk5
+#: ../../general_concepts/file_formats/file_webp.rst:55
+msgid "Filter Sharpness:"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:56
-msgid "Alpha Plane Compression:"
+msgid "Defines the sharpness of the deblocking filter, with 0 being the sharpest and 7 being the least sharp."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:56
-msgid "Whether to losslessly compress the alpha channel (Lossless) or outright discard it (None). None"
+#: ../../general_concepts/file_formats/file_webp.rst:57
+msgid "Filter Type:"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:58
-msgid "Predictive Filtering for Alpha Plane:"
-msgstr ""
-
-#. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:59
-msgid "Whether to use predictive filtering for the alpha/transparency. :guilabel:`Best` will try all potential predictive filter modes before deciding which one to use, making it slower than :guilabel:`Fast`, which just makes a guess and selects that."
+msgid "Type of deblocking filter, options are :guilabel:`Strong` and :guilabel:`Simple`."
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:60
-msgid "Alpha Plane Quality:"
+msgid "Alpha Plane Compression:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:61
-msgid "Compression quality for the alpha channel. 0% means smallest size, 100% means no compression. Only with :guilabel:`Alpha Plane Compression` set to Lossless."
+#: ../../general_concepts/file_formats/file_webp.rst:60
+msgid "Whether to losslessly compress the alpha channel (Lossless) or outright discard it (None). None"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:62
-msgid "Show Compressed:"
+msgid "Predictive Filtering for Alpha Plane:"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:63
-msgid "Tells libwebp to skip the in-loop filtering step. May adversely affect the quality of the end file."
+msgid "Whether to use predictive filtering for the alpha/transparency. :guilabel:`Best` will try all potential predictive filter modes before deciding which one to use, making it slower than :guilabel:`Fast`, which just makes a guess and selects that."
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:64
-msgid "Multithreaded Encoding:"
+msgid "Alpha Plane Quality:"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:65
-msgid "Use multithreading for encoding if possible."
+msgid "Compression quality for the alpha channel. 0% means smallest size, 100% means no compression. Only with :guilabel:`Alpha Plane Compression` set to Lossless."
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:66
-msgid "Reduce Memory Usage:"
+msgid "Show Compressed:"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:67
-msgid "Try to reduce memory usage at the cost of speed."
+msgid "Tells libwebp to skip the in-loop filtering step. May adversely affect the quality of the end file."
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:68
-msgid "Exact:"
+msgid "Multithreaded Encoding:"
 msgstr ""
 
 #. +> trunk5
 #: ../../general_concepts/file_formats/file_webp.rst:69
+msgid "Use multithreading for encoding if possible."
+msgstr ""
+
+#. +> trunk5
+#: ../../general_concepts/file_formats/file_webp.rst:70
+msgid "Reduce Memory Usage:"
+msgstr ""
+
+#. +> trunk5
+#: ../../general_concepts/file_formats/file_webp.rst:71
+msgid "Try to reduce memory usage at the cost of speed."
+msgstr ""
+
+#. +> trunk5
+#: ../../general_concepts/file_formats/file_webp.rst:72
+msgid "Exact:"
+msgstr ""
+
+#. +> trunk5
+#: ../../general_concepts/file_formats/file_webp.rst:73
 msgid "Preserve RGB values in transparent areas instead of defaulting them to transparent black."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:71
+#: ../../general_concepts/file_formats/file_webp.rst:75
 msgid "Use Sharp YUV:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:71
+#: ../../general_concepts/file_formats/file_webp.rst:75
 msgid "Whether to use the slower, but more accurate, RGB to YUV conversion."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:74
+#: ../../general_concepts/file_formats/file_webp.rst:78
 msgid "Lossy Compression"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:75
+#: ../../general_concepts/file_formats/file_webp.rst:79
 msgid "The following options only apply if :guilabel:`Lossless Compression` is off."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:77
+#: ../../general_concepts/file_formats/file_webp.rst:81
 msgid "Target Size:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:78
+#: ../../general_concepts/file_formats/file_webp.rst:82
 msgid "Specify the amount of bytes to aim for."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:79
+#: ../../general_concepts/file_formats/file_webp.rst:83
 msgid "Target PSNR:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:80
+#: ../../general_concepts/file_formats/file_webp.rst:84
 msgid "PSNR means `Peak Signal to Noise Ratio <https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio_>`, and indicates how much noise the image has. Higher values mean less noise is accepted."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:81
+#: ../../general_concepts/file_formats/file_webp.rst:85
 msgid "Segments:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:82
+#: ../../general_concepts/file_formats/file_webp.rst:86
 msgid "How many segments the VP8 video codec can divide the image into. VP8 accepts between 1 and 4 segments."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:83
+#: ../../general_concepts/file_formats/file_webp.rst:87
 msgid "Partitions:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:84
+#: ../../general_concepts/file_formats/file_webp.rst:88
 msgid "Sets how many partitions can the VP8 codec use for storing decompression information. Must be between 0 and 3. Default is 0 to make decoding easier."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:85
+#: ../../general_concepts/file_formats/file_webp.rst:89
 msgid "Auto Adjust Filter Strength:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:86
+#: ../../general_concepts/file_formats/file_webp.rst:90
 msgid "The encoder will spend some time tuning and selecting the best filter options before encoding."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:87
+#: ../../general_concepts/file_formats/file_webp.rst:91
 msgid "Entropy Passes:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:88
+#: ../../general_concepts/file_formats/file_webp.rst:92
 msgid "Number of passes to do for selecting the best option between target size and target PSNR."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:89
+#: ../../general_concepts/file_formats/file_webp.rst:93
 msgid "Emulate JPEG Size:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:90
+#: ../../general_concepts/file_formats/file_webp.rst:94
 msgid "The encoder will try to match the size of a jpeg of similar dimensions."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:91
+#: ../../general_concepts/file_formats/file_webp.rst:95
 msgid "Minimum Quality:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:92
+#: ../../general_concepts/file_formats/file_webp.rst:96
 msgid "Used with 'entropy passes', the lowest allowed quality for the image."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:93
+#: ../../general_concepts/file_formats/file_webp.rst:97
 msgid "Maximum Quality:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:94
+#: ../../general_concepts/file_formats/file_webp.rst:98
 msgid "Used with 'entropy passes', the highest allowed quality for the image."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:96
+#: ../../general_concepts/file_formats/file_webp.rst:100
 msgid "Whether or not to add :guilabel:`Pseudo Random Dithering` to the image before converting RGB to YUV."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:97
+#: ../../general_concepts/file_formats/file_webp.rst:101
 msgid "Preprocessing Filter:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:100
+#: ../../general_concepts/file_formats/file_webp.rst:104
 msgid "Lossless compression"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:101
+#: ../../general_concepts/file_formats/file_webp.rst:105
 msgid "The following options only work with :guilabel:`Lossless Compression` on."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:103
+#: ../../general_concepts/file_formats/file_webp.rst:107
 msgid "Partition Limit:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:104
+#: ../../general_concepts/file_formats/file_webp.rst:108
 msgid "Limit how big a given segment is in bytes. The higher this is, the less possible information is stored per segment."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:106
+#: ../../general_concepts/file_formats/file_webp.rst:110
 msgid "The encoder is able to minimally adjust pixel-values so they compress better in lossless compression mode. This enables this feature. Automatically triggers :guilabel:`Lossless Compression`."
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:108
+#: ../../general_concepts/file_formats/file_webp.rst:112
 msgid "Near Lossless:"
 msgstr ""
 
 #. +> trunk5
-#: ../../general_concepts/file_formats/file_webp.rst:111
+#: ../../general_concepts/file_formats/file_webp.rst:115
 msgid "https://developers.google.com/speed/webp/docs/compression"
 msgstr ""
 
