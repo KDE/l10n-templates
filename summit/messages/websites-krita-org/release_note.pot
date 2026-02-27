@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-krita-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-13 10:00+0100\n"
+"POT-Creation-Date: 2026-02-27 08:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1639,7 +1639,7 @@ msgstr ""
 #. +> trunk5
 #: content/en/release-notes/krita-5-1-release-notes.md:93
 #: content/en/release-notes/krita-5-2-release-notes.md:106
-#: content/en/release-notes/krita-5-3-release-notes.md:135
+#: content/en/release-notes/krita-5-3-release-notes.md:141
 msgid "Other"
 msgstr ""
 
@@ -1750,7 +1750,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-2-release-notes.md:33
-#: content/en/release-notes/krita-5-3-release-notes.md:66
+#: content/en/release-notes/krita-5-3-release-notes.md:70
 msgid "Tools"
 msgstr ""
 
@@ -1851,7 +1851,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-2-release-notes.md:74
-#: content/en/release-notes/krita-5-3-release-notes.md:90
+#: content/en/release-notes/krita-5-3-release-notes.md:96
 msgid "Dockers"
 msgstr ""
 
@@ -2062,492 +2062,512 @@ msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:29
-msgid "Text Tool"
+msgid "[Check the manual for more info on Wayland Color Management](https://docs.krita.org/en/reference_manual/preferences/color_management_settings.html)"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:31
-msgid "The text tool has been fully overhauled for 5.3! The main attraction is of course that text can now be edited directly on canvas, with full support for the usual keyboard and mouse interactions, as well as IME support. But we did not stop there! Lets go over some of the highlights:"
+msgid "Text Tool"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:33
-msgid "Wrapped Text, Text in shape and Text on Path"
+msgid "The text tool has been fully overhauled for 5.3! The main attraction is of course that text can now be edited directly on canvas, with full support for the usual keyboard and mouse interactions, as well as IME support. But we did not stop there! Lets go over some of the highlights:"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:35
-msgid "Krita now has the ability to make auto wrapped text. You can drag an area to create a simple inline wrapping area, or click on a shape to have the text flow inside. In conformance with SVG 2, the text flow area can be composed of multiple shapes, with some adding and others subtracting from the final flow area."
+msgid "Wrapped Text, Text in shape and Text on Path"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:37
-msgid "Aside from wrapped text, you can also set the text to follow a path, as well as control the start position."
+msgid "Krita now has the ability to make auto wrapped text. You can drag an area to create a simple inline wrapping area, or click on a shape to have the text flow inside. In conformance with SVG 2, the text flow area can be composed of multiple shapes, with some adding and others subtracting from the final flow area."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:39
-msgid "Text Properties Docker"
+msgid "Aside from wrapped text, you can also set the text to follow a path, as well as control the start position."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:41
-msgid "The text properties docker allows you to style the text. This separate docker allows not only editing the current text selected with the text tool, but also multiple texts when selected with the shape selection tools. To ensure you do not get lost inside the list of 50+ editable properties, Krita will by default hide properties that have not been set on the selected text or its paragraph. You can configure the visibility rules of each of these to your liking, allowing you to hide properties you never use, or show all properties regardless."
+msgid "Text Properties Docker"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:43
-msgid "A large part of the work on this was the font selector, as this required special indexing of the fonts on your system. Due this work, you can now select all types of fonts, from obscure postscript to modern opentype variable fonts (all axes included) inside the font selector. Beyond that, fonts are now resources can be tagged, searched, and will show localized names (and samples) if these were present inside the font."
+msgid "The text properties docker allows you to style the text. This separate docker allows not only editing the current text selected with the text tool, but also multiple texts when selected with the shape selection tools. To ensure you do not get lost inside the list of 50+ editable properties, Krita will by default hide properties that have not been set on the selected text or its paragraph. You can configure the visibility rules of each of these to your liking, allowing you to hide properties you never use, or show all properties regardless."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:45
+msgid "A large part of the work on this was the font selector, as this required special indexing of the fonts on your system. Due this work, you can now select all types of fonts, from obscure postscript to modern opentype variable fonts (all axes included) inside the font selector. Beyond that, fonts are now resources can be tagged, searched, and will show localized names (and samples) if these were present inside the font."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:47
 msgid "With 50+ properties, it can be hard to remember your favourites. To this end, Krita now also has *style presets*, which allow you to quickly apply a selection of properties to the current text, or use them as a base for new text."
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:48
+#: content/en/release-notes/krita-5-3-release-notes.md:50
 msgid "Glyph Palette"
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:50
+#: content/en/release-notes/krita-5-3-release-notes.md:52
 msgid "Another new addition is the glyph palette. The glyph palette allows you to select alternate glyphs that may be present in the currently used font. While the text properties docker allows configuring all the OpenType features in a font, the glyph palette is far more convenient. Furthermore, it allows selecting unicode character variations, which will be doubly handy for those typesetting in CJK scripts."
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:53
+#: content/en/release-notes/krita-5-3-release-notes.md:55
 msgid "Type Setting Mode"
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:55
+#: content/en/release-notes/krita-5-3-release-notes.md:57
 msgid "In addition to the Text Properties Docker, you can edit a number of properties on-canvas with the new Type Setting Mode. This separate mode in the text tool provides controls to edit Font Size, Baseline Shift, Line Height and Dominant Baseline directly on canvas. When text is not auto-wrapped, you can even edit the position of every single glyph in detail!"
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:57
+#: content/en/release-notes/krita-5-3-release-notes.md:59
 msgid "Miscellaneous:"
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:59
+#: content/en/release-notes/krita-5-3-release-notes.md:61
 msgid "All properties were given a bit of polish, which means that Krita has full support for CSS-Inline-3 Dominant and Alignment baseline. These properties are useful for configuring the alignment of text of different sizes when they are in scripts like Devanagari or Han script."
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:60
+#: content/en/release-notes/krita-5-3-release-notes.md:62
 msgid "The new text widgets are in QML, our first foray into modern QML."
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:61
+#: content/en/release-notes/krita-5-3-release-notes.md:63
 msgid "As a side effect of the text work, vector shape editing is now a little faster, and select all/deselect now work in all vector tools."
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:62
+#: content/en/release-notes/krita-5-3-release-notes.md:64
 msgid "Similarly, we now support SVG 2 paint-order property, which allows the outlines to be drawn behind the text."
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:64
-msgid "A variety of technical blog posts were written on the topic: [Fonts](https://wolthera.info/2024/07/making-sense-of-font-selection/), [Open Type](https://wolthera.info/2025/03/controls-for-opentype/), [Font Metrics](https://wolthera.info/2025/04/going-in-depth-on-font-metrics/), [various other properties](https://wolthera.info/2025/09/remainder-of-the-text-properties/), [Text in Shape and Type Setting Mode](https://wolthera.info/2025/11/text-tool-phase-3/)."
+#: content/en/release-notes/krita-5-3-release-notes.md:66
+msgid "Manual pages: [Working with Text](https://docs.krita.org/en/user_manual/working_with_text.html), [Text Tool](https://docs.krita.org/en/reference_manual/tools/text.html), [Text Properties Docker](https://docs.krita.org/en/reference_manual/dockers/text_properties.html), [Font Family Resource](https://docs.krita.org/en/reference_manual/resource_management/resource_font_families.html) and [Style Preset Resource](https://docs.krita.org/en/reference_manual/resource_management/resource_style_presets.html)."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:68
-msgid "A new Knife Tool for vector objects was added ([MR 2331](https://invent.kde.org/graphics/krita/-/merge_requests/2331). With this tool, you can split and merge vector objects quickly, making it easy to set up Layouts for comics."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:69
-msgid "Free transform bounding box rotation ([MR 2113](https://invent.kde.org/graphics/krita/-/merge_requests/2113)) -- Our transform tool draws a bounding box around the selected area. However, this was always in the direction of the pixels, which can be quite cumbersome when transforming a picture drawn at an angle. You can now rotate the transform bounding box with ctrl+alt to fit the visual angle of the selection you are transforming."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:70
-msgid "Liquify Transform Mode speedups ([MR 2461](https://invent.kde.org/graphics/krita/-/merge_requests/2461) -- The liquify mode in the transforms tool was greatly sped up."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:71
-msgid "Adjust smoothing based on stroke speed ([MR 2192](https://invent.kde.org/graphics/krita/-/merge_requests/2192)) -- This allows you to reduce smoothing of a stroke with the speed. The idea is that most jitters happen when drawing slowly, so naturally the smoothing needs to be higher when the brush stroke takes longer. Conversely, fast brush strokes need less smoothing."
+msgid "A variety of technical blog posts were written on the topic: [Fonts](https://wolthera.info/2024/07/making-sense-of-font-selection/), [Open Type](https://wolthera.info/2025/03/controls-for-opentype/), [Font Metrics](https://wolthera.info/2025/04/going-in-depth-on-font-metrics/), [various other properties](https://wolthera.info/2025/09/remainder-of-the-text-properties/), [Text in Shape and Type Setting Mode](https://wolthera.info/2025/11/text-tool-phase-3/)."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:72
-msgid "Pixelart stablizer ([MR 2158](https://invent.kde.org/graphics/krita/-/merge_requests/2158)) -- Ken Lo's 2024 Google Summer of Code project, the pixel art stablizer provides better results when drawing with a single pixel line."
+msgid "A new Comic Panel Editing tool was added ([MR 2331](https://invent.kde.org/graphics/krita/-/merge_requests/2331), [manual](https://docs.krita.org/en/reference_manual/tools/comic_panel_editing_tool.html)). With this tool, you can split and merge vector objects quickly, making it easy to set up panel layouts for comics."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:73
-msgid "Selection toolbar ([MR 2422](https://invent.kde.org/graphics/krita/-/merge_requests/2422)) -- Ross Rosales' 2025 Google Summer of Code project, the selection toolbar provides a floating bar for when a selection is active."
+msgid "Free transform bounding box rotation ([MR 2113](https://invent.kde.org/graphics/krita/-/merge_requests/2113), [manual](https://docs.krita.org/en/reference_manual/tools/transform.html)) — Our transform tool draws a bounding box around the selected area. However, this was always in the direction of the pixels, which can be quite cumbersome when transforming a picture drawn at an angle. You can now rotate the transform bounding box with ctrl+alt to fit the visual angle of the selection you are transforming."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:74
-msgid "Add Multibrush 'Copy Translate at Intervals' mode [MR 1968](https://invent.kde.org/graphics/krita/-/merge_requests/1968) -- This allows drawing multiple brushes at set intervals."
+msgid "Liquefy Transform Mode speedups ([MR 2461](https://invent.kde.org/graphics/krita/-/merge_requests/2461) — The liquify mode in the transforms tool was greatly sped up."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:75
-msgid "Improved number inputs in the shape selection tool [MR 2199](https://invent.kde.org/graphics/krita/-/merge_requests/2199) -- You can now right-click these to set the units."
+msgid "Adjust smoothing based on stroke speed ([MR 2192](https://invent.kde.org/graphics/krita/-/merge_requests/2192), [manual](https://docs.krita.org/en/reference_manual/tools/freehand_brush.html#smoothing)) — This allows you to reduce smoothing of a stroke with the speed. The idea is that most jitters happen when drawing slowly, so naturally the smoothing needs to be higher when the brush stroke takes longer. Conversely, fast brush strokes need less smoothing."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:76
-msgid "The fill tool also got some love, now sporting *Close Gaps* functionality ([MR 2050](https://invent.kde.org/graphics/krita/-/merge_requests/2050) and [MR 2079](https://invent.kde.org/graphics/krita/-/merge_requests/2079)), which allows it to close gaps in the line work when determining the area to fill."
+msgid "Pixelart stabilizer ([MR 2158](https://invent.kde.org/graphics/krita/-/merge_requests/2158), [manual](https://docs.krita.org/en/reference_manual/tools/freehand_brush.html#smoothing)) — Ken Lo's 2024 Google Summer of Code project, the pixel art stablizer provides better results when drawing with a single pixel line."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:77
+msgid "Selection toolbar ([MR 2422](https://invent.kde.org/graphics/krita/-/merge_requests/2422), [manual](https://docs.krita.org/en/user_manual/selections.html#selection-action-bar) — Ross Rosales' 2025 Google Summer of Code project, the selection toolbar provides a floating bar for when a selection is active."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:78
-msgid "Assistants"
+msgid "Add Multibrush 'Copy Translate at Intervals' mode ([MR 1968](https://invent.kde.org/graphics/krita/-/merge_requests/1968), [manual](https://docs.krita.org/en/reference_manual/tools/multibrush.html)) — This allows drawing multiple brushes at set intervals."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:79
+msgid "Improved number inputs in the shape selection tool ([MR 2199](https://invent.kde.org/graphics/krita/-/merge_requests/2199)) — You can now right-click these to set the units."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:80
-msgid "Configuration of the assistant widgets ([MR 1966](https://invent.kde.org/graphics/krita/-/merge_requests/1966)) -- The on canvas widget for the assistants have been overhauled, and a duplication function has been added."
+msgid "The fill tool also got some love, now sporting *Close Gaps* functionality ([MR 2050](https://invent.kde.org/graphics/krita/-/merge_requests/2050) and [MR 2079](https://invent.kde.org/graphics/krita/-/merge_requests/2079), [manual](https://docs.krita.org/en/reference_manual/tools/fill.html)), which allows it to close gaps in the line work when determining the area to fill."
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:81
-msgid "Curvelinear perspective assistant. ([MR 1960](https://invent.kde.org/graphics/krita/-/merge_requests/1960) and [MR 2055](https://invent.kde.org/graphics/krita/-/merge_requests/2055)) -- The curve linear assistant is an alternative to the fish-eye point assistant, and uses arcs instead of ellipses."
+#: content/en/release-notes/krita-5-3-release-notes.md:82
+msgid "Assistants"
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:83
-msgid "Filters and Layers"
+#: content/en/release-notes/krita-5-3-release-notes.md:84
+msgid "Configuration of the assistant widgets ([MR 1966](https://invent.kde.org/graphics/krita/-/merge_requests/1966)) — The on canvas widget for the assistants have been overhauled, and a duplication function has been added."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:85
-msgid "Propagate Colors Filter has been added. This filter makes it so that an image with colors and transparency is modified to have its colors expand into the transparent areas. Such a thing is very useful for 3D and game texture workflows. There transparency often needs to be handled as a separate texture, and when the colors have been prepared with this filter, it reduces the chance of alignment issues between the transparency and the colors. ([MR 2161](https://invent.kde.org/graphics/krita/-/merge_requests/2162))"
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:86
-msgid "All our blending modes got double checked for HDR support. Previously, Krita would sometimes clip high range colors when doing compositing with a given blending mode, even if the blending mode supported it. Now, every blend mode that supports HDR will do so. ([MR 2294](https://invent.kde.org/graphics/krita/-/merge_requests/2294))"
+msgid "Curvelinear perspective assistant. ([MR 1960](https://invent.kde.org/graphics/krita/-/merge_requests/1960) and [MR 2055](https://invent.kde.org/graphics/krita/-/merge_requests/2055), [manual](https://docs.krita.org/en/user_manual/painting_with_assistants.html#curvilinear-perspective)) — The curve linear assistant is an alternative to the fish-eye point assistant, and uses arcs instead of ellipses."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:87
-msgid "Color Overlay Mask. A filter that colorizes a sketch with a given color. This is different from the existing HDR filter, as it is optimized for speed and quick use, with a special button on the layer docker. This will be useful for artists preparing their sketch for inking. ([MR 2285](https://invent.kde.org/graphics/krita/-/merge_requests/2285), [2318](https://invent.kde.org/graphics/krita/-/merge_requests/2318), [2303](https://invent.kde.org/graphics/krita/-/merge_requests/2303) and [2282](https://invent.kde.org/graphics/krita/-/merge_requests/2282))"
+msgid "Filters and Layers"
 msgstr ""
 
 #. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:88
-msgid "Transform shortcuts now work on multiple layers. When using the Mirror, Rotate, Scale, Shear and Offset layer shortcuts while multiple layers are selected, all layers will be transformed [MR 1811](https://invent.kde.org/graphics/krita/-/merge_requests/1811)."
+#: content/en/release-notes/krita-5-3-release-notes.md:89
+msgid "Propagate Colors Filter has been added. This filter makes it so that an image with colors and transparency is modified to have its colors expand into the transparent areas. Such a thing is very useful for 3D and game texture workflows. There transparency often needs to be handled as a separate texture, and when the colors have been prepared with this filter, it reduces the chance of alignment issues between the transparency and the colors. ([MR 2161](https://invent.kde.org/graphics/krita/-/merge_requests/2162), [manual](https://docs.krita.org/en/reference_manual/filters/colors.html#propagate-colors))"
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:90
+msgid "Reset Transparent ([MR 1860](https://invent.kde.org/graphics/krita/-/merge_requests/1860), [manual](https://docs.krita.org/en/reference_manual/filters/other.html#reset-transparent) — A filter related to the above. In the case that a transparent pixel has values, using reset transparent allows you to set all fully transparent pixels to be transparent black."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:91
+msgid "All our blending modes got double checked for HDR support. Previously, Krita would sometimes clip high range colors when doing compositing with a given blending mode, even if the blending mode supported it. Now, every blend mode that supports HDR will do so. ([MR 2294](https://invent.kde.org/graphics/krita/-/merge_requests/2294))"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:92
-msgid "Real Time Capture Mode for the Recorder Docker. Previously, the recorder docker would only capture once every few frames for performance reasons. Now, multi-threaded capturing has been added to the docker, allowing for real time recording ([MR 2010](https://invent.kde.org/graphics/krita/-/merge_requests/2010))."
+msgid "Fast Color Overlay Mask. A filter that colorizes a sketch with a given color. This is different from the existing HSV filter, as it is optimized for speed and quick use, with a special button on the layer docker. This will be useful for artists preparing their sketch for inking. ([MR 2285](https://invent.kde.org/graphics/krita/-/merge_requests/2285), [2318](https://invent.kde.org/graphics/krita/-/merge_requests/2318), [2303](https://invent.kde.org/graphics/krita/-/merge_requests/2303) and [2282](https://invent.kde.org/graphics/krita/-/merge_requests/2282), [manual](https://docs.krita.org/en/reference_manual/filters/colors.html))"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:93
-msgid "Dockers can now be added to the pop-up palette. This replaces the on canvas brush editor, which in turn has been changed into a docker. As well, dockers can now also be added as a popup in the toolbar, by adding the \"Docker Box\" to the toolbar ([MR 2062](https://invent.kde.org/graphics/krita/-/merge_requests/2062), [MR 2104](https://invent.kde.org/graphics/krita/-/merge_requests/2104))."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:94
-msgid "Various improvements have been made to the Grids and Guides. In particular a new Isometric mode, which is a little bit more predictable to use, and can be used for hexagonal grids. Grid and guides color configuration is now saved to the document. And finally, there's the ability to turn off either the horizontal or vertical lines in the rectangular grid, allowing for a grid that is a mere line pattern. ([MR 2090](https://invent.kde.org/graphics/krita/-/merge_requests/2090))"
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:96
-msgid "Brushes:"
+msgid "Transform shortcuts now work on multiple layers. When using the Mirror, Rotate, Scale, Shear and Offset layer shortcuts while multiple layers are selected, all layers will be transformed ([MR 1811](https://invent.kde.org/graphics/krita/-/merge_requests/1811))."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:98
-msgid "Two new improvements were added for working with textures in the brushes."
+msgid "Real Time Capture Mode for the Recorder Docker. Previously, the recorder docker would only capture once every few frames for performance reasons. Now, multi-threaded capturing has been added to the docker, allowing for real time recording ([MR 2010](https://invent.kde.org/graphics/krita/-/merge_requests/2010))."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:99
+msgid "Dockers can now be added to the pop-up palette. This replaces the on canvas brush editor, which in turn has been changed into a docker. As well, dockers can now also be added as a popup in the toolbar, by adding the \"Docker Box\" to the toolbar ([MR 2062](https://invent.kde.org/graphics/krita/-/merge_requests/2062), [MR 2104](https://invent.kde.org/graphics/krita/-/merge_requests/2104))."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:100
-msgid "Soft texturing mode for the Pattern option ([MR 2068](https://invent.kde.org/graphics/krita/-/merge_requests/2068)) -- By default, Krita's texturing option uses the strength and pattern options together to limit the brush by the pattern, based on the strength. This gives a nice textured stroke, much like using a dry brush on a textured piece of paper in real life. The new Soft Texturing mode switches the behaviour of strength, making it instead control how much the pattern has effect on the brush, with at low values the pattern being invisible. This is more akin to switching between a wet and a dry brush over time."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:101
-msgid "Pattern 'Auto Invert For Eraser' ([MR 2264](https://invent.kde.org/graphics/krita/-/merge_requests/2264)) -- When working with the texture option, you might want to keep the texture cohesive, even as you erase. For this reason, we've now added the \"Auto Invert For Eraser\", which'll invert the texture as you switch to erase mode."
+msgid "Various improvements have been made to the Grids and Guides. In particular a new Isometric mode, which is a little bit more predictable to use, and can be used for hexagonal grids. Grid and guides color configuration is now saved to the document. And finally, there's the ability to turn off either the horizontal or vertical lines in the rectangular grid, allowing for a grid that is a mere line pattern. ([MR 2090](https://invent.kde.org/graphics/krita/-/merge_requests/2090), [manual](https://docs.krita.org/en/reference_manual/dockers/grids_and_guides.html))"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:102
-msgid "Corner mode for curves ([MR 2191](https://invent.kde.org/graphics/krita/-/merge_requests/2191)) -- Krita's brush engine uses curves extensively to configure the effects of various sensors on the brush. By default, the points on this curve are smooth cubic curves, which is useful in most cases. However, sometimes you want a little bit more control, so Krita 5.3 now comes with the ability to make sharp corners by <kbd>Ctrl</kbd> + clicking a given node."
+msgid "Brushes:"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:104
-msgid "Files:"
+msgid "Two new improvements were added for working with textures in the brushes."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:106
-msgid "Radiance RGBE (.hdr) support ([MR 1806](https://invent.kde.org/graphics/krita/-/merge_requests/1806)) -- Krita 5.3 now has support for loading and saving Radiance RGBE files. This is an older but fairly widely used HDR image format, and it should be a boon for people working with HDR images."
+msgid "Soft texturing mode for the Pattern option ([MR 2068](https://invent.kde.org/graphics/krita/-/merge_requests/2068), [manual](https://docs.krita.org/en/reference_manual/brushes/brush_settings/texture.html)) — By default, Krita's texturing option uses the strength and pattern options together to limit the brush by the pattern, based on the strength. This gives a nice textured stroke, much like using a dry brush on a textured piece of paper in real life. The new Soft Texturing mode switches the behaviour of strength, making it instead control how much the pattern has effect on the brush, with at low values the pattern being invisible. This is more akin to switching between a wet and a dry brush over time."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:107
-msgid "New Bundle Creator ([MR 1802](https://invent.kde.org/graphics/krita/-/merge_requests/1802)) -- Srirupa Datta's GSoC project, which consisted of overhauling the bundle creator. It now tries to guide you through the bundle creation process, with a new feature being the ability to store tags into bundles as well."
+msgid "Pattern 'Auto Invert For Eraser' ([MR 2264](https://invent.kde.org/graphics/krita/-/merge_requests/2264)) — When working with the texture option, you might want to keep the texture cohesive, even as you erase. For this reason, we've now added the \"Auto Invert For Eraser\", which'll invert the texture as you switch to erase mode."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:108
-msgid "Jpeg-XL: Allow using CICP instead of ICC color profiles to store the color space, add add the ability to save lossless alpha [MR 2077](https://invent.kde.org/graphics/krita/-/merge_requests/2077)."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:109
-msgid "Jpeg-XL: Support was added for Multi-Layered and Multi-Pages JXL files in addition to animated JXL files ([MR 2411](https://invent.kde.org/graphics/krita/-/merge_requests/2411))."
+msgid "Corner mode for curves ([MR 2191](https://invent.kde.org/graphics/krita/-/merge_requests/2191), [manual](https://docs.krita.org/en/reference_manual/brushes/brush_settings/special_widgets.html#curve-editor)) — Krita's brush engine uses curves extensively to configure the effects of various sensors on the brush. By default, the points on this curve are smooth cubic curves, which is useful in most cases. However, sometimes you want a little bit more control, so Krita 5.3 now comes with the ability to make sharp corners by <kbd>Ctrl</kbd> + clicking a given node."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:110
-msgid "Support for Text, Shapes and Guides for PSD ([MR 1954](https://invent.kde.org/graphics/krita/-/merge_requests/1954)) -- Krita can now load and save shapes, vector masks and guides from and to PSD. In addition, it can load text from PSD, including the advanced text information, like text on path and open type features. Saving text to PSD is possible, but unfortunately more limited due the complexity of the format."
+msgid "Files:"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:112
-msgid "Python Plugins:"
+msgid "Radiance RGB (.hdr) support ([MR 1806](https://invent.kde.org/graphics/krita/-/merge_requests/1806)) — Krita 5.3 now has support for loading and saving Radiance RGB files. This is an older but fairly widely used HDR image format, and it should be a boon for people working with HDR images."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:113
+msgid "New Bundle Creator ([MR 1802](https://invent.kde.org/graphics/krita/-/merge_requests/1802)) — Srirupa Datta's GSoC project, which consisted of overhauling the bundle creator. It now tries to guide you through the bundle creation process, with a new feature being the ability to store tags into bundles as well."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:114
-msgid "This release contains several python API improvements. Most notable is that we now have an API for painting brushstrokes ([MR 2195](https://invent.kde.org/graphics/krita/-/merge_requests/2195)), ([MR 2198](https://invent.kde.org/graphics/krita/-/merge_requests/2198)), ([MR 2211](https://invent.kde.org/graphics/krita/-/merge_requests/2211))."
+msgid "Jpeg-XL: You can now use CICP instead of ICC color profiles to store the color space, as well as save alpha in lossless mode ([MR 2077](https://invent.kde.org/graphics/krita/-/merge_requests/2077))."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:115
+msgid "Jpeg-XL: Support was added for Multi-Layered and Multi-Pages JXL files in addition to animated JXL files ([MR 2411](https://invent.kde.org/graphics/krita/-/merge_requests/2411))."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:116
-msgid "Wrappers were added for the following qt widgets:"
+msgid "Support for Text, Shapes and Guides for PSD ([MR 1954](https://invent.kde.org/graphics/krita/-/merge_requests/1954)) -- Krita can now load and save shapes, vector masks and guides from and to PSD. In addition, it can load text from PSD, including the advanced text information, like text on path and open type features. Saving text to PSD is possible, but unfortunately more limited due the complexity of the format."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:118
-msgid "AngleSelector ([MR 1979](https://invent.kde.org/graphics/krita/-/merge_requests/1979))"
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:119
-msgid "SliderSpinboxes ([MR 1991](https://invent.kde.org/graphics/krita/-/merge_requests/1991))"
+msgid "Python Plugins:"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:120
-msgid "FileDialog ([MR 2402](https://invent.kde.org/graphics/krita/-/merge_requests/2402))"
+msgid "This release contains several python API improvements. Most notable is that we now have an API for painting brushstrokes ([MR 2195](https://invent.kde.org/graphics/krita/-/merge_requests/2195), [MR 2198](https://invent.kde.org/graphics/krita/-/merge_requests/2198) and [MR 2211](https://invent.kde.org/graphics/krita/-/merge_requests/2211))."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:122
-msgid "And finally we added more methods to..."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:123
-msgid "Scratchpad ([MR 2087](https://invent.kde.org/graphics/krita/-/merge_requests/2087))"
+msgid "Wrappers were added for the following qt widgets:"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:124
-msgid "Grids and Guides ([MR 2087](https://invent.kde.org/graphics/krita/-/merge_requests/2087))"
+msgid "AngleSelector ([MR 1979](https://invent.kde.org/graphics/krita/-/merge_requests/1979))"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:125
-msgid "Document autosave state ([MR 2160](https://invent.kde.org/graphics/krita/-/merge_requests/2160))"
+msgid "SliderSpinboxes ([MR 1991](https://invent.kde.org/graphics/krita/-/merge_requests/1991))"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:126
-msgid "Canvas panning ([MR 2338](https://invent.kde.org/graphics/krita/-/merge_requests/2338))"
+msgid "FileDialog ([MR 2402](https://invent.kde.org/graphics/krita/-/merge_requests/2402))"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:128
-msgid "Finally, the following bundled python plugins were added:"
+msgid "And finally we added more methods to..."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:129
+msgid "Scratchpad ([MR 2087](https://invent.kde.org/graphics/krita/-/merge_requests/2087))"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:130
-msgid "Mutator Brush Plugin ([MR 2322](https://invent.kde.org/graphics/krita/-/merge_requests/2322)) -- A python extension for Krita which adds brush variation through action-invoked settings randomization."
+msgid "Grids and Guides ([MR 2087](https://invent.kde.org/graphics/krita/-/merge_requests/2087))"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:131
-msgid "Python Palette Docker re-added ([MR 2374](https://invent.kde.org/graphics/krita/-/merge_requests/2374)) -- The python palette docker was ree-nabled. This docker is largely meant for palette editing experiments, having support for export to gpl and svg."
+msgid "Document autosave state ([MR 2160](https://invent.kde.org/graphics/krita/-/merge_requests/2160))"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:132
-msgid "Workflow buttons docker ([MR 2210](https://invent.kde.org/graphics/krita/-/merge_requests/2210)) -- The workflow buttons docker allows you to configure your own little docker with all sorts of buttons, with a highlight being the ability to order and resize them to your choosing."
+msgid "Canvas panning ([MR 2338](https://invent.kde.org/graphics/krita/-/merge_requests/2338))"
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:134
+msgid "Finally, the following bundled python plugins were added:"
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:136
+msgid "Mutator Brush Plugin ([MR 2322](https://invent.kde.org/graphics/krita/-/merge_requests/2322)) -- A python extension for Krita which adds brush variation through action-invoked settings randomization."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:137
-msgid "Separate eraser cursors for non-brush tools ([MR 1624](https://invent.kde.org/graphics/krita/-/merge_requests/1624)) -- When drawing it can sometimes be hard to remember whether you are in eraser mode, so there's an update for all the tool cursors with an eraser icon."
+msgid "Python Palette Docker re-added ([MR 2374](https://invent.kde.org/graphics/krita/-/merge_requests/2374)) -- The python palette docker was ree-nabled. This docker is largely meant for palette editing experiments, having support for export to gpl and svg."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:138
-msgid "Pen tilt tweaks ([MR 2314](https://invent.kde.org/graphics/krita/-/merge_requests/2314), [MR 2337](https://invent.kde.org/graphics/krita/-/merge_requests/2337)) -- Krita has support for the tilt direction reported by some models of drawing tablets. However, not all tablets support tilt, and furthermore, if you create a brush as a left-handed user, it can feel very different for a right handed user. To that end controls were added to allow adding extra pen tilt offset for different handedness, as well as the ability to set a default pen tilt when the tablet does not support tilt."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:139
-msgid "Soft Proofing overhaul ([MR 2279](https://invent.kde.org/graphics/krita/-/merge_requests/2279)) -- Previously, our softproofing did not allow black point compensation on both transforms, leading to a difference in looks compared to converting the document to said profile directly. We've overhauled the softproofing settings to allow configuring both transforms, with defaults to use either the current monitor profile configuration or simulate paper white and black (Note: Wayland users, due the newness of the Wayland protocol, softproofing will behave a little differently in Absolute Colormetric mode, check the manual for more details)."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:140
-msgid "CSS palette support ([MR 2119](https://invent.kde.org/graphics/krita/-/merge_requests/2119)) -- The palette docker can now load .css files with classes representing the swatches."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:141
-msgid "More actions available in Canvas Input Settings ([MR 1801](https://invent.kde.org/graphics/krita/-/merge_requests/1801)) -- This adds a variety of actions, like color sampler, deselect, layer activation and some tool activation to the canvas input settings so they can be activated by touch gestures."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:142
-msgid "Save global color history, option to save per document ([MR 1424](https://invent.kde.org/graphics/krita/-/merge_requests/1424)) -- Color history can now be saved either globally or per document."
+msgid "Workflow buttons docker ([MR 2210](https://invent.kde.org/graphics/krita/-/merge_requests/2210)) -- The workflow buttons docker allows you to configure your own little docker with all sorts of buttons, with a highlight being the ability to order and resize them to your choosing."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:143
-msgid "Zoom shortcuts now have the ability to zoom to mouse or zoom to canvas center separately ([MR 2152](https://invent.kde.org/graphics/krita/-/merge_requests/2152)) -- Before Krita would use the mouse to zoom to cursor and the keyboard keys to zoom to center of the canvas. This split up makes it explicit to which of the two a shortcut will zoom. *The default will now zoom to canvas center*."
+msgid "Separate eraser cursors for non-brush tools ([MR 1624](https://invent.kde.org/graphics/krita/-/merge_requests/1624)) — When drawing it can sometimes be hard to remember whether you are in eraser mode, so there's an update for all the tool cursors with an eraser icon."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:144
+msgid "Pen tilt tweaks ([MR 2314](https://invent.kde.org/graphics/krita/-/merge_requests/2314), [MR 2337](https://invent.kde.org/graphics/krita/-/merge_requests/2337), [manual](https://docs.krita.org/en/reference_manual/preferences/tablet_settings/tablet_settings_tilt_direction_offset)) — Krita has support for the tilt direction reported by some models of drawing tablets. However, not all tablets support tilt, and furthermore, if you create a brush as a left-handed user, it can feel very different for a right handed user. To that end controls were added to allow adding extra pen tilt offset for different handedness, as well as the ability to set a default pen tilt when the tablet does not support tilt."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:145
+msgid "Soft Proofing overhaul ([MR 2279](https://invent.kde.org/graphics/krita/-/merge_requests/2279), [manual](https://docs.krita.org/en/user_manual/soft_proofing.html)) — Previously, our softproofing did not allow black point compensation on both transforms, leading to a difference in looks compared to converting the document to said profile directly. We've overhauled the softproofing settings to allow configuring both transforms, with defaults to use either the current monitor profile configuration or simulate paper white and black (Note: Wayland users, due the newness of the Wayland protocol, softproofing will behave a little differently in Absolute Colormetric mode, check the manual for more details)."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:146
+msgid "CSS palette support ([MR 2119](https://invent.kde.org/graphics/krita/-/merge_requests/2119)) — The palette docker can now load .css files with classes representing the swatches."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:147
-msgid "Contributors"
+msgid "More actions available in Canvas Input Settings ([MR 1801](https://invent.kde.org/graphics/krita/-/merge_requests/1801)) — This adds a variety of actions, like color sampler, deselect, layer activation and some tool activation to the canvas input settings so they can be activated by touch gestures."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:148
+msgid "Save global color history, option to save per document ([MR 1424](https://invent.kde.org/graphics/krita/-/merge_requests/1424)) — Color history can now be saved either globally or per document."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:149
-msgid "Agata Cacko - Liquefy improvements, Knife tool."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:150
-msgid "Aries Moczar - Assistant Editor Widget Redesign"
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:151
-msgid "Bourumir Wyngs - Saving Color History support."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:152
-msgid "Carsten - Android support"
+msgid "Zoom shortcuts now have the ability to zoom to mouse or zoom to canvas center separately ([MR 2152](https://invent.kde.org/graphics/krita/-/merge_requests/2152)) — Before Krita would use the mouse to zoom to cursor and the keyboard keys to zoom to center of the canvas. This split up makes it explicit to which of the two a shortcut will zoom. *The default will now zoom to canvas center*."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:153
-msgid "Deif Lou -- Added Soft Texture Mode, Cusps for the brush editor curves."
-msgstr ""
-
-#. +> trunk5
-#: content/en/release-notes/krita-5-3-release-notes.md:154
-msgid "Dmitry - Reviewed all the MRs, softproofing overhaul."
+msgid "Contributors"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:155
-msgid "Emmet - Mutator plugin, Real Time Capture Mode for the recorder docker, animation bugfixes."
+msgid "Agata Cacko — Liquefy improvements, Knife tool."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:156
-msgid "Freya Lupen - Provided copy translate for multibrush, on canvas brush docker and helped a ton with porting and testing things on MacOs and Android."
+msgid "Aries Moczar — Assistant Editor Widget Redesign"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:157
-msgid "Grum999 - Improvements to the dimension spinboxes in the shape selection tool, grids and guides improvements."
+msgid "Bourumir Wyngs — Saving Color History support."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:158
-msgid "Halla - Administration"
+msgid "Carsten Hartenfels — Android support"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:159
-msgid "Isaac Fleetwoord - Provided the curve linear assistant."
+msgid "Deif Lou — Added Soft Texture Mode, Cusps for the brush editor curves."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:160
-msgid "Ivan - many MacOS bugfixes and quality of life improvements."
+msgid "Dmitry — Reviewed all the MRs, softproofing overhaul."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:161
-msgid "Ken Lo - Pixel art stablizer."
+msgid "Emmet — Mutator plugin, animation bugfixes."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:162
-msgid "killy |0veufOrever - Smoothness stablizer."
+msgid "Freya Lupen — Provided copy translate for multibrush, on canvas brush docker and helped a ton with porting and testing things on MacOs and Android."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:163
-msgid "Krayton Draws - More shortcut actions for touch gestures."
+msgid "Florian Reiser — Real Time Capture Mode for the recorder docker."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:164
-msgid "Maciej Jesionowski - Pen Tilt Tweaks, Fast Color overlay."
+msgid "Grum999 — Improvements to the dimension spinboxes in the shape selection tool, grids and guides improvements."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:165
-msgid "Mr. xk1000 - Zoom to Canvas Center/Mouse Cursor split."
+msgid "Halla — Administration"
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:166
-msgid "Rasyuqa A H - Radiance RGBE support, Jpeg XL."
+msgid "Isaac Fleetwood — Provided the curve linear assistant."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:167
-msgid "Ross Rosales - Provided the selection tool bar."
+msgid "Ivan Yossi — many MacOS bugfixes and quality of life improvements."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:168
-msgid "Sharaf Zaman - Android support."
+msgid "Ken Lo — Pixel Art Stabilizer."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:169
-msgid "Srirupa Datta - new Bundle Creator"
+msgid "killy |0veufOrever — Smoothness stabilizer."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:170
-msgid "Stuffins - transform bbox"
+msgid "Krayton Draws — More shortcut actions for touch gestures."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:171
-msgid "Thomas K/Bidi - CSS palette support."
+msgid "Maciej Jesionowski — Pen Tilt Tweaks, Fast Color overlay."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:172
-msgid "Timothée Giet - Added workflow button docker, handles icon quality."
+msgid "Mr. xk1000 — Zoom to Canvas Center/Mouse Cursor split."
 msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:173
-msgid "Wolthera - text tool, soft proofing overhaul"
+msgid "Rasyuqa A H — Radiance RGB support, Jpeg XL."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:174
+msgid "Ross Rosales — Provided the selection tool bar."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:175
+msgid "Sharaf Zaman — Android support."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:176
+msgid "Srirupa Datta — new Bundle Creator"
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:177
+msgid "Stuffins — Rotating the transformation bounds."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:178
+msgid "Thomas K/Bidi — CSS palette support."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:179
+msgid "Timothée Giet — Added workflow button docker, handles icon quality."
+msgstr ""
+
+#. +> trunk5
+#: content/en/release-notes/krita-5-3-release-notes.md:180
+msgid "Wolthera — text tool, soft proofing overhaul, manual and writing the release notes."
 msgstr ""
 
 #. +> trunk5
