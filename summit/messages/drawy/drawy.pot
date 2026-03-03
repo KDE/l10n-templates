@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drawy\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-02 10:26+0100\n"
+"POT-Creation-Date: 2026-03-03 07:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -610,108 +610,122 @@ msgid "Move Tool"
 msgstr ""
 
 #. +> trunk6
+#: widgets/keybindings/actionmanager.cpp:111
+#, kde-format
+msgctxt "@action"
+msgid "Image Tool"
+msgstr ""
+
+#. +> trunk6
 #: widgets/keybindings/actionmanager.cpp:112
+#, kde-format
+msgctxt "@action"
+msgid "Diamond Tool"
+msgstr ""
+
+#. +> trunk6
+#: widgets/keybindings/actionmanager.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Send To Back"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:115
+#: widgets/keybindings/actionmanager.cpp:117
 #, kde-format
 msgctxt "@action"
 msgid "Send Backward"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:118
+#: widgets/keybindings/actionmanager.cpp:120
 #, kde-format
 msgctxt "@action"
 msgid "Bring Forward"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:121
+#: widgets/keybindings/actionmanager.cpp:123
 #, kde-format
 msgctxt "@action"
 msgid "Bring To Front"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:125
+#: widgets/keybindings/actionmanager.cpp:127
 #, kde-format
 msgctxt "@action"
 msgid "Debug"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:437
+#: widgets/keybindings/actionmanager.cpp:443
 #, kde-format
 msgid "Untitled.%1"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:439
-#: widgets/keybindings/actionmanager.cpp:503
+#: widgets/keybindings/actionmanager.cpp:445
+#: widgets/keybindings/actionmanager.cpp:509
 #, kde-format
 msgid "Drawy (*.%1)"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:440
+#: widgets/keybindings/actionmanager.cpp:446
 #, kde-format
 msgctxt "@title:window"
 msgid "Save File"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:462
+#: widgets/keybindings/actionmanager.cpp:468
 #, kde-format
 msgctxt "@action"
 msgid "Do you really want to clear the canvas?"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:463
+#: widgets/keybindings/actionmanager.cpp:469
 #, kde-format
 msgctxt "@action"
 msgid "Clear"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:506
+#: widgets/keybindings/actionmanager.cpp:512
 #, kde-format
 msgctxt "@title:window"
 msgid "Open File"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:519
+#: widgets/keybindings/actionmanager.cpp:525
 #, kde-format
 msgid "Untitled.svg"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:521
+#: widgets/keybindings/actionmanager.cpp:527
 #, kde-format
 msgid "SVG (*.svg)"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:523
+#: widgets/keybindings/actionmanager.cpp:529
 #, kde-format
 msgctxt "@title:window"
 msgid "Export to Svg"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:558
+#: widgets/keybindings/actionmanager.cpp:564
 #, kde-format
 msgid "The document \"%1\" has been modified. Do you want to save your changes or discard them?"
 msgstr ""
 
 #. +> trunk6
-#: widgets/keybindings/actionmanager.cpp:562
+#: widgets/keybindings/actionmanager.cpp:568
 #, kde-format
 msgctxt "@title:window"
 msgid "Action Required"
@@ -925,7 +939,13 @@ msgid "Pen Tool"
 msgstr ""
 
 #. +> trunk6
-#: widgets/tools/imagetool.cpp:34
+#: widgets/tools/imagetool.cpp:37
+#, kde-format
+msgid "Image"
+msgstr ""
+
+#. +> trunk6
+#: widgets/tools/imagetool.cpp:42
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Image Tool"
@@ -933,12 +953,6 @@ msgstr ""
 
 #. +> trunk6
 #: widgets/tools/imagetool.cpp:61
-#, kde-format
-msgid "Image"
-msgstr ""
-
-#. +> trunk6
-#: widgets/tools/imagetool.cpp:63
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert Image"

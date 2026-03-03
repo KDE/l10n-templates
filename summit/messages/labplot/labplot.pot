@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: labplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-02 10:27+0100\n"
+"POT-Creation-Date: 2026-03-03 07:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -86,7 +86,7 @@ msgstr ""
 #: src/backend/core/AbstractAspect.cpp:549
 #: src/backend/core/aspectcommands.h:171
 #: src/backend/datapicker/Datapicker.cpp:227
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2414
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2416
 #, kde-format
 msgid "%1: add %2"
 msgstr ""
@@ -949,16 +949,16 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: src/backend/datapicker/Datapicker.cpp:48
 #: src/backend/datapicker/Datapicker.cpp:379
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1904
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1910
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1916
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1922
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1928
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1934
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1940
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1946
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1952
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1958
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1906
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1912
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1918
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1924
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1930
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1936
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1942
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1948
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1954
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1960
 #: src/frontend/ui/datapickerimagewidget.ui:260
 #, kde-format
 msgid "Plot"
@@ -2546,7 +2546,7 @@ msgstr ""
 #: src/backend/datasources/filters/MatioFilter.cpp:452
 #: src/backend/nsl/nsl_interp.c:26
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:789
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2328
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2330
 #, kde-format
 msgid "Function"
 msgstr ""
@@ -8427,7 +8427,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lInterpolation)
 #. +> trunk6 stable6 stable5
 #: src/backend/nsl/nsl_geom_linesim.c:23
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2237
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2239
 #: src/frontend/ui/dockwidgets/xyinterpolationcurvedockgeneraltab.ui:272
 #, kde-format
 msgid "Interpolation"
@@ -11228,7 +11228,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabTitle)
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:140
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:5385
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:5387
 #: src/frontend/ui/dockwidgets/axisdock.ui:487
 #: src/frontend/ui/dockwidgets/cartesianplotdock.ui:623
 #: src/frontend/ui/dockwidgets/cartesianplotlegenddock.ui:481
@@ -11261,7 +11261,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkLegendVisible)
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:441
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2344
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2346
 #: src/frontend/ui/dockwidgets/barplotdock.ui:229
 #: src/frontend/ui/dockwidgets/boxplotdock.ui:241
 #: src/frontend/ui/dockwidgets/histogramdock.ui:387
@@ -11309,7 +11309,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:448
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2391
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2393
 #: src/frontend/ActionsManager.cpp:535
 #: src/frontend/datasources/ImportFileWidget.cpp:113
 #: src/frontend/matrix/MatrixView.cpp:131
@@ -11323,14 +11323,14 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:449
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2367
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2369
 #, kde-format
 msgid "Info Element"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:450
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2411
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2413
 #, kde-format
 msgid "Custom Point"
 msgstr ""
@@ -11338,7 +11338,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabReferenceLine)
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:451
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2436
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2438
 #: src/frontend/ui/dockwidgets/qqplotdock.ui:180
 #, kde-format
 msgid "Reference Line"
@@ -11346,15 +11346,15 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:452
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2495
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2497
 #, kde-format
 msgid "Reference Range"
 msgstr ""
 
 #. +> trunk6
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:471
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2455
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2477
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2457
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2479
 #, kde-format
 msgid "Inset Plot Area"
 msgstr ""
@@ -11402,7 +11402,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:510
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:544
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2299
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2301
 #: src/frontend/spreadsheet/SpreadsheetView.cpp:571
 #, kde-format
 msgctxt "Curve fitting"
@@ -11523,7 +11523,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:635
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1974
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1976
 #: src/frontend/dockwidgets/XYFitCurveDock.cpp:400
 #: src/frontend/spreadsheet/StatisticsColumnWidget.cpp:149
 #, kde-format
@@ -11532,7 +11532,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:639
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1971
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1973
 #: src/frontend/spreadsheet/PlotDataDialog.cpp:904
 #: src/frontend/spreadsheet/StatisticsColumnWidget.cpp:152
 #, kde-format
@@ -11541,14 +11541,14 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:643
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1977
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1979
 #, kde-format
 msgid "Q-Q Plot"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:647
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1980
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1982
 #: src/frontend/spreadsheet/StatisticsColumnWidget.cpp:150
 #, kde-format
 msgid "KDE Plot"
@@ -11562,7 +11562,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:656
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1985
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1987
 #: src/frontend/spreadsheet/PlotDataDialog.cpp:906
 #: src/frontend/spreadsheet/PlotDataDialog.cpp:908
 #: src/frontend/spreadsheet/StatisticsColumnWidget.cpp:155
@@ -11572,7 +11572,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:660
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1988
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1990
 #, kde-format
 msgid "Lollipop Plot"
 msgstr ""
@@ -11585,14 +11585,14 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:669
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1996
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1998
 #, kde-format
 msgid "Run Chart"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:673
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1993
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1995
 #, kde-format
 msgid "Process Behavior Chart"
 msgstr ""
@@ -11660,7 +11660,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lSmooth)
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:747
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2251
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2253
 #: src/frontend/ui/dockwidgets/xysmoothcurvedockgeneraltab.ui:72
 #, kde-format
 msgid "Smooth"
@@ -11668,7 +11668,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:753
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2316
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2318
 #, kde-format
 msgid "Fourier Filter"
 msgstr ""
@@ -11681,14 +11681,14 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:757
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2039
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2041
 #, kde-format
 msgid "Fourier Transform"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:761
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2043
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2045
 #, kde-format
 msgid "Hilbert Transform"
 msgstr ""
@@ -11701,14 +11701,14 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:771
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2051
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2053
 #, kde-format
 msgid "Auto-/Cross-Correlation"
 msgstr ""
 
 #. +> trunk6
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:777
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2195
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2197
 #, kde-format
 msgid "Line Simplification"
 msgstr ""
@@ -11770,62 +11770,62 @@ msgid "%1: change %2-range %3 auto scaling"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1627
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1629
 #, kde-format
 msgid "%1: change x-range %2 scale"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1755
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1757
 #, kde-format
 msgid "%1: set default plot range"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1773
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1775
 #, kde-format
 msgid "%1: x-range breaking enabled"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1782
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1784
 #, kde-format
 msgid "%1: x-range breaks changed"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1791
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1793
 #, kde-format
 msgid "%1: y-range breaking enabled"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1800
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1802
 #, kde-format
 msgid "%1: y-range breaks changed"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1814
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1816
 #, kde-format
 msgid "%1: Cursor0 enable"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1826
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1828
 #, kde-format
 msgid "%1: Cursor1 enable"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1835
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1836
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1837
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1838
 #, kde-format
 msgid "%1: set plot color mode"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1847
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1849
 #: src/backend/worksheet/Worksheet.cpp:908
 #, kde-format
 msgid "%1: load theme %2"
@@ -11844,41 +11844,41 @@ msgid "%1: smooth '%2'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1849
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1851
 #: src/backend/worksheet/Worksheet.cpp:910
 #, kde-format
 msgid "%1: load default theme"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1851
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:5756
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1853
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:5758
 #: src/backend/worksheet/Worksheet.cpp:912
 #, kde-format
 msgid "%1: set theme"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1860
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1861
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1862
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1863
 #, kde-format
 msgid "%1: set plot color map"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1872
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1874
 #, kde-format
 msgid "%1: set y-offset"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1880
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1882
 #, kde-format
 msgid "%1: border type changed"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1887
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1889
 #: src/backend/worksheet/plots/cartesian/CartesianPlotLegend.cpp:236
 #, kde-format
 msgid "%1: set border corner radius"
@@ -11903,7 +11903,7 @@ msgid "%1: add smoothing curve"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2047
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2049
 #: src/frontend/dockwidgets/XYConvolutionCurveDock.cpp:333
 #: src/frontend/dockwidgets/XYConvolutionCurveDock.cpp:338
 #, kde-format
@@ -11917,7 +11917,7 @@ msgid "%1: add function curve"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2140
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2142
 #, kde-format
 msgid "%1: distribution fit to '%2'"
 msgstr ""
@@ -11929,20 +11929,20 @@ msgid "%1: fit to '%2'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2141
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2143
 #, kde-format
 msgid "Distribution Fit to '%1'"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2188
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2190
 #: src/frontend/spreadsheet/PlotDataDialog.cpp:822
 #, kde-format
 msgid "Simplification of '%1'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2202
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2204
 #: src/frontend/spreadsheet/PlotDataDialog.cpp:795
 #, kde-format
 msgid "Derivative of '%1'"
@@ -11950,7 +11950,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lDifferentiation)
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2209
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2211
 #: src/frontend/notebook/NotebookView.cpp:148
 #: src/frontend/ui/dockwidgets/xydifferentiationcurvedockgeneraltab.ui:268
 #, kde-format
@@ -11964,7 +11964,7 @@ msgid "%1: add differentiation curve"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2216
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2218
 #: src/frontend/spreadsheet/PlotDataDialog.cpp:798
 #, kde-format
 msgid "Integral of '%1'"
@@ -11972,7 +11972,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lIntegration)
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2223
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2225
 #: src/frontend/notebook/NotebookView.cpp:154
 #: src/frontend/ui/dockwidgets/xyintegrationcurvedockgeneraltab.ui:159
 #, kde-format
@@ -11980,33 +11980,33 @@ msgid "Integration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2230
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2232
 #: src/frontend/spreadsheet/PlotDataDialog.cpp:801
 #, kde-format
 msgid "Interpolation of '%1'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2244
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2246
 #: src/frontend/spreadsheet/PlotDataDialog.cpp:804
 #, kde-format
 msgid "Smoothing of '%1'"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2258
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2260
 #, kde-format
 msgid "Baseline correction for '%1'"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2265
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2267
 #, kde-format
 msgid "Baseline Correction"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2272
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2274
 #: src/frontend/spreadsheet/PlotDataDialog.cpp:791
 #, kde-format
 msgctxt "Curve fitting"
@@ -12021,7 +12021,7 @@ msgid "Fit to '%1'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2309
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2311
 #, kde-format
 msgid "Fourier filtering of '%1'"
 msgstr ""
@@ -12033,7 +12033,7 @@ msgid "%1: Fourier filtering of '%2'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2323
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2325
 #, kde-format
 msgid "Function of '%1'"
 msgstr ""
@@ -12052,7 +12052,7 @@ msgid "%1: add function of '%2'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2374
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2376
 #: src/frontend/worksheet/WorksheetView.cpp:1350
 #: src/frontend/worksheet/WorksheetView.cpp:1351
 #, kde-format
@@ -12060,7 +12060,7 @@ msgid "Text Label"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2454
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2456
 #, kde-format
 msgid "%1: add inset plot"
 msgstr ""
@@ -12078,33 +12078,33 @@ msgid "%1: add fit curve"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2468
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2470
 #, kde-format
 msgid "%1: add inset plot with data"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4163
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4165
 #, kde-format
 msgid "Not inside of the bounding rect"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4288
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4309
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4290
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4311
 #, kde-format
 msgid "from x=%1 to x=%2"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4296
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4322
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4298
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4324
 #, kde-format
 msgid "from y=%1 to y=%2"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4341
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4343
 #, kde-format
 msgid "x=%1"
 msgstr ""

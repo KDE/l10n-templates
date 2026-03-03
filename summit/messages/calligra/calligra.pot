@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-09 11:24+0100\n"
+"POT-Creation-Date: 2026-03-03 07:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3928,8 +3928,30 @@ msgstr ""
 msgid "SPARQL"
 msgstr ""
 
-#. i18n: ectx: property (html), widget (QTextEdit, m_sparqlQuery)
+#. i18n: ectx: property (plainText), widget (QTextEdit, m_sparqlQuery)
+#. +> trunk6
+#: rdf/KoDocumentRdfEditWidget.ui:172
+#, kde-format
+msgid ""
+"\n"
+"            prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n"
+"            prefix foaf: <http://xmlns.com/foaf/0.1/>\n"
+"            prefix pkg: <http://docs.oasis-open.org/ns/office/1.2/meta/pkg#>\n"
+"            prefix geo84: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n"
+"\n"
+"            select ?s ?p ?o\n"
+"            where { ?s ?p ?o }"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
 #. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:181
+#, kde-format
+msgid "Execute"
+msgstr ""
+
+#. i18n: ectx: property (html), widget (QTextEdit, m_sparqlQuery)
+#. +> stable6
 #: rdf/KoDocumentRdfEditWidget.ui:182
 #, kde-format
 msgid ""
@@ -3968,23 +3990,16 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
-#. +> trunk6 stable6
-#: rdf/KoDocumentRdfEditWidget.ui:191
-#, kde-format
-msgid "Execute"
-msgstr ""
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab_5)
 #. +> trunk6 stable6
-#: rdf/KoDocumentRdfEditWidget.ui:221
+#: rdf/KoDocumentRdfEditWidget.ui:211
 #, kde-format
 msgid "Stylesheets"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6
-#: rdf/KoDocumentRdfEditWidget.ui:227
+#: rdf/KoDocumentRdfEditWidget.ui:217
 #, kde-format
 msgid "Set the default stylesheet for Semantic objects in this document. New RDF objects will use this stylesheet automatically. The buttons allow you to set the stylesheet for all existing semantic objects to the new default stylesheet as well."
 msgstr ""
