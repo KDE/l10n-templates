@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadiconsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-21 13:29+0200\n"
+"POT-Creation-Date: 2026-03-04 09:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -77,7 +77,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, syncButton)
 #. +> trunk6 stable6
-#: agentwidget.cpp:103 agentwidget.ui:240
+#: agentwidget.cpp:103 agentwidget.ui:266
 #, kde-format
 msgid "Synchronize"
 msgstr ""
@@ -184,49 +184,49 @@ msgid "%1, %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentwidget.cpp:447
+#: agentwidget.cpp:449
 #, kde-format
 msgid "Add Agent..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentwidget.cpp:448
+#: agentwidget.cpp:450
 #, kde-format
 msgid "Clone Agent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentwidget.cpp:451
+#: agentwidget.cpp:453
 #, kde-format
 msgid "Abort Activity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentwidget.cpp:453
+#: agentwidget.cpp:455
 #, kde-format
 msgid "Restart Agent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentwidget.cpp:456
+#: agentwidget.cpp:458
 #, kde-format
 msgid "Toggle Online/Offline"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentwidget.cpp:457
+#: agentwidget.cpp:459
 #, kde-format
 msgid "Show task list"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentwidget.cpp:458
+#: agentwidget.cpp:460
 #, kde-format
 msgid "Show change-notification log"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentwidget.cpp:460
+#: agentwidget.cpp:462
 #, kde-format
 msgid "Remove Agent"
 msgstr ""
@@ -282,16 +282,23 @@ msgstr ""
 msgid "Mimetypes:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. +> trunk6
+#: agentwidget.ui:196
+#, kde-format
+msgid "Account ID:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
 #. +> trunk6 stable6
-#: agentwidget.ui:212
+#: agentwidget.ui:238
 #, kde-format
 msgid "Add..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #. +> trunk6 stable6
-#: agentwidget.ui:219 notificationmodel.cpp:93 notificationmodel.cpp:115
+#: agentwidget.ui:245 notificationmodel.cpp:93 notificationmodel.cpp:115
 #: notificationmodel.cpp:131 notificationmodel.cpp:143
 #: notificationmonitor.cpp:174 notificationmonitor.cpp:369
 #: notificationmonitor.cpp:403 notificationmonitor.cpp:427
@@ -301,21 +308,21 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, configButton)
 #. +> trunk6 stable6
-#: agentwidget.ui:226
+#: agentwidget.ui:252
 #, kde-format
 msgid "Configure..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, abortButton)
 #. +> trunk6 stable6
-#: agentwidget.ui:233
+#: agentwidget.ui:259
 #, kde-format
 msgid "Abort"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, restartButton)
 #. +> trunk6 stable6
-#: agentwidget.ui:247
+#: agentwidget.ui:273
 #, kde-format
 msgctxt "restart the agent"
 msgid "Restart"

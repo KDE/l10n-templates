@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-glaxnimate-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-02 09:39+0100\n"
+"POT-Creation-Date: 2026-03-04 09:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -438,49 +438,37 @@ msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
+msgid "0.6.0"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
 msgid "Glaxnimate is available as a precompiled package in a wide range of platforms. You can check the package status for your Linux distro on the right or keep reading for info on other operating systems"
 msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid "Appimage"
+msgid "Glaxnimate is already available on majority of Linux distributions. It can be installed directly from Discover, GNOME Software or your distribution’s software store."
 msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid ""
-"Download the latest Appimage version of Glaxnimate from [our servers](https://gitlab.com/api/v4/projects/19921167/jobs/artifacts/release/raw/build/glaxnimate-x86_64.AppImage?job=linux%3Aappimage).\n"
-"\n"
-"Make sure the AppImage is executable `chmod a+x glaxnimate-x86_64.AppImage`. Running the AppImage should start Glaxnimate.\n"
-"\n"
-"If your system doesn't support mounting user level filesystems use the following commands instead:\n"
-"```bash\n"
-"./glaxnimate-x86_64.AppImage --appimage-extract\n"
-"./squashfs-root/AppRun\n"
-"```\n"
+msgid "Download AppImage"
 msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid "Snap"
+msgid "Download Intaller"
 msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid "You can install the latest version of Glaxnimate from [Snapcraft Store](https://snapcraft.io/glaxnimate).\n"
+msgid "Download for ARM"
 msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid "Deb package"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid ""
-"Download the latest Deb package of Glaxnimate from [our servers](https://gitlab.com/api/v4/projects/19921167/jobs/artifacts/release/raw/build/glaxnimate.deb?job=linux%3Adeb). Open the deb with your package manager and follow the instructions to install it.\n"
-"\n"
-"Note that the deb package has a dependency to python3.10.\n"
+msgid "Download for Intel (x86)"
 msgstr ""
 
 #. +> trunk5
@@ -507,76 +495,17 @@ msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid ""
-"Simply install Glaxnimate via `pkg`:\n"
-"```bash\n"
-"pkg install glaxnimate\n"
-"```\n"
+msgid "`pkg install glaxnimate`"
 msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid "Microsoft Store (Windows)"
+msgid "This package is for the python module only, not for the full program."
 msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid "The [Microsoft Store](https://www.microsoft.com/store/apps/9n27tdzhs3xc) is the recommended place to install Glaxnimate, the version there has been tested by our developers and the Microsoft Store provides seamless updates when new versions are released."
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid "Windows installer"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid "Download the latest Deb package of Glaxnimate from [our servers](https://github.com/mbasaglia/glaxnimate/releases/download/master/glaxnimate-x86_64.zip).\n"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid "macOS"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid ""
-"Download the latest version of Glaxnimate for macOS from [our servers](https://github.com/mbasaglia/glaxnimate/releases/download/release/glaxnimate.dmg).\n"
-"\n"
-"Open (mount) the dmg file, then either open glaxnimate.app to run it or drag it to Applications to install it.\n"
-"\n"
-"You may get a warning \"Apple cannot check app for malicious software\", please see [install KDE apps on macOS](https://community.kde.org/Mac) for details.\n"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid "PyPi"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid "This package is for the python module only, not for the full program. You can get it on [PyPi](/contributing/scripting).\n"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid "Release Sources"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid "If you want to build from source, you can check the [README](https://invent.kde.org/graphics/glaxnimate/-/blob/master/README.md).\n"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid "Development sources"
-msgstr ""
-
-#. +> trunk5
-#: content/download.md:0
-msgid "The source code is available on [KDE's GitLab](https://invent.kde.org/graphics/glaxnimate), this is this is the place where development happens. Check the [README](https://invent.kde.org/graphics/glaxnimate/-/blob/master/README.md) for details.\n"
+msgid "Get it on PyPi"
 msgstr ""
 
 #. +> trunk5
@@ -587,10 +516,30 @@ msgstr ""
 #. +> trunk5
 #: content/download.md:0
 msgid ""
-"These packages are built continuously as new changes are made. **They contain all the latest features but might also include bugs and broken features.**\n"
+"These packages are built continuously as new changes are made.\n"
 "- Binaries for Windows and macOS as well as Appimage are available on https://cdn.kde.org/ci-builds/graphics/glaxnimate.\n"
 "- To download a unstable Flatpak use the [nightly repository](https://cdn.kde.org/flatpak/glaxnimate-nightly/org.kde.glaxnimate.flatpakref).\n"
 "- Experimental Android APK's are available from the CI artifacts in KDE's GitLab\n"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "Release Sources"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "If you want to build from source, you can check the [README](https://invent.kde.org/graphics/glaxnimate/-/blob/master/README.md)."
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "Development Sources"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "The source code is available on [KDE's GitLab](https://invent.kde.org/graphics/glaxnimate), this is this is the place where development happens. Check the [README](https://invent.kde.org/graphics/glaxnimate/-/blob/master/README.md) for details."
 msgstr ""
 
 #. +> trunk5
@@ -796,6 +745,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/news/releases/0.5.3.md:19 content/news/releases/0.5.80.md:20
+#: content/news/releases/0.6.0.md:75
 msgid "Editing"
 msgstr ""
 
@@ -881,6 +831,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/news/releases/0.5.3.md:62 content/news/releases/0.5.80.md:50
+#: content/news/releases/0.6.0.md:83
 msgid "Bug Fixes"
 msgstr ""
 
@@ -1365,7 +1316,7 @@ msgid "Intel: [glaxnimate-0.5.80-x86_64.dmg](https://download.kde.org/unstable/g
 msgstr ""
 
 #. +> trunk5
-#: content/news/releases/0.5.80.md:81
+#: content/news/releases/0.5.80.md:81 content/news/releases/0.6.0.md:88
 msgid "Packager Section"
 msgstr ""
 
@@ -1385,7 +1336,7 @@ msgid "**Source:** glaxnimate-0.5.80.tar.xz"
 msgstr ""
 
 #. +> trunk5
-#: content/news/releases/0.5.80.md:89
+#: content/news/releases/0.5.80.md:89 content/news/releases/0.6.0.md:96
 msgid "**Signed by:** `97B71AA02D63EA6C5C44C23B962AC48EF0501F0B` [Julius Künzel](https://invent.kde.org/sysadmin/release-keyring/-/raw/master/keys/jlskuz@key1.asc) [julius.kuenzel@kde.org](mailto:julius.kuenzel@kde.org)"
 msgstr ""
 
@@ -1395,8 +1346,143 @@ msgid "Glaxnimate 0.6.0 Beta"
 msgstr ""
 
 #. +> trunk5
-#: content/news/releases/0.5.80.md:0
+#: content/news/releases/0.5.80.md:0 content/news/releases/0.6.0.md:0
 msgid "Mattia Basaglia, Julius Künzel"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:25
+msgid "**Glaxnimate 0.6.0 is out! This is the first stable release with Glaxnimate as part of KDE.**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:27
+msgid "The biggest benefit of joining KDE is that now Glaxnimate can use KDE's infrastructure to build and deploy packages, greatly improving cross-platform support. This allows us to have releases available on the Microsoft Store and macOS builds for both Intel and Arm chips."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:32
+msgid "But there is much more..."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:36
+msgid "KDE-specific features"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:38
+msgid "Glaxnimate now uses the KDE file recovery system making it more reliable."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:40
+msgid "Settings and styles also go through the KDE systems, which, among other things, lets you choose from more color themes for the interface."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:45
+msgid "Translations are also provided by KDE. This makes it easier to keep other languages up to date as Glaxnimate evolves. In fact, the number of available languages has increased from 8 to 26!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:49
+msgid "The script console has also been enhanced with basic autocompletion making scripting easier."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:51
+msgid "Timeline"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:55
+msgid "The timeline dock now allows affortless scrolling and provides buttons that make moving to different keyframes, and adding and removing them easier too. This contributes to making the animation workflow much smoother."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:60
+msgid "Hiding and showing layers from the timeline now interacts with the undo/redo system."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:62
+msgid "You can also quickly toggle keyframe easing without having to navigate menus. Just hold down the <kbd>Alt</kbd> key and click on the timeline."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:67
+msgid "Format Support"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:71
+msgid "SVG import and export has been re-worked, and precompositions are now properly exported and animations improved. You can even export an animation as a sequence of SVG frames."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:77
+msgid "We have improved the bezier editing tools, and included the ability to <kbd>Alt</kbd>-click on bezier points to cycle between tangent symmetry modes."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:80
+msgid "The _Reverse path_ action is now implemented and works for all shapes. This is mostly useful when adding the _Trim path_ modifier."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:85
+msgid "Version 0.5.4 included a significant refactoring of internal logic that introduced several bugs. These have now have been fixed."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:90
+msgid "The source code tarballs are available from the KDE servers:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:92
+msgid "**URL:** https://download.kde.org/stable/glaxnimate/0.6.0"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:94
+msgid "**Source:** glaxnimate-0.6.0.tar.xz"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:0
+msgid "Glaxnimate 0.6.0"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:0
+msgid "/releases/0.6.0/screenshot-dark.png"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:0
+msgid "Screenshot of version 0.6.0"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:0
+msgid "Glaxnimate timeline showing a property with keyframes"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:0
+msgid "Glaxnimate screenshot showcasing the eps tiger, a common example of complex SVG images"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:0
+msgid "Animation of Glaxnimate main windhow cycling through some color themes"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/0.6.0.md:0
+msgid "Short video showcasing a keyframe being updated by clicking"
 msgstr ""
 
 #. Home.alt_img
@@ -1415,4 +1501,40 @@ msgstr ""
 #. +> trunk5
 #: i18n/en.yaml:21
 msgid "View all news"
+msgstr ""
+
+#. download.linuxandbsd.title
+#. +> trunk5
+#: i18n/en.yaml:24
+msgid "Linux / BSD"
+msgstr ""
+
+#. download.windows.title
+#. +> trunk5
+#: i18n/en.yaml:27
+msgid "Windows"
+msgstr ""
+
+#. download.macos.title
+#. +> trunk5
+#: i18n/en.yaml:30
+msgid "macOS"
+msgstr ""
+
+#. download.python.title
+#. +> trunk5
+#: i18n/en.yaml:33
+msgid "Python Package"
+msgstr ""
+
+#. download.distros.manualdatails
+#. +> trunk5
+#: i18n/en.yaml:36
+msgid "Click for details on manuall installation"
+msgstr ""
+
+#. unstable.disclaimer
+#. +> trunk5
+#: i18n/en.yaml:39
+msgid "Remember that these binaries can be unstable. Recommended for **testing purpose only**!"
 msgstr ""
