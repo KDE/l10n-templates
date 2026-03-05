@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-04 09:49+0100\n"
+"POT-Creation-Date: 2026-03-05 11:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -402,26 +402,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Chat"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/AttachmentPane.qml:30
-#, kde-format
-msgid "Attachment:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/AttachmentPane.qml:38 src/chatbar/ImageEditorPage.qml:19
-#: src/timeline/DelegateContextMenu.qml:199
-#, kde-format
-msgid "Edit"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/AttachmentPane.qml:61
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel sending attachment"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2233,6 +2213,12 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Stickers"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/chatbar/ImageEditorPage.qml:19 src/timeline/DelegateContextMenu.qml:199
+#, kde-format
+msgid "Edit"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5186,6 +5172,83 @@ msgid "Send a message…"
 msgstr ""
 
 #. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:94
+#, kde-format
+msgctxt "As in no suggestion for spellcheck to fix spelling"
+msgid "No Suggestions for \"%1\""
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:103
+#, kde-format
+msgctxt "As in add the word %1 to spellcheck dictionary"
+msgid "Add \"%1\" to Dictionary"
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:115
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Ignore"
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:126
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Spell Check"
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:138
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Undo"
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:151
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Redo"
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:165
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:178
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:191
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:204
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6
+#: src/messagecontent/TextComponentEditMenu.qml:218
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr ""
+
+#. +> trunk6
 #: src/messagecontent/TrainReservationComponent.qml:124
 #: src/messagecontent/TrainReservationComponent.qml:191
 #, kde-format
@@ -5413,28 +5476,34 @@ msgid "No Pinned Messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/roominfo/RoomSearchPage.qml:33
+#: src/roominfo/RoomSearchPage.qml:36
 #, kde-format
 msgctxt "@action:title"
 msgid "Search Messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/roominfo/RoomSearchPage.qml:45
+#: src/roominfo/RoomSearchPage.qml:48
 #, kde-format
 msgid "Find messages…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/roominfo/RoomSearchPage.qml:46
+#: src/roominfo/RoomSearchPage.qml:49
 #, kde-format
 msgid "Enter text to start searching"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/roominfo/RoomSearchPage.qml:47
+#: src/roominfo/RoomSearchPage.qml:50
 #, kde-format
 msgid "No messages found"
+msgstr ""
+
+#. +> trunk6
+#: src/roominfo/RoomSearchPage.qml:52
+#, kde-format
+msgid "Cannot search in encrypted rooms"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -9386,6 +9455,19 @@ msgid "%2 is typing"
 msgid_plural "%2 are typing"
 msgstr[0] ""
 msgstr[1] ""
+
+#. +> stable6
+#: src/app/qml/AttachmentPane.qml:30
+#, kde-format
+msgid "Attachment:"
+msgstr ""
+
+#. +> stable6
+#: src/app/qml/AttachmentPane.qml:61
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel sending attachment"
+msgstr ""
 
 #. +> stable6
 #: src/chatbar/AttachDialog.qml:29
