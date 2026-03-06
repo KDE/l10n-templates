@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-03 07:04+0100\n"
+"POT-Creation-Date: 2026-03-06 09:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -976,45 +976,45 @@ msgid "Open Default Screenshots Folder"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Gui/ExportMenu.cpp:125
+#: src/Gui/ExportMenu.cpp:134
 #, kde-format
 msgctxt "@action:button open screenshot in other application"
 msgid "Other Application…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Gui/ExportMenu.cpp:157
+#: src/Gui/ExportMenu.cpp:166
 #, kde-format
 msgid "Share"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Gui/ExportMenu.cpp:250
+#: src/Gui/ExportMenu.cpp:259
 #, kde-format
 msgctxt "@action:menu"
 msgid "Extract Text by Language"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Gui/ExportMenu.cpp:286
+#: src/Gui/ExportMenu.cpp:295
 #, kde-format
 msgid "OCR engine is not available."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Gui/ExportMenu.cpp:294
+#: src/Gui/ExportMenu.cpp:303
 #, kde-format
 msgid "OCR is not available. Please install Tesseract OCR."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Gui/ExportMenu.cpp:295
+#: src/Gui/ExportMenu.cpp:304
 #, kde-format
 msgid "OCR engine is initializing…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Gui/ExportMenu.cpp:305
+#: src/Gui/ExportMenu.cpp:314
 #, kde-format
 msgid "No OCR language data available."
 msgstr ""
@@ -2361,77 +2361,77 @@ msgid "Launch Spectacle without capturing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:263
+#: src/SpectacleCore.cpp:264
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while taking a screenshot."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:292
+#: src/SpectacleCore.cpp:293
 #, kde-format
 msgctxt "@info:tooltip title for recording tray icon"
 msgid "Spectacle is Recording"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:297
+#: src/SpectacleCore.cpp:298
 #, kde-format
 msgctxt "recording notification title"
 msgid "Spectacle is Recording"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:323
+#: src/SpectacleCore.cpp:324
 #, kde-format
 msgctxt "recording notification message without shortcut"
 msgid "To finish the recording, click the pulsing red System Tray icon."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:324
+#: src/SpectacleCore.cpp:325
 #, kde-kuit-format
 msgctxt "recording notification message with shortcut"
 msgid "To finish the recording, click the pulsing red System Tray icon or press <shortcut>%1</shortcut>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:341
+#: src/SpectacleCore.cpp:342
 #, kde-format
 msgctxt "missing webp support notification title"
 msgid "WebP support is missing."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:342
+#: src/SpectacleCore.cpp:343
 #, kde-format
 msgctxt "missing webp support notification message"
 msgid "Please install Qt Image Formats to get animated system tray icons for Spectacle, and then report this packaging issue to your distributor."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:378
+#: src/SpectacleCore.cpp:379
 #, kde-format
 msgctxt "recording notification title"
 msgid "Spectacle is Finishing the Recording"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:379
+#: src/SpectacleCore.cpp:380
 #, kde-format
 msgctxt "recording notification message"
 msgid "Please wait"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:381
+#: src/SpectacleCore.cpp:382
 #, kde-format
 msgctxt "@info:tooltip title for rendering tray icon"
 msgid "Spectacle is Finishing the Recording"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:383
+#: src/SpectacleCore.cpp:384
 #, kde-format
 msgctxt "@info:tooltip subtitle for rendering tray icon"
 msgid ""
@@ -2440,7 +2440,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:409
+#: src/SpectacleCore.cpp:410
 #, kde-format
 msgctxt "@info:tooltip subtitle for recording tray icon"
 msgid ""
@@ -2449,56 +2449,56 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:434
+#: src/SpectacleCore.cpp:435
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while attempting to record the screen."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:478
+#: src/SpectacleCore.cpp:479
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</link>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:481
+#: src/SpectacleCore.cpp:482
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The screenshot has been saved as <link url=\"%1\">%2</link> and its location has been copied to clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:484
+#: src/SpectacleCore.cpp:485
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:488
+#: src/SpectacleCore.cpp:489
 #, kde-format
 msgctxt "@info"
 msgid "The screenshot has been copied to the clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:519
+#: src/SpectacleCore.cpp:520
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The video has been saved as <link url=\"%1\">%2</link> and its location has been copied to clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:522
+#: src/SpectacleCore.cpp:523
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The video was saved as <link url=\"%1\">%2</link>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:526
+#: src/SpectacleCore.cpp:527
 #, kde-format
 msgctxt "@info"
 msgid "The video location has been copied to the clipboard."
@@ -2508,14 +2508,14 @@ msgstr ""
 #. Also see https://invent.kde.org/graphics/spectacle/-/merge_requests/432#note_1111125
 #.
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:546
+#: src/SpectacleCore.cpp:547
 #, kde-format
 msgctxt "@info"
 msgid "Code found: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:550
+#: src/SpectacleCore.cpp:551
 #, kde-format
 msgctxt "@info"
 msgid "Found QR code with binary content."
@@ -2529,35 +2529,35 @@ msgid "Text extraction failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:565
+#: src/SpectacleCore.cpp:564
 #, kde-format
 msgctxt "@info"
 msgid "No text found in the image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:570
+#: src/SpectacleCore.cpp:568
 #, kde-format
 msgctxt "@info"
 msgid "Text extraction completed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:578
+#: src/SpectacleCore.cpp:576
 #, kde-format
 msgctxt "@info:notification title"
 msgid "Text Extracted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:597
+#: src/SpectacleCore.cpp:595
 #, kde-format
 msgctxt "@info The variables are language names, e.g. 'English and German'"
 msgid "%1 and %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:602
+#: src/SpectacleCore.cpp:600
 #, kde-kuit-format
 msgctxt "@info:notification"
 msgid ""
@@ -2566,104 +2566,104 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:607
+#: src/SpectacleCore.cpp:605
 #, kde-format
 msgctxt "@action:button"
 msgid "Open in Text Editor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:748
+#: src/SpectacleCore.cpp:746
 #, kde-format
 msgctxt "@info"
 msgid "Please select a region before extracting text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:770
+#: src/SpectacleCore.cpp:768
 #, kde-format
 msgctxt "@info"
 msgid "OCR is not available."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:776
+#: src/SpectacleCore.cpp:774
 #, kde-format
 msgctxt "@info"
 msgid "No screenshot available."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:780
+#: src/SpectacleCore.cpp:778
 #, kde-format
 msgctxt "@info"
 msgid "Extracting text from image..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1044
+#: src/SpectacleCore.cpp:1042
 #, kde-format
 msgctxt "@info:shell"
 msgid "%1 is not a valid mode for --record"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1282
+#: src/SpectacleCore.cpp:1280
 #, kde-format
 msgctxt "%1 is the filename, %2 the path to the save location"
 msgid "A screenshot was saved as '%1' to '%2' and the file path of the screenshot has been saved to your clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1286
+#: src/SpectacleCore.cpp:1284
 #, kde-format
 msgctxt "%1 is the filename"
 msgid "A screenshot was saved as '%1' to your Pictures folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1289
+#: src/SpectacleCore.cpp:1287
 #, kde-format
 msgctxt "%1 is the filename, %2 the path to the save location"
 msgid "A screenshot was saved as '%1' to '%2'."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1293
+#: src/SpectacleCore.cpp:1291
 #, kde-format
 msgid "A screenshot was saved to your clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1298
+#: src/SpectacleCore.cpp:1296
 #, kde-format
 msgctxt "%1 is the filename, %2 the path to the save location"
 msgid "A recording was saved as '%1' to '%2' and the file path of the recording has been saved to your clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1300
+#: src/SpectacleCore.cpp:1298
 #, kde-format
 msgctxt "%1 is the filename"
 msgid "A recording was saved as '%1' to your Videos folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1302
+#: src/SpectacleCore.cpp:1300
 #, kde-format
 msgctxt "%1 is the filename, %2 the path to the save location"
 msgid "A recording was saved as '%1' to '%2'."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1313
+#: src/SpectacleCore.cpp:1311
 #, kde-format
 msgctxt "Open the screenshot we just saved"
 msgid "Open"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1327
+#: src/SpectacleCore.cpp:1325
 #, kde-format
 msgid "Annotate"
 msgstr ""
