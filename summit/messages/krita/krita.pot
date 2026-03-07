@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-06 09:59+0100\n"
+"POT-Creation-Date: 2026-03-07 09:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -40267,14 +40267,14 @@ msgid "Filter \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/toolbox/KoToolBox.cpp:349 libs/widgetutils/xmlgui/ktoolbar.cpp:346
+#: libs/ui/toolbox/KoToolBox.cpp:360 libs/widgetutils/xmlgui/ktoolbar.cpp:346
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/toolbox/KoToolBox.cpp:356
+#: libs/ui/toolbox/KoToolBox.cpp:367
 #, kde-format
 msgid "%1x%2"
 msgstr ""
@@ -40285,8 +40285,14 @@ msgstr ""
 msgid "Toolbox"
 msgstr ""
 
+#. +> trunk6
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:183
+#, kde-format
+msgid "Compact"
+msgstr ""
+
 #. +> trunk6 stable6
-#: libs/ui/toolbox/KoToolBoxDocker.cpp:148
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:188
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:73
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:173
 #: libs/widgetutils/xmlgui/ktoolbar.cpp:344
@@ -40296,31 +40302,59 @@ msgid "Icon Size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/toolbox/KoToolBoxDocker.cpp:151
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:191
 #, kde-format
 msgctxt "Toolbox layout"
 msgid "Layout"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/toolbox/KoToolBoxDocker.cpp:154
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:194
 #, kde-format
 msgctxt "@item:inmenu Toolbox layout direction"
 msgid "&Automatic"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/toolbox/KoToolBoxDocker.cpp:161
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:201
 #, kde-format
 msgctxt "@item:inmenu Toolbox layout direction"
 msgid "&Left-to-right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/toolbox/KoToolBoxDocker.cpp:168
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:208
 #, kde-format
 msgctxt "@item:inmenu Toolbox layout direction"
 msgid "&Right-to-left"
+msgstr ""
+
+#. +> trunk6
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:227
+#, kde-format
+msgctxt "Toolbox orientation"
+msgid "Orientation"
+msgstr ""
+
+#. +> trunk6
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:230
+#, kde-format
+msgctxt "@item:inmenu Toolbox orientation"
+msgid "&Automatic"
+msgstr ""
+
+#. +> trunk6
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:237
+#, kde-format
+msgctxt "@item:inmenu Toolbox orientation"
+msgid "&Horizontal"
+msgstr ""
+
+#. +> trunk6
+#: libs/ui/toolbox/KoToolBoxDocker.cpp:244
+#, kde-format
+msgctxt "@item:inmenu Toolbox orientation"
+msgid "&Vertical"
 msgstr ""
 
 #. +> trunk6 stable6

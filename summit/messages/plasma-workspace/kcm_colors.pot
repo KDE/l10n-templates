@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-31 15:35+0100\n"
+"POT-Creation-Date: 2026-03-07 09:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -782,10 +782,10 @@ msgid ""
 "Do you want to overwrite it?"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: editor/scmeditordialog.cpp:178
 #, kde-format
-msgid "You do not have permission to overwrite that scheme"
+msgid "This scheme is read-only. Please save the modifications with another name."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -794,8 +794,14 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
+#. +> stable6 stable5
+#: editor/scmeditordialog.cpp:178
+#, kde-format
+msgid "You do not have permission to overwrite that scheme"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: editor/scmeditordialog.cpp:193
+#: editor/scmeditordialog.cpp:194
 #, kde-format
 msgid "Inactive"
 msgstr ""

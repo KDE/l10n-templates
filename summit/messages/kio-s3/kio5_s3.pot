@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio-s3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-05 11:07+0100\n"
+"POT-Creation-Date: 2026-03-07 09:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,8 +17,155 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. +> trunk6
+#: kcm/ui/main.qml:25
+#, kde-format
+msgid "No S3 profiles configured"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:26
+#, kde-format
+msgid "Add a profile to connect to an S3-compatible storage backend"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:30 kcm/ui/main.qml:37
+#, kde-format
+msgid "Add Profile…"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:72
+#, kde-format
+msgid "Default AWS endpoint"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:89
+#, kde-format
+msgid "Edit"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:94 kcm/ui/main.qml:245
+#, kde-format
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:105
+#, kde-format
+msgid "Add S3 Profile"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:105
+#, kde-format
+msgid "Edit S3 Profile"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:116
+#, kde-format
+msgid "Add"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:116
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:147
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:148
+#, kde-format
+msgid "e.g., My S3 Storage"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:155
+#, kde-format
+msgid "Endpoint URL:"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:156
+#, kde-format
+msgid "e.g., https://s3.example.com"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:164
+#, kde-format
+msgid "Region:"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:165
+#, kde-format
+msgid "e.g., us-east-1, auto"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:171
+#, kde-format
+msgctxt "@title:group"
+msgid "Authentication"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:180
+#, kde-format
+msgid "AWS Profile:"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:181
+#, kde-format
+msgid "Profile from ~/.aws/credentials"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:187
+#, kde-format
+msgctxt "@title:group"
+msgid "Advanced"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:196
+#, kde-format
+msgid "Advanced"
+msgstr ""
+
+#. i18n("Addressing:")
+#. +> trunk6
+#: kcm/ui/main.qml:202
+#, kde-format
+msgid "Use path-style S3 URLs"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:238
+#, kde-format
+msgid "Delete Profile"
+msgstr ""
+
+#. +> trunk6
+#: kcm/ui/main.qml:239
+#, kde-format
+msgid "Are you sure you want to delete the profile \"%1\"?"
+msgstr ""
+
 #. +> trunk6 stable5
-#: s3backend.cpp:30
+#: s3backend.cpp:32
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -27,15 +174,29 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable5
-#: s3backend.cpp:91
+#: s3backend.cpp:127 s3backend.cpp:136
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not find S3 buckets, please check your AWS configuration."
 msgstr ""
 
+#. +> trunk6
+#: s3backend.cpp:353
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot copy between different S3 profiles. Copy the file locally first."
+msgstr ""
+
 #. +> trunk6 stable5
-#: s3backend.cpp:350
+#: s3backend.cpp:396
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not copy <link>%1</link> to <link>%2</link>"
+msgstr ""
+
+#. +> trunk6
+#: s3backend.cpp:519 s3backend.cpp:580
+#, kde-format
+msgctxt "@info"
+msgid "Could not retrieve the complete file listing. Some files may not be shown."
 msgstr ""
