@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:03+0000\n"
+"POT-Creation-Date: 2026-03-07 00:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15,13 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Tag: title
-#: viewer.docbook:10 viewer.docbook:25
+#: viewer.docbook:11 viewer.docbook:93
 #, no-c-format
 msgid "The Viewer"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:11
+#: viewer.docbook:12
 #, no-c-format
 msgid ""
 "The reason for you to put all your images into &kphotoalbum;, and spending "
@@ -31,173 +31,520 @@ msgid ""
 "as described in <xref linkend=\"chp-thumbnail-view\"/>."
 msgstr ""
 
-#. Tag: para
-#: viewer.docbook:18
-#, no-c-format
-msgid ""
-"The viewer can be seen in <xref linkend=\"fig-viewer\"/>. The viewer does of "
-"course show you the image, but in addition to that it also shows you the "
-"information you specified for each image, including, who is on the images, "
-"where and when it was takes, &etc;"
-msgstr ""
-
-#. Tag: para
-#: viewer.docbook:33
-#, no-c-format
-msgid ""
-"In case the info box is located on top of part of the images you actually "
-"want to see, you can simply grab it with the mouse, and move it elsewhere on "
-"the image. It is possible to configure what should be shown in the info box, "
-"and of course whether it should be shown at all. All these options are "
-"available by right clicking your mouse on the viewer. The context menu can "
-"be seen in <xref linkend=\"fig-viewer-contextmenu\"/> below."
-msgstr ""
-
 #. Tag: title
-#: viewer.docbook:42
+#: viewer.docbook:20
 #, no-c-format
-msgid "The viewer's context menu"
+msgid "Common Viewer Commands"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:50
+#: viewer.docbook:21
 #, no-c-format
 msgid ""
-"Some of the words in the info box is underlines. If you click the mouse on "
-"one of these words the browser (see <xref linkend=\"chp-browsing\"/>) will "
-"go into scope of that item. Thus if you click on <literal>Anne Helene</"
-"literal> the browser will show you all images of Anne Helene, just as it "
-"would have done if you selected <literal>People</literal> from the root of "
-"the browser, and next selected <literal>Anne Helene</literal>."
+"The viewer supports both images and videos. The following commands are "
+"supported for both images and videos:"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:27
+#, no-c-format
+msgid "Press <keycap>Esc</keycap> to close the viewer window."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:32
+#, no-c-format
+msgid ""
+"Press either <keycap>Page Down</keycap> or the <keycap>Space</keycap> bar to "
+"move to the next image or video, and press <keycap>Page Up</keycap> to move "
+"to the previous image or video."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:39
+#, no-c-format
+msgid ""
+"Press <keycombo>&Ctrl;<keycap>1</keycap></keycombo> to open the <link "
+"linkend=\"chp-typingIn\">annotation dialog</link> for the current image or "
+"video."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:46
+#, no-c-format
+msgid ""
+"Press <keycombo>&Ctrl;<keycap>4</keycap></keycombo> to set the image or "
+"video as the first in its stack (if it is already part of a stack)."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:52
+#, no-c-format
+msgid ""
+"Press <keycombo>&Ctrl;<keycap>d</keycap></keycombo> to edit the image "
+"description."
 msgstr ""
 
 #. Tag: para
 #: viewer.docbook:58
 #, no-c-format
 msgid ""
-"In the info box you can see a small button with the &kphotoalbum; logo. "
-"Pressing that button will get you to the thumbnail viewer. The thumbnail "
-"view will display all images, and the image you just had in the viewer will "
-"be selected. The idea behind this is the following: you browse to a given "
-"person, and look at the images of that person. One of the images is from say "
-"your high school time, and now you want to see images from that period of "
-"time. Using the <guilabel>Jump to Context</guilabel> button, you are brought "
-"to the thumbnail view showing all images, with the current one being in "
-"focus, and likely all your high school pictures around it."
+"Press either <keycap>&Enter;</keycap> or <keycap>F11</keycap> to toggle full "
+"screen mode while viewing an image or video."
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:69
+#: viewer.docbook:63
 #, no-c-format
 msgid ""
-"In case you have loaded several images into the viewer, you can go forth and "
-"back using <keycap>Page Up</keycap> and <keycap>Page Down</keycap>. You can "
-"go to the first and last images using <keycap>Home</keycap> and <keycap>End</"
-"keycap>. These functions are of course also available from the context menu."
+"Press <keycap>Delete</keycap> to remove the current image or video from the "
+"viewer list (as if you hadn't selected it for viewing) and advance to the "
+"next item in the viewer list. If the last image or video in the viewer list "
+"is removed, the viewer window is closed."
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:75
+#: viewer.docbook:70
 #, no-c-format
 msgid ""
-"If several images was loaded into the viewer, you can ask it to run them as "
-"a slide show, which means that &kphotoalbum; loads a new image every few "
-"second. How often it loads a new image is configure by pressing the control "
-"key and respective plus (for go faster) or minus (go slower). Starting and "
-"stopping the slide show is done simply by pressing <keycombo>&Ctrl;"
-"<keycap>S</keycap></keycombo>."
-msgstr ""
-
-#. Tag: para
-#: viewer.docbook:82
-#, no-c-format
-msgid ""
-"A very useful feature of the &kphotoalbum; viewer is it ability to go into "
-"full screen mode. In this mode, the viewer is using the complete screen "
-"space, simply press the return key to make it go into and out of full screen "
-"mode."
-msgstr ""
-
-#. Tag: para
-#: viewer.docbook:87
-#, no-c-format
-msgid ""
-"Using the viewer, you may zoom in and out of your image, simply by dragging "
-"out a rectangle with the mouse. Pressing the minus key will zoom out again. "
-"Pressing the plus key will zoom in at the center of the image. <xref linkend="
-"\"fig-marking-zoom-rectangle\"/> below shows how a zoom rectangle is marked, "
-"and <xref linkend=\"fig-zoomed-view\"/> shows the result of the zoom."
-msgstr ""
-
-#. Tag: para
-#: viewer.docbook:94
-#, no-c-format
-msgid ""
-"Pressing the period key, lets you reset zooming, so the image is shown un-"
-"zoomed. Pressing the equal sign will set the zoom level so each pixel on the "
-"screen correspond to a pixel in the image."
-msgstr ""
-
-#. Tag: para
-#: viewer.docbook:98
-#, no-c-format
-msgid ""
-"Notice, for technical the only zooming operation that works when watching "
-"videos are zoom in and out (the plus and minus key)."
+"Press <keycombo>&Ctrl;<keycap>Delete</keycap></keycombo> to add the current "
+"image or video to the viewer's deletion list. When the viewer window is "
+"closed, &kphotoalbum; will open the <emphasis>Removing Items</emphasis> "
+"dialog if the deletion list is not empty."
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:102 viewer.docbook:112
+#: viewer.docbook:80
 #, no-c-format
-msgid "Zooming in the viewer"
+msgid "Viewing Images"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:121
+#: viewer.docbook:81
 #, no-c-format
 msgid ""
-"Choosing the rotate operations from the context menu, you may rotate the "
-"image (Does not work for videos). You can annotate the current image, simply "
-"by choosing <guimenuitem>Annotate</guimenuitem> in the context menu."
+"See <xref linkend=\"sect-viewer-common-commands\"/> for viewer commands "
+"supported for both images and videos."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:86
+#, no-c-format
+msgid ""
+"The viewer can be seen in <xref linkend=\"fig-viewer\"/>. The viewer does of "
+"course show you the image, but in addition to that it also shows you the "
+"information you specified for each image, including who is in the image, "
+"where and when it was taken, &etc;"
 msgstr ""
 
 #. Tag: title
+#: viewer.docbook:102
+#, no-c-format
+msgid "The Info Box"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:104
+#, no-c-format
+msgid ""
+"The viewer provides an info box which can be overlaid on top of the image. "
+"The info box is positioned at the bottom center in <xref linkend=\"fig-viewer"
+"\"/>."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:109
+#, no-c-format
+msgid ""
+"If the info box is located on top of part of the image you actually want to "
+"see, you can click the &LMB; on the info box and drag it elsewhere on the "
+"image. Press <keycombo>&Ctrl;<keycap>i</keycap></keycombo> to toggle the "
+"info box on or off."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:115
+#, no-c-format
+msgid ""
+"It is possible to configure what should be shown in the info box, and of "
+"course whether it should be shown at all. All these options are available by "
+"clicking the &RMB; on the viewer. The context menu can be seen in <xref "
+"linkend=\"fig-viewer-contextmenu\"/> below."
+msgstr ""
+
+#. Tag: title
+#: viewer.docbook:122
+#, no-c-format
+msgid "The viewer's context menu"
+msgstr ""
+
+#. Tag: para
 #: viewer.docbook:130
 #, no-c-format
-msgid "Annotating images from the viewer"
-msgstr ""
-
-#. Tag: para
-#: viewer.docbook:131
-#, no-c-format
 msgid ""
-"Traditionally the main way for tagging images has been though <link linkend="
-"\"chp-typingIn\">the annotation dialog</link>. Over the years a few "
-"different attempts have been made at integrating tagging into the viewer, "
-"first attempt was by assigning tokens in the viewer, a later attempt was by "
-"making it possible to tag directly by typing part of a category item. In "
-"addition category items could be assigned to function keys on the keyboard. "
-"The code for all of this have now been modernized to make the work flow much "
-"more intuitive and discover-able."
-msgstr ""
-
-#. Tag: para
-#: viewer.docbook:136
-#, no-c-format
-msgid "There are three modes to annotating images in the viewer:"
+"Some of the words in the info box are underlined. If you click the &LMB; on "
+"one of these words, the browser (see <xref linkend=\"chp-browsing\"/>) will "
+"go into the scope of that item. For example, in the demo if you click on "
+"<literal>Anne Helene</literal> in the info box, the browser will show you "
+"all images of Anne Helene, just as it would have done if you selected "
+"<literal>People</literal> from the root of the browser, and next selected "
+"<literal>Anne Helene</literal>."
 msgstr ""
 
 #. Tag: para
 #: viewer.docbook:138
 #, no-c-format
 msgid ""
-"<emphasis>Locked</emphasis> - This is the default mode when starting the "
-"viewer - in here no annotating or tokenizing will happen. This ensure you do "
-"not accidentally annotates images when viewing them."
+"In the top right-hand corner of the info box you can see a small "
+"<emphasis>Jump to Context</emphasis> button with the &kphotoalbum; logo. "
+"Clicking the &LMB; on this button will navigate to the <xref linkend=\"chp-"
+"thumbnail-view\"/>. The thumbnail view will display all images, and the "
+"image you just had in the viewer will be selected. The idea behind this is "
+"the following: you browse to a given person, and look at the images of that "
+"person. One of the images is from say your high school time, and now you "
+"want to see images from that period of time. Using the <guilabel>Jump to "
+"Context</guilabel> button, you are brought to the thumbnail view showing all "
+"images, with the current one being in focus and likely all your high school "
+"pictures around it."
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:139
+#: viewer.docbook:149
+#, no-c-format
+msgid ""
+"If the current image has geolocation coordinates, you will see a map button "
+"below the <guilabel>Jump to Context</guilabel> button in the info box. "
+"Clicking the &LMB; on this button will open a new window with a map showing "
+"where the photograph was taken."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:157
+#, no-c-format
+msgid ""
+"The map button is only displayed if &kphotoalbum; was compiled with &marble; "
+"support."
+msgstr ""
+
+#. Tag: title
+#: viewer.docbook:163
+#, no-c-format
+msgid "Viewing More Images"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:164
+#, no-c-format
+msgid ""
+"In case you have loaded several images into the viewer, in addition to "
+"moving forward and backward using <keycap>Page Up</keycap> and <keycap>Page "
+"Down</keycap> keys, respectively, you can go to the first and last images "
+"using <keycap>Home</keycap> and <keycap>End</keycap>. These functions are of "
+"course also available from the context menu."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:170
+#, no-c-format
+msgid ""
+"Alternatively, you can display multiple images as a slide show. In slide "
+"show mode, &kphotoalbum; loads a new image into the viewer every few "
+"seconds. Press <keycombo>&Ctrl;<keycap>r</keycap></keycombo> to toggle the "
+"slide show on or off. Press <keycombo>&Ctrl;<keycap>+</keycap></keycombo> to "
+"make the slide show go faster or <keycombo>&Ctrl;<keycap>-</keycap></"
+"keycombo> to make it go slower."
+msgstr ""
+
+#. Tag: title
+#: viewer.docbook:181
+#, no-c-format
+msgid "Zooming In and Out"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:182
+#, no-c-format
+msgid ""
+"Using the viewer, you may zoom in and out of your image by dragging out a "
+"rectangle with the &LMB;. Pressing the <keycap>minus</keycap> key will zoom "
+"out again. Pressing the <keycap>plus</keycap> key will zoom in at the center "
+"of the image. <xref linkend=\"fig-marking-zoom-rectangle\"/> below shows how "
+"a zoom rectangle is marked, and <xref linkend=\"fig-zoomed-view\"/> shows "
+"the result of the zoom."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:189
+#, no-c-format
+msgid ""
+"Press the <keycap>period</keycap> key to reset the zoom level so the image "
+"is shown at its normal size. Pressing the <keycap>=</keycap> key will set "
+"the zoom level so each pixel on the screen correspond to a pixel in the "
+"image."
+msgstr ""
+
+#. Tag: title
+#: viewer.docbook:194 viewer.docbook:204
+#, no-c-format
+msgid "Zooming in the viewer"
+msgstr ""
+
+#. Tag: title
+#: viewer.docbook:215
+#, no-c-format
+msgid "Rotating Images"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:216
+#, no-c-format
+msgid ""
+"Press the <keycap>7</keycap> key to rotate the image 90 degrees to the left. "
+"The <keycap>9</keycap> key rotates the image 90 degrees to the right. The "
+"<keycap>8</keycap> key rotates the image 180 degrees (&ie; flips it upside "
+"down)."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:222
+#, no-c-format
+msgid "Any change to an image's rotation in the viewer is persistent."
+msgstr ""
+
+#. Tag: title
+#: viewer.docbook:228
+#, no-c-format
+msgid "Viewing Videos"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:229
+#, no-c-format
+msgid ""
+"See <xref linkend=\"sect-viewer-common-commands\"/> for viewer commands "
+"supported for both videos and images."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:234
+#, no-c-format
+msgid ""
+"When a video is loaded into the viewer, the video starts playing "
+"automatically. Press the <keycap>p</keycap> key to pause the video, and "
+"press it again to resume video playback."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:240
+#, no-c-format
+msgid ""
+"Press <keycap>Home</keycap> to restart the current video from the beginning, "
+"and <keycap>End</keycap> stops the current video and rewinds it to the "
+"beginning."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:246
+#, no-c-format
+msgid "Some viewer features are not available when viewing a video:"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:249
+#, no-c-format
+msgid "The info box can not be displayed on a video."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:252
+#, no-c-format
+msgid ""
+"Zooming operations other than toggling full-screen mode are not supported "
+"for videos."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:255
+#, no-c-format
+msgid "Rotation operations are not supported for videos."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:258
+#, no-c-format
+msgid "Slide show mode is not supported for videos."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:264
+#, no-c-format
+msgid ""
+"Both tokens (see <xref linkend=\"assigning-tokens-from-the-viewer\"/>) and "
+"tags (see <xref linkend=\"annotating-from-the-viewer\"/>) can be toggled "
+"when a video is displayed in the viewer, but there is no immediate user "
+"feedback that anything has changed. You can set the viewer annotation mode "
+"to <emphasis>Locked</emphasis> to avoid accidentally toggling a token or tag."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:274
+#, no-c-format
+msgid ""
+"As noted above, the <keycap>p</keycap> key is used to toggle pause so it is "
+"not possible to use this key to toggle a token or tag while viewing a video."
+msgstr ""
+
+#. Tag: title
+#: viewer.docbook:281
+#, no-c-format
+msgid "Video Seeking"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:282
+#, no-c-format
+msgid ""
+"The viewer supports seeking within a video. The key bindings are listed in "
+"the <xref linkend=\"table-video-seek-controls\"/>."
+msgstr ""
+
+#. Tag: title
+#: viewer.docbook:287
+#, no-c-format
+msgid "Video Seek Controls"
+msgstr ""
+
+#. Tag: entry
+#: viewer.docbook:291
+#, no-c-format
+msgid "Seek Duration"
+msgstr ""
+
+#. Tag: entry
+#: viewer.docbook:292
+#, no-c-format
+msgid "Seek Backward"
+msgstr ""
+
+#. Tag: entry
+#: viewer.docbook:293
+#, no-c-format
+msgid "Seek Forward"
+msgstr ""
+
+#. Tag: entry
+#: viewer.docbook:298
+#, no-c-format
+msgid "100 msec"
+msgstr ""
+
+#. Tag: keycombo
+#: viewer.docbook:299
+#, no-c-format
+msgid "&Shift;<keycap>&Up;</keycap>"
+msgstr ""
+
+#. Tag: keycombo
+#: viewer.docbook:300
+#, no-c-format
+msgid "&Shift;<keycap>&Down;</keycap>"
+msgstr ""
+
+#. Tag: entry
+#: viewer.docbook:303
+#, no-c-format
+msgid "1 sec"
+msgstr ""
+
+#. Tag: keycap
+#: viewer.docbook:304
+#, no-c-format
+msgid "&Up;"
+msgstr ""
+
+#. Tag: keycap
+#: viewer.docbook:305
+#, no-c-format
+msgid "&Down;"
+msgstr ""
+
+#. Tag: entry
+#: viewer.docbook:308
+#, no-c-format
+msgid "10 sec"
+msgstr ""
+
+#. Tag: keycap
+#: viewer.docbook:309
+#, no-c-format
+msgid "&Left;"
+msgstr ""
+
+#. Tag: keycap
+#: viewer.docbook:310
+#, no-c-format
+msgid "&Right;"
+msgstr ""
+
+#. Tag: entry
+#: viewer.docbook:313
+#, no-c-format
+msgid "1 minute"
+msgstr ""
+
+#. Tag: keycombo
+#: viewer.docbook:314
+#, no-c-format
+msgid "&Shift;<keycap>&Left;</keycap>"
+msgstr ""
+
+#. Tag: keycombo
+#: viewer.docbook:315
+#, no-c-format
+msgid "&Shift;<keycap>&Right;</keycap>"
+msgstr ""
+
+#. Tag: entry
+#: viewer.docbook:318
+#, no-c-format
+msgid "10 minutes"
+msgstr ""
+
+#. Tag: keycombo
+#: viewer.docbook:319
+#, no-c-format
+msgid "&Ctrl;<keycap>&Left;</keycap>"
+msgstr ""
+
+#. Tag: keycombo
+#: viewer.docbook:320
+#, no-c-format
+msgid "&Ctrl;<keycap>&Right;</keycap>"
+msgstr ""
+
+#. Tag: title
+#: viewer.docbook:329
+#, no-c-format
+msgid "Annotating images from the viewer"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:330
+#, no-c-format
+msgid "There are three modes to annotating images in the viewer:"
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:332
+#, no-c-format
+msgid ""
+"<emphasis>Locked</emphasis> - This is the default mode when starting the "
+"viewer - in here no annotating or tokenizing will happen. This ensure you do "
+"not accidentally annotate images when viewing them."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:333
 #, no-c-format
 msgid ""
 "<emphasis>Assign Tokens</emphasis> - This allows you to set tokens on "
@@ -205,7 +552,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:140
+#: viewer.docbook:334
 #, no-c-format
 msgid ""
 "<emphasis>Assign Tags</emphasis> - This allows you to assign macros to a "
@@ -215,7 +562,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:142
+#: viewer.docbook:336
 #, no-c-format
 msgid ""
 "The modes are selected from the context menu as can be seen in <xref linkend="
@@ -223,25 +570,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:145
+#: viewer.docbook:339
 #, no-c-format
 msgid "The two modes are described in details below."
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:150
+#: viewer.docbook:344
 #, no-c-format
 msgid "Selecting annotation mode from the viewer"
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:165
+#: viewer.docbook:359
 #, no-c-format
 msgid "Setting Tokens from the Viewer"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:166
+#: viewer.docbook:360
 #, no-c-format
 msgid ""
 "Imagine you want to sent a number of images to a printer to get them "
@@ -251,7 +598,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:170
+#: viewer.docbook:364
 #, no-c-format
 msgid ""
 "You may of course create a few new items (say <emphasis>Good</emphasis>, "
@@ -265,13 +612,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:176
+#: viewer.docbook:370
 #, no-c-format
 msgid "An Image with Tokens"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:185
+#: viewer.docbook:379
 #, no-c-format
 msgid ""
 "For this to work, you need to be in the <emphasis>Assign Tokens</emphasis> "
@@ -279,7 +626,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:187
+#: viewer.docbook:381
 #, no-c-format
 msgid ""
 "Once you've set tokens on your images, they will be available for regular "
@@ -290,13 +637,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:193
+#: viewer.docbook:387
 #, no-c-format
 msgid "Tokens seen in the Browser"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:202
+#: viewer.docbook:396
 #, no-c-format
 msgid ""
 "Categories (and esp tokens) may be displayed in the thumbnail viewer. When "
@@ -307,19 +654,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:209
+#: viewer.docbook:403
 #, no-c-format
 msgid "Tokens seen in the Thumbnail Viewer"
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:223
+#: viewer.docbook:417
 #, no-c-format
 msgid "Tagging images from the viewer"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:224
+#: viewer.docbook:418
 #, no-c-format
 msgid ""
 "Tagging images can be tiresome, even in &kphotoalbum;, at least when you've "
@@ -333,17 +680,17 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:227
+#: viewer.docbook:421
 #, no-c-format
 msgid ""
 "To tag your images while viewing them, you need to enter the "
 "<emphasis>Assign Tags mode</emphasis> - see <xref linkend=\"fig-ctxmenu-for-"
-"mode-selection\"/>. With this enable, simply press a letter key on your "
+"mode-selection\"/>. With this enabled, simply press a letter key on your "
 "keyboard to either assign or use the assigned tag."
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:230
+#: viewer.docbook:424
 #, no-c-format
 msgid ""
 "In <xref linkend=\"fig-assign-macro-step1\"/> below, I've just pressed "
@@ -353,13 +700,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:233
+#: viewer.docbook:427
 #, no-c-format
 msgid "Step 1 - assigning a macro to the key <emphasis>s</emphasis>"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:239
+#: viewer.docbook:433
 #, no-c-format
 msgid ""
 "Next, in the line edit I typed <emphasis>sp</emphasis> which suggest "
@@ -373,13 +720,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:244
+#: viewer.docbook:438
 #, no-c-format
 msgid "Step 2 - assigning a macro - typing <emphasis>sp</emphasis>"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:250
+#: viewer.docbook:444
 #, no-c-format
 msgid ""
 "In <xref linkend=\"fig-assign-macro-overview\"/> below you can see existing "
@@ -387,13 +734,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:252
+#: viewer.docbook:446
 #, no-c-format
 msgid "Overview of assigned key bindings"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:258
+#: viewer.docbook:452
 #, no-c-format
 msgid ""
 "In case the tag you want to assign doesn't already exist in your database, "
@@ -402,16 +749,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: viewer.docbook:261
+#: viewer.docbook:455
 #, no-c-format
 msgid "Adding a new tag"
 msgstr ""
 
 #. Tag: para
-#: viewer.docbook:267
+#: viewer.docbook:461
 #, no-c-format
 msgid ""
-"While tagging images from the viewer, you may want to add a tag, without "
+"While tagging images from the viewer, you may want to add a tag without "
 "binding it to a key. To do so simply press <keycombo>&Ctrl;<keycap>a</"
-"keycap></keycombo>"
+"keycap></keycombo>. This is also how you open the dialog to see the macro "
+"key bindings."
+msgstr ""
+
+#. Tag: para
+#: viewer.docbook:465
+#, no-c-format
+msgid ""
+"Press <keycombo>&Ctrl;<keycap>c</keycap></keycombo> to copy annotations from "
+"the previous image in the viewer list."
 msgstr ""
