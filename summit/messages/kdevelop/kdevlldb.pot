@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-20 14:05+0100\n"
+"POT-Creation-Date: 2026-03-08 01:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29,29 +29,13 @@ msgstr ""
 msgid "LLDB"
 msgstr ""
 
-#. +> stable6
-#: debugsession.cpp:119
-#, kde-format
-msgid "Attempting to execute user command on unsupported LLDB version"
-msgstr ""
-
 #. +> trunk6 stable6
 #: debugsession.cpp:300
 #, kde-format
 msgid "<b>Error connecting to remote target:</b><br />"
 msgstr ""
 
-#. +> stable6
-#: debugsession.cpp:345
-#, kde-format
-msgid ""
-"<b>Your lldb-mi version is unsupported, as it lacks an essential patch.</b><br/>"
-"See https://llvm.org/bugs/show_bug.cgi?id=28026 for more information.<br/>"
-"Debugger console will be disabled to prevent crash.<br/>"
-"Do you want to continue?"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: debugsession.cpp:347
 #, kde-format
 msgid ""
@@ -59,26 +43,12 @@ msgid ""
 "Your <code>lldb-mi</code> sent the following reply to a CLI command <code>version</code>:<br />"
 msgstr ""
 
-#. +> stable6
-#: debugsession.cpp:349
-#, kde-format
-msgid "LLDB Version Unsupported"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: debugsession.cpp:356
 #, kde-format
 msgid ""
 "Your <code>lldb-mi</code> must use LLDB version %1 or later.<br />"
 "But it is currently using LLDB version %2"
-msgstr ""
-
-#. +> stable6
-#: debugsession.cpp:395
-#, kde-format
-msgid ""
-"<b>You need lldb-mi from LLDB 3.8.1 or higher.</b><br />"
-"You are using: %1"
 msgstr ""
 
 #. i18n: ectx: ToolBar (debugToolBar)

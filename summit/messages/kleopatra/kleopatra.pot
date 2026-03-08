@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-06 09:59+0100\n"
+"POT-Creation-Date: 2026-03-08 01:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1253,13 +1253,6 @@ msgctxt "@info"
 msgid "Successfully generated an OpenPGP key from the card keys."
 msgstr ""
 
-#. +> stable6
-#: src/commands/decryptverifyclipboardcommand.cpp:134
-#, kde-format
-msgctxt "@info"
-msgid "Decrypting/Verifying clipboard…"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/commands/decryptverifyclipboardcommand.cpp:145
 #, kde-format
@@ -1969,7 +1962,7 @@ msgid_plural "%1 subkeys were exported successfully."
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:71
 #: src/commands/exportsecretteamkeycommand.cpp:264
 #, kde-format
@@ -1977,21 +1970,21 @@ msgctxt "@title:window"
 msgid "Save Secret Team Key"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:147
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Save Secret Team Key"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:151
 #, kde-format
 msgctxt "@info"
 msgid "After importing the team key, team members will be able to decrypt data with it."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:154
 #, kde-format
 msgctxt "@info"
@@ -2000,42 +1993,42 @@ msgid ""
 "Alternatively, they can use their personal key for signing."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:164
 #, kde-format
 msgctxt "@option:check"
 msgid "Allow team members to sign with the team key"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:169
 #, kde-format
 msgctxt "@info"
 msgid "Team members will not be able to change the name, email address, or expiration date of the team key."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:218
 #, kde-format
 msgctxt "@info:status"
 msgid "Saving secret team key..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:237
 #, kde-format
 msgctxt "@info"
 msgid "The result is empty. Maybe you entered an empty or a wrong passphrase."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:264
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The secret team key was saved to <filename>%1</filename>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/exportsecretteamkeycommand.cpp:272
 #, kde-kuit-format
 msgctxt "@info"
@@ -2255,13 +2248,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Could not determine certificate type of clipboard contents. Nothing imported."
-msgstr ""
-
-#. +> stable6
-#: src/commands/importcertificatefromclipboardcommand.cpp:96
-#, kde-format
-msgctxt "@info"
-msgid "Importing certificate from clipboard…"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2511,21 +2497,21 @@ msgstr ""
 msgid "Detailed results of import:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:276
 #, kde-format
 msgctxt "@info"
 msgid "You have imported a shared secret key."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:277
 #, kde-format
 msgctxt "@info"
 msgid "In order to use this shared secret key you should certify it. "
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:278
 #, kde-format
 msgctxt "@info"
@@ -2539,7 +2525,7 @@ msgstr ""
 msgid "Do you wish to start this process now?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:280
 #, kde-format
 msgctxt "@title"
@@ -2564,7 +2550,7 @@ msgstr ""
 msgid "Confirming it on a trusted website."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:287
 #, kde-format
 msgctxt "@info"
@@ -2589,18 +2575,11 @@ msgstr ""
 msgid "Some suggestions to do this are:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:293
 #, kde-format
 msgctxt "@title"
 msgid "Certify new certificate?"
-msgstr ""
-
-#. +> stable6
-#: src/commands/importcertificatescommand.cpp:283
-#, kde-format
-msgctxt "@title"
-msgid "You have imported a new certificate (public key)"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2611,7 +2590,7 @@ msgctxt "@action:button"
 msgid "Certify"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:299
 #, kde-format
 msgctxt "@action:button"
@@ -2673,7 +2652,7 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:553
 #, kde-kuit-format
 msgctxt "@info"
@@ -2693,7 +2672,7 @@ msgid ""
 "<item>%2</item>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:573
 #, kde-kuit-format
 msgctxt "@info"
@@ -2706,20 +2685,7 @@ msgid ""
 "<para>Are you the only user of this secret key?</para>"
 msgstr ""
 
-#. +> stable6
-#: src/commands/importcertificatescommand.cpp:519
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>You have imported a certificate with fingerprint</para>"
-"<para><numid>%1</numid></para>"
-"<para>and user IDs"
-"<list>%2</list>"
-"</para>"
-"<para>Is this your own certificate?</para>"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:587
 #: src/dialogs/certifywidget.cpp:193
 #, kde-format
@@ -2727,25 +2693,11 @@ msgctxt "@action:button"
 msgid "Yes, I am the only user"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:588
 #, kde-format
 msgctxt "@action:button"
 msgid "No, others also use this key"
-msgstr ""
-
-#. +> stable6
-#: src/commands/importcertificatescommand.cpp:532
-#, kde-format
-msgctxt "@action:button"
-msgid "Yes, It's Mine"
-msgstr ""
-
-#. +> stable6
-#: src/commands/importcertificatescommand.cpp:533
-#, kde-format
-msgctxt "@action:button"
-msgid "No, It's Not Mine"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4062,7 +4014,7 @@ msgstr ""
 msgid "GnuPG System"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/conf/configuredialog.cpp:76
 #, kde-format
 msgctxt "@label"
@@ -4118,7 +4070,7 @@ msgctxt "@info"
 msgid "Set this option to avoid using the users temporary directory."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/conf/cryptooperationsconfigwidget.cpp:67
 #, kde-format
 msgctxt "@title"
@@ -4153,7 +4105,7 @@ msgctxt "@info"
 msgid "Set this option to disable password-based encryption."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/conf/cryptooperationsconfigwidget.cpp:73
 #, kde-format
 msgctxt "@option:check"
@@ -4199,25 +4151,18 @@ msgstr ""
 msgid "OpenPGP keyserver:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/conf/dirservconfigpage.cpp:188
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Enter the address of the keyserver to use when searching for OpenPGP certificates and when uploading OpenPGP certificates."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/conf/dirservconfigpage.cpp:193
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Enter the address of the keyserver to use when searching for OpenPGP certificates and when uploading OpenPGP certificates. If you do not enter an address then an internal default will be used."
-msgstr ""
-
-#. +> stable6
-#: src/conf/dirservconfigpage.cpp:148
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid "Enter the address of the keyserver to use when searching for OpenPGP certificates and when uploading OpenPGP certificates. If you do not enter an address then an internal default will be used. To disable the use of an OpenPGP keyserver enter the special value <emphasis>none</emphasis>."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5126,7 +5071,7 @@ msgctxt "Integrity protection was missing because an old cipher was used."
 msgid "<b>Hint:</b> If this file was encrypted before the year 2003 it is likely that the file is legitimate.  This is because back then integrity protection was not widely used."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/decryptverifytask.cpp:299
 #, kde-format
 msgctxt "@info"
@@ -5143,13 +5088,6 @@ msgstr ""
 #: src/crypto/decryptverifytask.cpp:317
 #, kde-format
 msgid "<b>Note:</b> You cannot be sure who encrypted this message as it is not signed."
-msgstr ""
-
-#. +> stable6
-#: src/crypto/decryptverifytask.cpp:321
-#, kde-format
-msgctxt "The user is offered to force decrypt a non integrity protected message. With the strong advice to re-encrypt it."
-msgid "If you are confident that the file was not manipulated you should re-encrypt it after you have forced the decryption."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5384,13 +5322,13 @@ msgstr ""
 msgid "This certificate is revoked"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/gui/certificatelineedit.cpp:671
 #, kde-format
 msgid "This certificate is disabled"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/gui/certificatelineedit.cpp:673
 #, kde-format
 msgid "This certificate is unusable"
@@ -5588,18 +5526,11 @@ msgctxt "The Audit Log is a detailed error log from the gnupg backend"
 msgid "Show Audit Log"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/gui/resultitemwidget.cpp:207
 #, kde-format
 msgctxt "@action:button"
 msgid "Close"
-msgstr ""
-
-#. +> stable6
-#: src/crypto/gui/resultitemwidget.cpp:120
-#, kde-format
-msgctxt "@action:button"
-msgid "Force decryption"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -7446,13 +7377,6 @@ msgstr ""
 msgid "Certify with:"
 msgstr ""
 
-#. +> stable6
-#: src/dialogs/certifywidget.cpp:193
-#, kde-format
-msgctxt "@action:button"
-msgid "Set Owner Trust"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/dialogs/certifywidget.cpp:195
 #, kde-kuit-format
@@ -7620,17 +7544,11 @@ msgctxt "@info:tooltip"
 msgid "Expired or revoked certificates cannot be certified."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/dialogs/certifywidget.cpp:796
 #, kde-format
 msgctxt "@info"
 msgid "Are you the only user of this secret key?"
-msgstr ""
-
-#. +> stable6
-#: src/dialogs/certifywidget.cpp:796
-#, kde-format
-msgid "Is this your own key?"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -8345,7 +8263,7 @@ msgctxt "@title:column"
 msgid "Origin"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/dialogs/lookupcertificatesdialog.cpp:254
 #: src/dialogs/revokerswidget.cpp:82 src/dialogs/subkeyswidget.cpp:324
 #: src/dialogs/useridswidget.cpp:534 src/dialogs/weboftrustwidget.cpp:320
@@ -8383,21 +8301,21 @@ msgctxt "@info"
 msgid "Enter an email address to search for matching certificates."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/dialogs/lookupcertificatesdialog.cpp:420
 #, kde-format
 msgctxt "@info status of certificate"
 msgid "unknown"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/dialogs/lookupcertificatesdialog.cpp:422
 #, kde-format
 msgctxt "@info status of certificate"
 msgid "expired"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/dialogs/lookupcertificatesdialog.cpp:424
 #, kde-format
 msgctxt "@info status of certificate"
@@ -9587,14 +9505,14 @@ msgid "If false, then Kleopatra will not offer the creation of S/MIME certificat
 msgstr ""
 
 #. i18n: ectx: label, entry, group (CMS)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:114
 #, kde-format
 msgid "Save generated CSR as PEM"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (CMS)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:115
 #, kde-format
 msgid "If true then the generated S/MIME certificate signing request will be saved using PEM format. Otherwise, it is saved in binary format (PKCS#10)."
@@ -9650,14 +9568,14 @@ msgid "Specifies the display order of the DN attributes of X.509 certificates."
 msgstr ""
 
 #. i18n: ectx: label, entry (AllowPublicKeyUpload), group (Export)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:154
 #, kde-format
 msgid "Allow upload of public keys to keyservers"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (AllowPublicKeyUpload), group (Export)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:155
 #, kde-format
 msgid "If this option is disabled then Kleopatra only allows the upload of OpenPGP keys for which the user has the secret key."
@@ -9921,7 +9839,7 @@ msgid "Show results after signing and encrypting files"
 msgstr ""
 
 #. i18n: ectx: label, entry (RestoreSignEncryptValues), group (General)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:273
 #, kde-format
 msgid "Use last-used values for the sign/encrypt configuration"
@@ -9970,14 +9888,14 @@ msgid "Show more certificate details, such as fingerprint, key length and expira
 msgstr ""
 
 #. i18n: ectx: label, entry (WelcomeText), group (Welcome)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:296
 #, kde-format
 msgid "Custom Welcome text"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (WelcomeText), group (Welcome)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:297
 #, kde-format
 msgid "This text is shown on the Welcome page replacing most of the standard text."
@@ -10439,39 +10357,11 @@ msgctxt "@action"
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:679 src/view/keytreeview.cpp:245
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure sorting"
-msgstr ""
-
-#. +> stable6
-#: src/mainwindow.cpp:672
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Configure visible columns"
-msgstr ""
-
-#. +> stable6
-#: src/mainwindow.cpp:679
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Configure table sort order"
-msgstr ""
-
-#. +> stable6
-#: src/mainwindow.cpp:964
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Ascending"
-msgstr ""
-
-#. +> stable6
-#: src/mainwindow.cpp:974
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Descending"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -10596,14 +10486,14 @@ msgstr ""
 msgid "Ongoing Background Tasks"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:810
 #, kde-format
 msgctxt "@action:button"
 msgid "Quit Now"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:811
 #, kde-format
 msgctxt "@action:button"
@@ -11776,7 +11666,7 @@ msgctxt "@action"
 msgid "Decrypt/Verify..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/utils/csrutils.cpp:67
 #, kde-format
 msgid "PEM Certificate Requests"
@@ -12383,14 +12273,14 @@ msgstr ""
 msgid "Backup Secret Keys..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/view/keylistcontroller.cpp:379
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Secret Team Key..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/view/keylistcontroller.cpp:380
 #, kde-format
 msgctxt "@info:tooltip"
@@ -12620,7 +12510,7 @@ msgctxt "@action:button"
 msgid "Copy"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/view/keylistcontroller.cpp:583
 #, kde-format
 msgctxt "@info:tooltip"

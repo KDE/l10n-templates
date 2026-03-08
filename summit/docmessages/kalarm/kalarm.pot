@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-23 10:52+0100\n"
+"POT-Creation-Date: 2026-03-08 01:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -64,31 +64,17 @@ msgid "&David.Jarvie;"
 msgstr ""
 
 #. Tag: date
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:42
 #, no-c-format
 msgid "2026-1-22"
 msgstr ""
 
-#. Tag: date
-#. +> stable6
-#: index.docbook:42
-#, no-c-format
-msgid "2025-08-30"
-msgstr ""
-
 #. Tag: releaseinfo
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:43
 #, no-c-format
 msgid "3.13.0 (KDE Gear 26.04)"
-msgstr ""
-
-#. Tag: releaseinfo
-#. +> stable6
-#: index.docbook:43
-#, no-c-format
-msgid "3.12.0 (KDE Gear 25.12)"
 msgstr ""
 
 #. Tag: para
@@ -533,17 +519,10 @@ msgid "Alternatively, you can create new alarms preconfigured from various sourc
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:366
 #, no-c-format
 msgid "To preset the alarm's date in the <link linkend=\"alarm-edit-dlg-time\">Alarm Edit dialog</link>, <mousebutton>right</mousebutton> click on the desired date in the alarm date selector (see <link linkend=\"datepicker\">Filtering the Alarm List by Date</link>) and select the appropriate alarm type from the context menu."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:366
-#, no-c-format
-msgid "To preset the alarm's date in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>, <mousebutton>right</mousebutton> click on the desired date in the alarm date selector (see <link linkend=\"datepicker\">Filtering the Alarm List by Date</link>) and select the appropriate alarm type from the context menu."
 msgstr ""
 
 #. Tag: para
@@ -729,17 +708,10 @@ msgid "Enabling/Disabling an Alarm"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:540
 #, no-c-format
 msgid "See <link linkend=\"enable-disable\">Enabling and Disabling Alarms</link> for how to enable and disable alarms, either individually or as a whole, or temporarily skip individual alarms."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:540
-#, no-c-format
-msgid "See <link linkend=\"enable-disable\">Enabling and Disabling Alarms</link> for how to enable and disable alarms, either individually or as a whole."
 msgstr ""
 
 #. Tag: title
@@ -1989,42 +1961,35 @@ msgid "Check <guilabel>Repeat</guilabel> to continually repeat the audio file un
 msgstr ""
 
 #. Tag: title
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1605
 #, no-c-format
 msgid "Deferral and Skipping"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1607
 #, no-c-format
 msgid "If the alarm is a recurring alarm and it was deferred after it was last displayed, the <guilabel>Deferred / Skipped Alarm</guilabel> group box shows the time the alarm was deferred to. <guibutton>Change...</guibutton> displays a dialog which allows you to change the deferred time or to cancel the deferral."
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:1606
-#, no-c-format
-msgid "If the alarm is a recurring alarm and it was deferred after it was last displayed, the <guilabel>Deferred Alarm</guilabel> group box shows the time the alarm was deferred to. <guibutton>Change...</guibutton> displays a dialog which allows you to change the deferred time or to cancel the deferral."
-msgstr ""
-
-#. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1613
 #, no-c-format
 msgid "If the alarm is a recurring alarm and it is currently being skipped (see <link linkend=\"skipping\">Skipping Individual Alarms</link>), the <guilabel>Deferred / Skipped Alarm</guilabel> group box shows the next time the alarm will trigger after being skipped, &ie; the time at which it will resume normal operation. <guibutton>Cancel skip</guibutton> will cancel skipping the alarm."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1620
 #, no-c-format
 msgid "If you make any changes to the alarm's start time or recurrence details, skipping is automatically canceled and the skip time is no longer displayed."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1624
 #, no-c-format
 msgid "Note that changes to deferral and skipping take effect when <guibutton>OK</guibutton> is clicked."
@@ -2227,7 +2192,7 @@ msgid "To make the alarm recur at regular intervals, select one of the time peri
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1786
 #, no-c-format
 msgid "For a daily recurrence, check each day in the week on which the alarm will be allowed to trigger. The alarm will recur at the specified frequency, but whenever it triggers on an unselected day of the week it will be suppressed."
@@ -2241,45 +2206,31 @@ msgid "For a weekly recurrence, check each day in the week on which you wish to 
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1798
 #, no-c-format
 msgid "For a monthly recurrence, you may select either:"
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:1776
-#, no-c-format
-msgid "For a monthly recurrence, you may select either a fixed date, or a position (&eg; the second Tuesday)."
-msgstr ""
-
-#. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1800
 #, no-c-format
 msgid "A fixed day in the month or the last day of the month. Note that if you select for example the 31st day in the month, the alarm will not trigger in any month with less than 31 days."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1805
 #, no-c-format
 msgid "A position in the month, &eg; the second Tuesday or the last Friday of the month."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1812
 #, no-c-format
 msgid "For a yearly recurrence, you may select either a fixed day in the month or a position in the month, as described for monthly recurrences. Check each month of the year in which you wish to trigger the alarm."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:1781
-#, no-c-format
-msgid "For a yearly recurrence, you may select either a fixed day in the month, or a position in a month (&eg; the last Saturday in May). Check each month of the year in which you wish to trigger the alarm."
 msgstr ""
 
 #. Tag: para
@@ -2472,7 +2423,7 @@ msgid "For display alarms, the <guilabel>Confirm acknowledgment</guilabel> check
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:1988
 #, no-c-format
 msgid "Display alarms are normally suspended while notifications are inhibited for the desktop, and do not display on top of full screen applications. To override these restrictions and always display the alarm if at all possible, select the <guilabel>Never inhibit alarm</guilabel> check box. Note that the ability to display messages over full screen applications may depend on your window manager, and currently only the X11 windowing system allows this."
@@ -2528,21 +2479,14 @@ msgid "Alarm messages may be displayed in windows or as notifications, depending
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2034
 #, no-c-format
 msgid "If you inhibit notifications for the desktop, the execution of display alarms will be suspended until notifications are re-enabled, except for alarms which you have specified in the <link linkend=\"alarm-edit-dlg-other\">Alarm Edit dialog</link> should never be inhibited. Note that this applies to all display alarms, regardless of whether they are displayed in windows or as notifications."
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:1994
-#, no-c-format
-msgid "If you inhibit notifications for the desktop, the execution of display alarms will be suspended until notifications are re-enabled. Note that this applies to all display alarms, regardless of whether they are displayed in windows or as notifications."
-msgstr ""
-
-#. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2041
 #, no-c-format
 msgid "Note that on a single screen system, the window manager may inhibit notifications while any application is running full screen, which will automatically suspend the execution of display alarms."
@@ -2570,17 +2514,10 @@ msgid "When an alarm message is due, it is if possible displayed on each desktop
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2062
 #, no-c-format
 msgid "Alarm message windows remain visible until you acknowledge them, unless <guilabel>Auto-close window after late-cancelation time</guilabel> was checked in the <link linkend=\"alarm-edit-dlg-cancel\">Alarm Edit dialog</link>. In the case of a recurring alarm, if an unacknowledged message window remains from a previous occurrence of the alarm, the existing window is simply popped up when the alarm recurs. This avoids having to acknowledge multiple copies of the same message should you not wish, or be unable, to acknowledge a message at the time it appears."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2016
-#, no-c-format
-msgid "Alarm message windows remain visible until you acknowledge them, unless <guilabel>Auto-close window after late-cancelation time</guilabel> was checked in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>. In the case of a recurring alarm, if an unacknowledged message window remains from a previous occurrence of the alarm, the existing window is simply popped up when the alarm recurs. This avoids having to acknowledge multiple copies of the same message should you not wish, or be unable, to acknowledge a message at the time it appears."
 msgstr ""
 
 #. Tag: para
@@ -3214,70 +3151,70 @@ msgid "<mousebutton>Right</mousebutton> click on the desired entries in the alar
 msgstr ""
 
 #. Tag: title
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2561
 #, no-c-format
 msgid "Skipping Individual Alarms"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2563
 #, no-c-format
 msgid "You can choose to skip the next few (1 - 10) activations of an alarm. This temporarily disables the alarm until that number of recurrences or sub-repetitions have passed without activation. The alarm will resume triggering as normal after that."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2568
 #, no-c-format
 msgid "No reminders will be displayed for skipped activations."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2569
 #, no-c-format
 msgid "Skipping does not affect any outstanding deferral of the alarm."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2572
 #, no-c-format
 msgid "To skip the next activation(s) of individual alarms, do one of the following, and then enter the number of activations to skip:"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2577
 #, no-c-format
 msgid "Select one or more alarms by clicking on their entries in the alarm list. Then choose <menuchoice> <guimenu>Actions</guimenu><guimenuitem>Skip</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2584
 #, no-c-format
 msgid "<mousebutton>Right</mousebutton> click on the desired entries in the alarm list and choose <menuchoice><guimenuitem>Skip</guimenuitem></menuchoice> from the context menu."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2591
 #, no-c-format
 msgid "To cancel skipping individual alarms, do one of the following:"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2595
 #, no-c-format
 msgid "Select one or more alarms by clicking on their entries in the alarm list. Then choose <menuchoice> <guimenu>Actions</guimenu><guimenuitem>Cancel skip</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2602
 #, no-c-format
 msgid "<mousebutton>Right</mousebutton> click on the desired entries in the alarm list and choose <menuchoice><guimenuitem>Cancel skip</guimenuitem></menuchoice> from the context menu."
@@ -3305,17 +3242,10 @@ msgid "Linux Kernel Timer Wake From Suspend"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2625
 #, no-c-format
 msgid "On Linux systems, if the user has kernel alarm timer (<literal>cap_wake_alarm</literal>) capability, any number of alarms can be set to wake from suspend. In this case, wake from suspend is configured for each individual alarm in the <link linkend=\"alarm-edit-dlg-other\">Alarm Edit dialog</link> using its <guilabel>Wake from suspend</guilabel> option."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2528
-#, no-c-format
-msgid "On Linux systems, if the user has kernel alarm timer (<literal>cap_wake_alarm</literal>) capability, any number of alarms can be set to wake from suspend. In this case, wake from suspend is configured for each individual alarm in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> using its <guilabel>Wake from suspend</guilabel> option."
 msgstr ""
 
 #. Tag: para
@@ -3428,13 +3358,6 @@ msgstr ""
 #: index.docbook:2729
 #, no-c-format
 msgid "General"
-msgstr ""
-
-#. Tag: title
-#. +> stable6
-#: index.docbook:1604
-#, no-c-format
-msgid "Deferral"
 msgstr ""
 
 #. Tag: para
@@ -3662,17 +3585,10 @@ msgid "<guilabel>Start of day for date-only alarms</guilabel>: Set the start-of-
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:2914
 #, no-c-format
 msgid "<guilabel>Working Hours</guilabel> group box: These options let you define your working hours, needed when the <guilabel>Only during working hours</guilabel> option is selected for a recurrence in the <link linkend=\"alarm-edit-dlg-recur\">Alarm Edit dialog</link>."
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:2817
-#, no-c-format
-msgid "<guilabel>Working Hours</guilabel> group box: These options let you define your working hours, needed when the <guilabel>Only during working hours</guilabel> option is selected for a recurrence in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>."
 msgstr ""
 
 #. Tag: para
@@ -6294,31 +6210,17 @@ msgid "&kalarm;"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:5166
 #, no-c-format
 msgid "Program copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 &David.Jarvie; &David.Jarvie.mail;"
 msgstr ""
 
 #. Tag: para
-#. +> stable6
-#: index.docbook:5069
-#, no-c-format
-msgid "Program copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 &David.Jarvie; &David.Jarvie.mail;"
-msgstr ""
-
-#. Tag: para
-#. +> trunk6
+#. +> trunk6 stable6
 #: index.docbook:5170
 #, no-c-format
 msgid "Documentation copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 &David.Jarvie; &David.Jarvie.mail;"
-msgstr ""
-
-#. Tag: para
-#. +> stable6
-#: index.docbook:5073
-#, no-c-format
-msgid "Documentation copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 &David.Jarvie; &David.Jarvie.mail;"
 msgstr ""
 
 #. Tag: trans_comment

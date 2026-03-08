@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-03-08 01:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1570,7 +1570,7 @@ msgid "Default setting in the alarm edit dialog for \"display method\", to deter
 msgstr ""
 
 #. i18n: ectx: label, entry (DefaultNoInhibit), group (Defaults)
-#. +> trunk6
+#. +> trunk6 stable6
 #: data/kalarmconfig.kcfg:309
 #, kde-format
 msgctxt "@label"
@@ -1578,7 +1578,7 @@ msgid "Never inhibit alarm"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (DefaultNoInhibit), group (Defaults)
-#. +> trunk6
+#. +> trunk6 stable6
 #: data/kalarmconfig.kcfg:310
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -2033,34 +2033,12 @@ msgctxt "@label"
 msgid "Notify when remote emails are queued"
 msgstr ""
 
-#. i18n: ectx: label, entry (Base_ModalMessages), group (General)
-#. +> stable6
-#: data/kalarmconfig.kcfg:166
-#, kde-format
-msgctxt "@label"
-msgid "Message windows have a title bar and take keyboard focus"
-msgstr ""
-
 #. i18n: ectx: whatsthis, entry (Base_EmailQueuedNotify), group (Notification Messages)
 #. +> trunk6 stable6
 #: data/kalarmconfig.kcfg:457 prefdlg.cpp:1225
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Display a notification message whenever an email alarm has queued an email for sending to a remote system. This could be useful if, for example, you have a dial-up connection, so that you can then ensure that the email is actually transmitted."
-msgstr ""
-
-#. i18n: ectx: whatsthis, entry (Base_ModalMessages), group (General)
-#. +> stable6
-#: data/kalarmconfig.kcfg:167
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<p>Specify the characteristics of alarm message windows:"
-"<ul>"
-"<li>If checked, the window is a normal window with a title bar, which grabs keyboard input when it is displayed.</li>"
-"<li>If unchecked, the window does not interfere with your typing when it is displayed, but it has no title bar and cannot be moved or resized.</li>"
-"</ul>"
-"</p>"
 msgstr ""
 
 #. i18n: ectx: Menu (file)
@@ -2234,7 +2212,7 @@ msgctxt "@title:tab"
 msgid "Recurrence - [%1]"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editdlg.cpp:87
 #, kde-format
 msgctxt "@option:check"
@@ -2325,18 +2303,11 @@ msgctxt "@title:group"
 msgid "Action"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editdlg.cpp:268
 #, kde-format
 msgctxt "@title:group"
 msgid "Deferred / Skipped Alarm"
-msgstr ""
-
-#. +> stable6
-#: editdlg.cpp:267
-#, kde-format
-msgctxt "@title:group"
-msgid "Deferred Alarm"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2360,28 +2331,28 @@ msgctxt "@info:whatsthis"
 msgid "Change the alarm's deferred time, or cancel the deferral"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editdlg.cpp:282
 #, kde-format
 msgctxt "@label When the alarm will next trigger after being skipped"
 msgid "Skipping until:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editdlg.cpp:285
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The next time the alarm will trigger, when it will resume normal activation."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editdlg.cpp:288
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel skip"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editdlg.cpp:290
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -2581,14 +2552,14 @@ msgctxt "@info:tooltip"
 msgid "Show more options"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editdlg.cpp:1620
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Check to always execute the alarm when it is due, regardless of notification inhibition or active full screen applications"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editdlg.cpp:1621
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -4964,14 +4935,14 @@ msgctxt "@action:button"
 msgid "Delete"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: mainwindow.cpp:911
 #, kde-format
 msgctxt "@title:window"
 msgid "Skip Alarm"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: mainwindow.cpp:912
 #, kde-format
 msgctxt "@label:textbox"
@@ -5074,14 +5045,14 @@ msgctxt "@action"
 msgid "Disable"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: mainwindow.cpp:1781
 #, kde-format
 msgctxt "@action"
 msgid "Skip..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: mainwindow.cpp:1781
 #, kde-format
 msgctxt "@action"
@@ -6537,13 +6508,6 @@ msgctxt "@option:check"
 msgid "Show time until alarm"
 msgstr ""
 
-#. +> stable6
-#: prefdlg.cpp:2111
-#, kde-format
-msgctxt "@option:check"
-msgid "Message windows have a title bar and take keyboard focus"
-msgstr ""
-
 #. +> trunk6 stable6
 #: prefdlg.cpp:2034
 #, kde-format
@@ -6618,19 +6582,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter how long its buttons should remain disabled after the alarm message window is shown."
-msgstr ""
-
-#. +> stable6
-#: prefdlg.cpp:2114
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Specify the characteristics of alarm message windows:"
-"<list>"
-"<item>If checked, the window is a normal window with a title bar, which grabs keyboard input when it is displayed.</item>"
-"<item>If unchecked, the window does not interfere with your typing when it is displayed, but it has no title bar and cannot be moved or resized.</item>"
-"</list>"
-"</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -7763,32 +7714,18 @@ msgctxt "@item:intext Calendar status"
 msgid "Read-only"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: resources/resourcedatamodelbase.cpp:93
 #, kde-format
 msgctxt "@item:intext Calendar status, parameter is KAlarm version"
 msgid "Read-only (KAlarm pre-%1 format)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: resources/resourcedatamodelbase.cpp:97
 #, kde-format
 msgctxt "@item:intext Calendar status"
 msgid "Read-only (not a KAlarm calendar)"
-msgstr ""
-
-#. +> stable6
-#: resources/resourcedatamodelbase.cpp:93
-#, kde-format
-msgctxt "@item:intext Calendar status"
-msgid "Read-only (old format)"
-msgstr ""
-
-#. +> stable6
-#: resources/resourcedatamodelbase.cpp:96
-#, kde-format
-msgctxt "@item:intext Calendar status"
-msgid "Read-only (other format)"
 msgstr ""
 
 #. +> trunk6 stable6

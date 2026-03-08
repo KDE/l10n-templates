@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-11 10:08+0100\n"
+"POT-Creation-Date: 2026-03-08 01:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -521,7 +521,7 @@ msgstr ""
 msgid "&Stop on Change"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: debugger/variable/variablewidget.cpp:287
 #, kde-format
 msgctxt "%1 - the name of a GDB variable, e.g. \"$1\""
@@ -2250,20 +2250,13 @@ msgctxt "@info:tooltip"
 msgid "Step out of the current function"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: shell/debugcontroller.cpp:256
 #, kde-format
 msgctxt "@whatsthis"
 msgid ""
 "Executes the application until the currently executing function is completed. The debugger will then display the line after the original call to that function. If program execution is in the outermost frame (i.e. in <code>main()</code>) then this operation has no effect.<br>"
 "After stepping out of a non-<code>void</code> function, its return value and type are displayed in a variable named <code>%1</code> in a section <i>%2</i> of '%3' tool view."
-msgstr ""
-
-#. +> stable6
-#: shell/debugcontroller.cpp:246
-#, kde-format
-msgctxt "@whatsthis"
-msgid "Executes the application until the currently executing function is completed. The debugger will then display the line after the original call to that function. If program execution is in the outermost frame (i.e. in main()) then this operation has no effect."
 msgstr ""
 
 #. +> trunk6 stable6

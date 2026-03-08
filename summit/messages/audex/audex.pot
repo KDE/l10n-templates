@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audex\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-21 15:16+0100\n"
+"POT-Creation-Date: 2026-03-08 01:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -605,32 +605,20 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:174
 #, kde-format
 msgid "Ripping track…"
 msgstr ""
 
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:172
-#, kde-format
-msgid "Ripping Track"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:174
 #, kde-format
 msgid "Ripping track %1 of %2…"
 msgstr ""
 
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:172
-#, kde-format
-msgid "Ripping Track %1 of %2"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_overall)
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:175
 #: dialogs/extractingprogressdialog.cpp:181
 #: dialogs/extractingprogresswidgetUI.ui:179
@@ -638,81 +626,41 @@ msgstr ""
 msgid "Overall progress"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_overall)
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:173
-#: dialogs/extractingprogressdialog.cpp:179
-#: dialogs/extractingprogresswidgetUI.ui:180
-#, kde-format
-msgid "Overall Progress"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:175
 #, kde-format
 msgid "Overall progress (ripping track %1 of %2)"
 msgstr ""
 
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:173
-#, kde-format
-msgid "Overall Progress (Ripping Track %1 of %2)"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:180
 #, kde-format
 msgid "Ripping whole CD as single track…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:190
 #, kde-format
 msgid "<i>Waiting for an encoding job…</i>"
 msgstr ""
 
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:188
-#, kde-format
-msgid "Waiting for an encoding job..."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:194
 #, kde-format
 msgid "Encoding track…"
 msgstr ""
 
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:192
-#, kde-format
-msgid "Encoding Track"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:194
 #, kde-format
 msgid "Encoding track %1 of %2…"
 msgstr ""
 
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:192
-#, kde-format
-msgid "Encoding Track %1 of %2"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:236
 #: dialogs/extractingprogressdialog.cpp:242
 #, kde-format
 msgid "<i>Speed: %1×</i>"
-msgstr ""
-
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:234
-#: dialogs/extractingprogressdialog.cpp:240
-#, kde-format
-msgid "Speed: %1x"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -743,28 +691,16 @@ msgstr ""
 msgid "Failed!"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:280
 #, kde-format
 msgid "Show Encoding Log…"
 msgstr ""
 
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:278
-#, kde-format
-msgid "Show encoding log..."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogressdialog.cpp:287
 #, kde-format
 msgid "Show Rip Log…"
-msgstr ""
-
-#. +> stable6
-#: dialogs/extractingprogressdialog.cpp:285
-#, kde-format
-msgid "Show rip log..."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -816,7 +752,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_speed_extracting)
 #. i18n: ectx: property (text), widget (QLabel, label_speed_encoding)
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogresswidgetUI.ui:94
 #: dialogs/extractingprogresswidgetUI.ui:143
 #, kde-format
@@ -824,15 +760,6 @@ msgid ""
 "<html><head/><body>"
 "<p><span style=\" font-style:italic;\">Speed: 0×</span></p>"
 "</body></html>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_speed_extracting)
-#. i18n: ectx: property (text), widget (QLabel, label_speed_encoding)
-#. +> stable6
-#: dialogs/extractingprogresswidgetUI.ui:95
-#: dialogs/extractingprogresswidgetUI.ui:144
-#, kde-format
-msgid "Speed: 0x"
 msgstr ""
 
 #. i18n: ectx: property (format), widget (QProgressBar, progressBar_extracting)
@@ -854,7 +781,7 @@ msgid "Encoding Track 8 of 12"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KSqueezedTextLabel, label_overall_track)
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/extractingprogresswidgetUI.ui:197
 #, kde-format
 msgid "KSqueezedTextLabel"
@@ -947,17 +874,10 @@ msgstr ""
 
 #. i18n: multiplication sign between two spinboxes
 #. i18n: ectx: property (text), widget (QLabel, label_x)
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/profiledatacoverwidgetUI.ui:49
 #, kde-format
 msgid "×"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_x)
-#. +> stable6
-#: dialogs/profiledatacoverwidgetUI.ui:49
-#, kde-format
-msgid "x"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_format)
@@ -1173,17 +1093,10 @@ msgid "This setting overrides any parameterized variable settings in the scheme"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_2digitstracknum)
-#. +> trunk6
+#. +> trunk6 stable6
 #: dialogs/profiledatawidgetUI.ui:156
 #, kde-format
 msgid "Set 2 digits track number (e.g. 01, 02, 03)…"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_2digitstracknum)
-#. +> stable6
-#: dialogs/profiledatawidgetUI.ui:156
-#, kde-format
-msgid "Set 2 digits track number (e.g. 01, 02, 03...)"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)

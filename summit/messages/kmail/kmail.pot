@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-12 06:21+0100\n"
+"POT-Creation-Date: 2026-03-08 01:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1324,43 +1324,16 @@ msgctxt "@title:group"
 msgid "Recipients"
 msgstr ""
 
-#. +> stable6
-#: configuredialog/configurecomposerpage.cpp:259
-#, kde-format
-msgctxt "@item:inlistbox Inline mail forwarding"
-msgid "Inline"
-msgstr ""
-
-#. +> stable6
-#: configuredialog/configurecomposerpage.cpp:261
-#, kde-format
-msgid "Set the default forwarded message format"
-msgstr ""
-
 #. +> trunk6 stable6
 #: configuredialog/configurecomposerpage.cpp:295
 #, kde-format
 msgid "Only allow this many recipients to be specified for the message. This applies to doing a \"Reply to All\", entering recipients manually or using the \"Select…\" picker.  Setting this limit helps you to avoid accidentally sending a message to too many people.  Note, however, that it does not take account of distribution lists or mailing lists."
 msgstr ""
 
-#. +> stable6
-#: configuredialog/configurecomposerpage.cpp:315
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Warn if too many recipients are specified"
-msgstr ""
-
 #. +> trunk6 stable6
 #: configuredialog/configurecomposerpage.cpp:318
 #, kde-format
 msgid "Remember recent addresses entered, and offer them for recipient completion"
-msgstr ""
-
-#. +> stable6
-#: configuredialog/configurecomposerpage.cpp:324
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Set the maximum number of recipients for the warning"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1596,13 +1569,6 @@ msgctxt "@option:check"
 msgid "E&nable detection of missing attachments"
 msgstr ""
 
-#. +> stable6
-#: configuredialog/configurecomposerpage.cpp:722
-#, kde-format
-msgctxt "@option:check"
-msgid "&Use custom message-id suffix"
-msgstr ""
-
 #. +> trunk6 stable6
 #: configuredialog/configurecomposerpage.cpp:881
 #, kde-format
@@ -1628,31 +1594,11 @@ msgstr ""
 msgid "Attachment Word:"
 msgstr ""
 
-#. +> stable6
-#: configuredialog/configurecomposerpage.cpp:259
-#, kde-format
-msgid "As Attachment"
-msgstr ""
-
 #. +> trunk6 stable6
 #: configuredialog/configurecomposerpage.cpp:902
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Maximum Attachment Size:"
-msgstr ""
-
-#. +> stable6
-#: configuredialog/configurecomposerpage.cpp:265
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Default forwarding type:"
-msgstr ""
-
-#. +> stable6
-#: configuredialog/configurecomposerpage.cpp:738
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Custom message-&id suffix:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1839,18 +1785,11 @@ msgctxt "@title:window"
 msgid "GnuPG Settings"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configuredialog/configuresecuritypage.cpp:328
 #, kde-format
 msgctxt "@label:textbox"
 msgid "The module is missing. Please verify your installation. This module is provided by kdepim-addons."
-msgstr ""
-
-#. +> stable6
-#: configuredialog/configuresecuritypage.cpp:327
-#, kde-format
-msgctxt "@label:textbox"
-msgid "The module is missing. Please verify your installation. This module is provided by Kleopatra."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4347,7 +4286,7 @@ msgctxt "@info:shell"
 msgid "Set subject of message"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kmail_options.h:17
 #, kde-format
 msgid "Subject"
@@ -4359,7 +4298,7 @@ msgstr ""
 msgid "Send CC: to 'address'. This can be repeated"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kmail_options.h:20 kmail_options.h:23 kmail_options.h:24
 #, kde-format
 msgid "Address"
@@ -4391,7 +4330,7 @@ msgctxt "@info:shell"
 msgid "Read message body from 'file'"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kmail_options.h:28
 #, kde-format
 msgid "File"
@@ -4404,7 +4343,7 @@ msgctxt "@info:shell"
 msgid "Set body of message"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kmail_options.h:29
 #, kde-format
 msgid "Text"
@@ -4417,7 +4356,7 @@ msgctxt "@info:shell"
 msgid "Add an attachment to the mail. This can be repeated"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kmail_options.h:30
 #, kde-format
 msgid "Attachment Url"
@@ -4451,7 +4390,7 @@ msgctxt "@info:shell"
 msgid "Set identity name"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kmail_options.h:34
 #, kde-format
 msgid "Identity"
@@ -4464,7 +4403,7 @@ msgctxt "@info:shell"
 msgid "View the given message file"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kmail_options.h:35
 #, kde-format
 msgid "Message Url"
@@ -4477,7 +4416,7 @@ msgctxt "@info:shell"
 msgid "Set body of message as html"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kmail_options.h:36
 #, kde-format
 msgid "Body Message"
@@ -8692,7 +8631,7 @@ msgctxt "@title:window"
 msgid "Unable to start account wizard"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:17
 msgid "HTML messages are shown with their intended colors by default. To override this, uncheck the \"Appearance->Colors->Do not change color from original HTML mail\" option"
 msgstr ""
