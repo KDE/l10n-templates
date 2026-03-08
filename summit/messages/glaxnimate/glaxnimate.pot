@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: glaxnimate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-06 09:58+0100\n"
+"POT-Creation-Date: 2026-03-08 11:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3375,8 +3375,15 @@ msgstr ""
 msgid "%1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/gui/settings/document_templates.cpp:123
+#, kde-format
+msgctxt "%5 is the file name, %1 × %2 is the size, %3 is the aspect ratio, %4 is the frame rate"
+msgid "%5 — %1 × %2 %3 %4 fps"
+msgstr ""
+
+#. +> stable6
+#: src/gui/settings/document_templates.cpp:125
 #, kde-format
 msgctxt "%5 is the file name, %1x%2 is the size, %3 is the aspect ratio, %4 is the frame rate"
 msgid "%5 - %1x%2 %3 %4fps"
@@ -3400,12 +3407,18 @@ msgstr ""
 msgid "System Default"
 msgstr ""
 
+#. +> trunk6
+#: src/gui/style/property_delegate.cpp:44
+#, kde-format
+msgid "%1% × %2%"
+msgstr ""
+
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, spin_zoom)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, spin_smoothness)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, spin_preview_zoom)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, spin_eem_min_frequency)
 #. +> trunk6 stable6
-#: src/gui/style/property_delegate.cpp:304
+#: src/gui/style/property_delegate.cpp:306
 #: src/gui/widgets/dialogs/color_quantization_dialog.ui:212
 #: src/gui/widgets/dialogs/trace_dialog.ui:533
 #: src/gui/widgets/dialogs/trace_dialog.ui:639
@@ -5179,16 +5192,22 @@ msgstr ""
 msgid "Delete All"
 msgstr ""
 
+#. +> trunk6
+#: src/gui/widgets/dialogs/startup_dialog.cpp:131
+#, kde-format
+msgid "%1 fps"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QDialog, StartupDialog)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/startup_dialog.ui:21
+#: src/gui/widgets/dialogs/startup_dialog.ui:18
 #, kde-format
 msgid "Startup"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/startup_dialog.ui:29
+#: src/gui/widgets/dialogs/startup_dialog.ui:26
 #, kde-format
 msgid "Create New"
 msgstr ""
@@ -5245,7 +5264,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, check_show_at_startup)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/startup_dialog.ui:176
+#: src/gui/widgets/dialogs/startup_dialog.ui:175
 #, kde-format
 msgid "Show at startup"
 msgstr ""

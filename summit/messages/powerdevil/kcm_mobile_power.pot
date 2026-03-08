@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-25 11:12+0200\n"
+"POT-Creation-Date: 2026-03-08 11:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,51 +18,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. +> trunk6 stable6
-#: mobilepower.cpp:33
+#: mobilepower.cpp:34
 #, kde-format
 msgid "30 sec"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mobilepower.cpp:34
+#: mobilepower.cpp:35
 #, kde-format
 msgid "1 min"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mobilepower.cpp:35
+#: mobilepower.cpp:36
 #, kde-format
 msgid "2 min"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mobilepower.cpp:36
+#: mobilepower.cpp:37
 #, kde-format
 msgid "5 min"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mobilepower.cpp:37
+#: mobilepower.cpp:38
 #, kde-format
 msgid "10 min"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mobilepower.cpp:38
+#: mobilepower.cpp:39
 #, kde-format
 msgid "15 min"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mobilepower.cpp:39
+#: mobilepower.cpp:40
 #, kde-format
 msgid "30 min"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mobilepower.cpp:40
+#: mobilepower.cpp:41
 #, kde-format
 msgid "Never"
+msgstr ""
+
+#. +> trunk6
+#: PowerProfileModel.cpp:41
+#, kde-format
+msgctxt "@option:combobox Power profile"
+msgid "Power Save"
+msgstr ""
+
+#. +> trunk6
+#: PowerProfileModel.cpp:42
+#, kde-format
+msgctxt "@option:combobox Power profile"
+msgid "Balanced"
+msgstr ""
+
+#. +> trunk6
+#: PowerProfileModel.cpp:43
+#, kde-format
+msgctxt "@option:combobox Power profile"
+msgid "Performance"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -329,4 +350,17 @@ msgstr ""
 #, kde-format
 msgctxt "Part of a sentence like 'Suspend device after 5 minutes'"
 msgid "Suspend device after"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:149
+#, kde-format
+msgid "Power Profile"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:158
+#, kde-format
+msgctxt "@label:combobox Power Save, Balanced or Performance profile"
+msgid "Power profile"
 msgstr ""
