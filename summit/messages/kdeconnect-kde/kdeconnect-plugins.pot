@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-08 01:03+0100\n"
+"POT-Creation-Date: 2026-03-09 10:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -130,7 +130,14 @@ msgid "Reply"
 msgstr ""
 
 #. +> trunk6 stable6
-#: notifications/notification.cpp:116
+#: notifications/notification.cpp:118
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Reply in %1…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: notifications/notification.cpp:120
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Reply to %1…"
