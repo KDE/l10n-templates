@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-13 10:57+0100\n"
+"POT-Creation-Date: 2026-03-14 08:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1851,7 +1851,7 @@ msgid "Done"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/roommanager.cpp:226
+#: src/app/roommanager.cpp:236
 #, kde-format
 msgid ""
 "Malformed or empty Matrix id<br />"
@@ -1859,7 +1859,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/roommanager.cpp:428
+#: src/app/roommanager.cpp:438
 #, kde-format
 msgid ""
 "Failed to join %1:<br />"
@@ -1867,13 +1867,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/roommanager.cpp:452
+#: src/app/roommanager.cpp:462
 #, kde-format
 msgid "You requested to join '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/roommanager.cpp:456
+#: src/app/roommanager.cpp:466
 #, kde-format
 msgid ""
 "Failed to request joining room<br />"
@@ -1893,21 +1893,21 @@ msgid "Quit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/ChatBar.qml:85
+#: src/chatbar/ChatBar.qml:85 src/chatbar/SendBar.qml:198
 #, kde-format
 msgctxt "As in enter starts a new line in the chat bar"
 msgid "Enter starts a new line"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/ChatBar.qml:85
+#: src/chatbar/ChatBar.qml:85 src/chatbar/SendBar.qml:198
 #, kde-format
 msgctxt "As in enter starts send the chat message"
 msgid "Enter sends the message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/ChatBarCore.qml:79
+#: src/chatbar/ChatBarCore.qml:88
 #, kde-format
 msgid "Emojis & Stickers"
 msgstr ""
@@ -2244,28 +2244,28 @@ msgid "Send a Voice Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/SendBar.qml:195
+#: src/chatbar/SendBar.qml:196
 #, kde-format
 msgctxt "@action:button"
 msgid "Hide Rich Text Controls"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/SendBar.qml:195
+#: src/chatbar/SendBar.qml:196
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Rich Text Controls"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/SendBar.qml:209
+#: src/chatbar/SendBar.qml:213
 #, kde-format
 msgctxt "@action:button"
 msgid "Send message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/SendBar.qml:222 src/settings/ThreePIdCard.qml:93
+#: src/chatbar/SendBar.qml:226 src/settings/ThreePIdCard.qml:93
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
@@ -2470,6 +2470,13 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check Enable the matrix feature to add a phone number as a third party ID"
 msgid "Add phone numbers as 3PIDs"
+msgstr ""
+
+#. +> trunk6
+#: src/devtools/FeatureFlagPage.qml:27
+#, kde-format
+msgctxt "@option:check Enable the rich text chat bar"
+msgid "Rich Chat Bar"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4336,7 +4343,7 @@ msgid "Matrix ID"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/Login.qml:39 src/login/WelcomePage.qml:255
+#: src/login/Login.qml:39 src/login/WelcomePage.qml:258
 #: src/settings/ThreePIdCard.qml:189
 #, kde-format
 msgctxt "@action:button"
@@ -4409,57 +4416,92 @@ msgid "The passwords do not match."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/registration.cpp:339
+#: src/login/registration.cpp:393
 #, kde-format
 msgid "No server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/registration.cpp:341
+#: src/login/registration.cpp:395
 #, kde-format
 msgid "Checking Server availability."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/registration.cpp:343
+#: src/login/registration.cpp:397
 #, kde-format
 msgid "This is not a valid server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/registration.cpp:345
+#: src/login/registration.cpp:399
 #, kde-format
 msgid "Registration for this server is disabled."
 msgstr ""
 
+#. +> trunk6
+#: src/login/registration.cpp:401
+#, kde-format
+msgctxt "@info"
+msgid "Registration for this server requires a registration token."
+msgstr ""
+
+#. +> trunk6
+#: src/login/registration.cpp:403
+#, kde-format
+msgctxt "@info"
+msgid "This server cannot prevalidate registration tokens."
+msgstr ""
+
+#. +> trunk6
+#: src/login/registration.cpp:405
+#, kde-format
+msgctxt "@info"
+msgid "This is not a valid registration token."
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/login/registration.cpp:347
+#: src/login/registration.cpp:407
 #, kde-format
 msgid "No username."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/registration.cpp:349
+#: src/login/registration.cpp:409
 #, kde-format
 msgid "Checking username availability."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/registration.cpp:351
+#: src/login/registration.cpp:411
 #, kde-format
 msgid "This username is not available."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/registration.cpp:353
+#: src/login/registration.cpp:413
 #, kde-format
 msgid "Continue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/registration.cpp:355
+#: src/login/registration.cpp:415
 #, kde-format
 msgid "Working"
+msgstr ""
+
+#. +> trunk6
+#: src/login/RegistrationToken.qml:20
+#, kde-format
+msgctxt "@label"
+msgid "Registration Token:"
+msgstr ""
+
+#. +> trunk6
+#: src/login/RegistrationToken.qml:23
+#, kde-format
+msgctxt "@info"
+msgid "Invalid registration token"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4534,14 +4576,14 @@ msgid "Log in or Create a New Account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/WelcomePage.qml:268
+#: src/login/WelcomePage.qml:271
 #, kde-format
 msgctxt "@action:button"
 msgid "Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/login/WelcomePage.qml:277
+#: src/login/WelcomePage.qml:280
 #, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
@@ -4878,56 +4920,56 @@ msgid "Ignore"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/TextComponentEditMenu.qml:126
+#: src/messagecontent/TextComponentEditMenu.qml:128
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Spell Check"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/TextComponentEditMenu.qml:138
+#: src/messagecontent/TextComponentEditMenu.qml:140
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/TextComponentEditMenu.qml:151
+#: src/messagecontent/TextComponentEditMenu.qml:153
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Redo"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/TextComponentEditMenu.qml:165
+#: src/messagecontent/TextComponentEditMenu.qml:167
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/TextComponentEditMenu.qml:178
+#: src/messagecontent/TextComponentEditMenu.qml:180
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/TextComponentEditMenu.qml:191
+#: src/messagecontent/TextComponentEditMenu.qml:193
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/TextComponentEditMenu.qml:204
+#: src/messagecontent/TextComponentEditMenu.qml:206
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/TextComponentEditMenu.qml:218
+#: src/messagecontent/TextComponentEditMenu.qml:220
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Select All"

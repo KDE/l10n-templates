@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-glaxnimate-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-07 09:45+0100\n"
+"POT-Creation-Date: 2026-03-14 08:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -125,6 +125,11 @@ msgstr ""
 #. +> trunk5
 #: content/_index.md:0
 msgid "Scripting Guide"
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:0 content/player.md:0
+msgid "Web Player"
 msgstr ""
 
 #. +> trunk5
@@ -1483,6 +1488,102 @@ msgstr ""
 #. +> trunk5
 #: content/news/releases/0.6.0.md:0
 msgid "Short video showcasing a keyframe being updated by clicking"
+msgstr ""
+
+#. +> trunk5
+#: content/player.md:8
+msgid ""
+"<p>Here you can preview your Glaxnimate animations.</p>"
+"\n"
+msgstr ""
+
+#. +> trunk5
+#: content/player.md:10
+msgid ""
+"<div>\n"
+"    <input type=\"url\" value=\"\" placeholder=\"Animation URL\" id=\"url\" />\n"
+"    <button onclick=\"load_url()\">Load URL</button>\n"
+"    or \n"
+"    <input type=\"file\" onchange=\"load_file(event)\" />\n"
+"</div>\n"
+msgstr ""
+
+#. +> trunk5
+#: content/player.md:17
+msgid ""
+"<style>\n"
+"#player-container {\n"
+"    margin: 1em auto;\n"
+"    width: fit-content;\n"
+"    display: none;\n"
+"}\n"
+"#player-container > canvas {\n"
+"    max-width: 100%;\n"
+"}\n"
+"</style>\n"
+msgstr ""
+
+#. +> trunk5
+#: content/player.md:27
+msgid ""
+"<div id=\"player-container\">\n"
+"    <canvas class=\"alpha_checkered\" id=\"canvas\"></canvas>\n"
+"    <div>\n"
+"        <button class=\"btn btn-primary\" id=\"button_play\" onclick=\"player.play(); document.getElementById('button_pause').style.display = 'inline-block'; this.style.display = 'none'\" style=\"display:none\" title=\"Play\">\n"
+"            <i class=\"icon icon_media-playback-start\"></i>\n"
+"        </button>\n"
+"        <button class=\"btn btn-primary\" id=\"button_pause\" onclick=\"player.pause(); document.getElementById('button_play').style.display = 'inline-block'; this.style.display = 'none'\" title=\"Pause\">\n"
+"            <i class=\"icon icon_media-playback-pause\"></i>\n"
+"        </button>\n"
+"    </div>\n"
+"</div>\n"
+msgstr ""
+
+#. +> trunk5
+#: content/player.md:39
+msgid ""
+"<script>\n"
+"let player_container = document.getElementById(\"player-container\");\n"
+"let url_input = document.getElementById(\"url\");\n"
+"let player = new Glaxnimate.Player({\n"
+"    canvas: document.getElementById(\"canvas\")\n"
+"});\n"
+"\n"
+"function load_from_window()\n"
+"{\n"
+"    const window_url = new URL(window.location);\n"
+"    const param_url = window_url.searchParams.get(\"url\");\n"
+"    if ( param_url )\n"
+"    {\n"
+"        player_container.style.display = \"block\";\n"
+"        const opts = {\n"
+"            format: window_url.searchParams.get(\"format\"),\n"
+"        };\n"
+"        player.fetch(param_url, opts);\n"
+"        url_input.value = param_url;\n"
+"    }\n"
+"}\n"
+"\n"
+"load_from_window();\n"
+"\n"
+"function load_url()\n"
+"{\n"
+"    player_container.style.display = \"block\";\n"
+"    player.fetch(url_input.value);\n"
+"}\n"
+"\n"
+"function load_file(ev)\n"
+"{\n"
+"    if ( ev.target.files.length > 0 )\n"
+"    {\n"
+"        player_container.style.display = \"block\";\n"
+"        const file = ev.target.files[0];\n"
+"        const reader = new FileReader();\n"
+"        reader.onload = (e) => player.load({data: e.target.result, filename: file.name});\n"
+"        reader.readAsArrayBuffer(file);\n"
+"    }\n"
+"}\n"
+"</script>\n"
 msgstr ""
 
 #. Home.alt_img
