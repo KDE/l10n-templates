@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:03+0000\n"
+"POT-Creation-Date: 2026-03-14 00:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -41,49 +41,564 @@ msgstr ""
 #. Tag: date
 #: index.docbook:26
 #, no-c-format
-msgid "2021-01-05"
+msgid "2026-03-13"
 msgstr ""
 
 #. Tag: releaseinfo
 #: index.docbook:27
 #, no-c-format
-msgid "kio-s3 0.9.70"
+msgid "kio-s3 1.0.0"
 msgstr ""
 
-#. Tag: para
-#: index.docbook:31
+#. Tag: title
+#: index.docbook:32
 #, no-c-format
-msgid ""
-"KIO S3 allows you to list Amazon S3 buckets and objects, to upload files and "
-"folders to a bucket and to delete objects from a bucket. You can also copy "
-"folders or objects within S3, as well as move or rename objects."
-msgstr ""
-
-#. Tag: para
-#: index.docbook:33
-#, no-c-format
-msgid "You can use the s3 KIO worker like this:"
+msgid "Introduction"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:34
 #, no-c-format
 msgid ""
-"<userinput>s3://</userinput> or <userinput>s3://<replaceable>mybucket/mykey</"
-"replaceable></userinput>."
+"KIO S3 is a KIO worker that allows you to browse and manage files stored in "
+"Amazon S3 and S3-compatible storage services (such as Cloudflare R2, "
+"DigitalOcean Spaces, MinIO, and others) directly from <application>Dolphin</"
+"application> and other KDE applications."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:36
+#: index.docbook:39
 #, no-c-format
-msgid "The first URL shows all your S3 buckets."
+msgid "With KIO S3, you can:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:38
+#: index.docbook:41
+#, no-c-format
+msgid "Browse buckets and folders"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:42
+#, no-c-format
+msgid "Upload and download files"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:43
+#, no-c-format
+msgid "Copy, rename, and delete files and folders"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:44
+#, no-c-format
+msgid "Create folders inside buckets"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:45
 #, no-c-format
 msgid ""
-"The URL <userinput>s3://<replaceable>mybucket/mykey</replaceable></"
-"userinput> lists all the files and folders from your <userinput>mybucket</"
-"userinput> bucket."
+"Connect to multiple S3-compatible services at the same time using named "
+"profiles"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:51
+#, no-c-format
+msgid "Configuring Profiles"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:53
+#, no-c-format
+msgid ""
+"KIO S3 supports connecting to multiple S3-compatible storage services "
+"through named profiles. Each profile stores the connection settings for one "
+"service. You can manage profiles in <menuchoice><guimenu>System Settings</"
+"guimenu> <guisubmenu>Network</guisubmenu> <guimenuitem>S3 Backends</"
+"guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:61
+#, no-c-format
+msgid "Adding a Profile"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:63
+#, no-c-format
+msgid ""
+"Click the <guibutton>Add Profile...</guibutton> button and fill in the "
+"following fields:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:68
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:69
+#, no-c-format
+msgid ""
+"A descriptive name for this profile (required), &eg; <userinput>My Cloud "
+"Storage</userinput>."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:73
+#, no-c-format
+msgid "Endpoint URL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid ""
+"The URL of the S3-compatible service, &eg; <userinput>https://s3.example."
+"com</userinput>. Leave empty to use the default Amazon S3 endpoint."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:79
+#, no-c-format
+msgid "Region"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:80
+#, no-c-format
+msgid ""
+"The storage region, &eg; <userinput>us-east-1</userinput> or "
+"<userinput>auto</userinput>. Leave empty to use the region from your AWS "
+"configuration."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:85
+#, no-c-format
+msgid "AWS Profile"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:86
+#, no-c-format
+msgid ""
+"The name of the credentials profile from <filename>~/.aws/credentials</"
+"filename>. If left empty, the profile identifier is used as the credentials "
+"profile name."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:91
+#, no-c-format
+msgid "Use path-style S3 URLs"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:92
+#, no-c-format
+msgid ""
+"Enable this for services that do not support virtual-hosted-style "
+"addressing, such as MinIO or some Ceph deployments. Most services, including "
+"Amazon S3 and Cloudflare R2, do not need this."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:98
+#, no-c-format
+msgid ""
+"After adding a profile, click <guibutton>Apply</guibutton> to save. The new "
+"profile will appear as a shortcut in the <application>Dolphin</application> "
+"Places panel."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:105
+#, no-c-format
+msgid "Editing and Deleting Profiles"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:107
+#, no-c-format
+msgid ""
+"Each profile in the list has an edit and a delete action. Editing opens the "
+"same dialog with the current values pre-filled. Deleting asks for "
+"confirmation before removing the profile. Remember to click "
+"<guibutton>Apply</guibutton> to save your changes."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:117
+#, no-c-format
+msgid "AWS Credentials"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:119
+#, no-c-format
+msgid ""
+"KIO S3 uses the standard AWS credentials chain to authenticate with S3 "
+"services. Credentials are read from <filename>~/.aws/credentials</filename>, "
+"which can contain multiple named profiles:"
+msgstr ""
+
+#. Tag: programlisting
+#: index.docbook:123
+#, no-c-format
+msgid ""
+"[default]\n"
+"aws_access_key_id = YOUR_KEY\n"
+"aws_secret_access_key = YOUR_SECRET\n"
+"\n"
+"[mycloud]\n"
+"aws_access_key_id = YOUR_CLOUD_KEY\n"
+"aws_secret_access_key = YOUR_CLOUD_SECRET"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:125
+#, no-c-format
+msgid ""
+"Each KIO S3 profile uses the <guilabel>AWS Profile</guilabel> field to "
+"select which credentials section to use. For example, a profile with "
+"<guilabel>AWS Profile</guilabel> set to <userinput>mycloud</userinput> will "
+"use the credentials from the <literal>[mycloud]</literal> section above."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:130
+#, no-c-format
+msgid ""
+"If no profiles are configured, KIO S3 uses the default AWS credentials "
+"chain, which includes environment variables (<envar>AWS_ACCESS_KEY_ID</"
+"envar>, <envar>AWS_SECRET_ACCESS_KEY</envar>), the <literal>[default]</"
+"literal> section in <filename>~/.aws/credentials</filename>, and EC2 "
+"instance roles."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:136
+#, no-c-format
+msgid ""
+"You can optionally set the region using <filename>~/.aws/config</filename>:"
+msgstr ""
+
+#. Tag: programlisting
+#: index.docbook:139
+#, no-c-format
+msgid ""
+"[default]\n"
+"region = eu-west-1\n"
+"\n"
+"[profile mycloud]\n"
+"region = auto"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:141
+#, no-c-format
+msgid ""
+"In <filename>~/.aws/config</filename>, named profiles use the "
+"<literal>profile</literal> prefix (&eg; <literal>[profile mycloud]</"
+"literal>), while in <filename>~/.aws/credentials</filename> the prefix is "
+"not used (&eg; <literal>[mycloud]</literal>). This is a convention of the "
+"AWS SDK."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:151
+#, no-c-format
+msgid "URL Scheme"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:153
+#, no-c-format
+msgid ""
+"KIO S3 uses the <literal>s3://</literal> URL scheme. You can type these URLs "
+"directly in the <application>Dolphin</application> location bar or use them "
+"with command-line tools such as <command>kioclient</command>."
+msgstr ""
+
+#. Tag: userinput
+#: index.docbook:160
+#, no-c-format
+msgid "s3://"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:161
+#, no-c-format
+msgid "Lists all buckets available with the default AWS credentials."
+msgstr ""
+
+#. Tag: userinput
+#: index.docbook:165
+#, no-c-format
+msgid "s3://<replaceable>mybucket</replaceable>/"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:166
+#, no-c-format
+msgid "Lists the contents of <replaceable>mybucket</replaceable>."
+msgstr ""
+
+#. Tag: userinput
+#: index.docbook:170
+#, no-c-format
+msgid ""
+"s3://<replaceable>mybucket</replaceable>/<replaceable>path/to/file.txt</"
+"replaceable>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:171
+#, no-c-format
+msgid "Accesses a specific file in the bucket."
+msgstr ""
+
+#. Tag: userinput
+#: index.docbook:175
+#, no-c-format
+msgid "s3://@<replaceable>profile</replaceable>/"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:176
+#, no-c-format
+msgid "Lists all buckets available on the named profile."
+msgstr ""
+
+#. Tag: userinput
+#: index.docbook:180
+#, no-c-format
+msgid ""
+"s3://<replaceable>mybucket</replaceable>@<replaceable>profile</replaceable>/"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:181
+#, no-c-format
+msgid ""
+"Lists the contents of <replaceable>mybucket</replaceable> on the named "
+"profile."
+msgstr ""
+
+#. Tag: userinput
+#: index.docbook:186
+#, no-c-format
+msgid ""
+"s3://<replaceable>mybucket</replaceable>@<replaceable>profile</replaceable>/"
+"<replaceable>path/to/file.txt</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:187
+#, no-c-format
+msgid "Accesses a specific file on the named profile."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:192
+#, no-c-format
+msgid ""
+"When you add a profile in <guilabel>System Settings</guilabel>, a shortcut "
+"is automatically created in the <application>Dolphin</application> Places "
+"panel. You can simply click it to browse that profile's buckets."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:200
+#, no-c-format
+msgid "Browsing Files"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:202
+#, no-c-format
+msgid ""
+"Open <application>Dolphin</application> and type <userinput>s3://</"
+"userinput> in the location bar to see your S3 buckets. Click a bucket to "
+"browse its contents. Folders and files appear just like on a local "
+"filesystem."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid ""
+"To browse a specific profile, type <userinput>s3://@<replaceable>profile</"
+"replaceable>/</userinput> or click the profile shortcut in the Places panel."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:211
+#, no-c-format
+msgid ""
+"Navigation works as expected: you can use the breadcrumb bar, the back and "
+"forward buttons, and the location bar. You can also open S3 locations in new "
+"tabs."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:218
+#, no-c-format
+msgid "File Operations"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:221
+#, no-c-format
+msgid "Uploading Files"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:222
+#, no-c-format
+msgid ""
+"Drag files from your local filesystem and drop them into an S3 folder in "
+"<application>Dolphin</application>. You can also use copy and paste. Large "
+"files are automatically uploaded using multipart upload to avoid excessive "
+"memory usage."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:229
+#, no-c-format
+msgid "Downloading Files"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:230
+#, no-c-format
+msgid ""
+"Drag files from an S3 folder to a local folder, or use copy and paste. You "
+"can also open S3 files directly in applications — the file will be "
+"downloaded to a temporary location and opened."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:236
+#, no-c-format
+msgid "Copying"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:237
+#, no-c-format
+msgid ""
+"You can copy files within the same S3 service using copy and paste or drag "
+"and drop. The copy is performed server-side, so it does not require "
+"downloading and re-uploading the file."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:243
+#, no-c-format
+msgid "Renaming"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:244
+#, no-c-format
+msgid ""
+"Press <keycap>F2</keycap> in <application>Dolphin</application> to rename a "
+"file or folder. Since S3 does not have a native rename operation, KIO S3 "
+"performs a server-side copy to the new name and then deletes the original. "
+"For folders, all files inside the folder are copied and deleted individually."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:252
+#, no-c-format
+msgid "Deleting"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:253
+#, no-c-format
+msgid ""
+"Select files or folders and press <keycap>Delete</keycap>. When deleting a "
+"folder, all files and subfolders inside it are deleted recursively."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:259
+#, no-c-format
+msgid "Creating Folders"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:260
+#, no-c-format
+msgid ""
+"Press <keycap>F10</keycap> or use <menuchoice><guimenu>Create New</guimenu> "
+"<guimenuitem>Folder...</guimenuitem></menuchoice> to create a new folder "
+"inside a bucket."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:269
+#, no-c-format
+msgid "Working with Multiple Profiles"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:271
+#, no-c-format
+msgid ""
+"If you use several S3-compatible services (for example, one for backups and "
+"another for website assets), you can configure a profile for each one and "
+"switch between them without changing any configuration files or environment "
+"variables."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:276
+#, no-c-format
+msgid ""
+"Each profile appears as a separate shortcut in the <application>Dolphin</"
+"application> Places panel. Clicking a profile shortcut shows the buckets "
+"available on that service. All operations (upload, download, copy, rename, "
+"delete) work independently within each profile."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:282
+#, no-c-format
+msgid ""
+"Copying or renaming files between different profiles is not supported. S3 "
+"server-side copy only works within a single service. To move files between "
+"profiles, copy them to a local folder first, then upload to the other "
+"profile."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:290
+#, no-c-format
+msgid "Known Limitations"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:293
+#, no-c-format
+msgid ""
+"Bucket creation and deletion are not supported. Use the provider's web "
+"console or CLI tools to manage buckets."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:295
+#, no-c-format
+msgid ""
+"File permissions shown in <application>Dolphin</application> are cosmetic. "
+"S3 uses its own access control model (IAM policies and bucket policies), "
+"which does not map to Unix permissions."
 msgstr ""
