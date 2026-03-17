@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-22 09:37+0200\n"
+"POT-Creation-Date: 2026-03-17 11:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -155,337 +155,351 @@ msgid "Capture the entire desktop (default)."
 msgstr ""
 
 #. Tag: option
-#. +> trunk6 stable6
+#. +> trunk6
 #: man-spectacle.1.docbook:72
 #, no-c-format
-msgid "-m, --current"
+msgid "--scaled"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: man-spectacle.1.docbook:74
 #, no-c-format
-msgid "Capture the current monitor."
+msgid "When used with <option>-f</option>/<option>--fullscreen</option>, capture all screens scaled to the same size. Has no effect without <option>-f</option>."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:79
 #, no-c-format
-msgid "-a, --activewindow"
+msgid "-m, --current"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:81
 #, no-c-format
-msgid "Capture the active window."
+msgid "Capture the current monitor."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:86
 #, no-c-format
-msgid "-u, --windowundercursor"
+msgid "-a, --activewindow"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:88
 #, no-c-format
-msgid "Capture the window currently under the cursor, including parents of pop-up menus."
+msgid "Capture the active window."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:93
 #, no-c-format
-msgid "-t, --transientonly"
+msgid "-u, --windowundercursor"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:95
 #, no-c-format
-msgid "Capture the window currently under the cursor, excluding parents of pop-up menus."
+msgid "Capture the window currently under the cursor, including parents of pop-up menus."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:100
 #, no-c-format
-msgid "-r, --region"
+msgid "-t, --transientonly"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:102
 #, no-c-format
-msgid "Capture a rectangular region of the screen."
+msgid "Capture the window currently under the cursor, excluding parents of pop-up menus."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:107
 #, no-c-format
-msgid "-l, --launchonly"
+msgid "-r, --region"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:109
 #, no-c-format
-msgid "Launch Spectacle without taking a screenshot."
+msgid "Capture a rectangular region of the screen."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:114
 #, no-c-format
-msgid "-g, --gui"
+msgid "-l, --launchonly"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:116
 #, no-c-format
-msgid "Start in GUI mode (default)."
+msgid "Launch Spectacle without taking a screenshot."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:121
 #, no-c-format
-msgid "-b, --background"
+msgid "-g, --gui"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:123
 #, no-c-format
-msgid "Take a screenshot and exit without showing the GUI."
+msgid "Start in GUI mode (default)."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:128
 #, no-c-format
-msgid "-s, --dbus"
+msgid "-b, --background"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:130
 #, no-c-format
-msgid "Start in DBus-Activation mode."
+msgid "Take a screenshot and exit without showing the GUI."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:135
 #, no-c-format
-msgid "-n, --nonotify"
+msgid "-s, --dbus"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:137
 #, no-c-format
-msgid "In background mode, do not pop up a notification when the screenshot is taken."
+msgid "Start in DBus-Activation mode."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:142
 #, no-c-format
-msgid "-o, --output <replaceable>fileName</replaceable>"
+msgid "-n, --nonotify"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:144
 #, no-c-format
-msgid "In background mode, save image to specified file <replaceable>fileName</replaceable>."
+msgid "In background mode, do not pop up a notification when the screenshot is taken."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:149
 #, no-c-format
-msgid "-d, --delay <replaceable>delayMsec</replaceable>"
+msgid "-o, --output <replaceable>fileName</replaceable>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:151
 #, no-c-format
-msgid "In background mode, delay before taking the shot (in milliseconds)."
+msgid "In background mode, save image to specified file <replaceable>fileName</replaceable>."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:156
 #, no-c-format
-msgid "-c, --copy-image"
+msgid "-d, --delay <replaceable>delayMsec</replaceable>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:158
 #, no-c-format
-msgid "In background mode, copy screenshot only to clipboard, unless -o is also used."
+msgid "In background mode, delay before taking the shot (in milliseconds)."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:163
 #, no-c-format
-msgid "-C, --copy-path"
+msgid "-c, --copy-image"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:165
 #, no-c-format
-msgid "In background mode, copy screenshot file path to clipboard."
+msgid "In background mode, copy screenshot only to clipboard, unless -o is also used."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:170
 #, no-c-format
-msgid "-w, --onclick"
+msgid "-C, --copy-path"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:172
 #, no-c-format
-msgid "Wait for a click before taking screenshot. Invalidates delay.."
+msgid "In background mode, copy screenshot file path to clipboard."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:177
 #, no-c-format
-msgid "-i, --new-instance"
+msgid "-w, --onclick"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:179
 #, no-c-format
-msgid "Starts a new GUI instance of spectacle without registering to DBus."
+msgid "Wait for a click before taking screenshot. Invalidates delay.."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:184
 #, no-c-format
-msgid "-p, --pointer"
+msgid "-i, --new-instance"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:186
 #, no-c-format
-msgid "In background mode, include pointer in the screenshot."
+msgid "Starts a new GUI instance of spectacle without registering to DBus."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:191
 #, no-c-format
-msgid "-e, --no-decoration"
+msgid "-p, --pointer"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:193
 #, no-c-format
-msgid "In background mode, do not include window decorations in the screenshot."
+msgid "In background mode, include pointer in the screenshot."
 msgstr ""
 
 #. Tag: option
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:198
 #, no-c-format
-msgid "-E, --edit-existing <replaceable>existingFileName</replaceable>"
+msgid "-e, --no-decoration"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:200
 #, no-c-format
-msgid "Open and edit existing screenshot file."
+msgid "In background mode, do not include window decorations in the screenshot."
 msgstr ""
 
-#. Tag: title
+#. Tag: option
 #. +> trunk6 stable6
-#: man-spectacle.1.docbook:206
+#: man-spectacle.1.docbook:205
 #, no-c-format
-msgid "Feedback"
+msgid "-E, --edit-existing <replaceable>existingFileName</replaceable>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
 #: man-spectacle.1.docbook:207
 #, no-c-format
+msgid "Open and edit existing screenshot file."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-spectacle.1.docbook:213
+#, no-c-format
+msgid "Feedback"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-spectacle.1.docbook:214
+#, no-c-format
 msgid "On IRC, irc.libera.chat #kde or via email, kde-graphics-devel@kde.org or on the web, &lt;<ulink url=\"https://apps.kde.org/spectacle\">https://apps.kde.org/spectacle</ulink>&gt;"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: man-spectacle.1.docbook:211
+#: man-spectacle.1.docbook:218
 #, no-c-format
 msgid "See Also"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: man-spectacle.1.docbook:213
+#: man-spectacle.1.docbook:220
 #, no-c-format
 msgid "More detailed user documentation is available from <ulink url=\"help:/spectacle\">help:/spectacle</ulink> (either enter this <acronym>URL</acronym> into &konqueror;, or run <userinput><command>khelpcenter</command> <parameter>help:/spectacle</parameter></userinput>)."
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: man-spectacle.1.docbook:218
+#: man-spectacle.1.docbook:225
 #, no-c-format
 msgid "kf6options(7)"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: man-spectacle.1.docbook:219
+#: man-spectacle.1.docbook:226
 #, no-c-format
 msgid "qt6options(7)"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: man-spectacle.1.docbook:220
+#: man-spectacle.1.docbook:227
 #, no-c-format
 msgid "There is also further information available at <ulink url=\"https://apps.kde.org/spectacle\">https://apps.kde.org/spectacle</ulink>"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: man-spectacle.1.docbook:225
+#: man-spectacle.1.docbook:232
 #, no-c-format
 msgid "Copyright"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: man-spectacle.1.docbook:226
+#: man-spectacle.1.docbook:233
 #, no-c-format
 msgid "Copyright &copy; 2015 Boudhayan Gupta"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: man-spectacle.1.docbook:227
+#: man-spectacle.1.docbook:234
 #, no-c-format
 msgid "License: GNU General Public Version 2 &lt;<ulink url=\"https://www.gnu.org/licenses/gpl-2.0.html\">https://www.gnu.org/licenses/gpl-2.0.html</ulink>&gt;"
 msgstr ""

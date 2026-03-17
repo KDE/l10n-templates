@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-05 10:03+0100\n"
+"POT-Creation-Date: 2026-03-17 11:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -279,7 +279,15 @@ msgid "Here you can enable or disable the virtual corner barrier between screens
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CornerBarrier)
-#. +> trunk6 stable6
+#. +> trunk6
+#: main.ui:283
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Prevents the pointer from crossing at screen corners."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CornerBarrier)
+#. +> stable6
 #: main.ui:283
 #, kde-format
 msgctxt "@info:tooltip"
