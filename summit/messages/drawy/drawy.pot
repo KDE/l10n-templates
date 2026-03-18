@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drawy\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-12 14:08+0100\n"
+"POT-Creation-Date: 2026-03-18 10:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -161,7 +161,7 @@ msgid "Triangle"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/basicshapes/xbox/xbox.cpp:76
+#: plugins/basicshapes/xbox/xbox.cpp:75
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "X Box"
@@ -269,14 +269,14 @@ msgid "%1%"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/components/toolbar.cpp:64
+#: widgets/components/toolbar.cpp:66
 #, kde-format
 msgctxt "@action:button"
 msgid "Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/components/toolbuttonplugin.cpp:30
+#: widgets/components/toolbuttonplugin.cpp:31
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select Plugin"
@@ -517,7 +517,7 @@ msgstr ""
 #: widgets/keybindings/actionmanager.cpp:82
 #, kde-format
 msgctxt "@action"
-msgid "Export as SVG"
+msgid "Export as Image"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -708,7 +708,7 @@ msgid "Untitled.svg"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/keybindings/actionmanager.cpp:541
+#: widgets/keybindings/actionmanager.cpp:542
 #, kde-format
 msgid "SVG (*.svg)"
 msgstr ""
@@ -716,18 +716,26 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/keybindings/actionmanager.cpp:543
 #, kde-format
-msgctxt "@title:window"
-msgid "Export to Svg"
+msgid "PNG (*.png)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/keybindings/actionmanager.cpp:578
+#: widgets/keybindings/actionmanager.cpp:547
 #, kde-format
-msgid "The document \"%1\" has been modified. Do you want to save your changes or discard them?"
+msgctxt "@title:window"
+msgid "Export to Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/keybindings/actionmanager.cpp:582
+#: widgets/keybindings/actionmanager.cpp:605
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/keybindings/actionmanager.cpp:609
 #, kde-format
 msgctxt "@title:window"
 msgid "Action Required"
@@ -844,20 +852,20 @@ msgid "Background Style"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/properties/widgets/colorwidgetbase.cpp:51
+#: widgets/properties/widgets/colorwidgetbase.cpp:52
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select Custom Color"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/properties/widgets/colorwidgetbase.cpp:79
+#: widgets/properties/widgets/colorwidgetbase.cpp:83
 #, kde-format
 msgid "Color"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/properties/widgets/erasersizewidget.cpp:32
+#: widgets/properties/widgets/erasersizewidget.cpp:31
 #, kde-format
 msgid "Eraser Size"
 msgstr ""
@@ -875,21 +883,21 @@ msgid "Opacity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/properties/widgets/stokestylewidget.cpp:36
+#: widgets/properties/widgets/stokestylewidget.cpp:35
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Dashed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/properties/widgets/stokestylewidget.cpp:44
+#: widgets/properties/widgets/stokestylewidget.cpp:42
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Dotted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/properties/widgets/stokestylewidget.cpp:66
+#: widgets/properties/widgets/stokestylewidget.cpp:63
 #, kde-format
 msgid "Stroke Style"
 msgstr ""
