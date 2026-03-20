@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-13 10:57+0100\n"
+"POT-Creation-Date: 2026-03-20 09:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -163,8 +163,14 @@ msgstr ""
 msgid "The requested theme \"%1\" is already set as the window decoration theme."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: kwin-applywindowdecoration.cpp:101
+#, kde-format
+msgid "Successfully applied the pointer theme %1 to your current Plasma session"
+msgstr ""
+
+#. +> stable6 stable5
+#: kwin-applywindowdecoration.cpp:99
 #, kde-format
 msgid "Successfully applied the cursor theme %1 to your current Plasma session"
 msgstr ""
