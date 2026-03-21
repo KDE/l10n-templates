@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-20 09:32+0100\n"
+"POT-Creation-Date: 2026-03-21 21:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7782,7 +7782,7 @@ msgstr ""
 #. i18n: ectx: Menu (subtitles)
 #. +> trunk6 stable6
 #: data/effects/avfilter/subtitles.xml:4 src/bin/model/subtitlemodel.cpp:88
-#: src/core.cpp:1106 src/kdenliveui.rc:192 src/mainwindow.cpp:270
+#: src/core.cpp:1109 src/kdenliveui.rc:192 src/mainwindow.cpp:270
 #: src/project/dialogs/archivewidget.cpp:105
 #: src/project/dialogs/projectsettings.cpp:434
 #, kde-format
@@ -12360,8 +12360,8 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonReset)
 #. +> trunk6 stable6
 #: data/effects/frei0r/frei0r_lightgraffiti.xml:72
-#: data/effects/frei0r/frei0r_lightgraffiti.xml:144 src/dialogs/Splash.qml:624
-#: src/dialogs/Splash.qml:997 src/layouts/layoutmanagerdialog.cpp:99
+#: data/effects/frei0r/frei0r_lightgraffiti.xml:144 src/dialogs/Splash.qml:633
+#: src/dialogs/Splash.qml:1026 src/layouts/layoutmanagerdialog.cpp:99
 #: src/ui/exportguidesdialog_ui.ui:95
 #, kde-format
 msgid "Reset"
@@ -17912,13 +17912,13 @@ msgid "Wave Amplitude"
 msgstr ""
 
 #. +> trunk6 stable6
-#: data/effects/wave.xml:25 src/dialogs/Splash.qml:814
+#: data/effects/wave.xml:25 src/dialogs/Splash.qml:843
 #, kde-format
 msgid "Horizontal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: data/effects/wave.xml:28 src/dialogs/Splash.qml:861
+#: data/effects/wave.xml:28 src/dialogs/Splash.qml:890
 #, kde-format
 msgid "Vertical"
 msgstr ""
@@ -21413,7 +21413,7 @@ msgid "Please set a default application to open video files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/bin/bin.cpp:5111 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
+#: src/bin/bin.cpp:5111 src/core.cpp:672 src/doc/kdenlivedoc.cpp:169
 #: src/jobs/cliploadtask.cpp:487 src/jobs/cliploadtask.cpp:499
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:212
@@ -22391,13 +22391,20 @@ msgid "Disable GPU processing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/core.cpp:473
+#: src/core.cpp:262 src/core.cpp:345 src/core.cpp:516
+#: src/project/projectmanager.cpp:869
+#, kde-format
+msgid "Loading project…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core.cpp:476
 #, kde-format
 msgid "The default profile of Kdenlive is not set or invalid, press OK to set it to a correct value."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/core.cpp:485
+#: src/core.cpp:488
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Default Profile"
@@ -22405,323 +22412,317 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6
-#: src/core.cpp:485 src/ui/profiledialog_ui.ui:37
+#: src/core.cpp:488 src/ui/profiledialog_ui.ui:37
 #, kde-format
 msgid "Profile:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/core.cpp:498
+#: src/core.cpp:501
 #, kde-format
 msgid "The given profile is invalid. We default to the profile \"dv_pal\", but you can change this from Kdenlive's settings panel"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/core.cpp:513 src/project/projectmanager.cpp:869
-#, kde-format
-msgid "Loading project…"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/core.cpp:721
-#, kde-format
-msgctxt "Luma transition name"
-msgid "Square 2 Bars"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/core.cpp:722
-#, kde-format
-msgctxt "Luma transition name"
-msgid "Checkerboard Small"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/core.cpp:723
-#, kde-format
-msgctxt "Luma transition name"
-msgid "Horizontal Blinds"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:724
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Radial"
+msgid "Square 2 Bars"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:725
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Linear X"
+msgid "Checkerboard Small"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:726
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Bi-Linear X"
+msgid "Horizontal Blinds"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:727
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Linear Y"
+msgid "Radial"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:728
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Bi-Linear Y"
+msgid "Linear X"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:729
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Square"
+msgid "Bi-Linear X"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:730
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Square 2"
+msgid "Linear Y"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:731
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Cloud"
+msgid "Bi-Linear Y"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:732
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Symmetric Clock"
+msgid "Square"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:733
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Radial Bars"
+msgid "Square 2"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:734
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Spiral"
+msgid "Cloud"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:735
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Spiral 2"
+msgid "Symmetric Clock"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:736
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Curtain"
+msgid "Radial Bars"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:737
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Burst"
+msgid "Spiral"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:738
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Clock"
+msgid "Spiral 2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core.cpp:739
+#, kde-format
+msgctxt "Luma transition name"
+msgid "Curtain"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:740
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Bar Horizontal"
+msgid "Burst"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:741
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Bar Vertical"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/core.cpp:742
-#, kde-format
-msgctxt "Luma transition name"
-msgid "Barn Door Horizontal"
+msgid "Clock"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:743
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Barn Door Vertical"
+msgid "Bar Horizontal"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:744
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Barn Door Diagonal SW-NE"
+msgid "Bar Vertical"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:745
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Barn Door Diagonal NW-SE"
+msgid "Barn Door Horizontal"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:746
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Diagonal Top Left"
+msgid "Barn Door Vertical"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:747
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Diagonal Top Right"
+msgid "Barn Door Diagonal SW-NE"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:748
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Matrix Waterfall Horizontal"
+msgid "Barn Door Diagonal NW-SE"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:749
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Matrix Waterfall Vertical"
+msgid "Diagonal Top Left"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:750
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Matrix Snake Horizontal"
+msgid "Diagonal Top Right"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:751
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Matrix Snake Parallel Horizontal"
+msgid "Matrix Waterfall Horizontal"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:752
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Matrix Snake Vertical"
+msgid "Matrix Waterfall Vertical"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:753
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Matrix Snake Parallel Vertical"
+msgid "Matrix Snake Horizontal"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:754
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Barn V Up"
+msgid "Matrix Snake Parallel Horizontal"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:755
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Iris Circle"
+msgid "Matrix Snake Vertical"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:756
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Double Iris"
+msgid "Matrix Snake Parallel Vertical"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:757
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Iris Box"
+msgid "Barn V Up"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:758
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Box Bottom Right"
+msgid "Iris Circle"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:759
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Box Bottom Left"
+msgid "Double Iris"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:760
 #, kde-format
 msgctxt "Luma transition name"
-msgid "Box Right Center"
+msgid "Iris Box"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core.cpp:761
 #, kde-format
 msgctxt "Luma transition name"
+msgid "Box Bottom Right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core.cpp:762
+#, kde-format
+msgctxt "Luma transition name"
+msgid "Box Bottom Left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core.cpp:763
+#, kde-format
+msgctxt "Luma transition name"
+msgid "Box Right Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core.cpp:764
+#, kde-format
+msgctxt "Luma transition name"
 msgid "Clock Top"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/core.cpp:1052
+#: src/core.cpp:1055
 #, kde-format
 msgid "Your project profile is invalid, rendering might fail."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/core.cpp:1416
+#: src/core.cpp:1419
 #, kde-format
 msgid "Loading clips"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/core.cpp:1911
+#: src/core.cpp:1914
 #, kde-format
 msgid "Marker %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/core.cpp:2273
+#: src/core.cpp:2276
 #, kde-format
 msgid ""
 "This will open a browser to display Kdenlive's online documentation at the following url:\n"
@@ -22729,13 +22730,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/core.cpp:2274 src/core.cpp:2285
+#: src/core.cpp:2277 src/core.cpp:2288
 #, kde-format
 msgid "Open Browser"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/core.cpp:2284
+#: src/core.cpp:2287
 #, kde-format
 msgid ""
 "This will open a browser to display a link:\n"
@@ -24686,13 +24687,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Simplesplash.qml:120 src/dialogs/Splash.qml:183
+#: src/dialogs/Simplesplash.qml:120 src/dialogs/Splash.qml:190
 #, kde-format
 msgid "Made by KDE"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Simplesplash.qml:148 src/dialogs/Splash.qml:592 src/main.cpp:274
+#: src/dialogs/Simplesplash.qml:148 src/dialogs/Splash.qml:601 src/main.cpp:274
 #, kde-format
 msgid "Kdenlive"
 msgstr ""
@@ -24716,13 +24717,13 @@ msgid "Start Normally"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Simplesplash.qml:227 src/dialogs/Splash.qml:651
+#: src/dialogs/Simplesplash.qml:227 src/dialogs/Splash.qml:660
 #, kde-format
 msgid "Kdenlive was upgraded. If you like it, consider <a href=\"%1\">getting involved</a> or help <a href=\"%2\">funding</a>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Simplesplash.qml:242 src/dialogs/Splash.qml:668
+#: src/dialogs/Simplesplash.qml:242 src/dialogs/Splash.qml:677
 #, kde-format
 msgid "What's New"
 msgstr ""
@@ -24770,15 +24771,15 @@ msgid "No audio track found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/speechdialog.cpp:190 src/dialogs/textbasededit.cpp:1064
-#: src/dialogs/textbasededit.cpp:1077
+#: src/dialogs/speechdialog.cpp:190 src/dialogs/textbasededit.cpp:1084
+#: src/dialogs/textbasededit.cpp:1097
 #, kde-format
 msgid "Please configure speech to text."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/speechdialog.cpp:211 src/dialogs/textbasededit.cpp:954
-#: src/dialogs/textbasededit.cpp:991
+#: src/dialogs/speechdialog.cpp:211 src/dialogs/textbasededit.cpp:974
+#: src/dialogs/textbasededit.cpp:1011
 #, kde-format
 msgid "Please install speech recognition models"
 msgstr ""
@@ -24796,13 +24797,13 @@ msgid "Audio export failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/speechdialog.cpp:378 src/dialogs/textbasededit.cpp:1098
+#: src/dialogs/speechdialog.cpp:378 src/dialogs/textbasededit.cpp:1118
 #, kde-format
 msgid "Starting speech recognition"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/speechdialog.cpp:441 src/dialogs/textbasededit.cpp:1285
+#: src/dialogs/speechdialog.cpp:441 src/dialogs/textbasededit.cpp:1305
 #, kde-format
 msgid "Speech recognition aborted."
 msgstr ""
@@ -25592,110 +25593,110 @@ msgid "60 fps"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:250
+#: src/dialogs/Splash.qml:257
 #, kde-format
 msgid "Open Project…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:277
+#: src/dialogs/Splash.qml:284
 #, kde-format
 msgid "Open Recent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:285
+#: src/dialogs/Splash.qml:292
 #, kde-format
 msgid "Clear History of Recent Projects"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:390
+#: src/dialogs/Splash.qml:398
 #, kde-format
 msgid "Remove file from list"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:418
+#: src/dialogs/Splash.qml:426
 #, kde-format
 msgid "New Project…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:446
+#: src/dialogs/Splash.qml:454
 #, kde-format
 msgid "New From Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:455
+#: src/dialogs/Splash.qml:463
 #, kde-format
 msgid "Clear History of Recent Profiles"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:543
+#: src/dialogs/Splash.qml:552
 #, kde-format
 msgid "Remove profile from list"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:582
+#: src/dialogs/Splash.qml:591
 #, kde-format
 msgid "Show on Startup"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:615 src/dialogs/Splash.qml:987
+#: src/dialogs/Splash.qml:624 src/dialogs/Splash.qml:1016
 #, kde-format
 msgid "Kdenlive crashed on last start. Reset config and restart?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:697
+#: src/dialogs/Splash.qml:726
 #, kde-format
 msgid "Help us make Kdenlive even better"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:702
+#: src/dialogs/Splash.qml:731
 #, kde-format
 msgid "Contribute…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:708
+#: src/dialogs/Splash.qml:737
 #, kde-format
 msgid "Donate…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:739
+#: src/dialogs/Splash.qml:768
 #, kde-format
 msgid "<b>Welcome to Kdenlive Quick Setup</b>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:745
+#: src/dialogs/Splash.qml:774
 #, kde-format
 msgid "Always Use Dark Color Theme"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:757
+#: src/dialogs/Splash.qml:786
 #, kde-format
 msgid "<b>Default Project Profile</b>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblRes)
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:874 src/ui/colorplaneexport_ui.ui:105
+#: src/dialogs/Splash.qml:903 src/ui/colorplaneexport_ui.ui:105
 #, kde-format
 msgid "Resolution"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:901
+#: src/dialogs/Splash.qml:930
 #, kde-format
 msgid "Frame Rate"
 msgstr ""
@@ -25703,7 +25704,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, scanning)
 #. i18n: ectx: property (text), item, widget (QComboBox, scanningCombo)
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:927
+#: src/dialogs/Splash.qml:956
 #: src/mltcontroller/clippropertiescontroller.cpp:711
 #: src/mltcontroller/clippropertiescontroller.cpp:1401
 #: src/project/dialogs/profilewidget.cpp:127 src/ui/editrenderpreset_ui.ui:215
@@ -25713,31 +25714,31 @@ msgid "Interlaced"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:946
+#: src/dialogs/Splash.qml:975
 #, kde-format
 msgid "Video Tracks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:955
+#: src/dialogs/Splash.qml:984
 #, kde-format
 msgid "Audio Tracks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:968
+#: src/dialogs/Splash.qml:997
 #, kde-format
 msgid "This can always be changed later in the Settings."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:1014
+#: src/dialogs/Splash.qml:1043
 #, kde-format
 msgid "Check Online Documentation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/Splash.qml:1023
+#: src/dialogs/Splash.qml:1052
 #, kde-format
 msgid "Start Editing"
 msgstr ""
@@ -26086,8 +26087,8 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/textbasededit.cpp:357 src/dialogs/textbasededit.cpp:613
-#: src/dialogs/textbasededit.cpp:1305 src/dialogs/textbasededit.cpp:1375
-#: src/dialogs/textbasededit.cpp:1399 src/dialogs/textbasededit.cpp:1456
+#: src/dialogs/textbasededit.cpp:1325 src/dialogs/textbasededit.cpp:1395
+#: src/dialogs/textbasededit.cpp:1419 src/dialogs/textbasededit.cpp:1476
 #, kde-format
 msgid "No speech"
 msgstr ""
@@ -26179,94 +26180,94 @@ msgid "Remove non speech zones"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1048
+#: src/dialogs/textbasededit.cpp:1068
 #, kde-format
 msgid "Another recognition job is already running. It will be aborted in favor of the new job. Do you want to proceed?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1085
+#: src/dialogs/textbasededit.cpp:1105
 #, kde-format
 msgid "Please install a language model."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1093
+#: src/dialogs/textbasededit.cpp:1113
 #, kde-format
 msgid "Select a clip with audio in Project Bin."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1139
+#: src/dialogs/textbasededit.cpp:1159
 #, kde-format
 msgid "Select a clip with audio for speech recognition."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1148 src/dialogs/textbasededit.cpp:1197
-#: src/dialogs/textbasededit.cpp:1257
+#: src/dialogs/textbasededit.cpp:1168 src/dialogs/textbasededit.cpp:1217
+#: src/dialogs/textbasededit.cpp:1277
 #, kde-format
 msgid "Cannot create temporary file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1153
+#: src/dialogs/textbasededit.cpp:1173
 #, kde-format
 msgid "Extracting audio for %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1161
+#: src/dialogs/textbasededit.cpp:1181
 #, kde-format
 msgid "Audio extract failed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1167 src/dialogs/textbasededit.cpp:1233
+#: src/dialogs/textbasededit.cpp:1187 src/dialogs/textbasededit.cpp:1253
 #, kde-format
 msgid "Starting speech recognition on %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1289
+#: src/dialogs/textbasededit.cpp:1309
 #, kde-format
 msgid "Error, please check the speech to text configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1291
+#: src/dialogs/textbasededit.cpp:1311
 #, kde-format
 msgid "No speech detected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1312
+#: src/dialogs/textbasededit.cpp:1332
 #, kde-format
 msgid "Speech recognition finished."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1549
+#: src/dialogs/textbasededit.cpp:1569
 #, kde-format
 msgctxt "@action"
 msgid "Edit clip text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1581 src/dialogs/textbasededit.cpp:1663
+#: src/dialogs/textbasededit.cpp:1601 src/dialogs/textbasededit.cpp:1683
 #, kde-format
 msgctxt "@action"
 msgid "Create sequence clip"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1588 src/dialogs/textbasededit.cpp:1624
+#: src/dialogs/textbasededit.cpp:1608 src/dialogs/textbasededit.cpp:1644
 #, kde-format
 msgid "No text to export"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/textbasededit.cpp:1608
+#: src/dialogs/textbasededit.cpp:1628
 #, kde-format
 msgid "Enter new playlist path"
 msgstr ""
@@ -28067,7 +28068,7 @@ msgid "FFmpeg not found, please set path in Kdenlive's settings Environment"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/jobs/proxytask.cpp:405 src/jobs/proxytask.cpp:418
+#: src/jobs/proxytask.cpp:407 src/jobs/proxytask.cpp:420
 #, kde-format
 msgid "Failed to create proxy clip."
 msgstr ""
@@ -32314,19 +32315,19 @@ msgid "Enable Audio Spectrum"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/monitor/videowidget.cpp:1233
+#: src/monitor/videowidget.cpp:1235
 #, kde-format
 msgid "Select a zone to play"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/monitor/videowidget.cpp:1242
+#: src/monitor/videowidget.cpp:1244
 #, kde-format
 msgid "Select a clip to play"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/monitor/videowidget.cpp:1347
+#: src/monitor/videowidget.cpp:1349
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"

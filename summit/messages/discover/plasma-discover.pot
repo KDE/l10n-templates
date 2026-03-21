@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-03 07:03+0100\n"
+"POT-Creation-Date: 2026-03-21 21:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -909,7 +909,7 @@ msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:262
+#: discover/qml/ApplicationsListPage.qml:273
 #, kde-format
 msgid "Search"
 msgstr ""
@@ -933,20 +933,33 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: discover/qml/ApplicationsListPage.qml:126
+#, kde-format
+msgid "Number of reviews"
+msgstr ""
+
+#. +> stable6
 #: discover/qml/ApplicationsListPage.qml:126
 #, kde-format
 msgid "Popularity"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: discover/qml/ApplicationsListPage.qml:137
+#, kde-format
+msgctxt "@item:inmenu sort by highest-rated apps"
+msgid "Rating"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: discover/qml/ApplicationsListPage.qml:148
 #, kde-format
 msgid "Size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationsListPage.qml:148
+#: discover/qml/ApplicationsListPage.qml:159
 #, kde-format
 msgid "Release date"
 msgstr ""
@@ -965,41 +978,41 @@ msgid "https://duckduckgo.com/?q=%1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:208
+#: discover/qml/ApplicationsListPage.qml:219
 #, kde-format
 msgid "Nothing found"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:216
+#: discover/qml/ApplicationsListPage.qml:227
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:226
+#: discover/qml/ApplicationsListPage.qml:237
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:241
+#: discover/qml/ApplicationsListPage.qml:252
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application; %2 is the name of a category of apps or add-ons"
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:243
+#: discover/qml/ApplicationsListPage.qml:254
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationsListPage.qml:244
+#: discover/qml/ApplicationsListPage.qml:255
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" may be available on the web. Software acquired from the web has not been reviewed by your distributor for functionality or stability. Use with caution."
@@ -1013,7 +1026,7 @@ msgid "\"%1\" may be available on the web. Software acquired from the web has no
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:277
+#: discover/qml/ApplicationsListPage.qml:288
 #, kde-format
 msgid "Still looking…"
 msgstr ""
@@ -1038,36 +1051,37 @@ msgctxt "@title:group"
 msgid "Most Popular"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: discover/qml/BrowsingPage.qml:113 discover/qml/BrowsingPage.qml:245
+#: discover/qml/BrowsingPage.qml:302
+#, kde-format
+msgctxt "@action:button"
+msgid "See More"
+msgstr ""
+
 #. +> trunk6 stable6
-#: discover/qml/BrowsingPage.qml:119
+#: discover/qml/BrowsingPage.qml:141
 #, kde-format
 msgctxt "@title:group"
 msgid "Newly Published & Recently Updated"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/BrowsingPage.qml:169
+#: discover/qml/BrowsingPage.qml:191
 #, kde-format
 msgctxt "@title:group"
 msgid "Editor's Choice"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/BrowsingPage.qml:194
+#: discover/qml/BrowsingPage.qml:216
 #, kde-format
 msgctxt "@title:group"
 msgid "Highest-Rated Games"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/BrowsingPage.qml:223 discover/qml/BrowsingPage.qml:280
-#, kde-format
-msgctxt "@action:button"
-msgid "See More"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: discover/qml/BrowsingPage.qml:249
+#: discover/qml/BrowsingPage.qml:271
 #, kde-format
 msgctxt "@title:group"
 msgid "Highest-Rated Developer Tools"
