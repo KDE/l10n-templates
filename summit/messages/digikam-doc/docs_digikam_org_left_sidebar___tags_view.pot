@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Digikam Manual 9.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-04 09:48+0100\n"
+"POT-Creation-Date: 2026-03-23 10:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -341,201 +341,206 @@ msgstr ""
 
 #. +> trunk5
 #: ../../left_sidebar/tags_view.rst:175
-msgid "The **Tag Manager** window consists of three parts, the **Quick Access List** to the left, the **Tags** tree (or parts of it) in the middle and the **Tag Properties** to the right that shows the properties for the selected tag."
+msgid "**Export tags to a file from selected tag** and **Import tags from a file to selected tag** allows to import or export tag hierarchies to and from text files, supporting the `Controlled Vocabulary Keyword Catalogue <https://www.controlledvocabulary.com/products/index.html>`_ format. This functionality simplifies the management and sharing of complex tag structures across different platforms, programs, and workflows."
 msgstr ""
 
 #. +> trunk5
 #: ../../left_sidebar/tags_view.rst:177
-msgid "The Quick Access List allows you to display only a certain node (and its sub-nodes) in the tag tree window. Select a tag in the tag tree and click on **Add to List** button. The tag will appear in the Quick Access List. If you select the tag there, the tag tree will show only the selected node which can still be expanded to see the sub-nodes. Note that the entering text into the search field will also limit the tag tree to only display those tags that contain the string in the search field."
+msgid "The **Tag Manager** window consists of three parts, the **Quick Access List** to the left, the **Tags** tree (or parts of it) in the middle and the **Tag Properties** to the right that shows the properties for the selected tag."
 msgstr ""
 
 #. +> trunk5
 #: ../../left_sidebar/tags_view.rst:179
+msgid "The Quick Access List allows you to display only a certain node (and its sub-nodes) in the tag tree window. Select a tag in the tag tree and click on **Add to List** button. The tag will appear in the Quick Access List. If you select the tag there, the tag tree will show only the selected node which can still be expanded to see the sub-nodes. Note that the entering text into the search field will also limit the tag tree to only display those tags that contain the string in the search field."
+msgstr ""
+
+#. +> trunk5
+#: ../../left_sidebar/tags_view.rst:181
 msgid "The Tag Properties dialog allows you to change the name of the tag, the icon used in the Tag tree and the shortcut."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:182
+#: ../../left_sidebar/tags_view.rst:184
 msgid "Tagging Photographs"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:184
+#: ../../left_sidebar/tags_view.rst:186
 msgid "Before you can get the most out of digiKam's tagging capabilities, you must first tag your photographs. There are a few methods for that task. Once you have identified the photographs that you want to tag you can either drag and drop them onto the tag in the Tag tree or, by clicking with the right mouse button on the selected photographs in the Image Window, you can use the **Assign Tag** menu to select the tags you wish to set."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:186
+#: ../../left_sidebar/tags_view.rst:188
 msgid "Drag and Drop works with any visible tags and photographs in both sidebars. With the Right Sidebar it works the obvious way: you drag the tag and drop it onto the photograph or selection of photographs you want to tag. With the Left Sidebar you have to drag the photographs to the tags. You want to know why? Just try it the other way and you will see."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:190
+#: ../../left_sidebar/tags_view.rst:192
 msgid "You can also use drag and drop between tabs from same sidebar, for example dragging a icon-view item from **Albums** to the **Tags** view. To switch from one tab to another one, just move the mouse over the tab title for a few seconds while dragging, the new view will be enabled and the dragging operation can continue."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:192
+#: ../../left_sidebar/tags_view.rst:194
 msgid "Shortcuts: as mentioned earlier in this chapter you can assign keyboard shortcuts to the Tag Properties. Such shortcuts could then be used to assign or un-assign a tag to the selected photograph(s)."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:194
+#: ../../left_sidebar/tags_view.rst:196
 msgid "Context menu: by clicking with the right mouse button on the selected photographs and choosing **Assign Tag** you will see a list of the ten most recently used tags, **Add New Tag...**, described at the beginning of the :ref:`previous section <managing_tags>`, and **More Tags...** which displays the *Tags* tab of the *Captions* view in the Right Sidebar. This is described in more detail in the paragraphs below and in :ref:`this section <tags_tree>` of the manual. This context menu may be the easiest method to add a limited number of tags to one or more images."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:200
+#: ../../left_sidebar/tags_view.rst:202
 msgid "Tagging Image With Context Menu From Icon-View"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:202
+#: ../../left_sidebar/tags_view.rst:204
 msgid "You can remove a tag from a photograph by clicking with the right mouse button on the photograph and select **Remove Tag** submenu from the context menu. This submenu will only show those tags that have been set on this photograph."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:204
+#: ../../left_sidebar/tags_view.rst:206
 msgid "Many people use the *Tags* tab of the *Captions* view in the Right Sidebar as their standard method for assigning tags. Click **Captions** tab from the Right Sidebar and then the **Tags** tab from the top of the sidebar to display the whole tag tree. Simply check/un-check the boxes of the tags you want to assign/un-assign and then click **Apply**. If you change focus without clicking Apply, you will be asked whether you want to apply the changes. This request for confirmation can be disabled either by checking **Always apply changes without confirmation** or by checking **Do not confirm when applying changes in the right sidebar** in the Miscellaneous section of :menuselection:`Settings --> Configure digiKam...`. More details about the other buttons and fields in the **Tags** tab are provided in :ref:`digiKam sidebar <tags_tree>`."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:206
+#: ../../left_sidebar/tags_view.rst:208
 msgid "You can label a photograph with as many tags as you like. The photograph will appear when you select any of the tags that are applied to it. This way you can set a tag for each person in a photograph, as well as the place the photograph was taken, the event it was taken at, etc."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:208
+#: ../../left_sidebar/tags_view.rst:210
 msgid "Once you have tagged a photograph, the tag name will appear under the thumbnail in the Image Area."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:212
+#: ../../left_sidebar/tags_view.rst:214
 msgid "Tags are stored in a database for fast access, and the applied tags are written into IPTC data fields of the image (at least for JPEG). So you can use your tags with other programs or, in case of loss of that data in the database, the tags will be restored when the image is re-imported into digiKam."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:217
+#: ../../left_sidebar/tags_view.rst:219
 msgid "Auto-tagging Images"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:219
+#: ../../left_sidebar/tags_view.rst:221
 msgid "Auto-tagging in a digiKam is the process of automatically assigning tags to digital assets like photos and videos. Instead of manually tagging each asset with terms and phrases, auto-tagging uses deep-learning neural networks to analyze the content and generate relevant tags, keywords, and descriptions."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:221
+#: ../../left_sidebar/tags_view.rst:223
 msgid "This process enriches your digital assets with valuable information, making them easier to organize, search, and manage. It also saves time and resources by automating repetitive metadata creation, reducing human errors, and ensuring consistent metadata across assets."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:223
+#: ../../left_sidebar/tags_view.rst:225
 msgid "Auto-tagging can identify objects like dogs, cars, and people (not faces) within digital assets, and it can even recognize and tag content in multiple languages. This enhances the discoverability and usability of your digital assets, allowing you to focus on more strategic tasks."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:227
+#: ../../left_sidebar/tags_view.rst:229
 msgid "For auto-tagging to work correctly, digiKam needs to download the deep-learning models from the web. These files can either be downloaded when digiKam is first run (see :ref:`the Quick Start section <quick_start>` for details), or the files can be downloaded by clicking on the **Download required binary data** button on the :menuselection:`Settings --> Miscellaneous --> System` page."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:229
+#: ../../left_sidebar/tags_view.rst:231
 msgid "The settings view is divided into three tabs: **Search-in**, **Settings**, and **Translate**."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:234
+#: ../../left_sidebar/tags_view.rst:236
 msgid "Search-in Tab"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:236
+#: ../../left_sidebar/tags_view.rst:238
 msgid "The **Search-in** tab lets you choose which albums and image tags to include in a scan. You can select specific albums or tags for auto-tagging."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:243
+#: ../../left_sidebar/tags_view.rst:245
 msgid "The digiKam Auto-tags Search-in view"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:248
+#: ../../left_sidebar/tags_view.rst:250
 msgid "Settings Tab"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:250
+#: ../../left_sidebar/tags_view.rst:252
 msgid "The **Settings** tab lets you fine-tune the results from scans. Here, you can select the auto-tagging model, adjust tagging behavior, and set the accuracy level. Additionally, you can control the processor load used for auto-tagging detection. The default values have been carefully chosen for normal use after exhaustive testing on multiple datasets."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:257
+#: ../../left_sidebar/tags_view.rst:259
 msgid "The digiKam Auto-tags Settings view"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:260
+#: ../../left_sidebar/tags_view.rst:262
 msgid "Auto-tag Settings"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:262
+#: ../../left_sidebar/tags_view.rst:264
 msgid "For Auto-tagging, there are 4 settings the user can adjust to control how digiKam detects and tags objects in an image."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:264
+#: ../../left_sidebar/tags_view.rst:266
 msgid "**Scan mode**: The scan mode determines if digiKam will scan all images, or only images that don't have an **auto** tag already assigned. The **auto** tag is assigned to images that have been auto-tagged. The **auto** tag is not assigned to images that have been manually tagged."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:266
+#: ../../left_sidebar/tags_view.rst:268
 msgid "**Auto-tagging Mode**: When applying auto-tags, you can choose between **Update** and **Replace Existing**. Selecting **Update** will add any new auto-tags to the existing tags on the image. **Replace Existing** will remove all existing auto-tags and replace them with the tags detected by the current scan. Any tags not under the **auto** tag will not be affected. This setting is useful if you want to run multiple scans with different settings and combine the results."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:268
+#: ../../left_sidebar/tags_view.rst:270
 msgid "**Detection Model**: The detection model is the neural network used to detect objects in the image. The default model is **EfficientNet B7**. The **EfficientNet B7** model is a general-purpose model that can detect 1,000 different objects and scenes. The **YOLOv11-Nano** model is faster and uses less memory than the **EfficientNet B7** model. The **YOLOv11-Nano** model is recommended for users with limited memory or slower processors, and **YOLOv11-XLarge** is recommended for users with more memory and faster processors. Both YOLOv11 models are trained to detect 80 different objects based on the COCO dataset."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:270
+#: ../../left_sidebar/tags_view.rst:272
 msgid "**Accuracy**: Lower accuracy settings may detect more objects in an image, but it will also increase the number of incorrectly identified objects (false positives). The default setting of 7 is recommended for normal use."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:273
+#: ../../left_sidebar/tags_view.rst:275
 msgid "Work on all processor cores"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:275
+#: ../../left_sidebar/tags_view.rst:277
 msgid "Auto-tagging can be a time-consuming task depending on the size of your library and filtering selected in **Search-in**. It is recommended to use all processor cores.  This will make the process run faster, but it can potentially make other processes run slower and make your computer feel unresponsive while auto-tagging is running. You can uncheck **Work on all processor cores** if your machine is slow and you want to perform other tasks while the auto-tag scan is running."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:280
+#: ../../left_sidebar/tags_view.rst:282
 msgid "Translate Tab"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:282
+#: ../../left_sidebar/tags_view.rst:284
 msgid "The **Translate** tab lets you choose additional languages for auto-tagging. This feature will use an online translation service to translate the auto-tag into one of the supported languages."
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:289
+#: ../../left_sidebar/tags_view.rst:291
 msgid "The digiKam Auto-tags Translate view"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:294
+#: ../../left_sidebar/tags_view.rst:296
 msgid "Scan Collection for Auto-tags"
 msgstr ""
 
 #. +> trunk5
-#: ../../left_sidebar/tags_view.rst:296
+#: ../../left_sidebar/tags_view.rst:298
 msgid "To begin scanning, click the **Auto-tag Scan** button. While the auto-tag assignment process is underway, a progress indicator is displayed in the bottom right corner of the main window. As the scan progresses, news tags will be added to the **auto** tag in the Tags view."
 msgstr ""
 

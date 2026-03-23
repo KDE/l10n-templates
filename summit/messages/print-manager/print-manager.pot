@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: print-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-18 10:40+0100\n"
+"POT-Creation-Date: 2026-03-23 10:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -705,7 +705,7 @@ msgid "Created"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkcups/JobModel.cpp:30 src/libkcups/JobModel.cpp:450
+#: src/libkcups/JobModel.cpp:30 src/libkcups/JobModel.cpp:451
 #, kde-format
 msgid "Completed"
 msgstr ""
@@ -747,31 +747,38 @@ msgid "From Hostname"
 msgstr ""
 
 #. +> trunk6
-#: src/libkcups/JobModel.cpp:169
+#: src/libkcups/JobModel.cpp:167
 #, kde-format
 msgid "Processing\t%1 [%2]"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/libkcups/JobModel.cpp:444
+#. +> trunk6
+#: src/libkcups/JobModel.cpp:233
 #, kde-format
-msgid "Pending"
+msgctxt "@info:status The processing detail message (%1), the job name (%2) and the printer name (%3)"
+msgid "%1\t%2 [%3]"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/libkcups/JobModel.cpp:445
 #, kde-format
+msgid "Pending"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/libkcups/JobModel.cpp:446
+#, kde-format
 msgid "On hold"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkcups/JobModel.cpp:447
+#: src/libkcups/JobModel.cpp:448
 #, kde-format
 msgid "Stopped"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkcups/JobModel.cpp:448
+#: src/libkcups/JobModel.cpp:449
 #, kde-format
 msgid "Canceled"
 msgstr ""
@@ -783,7 +790,7 @@ msgid "Failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkcups/JobModel.cpp:449
+#: src/libkcups/JobModel.cpp:450
 #, kde-format
 msgid "Aborted"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-bigscreen\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-28 07:31+0100\n"
+"POT-Creation-Date: 2026-03-23 10:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -36,51 +36,75 @@ msgid "Remove Favorites"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/homeoverlay/MainColumn.qml:114
+#: contents/ui/homeoverlay/ColumnActionsRow.qml:36
+#, kde-format
+msgid "Screenshot"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/homeoverlay/ColumnActionsRow.qml:50
+#, kde-format
+msgid "Audio"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/homeoverlay/ColumnActionsRow.qml:78
+#, kde-format
+msgid "Wi-Fi"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/homeoverlay/ColumnActionsRow.qml:93
+#, kde-format
+msgid "Shutdown"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/homeoverlay/MainColumn.qml:127
 #, kde-format
 msgid "Home"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/homeoverlay/MainColumn.qml:127
+#: contents/ui/homeoverlay/MainColumn.qml:140
 #: contents/ui/indicators/Search.qml:16
 #, kde-format
 msgid "Search"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/homeoverlay/MainColumn.qml:144
+#: contents/ui/homeoverlay/MainColumn.qml:157
 #, kde-format
 msgctxt "@action:button Opens an overview of all currently running apps"
 msgid "Tasks"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/homeoverlay/MainColumn.qml:165
+#: contents/ui/homeoverlay/MainColumn.qml:178
 #, kde-format
 msgid "Controller"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/homeoverlay/MainColumn.qml:166
+#: contents/ui/homeoverlay/MainColumn.qml:179
 #, kde-format
 msgid "Currently capturing keys…"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/homeoverlay/MainColumn.qml:166
+#: contents/ui/homeoverlay/MainColumn.qml:179
 #, kde-format
 msgid "Key capture off"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/homeoverlay/MainColumn.qml:186
+#: contents/ui/homeoverlay/MainColumn.qml:199
 #, kde-format
 msgid "On-screen Keyboard"
 msgstr ""
 
 #. +> trunk6 stable5
-#: contents/ui/homeoverlay/MainColumn.qml:200
+#: contents/ui/homeoverlay/MainColumn.qml:213
 #: contents/ui/indicators/Settings.qml:18
 #, kde-format
 msgid "Settings"
@@ -123,14 +147,20 @@ msgstr ""
 msgid "KDE Connect"
 msgstr ""
 
-#. +> trunk6 stable5
-#: contents/ui/indicators/PairWindow.qml:48
+#. +> trunk6
+#: contents/ui/indicators/PairWindow.qml:40
+#, kde-format
+msgid "Accept Pairing Request From %1?"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/indicators/PairWindow.qml:42
 #, kde-format
 msgid "Pairing Request From %1"
 msgstr ""
 
-#. +> trunk6 stable5
-#: contents/ui/indicators/PairWindow.qml:83
+#. +> stable5
+#: contents/ui/indicators/PairWindow.qml:69
 #, kde-format
 msgid "Accept"
 msgstr ""
@@ -139,12 +169,6 @@ msgstr ""
 #: contents/ui/indicators/PairWindow.qml:105
 #, kde-format
 msgid "Reject"
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/indicators/PairWindow.qml:127
-#, kde-format
-msgid "Cancel"
 msgstr ""
 
 #. +> trunk6

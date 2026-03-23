@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: komodo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-21 07:44+0100\n"
+"POT-Creation-Date: 2026-03-23 10:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -90,131 +90,278 @@ msgid "KomoDo"
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:85
+#: src/plasmoid/config.qml:9
 #, kde-format
-msgid "Delete To-Do"
+msgctxt "@title:tab Configuration category"
+msgid "General"
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:97
+#: src/plasmoid/configGeneral.qml:24
 #, kde-format
-msgid "Are you sure you wish to delete this To-Do?"
+msgctxt "@option:check"
+msgid "Show number of incomplete tasks when on a panel"
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:153
+#: src/plasmoid/configGeneral.qml:28
 #, kde-format
-msgid "Filter:"
+msgctxt "@info:tooltip Near the 'show badge' checkbox"
+msgid "Tasks which are hidden by the search filter are not counted."
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:164
+#: src/plasmoid/configGeneral.qml:33
 #, kde-format
+msgctxt "@label"
+msgid "File path:"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/configGeneral.qml:39
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Path to To-Do list…"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/configGeneral.qml:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose To-Do list…"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/configGeneral.qml:57
+#, kde-format
+msgctxt "@label:filedialog"
+msgid "Choose a To-Do list"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/configGeneral.qml:58 src/plasmoid/FullRepresentation.qml:96
+#, kde-format
+msgctxt "Filename filter"
+msgid "Text files (*.txt)"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/configGeneral.qml:73
+#, kde-format
+msgctxt "@label:group, followed by 'show' or 'hide, use ... instead'"
+msgid "Search bar:"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/configGeneral.qml:74
+#, kde-format
+msgctxt "@option:check, show search bar, following 'search bar'"
+msgid "Show"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/configGeneral.qml:81
+#, kde-format
+msgctxt "@option:check, hide search bar, following 'search bar'"
+msgid "Hide, use these values instead:"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/configGeneral.qml:97
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search term…"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/configGeneral.qml:117 src/plasmoid/FullRepresentation.qml:61
+#, kde-format
+msgctxt "@item:inmenu Secondary filter, show all tasks"
 msgid "Show All"
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:168
+#: src/plasmoid/configGeneral.qml:121 src/plasmoid/FullRepresentation.qml:65
 #, kde-format
+msgctxt "@item:inmenu Secondary filter, show tasks with due date"
 msgid "Due Date"
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:172
+#: src/plasmoid/configGeneral.qml:125 src/plasmoid/FullRepresentation.qml:69
 #, kde-format
+msgctxt "@item:inmenu Secondary filter, show incomplete tasks"
 msgid "Incomplete"
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:176
+#: src/plasmoid/configGeneral.qml:129 src/plasmoid/FullRepresentation.qml:73
 #, kde-format
+msgctxt "@item:inmenu Secondary filter, show completed tasks"
 msgid "Completed"
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:205
+#: src/plasmoid/FullRepresentation.qml:120 src/TodoPage.qml:333
 #, kde-format
-msgid "This To-Do list has been changed externally. Reloading it is strongly advised!"
+msgctxt "@info:placeholder"
+msgid "No To-Dos found."
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:211
+#: src/plasmoid/FullRepresentation.qml:124
 #, kde-format
-msgctxt "@action:button"
-msgid "Reload"
+msgctxt "@action:button Shown when the to-do list is empty"
+msgid "Edit in KomoDo…"
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:223
-#, kde-format
-msgid "This To-Do list has been deleted! Open another To-Do list or create new one."
-msgstr ""
-
-#. +> trunk6
-#: src/TodoPage.qml:229 src/TodoPage.qml:268
-#, kde-format
-msgctxt "@button"
-msgid "Create New To-Do List…"
-msgstr ""
-
-#. +> trunk6
-#: src/TodoPage.qml:236
-#, kde-format
-msgctxt "@action:button"
-msgid "Open To-Do List…"
-msgstr ""
-
-#. +> trunk6
-#: src/TodoPage.qml:248
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "New To-Do…"
-msgstr ""
-
-#. +> trunk6
-#: src/TodoPage.qml:260
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open To-Do List…"
-msgstr ""
-
-#. +> trunk6
-#: src/TodoPage.qml:274
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Help…"
-msgstr ""
-
-#. +> trunk6
-#: src/TodoPage.qml:281
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Auto-insert creation date"
-msgstr ""
-
-#. +> trunk6
-#: src/TodoPage.qml:285
-#, kde-format
-msgctxt "A checkbox for toggling this setting"
-msgid "Insert a creation date for any new task automatically"
-msgstr ""
-
-#. +> trunk6
-#: src/TodoPage.qml:293
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About KomoDo"
-msgstr ""
-
-#. +> trunk6
-#: src/TodoPage.qml:319
+#: src/plasmoid/FullRepresentation.qml:133 src/TodoPage.qml:340
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Welcome to KomoDo!"
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:320
+#: src/plasmoid/FullRepresentation.qml:137 src/TodoPage.qml:234
+#, kde-format
+msgctxt "@action:button"
+msgid "Open To-Do List…"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/main.qml:25
+#, kde-format
+msgctxt "@info:tooltip title, shown on hover"
+msgid "KomoDo Tasks"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/main.qml:26
+#, kde-format
+msgctxt "@info:tooltip description, shown on hover"
+msgid "Manage your tasks at a glance"
+msgstr ""
+
+#. +> trunk6
+#: src/plasmoid/main.qml:66
+#, kde-format
+msgctxt "@action:inmenu Open the KomoDo app"
+msgid "Manage Tasks…"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:84
+#, kde-format
+msgid "Delete To-Do"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:96
+#, kde-format
+msgid "Are you sure you wish to delete this To-Do?"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:152
+#, kde-format
+msgid "Filter:"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:163
+#, kde-format
+msgid "Show All"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:167
+#, kde-format
+msgid "Due Date"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:171
+#, kde-format
+msgid "Incomplete"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:175
+#, kde-format
+msgid "Completed"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:203
+#, kde-format
+msgid "This To-Do list has been changed externally. Reloading it is strongly advised!"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:209
+#, kde-format
+msgctxt "@action:button"
+msgid "Reload"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:221
+#, kde-format
+msgid "This To-Do list has been deleted! Open another To-Do list or create new one."
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:227 src/TodoPage.qml:266
+#, kde-format
+msgctxt "@button"
+msgid "Create New To-Do List…"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:246
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New To-Do…"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:258
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open To-Do List…"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:272
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Help…"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:279
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Auto-insert creation date"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:283
+#, kde-format
+msgctxt "A checkbox for toggling this setting"
+msgid "Insert a creation date for any new task automatically"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:291
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KomoDo"
+msgstr ""
+
+#. +> trunk6
+#: src/TodoPage.qml:341
 #, kde-format
 msgctxt "Welcome introduction text"
 msgid ""
@@ -228,85 +375,85 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/TodoPage.qml:332
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No To-Dos found."
-msgstr ""
-
-#. +> trunk6
-#: src/ui/TodoDelegate.qml:64
+#: src/ui/TodoDelegate.qml:70
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Toggle completion status"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:100
+#: src/ui/TodoDelegate.qml:106
 #, kde-format
 msgid "Priority"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:193
+#: src/ui/TodoDelegate.qml:199
 #, kde-format
 msgid "Task completion date"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:206
+#: src/ui/TodoDelegate.qml:212
 #, kde-format
 msgid "Task due date"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:219
+#: src/ui/TodoDelegate.qml:225
 #, kde-format
 msgid "Task creation date"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:235
+#: src/ui/TodoDelegate.qml:242
+#, kde-format
+msgctxt "@button"
+msgid "Edit in KomoDo…"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:264
 #, kde-format
 msgctxt "@button"
 msgid "Edit"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:258
+#: src/ui/TodoDelegate.qml:288
 #, kde-format
 msgctxt "@button"
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:295
+#: src/ui/TodoDelegate.qml:325
 #, kde-format
 msgctxt "Placeholder text for creating new tasks"
 msgid "(A) YYYY-MM-DD Description +Project @Context key:value"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:331
+#: src/ui/TodoDelegate.qml:361
 #, kde-format
 msgctxt "@button"
 msgid "Insert Date…"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:333
+#: src/ui/TodoDelegate.qml:363
 #, kde-format
 msgid "Open a date picker and insert it at cursor position"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:345
+#: src/ui/TodoDelegate.qml:375
 #, kde-format
 msgid "Syntax Information"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:350
+#: src/ui/TodoDelegate.qml:380
 #, kde-format
 msgctxt "Syntax quick guide"
 msgid ""
@@ -331,26 +478,26 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:355
+#: src/ui/TodoDelegate.qml:385
 #, kde-format
 msgid "Syntax Information…"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:363
+#: src/ui/TodoDelegate.qml:393
 #, kde-format
 msgid "Show todo.txt syntax reference"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:377
+#: src/ui/TodoDelegate.qml:407
 #, kde-format
 msgctxt "@button"
 msgid "Save"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/TodoDelegate.qml:398
+#: src/ui/TodoDelegate.qml:428
 #, kde-format
 msgctxt "@button"
 msgid "Cancel"
