@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-glaxnimate-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-14 08:28+0100\n"
+"POT-Creation-Date: 2026-03-24 08:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -458,7 +458,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid "Download AppImage"
+msgid "AppImage"
 msgstr ""
 
 #. +> trunk5
@@ -478,19 +478,12 @@ msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid "AUR"
+msgid "Fedora"
 msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid ""
-"For the stable package:\n"
-"```bash\n"
-"git clone https://aur.archlinux.org/glaxnimate.git\n"
-"cd glaxnimate\n"
-"makepkg -rsi\n"
-"```\n"
-"(For unstable replace `glaxnimate` by `glaxnimate-git`)\n"
+msgid "`yum install glaxnimate`"
 msgstr ""
 
 #. +> trunk5
@@ -505,12 +498,47 @@ msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
-msgid "This package is for the python module only, not for the full program."
+msgid "Arch"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid ""
+"For the stable package:\n"
+"```bash\n"
+"pacman -S glanimate\n"
+"```\n"
+"For the unstable package:\n"
+"```bash\n"
+"git clone https://aur.archlinux.org/glaxnimate-git.git\n"
+"cd glaxnimate-git\n"
+"makepkg -rsi\n"
+"```\n"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "Libraries"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "These packages are for developers who want to manipulate or render Glaxnimate files."
 msgstr ""
 
 #. +> trunk5
 #: content/download.md:0
 msgid "Get it on PyPi"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "Get it on NPM"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "Import from CDN"
 msgstr ""
 
 #. +> trunk5
@@ -1634,14 +1662,20 @@ msgstr ""
 msgid "Python Package"
 msgstr ""
 
-#. download.distros.manualdatails
+#. download.js.title
 #. +> trunk5
 #: i18n/en.yaml:39
+msgid "JavaScript Package"
+msgstr ""
+
+#. download.distros.manualdatails
+#. +> trunk5
+#: i18n/en.yaml:43
 msgid "Click for details on manual installation"
 msgstr ""
 
 #. unstable.disclaimer
 #. +> trunk5
-#: i18n/en.yaml:42
+#: i18n/en.yaml:46
 msgid "Remember that these binaries can be unstable. Recommended for **testing purpose only**!"
 msgstr ""

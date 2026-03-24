@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-03-13 10:57+0100\n"
+"POT-Creation-Date: 2026-03-24 08:45+0100\n"
 
 #. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
 #. +> trunk6 trunk5
@@ -2131,45 +2131,57 @@ msgctxt "KLed|Accessible name of a Led whose state is off"
 msgid "LED off"
 msgstr ""
 
+#. +> trunk6
+#: kmessagebox.cpp:235
+msgctxt "QObject|This text is not actually shown. Please 'translate' it to some arbitrary text that is just short enough to show in a single line, while longer text should be wrapped for readability. In a latin charset, suggested length is around 120 chars."
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna alia"
+msgstr ""
+
+#. +> trunk6
+#: kmessagebox.cpp:252
+msgctxt "QObject|This text is not actually shown. Please 'translate' it to some arbitrary text that is just short enough that it should never be wrapped. In a latin charset, suggested length is around 70 chars."
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmi"
+msgstr ""
+
 #. +> trunk6 trunk5
-#: kmessagebox.cpp:307
+#: kmessagebox.cpp:319
 msgctxt "KMessageBox|"
 msgid "Details"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kmessagebox.cpp:460 kmessagebox.cpp:515
+#: kmessagebox.cpp:472 kmessagebox.cpp:527
 msgctxt "KMessageBox|"
 msgid "Question"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kmessagebox.cpp:476 kmessagebox.cpp:532 kmessagebox.cpp:605
-#: kmessagebox.cpp:671 kmessagebox.cpp:755
+#: kmessagebox.cpp:488 kmessagebox.cpp:544 kmessagebox.cpp:617
+#: kmessagebox.cpp:683 kmessagebox.cpp:767
 msgctxt "KMessageBox|"
 msgid "Do not ask again"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kmessagebox.cpp:589 kmessagebox.cpp:655 kmessagebox.cpp:738
+#: kmessagebox.cpp:601 kmessagebox.cpp:667 kmessagebox.cpp:750
 msgctxt "KMessageBox|"
 msgid "Warning"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kmessagebox.cpp:797 kmessagebox.cpp:822 kmessagebox.cpp:841
+#: kmessagebox.cpp:809 kmessagebox.cpp:834 kmessagebox.cpp:853
 msgctxt "KMessageBox|"
 msgid "Error"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kmessagebox.cpp:882
+#: kmessagebox.cpp:894
 msgctxt "KMessageBox|"
 msgid "Information"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kmessagebox.cpp:897
+#: kmessagebox.cpp:909
 msgctxt "KMessageBox|"
 msgid "Do not show this message again"
 msgstr ""

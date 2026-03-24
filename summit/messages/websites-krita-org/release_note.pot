@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-krita-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 21:15+0100\n"
+"POT-Creation-Date: 2026-03-24 08:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2356,7 +2356,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:161
-msgid "Corner mode for curves ([MR 2191](https://invent.kde.org/graphics/krita/-/merge_requests/2191), [manual](https://docs.krita.org/en/reference_manual/brushes/brush_settings/special_widgets.html#curve-editor)) — Krita's brush engine uses curves extensively to configure the effects of various sensors on the brush. By default, the points on this curve are smooth cubic curves, which is useful in most cases. However, sometimes you want a little bit more control, so Krita 5.3 now comes with the ability to make sharp corners by <kbd>Ctrl</kbd> + clicking a given node. Filters using curves also benefit from this feature."
+msgid "Corner mode for curves ([MR 2191](https://invent.kde.org/graphics/krita/-/merge_requests/2191), [manual](https://docs.krita.org/en/reference_manual/special_widgets.html#curve-editor)) — Krita's brush engine uses curves extensively to configure the effects of various sensors on the brush. By default, the points on this curve are smooth cubic curves, which is useful in most cases. However, sometimes you want a little bit more control, so Krita 5.3 now comes with the ability to make sharp corners by <kbd>Ctrl</kbd> + clicking a given node. Filters using curves also benefit from this feature."
 msgstr ""
 
 #. +> trunk5
@@ -2507,7 +2507,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:212
-msgid "Pen tilt tweaks ([MR 2314](https://invent.kde.org/graphics/krita/-/merge_requests/2314), [MR 2337](https://invent.kde.org/graphics/krita/-/merge_requests/2337), [manual](https://docs.krita.org/en/reference_manual/preferences/tablet_settings/tablet_settings_tilt_direction_offset)) — Krita has support for the tilt direction reported by some models of drawing tablets. However, not all tablets support tilt, and furthermore, if you create a brush as a left-handed user, it can feel very different for a right handed user. To that end controls were added to allow adding extra pen tilt offset for different handedness, as well as the ability to set a default pen tilt when the tablet does not support tilt."
+msgid "Pen tilt tweaks ([MR 2314](https://invent.kde.org/graphics/krita/-/merge_requests/2314), [MR 2337](https://invent.kde.org/graphics/krita/-/merge_requests/2337), [manual](https://docs.krita.org/en/reference_manual/preferences/tablet_settings.html#tablet-settings-tilt-direction-offset)) — Krita has support for the tilt direction reported by some models of drawing tablets. However, not all tablets support tilt, and furthermore, if you create a brush as a left-handed user, it can feel very different for a right handed user. To that end controls were added to allow adding extra pen tilt offset for different handedness, as well as the ability to set a default pen tilt when the tablet does not support tilt."
 msgstr ""
 
 #. +> trunk5
@@ -2597,7 +2597,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/en/release-notes/krita-5-3-release-notes.md:235
-msgid "Halla — Administration"
+msgid "Halla — Administration, Qt6 port."
 msgstr ""
 
 #. +> trunk5
