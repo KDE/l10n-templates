@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-09 09:43+0100\n"
+"POT-Creation-Date: 2026-03-25 09:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -68,77 +68,20 @@ msgid "© 2001-2004 Klarälvdalens Datakonsult AB\n"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:54
+#: kwatchgnupgconfig.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KWatchGnuPG"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:70
-#, kde-format
-msgid "WatchGnuPG"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:80
-#, kde-format
-msgctxt "@label:textbox"
-msgid "&Executable:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:89
-#, kde-format
-msgctxt "@label:textbox"
-msgid "&Socket:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:98
-#, kde-format
-msgid "None"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:99
-#, kde-format
-msgid "Basic"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:100
-#, kde-format
-msgid "Advanced"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:101
-#, kde-format
-msgid "Expert"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:102
-#, kde-format
-msgid "Guru"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:103
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Default &log level:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:111
+#: kwatchgnupgconfig.cpp:43
 #, kde-format
 msgid "Log Window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:123
+#: kwatchgnupgconfig.cpp:55
 #, kde-format
 msgctxt "history size spinbox suffix"
 msgid "%v line"
@@ -147,26 +90,83 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:124
+#: kwatchgnupgconfig.cpp:56
 #, kde-format
 msgid "unlimited"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:125
+#: kwatchgnupgconfig.cpp:57
 #, kde-format
 msgctxt "@label:textbox"
 msgid "&History size:"
 msgstr ""
 
+#. +> stable6
+#: kwatchgnupgconfig.cpp:80
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&Executable:"
+msgstr ""
+
+#. +> stable6
+#: kwatchgnupgconfig.cpp:89
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&Socket:"
+msgstr ""
+
+#. +> stable6
+#: kwatchgnupgconfig.cpp:103
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Default &log level:"
+msgstr ""
+
 #. +> trunk6 stable6
-#: kwatchgnupgconfig.cpp:129
+#: kwatchgnupgconfig.cpp:61
 #, kde-format
 msgctxt "@action:button"
 msgid "Set &Unlimited"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
+#: kwatchgnupgconfig.cpp:70
+#, kde-format
+msgid "WatchGnuPG"
+msgstr ""
+
+#. +> stable6
+#: kwatchgnupgconfig.cpp:98
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. +> stable6
+#: kwatchgnupgconfig.cpp:99
+#, kde-format
+msgid "Basic"
+msgstr ""
+
+#. +> stable6
+#: kwatchgnupgconfig.cpp:100
+#, kde-format
+msgid "Advanced"
+msgstr ""
+
+#. +> stable6
+#: kwatchgnupgconfig.cpp:101
+#, kde-format
+msgid "Expert"
+msgstr ""
+
+#. +> stable6
+#: kwatchgnupgconfig.cpp:102
+#, kde-format
+msgid "Guru"
+msgstr ""
+
+#. +> stable6
 #: kwatchgnupgconfig.cpp:136
 #, kde-format
 msgctxt "@option:check"
@@ -174,24 +174,88 @@ msgid "Enable &word wrapping"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:70
+#: kwatchgnupgmainwin.cpp:69
 #, kde-format
 msgid "[%1] Log cleared"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:77
+#: kwatchgnupgmainwin.cpp:76
 #, kde-format
 msgid "C&lear History"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:106
+#: kwatchgnupgmainwin.cpp:105
 #, kde-format
 msgid "[%1] Log stopped"
 msgstr ""
 
+#. +> trunk6
+#: kwatchgnupgmainwin.cpp:110
+#, kde-format
+msgid ""
+"The watchgnupg logging program could not be found.\n"
+"Please make sure that watchgnupg is installed."
+msgstr ""
+
+#. +> trunk6
+#: kwatchgnupgmainwin.cpp:111 kwatchgnupgmainwin.cpp:121
+#, kde-format
+msgid "[%1] Failed to start %2"
+msgstr ""
+
+#. +> trunk6
+#: kwatchgnupgmainwin.cpp:120
+#, kde-format
+msgid ""
+"The watchgnupg logging process could not be started.\n"
+"Please make sure that watchgnupg is installed properly."
+msgstr ""
+
 #. +> trunk6 stable6
+#: kwatchgnupgmainwin.cpp:125
+#, kde-format
+msgid "[%1] Log started"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kwatchgnupgmainwin.cpp:134
+#, kde-format
+msgid ""
+"The watchgnupg logging process died.\n"
+"Do you want to try to restart it?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kwatchgnupgmainwin.cpp:136
+#, kde-format
+msgctxt "@action:button"
+msgid "Try Restart"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kwatchgnupgmainwin.cpp:137
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Try"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kwatchgnupgmainwin.cpp:139
+#, kde-format
+msgid "====== Restarting logging process ====="
+msgstr ""
+
+#. +> trunk6 stable6
+#: kwatchgnupgmainwin.cpp:143
+#, kde-format
+msgid ""
+"The watchgnupg logging process is not running.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+
+#. +> stable6
 #: kwatchgnupgmainwin.cpp:123
 #, kde-format
 msgid ""
@@ -200,62 +264,20 @@ msgid ""
 "This log window is unable to display any useful information."
 msgstr ""
 
-#. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:126
-#, kde-format
-msgid "[%1] Log started"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> stable6
 #: kwatchgnupgmainwin.cpp:161
 #, kde-format
 msgid "There are no components available that support logging."
 msgstr ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:168
-#, kde-format
-msgid ""
-"The watchgnupg logging process died.\n"
-"Do you want to try to restart it?"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:170
-#, kde-format
-msgctxt "@action:button"
-msgid "Try Restart"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:171
-#, kde-format
-msgctxt "@action:button"
-msgid "Do Not Try"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:173
-#, kde-format
-msgid "====== Restarting logging process ====="
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:177
-#, kde-format
-msgid ""
-"The watchgnupg logging process is not running.\n"
-"This log window is unable to display any useful information."
-msgstr ""
-
-#. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:201
+#: kwatchgnupgmainwin.cpp:167
 #, kde-format
 msgid "Save Log to File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kwatchgnupgmainwin.cpp:209
+#: kwatchgnupgmainwin.cpp:175
 #, kde-format
 msgid "Could not save file %1: %2"
 msgstr ""
