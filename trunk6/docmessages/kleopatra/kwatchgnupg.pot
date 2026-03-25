@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"POT-Creation-Date: 2026-03-25 00:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -268,73 +268,23 @@ msgstr ""
 msgid ""
 "To configure &kwatchgnupg;, select <menuchoice><guimenu>Settings</"
 "guimenu><guimenuitem>Configure &kwatchgnupg;</guimenuitem></menuchoice>, or "
-"the corresponding toolbar icon. &kwatchgnupg;'s configure dialog is divided "
-"into two parts, each of which will be described below."
+"the corresponding toolbar icon."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:174
+#: index.docbook:173
 #, no-c-format
 msgid "Settings Dialog"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:176
-#, no-c-format
-msgid "&watchgnupg; Settings"
-msgstr ""
-
-#. Tag: para
-#: index.docbook:178
-#, no-c-format
-msgid ""
-"&watchgnupg; is the process that actually monitors the logging socket for "
-"activity and formats the lines as seen in the &kwatchgnupg; text view. "
-"Settings in this group are passed down to the backend using the &gpgconf; "
-"mechanism."
-msgstr ""
-
-#. Tag: para
-#: index.docbook:185
-#, no-c-format
-msgid ""
-"<guilabel>Executable</guilabel> contains the path to the &watchgnupg; "
-"application. If &watchgnupg; is in your <varname>$PATH</varname>, you can "
-"keep the default <userinput>watchgnupg</userinput>. If &watchgnupg; is not "
-"in your <varname>$PATH</varname>, or if you have more than one version "
-"installed, enter the absolute filename of the watchgnupg executable here."
-msgstr ""
-
-#. Tag: para
-#: index.docbook:194
-#, no-c-format
-msgid ""
-"<guilabel>Socket</guilabel> contains the socket that &watchgnupg; should "
-"listen on. A change here is distributed to all &gnupg; backend modules using "
-"&gpgconf;, so you don't need to change this setting if your &gnupg; config "
-"files have another <varname>log-file</varname> set."
-msgstr ""
-
-#. Tag: para
-#: index.docbook:202
-#, no-c-format
-msgid ""
-"<guilabel>Default log level</guilabel> determines the amount of logging "
-"information returned by the backend modules. See the &watchgnupg; "
-"documentation for what level includes which information. A change here is "
-"distributed to all &gnupg; backend modules using &gpgconf;, so you don't "
-"need to change this setting if your &gnupg; config files have another "
-"<varname>log-level</varname> set."
-msgstr ""
-
-#. Tag: title
-#: index.docbook:214
+#: index.docbook:175
 #, no-c-format
 msgid "Log Window Settings"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:216
+#: index.docbook:177
 #, no-c-format
 msgid ""
 "Here, you can configure the size of the history buffer, &ie; the number of "
@@ -344,7 +294,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:224
+#: index.docbook:185
 #, no-c-format
 msgid ""
 "You can disable the history size limit by clicking <guibutton>Set Unlimited</"
@@ -355,55 +305,71 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:240
+#: index.docbook:198
+#, no-c-format
+msgid "&gnupg; Logging Settings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:200
+#, no-c-format
+msgid ""
+"Use the settings dialog of &kleopatra; for configuring logging of the "
+"components of the &gnupg; System. For each component for which you want to "
+"see logging choose a debugging level and enter <filename>socket://</"
+"filename> as file the logs should be written to."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:212
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:242
+#: index.docbook:214
 #, no-c-format
 msgid "&kwatchgnupg; copyright 2004 Klar&auml;lvdalens Datakonsult AB"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:244
+#: index.docbook:216
 #, no-c-format
 msgid "Documentation copyright 2004 Klar&auml;lvdalens Datakonsult AB"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:247
+#: index.docbook:219
 #, no-c-format
 msgid "Contributors"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:249
+#: index.docbook:221
 #, no-c-format
 msgid "&Steffen.Hansen; <email>hansen@kde.org</email>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:252
+#: index.docbook:224
 #, no-c-format
 msgid "&Marc.Mutz; &Marc.Mutz.mail;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:255
+#: index.docbook:227
 #, no-c-format
 msgid "&David.Faure; &David.Faure.mail;"
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:259
+#: index.docbook:231
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:259
+#: index.docbook:231
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
