@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: labplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 21:15+0100\n"
+"POT-Creation-Date: 2026-03-27 10:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1228,13 +1228,13 @@ msgid "The metadata file for the selected dataset is invalid."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/datasources/DatasetHandler.cpp:170
+#: src/backend/datasources/DatasetHandler.cpp:167
 #, kde-format
 msgid "There is no download URL present in the metadata file!"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/datasources/DatasetHandler.cpp:202
+#: src/backend/datasources/DatasetHandler.cpp:200
 #, kde-format
 msgid ""
 "Failed to download the dataset from %1.\n"
@@ -1242,13 +1242,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/datasources/DatasetHandler.cpp:236
+#: src/backend/datasources/DatasetHandler.cpp:234
 #, kde-format
 msgid "Failed to create the directory %1 to save the dataset."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/backend/datasources/DatasetHandler.cpp:259
+#: src/backend/datasources/DatasetHandler.cpp:257
 #, kde-format
 msgid ""
 "Couldn't open the file %1 for writing.\n"
@@ -14803,7 +14803,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/frontend/colormaps/ColorMapsWidget.cpp:51
-#: src/frontend/datasources/ImportDatasetWidget.cpp:51
+#: src/frontend/datasources/ImportDatasetWidget.cpp:52
 #: src/frontend/datasources/ImportKaggleDatasetWidget.cpp:125
 #: src/frontend/examples/ExamplesWidget.cpp:48
 #, kde-format
@@ -14812,7 +14812,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/frontend/colormaps/ColorMapsWidget.cpp:54
-#: src/frontend/datasources/ImportDatasetWidget.cpp:54
+#: src/frontend/datasources/ImportDatasetWidget.cpp:55
 #: src/frontend/datasources/ImportKaggleDatasetWidget.cpp:128
 #: src/frontend/examples/ExamplesWidget.cpp:51
 #, kde-format
@@ -15412,8 +15412,8 @@ msgstr ""
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, sbKeepNValues)
 #. +> trunk6 stable6 stable5
-#: src/frontend/datasources/ImportDatasetWidget.cpp:161
-#: src/frontend/datasources/ImportDatasetWidget.cpp:230
+#: src/frontend/datasources/ImportDatasetWidget.cpp:166
+#: src/frontend/datasources/ImportDatasetWidget.cpp:235
 #: src/frontend/examples/ExamplesWidget.cpp:57
 #: src/frontend/ui/datasources/importfilewidget.ui:785
 #: src/frontend/ui/dockwidgets/livedatadock.ui:267
@@ -15422,7 +15422,7 @@ msgid "All"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/datasources/ImportDatasetWidget.cpp:168
+#: src/frontend/datasources/ImportDatasetWidget.cpp:173
 #: src/frontend/examples/ExamplesManager.cpp:192
 #: src/tools/ColorMapsManager.cpp:177
 #, kde-format
@@ -15430,20 +15430,20 @@ msgid "File not found"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/datasources/ImportDatasetWidget.cpp:169
+#: src/frontend/datasources/ImportDatasetWidget.cpp:174
 #, kde-format
 msgid "Couldn't open the dataset collections file %1. Please check your installation."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/datasources/ImportDatasetWidget.cpp:527
+#: src/frontend/datasources/ImportDatasetWidget.cpp:537
 #, kde-format
 msgid "Dataset"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lDescription)
 #. +> trunk6 stable6 stable5
-#: src/frontend/datasources/ImportDatasetWidget.cpp:530
+#: src/frontend/datasources/ImportDatasetWidget.cpp:540
 #: src/frontend/ui/datasources/datasetmetadatamanagerwidget.ui:210
 #, kde-format
 msgid "Description"

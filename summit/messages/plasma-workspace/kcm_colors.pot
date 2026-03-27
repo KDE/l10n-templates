@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-07 09:45+0100\n"
+"POT-Creation-Date: 2026-03-27 10:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1440,22 +1440,22 @@ msgctxt "@item:inlistbox filter displayed schemes"
 msgid "Dark schemes"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/main.qml:143
-#, kde-format
-msgid "Use accent color:"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:152
+#: ui/main.qml:136
 #, kde-format
 msgid "Install from File…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:157
+#: ui/main.qml:141
 #, kde-format
 msgid "Get New…"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:143
+#, kde-format
+msgid "Use accent color:"
 msgstr ""
 
 #. +> stable5
@@ -1466,27 +1466,47 @@ msgid "From current wallpaper"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:204
+#: ui/main.qml:188
 #, kde-format
 msgid "Window Title"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:227
+#: ui/main.qml:211
 #, kde-format
 msgid "Window text"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:235
+#: ui/main.qml:219
 #, kde-format
 msgid "Button"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:259
+#, kde-format
+msgctxt "Hyperlink"
+msgid "link"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:261
+#, kde-format
+msgctxt "Visited hyperlink"
+msgid "visited"
 msgstr ""
 
 #. +> stable5
 #: package/contents/ui/main.qml:266
 #, kde-format
 msgid "Custom:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:269
+#, kde-format
+msgid "Normal text"
 msgstr ""
 
 #. +> stable5
@@ -1496,39 +1516,19 @@ msgid "Choose custom accent color"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:275
-#, kde-format
-msgctxt "Hyperlink"
-msgid "link"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:277
-#, kde-format
-msgctxt "Visited hyperlink"
-msgid "visited"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:285
-#, kde-format
-msgid "Normal text"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:292
+#: ui/main.qml:276
 #, kde-format
 msgid "Highlighted text"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:299
+#: ui/main.qml:283
 #, kde-format
 msgid "Disabled text"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:317
+#: ui/main.qml:301
 #, kde-format
 msgid "Edit Color Scheme…"
 msgstr ""
@@ -1540,28 +1540,28 @@ msgid "Light Schemes"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:324
+#: ui/main.qml:308
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove color scheme"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:326
+#: ui/main.qml:310
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cannot delete the active color scheme"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:328
+#: ui/main.qml:312
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cannot delete system-installed color schemes"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:336
+#: ui/main.qml:320
 #, kde-format
 msgid "Don’t delete this color scheme"
 msgstr ""
@@ -1573,7 +1573,7 @@ msgid "This module lets you choose the color scheme."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:380
+#: ui/main.qml:364
 #, kde-format
 msgid "Open Color Scheme"
 msgstr ""
@@ -1615,7 +1615,7 @@ msgid "Get New Color Schemes…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:382
+#: ui/main.qml:366
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""
