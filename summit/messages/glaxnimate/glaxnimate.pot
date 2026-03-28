@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: glaxnimate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 08:40+0100\n"
+"POT-Creation-Date: 2026-03-28 13:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #. +> trunk6 stable6
 #, kde-format
@@ -405,7 +406,7 @@ msgstr ""
 #: src/android/document_opener.cpp:201
 #: src/gui/widgets/dialogs/gw_impl_document.cpp:450
 #: src/gui/widgets/dialogs/gw_impl_document.cpp:455
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:196
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:210
 #: src/gui/widgets/font/external_font_widget.cpp:126
 #, kde-format
 msgid "Open File"
@@ -419,7 +420,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/android/document_opener.cpp:106
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:197
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:211
 #, kde-format
 msgid "Save File"
 msgstr ""
@@ -718,14 +719,14 @@ msgid "Stroke Style"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/android/main_window.cpp:454 src/gui/widgets/dialogs/gw_impl_ui.cpp:653
+#: src/android/main_window.cpp:454 src/gui/widgets/dialogs/gw_impl_ui.cpp:664
 #: src/gui/widgets/menus/node_menu.cpp:116
 #, kde-format
 msgid "Raise"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/android/main_window.cpp:459 src/gui/widgets/dialogs/gw_impl_ui.cpp:656
+#: src/android/main_window.cpp:459 src/gui/widgets/dialogs/gw_impl_ui.cpp:667
 #: src/gui/widgets/menus/node_menu.cpp:120
 #, kde-format
 msgid "Lower"
@@ -734,7 +735,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: src/android/main_window.cpp:466 src/gui/tools/select_tool.cpp:410
 #: src/gui/widgets/dialogs/selection_manager.cpp:85
-#: src/gui/widgets/menus/node_menu.cpp:521
+#: src/gui/widgets/menus/node_menu.cpp:519
 #, kde-format
 msgid "Cut"
 msgstr ""
@@ -786,7 +787,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, toolButton)
 #. i18n: ectx: property (text), widget (QToolButton, btn_new)
 #. +> trunk6 stable6
-#: src/android/main_window.cpp:508 src/gui/glaxnimateui.rc:126
+#: src/android/main_window.cpp:508 src/gui/glaxnimateui.rc:127
 #: src/gui/widgets/docks/snippet_list_widget.ui:29
 #: src/gui/widgets/shape_style/gradient_list_widget.ui:48
 #, kde-format
@@ -817,7 +818,7 @@ msgstr ""
 #: src/gui/widgets/dialogs/about_env_dialog.ui:101
 #: src/gui/widgets/dialogs/about_env_dialog.ui:129
 #: src/gui/widgets/dialogs/about_env_dialog.ui:132
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1767
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1905
 #: src/gui/widgets/dialogs/startup_dialog.ui:149
 #: src/gui/widgets/lottiefiles/lottiefiles_search_dialog.ui:136
 #: src/gui/widgets/lottiefiles/search_result.cpp:74
@@ -873,8 +874,8 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QDockWidget, dock_layers)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk6 stable6
-#: src/android/main_window.cpp:546 src/gui/glaxnimateui.rc:124
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:609
+#: src/android/main_window.cpp:546 src/gui/glaxnimateui.rc:125
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:620
 #: src/gui/widgets/dialogs/timing_dialog.ui:91
 #: src/gui/widgets/docks/layers.ui:27
 #, kde-format
@@ -953,8 +954,8 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/android/main_window.cpp:1003
-#: src/gui/widgets/menus/animated_property_menu.cpp:54
-#: src/gui/widgets/timeline/compound_timeline_widget.cpp:171
+#: src/gui/widgets/menus/animated_property_menu.cpp:60
+#: src/gui/widgets/timeline/compound_timeline_widget.cpp:173
 #, kde-format
 msgid "Clear Animations"
 msgstr ""
@@ -968,7 +969,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, glaxnimate::android::MainWindow)
 #. +> trunk6 stable6
 #: src/android/main_window.ui:21 src/core/glaxnimate/app_info.cpp:14
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:500
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:511
 #, kde-format
 msgid "Glaxnimate"
 msgstr ""
@@ -1076,14 +1077,14 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/core/glaxnimate/command/animation_commands.cpp:293
-#: src/gui/widgets/timeline/timeline_items.cpp:562
+#: src/gui/widgets/timeline/timeline_items.cpp:552
 #, kde-format
 msgid "Update keyframe transition"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/core/glaxnimate/command/animation_commands.cpp:343
-#: src/core/glaxnimate/model/animation/animatable_base.cpp:48
+#: src/core/glaxnimate/model/animation/animatable_base.cpp:53
 #, kde-format
 msgid "Move keyframe"
 msgstr ""
@@ -1105,6 +1106,14 @@ msgstr ""
 #, kde-format
 msgid "Stretch Time"
 msgstr ""
+
+#. +> trunk6
+#: src/core/glaxnimate/command/clipboard.cpp:142
+#, kde-format
+msgid "Paste keyframe"
+msgid_plural "Paste keyframes"
+msgstr[0] ""
+msgstr[1] ""
 
 #. +> trunk6 stable6
 #: src/core/glaxnimate/command/object_list_commands.hpp:26
@@ -2286,7 +2295,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QScrollBar, scrollbar)
 #. +> trunk6 stable6
 #: src/core/glaxnimate/model/animation/animatable.cpp:382
-#: src/gui/widgets/menus/animated_property_menu.cpp:58
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:725
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:777
+#: src/gui/widgets/menus/animated_property_menu.cpp:64
 #: src/gui/widgets/timeline/compound_timeline_widget.ui:194
 #, kde-format
 msgid "Add Keyframe"
@@ -2306,7 +2317,7 @@ msgid "Set keyframe transition"
 msgstr ""
 
 #. +> trunk6
-#: src/core/glaxnimate/model/animation/meta_animatable.cpp:138
+#: src/core/glaxnimate/model/animation/meta_animatable.cpp:137
 #, kde-format
 msgid "Move Keyframe"
 msgstr ""
@@ -2390,7 +2401,7 @@ msgstr ""
 #. i18n: ectx: Menu (new_comp_layer_menu)
 #. +> trunk6 stable6
 #: src/core/glaxnimate/model/assets/composition.cpp:24
-#: src/gui/glaxnimateui.rc:128
+#: src/gui/glaxnimateui.rc:129
 #, kde-format
 msgid "Composition"
 msgstr ""
@@ -2501,8 +2512,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, check_group)
 #. +> trunk6 stable6
 #: src/core/glaxnimate/model/shapes/composable/group.hpp:36
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:628
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:665
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:639
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:676
 #: src/gui/widgets/tools/shape_tool_widget.ui:41
 #, kde-format
 msgid "Group"
@@ -2518,7 +2529,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, check_layer)
 #. +> trunk6 stable6
 #: src/core/glaxnimate/model/shapes/composable/layer.hpp:81
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:625
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:636
 #: src/gui/widgets/tools/shape_tool_widget.ui:55
 #, kde-format
 msgid "Layer"
@@ -2577,9 +2588,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6
 #: src/core/glaxnimate/model/shapes/shapes/path.hpp:38
-#: src/gui/glaxnimateui.rc:178
+#: src/gui/glaxnimateui.rc:190
 #: src/gui/widgets/dialogs/export_image_sequence_dialog.ui:122
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:718
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:853
 #: src/gui/widgets/settings/plugin_settings_widget.ui:176
 #, kde-format
 msgid "Path"
@@ -2607,7 +2618,7 @@ msgstr ""
 #. i18n: ectx: Menu (text)
 #. +> trunk6 stable6
 #: src/core/glaxnimate/model/shapes/shapes/text.cpp:474
-#: src/gui/glaxnimateui.rc:204 src/gui/widgets/dialogs/gw_impl_ui.cpp:131
+#: src/gui/glaxnimateui.rc:216 src/gui/widgets/dialogs/gw_impl_ui.cpp:135
 #, kde-format
 msgid "Text"
 msgstr ""
@@ -2620,7 +2631,7 @@ msgstr ""
 #: src/core/glaxnimate/model/shapes/style/fill.hpp:48
 #: src/gui/tools/draw_tool_base.cpp:114 src/gui/tools/fill_tool.cpp:25
 #: src/gui/widgets/dialogs/gw_impl_document.cpp:771
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:631
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:642
 #: src/gui/widgets/docks/colors.ui:22
 #: src/gui/widgets/shape_style/gradient_list_widget.ui:197
 #: src/gui/widgets/tools/color_picker_widget.ui:24
@@ -2638,7 +2649,7 @@ msgstr ""
 #: src/core/glaxnimate/model/shapes/style/stroke.hpp:68
 #: src/gui/tools/draw_tool_base.cpp:126
 #: src/gui/widgets/dialogs/gw_impl_document.cpp:766
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:634
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:645
 #: src/gui/widgets/docks/stroke.ui:22
 #: src/gui/widgets/shape_style/gradient_list_widget.ui:111
 #: src/gui/widgets/tools/color_picker_widget.ui:37
@@ -2977,7 +2988,7 @@ msgstr ""
 #: src/gui/widgets/dialogs/about_env_dialog.ui:248
 #: src/gui/widgets/dialogs/about_env_dialog.ui:289
 #: src/gui/widgets/dialogs/document_metadata_dialog.ui:109
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:341
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:348
 #: src/gui/widgets/dialogs/startup_dialog.ui:48
 #: src/gui/widgets/settings/plugin_settings_widget.ui:168
 #: src/gui/widgets/shape_style/document_swatch_widget.cpp:391
@@ -3143,15 +3154,15 @@ msgstr ""
 
 #. i18n: ectx: Menu (file_new_from_template)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:13 src/gui/widgets/dialogs/gw_impl_ui.cpp:1419
+#: src/gui/glaxnimateui.rc:13 src/gui/widgets/dialogs/gw_impl_ui.cpp:1557
 #, kde-format
 msgid "New from Template"
 msgstr ""
 
 #. i18n: ectx: Menu (edit_tools)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:51 src/gui/widgets/dialogs/gw_impl_ui.cpp:412
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:808
+#: src/gui/glaxnimateui.rc:51 src/gui/widgets/dialogs/gw_impl_ui.cpp:419
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:943
 #, kde-format
 msgid "Tools"
 msgstr ""
@@ -3172,21 +3183,21 @@ msgstr ""
 
 #. i18n: ectx: Menu (document)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:89 src/gui/widgets/dialogs/gw_impl_ui.cpp:493
+#: src/gui/glaxnimateui.rc:90 src/gui/widgets/dialogs/gw_impl_ui.cpp:504
 #, kde-format
 msgid "Document"
 msgstr ""
 
 #. i18n: ectx: Menu (render_frame_menu)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:91
+#: src/gui/glaxnimateui.rc:92
 #, kde-format
 msgid "Render Single Frame"
 msgstr ""
 
 #. i18n: ectx: Menu (web_preview_menu)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:96 src/gui/widgets/dialogs/gw_impl_document.cpp:531
+#: src/gui/glaxnimateui.rc:97 src/gui/widgets/dialogs/gw_impl_document.cpp:531
 #: src/gui/widgets/dialogs/gw_impl_document.cpp:553
 #: src/gui/widgets/dialogs/gw_impl_document.cpp:559
 #, kde-format
@@ -3195,50 +3206,57 @@ msgstr ""
 
 #. i18n: ectx: Menu (playback)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:113 src/gui/widgets/dialogs/gw_impl_ui.cpp:540
+#: src/gui/glaxnimateui.rc:114 src/gui/widgets/dialogs/gw_impl_ui.cpp:551
 #, kde-format
 msgid "Playback"
 msgstr ""
 
 #. i18n: ectx: Menu (object)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:147 src/gui/widgets/dialogs/gw_impl_ui.cpp:648
+#: src/gui/glaxnimateui.rc:148 src/gui/widgets/dialogs/gw_impl_ui.cpp:659
 #, kde-format
 msgid "Object"
 msgstr ""
 
 #. i18n: ectx: Menu (align_menu)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:158
+#: src/gui/glaxnimateui.rc:159
 #, kde-format
 msgid "Align and Distribute"
 msgstr ""
 
+#. i18n: ectx: Menu (menu_keyframe_type)
+#. +> trunk6
+#: src/gui/glaxnimateui.rc:180
+#, kde-format
+msgid "Keyframe Transition"
+msgstr ""
+
 #. i18n: ectx: Menu (plugins)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:209 src/gui/settings/plugin_settings_group.hpp:23
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1660
+#: src/gui/glaxnimateui.rc:221 src/gui/settings/plugin_settings_group.hpp:23
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1798
 #, kde-format
 msgid "Plugins"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:223
+#: src/gui/glaxnimateui.rc:235
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: ectx: ToolBar (toolsToolBar)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:246
+#: src/gui/glaxnimateui.rc:258
 #, kde-format
 msgid "Tools Toolbar"
 msgstr ""
 
 #. i18n: ectx: ToolBar (nodeToolBar)
 #. +> trunk6 stable6
-#: src/gui/glaxnimateui.rc:262
+#: src/gui/glaxnimateui.rc:274
 #, kde-format
 msgid "Node Toolbar"
 msgstr ""
@@ -3335,7 +3353,7 @@ msgid "Number of users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/item_models/property_model_base.cpp:244
+#: src/gui/item_models/property_model_base.cpp:245
 #, kde-format
 msgid "Toggle Keyframe"
 msgstr ""
@@ -3548,13 +3566,13 @@ msgid "Drag nodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/tools/edit_tool.cpp:280 src/gui/widgets/dialogs/gw_impl_ui.cpp:752
+#: src/gui/tools/edit_tool.cpp:280 src/gui/widgets/dialogs/gw_impl_ui.cpp:887
 #, kde-format
 msgid "Cusp"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/tools/edit_tool.cpp:284 src/gui/widgets/dialogs/gw_impl_ui.cpp:753
+#: src/gui/tools/edit_tool.cpp:284 src/gui/widgets/dialogs/gw_impl_ui.cpp:888
 #, kde-format
 msgid "Smooth"
 msgstr ""
@@ -3623,13 +3641,13 @@ msgid "Remove Stop"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/tools/edit_tool.cpp:535 src/gui/widgets/dialogs/gw_impl_ui.cpp:757
+#: src/gui/tools/edit_tool.cpp:535 src/gui/widgets/dialogs/gw_impl_ui.cpp:892
 #, kde-format
 msgid "Dissolve Nodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/tools/edit_tool.cpp:535 src/gui/widgets/dialogs/gw_impl_ui.cpp:744
+#: src/gui/tools/edit_tool.cpp:535 src/gui/widgets/dialogs/gw_impl_ui.cpp:879
 #, kde-format
 msgid "Delete Nodes"
 msgstr ""
@@ -3653,7 +3671,7 @@ msgid "Curve segments"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/tools/edit_tool.hpp:27 src/gui/widgets/dialogs/gw_impl_ui.cpp:366
+#: src/gui/tools/edit_tool.hpp:27 src/gui/widgets/dialogs/gw_impl_ui.cpp:373
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -3714,13 +3732,13 @@ msgid "Drag"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/tools/select_tool.cpp:400 src/gui/widgets/dialogs/gw_impl_ui.cpp:371
+#: src/gui/tools/select_tool.cpp:400 src/gui/widgets/dialogs/gw_impl_ui.cpp:378
 #, kde-format
 msgid "Undo %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/tools/select_tool.cpp:405 src/gui/widgets/dialogs/gw_impl_ui.cpp:377
+#: src/gui/tools/select_tool.cpp:405 src/gui/widgets/dialogs/gw_impl_ui.cpp:384
 #, kde-format
 msgid "Redo %1"
 msgstr ""
@@ -3729,7 +3747,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, button_delete)
 #. +> trunk6 stable6
 #: src/gui/tools/select_tool.cpp:418
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:392
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:399
 #: src/gui/widgets/dialogs/selection_manager.cpp:90
 #: src/gui/widgets/dialogs/stalefiles_dialog.ui:46
 #: src/gui/widgets/docks/snippet_list_widget.ui:57
@@ -3765,7 +3783,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QDialog, glaxnimate::gui::AboutEnvironmentDialog)
 #. +> trunk6 stable6
 #: src/gui/widgets/dialogs/about_env_dialog.ui:20
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:158
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:162
 #, kde-format
 msgid "About Environment"
 msgstr ""
@@ -4061,7 +4079,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab_custom)
 #. +> trunk6 stable6
 #: src/gui/widgets/dialogs/document_metadata_dialog.ui:84
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:448
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:455
 #: src/gui/widgets/font/font_style_dialog.ui:77
 #: src/gui/widgets/timeline/keyframe_transition_data.hpp:58
 #, kde-format
@@ -4177,7 +4195,7 @@ msgstr ""
 #: src/gui/widgets/dialogs/startup_dialog.ui:68
 #: src/gui/widgets/dialogs/startup_dialog.ui:82
 #: src/gui/widgets/dialogs/timing_dialog.ui:52
-#: src/gui/widgets/settings/settings_dialog.cpp:249
+#: src/gui/widgets/settings/settings_dialog.cpp:255
 #, kde-format
 msgid "Duration"
 msgstr ""
@@ -4240,45 +4258,53 @@ msgid "Start Time"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:28
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:36
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:31
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:39
 #, kde-format
 msgid "New Animation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:42
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:50
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:45
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:53
 #, kde-format
 msgid "File saved"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:44
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:52
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:47
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:55
 #, kde-format
 msgid "Could not save file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:58
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:66
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:61
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:69
 #, kde-format
 msgid "File exported"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:60
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:68
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:63
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:71
 #, kde-format
 msgid "Could not export file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/glaxnimate_window.cpp:170
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:173
 #, kde-format
 msgid "Warning"
 msgstr ""
+
+#. +> trunk6
+#: src/gui/widgets/dialogs/glaxnimate_window.cpp:302
+#, kde-format
+msgid "Delete keyframe"
+msgid_plural "Delete keyframes"
+msgstr[0] ""
+msgstr[1] ""
 
 #. +> trunk6 stable6
 #: src/gui/widgets/dialogs/gw_impl_document.cpp:139
@@ -4404,7 +4430,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/gui/widgets/dialogs/gw_impl_document.cpp:647
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:518
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:529
 #, kde-format
 msgid "Validate Discord Sticker"
 msgstr ""
@@ -4425,7 +4451,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/gui/widgets/dialogs/gw_impl_document.cpp:657
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:515
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:526
 #, kde-format
 msgid "Validate Telegram Sticker"
 msgstr ""
@@ -4566,89 +4592,89 @@ msgid "Remove text from path"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:133
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:137
 #, kde-format
 msgid "Put on Path"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:136
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:140
 #: src/gui/widgets/menus/node_menu.cpp:476
 #, kde-format
 msgid "Remove from Path"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:154
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:158
 #, kde-format
 msgid "Copy Debug Information"
 msgstr ""
 
 #. i18n("Clear"), QIcon::fromTheme("edit-select-symbolic"), {}, Qt::CTRL | Qt::Key_L)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:299
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:306
 #, kde-format
 msgid "File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:304
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:311
 #, kde-format
 msgid "Add Image…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:307
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:314
 #, kde-format
 msgid "Import…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:310
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:317
 #, kde-format
 msgid "Import from LottieFiles…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:313
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:320
 #, kde-format
 msgid "Open Most Recent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:336
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:341
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:347
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:343
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:348
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:354
 #, kde-format
 msgid "Save as Template"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:347
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:354
 #, kde-format
 msgid "Could not save template"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:351
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:358
 #, kde-format
 msgid "Export…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:354
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:361
 #, kde-format
 msgid "Export As…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:357
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:364
 #, kde-format
 msgid "Export as Image Sequence…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:384
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:391
 #, kde-format
 msgid "Paste as Composition"
 msgstr ""
@@ -4657,7 +4683,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, btn_layer_duplicate)
 #. i18n: ectx: property (toolTip), widget (QToolButton, btn_duplicate)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:387
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:394
 #: src/gui/widgets/docks/layers.ui:84 src/gui/widgets/docks/layers.ui:87
 #: src/gui/widgets/shape_style/document_swatch_widget.cpp:486
 #: src/gui/widgets/shape_style/gradient_list_widget.ui:58
@@ -4667,43 +4693,43 @@ msgid "Duplicate"
 msgstr ""
 
 #. +> trunk6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:404
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:411
 #, kde-format
 msgid "Grid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:443
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:450
 #, kde-format
 msgid "View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:454
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:461
 #, kde-format
 msgid "Automatic"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:459
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:466
 #, kde-format
 msgid "Wide"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:464
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:471
 #, kde-format
 msgid "Medium"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:469
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:476
 #, kde-format
 msgid "Compact"
 msgstr ""
 
 #. +> trunk6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:474
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:481
 #, kde-format
 msgid "Mobile"
 msgstr ""
@@ -4711,7 +4737,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QToolButton, btn_angle_reset)
 #. i18n: ectx: property (text), widget (QToolButton, btn_angle_reset)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:485
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:492
 #: src/gui/widgets/view_transform_widget.ui:150
 #: src/gui/widgets/view_transform_widget.ui:153
 #, kde-format
@@ -4721,77 +4747,83 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QToolButton, btn_flip_view)
 #. i18n: ectx: property (text), widget (QToolButton, btn_flip_view)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:487
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:494
 #: src/gui/widgets/view_transform_widget.ui:164
 #: src/gui/widgets/view_transform_widget.ui:167
 #, kde-format
 msgid "Flip View"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:495
-#, kde-format
-msgid "Raster…"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/gui/widgets/dialogs/gw_impl_ui.cpp:497
 #, kde-format
-msgid "SVG…"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:503
-#, kde-format
-msgid "Lottie (SVG)"
+msgid "Focus Mode"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/gui/widgets/dialogs/gw_impl_ui.cpp:506
 #, kde-format
+msgid "Raster…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:508
+#, kde-format
+msgid "SVG…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:514
+#, kde-format
+msgid "Lottie (SVG)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:517
+#, kde-format
 msgid "Lottie (canvas)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:509
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:520
 #, kde-format
 msgid "SVG (SMIL)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:512
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:523
 #, kde-format
 msgid "RIVE (canvas)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:521
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:532
 #, kde-format
 msgid "Resize…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:524
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:535
 #, kde-format
 msgid "Cleanup"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:527
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:538
 #, kde-format
 msgid "Timing…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:532
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:543
 #, kde-format
 msgid "Metadata…"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, button_play)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:543
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:567
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:554
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:578
 #: src/gui/widgets/timeline/frame_controls_widget.ui:46
 #, kde-format
 msgid "Play"
@@ -4799,142 +4831,142 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, button_loop)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:545
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:556
 #: src/gui/widgets/timeline/frame_controls_widget.ui:63
 #, kde-format
 msgid "Loop"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:547
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:558
 #, kde-format
 msgid "Record Keyframes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:549
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:560
 #, kde-format
 msgid "Jump to Start"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:551
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:562
 #, kde-format
 msgid "Jump to End"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:553
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:564
 #, kde-format
 msgid "Next Frame"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:555
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:566
 #, kde-format
 msgid "Previous Frame"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:563
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:574
 #, kde-format
 msgid "Pause"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:618
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:629
 #, kde-format
 msgid "Precompose Selection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:622
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:633
 #, kde-format
 msgid "New Composition"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:637
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:648
 #, kde-format
 msgid "Emoji…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:650
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:661
 #, kde-format
 msgid "Raise to Top"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:659
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:670
 #, kde-format
 msgid "Lower to Bottom"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:662
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:673
 #, kde-format
 msgid "Move to…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:668
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:679
 #, kde-format
 msgid "Ungroup"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:671
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:682
 #: src/gui/widgets/docks/aligndock.cpp:46
 #, kde-format
 msgid "Align"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:673
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:684
 #, kde-format
 msgid "Selection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:675
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:686
 #, kde-format
 msgid "Canvas"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:677
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:688
 #, kde-format
 msgid "Canvas (as Group)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:680
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:691
 #, kde-format
 msgid "Left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:683
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:692
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:694
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:703
 #, kde-format
 msgid "Center"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:686
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:697
 #, kde-format
 msgid "Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:689
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:700
 #, kde-format
 msgid "Top"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:695
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:706
 #, kde-format
 msgid "Bottom"
 msgstr ""
@@ -4943,175 +4975,188 @@ msgstr ""
 #. addAction(QStringLiteral("separator_align_horizontal"), i18n("Horizontal"), QStringLiteral(""));
 #. addAction(QStringLiteral("separator_align_vertical"), i18n("Vertical"), QStringLiteral(""));
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:702
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:713
 #, kde-format
 msgid "Outside Left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:705
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:716
 #, kde-format
 msgid "Outside Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:708
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:719
 #, kde-format
 msgid "Outside Top"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:711
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:722
 #, kde-format
 msgid "Outside Bottom"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:720
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:739
+#: src/gui/widgets/timeline/compound_timeline_widget.cpp:119
+#, kde-format
+msgid "Custom..."
+msgstr ""
+
+#. +> trunk6
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:800
+#, kde-format
+msgid "Apply %1 keyframe transition"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:855
 #, kde-format
 msgid "Object to Path"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:723
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:858
 #, kde-format
 msgid "Trace Bitmap…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:728
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:863
 #, kde-format
 msgid "Union"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:731
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:866
 #: src/gui/widgets/enum_combo.cpp:145
 #, kde-format
 msgid "Difference"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:734
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:869
 #, kde-format
 msgid "Intersect"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:737
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:872
 #: src/gui/widgets/enum_combo.cpp:147
 #, kde-format
 msgid "Exclusion"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:741
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:876
 #, kde-format
 msgid "Reverse"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:745
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:880
 #, kde-format
 msgid "Add Node…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:747
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:882
 #, kde-format
 msgid "Join Nodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:749
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:884
 #, kde-format
 msgid "Split Nodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:754
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:889
 #, kde-format
 msgid "Symmetric"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:755
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:890
 #, kde-format
 msgid "Make segments straight"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:756
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:891
 #, kde-format
 msgid "Make segments curved"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:899
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1037
 #, kde-format
 msgid "Recording Keyframes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1419
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1557
 #, kde-format
 msgid "Could not load template"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, TraceDialog)
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1616
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1625
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1632
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1754
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1763
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1770
 #: src/gui/widgets/dialogs/trace_dialog.ui:21
 #, kde-format
 msgid "Trace Bitmap"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1616
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1754
 #, kde-format
 msgid "Only select one image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1625
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1763
 #, kde-format
 msgid "You need to select an image to trace"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1632
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1770
 #, kde-format
 msgid "You selected an image with no data"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1719
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1857
 #, kde-format
 msgid "X: %1 Y: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1738
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1876
 #, kde-format
 msgid "Drop File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1749
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1887
 #, kde-format
 msgid "Add to current file?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1755
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1893
 #, kde-format
 msgid "Add as Object"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1761
+#: src/gui/widgets/dialogs/gw_impl_ui.cpp:1899
 #, kde-format
 msgid "Add as Composition"
 msgstr ""
@@ -5177,6 +5222,12 @@ msgstr ""
 #: src/gui/widgets/dialogs/io_status_dialog.ui:84
 #, kde-format
 msgid "Issues"
+msgstr ""
+
+#. +> trunk6
+#: src/gui/widgets/dialogs/keyframe_editor_dialog.hpp:24
+#, kde-format
+msgid "Transition Editor"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, ResizeDialog)
@@ -5353,7 +5404,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6
 #: src/gui/widgets/dialogs/timing_dialog.ui:29
-#: src/gui/widgets/settings/settings_dialog.cpp:248
+#: src/gui/widgets/settings/settings_dialog.cpp:254
 #, kde-format
 msgid "FPS"
 msgstr ""
@@ -6335,30 +6386,48 @@ msgstr ""
 msgid "View on LottieFiles..."
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/gui/widgets/menus/animated_property_menu.cpp:55
-#: src/gui/widgets/timeline/compound_timeline_widget.cpp:174
+#. +> trunk6
+#: src/gui/widgets/menus/animated_property_menu.cpp:51
 #, kde-format
-msgid "Paste Keyframe"
+msgid "Repeat until composition ends"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/gui/widgets/menus/animated_property_menu.cpp:56
+#. +> stable6
+#: src/gui/widgets/menus/animated_property_menu.cpp:57
 #, kde-format
 msgid "Loop Animation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/menus/animated_property_menu.cpp:57
+#: src/gui/widgets/menus/animated_property_menu.cpp:61
+#: src/gui/widgets/timeline/compound_timeline_widget.cpp:176
+#, kde-format
+msgid "Paste Keyframe"
+msgstr ""
+
+#. +> trunk6
+#: src/gui/widgets/menus/animated_property_menu.cpp:62
+#, kde-format
+msgid "Perfect Loop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/gui/widgets/menus/animated_property_menu.cpp:63
 #, kde-format
 msgid "Follow Path..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/menus/animated_property_menu.cpp:59
-#: src/gui/widgets/timeline/compound_timeline_widget.cpp:170
+#: src/gui/widgets/menus/animated_property_menu.cpp:65
+#: src/gui/widgets/timeline/compound_timeline_widget.cpp:172
 #, kde-format
 msgid "Remove Keyframe"
+msgstr ""
+
+#. +> trunk6
+#: src/gui/widgets/menus/animated_property_menu.cpp:131
+#, kde-format
+msgid "Loop %1"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6535,60 +6604,53 @@ msgstr ""
 #: src/gui/widgets/menus/node_menu.cpp:514
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Edit"
-msgstr ""
-
-#. +> trunk6
-#: src/gui/widgets/menus/node_menu.cpp:516
-#, kde-format
-msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr ""
 
 #. +> trunk6
-#: src/gui/widgets/menus/node_menu.cpp:523
+#: src/gui/widgets/menus/node_menu.cpp:521
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/menus/node_menu.cpp:530
+#: src/gui/widgets/menus/node_menu.cpp:528
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/menus/node_menu.cpp:534
+#: src/gui/widgets/menus/node_menu.cpp:532
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate"
 msgstr ""
 
 #. +> trunk6
-#: src/gui/widgets/menus/node_menu.cpp:540
+#: src/gui/widgets/menus/node_menu.cpp:538
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Move"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/menus/node_menu.cpp:547
+#: src/gui/widgets/menus/node_menu.cpp:545
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Move to..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/menus/node_menu.cpp:575
+#: src/gui/widgets/menus/node_menu.cpp:573
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Convert to Path"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/menus/node_menu.cpp:598
+#: src/gui/widgets/menus/node_menu.cpp:596
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Change speed"
@@ -6689,94 +6751,116 @@ msgstr ""
 msgid "Services"
 msgstr ""
 
+#. +> trunk6
+#: src/gui/widgets/settings/settings_dialog.cpp:231
+#, kde-format
+msgid "Best Quality"
+msgstr ""
+
+#. +> trunk6
+#: src/gui/widgets/settings/settings_dialog.cpp:232
+#, kde-format
+msgid "Reduced Size (Performance)"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:229
+#: src/gui/widgets/settings/settings_dialog.cpp:234
 msgctxt "Settings"
 msgid "User Interface"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:230
+#: src/gui/widgets/settings/settings_dialog.cpp:235
 msgid "Show startup dialog"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:233
+#: src/gui/widgets/settings/settings_dialog.cpp:238
 msgid "Horizontal Timeline Scroll"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:234
+#: src/gui/widgets/settings/settings_dialog.cpp:239
 msgid "If enabled, the timeline will scroll horizontally by default and vertically with Shift or Alt"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:237
-msgid "Icon Theme"
+#. +> trunk6
+#: src/gui/widgets/settings/settings_dialog.cpp:241
+msgid "Canvas Render Quality"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:237
-msgid "Icon theme for the application"
+#. +> trunk6
+#: src/gui/widgets/settings/settings_dialog.cpp:241
+msgid "Display quality within the app, does not affect exports"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/gui/widgets/settings/settings_dialog.cpp:243
+msgid "Icon Theme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/gui/widgets/settings/settings_dialog.cpp:243
+msgid "Icon theme for the application"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/gui/widgets/settings/settings_dialog.cpp:249
 #, kde-format
 msgctxt "Seconds suffix"
 msgid "s"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:245
+#: src/gui/widgets/settings/settings_dialog.cpp:251
 msgctxt "Settings"
 msgid "New Animation Defaults"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:246
+#: src/gui/widgets/settings/settings_dialog.cpp:252
 msgid "Canvas Width"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:247
+#: src/gui/widgets/settings/settings_dialog.cpp:253
 msgid "Canvas Height"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:248
+#: src/gui/widgets/settings/settings_dialog.cpp:254
 msgid "Frames per seconds"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:249
+#: src/gui/widgets/settings/settings_dialog.cpp:255
 msgid "Duration in seconds"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:253
+#: src/gui/widgets/settings/settings_dialog.cpp:259
 msgctxt "Settings"
 msgid "Open / Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:254
+#: src/gui/widgets/settings/settings_dialog.cpp:260
 msgid "Max Recent Files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:254
-#: src/gui/widgets/settings/settings_dialog.cpp:255
+#: src/gui/widgets/settings/settings_dialog.cpp:260
+#: src/gui/widgets/settings/settings_dialog.cpp:261
 msgid "Number of items to show in the recent files menu"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:255
+#: src/gui/widgets/settings/settings_dialog.cpp:261
 msgid "Backup Frequency"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/settings/settings_dialog.cpp:256
+#: src/gui/widgets/settings/settings_dialog.cpp:262
 msgid "Use system file dialog"
 msgstr ""
 
@@ -7323,25 +7407,19 @@ msgid "Delete Composition"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/timeline/compound_timeline_widget.cpp:152
+#: src/gui/widgets/timeline/compound_timeline_widget.cpp:169
 #, kde-format
 msgid "Transition From Previous"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/timeline/compound_timeline_widget.cpp:153
+#: src/gui/widgets/timeline/compound_timeline_widget.cpp:170
 #, kde-format
 msgid "Transition To Next"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/timeline/compound_timeline_widget.cpp:160
-#, kde-format
-msgid "Custom..."
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/gui/widgets/timeline/compound_timeline_widget.cpp:173
+#: src/gui/widgets/timeline/compound_timeline_widget.cpp:175
 #, kde-format
 msgid "Copy Keyframe"
 msgstr ""
@@ -7502,7 +7580,7 @@ msgid "Overshoot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/widgets/timeline/timeline_items.cpp:148
+#: src/gui/widgets/timeline/timeline_items.cpp:140
 #, kde-format
 msgid "Drag Keyframes"
 msgstr ""
