@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: marknote\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-24 08:45+0100\n"
+"POT-Creation-Date: 2026-03-30 09:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -176,13 +176,13 @@ msgid "Unable to rename note. A note already exists with the same name."
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:159 qml/RichEditPage.qml:636
+#: qml/EditPage.qml:159 qml/RichEditPage.qml:666
 #, kde-format
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:173 qml/RichEditPage.qml:647
+#: qml/EditPage.qml:173 qml/RichEditPage.qml:677
 #, kde-format
 msgid "Redo"
 msgstr ""
@@ -316,46 +316,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action:menu"
 msgid "Settings"
-msgstr ""
-
-#. +> trunk6
-#: qml/ImageDialog.qml:19
-#, kde-format
-msgctxt "@title:window"
-msgid "Insert Image"
-msgstr ""
-
-#. +> trunk6
-#: qml/ImageDialog.qml:25
-#, kde-format
-msgctxt "@title:window"
-msgid "Select an image"
-msgstr ""
-
-#. +> trunk6
-#: qml/ImageDialog.qml:28
-#, kde-format
-msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
-msgstr ""
-
-#. +> trunk6
-#: qml/ImageDialog.qml:28
-#, kde-format
-msgid "All files (*)"
-msgstr ""
-
-#. +> trunk6
-#: qml/ImageDialog.qml:43
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Image Location:"
-msgstr ""
-
-#. +> trunk6
-#: qml/ImageDialog.qml:54
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Quick Sketch"
 msgstr ""
 
 #. +> trunk6
@@ -828,168 +788,208 @@ msgid "Add a note!"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:266
+#: qml/RichEditPage.qml:224
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an image"
+msgstr ""
+
+#. +> trunk6
+#: qml/RichEditPage.qml:227
+#, kde-format
+msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr ""
+
+#. +> trunk6
+#: qml/RichEditPage.qml:227
+#, kde-format
+msgid "All files (*)"
+msgstr ""
+
+#. +> trunk6
+#: qml/RichEditPage.qml:281
 #, kde-format
 msgctxt "@action:button"
 msgid "Bold"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:287
+#: qml/RichEditPage.qml:302
 #, kde-format
 msgctxt "@action:button"
 msgid "Italic"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:306
+#: qml/RichEditPage.qml:321
 #, kde-format
 msgctxt "@action:button"
 msgid "Underline"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:320
+#: qml/RichEditPage.qml:335
 #, kde-format
 msgctxt "@action:button"
 msgid "Strikethrough"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:338
+#: qml/RichEditPage.qml:353
 #, kde-format
 msgctxt "@action:button"
 msgid "Increase List Level"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:349
+#: qml/RichEditPage.qml:364
 #, kde-format
 msgctxt "@action:button"
 msgid "Decrease List Level"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:391
+#: qml/RichEditPage.qml:406
 #, kde-format
 msgctxt "@item:inmenu no list style"
 msgid "No list"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:392
+#: qml/RichEditPage.qml:407
 #, kde-format
 msgctxt "@item:inmenu unordered style"
 msgid "Unordered list"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:393
+#: qml/RichEditPage.qml:408
 #, kde-format
 msgctxt "@item:inmenu ordered style"
 msgid "Ordered list"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:404
+#: qml/RichEditPage.qml:419
 #, kde-format
 msgctxt "@action:button"
 msgid "Insert checkbox"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:419
+#: qml/RichEditPage.qml:434
 #, kde-format
 msgctxt "@action:button"
 msgid "Insert link"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:435
+#: qml/RichEditPage.qml:450
 #, kde-format
 msgctxt "@action:button"
 msgid "Insert note link"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:451
+#: qml/RichEditPage.qml:466
 #, kde-format
 msgctxt "@action:button"
 msgid "Insert image"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:464
+#: qml/RichEditPage.qml:480
 #, kde-format
 msgctxt "@action:button"
 msgid "Insert table"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:485
+#: qml/RichEditPage.qml:494
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert sketch"
+msgstr ""
+
+#. +> trunk6
+#: qml/RichEditPage.qml:515
 #, kde-format
 msgctxt "@item:inmenu no heading"
 msgid "Basic text"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:486
+#: qml/RichEditPage.qml:516
 #, kde-format
 msgctxt "@item:inmenu heading level 1 (largest)"
 msgid "Title"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:487
+#: qml/RichEditPage.qml:517
 #, kde-format
 msgctxt "@item:inmenu heading level 2"
 msgid "Subtitle"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:488
+#: qml/RichEditPage.qml:518
 #, kde-format
 msgctxt "@item:inmenu heading level 3"
 msgid "Section"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:489
+#: qml/RichEditPage.qml:519
 #, kde-format
 msgctxt "@item:inmenu heading level 4"
 msgid "Subsection"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:490
+#: qml/RichEditPage.qml:520
 #, kde-format
 msgctxt "@item:inmenu heading level 5"
 msgid "Paragraph"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:491
+#: qml/RichEditPage.qml:521
 #, kde-format
 msgctxt "@item:inmenu heading level 6 (smallest)"
 msgid "Subparagraph"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:679
+#: qml/RichEditPage.qml:709
 #, kde-format
 msgid "Format"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:683
+#: qml/RichEditPage.qml:713
 #, kde-format
 msgid "Lists"
 msgstr ""
 
 #. +> trunk6
-#: qml/RichEditPage.qml:687
+#: qml/RichEditPage.qml:717
 #, kde-format
 msgid "Insert"
+msgstr ""
+
+#. +> trunk6
+#: qml/SketchDialog.qml:295
+#, kde-format
+msgctxt "Tool that removes selected parts of image from canvas"
+msgid "Eraser"
+msgstr ""
+
+#. +> trunk6
+#: qml/SketchDialog.qml:310
+#, kde-format
+msgctxt "Button that clears the canvas"
+msgid "Clear Canvas"
 msgstr ""
 
 #. +> trunk6
