@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-16 12:15+0200\n"
+"POT-Creation-Date: 2026-03-31 09:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -260,21 +260,42 @@ msgid "If this option is checked, middle-clicking in a text field will paste fro
 msgstr ""
 
 #. Tag: guimenuitem
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:92
+#, no-c-format
+msgid "Tablet Mode"
+msgstr ""
+
+#. Tag: guimenuitem
+#. +> stable6
 #: index.docbook:92
 #, no-c-format
 msgid "Touch Mode"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: index.docbook:94
+#, no-c-format
+msgid "In Tablet Mode, the virtual keyboard will appear when needed."
+msgstr ""
+
+#. Tag: para
+#. +> stable6 stable5
 #: index.docbook:94
 #, no-c-format
 msgid "In Touch Mode, many elements of the user interface will become larger to more easily accommodate touch interaction."
 msgstr ""
 
 #. Tag: menuchoice
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:99
+#, no-c-format
+msgid "<guimenu>Tablet Mode</guimenu><guimenuitem>Automatically enable as needed</guimenuitem>"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> stable6
 #: index.docbook:100
 #, no-c-format
 msgid "<guimenu>Touch Mode</guimenu><guimenuitem>Automatically enable as needed</guimenuitem>"
@@ -288,7 +309,14 @@ msgid "<guimenu>Touch Mode</guimenu><guimenuitem>Automatically enable as needed/
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:101
+#, no-c-format
+msgid "If this option is selected, Tablet Mode will be automatically activated whenever the system detects a touchscreen but no mouse or touchpad. For example: when a transformable laptop's keyboard is flipped around or detached."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: index.docbook:102
 #, no-c-format
 msgid "If this option is selected, Touch Mode will be automatically activated whenever the system detects a touchscreen but no mouse or touchpad. For example: when a transformable laptop's keyboard is flipped around or detached."
@@ -309,28 +337,56 @@ msgid "Always enabled (default)/Never enabled"
 msgstr ""
 
 #. Tag: menuchoice
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:108
+#, no-c-format
+msgid "<guimenu>Tablet Mode</guimenu><guimenuitem>Always enabled</guimenuitem>"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> stable6
 #: index.docbook:109
 #, no-c-format
 msgid "<guimenu>Touch Mode</guimenu><guimenuitem>Always enabled</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:110
+#, no-c-format
+msgid "If this option is selected, Tablet Mode will always be enabled. Use this option if you use &plasma; primarily with a touchscreen."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: index.docbook:111
 #, no-c-format
 msgid "If this option is selected, Touch Mode will always be enabled. Use this option if you use &plasma; primarily with a touchscreen, or prefer larger click targets for other reasons."
 msgstr ""
 
 #. Tag: menuchoice
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:115
+#, no-c-format
+msgid "<guimenu>Tablet Mode</guimenu><guimenuitem>Never enabled</guimenuitem>"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> stable6
 #: index.docbook:116
 #, no-c-format
 msgid "<guimenu>Touch Mode</guimenu><guimenuitem>Never enabled</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:117
+#, no-c-format
+msgid "If this option is selected, Tablet Mode will always be disabled. Use this option if you don't need Tablet Mode on your device."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: index.docbook:118
 #, no-c-format
 msgid "If this option is selected, Touch Mode will always be disabled. Use this option if you don't need Touch Mode on your device."

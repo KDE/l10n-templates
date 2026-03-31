@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-07 09:45+0100\n"
+"POT-Creation-Date: 2026-03-31 09:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -175,6 +175,13 @@ msgstr ""
 msgid "Main screen overview"
 msgstr ""
 
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:115
+#, no-c-format
+msgid "main_screen"
+msgstr ""
+
 #. Tag: para
 #. +> trunk6 stable6
 #: index.docbook:94
@@ -210,6 +217,13 @@ msgstr ""
 msgid "Follow activities results page."
 msgstr ""
 
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:451
+#, no-c-format
+msgid "activities_results"
+msgstr ""
+
 #. Tag: para
 #. +> trunk6 stable6
 #: index.docbook:102
@@ -239,10 +253,10 @@ msgid "By default the Dashboard page is shown, containing the login dialog, and 
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:115
 #, no-c-format
-msgid "main_screen"
+msgid "The GCompris Teachers main screen showing the dashboard and login interface."
 msgstr ""
 
 #. Tag: para
@@ -253,7 +267,14 @@ msgid "A button to show/hide the title of the buttons in the side menu bar (the 
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:127
+#, no-c-format
+msgid "A view of the sidebar menu with the hamburger icon used to expand or collapse the labels."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:127
 #, no-c-format
 msgid "main_screen_hamburger"
@@ -274,7 +295,14 @@ msgid "To create a new teacher login and database, input the name and the passwo
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:143
+#, no-c-format
+msgid "The dialog for creating a new teacher account with a username and password and choosing database encryption settings."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:143
 #, no-c-format
 msgid "main_screen_create_db"
@@ -295,7 +323,14 @@ msgid "This page allows to create the different pupils and groups for your class
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:157
+#, no-c-format
+msgid "The management screen where a teacher can view the list of groups and pupils."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:157
 #, no-c-format
 msgid "pupils_groups"
@@ -323,7 +358,14 @@ msgid "Click on the <quote>Add a group</quote> button on the bottom right and in
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:172
+#, no-c-format
+msgid "The dialog box to add a new pupil group by entering its name and description."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:172
 #, no-c-format
 msgid "group_add"
@@ -344,7 +386,14 @@ msgid "To edit or delete a group, hover it on the group list and the <quote>Edit
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:188
+#, no-c-format
+msgid "The interface showing how edit and delete buttons appear when hovering over a group name."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:188
 #, no-c-format
 msgid "group_delete_button"
@@ -358,7 +407,14 @@ msgid "Clicking on the <quote>Delete</quote> button will allow you to delete the
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:202
+#, no-c-format
+msgid "The confirmation prompt asking the teacher if they are sure they want to delete a group."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:202
 #, no-c-format
 msgid "group_delete_confirmation"
@@ -379,7 +435,14 @@ msgid "Click on <quote>Add a pupil</quote> to create a new pupil in the database
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:218
+#, no-c-format
+msgid "The 'Add a pupil' window showing fields for pupil name, password, and group selection."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:218
 #, no-c-format
 msgid "pupil_create"
@@ -400,10 +463,10 @@ msgid "You can directly import a list of pupils using a csv file."
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:233
 #, no-c-format
-msgid "pupil_import"
+msgid "The import interface used to upload multiple pupil profiles from a CSV file."
 msgstr ""
 
 #. Tag: para
@@ -418,6 +481,20 @@ msgstr ""
 #: index.docbook:243
 #, no-c-format
 msgid "pupil_export_csv"
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:233
+#, no-c-format
+msgid "pupil_import"
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:275
+#, no-c-format
+msgid "pupil_delete"
 msgstr ""
 
 #. Tag: title
@@ -435,14 +512,28 @@ msgid "The interface also proposes buttons to edit pupils, add or remove them fr
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:257
+#, no-c-format
+msgid "The interface showing the buttons used to assign a specific pupil to a classroom group."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:257
 #, no-c-format
 msgid "pupil_add_to_group"
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:264
+#, no-c-format
+msgid "The interface showing how to remove a pupil from their currently assigned group."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:264
 #, no-c-format
 msgid "pupil_remove_from_group"
@@ -456,10 +547,10 @@ msgid "You can also delete pupils. Note that deleting a pupil does not delete it
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:275
 #, no-c-format
-msgid "pupil_delete"
+msgid "The pupil management screen highlighting the delete button for pupil accounts."
 msgstr ""
 
 #. Tag: title
@@ -467,6 +558,13 @@ msgstr ""
 #: index.docbook:282
 #, no-c-format
 msgid "Connect devices"
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:294
+#, no-c-format
+msgid "connect_devices"
 msgstr ""
 
 #. Tag: para
@@ -477,10 +575,10 @@ msgid "Once the database is ready, it’s now time to communicate with the diffe
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:294
 #, no-c-format
-msgid "connect_devices"
+msgid "The 'Connect devices' dashboard displaying the status of all available pupils and groups."
 msgstr ""
 
 #. Tag: title
@@ -498,10 +596,10 @@ msgid "The teacher needs to configure the server and client devices they want to
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
-#: index.docbook:311 index.docbook:603
+#. +> trunk6
+#: index.docbook:311
 #, no-c-format
-msgid "settings"
+msgid "The settings page where the Server ID and Port number are configured for network communication."
 msgstr ""
 
 #. Tag: para
@@ -512,7 +610,14 @@ msgid "On GCompris devices side, go to the <quote>Configuration</quote> page fro
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:323
+#, no-c-format
+msgid "A confirmation dialog on the pupil's device asking to connect to the teacher's server."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:323
 #, no-c-format
 msgid "gcompris_teacher_config_button"
@@ -526,7 +631,14 @@ msgid "After clicking it, make sure to have the same settings as the server:"
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:334
+#, no-c-format
+msgid "The client-side settings screen where pupils enter the matching Server ID and Port."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:334
 #, no-c-format
 msgid "gcompris_teacher_settings"
@@ -554,10 +666,10 @@ msgid "The connection workflow is the following: <emphasis>The teacher asks the 
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:357
 #, no-c-format
-msgid "gcompris_connect"
+msgid "A pop-up on the pupil's device asking for permission to connect to the teacher's server."
 msgstr ""
 
 #. Tag: para
@@ -575,7 +687,14 @@ msgid "The client devices will display a new dialog allowing to select the login
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:372
+#, no-c-format
+msgid "The login selection screen on the pupil device showing the list of names sent by the teacher."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:372
 #, no-c-format
 msgid "gcompris_select_login"
@@ -589,10 +708,10 @@ msgid "Once confirmed, a second dialog will open to enter the password."
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:382
 #, no-c-format
-msgid "gcompris_password"
+msgid "The password entry dialog on the pupil device for logging into their specific profile."
 msgstr ""
 
 #. Tag: para
@@ -603,10 +722,10 @@ msgid "If the password is correct, the client will see a green button on the bar
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:393
 #, no-c-format
-msgid "gcompris_connect_ok"
+msgid "The GCompris navigation bar showing a green indicator for a successful server connection."
 msgstr ""
 
 #. Tag: para
@@ -617,7 +736,14 @@ msgid "And the server will receive a notification:"
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:403
+#, no-c-format
+msgid "The teacher's dashboard showing color-coded status indicators for successful and failed login attempts."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:403
 #, no-c-format
 msgid "connect_devices_password_correct_incorrect"
@@ -659,7 +785,14 @@ msgid "Transparent: nobody tried to connect using this login."
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:423
+#, no-c-format
+msgid "The connection list displaying different colors for disconnected pupils versus those who haven't yet connected."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:423
 #, no-c-format
 msgid "connect_devices_password_disconnected_not_connected"
@@ -672,6 +805,13 @@ msgstr ""
 msgid "Activities"
 msgstr ""
 
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:438
+#, no-c-format
+msgid "activities"
+msgstr ""
+
 #. Tag: para
 #. +> trunk6 stable6
 #: index.docbook:431
@@ -680,10 +820,10 @@ msgid "This page allows to display the different results filtered by date, group
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:438
 #, no-c-format
-msgid "activities"
+msgid "The activities results page showing filters for date, group, and specific educational tasks."
 msgstr ""
 
 #. Tag: para
@@ -694,10 +834,10 @@ msgid "The following image shows the results for the <quote>Vertical subtraction
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:451
 #, no-c-format
-msgid "activities_results"
+msgid "A detailed breakdown of pupil performance in the 'vertical subtraction' activity, showing errors and successes."
 msgstr ""
 
 #. Tag: para
@@ -714,6 +854,20 @@ msgstr ""
 msgid "Datasets"
 msgstr ""
 
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:471
+#, no-c-format
+msgid "datasets"
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:516
+#, no-c-format
+msgid "dataset_delete"
+msgstr ""
+
 #. Tag: para
 #. +> trunk6 stable6
 #: index.docbook:463
@@ -722,10 +876,10 @@ msgid "The datasets page allows teachers to create/update/delete specific datase
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:471
 #, no-c-format
-msgid "datasets"
+msgid "The dataset management page where teachers create custom content for various activities."
 msgstr ""
 
 #. Tag: para
@@ -743,7 +897,14 @@ msgid "Here is an example for the <quote>Binary bulbs</quote> activity. The comm
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:492
+#, no-c-format
+msgid "The activity editor for 'Binary bulbs' activity, allowing customization of dataset names and difficulty levels."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:492
 #, no-c-format
 msgid "dataset_create_update"
@@ -757,7 +918,14 @@ msgid "The <quote>Instructions</quote> button on the bottom left is provided to 
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:504
+#, no-c-format
+msgid "The instructions panel providing guidance on how to correctly fill out custom activity data."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:504
 #, no-c-format
 msgid "dataset_instructions"
@@ -771,10 +939,10 @@ msgid "If you want to delete a dataset: select it, press the <quote>Remove datas
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:516
 #, no-c-format
-msgid "dataset_delete"
+msgid "The confirmation prompt used to safely delete a custom dataset from the teacher tool."
 msgstr ""
 
 #. Tag: para
@@ -785,7 +953,14 @@ msgid "If you have clients connected, you may want to send them a specific datas
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:530
+#, no-c-format
+msgid "The interface for selecting which connected pupil devices should receive a new dataset."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:530
 #, no-c-format
 msgid "dataset_send_client"
@@ -806,7 +981,14 @@ msgid "We have created the <quote>Multiple-choice questions</quote> activity tha
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:545
+#, no-c-format
+msgid "The preview of the 'Multiple choice questions' activity on the pupil device."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:545
 #, no-c-format
 msgid "gcompris_multiple-choice_questions"
@@ -819,6 +1001,13 @@ msgstr ""
 msgid "Charts"
 msgstr ""
 
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:561
+#, no-c-format
+msgid "charts"
+msgstr ""
+
 #. Tag: para
 #. +> trunk6 stable6
 #: index.docbook:553
@@ -827,10 +1016,10 @@ msgid "The Charts page is similar to the Activities page and allows to display t
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:561
 #, no-c-format
-msgid "charts"
+msgid "The charts overview page providing a graphical visualization of pupil and group progress."
 msgstr ""
 
 #. Tag: para
@@ -841,7 +1030,14 @@ msgid "For now, the visualization is really limited but will be improved dependi
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:576
+#, no-c-format
+msgid "A graphical view showing the success rate and history for a specific pupil."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:576
 #, no-c-format
 msgid "charts_view_results_pupil"
@@ -855,7 +1051,14 @@ msgid "If the <quote>Activities</quote> tab is selected, you can see all the res
 msgstr ""
 
 #. Tag: phrase
-#. +> trunk6 stable6
+#. +> trunk6
+#: index.docbook:588
+#, no-c-format
+msgid "A chart displaying the overall class performance for a single selected activity."
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
 #: index.docbook:588
 #, no-c-format
 msgid "charts_view_results_activity"
@@ -868,11 +1071,25 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:311 index.docbook:603
+#, no-c-format
+msgid "settings"
+msgstr ""
+
 #. Tag: para
 #. +> trunk6 stable6
 #: index.docbook:595
 #, no-c-format
 msgid "The settings page allows to customize the interface and get some information on the current database and session."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6
+#: index.docbook:603
+#, no-c-format
+msgid "The general settings page showing information about the current session."
 msgstr ""
 
 #. Tag: title
@@ -887,6 +1104,27 @@ msgstr ""
 #: index.docbook:614
 #, no-c-format
 msgid "&gcompris;"
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:357
+#, no-c-format
+msgid "gcompris_connect"
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:382
+#, no-c-format
+msgid "gcompris_password"
+msgstr ""
+
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:393
+#, no-c-format
+msgid "gcompris_connect_ok"
 msgstr ""
 
 #. Tag: para
