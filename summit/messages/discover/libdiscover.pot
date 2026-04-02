@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-28 07:30+0100\n"
+"POT-Creation-Date: 2026-04-02 10:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3088,7 +3088,13 @@ msgstr ""
 msgid "Starred Publisher on snapcraft.io"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
+#, kde-format
+msgid "This Snap application is not compatible with security sandboxing and will have full access to this system. Install it anyway?"
+msgstr ""
+
+#. +> stable6 stable5
 #: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
 #, kde-format
 msgid "This Snap application is not compatible with security sandboxing and will have full access to this computer. Install it anyway?"
