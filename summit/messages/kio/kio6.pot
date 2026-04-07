@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-05 09:29+0200\n"
+"POT-Creation-Date: 2026-04-07 09:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -83,7 +83,7 @@ msgstr ""
 
 #. +> trunk6 trunk5
 #: core/copyjob.cpp:1736 core/copyjob.cpp:2441 core/filecopyjob.cpp:371
-#: core/job_error.cpp:577 widgets/paste.cpp:48
+#: core/job_error.cpp:577 widgets/paste.cpp:49
 #, kde-format
 msgid "File Already Exists"
 msgstr ""
@@ -7448,7 +7448,14 @@ msgid "Open file dialog"
 msgstr ""
 
 #. +> trunk6
-#: widgets/paste.cpp:65 widgets/paste.cpp:104
+#: widgets/paste.cpp:69
+#, kde-format
+msgctxt "A default file name excluding extension for some pasted content"
+msgid "pasted file"
+msgstr ""
+
+#. +> trunk6
+#: widgets/paste.cpp:79 widgets/paste.cpp:113
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Paste Clipboard Content"
@@ -7460,35 +7467,28 @@ msgstr ""
 msgid "&Paste Clipboard Contents"
 msgstr ""
 
-#. +> trunk6
-#: widgets/paste.cpp:101
-#, kde-format
-msgctxt "A default file name excluding extension for some pasted content"
-msgid "pasted file"
-msgstr ""
-
 #. +> trunk6 trunk5
-#: widgets/paste.cpp:113
+#: widgets/paste.cpp:122
 #, kde-format
 msgid "The clipboard has changed since you used 'paste': the chosen data format is no longer applicable. Please copy again what you wanted to paste."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/paste.cpp:234
+#: widgets/paste.cpp:250
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Folder"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/paste.cpp:234
+#: widgets/paste.cpp:250
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One File"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/paste.cpp:236
+#: widgets/paste.cpp:252
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Item"
@@ -7497,7 +7497,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: widgets/paste.cpp:238
+#: widgets/paste.cpp:254
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste Clipboard Contents…"
@@ -7511,7 +7511,7 @@ msgid "Paste Clipboard Contents..."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/paste.cpp:242
+#: widgets/paste.cpp:258
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
@@ -7534,7 +7534,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: widgets/pastedialog.cpp:54
+#: widgets/pastedialog.cpp:57
 #, kde-format
 msgctxt "@label"
 msgid "Data format:"
@@ -7547,7 +7547,7 @@ msgid "Data format:"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/pastedialog.cpp:63
+#: widgets/pastedialog.cpp:68
 #, kde-format
 msgid "%1 (%2)"
 msgstr ""

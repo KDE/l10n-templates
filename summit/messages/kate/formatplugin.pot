@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-27 10:03+0100\n"
+"POT-Creation-Date: 2026-04-07 09:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. +> trunk6 stable6
-#: FormatApply.h:22 FormatApply.h:33 FormatApply.h:38 FormatPlugin.cpp:83
-#: FormatPlugin.cpp:237 Formatters.cpp:265 Formatters.cpp:285
+#: FormatApply.h:22 FormatApply.h:33 FormatApply.h:38 FormatPlugin.cpp:88
+#: FormatPlugin.cpp:245 Formatters.cpp:265 Formatters.cpp:285
 #: Formatters.cpp:308 Formatters.cpp:338
 #, kde-format
 msgid "Format"
@@ -44,19 +44,7 @@ msgid "Failed to run git diff: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: FormatConfig.cpp:118
-#, kde-format
-msgid "User Settings"
-msgstr ""
-
-#. +> trunk6 stable6
-#: FormatConfig.cpp:128
-#, kde-format
-msgid "Default Settings"
-msgstr ""
-
-#. +> trunk6 stable6
-#: FormatConfig.h:18 FormatPlugin.cpp:113
+#: FormatConfig.h:18 FormatPlugin.cpp:118
 #, kde-format
 msgid "Formatting"
 msgstr ""
@@ -68,25 +56,25 @@ msgid "Formatting Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: FormatPlugin.cpp:83
+#: FormatPlugin.cpp:88
 #, kde-format
 msgid "Failed to read settings.json. Error: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: FormatPlugin.cpp:119
+#: FormatPlugin.cpp:124
 #, kde-format
 msgid "Format Document"
 msgstr ""
 
 #. +> trunk6 stable6
-#: FormatPlugin.cpp:129
+#: FormatPlugin.cpp:134
 #, kde-format
 msgid "Format on Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: FormatPlugin.cpp:132
+#: FormatPlugin.cpp:137
 #, kde-format
 msgid "Disable formatting on save without persisting it in settings"
 msgstr ""
@@ -143,4 +131,16 @@ msgstr ""
 #: Formatters.cpp:338
 #, kde-format
 msgid "Failed to run formatter. Unsupported language %1"
+msgstr ""
+
+#. +> stable6
+#: FormatConfig.cpp:118
+#, kde-format
+msgid "User Settings"
+msgstr ""
+
+#. +> stable6
+#: FormatConfig.cpp:128
+#, kde-format
+msgid "Default Settings"
 msgstr ""

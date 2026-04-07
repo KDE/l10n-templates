@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-28 14:36+0200\n"
+"POT-Creation-Date: 2026-04-07 09:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -305,14 +305,21 @@ msgstr ""
 #. +> trunk6 trunk5
 #: man-kded6.8.docbook:106
 #, no-c-format
+msgid "DelayedCheck"
+msgstr ""
+
+#. Tag: option
+#. +> trunk5
+#: man-kded5.8.docbook:106
+#, no-c-format
 msgid "CheckFileStamps"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6
+#. +> trunk6 trunk5
 #: man-kded6.8.docbook:107
 #, no-c-format
-msgid "Whether to check file timestamps when performing the initial sycoca update (default: <constant>true</constant>). See the documentation for <command>kbuildsycoca6</command> for more details."
+msgid "Whether to delay the initial sycoca update until about a minute after starting (default: <constant>false</constant>)."
 msgstr ""
 
 #. Tag: para
@@ -322,23 +329,9 @@ msgstr ""
 msgid "Whether to check file timestamps when performing the initial sycoca update (default: <constant>true</constant>). See the documentation for <command>kbuildsycoca5</command> for more details."
 msgstr ""
 
-#. Tag: option
-#. +> trunk6 trunk5
-#: man-kded6.8.docbook:111
-#, no-c-format
-msgid "DelayedCheck"
-msgstr ""
-
-#. Tag: para
-#. +> trunk6 trunk5
-#: man-kded6.8.docbook:112
-#, no-c-format
-msgid "Whether to delay the initial sycoca update until about a minute after starting (default: <constant>false</constant>)."
-msgstr ""
-
 #. Tag: para
 #. +> trunk6
-#: man-kded6.8.docbook:118
+#: man-kded6.8.docbook:113
 #, no-c-format
 msgid "Each module also has a <option>[Module-<replaceable>name</replaceable>]</option> section in <filename>kded5rc</filename>, where <replaceable>name</replaceable> is the name of the module's desktop file without the <filename>.desktop</filename> extension. This contains an <option>autoload</option> option that specifies whether the module should be automatically loaded when <command>kded6</command> is started (default: <constant>false</constant>). Note that this setting can also be changed via <command>kded6</command>'s &DBus; interface."
 msgstr ""
@@ -352,16 +345,16 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 trunk5
-#: man-kded6.8.docbook:124
+#: man-kded6.8.docbook:119
 #, no-c-format
 msgid "See Also"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: man-kded6.8.docbook:125
+#: man-kded6.8.docbook:120
 #, no-c-format
-msgid "<citerefentry><refentrytitle>kbuildsycoca6</refentrytitle><manvolnum>8</manvolnum></citerefentry>, <citerefentry><refentrytitle>kdeinit6</refentrytitle><manvolnum>8</manvolnum></citerefentry>"
+msgid "<citerefentry><refentrytitle>kbuildsycoca6</refentrytitle><manvolnum>8</manvolnum></citerefentry>,"
 msgstr ""
 
 #. Tag: para
@@ -373,14 +366,14 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 trunk5
-#: man-kded6.8.docbook:134
+#: man-kded6.8.docbook:128
 #, no-c-format
 msgid "Bugs"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 trunk5
-#: man-kded6.8.docbook:135
+#: man-kded6.8.docbook:129
 #, no-c-format
 msgid "Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to report bugs."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-08 01:03+0100\n"
+"POT-Creation-Date: 2026-04-07 09:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -568,58 +568,37 @@ msgstr ""
 msgid "Current frame [%3]: %1:%2 (%4)"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
 #. +> trunk6 stable6
-#: debugconfig.ui:33
-#, kde-format
-msgid "User Debug Adapter Settings"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
-#: debugconfig.ui:41
-#, kde-format
-msgid "Settings File:"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#. +> trunk6 stable6
-#: debugconfig.ui:68
-#, kde-format
-msgid "Default Debug Adapter Settings"
-msgstr ""
-
-#. +> trunk6 stable6
-#: debugconfigpage.cpp:76 debugconfigpage.cpp:81
+#: debugconfigpage.cpp:55 debugconfigpage.cpp:60
 #, kde-format
 msgid "Debugger"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: debugconfigpage.cpp:96
 #, kde-format
 msgid "Failed to open file: %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: debugconfigpage.cpp:136
 #, kde-format
 msgid "No JSON data to validate."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: debugconfigpage.cpp:144
 #, kde-format
 msgid "JSON data is valid."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: debugconfigpage.cpp:146
 #, kde-format
 msgid "JSON data is invalid: no JSON object"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: debugconfigpage.cpp:149
 #, kde-format
 msgid "JSON data is invalid: %1"
@@ -937,4 +916,25 @@ msgstr ""
 #: ui.rc:33
 #, kde-format
 msgid "Debug Plugin"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#. +> stable6
+#: debugconfig.ui:33
+#, kde-format
+msgid "User Debug Adapter Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> stable6
+#: debugconfig.ui:41
+#, kde-format
+msgid "Settings File:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. +> stable6
+#: debugconfig.ui:68
+#, kde-format
+msgid "Default Debug Adapter Settings"
 msgstr ""
