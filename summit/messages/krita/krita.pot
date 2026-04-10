@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 09:58+0200\n"
+"POT-Creation-Date: 2026-04-10 14:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -22492,7 +22492,7 @@ msgstr ""
 #. i18n.
 #. +> trunk6 stable6
 #: libs/image/kis_image.cc:736 libs/ui/kis_import_catcher.cc:50
-#: libs/ui/KisDocument.cpp:2700 plugins/impex/psd/psd_loader.cpp:221
+#: libs/ui/KisDocument.cpp:2709 plugins/impex/psd/psd_loader.cpp:221
 #, kde-format
 msgctxt "Name for the bottom-most layer in the layerstack"
 msgid "Background"
@@ -25292,9 +25292,9 @@ msgstr ""
 #: libs/ui/kis_node_manager.cpp:1373 libs/ui/KisApplication.cpp:1225
 #: libs/ui/KisApplication.cpp:1228 libs/ui/KisApplication.cpp:1244
 #: libs/ui/KisApplication.cpp:1276 libs/ui/KisApplication.cpp:1290
-#: libs/ui/KisApplication.cpp:1318 libs/ui/KisDocument.cpp:1054
-#: libs/ui/KisDocument.cpp:1069 libs/ui/KisDocument.cpp:2028
-#: libs/ui/KisDocument.cpp:2071 libs/ui/KisDocument.cpp:2082
+#: libs/ui/KisApplication.cpp:1318 libs/ui/KisDocument.cpp:1055
+#: libs/ui/KisDocument.cpp:1070 libs/ui/KisDocument.cpp:2037
+#: libs/ui/KisDocument.cpp:2080 libs/ui/KisDocument.cpp:2091
 #: libs/ui/KisMainWindow.cpp:979 libs/ui/KisMainWindow.cpp:1049
 #: libs/ui/KisMainWindow.cpp:1198 libs/ui/KisMainWindow.cpp:1295
 #: libs/ui/KisMainWindow.cpp:1974 libs/ui/KisMainWindow.cpp:1983
@@ -37645,121 +37645,121 @@ msgid "Clone Document"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:789
+#: libs/ui/KisDocument.cpp:790
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:840
+#: libs/ui/KisDocument.cpp:841
 #, kde-format
 msgctxt "Saving error message"
 msgid "Failed to create a backup file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:857
+#: libs/ui/KisDocument.cpp:858
 #, kde-format
 msgctxt "Saving error message"
 msgid "Failed to create a numbered backup file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:879
+#: libs/ui/KisDocument.cpp:880
 #, kde-format
 msgid "Exporting Document..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:880
+#: libs/ui/KisDocument.cpp:881
 #, kde-format
 msgid "Saving Document..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:895
+#: libs/ui/KisDocument.cpp:896
 #, kde-format
 msgid "Could not start saving %1. Wait until the current save operation has finished."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:900
+#: libs/ui/KisDocument.cpp:901
 #, kde-format
 msgid "Could not start saving %1. Image is busy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:905
+#: libs/ui/KisDocument.cpp:906
 #, kde-format
 msgid "Could not start saving %1. Unknown failure has happened"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1048
+#: libs/ui/KisDocument.cpp:1049
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1055
+#: libs/ui/KisDocument.cpp:1056
 #, kde-format
 msgid "Could not save %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1072
+#: libs/ui/KisDocument.cpp:1073
 #, kde-format
 msgctxt "dialog box shown to the user if there were warnings while saving the document, %1 is the file path"
 msgid "%1 has been saved but is incomplete."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1078
+#: libs/ui/KisDocument.cpp:1079
 #, kde-format
 msgctxt "dialog box shown to the user if there were warnings while saving the document"
 msgid "Some problems were encountered when saving."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1095
+#: libs/ui/KisDocument.cpp:1096
 #, kde-format
 msgid "Finished saving %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1528
+#: libs/ui/KisDocument.cpp:1537
 #, kde-format
 msgid "Autosaving... %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1536
+#: libs/ui/KisDocument.cpp:1545
 #, kde-format
 msgid "Autosaving..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1542
+#: libs/ui/KisDocument.cpp:1551
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1685
+#: libs/ui/KisDocument.cpp:1694
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1699
+#: libs/ui/KisDocument.cpp:1708
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:1956
+#: libs/ui/KisDocument.cpp:1965
 #, kde-format
 msgid ""
 "Malformed Path\n"
@@ -37767,44 +37767,44 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:2028
+#: libs/ui/KisDocument.cpp:2037
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:2057
+#: libs/ui/KisDocument.cpp:2066
 #, kde-format
 msgid "Opening document"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:2072
+#: libs/ui/KisDocument.cpp:2081
 #, kde-format
 msgid "Could not open %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:2083
+#: libs/ui/KisDocument.cpp:2092
 #, kde-format
 msgid "There were problems opening %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:2221
+#: libs/ui/KisDocument.cpp:2230
 #, kde-format
 msgid "Not Saved"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:2707
+#: libs/ui/KisDocument.cpp:2716
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisDocument.cpp:2769
+#: libs/ui/KisDocument.cpp:2778
 #, kde-format
 msgctxt "progress dialog message when the user closes the document that is being saved"
 msgid "Waiting for saving to complete..."
@@ -45532,7 +45532,7 @@ msgid "Dropped frames are not available in this Krita instance"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:880
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:886
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Add blank frame"
@@ -45541,8 +45541,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:925
-#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:973
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:931
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:979
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Insert frame"
@@ -45564,34 +45564,34 @@ msgid "Zoom Timeline. Hold down and drag left or right."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1521
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1525
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert or Remove Hold Frames"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1522
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1526
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Enter number of frames"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1629
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1633
 #, kde-format
 msgid "Edit Frames:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1656
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1660
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1664
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1668
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frames"
@@ -49555,7 +49555,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: plugins/dockers/textproperties/qml/OpenTypeFeatureSettings.qml:237
 #: plugins/tools/svgtexttool/glyphpalette/GlyphPalette.qml:127
-#: qmlmodules/components/qml/ResourceView.qml:297
+#: qmlmodules/components/qml/ResourceView.qml:315
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search..."
@@ -50215,21 +50215,21 @@ msgid "Preset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/textproperties/qml/TextProperties.qml:135
+#: plugins/dockers/textproperties/qml/TextProperties.qml:134
 #, kde-format
 msgctxt "@label:button"
 msgid "Add Style Preset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/textproperties/qml/TextProperties.qml:148
+#: plugins/dockers/textproperties/qml/TextProperties.qml:147
 #, kde-format
 msgctxt "@label:button"
 msgid "Edit Style Preset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/textproperties/qml/TextProperties.qml:167
+#: plugins/dockers/textproperties/qml/TextProperties.qml:166
 #, kde-format
 msgctxt "@label:button"
 msgid "Clone Style Preset"
@@ -72057,168 +72057,168 @@ msgid "Select Style Preset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:118
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:117
 #, kde-format
 msgctxt "@label:button"
 msgid "Open Text Properties"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:130
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:129
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open the Text Properties Docker to edit properties like font size and style."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:140
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:139
 #, kde-format
 msgctxt "@label:group"
 msgid "Options"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:146
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:145
 #, kde-format
 msgctxt "@option:check"
 msgid "Use Visual Cursor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:153
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:152
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use the visual order for bidirectional text."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:162
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:161
 #, kde-format
 msgctxt "@option:check"
 msgid "Paste Rich Text by Default"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:169
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:168
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Always paste rich text when using paste action."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:182
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:181
 #, kde-format
 msgctxt "@label:button"
 msgid "Type Setting Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:192
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:191
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enable type setting mode."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:203
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:202
 #, kde-format
 msgctxt "@label:group"
 msgid "Dialogs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:208
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:207
 #, kde-format
 msgctxt "@label:button"
 msgid "Edit SVG Source"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:216
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:215
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Edit the currently selected text as SVG XML."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:222
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:221
 #, kde-format
 msgctxt "@label:button"
 msgid "Glyph Palette"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:230
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:229
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open the Glyph Palette, which provides access to alternative OpenType or Unicode Variations of glyphs, as well as a Character Map."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:241
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:240
 #, kde-format
 msgctxt "@label:group"
 msgid "Convert Type..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:268
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:267
 #, kde-format
 msgctxt "@label:button"
 msgid "Preformatted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:275
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:274
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The text will not wrap and preserves spaces and new lines. A line break is inserted so the lines from wrapping or positioning remain separated."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:285
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:284
 #, kde-format
 msgctxt "@label:button"
 msgid "Inline Wrapped"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:293
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:292
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Text wraps inside a fixed length, spaces and new lines are preserved. New lines are not removed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:300
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:299
 #, kde-format
 msgctxt "@label:button"
 msgid "Pre-positioned"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:308
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:307
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Text uses SVG 1.1 character transforms to position each line. Spaces and new lines are collapsed. This is for backward compatibility with SVG 1.1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:320
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:319
 #, kde-format
 msgctxt "@label:group"
 msgid "Debug"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:326
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:325
 #, kde-format
 msgctxt "@option:check"
 msgid "Show Char Bounding Boxes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:336
+#: plugins/tools/svgtexttool/SvgTextToolOptions.qml:335
 #, kde-format
 msgctxt "@option:check"
 msgid "Show Line Boxes"
@@ -74226,63 +74226,63 @@ msgid "Comic Panel Editing Tool"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qmlmodules/components/qml/resourceDelegates/CssStylePresetDelegate.qml:97
+#: qmlmodules/components/qml/resourceDelegates/CssStylePresetDelegate.qml:94
 #, kde-format
 msgctxt "%1 is name of a font family"
 msgid "Font Family \"%1\" is missing on this machine. This style preset may not work correctly."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qmlmodules/components/qml/ResourceView.qml:141
+#: qmlmodules/components/qml/ResourceView.qml:142
 #, kde-format
 msgctxt "@label:button"
 msgid "Tag"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qmlmodules/components/qml/ResourceView.qml:184
+#: qmlmodules/components/qml/ResourceView.qml:185
 #, kde-format
 msgctxt "@title:menu"
 msgid "Assign to Tag"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qmlmodules/components/qml/ResourceView.qml:209
+#: qmlmodules/components/qml/ResourceView.qml:210
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "New Tag Name..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qmlmodules/components/qml/ResourceView.qml:227
+#: qmlmodules/components/qml/ResourceView.qml:235
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove from this tag"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qmlmodules/components/qml/ResourceView.qml:236
+#: qmlmodules/components/qml/ResourceView.qml:244
 #, kde-format
 msgctxt "@title:menu"
 msgid "Remove from other tag"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qmlmodules/components/qml/ResourceView.qml:305
+#: qmlmodules/components/qml/ResourceView.qml:323
 #, kde-format
 msgctxt "@option:check"
 msgid "Search in tag"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qmlmodules/components/qml/ResourceView.qml:324
+#: qmlmodules/components/qml/ResourceView.qml:342
 #, kde-format
 msgctxt "@info:tooltip, %1 is resource type name"
 msgid "Import %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qmlmodules/components/qml/ResourceView.qml:348
+#: qmlmodules/components/qml/ResourceView.qml:366
 #, kde-format
 msgctxt "@info:tooltip, %1 is resource type name"
 msgid "Remove %1"

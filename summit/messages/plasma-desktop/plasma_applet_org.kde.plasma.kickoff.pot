@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-05 09:29+0200\n"
+"POT-Creation-Date: 2026-04-10 14:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -226,11 +226,11 @@ msgstr ""
 msgid "Use compact list item style"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ConfigGeneral.qml:187
 #, kde-format
 msgctxt "@option:check"
-msgid "Highlight newly installed applications"
+msgid "Highlight newly-installed applications"
 msgstr ""
 
 #. +> stable6 stable5
@@ -238,6 +238,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
 msgid "Automatically disabled when in Touch Mode"
+msgstr ""
+
+#. +> stable6
+#: ConfigGeneral.qml:195
+#, kde-format
+msgctxt "@option:check"
+msgid "Highlight newly installed applications"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -465,14 +472,28 @@ msgctxt "@action:button Pin widget open if it loses focus, icon-only button, for
 msgid "Keep Open"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: KickoffGridDelegate.qml:59
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#. +> stable6
 #: KickoffGridDelegate.qml:59
 #, kde-format
 msgctxt "@label Newly installed app, badge, keep short"
 msgid "New!"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: KickoffGridDelegate.qml:61
+#, kde-format
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr ""
+
+#. +> stable6
 #: KickoffGridDelegate.qml:60
 #, kde-format
 msgctxt "@label Accessible name for badge"
@@ -486,25 +507,44 @@ msgctxt "@info:whatsthis Accessible description"
 msgid "Grid with %1 rows, %2 columns"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: KickoffListDelegate.qml:119
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#. +> stable6
 #: KickoffListDelegate.qml:117
 #, kde-format
 msgctxt "Newly installed app, badge, keep short"
 msgid "New!"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
+#: KickoffListDelegate.qml:119
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "Newly installed application"
+msgstr ""
+
+#. +> trunk6
+#: KickoffListDelegate.qml:124
+#, kde-format
+msgid "There is a newly-installed application in this category"
+msgstr ""
+
+#. +> stable6
 #: KickoffListDelegate.qml:118
 #, kde-format
 msgctxt "@info:whatsthis Accessible description for badge"
 msgid "There is a newly installed application in this category"
 msgstr ""
 
-#. +> trunk6 stable6
-#: KickoffListDelegate.qml:119
+#. +> trunk6
+#: KickoffListDelegate.qml:125
 #, kde-format
-msgctxt "@info:whatsthis Accessible description for badge"
-msgid "Newly installed application"
+msgid "Newly-installed application"
 msgstr ""
 
 #. +> trunk6 stable6
