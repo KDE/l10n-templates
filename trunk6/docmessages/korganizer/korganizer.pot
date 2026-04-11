@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-14 00:57+0000\n"
+"POT-Creation-Date: 2026-04-11 01:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2058,7 +2058,7 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:1159 index.docbook:2433
+#: index.docbook:1159 index.docbook:2443
 #, no-c-format
 msgid "<guilabel>Tags</guilabel>"
 msgstr ""
@@ -2566,7 +2566,7 @@ msgid "Allows to change an existing attachment."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1436 index.docbook:2527
+#: index.docbook:1436 index.docbook:2537
 #, no-c-format
 msgid "Free/Busy"
 msgstr ""
@@ -2840,7 +2840,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1589 index.docbook:2493
+#: index.docbook:1589 index.docbook:2503
 #, no-c-format
 msgid "Group Scheduling"
 msgstr ""
@@ -3144,7 +3144,7 @@ msgid "Free Busy information"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1810 index.docbook:2529
+#: index.docbook:1810 index.docbook:2539
 #, no-c-format
 msgid ""
 "The free/busy information represents an availability schedule. By presenting "
@@ -3154,7 +3154,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1815 index.docbook:2534
+#: index.docbook:1815 index.docbook:2544
 #, no-c-format
 msgid ""
 "&korganizer; supports publishing and retrieving free/busy information, "
@@ -3597,26 +3597,42 @@ msgstr ""
 #. Tag: guilabel
 #: index.docbook:2063
 #, no-c-format
-msgid "Holidays"
+msgid "Holiday Regions"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2064
 #, no-c-format
 msgid ""
-"Select your country from the drop down list, or if it is not listed, select "
-"<guilabel>(None)</guilabel>. If your country is selected, &korganizer; will "
-"recognize and display its important dates and holidays in the calendar view."
+"Select holiday regions from the drop down list. For each selected region, "
+"&korganizer; will recognize and display its important dates and holidays in "
+"the agenda and month views. You can configure the types of holidays to "
+"display with the Holiday Categories drop down list (see next entry)."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2071
+#: index.docbook:2073
+#, no-c-format
+msgid "Holiday Categories"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2074
+#, no-c-format
+msgid ""
+"Select the holiday categories from the drop down list. By default all "
+"holiday types are enabled. Select the holiday categories you want to hide, "
+"for example some people are not interesting in religious holidays."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:2081
 #, no-c-format
 msgid "Weekly Schedule"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2072
+#: index.docbook:2082
 #, no-c-format
 msgid ""
 "The options <guilabel>Daily starting hour</guilabel> and <guilabel>Daily "
@@ -3626,7 +3642,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2076
+#: index.docbook:2086
 #, no-c-format
 msgid ""
 "Additionally, you have check boxes beside each day of the week. Check the "
@@ -3640,13 +3656,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2087
+#: index.docbook:2097
 #, no-c-format
 msgid "Weekly Start Day"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2088
+#: index.docbook:2098
 #, no-c-format
 msgid ""
 "Select the first day of each week. Normally, you can ignore this since it is "
@@ -3654,19 +3670,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2096
+#: index.docbook:2106
 #, no-c-format
 msgid "Default Values tab"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2100
+#: index.docbook:2110
 #, no-c-format
 msgid "Default appointment time"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2101
+#: index.docbook:2111
 #, no-c-format
 msgid ""
 "Select the default start time for events from the drop down list. When you "
@@ -3678,13 +3694,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2110
+#: index.docbook:2120
 #, no-c-format
 msgid "Default duration of new appointment (HH:MM):"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2111
+#: index.docbook:2121
 #, no-c-format
 msgid ""
 "Select the default duration for events using the spin box. When you choose "
@@ -3695,13 +3711,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2120
+#: index.docbook:2130
 #, no-c-format
 msgid "Reminders"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2121
+#: index.docbook:2131
 #, no-c-format
 msgid ""
 "Select a <guilabel>Default reminder time</guilabel> to determine how long "
@@ -3709,7 +3725,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2124
+#: index.docbook:2134
 #, no-c-format
 msgid ""
 "Set a file to be used as the default sound file for new reminders. You can "
@@ -3718,7 +3734,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2127
+#: index.docbook:2137
 #, no-c-format
 msgid ""
 "Check the next two boxes if you want to enable reminders for all newly "
@@ -3727,31 +3743,31 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2137
+#: index.docbook:2147
 #, no-c-format
 msgid "Views"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2139
+#: index.docbook:2149
 #, no-c-format
 msgid "These options let you configure &korganizer; views:"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2142
+#: index.docbook:2152
 #, no-c-format
 msgid "General tab"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2145
+#: index.docbook:2155
 #, no-c-format
 msgid "Next x days:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2146
+#: index.docbook:2156
 #, no-c-format
 msgid ""
 "This option allows you to change the number of days shown by the "
@@ -3759,13 +3775,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2152
+#: index.docbook:2162
 #, no-c-format
 msgid "Enable tooltips for displaying summaries"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2153
+#: index.docbook:2163
 #, no-c-format
 msgid ""
 "If your summary for an event is longer than would fit in the current View, "
@@ -3775,13 +3791,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2161
+#: index.docbook:2171
 #, no-c-format
 msgid "To-dos use tag colors"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2162
+#: index.docbook:2172
 #, no-c-format
 msgid ""
 "Check this box so that to-dos will use tag colors and not colors specific to "
@@ -3789,19 +3805,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2168
+#: index.docbook:2178
 #, no-c-format
 msgid "<link linkend=\"description-view\">Date Navigator</link> options:"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2173
+#: index.docbook:2183
 #, no-c-format
 msgid "Show items that recur daily"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2174
+#: index.docbook:2184
 #, no-c-format
 msgid ""
 "If the <guilabel>Show items that recur daily</guilabel> box is checked, the "
@@ -3810,13 +3826,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2180
+#: index.docbook:2190
 #, no-c-format
 msgid "Show items that recur weekly"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2181
+#: index.docbook:2191
 #, no-c-format
 msgid ""
 "If the <guilabel>Show items that recur weekly</guilabel> box is checked, the "
@@ -3825,13 +3841,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2187
+#: index.docbook:2197
 #, no-c-format
 msgid "Show to-dos instead of events when in Todo View"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2188
+#: index.docbook:2198
 #, no-c-format
 msgid ""
 "Check this box to show the days containing to-dos in bold typeface in the "
@@ -3839,13 +3855,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2193
+#: index.docbook:2203
 #, no-c-format
 msgid "Show journals instead of events when in Journal View"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2194
+#: index.docbook:2204
 #, no-c-format
 msgid ""
 "Check this box to show the days containing journals in bold typeface in the "
@@ -3853,13 +3869,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2199
+#: index.docbook:2209
 #, no-c-format
 msgid "Week numbers select a work week when in work week mode"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2200
+#: index.docbook:2210
 #, no-c-format
 msgid ""
 "If the <guilabel>Week numbers select a work week when in work week mode</"
@@ -3869,38 +3885,38 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2210
+#: index.docbook:2220
 #, no-c-format
 msgid "Agenda View tab"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2212
+#: index.docbook:2222
 #, no-c-format
 msgid "<link linkend=\"agenda-view\">Agenda View</link> options:"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2217
+#: index.docbook:2227
 #, no-c-format
 msgid "Hour size:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2218
+#: index.docbook:2228
 #, no-c-format
 msgid ""
 "By using this you can control the height of the rows in the Agenda view."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2223
+#: index.docbook:2233
 #, no-c-format
 msgid "Show icons in agenda view items"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2224
+#: index.docbook:2234
 #, no-c-format
 msgid ""
 "Check this box to display icons (reminder, recursion &etc;) in Agenda view "
@@ -3908,13 +3924,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2229
+#: index.docbook:2239
 #, no-c-format
 msgid "Draw bold horizontal grid lines for the even hours"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2230
+#: index.docbook:2240
 #, no-c-format
 msgid ""
 "Check this box to draw bolder/fatter horizontal grid lines for the even "
@@ -3922,26 +3938,26 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2234
+#: index.docbook:2244
 #, no-c-format
 msgid "Show incidence descriptions in agenda view items"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2235
+#: index.docbook:2245
 #, no-c-format
 msgid ""
 "Check this box to display the incidence descriptions in agenda view items."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2239
+#: index.docbook:2249
 #, no-c-format
 msgid "Show to-dos"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2240
+#: index.docbook:2250
 #, no-c-format
 msgid ""
 "This check box toggles the display of to-dos in the Day, Week and Month "
@@ -3950,13 +3966,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2247
+#: index.docbook:2257
 #, no-c-format
 msgid "Show current-time (Marcus Bains) line"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2248
+#: index.docbook:2258
 #, no-c-format
 msgid ""
 "This check box toggles on or off a red line in the Day or Week view "
@@ -3965,13 +3981,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2255
+#: index.docbook:2265
 #, no-c-format
 msgid "Show seconds and timezone on the current-time (Marcus Bains) line"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2256
+#: index.docbook:2266
 #, no-c-format
 msgid ""
 "This check box toggles on or off the seconds on the current-time line "
@@ -3980,13 +3996,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2261
+#: index.docbook:2271
 #, no-c-format
 msgid "Time range selection in agenda view starts event editor"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2262
+#: index.docbook:2272
 #, no-c-format
 msgid ""
 "Check this box to start the event editor automatically when you select a "
@@ -3995,13 +4011,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2269 index.docbook:2335
+#: index.docbook:2279 index.docbook:2345
 #, no-c-format
 msgid "Color Usage"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2271
+#: index.docbook:2281
 #, no-c-format
 msgid ""
 "Select the <guilabel>Tag inside, calendar outside</guilabel> option if you "
@@ -4010,7 +4026,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2275
+#: index.docbook:2285
 #, no-c-format
 msgid ""
 "Select the <guilabel>Calendar inside, tag outside</guilabel> option if you "
@@ -4019,7 +4035,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2279
+#: index.docbook:2289
 #, no-c-format
 msgid ""
 "Select the <guilabel>Only tag</guilabel> option if you would like to draw "
@@ -4027,7 +4043,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2282
+#: index.docbook:2292
 #, no-c-format
 msgid ""
 "Select the <guilabel>Only calendar</guilabel> option if you would like to "
@@ -4035,7 +4051,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2285
+#: index.docbook:2295
 #, no-c-format
 msgid ""
 "Please use the <link linkend=\"config-main-colors\">Colors and Fonts</link> "
@@ -4043,13 +4059,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2291 index.docbook:2327
+#: index.docbook:2301 index.docbook:2337
 #, no-c-format
 msgid "Color busy days with a different background color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2292
+#: index.docbook:2302
 #, no-c-format
 msgid ""
 "Check this box if you want Agenda view's background to be filled with a "
@@ -4057,7 +4073,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2294
+#: index.docbook:2304
 #, no-c-format
 msgid ""
 "Please look in the Colors configuration area to select the Agenda view "
@@ -4065,13 +4081,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2299
+#: index.docbook:2309
 #, no-c-format
 msgid "Multiple Calendar Display"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2300
+#: index.docbook:2310
 #, no-c-format
 msgid ""
 "Select if all calendars should be merged into one Agenda view, each calendar "
@@ -4081,25 +4097,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2312
+#: index.docbook:2322
 #, no-c-format
 msgid "Month View tab"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2314
+#: index.docbook:2324
 #, no-c-format
 msgid "<link linkend=\"month-view\">Month view</link> options:"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2319
+#: index.docbook:2329
 #, no-c-format
 msgid "Display Options"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2320
+#: index.docbook:2330
 #, no-c-format
 msgid ""
 "Use the first four check boxes to display the time, icons (reminder, "
@@ -4107,7 +4123,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2328
+#: index.docbook:2338
 #, no-c-format
 msgid ""
 "Check this box if you want Month view's background to be filled with a "
@@ -4115,7 +4131,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2330
+#: index.docbook:2340
 #, no-c-format
 msgid ""
 "Please look in the Colors configuration area to select the Agenda/Month view "
@@ -4123,7 +4139,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2337
+#: index.docbook:2347
 #, no-c-format
 msgid ""
 "Configure the colors for the Month view as in <link linkend=\"config-main-"
@@ -4131,25 +4147,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2344
+#: index.docbook:2354
 #, no-c-format
 msgid "Todo View tab"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2346
+#: index.docbook:2356
 #, no-c-format
 msgid "<link linkend=\"todo-view\">Todo view</link> options:"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2351
+#: index.docbook:2361
 #, no-c-format
 msgid "Always display completed to-dos at the bottom of the list"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2352
+#: index.docbook:2362
 #, no-c-format
 msgid ""
 "If you enable this option, all completed to-dos will be always grouped at "
@@ -4157,13 +4173,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2357
+#: index.docbook:2367
 #, no-c-format
 msgid "Record completed to-dos in journal entries"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2358
+#: index.docbook:2368
 #, no-c-format
 msgid ""
 "If you check this box, &korganizer; will automatically add a journal entry "
@@ -4171,19 +4187,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2367
+#: index.docbook:2377
 #, no-c-format
 msgid "Colors and Fonts"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2370
+#: index.docbook:2380
 #, no-c-format
 msgid "Colors"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2372
+#: index.docbook:2382
 #, no-c-format
 msgid ""
 "Choose the color used for holidays, for highlighting, and for specific event "
@@ -4193,13 +4209,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2381
+#: index.docbook:2391
 #, no-c-format
 msgid "Holiday color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2382
+#: index.docbook:2392
 #, no-c-format
 msgid ""
 "This button opens the <guilabel>Select Color</guilabel> dialog, allowing you "
@@ -4208,13 +4224,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2389
+#: index.docbook:2399
 #, no-c-format
 msgid "Agenda view background color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2390
+#: index.docbook:2400
 #, no-c-format
 msgid ""
 "This button opens the <guilabel>Select Color</guilabel> dialog, allowing you "
@@ -4222,13 +4238,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2395
+#: index.docbook:2405
 #, no-c-format
 msgid "Busy days background color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2396
+#: index.docbook:2406
 #, no-c-format
 msgid ""
 "This button opens the <guilabel>Select Color</guilabel> dialog, allowing you "
@@ -4238,13 +4254,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2403
+#: index.docbook:2413
 #, no-c-format
 msgid "Agenda view current-time line color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2404
+#: index.docbook:2414
 #, no-c-format
 msgid ""
 "This button opens the <guilabel>Select Color</guilabel> dialog, allowing you "
@@ -4252,13 +4268,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2409
+#: index.docbook:2419
 #, no-c-format
 msgid "Working hours color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2410
+#: index.docbook:2420
 #, no-c-format
 msgid ""
 "This button opens the <guilabel>Select Color</guilabel> dialog, allowing you "
@@ -4266,13 +4282,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2415
+#: index.docbook:2425
 #, no-c-format
 msgid "To-do due today color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2416
+#: index.docbook:2426
 #, no-c-format
 msgid ""
 "This button opens the <guilabel>Select Color</guilabel> dialog, allowing you "
@@ -4280,13 +4296,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2421
+#: index.docbook:2431
 #, no-c-format
 msgid "To-do overdue color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2422
+#: index.docbook:2432
 #, no-c-format
 msgid ""
 "This button opens the <guilabel>Select Color</guilabel> dialog, allowing you "
@@ -4294,13 +4310,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2427
+#: index.docbook:2437
 #, no-c-format
 msgid "Month view today background color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2428
+#: index.docbook:2438
 #, no-c-format
 msgid ""
 "This button opens the <guilabel>Select Color</guilabel> dialog, allowing you "
@@ -4308,7 +4324,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2434
+#: index.docbook:2444
 #, no-c-format
 msgid ""
 "This group allows you to assign a color to each tag. Select a tag in the "
@@ -4320,13 +4336,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2443
+#: index.docbook:2453
 #, no-c-format
 msgid "Resources"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2444
+#: index.docbook:2454
 #, no-c-format
 msgid ""
 "This group allows you to assign a color to each resource. Select a resource "
@@ -4338,45 +4354,45 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2457
+#: index.docbook:2467
 #, no-c-format
 msgid "Fonts tab"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2462
+#: index.docbook:2472
 #, no-c-format
 msgid "Time bar"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2463
+#: index.docbook:2473
 #, no-c-format
 msgid ""
 "Press this button to pick the font, font style and size for the time bar."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2468
+#: index.docbook:2478
 #, no-c-format
 msgid "Month view"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2469
+#: index.docbook:2479
 #, no-c-format
 msgid ""
 "Press this button to pick the font, font style and size for the Month view."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2474
+#: index.docbook:2484
 #, no-c-format
 msgid "Agenda view"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2475
+#: index.docbook:2485
 #, no-c-format
 msgid ""
 "Press this button to pick the font, font style and size for the Agenda view "
@@ -4384,13 +4400,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2480
+#: index.docbook:2490
 #, no-c-format
 msgid "Current-time (Marcus Bains) line"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2481
+#: index.docbook:2491
 #, no-c-format
 msgid ""
 "Press this button to pick the font, font style and size for the Marcus Bains "
@@ -4398,13 +4414,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2498
+#: index.docbook:2508
 #, no-c-format
 msgid "Use Groupware Communication"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2499
+#: index.docbook:2509
 #, no-c-format
 msgid ""
 "Check this box to automatically send emails when creating, updating or "
@@ -4417,13 +4433,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2509
+#: index.docbook:2519
 #, no-c-format
 msgid "Send copy to owner when mailing events"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2510
+#: index.docbook:2520
 #, no-c-format
 msgid ""
 "When you check the <guilabel>Send copy to owner when mailing events</"
@@ -4432,13 +4448,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2516
+#: index.docbook:2526
 #, no-c-format
 msgid "Mail transport"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2517
+#: index.docbook:2527
 #, no-c-format
 msgid ""
 "Here you can choose which type of mail transport you would like to use. You "
@@ -4447,13 +4463,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2538
+#: index.docbook:2548
 #, no-c-format
 msgid "Publish"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2539
+#: index.docbook:2549
 #, no-c-format
 msgid ""
 "By publishing your free/busy information, you allow others to take your busy "
@@ -4461,13 +4477,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2546
+#: index.docbook:2556
 #, no-c-format
 msgid "Publish free/busy information automatically"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2547
+#: index.docbook:2557
 #, no-c-format
 msgid ""
 "Enable this option if you wish your Free/Busy information to be uploaded "
@@ -4477,7 +4493,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2552
+#: index.docbook:2562
 #, no-c-format
 msgid ""
 "If your application is setup to work as a <guilabel>&kde; Kolab client</"
@@ -4487,13 +4503,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2560
+#: index.docbook:2570
 #, no-c-format
 msgid "Minimum time between uploads (in minutes)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2561
+#: index.docbook:2571
 #, no-c-format
 msgid ""
 "If you choose to publish your information automatically, you can configure "
@@ -4501,13 +4517,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2567
+#: index.docbook:2577
 #, no-c-format
 msgid "Publish (default 60) days of free/busy information"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2568
+#: index.docbook:2578
 #, no-c-format
 msgid ""
 "Configure the number of calendar days you wish to be published and available "
@@ -4515,13 +4531,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2573 index.docbook:2638
+#: index.docbook:2583 index.docbook:2648
 #, no-c-format
 msgid "Server &URL;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2574
+#: index.docbook:2584
 #, no-c-format
 msgid ""
 "Enter the &URL; for the server on which your Free/Busy information will be "
@@ -4529,7 +4545,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2576
+#: index.docbook:2586
 #, no-c-format
 msgid ""
 "Kolab2 server example: <userinput>webdavs://kolab2.com/freebusy/joe@kolab2."
@@ -4537,19 +4553,19 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2582 index.docbook:2647
+#: index.docbook:2592 index.docbook:2657
 #, no-c-format
 msgid "Username"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2583
+#: index.docbook:2593
 #, no-c-format
 msgid "Enter the login information relative to your account on the server"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2584
+#: index.docbook:2594
 #, no-c-format
 msgid ""
 "Kolab2 server specificity: your registered UID (Unique IDentifier), by "
@@ -4559,25 +4575,25 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2591 index.docbook:2654
+#: index.docbook:2601 index.docbook:2664
 #, no-c-format
 msgid "Password"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2592 index.docbook:2655
+#: index.docbook:2602 index.docbook:2665
 #, no-c-format
 msgid "Enter your password (server login password) here."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2596 index.docbook:2660
+#: index.docbook:2606 index.docbook:2670
 #, no-c-format
 msgid "Remember password"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2597
+#: index.docbook:2607
 #, no-c-format
 msgid ""
 "Check this option if you want &korganizer; to remember your password and "
@@ -4585,7 +4601,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2600 index.docbook:2663
+#: index.docbook:2610 index.docbook:2673
 #, no-c-format
 msgid ""
 "It is not recommended to store your password in the configuration file for "
@@ -4593,13 +4609,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2609
+#: index.docbook:2619
 #, no-c-format
 msgid "Retrieve"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2611
+#: index.docbook:2621
 #, no-c-format
 msgid ""
 "By retrieving other people's free/busy information, you can take their busy "
@@ -4607,13 +4623,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2618
+#: index.docbook:2628
 #, no-c-format
 msgid "Retrieve other people's free/busy information automatically"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2620
+#: index.docbook:2630
 #, no-c-format
 msgid ""
 "Automate the process for retrieving other users free/busy time. Fill in the "
@@ -4621,13 +4637,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2626
+#: index.docbook:2636
 #, no-c-format
 msgid "Use full email address for retrieval"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2627
+#: index.docbook:2637
 #, no-c-format
 msgid ""
 "This setting lets you change the name of the file which will be fetched from "
@@ -4638,7 +4654,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2632
+#: index.docbook:2642
 #, no-c-format
 msgid ""
 "<guilabel>Kolab2 server specificity:</guilabel> If you are configuring "
@@ -4647,7 +4663,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2639
+#: index.docbook:2649
 #, no-c-format
 msgid ""
 "Enter the &URL; for the server from which your Free/Busy information will be "
@@ -4655,7 +4671,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2641
+#: index.docbook:2651
 #, no-c-format
 msgid ""
 "<guilabel>Kolab2 server example: </guilabel><userinput>webdavs://kolab2.com/"
@@ -4663,13 +4679,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2648
+#: index.docbook:2658
 #, no-c-format
 msgid "Enter the login information relative to your account on the server."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2661
+#: index.docbook:2671
 #, no-c-format
 msgid ""
 "Check this option if you want &korganizer; to remember your password and "
@@ -4677,13 +4693,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2673 index.docbook:2694
+#: index.docbook:2683 index.docbook:2704
 #, no-c-format
 msgid "Plugins"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2675
+#: index.docbook:2685
 #, no-c-format
 msgid ""
 "For more information about configuring plugins, please refer to <xref "
@@ -4691,13 +4707,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2681
+#: index.docbook:2691
 #, no-c-format
 msgid "Custom Pages"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2683
+#: index.docbook:2693
 #, no-c-format
 msgid ""
 "This page allows you to add your own &GUI; Elements to store your own values "
@@ -4705,14 +4721,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2685
+#: index.docbook:2695
 #, no-c-format
 msgid ""
 "Create your elements as described in <guilabel>How does this work?</guilabel>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2696
+#: index.docbook:2706
 #, no-c-format
 msgid ""
 "&korganizer; provides you with the possibility of extending the application "
@@ -4720,7 +4736,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2700
+#: index.docbook:2710
 #, no-c-format
 msgid ""
 "The plugins can be configured under the &korganizer; main configuration "
@@ -4730,19 +4746,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2708
+#: index.docbook:2718
 #, no-c-format
 msgid "Available Plugins"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2711
+#: index.docbook:2721
 #, no-c-format
 msgid "Date Numbers Plugin for Calendars"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2712
+#: index.docbook:2722
 #, no-c-format
 msgid ""
 "This plugin adds the number of the day in the year to the Agenda view. For "
@@ -4750,13 +4766,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2719
+#: index.docbook:2729
 #, no-c-format
 msgid "Wikipedia 'This Day in History' Plugin"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2720
+#: index.docbook:2730
 #, no-c-format
 msgid ""
 "This plugin provides links to Wikipedia's <quote>This Day in History</quote> "
@@ -4764,25 +4780,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2726
+#: index.docbook:2736
 #, no-c-format
 msgid "Wikipedia Picture of the Day Plugin for Calendars"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2727
+#: index.docbook:2737
 #, no-c-format
 msgid "This plugin provides the Wikipedia <quote>Picture of the Day</quote>."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2733
+#: index.docbook:2743
 #, no-c-format
 msgid "Jewish Calendar Plugin"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2734
+#: index.docbook:2744
 #, no-c-format
 msgid ""
 "This plugin provides Jewish calendar dates in addition to the Gregorian "
@@ -4792,19 +4808,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2747
+#: index.docbook:2757
 #, no-c-format
 msgid "Reference"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2750
+#: index.docbook:2760
 #, no-c-format
 msgid "Menus"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2752
+#: index.docbook:2762
 #, no-c-format
 msgid ""
 "When &korganizer; starts, the main &korganizer; window appears. The window "
@@ -4813,7 +4829,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2757
+#: index.docbook:2767
 #, no-c-format
 msgid ""
 "The menus provide access to all the common operations that can be performed "
@@ -4822,7 +4838,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2761
+#: index.docbook:2771
 #, no-c-format
 msgid ""
 "Please note that when using &korganizer; as the calendar component of "
@@ -4830,13 +4846,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2765
+#: index.docbook:2775
 #, no-c-format
 msgid "File"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2767
+#: index.docbook:2777
 #, no-c-format
 msgid ""
 "The <guimenu>File</guimenu> menu provides access to functions involving the "
@@ -4844,7 +4860,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2774
+#: index.docbook:2784
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> </"
@@ -4852,7 +4868,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2781
+#: index.docbook:2791
 #, no-c-format
 msgid ""
 "<action>Opens a file dialog allowing you to select a new vCalendar or "
@@ -4862,7 +4878,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2785
+#: index.docbook:2795
 #, no-c-format
 msgid ""
 "For more information about this, please refer to <xref linkend=\"managing-"
@@ -4870,7 +4886,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2792
+#: index.docbook:2802
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo> </"
@@ -4878,7 +4894,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2799
+#: index.docbook:2809
 #, no-c-format
 msgid ""
 "Choose <guimenuitem>Print</guimenuitem> or click the <guilabel>Print</"
@@ -4889,13 +4905,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2809
+#: index.docbook:2819
 #, no-c-format
 msgid "<guimenu> File</guimenu><guimenuitem>Print Preview</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2813
+#: index.docbook:2823
 #, no-c-format
 msgid ""
 "If you choose <guimenuitem>Print Preview</guimenuitem> or click the "
@@ -4905,7 +4921,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2818
+#: index.docbook:2828
 #, no-c-format
 msgid ""
 "You can specify the range of dates to be printed (either manually or with "
@@ -4913,7 +4929,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2824
+#: index.docbook:2834
 #, no-c-format
 msgid ""
 "<guimenu>File</guimenu> <guisubmenu>Import</guisubmenu> <guimenuitem>Import "
@@ -4921,7 +4937,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2829
+#: index.docbook:2839
 #, no-c-format
 msgid ""
 "If you have a different iCalendar or vCalendar file somewhere, and you would "
@@ -4932,7 +4948,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2834
+#: index.docbook:2844
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -4940,7 +4956,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2840
+#: index.docbook:2850
 #, no-c-format
 msgid ""
 "<guimenu>File</guimenu> <guisubmenu>Export</guisubmenu> <guimenuitem>Export "
@@ -4948,7 +4964,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2845
+#: index.docbook:2855
 #, no-c-format
 msgid ""
 "This action will export all your active events, to-dos and journal entries "
@@ -4956,7 +4972,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2848
+#: index.docbook:2858
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -4964,20 +4980,20 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2854
+#: index.docbook:2864
 #, no-c-format
 msgid ""
 "<guimenu>File</guimenu> <guimenuitem>Archive Old Incidences...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2858
+#: index.docbook:2868
 #, no-c-format
 msgid "From time to time you should delete your old events."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2860 index.docbook:2872
+#: index.docbook:2870 index.docbook:2882
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -4985,21 +5001,21 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2866
+#: index.docbook:2876
 #, no-c-format
 msgid ""
 "<guimenu>File</guimenu> <guimenuitem>Purge Completed To-dos</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2870
+#: index.docbook:2880
 #, no-c-format
 msgid ""
 "This action will remove all the completed to-dos from your active calendar."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2878
+#: index.docbook:2888
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
@@ -5007,7 +5023,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2886
+#: index.docbook:2896
 #, no-c-format
 msgid ""
 "When you choose <guimenuitem>Quit</guimenuitem> or click the <guiicon>Quit</"
@@ -5016,7 +5032,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2890
+#: index.docbook:2900
 #, no-c-format
 msgid ""
 "This has no effect on other calendar windows which may be opened. You have "
@@ -5024,13 +5040,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2898
+#: index.docbook:2908
 #, no-c-format
 msgid "Edit"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2900
+#: index.docbook:2910
 #, no-c-format
 msgid ""
 "With the <guilabel>Edit</guilabel> menu you can edit and search events and "
@@ -5038,7 +5054,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2903
+#: index.docbook:2913
 #, no-c-format
 msgid ""
 "<guimenuitem>Cut</guimenuitem>, <guimenuitem>Copy</guimenuitem>, and "
@@ -5048,7 +5064,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2913
+#: index.docbook:2923
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo> </"
@@ -5056,7 +5072,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2920
+#: index.docbook:2930
 #, no-c-format
 msgid ""
 "<action>Undo the latest action</action>, or in other words, return the "
@@ -5064,7 +5080,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2927
+#: index.docbook:2937
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></"
@@ -5073,7 +5089,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2934
+#: index.docbook:2944
 #, no-c-format
 msgid ""
 "<action>Redo the latest action</action>, or in other words, return the "
@@ -5081,7 +5097,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2941
+#: index.docbook:2951
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo> </"
@@ -5089,7 +5105,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2948
+#: index.docbook:2958
 #, no-c-format
 msgid ""
 "Cuts the currently selected event(s) to the clipboard, removing them from "
@@ -5097,7 +5113,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2954
+#: index.docbook:2964
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> </"
@@ -5105,7 +5121,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2961
+#: index.docbook:2971
 #, no-c-format
 msgid ""
 "Copies the currently selected item(s) to the clipboard, but leaving them "
@@ -5113,7 +5129,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2967
+#: index.docbook:2977
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo> </"
@@ -5121,7 +5137,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2974
+#: index.docbook:2984
 #, no-c-format
 msgid ""
 "<guimenuitem>Paste</guimenuitem> <action>inserts the contents of the "
@@ -5132,7 +5148,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2979
+#: index.docbook:2989
 #, no-c-format
 msgid ""
 "However, you can safely use <keycombo action=\"simul\">&Ctrl; <keycap>C</"
@@ -5142,20 +5158,20 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2988
+#: index.docbook:2998
 #, no-c-format
 msgid "<guimenu> Edit</guimenu> <guimenuitem>Delete</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:2992
+#: index.docbook:3002
 #, no-c-format
 msgid ""
 "Delete the currently selected item(s), removing them from your calendar."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:2998
+#: index.docbook:3008
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> </"
@@ -5163,7 +5179,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3006
+#: index.docbook:3016
 #, no-c-format
 msgid ""
 "Choose <guimenuitem>Find</guimenuitem> from the <guimenu>Edit</guimenu> or "
@@ -5173,7 +5189,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3010
+#: index.docbook:3020
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5181,13 +5197,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3019
+#: index.docbook:3029
 #, no-c-format
 msgid "View"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3021
+#: index.docbook:3031
 #, no-c-format
 msgid ""
 "There are several different <quote>views</quote> available for displaying "
@@ -5197,7 +5213,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3026
+#: index.docbook:3036
 #, no-c-format
 msgid ""
 "In general, each view will provide a way of displaying your journal entries, "
@@ -5210,20 +5226,20 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3038
+#: index.docbook:3048
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>Agenda</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3042
+#: index.docbook:3052
 #, no-c-format
 msgid "Switch the display to the Agenda view."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3044 index.docbook:3211 index.docbook:3224 index.docbook:3240
-#: index.docbook:3255
+#: index.docbook:3054 index.docbook:3221 index.docbook:3234 index.docbook:3250
+#: index.docbook:3265
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5231,19 +5247,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3051
+#: index.docbook:3061
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>Month View</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3055
+#: index.docbook:3065
 #, no-c-format
 msgid "Switch the display to the Month view."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3057
+#: index.docbook:3067
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5251,19 +5267,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3064
+#: index.docbook:3074
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>Timeline</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3068
+#: index.docbook:3078
 #, no-c-format
 msgid "Switch the display to the Timeline view."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3070
+#: index.docbook:3080
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5271,19 +5287,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3078
+#: index.docbook:3088
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>To-do List</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3082
+#: index.docbook:3092
 #, no-c-format
 msgid "Switch the display to the To-do List view."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3083
+#: index.docbook:3093
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend=\"todo-"
@@ -5291,19 +5307,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3090
+#: index.docbook:3100
 #, no-c-format
 msgid "<guimenu> View</guimenu><guimenuitem>Event List</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3094
+#: index.docbook:3104
 #, no-c-format
 msgid "Switch the display to the list view."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3095
+#: index.docbook:3105
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend=\"list-"
@@ -5311,19 +5327,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3102
+#: index.docbook:3112
 #, no-c-format
 msgid "<guimenu> View</guimenu><guimenuitem>What's Next</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3106
+#: index.docbook:3116
 #, no-c-format
 msgid "Switch the display to the what's next view."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3107
+#: index.docbook:3117
 #, no-c-format
 msgid ""
 "This view displays your next events and to-dos. Events and to-dos are "
@@ -5331,7 +5347,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3109
+#: index.docbook:3119
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5339,19 +5355,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3117
+#: index.docbook:3127
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>Journal</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3122
+#: index.docbook:3132
 #, no-c-format
 msgid "Switch the display to the Journal view."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3123
+#: index.docbook:3133
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5359,31 +5375,31 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3128
+#: index.docbook:3138
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>Refresh</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3133
+#: index.docbook:3143
 #, no-c-format
 msgid "Updates or refreshes the currently displayed view."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3138
+#: index.docbook:3148
 #, no-c-format
 msgid "<guimenu>View</guimenu><guisubmenu>Zoom</guisubmenu>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3140
+#: index.docbook:3150
 #, no-c-format
 msgid "Use this submenu to adjust the current view to show more or less data."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3142
+#: index.docbook:3152
 #, no-c-format
 msgid ""
 "In the Agenda view (Day(s) or Week view), you can use the zoom actions to "
@@ -5397,13 +5413,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3153
+#: index.docbook:3163
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guisubmenu>Filter</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3157
+#: index.docbook:3167
 #, no-c-format
 msgid ""
 "This submenu offers access to the filters already created using the <link "
@@ -5414,13 +5430,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3169
+#: index.docbook:3179
 #, no-c-format
 msgid "<title>Go</title>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3171
+#: index.docbook:3181
 #, no-c-format
 msgid ""
 "For more information about browsing &korganizer; views, please refer to "
@@ -5428,61 +5444,61 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3177
+#: index.docbook:3187
 #, no-c-format
 msgid "<guimenu> Go</guimenu><guimenuitem>Backward</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3181
+#: index.docbook:3191
 #, no-c-format
 msgid "Go to the previous day, week or month, depending on the view."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3187
+#: index.docbook:3197
 #, no-c-format
 msgid "<guimenu> Go</guimenu><guimenuitem>Forward</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3191
+#: index.docbook:3201
 #, no-c-format
 msgid "Go to the next day, week, or month, depending on the view."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3197
+#: index.docbook:3207
 #, no-c-format
 msgid "<guimenu> Go</guimenu><guimenuitem>To Today</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3201
+#: index.docbook:3211
 #, no-c-format
 msgid "Go to the period of time that includes the current day."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3206
+#: index.docbook:3216
 #, no-c-format
 msgid "<guimenu> Go</guimenu><guimenuitem>Day</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3210
+#: index.docbook:3220
 #, no-c-format
 msgid "Switch the display to the Day view."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3218
+#: index.docbook:3228
 #, no-c-format
 msgid "<guimenu> Go</guimenu><guimenuitem>Next x Days</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3222
+#: index.docbook:3232
 #, no-c-format
 msgid ""
 "Switch the display to the Next x Day view, where x is defined in "
@@ -5490,19 +5506,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3232
+#: index.docbook:3242
 #, no-c-format
 msgid "<guimenu>Go</guimenu><guimenuitem>Work Week</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3236
+#: index.docbook:3246
 #, no-c-format
 msgid "Switch the display to the Work Week view."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3238
+#: index.docbook:3248
 #, no-c-format
 msgid ""
 "This is the same as the Week view, except only the working days of the week "
@@ -5510,19 +5526,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3247
+#: index.docbook:3257
 #, no-c-format
 msgid "<guimenu> Go</guimenu> <guimenuitem>Week</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3251
+#: index.docbook:3261
 #, no-c-format
 msgid "Switch the display to the Week view."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3252
+#: index.docbook:3262
 #, no-c-format
 msgid ""
 "The Week view provides a view similar to the Day view. Events for seven days "
@@ -5531,19 +5547,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3264
+#: index.docbook:3274
 #, no-c-format
 msgid "Actions"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3269
+#: index.docbook:3279
 #, no-c-format
 msgid "<guimenu>Actions</guimenu> <guimenuitem>New Event...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3274
+#: index.docbook:3284
 #, no-c-format
 msgid ""
 "Choose <guilabel>New Event...</guilabel> to <action>create a new event</"
@@ -5551,7 +5567,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3276
+#: index.docbook:3286
 #, no-c-format
 msgid ""
 "You can get a detailed description of the event window in <link linkend="
@@ -5559,13 +5575,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3282
+#: index.docbook:3292
 #, no-c-format
 msgid "<guimenu>Actions</guimenu> <guimenuitem>New To-do...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3287
+#: index.docbook:3297
 #, no-c-format
 msgid ""
 "Choose <guilabel>New To-do...</guilabel> to <action>create a new to-do</"
@@ -5573,7 +5589,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3290
+#: index.docbook:3300
 #, no-c-format
 msgid ""
 "You can get a detailed description of the to-do window in <link linkend="
@@ -5581,13 +5597,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3295
+#: index.docbook:3305
 #, no-c-format
 msgid "<guimenu>Actions</guimenu> <guimenuitem>New Sub-to-do...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3299
+#: index.docbook:3309
 #, no-c-format
 msgid ""
 "Choose <guilabel>New Sub-to-do...</guilabel> to <action>start writing a new "
@@ -5596,7 +5612,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3303
+#: index.docbook:3313
 #, no-c-format
 msgid ""
 "You can get a detailed description of the to-do window in <link linkend="
@@ -5604,13 +5620,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3309
+#: index.docbook:3319
 #, no-c-format
 msgid "<guimenu>Actions</guimenu> <guimenuitem>New Journal...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3313
+#: index.docbook:3323
 #, no-c-format
 msgid ""
 "Choose <guilabel>New Journal...</guilabel> to <action>start writing a new "
@@ -5618,25 +5634,25 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3319
+#: index.docbook:3329
 #, no-c-format
 msgid "<guimenu>Go</guimenu><guimenuitem>Pick a Date</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:3321
+#: index.docbook:3331
 #, no-c-format
 msgid "Opens a a date selection dialog for quickly navigating the view."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3325
+#: index.docbook:3335
 #, no-c-format
 msgid "<guimenu>Actions</guimenu> <guimenuitem>Show</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3329
+#: index.docbook:3339
 #, no-c-format
 msgid ""
 "Choose <guilabel>Show</guilabel> to <action>open a dialog showing the "
@@ -5644,13 +5660,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3335
+#: index.docbook:3345
 #, no-c-format
 msgid "<guimenu>Actions</guimenu> <guimenuitem>Edit...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3339
+#: index.docbook:3349
 #, no-c-format
 msgid ""
 "Choose <guilabel>Edit...</guilabel> to <action>edit the currently selected "
@@ -5658,7 +5674,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3344
+#: index.docbook:3354
 #, no-c-format
 msgid ""
 "<shortcut> &Del; </shortcut> <guimenu>Actions</guimenu> <guimenuitem>Delete</"
@@ -5666,7 +5682,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3351
+#: index.docbook:3361
 #, no-c-format
 msgid ""
 "Choose <guilabel>Delete</guilabel> to <action>remove the currently selected "
@@ -5674,7 +5690,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3356
+#: index.docbook:3366
 #, no-c-format
 msgid ""
 "<guimenu>Actions</guimenu> <guimenuitem>Make Sub-to-do Independent</"
@@ -5682,7 +5698,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3360
+#: index.docbook:3370
 #, no-c-format
 msgid ""
 "Choose <guilabel>Make Sub-to-do Independent</guilabel> to detach the "
@@ -5691,13 +5707,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3370
+#: index.docbook:3380
 #, no-c-format
 msgid "Schedule"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3375
+#: index.docbook:3385
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Publish Item Information...</"
@@ -5705,14 +5721,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3379
+#: index.docbook:3389
 #, no-c-format
 msgid ""
 "Email the selected event, to-do or journal entry in the iCalendar format."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3381
+#: index.docbook:3391
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5720,7 +5736,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3386
+#: index.docbook:3396
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Send Invitation to Attendees</"
@@ -5728,7 +5744,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3390
+#: index.docbook:3400
 #, no-c-format
 msgid ""
 "Send the selected to-do or event to the attendees, and, if necessary, "
@@ -5736,7 +5752,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3392
+#: index.docbook:3402
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5744,14 +5760,14 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3397
+#: index.docbook:3407
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Send Status Update</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3401
+#: index.docbook:3411
 #, no-c-format
 msgid ""
 "If you changed your status as an attendee, choose this menu item to send "
@@ -5759,7 +5775,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3404
+#: index.docbook:3414
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend=\"reply"
@@ -5767,7 +5783,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3409
+#: index.docbook:3419
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Send Cancellation to Attendees</"
@@ -5775,7 +5791,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3413
+#: index.docbook:3423
 #, no-c-format
 msgid ""
 "If you plan to cancel an event or to-do, select it, and choose this menu "
@@ -5783,7 +5799,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3415
+#: index.docbook:3425
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5791,20 +5807,20 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3420
+#: index.docbook:3430
 #, no-c-format
 msgid "<guimenu>Schedule</guimenu> <guimenuitem>Request Update</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3424
+#: index.docbook:3434
 #, no-c-format
 msgid ""
 "Request the latest version of the selected event or to-do from the organizer."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3426
+#: index.docbook:3436
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5812,20 +5828,20 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3431
+#: index.docbook:3441
 #, no-c-format
 msgid "<guimenu>Schedule</guimenu> <guimenuitem>Request Change</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3435
+#: index.docbook:3445
 #, no-c-format
 msgid ""
 "Send an alternative proposal to the organizer of the selected event or to-do."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3438
+#: index.docbook:3448
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -5833,7 +5849,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3453
+#: index.docbook:3463
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Mail Free Busy Information...</"
@@ -5841,13 +5857,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3457
+#: index.docbook:3467
 #, no-c-format
 msgid "Email your Free Busy information to one or more email addresses."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3459 index.docbook:3470
+#: index.docbook:3469 index.docbook:3480
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend=\"free-"
@@ -5855,7 +5871,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3464
+#: index.docbook:3474
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Upload Free Busy Information</"
@@ -5863,7 +5879,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3468
+#: index.docbook:3478
 #, no-c-format
 msgid ""
 "Upload your Free Busy information to the groupware server. Other users will "
@@ -5871,13 +5887,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3479
+#: index.docbook:3489
 #, no-c-format
 msgid "Settings and Help"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3481
+#: index.docbook:3491
 #, no-c-format
 msgid ""
 "Apart from the common &kde; menus described in the <ulink url=\"help:/"
@@ -5887,13 +5903,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3488
+#: index.docbook:3498
 #, no-c-format
 msgid "<guimenu>Settings</guimenu> <guisubmenu>Sidebar</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3492
+#: index.docbook:3502
 #, no-c-format
 msgid ""
 "<action>Click the menu items of this submenu to show or hide &korganizer; "
@@ -5903,7 +5919,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3499
+#: index.docbook:3509
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu> <guimenuitem>Configure Date &amp; Time...</"
@@ -5911,7 +5927,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3503
+#: index.docbook:3513
 #, no-c-format
 msgid ""
 "<action>Click this menu item to set the desktop date and time formats</"
@@ -5919,14 +5935,14 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3509
+#: index.docbook:3519
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu> <guisubmenu>Manage View Filters...</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3513
+#: index.docbook:3523
 #, no-c-format
 msgid ""
 "<action>Choose this menu item to open the <guilabel>Edit Filters</guilabel> "
@@ -5935,13 +5951,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:3520
+#: index.docbook:3530
 #, no-c-format
 msgid "<guimenu>Settings</guimenu> <guimenuitem>Manage Tags...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3524
+#: index.docbook:3534
 #, no-c-format
 msgid ""
 "<action>Choose this menu item to open the <guilabel>Manage Tags</guilabel> "
@@ -5951,13 +5967,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3539
+#: index.docbook:3549
 #, no-c-format
 msgid "Other Features"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3541
+#: index.docbook:3551
 #, no-c-format
 msgid ""
 "In this chapter, you'll learn of other useful features of &korganizer;: what "
@@ -5965,13 +5981,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3546
+#: index.docbook:3556
 #, no-c-format
 msgid "Command Line"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3548
+#: index.docbook:3558
 #, no-c-format
 msgid ""
 "A nice program to access a &kde; calendar from the command line is "
@@ -5979,13 +5995,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3553
+#: index.docbook:3563
 #, no-c-format
 msgid "Drag and Drop Operations"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3555
+#: index.docbook:3565
 #, no-c-format
 msgid ""
 "&korganizer; can be easily controlled with your mouse. The supported drag-"
@@ -5993,7 +6009,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3560
+#: index.docbook:3570
 #, no-c-format
 msgid ""
 "Any event can be re-sized with your mouse. Simply move the mouse pointer "
@@ -6003,7 +6019,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3564
+#: index.docbook:3574
 #, no-c-format
 msgid ""
 "Any event can be rescheduled with your mouse. Move the mouse pointer over "
@@ -6012,7 +6028,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3567
+#: index.docbook:3577
 #, no-c-format
 msgid ""
 "Events can be copied to other, presently non-visible dates. Move the mouse "
@@ -6021,7 +6037,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3571
+#: index.docbook:3581
 #, no-c-format
 msgid ""
 "However, you cannot drag from Agenda view in one calendar to Agenda view in "
@@ -6029,7 +6045,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3573
+#: index.docbook:3583
 #, no-c-format
 msgid ""
 "Toolbars can be dragged on the screen. Move the mouse pointer over the "
@@ -6037,19 +6053,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3583
+#: index.docbook:3593
 #, no-c-format
 msgid "Questions and Answers"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3588
+#: index.docbook:3598
 #, no-c-format
 msgid "Can I use freebusy-time with &korganizer;?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3590
+#: index.docbook:3600
 #, no-c-format
 msgid ""
 "Yes, follow the instructions in <link linkend=\"config-main-free-busy\">Free/"
@@ -6057,61 +6073,61 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3599
+#: index.docbook:3609
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3601
+#: index.docbook:3611
 #, no-c-format
 msgid "&korganizer;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3603
+#: index.docbook:3613
 #, no-c-format
 msgid "Program copyright 2000-2010, The &kde; Developers"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3605
+#: index.docbook:3615
 #, no-c-format
 msgid "Contributors:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3608
+#: index.docbook:3618
 #, no-c-format
 msgid "Allen Winter <email>winter@kde.org</email>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3610
+#: index.docbook:3620
 #, no-c-format
 msgid "Reinhold Kainhofer <email>reinhold@kainhofer.com</email>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3612
+#: index.docbook:3622
 #, no-c-format
 msgid "&Cornelius.Schumacher; &Cornelius.Schumacher.mail;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3614
+#: index.docbook:3624
 #, no-c-format
 msgid "&Preston.Brown; &Preston.Brown.mail;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3618
+#: index.docbook:3628
 #, no-c-format
 msgid "Documentation copyright 2000 &Milos.Prudek;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3619
+#: index.docbook:3629
 #, no-c-format
 msgid ""
 "Documentation copyright 2001 Paul E. Ahlquist, Jr <email>&Paul.E.Ahlquist.Jr."
@@ -6119,7 +6135,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3621
+#: index.docbook:3631
 #, no-c-format
 msgid ""
 "Documentation copyright 2004 J&uuml;rgen Nagel <email>juergen.nagel@student."
@@ -6127,7 +6143,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3623
+#: index.docbook:3633
 #, no-c-format
 msgid ""
 "Documentation copyright 2005 Carlos Leonhard Woelz <email>carloswoelz@imap-"
@@ -6135,31 +6151,31 @@ msgid ""
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:3626
+#: index.docbook:3636
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:3626
+#: index.docbook:3636
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3634
+#: index.docbook:3644
 #, no-c-format
 msgid "Glossary"
 msgstr ""
 
 #. Tag: glossterm
-#: index.docbook:3637
+#: index.docbook:3647
 #, no-c-format
 msgid "Calendar Widget"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3640
+#: index.docbook:3650
 #, no-c-format
 msgid ""
 "A tool for choosing the date inside certain entry windows, such as the event "
@@ -6170,13 +6186,13 @@ msgid ""
 msgstr ""
 
 #. Tag: glossterm
-#: index.docbook:3650
+#: index.docbook:3660
 #, no-c-format
 msgid "Date Navigator"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3653
+#: index.docbook:3663
 #, no-c-format
 msgid ""
 "The calendar that is in the upper-left corner of the &korganizer; window. It "
@@ -6190,7 +6206,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3662
+#: index.docbook:3672
 #, no-c-format
 msgid ""
 "Recurring events are not always displayed. You can prevent the display of "
@@ -6199,13 +6215,13 @@ msgid ""
 msgstr ""
 
 #. Tag: glossterm
-#: index.docbook:3670
+#: index.docbook:3680
 #, no-c-format
 msgid "Due Date"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3673
+#: index.docbook:3683
 #, no-c-format
 msgid ""
 "A due date is simply the date when your to-do must be finished. For "
@@ -6214,13 +6230,13 @@ msgid ""
 msgstr ""
 
 #. Tag: glossterm
-#: index.docbook:3705
+#: index.docbook:3715
 #, no-c-format
 msgid "Main panel"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3707
+#: index.docbook:3717
 #, no-c-format
 msgid ""
 "Normally the largest part of the screen, to the right of the Date Navigator. "
@@ -6229,7 +6245,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3710
+#: index.docbook:3720
 #, no-c-format
 msgid ""
 "The right mouse button can be used in the List view and To-do List view "
@@ -6238,13 +6254,13 @@ msgid ""
 msgstr ""
 
 #. Tag: glossterm
-#: index.docbook:3717
+#: index.docbook:3727
 #, no-c-format
 msgid "Free/busy"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3719
+#: index.docbook:3729
 #, no-c-format
 msgid ""
 "The free/busy information is a set of busy time intervals. By presenting the "
@@ -6255,7 +6271,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3724
+#: index.docbook:3734
 #, no-c-format
 msgid ""
 "When adding attendees to your event, you need to know if they are busy or "
