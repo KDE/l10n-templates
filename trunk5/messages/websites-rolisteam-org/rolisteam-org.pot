@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-rolisteam-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-22 02:22+0000\n"
+"POT-Creation-Date: 2026-04-12 02:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: config.yaml:0 content/13_tutorial.md:9
+#: config.yaml:0 content/13_tutorial.md:9 i18n/en.yaml:2
 msgid "Rolisteam"
 msgstr ""
 
@@ -2781,100 +2781,308 @@ msgstr ""
 msgid "rolisteam"
 msgstr ""
 
-#: content/_index.md:9
-msgid "![logo](images/logo_rolisteam.png)"
+#. index.download.windows
+#: i18n/en.yaml:6
+msgid "Download for Windows"
 msgstr ""
 
-#: content/_index.md:11
+#. index.download.linux
+#: i18n/en.yaml:8
+msgid "Download for Linux"
+msgstr ""
+
+#. index.download.mac
+#: i18n/en.yaml:10
+msgid "Download for Mac"
+msgstr ""
+
+#. index.download.other
+#: i18n/en.yaml:12
+msgid "Other Platforms"
+msgstr ""
+
+#. index.description
+#: i18n/en.yaml:15
 msgid ""
-"Rolisteam is a virtual tabletop software. It helps you to manage tabletop "
-"role playing games with remote friends/players. It provides many features to"
-" share maps, pictures and it also includes tool to communicate with your "
-"friends/players. The goal is to make Rolisteam-managed RPG games as good as "
-"RPG games around your table. To achieve it, we are working hard to provide "
-"you more and more features."
+"<strong>Rolisteam</strong> is a virtual tabletop software. It helps you to "
+"manage tabletop role playing games with remote friends/players. It provides "
+"many features to share maps, pictures and it also includes tool to "
+"communicate with your friends/players. The goal is to make "
+"<strong>Rolisteam</strong><br/>-managed RPG games as good as RPG games "
+"around your table. To achieve it, we are working hard to provide you more "
+"and more features. "
 msgstr ""
 
-#: content/_index.md:17
-msgid "Features"
+#. index.feature.map
+#: i18n/en.yaml:19
+msgid "BattleMap"
 msgstr ""
 
-#: content/_index.md:19 content/_index.md:25
-msgid "Character Sheet"
+#. index.feature.map.link
+#: i18n/en.yaml:21
+msgid "https://doc.rolisteam.org/05_vectorialmap/"
 msgstr ""
 
-#: content/_index.md:20
-msgid "Music player"
-msgstr ""
-
-#: content/_index.md:21
-msgid "Drawing tool (to draw map on the fly)."
-msgstr ""
-
-#: content/_index.md:22
-msgid "Vectorial Map"
-msgstr ""
-
-#: content/_index.md:23
-msgid "Name Generator"
-msgstr ""
-
-#: content/_index.md:24
-msgid "Unit Converter"
-msgstr ""
-
-#: content/_index.md:26
-msgid "Rich text Editor."
-msgstr ""
-
-#: content/_index.md:27
-msgid "Dice rolling"
-msgstr ""
-
-#: content/_index.md:28
-msgid "secret Dice rolling"
-msgstr ""
-
-#: content/_index.md:29
-msgid "Share pictures"
-msgstr ""
-
-#: content/_index.md:30
-msgid "Share maps"
-msgstr ""
-
-#: content/_index.md:31
-msgid "Fog of war on maps"
-msgstr ""
-
-#: content/_index.md:32
-msgid "Playable Character or Player identity (in chat)"
-msgstr ""
-
-#: content/_index.md:33
-msgid "PC and NPC positioning on map."
-msgstr ""
-
-#: content/_index.md:34
-msgid "One to One/Many/All Chat communication"
-msgstr ""
-
-#: content/_index.md:35
-msgid "Client/Server architecture."
-msgstr ""
-
-#: content/_index.md:36
-msgid "And many others..."
-msgstr ""
-
-#: content/_index.md:40
-msgid "Rolisteam's Fairy tale:"
-msgstr ""
-
-#: content/_index.md:43
+#. index.feature.map.description
+#: i18n/en.yaml:23 i18n/en.yaml:34
 msgid ""
-"Once upon a time, a man wants to play role playing game with his remote "
-"friends. He left a message in the ubuntu french forum asking help for "
-"porting Qt software to Linux. More details available "
-"[here](http://forum.ubuntu-fr.org/viewtopic.php?id=185333&p=1) (french)"
+"lets players communicate quickly and easily during the game. Messages can be"
+" sent to everyone, to a specific player, or to a selected group of players "
+"(for example, without the game master). Links in messages are clickable, and"
+" image links are automatically displayed as previews."
+msgstr ""
+
+#. index.feature.map.description2
+#: i18n/en.yaml:25 i18n/en.yaml:36
+msgid ""
+"By default, the chat includes a global channel where everyone can talk, as "
+"well as a direct message channel for private conversations between players. "
+"Additional channels can be created to organize discussions as needed."
+msgstr ""
+
+#. index.feature.map.description3
+#: i18n/en.yaml:27 i18n/en.yaml:38
+msgid ""
+"Channels are displayed as tabs by default, but users can also create "
+"multiple tab groups to view two or more conversations at the same time. The "
+"chat also supports dice commands, allowing players to roll dice directly "
+"within the conversation."
+msgstr ""
+
+#. index.feature.im
+#: i18n/en.yaml:30
+msgid "Instant Messaging"
+msgstr ""
+
+#. index.feature.im.link
+#: i18n/en.yaml:32
+msgid "https://doc.rolisteam.org/07_chat/"
+msgstr ""
+
+#. index.feature.mindmap
+#: i18n/en.yaml:41
+msgid "Mind maps"
+msgstr ""
+
+#. index.feature.mindmap.description
+#: i18n/en.yaml:45
+msgid ""
+"provide a flexible way to organize and take notes during a role-playing "
+"game. Each node can be customized and connected to multiple other nodes, "
+"allowing complex relationships between characters, places, and events. Nodes"
+" can contain child nodes and may also be hidden to keep the map clear while "
+"focusing on relevant information."
+msgstr ""
+
+#. index.feature.mindmap.description1
+#: i18n/en.yaml:47
+msgid ""
+"Both node text and link labels can be edited at any time, making it easy to "
+"update notes as the story evolves. Images can also be added directly inside "
+"nodes using simple drag-and-drop. Nodes can be grouped inside packages to "
+"organize larger sections of the map, and each node can be assigned tags to "
+"help categorize and quickly find information."
+msgstr ""
+
+#. index.feature.sheet
+#: i18n/en.yaml:50
+msgid "Character sheets"
+msgstr ""
+
+#. index.feature.mindmap.link
+#: i18n/en.yaml:52 i18n/en.yaml:74
+msgid "https://doc.rolisteam.org/06_charactersheet/"
+msgstr ""
+
+#. index.feature.sheet.description
+#: i18n/en.yaml:54
+msgid ""
+"can be created to match the exact visual style of a role-playing game. By "
+"importing the original PDF sheet as a background image, it is possible to "
+"reproduce the official layout and then define interactive fields on top of "
+"it using the <strong>RCSE</strong>."
+msgstr ""
+
+#. index.feature.sheet.description1
+#: i18n/en.yaml:56
+msgid ""
+"A character sheet can contain multiple pages. Within each page, you can add "
+"various elements such as text fields, sliders, images, web pages, value "
+"tables, text areas, and buttons to roll dice or trigger other actions. The "
+"sheet automatically adapts to the width of the window, and the zoom level "
+"can also be adjusted for better readability."
+msgstr ""
+
+#. index.feature.sheet.description2
+#: i18n/en.yaml:58
+msgid ""
+"The sheet can also support automatic calculations through a formula system "
+"or directly with JavaScript code. Once the sheet is ready, it can be "
+"imported into the software and shared with players. Any changes made to the "
+"sheet are saved automatically."
+msgstr ""
+
+#. index.feature.music
+#: i18n/en.yaml:61
+msgid "Music system"
+msgstr ""
+
+#. index.feature.music.link
+#: i18n/en.yaml:63
+msgid "https://doc.rolisteam.org/21_mindmap/"
+msgstr ""
+
+#. index.feature.music.description
+#: i18n/en.yaml:65
+msgid ""
+" with three independent players is included in <strong>Rolisteam</strong>, "
+"allowing you to manage different types of audio during a game session. For "
+"example, one player can be used for ambient music, another for sound "
+"effects, and a third for background tracks."
+msgstr ""
+
+#. index.feature.music.description1
+#: i18n/en.yaml:67
+msgid ""
+"Music can be loaded from a URL. In this case, no need of extra-"
+"configuration. <br/>Audio files are not streamed over the network. Instead, "
+"playback is synchronized between participants. When using local files, the "
+"same files must be available on each player's computer."
+msgstr ""
+
+#. index.feature.music.description2
+#: i18n/en.yaml:69
+msgid ""
+"The players support standard playback modes such as shuffle, looping, and "
+"other common controls, making it easy to adapt the atmosphere of the game in"
+" real time."
+msgstr ""
+
+#. index.feature.pdf
+#: i18n/en.yaml:72
+msgid "PDF Viewer"
+msgstr ""
+
+#. index.feature.pdf.description
+#: i18n/en.yaml:76
+msgid ""
+"allows users to read and share PDF documents while easily extracting visual "
+"content. <br/>In addition to the usual features of a PDF reader—such as "
+"zooming, fitting the page to the window width, and switching between page-"
+"by-page or continuous scrolling views—it includes a simple tool to crop any "
+"part of a page and copy it directly to the clipboard as an image."
+msgstr ""
+
+#. index.feature.pdf.description2
+#: i18n/en.yaml:78
+msgid ""
+"The extracted image can then be quickly shared with other tabletop RPG "
+"players, placed on a game map, or added to a node in a mind map.<br/>If "
+"needed, the entire PDF can also be shared. This makes the viewer a practical"
+" tool for quickly turning PDF content into reusable visual elements during "
+"collaborative sessions."
+msgstr ""
+
+#. index.feature.dice3d
+#: i18n/en.yaml:81
+msgid "Dice 3D"
+msgstr ""
+
+#. index.feature.dice3d.link
+#: i18n/en.yaml:83
+msgid "https://doc.rolisteam.org/34_dice3d/"
+msgstr ""
+
+#. index.feature.dice3d.description
+#: i18n/en.yaml:85
+msgid ""
+"<em>(technical preview)</em> is dice track in 3D based on physical engine to"
+" roll dice.<br/>Users can add dice to the track of any existing dice. "
+msgstr ""
+
+#. index.feature.dice3d.description1
+#: i18n/en.yaml:87
+msgid ""
+"Then, select dice from different ways (Mouse, zone or select all "
+"button).<br/>Final step, <strong>roll them</strong> with the "
+"mouse.<br/>Results are computed when the dice have stopped rotating. And the"
+" result is displayed inside the common <strong>chatroom</strong>."
+msgstr ""
+
+#. index.feature.diceparser
+#: i18n/en.yaml:90
+msgid "DiceParser"
+msgstr ""
+
+#. index.feature.diceparser.link
+#: i18n/en.yaml:92
+msgid "https://doc.rolisteam.org/21_dice_roller/"
+msgstr ""
+
+#. index.feature.diceparser.description
+#: i18n/en.yaml:94
+msgid ""
+" is <strong>Rolisteam</strong>'s dice command system. You can run the exact "
+"same commands with the discord bot and <strong>Rolisteam</strong>."
+msgstr ""
+
+#. index.feature.diceparser.description1
+#: i18n/en.yaml:96
+msgid ""
+"It offers a simple syntax for simulating dice rolls. It also allows for "
+"complete customization of the results for more advanced use. Numerous "
+"options and operators can be used to perform calculations, making the game "
+"master's job easier. <br/><br/>A typical command might look like this:"
+msgstr ""
+
+#. index.feature.diceparser.description2
+#: i18n/en.yaml:98
+msgid "In this example:"
+msgstr ""
+
+#. index.feature.diceparser.description3
+#: i18n/en.yaml:100
+msgid "rolls two twenty-sided dice"
+msgstr ""
+
+#. index.feature.diceparser.description4
+#: i18n/en.yaml:102
+msgid "keeps the highest result"
+msgstr ""
+
+#. index.feature.diceparser.description5
+#: i18n/en.yaml:104
+msgid "adds a bonus modifier"
+msgstr ""
+
+#. index.license
+#: i18n/en.yaml:107
+msgid "Free and Open Source"
+msgstr ""
+
+#. index.license.description
+#: i18n/en.yaml:109
+msgid ""
+"<strong>Rolisteam</strong> is a Free and Open Source software under the "
+"generous GNU General Public License v2.0. Enjoy!"
+msgstr ""
+
+#. download.distro
+#: i18n/en.yaml:112
+msgid "Distro"
+msgstr ""
+
+#. download.commands
+#: i18n/en.yaml:114
+msgid "Installation Commands"
+msgstr ""
+
+#. download.ubuntu
+#: i18n/en.yaml:116
+msgid "Ubuntu"
+msgstr ""
+
+#. download.fedora
+#: i18n/en.yaml:118
+msgid "Fedora"
 msgstr ""
