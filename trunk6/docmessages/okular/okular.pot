@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"POT-Creation-Date: 2026-04-15 00:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -53,13 +53,13 @@ msgstr ""
 #. Tag: date
 #: index.docbook:35
 #, no-c-format
-msgid "2022-02-19"
+msgid "2026-02-23"
 msgstr ""
 
 #. Tag: releaseinfo
 #: index.docbook:36
 #, no-c-format
-msgid "22.04"
+msgid "26.04"
 msgstr ""
 
 #. Tag: para
@@ -887,7 +887,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:499 index.docbook:2906
+#: index.docbook:499 index.docbook:2923
 #, no-c-format
 msgid "<title>Annotations</title>"
 msgstr ""
@@ -3765,11 +3765,25 @@ msgstr ""
 #. Tag: guilabel
 #: index.docbook:2639
 #, no-c-format
-msgid "When using Browse Tool, wrap cursor at screen edges"
+msgid "Continue from last viewed page"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:2641
+#, no-c-format
+msgid ""
+"Whether to save and restore the last viewed page for each document with the "
+"stored page data."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:2647
+#, no-c-format
+msgid "When using Browse Tool, wrap cursor at screen edges"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2649
 #, no-c-format
 msgid ""
 "Allows endless scrolling around the entire document with the <link linkend="
@@ -3779,26 +3793,38 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2647
+#: index.docbook:2655
+#, no-c-format
+msgid "Items in recent history"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2657
+#, no-c-format
+msgid "Allows to configure the length of the stored history list."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:2664
 #, no-c-format
 msgid "Overview columns"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2649
+#: index.docbook:2666
 #, no-c-format
 msgid ""
 "This option represents the number of columns to use in the overview mode."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2655
+#: index.docbook:2672
 #, no-c-format
 msgid "Page Up/Down overlap"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2657
+#: index.docbook:2674
 #, no-c-format
 msgid ""
 "Here you can define the percentage of the current viewing area that should "
@@ -3806,13 +3832,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2663
+#: index.docbook:2680
 #, no-c-format
 msgid "Default Zoom"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2665
+#: index.docbook:2682
 #, no-c-format
 msgid ""
 "This option specifies the default zoom mode for files which were never "
@@ -3821,55 +3847,55 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2675
+#: index.docbook:2692
 #, no-c-format
 msgid "<title>Accessibility</title>"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2678
+#: index.docbook:2695
 #, no-c-format
 msgid "Draw border around links"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2680
+#: index.docbook:2697
 #, no-c-format
 msgid "Whether to draw a border around links."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2684
+#: index.docbook:2701
 #, no-c-format
 msgid "Change colors"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2686
+#: index.docbook:2703
 #, no-c-format
 msgid "<action>Enables</action> the color changing options."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2690
+#: index.docbook:2707
 #, no-c-format
 msgid "Color mode"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2692
+#: index.docbook:2709
 #, no-c-format
 msgid "<action>Defines</action> the color changing mode."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2695
+#: index.docbook:2712
 #, no-c-format
 msgid "Invert Colors"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2697
+#: index.docbook:2714
 #, no-c-format
 msgid ""
 "<action>Inverts</action> colors on the view, &ie; black objects will be "
@@ -3877,20 +3903,20 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2701
+#: index.docbook:2718
 #, no-c-format
 msgid "Change Paper Color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2703
+#: index.docbook:2720
 #, no-c-format
 msgid ""
 "<action>Changes</action> the paper's color, &ie; the document's background."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2704
+#: index.docbook:2721
 #, no-c-format
 msgid ""
 "The color can be selected using the <guilabel>Paper color</guilabel> swatch "
@@ -3898,13 +3924,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2709
+#: index.docbook:2726
 #, no-c-format
 msgid "Change Dark &amp; Light Colors"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2711
+#: index.docbook:2728
 #, no-c-format
 msgid ""
 "<action>Changes</action> the dark and light color to your preference, that "
@@ -3913,13 +3939,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2717
+#: index.docbook:2734
 #, no-c-format
 msgid "Convert to Black &amp; White"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2719
+#: index.docbook:2736
 #, no-c-format
 msgid ""
 "<action>Converts</action> the document to black and white. You can set the "
@@ -3928,13 +3954,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2725
+#: index.docbook:2742
 #, no-c-format
 msgid "Invert Lightness"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2727
+#: index.docbook:2744
 #, no-c-format
 msgid ""
 "<action>Inverts</action> lightness of all colors. Light and dark colors will "
@@ -3944,13 +3970,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2733
+#: index.docbook:2750
 #, no-c-format
 msgid "Invert Luma (sRGB Linear)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2735
+#: index.docbook:2752
 #, no-c-format
 msgid ""
 "<action>Inverts</action> luma of all colors. Light and dark will be swapped, "
@@ -3961,13 +3987,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2743
+#: index.docbook:2760
 #, no-c-format
 msgid "Invert Luma (Symmetric)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2745
+#: index.docbook:2762
 #, no-c-format
 msgid ""
 "<action>Inverts</action> luma of all colors, using symmetric luma "
@@ -3977,13 +4003,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2752
+#: index.docbook:2769
 #, no-c-format
 msgid "Shift Hue Positive"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2754
+#: index.docbook:2771
 #, no-c-format
 msgid ""
 "<action>Shifts</action> hue of all colors by 120 degrees. Can mitigate some "
@@ -3991,13 +4017,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2759
+#: index.docbook:2776
 #, no-c-format
 msgid "Shift Hue Negative"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2761
+#: index.docbook:2778
 #, no-c-format
 msgid ""
 "<action>Shifts</action> hue of all colors by 240 degrees. Can mitigate some "
@@ -4005,7 +4031,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2766
+#: index.docbook:2783
 #, no-c-format
 msgid ""
 "You can configure keyboard shortcuts and toolbar actions for the color modes "
@@ -4014,13 +4040,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2770
+#: index.docbook:2787
 #, no-c-format
 msgid "Text-to-speech engine"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2772
+#: index.docbook:2789
 #, no-c-format
 msgid ""
 "<action>Allows you to choose</action> the text-to-speech (<abbrev>TTS</"
@@ -4029,13 +4055,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2777
+#: index.docbook:2794
 #, no-c-format
 msgid "Text-to-speech voice"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2779
+#: index.docbook:2796
 #, no-c-format
 msgid ""
 "<action>Allows you to choose</action> a voice for the text-to-speech engine "
@@ -4045,19 +4071,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2787
+#: index.docbook:2804
 #, no-c-format
 msgid "<title>Performance</title>"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2790
+#: index.docbook:2807
 #, no-c-format
 msgid "Enable transparency effects"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2792
+#: index.docbook:2809
 #, no-c-format
 msgid ""
 "Draw selections and other special graphics using transparency effects. "
@@ -4066,13 +4092,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2798
+#: index.docbook:2815
 #, no-c-format
 msgid "Memory usage"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2800
+#: index.docbook:2817
 #, no-c-format
 msgid ""
 "&okular; can achieve best performance by tuning the memory usage, based on "
@@ -4085,13 +4111,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2808
+#: index.docbook:2825
 #, no-c-format
 msgid "Rendering options"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2810
+#: index.docbook:2827
 #, no-c-format
 msgid ""
 "Using this group of options you can improve text and image rendering in "
@@ -4107,31 +4133,31 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2819
+#: index.docbook:2836
 #, no-c-format
 msgid "<title>Presentation</title>"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2822
+#: index.docbook:2839
 #, no-c-format
 msgid "Advance every"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2824
+#: index.docbook:2841
 #, no-c-format
 msgid "Enables automatic advancing of pages given a time period."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2828
+#: index.docbook:2845
 #, no-c-format
 msgid "Loop after last page"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2830
+#: index.docbook:2847
 #, no-c-format
 msgid ""
 "When navigating on presentation mode and going past the last page the first "
@@ -4139,13 +4165,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2834
+#: index.docbook:2851
 #, no-c-format
 msgid "Touch navigation"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2836
+#: index.docbook:2853
 #, no-c-format
 msgid ""
 "Allows you to fine-tune touchscreen navigation with tapping in the "
@@ -4153,7 +4179,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2839
+#: index.docbook:2856
 #, no-c-format
 msgid ""
 "<guilabel>Tap left/right side to go back/forward</guilabel>: Tapping on the "
@@ -4162,7 +4188,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2842
+#: index.docbook:2859
 #, no-c-format
 msgid ""
 "<guilabel>Tap anywhere to go forward</guilabel> (default): Tapping on the "
@@ -4171,19 +4197,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2845
+#: index.docbook:2862
 #, no-c-format
 msgid "<guilabel>Disabled</guilabel>: Screen tapping does not do anything."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2851
+#: index.docbook:2868
 #, no-c-format
 msgid "Background color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2853
+#: index.docbook:2870
 #, no-c-format
 msgid ""
 "The color that will fill the part of the screen not covered by the page when "
@@ -4191,13 +4217,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2857
+#: index.docbook:2874
 #, no-c-format
 msgid "Mouse cursor"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2859
+#: index.docbook:2876
 #, no-c-format
 msgid ""
 "Whether the mouse should be always hidden, always shown or hidden after a "
@@ -4205,13 +4231,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2863
+#: index.docbook:2880
 #, no-c-format
 msgid "Show progress indicator"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2865
+#: index.docbook:2882
 #, no-c-format
 msgid ""
 "Whether to show a progress circle that shows the current page and the total "
@@ -4220,13 +4246,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2870
+#: index.docbook:2887
 #, no-c-format
 msgid "Show summary page"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2872
+#: index.docbook:2889
 #, no-c-format
 msgid ""
 "Whether to show a summary page at the beginning of the presentation with the "
@@ -4234,26 +4260,26 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2876
+#: index.docbook:2893
 #, no-c-format
 msgid "Enable transitions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2878
+#: index.docbook:2895
 #, no-c-format
 msgid ""
 "Use this check box to enable or disable transition effects between pages."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2882
+#: index.docbook:2899
 #, no-c-format
 msgid "Default transition"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2884
+#: index.docbook:2901
 #, no-c-format
 msgid ""
 "The transition effect between page and page if the document does not specify "
@@ -4262,13 +4288,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2889
+#: index.docbook:2906
 #, no-c-format
 msgid "Placement"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2891
+#: index.docbook:2908
 #, no-c-format
 msgid ""
 "In this section you can select the <guilabel>Screen</guilabel> used to "
@@ -4276,7 +4302,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2892
+#: index.docbook:2909
 #, no-c-format
 msgid ""
 "<guilabel>Current Screen</guilabel> is same screen of the &okular; window "
@@ -4284,7 +4310,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2893
+#: index.docbook:2910
 #, no-c-format
 msgid ""
 "<guilabel>Default Screen</guilabel> is the screen marked as default in the "
@@ -4292,7 +4318,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2894
+#: index.docbook:2911
 #, no-c-format
 msgid ""
 "<guilabel>Screen 0</guilabel>, <guilabel>Screen 1</guilabel> &etc; are the "
@@ -4300,13 +4326,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2898
+#: index.docbook:2915
 #, no-c-format
 msgid "Drawing Tool Configuration"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2900
+#: index.docbook:2917
 #, no-c-format
 msgid ""
 "Manage the colors of the pencil used when drawing on the pages during the "
@@ -4314,26 +4340,26 @@ msgid ""
 msgstr ""
 
 #. Tag: screeninfo
-#: index.docbook:2908
+#: index.docbook:2925
 #, no-c-format
 msgid ""
 "<screeninfo>The Annotations page of the configuration dialog</screeninfo>"
 msgstr ""
 
 #. Tag: phrase
-#: index.docbook:2914
+#: index.docbook:2931
 #, no-c-format
 msgid "<phrase>The Annotations page of the configuration dialog</phrase>"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2920
+#: index.docbook:2937
 #, no-c-format
 msgid "Annotation toolbar"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2922
+#: index.docbook:2939
 #, no-c-format
 msgid ""
 "Allows switching between <guimenuitem>Full Annotation Toolbar</guimenuitem> "
@@ -4344,13 +4370,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2926
+#: index.docbook:2943
 #, no-c-format
 msgid "Author"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2928
+#: index.docbook:2945
 #, no-c-format
 msgid ""
 "The author of the contents added on a document. Default is the name from the "
@@ -4359,13 +4385,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2933
+#: index.docbook:2950
 #, no-c-format
 msgid "Annotation tools"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2935
+#: index.docbook:2952
 #, no-c-format
 msgid ""
 "This pane is used to configure your <link linkend=\"annotations-add"
@@ -4373,7 +4399,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2938
+#: index.docbook:2955
 #, no-c-format
 msgid ""
 "There are five buttons (<guibutton>Add</guibutton>, <guibutton>Edit</"
@@ -4383,7 +4409,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2941
+#: index.docbook:2958
 #, no-c-format
 msgid ""
 "If you need to add some tool button on the toolbar click on the "
@@ -4393,7 +4419,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2945
+#: index.docbook:2962
 #, no-c-format
 msgid ""
 "Please remember that annotation tools in &okular; are highly configurable. "
@@ -4403,7 +4429,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2949
+#: index.docbook:2966
 #, no-c-format
 msgid ""
 "Click on some item in the list box then click on the corresponding button at "
@@ -4414,13 +4440,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:2955
+#: index.docbook:2972
 #, no-c-format
 msgid "Using Custom Stamps"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2958
+#: index.docbook:2975
 #, no-c-format
 msgid ""
 "Create the icon you want to use for your own stamp and save it in any "
@@ -4428,7 +4454,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2959
+#: index.docbook:2976
 #, no-c-format
 msgid ""
 "Click the <guibutton>Add</guibutton> button, select type <guilabel>Stamp</"
@@ -4436,7 +4462,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2960
+#: index.docbook:2977
 #, no-c-format
 msgid ""
 "Enter the full path to your custom icon into the dropdown box in the "
@@ -4444,19 +4470,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2967
+#: index.docbook:2984
 #, no-c-format
 msgid "<title>Editor</title>"
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2970
+#: index.docbook:2987
 #, no-c-format
 msgid "<guilabel>Editor</guilabel>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2972
+#: index.docbook:2989
 #, no-c-format
 msgid ""
 "Choose the editor you want to launch when &okular; wants to open a source "
@@ -4471,7 +4497,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2975
+#: index.docbook:2992
 #, no-c-format
 msgid ""
 "&okular; ships with preconfigured settings for the following editors: <ulink "
@@ -4485,7 +4511,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2979
+#: index.docbook:2996
 #, no-c-format
 msgid ""
 "To use inverse search in &kile;, you have to compile your &latex; file with "
@@ -4493,13 +4519,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2986
+#: index.docbook:3003
 #, no-c-format
 msgid "Command"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2988
+#: index.docbook:3005
 #, no-c-format
 msgid ""
 "This is the command and its parameters to invoke the selected editor with "
@@ -4507,7 +4533,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2989
+#: index.docbook:3006
 #, no-c-format
 msgid ""
 "This field will be filled automatically if you use one of the preconfigured "
@@ -4517,31 +4543,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2991
+#: index.docbook:3008
 #, no-c-format
 msgid "You can use the following placeholders:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2994
+#: index.docbook:3011
 #, no-c-format
 msgid "%f - the file name"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2997
+#: index.docbook:3014
 #, no-c-format
 msgid "%l - the line of the file to be reached"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3000
+#: index.docbook:3017
 #, no-c-format
 msgid "%c - the column of the file to be reached"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3003
+#: index.docbook:3020
 #, no-c-format
 msgid ""
 "If %f is not specified, then the document name is appended to the specified "
@@ -4549,62 +4575,62 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3010
+#: index.docbook:3027
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3013
+#: index.docbook:3030
 #, no-c-format
 msgid "Program Copyright:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3014
+#: index.docbook:3031
 #, no-c-format
 msgid "&Albert.Astals.Cid; &Albert.Astals.Cid.mail; Current maintainer"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3015 index.docbook:3023
+#: index.docbook:3032 index.docbook:3040
 #, no-c-format
 msgid "Pino Toscano <email>pino@kde.org</email>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3016
+#: index.docbook:3033
 #, no-c-format
 msgid "Enrico Ros <email>eros.kde@email.it</email> &kpdf; developer"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:3020
+#: index.docbook:3037
 #, no-c-format
 msgid "Documentation Copyright:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3021
+#: index.docbook:3038
 #, no-c-format
 msgid "&Albert.Astals.Cid; &Albert.Astals.Cid.mail; Author"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:3022
+#: index.docbook:3039
 #, no-c-format
 msgid ""
 "Titus Laska <email>titus.laska@gmx.de</email> Some updates and additions"
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:3025
+#: index.docbook:3042
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:3025
+#: index.docbook:3042
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""

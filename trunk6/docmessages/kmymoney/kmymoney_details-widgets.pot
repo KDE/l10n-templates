@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"POT-Creation-Date: 2026-04-15 00:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -86,14 +86,55 @@ msgid ""
 "switch between the <emphasis>day</emphasis>, the <emphasis>month</emphasis>, "
 "and the <emphasis>year</emphasis> fields. Using the &Up;/&Down; cursor keys, "
 "the value of the selected field can be incremented/decremented. The <keycap>"
-"+</keycap> and <keycap>-</keycap> keys can be used to increment/decrement a "
-"single day. Month and year boundaries are considered and incremented/"
-"decremented if necessary. Pressing <keycap>T</keycap> will set the date to "
-"today's date."
+"+</keycap> or <keycap>=</keycap> and <keycap>-</keycap> keys can be used to "
+"increment/decrement a single day. The <keycap>]</keycap> or <keycap>}</"
+"keycap> and <keycap>[</keycap> or <keycap>{</keycap> keys can be used to "
+"increment/decrement a single month. The <keycap>'</keycap> or <keycap>\"</"
+"keycap> and <keycap>;</keycap> or <keycap>:</keycap> keys can be used to "
+"increment/decrement a single year. Month and year boundaries are considered "
+"and incremented/decremented if necessary, e.g. using <keycap>+</keycap> to "
+"increment the date of January 31th will change it to February 1st."
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:55
+#: details-widgets.docbook:59
+#, no-c-format
+msgid "The following additional shortcuts can also be used:"
+msgstr ""
+
+#. Tag: para
+#: details-widgets.docbook:66
+#, no-c-format
+msgid ""
+"<keycap>M</keycap> to set the date to the first day of the current month"
+msgstr ""
+
+#. Tag: para
+#: details-widgets.docbook:69
+#, no-c-format
+msgid "<keycap>H</keycap> to set the date to the last day of the current month"
+msgstr ""
+
+#. Tag: para
+#: details-widgets.docbook:72
+#, no-c-format
+msgid "<keycap>Y</keycap> to set the date to the first day of the current year"
+msgstr ""
+
+#. Tag: para
+#: details-widgets.docbook:75
+#, no-c-format
+msgid "<keycap>R</keycap> to set the date to the last day of the current year"
+msgstr ""
+
+#. Tag: para
+#: details-widgets.docbook:78
+#, no-c-format
+msgid "<keycap>T</keycap> to set the date to today's date"
+msgstr ""
+
+#. Tag: para
+#: details-widgets.docbook:83
 #, no-c-format
 msgid ""
 "The date can also be changed using the mouse. Clicking on the <emphasis>day</"
@@ -105,7 +146,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:64
+#: details-widgets.docbook:92
 #, no-c-format
 msgid ""
 "The date picker widget shows the currently selected month, name, and year. "
@@ -116,7 +157,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:72
+#: details-widgets.docbook:100
 #, no-c-format
 msgid ""
 "Beneath the buttons, the widget presents a calendar page for the selected "
@@ -126,7 +167,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:79
+#: details-widgets.docbook:107
 #, no-c-format
 msgid ""
 "At the bottom of the date picker widget, there are a button, a text edit "
@@ -137,7 +178,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:87
+#: details-widgets.docbook:115
 #, no-c-format
 msgid ""
 "In case an invalid date is entered, the date picker will show a red frame, "
@@ -145,13 +186,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: details-widgets.docbook:94
+#: details-widgets.docbook:122
 #, no-c-format
 msgid "Value entry"
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:96
+#: details-widgets.docbook:124
 #, no-c-format
 msgid ""
 "The value entry widget consists of a text field (that accepts digits, "
@@ -165,7 +206,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:106
+#: details-widgets.docbook:134
 #, no-c-format
 msgid ""
 "Negative values can be entered by preceding the value with a minus sign. In "
@@ -175,19 +216,19 @@ msgid ""
 msgstr ""
 
 #. Tag: screeninfo
-#: details-widgets.docbook:114
+#: details-widgets.docbook:142
 #, no-c-format
 msgid "<screeninfo>Value widget</screeninfo>"
 msgstr ""
 
 #. Tag: phrase
-#: details-widgets.docbook:120
+#: details-widgets.docbook:148
 #, no-c-format
 msgid "<phrase>Value widget</phrase>"
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:126
+#: details-widgets.docbook:154
 #, no-c-format
 msgid ""
 "Use the calculator widget just like a normal calculator and once done leave "
@@ -196,13 +237,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: details-widgets.docbook:134
+#: details-widgets.docbook:162
 #, no-c-format
 msgid "Payee/Payer entry"
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:136
+#: details-widgets.docbook:164
 #, no-c-format
 msgid ""
 "The widget for entering a Payee/Payer is very similar to a typical combo-"
@@ -210,19 +251,19 @@ msgid ""
 msgstr ""
 
 #. Tag: screeninfo
-#: details-widgets.docbook:143
+#: details-widgets.docbook:171
 #, no-c-format
 msgid "<screeninfo>Payee widget</screeninfo>"
 msgstr ""
 
 #. Tag: phrase
-#: details-widgets.docbook:149
+#: details-widgets.docbook:177
 #, no-c-format
 msgid "<phrase>Payee widget</phrase>"
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:155
+#: details-widgets.docbook:183
 #, no-c-format
 msgid ""
 "When you are requested to enter a payee/payer for a transaction, you can "
@@ -237,7 +278,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:167
+#: details-widgets.docbook:195
 #, no-c-format
 msgid ""
 "If a name is entered that is not yet known to &kmymoney; you will be asked "
@@ -247,13 +288,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: details-widgets.docbook:176
+#: details-widgets.docbook:204
 #, no-c-format
 msgid "Category/Account entry"
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:178
+#: details-widgets.docbook:206
 #, no-c-format
 msgid ""
 "The field for entering a Category or Account is very similar to the one "
@@ -261,19 +302,19 @@ msgid ""
 msgstr ""
 
 #. Tag: screeninfo
-#: details-widgets.docbook:185
+#: details-widgets.docbook:213
 #, no-c-format
 msgid "<screeninfo>Category widget</screeninfo>"
 msgstr ""
 
 #. Tag: phrase
-#: details-widgets.docbook:191
+#: details-widgets.docbook:219
 #, no-c-format
 msgid "<phrase>Category widget</phrase>"
 msgstr ""
 
 #. Tag: para
-#: details-widgets.docbook:197
+#: details-widgets.docbook:225
 #, no-c-format
 msgid ""
 "To the right of the entry field, between the X for clearing it and the down "
