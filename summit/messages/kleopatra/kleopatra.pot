@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 09:57+0200\n"
+"POT-Creation-Date: 2026-04-15 09:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -10211,8 +10211,56 @@ msgctxt "@title:window"
 msgid "Prohibited"
 msgstr ""
 
+#. +> trunk6
+#: src/main.cpp:179
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><application>Kleopatra</application> cannot be run as administrator without breaking file permissions in the GnuPG data folder.</para>"
+"<para>To manage keys for other users please manage them as a normal user and copy the <filename>%APPDATA%\\gnupg*</filename> directory with proper permissions.</para>"
+msgstr ""
+
+#. +> stable6
+#: src/main.cpp:190
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><application>Kleopatra</application> cannot be run as adminstrator without breaking file permissions in the GnuPG data folder.</para>"
+"<para>To manage keys for other users please manage them as a normal user and copy the <filename>AppData\\Roaming\\gnupg</filename> directory with proper permissions.</para>"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:183
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>Are you sure that you want to continue at your own risk?</para>"
+msgstr ""
+
+#. +> stable6
+#: src/main.cpp:194
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>Are you sure that you want to continue?</para>"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/main.cpp:210
+#: src/main.cpp:184 src/main.cpp:200
+#, kde-format
+msgctxt "@title"
+msgid "Running as Administrator"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:195
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><application>Kleopatra</application> should not be run as administrator.</para>"
+"<para>If you still want to run the application as administrator at your own risk then set the registry value <filename>%1</filename> to <icode>%2</icode>.</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:260
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -10222,43 +10270,20 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:214
+#: src/main.cpp:264
 #, kde-format
 msgctxt "@title"
 msgid "GpgME Too Old"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:236
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para><application>Kleopatra</application> cannot be run as adminstrator without breaking file permissions in the GnuPG data folder.</para>"
-"<para>To manage keys for other users please manage them as a normal user and copy the <filename>AppData\\Roaming\\gnupg</filename> directory with proper permissions.</para>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/main.cpp:240
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<para>Are you sure that you want to continue?</para>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/main.cpp:241
-#, kde-format
-msgctxt "@title"
-msgid "Running as Administrator"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/main.cpp:307
+#: src/main.cpp:333
 #, kde-format
 msgid "GPG UI Server Error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:311
+#: src/main.cpp:337
 #, kde-format
 msgctxt "This error message is only shown on Windows when the socket to communicate with Windows Explorer could not be created. This often times means that the whole installation is buggy. e.g. GnuPG is not installed at all."
 msgid ""
@@ -10269,7 +10294,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:342
+#: src/main.cpp:368
 #, kde-format
 msgid "Invalid arguments: %1"
 msgstr ""

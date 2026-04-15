@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-09 10:27+0200\n"
+"POT-Creation-Date: 2026-04-15 09:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -78,162 +78,211 @@ msgid "<phrase>Date widget</phrase>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable5
+#. +> trunk6
+#: details-widgets.docbook:45
+#, no-c-format
+msgid "Within the date entry widget, the &Left;/&Right; cursor keys can be used to switch between the <emphasis>day</emphasis>, the <emphasis>month</emphasis>, and the <emphasis>year</emphasis> fields. Using the &Up;/&Down; cursor keys, the value of the selected field can be incremented/decremented. The <keycap>+</keycap> or <keycap>=</keycap> and <keycap>-</keycap> keys can be used to increment/decrement a single day. The <keycap>]</keycap> or <keycap>}</keycap> and <keycap>[</keycap> or <keycap>{</keycap> keys can be used to increment/decrement a single month. The <keycap>'</keycap> or <keycap>\"</keycap> and <keycap>;</keycap> or <keycap>:</keycap> keys can be used to increment/decrement a single year. Month and year boundaries are considered and incremented/decremented if necessary, e.g. using <keycap>+</keycap> to increment the date of January 31th will change it to February 1st."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
 #: details-widgets.docbook:45
 #, no-c-format
 msgid "Within the date entry widget, the &Left;/&Right; cursor keys can be used to switch between the <emphasis>day</emphasis>, the <emphasis>month</emphasis>, and the <emphasis>year</emphasis> fields. Using the &Up;/&Down; cursor keys, the value of the selected field can be incremented/decremented. The <keycap>+</keycap> and <keycap>-</keycap> keys can be used to increment/decrement a single day. Month and year boundaries are considered and incremented/decremented if necessary. Pressing <keycap>T</keycap> will set the date to today's date."
 msgstr ""
 
 #. Tag: para
+#. +> trunk6
+#: details-widgets.docbook:59
+#, no-c-format
+msgid "The following additional shortcuts can also be used:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: details-widgets.docbook:66
+#, no-c-format
+msgid "<keycap>M</keycap> to set the date to the first day of the current month"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: details-widgets.docbook:69
+#, no-c-format
+msgid "<keycap>H</keycap> to set the date to the last day of the current month"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: details-widgets.docbook:72
+#, no-c-format
+msgid "<keycap>Y</keycap> to set the date to the first day of the current year"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: details-widgets.docbook:75
+#, no-c-format
+msgid "<keycap>R</keycap> to set the date to the last day of the current year"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: details-widgets.docbook:78
+#, no-c-format
+msgid "<keycap>T</keycap> to set the date to today's date"
+msgstr ""
+
+#. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:55
+#: details-widgets.docbook:83
 #, no-c-format
 msgid "The date can also be changed using the mouse. Clicking on the <emphasis>day</emphasis>, <emphasis>month</emphasis>, or <emphasis>year</emphasis> field selects the field. The value can then be incremented/decremented using the &Up;/&Down; cursor keys. In addition, if you use the &Right;/&Left; cursor keys, when you move to a different field, the entire field is selected, and you can just type the new value for that field."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:64
+#: details-widgets.docbook:92
 #, no-c-format
 msgid "The date picker widget shows the currently selected month, name, and year. Above that are four arrow buttons, two on each side of the displayed month and year. The leftmost buttons are used to decrement the year and the month; the buttons to the right of the year are used to increment the month and the year. The button to the very right closes the date picker."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:72
+#: details-widgets.docbook:100
 #, no-c-format
 msgid "Beneath the buttons, the widget presents a calendar page for the selected month. Clicking a day on the calendar selects that date, closes the date picker, and transfers the selected date into the <emphasis>day</emphasis>, <emphasis>month</emphasis>, and <emphasis>year</emphasis> fields."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:79
+#: details-widgets.docbook:107
 #, no-c-format
 msgid "At the bottom of the date picker widget, there are a button, a text edit field, and a combo box. Pressing the button selects today's date in the date picker. The text field can be used to enter a specific date. Pressing the &Enter; key shows that date in the date picker widget. The combo box allows the user to select a specific week, and continue to pick a date from there."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:87
+#: details-widgets.docbook:115
 #, no-c-format
 msgid "In case an invalid date is entered, the date picker will show a red frame, and a tooltip will show details about the error."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable5
-#: details-widgets.docbook:94
+#: details-widgets.docbook:122
 #, no-c-format
 msgid "Value entry"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:96
+#: details-widgets.docbook:124
 #, no-c-format
 msgid "The value entry widget consists of a text field (that accepts digits, thousands separators, and decimal symbols) as well as a button to the right. Use the digits to enter the value. Separate the fractional part by entering the decimal separator for your locale. If you click on the button to the right or press a key representing a numeric operation (&eg;, <keycap>+</keycap>, <keycap>-</keycap>, <keycap>/</keycap>, <keycap>*</keycap> or <keycap>%</keycap>) a little calculator will pop up and allow you to calculate the final value."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:106
+#: details-widgets.docbook:134
 #, no-c-format
 msgid "Negative values can be entered by preceding the value with a minus sign. In case your locale is set to display negative numbers with parentheses around the value, the value can also be enclosed in parenthesis in the value entry widget."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable5
-#: details-widgets.docbook:114
+#: details-widgets.docbook:142
 #, no-c-format
 msgid "<screeninfo>Value widget</screeninfo>"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable5
-#: details-widgets.docbook:120
+#: details-widgets.docbook:148
 #, no-c-format
 msgid "<phrase>Value widget</phrase>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:126
+#: details-widgets.docbook:154
 #, no-c-format
 msgid "Use the calculator widget just like a normal calculator and once done leave it by clicking on the <guibutton>=</guibutton> button or press the <keycap>=</keycap> key on your keyboard."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable5
-#: details-widgets.docbook:134
+#: details-widgets.docbook:162
 #, no-c-format
 msgid "Payee/Payer entry"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:136
+#: details-widgets.docbook:164
 #, no-c-format
 msgid "The widget for entering a Payee/Payer is very similar to a typical combo-box, but has some additional features."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable5
-#: details-widgets.docbook:143
+#: details-widgets.docbook:171
 #, no-c-format
 msgid "<screeninfo>Payee widget</screeninfo>"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable5
-#: details-widgets.docbook:149
+#: details-widgets.docbook:177
 #, no-c-format
 msgid "<phrase>Payee widget</phrase>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:155
+#: details-widgets.docbook:183
 #, no-c-format
 msgid "When you are requested to enter a payee/payer for a transaction, you can start entering the name by pressing keys on your keyboard. As long as there are entries in the list of payees/payers maintained by &kmymoney; which match the characters entered, they will be presented in a box beneath or above the text entry area. Using the mouse or the &Up;/&Down; keys, one can select a name from that list. Using the keyboard additionally requires you to select the entry by pressing the &Enter; key. Clicking the X to the right of the entry area clears the field. Clicking the down arrow to the right of the X displays the complete list of possible payees/payers."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:167
+#: details-widgets.docbook:195
 #, no-c-format
 msgid "If a name is entered that is not yet known to &kmymoney; you will be asked if you want to create a new payee/payer record. If you do not wish to do so, then the field will be blanked. Otherwise, the record will be created and added to the list."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable5
-#: details-widgets.docbook:176
+#: details-widgets.docbook:204
 #, no-c-format
 msgid "Category/Account entry"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:178
+#: details-widgets.docbook:206
 #, no-c-format
 msgid "The field for entering a Category or Account is very similar to the one described above for Payees/Payers."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable5
-#: details-widgets.docbook:185
+#: details-widgets.docbook:213
 #, no-c-format
 msgid "<screeninfo>Category widget</screeninfo>"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable5
-#: details-widgets.docbook:191
+#: details-widgets.docbook:219
 #, no-c-format
 msgid "<phrase>Category widget</phrase>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable5
-#: details-widgets.docbook:197
+#: details-widgets.docbook:225
 #, no-c-format
 msgid "To the right of the entry field, between the X for clearing it and the down arrow for displaying the complete list, there is a split icon, which opens the <link linkend=\"details.ledgers.split\">Split Editor</link>"
 msgstr ""
