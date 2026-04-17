@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-08 01:04+0100\n"
+"POT-Creation-Date: 2026-04-17 09:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1612,7 +1612,14 @@ msgctxt "The user chose to use a custom start page but left the corresponding fi
 msgid "Please, insert the custom start page"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: generalopts.cpp:60
+#, kde-format
+msgctxt "@label:listbox"
+msgid "When a new &window is created"
+msgstr ""
+
+#. +> stable6
 #: generalopts.cpp:60
 #, kde-format
 msgctxt "@label:listbox"
@@ -2260,65 +2267,82 @@ msgstr ""
 msgid "Open &new tab after current tab"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_newTabEmpty)
+#. +> trunk6
+#: tabs/tabsoptions.ui:158
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Whether to leave the new tab empty or not. If this is unchecked, the new tab will load the same URL loaded when creating a new window</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_newTabEmpty)
+#. +> trunk6
+#: tabs/tabsoptions.ui:161
+#, kde-format
+msgid "Leave new tab empty"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. +> trunk6 stable6
-#: tabs/tabsoptions.ui:161
+#: tabs/tabsoptions.ui:171
 #, kde-format
 msgid "Closing"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pPermanentCloseButton)
 #. +> trunk6 stable6
-#: tabs/tabsoptions.ui:167
+#: tabs/tabsoptions.ui:177
 #, kde-format
 msgid "This will display close buttons inside each tab."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pPermanentCloseButton)
 #. +> trunk6 stable6
-#: tabs/tabsoptions.ui:170
+#: tabs/tabsoptions.ui:180
 #, kde-format
 msgid "&Show close button on tabs"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pMiddleClickClose)
 #. +> trunk6 stable6
-#: tabs/tabsoptions.ui:177
+#: tabs/tabsoptions.ui:187
 #, kde-format
 msgid "When you click on a tab using the middle mouse button or mouse wheel, it will close that tab."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pMiddleClickClose)
 #. +> trunk6 stable6
-#: tabs/tabsoptions.ui:180
+#: tabs/tabsoptions.ui:190
 #, kde-format
 msgid "Middle-click on a tab to close it"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pTabConfirm)
 #. +> trunk6 stable6
-#: tabs/tabsoptions.ui:187
+#: tabs/tabsoptions.ui:197
 #, kde-format
 msgid "This will ask you whether you are sure you want to close a window when it has multiple tabs opened in it."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pTabConfirm)
 #. +> trunk6 stable6
-#: tabs/tabsoptions.ui:190
+#: tabs/tabsoptions.ui:200
 #, kde-format
 msgid "Confirm &when closing windows with multiple tabs"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pTabCloseActivatePrevious)
 #. +> trunk6 stable6
-#: tabs/tabsoptions.ui:197
+#: tabs/tabsoptions.ui:207
 #, kde-format
 msgid "When checking this the previous used or opened tab will be activated when you close the current active tab instead of the one right to the current tab."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pTabCloseActivatePrevious)
 #. +> trunk6 stable6
-#: tabs/tabsoptions.ui:200
+#: tabs/tabsoptions.ui:210
 #, kde-format
 msgid "Activate previously used tab when closing the current tab"
 msgstr ""

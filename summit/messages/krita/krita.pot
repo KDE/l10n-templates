@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-10 14:52+0200\n"
+"POT-Creation-Date: 2026-04-17 09:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -22018,8 +22018,8 @@ msgstr ""
 #: libs/ui/forms/wdgrectangleconstraints.ui:178
 #: libs/ui/forms/wdgrectangleconstraints.ui:200 libs/ui/kis_paintop_box.cc:302
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:72
-#: libs/ui/widgets/kis_selection_options.cc:187
-#: libs/ui/widgets/kis_selection_options.cc:202
+#: libs/ui/widgets/kis_selection_options.cc:196
+#: libs/ui/widgets/kis_selection_options.cc:211
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:311
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:540
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:652
@@ -32193,6 +32193,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkEnableSelectionActionBar)
 #. +> trunk6 stable6
 #: libs/ui/forms/wdggeneralsettings.ui:1118
+#: libs/ui/widgets/kis_selection_options.cc:177
 #, kde-format
 msgid "When enabled, any selections will produce a small floating panel of useful selection-related actions."
 msgstr ""
@@ -32200,6 +32201,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableSelectionActionBar)
 #. +> trunk6 stable6
 #: libs/ui/forms/wdggeneralsettings.ui:1121
+#: libs/ui/widgets/kis_selection_options.cc:175
 #, kde-format
 msgid "Enable Selection Actions Bar"
 msgstr ""
@@ -41528,7 +41530,7 @@ msgid "No Preview for this engine"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:179
+#: libs/ui/widgets/kis_selection_options.cc:188
 #: plugins/tools/basictools/kis_tool_fill.cc:591
 #, kde-format
 msgctxt "The anti-alias checkbox in fill tool options"
@@ -41536,87 +41538,87 @@ msgid "Anti-aliasing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:184
+#: libs/ui/widgets/kis_selection_options.cc:193
 #, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in selection tools options"
 msgid "Grow: "
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:199
+#: libs/ui/widgets/kis_selection_options.cc:208
 #, kde-format
 msgctxt "The 'feather' spinbox prefix in selection tools options"
 msgid "Feather: "
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:219
+#: libs/ui/widgets/kis_selection_options.cc:228
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pixel Selection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:221
+#: libs/ui/widgets/kis_selection_options.cc:230
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Vector Selection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:224
-#: libs/ui/widgets/kis_selection_options.cc:460
+#: libs/ui/widgets/kis_selection_options.cc:233
+#: libs/ui/widgets/kis_selection_options.cc:476
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Replace"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:226
-#: libs/ui/widgets/kis_selection_options.cc:475
+#: libs/ui/widgets/kis_selection_options.cc:235
+#: libs/ui/widgets/kis_selection_options.cc:491
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Intersect"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:228
-#: libs/ui/widgets/kis_selection_options.cc:465
+#: libs/ui/widgets/kis_selection_options.cc:237
+#: libs/ui/widgets/kis_selection_options.cc:481
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:230
-#: libs/ui/widgets/kis_selection_options.cc:470
+#: libs/ui/widgets/kis_selection_options.cc:239
+#: libs/ui/widgets/kis_selection_options.cc:486
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Subtract"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:232
-#: libs/ui/widgets/kis_selection_options.cc:480
+#: libs/ui/widgets/kis_selection_options.cc:241
+#: libs/ui/widgets/kis_selection_options.cc:496
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Symmetric Difference"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:235
+#: libs/ui/widgets/kis_selection_options.cc:244
 #, kde-format
 msgid "Smooths the edges of the selection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:237
+#: libs/ui/widgets/kis_selection_options.cc:246
 #, kde-format
 msgid "Grow or shrink the selection by the set amount"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:239
+#: libs/ui/widgets/kis_selection_options.cc:248
 #: plugins/tools/basictools/kis_tool_fill.cc:663
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:572
 #, kde-format
@@ -41624,87 +41626,87 @@ msgid "Stop growing at the darkest and/or most opaque pixels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:241
+#: libs/ui/widgets/kis_selection_options.cc:250
 #, kde-format
 msgid "Blur the selection by the set amount"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:244
+#: libs/ui/widgets/kis_selection_options.cc:253
 #, kde-format
 msgid "Select regions found from the active layer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:246
+#: libs/ui/widgets/kis_selection_options.cc:255
 #, kde-format
 msgid "Select regions found from the merging of all layers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:248
+#: libs/ui/widgets/kis_selection_options.cc:257
 #, kde-format
 msgid "Select regions found from the merging of layers with specific color labels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:256
+#: libs/ui/widgets/kis_selection_options.cc:265
 #, kde-format
 msgctxt "The 'mode' section label in selection tools options"
 msgid "Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:263
+#: libs/ui/widgets/kis_selection_options.cc:272
 #, kde-format
 msgctxt "The 'action' section label in selection tools options"
 msgid "Action"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:270
+#: libs/ui/widgets/kis_selection_options.cc:279
 #, kde-format
 msgctxt "The 'reference' section label in selection tools options"
 msgid "Reference"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:279
+#: libs/ui/widgets/kis_selection_options.cc:288
 #, kde-format
 msgctxt "The 'adjustments' section label in selection tools options"
 msgid "Adjustments"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:461
+#: libs/ui/widgets/kis_selection_options.cc:477
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Replace (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:466
+#: libs/ui/widgets/kis_selection_options.cc:482
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:471
+#: libs/ui/widgets/kis_selection_options.cc:487
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Subtract (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:476
+#: libs/ui/widgets/kis_selection_options.cc:492
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Intersect (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/widgets/kis_selection_options.cc:482
+#: libs/ui/widgets/kis_selection_options.cc:498
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Symmetric Difference (%1)"
