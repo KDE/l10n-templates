@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-07 02:04+0000\n"
+"POT-Creation-Date: 2026-04-19 02:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -25,6 +25,7 @@ msgstr ""
 #: content/news/2025/amsterdam-sprint-report/index.md:0
 #: content/news/2025/berlin-sprint/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
+#: content/news/2026/state-2026/index.md:0
 msgid "Inside"
 msgstr ""
 
@@ -100,6 +101,7 @@ msgstr ""
 
 #: content/news/2025/berlin-sprint/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
+#: content/news/2026/state-2026/index.md:0
 msgid "kdenlive"
 msgstr ""
 
@@ -285,6 +287,7 @@ msgstr ""
 
 #: content/news/2025/fundraising-final-report/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
+#: content/news/2026/state-2026/index.md:0
 msgid "Fundraising"
 msgstr ""
 
@@ -616,6 +619,7 @@ msgid "First Kdenlive Café of 2025"
 msgstr ""
 
 #: content/news/2025/kdenlive-cafe-01/index.md:0
+#: content/news/2026/state-2026/index.md:0
 msgid "Farid Abdelnour"
 msgstr ""
 
@@ -714,4 +718,903 @@ msgid ""
 "your privacy. However, to ensure a proper development requires resources, so"
 " please consider a [donation][3] if you enjoy using Kdenlive - even small "
 "amounts can make a big difference."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:0
+msgid "State of Kdenlive - 2026"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:15
+msgid ""
+"In 2025, the Kdenlive team continued grinding to push the project forward "
+"through steady development, collaboration, and community support. Over the "
+"past year we’ve found a nice balance between adding new features, bug "
+"fixing, polishing the user interface, and improving performance and "
+"workflow, with stability taking priority over feature creep."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:17
+msgid ""
+"We relaunched the website with a new content management system, refreshed "
+"some content and the design, and restored historic content dating back to "
+"2002. We also strengthened upstream collaboration with the MLT developers "
+"and contributed several improvements to OpenTimelineIO."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:19
+msgid "Here’s a look at what we've been up to and what is ahead."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:21
+msgid "RELEASE HIGHLIGHTS"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:23
+msgid ""
+"As part of [KDE Apps][1], we follow the KDE Gear [release cycle][2], with "
+"three major releases each year—in April, August, and December—each followed "
+"by three point maintenance releases."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:25
+msgid "25.04.0"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:27
+msgid ""
+"This release added a powerful automatic masking tool and brought the last "
+"batch of features from our last fundraiser."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:29
+msgid "[-> _Read full changelog_][3]"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:35
+msgid ""
+"{{< video src-webm=background-removal.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.67\">}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:37
+msgid ""
+"The new Object Segmentation plugin based on the [SAM2][4] model allows to "
+"remove any selected object from the background. {{< /card >}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:40
+msgid "{{< card title=\"OpenTimelineIO\" >}} ![otio](otiov.png)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:43
+msgid ""
+"We rewrote our OpenTimelineIO import and export function using the C++ "
+"library. Now you can exchange projects with other editing applications that "
+"support this open source file format. {{< /card >}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:46
+msgid "{{< card title=\"Waveform improvements\" >}} ![waveforns](waves.png)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:49
+msgid ""
+"Audio waveform generation got a 300% performance boost, along with a "
+"refactored sampling method that accurately renders the audio signal and "
+"higher-resolution waveforms for greater precision. {{< /card >}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:55
+msgid "25.08.0"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:57
+msgid ""
+"This release focused heavily on stabilization, bringing over 300 commits and"
+" fixing more than 15 crashes. Instead of major new features, the effort went"
+" into polishing and bug fixing."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:59
+msgid "[-> _Read full changelog_][5]"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:63
+msgid "{{< card title=\"Audio Mixer\" >}} ![mixer](mixer.png)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:66
+msgid ""
+"We redesigned the audio mixer bringing levels with clearer visuals and "
+"thresholds. We also did some code refactoring and cleanup. This change fixes"
+" issues with HiDPI displays with fractional scaling. {{< /card >}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:69
+msgid ""
+"{{< card title=\"Markers and Guides\" >}} {{< video src=markers-guides.mp4 "
+"autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" "
+"ratio=\"0.6\">}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:72
+msgid ""
+"Guides and Markers got a major overhaul this release to improve the project "
+"organization. {{< /card >}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:75
+msgid ""
+"{{< card title=\"Titler improvements\" >}} {{< video src=titler.mp4 "
+"autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" "
+"ratio=\"0.55\">}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:78
+msgid ""
+"This release the titler received some much needed love like improved SVG and"
+" image support with ability to move and resize items, added center resize "
+"with Shift + Drag, and renamed the Pattern tab to Templates and moved the "
+"templates dropdown to it {{< /card >}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:83
+msgid "25.12.0"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:85
+msgid ""
+"The focus of this release cycle was on improving the user experience and "
+"polishing the user interface."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:87
+msgid "[-> _Read full changelog_][6]"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:91
+msgid "{{< card title=\"Welcome Screen\" >}} ![welcome_screen](welcome.webp)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:94
+msgid ""
+"We added a new first-run launch screen for first time users as well as added"
+" a Welcome Screen allowing to easily launch recent projects. {{< /card >}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:97
+msgid ""
+"{{< card title=\"Docking System\" >}} {{< video src-webm=docking.webm "
+"autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" "
+"ratio=\"0.6\">}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:100
+msgid ""
+"We added a new, more flexible docking system that lets you group widgets, "
+"show or hide them on demand, and save layouts as separate files that can be "
+"shared or stored within projects. {{< /card >}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:103
+msgid ""
+"{{< card title=\"Redesigned monitor\" >}} {{< video src-webm=audio-"
+"monitor.webm autoplay=\"true\" muted=\"true\" loop=\"true\" "
+"controls=\"false\" ratio=\"0.6\">}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:106
+msgid ""
+"The audio waveform in the Project Monitor got a revamped interface with an "
+"added minimap. {{< /card >}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:111
+msgid "THE ROAD AHEAD"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:113
+msgid "26.04"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:115
+msgid ""
+"This next release is just around the corner and brings a nice batch of nifty"
+" new features like monitor mirroring and animated transition previews, "
+"making it much easier to visualize how they will look before applying them. "
+"Additionally, dropping a transition onto the timeline can now automatically "
+"adjust its duration to match the clips above and below, saving time and "
+"reducing manual tweaking."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:117
+msgid ""
+"This feature allows you to mirror any monitor while working in fullscreen "
+"mode. It’s especially useful when working with multiple displays or "
+"collaborating with others in the editing room."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:119
+msgid ""
+"{{< video src-webm=anim-prev.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.75\">}}"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:121
+msgid "OTHER NOTEWORTHY FEATURES"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:123
+msgid "Change the playback speed of multiple clips at once"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:124
+msgid ""
+"Import a clip directly from the timeline context menu and insert it at the "
+"click position"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:125
+msgid ""
+"Option to always zoom toward the mouse position instead of the timeline "
+"playhead"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:126
+msgid "Generate audio thumbnails for sequences"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:128
+msgid "ROADMAP"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:130
+msgid ""
+"Our [roadmap][7] is constantly being reviewed and updated, and some of the "
+"upcoming highlights include implementing the new features in MLT, the "
+"multimedia framework which powers Kdenlive. Some exciting upcoming features "
+"include 10/12 bit color support, [playback optimizations (decoding)][8], and"
+" [OpenFX][9] support. _(Shoutout to a Kdenlive community member for leading "
+"this effort)_. Also expected is a refactoring of the subtitle system as well"
+" as continuing to develop the _Advanced Trimming Tools_."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:132
+msgid "DOPESHEET"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:134
+msgid ""
+"We are currently working on refactoring the keyframing system and "
+"implementing a Dopesheet, basically it is a dedicated timeline for managing "
+"and viewing keyframes from multiple effects simultaneously. This work will "
+"also introduce per-parameter keyframing (currently, once you add a keyframe "
+"to an effect, it is applied to all parameters by default). More info can be "
+"found in the last [status report][10]. This work is made possible through an"
+" [NGI Zero Commons grant via NLnet][11]."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:136
+msgid "![dopesheet](dopesheet.png)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:138
+msgid "MICROSOFT STORE"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:140
+msgid ""
+"We have been working on [enabling and fixing][12] multiple modules in MLT to"
+" compile with MSVC allowing us to ship Kdenlive in the Microsoft Store soon."
+" Another advantage is that it will allow to run unit tests on our [CI for "
+"Windows.][13]"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:142
+msgid "COMMUNITY"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:144
+msgid "![Community](community2.png)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:146
+msgid "NEW CONTRIBUTORS"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:147
+msgid ""
+"Currently, the Kdenlive core team is made up of 8 active members, including "
+"2 developers."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:149
+msgid ""
+"In 2025, 38 people contributed code to Kdenlive (including the core dev team"
+" and other KDE devs), a truly impressive number! Even more exciting, about "
+"half of them were first-time contributors, which is always great. We hope to"
+" see many of them continue contributing in the future. On behalf of the "
+"Kdenlive team, we salute you all!"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:151
+msgid ""
+"<details>\n"
+"<summary>List of contributors and commits</summary>\n"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:154
+msgid ""
+"_Note that these numbers refer specifically to contributions to the Kdenlive"
+" application. Other projects such as the test suite and website are hosted "
+"in separate repositories and are not included in these figures._"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:156
+msgid "878 — Jean-Baptiste Mardelle _(core team)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:157
+msgid "126 — balooii balooii"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:158
+msgid "109 — Julius Künzel _(core team)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:159
+msgid "60 — Darby Johnston _(fundraiser)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:160
+msgid "26 — Bernd Jordan _(core team)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:161
+msgid "24 — Ajay Chauhan"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:162
+msgid "11 — Eugen Mohr _(core team)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:163
+msgid "9 — Scarlett Moore _(KDE)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:164
+msgid "8 — Yuri Chornoivan _(KDE)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:165
+msgid "7 — Justin Zobel _(KDE)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:166
+msgid "7 — Ron Lee _(core team)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:167
+msgid "6 — Farid Abdelnour _(core team)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:168
+msgid "5 — Josep M. Ferrer"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:169
+msgid "5 — Étienne André _(fundraiser)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:170
+msgid "4 — Kunda Ki"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:171
+msgid "4 — Swastik Patel"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:172
+msgid "3 — Camille Moulin _(core team)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:173
+msgid "3 — Carlos De Maine"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:174
+msgid "2 — Johnny Jazeix _(KDE)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:175
+msgid "2 — Luigi Toscano _(KDE)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:176
+msgid "2 — Nicolas Fella _(KDE)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:177
+msgid "2 — Richard Ash"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:178
+msgid "2 — Side Projects Lab"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:179
+msgid "2 — Xander Bailey"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:180
+msgid "2 — chocolate image"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:181
+msgid "1 — Adam Fidel"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:182
+msgid "1 — Alex Efimov"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:183
+msgid "1 — Edward McVern"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:184
+msgid "1 — Eli George"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:185
+msgid "1 — Helga K"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:186
+msgid "1 — Jack Bruienne"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:187
+msgid "1 — Jonas Endter"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:188
+msgid "1 — Oliver Kellogg"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:189
+msgid "1 — Rafael Sadowski"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:190
+msgid "1 — Steve Cossette"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:192
+msgid "</details>\n"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:194
+msgid "SPRINTS AND EVENTS"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:196
+msgid "AMSTERDAM SPRINT"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:198
+msgid "![Amsterdam sprint](kdenlive-blender.jpg)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:200
+msgid ""
+"In February, part of the Kdenlive core team met in [Amsterdam for a short "
+"sprint][14], highlighted by a visit to the Blender Foundation, where we met "
+"with Francesco Siddi and he shared valuable insights into Blender’s history "
+"and offered advice on product management for Kdenlive. We also attended "
+"their weekly open session, where artists and developers present progress on "
+"ongoing projects. During the sprint, we discussed and advanced several "
+"technical topics, some highlights include:"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:202
+msgid "Refining the audio workflow task"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:203
+msgid "Developing a proof of concept to improve clip timecode handling"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:204
+msgid ""
+"Finishing an MLT Framework patch to enable rendering without a display "
+"server (needed for Flatpak testing)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:206
+msgid "BERLIN SPRINT"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:208
+msgid "![Kdenlive Berlin](kdenlive-berlin.jpg)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:210
+msgid ""
+"The [Berlin sprint][15] was one of our most productive gatherings to date. "
+"Most of the team was there in person, and we also connected online with "
+"those who couldn’t make it. We discussed just about every aspect of the "
+"project, from roadmap planning to upcoming features and workflow "
+"improvements. Some of the highlights include:"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:212
+msgid ""
+"Evaluated the current state of the Titler and discussed possible integration"
+" with Glaxnimate"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:213
+msgid "Reorganized the Menu structure"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:214
+msgid "Developed a proof of concept for using KDDockWidgets"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:215
+msgid ""
+"Redesigned and started development of the audio clip view in the Clip "
+"Monitor"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:217
+msgid "Thanks to the nice folks at [c-base][16] who kindly hosted us."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:219
+msgid "AKADEMY 2025"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:221
+msgid "![Akademy](akademy.jpg)"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:223
+msgid ""
+"Akademy is always a great opportunity to exchange ideas with the broader KDE"
+" and Qt communities. One of the highlights was meeting the maintainer of "
+"Glaxnimate, where we discussed common goals and ways to collaborate. This "
+"year, [Akademy will be in Graz][17] on the 19-24 of September, and we hope "
+"to see you there."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:225
+msgid "SHOWCASE"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:227
+msgid ""
+"We’re very happy to see more YouTube channels talking about Kdenlive. Here "
+"are some examples of what the community has been creating."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:229
+msgid ""
+"<div class=\"row row-cols-auto g-3 justify-content-md-center\">\n"
+"  {{< youtube id=9dIqJDy78TI class=col >}}\n"
+"  {{< youtube id=PEFqdqRr18E class=col >}}\n"
+"  {{< youtube id=zYD0b8LpiQA class=col >}}\n"
+"  {{< youtube id=YnSE9qgGui4 class=col >}}\n"
+"</div>\n"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:236
+msgid ""
+"We'd love to see what you've been working on in the past year. Share your "
+"videos productions in the comments!"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:238
+msgid "SPREAD THE WORD"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:240
+msgid ""
+"Help us grow the community by organizing meetups, talks, or workshops in "
+"your local area. Don’t hesitate to contact us if you need guidance, "
+"materials, or support to get started."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:242
+msgid ""
+"Below are photos from a workshop with indigenous communities in Paraguay."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:246
+msgid "STATS"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:248
+msgid "DOWNLOADS"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:250
+msgid ""
+"Kdenlive was downloaded 11,500,714 times from our download page in 2025. Do "
+"note that many additional installs happen through Linux distribution package"
+" managers, the Snap Store, Flathub, and other third-party servers, where "
+"statistics are not always available or reliably measurable."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:251
+msgid ""
+"The Flatpak package from [Flathub][18] gets 41,499 downloads per month."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:252
+msgid "25.04.2 got the most number of downloads."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:253
+msgid "17.08.2 was downloaded 1 time!"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:255
+msgid "**Downloads per release cycle**"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:259
+msgid "CODE COMMITS"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:261
+msgid "**Per Release Cycle**"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:263
+msgid "25.04 cycle: 403 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:264
+msgid "25.08 cycle: 368 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:265
+msgid "25.12 cycle: 405 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:267
+msgid "**Files With Most Code Changes**"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:269
+msgid "src/mainwindow.cpp: 102 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:270
+msgid "src/bin/bin.cpp: 70 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:271
+msgid "src/timeline2/view/timelinecontroller.cpp: 67 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:272
+msgid "src/monitor/monitor.cpp: 60 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:273
+msgid "data/org.kde.kdenlive.appdata.xml: 57 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:275
+msgid "**Files With Most Bug Fixes**"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:277
+msgid "src/mainwindow.cpp: 1021 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:278
+msgid "src/timeline2/model/timelinemodel.cpp: 600 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:279
+msgid "src/bin/bin.cpp: 593 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:280
+msgid "src/timeline2/view/timelinecontroller.cpp: 506 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:281
+msgid "src/renderer.cpp: 501 commits"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:283
+msgid "USERBASE"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:285
+msgid "**Continent**"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:287
+msgid "🌍 Europe — 949,077"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:288
+msgid "🌎 Americas — 781,131"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:289
+msgid "🌏 Asia — 750,406"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:290
+msgid "🌍 Africa — 127,948"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:291
+msgid "🌏 Oceania — 53,397"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:292
+msgid "🧊 Antarctica — 5"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:294
+msgid "_To the 5 of you in Antarctica, let us know what you are editing. ;)_"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:296
+msgid "**Country**"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:298
+msgid "🇺🇸 United States — 392,967"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:299
+msgid "🇮🇳 India — 267,449"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:300
+msgid "🇧🇷 Brazil — 153,319"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:301
+msgid "🇩🇪 Germany — 118,115"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:302
+msgid "🇫🇷 France — 111,071"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:303
+msgid "🇨🇳 China — 104,692"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:304
+msgid "🇷🇺 Russia — 96,051"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:305
+msgid "🇪🇸 Spain — 91,052"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:306
+msgid "🇬🇧 United Kingdom — 86,165"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:307
+msgid "🇮🇹 Italy — 61,814"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:309
+msgid "**Region**"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:311
+msgid "🇺🇸 California, United States — 42,769"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:312
+msgid "🇧🇷 São Paulo, Brazil — 37,452"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:313
+msgid "🇮🇳 Tamil Nādu, India — 27,313"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:314
+msgid "🇫🇷 Île-de-France, France — 26,755"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:315
+msgid "🇮🇳 Mahārāshtra, India — 25,246"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:316
+msgid "🇺🇸 Texas, United States — 22,470"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:317
+msgid "🇨🇦 Ontario, Canada — 20,016"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:318
+msgid "🇳🇱 Noord-Holland, Netherlands — 19,826"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:319
+msgid "🇺🇸 Florida, United States — 18,997"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:320
+msgid "🇨🇳 Shanghai Shi, China — 18,991"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:322
+msgid "FUNDING"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:324
+msgid ""
+"Ever since our last, and [very successful][19], fundraiser in 2022, we "
+"haven’t actively asked for donations, yet the community has continued to "
+"support us. We are very grateful for that."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:326
+msgid ""
+"In 2025, we received a total of €9,344.80 from donations (down from "
+"€11,526.61 in 2024). Around 30% of the amount was given by donors who kindly"
+" set up a recurring plan. The average donation was about €25, with the "
+"lowest amount being €10 and the highest €500."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:328
+msgid ""
+"We allocate 20% of our budget to [KDE e.V.][20] to support infrastructure "
+"costs (servers and related expenses), as well as administration, legal "
+"support, and travel. As in previous years, your contributions enable us to "
+"continue supporting Jean-Baptiste (Kdenlive's maintainer), allowing him to "
+"dedicate several days each month to Kdenlive in addition to his volunteer "
+"work."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:331
+msgid "WE **NEED** YOUR SUPPORT"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:333
+msgid ""
+"Kdenlive needs your support to keep growing and improving. If just a quarter"
+" of the people who downloaded Kdenlive in 2025 contributed €5, our "
+"maintainers would be able to dedicate more time to the project, and it would"
+" even allow us to hire more develpers to speed up development and improve "
+"stability. Small amounts can make a big difference, please consider making a"
+" donation."
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:337
+msgid "[More options to donate][21]"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:339
+msgid "You may also contribute by getting involved and helping in:"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:341
+msgid "[Reporting][22], debugging, and [triaging bugs][23]"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:342
+msgid "[Translating][24] Kdenlive in your language"
+msgstr ""
+
+#: content/news/2026/state-2026/index.md:343
+msgid "Promote Kdenlive in your local community"
 msgstr ""
