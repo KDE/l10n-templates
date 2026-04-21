@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-18 06:50+0200\n"
+"POT-Creation-Date: 2026-04-21 08:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2079,35 +2079,56 @@ msgctxt "@title: create new poll in the room"
 msgid "Create Poll"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/chatbar/NewPollDialog.qml:35
 #, kde-format
-msgctxt "@label"
-msgid "Poll type:"
+msgctxt "@label The type of poll to create"
+msgid "Show Results:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/chatbar/NewPollDialog.qml:40
+#, kde-format
+msgctxt "@item:inlistbox Show results after a user votes"
+msgid "After Voting"
+msgstr ""
+
+#. +> stable6
 #: src/chatbar/NewPollDialog.qml:40
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Open poll"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/chatbar/NewPollDialog.qml:41
+#, kde-format
+msgctxt "@item:inlistbox Show results after the poll ends"
+msgid "After Poll Ends"
+msgstr ""
+
+#. +> stable6
 #: src/chatbar/NewPollDialog.qml:41
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Closed poll"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/chatbar/NewPollDialog.qml:52
+#, kde-format
+msgctxt "@info"
+msgid "Votes are not anonymous and will be visible to everyone in the room."
+msgstr ""
+
+#. +> stable6
 #: src/chatbar/NewPollDialog.qml:46
 #, kde-format
 msgctxt "@info"
 msgid "Voters can see the result as soon as they have voted"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/chatbar/NewPollDialog.qml:46
 #, kde-format
 msgctxt "@info"
@@ -2115,34 +2136,48 @@ msgid "Results are revealed only after the poll has closed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/NewPollDialog.qml:50
+#: src/chatbar/NewPollDialog.qml:61
 #, kde-format
 msgctxt "@label"
 msgid "Question:"
 msgstr ""
 
+#. +> stable6
+#: src/chatbar/NewPollDialog.qml:35
+#, kde-format
+msgctxt "@label"
+msgid "Poll type:"
+msgstr ""
+
+#. +> trunk6
+#: src/chatbar/NewPollDialog.qml:62
+#, kde-format
+msgctxt "@info:placeholder Example poll question"
+msgid "What's your favorite food?"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/chatbar/NewPollDialog.qml:93
+#: src/chatbar/NewPollDialog.qml:108
 #, kde-format
 msgctxt "As in first answer option to the poll"
 msgid "Option %1:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/NewPollDialog.qml:109
+#: src/chatbar/NewPollDialog.qml:124
 #, kde-format
 msgctxt "@placeholder"
 msgid "Enter option"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/NewPollDialog.qml:113
+#: src/chatbar/NewPollDialog.qml:128
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove option"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/chatbar/NewPollDialog.qml:136
 #, kde-format
 msgctxt "@action:button"
@@ -2150,10 +2185,17 @@ msgid "Add option"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/NewPollDialog.qml:145
+#: src/chatbar/NewPollDialog.qml:149
 #, kde-format
 msgctxt "@action:button"
 msgid "Send"
+msgstr ""
+
+#. +> trunk6
+#: src/chatbar/NewPollDialog.qml:157
+#, kde-format
+msgctxt "@action:button Add new poll option"
+msgid "Add Option"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4289,7 +4331,7 @@ msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/texthandler.cpp:625
+#: src/libneochat/texthandler.cpp:620
 #, kde-format
 msgid "<i>This event does not have any content.</i>"
 msgstr ""
