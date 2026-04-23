@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-22 09:36+0200\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -80,7 +80,7 @@ msgid "KDE Wayland Compositor"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: compositor.cpp:662
+#: compositor.cpp:658
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
@@ -2813,7 +2813,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/overview/kcm/overvieweffectkcm.cpp:45
-#: plugins/overview/overvieweffect.cpp:141
+#: plugins/overview/overvieweffect.cpp:145
 #, kde-format
 msgctxt "@action Grid View and Overview are the name of KWin effects"
 msgid "Cycle through Grid View and Overview"
@@ -2855,21 +2855,21 @@ msgid "Search results include filtered windows:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/overview/overvieweffect.cpp:135
+#: plugins/overview/overvieweffect.cpp:139
 #, kde-format
 msgctxt "@action Grid View and Overview are the name of KWin effects"
 msgid "Cycle through Overview and Grid View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/overview/overvieweffect.cpp:146
+#: plugins/overview/overvieweffect.cpp:150
 #, kde-format
 msgctxt "@action Overview is the name of a Kwin effect"
 msgid "Toggle Overview"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/overview/overvieweffect.cpp:152
+#: plugins/overview/overvieweffect.cpp:156
 #, kde-format
 msgctxt "@action Grid view is the name of a Kwin effect"
 msgid "Toggle Grid View"
@@ -3020,13 +3020,6 @@ msgstr ""
 msgid ""
 "Create screen shot with left click or enter.\n"
 "Escape or right click to cancel."
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/showcompositing/qml/Main.qml:12
-#, kde-format
-msgctxt "@label"
-msgid "Compositing"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5204,7 +5197,7 @@ msgid "Position of output %1 is way too large (%2, %3)"
 msgstr ""
 
 #. +> stable6
-#: wayland/outputmanagement_v2.cpp:659
+#: wayland/outputmanagement_v2.cpp:660
 #, kde-format
 msgid "Position of output %s is way too large (%d, %d)"
 msgstr ""
@@ -5265,6 +5258,13 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "Unknown"
+msgstr ""
+
+#. +> stable6
+#: plugins/showcompositing/qml/Main.qml:12
+#, kde-format
+msgctxt "@label"
+msgid "Compositing"
 msgstr ""
 
 #. +> stable5

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 09:58+0200\n"
+"POT-Creation-Date: 2026-04-23 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -48,7 +48,7 @@ msgid "Add to Panel (Widget)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: actionlist.cpp:316 rootmodel.cpp:555
+#: actionlist.cpp:316 rootmodel.cpp:587
 #, kde-format
 msgid "Recent Files"
 msgstr ""
@@ -94,7 +94,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93
-#: computermodel.cpp:219 recentusagemodel.cpp:156 recentusagemodel.cpp:225
+#: computermodel.cpp:219 recentusagemodel.cpp:156 recentusagemodel.cpp:227
 #, kde-format
 msgid "Applications"
 msgstr ""
@@ -131,7 +131,7 @@ msgstr ""
 
 #. i18n.
 #. +> trunk6 stable6 stable5
-#: kastatsfavoritesmodel.cpp:548 rootmodel.cpp:548 simplefavoritesmodel.cpp:33
+#: kastatsfavoritesmodel.cpp:548 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
 #, kde-format
 msgid "Favorites"
 msgstr ""
@@ -142,50 +142,68 @@ msgstr ""
 msgid "Recently Used"
 msgstr ""
 
+#. +> trunk6
+#: recentusagemodel.cpp:158
+#, kde-format
+msgid "Places"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: recentusagemodel.cpp:159 recentusagemodel.cpp:320
+#: recentusagemodel.cpp:161 recentusagemodel.cpp:322
 #, kde-format
 msgid "Files"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: recentusagemodel.cpp:253
+#: recentusagemodel.cpp:255
 #, kde-format
 msgid "Forget Application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: recentusagemodel.cpp:318
+#: recentusagemodel.cpp:320
 #, kde-format
 msgid "Folders"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: recentusagemodel.cpp:359
+#: recentusagemodel.cpp:361
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
+#. +> trunk6
+#: recentusagemodel.cpp:366
+#, kde-format
+msgid "Forget Folder"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: recentusagemodel.cpp:362
+#: recentusagemodel.cpp:366
 #, kde-format
 msgid "Forget File"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: recentusagemodel.cpp:506
+#: recentusagemodel.cpp:512
 #, kde-format
 msgid "Forget All"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: recentusagemodel.cpp:508
+#: recentusagemodel.cpp:514
 #, kde-format
 msgid "Forget All Applications"
 msgstr ""
 
+#. +> trunk6
+#: recentusagemodel.cpp:516
+#, kde-format
+msgid "Forget All Folders"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: recentusagemodel.cpp:511
+#: recentusagemodel.cpp:519
 #, kde-format
 msgid "Forget All Files"
 msgstr ""
@@ -197,27 +215,21 @@ msgid "All Applications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rootmodel.cpp:132
+#: rootmodel.cpp:134
 #, kde-format
 msgid "Hide %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rootmodel.cpp:542
+#: rootmodel.cpp:565
 #, kde-format
 msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: rootmodel.cpp:555
+#. +> trunk6
+#: rootmodel.cpp:578
 #, kde-format
-msgid "Often Used Files"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: rootmodel.cpp:564
-#, kde-format
-msgid "Recent Applications"
+msgid "Recent Places"
 msgstr ""
 
 #. +> stable5
@@ -226,14 +238,32 @@ msgstr ""
 msgid "Recent Contacts"
 msgstr ""
 
+#. +> trunk6
+#: rootmodel.cpp:578
+#, kde-format
+msgid "Often Used Places"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: rootmodel.cpp:564
+#: rootmodel.cpp:587
+#, kde-format
+msgid "Often Used Files"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rootmodel.cpp:596
 #, kde-format
 msgid "Often Used Applications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rootmodel.cpp:579
+#: rootmodel.cpp:611
 #, kde-format
 msgid "Power / Session"
 msgstr ""
