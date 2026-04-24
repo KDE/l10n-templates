@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeplasma-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-13 14:38+0100\n"
+"POT-Creation-Date: 2026-04-24 14:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -139,7 +139,14 @@ msgctxt "@option:check"
 msgid "Run command:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: configGeneral.qml:119
+#, kde-format
+msgctxt "@placeholder, only translate the message in single quotes"
+msgid "kdialog --msgbox 'Timer finished'"
+msgstr ""
+
+#. +> stable6
 #: configGeneral.qml:119
 #, kde-format
 msgctxt "@placeholder"
@@ -159,7 +166,13 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: configTimes.qml:81
+#, kde-format
+msgid "If you add predefined timers here, they will appear in the widget’s context menu."
+msgstr ""
+
+#. +> stable6 stable5
 #: configTimes.qml:81
 #, kde-format
 msgid "If you add predefined timers here, they will appear in plasmoid context menu."

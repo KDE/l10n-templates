@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-10 14:52+0200\n"
+"POT-Creation-Date: 2026-04-24 14:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -242,22 +242,28 @@ msgstr ""
 msgid "This Widget was written for Plasma %1 and is not compatible with Plasma %2. Please contact the widget's author for an updated version."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: shellprivate/plasmaappletitemmodel.cpp:207
+#, kde-format
+msgid "This widget was written for Plasma %1 and is not compatible with Plasma %2. Please update Plasma in order to use the widget."
+msgstr ""
+
+#. +> stable6
 #: shellprivate/plasmaappletitemmodel.cpp:207
 #, kde-format
 msgid "This Widget was written for Plasma %1 and is not compatible with Plasma %2. Please update Plasma in order to use the widget."
-msgstr ""
-
-#. +> trunk6
-#: shellprivate/plasmaappletitemmodel.cpp:212
-#, kde-format
-msgid "This widget was written for Plasma %1 and is not compatible with the latest version of Plasma. Please update Plasma in order to use the widget."
 msgstr ""
 
 #. +> stable6
 #: shellprivate/plasmaappletitemmodel.cpp:212
 #, kde-format
 msgid "This Widget was written for Plasma %1 and is not compatible with the latest version of Plasma. Please update Plasma in order to use the widget."
+msgstr ""
+
+#. +> trunk6
+#: shellprivate/plasmaappletitemmodel.cpp:212
+#, kde-format
+msgid "This widget was written for Plasma %1 and is not compatible with the older version of Plasma installed on this system. Please update Plasma in order to use the widget."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
