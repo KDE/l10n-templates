@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: chessament\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-26 10:27+0200\n"
+"POT-Creation-Date: 2026-04-28 07:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -53,42 +53,42 @@ msgid "Couldn't export tournament."
 msgstr ""
 
 #. +> trunk6
-#: documents.cpp:22
+#: documents.cpp:23
 #, kde-format
 msgctxt "@title"
 msgid "Starting Rank"
 msgstr ""
 
 #. +> trunk6
-#: documents.cpp:61
+#: documents.cpp:62
 #, kde-format
 msgctxt "@title"
 msgid "Round %1 Pairings"
 msgstr ""
 
 #. +> trunk6
-#: documents.cpp:102
+#: documents.cpp:103
 #, kde-format
 msgctxt "@title"
 msgid "Standings After Round %1"
 msgstr ""
 
 #. +> trunk6
-#: documents.cpp:104
+#: documents.cpp:105
 #, kde-format
 msgctxt "@title"
 msgid "Provisional Standings After Round %1"
 msgstr ""
 
 #. +> trunk6
-#: documents.cpp:108
+#: documents.cpp:109
 #, kde-format
 msgctxt "@title"
 msgid "Final Standings"
 msgstr ""
 
 #. +> trunk6
-#: documents.cpp:110
+#: documents.cpp:111
 #, kde-format
 msgctxt "@title"
 msgid "Provisional Final Standings"
@@ -218,70 +218,77 @@ msgid "№"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:194 standingsmodel.cpp:90
+#: playersmodel.cpp:202 standingsmodel.cpp:90
 #, kde-format
 msgctxt "@title:column Player Starting Rank Number"
 msgid "№"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:196 standingsmodel.cpp:92
+#: playersmodel.cpp:204 standingsmodel.cpp:92
 #, kde-format
 msgctxt "@title:column Player Title"
 msgid "Title"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:198 standingsmodel.cpp:94
+#: playersmodel.cpp:206 standingsmodel.cpp:94
 #, kde-format
 msgctxt "@title:column Player Name"
 msgid "Name"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:200
+#: playersmodel.cpp:208
 #, kde-format
 msgctxt "@title:column Player Rating"
 msgid "Rating"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:202
+#: playersmodel.cpp:210
 #, kde-format
 msgctxt "@title:column Player National Rating"
 msgid "National Rating"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:204
+#: playersmodel.cpp:212
 #, kde-format
 msgctxt "@title:column"
 msgid "Player ID"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:206
+#: playersmodel.cpp:214
+#, kde-format
+msgctxt "@title:column Player National ID"
+msgid "National ID"
+msgstr ""
+
+#. +> trunk6
+#: playersmodel.cpp:216
 #, kde-format
 msgctxt "@title:column"
 msgid "Birth date"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:208
+#: playersmodel.cpp:218
 #, kde-format
 msgctxt "@title:column Player Federation"
 msgid "Federation"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:210
+#: playersmodel.cpp:220
 #, kde-format
 msgctxt "@title:column Player Origin"
 msgid "Origin"
 msgstr ""
 
 #. +> trunk6
-#: playersmodel.cpp:212
+#: playersmodel.cpp:222
 #, kde-format
 msgctxt "@title:column Player Gender"
 msgid "Gender"
@@ -1305,7 +1312,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: tournament/tiebreaks/aob.h:23 tournament/tournament.cpp:508
+#: tournament/tiebreaks/aob.h:23 tournament/tournament.cpp:510
 #, kde-format
 msgctxt "Tiebreak"
 msgid "Average Buchholz of Opponents"
@@ -1326,7 +1333,7 @@ msgid "Unsupported tiebreak option \"%1\""
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/buchholz.h:25 tournament/tournament.cpp:490
+#: tournament/tiebreaks/buchholz.h:25 tournament/tournament.cpp:492
 #, kde-format
 msgctxt "Buchholz tiebreak"
 msgid "Buchholz"
@@ -1340,14 +1347,14 @@ msgid "Buchholz %1"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/numberwins.h:22 tournament/tournament.cpp:494
+#: tournament/tiebreaks/numberwins.h:22 tournament/tournament.cpp:496
 #, kde-format
 msgctxt "Number of Wins tiebreak"
 msgid "Number of Wins"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/playedblack.h:22 tournament/tournament.cpp:504
+#: tournament/tiebreaks/playedblack.h:22 tournament/tournament.cpp:506
 #, kde-format
 msgctxt "Number of Games Played with Black (over the board) tiebreak"
 msgid "Number of Games Played with Black (over the board)"
@@ -1355,27 +1362,27 @@ msgstr ""
 
 #. +> trunk6
 #: tournament/tiebreaks/points.h:22 tournament/tiebreaks/points.h:27
-#: tournament/tournament.cpp:486
+#: tournament/tournament.cpp:488
 #, kde-format
 msgctxt "Game points"
 msgid "Points"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/won.h:23 tournament/tournament.cpp:500
+#: tournament/tiebreaks/won.h:23 tournament/tournament.cpp:502
 #, kde-format
 msgctxt "Number of Games Won (over the board) tiebreak. Different from the 'Number of Wins' tiebreak, which includes games won by forfeit."
 msgid "Number of Games Won (over the board)"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:943
+#: tournament/tournament.cpp:945
 #, kde-format
 msgid "An error ocurred while pairing the round: %1"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:1163
+#: tournament/tournament.cpp:1165
 #, kde-format
 msgid "Couldn't open file"
 msgstr ""
