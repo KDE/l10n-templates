@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-05 02:07+0000\n"
+"POT-Creation-Date: 2026-04-28 02:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -33,6 +33,7 @@ msgstr ""
 #: content/news/releases/25.12.2/index.md:0
 #: content/news/releases/25.12.3/index.md:0
 #: content/news/releases/26.03.90/index.md:0
+#: content/news/releases/26.04.0/index.md:0
 msgid "kdenlive"
 msgstr ""
 
@@ -266,6 +267,7 @@ msgstr ""
 #: content/news/releases/25.12.1/index.md:0
 #: content/news/releases/25.12.2/index.md:0
 #: content/news/releases/25.12.3/index.md:0
+#: content/news/releases/26.04.0/index.md:0
 msgid "Farid Abdelnour"
 msgstr ""
 
@@ -1258,4 +1260,287 @@ msgstr ""
 msgid ""
 "The AppImage and Windows versions can be downloaded through the links below."
 " Update: the MacOS binaries are now also available"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:7
+msgid ""
+"The Kdenlive team is happy to announce the first major release of 2026. This"
+" cycle focuses on stability, interface polish and usability improvements."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:9
+msgid ""
+"For the first time in Kdenlive's history, this version includes features "
+"implemented by so many different contributors. Our developer community is "
+"growing, don't hesitate to [join us][1] building a free and open source "
+"video editing program that respects the users privacy and provides a tool to"
+" democratize communication."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:11
+msgid ""
+"In case you missed it, check out the [State of Kdenlive][2] to learn more "
+"about the project's health and the nifty features coming soon."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:13
+msgid "Monitor Mirroring"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:15
+msgid ""
+"This feature allows you to mirror any monitor while working in fullscreen "
+"mode. It’s especially useful when working with multiple displays or "
+"collaborating with others in the editing room, making it easier to share "
+"what you're doing without disrupting your workspace."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:17
+msgid ""
+"{{< video src-webm=monitor-mirror.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.3\" >}}"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:19
+msgid "Effects and Transitions"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:21
+msgid ""
+"This release improves effect and transition workflow. We improved the logic "
+"for luma files to adapt to different project profiles and automatically "
+"reload previews of downloaded lumas. We added a dedicated tab in the "
+"transitions list to browse luma files and added the ability to drag-and-drop"
+" transitions directly onto timeline clips. This release also comes with a "
+"new Euclid Eraser transition and a Heatmap effect. We also fixed issues with"
+" audio TAP effects and improved internationalization support, fixed a bug in"
+" the Video Noise Generator effect and scaling issues in the Transform "
+"effect."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:23
+msgid "Animated Previews"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:25
+msgid ""
+"Transitions now include animated previews, making it much easier to "
+"visualize how they will look before applying them. Additionally, dropping a "
+"transition onto the timeline can now automatically adjust its duration to "
+"match the clips above and below, saving time and reducing manual tweaking. "
+"The first version of this feature was originally written by _Swastik Patel_,"
+" during [KDE's SoK][3] 2025."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:27
+msgid ""
+"{{< video src-webm=anim-prev.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.75\" >}}"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:29
+msgid "Automatic Adjustment"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:31
+msgid ""
+"Transitions automatically adjust to the length of the clip they are being "
+"applied to."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:33
+msgid ""
+"{{< video src-webm=auto-adjust.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.3\" >}}"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:35
+msgid "Math Expressions"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:37
+msgid "Added basic math expression support in effect spinboxes."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:39
+msgid ""
+"{{< video src-webm=expressions.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.36\" >}}"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:41
+msgid "New Heatmap Effect"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:43
+msgid "Added a new frei0r heatmap0r effect."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:45
+msgid "![effect](heatmap.png)"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:47
+msgid "Interface and Usability Improvements"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:49
+msgid "Timeline"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:51
+msgid ""
+"This release comes with many usability and workflow improvements to the "
+"timeline, such as a _Disable Timeline Effects_ function to timeline "
+"hamburger menu, the ability to import and add clips directly from the "
+"timeline context menu with a smart length detection function, and sequences "
+"now have audio thumbnails. Other highlights include:"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:53
+msgid "Continuous Panning"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:55
+msgid ""
+"Hold the middle mouse button and drag to contimuously pan the timeline even "
+"when going outside of the screen edges. Implemented by _Abdias J Moya "
+"Perez_."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:57
+msgid ""
+"{{< video src-webm=warp-scroll.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.32\" >}}"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:59
+msgid "Fixed Playhead"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:61
+msgid ""
+"Added the option to lock the playhead at the center of the timeline during "
+"playback, scrubbing or seeking. Implemented by _Abdias J Moya Perez_."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:63
+msgid ""
+"{{< video src-webm=center-playhead.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.25\" >}}"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:65
+msgid "Playhead/Mouse Zoom"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:67
+msgid ""
+"Added a button in the Staus Bar to toggle between zooming to the mouse "
+"cursor position or the playhead position. Implemented by _the mrfantastic_."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:69
+msgid ""
+"{{< video src-webm=timeline-zoom.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.3\" >}}"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:71
+msgid "Multi-Clip Speed Changes"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:73
+msgid ""
+"Added the abiity to change the playback speed of multiple clips at once "
+"either by directly _ctrl + dragging_ in the timeline or by using the _Clip "
+"Speed_ tool. Implemented by _Vineet Tiwari_."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:75
+msgid ""
+"{{< video src-webm=speed-adjust.webm autoplay=\"true\" muted=\"true\" "
+"loop=\"true\" controls=\"false\" ratio=\"0.33\" >}}"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:77
+msgid "Audio Capture"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:79
+msgid ""
+"Improved support for external recording devices, now the _channel count_ and"
+" _sample rate_ combo boxes only display values supported by the selected "
+"hardware. Also added the option to choose the _sample format (8bit, 16bit, "
+"32bit, and float)_ as well as a button to use the hardware's default "
+"settings."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:81
+msgid "![audio](audio-new.png)"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:83
+msgid "Subtitles and Speech Tools"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:85
+msgid ""
+"This release fixes issues with cutting, moving, and saving subtitles, and "
+"solves a crash cutting subtitle clips. It also fixes a problem where "
+"searching for multiple words in the Speech Editor did not work correctly. We"
+" also improved the installation process for the Whisper and SeamlessM4T "
+"plugins and updated their requirements."
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:87
+msgid "Other Noteworthy Features"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:89
+msgid "Added _Clear Undo History_ option in the _Edit_ menu"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:90
+msgid "Added HD-ready (1366×768) resolution to project profiles"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:91
+msgid ""
+"Added _Add to Project Bin_ option to _Render Widget_ to directly add "
+"rendered file for the Project Bin"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:92
+msgid ""
+"Hide mouse cursor when placed over monitor in fullscreen and not moving for "
+"2 seconds"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:93
+msgid ""
+"Added option to edit a video clip with external program (useful for programs"
+" like [Gyroflow][4])"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:94
+msgid ""
+"Rearranged Marker menu tiems into groups and added a _Delete All Timeline "
+"Markers_ action"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:95
+msgid ""
+"Ability to directly add clips to folders from the context menu in the "
+"Project Bin"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:96
+msgid "Added AMF encoding profile for Windows"
+msgstr ""
+
+#: content/news/releases/26.04.0/index.md:98
+msgid ""
+"<br />\n"
+"<br />\n"
 msgstr ""
