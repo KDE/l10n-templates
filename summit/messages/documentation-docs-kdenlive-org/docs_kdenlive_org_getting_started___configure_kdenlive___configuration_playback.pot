@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual 25.12\n"
+"Project-Id-Version: Kdenlive Manual 26.04\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 09:59+0100\n"
+"POT-Creation-Date: 2026-05-02 10:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. +> trunk5
-#: ../../<rst_epilog>:566
+#: ../../<rst_epilog>:570
 msgid "view-refresh"
 msgstr ""
 
@@ -42,47 +42,52 @@ msgid "Configure Playback section"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_playback.rst:26
+#: ../../getting_started/configure_kdenlive/configuration_playback.rst:28
 msgid ":guilabel:`Play/pause monitor on mouse click`. If checked, clicking anywhere in the clip or project monitor starts or stops the playback. If unchecked, you can use the mouse to perform other operations in the monitors but need to use keyboard shortcuts to start or stop playback (e.g. J-K-L or Space)."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_playback.rst:28
+#: ../../getting_started/configure_kdenlive/configuration_playback.rst:30
 msgid ":guilabel:`Monitor full screen output`. Set to **auto** to let Kdenlive determine the best device to use. Otherwise, specify the device to be used for monitor output when switched to full screen (:kbd:`F11`)."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_playback.rst:30
-msgid ":guilabel:`GPU processing (Movit library)`. This is currently disabled due to incompatibility issues between MLT (the engine Kdenlive uses for all effects/filters, transitions, and compositing) and movit (a library to enable GPU acceleration for effects etc.)."
-msgstr ""
-
-#. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_playback.rst:32
-msgid ":guilabel:`Audio Backend`. Select the audio backend to use for audio playback. The list of available backends depends on your :abbr:`OS (Operating System)`."
+msgid ":guilabel:`Mirror monitor on fullscreen`. If checked, allows to mirror the project monitor on full-screen (only useful with at least a second monitor)"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_playback.rst:34
-msgid ":guilabel:`Audio Driver`: Select the driver to be used for audio playback. The list of available drivers depends on your :abbr:`OS (Operating System)`."
+msgid ":guilabel:`GPU processing (Movit library)`. This is currently disabled due to incompatibility issues between MLT (the engine Kdenlive uses for all effects/filters, transitions, and compositing) and movit (a library to enable GPU acceleration for effects etc.)."
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_playback.rst:36
-msgid ":guilabel:`Audio Device`: Select the device to be used for audio playback. The list of available drivers depends on your :abbr:`OS (Operating System)`."
+msgid ":guilabel:`Audio Backend`. Select the audio backend to use for audio playback. The list of available backends depends on your :abbr:`OS (Operating System)`."
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_playback.rst:38
-msgid ":guilabel:`External display (Blackmagic card)`. If you have the Blackmagic DeckLink card installed you can enable it here and select the appropriate output device. Click on |view-refresh| to refresh the list of output devices."
+msgid ":guilabel:`Audio Driver`: Select the driver to be used for audio playback. The list of available drivers depends on your :abbr:`OS (Operating System)`."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_playback.rst:41
-msgid "Windows"
+#: ../../getting_started/configure_kdenlive/configuration_playback.rst:40
+msgid ":guilabel:`Audio Device`: Select the device to be used for audio playback. The list of available drivers depends on your :abbr:`OS (Operating System)`."
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_playback.rst:42
+msgid ":guilabel:`External display (Blackmagic card)`. If you have the Blackmagic DeckLink card installed you can enable it here and select the appropriate output device. Click on |view-refresh| to refresh the list of output devices."
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_playback.rst:45
+msgid "Windows"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_playback.rst:46
 msgid "If you have any audio issue or playback stuttering you may change to another audio driver. The most commonly available are WinMM (Win7), Wasapi (Win10), and DirectSound."
 msgstr ""
 
@@ -129,4 +134,9 @@ msgstr ""
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_playback.rst:0
 msgid "7"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_playback.rst:0
+msgid "8"
 msgstr ""
