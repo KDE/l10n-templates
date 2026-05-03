@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-01 10:58+0200\n"
+"POT-Creation-Date: 2026-05-03 09:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1383,7 +1383,7 @@ msgid "Contact via e-mail (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:16
+#: src/app/qml/UnlockSSSSDialog.qml:16 src/settings/NeoChatSecurityPage.qml:156
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Key Storage"
@@ -1913,7 +1913,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/roommanager.cpp:467
+#: src/app/roommanager.cpp:468
 #, kde-format
 msgid ""
 "Failed to join %1:<br />"
@@ -1921,13 +1921,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/roommanager.cpp:491
+#: src/app/roommanager.cpp:492
 #, kde-format
 msgid "You requested to join '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/roommanager.cpp:495
+#: src/app/roommanager.cpp:496
 #, kde-format
 msgid ""
 "Failed to request joining room<br />"
@@ -7350,6 +7350,13 @@ msgctxt "@title:window"
 msgid "Security & Safety"
 msgstr ""
 
+#. +> stable6
+#: src/settings/NeoChatSecurityPage.qml:141
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Secret Backup"
+msgstr ""
+
 #. +> trunk6 stable6
 #: src/settings/NeoChatSecurityPage.qml:34
 #, kde-format
@@ -7489,13 +7496,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Import or unlock encryption keys from other devices."
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:156
-#, kde-format
-msgctxt "@title:window"
-msgid "Manage Secret Backup"
 msgstr ""
 
 #. +> trunk6 stable6
