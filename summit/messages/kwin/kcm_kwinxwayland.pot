@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 08:43+0200\n"
+"POT-Creation-Date: 2026-05-05 11:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -25,7 +25,7 @@ msgid "Changes will take effect the next time you log in."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:29
+#: ui/main.qml:28
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -35,112 +35,112 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:50
+#: ui/main.qml:49
 #, kde-format
 msgctxt "@title:group"
 msgid "Listening for keystrokes:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:57
+#: ui/main.qml:52
 #, kde-format
 msgctxt "@option:radio Listening for keystrokes is prohibited"
 msgid "Prohibited"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:73
+#: ui/main.qml:61
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Most secure; global shortcuts will not work in X11 apps"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:87
+#: ui/main.qml:67
 #, kde-format
 msgctxt "@option:radio Listening for keystrokes is allowed for…"
 msgid "Only the Meta, Control, Alt, and Shift keys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:103
+#: ui/main.qml:76
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "High security; push-to-talk and other modifier-only global shortcuts will work in X11 apps"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:117
+#: ui/main.qml:81
 #, kde-format
 msgctxt "@option:radio Listening for keystrokes is allowed for…"
 msgid "As above, plus any key pressed while the Control, Alt, or Meta key is also pressed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:133
+#: ui/main.qml:90
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Moderate security; all global shortcuts will work in X11 apps"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:147
+#: ui/main.qml:96
 #, kde-format
 msgctxt "@option:radio Listening for keystrokes is always allowed"
 msgid "Always allowed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:163
+#: ui/main.qml:105
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Least secure; all X11 apps will be able to see any text you type into any application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:177
+#: ui/main.qml:111
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Note that using this setting will reduce system security and permit malicious software to steal passwords and spy on the text that you type. Make sure you understand and accept this risk."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:193
+#: ui/main.qml:118
 #, kde-format
 msgctxt "@title:group"
 msgid "Listening for mouse buttons:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:199
+#: ui/main.qml:121
 #, kde-format
 msgctxt "@option:radio Listening for mouse buttons is allowed"
 msgid "Allowed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:215
+#: ui/main.qml:130
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Moderate security; global shortcuts involving mouse buttons will work in X11 apps"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:233
+#: ui/main.qml:141
 #, kde-format
 msgctxt "@title:group"
 msgid "Control of pointer and keyboard:"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:240
+#: ui/main.qml:146
 #, kde-format
 msgctxt "@option:check Allowed control of pointer and keyboard without asking for permissions for allowed apps"
 msgid "Allowed apps"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:246
+#: ui/main.qml:152
 #, kde-format
 msgctxt "@action:button"
 msgid "See Allowed Applications…"
@@ -154,14 +154,14 @@ msgid "Log Out Now"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:259
+#: ui/main.qml:163
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Moderate security; XWayland-using apps claiming to be something on this list will be able to take control of the computer, because XWayland-using apps’ identities can’t be verified"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:272
+#: ui/main.qml:169
 #, kde-format
 msgctxt "@option:radio Allow control of pointer and keyboard without asking for permission"
 msgid "Allow without asking for permission"
@@ -175,31 +175,31 @@ msgid "Allow without asking for permission"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:283
+#: ui/main.qml:174
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Least secure; all X11 apps will be able to take control of the computer"
 msgstr ""
 
+#. +> trunk6 stable6
+#: ui/main.qml:181
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Note that using this setting will drastically reduce system security and permit malicious software to take complete control of your pointer and keyboard. Make sure you understand and accept this risk."
+msgstr ""
+
 #. +> trunk6
-#: ui/main.qml:295
+#: ui/main.qml:189
 #, kde-format
 msgctxt "@title:window title of the page opened by the 'See allowed applications' button"
 msgid "Applications allowed to control the pointer and keyboard"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:315
+#: ui/main.qml:209
 #, kde-format
 msgctxt "@info:tooltip %1 is the name of the app/binary"
 msgid "Do not allow %1 to control the pointer and keyboard without asking"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:329
-#, kde-format
-msgctxt "@info:usagetip"
-msgid "Note that using this setting will drastically reduce system security and permit malicious software to take complete control of your pointer and keyboard. Make sure you understand and accept this risk."
 msgstr ""
 
 #. +> stable5

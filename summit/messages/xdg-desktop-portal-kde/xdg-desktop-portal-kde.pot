@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-15 09:10+0200\n"
+"POT-Creation-Date: 2026-05-05 11:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -204,7 +204,7 @@ msgid "Force quit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/background.cpp:132
+#: src/background.cpp:134
 #, kde-format
 msgid "Background Activity"
 msgstr ""
@@ -216,14 +216,14 @@ msgid "Background activity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/background.cpp:135
+#: src/background.cpp:137
 #, kde-format
 msgctxt "@info %1 is the name of an application"
 msgid "%1 wants to remain running when it has no visible windows. If you forbid this, the application will quit when its last window is closed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/background.cpp:141 src/background.cpp:158
+#: src/background.cpp:143 src/background.cpp:160
 #, kde-format
 msgctxt "@action:button Allow the app to keep running with no open windows"
 msgid "Allow"
@@ -236,28 +236,28 @@ msgid "Allow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/background.cpp:148
+#: src/background.cpp:150
 #, kde-format
 msgctxt "@action:button Don't allow the app to keep running without any open windows"
 msgid "Forbid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/background.cpp:152
+#: src/background.cpp:154
 #, kde-format
 msgctxt "@title title of a dialog to confirm whether to allow an app to remain running with no visible windows"
 msgid "Background App Usage"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/background.cpp:154
+#: src/background.cpp:156
 #, kde-format
 msgctxt "%1 is the name of an application"
 msgid "Note that this will force %1 to quit when its last window is closed. This could cause data loss if the application has any unsaved changes when it happens."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/background.cpp:159
+#: src/background.cpp:161
 #, kde-format
 msgctxt "@action:button Don't allow the app to keep running without any open windows"
 msgid "Forbid Anyway"
@@ -523,19 +523,19 @@ msgid "New Virtual Output"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/outputsmodel.cpp:46
+#: src/outputsmodel.cpp:83
 #, kde-format
 msgid "Share virtual screen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/outputsmodel.cpp:50
+#: src/outputsmodel.cpp:87
 #, kde-format
 msgid "Share region"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/outputsmodel.cpp:61
+#: src/outputsmodel.cpp:98
 #, kde-format
 msgid "Share full Workspace"
 msgstr ""
@@ -547,27 +547,27 @@ msgid "Full Workspace"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/outputsmodel.cpp:99
+#: src/outputsmodel.cpp:136
 #, kde-format
 msgid "Laptop screen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/outputsmodel.cpp:315
+#: src/outputsmodel.cpp:372
 #, kde-format
 msgctxt "@info"
 msgid "Share the entire workspace across all screens"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/outputsmodel.cpp:317
+#: src/outputsmodel.cpp:374
 #, kde-format
 msgctxt "@info"
 msgid "Creates a screen inside a window, then share"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/outputsmodel.cpp:319
+#: src/outputsmodel.cpp:376
 #, kde-format
 msgctxt "@info"
 msgid "Crops a specific area of your screens"
