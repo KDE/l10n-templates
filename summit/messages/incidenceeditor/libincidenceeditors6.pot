@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: incidenceeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-07 09:47+0200\n"
+"POT-Creation-Date: 2026-05-08 06:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -912,7 +912,7 @@ msgid "Invalid end time."
 msgstr ""
 
 #. +> trunk6 stable6
-#: incidencedatetime.cpp:902
+#: incidencedatetime.cpp:904
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -921,7 +921,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: incidencedatetime.cpp:906
+#: incidencedatetime.cpp:908
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1637,54 +1637,68 @@ msgid "to %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: templatemanagementdialog.cpp:33
+#: templatemanagementdialog.cpp:34
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage %1 Templates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: templatemanagementdialog.cpp:94
+#: templatemanagementdialog.cpp:95
 #, kde-format
 msgid "Template Name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: templatemanagementdialog.cpp:95
+#: templatemanagementdialog.cpp:96
 #, kde-format
 msgid "Please enter a name for the new template:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: templatemanagementdialog.cpp:97
+#: templatemanagementdialog.cpp:98
 #, kde-format
 msgid "New %1 Template"
 msgstr ""
 
 #. +> trunk6 stable6
-#: templatemanagementdialog.cpp:105
+#: templatemanagementdialog.cpp:106
 #, kde-format
 msgid "A template with that name already exists, do you want to overwrite it?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: templatemanagementdialog.cpp:106
+#: templatemanagementdialog.cpp:107
 #, kde-format
 msgctxt "@title:window"
 msgid "Duplicate Template Name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: templatemanagementdialog.cpp:140
+#: templatemanagementdialog.cpp:141
 #, kde-format
 msgid "Are you sure that you want to remove the template <b>%1</b>?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: templatemanagementdialog.cpp:141
+#: templatemanagementdialog.cpp:142
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Template"
+msgstr ""
+
+#. +> trunk6
+#: templatemanagementdialog.cpp:176
+#, kde-format
+msgctxt "@info"
+msgid "Applying the template will overwrite changes you made to this incidence. Are you sure that you want to apply the template?"
+msgstr ""
+
+#. +> trunk6
+#: templatemanagementdialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "Apply Template"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AlarmDialog)

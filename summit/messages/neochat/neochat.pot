@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-07 09:48+0200\n"
+"POT-Creation-Date: 2026-05-08 06:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -978,7 +978,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/app/qml/NotificationsView.qml:20
-#: src/rooms/ExploreComponentMobile.qml:48 src/rooms/UserInfo.qml:100
+#: src/rooms/ExploreComponentMobile.qml:48 src/rooms/UserInfo.qml:104
 #: src/settings/RoomSettingsView.qml:82
 #, kde-format
 msgctxt "@title"
@@ -5478,7 +5478,7 @@ msgid "Search Rooms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/rooms/ExploreComponent.qml:65 src/rooms/UserInfo.qml:111
+#: src/rooms/ExploreComponent.qml:65 src/rooms/UserInfo.qml:109
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings"
@@ -5878,7 +5878,14 @@ msgctxt "@info:tooltip"
 msgid "Manage Account"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/rooms/UserInfo.qml:98
+#, kde-format
+msgctxt "@action:button"
+msgid "View Notifications"
+msgstr ""
+
+#. +> stable6
 #: src/rooms/UserInfo.qml:95
 #, kde-format
 msgid "View notifications"
