@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-07 09:48+0200\n"
+"POT-Creation-Date: 2026-05-09 07:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -547,21 +547,42 @@ msgctxt "@info:progress"
 msgid "Setting up..."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Do you really want to cancel?"
+msgid "Stopping now may cause data loss or drive errors."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: gui/applyprogressdialog.cpp:191
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Stop Running Operations"
+msgstr ""
+
+#. +> stable6
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Cancel Running Operations"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: gui/applyprogressdialog.cpp:191
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Stop Anyway"
+msgstr ""
+
+#. +> trunk6
+#: gui/applyprogressdialog.cpp:191
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Keep Running"
+msgstr ""
+
+#. +> stable6
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@action:button"
@@ -630,6 +651,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not create temporary file <filename>%1</filename> for writing."
+msgstr ""
+
+#. +> stable6
+#: gui/applyprogressdialog.cpp:191
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Do you really want to cancel?"
 msgstr ""
 
 #. +> trunk6 stable6
