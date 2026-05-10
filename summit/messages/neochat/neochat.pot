@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-09 07:59+0200\n"
+"POT-Creation-Date: 2026-05-10 11:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19,14 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #. +> trunk6 stable6
-#: src/app/controller.cpp:170
+#: src/app/controller.cpp:186
 #, kde-format
 msgctxt "The reason for using push notifications, as in: '[Push notifications are used for] Receiving notifications for new messages'"
 msgid "Receiving notifications for new messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/controller.cpp:317
+#: src/app/controller.cpp:333
 #, kde-format
 msgid "Receiving push notifications"
 msgstr ""
@@ -288,33 +288,12 @@ msgstr ""
 #. +> trunk6 stable6
 #: src/app/qml/AccountMenu.qml:65
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Verify This Device"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/AccountMenu.qml:71 src/settings/DevicesPage.qml:46
-#, kde-format
-msgctxt "@title"
-msgid "Verification Request Sent"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/AccountMenu.qml:72 src/settings/DevicesPage.qml:47
-#, kde-format
-msgctxt "@info:label"
-msgid "To proceed, accept the verification request on another device."
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/app/qml/AccountMenu.qml:83
-#, kde-format
 msgctxt "@action:inmenu Open support dialog"
 msgid "Support"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/AccountMenu.qml:97
+#: src/app/qml/AccountMenu.qml:79
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Switch Account"
@@ -325,6 +304,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Edit This Account"
+msgstr ""
+
+#. +> stable6
+#: src/app/qml/AccountMenu.qml:71
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify This Device"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -978,7 +964,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/app/qml/NotificationsView.qml:20
-#: src/rooms/ExploreComponentMobile.qml:48 src/rooms/UserInfo.qml:107
+#: src/rooms/ExploreComponentMobile.qml:48 src/rooms/UserInfo.qml:116
 #: src/settings/RoomSettingsView.qml:82
 #, kde-format
 msgctxt "@title"
@@ -1149,28 +1135,28 @@ msgid "Pinned Messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/RoomPage.qml:299
+#: src/app/qml/RoomPage.qml:301
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to NeoChat"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/RoomPage.qml:300
+#: src/app/qml/RoomPage.qml:302
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Select or join a room to get started"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/RoomPage.qml:336
+#: src/app/qml/RoomPage.qml:338
 #, kde-format
 msgctxt "@info:status"
 msgid "NeoChat is offline. Please check your network connection."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/RoomPage.qml:368
+#: src/app/qml/RoomPage.qml:370
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Message Source"
@@ -1383,105 +1369,119 @@ msgid "Contact via e-mail (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:16 src/settings/NeoChatSecurityPage.qml:156
+#: src/app/qml/UnlockSSSSDialog.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Key Storage"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:35
+#: src/app/qml/UnlockSSSSDialog.qml:36
 #, kde-format
 msgctxt "@info:status"
 msgid "The recovery key was not correct."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:41
+#: src/app/qml/UnlockSSSSDialog.qml:42
 #, kde-format
 msgctxt "@info:status"
 msgid "Encryption keys restored."
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UnlockSSSSDialog.qml:48
+#: src/app/qml/UnlockSSSSDialog.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Loaded keys from backup"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UnlockSSSSDialog.qml:48
+#: src/app/qml/UnlockSSSSDialog.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Failed to load keys from backup"
 msgstr ""
 
+#. +> trunk6
+#: src/app/qml/UnlockSSSSDialog.qml:56
+#, kde-format
+msgctxt "@title"
+msgid "Unlock by Verifying Session"
+msgstr ""
+
+#. +> trunk6
+#: src/app/qml/UnlockSSSSDialog.qml:62
+#, kde-format
+msgctxt "@info:description"
+msgid "It's recommended to verify this session from another device, if possible. You can do so under the Devices page."
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:55
+#: src/app/qml/UnlockSSSSDialog.qml:67
 #, kde-format
 msgctxt "@title"
 msgid "Unlock using Recovery Key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:59
+#: src/app/qml/UnlockSSSSDialog.qml:74
 #, kde-format
 msgctxt "@info"
 msgid "If you have a recovery key (also known as a “security key” or “backup passphrase”), enter it below or upload it as a file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:63
+#: src/app/qml/UnlockSSSSDialog.qml:78
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Recovery Key:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:68
+#: src/app/qml/UnlockSSSSDialog.qml:87
 #, kde-format
 msgctxt "@action:button"
 msgid "Upload From File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:78
+#: src/app/qml/UnlockSSSSDialog.qml:101
 #, kde-format
 msgctxt "@action:button"
 msgid "Unlock"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:89
+#: src/app/qml/UnlockSSSSDialog.qml:112
 #, kde-format
 msgctxt "@title"
 msgid "Unlock from Cross-Signing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:93
+#: src/app/qml/UnlockSSSSDialog.qml:120
 #, kde-format
 msgctxt "@info"
 msgid "If you have previously verified this device, you request encryption keys from other verified devices."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/UnlockSSSSDialog.qml:98
+#: src/app/qml/UnlockSSSSDialog.qml:129
 #, kde-format
 msgctxt "@action:button"
 msgid "Request From Other Devices"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UnlockSSSSDialog.qml:108
+#: src/app/qml/UnlockSSSSDialog.qml:139
 #, kde-format
 msgctxt "@title"
 msgid "Decryption Key Backup"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/UnlockSSSSDialog.qml:114
+#: src/app/qml/UnlockSSSSDialog.qml:145
 #, kde-format
 msgctxt "@action:button"
 msgid "Load Decryption Keys from Backup"
@@ -4179,20 +4179,20 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/neochatconnection.cpp:345
+#: src/libneochat/neochatconnection.cpp:354
 #, kde-format
 msgctxt "@info"
 msgid "No identity server configured"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/neochatconnection.cpp:384
+#: src/libneochat/neochatconnection.cpp:393
 #, kde-format
 msgid "Room creation failed: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libneochat/neochatconnection.cpp:413
+#: src/libneochat/neochatconnection.cpp:422
 #, kde-format
 msgid "Space creation failed: %1"
 msgstr ""
@@ -4313,14 +4313,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "New Space"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/libneochat/qml/CreateSpaceDialog.qml:64
-#: src/spaces/SelectExistingRoomDialog.qml:147
-#, kde-format
-msgctxt "@option:check As in make the space from which this dialog was created an official parent."
-msgid "Make this parent official"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4864,7 +4856,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/messagecontent/CodeComponent.qml:195
-#: src/messagecontent/VideoComponent.qml:368
+#: src/messagecontent/VideoComponent.qml:363
 #, kde-format
 msgctxt "@action:button"
 msgid "Maximize"
@@ -4915,7 +4907,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/messagecontent/FileComponent.qml:173
-#: src/messagecontent/ImageComponent.qml:109
+#: src/messagecontent/ImageComponent.qml:114
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove attachment"
@@ -4948,22 +4940,21 @@ msgid "Check-out time: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/ImageComponent.qml:69
-#: src/messagecontent/VideoComponent.qml:157
+#: src/messagecontent/ImageComponent.qml:77
 #, kde-format
 msgctxt "@action:button"
 msgid "Hide Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/ImageComponent.qml:85
+#: src/messagecontent/ImageComponent.qml:90
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/ImageComponent.qml:184
+#: src/messagecontent/ImageComponent.qml:189
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Image"
@@ -5045,14 +5036,14 @@ msgid "Loading reply…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/models/messagecontentmodel.cpp:94
+#: src/messagecontent/models/messagecontentmodel.cpp:104
 #, kde-format
 msgctxt "@info"
 msgid "Failed to download file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/models/messagecontentmodel.cpp:97
+#: src/messagecontent/models/messagecontentmodel.cpp:107
 #, kde-format
 msgctxt "@info Failed to download file: [error message]"
 msgid ""
@@ -5219,21 +5210,28 @@ msgctxt "Short for train platform"
 msgid "Pl. %1"
 msgstr ""
 
+#. +> trunk6
+#: src/messagecontent/VideoComponent.qml:158
+#, kde-format
+msgctxt "@action:button"
+msgid "Hide Video"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/messagecontent/VideoComponent.qml:185
+#: src/messagecontent/VideoComponent.qml:183
 #, kde-format
 msgid "Video"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/VideoComponent.qml:244
+#: src/messagecontent/VideoComponent.qml:242
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Video"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/messagecontent/VideoComponent.qml:285
+#: src/messagecontent/VideoComponent.qml:280
 #, kde-format
 msgctxt "@action:button"
 msgid "Volume"
@@ -5506,7 +5504,7 @@ msgid "Search Rooms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/rooms/ExploreComponent.qml:65 src/rooms/UserInfo.qml:112
+#: src/rooms/ExploreComponent.qml:65 src/rooms/UserInfo.qml:121
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Settings"
@@ -5906,8 +5904,15 @@ msgctxt "@info:tooltip"
 msgid "Manage Account"
 msgstr ""
 
+#. +> trunk6 stable6
+#: src/rooms/UserInfo.qml:99 src/settings/DevicesPage.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Verify This Device"
+msgstr ""
+
 #. +> trunk6
-#: src/rooms/UserInfo.qml:99
+#: src/rooms/UserInfo.qml:108
 #, kde-format
 msgctxt "@action:button"
 msgid "View Notifications"
@@ -6458,49 +6463,56 @@ msgid "This Device"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/DevicesPage.qml:39
-#, kde-format
-msgctxt "@action:button"
-msgid "Verify This Device"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/DevicesPage.qml:40
+#: src/settings/DevicesPage.qml:45
 #, kde-format
 msgctxt "@info:description"
 msgid "This device is marked as insecure until it's verified by another device. It's recommended to verify as soon as possible."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/DevicesPage.qml:41
+#: src/settings/DevicesPage.qml:46
 #, kde-format
 msgctxt "@info:description"
 msgid "This device is marked as secure."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/DevicesPage.qml:58
+#: src/settings/DevicesPage.qml:51
+#, kde-format
+msgctxt "@title"
+msgid "Verification Request Sent"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/settings/DevicesPage.qml:52
+#, kde-format
+msgctxt "@info:label"
+msgid "To proceed, accept the verification request on another device."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/settings/DevicesPage.qml:63
 #, kde-format
 msgctxt "@info:group"
 msgid "Verified Devices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/DevicesPage.qml:64
+#: src/settings/DevicesPage.qml:69
 #, kde-format
 msgctxt "@info:group"
 msgid "Unverified Devices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/DevicesPage.qml:70
+#: src/settings/DevicesPage.qml:75
 #, kde-format
 msgctxt "@info:group"
 msgid "Devices without Encryption Support"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/DevicesPage.qml:86
+#: src/settings/DevicesPage.qml:91
 #, kde-format
 msgid "Please login to view the signed-in devices for your account."
 msgstr ""
@@ -6756,7 +6768,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/settings/GlobalNotificationsPage.qml:167
-#: src/settings/NeoChatSecurityPage.qml:102
+#: src/settings/NeoChatSecurityPage.qml:100
 #, kde-format
 msgctxt "@title:group"
 msgid "Invites"
@@ -6817,7 +6829,6 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/settings/IgnoredUsersDialog.qml:20
-#: src/settings/NeoChatSecurityPage.qml:37
 #, kde-format
 msgctxt "@title:window"
 msgid "Ignored Users"
@@ -7460,186 +7471,186 @@ msgid "Ignored Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:43
+#: src/settings/NeoChatSecurityPage.qml:41
 #, kde-format
 msgctxt "@title:group"
 msgid "Messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:48
+#: src/settings/NeoChatSecurityPage.qml:46
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Show link previews"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:49
+#: src/settings/NeoChatSecurityPage.qml:47
 #, kde-format
 msgctxt "@info:label"
 msgid "You can customize this per-room under room settings. If unchecked, disables link previews in every room."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:62
+#: src/settings/NeoChatSecurityPage.qml:60
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Send typing notifications"
 msgstr ""
 
 #. +> trunk6
-#: src/settings/NeoChatSecurityPage.qml:76
+#: src/settings/NeoChatSecurityPage.qml:74
 #, kde-format
 msgctxt "@option:check"
 msgid "Send read receipts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:91
+#: src/settings/NeoChatSecurityPage.qml:89
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Hide images and videos by default"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:92
+#: src/settings/NeoChatSecurityPage.qml:90
 #, kde-format
 msgctxt "@info"
 msgid "When this option is enabled, images and videos are only shown after a button is clicked."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:106
+#: src/settings/NeoChatSecurityPage.qml:104
 #, kde-format
 msgctxt "@info:label"
 msgid "Everyone"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:108
+#: src/settings/NeoChatSecurityPage.qml:106
 #, kde-format
 msgctxt "@info:description"
 msgid "Anyone can send you invites."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:113
+#: src/settings/NeoChatSecurityPage.qml:111
 #, kde-format
 msgctxt "@option:check"
 msgid "Known users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:114
+#: src/settings/NeoChatSecurityPage.qml:112
 #, kde-format
 msgctxt "@info"
 msgid "Only users you share a room with can send you invites."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:114
-#: src/settings/NeoChatSecurityPage.qml:127
+#: src/settings/NeoChatSecurityPage.qml:112
+#: src/settings/NeoChatSecurityPage.qml:125
 #, kde-format
 msgctxt "@info"
 msgid "Your server does not support this setting."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:124
+#: src/settings/NeoChatSecurityPage.qml:122
 #, kde-format
 msgctxt "@info:label"
 msgid "No one"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:127
+#: src/settings/NeoChatSecurityPage.qml:125
 #, kde-format
 msgctxt "@info:description"
 msgid "No one can send you invites."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:132
+#: src/settings/NeoChatSecurityPage.qml:130
 #, kde-format
 msgctxt "@title:group"
 msgid "Encryption"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:137
+#: src/settings/NeoChatSecurityPage.qml:135
 #, kde-format
 msgctxt "@option:check"
 msgid "Turn on encryption in new chats"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:138
+#: src/settings/NeoChatSecurityPage.qml:136
 #, kde-format
 msgctxt "@info"
 msgid "If enabled, NeoChat will use encryption when starting new direct messages."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:152
+#: src/settings/NeoChatSecurityPage.qml:150
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Manage Key Storage"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:153
+#: src/settings/NeoChatSecurityPage.qml:151
 #, kde-format
 msgctxt "@info"
 msgid "Import or unlock encryption keys from other devices."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:165
+#: src/settings/NeoChatSecurityPage.qml:163
 #, kde-format
 msgctxt "@action:button"
 msgid "Import Keys"
 msgstr ""
 
+#. +> stable6
+#: src/settings/NeoChatSecurityPage.qml:157
+#, kde-format
+msgctxt "@title"
+msgid "Import Keys"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:166
+#: src/settings/NeoChatSecurityPage.qml:164
 #, kde-format
 msgctxt "@info"
 msgid "Import encryption keys from a backup file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:172
-#, kde-format
-msgctxt "@title"
-msgid "Import Keys"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:175
+#: src/settings/NeoChatSecurityPage.qml:171
 #, kde-format
 msgctxt "@info"
 msgid "Keys imported successfully"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:188
+#: src/settings/NeoChatSecurityPage.qml:184
 #, kde-format
 msgctxt "@action:button"
 msgid "Export Keys"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:189
-#, kde-format
-msgctxt "@info"
-msgid "Export this device's encryption keys to a file."
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:195
+#. +> stable6
+#: src/settings/NeoChatSecurityPage.qml:180
 #, kde-format
 msgctxt "@title"
 msgid "Export Keys"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/settings/NeoChatSecurityPage.qml:185
+#, kde-format
+msgctxt "@info"
+msgid "Export this device's encryption keys to a file."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -7668,27 +7679,27 @@ msgid "Security & Safety"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSettingsView.qml:64
+#: src/settings/NeoChatSettingsView.qml:63
+#, kde-format
+msgid "Devices"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/settings/NeoChatSettingsView.qml:76
 #, kde-format
 msgid "Accounts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSettingsView.qml:71
+#: src/settings/NeoChatSettingsView.qml:83
 #, kde-format
 msgid "Stickers & Emojis"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSettingsView.qml:84
+#: src/settings/NeoChatSettingsView.qml:96
 #, kde-format
 msgid "Network Proxy"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/settings/NeoChatSettingsView.qml:90
-#, kde-format
-msgid "Devices"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -8700,6 +8711,13 @@ msgid "Explore"
 msgstr ""
 
 #. +> trunk6 stable6
+#: src/spaces/SelectExistingRoomDialog.qml:147
+#, kde-format
+msgctxt "@option:check As in make the space from which this dialog was created an official parent."
+msgid "Make this parent official"
+msgstr ""
+
+#. +> trunk6 stable6
 #: src/spaces/SelectExistingRoomDialog.qml:148
 #, kde-format
 msgctxt "@info:description"
@@ -8947,148 +8965,176 @@ msgctxt "@action:inmenu"
 msgid "Save File…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/timeline/DelegateContextMenu.qml:344
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Image"
+msgstr ""
+
+#. +> trunk6
+#: src/timeline/DelegateContextMenu.qml:346
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Video"
+msgstr ""
+
+#. +> trunk6
+#: src/timeline/DelegateContextMenu.qml:358
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Image"
+msgstr ""
+
+#. +> trunk6
+#: src/timeline/DelegateContextMenu.qml:360
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Video"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/timeline/DelegateContextMenu.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:346
+#: src/timeline/DelegateContextMenu.qml:374
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Audio"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:348
+#: src/timeline/DelegateContextMenu.qml:376
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:350
+#: src/timeline/DelegateContextMenu.qml:378
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:360
+#: src/timeline/DelegateContextMenu.qml:388
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link Address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:368
+#: src/timeline/DelegateContextMenu.qml:396
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:374
+#: src/timeline/DelegateContextMenu.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Message Link"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:382
+#: src/timeline/DelegateContextMenu.qml:410
 #, kde-format
 msgctxt "@action:button 'Report' as in 'Report this event to the administrators'"
 msgid "Report…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:387
+#: src/timeline/DelegateContextMenu.qml:415
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Report Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:388
+#: src/timeline/DelegateContextMenu.qml:416
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Optionally give a reason for reporting this message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:390
+#: src/timeline/DelegateContextMenu.qml:418
 #, kde-format
 msgctxt "@action:button 'Report' as in 'Report this event to the administrators'"
 msgid "Report"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:394
+#: src/timeline/DelegateContextMenu.qml:422
 #, kde-format
 msgctxt "@title"
 msgid "Report Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:406
+#: src/timeline/DelegateContextMenu.qml:434
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:429
+#: src/timeline/DelegateContextMenu.qml:457
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure Web Shortcuts…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:437
+#: src/timeline/DelegateContextMenu.qml:465
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Read Text Aloud"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:440
+#: src/timeline/DelegateContextMenu.qml:468
 #, kde-format
 msgctxt "@info text-to-speech %1 is author %2 is message text"
 msgid "%1 said %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:460
+#: src/timeline/DelegateContextMenu.qml:488
 #, kde-format
 msgctxt "@action:button 'Unpin' as in 'Unpin this message'"
 msgid "Unpin"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:460
+#: src/timeline/DelegateContextMenu.qml:488
 #, kde-format
 msgctxt "@action:button 'Pin' as in 'Pin the message in the room'"
 msgid "Pin"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:470
+#: src/timeline/DelegateContextMenu.qml:498
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Deselect Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:470
+#: src/timeline/DelegateContextMenu.qml:498
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Select Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/DelegateContextMenu.qml:483
+#: src/timeline/DelegateContextMenu.qml:511
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Source"
