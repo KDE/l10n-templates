@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 02:14+0000\n"
+"POT-Creation-Date: 2026-05-10 02:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 #: content/news/releases/25.11.90/index.md:0
 #: content/news/releases/25.12.0/index.md:0
 #: content/news/releases/26.03.90/index.md:0
+#: content/news/releases/26.04.1/index.md:0
 msgid "Jean-Baptiste Mardelle"
 msgstr ""
 
@@ -34,6 +35,7 @@ msgstr ""
 #: content/news/releases/25.12.3/index.md:0
 #: content/news/releases/26.03.90/index.md:0
 #: content/news/releases/26.04.0/index.md:0
+#: content/news/releases/26.04.1/index.md:0
 msgid "kdenlive"
 msgstr ""
 
@@ -1543,4 +1545,57 @@ msgstr ""
 msgid ""
 "<br />\n"
 "<br />\n"
+msgstr ""
+
+#: content/news/releases/26.04.1/index.md:7
+msgid ""
+"The first maintenance release of the 26.04 series is now available, with the"
+" usual batch of stability fixes and workflow improvements."
+msgstr ""
+
+#: content/news/releases/26.04.1/index.md:9
+msgid ""
+"<div class=\"alert alert-warning\" role=\"alert\">\n"
+"This release also contains an <b>important security fix</b>, so we strongly advise all users to <b>upgrade</b> to the latest 26.04.1 version.\n"
+"</div>\n"
+msgstr ""
+
+#: content/news/releases/26.04.1/index.md:13
+msgid ""
+"Thanks to an [NLnet/NGI0 grant][1], we had a security audit provided by "
+"[Radically Open Security][2]. The audit found one serious vulnerability that"
+" can happen when opening a malicious project file, allowing remote code "
+"execution. This is fixed with Kdenlive 26.04.1. Thanks to Edoardo Geraci and"
+" Radically Open Security for helping us make our software safer!"
+msgstr ""
+
+#: content/news/releases/26.04.1/index.md:15
+msgid ""
+"We are not aware of the vulnerability being exploited so far. It is "
+"important to understand that <b>this security issue is about a manipulated "
+".kdenlive project file containing potentially malicious code</b>. Therefore,"
+" it is only relevant <b>if you open a .kdenlive project file that you "
+"received from someone else or downloaded from the internet</b>. If you are "
+"working only with your own projects or with shared projects in collaboration"
+" with fully trusted partners, there is no security risk."
+msgstr ""
+
+#: content/news/releases/26.04.1/index.md:17
+msgid ""
+"<b><i>If you cannot upgrade, do not open a project file that was not created"
+" by you</i></b>."
+msgstr ""
+
+#: content/news/releases/26.04.1/index.md:19
+msgid ""
+"Although the vulnerability is fixed in 26.04.1, we have also implemented "
+"another layer of security checks for the upcoming 26.08.0 to warn the user "
+"if some other unexpected input is detected in a project file."
+msgstr ""
+
+#: content/news/releases/26.04.1/index.md:21
+msgid ""
+"Head to our [download][3] section to get the latest binaries, or check the "
+"updates from your package manager. Please note that for Linux only AppImage "
+"and Flatpak are supported by the Kdenlive team."
 msgstr ""
