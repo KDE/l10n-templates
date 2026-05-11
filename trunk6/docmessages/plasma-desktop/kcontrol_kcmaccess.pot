@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"POT-Creation-Date: 2026-05-11 00:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -35,13 +35,13 @@ msgstr ""
 #. Tag: date
 #: index.docbook:16
 #, no-c-format
-msgid "2021-04-08"
+msgid "2026-05-10"
 msgstr ""
 
 #. Tag: releaseinfo
 #: index.docbook:17
 #, no-c-format
-msgid "Plasma 5.20"
+msgid "Plasma 6.6"
 msgstr ""
 
 #. Tag: keyword
@@ -92,24 +92,330 @@ msgstr ""
 #: index.docbook:37
 #, no-c-format
 msgid ""
-"The module is divided into six tabs: <link linkend=\"access-bell"
-"\"><guilabel>Bell</guilabel></link>, <link linkend=\"access-modifier-keys"
-"\"><guilabel>Modifier keys</guilabel></link>, <link linkend=\"access-"
-"keyboard-filters\"><guilabel>Keyboard Filters</guilabel></link>, <link "
-"linkend=\"access-activation-gestures\"><guilabel>Activation Gestures</"
-"guilabel></link>, <link linkend=\"mouse-navigation\"><guilabel>Mouse "
-"Navigation</guilabel></link>, and <link linkend=\"access-screenreader"
-"\"><guilabel>Screen Reader</guilabel></link>."
+"The module is divided into ten tabs: <link linkend=\"access-zoom"
+"\"><guilabel>Zoom &amp; Magnifier</guilabel></link>,<link linkend=\"access-"
+"bell\"><guilabel>System Bell</guilabel></link>, <link linkend=\"access-"
+"modifier-keys\"><guilabel>Modifier keys</guilabel></link>, <link linkend="
+"\"access-keyboard-filters\"><guilabel>Keyboard Filters</guilabel></link>, "
+"<link linkend=\"mouse-navigation\"><guilabel>Mouse Navigation</guilabel></"
+"link>, <link linkend=\"access-activation-shortcuts\"><guilabel>Activation "
+"Shortcuts</guilabel></link>, <link linkend=\"access-screenreader"
+"\"><guilabel>Screen Reader</guilabel></link>, <link linkend=\"access-color-"
+"blindness\"><guilabel>Color Blindness Correction</guilabel></link>, <link "
+"linkend=\"access-invert\"><guilabel>Invert</guilabel></link>, and <link "
+"linkend=\"access-shake-pointer\"><guilabel>Shake Pointer</guilabel></link>."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:48
+#: index.docbook:53
 #, no-c-format
-msgid "Bell"
+msgid "Zoom &amp; Magnifier"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:50
+#: index.docbook:55
+#, no-c-format
+msgid ""
+"The Zoom and Magnifier tools in KDE Plasma are designed to enlarge portions "
+"of the screen, serving as a digital magnifying glass. While they share the "
+"goal of making small text and fine details more legible, they offer two "
+"distinct ways of interacting with the desktop environment."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:63
+#, no-c-format
+msgid "Zoom"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:65
+#, no-c-format
+msgid ""
+"Here you can switch between the <guilabel>Full screen</guilabel> and "
+"<guilabel>Magnify region</guilabel> modes."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:74
+#, no-c-format
+msgid "Full screen"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:76
+#, no-c-format
+msgid "Enable fullscreen mode."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:82
+#, no-c-format
+msgid "Show pixel grid at zoom level"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:84
+#, no-c-format
+msgid ""
+"Provide a visual overlay of the individual pixels that make up the image on "
+"your screen once you have reached a high enough magnification. If enabled, "
+"&plasma; draws a thin grid around every single pixel so you can see exactly "
+"where one ends and the next begins."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:90
+#, no-c-format
+msgid "Pointer appearance"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:92
+#, no-c-format
+msgid ""
+"Controls the mouse pointer appearance when zooming. There are several "
+"options: <guilabel>Scale</guilabel>, <guilabel>Keep</guilabel>, and "
+"<guilabel>Hide</guilabel>."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:97
+#, no-c-format
+msgid "Pointer tracking"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:102
+#, no-c-format
+msgid "Proportional"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:104
+#, no-c-format
+msgid "Zoom area moves in sync with pointer."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:110
+#, no-c-format
+msgid "Centered"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:112
+#, no-c-format
+msgid "Pointer stays centered on-screen, except near screen edges."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:118
+#, no-c-format
+msgid "Centered (Strict)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:120
+#, no-c-format
+msgid "Pointer stays centered on-screen, even near screen edges."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:126
+#, no-c-format
+msgid "Push"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:128
+#, no-c-format
+msgid "Pointer pushes zoom area at screen edges."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:134 index.docbook:203
+#, no-c-format
+msgid "Disabled"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:136
+#, no-c-format
+msgid "Zoom area does not follow pointer."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:146
+#, no-c-format
+msgid "Sharpen screen content while zoomed in"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:148
+#, no-c-format
+msgid ""
+"If turned on, &kwin; will use pattern recognition to try to scale the shape "
+"of text/icons on the workspace at extreme zoom levels. This would help "
+"improve overall text contrast at the cost of font accuracy by avoiding blur "
+"or pixelation."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:157
+#, no-c-format
+msgid "Enable focus tracking"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:159
+#, no-c-format
+msgid ""
+"Ensures the magnified viewport automatically follows the <quote>active</"
+"quote> part of the interface, even if your mouse is not moving. While "
+"standard zoom usually follows the mouse cursor, focus tracking monitors the "
+"system focus (the text cursor or the currently selected UI element)."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:165
+#, no-c-format
+msgid "Enable text caret tracking"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:167
+#, no-c-format
+msgid ""
+"Allows the system's magnification tools to follow the text cursor rather "
+"than just the mouse pointer. In technical environments—whether you are "
+"writing code, drafting a research manuscript, or filling out complex forms—"
+"your focus is often where you are typing, which may be far away from where "
+"your mouse is resting."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:176
+#, no-c-format
+msgid "Magnify region"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:178
+#, no-c-format
+msgid "Enable the region magnification mode."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:184
+#, no-c-format
+msgid "Width"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:186
+#, no-c-format
+msgid "Allows to configure the width of the magnified area."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:192
+#, no-c-format
+msgid "Height"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:194
+#, no-c-format
+msgid "Allows to configure the height of the magnified area."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:205
+#, no-c-format
+msgid "Disable the scaling modes."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:214
+#, no-c-format
+msgid "Zoom factor"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:216
+#, no-c-format
+msgid ""
+"Adjusts how much the screen enlarges with each step (&eg;, 1.2x or 2.0x). "
+"&plasma; supports extreme magnification levels (up to 100x), which is "
+"significantly higher than most other operating systems."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:222
+#, no-c-format
+msgid "Scroll gesture modifier keys"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:224
+#, no-c-format
+msgid ""
+"Allows you to perform scrolling actions using a combination of a keyboard "
+"key and mouse movement, rather than using a physical scroll wheel."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:227
+#, no-c-format
+msgid ""
+"This is particularly useful for users who use trackballs, specialized "
+"pointing devices without wheels, or who have motor impairments that make "
+"using a scroll wheel difficult."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:231
+#, no-c-format
+msgid "Zoom scroll gestures are only available on Wayland."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:238
+#, no-c-format
+msgid "Scroll while modifier keys are pressed to zoom"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:240
+#, no-c-format
+msgid ""
+"When this option enabled, holding down a specific key (usually the &Meta; "
+"key) and rotating your mouse wheel (or using a two-finger scroll on a "
+"touchpad) will dynamically increase or decrease the magnification of the "
+"entire desktop."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:246
+#, no-c-format
+msgid "Configure Shortcuts…"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:248
+#, no-c-format
+msgid "Use shortcuts to control zoom."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:258
+#, no-c-format
+msgid "System Bell"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:260
 #, no-c-format
 msgid ""
 "This panel is divided into an <guilabel>Audible Bell</guilabel> section and "
@@ -117,7 +423,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:55
+#: index.docbook:265
 #, no-c-format
 msgid ""
 "The top check box labeled <guilabel>Use System Bell</guilabel>, determines "
@@ -126,7 +432,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:61
+#: index.docbook:271
 #, no-c-format
 msgid ""
 "The next check box down can be used to play a different sound whenever the "
@@ -138,7 +444,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:71
+#: index.docbook:281
 #, no-c-format
 msgid ""
 "For those users who have difficulty hearing the System bell, or those users "
@@ -148,7 +454,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:78
+#: index.docbook:288
 #, no-c-format
 msgid ""
 "To use the visual bell, first place a mark in the check box labeled "
@@ -156,7 +462,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:83
+#: index.docbook:293
 #, no-c-format
 msgid ""
 "You can then select between <guilabel>Invert screen</guilabel>, or "
@@ -167,7 +473,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:92
+#: index.docbook:302
 #, no-c-format
 msgid ""
 "The spin box can be used to adjust the duration of the visible bell. The "
@@ -175,13 +481,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:100
+#: index.docbook:310
 #, no-c-format
 msgid "Modifier keys"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:102
+#: index.docbook:312
 #, no-c-format
 msgid ""
 "There are the two sections <guilabel>Sticky Keys</guilabel> and "
@@ -189,13 +495,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:107
+#: index.docbook:317
 #, no-c-format
 msgid "Use Sticky Keys"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:109
+#: index.docbook:319
 #, no-c-format
 msgid ""
 "If this option is enabled, you can press and release the &Shift;, &Alt; or "
@@ -205,7 +511,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:116
+#: index.docbook:326
 #, no-c-format
 msgid ""
 "Also in this section is a check box labeled <guilabel>Lock Sticky Keys</"
@@ -214,19 +520,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:123
+#: index.docbook:333
 #, no-c-format
 msgid "As an example:"
 msgstr ""
 
 #. Tag: term
-#: index.docbook:128
+#: index.docbook:338
 #, no-c-format
 msgid "With <guilabel>Lock Sticky Keys</guilabel> disabled:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:130
+#: index.docbook:340
 #, no-c-format
 msgid ""
 "If you press the &Shift; key then press the <keycap>F</keycap> key, the "
@@ -236,13 +542,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:140
+#: index.docbook:350
 #, no-c-format
 msgid "With <guilabel>Lock Sticky Keys</guilabel> enabled:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:142
+#: index.docbook:352
 #, no-c-format
 msgid ""
 "If you press the &Shift; key <emphasis>twice</emphasis> then press the "
@@ -254,25 +560,25 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:177
+#: index.docbook:387
 #, no-c-format
 msgid "Keyboard Filters"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:179 index.docbook:216
+#: index.docbook:389 index.docbook:496
 #, no-c-format
 msgid "There are two sections to this panel."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:183
+#: index.docbook:393
 #, no-c-format
 msgid "Use slow keys"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:185
+#: index.docbook:395
 #, no-c-format
 msgid ""
 "If this option is enabled, you must hold the key down for a specified length "
@@ -281,13 +587,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:196
+#: index.docbook:406
 #, no-c-format
 msgid "Use bounce keys"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:198
+#: index.docbook:408
 #, no-c-format
 msgid ""
 "If this option is enabled, you must wait for a specified length of time "
@@ -295,118 +601,14 @@ msgid ""
 "This prevents accidental multiple key strokes."
 msgstr ""
 
-#. Tag: guilabel
-#: index.docbook:214
-#, no-c-format
-msgid "Activation Gestures"
-msgstr ""
-
-#. Tag: term
-#: index.docbook:220
-#, no-c-format
-msgid "<guilabel>Activation Gestures</guilabel> with these options:"
-msgstr ""
-
-#. Tag: guilabel
-#: index.docbook:224
-#, no-c-format
-msgid "Use gestures for activating sticky keys and slow keys"
-msgstr ""
-
-#. Tag: member
-#: index.docbook:225
-#, no-c-format
-msgid ""
-"Here you can activate keyboard gestures that turn on the following features:"
-msgstr ""
-
-#. Tag: member
-#: index.docbook:226
-#, no-c-format
-msgid "Mouse Keys: Press &Shift;+NumLock"
-msgstr ""
-
-#. Tag: member
-#: index.docbook:227
-#, no-c-format
-msgid "Sticky keys: Press &Shift; key 5 consecutive times"
-msgstr ""
-
-#. Tag: member
-#: index.docbook:228
-#, no-c-format
-msgid "Slow keys: Hold down &Shift; for 8 seconds"
-msgstr ""
-
-#. Tag: guilabel
-#: index.docbook:229
-#, no-c-format
-msgid "Turn sticky keys and slow keys off after a certain period of inactivity"
-msgstr ""
-
-#. Tag: term
-#: index.docbook:236
-#, no-c-format
-msgid "<guilabel>Notification</guilabel> with these options:"
-msgstr ""
-
-#. Tag: guilabel
-#: index.docbook:240
-#, no-c-format
-msgid ""
-"Use the system bell whenever a gesture is used to turn an accessibility "
-"feature on or off"
-msgstr ""
-
-#. Tag: guilabel
-#: index.docbook:243
-#, no-c-format
-msgid ""
-"Show a confirmation dialog whenever a keyboard accessibility feature is "
-"turned on or off"
-msgstr ""
-
-#. Tag: member
-#: index.docbook:245
-#, no-c-format
-msgid ""
-"If this option is checked, &kde; will show a confirmation dialog whenever a "
-"keyboard accessibility feature is turned on or off."
-msgstr ""
-
-#. Tag: member
-#: index.docbook:247
-#, no-c-format
-msgid ""
-"Ensure you know what you are doing if you uncheck it, as the keyboard "
-"accessibility settings will then always be applied without confirmation."
-msgstr ""
-
-#. Tag: guilabel
-#: index.docbook:250
-#, no-c-format
-msgid ""
-"Use &kde;'s system notification mechanism whenever a keyboard accessibility "
-"feature is turned on or off"
-msgstr ""
-
-#. Tag: para
-#: index.docbook:257
-#, no-c-format
-msgid ""
-"Click the <guibutton>Configure Notifications</guibutton> button to open a "
-"dialog which allows you to edit the notifications for status changes of all "
-"keys."
-msgstr ""
-
 #. Tag: title
-#: index.docbook:263
+#: index.docbook:424
 #, no-c-format
 msgid "Mouse Navigation"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:265
+#: index.docbook:426
 #, no-c-format
 msgid ""
 "This tab allows you to configure the keyboard number pad keys as a mouse-"
@@ -415,13 +617,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:272
+#: index.docbook:433
 #, no-c-format
 msgid "Move pointer with keyboard (using the num pad)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:274
+#: index.docbook:435
 #, no-c-format
 msgid ""
 "To enable keyboard mouse mode, you need to select the check box labeled "
@@ -431,7 +633,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:277
+#: index.docbook:438
 #, no-c-format
 msgid ""
 "The various keys on the number pad move in the direction you would expect. "
@@ -447,13 +649,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:284
+#: index.docbook:445
 #, no-c-format
 msgid "Acceleration delay"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:286
+#: index.docbook:447
 #, no-c-format
 msgid ""
 "This is the time (in milliseconds) between the initial key press and the "
@@ -461,13 +663,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:293
+#: index.docbook:454
 #, no-c-format
 msgid "Repeat interval"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:295
+#: index.docbook:456
 #, no-c-format
 msgid ""
 "This is the time in milliseconds between repeated motion events for mouse "
@@ -475,13 +677,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:302
+#: index.docbook:463
 #, no-c-format
 msgid "Acceleration time"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:304
+#: index.docbook:465
 #, no-c-format
 msgid ""
 "This is the time in milliseconds before the pointer reaches a maximum speed "
@@ -489,13 +691,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:311
+#: index.docbook:472
 #, no-c-format
 msgid "Maximum speed"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:313
+#: index.docbook:474
 #, no-c-format
 msgid ""
 "This is the maximum speed in pixels per second the pointer can reach for "
@@ -503,25 +705,129 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:320
+#: index.docbook:481
 #, no-c-format
 msgid "Pointer acceleration"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:322
+#: index.docbook:483
 #, no-c-format
 msgid "This is the amount of acceleration to apply to mouse key acceleration."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:333
+#: index.docbook:494
+#, no-c-format
+msgid "Activation Shortcuts"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:500
+#, no-c-format
+msgid "<guilabel>Activation Gestures</guilabel> with these options:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:504
+#, no-c-format
+msgid "Use gestures for activating sticky keys and slow keys"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:505
+#, no-c-format
+msgid ""
+"Here you can activate keyboard gestures that turn on the following features:"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:506
+#, no-c-format
+msgid "Mouse Keys: Press &Shift;+NumLock"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:507
+#, no-c-format
+msgid "Sticky keys: Press &Shift; key 5 consecutive times"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:508
+#, no-c-format
+msgid "Slow keys: Hold down &Shift; for 8 seconds"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:509
+#, no-c-format
+msgid "Turn sticky keys and slow keys off after a certain period of inactivity"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:516
+#, no-c-format
+msgid "<guilabel>Notification</guilabel> with these options:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:520
+#, no-c-format
+msgid ""
+"Use the system bell whenever a gesture is used to turn an accessibility "
+"feature on or off"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:523
+#, no-c-format
+msgid ""
+"Show a confirmation dialog whenever a keyboard accessibility feature is "
+"turned on or off"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:525
+#, no-c-format
+msgid ""
+"If this option is checked, &kde; will show a confirmation dialog whenever a "
+"keyboard accessibility feature is turned on or off."
+msgstr ""
+
+#. Tag: member
+#: index.docbook:527
+#, no-c-format
+msgid ""
+"Ensure you know what you are doing if you uncheck it, as the keyboard "
+"accessibility settings will then always be applied without confirmation."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:530
+#, no-c-format
+msgid ""
+"Use &kde;'s system notification mechanism whenever a keyboard accessibility "
+"feature is turned on or off"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:537
+#, no-c-format
+msgid ""
+"Click the <guibutton>Configure Notifications</guibutton> button to open a "
+"dialog which allows you to edit the notifications for status changes of all "
+"keys."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:543
 #, no-c-format
 msgid "Screen Reader"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:335
+#: index.docbook:545
 #, no-c-format
 msgid ""
 "Install a screen reader application like <ulink url=\"https://en.wikipedia."
@@ -530,7 +836,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:340
+#: index.docbook:550
 #, no-c-format
 msgid ""
 "Test that sound from speech dispatcher works using the command <command>spd-"
@@ -538,7 +844,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:344
+#: index.docbook:554
 #, no-c-format
 msgid ""
 "In addition you need a text to speech synthesizer like &eg; "
@@ -546,7 +852,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:347
+#: index.docbook:557
 #, no-c-format
 msgid ""
 "Enable the screen reader in the checkbox, logout and restart your desktop "
@@ -554,7 +860,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:350
+#: index.docbook:560
 #, no-c-format
 msgid ""
 "For &plasma; itself, make sure to use the traditional <guilabel>Application "
@@ -562,4 +868,281 @@ msgid ""
 "(<keycombo action=\"simul\">&Alt;<keycap>F1</keycap></keycombo>). When "
 "pressing this shortcut, the menu should open and be read when navigating the "
 "menu with the arrow keys."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:569
+#, no-c-format
+msgid "Color Blindness Correction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:571
+#, no-c-format
+msgid ""
+"It is an accessibility tool designed to help users with color vision "
+"deficiencies better distinguish between colors on their screen."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:574
+#, no-c-format
+msgid ""
+"Unlike simple filters that change the <quote>look</quote> of the desktop, "
+"this feature uses <ulink url=\"https://en.wikipedia.org/wiki/Color_blindness"
+"\">daltonization algorithms</ulink>. These algorithms shift problematic "
+"color frequencies into parts of the spectrum that the user can see more "
+"clearly, helping to restore contrast that would otherwise be lost."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:577
+#, no-c-format
+msgid "Main objectives:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:582
+#, no-c-format
+msgid ""
+"Many interfaces use color to convey meaning (&eg;, green for <quote>success</"
+"quote> and red for <quote>error</quote>). For someone with protanopia or "
+"deuteranopia, these may look identical. The correction pane shifts these "
+"colors so the distinction becomes visible."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:587
+#, no-c-format
+msgid ""
+"It ensures that buttons, graphs, and highlighted text are legible, "
+"regardless of the original design's color palette."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:592
+#, no-c-format
+msgid ""
+"Because it is handled at the compositor level (&kwin;), the correction "
+"applies to everything—web browsers, specialized engineering software, "
+"videos, and the desktop interface itself."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:597
+#, no-c-format
+msgid ""
+"The pane typically offers adjustments for the three primary types of color "
+"blindness:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:602
+#, no-c-format
+msgid "Protanopia: Red-blindness (difficulty seeing red light)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:607
+#, no-c-format
+msgid "Deuteranopia: Green-blindness (the most common form)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:612
+#, no-c-format
+msgid ""
+"Tritanopia: Blue-blindness (rarer, difficulty distinguishing blue and "
+"yellow)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:617
+#, no-c-format
+msgid ""
+"The <guilabel>Problematic colors</guilabel> selection: You select the "
+"specific type of deficiency."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:620
+#, no-c-format
+msgid ""
+"The <guilabel>Intensity</guilabel> slider: This is the most important part "
+"of the pane. It allows you to adjust the strength of the shift. Since color "
+"vision is a spectrum, a \"one size fits all\" filter rarely works; the "
+"slider lets you fine-tune the correction to your specific vision."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:624
+#, no-c-format
+msgid ""
+"These filters are intended for accessibility, not for color-accurate work "
+"like professional photo editing or digital painting. Because they shift the "
+"color spectrum to make it \"readable,\" the colors on the screen will no "
+"longer match the \"true\" hex codes or print values of the files you are "
+"viewing."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:628
+#, no-c-format
+msgid ""
+"You can control the results using <guilabel>Adjusted colors</guilabel> "
+"swatches."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:634
+#, no-c-format
+msgid "Invert"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:636
+#, no-c-format
+msgid ""
+"This pane configures a tool to flip the color values of your screen—turning "
+"white pixels to black, blues to oranges, and so on. This is handled by the "
+"&kwin; window manager as a post-processing effect."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:639
+#, no-c-format
+msgid ""
+"While it might look like a <quote>Negative</quote> photo filter, its primary "
+"purposes are functional rather than aesthetic:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:642
+#, no-c-format
+msgid ""
+"For users with specific visual impairments, such as photophobia (light "
+"sensitivity) or certain types of low vision, a standard bright screen can "
+"cause physical pain or make text appear blurry due to <quote>light bleed.</"
+"quote>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:645
+#, no-c-format
+msgid ""
+"Inverting the screen turns bright backgrounds dark and dark text light, "
+"significantly reducing the amount of light emitted by the monitor while "
+"maintaining the contrast needed to read."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:648
+#, no-c-format
+msgid ""
+"While most modern applications have native dark modes, some older software "
+"or specific web pages are hard-coded with white backgrounds."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:651
+#, no-c-format
+msgid ""
+"The Invert tool acts as a <quote>universal dark mode.</quote> If an "
+"application doesn't support a dark theme, you can force the colors to invert "
+"to save your eyes during late-night work sessions."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:654
+#, no-c-format
+msgid ""
+"You can switch on the inversion using the <guilabel>Invert</guilabel> "
+"checkbox and <guibutton>Configure Shortcuts...</guibutton> for this action."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:660
+#, no-c-format
+msgid "Shake Pointer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:662
+#, no-c-format
+msgid ""
+"In the &plasma; desktop environment, the <guilabel>Shake Pointer</guilabel> "
+"(often colloquially called \"Shake to Find\") is an accessibility and "
+"productivity feature designed to solve the \"lost cursor\" problem."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:665
+#, no-c-format
+msgid ""
+"If you are using a multi-monitor setup, an ultra-high-resolution display, or "
+"simply have a dark wallpaper, it is remarkably easy to lose track of where "
+"the mouse cursor is. The purpose of this feature is to provide an immediate "
+"visual clue to help you locate it."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:668
+#, no-c-format
+msgid ""
+"When the feature is enabled, the system monitors the velocity and direction "
+"of mouse movements. If it detects a rapid back-and-forth \"shaking\" motion:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:673
+#, no-c-format
+msgid "Temporary enlargement: The cursor increases in size to the large scale."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:678
+#, no-c-format
+msgid ""
+"Visual focus: This sudden change in scale catches the human eye’s peripheral "
+"vision, instantly revealing the cursor's coordinates."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:683
+#, no-c-format
+msgid ""
+"Automatic reset: As soon as you stop shaking the mouse, the cursor shrinks "
+"back to its normal size."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:688
+#, no-c-format
+msgid "There are several options on this panel."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:692
+#, no-c-format
+msgid "Shake pointer to find it"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:694
+#, no-c-format
+msgid "If this option is enabled, &plasma; enables the shake ponter effect."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:700
+#, no-c-format
+msgid "Magnification"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:702
+#, no-c-format
+msgid ""
+"Here you can specify pointer magnification level for <guilabel>Normal</"
+"guilabel> and <guilabel>Large</guilabel> pointer size."
 msgstr ""
