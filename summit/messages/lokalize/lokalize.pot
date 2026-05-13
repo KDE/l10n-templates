@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lokalize\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-12 08:44+0200\n"
+"POT-Creation-Date: 2026-05-13 11:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1664,21 +1664,21 @@ msgid "Clear All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/editortab.cpp:1587 src/project/projecttab.cpp:281
+#: src/editortab.cpp:1587 src/project/projecttab.cpp:290
 #, kde-format
 msgid "A Pology check is already in progress."
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/editortab.cpp:1587 src/editortab.cpp:1595 src/editortab.cpp:1599
-#: src/project/projecttab.cpp:281 src/project/projecttab.cpp:289
-#: src/project/projecttab.cpp:293
+#: src/project/projecttab.cpp:290 src/project/projecttab.cpp:298
+#: src/project/projecttab.cpp:302
 #, kde-format
 msgid "Pology error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/editortab.cpp:1595 src/project/projecttab.cpp:289
+#: src/editortab.cpp:1595 src/project/projecttab.cpp:298
 #, kde-format
 msgid ""
 "The Pology check has crashed unexpectedly:\n"
@@ -1686,7 +1686,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/editortab.cpp:1597 src/project/projecttab.cpp:291
+#: src/editortab.cpp:1597 src/project/projecttab.cpp:300
 #, kde-format
 msgid "Pology success"
 msgstr ""
@@ -1698,7 +1698,7 @@ msgid "The Pology check has succeeded."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/editortab.cpp:1599 src/project/projecttab.cpp:293
+#: src/editortab.cpp:1599 src/project/projecttab.cpp:302
 #, kde-format
 msgid ""
 "The Pology check has returned an error:\n"
@@ -1875,7 +1875,7 @@ msgstr ""
 #. i18n: ectx: Menu (edit)
 #. +> trunk6 stable6
 #: src/editorui.rc:39 src/filesearch/filesearchtabui.rc:11
-#: src/lokalizemainwindowui.rc:55 src/project/projectmanagerui.rc:24
+#: src/lokalizemainwindowui.rc:55 src/project/projectmanagerui.rc:25
 #: src/tm/translationmemoryrui.rc:11
 #, kde-format
 msgid "&Edit"
@@ -1921,7 +1921,7 @@ msgstr ""
 #. i18n: ectx: Menu (merge)
 #. +> trunk6 stable6
 #: src/editorui.rc:193 src/filesearch/filesearchtabui.rc:17
-#: src/lokalizemainwindowui.rc:63 src/project/projectmanagerui.rc:27
+#: src/lokalizemainwindowui.rc:63 src/project/projectmanagerui.rc:28
 #: src/tm/translationmemoryrui.rc:17
 #, kde-format
 msgid "S&ync"
@@ -1944,7 +1944,7 @@ msgstr ""
 #. i18n: ectx: ToolBar (mainToolBar)
 #. +> trunk6 stable6
 #: src/editorui.rc:240 src/filesearch/filesearchtabui.rc:21
-#: src/project/projectmanagerui.rc:31 src/tm/translationmemoryrui.rc:21
+#: src/project/projectmanagerui.rc:32 src/tm/translationmemoryrui.rc:21
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -2425,7 +2425,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/lokalizemainwindow.cpp:120 src/lokalizemainwindow.cpp:742
-#: src/project/projecttab.cpp:155
+#: src/project/projecttab.cpp:164
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Project…"
@@ -2472,7 +2472,7 @@ msgid "Translation Memory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:677 src/project/projecttab.cpp:152
+#: src/lokalizemainwindow.cpp:677 src/project/projecttab.cpp:161
 #, kde-format
 msgctxt "@title actions category"
 msgid "Project"
@@ -4208,75 +4208,89 @@ msgctxt "@action:inmenu"
 msgid "Hide fully translated files and folders"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/project/projecttab.cpp:185
+#. +> trunk6
+#: src/project/projecttab.cpp:151
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Open selected files"
+msgid "Expand Untranslated Folders"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/project/projecttab.cpp:188
+#. +> trunk6
+#: src/project/projecttab.cpp:152
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Open"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/project/projecttab.cpp:191
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Add to translation memory"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/project/projecttab.cpp:193
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Search in files"
+msgid "Open the directory tree to untranslated files"
 msgstr ""
 
 #. +> trunk6 stable6
 #: src/project/projecttab.cpp:194
 #, kde-format
 msgctxt "@action:inmenu"
+msgid "Open selected files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:197
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:200
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to translation memory"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:202
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search in files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:203
+#, kde-format
+msgctxt "@action:inmenu"
 msgid "Add a comment"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projecttab.cpp:196
+#: src/project/projecttab.cpp:205
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Launch Pology on files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projecttab.cpp:199
+#: src/project/projecttab.cpp:208
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search in files (including templates)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projecttab.cpp:226
+#: src/project/projecttab.cpp:235
 #, kde-format
 msgid "Project file comment"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projecttab.cpp:226
+#: src/project/projecttab.cpp:235
 #, kde-format
 msgid "Input a comment for this project file:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projecttab.cpp:291
+#: src/project/projecttab.cpp:300
 #, kde-format
 msgid "The Pology check has succeeded"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projecttab.cpp:310
+#: src/project/projecttab.cpp:319
 #, kde-format
 msgid "You are about to open %1 file"
 msgid_plural "You are about to open %1 files"
@@ -4284,19 +4298,19 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: src/project/projecttab.cpp:311
+#: src/project/projecttab.cpp:320
 #, kde-format
 msgid "Opening a large number of files at the same time can make Lokalize unresponsive."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projecttab.cpp:312
+#: src/project/projecttab.cpp:321
 #, kde-format
 msgid "Are you sure you want to open this many files?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projecttab.cpp:313
+#: src/project/projecttab.cpp:322
 #, kde-format
 msgid "&Open %1 File"
 msgid_plural "&Open %1 Files"
