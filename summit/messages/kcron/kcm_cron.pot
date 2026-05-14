@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-08 01:03+0100\n"
+"POT-Creation-Date: 2026-05-14 09:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -657,62 +657,97 @@ msgid "End of script execution. Type Enter or Ctrl+C to exit."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/taskvalidator.cpp:105
+#: src/taskvalidator.cpp:109
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<message>Choose a program to run</message>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/taskvalidator.cpp:113 src/taskvalidator.cpp:120
+#: src/taskvalidator.cpp:117 src/taskvalidator.cpp:124
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<message>Please type a valid command line</message>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/taskvalidator.cpp:136
+#: src/taskvalidator.cpp:140
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<message>File exists but is not executable: <filename>%1</filename></message>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/taskvalidator.cpp:141
+#: src/taskvalidator.cpp:145
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<message>File not found: <filename>%1</filename></message>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/taskvalidator.cpp:161
+#: src/taskvalidator.cpp:165
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<message>Command not found: <command>%1</command></message>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/taskvalidator.cpp:181
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<message>Please select from the <emphasis strong=\"1\">Months</emphasis> section</message>"
+msgstr ""
+
+#. +> stable6
 #: src/taskvalidator.cpp:177
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<message>Please select from the <b>Months</b> section</message>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/taskvalidator.cpp:199
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<message>Please select from the <emphasis strong=\"1\">Days of Month</emphasis> section</message>"
+msgstr ""
+
+#. +> trunk6
+#: src/taskvalidator.cpp:217
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<message>Please select from the <emphasis strong=\"1\">Days of Week</emphasis> section</message>"
+msgstr ""
+
+#. +> stable6
 #: src/taskvalidator.cpp:202
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<message>Please select from either the <b>Days of Month</b> or the <b>Days of Week</b> section</message>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/taskvalidator.cpp:235
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<message>Please select from the <emphasis strong=\"1\">Hours</emphasis> section</message>"
+msgstr ""
+
+#. +> stable6
 #: src/taskvalidator.cpp:220
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<message>Please select from the <b>Hours</b> section</message>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/taskvalidator.cpp:253
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<message>Please select from the <emphasis strong=\"1\">Minutes</emphasis> section</message>"
+msgstr ""
+
+#. +> stable6
 #: src/taskvalidator.cpp:238
 #, kde-kuit-format
 msgctxt "@info"
