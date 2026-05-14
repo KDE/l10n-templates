@@ -1,0 +1,826 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the print-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: print-manager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-12 00:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/configure-printer/ConfigureDialog.cpp:93
+#: src/configure-printer/ConfigureDialog.cpp:94
+#, kde-format
+msgid "Media Settings"
+msgstr ""
+
+#: src/configure-printer/ConfigureDialog.cpp:101
+#: src/configure-printer/ConfigureDialog.cpp:102
+#, kde-format
+msgid "Banners, Policies and Allowed Users"
+msgstr ""
+
+#: src/configure-printer/ConfigureDialog.cpp:171
+#, kde-format
+msgid ""
+"The current page has changes.\n"
+"Do you want to save them?"
+msgstr ""
+
+#: src/configure-printer/ConfigureDialog.cpp:173
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: src/configure-printer/main.cpp:25
+#, kde-format
+msgid "Configure Printer"
+msgstr ""
+
+#: src/configure-printer/main.cpp:27
+#, kde-format
+msgid "ConfigurePrinter"
+msgstr ""
+
+#: src/configure-printer/main.cpp:29
+#, kde-format
+msgid "(C) 2010-2018 Daniel Nicoletti"
+msgstr ""
+
+#: src/configure-printer/main.cpp:31
+#, kde-format
+msgid "Port to Qt 5 / Plasma 5"
+msgstr ""
+
+#: src/configure-printer/main.cpp:32
+#, kde-format
+msgid "Port to Qt 6 / Plasma 6"
+msgstr ""
+
+#: src/configure-printer/main.cpp:39
+#, kde-format
+msgid "Printer to be configured"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:192
+#, kde-format
+msgid "Abort job"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:194
+#, kde-format
+msgid "Retry current job"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:196
+#, kde-format
+msgid "Retry job"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:198
+#, kde-format
+msgid "Stop printer"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:207
+#, kde-format
+msgid "Authenticated"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:209
+#, kde-format
+msgid "Default"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:218
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:220
+#, kde-format
+msgid "Classified"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:222
+#, kde-format
+msgid "Confidential"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:224
+#, kde-format
+msgid "Secret"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:226
+#, kde-format
+msgid "Standard"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:228
+#, kde-format
+msgid "Topsecret"
+msgstr ""
+
+#: src/configure-printer/PrinterBehavior.cpp:230
+#, kde-format
+msgid "Unclassified"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, BanneryGB)
+#: src/configure-printer/PrinterBehavior.ui:20
+#, kde-format
+msgid "Banners"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/configure-printer/PrinterBehavior.ui:26
+#, kde-format
+msgid "Starting Banner:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/configure-printer/PrinterBehavior.ui:46
+#, kde-format
+msgid "Ending Banner:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, PoliciesGB)
+#: src/configure-printer/PrinterBehavior.ui:81
+#, kde-format
+msgid "Policies"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/configure-printer/PrinterBehavior.ui:87
+#, kde-format
+msgid "Operation Policy:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/configure-printer/PrinterBehavior.ui:100
+#, kde-format
+msgid "Error Policy:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, AllowGB)
+#: src/configure-printer/PrinterBehavior.ui:133
+#, kde-format
+msgid "Allowed Users"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, preventRB)
+#: src/configure-printer/PrinterBehavior.ui:139
+#, kde-format
+msgid "Pre&vent these users from printing "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, allowRB)
+#: src/configure-printer/PrinterBehavior.ui:146
+#, kde-format
+msgid "A&llow these users to print"
+msgstr ""
+
+#: src/configure-printer/PrinterOptions.cpp:52
+#, kde-format
+msgid "Set Default Options"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, autoConfigurePB)
+#: src/configure-printer/PrinterOptions.ui:26
+#, kde-format
+msgid "Query Printer for Default Options"
+msgstr ""
+
+#: src/kcm/printermanager.cpp:99
+#, kde-format
+msgid "Add a new printer"
+msgstr ""
+
+#: src/kcm/printermanager.cpp:101
+#, kde-format
+msgid "Add a new printer group"
+msgstr ""
+
+#: src/kcm/printermanager.cpp:103 src/kcm/printermanager.cpp:105
+#, kde-format
+msgid "Configure a printer"
+msgstr ""
+
+#: src/kcm/printermanager.cpp:324
+#, kde-format
+msgctxt "@list:item"
+msgid "IPP Everywhere™"
+msgstr ""
+
+#: src/kcm/printermanager.cpp:351
+#, kde-format
+msgctxt "@list:item"
+msgid "Driverless"
+msgstr ""
+
+#: src/kcm/printermanager.cpp:354
+#, kde-format
+msgctxt "@list:item"
+msgid "PPD File"
+msgstr ""
+
+#: src/kcm/printermanager.cpp:396
+#, kde-format
+msgctxt "@info"
+msgid "Failed to get server settings: %1"
+msgstr ""
+
+#: src/kcm/printermanager.cpp:433
+#, kde-format
+msgctxt "@info"
+msgid "Server Settings Not Saved: (%1): %2"
+msgstr ""
+
+#: src/kcm/printermanager.cpp:440
+#, kde-format
+msgctxt "@info"
+msgid "Fatal Save Server Settings: (%1): %2"
+msgstr ""
+
+#: src/kcm/scpinstaller.cpp:71
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Install Error (package: %1)\n"
+"Check authentication credentials and make sure PackageKit is installed "
+"properly."
+msgstr ""
+
+#: src/kded/MarkerLevelChecker.cpp:194
+#, kde-format
+msgctxt "@info:usagetip The name and type of the ink cartridge"
+msgid "%1 (%2) appears to be empty."
+msgstr ""
+
+#: src/kded/MarkerLevelChecker.cpp:197
+#, kde-format
+msgctxt ""
+"@info:usagetip The name and type of the ink cartridge and percent ink "
+"remaining"
+msgid "%1 (%2) appears to be low (%3% remaining)."
+msgstr ""
+
+#: src/kded/MarkerLevelChecker.cpp:204
+#, kde-format
+msgctxt ""
+"@info:usagetip The name, type, and percentage full of the waste receptacle"
+msgid "%1 (%2) is almost full (%3%)"
+msgstr ""
+
+#: src/kded/MarkerLevelChecker.cpp:219
+#, kde-format
+msgctxt "@action:button check printer ink levels"
+msgid "Check Levels…"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:100
+#, kde-format
+msgid "The New Printer was added"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:102
+#, kde-format
+msgid "The New Printer might have a driver problem"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:150
+#, kde-format
+msgid "Printer queue was not created"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:152
+#, kde-format
+msgid "Printer driver not found for %1 %2"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:154
+#, kde-format
+msgid "Printer driver not found for %1"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:156
+#, kde-format
+msgid "Printer driver not found for this printer"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:158
+#, kde-format
+msgid "Add Printer…"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:215
+#, kde-format
+msgid "'%1' has been added, please check its driver"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:216
+#: src/kded/NewPrinterNotification.cpp:247
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:221
+#, kde-format
+msgid "'%1' has been added, using the '%2' driver"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:223
+#: src/kded/NewPrinterNotification.cpp:242
+#, kde-format
+msgid "Print test page"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:228
+#, kde-format
+msgid "Check driver"
+msgstr ""
+
+#: src/kded/NewPrinterNotification.cpp:240
+#, kde-format
+msgid "'%1' is ready for printing."
+msgstr ""
+
+#: src/libkcups/CommandHelpers.cpp:94
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure class: "
+msgstr ""
+
+#: src/libkcups/CommandHelpers.cpp:94
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure printer: "
+msgstr ""
+
+#: src/libkcups/CommandHelpers.cpp:138
+#, kde-format
+msgid "Print Self-Test Page"
+msgstr ""
+
+#: src/libkcups/CommandHelpers.cpp:144
+#, kde-format
+msgid "Clean Print Heads"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:51
+#, kde-format
+msgctxt "@item"
+msgid "Manual Config"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:63
+#, kde-format
+msgid "Parallel Port"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:65
+#, kde-format
+msgid "Serial Port"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:67
+#, kde-format
+msgid "USB"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:69
+#, kde-format
+msgid "Bluetooth"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:71
+#, kde-format
+msgid "Fax - HP Linux Imaging and Printing (HPLIP)"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:73
+#, kde-format
+msgid "HP Linux Imaging and Printing (HPLIP)"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:75
+#, kde-format
+msgid "Hardware Abstraction Layer (HAL)"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:77
+#, kde-format
+msgid "AppSocket/HP JetDirect"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:82
+#, kde-format
+msgid "LPD/LPR queue"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:84
+#, kde-format
+msgid "LPD/LPR queue %1"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:87
+#, kde-format
+msgid "Windows Printer via SAMBA"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:92
+#, kde-format
+msgid "IPP"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:94
+#, kde-format
+msgid "IPP %1"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:97
+#, kde-format
+msgid "HTTP"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:102
+#, kde-format
+msgid "Remote CUPS printer via DNS-SD"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:105
+#, kde-format
+msgid "IPP network printer via DNS-SD"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:107
+#, kde-format
+msgid "LPD network printer via DNS-SD"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:109
+#, kde-format
+msgid "AppSocket/JetDirect network printer via DNS-SD"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:111
+#, kde-format
+msgid "Network printer via DNS-SD"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:123
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected to the parallel port"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected via Bluetooth"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:125
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:126
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:127
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:128
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "IPP Network printer via IPP"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:129
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected to a USB port"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:135
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remote CUPS printer via DNS-SD"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:147
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Network printer via DNS-SD"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:149
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1 network printer via DNS-SD"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:224
+#, kde-format
+msgid "Failed to get a list of devices: '%1'"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:260
+#, kde-format
+msgid "Failed to group devices: '%1'"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:389
+#, kde-format
+msgctxt "@item"
+msgid "Discovered Network Printers"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:395
+#, kde-format
+msgctxt "@item"
+msgid "Other Network Printers"
+msgstr ""
+
+#: src/libkcups/DevicesModel.cpp:401
+#, kde-format
+msgctxt "@item"
+msgid "Local Printers"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:26
+#, kde-format
+msgid "Status"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:27
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:28
+#, kde-format
+msgid "User"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:29
+#, kde-format
+msgid "Created"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:30 src/libkcups/JobModel.cpp:451
+#, kde-format
+msgid "Completed"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:31
+#, kde-format
+msgid "Pages"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:32
+#, kde-format
+msgid "Processed"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:33
+#, kde-format
+msgid "Size"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:34
+#, kde-format
+msgid "Status Message"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:35
+#, kde-format
+msgid "Printer"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:36
+#, kde-format
+msgid "From Hostname"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:167
+#, kde-format
+msgctxt "@info:progress The job name (%1) and the printer name (%2)"
+msgid "Processing\t%1 [%2]"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:233
+#, kde-format
+msgctxt ""
+"@info:status The processing detail message (%1), the job name (%2) and the "
+"printer name (%3)"
+msgid "%1\t%2 [%3]"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:445
+#, kde-format
+msgid "Pending"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:446
+#, kde-format
+msgid "On hold"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:448
+#, kde-format
+msgid "Stopped"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:449
+#, kde-format
+msgid "Canceled"
+msgstr ""
+
+#: src/libkcups/JobModel.cpp:450
+#, kde-format
+msgid "Aborted"
+msgstr ""
+
+#: src/libkcups/KCupsConnection.cpp:728
+#, kde-format
+msgid "A CUPS connection requires authentication: \"%1\""
+msgstr ""
+
+#: src/libkcups/KCupsPasswordDialog.cpp:22
+#, kde-format
+msgid "Enter an username and a password to complete the task"
+msgstr ""
+
+#: src/libkcups/KCupsPasswordDialog.cpp:44
+#, kde-format
+msgid "Wrong username or password"
+msgstr ""
+
+#: src/libkcups/KCupsRequest.cpp:31
+#, kde-format
+msgid "Print service is unavailable"
+msgstr ""
+
+#: src/libkcups/KCupsRequest.cpp:33
+#, kde-format
+msgid "Not found"
+msgstr ""
+
+#: src/libkcups/KCupsRequest.cpp:390
+#, kde-format
+msgid "Test Page"
+msgstr ""
+
+#: src/libkcups/KCupsRequest.cpp:418
+#, kde-format
+msgid "Unable to send command to printer driver!"
+msgstr ""
+
+#: src/libkcups/KCupsRequest.cpp:546
+#, kde-format
+msgid "Failed to invoke method: %1"
+msgstr ""
+
+#: src/libkcups/PPDModel.cpp:86
+#, kde-format
+msgid "Empty ppd model"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:196
+#, kde-format
+msgid "Printers"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:384
+#, kde-format
+msgid "Idle"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:384
+#, kde-format
+msgid "Idle, rejecting jobs"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:386
+#, kde-format
+msgid "Idle - '%1'"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:386
+#, kde-format
+msgid "Idle, rejecting jobs - '%1'"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:390
+#, kde-format
+msgid "In use"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:392
+#, kde-format
+msgid "In use - '%1'"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:396
+#, kde-format
+msgid "Paused"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:396
+#, kde-format
+msgid "Paused, rejecting jobs"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:398
+#, kde-format
+msgid "Paused - '%1'"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:398
+#, kde-format
+msgid "Paused, rejecting jobs - '%1'"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:402
+#, kde-format
+msgid "Unknown"
+msgstr ""
+
+#: src/libkcups/PrinterModel.cpp:404
+#, kde-format
+msgid "Unknown - '%1'"
+msgstr ""
+
+#: src/print-queue/main.cpp:38
+#, kde-format
+msgctxt "@info:credit"
+msgid "Plasma Print Queue Manager"
+msgstr ""
+
+#: src/print-queue/main.cpp:40
+#, kde-format
+msgctxt "@info:credit"
+msgid "Manage printer job queues"
+msgstr ""
+
+#: src/print-queue/main.cpp:42
+#, kde-format
+msgid "© KDE Community"
+msgstr ""
+
+#: src/print-queue/main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Mike Noe"
+msgstr ""
+
+#: src/print-queue/main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr ""
+
+#: src/print-queue/main.cpp:48
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: src/print-queue/main.cpp:48
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: src/print-queue/main.cpp:58
+#, kde-format
+msgid "Show printer queue"
+msgstr ""
+
+#: src/print-queue/PrintQueue.cpp:82
+#, kde-format
+msgid "Enter credentials to print from <b>%1</b>"
+msgstr ""
