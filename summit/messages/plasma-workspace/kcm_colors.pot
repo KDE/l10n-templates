@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-24 14:06+0200\n"
+"POT-Creation-Date: 2026-05-14 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -782,7 +782,13 @@ msgid ""
 "Do you want to overwrite it?"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: editor/scmeditordialog.cpp:176
+#, kde-format
+msgid "You do not have permission to overwrite that scheme"
+msgstr ""
+
+#. +> trunk6 stable6
 #: editor/scmeditordialog.cpp:178
 #, kde-format
 msgid "This scheme is read-only. Please save the modifications with another name."
@@ -792,12 +798,6 @@ msgstr ""
 #: editor/scmeditordialog.cpp:178
 #, kde-format
 msgid "Error"
-msgstr ""
-
-#. +> stable6 stable5
-#: editor/scmeditordialog.cpp:178
-#, kde-format
-msgid "You do not have permission to overwrite that scheme"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -1539,28 +1539,34 @@ msgstr ""
 msgid "Light Schemes"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: package/contents/ui/main.qml:531
+#, kde-format
+msgid "Get New Color Schemes…"
+msgstr ""
+
+#. +> trunk6 stable6
 #: ui/main.qml:312
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove color scheme"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:314
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cannot delete the active color scheme"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:316
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cannot delete system-installed color schemes"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:324
 #, kde-format
 msgid "Don’t delete this color scheme"
@@ -1590,18 +1596,6 @@ msgstr ""
 msgid "Dark Schemes"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:323
-#, kde-format
-msgid "Remove Color Scheme"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:330
-#, kde-format
-msgid "Restore Color Scheme"
-msgstr ""
-
 #. +> stable5
 #: package/contents/ui/main.qml:144
 #, kde-format
@@ -1609,9 +1603,15 @@ msgid "From current color scheme"
 msgstr ""
 
 #. +> stable5
-#: package/contents/ui/main.qml:531
+#: package/contents/ui/main.qml:475
 #, kde-format
-msgid "Get New Color Schemes…"
+msgid "Remove Color Scheme"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:482
+#, kde-format
+msgid "Restore Color Scheme"
 msgstr ""
 
 #. +> trunk6 stable6 stable5

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-25 09:57+0100\n"
+"POT-Creation-Date: 2026-05-14 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -50,7 +50,7 @@ msgctxt "@item:inlistbox switching times"
 msgid "Always off"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:59
 #, kde-format
 msgctxt "@item:inlistbox switching times"
@@ -64,13 +64,6 @@ msgctxt "@item:inlistbox switching times"
 msgid "Sunrise and sunset"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:59
-#, kde-format
-msgctxt "@item:inlistbox switching times"
-msgid "Always on night light"
-msgstr ""
-
 #. +> trunk6 stable6
 #: ui/main.qml:72
 #, kde-format
@@ -78,18 +71,11 @@ msgctxt "@action:button Configure day-night cycle times"
 msgid "Configure…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:115 ui/main.qml:166 ui/main.qml:230
 #, kde-format
 msgctxt "Color temperature in Kelvin"
 msgid "%1 K"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:115 ui/main.qml:166 ui/main.qml:230
-#, kde-format
-msgctxt "Color temperature in Kelvin"
-msgid "%1K"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -215,6 +201,13 @@ msgstr ""
 #: package/contents/ui/main.qml:186
 #, kde-format
 msgid "Day color temperature:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:229 package/contents/ui/main.qml:288
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1K"
 msgstr ""
 
 #. +> stable5

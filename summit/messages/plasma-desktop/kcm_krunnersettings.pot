@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-19 10:37+0100\n"
+"POT-Creation-Date: 2026-05-14 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -56,6 +56,12 @@ msgstr ""
 msgid "Center"
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/main.qml:53
+#, kde-format
+msgid "Activation:"
+msgstr ""
+
 #. +> trunk6 stable6
 #: ui/main.qml:55
 #, kde-format
@@ -64,22 +70,16 @@ msgid "History:"
 msgstr ""
 
 #. +> stable5
-#: package/contents/ui/main.qml:69
+#: package/contents/ui/main.qml:56
 #, kde-format
-msgid "History:"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:55
-#, kde-format
-msgctxt "@label prefix for checkbutton"
-msgid "Activation:"
+msgctxt "@option:check"
+msgid "Activate when pressing any key on the desktop"
 msgstr ""
 
 #. +> stable5
-#: package/contents/ui/main.qml:53
+#: package/contents/ui/main.qml:69
 #, kde-format
-msgid "Activation:"
+msgid "History:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -87,34 +87,6 @@ msgstr ""
 #, kde-format
 msgctxt "@option:radio History is disabled"
 msgid "Disabled"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:58
-#, kde-format
-msgctxt "@option:check"
-msgid "Activate when pressing any key on the desktop"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:72
-#, kde-format
-msgctxt "@option:check"
-msgid "Remember past searches"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:83
-#, kde-format
-msgctxt "@option:check"
-msgid "Retain last search when re-opening"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:94
-#, kde-format
-msgctxt "@option:check"
-msgid "Activity-aware (last search and history)"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -131,11 +103,32 @@ msgctxt "@option:radio The thing being enabled is search history"
 msgid "Enable auto-complete"
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgctxt "@option:check"
+msgid "Remember past searches"
+msgstr ""
+
 #. +> trunk6 stable6
 #: ui/main.qml:76
 #, kde-format
 msgctxt "@action:button"
 msgid "Clear History…"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:83
+#, kde-format
+msgctxt "@option:check"
+msgid "Retain last search when re-opening"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:94
+#, kde-format
+msgctxt "@option:check"
+msgid "Activity-aware (last search and history)"
 msgstr ""
 
 #. +> stable5

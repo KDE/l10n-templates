@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-23 08:43+0200\n"
+"POT-Creation-Date: 2026-05-14 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -23,8 +23,8 @@ msgstr ""
 msgid "Critical error on reading fundamental device infos for touchpad %1."
 msgstr ""
 
-#. +> stable6 stable5
-#: backends/kwin_wayland/kwinwaylandbackend.cpp:59
+#. +> stable5
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:63
 #, kde-format
 msgid "Querying input devices failed. Please reopen this settings module."
 msgstr ""
@@ -91,7 +91,7 @@ msgstr ""
 msgid "Roman Gilg"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcm.cpp:69
 #, kde-format
 msgid "Not able to select appropriate backend"
@@ -103,14 +103,14 @@ msgstr ""
 msgid "Error while loading values. See logs for more information. Please restart this configuration module."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcm.cpp:129
 #, kde-format
 msgid "No pointer device found. Connect now."
 msgstr ""
 
-#. +> stable6 stable5
-#: kcm.cpp:110
+#. +> stable5
+#: kcm/libinput/touchpadconfiglibinput.cpp:94
 #, kde-format
 msgid "No touchpad found. Connect touchpad now."
 msgstr ""
@@ -133,26 +133,26 @@ msgstr ""
 msgid "Error while adding newly connected device. Please reconnect it and restart this configuration module."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcm.cpp:185
 #, kde-format
 msgid "Pointer device disconnected. Closed its setting dialog."
 msgstr ""
 
-#. +> stable6 stable5
-#: kcm.cpp:169
+#. +> stable5
+#: kcm/libinput/touchpadconfiglibinput.cpp:165
 #, kde-format
 msgid "Touchpad disconnected. Closed its setting dialog."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcm.cpp:187
 #, kde-format
 msgid "Pointer device disconnected. No other devices found."
 msgstr ""
 
-#. +> stable6 stable5
-#: kcm.cpp:171
+#. +> stable5
+#: kcm/libinput/touchpadconfiglibinput.cpp:167
 #, kde-format
 msgid "Touchpad disconnected. No other touchpads found."
 msgstr ""

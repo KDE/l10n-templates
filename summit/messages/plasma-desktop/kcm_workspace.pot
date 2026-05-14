@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-23 08:43+0200\n"
+"POT-Creation-Date: 2026-05-14 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -132,17 +132,10 @@ msgstr ""
 msgid "Clicking in scrollbar track:"
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: ui/main.qml:95
 #, kde-format
 msgctxt "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls to the clicked location'"
-msgid "Scrolls to the clicked location"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:101
-#, kde-format
-msgctxt "@option:radio part of a complete sentence: 'Clicking in scrollbar track scrolls to the clicked location'"
 msgid "Scrolls to the clicked location"
 msgstr ""
 
@@ -173,17 +166,10 @@ msgstr ""
 msgid "Middle-click to scroll to clicked location"
 msgstr ""
 
-#. +> trunk6 stable5
+#. +> trunk6 stable6 stable5
 #: ui/main.qml:112
 #, kde-format
 msgctxt "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls one page up or down'"
-msgid "Scrolls one page up or down"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:119
-#, kde-format
-msgctxt "@option:radio part of a complete sentence: 'Clicking in scrollbar track scrolls one page up or down'"
 msgid "Scrolls one page up or down"
 msgstr ""
 
@@ -324,6 +310,12 @@ msgctxt "Test double-click speed"
 msgid "Double-click the folder to test. If it does not change its appearance, increase double-click interval."
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/main.qml:280
+#, kde-format
+msgid "In Touch Mode, many elements of the user interface will become larger to more easily accommodate touch interaction."
+msgstr ""
+
 #. +> trunk6 stable6
 #: ui/main.qml:306
 #, kde-format
@@ -373,21 +365,14 @@ msgctxt "@title:group"
 msgid "Touch"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:344
 #, kde-format
 msgctxt "@title:group prefix radiobutton group"
 msgid "Enable Tablet Mode:"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:416
-#, kde-format
-msgctxt "@title:group prefix radiobutton group"
-msgid "Enable Touch Mode:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:347
 #, kde-format
 msgctxt "As in: 'Tablet Mode is automatically enabled as needed'"
@@ -401,14 +386,7 @@ msgctxt "As in: 'Touch Mode is automatically enabled as needed'"
 msgid "Automatically enable as needed"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:418
-#, kde-format
-msgctxt "@option:radio As in: 'Touch Mode is automatically enabled as needed'"
-msgid "Automatically enable as needed"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:347
 #, kde-format
 msgctxt "As in: 'Tablet Mode is never enabled'"
@@ -422,25 +400,11 @@ msgctxt "As in: 'Touch Mode is never enabled'"
 msgid "Never enabled"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:418
-#, kde-format
-msgctxt "option:radio As in: 'Touch Mode is never enabled'"
-msgid "Never enabled"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:365
 #, kde-format
 msgctxt "@info:whatsthis contextualhelpbutton tooltip"
 msgid "Tablet Mode will be automatically enabled whenever the system detects a touchscreen but no mouse or touchpad. For example: when a transformable laptop's keyboard is flipped around or detached."
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:435
-#, kde-format
-msgctxt "@info:whatsthis contextualhelpbutton tooltip"
-msgid "Touch Mode will be automatically activated whenever the system detects a touchscreen but no mouse or touchpad. For example: when a transformable laptop's keyboard is flipped around or detached."
 msgstr ""
 
 #. +> stable5
@@ -449,7 +413,7 @@ msgstr ""
 msgid "Touch Mode will be automatically activated whenever the system detects a touchscreen but no mouse or touchpad. For example: when a transformable laptop's keyboard is flipped around or detached."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:371
 #, kde-format
 msgctxt "As in: 'Tablet Mode is always enabled'"
@@ -463,45 +427,18 @@ msgctxt "As in: 'Touch Mode is always enabled'"
 msgid "Always enabled"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:440
-#, kde-format
-msgctxt "As in: 'Touch Mode is always enabled'"
-msgid "Always active"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:393
 #, kde-format
 msgctxt "As in: 'Tablet Mode is never enabled'"
 msgid "Disabled"
 msgstr ""
 
-#. +> stable6
-#: ui/main.qml:463
-#, kde-format
-msgctxt "As in: 'Touch Mode is never enabled'"
-msgid "Disabled"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:394
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "In Tablet Mode, the virtual keyboard will appear when needed."
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:486
-#, kde-format
-msgctxt "@info:usagetip"
-msgid "In Touch Mode, many elements of the user interface will become larger to more easily accommodate touch interaction."
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:280
-#, kde-format
-msgid "In Touch Mode, many elements of the user interface will become larger to more easily accommodate touch interaction."
 msgstr ""
 
 #. i18n: ectx: label, entry (singleClick), group (KDE)

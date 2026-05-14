@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-08 06:30+0200\n"
+"POT-Creation-Date: 2026-05-14 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/BackgroundAppItem.qml:76
 #, kde-format
 msgctxt "@action:inmenu"
@@ -34,6 +34,12 @@ msgstr ""
 #: package/contents/ui/ConfigGeneral.qml:25
 #, kde-format
 msgid "Small"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:39
+#, kde-format
+msgid "Automatically enabled when in Touch Mode"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -176,17 +182,10 @@ msgstr ""
 msgid "Scale with Panel width"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:213
 #, kde-format
 msgctxt "@label:listbox Whether the system tray icons in the Panel always stay small or scale with the Panel's size"
-msgid "Panel icon size:"
-msgstr ""
-
-#. +> stable6
-#: qml/ConfigGeneral.qml:211
-#, kde-format
-msgctxt "@label:listbox The spacing between system tray icons in the Panel"
 msgid "Panel icon size:"
 msgstr ""
 
@@ -197,18 +196,39 @@ msgctxt "The arrangement of system tray icons in the Panel"
 msgid "Panel icon size:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:217
 #, kde-format
 msgctxt "@item:inlistbox Icon size"
 msgid "Small"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:237
 #, kde-format
 msgctxt "@label:listbox The spacing between system tray icons in the Panel"
 msgid "Spacing:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:48
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Panel icon spacing:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ConfigGeneral.qml:241
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
 msgstr ""
 
 #. +> stable5
@@ -229,39 +249,6 @@ msgstr ""
 msgid "Always hidden"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/ConfigEntries.qml:249
-#, kde-format
-msgid "Disabled"
-msgstr ""
-
-#. +> stable6 stable5
-#: qml/ConfigGeneral.qml:252
-#, kde-format
-msgctxt "@label:listbox The spacing between system tray icons in the Panel"
-msgid "Panel icon spacing:"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: qml/ConfigGeneral.qml:241
-#, kde-format
-msgctxt "@item:inlistbox Icon spacing"
-msgid "Small"
-msgstr ""
-
-#. +> stable6 stable5
-#: qml/ConfigGeneral.qml:244
-#, kde-format
-msgid "Automatically enabled when in Touch Mode"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: qml/ConfigGeneral.qml:245
-#, kde-format
-msgctxt "@item:inlistbox Icon spacing"
-msgid "Normal"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: qml/ConfigGeneral.qml:249
 #, kde-format
@@ -269,32 +256,38 @@ msgctxt "@item:inlistbox Icon spacing"
 msgid "Large"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: package/contents/ui/ConfigEntries.qml:249
+#, kde-format
+msgid "Disabled"
+msgstr ""
+
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:269
 #, kde-format
 msgctxt "@label:listbox Which direction system tray icons in the Panel emerge from the expander arrow"
 msgid "Direction:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:283
 #, kde-format
 msgid "Bottom-to-top"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:284
 #, kde-format
 msgid "Top-to-bottom"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:289 qml/ConfigGeneral.qml:296
 #, kde-format
 msgid "Left-to-right"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: qml/ConfigGeneral.qml:290 qml/ConfigGeneral.qml:295
 #, kde-format
 msgid "Right-to-left"

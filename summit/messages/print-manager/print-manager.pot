@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: print-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-12 08:45+0200\n"
+"POT-Creation-Date: 2026-05-14 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -295,12 +295,6 @@ msgctxt "@info"
 msgid "Fatal Save Server Settings: (%1): %2"
 msgstr ""
 
-#. +> stable6
-#: src/kcm/printermanager.cpp:484
-#, kde-format
-msgid "Failed to perform request: %1"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/kcm/scpinstaller.cpp:71
 #, kde-format
@@ -338,22 +332,10 @@ msgctxt "@action:button check printer ink levels"
 msgid "Check Levels…"
 msgstr ""
 
-#. +> stable6
-#: src/kded/NewPrinterNotification.cpp:64
-#, kde-format
-msgid "Starting printer configuration"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/kded/NewPrinterNotification.cpp:100
 #, kde-format
 msgid "The New Printer was added"
-msgstr ""
-
-#. +> stable6
-#: src/kded/NewPrinterNotification.cpp:63
-#, kde-format
-msgid "A New Printer was detected"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -746,14 +728,14 @@ msgstr ""
 msgid "From Hostname"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/libkcups/JobModel.cpp:167
 #, kde-format
 msgctxt "@info:progress The job name (%1) and the printer name (%2)"
 msgid "Processing\t%1 [%2]"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/libkcups/JobModel.cpp:233
 #, kde-format
 msgctxt "@info:status The processing detail message (%1), the job name (%2) and the printer name (%3)"
@@ -784,22 +766,10 @@ msgstr ""
 msgid "Canceled"
 msgstr ""
 
-#. +> stable6
-#: src/libkcups/JobModel.cpp:509 src/printqueue/PrintQueueUi.cpp:482
-#, kde-format
-msgid "Failed"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/libkcups/JobModel.cpp:450
 #, kde-format
 msgid "Aborted"
-msgstr ""
-
-#. +> stable6
-#: src/libkcups/JobModel.cpp:509 src/printqueue/PrintQueueUi.cpp:479
-#, kde-format
-msgid "Failed to move '%1' to '%2'"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -934,34 +904,34 @@ msgstr ""
 msgid "Unknown - '%1'"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/print-queue/main.cpp:38
 #, kde-format
 msgctxt "@info:credit"
 msgid "Plasma Print Queue Manager"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/print-queue/main.cpp:40
 #, kde-format
 msgctxt "@info:credit"
 msgid "Manage printer job queues"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/print-queue/main.cpp:42
 #, kde-format
 msgid "© KDE Community"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/print-queue/main.cpp:47
 #, kde-format
 msgctxt "@info:credit"
 msgid "Mike Noe"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/print-queue/main.cpp:47
 #, kde-format
 msgctxt "@info:credit"
@@ -982,7 +952,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/print-queue/main.cpp:58
 #, kde-format
 msgid "Show printer queue"
@@ -992,181 +962,4 @@ msgstr ""
 #: src/print-queue/PrintQueue.cpp:82
 #, kde-format
 msgid "Enter credentials to print from <b>%1</b>"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/main.cpp:24 src/printqueue/main.cpp:26
-#, kde-format
-msgid "Print Queue"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/main.cpp:39
-#, kde-format
-msgid "Show printer queue(s)"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:180
-#, kde-format
-msgid "Printer ready"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, pausePrinterPB)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:181 src/printqueue/PrintQueueUi.cpp:192
-#: src/printqueue/PrintQueueUi.ui:118
-#, kde-format
-msgid "Pause Printer"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:188
-#, kde-format
-msgid "Printing..."
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:190
-#, kde-format
-msgid "Printing '%1'"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:198
-#, kde-format
-msgid "Printer paused"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:199
-#, kde-format
-msgid "Resume Printer"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:203
-#, kde-format
-msgid "Printer state unknown"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:248
-#, kde-format
-msgid "Move to"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:280
-#, kde-format
-msgid "Authenticate"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:395
-#, kde-format
-msgid "All Printers (%1 Job)"
-msgid_plural "All Printers (%1 Jobs)"
-msgstr[0] ""
-msgstr[1] ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:397
-#, kde-format
-msgid "%2 (%1 Job)"
-msgid_plural "%2 (%1 Jobs)"
-msgstr[0] ""
-msgstr[1] ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:400
-#, kde-format
-msgid "All Printers"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:467
-#, kde-format
-msgid "Failed to cancel '%1'"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:470
-#, kde-format
-msgid "Failed to hold '%1'"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:473
-#, kde-format
-msgid "Failed to release '%1'"
-msgstr ""
-
-#. +> stable6
-#: src/printqueue/PrintQueueUi.cpp:476
-#, kde-format
-msgid "Failed to reprint '%1'"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, PrintQueueUi)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.ui:20
-#, kde-format
-msgid "my printer (x jobs)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, iconL)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.ui:49
-#, kde-format
-msgid "Printer Icon"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, cancelJobPB)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.ui:233
-#, kde-format
-msgid "Cancel"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, holdJobPB)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.ui:253
-#, kde-format
-msgid "Hold"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, resumeJobPB)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.ui:266
-#, kde-format
-msgid "Resume"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, reprintPB)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.ui:279
-#, kde-format
-msgid "Reprint"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, whichJobsCB)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.ui:312
-#, kde-format
-msgid "Active Jobs"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, whichJobsCB)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.ui:317
-#, kde-format
-msgid "Completed Jobs"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, whichJobsCB)
-#. +> stable6
-#: src/printqueue/PrintQueueUi.ui:322
-#, kde-format
-msgid "All Jobs"
 msgstr ""

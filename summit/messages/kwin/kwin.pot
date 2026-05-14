@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-14 09:35+0200\n"
+"POT-Creation-Date: 2026-05-14 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1505,7 +1505,7 @@ msgstr ""
 msgid "time"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/dialoghelper/dialoghelper.cpp:46
 #, kde-format
 msgid "The message to show (fullscreen, noborder)"
@@ -1524,7 +1524,7 @@ msgstr ""
 msgid "This helper utility is not supposed to be called directly."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/dialoghelper/dialoghelper.cpp:79
 #, kde-format
 msgid ""
@@ -1540,7 +1540,7 @@ msgid ""
 "If the application itself does not have an option to turn the fullscreen mode off you will not be able to disable it again using the mouse: use the window menu instead, activated using the %1 keyboard shortcut."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/dialoghelper/dialoghelper.cpp:93
 #, kde-format
 msgid ""
@@ -1548,14 +1548,14 @@ msgid ""
 "If the application itself does not have an option to turn the fullscreen mode off you will not be able to disable it again using the mouse."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/dialoghelper/dialoghelper.cpp:98
 #, kde-format
 msgctxt "@action:button Un-fullscreen"
 msgid "Undo Fullscreen"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/dialoghelper/dialoghelper.cpp:101
 #, kde-format
 msgid ""
@@ -1571,7 +1571,7 @@ msgid ""
 "Without the border, you will not be able to enable the border again using the mouse: use the window menu instead, activated using the %1 keyboard shortcut."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/dialoghelper/dialoghelper.cpp:112
 #, kde-format
 msgid ""
@@ -1579,14 +1579,14 @@ msgid ""
 "Without the border, you will not be able to enable the border again using the mouse."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/dialoghelper/dialoghelper.cpp:116
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Border"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/dialoghelper/dialoghelper.cpp:133
 #, kde-format
 msgid "Do not show again"
@@ -1610,7 +1610,7 @@ msgid ""
 "<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/killer/killdialog.cpp:66
 #, kde-format
 msgid "Terminating %1…"
@@ -1653,7 +1653,7 @@ msgid "Not Responding"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (KCollapsibleGroupBox, kcollapsiblegroupbox)
-#. +> trunk6
+#. +> trunk6 stable6
 #: helpers/killer/killdialog.ui:53
 #, kde-format
 msgid "&Details"
@@ -2109,42 +2109,42 @@ msgctxt "@action shortcut"
 msgid "Disable Active Input Capture"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/eis/eisprompter.cpp:51
 #, kde-format
 msgctxt "@title:window"
 msgid "Remote Control"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/eis/eisprompter.cpp:52
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<application>%1</application> is asking to control input devices"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/eis/eisprompter.cpp:64
 #, kde-format
 msgctxt "@option:check"
 msgid "Always allow apps claiming to be %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/eis/eisprompter.cpp:66
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Identities of legacy X11 apps cannot be verified. Any app claiming to be <application>%1</application> will be able to control input devices. You can revoke this permission later on <application>System Settings</application>’ “Legacy X11 App Support” page."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/eis/eisprompter.cpp:69
 #, kde-format
 msgctxt "@action:button Allow control of input devices"
 msgid "Allow"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/eis/eisprompter.cpp:70
 #, kde-format
 msgctxt "@action:button Deny control of input devices"
@@ -2272,31 +2272,17 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_InactivityDuration)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/hidecursor/hidecursor_config.ui:17
 #, kde-format
 msgid "Hide pointer on inactivity:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_InactivityDuration)
-#. +> stable6
-#: plugins/hidecursor/hidecursor_config.ui:17
-#, kde-format
-msgid "Hide cursor on inactivity:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideOnTyping)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/hidecursor/hidecursor_config.ui:24
 #, kde-format
 msgid "Hide pointer on typing"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideOnTyping)
-#. +> stable6
-#: plugins/hidecursor/hidecursor_config.ui:24
-#, kde-format
-msgid "Hide cursor on typing"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2929,7 +2915,7 @@ msgstr ""
 msgid "Add Virtual Desktop"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/overview/qml/DesktopBar.qml:262
 #, kde-format
 msgid "Virtual Desktop limit reached"
@@ -3328,7 +3314,7 @@ msgid "Menus:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ExcludeFullScreen)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/translucency/package/contents/ui/config.ui:201
 #, kde-format
 msgid "Exclude fullscreen windows"
@@ -3699,14 +3685,14 @@ msgid "Window tag string match type"
 msgstr ""
 
 #. i18n: ectx: label, entry (hastransientparent), group ($(ruleDescriptionOrNumber))
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesettings.kcfg:78
 #, kde-format
 msgid "Has parent window"
 msgstr ""
 
 #. i18n: ectx: label, entry (hastransientparentmatch), group ($(ruleDescriptionOrNumber))
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesettings.kcfg:82
 #, kde-format
 msgid "Has parent window match type"
@@ -4266,14 +4252,14 @@ msgid "Tearing rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (excludefromcapture), group ($(ruleDescriptionOrNumber))
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesettings.kcfg:478
 #, kde-format
 msgid "Hide from screenshots and screen recordings"
 msgstr ""
 
 #. i18n: ectx: label, entry (excludefromcapturerule), group ($(ruleDescriptionOrNumber))
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesettings.kcfg:482
 #, kde-format
 msgid "Hide from screenshots and screen recordings rule type"
@@ -4475,16 +4461,10 @@ msgstr ""
 msgid "&No Titlebar and Frame"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: useractions.cpp:244
 #, kde-format
 msgid "&Hide from Screenshots and Screen Recordings"
-msgstr ""
-
-#. +> stable6
-#: useractions.cpp:251
-#, kde-format
-msgid "&Hide from Screencast"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4692,7 +4672,7 @@ msgstr ""
 msgid "Maximize Window Horizontally"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: useractions.cpp:831
 #, kde-format
 msgid "Restore Window"
@@ -5210,7 +5190,7 @@ msgstr ""
 msgid "Switch to Desktop %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:569
 #, kde-format
 msgid "abm level is larger than the maximum (4): %1"
@@ -5228,7 +5208,7 @@ msgstr ""
 msgid "Disabling all outputs through configuration changes is not allowed"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:675
 #, kde-format
 msgid "%1 cannot mirror itself"
@@ -5246,28 +5226,22 @@ msgstr ""
 msgid "Cannot add a custom mode with a refresh rate of zero Hz"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:697
 #, kde-format
 msgid "Position of output %1 is way too negative (%2, %3)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:700
 #, kde-format
 msgid "Position of enabled output %1 is negative (%2, %3)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:704
 #, kde-format
 msgid "Position of output %1 is way too large (%2, %3)"
-msgstr ""
-
-#. +> stable6
-#: wayland/outputmanagement_v2.cpp:660
-#, kde-format
-msgid "Position of output %s is way too large (%d, %d)"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5276,7 +5250,7 @@ msgstr ""
 msgid "The driver rejected the output configuration"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:724
 #, kde-format
 msgid "The session is not active"
@@ -5289,27 +5263,27 @@ msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: workspace.cpp:1313
 #, kde-format
 msgid "Built-in Screen"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: workspace.cpp:1326
 #, kde-format
 msgctxt "Display label: manufacturer + model name + connector name"
 msgid "%1 %2 %3"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: workspace.cpp:1336
 #, kde-format
 msgctxt "Display label: manufacturer + model name + serial number"
 msgid "%1 %2 %3"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: workspace.cpp:1339
 #, kde-format
 msgctxt "Display label: manufacturer + model name"
@@ -5346,20 +5320,6 @@ msgstr ""
 #: xwayland/xwaylandlauncher.cpp:287
 #, kde-format
 msgid "Xwayland has crashed"
-msgstr ""
-
-#. +> stable6
-#: plugins/outputlocator/outputlocator.cpp:50
-#, kde-format
-msgctxt "@label"
-msgid "Unknown"
-msgstr ""
-
-#. +> stable6
-#: plugins/showcompositing/qml/Main.qml:12
-#, kde-format
-msgctxt "@label"
-msgid "Compositing"
 msgstr ""
 
 #. +> stable5

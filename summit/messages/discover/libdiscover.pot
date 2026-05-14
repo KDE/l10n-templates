@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-13 11:07+0200\n"
+"POT-Creation-Date: 2026-05-14 15:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -528,7 +528,7 @@ msgctxt "Category"
 msgid "Emulators"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:334
 #: libdiscover/backends/PackageKitBackend/packagekit-backend-categories.xml:333
 #, kde-format
@@ -536,7 +536,7 @@ msgctxt "Category"
 msgid "Launchers"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:343
 #: libdiscover/backends/PackageKitBackend/packagekit-backend-categories.xml:342
 #, kde-format
@@ -766,6 +766,13 @@ msgid "<para>This application comes from \"%1\" (hosted at <link>%2</link>). Oth
 msgstr ""
 
 #. +> stable5
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:447
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:455
+#, kde-format
+msgid "Retrieving size information"
+msgstr ""
+
+#. +> stable5
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:449
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:457
 #, kde-format
@@ -784,12 +791,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info app size"
 msgid "%1 on disk"
-msgstr ""
-
-#. +> stable6 stable5
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1326,13 +1327,13 @@ msgstr ""
 msgid "SteamOS"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: libdiscover/backends/HoloBackend/HoloBackend.cpp:73
 #, kde-format
 msgid "Holo"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: libdiscover/backends/HoloBackend/HoloBackend.cpp:113
 #, kde-format
 msgctxt "%1 is the pretty name of the distro e.g. Holo or SteamOS"
@@ -2558,8 +2559,8 @@ msgstr ""
 msgid "Vendor:"
 msgstr ""
 
-#. +> stable6 stable5
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
+#. +> stable5
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:424
 #, kde-format
 msgid "%2 (plus %1 dependency)"
 msgid_plural "%2 (plus %1 dependencies)"
@@ -3107,14 +3108,14 @@ msgstr ""
 msgid "Starred Publisher on snapcraft.io"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
 #, kde-format
 msgid "This Snap application is not compatible with security sandboxing and will have full access to this system. Install it anyway?"
 msgstr ""
 
-#. +> stable6 stable5
-#: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
+#. +> stable5
+#: libdiscover/backends/SnapBackend/SnapTransaction.cpp:51
 #, kde-format
 msgid "This Snap application is not compatible with security sandboxing and will have full access to this computer. Install it anyway?"
 msgstr ""
@@ -3226,28 +3227,28 @@ msgctxt "@info:status %1 is the name of a source of updates"
 msgid "Refreshing %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: libdiscover/resources/ResourcesProxyModel.cpp:561
 #, kde-format
 msgctxt "@label"
 msgid "Applications"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: libdiscover/resources/ResourcesProxyModel.cpp:563
 #, kde-format
 msgctxt "@label"
 msgid "Addons"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: libdiscover/resources/ResourcesProxyModel.cpp:565
 #, kde-format
 msgctxt "@label"
 msgid "Application Support"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: libdiscover/resources/ResourcesProxyModel.cpp:567
 #, kde-format
 msgctxt "@label"
@@ -3365,14 +3366,14 @@ msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr ""
 
-#. +> stable6 stable5
-#: libdiscover/backends/SteamOSBackend/SteamOSBackend.cpp:94
-#, kde-format
-msgid "SteamOS: Unable to query atomupd for SteamOS Updates..."
-msgstr ""
-
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeSourcesBackend.cpp:74
 #, kde-format
 msgid "ostree remotes"
+msgstr ""
+
+#. +> stable5
+#: libdiscover/backends/SteamOSBackend/SteamOSBackend.cpp:74
+#, kde-format
+msgid "SteamOS: Unable to query atomupd for SteamOS Updates..."
 msgstr ""
