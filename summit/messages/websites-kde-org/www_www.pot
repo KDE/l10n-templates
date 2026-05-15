@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-13 11:08+0200\n"
+"POT-Creation-Date: 2026-05-15 09:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -10993,6 +10993,7 @@ msgstr ""
 #: content/announcements/plasma/6/6.6.3.md:0
 #: content/announcements/plasma/6/6.6.4.md:0
 #: content/announcements/plasma/6/6.6.5.md:0
+#: content/announcements/plasma/6/6.6.90.md:0
 msgid "Plasma"
 msgstr ""
 
@@ -22036,6 +22037,66 @@ msgstr ""
 #. +> trunk5
 #: content/announcements/plasma/6/6.6.0.md:0
 msgid "Set up a user account after the operating system has been installed"
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:11
+msgid "Here are the new modules available in the Plasma 6.7 beta:"
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:13
+msgid "plasma-bigscreen"
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:14
+msgid "union"
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:16
+msgid "Some important features and changes included in 6.7 beta are [highlighted on KDE community wiki page](https://community.kde.org/Plasma/Plasma_6#Plasma_6.7)."
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:19
+msgid "Help stress-test the Union theming system"
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:20
+msgid "This releases marks the first public tech preview of the new [Union theming system](https://invent.kde.org/plasma/union/)! In the beta, it is used to style all apps using QML and Kirigami when the `union` package is installed."
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:22
+msgid "The intention is for these apps to look as similar as possible to how they look without Union."
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:24
+msgid "To help the dev team ensure that’s the case, look for visual issues in apps using QML and Kirigami (for example: System Settings, System Monitor, Discover, Spectacle, NeoChat, Haruna, Plasma widget config dialogs)."
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:26
+msgid "If you find any issues, make sure they’re Union-specific by running the app with the `QT_QUICK_CONTROLS_STYLE=org.kde.desktop` variable set; this uses the old styling system so you can compare the two."
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:28
+msgid "If you’ve found a Union-specific issue, [report it here](https://bugs.kde.org/enter_bug.cgi?product=Union)."
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:30
+msgid "Everything else"
+msgstr ""
+
+#. +> trunk5
+#: content/announcements/plasma/6/6.6.90.md:31
+msgid "<!-- Changelog appears here -->\n"
 msgstr ""
 
 #. +> trunk5
