@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-07 09:48+0200\n"
+"POT-Creation-Date: 2026-05-16 05:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -610,7 +610,14 @@ msgstr ""
 msgid "Provide the password for the connection '%1':"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: passworddialog.cpp:114
+#, kde-format
+msgctxt "@title:dialog The placeholder is the type of connection, e.g. 'Wi-Fi'"
+msgid "%1 Password"
+msgstr ""
+
+#. +> stable6 stable5
 #: passworddialog.cpp:114
 #, kde-format
 msgid "%1 password dialog"
@@ -642,10 +649,10 @@ msgid "VPN secrets (%1) dialog"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PasswordDialog)
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: passworddialog.ui:26
 #, kde-format
-msgid "Password dialog"
+msgid "Connection Password"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelPass)
@@ -653,6 +660,13 @@ msgstr ""
 #: passworddialog.ui:92
 #, kde-format
 msgid "Password:"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PasswordDialog)
+#. +> stable6 stable5
+#: passworddialog.ui:26
+#, kde-format
+msgid "Password dialog"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
