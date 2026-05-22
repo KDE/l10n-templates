@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-linux-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-19 09:22+0200\n"
+"POT-Creation-Date: 2026-05-22 22:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -30,6 +30,11 @@ msgstr ""
 #. +> trunk5
 #: config.yaml:0
 msgid "Documentation"
+msgstr ""
+
+#. +> trunk5
+#: config.yaml:0
+msgid "Help & Support"
 msgstr ""
 
 #. +> trunk5
@@ -503,77 +508,92 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs.md:41
+msgid "[Work with virtual and remote cameras](virtual-cameras)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs.md:42
 msgid "[Why is `/etc/fstab` empty?](fstab)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:44
+#: content/docs.md:45
 msgid "Software development"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:45
+#: content/docs.md:46
 msgid "[Develop KDE software](kde-dev)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:46
+#: content/docs.md:47
 msgid "[Develop or run Python scripts](python-dev)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:47
+#: content/docs.md:48
 msgid "[Develop or debug the kernel](kernel-dev)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:48
+#: content/docs.md:49
 msgid "[Develop other non-KDE software](dev)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:49
+#: content/docs.md:50
 msgid "[Develop KDE Linux](kde-linux-dev)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:50
+#: content/docs.md:51
 msgid "Develop general-purpose GPU software using OpenCL/CUDA/etc. (coming soon)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:53
+#: content/docs.md:54
 msgid "Troubleshooting and debugging"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:54
+#: content/docs.md:55
 msgid "[Recover from a failure to start up properly](boot-failure-recovery)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:55
+#: content/docs.md:56
 msgid "[Set additional kernel command-line arguments](kernel-cmdline)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:56
+#: content/docs.md:57
 msgid "[Debug crashes in Flatpak apps](flatpak-crashes)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:57
+#: content/docs.md:58
 msgid "[Migrate older installations](migrate-older)"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:60
-msgid "Help & support"
+#: content/docs.md:61
+msgid "Learn about KDE Linux"
 msgstr ""
 
 #. +> trunk5
-#: content/docs.md:61
-msgid "[Get help and report issues](help)"
+#: content/docs.md:62
+msgid "[History & architecture](background)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs.md:63
+msgid "[Governance](governance)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs.md:64
+msgid "[Roadmap & lifecycle](roadmap)"
 msgstr ""
 
 #. +> trunk5
@@ -694,6 +714,26 @@ msgstr ""
 #. +> trunk5
 #: content/docs/automount.md:0
 msgid "Auto-Mount Internal Disks"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:13
+msgid "Veteran KDE developer Harald Sitter began working on KDE Linux in early 2023, and revealed its working prototype at Akademy 2024 ([slides](https://conf.kde.org/event/6/contributions/202/attachments/135/171/The%20Operating%20System.pdf), [recording](http://www.youtube.com/live/gTxRaBEUe-I?t=25936))."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:15
+msgid "An [alpha release](https://pointieststick.com/2025/09/06/announcing-the-alpha-release-of-kde-linux/) followed at Akademy 2025 ([slides](https://conf.kde.org/event/9/contributions/265/attachments/171/220/growth.pdf), [recording](https://www.youtube.com/watch?v=PA03J1CAYoA))."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:17
+msgid "The project incorporates lessons learned from the earlier [KDE neon](https://neon.kde.org/) project, and focuses on resilience, modern technical infrastructure, and low maintenance needs. KDE Linux’s design is heavily inspired by systemd creator Lennart Poettering’s thoughts on [OS design](https://0pointer.net/blog/fitting-everything-together.html) and [system extensions](https://0pointer.net/blog/testing-my-system-code-in-usr-without-modifying-usr.html)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:0
+msgid "History & Architecture"
 msgstr ""
 
 #. +> trunk5
@@ -1304,33 +1344,103 @@ msgid "Why is /etc/fstab empty?"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/help.md:11
-msgid "Since KDE Linux is in an alpha stage of development, the most important step is to report every issue you encounter! Developers can then look into fixing it for everyone, and advise you of any relevant workarounds in the meantime."
+#: content/docs/governance.md:13
+msgid "Leadership"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/help.md:13
-msgid "**To report issues in the KDE Linux operating system itself** (i.e. OS design, integration, system services, etc), [use invent.kde.org](https://invent.kde.org/kde-linux/kde-linux/-/work_items/new), and ignore the scary red banner at the top of the page."
+#: content/docs/governance.md:14
+msgid "KDE Linux follows a \"council of elders\" model with the council comprising the project’s top contributors across the fields of:"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/help.md:14 content/docs/kde-linux-dev.md:17
-msgid "**To report issues in KDE Plasma or any KDE apps**, [use bugs.kde.org](https://bugs.kde.org/)."
+#: content/docs/governance.md:15
+msgid "Founding the project"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/help.md:15 content/docs/kde-linux-dev.md:18
-msgid "**To get help with something related to KDE Linux**, [use discuss.kde.org](https://discuss.kde.org/), and tag your post with “kde-linux”."
+#: content/docs/governance.md:16
+msgid "Doing development work on the project"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/help.md:16 content/docs/kde-linux-dev.md:14
-msgid "**To talk with the KDE Linux developers**, [use Matrix](https://matrix.to/#/%23kde-linux:kde.org)."
+#: content/docs/governance.md:17
+msgid "Maintaining the infrastructure for the project"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/help.md:0
-msgid "Get help and report issues"
+#: content/docs/governance.md:18
+msgid "Presenting about the project in public and blogging about it"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:19
+msgid "Writing documentation about the project"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:20
+msgid "Doing user support and outreach for the project"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:21
+msgid "Contributing bananas to fellow KDE community members"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:23
+msgid "This being necessarily difficult to quantify, the council currently consists of:"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:24
+msgid "[Harald Sitter](https://invent.kde.org/sitter)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:25
+msgid "[Nate Graham](https://invent.kde.org/ngraham)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:26
+msgid "[Lasath Fernando](https://invent.kde.org/fernando)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:27
+msgid "[Hadi Chokr](https://invent.kde.org/silverhadch)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:28
+msgid "[Thomas Duckworth](https://invent.kde.org/tduck)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:31
+msgid "Decision-making"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:32
+msgid "Consensus governance is strongly encouraged and preferred."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:34
+msgid "Non-trivial changes should be proposed in the form of merge requests that get approved by someone on the council of elders. Pushing directly to master is discouraged."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:36
+msgid "Large topics are discussed in monthly calls. History and conclusions/adopted policies based on discussions in these calls can be found at https://community.kde.org/KDE_Linux/Calls"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/governance.md:0
+msgid "Governance"
 msgstr ""
 
 #. +> trunk5
@@ -2203,6 +2313,11 @@ msgid "The KDE Linux team always appreciates help developing KDE Linux into the 
 msgstr ""
 
 #. +> trunk5
+#: content/docs/kde-linux-dev.md:14
+msgid "**To talk with the KDE Linux developers**, [use Matrix](https://matrix.to/#/%23kde-linux:kde.org)."
+msgstr ""
+
+#. +> trunk5
 #: content/docs/kde-linux-dev.md:15
 msgid "**To propose changes**, submit a Merge Request in [one of the relevant git repositories](https://invent.kde.org/kde-linux/)."
 msgstr ""
@@ -2210,6 +2325,16 @@ msgstr ""
 #. +> trunk5
 #: content/docs/kde-linux-dev.md:16
 msgid "**To report issues in the KDE Linux operating system itself** (i.e. OS design, integration, system services, etc), [use invent.kde.org](https://invent.kde.org/kde-linux/kde-linux/-/issues/new), and ignore the scary red banner at the top of the page."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/kde-linux-dev.md:17 content/help.md:19
+msgid "**To report issues in KDE Plasma or any KDE apps**, [use bugs.kde.org](https://bugs.kde.org/)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/kde-linux-dev.md:18
+msgid "**To get help with something related to KDE Linux**, [use discuss.kde.org](https://discuss.kde.org/), and tag your post with “kde-linux”."
 msgstr ""
 
 #. +> trunk5
@@ -3756,6 +3881,51 @@ msgid "Develop or Run Python scripts"
 msgstr ""
 
 #. +> trunk5
+#: content/docs/roadmap.md:13
+msgid "Roadmap"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:14
+msgid "[Alpha milestone](https://invent.kde.org/groups/kde-linux/-/milestones/3) (Testing edition) - completed on 2025-09-06"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:15
+msgid "[Beta release](https://invent.kde.org/groups/kde-linux/-/milestones/2) (Enthusiast & Stable editions) - in progress"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:16
+msgid "[Public release](https://invent.kde.org/groups/kde-linux/-/milestones/1) (Stable edition) - not started"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:19
+msgid "Lifecycle"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:20
+msgid "Every released version of KDE Linux is guaranteed to be able to update to the latest one for the entire duration of the project — either directly, or by updating to a newer version, and then from that one to the latest version."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:23
+msgid "Support period"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:24
+msgid "Each released version of KDE Linux is supported until the next one is released. Users are expected to update regularly and ensure they are using the latest version."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:0
+msgid "Roadmap & Lifecycle"
+msgstr ""
+
+#. +> trunk5
 #: content/docs/ssh-keys.md:11
 msgid "If your SSH keys are encrypted, you can configure the system to unlock them automatically in each new terminal window and tab you open."
 msgstr ""
@@ -3865,6 +4035,16 @@ msgid "Use Ventoy"
 msgstr ""
 
 #. +> trunk5
+#: content/docs/virtual-cameras.md:11
+msgid "It’s commonly believed that these workflows require the use of the out-of-tree `v4l2loopback` kernel driver, but there are alternative methods that work just as well. These methods work in KDE Linux, too; [read about them here](https://www.ideasonboard.com/news/pipewire-is-the-new-v4l2loopback/)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/virtual-cameras.md:0
+msgid "Work with virtual and remote cameras"
+msgstr ""
+
+#. +> trunk5
 #: content/docs/vm.md:11
 msgid "Probably the easiest way to use virtual machines in KDE Linux is with the _Virtual Machine Manager_ app. Install it and its required QEMU extension by running the following command in a terminal window:"
 msgstr ""
@@ -3896,6 +4076,61 @@ msgstr ""
 #. +> trunk5
 #: content/docs/vm.md:0
 msgid "Create and Use Virtual Machines"
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:13
+msgid "Issue reporting"
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:14
+msgid "Since KDE Linux is in an alpha stage of development, report every issue in an eligible version that you encounter! Developers can then look into fixing it for everyone, and advise you of any relevant workarounds in the meantime."
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:16
+msgid "Make sure the issue still happens in the latest version before reporting it to the developers or requesting help from them."
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:18
+msgid "**To report issues in the KDE Linux operating system itself** (i.e. OS design, integration, system services, etc), [use invent.kde.org](https://invent.kde.org/kde-linux/kde-linux/-/work_items/new), and ignore the scary red banner at the top of the page."
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:22
+msgid "Support resources"
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:23
+msgid "KDE Linux is run by passionate volunteers who are eager to help with non-bug-related issues you may encounter, but make no guarantees about their ability to do so in a timely matter, to any level of success, or at all. All such resources are provided on an “as available, best effort” basis."
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:25
+msgid "Help is available in various forms:"
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:26
+msgid "**To get official answers to common questions**, [read the documentation](/docs)."
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:27
+msgid "**To get help with a problem using KDE Linux**, [use discuss.kde.org](https://discuss.kde.org/), and tag your post with “kde-linux”."
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:28
+msgid "**To talk with the KDE Linux developers about issues that may be bugs**, [use Matrix](https://matrix.to/#/%23kde-linux:kde.org)."
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:0
+msgid "Help and support"
 msgstr ""
 
 #. +> trunk5
