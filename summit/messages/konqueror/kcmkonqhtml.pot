@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-17 09:10+0200\n"
+"POT-Creation-Date: 2026-05-25 08:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2347,34 +2347,41 @@ msgstr ""
 msgid "Activate previously used tab when closing the current tab"
 msgstr ""
 
+#. +> trunk6
+#: useragent/useragent.cpp:72
+#, kde-format
+msgctxt "We couldn't retrieve the user agent, so we show it as 'unknown'"
+msgid "unknown"
+msgstr ""
+
 #. +> trunk6 stable6
-#: useragent/useragent.cpp:195
+#: useragent/useragent.cpp:210
 #, kde-format
 msgctxt "@title:window Title of dialog to choose name to given to new User Agent"
 msgid "Choose User Agent name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useragent/useragent.cpp:196
+#: useragent/useragent.cpp:211
 #, kde-format
 msgctxt "Name of the new User Agent"
 msgid "User Agent name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useragent/useragent.cpp:256
+#: useragent/useragent.cpp:271
 #, kde-format
 msgid "there are templates with empty names"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useragent/useragent.cpp:261
+#: useragent/useragent.cpp:276
 #, kde-format
 msgid "there are multiple templates with the same name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: useragent/useragent.cpp:284
+#: useragent/useragent.cpp:299
 #, kde-format
 msgctxt "The user gave a custom user agent string an empty or duplicate name"
 msgid "Invalid user agent names:"
@@ -2443,9 +2450,34 @@ msgstr ""
 msgid "Choose &selected identification"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, currentUserAgent)
+#. +> trunk6
+#: useragent/useragent.ui:160
+#, kde-format
+msgid "Current user agent"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: useragent/useragent.ui:175
+#, kde-format
+msgid "&Custom identification"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, userAgentString)
+#. +> trunk6 stable6
+#: useragent/useragent.ui:185
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>The browser identification to use when the default identification is disabled.</p>"
+"<p>You can enter it manually or start from one in the list below and change it according to your needs.</p>"
+"</body></html>"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useDefaultUA)
 #. +> trunk6 stable6
-#: useragent/useragent.ui:160
+#: useragent/useragent.ui:201
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -2455,25 +2487,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, useDefaultUA)
 #. +> trunk6 stable6
-#: useragent/useragent.ui:163
+#: useragent/useragent.ui:204
 #, kde-format
 msgid "Use &default identification"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
-#: useragent/useragent.ui:178
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6
+#: useragent/useragent.ui:214
 #, kde-format
-msgid "&Custom identification"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLineEdit, userAgentString)
-#. +> trunk6 stable6
-#: useragent/useragent.ui:188
-#, kde-format
-msgid ""
-"<html><head/><body>"
-"<p>The browser identification to use when the default identification is disabled.</p>"
-"<p>You can enter it manually or start from one in the list below and change it according to your needs.</p>"
-"</body></html>"
+msgid "<strong>Current browser identification</strong>"
 msgstr ""
