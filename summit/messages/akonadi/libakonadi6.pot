@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-25 08:22+0200\n"
+"POT-Creation-Date: 2026-05-27 08:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2749,35 +2749,77 @@ msgstr ""
 msgid "&Unsubscribe"
 msgstr ""
 
-#. +> trunk6 stable6
-#: widgets/tageditwidget.cpp:122
+#. +> trunk6
+#: widgets/tageditwidget.cpp:123
+#, kde-format
+msgctxt "@info"
+msgid "Failed to create new tag %1: %2"
+msgstr ""
+
+#. +> stable6
+#: widgets/tageditwidget.cpp:120
 #, kde-format
 msgid "Failed to create a new tag"
 msgstr ""
 
-#. +> trunk6 stable6
-#: widgets/tageditwidget.cpp:122
+#. +> trunk6
+#: widgets/tageditwidget.cpp:130
 #, kde-format
-msgctxt "@title:window"
-msgid "An Error Occurred while Creating a New Tag"
+msgctxt "@info"
+msgid "Tag %1 successfully added"
+msgstr ""
+
+#. +> trunk6
+#: widgets/tageditwidget.cpp:174
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Delete Tag  <resource>%1</resource>"
+msgstr ""
+
+#. +> trunk6
+#: widgets/tageditwidget.cpp:176
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Press this button to show a dialog that asks permission to remove the <resource>%1</resource> tag from Akonadi."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/tageditwidget.cpp:174
+#: widgets/tageditwidget.cpp:184
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to remove the tag <resource>%1</resource>?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/tageditwidget.cpp:175
+#: widgets/tageditwidget.cpp:185
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Tag"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
+#: widgets/tageditwidget.cpp:120
+#, kde-format
+msgctxt "@title:window"
+msgid "An Error Occurred while Creating a New Tag"
+msgstr ""
+
+#. +> trunk6
+#: widgets/tageditwidget.cpp:196
+#, kde-format
+msgctxt "@info"
+msgid "Failed to delete tag %1: %2"
+msgstr ""
+
+#. +> trunk6
 #: widgets/tageditwidget.cpp:200
+#, kde-format
+msgctxt "@info"
+msgid "Tag %1 successfully removed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/tageditwidget.cpp:227
 #, kde-format
 msgctxt "@info"
 msgid "Delete tag"
@@ -2790,9 +2832,37 @@ msgstr ""
 msgid "Select tags that should be applied."
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QLineEdit, newTagEdit)
+#. +> trunk6
+#: widgets/tageditwidget.ui:55
+#, kde-format
+msgid "Enter the name for a new tag"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, newTagEdit)
+#. +> trunk6
+#: widgets/tageditwidget.ui:58
+#, kde-format
+msgid "To create and select a new tag, enter a name for the new tag and then press the \"Create new tag\" button."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newTagButton)
+#. +> trunk6
+#: widgets/tageditwidget.ui:68
+#, kde-format
+msgid "Create and select a new tag"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newTagButton)
+#. +> trunk6
+#: widgets/tageditwidget.ui:71
+#, kde-format
+msgid "Press this button to create a new tag with the name specified in the adjacent line editor.  The new tag is automatically selected."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, newTagButton)
 #. +> trunk6 stable6
-#: widgets/tageditwidget.ui:54
+#: widgets/tageditwidget.ui:74
 #, kde-format
 msgid "Create new tag"
 msgstr ""
