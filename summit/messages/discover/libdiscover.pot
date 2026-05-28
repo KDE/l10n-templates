@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-23 08:31+0200\n"
+"POT-Creation-Date: 2026-05-28 08:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1204,7 +1204,19 @@ msgctxt "@title"
 msgid "Replacement Available"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: libdiscover/backends/FlatpakBackend/FlatpakTransactionThread.cpp:464
+#, kde-kuit-format
+msgctxt "@info %1 and 2 are flatpak ids e.g. org.kde.krita (can be rather lengthy though)"
+msgid ""
+"<resource>%1</resource> is no longer receiving updates.<nl/>"
+"<nl/>"
+"Replace it with the supported version provided by <resource>%2</resource>?<nl/>"
+"<nl/>"
+"Your settings and data will be transferred to the new application."
+msgstr ""
+
+#. +> stable6
 #: libdiscover/backends/FlatpakBackend/FlatpakTransactionThread.cpp:464
 #, kde-kuit-format
 msgctxt "@info %1 and 2 are flatpak ids e.g. org.kde.krita (can be rather lengthy though)"
@@ -2867,6 +2879,12 @@ msgstr ""
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:535
 #, kde-format
 msgid "Missing remote ref for rebase operation. Please file a bug."
+msgstr ""
+
+#. +> trunk6
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:553
+#, kde-format
+msgid "Operating System"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
