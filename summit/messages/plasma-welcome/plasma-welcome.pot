@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-22 22:34+0200\n"
+"POT-Creation-Date: 2026-05-29 11:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -311,7 +311,7 @@ msgid "Error loading page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
+#: src/qml/PageError.qml:27 src/qml/pages/Network.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Report Bug…"
@@ -517,34 +517,41 @@ msgid "You can connect to the internet and manage your network connections with 
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/pages/Network.qml:40
+#: src/qml/pages/Network.qml:39
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Networking support for Plasma is not currently installed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/pages/Network.qml:41
+#: src/qml/pages/Network.qml:40
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/pages/Network.qml:211
+#: src/qml/pages/Network.qml:210
 #, kde-format
 msgctxt "@info:placeholder Shown when connected to the internet"
 msgid "You’re connected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/pages/Network.qml:212
+#: src/qml/pages/Network.qml:211
 #, kde-format
 msgctxt "@info:usagetip Shown when connected to the internet"
 msgid "All good to go!"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/pages/Network.qml:218
+#, kde-format
+msgctxt "@info"
+msgid "To manually preview the different states of the page, you can use the button."
+msgstr ""
+
+#. +> stable6
 #: src/qml/pages/Network.qml:219
 #, kde-format
 msgctxt "@info"
@@ -552,7 +559,7 @@ msgid "This page is being shown regardless of network connectivity because you a
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/pages/Network.qml:224
+#: src/qml/pages/Network.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Change state"
