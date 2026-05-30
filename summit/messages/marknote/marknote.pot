@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: marknote\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-22 22:34+0200\n"
+"POT-Creation-Date: 2026-05-30 10:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -66,156 +66,177 @@ msgid "An error occurred while writing to “%1”"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:56
+#: main.cpp:59
 #, kde-format
 msgid "Mathis Brüchert"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:57 main.cpp:62 main.cpp:65
+#: main.cpp:60 main.cpp:65 main.cpp:68
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:62
+#: main.cpp:65
 #, kde-format
 msgid "Carl Schwan"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:64
+#: main.cpp:67
 #, kde-format
 msgid "Valentyn Bondarenko"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:73
+#: main.cpp:76
 #, kde-format
 msgid "Justin Zobel"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:74
+#: main.cpp:77
 #, kde-format
 msgid "Flatpak support"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:79
+#: main.cpp:82
 #, kde-format
 msgid "Shubham Shinde"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:80
+#: main.cpp:83
 #, kde-format
 msgid "Table of Contents"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:85
+#: main.cpp:88
 #, kde-format
 msgid "Siddharth Chopra"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:86
+#: main.cpp:89
 #, kde-format
 msgid "Source Mode"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:91
+#: main.cpp:94
 #, kde-format
 msgid "Joshua Goins"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:92 main.cpp:98 main.cpp:103
+#: main.cpp:95 main.cpp:101 main.cpp:106
 #, kde-format
 msgid "Bug fixes"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:97
+#: main.cpp:100
 #, kde-format
 msgid "Prayag Jain"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:103
+#: main.cpp:106
 #, kde-format
 msgid "Laurent Montel"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:124 qml/Main.qml:440
+#: main.cpp:127 qml/Main.qml:450
 #, kde-format
 msgctxt "Application name"
 msgid "Marknote"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:126
+#: main.cpp:129
 #, kde-format
 msgid "Note taking application"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:128
+#: main.cpp:131
 #, kde-format
 msgid "© 2023–2026 Mathis Brüchert"
 msgstr ""
 
 #. +> trunk6
-#: notesmodel.cpp:157
+#: notesmodel.cpp:225
 #, kde-format
 msgctxt "@info:status"
 msgid "Unable to rename note. A note already exists with the same name."
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:159 qml/RichEditPage.qml:741
+#: notesmodel.cpp:289
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid move operation."
+msgstr ""
+
+#. +> trunk6
+#: notesmodel.cpp:296
+#, kde-format
+msgctxt "@info:status"
+msgid "Cannot move a folder into itself."
+msgstr ""
+
+#. +> trunk6
+#: notesmodel.cpp:302
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to move file."
+msgstr ""
+
+#. +> trunk6
+#: qml/EditPage.qml:162 qml/RichEditPage.qml:741
 #, kde-format
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:173 qml/RichEditPage.qml:752
+#: qml/EditPage.qml:176 qml/RichEditPage.qml:752
 #, kde-format
 msgid "Redo"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:203 qml/EditPage.qml:238
+#: qml/EditPage.qml:206 qml/EditPage.qml:241
 #, kde-format
 msgctxt "@action:button"
 msgid "Table of Contents"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:223
+#: qml/EditPage.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Search Note"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:231
+#: qml/EditPage.qml:234
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Search in Note"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:267
+#: qml/EditPage.qml:270
 #, kde-format
 msgid "Focus Mode"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:284 qml/NativeWindowMenu.qml:27 qml/NotesPage.qml:234
+#: qml/EditPage.qml:287 qml/NativeWindowMenu.qml:27 qml/NotesPage.qml:293
 #: qml/WelcomePage.qml:29
 #, kde-format
 msgctxt "@action:menu"
@@ -223,74 +244,74 @@ msgid "Exit Full Screen"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:297
+#: qml/EditPage.qml:300
 #, kde-format
 msgid "Switch editor mode"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:302
+#: qml/EditPage.qml:305
 #, kde-format
 msgid "Source View"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:337
+#: qml/EditPage.qml:340
 #, kde-format
 msgctxt "@title:window"
 msgid "Table of Contents"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:383
+#: qml/EditPage.qml:386
 #, kde-format
 msgid "Find text…"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:423
+#: qml/EditPage.qml:426
 #, kde-format
 msgid "Previous"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:439
+#: qml/EditPage.qml:442
 #, kde-format
 msgid "Next"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:457 qml/EditPage.qml:569
+#: qml/EditPage.qml:460 qml/EditPage.qml:572
 #, kde-format
 msgid "No matches"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:459 qml/EditPage.qml:571
+#: qml/EditPage.qml:462 qml/EditPage.qml:574
 #, kde-format
 msgid "%1/%2"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:471 qml/EditPage.qml:540
+#: qml/EditPage.qml:474 qml/EditPage.qml:543
 #, kde-format
 msgid "Replace"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:489
+#: qml/EditPage.qml:492
 #, kde-format
 msgid "Close"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:511
+#: qml/EditPage.qml:514
 #, kde-format
 msgid "Replace with…"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:516 qml/EditPage.qml:556
+#: qml/EditPage.qml:519 qml/EditPage.qml:559
 #, kde-format
 msgctxt "@info:status"
 msgid "Replaced %1 occurrence"
@@ -299,13 +320,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: qml/EditPage.qml:552
+#: qml/EditPage.qml:555
 #, kde-format
 msgid "Replace All"
 msgstr ""
 
 #. +> trunk6
-#: qml/EditPage.qml:620
+#: qml/EditPage.qml:623
 #, kde-format
 msgctxt "@info:status"
 msgid "The note has been copied to the clipboard."
@@ -382,66 +403,66 @@ msgid "Link URL:"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:148
+#: qml/Main.qml:158
 #, kde-format
 msgctxt "@info:status"
 msgid "Unable to create a new note, you need to create a notebook first."
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:150
+#: qml/Main.qml:160
 #, kde-format
 msgctxt "@action:button"
 msgid "Create Notebook"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:334 qml/NotesPage.qml:743
+#: qml/Main.qml:344 qml/NotesPage.qml:816
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Menu"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:380
+#: qml/Main.qml:390
 #, kde-format
 msgctxt "@title:menu"
 msgid "Import"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:389
+#: qml/Main.qml:399
 #, kde-format
 msgctxt "@title:menu"
 msgid "Sort Notes List"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:395
+#: qml/Main.qml:405
 #, kde-format
 msgid "by Name"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:408
+#: qml/Main.qml:418
 #, kde-format
 msgid "by Date"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:425
+#: qml/Main.qml:435
 #, kde-format
 msgid "Collapse Sidebar"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:425
+#: qml/Main.qml:435
 #, kde-format
 msgid "Expand Sidebar"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:563
+#: qml/Main.qml:573
 #, kde-format
 msgid "Your Notebooks"
 msgstr ""
@@ -628,163 +649,206 @@ msgid "Name:"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:42
+#: qml/NotesPage.qml:116
 #, kde-format
 msgid "Add note"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:188
+#: qml/NotesPage.qml:187
+#, kde-format
+msgid "Collapse All"
+msgstr ""
+
+#. +> trunk6
+#: qml/NotesPage.qml:187
+#, kde-format
+msgid "Expand All"
+msgstr ""
+
+#. +> trunk6
+#: qml/NotesPage.qml:257
 #, kde-format
 msgid "Exit Search (%1)"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:188
+#: qml/NotesPage.qml:257
 #, kde-format
 msgid "Search notes (%1)"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:254
+#: qml/NotesPage.qml:313
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Note"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:264
+#: qml/NotesPage.qml:323
 #, kde-format
 msgid "Are you sure you want to delete the note <b> %1 </b>? This will delete the file <b>%2</b> definitively."
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:450 qml/NotesPage.qml:486
+#: qml/NotesPage.qml:477 qml/NotesPage.qml:505
 #, kde-format
 msgctxt "@title:window"
 msgid "Marknote"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:451
+#: qml/NotesPage.qml:478
 #, kde-format
 msgctxt "@info"
 msgid "Export of “%1” was successful."
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:469
+#: qml/NotesPage.qml:491
 #, kde-format
 msgctxt "@action:notifaction"
 msgid "Open File"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:487
+#: qml/NotesPage.qml:506
 #, kde-format
 msgctxt "@info"
 msgid "Export of “%1” failed."
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:499
+#: qml/NotesPage.qml:517
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rename"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:511 qml/TextFieldContextMenu.qml:391
+#: qml/NotesPage.qml:526 qml/TextFieldContextMenu.qml:391
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:528
+#: qml/NotesPage.qml:541
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:536
+#: qml/NotesPage.qml:549
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:540
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Export to HTML"
-msgstr ""
-
-#. +> trunk6
-#: qml/NotesPage.qml:546
-#, kde-format
-msgctxt "@title:window"
-msgid "Export to HTML"
-msgstr ""
-
-#. +> trunk6
-#: qml/NotesPage.qml:547
-#, kde-format
-msgid "HTML file (*.html)"
-msgstr ""
-
-#. +> trunk6
 #: qml/NotesPage.qml:553
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Export to PDF"
+msgid "Export to HTML"
 msgstr ""
 
 #. +> trunk6
 #: qml/NotesPage.qml:559
 #, kde-format
 msgctxt "@title:window"
-msgid "Export to PDF"
+msgid "Export to HTML"
 msgstr ""
 
 #. +> trunk6
 #: qml/NotesPage.qml:560
 #, kde-format
-msgid "PDF file (*.pdf)"
+msgid "HTML file (*.html)"
 msgstr ""
 
 #. +> trunk6
 #: qml/NotesPage.qml:566
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Export to ODT"
+msgid "Export to PDF"
 msgstr ""
 
 #. +> trunk6
 #: qml/NotesPage.qml:572
 #, kde-format
 msgctxt "@title:window"
-msgid "Export to ODT"
+msgid "Export to PDF"
 msgstr ""
 
 #. +> trunk6
 #: qml/NotesPage.qml:573
 #, kde-format
+msgid "PDF file (*.pdf)"
+msgstr ""
+
+#. +> trunk6
+#: qml/NotesPage.qml:579
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to ODT"
+msgstr ""
+
+#. +> trunk6
+#: qml/NotesPage.qml:585
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to ODT"
+msgstr ""
+
+#. +> trunk6
+#: qml/NotesPage.qml:586
+#, kde-format
 msgid "ODF Text Document (*.odt)"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:584 qml/TextFieldContextMenu.qml:433
+#: qml/NotesPage.qml:595 qml/TextFieldContextMenu.qml:433
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6
-#: qml/NotesPage.qml:787
+#: qml/NotesPage.qml:868
 #, kde-format
 msgid "Add a note!"
+msgstr ""
+
+#. +> trunk6
+#: qml/NotesPage.qml:877
+#, kde-format
+msgid "No notes matching the search"
+msgstr ""
+
+#. +> trunk6
+#: qml/NotesPage.qml:893 qml/NotesPage.qml:901
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 note"
+msgid_plural "%1 notes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6
+#: qml/NotesPage.qml:897 qml/NotesPage.qml:900
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6
+#: qml/NotesPage.qml:903
+#, kde-format
+msgctxt "@info:status"
+msgid "%1, %2"
 msgstr ""
 
 #. +> trunk6
@@ -1096,46 +1160,66 @@ msgid "Failed to save pasted image"
 msgstr ""
 
 #. +> trunk6
-#: settings/MarkNoteGeneralPage.qml:17
+#: settings/MarkNoteGeneralPage.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "General"
 msgstr ""
 
 #. +> trunk6
-#: settings/MarkNoteGeneralPage.qml:20
+#: settings/MarkNoteGeneralPage.qml:21
 #, kde-format
 msgid "General theme"
 msgstr ""
 
 #. +> trunk6
-#: settings/MarkNoteGeneralPage.qml:27
+#: settings/MarkNoteGeneralPage.qml:28
 #, kde-format
 msgid "Color theme"
 msgstr ""
 
 #. +> trunk6
-#: settings/MarkNoteGeneralPage.qml:41
+#: settings/MarkNoteGeneralPage.qml:46
+#, kde-format
+msgid "Use transparent editor page"
+msgstr ""
+
+#. +> trunk6
+#: settings/MarkNoteGeneralPage.qml:72
+#, kde-format
+msgctxt "@label:slider"
+msgid "Background opacity"
+msgstr ""
+
+#. +> trunk6
+#: settings/MarkNoteGeneralPage.qml:77
+#, kde-format
+msgctxt "@label:slider Current opacity percentage. %1 is the numeric percentage value"
+msgid "%1%"
+msgstr ""
+
+#. +> trunk6
+#: settings/MarkNoteGeneralPage.qml:102
 #, kde-format
 msgid "Editor Settings"
 msgstr ""
 
 #. +> trunk6
-#: settings/MarkNoteGeneralPage.qml:47
+#: settings/MarkNoteGeneralPage.qml:108
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Notes Directory:"
 msgstr ""
 
 #. +> trunk6
-#: settings/MarkNoteGeneralPage.qml:64
+#: settings/MarkNoteGeneralPage.qml:125
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Font family:"
 msgstr ""
 
 #. +> trunk6
-#: settings/MarkNoteGeneralPage.qml:89
+#: settings/MarkNoteGeneralPage.qml:150
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Font size:"

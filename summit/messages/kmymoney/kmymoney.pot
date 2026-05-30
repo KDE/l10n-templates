@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-29 11:58+0200\n"
+"POT-Creation-Date: 2026-05-30 10:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17606,13 +17606,13 @@ msgstr ""
 msgid "Payment Method"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable5
 #: kmymoney/plugins/views/reports/core/listtable.cpp:788
 #, kde-format
 msgid "State"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable5
 #: kmymoney/plugins/views/reports/core/listtable.cpp:790
 #, kde-format
 msgid "Closing Date"
@@ -17762,7 +17762,7 @@ msgstr ""
 msgid "Transfer to %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable5
 #: kmymoney/plugins/views/reports/core/objectinfotable.cpp:268
 #: kmymoney/plugins/views/reports/core/objectinfotable.cpp:330
 #, kde-format
@@ -18268,20 +18268,20 @@ msgstr ""
 msgid "%1 (Customized)"
 msgstr ""
 
-#. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview.cpp:432
-#: kmymoney/plugins/views/reports/kreportsview.cpp:491
-#, kde-format
-msgid ""
-"Could not find reportgroup \"%1\" for report \"%2\".\n"
-"Please report this error to the developer's list: kmymoney-devel@kde.org"
-msgstr ""
-
 #. +> trunk6 stable5
 #: kmymoney/plugins/views/reports/kreportsview.cpp:433
 #: kmymoney/plugins/views/reports/kreportsview.cpp:510
 #, kde-format
 msgid "Custom Report"
+msgstr ""
+
+#. +> stable5
+#: kmymoney/plugins/views/reports/kreportsview.cpp:437
+#: kmymoney/plugins/views/reports/kreportsview.cpp:498
+#, kde-format
+msgid ""
+"Could not find reportgroup \"%1\" for report \"%2\".\n"
+"Please report this error to the developer's list: kmymoney-devel@kde.org"
 msgstr ""
 
 #. +> trunk6 stable5
@@ -18310,14 +18310,14 @@ msgid "Delete Report?"
 msgstr ""
 
 #. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview.cpp:756
+#: kmymoney/plugins/views/reports/kreportsview.cpp:763
 #, kde-format
 msgid "&New report"
 msgstr ""
 
 #. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview.cpp:766
-#: kmymoney/plugins/views/reports/kreportsview.cpp:772
+#: kmymoney/plugins/views/reports/kreportsview.cpp:773
+#: kmymoney/plugins/views/reports/kreportsview.cpp:779
 #, kde-format
 msgid "&Delete"
 msgstr ""
@@ -18330,35 +18330,35 @@ msgid "Report options"
 msgstr ""
 
 #. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview.cpp:744
+#: kmymoney/plugins/views/reports/kreportsview.cpp:751
 #, kde-format
 msgctxt "To open a new report"
 msgid "&Open"
 msgstr ""
 
 #. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview.cpp:747
+#: kmymoney/plugins/views/reports/kreportsview.cpp:754
 #, kde-format
 msgctxt "To print a report"
 msgid "&Print"
 msgstr ""
 
 #. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview.cpp:751
+#: kmymoney/plugins/views/reports/kreportsview.cpp:758
 #, kde-format
 msgctxt "To export a report"
 msgid "&Export to PDF file"
 msgstr ""
 
 #. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview.cpp:753
+#: kmymoney/plugins/views/reports/kreportsview.cpp:760
 #, kde-format
 msgctxt "Configure a report"
 msgid "&Configure"
 msgstr ""
 
 #. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview.cpp:771
+#: kmymoney/plugins/views/reports/kreportsview.cpp:778
 #, kde-format
 msgctxt "To export reports"
 msgid "&Export to PDF files"
@@ -18410,6 +18410,11 @@ msgstr ""
 #: kmymoney/plugins/views/reports/kreportsview_p.h:296
 #, kde-format
 msgid "<qt>Are you sure you want to delete report <b>%1</b>?  There is no way to recover it.</qt>"
+msgstr ""
+
+#. +> stable5
+#: kmymoney/plugins/views/reports/kreportsview_p.h:306
+msgid "Old Customized Reports"
 msgstr ""
 
 #. +> trunk6 stable5
@@ -18725,11 +18730,6 @@ msgstr ""
 msgid "Tax Transactions by Category Last Fiscal Year"
 msgstr ""
 
-#. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview_p.h:711
-msgid "Old Customized Reports"
-msgstr ""
-
 #. +> trunk6 stable5
 #: kmymoney/plugins/views/reports/kreportsview_p.h:716
 #, kde-format
@@ -18865,8 +18865,14 @@ msgid "Generated Report"
 msgstr ""
 
 #. +> stable5
-#: kmymoney/plugins/views/reports/kreportsview_p.h:683
+#: kmymoney/plugins/views/reports/kreportsview_p.h:278
 msgid "Favorite Reports"
+msgstr ""
+
+#. +> stable5
+#: kmymoney/plugins/views/reports/kreportsview_p.h:991
+#, kde-format
+msgid "Value/Balance History"
 msgstr ""
 
 #. +> trunk6
@@ -22997,13 +23003,13 @@ msgid "Unable to modify tag"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/views/ktagsview.cpp:816
+#: kmymoney/views/ktagsview.cpp:817
 #, kde-format
 msgid "Unable to reassign tag of transaction/split"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/views/ktagsview.cpp:828
+#: kmymoney/views/ktagsview.cpp:829
 #, kde-format
 msgid "Unable to remove tag(s)"
 msgstr ""
