@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karp\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-30 10:04+0200\n"
+"POT-Creation-Date: 2026-05-31 09:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -49,45 +49,17 @@ msgid "Install programs mentioned above, otherwise not all functions will be ava
 msgstr ""
 
 #. +> trunk6
-#: app.cpp:187
+#: app.cpp:178
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add PDF files"
 msgstr ""
 
 #. +> trunk6
-#: app.cpp:197
+#: app.cpp:188
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Clear all files"
-msgstr ""
-
-#. +> trunk6
-#: app.cpp:211
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Optimize PDF"
-msgstr ""
-
-#. +> trunk6
-#: app.cpp:220
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Reduce size"
-msgstr ""
-
-#. +> trunk6
-#: app.cpp:229
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Set password"
-msgstr ""
-
-#. +> trunk6
-#: app.cpp:238
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "PDF metadata"
 msgstr ""
 
 #. +> trunk6
@@ -293,6 +265,48 @@ msgid "Are you sure you want to remove all chapters?"
 msgstr ""
 
 #. +> trunk6
+#: qml/Dialogs/ExportDialog.qml:10
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Export Options"
+msgstr ""
+
+#. +> trunk6
+#: qml/Dialogs/ExportDialog.qml:20
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Optimize PDF"
+msgstr ""
+
+#. +> trunk6
+#: qml/Dialogs/ExportDialog.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reduce Size"
+msgstr ""
+
+#. +> trunk6
+#: qml/Dialogs/ExportDialog.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "PDF Version"
+msgstr ""
+
+#. +> trunk6
+#: qml/Dialogs/ExportDialog.qml:39
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Password"
+msgstr ""
+
+#. +> trunk6
+#: qml/Dialogs/ExportDialog.qml:43
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit PDF Metadata"
+msgstr ""
+
+#. +> trunk6
 #: qml/Dialogs/MovePagesDialog.qml:44 qml/Dialogs/SelectPagesDialog.qml:65
 #, kde-format
 msgid "Page range"
@@ -466,63 +480,25 @@ msgid "all pages out of range"
 msgstr ""
 
 #. +> trunk6
-#: qml/MainPage.qml:43
+#: qml/MainPage.qml:35
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add files"
 msgstr ""
 
 #. +> trunk6
-#: qml/MainPage.qml:58
+#: qml/MainPage.qml:48
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Save As…"
-msgstr ""
-
-#. +> trunk6
-#: qml/MainPage.qml:58
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Save"
-msgstr ""
+msgid "file"
+msgid_plural "files"
+msgstr[0] ""
+msgstr[1] ""
 
 #. +> trunk6
 #: qml/MainPage.qml:63
 #, kde-format
-msgid "PDF Options"
-msgstr ""
-
-#. +> trunk6
-#: qml/MainPage.qml:79
-#, kde-format
 msgctxt "@action:inmenu"
-msgid "PDF Version"
-msgstr ""
-
-#. +> trunk6
-#: qml/MainPage.qml:121
-#, kde-format
-msgctxt "like default PDF version"
-msgid "Default"
-msgstr ""
-
-#. +> trunk6
-#: qml/MainPage.qml:121
-#, kde-format
-msgctxt "PDF version"
-msgid "Version %1"
-msgstr ""
-
-#. +> trunk6
-#: qml/MainPage.qml:268
-#, kde-format
-msgid "Set password"
-msgstr ""
-
-#. +> trunk6
-#: qml/MainPage.qml:269
-#, kde-format
-msgid "Protect PDF file with password."
+msgid "Export Document"
 msgstr ""
 
 #. +> trunk6
