@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 08:41+0100\n"
+"POT-Creation-Date: 2026-06-02 08:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18564,11 +18564,11 @@ msgid_plural "%1 gallons (imperial)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 trunk5
+#. +> trunk6
 #: volume.cpp:536
 #, kde-format
 msgctxt "volume unit symbol"
-msgid "pt"
+msgid "imperial pt"
 msgstr ""
 
 #. +> trunk6 trunk5
@@ -18578,7 +18578,14 @@ msgctxt "unit description in lists"
 msgid "pints (imperial)"
 msgstr ""
 
-#. +> trunk6 trunk5
+#. +> trunk6
+#: volume.cpp:538
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;imperial p"
+msgstr ""
+
+#. +> trunk5
 #: volume.cpp:538
 #, kde-format
 msgctxt "unit synonyms for matching user input"
@@ -18605,7 +18612,7 @@ msgstr[1] ""
 #: volume.cpp:546
 #, kde-format
 msgctxt "volume unit symbol"
-msgid "US pt"
+msgid "pt"
 msgstr ""
 
 #. +> trunk6 trunk5
@@ -18615,7 +18622,14 @@ msgctxt "unit description in lists"
 msgid "pints (U.S. liquid)"
 msgstr ""
 
-#. +> trunk6 trunk5
+#. +> trunk6
+#: volume.cpp:548
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
+msgstr ""
+
+#. +> trunk5
 #: volume.cpp:548
 #, kde-format
 msgctxt "unit synonyms for matching user input"
@@ -18643,6 +18657,13 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "bbl"
+msgstr ""
+
+#. +> trunk5
+#: volume.cpp:546
+#, kde-format
+msgctxt "volume unit symbol"
+msgid "US pt"
 msgstr ""
 
 #. +> trunk6 trunk5
