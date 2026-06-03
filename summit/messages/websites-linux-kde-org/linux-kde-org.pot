@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-linux-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-01 08:01+0200\n"
+"POT-Creation-Date: 2026-06-03 09:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -74,14 +74,14 @@ msgid "…Eventually! We’re not there yet, and need your help to make this goa
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:32 content/_index.md:125
+#: content/_index.md:32 content/_index.md:132
 msgid "{{< linux/button src=\"docs/install\" description=\"Install KDE Linux\" >}} {{< linux/button src=\"docs/\" description=\"Read the docs\" >}}"
 msgstr ""
 
 #. +> trunk5
 #: content/_index.md:41
 msgid ""
-"<div class=\"d-flex flex-row\" id=\"help-section\">  \n"
+"<div class=\"help-section d-flex flex-row\">\n"
 "  <div id=\"help\" class=\"w-50  g-0 p-0\">\n"
 msgstr ""
 
@@ -192,202 +192,219 @@ msgid "**Do not report bugs for yesterday’s version.** That’s right: current
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:91
+#: content/_index.md:89
+msgid ""
+"<div class=\"help-section d-flex flex-row\">\n"
+"  <div id=\"help-other-distros\" class=\"w-50  g-0 p-0\">\n"
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:92
+msgid "If using an alpha-quality operating system isn’t your cup of tea, feel free to install any of the released ones on the [Distributions page](https://kde.org/distributions/)."
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:98
 msgid "Key benefits"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:96
+#: content/_index.md:103
 msgid "Safe"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:97
+#: content/_index.md:104
 msgid "KDE Linux offers reliable system updates and lets you roll back to older versions if there are any issues."
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:99
+#: content/_index.md:106
 msgid "All code is open and auditable, and no data is ever sent to KDE unless you authorize it. {{< /linux/card >}}"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:103
+#: content/_index.md:110
 msgid "Simple"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:104
+#: content/_index.md:111
 msgid "The Plasma desktop environment is familiar and intuitive, offering panels, app launchers, icons, and menus where you expect them. {{< /linux/card >}}"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:108
+#: content/_index.md:115
 msgid "Flexible"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:109
+#: content/_index.md:116
 msgid "Set up the system the way *you* like with the customizability built into Plasma. Show off your style or turn it into a high-productivity workhorse! {{< /linux/card >}}"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:113
+#: content/_index.md:120
 msgid "Powerful"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:114
+#: content/_index.md:121
 msgid "KDE Linux offers a rich catalogue of professional-caliber software for [any purpose](https://kde.org/for/), all for free. {{< /linux/card >}}"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:117
+#: content/_index.md:124
 msgid "{{< /linux/cards >}} {{< /section >}}"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:128
+#: content/_index.md:135
 msgid "General information"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:130
+#: content/_index.md:137
 msgid "Who is KDE Linux for?"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:131
+#: content/_index.md:138
 msgid "At the moment, only the Testing edition is available. The more these sentences describe you, the happier you’ll be using it:"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:133
+#: content/_index.md:140
 msgid "You’re a KDE fan"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:134
+#: content/_index.md:141
 msgid "You get excited about modern technology like Systemd, immutable OSs, containerized apps, and Btrfs"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:135
+#: content/_index.md:142
 msgid "You want to participate in KDE’s QA process and find issues early"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:136
+#: content/_index.md:143
 msgid "You’re a KDE Plasma developer ([learn more](/docs/kde-dev))"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:137
+#: content/_index.md:144
 msgid "You’re comfortable using [any of the methods listed here](/docs/more-software) to install things you need that aren’t available via Discover."
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:138
+#: content/_index.md:145
 msgid "You don’t have an NVIDIA GPU that’s over 6 years old ([learn more](/nvidia))"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:141
-msgid "How does this thing work? How would I use it?"
-msgstr ""
-
-#. +> trunk5
-#: content/_index.md:142
-msgid "KDE Linux includes [extensive documentation](/docs). Some common topics include:"
-msgstr ""
-
-#. +> trunk5
-#: content/_index.md:143
-msgid "[Install apps and games](docs/apps-and-games/)"
-msgstr ""
-
-#. +> trunk5
-#: content/_index.md:144
-msgid "[Update the system](/docs/updates)"
-msgstr ""
-
-#. +> trunk5
-#: content/_index.md:145
-msgid "[Roll back to an older version if there’s a problem after updating](docs/boot-failure-recovery/)"
-msgstr ""
-
-#. +> trunk5
-#: content/_index.md:146
-msgid "[Get help and report issues](/docs/help)"
+#: content/_index.md:148
+msgid "How do I do things on KDE Linux?"
 msgstr ""
 
 #. +> trunk5
 #: content/_index.md:149
+msgid "A great deal of information on the internet and AI chatbots is wrong, outdated, or doesn’t apply to KDE Linux."
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:151
+msgid "Before consulting those sources, first look for an answer in [KDE Linux’s documentation](/docs). Common topics include:"
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:152
+msgid "[Install apps and games](docs/apps-and-games/)"
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:153
+msgid "[Update the system](/docs/updates)"
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:154
+msgid "[Roll back to an older version if there’s a problem after updating](docs/boot-failure-recovery/)"
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:155
+msgid "[Get help and report issues](/docs/help)"
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:158
 msgid "Who develops KDE Linux?"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:150
+#: content/_index.md:159
 msgid "KDE Linux is a publicly-developed volunteer-run project, led by longstanding and enthusiastic members of the KDE community [visible here](https://community.kde.org/KDE_Linux#Governance_&_policies). The project receives financial support and other backing from [KDE e.V.](https://ev.kde.org), the German nonprofit organization behind [KDE](https://kde.org). {{< /section >}}"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:157
+#: content/_index.md:166
 msgid "Information for techies"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:159
+#: content/_index.md:168
 msgid "Is this “The KDE OS”?"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:160
+#: content/_index.md:169
 msgid "Yes! KDE Linux is the KDE community’s idea of a “reference implementation” OS with Plasma and KDE apps."
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:162
+#: content/_index.md:171
 msgid "Though it’s designed to be suitable for general uses, KDE Linux may be less optimized and optimizable for specific uses compared to other operating systems. KDE Linux is not an attempt to discourage people from using them, but rather to raise the quality level for all KDE-centric operating systems."
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:165
+#: content/_index.md:174
 msgid "What kind of base technology does KDE Linux use?"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:166
+#: content/_index.md:175
 msgid "KDE Linux is an “immutable base OS” Linux distro created using Arch Linux packages, but it should not be considered an “Arch-based distro”; Arch is simply a means to an end, and KDE Linux doesn’t even ship with the `pacman` package manager."
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:168
+#: content/_index.md:177
 msgid "KDE Linux leans on Systemd for a great deal of functionality. Updates are atomic and image-based, with the last 5 OS images cached on disk. Only the Wayland session is supported. Apps primarily come from Flatpak."
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:170
+#: content/_index.md:179
 msgid "Learn more about [KDE Linux’s architecture](https://community.kde.org/KDE_Linux/Background_information#Architecture)."
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:173
+#: content/_index.md:182
 msgid "This is so cool; how can I get involved with development?"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:174
+#: content/_index.md:183
 msgid "Help is always appreciated! You can talk with the KDE Linux developers on [Matrix](https://matrix.to/#/#kde-linux:kde.org), and submit issues or merge requests on [invent.kde.org](https://invent.kde.org/kde-linux/kde-linux/)."
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:176
+#: content/_index.md:185
 msgid "{{< linux/button src=\"/docs/kde-linux-dev\" description=\"Contribute to KDE Linux\" >}} {{< linux/button src=\"/docs/\" description=\"Read the docs\" >}} {{< linux/button src=\"/docs/install\" description=\"Install KDE Linux\" >}}"
 msgstr ""
 
 #. +> trunk5
-#: content/_index.md:185
+#: content/_index.md:194
 msgid "{{< section class=\"trademark-section\" >}} The registered trademark Linux® is used pursuant to a sublicense from the Linux Foundation, the exclusive licensee of Linus Torvalds, owner of the mark on a world­wide basis. {{< /section >}}"
 msgstr ""
 
@@ -1201,7 +1218,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/char-input.md:0
-msgid "Type Characters Not On Your Keyboard"
+msgid "Type Characters Not on Your Keyboard"
 msgstr ""
 
 #. +> trunk5
@@ -1340,7 +1357,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/fonts.md:0
-msgid "Install new fonts"
+msgid "Install New fonts"
 msgstr ""
 
 #. +> trunk5
@@ -1360,7 +1377,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/fstab.md:0
-msgid "Why is /etc/fstab empty?"
+msgid "Why is /etc/fstab Empty?"
 msgstr ""
 
 #. +> trunk5
@@ -2539,7 +2556,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/kde-linux-dev.md:0
-msgid "Help develop KDE Linux"
+msgid "Help Develop KDE Linux"
 msgstr ""
 
 #. +> trunk5
@@ -2991,7 +3008,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/migrate-older.md:0
-msgid "Migrate older installations"
+msgid "Migrate Older Installations"
 msgstr ""
 
 #. +> trunk5
@@ -4032,7 +4049,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/pre-turing-nvidia.md:0
-msgid "Use a pre-Turing (older than GTX 1630) NVIDIA GPU"
+msgid "Use a Pre-Turing (Older than GTX 1630) NVIDIA GPU"
 msgstr ""
 
 #. +> trunk5
@@ -4311,7 +4328,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/ssh-keys.md:0
-msgid "Automatically unlock your SSH keys"
+msgid "Automatically Unlock your SSH Keys"
 msgstr ""
 
 #. +> trunk5
@@ -4396,7 +4413,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/virtual-cameras.md:0
-msgid "Work with virtual and remote cameras"
+msgid "Work with Virtual and Remote Cameras"
 msgstr ""
 
 #. +> trunk5
