@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: minuet\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-03 09:06+0200\n"
+"POT-Creation-Date: 2026-06-04 10:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2306,52 +2306,50 @@ msgid "Could not open JSON file \"%1\"."
 msgstr ""
 
 #. +> trunk6
-#: src/app/exercisesessioncontroller.cpp:94
-#: src/app/exercisesessioncontroller.cpp:376
+#: src/app/exercisesessioncontroller.cpp:99
+#: src/app/exercisesessioncontroller.cpp:381
 #, kde-format
 msgid "Select New Question to start"
 msgstr ""
 
 #. +> trunk6
-#: src/app/exercisesessioncontroller.cpp:231
+#: src/app/exercisesessioncontroller.cpp:236
 #, kde-format
 msgid "Choose 1 answer"
 msgstr ""
 
 #. +> trunk6
-#: src/app/exercisesessioncontroller.cpp:231
+#: src/app/exercisesessioncontroller.cpp:236
 #, kde-format
 msgid "Choose %1 answers"
 msgstr ""
 
 #. +> trunk6
-#: src/app/exercisesessioncontroller.cpp:342
+#: src/app/exercisesessioncontroller.cpp:347
 #, kde-format
 msgid "Answer shown"
 msgstr ""
 
 #. +> trunk6
-#: src/app/exercisesessioncontroller.cpp:344 src/app/qml/ExerciseView.qml:447
+#: src/app/exercisesessioncontroller.cpp:349
 #, kde-format
-msgid "Correct answer"
-msgid_plural "Correct answers"
-msgstr[0] ""
-msgstr[1] ""
-
-#. +> trunk6
-#: src/app/exercisesessioncontroller.cpp:346
-#, kde-format
-msgid "Incorrect answer, try again"
+msgid "That's right"
 msgstr ""
 
 #. +> trunk6
-#: src/app/exercisesessioncontroller.cpp:350
+#: src/app/exercisesessioncontroller.cpp:351
+#, kde-format
+msgid "Not quite, try again"
+msgstr ""
+
+#. +> trunk6
+#: src/app/exercisesessioncontroller.cpp:355
 #, kde-format
 msgid "Score: %1%"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/exercisesessioncontroller.cpp:523
+#: src/app/exercisesessioncontroller.cpp:528
 #, kde-format
 msgid "Question %1 out of %2"
 msgstr ""
@@ -2433,20 +2431,20 @@ msgid "You answered correctly %1%"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/ExerciseView.qml:289
+#: src/app/qml/ExerciseView.qml:302
 #, kde-format
 msgctxt "technical term, do you have a musician friend?"
 msgid "userMessage"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:302
+#: src/app/qml/ExerciseView.qml:315
 #, kde-format
 msgid "Playing…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/ExerciseView.qml:323
+#: src/app/qml/ExerciseView.qml:336
 #, kde-format
 msgid "New Question"
 msgstr ""
@@ -2464,31 +2462,31 @@ msgid "Click 'New Question' to start"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/ExerciseView.qml:323
+#: src/app/qml/ExerciseView.qml:336
 #, kde-format
 msgid "Play Question"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/ExerciseView.qml:339
+#: src/app/qml/ExerciseView.qml:352
 #, kde-format
 msgid "Give Up"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/ExerciseView.qml:353
+#: src/app/qml/ExerciseView.qml:366
 #, kde-format
 msgid "Stop Test"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/ExerciseView.qml:353
+#: src/app/qml/ExerciseView.qml:366
 #, kde-format
 msgid "Start Test"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:391
+#: src/app/qml/ExerciseView.qml:404
 #, kde-format
 msgid "Available answers"
 msgstr ""
@@ -2500,16 +2498,16 @@ msgid "Available Answers"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:396
+#: src/app/qml/ExerciseView.qml:409
 #, kde-format
 msgid "Scroll for more"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:448
+#: src/app/qml/ExerciseView.qml:460
 #, kde-format
-msgid "Your answer"
-msgid_plural "Your answers"
+msgid "Correct answer"
+msgid_plural "Correct answers"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -2519,6 +2517,14 @@ msgstr[1] ""
 msgid "Here is the answer"
 msgstr ""
 
+#. +> trunk6
+#: src/app/qml/ExerciseView.qml:461
+#, kde-format
+msgid "Your answer"
+msgid_plural "Your answers"
+msgstr[0] ""
+msgstr[1] ""
+
 #. +> stable6
 #: src/app/qml/ExerciseView.qml:386
 #, kde-format
@@ -2526,43 +2532,43 @@ msgid "Your Answer(s)"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:453
+#: src/app/qml/ExerciseView.qml:466
 #, kde-format
 msgid "Scroll for more |"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:458
+#: src/app/qml/ExerciseView.qml:471
 #, kde-format
 msgid "%1 / %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/app/qml/ExerciseView.qml:463
+#: src/app/qml/ExerciseView.qml:476
 #, kde-format
 msgid "Backspace"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:584
+#: src/app/qml/ExerciseView.qml:597
 #, kde-format
 msgid "Keyboard"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:588
+#: src/app/qml/ExerciseView.qml:601
 #, kde-format
 msgid "Staff"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:730
+#: src/app/qml/ExerciseView.qml:743
 #, kde-format
 msgid "Empty answer slot"
 msgstr ""
 
 #. +> trunk6
-#: src/app/qml/ExerciseView.qml:763
+#: src/app/qml/ExerciseView.qml:776
 #, kde-format
 msgid "Answer %1"
 msgstr ""
