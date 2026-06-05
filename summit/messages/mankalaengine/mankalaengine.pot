@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mankalaengine\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-15 08:10+0100\n"
+"POT-Creation-Date: 2026-06-05 09:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -61,4 +61,14 @@ msgid ""
 "At the beginning, all holes are filled with 6 beans  and the kalahs are empty. The starting player chooses one of the holes on their side and removes all the beans in it. The player goes through the holes next to the chosen one  anticlockwise, placing one bean in each one until they have no more beans left. The opponent's kalah is skipped. This is called sowing. If after sowing, the last bean falls in the player's kalah, the player must move again. Otherwise, the move is over.\n"
 "If the last bean falls into an empty hole controlled by the player and the hole controlled by the opponent opposite to it has beans in it, then all the beans in both the holes are removed and moved to the player's kalah. This is called capturing.\n"
 "The game ends when a player has more than 36 beans in their kalah."
+msgstr ""
+
+#. +> trunk6
+#: src/variantdescriptions.h:139
+#, kde-format
+msgid ""
+"Vamana Guntalu is a two-player game featuring 2 rows and 7 pits per row. The board is prepared by filling each pit with 12 tamarind seeds or cowrie shells, except for the middle pits (kaashis) which contain only 1 seed.\n"
+"The player selects any pit from their row and sows the seeds clockwise or counter-clockwise one by one. If sowing ends and the next pit is occupied, the player scoops up those seeds to continue. If the next pit is empty, they capture the seeds in the pit immediately following it. If a capture occurs in the opponent's row, the player also takes the seeds from the pit directly opposite it in their own row.\n"
+"A player's turn ends if they must pick up seeds from a kaashi to continue. Seeds in a kaashi can be captured but remain on the board as 'shared' assets. Whenever a pit reaches exactly 4 seeds, those seeds arecaptured instantly.\n"
+"The round ends when only kaashis contain seeds. Players then attempt to refill pits with 12 seeds from their winnings. Pits that cannot be fully refilled become 'unplayable'. The game ends when a player cannot fill even a single pit.and the loser is the one with fewer captured seeds."
 msgstr ""

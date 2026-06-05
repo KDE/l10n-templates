@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-04 10:12+0200\n"
+"POT-Creation-Date: 2026-06-05 09:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -49,7 +49,7 @@ msgid "Unable to create KIO worker: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: core/copyjob.cpp:190 kioworkers/file/file_unix.cpp:1008
+#: core/copyjob.cpp:190 kioworkers/file/file_unix.cpp:1007
 #, kde-format
 msgctxt "The first arg is the path to the symlink that couldn't be created, the secondarg is the filesystem type (e.g. vfat, exfat)"
 msgid ""
@@ -3756,135 +3756,135 @@ msgid "<qt>This is the file type selector. It is used to select the format of th
 msgstr ""
 
 #. +> trunk6
-#: filewidgets/knewfilemenu.cpp:224
+#: filewidgets/knewfilemenu.cpp:235
 #, kde-format
 msgctxt "@label:textbox Prompt for new file of type"
 msgid "Enter %1 filename:"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:538
+#: filewidgets/knewfilemenu.cpp:543
 #, kde-format
 msgid "Sorry"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:549
+#: filewidgets/knewfilemenu.cpp:554
 #, kde-format
 msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:700 filewidgets/knewfilemenu.cpp:765
+#: filewidgets/knewfilemenu.cpp:705 filewidgets/knewfilemenu.cpp:770
 #, kde-format
 msgid "Name for new link:"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:703
+#: filewidgets/knewfilemenu.cpp:708
 #, kde-format
 msgid "Create Symlink"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:769
+#: filewidgets/knewfilemenu.cpp:774
 #, kde-format
 msgid "Create link to URL"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:810 filewidgets/knewfilemenu.cpp:834
+#: filewidgets/knewfilemenu.cpp:815 filewidgets/knewfilemenu.cpp:839
 #, kde-format
 msgctxt "@item:inmenu Create New"
 msgid "%1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1179
+#: filewidgets/knewfilemenu.cpp:1184
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The name <filename>%1</filename> cannot be used because it is reserved for use by the operating system."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1187
+#: filewidgets/knewfilemenu.cpp:1192
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The name <filename>%1</filename> starts with a dot, so it will be hidden by default."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1195
+#: filewidgets/knewfilemenu.cpp:1200
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The name <filename>%1</filename> starts with a space, which will result in it being shown before other items when sorting alphabetically, among other potential oddities."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1213
+#: filewidgets/knewfilemenu.cpp:1218
 #, kde-format
 msgid "Using slashes in folder names will create sub-folders, like so:"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1227
+#: filewidgets/knewfilemenu.cpp:1232
 #, kde-format
 msgid "Using slashes in folder names will create sub-folders."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1239
+#: filewidgets/knewfilemenu.cpp:1244
 #, kde-format
 msgid "Slashes cannot be used in file and folder names."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1244
+#: filewidgets/knewfilemenu.cpp:1249
 #, kde-format
 msgid "Backslashes cannot be used in file and folder names."
 msgstr ""
 
 #. +> trunk6
-#: filewidgets/knewfilemenu.cpp:1258
+#: filewidgets/knewfilemenu.cpp:1263
 #, kde-kuit-format
 msgctxt "@error"
 msgid "Creating a file or folder with the name <filename>%1</filename> is not possible since it would overlap with the location of a user's home folder."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1267
+#: filewidgets/knewfilemenu.cpp:1272
 #, kde-format
 msgid "Starting a file or folder name with a tilde is not recommended because it may be confusing or dangerous when using the terminal to delete things."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1339
+#: filewidgets/knewfilemenu.cpp:1344
 #, kde-kuit-format
 msgctxt "@info"
 msgid "A directory with name <filename>%1</filename> already exists."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1341
+#: filewidgets/knewfilemenu.cpp:1346
 #, kde-kuit-format
 msgctxt "@info"
 msgid "A file with name <filename>%1</filename> already exists."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1427
+#: filewidgets/knewfilemenu.cpp:1432
 #, kde-format
 msgid "Create New"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1462
+#: filewidgets/knewfilemenu.cpp:1467
 #, kde-format
 msgid "Link to Device"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1501
+#: filewidgets/knewfilemenu.cpp:1506
 #, kde-format
 msgctxt "Default name for a new folder"
 msgid "New Folder"
@@ -3898,27 +3898,27 @@ msgid "New Folder"
 msgstr ""
 
 #. +> trunk6
-#: filewidgets/knewfilemenu.cpp:1524
+#: filewidgets/knewfilemenu.cpp:1529
 #, kde-format
 msgctxt "@title:window"
 msgid "Create New Folder"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/knewfilemenu.cpp:1526
+#: filewidgets/knewfilemenu.cpp:1531
 #, kde-format
 msgid "Create new folder in %1:"
 msgstr ""
 
 #. +> trunk6
-#: filewidgets/knewfilemenu.cpp:1529 widgets/kpropertiesdialogbuiltin_p.cpp:363
+#: filewidgets/knewfilemenu.cpp:1534 widgets/kpropertiesdialogbuiltin_p.cpp:363
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter folder name"
 msgstr ""
 
 #. +> trunk6
-#: filewidgets/knewfilemenu.cpp:1586
+#: filewidgets/knewfilemenu.cpp:1591
 #, kde-format
 msgid "Default"
 msgstr ""
@@ -3965,7 +3965,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, sha256CopyButton)
 #. i18n: ectx: property (text), widget (QPushButton, sha512CopyButton)
 #. +> trunk6 trunk5
-#: filewidgets/kurlnavigator.cpp:606 widgets/checksumswidget.ui:145
+#: filewidgets/kurlnavigator.cpp:609 widgets/checksumswidget.ui:145
 #: widgets/checksumswidget.ui:192 widgets/checksumswidget.ui:239
 #: widgets/checksumswidget.ui:286
 #, kde-format
@@ -3974,45 +3974,45 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pasteButton)
 #. +> trunk6 trunk5
-#: filewidgets/kurlnavigator.cpp:610 widgets/checksumswidget.ui:42
+#: filewidgets/kurlnavigator.cpp:613 widgets/checksumswidget.ui:42
 #, kde-format
 msgid "Paste"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/kurlnavigator.cpp:630
+#: filewidgets/kurlnavigator.cpp:633
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open \"%1\" in New Tab"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/kurlnavigator.cpp:638
+#: filewidgets/kurlnavigator.cpp:641
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open \"%1\" in New Window"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/kurlnavigator.cpp:647
+#: filewidgets/kurlnavigator.cpp:650
 #, kde-format
 msgid "Edit"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/kurlnavigator.cpp:650
+#: filewidgets/kurlnavigator.cpp:653
 #, kde-format
 msgid "Navigate"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: filewidgets/kurlnavigator.cpp:665
+#: filewidgets/kurlnavigator.cpp:668
 #, kde-format
 msgid "Show Full Path"
 msgstr ""
 
 #. +> trunk6
-#: filewidgets/kurlnavigator.cpp:826
+#: filewidgets/kurlnavigator.cpp:829
 #, kde-kuit-format
 msgctxt "@info:tooltip for button. 1 is path"
 msgid "Go to any location on the path <filename>%1</filename>"
@@ -4558,25 +4558,25 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kioworkers/file/file_unix.cpp:601
+#: kioworkers/file/file_unix.cpp:600
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kioworkers/file/file_unix.cpp:815
+#: kioworkers/file/file_unix.cpp:814
 #, kde-format
 msgid "No media in device for %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kioworkers/file/file_unix.cpp:1076
+#: kioworkers/file/file_unix.cpp:1075
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kioworkers/file/file_unix.cpp:1087
+#: kioworkers/file/file_unix.cpp:1086
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
@@ -5844,49 +5844,49 @@ msgid "Updating system configuration."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/kdirmodel.cpp:1258
+#: widgets/kdirmodel.cpp:1263
 #, kde-format
 msgctxt "@title:column"
 msgid "Name"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/kdirmodel.cpp:1260
+#: widgets/kdirmodel.cpp:1265
 #, kde-format
 msgctxt "@title:column"
 msgid "Size"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/kdirmodel.cpp:1262
+#: widgets/kdirmodel.cpp:1267
 #, kde-format
 msgctxt "@title:column"
 msgid "Date"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/kdirmodel.cpp:1264
+#: widgets/kdirmodel.cpp:1269
 #, kde-format
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/kdirmodel.cpp:1266
+#: widgets/kdirmodel.cpp:1271
 #, kde-format
 msgctxt "@title:column"
 msgid "Owner"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/kdirmodel.cpp:1268
+#: widgets/kdirmodel.cpp:1273
 #, kde-format
 msgctxt "@title:column"
 msgid "Group"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: widgets/kdirmodel.cpp:1270
+#: widgets/kdirmodel.cpp:1275
 #, kde-format
 msgctxt "@title:column"
 msgid "Type"
