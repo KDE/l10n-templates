@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-21 00:19+0200\n"
+"POT-Creation-Date: 2026-06-07 08:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7123,13 +7123,6 @@ msgstr ""
 msgid "Date format:"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, kLedger)
-#. +> trunk6
-#: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:880
-#, kde-format
-msgid "Ledger"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #. +> trunk6
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:904
@@ -7141,6 +7134,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:911
 #, kde-format
+msgctxt "Don't translate the word \"Ledger\" because this is the name of an application"
 msgid ""
 "<html><head/><body>"
 "<p>In ledger file, there is not difference between an account and a category. During import, we need to be able to do this difference. For that, you must enter here some words that will identify accounts.</p>"
