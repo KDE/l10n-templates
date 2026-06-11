@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-14 15:33+0200\n"
+"POT-Creation-Date: 2026-06-11 07:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -46,50 +46,50 @@ msgstr ""
 msgid "Current cursor size"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable6 stable5
 #: kcmcursortheme.cpp:312
 #, kde-format
 msgid "You have to restart the Plasma session for these changes to take effect."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmcursortheme.cpp:386
+#: kcmcursortheme.cpp:373
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmcursortheme.cpp:397
+#: kcmcursortheme.cpp:384
 #, kde-format
 msgid "Unable to download the icon theme archive: %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmcursortheme.cpp:428
+#: kcmcursortheme.cpp:415
 #, kde-format
 msgid "The file is not a valid icon theme archive."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmcursortheme.cpp:435
+#: kcmcursortheme.cpp:422
 #, kde-format
 msgid "Failed to create 'icons' folder."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmcursortheme.cpp:444
+#: kcmcursortheme.cpp:431
 #, kde-format
 msgid "A theme named %1 already exists in your icon theme folder. Do you want replace it with this one?"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmcursortheme.cpp:448
+#: kcmcursortheme.cpp:435
 #, kde-format
 msgid "Overwrite Theme?"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmcursortheme.cpp:472
+#: kcmcursortheme.cpp:459
 #, kde-format
 msgid "Theme installed successfully."
 msgstr ""
@@ -102,14 +102,8 @@ msgstr ""
 msgid "Timeout in seconds"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: plasma-apply-cursortheme.cpp:44
-#, kde-format
-msgid "The requested size '%1' is not available, using %2 instead."
-msgstr ""
-
 #. +> trunk6 stable6
-#: plasma-apply-cursortheme.cpp:65
+#: plasma-apply-cursortheme.cpp:38
 #, kde-format
 msgid "This tool allows you to set the mouse pointer theme for the current Plasma session, without accidentally setting it to one that is either not available, or which is already set."
 msgstr ""
@@ -121,7 +115,7 @@ msgid "This tool allows you to set the mouse cursor theme for the current Plasma
 msgstr ""
 
 #. +> trunk6 stable6
-#: plasma-apply-cursortheme.cpp:69
+#: plasma-apply-cursortheme.cpp:42
 #, kde-format
 msgid "The name of the pointer theme you wish to set for your current Plasma session (passing a full path will only use the last part of the path)"
 msgstr ""
@@ -133,19 +127,25 @@ msgid "The name of the cursor theme you wish to set for your current Plasma sess
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plasma-apply-cursortheme.cpp:70
+#: plasma-apply-cursortheme.cpp:43
 #, kde-format
 msgid "Show all the themes available on the system (and which is the current theme)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plasma-apply-cursortheme.cpp:71
+#: plasma-apply-cursortheme.cpp:44
 #, kde-format
 msgid "Use a specific size, rather than the theme default size"
 msgstr ""
 
+#. +> stable6 stable5
+#: plasma-apply-cursortheme.cpp:44
+#, kde-format
+msgid "The requested size '%1' is not available, using %2 instead."
+msgstr ""
+
 #. +> trunk6 stable6
-#: plasma-apply-cursortheme.cpp:92
+#: plasma-apply-cursortheme.cpp:65
 #, kde-format
 msgid "The requested theme “%1” is already set as the theme for the current Plasma session."
 msgstr ""
@@ -157,7 +157,7 @@ msgid "The requested theme \"%1\" is already set as the theme for the current Pl
 msgstr ""
 
 #. +> trunk6 stable6
-#: plasma-apply-cursortheme.cpp:103
+#: plasma-apply-cursortheme.cpp:77
 #, kde-format
 msgid "Successfully applied the mouse pointer theme %1 to your current Plasma session"
 msgstr ""
@@ -169,7 +169,7 @@ msgid "Successfully applied the mouse cursor theme %1 to your current Plasma ses
 msgstr ""
 
 #. +> trunk6 stable6
-#: plasma-apply-cursortheme.cpp:105
+#: plasma-apply-cursortheme.cpp:79
 #, kde-format
 msgid "You have to restart the Plasma session for your newly applied mouse pointer theme to display correctly."
 msgstr ""
@@ -181,7 +181,7 @@ msgid "You have to restart the Plasma session for your newly applied mouse curso
 msgstr ""
 
 #. +> trunk6 stable6
-#: plasma-apply-cursortheme.cpp:115
+#: plasma-apply-cursortheme.cpp:89
 #, kde-format
 msgid "Could not find theme “%1”. The theme should be one of the following options: %2"
 msgstr ""
@@ -193,7 +193,7 @@ msgid "Could not find theme \"%1\". The theme should be one of the following opt
 msgstr ""
 
 #. +> trunk6 stable6
-#: plasma-apply-cursortheme.cpp:123
+#: plasma-apply-cursortheme.cpp:97
 #, kde-format
 msgid "You have the following mouse pointer themes on your system:"
 msgstr ""
@@ -205,7 +205,7 @@ msgid "You have the following mouse cursor themes on your system:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plasma-apply-cursortheme.cpp:128
+#: plasma-apply-cursortheme.cpp:102
 #, kde-format
 msgid "(Current theme for this Plasma session)"
 msgstr ""
@@ -336,7 +336,7 @@ msgid "This module lets you choose the mouse cursor theme."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:109 ui/main.qml:147
+#: ui/main.qml:109 ui/main.qml:145
 #, kde-format
 msgid "Size: %1"
 msgstr ""
@@ -348,20 +348,20 @@ msgid "Size:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:162
+#: ui/main.qml:160
 #, kde-format
 msgctxt "@action:button"
 msgid "&Configure Launch Feedback…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:177
+#: ui/main.qml:175
 #, kde-format
 msgid "&Install from File…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:183
+#: ui/main.qml:181
 #, kde-format
 msgid "&Get New…"
 msgstr ""
@@ -373,13 +373,13 @@ msgid "&Get New Cursors…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:197
+#: ui/main.qml:195
 #, kde-format
 msgid "Open Theme"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:199
+#: ui/main.qml:197
 #, kde-format
 msgid "Pointer Theme Files (*.tar.gz *.tar.bz2)"
 msgstr ""
@@ -391,7 +391,7 @@ msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: xcursor/xcursortheme.cpp:59
+#: xcursor/xcursortheme.cpp:58
 #, kde-format
 msgctxt "@info The argument is the list of available sizes (in pixel). Example: 'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
 msgid "(Available sizes: %1)"
