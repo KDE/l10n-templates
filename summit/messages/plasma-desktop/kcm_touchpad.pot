@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-05 09:01+0200\n"
+"POT-Creation-Date: 2026-06-12 12:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16,18 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. +> trunk6 stable6 stable5
-#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
-#, kde-format
-msgid "Critical error on reading fundamental device infos for touchpad %1."
-msgstr ""
-
-#. +> stable5
-#: backends/kwin_wayland/kwinwaylandbackend.cpp:63
-#, kde-format
-msgid "Querying input devices failed. Please reopen this settings module."
-msgstr ""
 
 #. +> stable5
 #: kcm/libinput/touchpadconfiglibinput.cpp:30
@@ -125,6 +113,12 @@ msgstr ""
 #: kcm/libinput/touchpadconfiglibinput.cpp:167
 #, kde-format
 msgid "Touchpad disconnected. No other touchpads found."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kwinwaylandbackend.cpp:45
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -492,6 +486,12 @@ msgstr ""
 #: actions.cpp:38
 #, kde-format
 msgid "Toggle Touchpad"
+msgstr ""
+
+#. +> stable5
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:63
+#, kde-format
+msgid "Querying input devices failed. Please reopen this settings module."
 msgstr ""
 
 #. +> stable5

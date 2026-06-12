@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-09 10:21+0200\n"
+"POT-Creation-Date: 2026-06-12 12:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1438,42 +1438,42 @@ msgid "Could not start control module for date and time format."
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1265
+#: actionmanager.cpp:1266
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Show Event"
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1268
+#: actionmanager.cpp:1269
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Edit Event…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1271
+#: actionmanager.cpp:1272
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Delete Event"
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1279
+#: actionmanager.cpp:1280
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Show To-do"
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1282
+#: actionmanager.cpp:1283
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Edit To-do…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1285
+#: actionmanager.cpp:1286
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Delete To-do"
@@ -3963,27 +3963,34 @@ msgid "Merge the specified files into an existing calendar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: korganizer_options.h:24
+#: korganizer_options.h:25
 #, kde-format
 msgctxt "@info:shell"
 msgid "Display the specified incidence (by URL)"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: korganizer_options.h:25
+#, kde-format
+msgctxt "@info:shell"
+msgid "Url"
+msgstr ""
+
+#. +> stable6
 #: korganizer_options.h:24
 #, kde-format
 msgid "Url"
 msgstr ""
 
 #. +> trunk6 stable6
-#: korganizer_options.h:28
+#: korganizer_options.h:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Calendar files or urls. Unless -i or -m is explicitly specified, the user will be asked whether to import or merge"
 msgstr ""
 
 #. +> trunk6 stable6
-#: korganizer_options.h:32
+#: korganizer_options.h:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
@@ -7089,14 +7096,28 @@ msgctxt "@info:tooltip"
 msgid "Select a year"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: widgets/navigatorbar.cpp:141
+#, kde-format
+msgctxt "@label monthname"
+msgid "%1"
+msgstr ""
+
+#. +> stable6
 #: widgets/navigatorbar.cpp:141
 #, kde-format
 msgctxt "monthname"
 msgid "%1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: widgets/navigatorbar.cpp:142
+#, kde-format
+msgctxt "@label 4 digit year"
+msgid "%1"
+msgstr ""
+
+#. +> stable6
 #: widgets/navigatorbar.cpp:142
 #, kde-format
 msgctxt "4 digit year"
