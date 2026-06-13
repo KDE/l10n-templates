@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-12 12:40+0200\n"
+"POT-Creation-Date: 2026-06-13 11:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -21678,6 +21678,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: libs/flake/tools/KoPathToolFactory.cpp:18
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:29
 #, kde-format
 msgid "Edit Shapes Tool"
 msgstr ""
@@ -21867,9 +21868,6 @@ msgstr ""
 #: plugins/python/photobash_images/photobash_images_docker.ui:461
 #: plugins/python/scriptdocker/scriptdocker.py:33
 #: plugins/python/tenscripts/uitenscripts.py:66
-#: plugins/python/workflow_buttons/buttons_settings_dialog.py:169
-#: plugins/python/workflow_buttons/buttons_settings_dialog.py:211
-#: plugins/python/workflow_buttons/buttons_settings_dialog.py:290
 #, kde-format
 msgid "..."
 msgstr ""
@@ -23376,7 +23374,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: libs/impex/KisExportCheckRegistry.cpp:111 libs/ui/kis_layer_manager.cc:699
-#: libs/ui/kis_node_manager.cpp:1623
+#: libs/ui/kis_node_manager.cpp:1631
 #, kde-format
 msgctxt "A group of layers"
 msgid "Group"
@@ -23428,7 +23426,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: libs/impex/KisExportCheckRegistry.cpp:127 libs/ui/kis_mask_manager.cc:216
-#: libs/ui/kis_node_manager.cpp:1385
+#: libs/ui/kis_node_manager.cpp:1393
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
 #: plugins/impex/psd/psd_loader.cpp:593
 #: plugins/impex/tiff/kis_tiff_import.cc:565
@@ -25304,8 +25302,8 @@ msgstr ""
 #: libs/ui/input/kis_tablet_debugger.cpp:106 libs/ui/kis_clipboard.cc:779
 #: libs/ui/kis_custom_pattern.cc:126 libs/ui/kis_filter_manager.cc:234
 #: libs/ui/kis_filter_manager.cc:243 libs/ui/kis_layer_manager.cc:326
-#: libs/ui/kis_layer_manager.cc:1044 libs/ui/kis_node_manager.cpp:1310
-#: libs/ui/kis_node_manager.cpp:1373 libs/ui/KisApplication.cpp:1225
+#: libs/ui/kis_layer_manager.cc:1044 libs/ui/kis_node_manager.cpp:1318
+#: libs/ui/kis_node_manager.cpp:1381 libs/ui/KisApplication.cpp:1225
 #: libs/ui/KisApplication.cpp:1228 libs/ui/KisApplication.cpp:1244
 #: libs/ui/KisApplication.cpp:1276 libs/ui/KisApplication.cpp:1290
 #: libs/ui/KisApplication.cpp:1318 libs/ui/KisDocument.cpp:1055
@@ -36079,6 +36077,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, ColorSamplerOptionsWidget)
 #. +> trunk6 stable6
 #: libs/ui/input/KisTouchGestureAction.cpp:28
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:45
 #: plugins/tools/basictools/wdgcolorsampler.ui:18
 #, kde-format
 msgid "Color Sampler"
@@ -36111,6 +36110,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: libs/ui/input/KisTouchGestureAction.cpp:33
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:56
 #: plugins/tools/selectiontools/kis_tool_select_outline.h:52
 #, kde-format
 msgid "Freehand Selection Tool"
@@ -36628,43 +36628,43 @@ msgid "Could not create a reference image from the visible canvas."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1023
+#: libs/ui/kis_node_manager.cpp:1031
 #, kde-format
 msgid "Onion skins require a layer with transparent background."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1050
+#: libs/ui/kis_node_manager.cpp:1058
 msgctxt "(qtundo-format)"
 msgid "Duplicate Nodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1075
+#: libs/ui/kis_node_manager.cpp:1083
 msgctxt "(qtundo-format)"
 msgid "Raise Nodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1084
+#: libs/ui/kis_node_manager.cpp:1092
 msgctxt "(qtundo-format)"
 msgid "Lower Nodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1104
+#: libs/ui/kis_node_manager.cpp:1112
 msgctxt "(qtundo-format)"
 msgid "Remove Nodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1120
+#: libs/ui/kis_node_manager.cpp:1128
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Horizontally"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1123
+#: libs/ui/kis_node_manager.cpp:1131
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Horizontally"
@@ -36673,13 +36673,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1134
+#: libs/ui/kis_node_manager.cpp:1142
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Vertically"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1137
+#: libs/ui/kis_node_manager.cpp:1145
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Vertically"
@@ -36688,58 +36688,58 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1145
+#: libs/ui/kis_node_manager.cpp:1153
 msgctxt "(qtundo-format)"
 msgid "Mirror All Layers Horizontally"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1152
+#: libs/ui/kis_node_manager.cpp:1160
 msgctxt "(qtundo-format)"
 msgid "Mirror All Layers Vertically"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1284
+#: libs/ui/kis_node_manager.cpp:1292
 #, kde-format
 msgid "Export \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1311
+#: libs/ui/kis_node_manager.cpp:1319
 #, kde-format
 msgid "Could not save the layer. %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1329
+#: libs/ui/kis_node_manager.cpp:1337
 #, kde-format
 msgctxt "warning message when trying to export a transform mask"
 msgid "Layer has no pixel data"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1353
+#: libs/ui/kis_node_manager.cpp:1361
 #, kde-format
 msgctxt "@title:window"
 msgid "Export to SVG"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1373
+#: libs/ui/kis_node_manager.cpp:1381
 #, kde-format
 msgid "Could not save to svg: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1398
+#: libs/ui/kis_node_manager.cpp:1406
 #, kde-format
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1399
+#: libs/ui/kis_node_manager.cpp:1407
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
@@ -36747,57 +36747,57 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1430
+#: libs/ui/kis_node_manager.cpp:1438
 msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1570
+#: libs/ui/kis_node_manager.cpp:1578
 msgctxt "(qtundo-format)"
 msgid "Cut Nodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1653
+#: libs/ui/kis_node_manager.cpp:1661
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1664
+#: libs/ui/kis_node_manager.cpp:1672
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1671
+#: libs/ui/kis_node_manager.cpp:1679
 #, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1672
+#: libs/ui/kis_node_manager.cpp:1680
 #, kde-format
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1699
+#: libs/ui/kis_node_manager.cpp:1707
 #, kde-format
 msgid "Cannot move layer \"%1\" into new parent \"%2\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1702
+#: libs/ui/kis_node_manager.cpp:1710
 #, kde-format
 msgid "Cannot move layer \"%1\" into the root layer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/kis_node_manager.cpp:1710
+#: libs/ui/kis_node_manager.cpp:1718
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
 msgstr ""
@@ -44400,6 +44400,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/assistants/Assistants/kis_assistant_tool.h:189
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:50
 #, kde-format
 msgid "Assistant Tool"
 msgstr ""
@@ -46553,15 +46554,22 @@ msgid "Grid and Guides"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/histogram/HistogramComputationStrokeStrategy.cpp:37
+#: plugins/dockers/histogram/HistogramComputationStrokeStrategy.cpp:39
 msgctxt "(qtundo-format)"
 msgid "Update histogram"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/dockers/histogram/histogramdocker_dock.cpp:17
+#: plugins/dockers/histogram/histogramdocker_dock.cpp:21
 #, kde-format
 msgid "Histogram"
+msgstr ""
+
+#. +> trunk6
+#: plugins/dockers/histogram/histogramdocker_dock.cpp:32
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Toggle logarithmic histogram."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -69031,13 +69039,222 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/python/tenscripts/uitenscripts.py:74
-#: plugins/python/workflow_buttons/buttons_settings_dialog.py:291
 msgid "Select the script"
 msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/python/tenscripts/uitenscripts.py:106
 msgid "Python files (*.py)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:27
+#: plugins/tools/defaulttool/defaulttool/DefaultToolFactory.cpp:19
+#, kde-format
+msgid "Select Shapes Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:28
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:94
+#, kde-format
+msgid "Text Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:30
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyToolFactory.cpp:20
+#, kde-format
+msgid "Calligraphy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:31
+#: plugins/tools/basictools/kis_tool_brush.h:146
+#, kde-format
+msgid "Freehand Brush Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:32
+#: plugins/tools/basictools/kis_tool_line.h:116
+#, kde-format
+msgid "Line Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:33
+#: plugins/tools/basictools/kis_tool_rectangle.h:50
+#, kde-format
+msgid "Rectangle Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:34
+#: plugins/tools/basictools/kis_tool_ellipse.h:47
+#, kde-format
+msgid "Ellipse Tool"
+msgstr ""
+
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:35
+msgid "Polygon Tool"
+msgstr ""
+
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:36
+msgid "Polyline Tool"
+msgstr ""
+
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:37
+msgid "Bezier Curve Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:38
+#: plugins/tools/basictools/kis_tool_pencil.h:76
+#, kde-format
+msgid "Freehand Path Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:39
+#: plugins/tools/tool_dyna/kis_tool_dyna.h:139
+#, kde-format
+msgid "Dynamic Brush Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:40
+#: plugins/tools/basictools/kis_tool_multihand.h:99
+#, kde-format
+msgid "Multibrush Tool"
+msgstr ""
+
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:41
+msgid "Transform Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:42
+#: plugins/tools/basictools/kis_tool_move.h:183
+#, kde-format
+msgid "Move Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:43
+#: plugins/tools/tool_crop/kis_tool_crop.h:221
+#, kde-format
+msgid "Crop Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:44
+#: plugins/tools/basictools/kis_tool_gradient.h:106
+#, kde-format
+msgid "Gradient Tool"
+msgstr ""
+
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:46
+msgid "Colorize Mask Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:47
+#: plugins/tools/tool_smart_patch/kis_tool_smart_patch.h:79
+#, kde-format
+msgid "Smart Patch Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:48
+#: plugins/tools/basictools/kis_tool_fill.h:242
+#, kde-format
+msgid "Fill Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:49
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFillFactory.h:23
+#, kde-format
+msgid "Enclose and Fill Tool"
+msgstr ""
+
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:51
+msgid "Measurement Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:52
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.h:96
+#, kde-format
+msgid "Reference Images Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:53
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:50
+#, kde-format
+msgid "Rectangular Selection Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:54
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:49
+#, kde-format
+msgid "Elliptical Selection Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:55
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.h:48
+#, kde-format
+msgid "Polygonal Selection Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:57
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:97
+#, kde-format
+msgid "Contiguous Selection Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:58
+#: plugins/tools/selectiontools/kis_tool_select_similar.h:59
+#, kde-format
+msgid "Similar Color Selection Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:59
+#: plugins/tools/selectiontools/kis_tool_select_path.h:88
+#, kde-format
+msgid "Bezier Curve Selection Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:60
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.h:102
+#, kde-format
+msgid "Magnetic Selection Tool"
+msgstr ""
+
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:61
+msgid "Zoom Tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:62
+#: plugins/tools/basictools/kis_tool_pan.cpp:81
+#, kde-format
+msgid "Pan Tool"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -69060,147 +69277,336 @@ msgstr ""
 msgid "Workflow Buttons settings"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:104
+msgctxt "@label"
+msgid "Selected button:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:104
 msgid "Selected button:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:117
+msgctxt "@info:tooltip"
+msgid "Add a workflow button"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:117
 msgid "Add a workflow button"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:125
+msgctxt "@info:tooltip"
+msgid "Move selected workflow button to the left"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:125
 msgid "Move selected workflow button to the left"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:131
+msgctxt "@info:tooltip"
+msgid "Move selected workflow button to the right"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:131
 msgid "Move selected workflow button to the right"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:139
+msgctxt "@info:tooltip"
+msgid "Delete selected workflow button"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:139
 msgid "Delete selected workflow button"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:146
+msgctxt "@label:listbox"
+msgid "Select icon mode:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:146
 msgid "Select icon mode:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:162
+msgctxt "@label:chooser"
+msgid "Select a custom icon:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:162
 msgid "Select a custom icon:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:165
+msgctxt "@info:tooltip"
+msgid "Custom icon path"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:165
 msgid "Custom icon path"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:169
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:211
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:290
+msgctxt "@action:button"
+msgid "..."
+msgstr ""
+
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:170
+msgctxt "@info:tooltip"
+msgid "Select the custom icon"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:170
 msgid "Select the custom icon"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:178
+msgctxt "@label:textbox"
+msgid "Enter a Tooltip:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:178
 msgid "Enter a Tooltip:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:181
+msgctxt "@info:tooltip"
+msgid "Tooltip text"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:181
 msgid "Tooltip text"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:189
+msgctxt "@label:listbox"
+msgid "Select a tool:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:189
 msgid "Select a tool:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:204
+msgctxt "@label:chooser"
+msgid "Select a brush preset:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:204
 msgid "Select a brush preset:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:207
+msgctxt "@info:tooltip"
+msgid "Brush preset name"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:207
 msgid "Brush preset name"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:212
+msgctxt "@info:tooltip"
+msgid "Select the brush preset"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:212
 msgid "Select the brush preset"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:220
+msgctxt "@label"
+msgid "Select foreground color:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:220
 msgid "Select foreground color:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:222
+msgctxt "@action:button"
+msgid "Load current foreground color"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:222
 msgid "Load current foreground color"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:225
+msgctxt "@action:button"
+msgid "Clear foreground color"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:225
 msgid "Clear foreground color"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:235
+msgctxt "@info:tooltip"
+msgid "Color model ; depth ; profile ; components"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:235
 msgid "Color model ; depth ; profile ; components"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:252
+msgctxt "@label"
+msgid "Select background color:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:252
 msgid "Select background color:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:254
+msgctxt "@action:button"
+msgid "Load current background color"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:254
 msgid "Load current background color"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:257
+msgctxt "@action:button"
+msgid "Clear background color"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:257
 msgid "Clear background color"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:283
+msgctxt "@label"
+msgid "Select a script file:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:283
 msgid "Select a script file:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:286
+msgctxt "@info:tooltip"
+msgid "Script path"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:286
 msgid "Script path"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:291
+msgctxt "@info:tooltip"
+msgid "Select the script"
+msgstr ""
+
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:305
+msgctxt "@label:listbox"
+msgid "Buttons size:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:305
 msgid "Buttons size:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:321
+msgctxt "@label:listbox"
+msgid "Settings button position:"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:321
 msgid "Settings button position:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:323
+msgctxt "@item:inlistbox Workflow Buttons settings button position"
+msgid "Bottom bar"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:323
 msgid "Bottom bar"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:324
+msgctxt "@item:inlistbox Workflow Buttons settings button position"
+msgid "Inline"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:324
 msgid "Inline"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:512
+#: plugins/python/workflow_buttons/buttons_settings_dialog.py:545
+msgctxt "@label"
+msgid "Color info: "
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:512
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:545
 msgid "Color info: "
@@ -69217,7 +69623,13 @@ msgctxt "@title:window"
 msgid "Workflow Buttons"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/python/workflow_buttons/workflow_buttons.py:65
+msgctxt "@info:tooltip"
+msgid "Open workflow buttons settings dialog"
+msgstr ""
+
+#. +> stable6
 #: plugins/python/workflow_buttons/workflow_buttons.py:65
 msgid "Open workflow buttons settings dialog"
 msgstr ""
@@ -69401,12 +69813,6 @@ msgid "Enable snapping when using erasers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_brush.h:146
-#, kde-format
-msgid "Freehand Brush Tool"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/basictools/kis_tool_colorsampler.h:124
 #, kde-format
 msgid "Color Sampler Tool"
@@ -69416,12 +69822,6 @@ msgstr ""
 #: plugins/tools/basictools/kis_tool_ellipse.cc:64
 msgctxt "(qtundo-format)"
 msgid "Draw Ellipse"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_ellipse.h:47
-#, kde-format
-msgid "Ellipse Tool"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -69724,12 +70124,6 @@ msgid "Drag-fill mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_fill.h:242
-#, kde-format
-msgid "Fill Tool"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/basictools/kis_tool_gradient.cc:157
 msgctxt "(qtundo-format)"
 msgid "Gradient"
@@ -69747,12 +70141,6 @@ msgstr ""
 #, kde-format
 msgctxt "the gradient will be dithered"
 msgid "Dither"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_gradient.h:106
-#, kde-format
-msgid "Gradient Tool"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -69792,12 +70180,6 @@ msgid "Alt+Drag will move the origin of the currently displayed line around, Shi
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_line.h:116
-#, kde-format
-msgid "Line Tool"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/basictools/kis_tool_measure.cc:77
 #, kde-format
 msgctxt "angle value in degrees"
@@ -69831,12 +70213,6 @@ msgstr ""
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "Selected area has no pixels"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_move.h:183
-#, kde-format
-msgid "Move Tool"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -69889,18 +70265,6 @@ msgid "Multibrush Tool does not support more than %1 brushes; use a larger inter
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_multihand.h:99
-#, kde-format
-msgid "Multibrush Tool"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_pan.cpp:81
-#, kde-format
-msgid "Pan Tool"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/basictools/kis_tool_path.cc:145
 msgctxt "(qtundo-format)"
 msgid "Draw Bezier Curve"
@@ -69919,21 +70283,9 @@ msgid "Draw Freehand Path"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_pencil.h:76
-#, kde-format
-msgid "Freehand Path Tool"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/basictools/kis_tool_rectangle.cc:66
 msgctxt "(qtundo-format)"
 msgid "Draw Rectangle"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/basictools/kis_tool_rectangle.h:50
-#, kde-format
-msgid "Rectangle Tool"
 msgstr ""
 
 #. i18n: context: text @ Action (KisToolPath), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -70470,12 +70822,6 @@ msgid "Logical Operations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/defaulttool/defaulttool/DefaultToolFactory.cpp:19
-#, kde-format
-msgid "Select Shapes Tool"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:108
 #, kde-format
 msgid "Fill, Stroke, Markers"
@@ -70664,12 +71010,6 @@ msgstr ""
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:335
 #, kde-format
 msgid "Reference Image Actions"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.h:96
-#, kde-format
-msgid "Reference Images Tool"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -71006,12 +71346,6 @@ msgid "Calligraphy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyToolFactory.cpp:20
-#, kde-format
-msgid "Calligraphy"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:59
 #, kde-format
 msgid "Contiguous Area Selection"
@@ -71093,12 +71427,6 @@ msgid "Selection extent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:97
-#, kde-format
-msgid "Contiguous Selection Tool"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:37
 #, kde-format
 msgid "Elliptical Selection"
@@ -71109,12 +71437,6 @@ msgstr ""
 #: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:68
 msgctxt "(qtundo-format)"
 msgid "Select Ellipse"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:49
-#, kde-format
-msgid "Elliptical Selection Tool"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -71144,12 +71466,6 @@ msgid "Select by Bezier Curve"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/selectiontools/kis_tool_select_path.h:88
-#, kde-format
-msgid "Bezier Curve Selection Tool"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:41
 #, kde-format
 msgid "Polygonal Selection"
@@ -71163,12 +71479,6 @@ msgid "Select Polygon"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.h:48
-#, kde-format
-msgid "Polygonal Selection Tool"
-msgstr ""
-
-#. +> trunk6 stable6
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:38
 #, kde-format
 msgid "Rectangular Selection"
@@ -71179,12 +71489,6 @@ msgstr ""
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:72
 msgctxt "(qtundo-format)"
 msgid "Select Rectangle"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:50
-#, kde-format
-msgid "Rectangular Selection Tool"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -71219,12 +71523,6 @@ msgstr ""
 #, kde-format
 msgctxt "The 'selection extent' section label in similar selection tool options"
 msgid "Selection extent"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/selectiontools/kis_tool_select_similar.h:59
-#, kde-format
-msgid "Similar Color Selection Tool"
 msgstr ""
 
 #. i18n: context: text @ Action (KisToolSelectContiguous), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -71379,12 +71677,6 @@ msgstr ""
 #, kde-format
 msgctxt "The 'path options' section label in magnetic selection's tool options"
 msgid "Path options"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.h:102
-#, kde-format
-msgid "Magnetic Selection Tool"
 msgstr ""
 
 #. i18n: context: text @ Action (KisToolSelectOutline), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -71615,12 +71907,6 @@ msgstr ""
 #, kde-format
 msgctxt "Type setting mode line name"
 msgid "Baseline Shift"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:94
-#, kde-format
-msgid "Text Tool"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -72482,12 +72768,6 @@ msgid ""
 "Height: %2"
 msgstr ""
 
-#. +> trunk6 stable6
-#: plugins/tools/tool_crop/kis_tool_crop.h:221
-#, kde-format
-msgid "Crop Tool"
-msgstr ""
-
 #. i18n: context: text @ Action (KisToolCrop), Actions (tool-shortcuts), ActionCollection (Tools)
 #. +> trunk6 stable6
 #: plugins/tools/tool_crop/KisToolCrop.action:7
@@ -72653,12 +72933,6 @@ msgstr ""
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:320
 #, kde-format
 msgid "Width range:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/tool_dyna/kis_tool_dyna.h:139
-#, kde-format
-msgid "Dynamic Brush Tool"
 msgstr ""
 
 #. i18n: context: text @ Action (KisToolEncloseAndFill), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -72893,12 +73167,6 @@ msgstr ""
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Any surrounded by a specific color or transparency"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFillFactory.h:23
-#, kde-format
-msgid "Enclose and Fill Tool"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -73266,12 +73534,6 @@ msgstr ""
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch.cpp:174
 msgctxt "(qtundo-format)"
 msgid "Smart Patch"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/tools/tool_smart_patch/kis_tool_smart_patch.h:79
-#, kde-format
-msgid "Smart Patch Tool"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, Fast)
