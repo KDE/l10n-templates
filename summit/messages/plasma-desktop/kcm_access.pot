@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-23 08:32+0200\n"
+"POT-Creation-Date: 2026-06-16 09:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -37,13 +37,13 @@ msgid "Super"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmaccess.cpp:127 kcmaccess.cpp:155
+#: kcmaccess.cpp:124 kcmaccess.cpp:152
 #, kde-format
 msgid "KWin"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmaccess.cpp:130
+#: kcmaccess.cpp:127
 #, kde-format
 msgid "Toggle Invert Effect"
 msgstr ""
@@ -66,6 +66,12 @@ msgstr ""
 msgid "Press %1 while NumLock and ScrollLock are active"
 msgstr ""
 
+#. +> trunk6 stable6
+#: kcmaccess.cpp:133
+#, kde-format
+msgid "Toggle Invert Effect on Window"
+msgstr ""
+
 #. +> stable5
 #: kcmaccess.cpp:133
 #, kde-format
@@ -84,12 +90,6 @@ msgstr ""
 msgid "Press %1 while CapsLock is active"
 msgstr ""
 
-#. +> trunk6 stable6
-#: kcmaccess.cpp:136
-#, kde-format
-msgid "Toggle Invert Effect on Window"
-msgstr ""
-
 #. +> stable5
 #: kcmaccess.cpp:136
 #, kde-format
@@ -103,93 +103,51 @@ msgid "Press %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmaccess.cpp:178
+#: kcmaccess.cpp:175
 #, kde-format
 msgid "Move Left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmaccess.cpp:185
+#: kcmaccess.cpp:182
 #, kde-format
 msgid "Move Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmaccess.cpp:192
+#: kcmaccess.cpp:189
 #, kde-format
 msgid "Move Up"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmaccess.cpp:199
+#: kcmaccess.cpp:196
 #, kde-format
 msgid "Move Down"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmaccess.cpp:206
+#: kcmaccess.cpp:203
 #, kde-format
 msgid "Move Mouse to Focus"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmaccess.cpp:213
+#: kcmaccess.cpp:210
 #, kde-format
 msgid "Move Mouse to Center"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmaccess.cpp:256
+#: kcmaccess.cpp:253
 #, kde-format
 msgid "Could not set gsettings for Orca: \"%1\" failed"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmaccess.cpp:263
+#: kcmaccess.cpp:260
 #, kde-format
 msgid "Error: Could not launch \"orca --setup\""
-msgstr ""
-
-#. i18n: ectx: label, entry (Gestures), group (Keyboard)
-#. +> trunk6 stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:9
-#, kde-format
-msgid "Use Gestures"
-msgstr ""
-
-#. i18n: ectx: label, entry (GestureConfirmation), group (Keyboard)
-#. +> trunk6 stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:13
-#, kde-format
-msgid "Ask for Confirmation for a gesture"
-msgstr ""
-
-#. i18n: ectx: label, entry (KeyboardNotifyAccess), group (Keyboard)
-#. +> trunk6 stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:17
-#, kde-format
-msgid "Confirm access to the Keyboard"
-msgstr ""
-
-#. i18n: ectx: label, entry (AccessXTimeout), group (Keyboard)
-#. +> trunk6 stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:21
-#, kde-format
-msgid "Use a timeout delay"
-msgstr ""
-
-#. i18n: ectx: label, entry (AccessXTimeoutDelay), group (Keyboard)
-#. +> trunk6 stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:25
-#, kde-format
-msgid "Delay for timeout"
-msgstr ""
-
-#. i18n: ectx: label, entry (AccessXBeep), group (Keyboard)
-#. +> trunk6 stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:29
-#, kde-format
-msgid "Use a beep for access"
 msgstr ""
 
 #. i18n: ectx: label, entry (SystemBell), group (Bell)
@@ -442,94 +400,6 @@ msgstr ""
 #: kcmaccessibilityzoommagnifier.kcfg:13
 #, kde-format
 msgid "Whether the Magnifier effect is enabled"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:18
-#, kde-format
-msgctxt "@option:check"
-msgid "Activation shortcuts:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:19
-#, kde-format
-msgctxt "Enable activation shortcuts"
-msgid "Enable"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:31
-#, kde-format
-msgctxt "@label"
-msgid "Press Shift 5 times to enable Sticky Keys"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:38
-#, kde-format
-msgctxt "@label"
-msgid "Hold Shift for 8 seconds to enable Slow Keys"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:47
-#, kde-format
-msgctxt "@option:check"
-msgid "Disable sticky and slow keys after:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:71
-#, kde-format
-msgctxt "@label:valuesuffix in spinbox %1 is timeout delay"
-msgid "%1 min"
-msgid_plural "%1 min"
-msgstr[0] ""
-msgstr[1] ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:80
-#, kde-format
-msgctxt "short for minute(s)"
-msgid "min"
-msgid_plural "min"
-msgstr[0] ""
-msgstr[1] ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:89
-#, kde-format
-msgctxt "@title:group for checkbox group"
-msgid "When a shortcut is used:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:90
-#, kde-format
-msgctxt "@option:check when shortcut used"
-msgid "Display a confirmation dialog"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:101
-#, kde-format
-msgctxt "@option:check when shortcut used"
-msgid "Ring the system bell"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:112
-#, kde-format
-msgctxt "@option:check when shortcut used"
-msgid "Show a notification"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/ActivationShortcuts.qml:123
-#, kde-format
-msgctxt "@action:button opens Notifications kcm"
-msgid "Configure Notifications…"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -986,32 +856,32 @@ msgstr ""
 #: ui/main.qml:53
 #, kde-format
 msgctxt "@title Category name in sidebar"
-msgid "Activation Shortcuts"
+msgid "Screen Reader"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/main.qml:58
 #, kde-format
 msgctxt "@title Category name in sidebar"
-msgid "Screen Reader"
+msgid "Color Blindness Correction"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@title Category name in sidebar"
+msgid "Activation Shortcuts"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/main.qml:63
-#, kde-format
-msgctxt "@title Category name in sidebar"
-msgid "Color Blindness Correction"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:68
 #, kde-format
 msgctxt "@title Category name in sidebar, for inverting screen colors"
 msgid "Invert"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:73
+#: ui/main.qml:68
 #, kde-format
 msgctxt "@title Category name in sidebar, shake pointer to find it"
 msgid "Shake Pointer"
@@ -1481,6 +1351,136 @@ msgstr ""
 #, kde-format
 msgctxt "@label Hint for zoom/magnify effect usage"
 msgid "Use shortcuts to control zoom"
+msgstr ""
+
+#. i18n: ectx: label, entry (Gestures), group (Keyboard)
+#. +> stable6 stable5
+#: kcmaccessibilityactivationgestures.kcfg:9
+#, kde-format
+msgid "Use Gestures"
+msgstr ""
+
+#. i18n: ectx: label, entry (GestureConfirmation), group (Keyboard)
+#. +> stable6 stable5
+#: kcmaccessibilityactivationgestures.kcfg:13
+#, kde-format
+msgid "Ask for Confirmation for a gesture"
+msgstr ""
+
+#. i18n: ectx: label, entry (KeyboardNotifyAccess), group (Keyboard)
+#. +> stable6 stable5
+#: kcmaccessibilityactivationgestures.kcfg:17
+#, kde-format
+msgid "Confirm access to the Keyboard"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccessXTimeout), group (Keyboard)
+#. +> stable6 stable5
+#: kcmaccessibilityactivationgestures.kcfg:21
+#, kde-format
+msgid "Use a timeout delay"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccessXTimeoutDelay), group (Keyboard)
+#. +> stable6 stable5
+#: kcmaccessibilityactivationgestures.kcfg:25
+#, kde-format
+msgid "Delay for timeout"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccessXBeep), group (Keyboard)
+#. +> stable6 stable5
+#: kcmaccessibilityactivationgestures.kcfg:29
+#, kde-format
+msgid "Use a beep for access"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:18
+#, kde-format
+msgctxt "@option:check"
+msgid "Activation shortcuts:"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:19
+#, kde-format
+msgctxt "Enable activation shortcuts"
+msgid "Enable"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:31
+#, kde-format
+msgctxt "@label"
+msgid "Press Shift 5 times to enable Sticky Keys"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:38
+#, kde-format
+msgctxt "@label"
+msgid "Hold Shift for 8 seconds to enable Slow Keys"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:47
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable sticky and slow keys after:"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:71
+#, kde-format
+msgctxt "@label:valuesuffix in spinbox %1 is timeout delay"
+msgid "%1 min"
+msgid_plural "%1 min"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:80
+#, kde-format
+msgctxt "short for minute(s)"
+msgid "min"
+msgid_plural "min"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:89
+#, kde-format
+msgctxt "@title:group for checkbox group"
+msgid "When a shortcut is used:"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:90
+#, kde-format
+msgctxt "@option:check when shortcut used"
+msgid "Display a confirmation dialog"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:101
+#, kde-format
+msgctxt "@option:check when shortcut used"
+msgid "Ring the system bell"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:112
+#, kde-format
+msgctxt "@option:check when shortcut used"
+msgid "Show a notification"
+msgstr ""
+
+#. +> stable6
+#: ui/ActivationShortcuts.qml:123
+#, kde-format
+msgctxt "@action:button opens Notifications kcm"
+msgid "Configure Notifications…"
 msgstr ""
 
 #. +> stable5

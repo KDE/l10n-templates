@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktexteditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-14 13:42+0200\n"
+"POT-Creation-Date: 2026-06-16 09:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1457,14 +1457,28 @@ msgid "&PageUp/PageDown moves cursor"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkCamelCursor)
-#. +> trunk6 trunk5
+#. +> trunk6
+#: dialogs/navigationconfigwidget.ui:55
+#, kde-format
+msgid "Selects whether cursor stops at camel case humps and underscores within a word."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkCamelCursor)
+#. +> trunk5
 #: dialogs/navigationconfigwidget.ui:55
 #, kde-format
 msgid "Selects whether cursor jumps full words or breaks at camel case humps."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCamelCursor)
-#. +> trunk6 trunk5
+#. +> trunk6
+#: dialogs/navigationconfigwidget.ui:58
+#, kde-format
+msgid "Stop at 'camelCase' and 'snake_case' subwords when moving the cursor by word"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkCamelCursor)
+#. +> trunk5
 #: dialogs/navigationconfigwidget.ui:58
 #, kde-format
 msgid "Enable camel case cursor movement"
@@ -2608,16 +2622,30 @@ msgstr ""
 msgid "Normal Mode"
 msgstr ""
 
-#. +> trunk6 trunk5
-#: inputmode/kateviinputmode.cpp:31
+#. +> trunk5
+#: inputmode/kateviinputmode.cpp:29
 #, kde-format
 msgid "VI: INSERT MODE"
 msgstr ""
 
-#. +> trunk6 trunk5
-#: inputmode/kateviinputmode.cpp:34
+#. +> trunk6
+#: inputmode/kateviinputmode.cpp:31
+#, kde-format
+msgctxt "The INSERT mode of VI"
+msgid "VI: INSERT"
+msgstr ""
+
+#. +> trunk5
+#: inputmode/kateviinputmode.cpp:32
 #, kde-format
 msgid "VI: NORMAL MODE"
+msgstr ""
+
+#. +> trunk6
+#: inputmode/kateviinputmode.cpp:34
+#, kde-format
+msgctxt "The NORMAL mode of VI"
+msgid "VI: NORMAL"
 msgstr ""
 
 #. +> trunk6 trunk5
