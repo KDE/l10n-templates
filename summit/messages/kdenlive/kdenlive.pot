@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-15 08:59+0200\n"
+"POT-Creation-Date: 2026-06-17 08:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -22754,19 +22754,25 @@ msgid "New tag"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/capture/mediacapture.cpp:118
+#: src/capture/mediacapture.cpp:116
 #, kde-format
 msgid "Recording format adjusted to %1 channels, %2Hz."
 msgstr ""
 
+#. +> trunk6
+#: src/capture/mediacapture.cpp:155 src/capture/mediacapture.cpp:301
+#, kde-format
+msgid "No audio device found"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/capture/mediacapture.cpp:243
+#: src/capture/mediacapture.cpp:247
 #, kde-format
 msgid "Monitoring audio. Press <b>Space</b> to start/pause recording, <b>Esc</b> to end."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/capture/mediacapture.cpp:411 src/monitor/recmanager.cpp:194
+#: src/capture/mediacapture.cpp:421 src/monitor/recmanager.cpp:194
 #, kde-format
 msgctxt "capture as a prefix to the filename of a recorded audio/video file"
 msgid "capture"
