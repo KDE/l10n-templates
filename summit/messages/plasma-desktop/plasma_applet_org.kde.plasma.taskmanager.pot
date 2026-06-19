@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-05 09:01+0200\n"
+"POT-Creation-Date: 2026-06-19 08:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1181,11 +1181,18 @@ msgstr ""
 msgid "Activate %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: qml/TaskBadgeOverlay.qml:95
+#. +> trunk6 stable6
+#: qml/TaskBadgeOverlay.qml:101
 #, kde-format
-msgctxt "Over 9999 new messages, overlay, keep short"
-msgid "9,999+"
+msgctxt "'k' is a suffix for 'thousand'; keep to one character or else the badge could overflow!"
+msgid "9k+"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/TaskBadgeOverlay.qml:104
+#, kde-format
+msgctxt "'k' is a suffix for 'thousand'; keep to one character or else the badge could overflow!"
+msgid "%1k"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1282,6 +1289,13 @@ msgstr ""
 #, kde-format
 msgctxt "Invalid number of new messages, overlay, keep short"
 msgid "—"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Badge.qml:56
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
 msgstr ""
 
 #. +> stable5
