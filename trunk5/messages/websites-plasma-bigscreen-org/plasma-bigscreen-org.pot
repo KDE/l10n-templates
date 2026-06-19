@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-plasma-bigscreen-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-18 02:09+0000\n"
+"POT-Creation-Date: 2026-06-19 02:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -103,55 +103,34 @@ msgid "/reusable-assets/konqi-dev.png"
 msgstr ""
 
 #: content/get.md:12
-msgid "Plasma Bigscreen is not yet widely available."
+msgid ""
+"Plasma Bigscreen is now released as a part of [KDE "
+"Plasma](https://kde.org/), and is available as a package in Linux "
+"distributions."
 msgstr ""
 
 #: content/get.md:14
 msgid ""
-"We are planning to join the Plasma release schedule starting with **Plasma "
-"6.7** (in June), which will make it possible for distributions to ship it in"
-" their repositories."
+"Some distributions ship dedicated Plasma Bigscreen images, providing an out-"
+"of-the-box experience without any extra installation steps."
 msgstr ""
 
 #: content/get.md:16
-msgid ""
-"In the meantime, there are some ways to test and try out Bigscreen, "
-"described below. Note that this is still in development, **proceed at your "
-"own risk!**"
-msgstr ""
-
-#: content/get.md:18
 msgid ""
 "You can check the status of Plasma Bigscreen on the [Matrix "
 "channel](https://matrix.to/#/#plasma-bigscreen:kde.org) or the [KDE Invent "
 "repository](https://invent.kde.org/plasma/plasma-bigscreen)."
 msgstr ""
 
-#: content/get.md:20
+#: content/get.md:18
 msgid "<br />\n"
 msgstr ""
 
-#: content/get.md:23
+#: content/get.md:21
 msgid "<div class=\"projects-container\">\n"
 msgstr ""
 
-#: content/get.md:25
-msgid ""
-"  <div class=\"project\">\n"
-"    <img src=\"/img/neon.svg\" class=\"project-logo\"/>\n"
-"    <h2 class=\"project-name\"><a href=\"https://neon.kde.org/\">KDE Neon</a></h2>\n"
-"    <div class=\"project-description\">\n"
-"      <p>\n"
-"        KDE Neon has a development version of Plasma Bigscreen in its repositories. This image, based on KDE neon, can be tested on x86-64 based computers.\n"
-"      </p>\n"
-"    </div>\n"
-"    <p class=\"project-buttons-row\">\n"
-"      <a href=\"https://files.kde.org/neon/images/bigscreen/\" class=\"mobile-main-button\">Downloads</a>\n"
-"    </p>\n"
-"  </div>\n"
-msgstr ""
-
-#: content/get.md:38
+#: content/get.md:23
 msgid ""
 "  <div class=\"project\">\n"
 "    <img src=\"/img/pmOS.svg\" class=\"project-logo\"/>\n"
@@ -172,7 +151,57 @@ msgid ""
 "  </div>\n"
 msgstr ""
 
-#: content/get.md:56
+#: content/get.md:41
+msgid ""
+"  <div class=\"project\">\n"
+"    <img src=\"/img/fedora.svg\" class=\"project-logo\" />\n"
+"    <h2 class=\"project-name\"><a href=\"https://fedoraproject.org/\">Fedora</a></h2>\n"
+"    <div class=\"project-description\">\n"
+"      <p>\n"
+"        Fedora provides the plasma-bigscreen package in their repositories. There is no dedicated edition just yet, so you will need to start from another (ex. Plasma Desktop).\n"
+"      </p>\n"
+"    </div>\n"
+"    <p class=\"project-buttons-row\">\n"
+"      <a href=\"https://fedoraproject.org/\" class=\"mobile-main-button\">Learn more</a>\n"
+"      <a href=\"https://packages.fedoraproject.org/pkgs/plasma-bigscreen/plasma-bigscreen/\" class=\"mobile-secondary-button\">Package</a>\n"
+"    </p>\n"
+"  </div>\n"
+msgstr ""
+
+#: content/get.md:55
+msgid ""
+"  <div class=\"project\">\n"
+"    <img src=\"/img/archlinux.png\" class=\"project-logo\" />\n"
+"    <h2 class=\"project-name\"><a href=\"https://archlinux.org/\">Arch Linux</a></h2>\n"
+"    <div class=\"project-description\">\n"
+"      <p>\n"
+"        Arch Linux provides the plasma-bigscreen package in their repositories.\n"
+"      </p>\n"
+"    </div>\n"
+"    <p class=\"project-buttons-row\">\n"
+"      <a href=\"https://archlinux.org/\" class=\"mobile-main-button\">Learn more</a>\n"
+"      <a href=\"https://archlinux.org/packages/extra-testing/x86_64/plasma-bigscreen/\" class=\"mobile-secondary-button\">Package</a>\n"
+"    </p>\n"
+"  </div>\n"
+msgstr ""
+
+#: content/get.md:69
+msgid ""
+"  <div class=\"project\">\n"
+"    <img src=\"/img/neon.svg\" class=\"project-logo\"/>\n"
+"    <h2 class=\"project-name\"><a href=\"https://neon.kde.org/\">KDE Neon</a></h2>\n"
+"    <div class=\"project-description\">\n"
+"      <p>\n"
+"        KDE Neon has a development version of Plasma Bigscreen in its repositories. This image, based on KDE neon, can be tested on x86-64 based computers.\n"
+"      </p>\n"
+"    </div>\n"
+"    <p class=\"project-buttons-row\">\n"
+"      <a href=\"https://files.kde.org/neon/images/bigscreen/\" class=\"mobile-main-button\">Downloads</a>\n"
+"    </p>\n"
+"  </div>\n"
+msgstr ""
+
+#: content/get.md:82
 msgid ""
 "  <div class=\"project\">\n"
 "    <img src=\"/img/triangles.png\" class=\"project-logo\"/>\n"
@@ -201,12 +230,18 @@ msgstr ""
 
 #: content/join.md:14
 msgid ""
-"[![](/img/matrix.svg)Matrix (most active)](https://matrix.to/#/#plasma-"
+"[![](/img/matrix.svg) Matrix (most active)](https://matrix.to/#/#plasma-"
 "bigscreen:kde.org)"
 msgstr ""
 
 #: content/join.md:16
-msgid "[![](/img/telegram.svg)Telegram](https://t.me/plasma_bigscreen)"
+msgid ""
+"[![](/img/kde.png) KDE Discuss "
+"(forum)](https://discuss.kde.org/tag/bigscreen/370)"
+msgstr ""
+
+#: content/join.md:18
+msgid "[![](/img/telegram.svg) Telegram](https://t.me/plasma_bigscreen)"
 msgstr ""
 
 #: content/screenshots.md:0
@@ -356,23 +391,18 @@ msgstr ""
 msgid "Get Started"
 msgstr ""
 
-#. hero-coming-soon
-#: i18n/en.yaml:42
-msgid "Coming Soon!"
-msgstr ""
-
 #. features-title
-#: i18n/en.yaml:44
+#: i18n/en.yaml:42
 msgid "Features"
 msgstr ""
 
 #. feature-privacy-title
-#: i18n/en.yaml:46
+#: i18n/en.yaml:44
 msgid "TV-Friendly Interface"
 msgstr ""
 
 #. feature-privacy-desc
-#: i18n/en.yaml:48
+#: i18n/en.yaml:46
 msgid ""
 "Control your computer from the couch. Launch apps, change settings, and "
 "switch between running applications, all through an interface designed for "
@@ -380,12 +410,12 @@ msgid ""
 msgstr ""
 
 #. feature-open-title
-#: i18n/en.yaml:50
+#: i18n/en.yaml:48
 msgid "Fully Open Source"
 msgstr ""
 
 #. feature-open-desc
-#: i18n/en.yaml:52
+#: i18n/en.yaml:50
 msgid ""
 "Built on open-source technologies like <a href=\"https://kde.org/plasma-"
 "desktop\">KDE Plasma</a>, <a "
@@ -398,12 +428,12 @@ msgid ""
 msgstr ""
 
 #. feature-flexible-title
-#: i18n/en.yaml:54
+#: i18n/en.yaml:52
 msgid "Flexible And Customizable"
 msgstr ""
 
 #. feature-flexible-desc
-#: i18n/en.yaml:56
+#: i18n/en.yaml:54
 msgid ""
 "Based on the <a href=\"https://kde.org/plasma-desktop/\">most flexible "
 "desktop</a> in the world, your TV truly becomes your own. Install apps, "
@@ -411,12 +441,12 @@ msgid ""
 msgstr ""
 
 #. feature-control-title
-#: i18n/en.yaml:58
+#: i18n/en.yaml:56
 msgid "Multiple Input Methods"
 msgstr ""
 
 #. feature-control-desc
-#: i18n/en.yaml:60
+#: i18n/en.yaml:58
 msgid ""
 "Navigate with your TV remote via CEC, a game controller, a keyboard and "
 "mouse, or even your phone via <a href=\"https://kdeconnect.kde.org/\">KDE "
@@ -424,24 +454,24 @@ msgid ""
 msgstr ""
 
 #. tech-title
-#: i18n/en.yaml:62
+#: i18n/en.yaml:60
 msgid "Built on an open stack"
 msgstr ""
 
 #. tech-description
-#: i18n/en.yaml:64
+#: i18n/en.yaml:62
 msgid ""
 "Plasma Bigscreen leverages the modern Linux desktop stack and can be "
 "installed as a standard desktop environment on Linux distributions."
 msgstr ""
 
 #. cta-title
-#: i18n/en.yaml:66
+#: i18n/en.yaml:64
 msgid "Ready to try Plasma Bigscreen?"
 msgstr ""
 
 #. cta-description
-#: i18n/en.yaml:68
+#: i18n/en.yaml:66
 msgid ""
 "Get started with your own open-source TV experience today, or help make it "
 "even better."
