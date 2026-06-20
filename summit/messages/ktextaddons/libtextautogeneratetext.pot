@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-19 08:17+0200\n"
+"POT-Creation-Date: 2026-06-20 08:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -191,15 +191,15 @@ msgstr ""
 #, kde-format
 msgid ""
 "<br>"
-"<b>Tokens:</b> %1"
+"<b>Prompt Tokens:</b> %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/textautogeneratetextreplyinfo.cpp:58
+#: core/textautogeneratetextreplyinfo.cpp:53
 #, kde-format
 msgid ""
 "<br>"
-"<b>Token Count:</b> %1"
+"<b>Tokens:</b> %1"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -207,11 +207,19 @@ msgstr ""
 #, kde-format
 msgid ""
 "<br>"
-"<b>Prompt Token:</b> %1"
+"<b>Token Count:</b> %1"
 msgstr ""
 
 #. +> trunk6 stable6
 #: core/textautogeneratetextreplyinfo.cpp:60
+#, kde-format
+msgid ""
+"<br>"
+"<b>Prompt Token:</b> %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/textautogeneratetextreplyinfo.cpp:61
 #, kde-format
 msgid ""
 "<br>"
@@ -864,8 +872,6 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/ollama/ollamaplugin.cpp:86
-#: plugins/ollamacloud/ollamapluginonline.cpp:110
-#: plugins/ollamaonline/ollamapluginonline.cpp:110
 #, kde-format
 msgid "Ollama"
 msgstr ""

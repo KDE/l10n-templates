@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-plasma-bigscreen-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-19 08:18+0200\n"
+"POT-Creation-Date: 2026-06-20 08:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -23,11 +23,6 @@ msgid "Project"
 msgstr ""
 
 #. +> trunk5
-#: config.yaml:0 content/docs/_index.md:0
-msgid "Documentation"
-msgstr ""
-
-#. +> trunk5
 #: config.yaml:0
 msgid "Community"
 msgstr ""
@@ -39,53 +34,320 @@ msgid "Plasma Bigscreen"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/_index.md:6
-msgid "We are currently lacking documentation while the project is in development. We will update this page once features stabilize and we have had a couple of releases."
+#: content/docs/_index.md:9
+msgid "Welcome to Plasma Bigscreen!"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/introduction.md:6
-msgid "Can I use it?"
+#: content/docs/_index.md:11
+msgid "This documentation website will guide you through some of basics of the project. Feel free to also join our community to [chat](/join)!"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/introduction.md:8
-msgid "Yes, but not as a daily driver. There are currently multiple distributions shipping Plasma Bigscreen in their unstable/nightly repositories."
+#: content/docs/_index.md:13
+msgid "For more long-form and detailed articles, visit the [Wiki](https://userbase.kde.org/Plasma_Bigscreen). Consider contributing!"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/introduction.md:11
-msgid "The interface is using KWin over Wayland and is now mostly stable, albeit a little rough around the edges in some areas. A subset of the normal KDE Plasma features are available. This makes it possible to use and develop for Plasma Bigscreen on your desktop/laptop."
+#: content/docs/_index.md:15
+msgid "<img src=\"/img/docs/konqi-kde.png\" width=\"150px\" />\n"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/introduction.md:15
-msgid "What can it do?"
+#: content/docs/_index.md:17
+msgid ""
+"<br/>"
+"\n"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/introduction.md:17
-msgid "There are quite a few TV-optimized apps that are now being bundled with the various distributions, allowing a wide range of basic functions. These are mostly built with Kirigami, KDE’s interface framework allowing convergent UIs that work very well in a TV remote-only environment."
+#: content/docs/_index.md:19
+msgid "<small>Konqi (our beloved mascot)</small>"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/introduction.md:20
-msgid "Where can I find…"
+#: content/docs/_index.md:0
+msgid "Documentation"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/introduction.md:22
-msgid "The code for the shell can be found on [invent.kde.org](https://invent.kde.org/plasma/plasma-bigscreen)."
+#: content/docs/_index.md:0
+msgid "Docs"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/introduction.md:24
-msgid "You can also ask your questions in the [Plasma Bigscreen community groups and channels](/join)."
+#: content/docs/developing.md:6
+msgid "Developing the shell"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/introduction.md:0
-msgid "Introduction"
+#: content/docs/developing.md:8
+msgid "Plasma Bigscreen is developed as a [KDE project](https://kde.org), and thus uses KDE infrastructure for development and translations."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:10
+msgid "Our **source code** is hosted on the [KDE Invent GitLab](https://invent.kde.org/plasma/plasma-bigscreen)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:12
+msgid "See detailed instructions on the [developer wiki](https://invent.kde.org/plasma/plasma-bigscreen/-/wikis/Building-and-Testing-Locally) for building and testing the shell."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:14
+msgid "To contribute **translations**, please see the [KDE Localization webpage](https://l10n.kde.org/) and join the team for your desired language."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:16
+msgid "Developing new apps"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:18
+msgid "We currently do not provide a first party general-purpose framework for building TV applications."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:20
+msgid "However, this is Linux! You have the freedom to use frameworks that you are comfortable with to develop TV-focused applications. Some popular options include:"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:21
+msgid "[Qt](https://www.qt.io/development/qt-framework) + [Qt Quick](https://www.qt.io/product/qt6/qml-book)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:22
+msgid "[Electron](https://www.electronjs.org/) or [Tauri](https://v2.tauri.app/) (Web-based apps)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:23
+msgid "[Flutter](https://flutter.dev/)"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:25
+msgid "Things to keep in mind when developing apps for TVs:"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:26
+msgid "Support arrow navigation and Esc to \"go back\"."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:27
+msgid "Only capture direct controller input when the window is focused."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:28
+msgid "Users may have varied display scalings set, it can be useful to provide in-app scaling options."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/developing.md:0
+msgid "Developing"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:13
+msgid "There are many ways to navigate the system in Plasma Bigscreen."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:15
+msgid "Keyboard ⌨️"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:17
+msgid "Devices that act as a keyboard (real keyboards, bluetooth air remotes, etc.) will provide the most straightforward experience."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:19
+msgid "The most important keys are:"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:20
+msgid "Arrow keys (left, right, up, down) - Navigate"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:21
+msgid "Esc/Back - Go back"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:22
+msgid "Enter/Return - Select"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:24
+msgid "You find 3rd-party tools such as [input-remapper](https://github.com/sezanzeb/input-remapper) useful for rebinding keys (especially for bluetooth remotes)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:26
+msgid "Game Controller 🎮"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:28
+msgid "Game controller support on Linux is a bit tricky, because applications generally access the input interfaces directly and not through the compositor (KWin). This means that it's possible for controllers events to be received by multiple applications at once, without them knowing of each other."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:30
+msgid "Plasma Bigscreen provides an input daemon (`plasma-bigscreen-inputhandler`) that can **translate** game controller events into keyboard & mouse events."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:32
+msgid "<img src=\"/img/docs/360-controller.svg\" width=400px />\n"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:34
+msgid "Button mappings (Xbox controller naming):"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:35
+msgid "A - Enter"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:36
+msgid "B - Back/Esc"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:37
+msgid "D-pad - Arrow key navigation"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:38
+msgid "Left joystick - Arrow key navigation"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:39
+msgid "Left joystick button - Left click"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:40
+msgid "Right joystick - Mouse control"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:41
+msgid "Right joystick button - Right click"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:42
+msgid "Guide - Meta key"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:43
+msgid "Start - Games key"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:45
+msgid "Input suspension"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:47
+msgid "When applications are detected to be reading controller input, Plasma Bigscreen can **suppress controller handling**, preventing double events appearing in the app. This is toggleable in the sidebar and settings."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:49
+msgid "By default, the **Guide key** still works even during controller suppression to open the home overlay sidebar. This can be toggled in the settings."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:53
+msgid "TV Remote 📺"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:55
+msgid "Through [CEC](https://en.wikipedia.org/wiki/Consumer_Electronics_Control) over HDMI, computers can interact with and receive events from TVs! This includes receiving buttons from TV remotes directly."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:57
+msgid "**Note**: most computers do not support CEC directly, you may need to use an [adapter](https://www.pulse-eight.com/p/104/usb-hdmi-cec-adapter)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:59
+msgid "However, there are many problems and **inconsistencies** to how TV manufacturers may have implemented CEC for their respective TVs. Commonly, the **\"back\"** and **\"home\"** buttons cannot be mapped and are taken directly by the TV for use. This makes Plasma Bigscreen unusable."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:61
+msgid "We therefore recommend buying third party remotes in this case (ex. air remotes) that are used only for the computer hosting Plasma Bigscreen, if possible."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:63
+msgid "Phone (KDE Connect) 📱"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:65
+msgid "You can pair your phone with Plasma Bigscreen via [KDE Connect](https://kdeconnect.kde.org/). The app allows for both TV remote control and full mouse/keyboard access remotely, making it an easy option without needing new hardware."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/inputs.md:0
+msgid "Input Devices"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/issues.md:6
+msgid "We currently use [Bugzilla](https://bugs.kde.org/) to handle user issue reports."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/issues.md:8
+msgid "Please file new bug reports [here](https://bugs.kde.org/enter_bug.cgi?product=Plasma%20Bigscreen)! You can also browse existing open bug reports under the [Plasma Bigscreen category](https://bugs.kde.org/describecomponents.cgi?product=Plasma%20Bigscreen)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/issues.md:10
+msgid "Internally, developers track issues and development work on the [Plasma Bigscreen GitLab](https://invent.kde.org/plasma/plasma-bigscreen/-/work_items?). Issues can be filed here, but only if they are of sufficient technical depth and can be translated to something actionable. For the most part, use Bugzilla for user issues!"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/issues.md:12
+msgid "Sometimes, bug triage can be quite slow due to limited development resources. Come chat with us on [Matrix](/join)!"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/issues.md:14
+msgid "<img src=\"/img/docs/konqi-bug.png\" width=\"150px\" />\n"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/issues.md:0
+msgid "Reporting Issues"
 msgstr ""
 
 #. +> trunk5
