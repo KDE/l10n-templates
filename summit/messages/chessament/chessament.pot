@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: chessament\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-20 08:02+0200\n"
+"POT-Creation-Date: 2026-06-21 08:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -26,21 +26,21 @@ msgid "%1 · %2"
 msgstr ""
 
 #. +> trunk6
-#: chessamentapplication.cpp:23
+#: chessamentapplication.cpp:24
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New tournament…"
 msgstr ""
 
 #. +> trunk6
-#: chessamentapplication.cpp:44
+#: chessamentapplication.cpp:45
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Import tournament report…"
 msgstr ""
 
 #. +> trunk6
-#: chessamentapplication.cpp:53
+#: chessamentapplication.cpp:54
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export tournament report…"
@@ -380,19 +380,19 @@ msgid "File"
 msgstr ""
 
 #. +> trunk6
-#: qml/components/MenuBar.qml:39
+#: qml/components/MenuBar.qml:43
 msgctxt "@action:menu"
 msgid "View"
 msgstr ""
 
 #. +> trunk6
-#: qml/components/MenuBar.qml:47
+#: qml/components/MenuBar.qml:51
 msgctxt "@action:menu"
 msgid "Settings"
 msgstr ""
 
 #. +> trunk6
-#: qml/components/MenuBar.qml:58
+#: qml/components/MenuBar.qml:62
 msgctxt "@action:menu"
 msgid "Help"
 msgstr ""
@@ -477,25 +477,31 @@ msgid "Delete"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:21
+#: qml/Main.qml:22
+msgctxt "@title:window"
+msgid "%1 — Chessament"
+msgstr ""
+
+#. +> trunk6
+#: qml/Main.qml:22
 msgctxt "@title:window"
 msgid "Chessament"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:51 qml/Main.qml:61 qml/NewTournamentDialog.qml:50
+#: qml/Main.qml:52 qml/Main.qml:62 qml/NewTournamentDialog.qml:50
 msgctxt "@label:listbox"
 msgid "Chessament event (*.chessament)"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:70 qml/Main.qml:80
+#: qml/Main.qml:71 qml/Main.qml:81
 msgctxt "@label:listbox"
 msgid "TRF files (*.trf *.txt)"
 msgstr ""
 
 #. +> trunk6
-#: qml/Main.qml:106
+#: qml/Main.qml:115
 msgctxt "@title"
 msgid "Error"
 msgstr ""
@@ -1215,19 +1221,19 @@ msgid "The file is not a <application>Chessament</application> event."
 msgstr ""
 
 #. +> trunk6
-#: tournament/federations.h:118
-msgctxt "FIDE Federation"
-msgid "Chinese Taipei"
-msgstr ""
-
-#. +> trunk6
-#: tournament/federations.h:211
+#: tournament/federations.h:175
 msgctxt "FIDE Federation"
 msgid "Scotland"
 msgstr ""
 
 #. +> trunk6
-#: tournament/federations.h:220
+#: tournament/federations.h:203
+msgctxt "FIDE Federation"
+msgid "Chinese Taipei"
+msgstr ""
+
+#. +> trunk6
+#: tournament/federations.h:217
 msgctxt "FIDE Federation"
 msgid "Wales"
 msgstr ""
@@ -1342,7 +1348,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: tournament/tiebreaks/aob.h:23 tournament/tournament.cpp:536
+#: tournament/tiebreaks/aob.h:23 tournament/tournament.cpp:537
 #, kde-format
 msgctxt "Tiebreak"
 msgid "Average Buchholz of Opponents"
@@ -1363,7 +1369,7 @@ msgid "Unsupported tiebreak option \"%1\""
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/buchholz.h:25 tournament/tournament.cpp:518
+#: tournament/tiebreaks/buchholz.h:25 tournament/tournament.cpp:519
 #, kde-format
 msgctxt "Buchholz tiebreak"
 msgid "Buchholz"
@@ -1377,14 +1383,21 @@ msgid "Buchholz %1"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/numberwins.h:22 tournament/tournament.cpp:522
+#: tournament/tiebreaks/dummy.h:23
+#, kde-format
+msgctxt "@info"
+msgid "Unsupported tiebreak"
+msgstr ""
+
+#. +> trunk6
+#: tournament/tiebreaks/numberwins.h:22 tournament/tournament.cpp:523
 #, kde-format
 msgctxt "Number of Wins tiebreak"
 msgid "Number of Wins"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/playedblack.h:22 tournament/tournament.cpp:532
+#: tournament/tiebreaks/playedblack.h:22 tournament/tournament.cpp:533
 #, kde-format
 msgctxt "Number of Games Played with Black (over the board) tiebreak"
 msgid "Number of Games Played with Black (over the board)"
@@ -1392,27 +1405,27 @@ msgstr ""
 
 #. +> trunk6
 #: tournament/tiebreaks/points.h:22 tournament/tiebreaks/points.h:27
-#: tournament/tournament.cpp:514
+#: tournament/tournament.cpp:515
 #, kde-format
 msgctxt "Game points"
 msgid "Points"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/won.h:23 tournament/tournament.cpp:528
+#: tournament/tiebreaks/won.h:23 tournament/tournament.cpp:529
 #, kde-format
 msgctxt "Number of Games Won (over the board) tiebreak. Different from the 'Number of Wins' tiebreak, which includes games won by forfeit."
 msgid "Number of Games Won (over the board)"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:971
+#: tournament/tournament.cpp:972
 #, kde-format
 msgid "An error ocurred while pairing the round: %1"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:1214
+#: tournament/tournament.cpp:1215
 #, kde-format
 msgid "Couldn't open file"
 msgstr ""
