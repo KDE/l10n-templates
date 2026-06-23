@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-21 08:23+0200\n"
+"POT-Creation-Date: 2026-06-23 09:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2401,39 +2401,39 @@ msgid "&No"
 msgstr ""
 
 #. +> trunk6
-#: core/worker.cpp:311
+#: core/worker.cpp:309
 #, kde-format
 msgctxt "@info %2 is a path"
 msgid "The security of the KIO worker for protocol ’%1’, which typically asks for elevated permissions, can not be guaranteed because users other than root have permission to modify it at %2."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: core/worker.cpp:349
+#: core/worker.cpp:347
 #, kde-format
 msgid "Unknown protocol '%1'."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: core/worker.cpp:360
+#: core/worker.cpp:358
 #, kde-format
 msgid "Can not find a KIO worker for protocol '%1'."
 msgstr ""
 
 #. +> trunk6
-#: core/worker.cpp:367
+#: core/worker.cpp:365
 #, kde-format
 msgctxt "@info %2 and %3 are paths"
 msgid "The KIO worker for protocol “%1” in %2 was not loaded because all KIO workers which are located outside of %3 and ask for elevated privileges are considered insecure."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: core/worker.cpp:379
+#: core/worker.cpp:377
 #, kde-format
 msgid "Can not create a socket for launching a KIO worker for protocol '%1'."
 msgstr ""
 
 #. +> trunk6
-#: core/worker.cpp:425
+#: core/worker.cpp:423
 #, kde-format
 msgid "Can not find 'kioworker' executable at '%1'"
 msgstr ""
@@ -4100,7 +4100,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5
-#: gui/applicationlauncherjob.cpp:291 gui/openurljob.cpp:648
+#: gui/applicationlauncherjob.cpp:291 gui/openurljob.cpp:653
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr ""
@@ -4199,19 +4199,19 @@ msgid "The executable file \"%1\" is located on a remote filesystem. For safety 
 msgstr ""
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:415
+#: gui/openurljob.cpp:420
 #, kde-format
 msgid "For security reasons, launching executables is not allowed in this context."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:445
+#: gui/openurljob.cpp:450
 #, kde-format
 msgid "The program \"%1\" needs to have executable permission before it can be launched."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:456
+#: gui/openurljob.cpp:461
 #, kde-format
 msgid ""
 "Unable to make file \"%1\" executable.\n"
@@ -4219,13 +4219,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:542
+#: gui/openurljob.cpp:547
 #, kde-format
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:634
+#: gui/openurljob.cpp:639
 #, kde-format
 msgid ""
 "This file is incomplete and should not be opened.\n"
@@ -4233,13 +4233,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:660
+#: gui/openurljob.cpp:665
 #, kde-format
 msgid "Failed to open the file."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:694
+#: gui/openurljob.cpp:699
 #, kde-format
 msgid "The program \"%1\" could not be launched."
 msgstr ""
