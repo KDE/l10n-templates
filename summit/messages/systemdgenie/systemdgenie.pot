@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemdgenie\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-11 09:04+0100\n"
+"POT-Creation-Date: 2026-06-25 07:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -113,6 +113,7 @@ msgstr ""
 #. +> trunk6
 #: src/editor.cpp:46
 #, kde-format
+msgctxt "Editing file: <path to the edited file>"
 msgid "Editing file: <code>%1</code>"
 msgstr ""
 
@@ -125,7 +126,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/editor.cpp:92 src/sessionmodel.cpp:265 src/unitmodel.cpp:430
+#: src/editor.cpp:92 src/sessionmodel.cpp:265 src/unitmodel.cpp:431
 #, kde-format
 msgid "Unable to authenticate/execute the action: %1"
 msgstr ""
@@ -302,42 +303,42 @@ msgstr ""
 #. +> trunk6
 #: src/timermodel.cpp:43
 #, kde-format
-msgctxt "@title:column"
+msgctxt "@title:column (name of the timer)"
 msgid "Timer"
 msgstr ""
 
 #. +> trunk6
 #: src/timermodel.cpp:45
 #, kde-format
-msgctxt "@title:column"
+msgctxt "@title:column (date of the next timer's activation)"
 msgid "Next"
 msgstr ""
 
 #. +> trunk6
 #: src/timermodel.cpp:47
 #, kde-format
-msgctxt "@title:column"
+msgctxt "@title:column (time left to the next timer's activation)"
 msgid "Left"
 msgstr ""
 
 #. +> trunk6
 #: src/timermodel.cpp:49
 #, kde-format
-msgctxt "@title:column"
+msgctxt "@title:column (date of the previous timer's activation)"
 msgid "Last"
 msgstr ""
 
 #. +> trunk6
 #: src/timermodel.cpp:51
 #, kde-format
-msgctxt "@title:column"
+msgctxt "@title:column (time passed since the previous timer's activation)"
 msgid "Passed"
 msgstr ""
 
 #. +> trunk6
 #: src/timermodel.cpp:53
 #, kde-format
-msgctxt "@title:column"
+msgctxt "@title:column (name of the service activated by the timer)"
 msgid "Activates"
 msgstr ""
 
@@ -349,37 +350,37 @@ msgid "n/a"
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:93
+#: src/unitmodel.cpp:94
 #, kde-format
 msgid "Unit"
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:95
+#: src/unitmodel.cpp:96
 #, kde-format
 msgid "Load State"
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:97
+#: src/unitmodel.cpp:98
 #, kde-format
 msgid "Active State"
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:99
+#: src/unitmodel.cpp:100
 #, kde-format
 msgid "Unit State"
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:215
+#: src/unitmodel.cpp:216
 #, kde-format
 msgid "<b>Description: </b>"
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:220
+#: src/unitmodel.cpp:221
 #, kde-format
 msgid ""
 "<br>"
@@ -387,7 +388,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:221 src/unitmodel.cpp:268
+#: src/unitmodel.cpp:222 src/unitmodel.cpp:269
 #, kde-format
 msgid ""
 "<br>"
@@ -395,7 +396,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:227
+#: src/unitmodel.cpp:228
 #, kde-format
 msgid ""
 "<br>"
@@ -403,7 +404,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:231
+#: src/unitmodel.cpp:232
 #, kde-format
 msgid ""
 "<br>"
@@ -411,7 +412,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:241
+#: src/unitmodel.cpp:242
 #, kde-format
 msgid ""
 "<br>"
@@ -419,13 +420,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:263
+#: src/unitmodel.cpp:264
 #, kde-format
 msgid "<b>Unit file: </b>"
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:277
+#: src/unitmodel.cpp:278
 #, kde-format
 msgid ""
 "<hr>"
@@ -433,7 +434,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/unitmodel.cpp:280
+#: src/unitmodel.cpp:281
 #, kde-format
 msgid ""
 "<br>"

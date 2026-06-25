@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-15 09:00+0200\n"
+"POT-Creation-Date: 2026-06-25 07:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1688,8 +1688,8 @@ msgstr ""
 #: plugins/import/skrooge_import_backend/skgimportpluginbackend.cpp:186
 #: plugins/import/skrooge_import_backend/skgimportpluginbackend.cpp:289
 #: plugins/import/skrooge_import_pdf/skgimportpluginpdf.cpp:132
-#: skgbankmodeler/skgunitobject.cpp:2468 skgbasegui/skgmainpanel.cpp:2782
-#: skgbasegui/skgmainpanel.cpp:2789 skgbasemodeler/skgdocument.cpp:1477
+#: skgbankmodeler/skgunitobject.cpp:2468 skgbasegui/skgmainpanel.cpp:2794
+#: skgbasegui/skgmainpanel.cpp:2801 skgbasemodeler/skgdocument.cpp:1477
 #, kde-format
 msgctxt "Error message"
 msgid ""
@@ -6601,7 +6601,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1192
-#: skgbasemodeler/skgservices.cpp:1808
+#: skgbasemodeler/skgservices.cpp:1820
 #, kde-format
 msgctxt "An error message"
 msgid "Open file '%1' failed"
@@ -16667,9 +16667,16 @@ msgstr ""
 msgid "Date format"
 msgstr ""
 
-#. i18n: ectx: label, entry (icon_in_system_tray), group (Main Panel)
+#. i18n: ectx: label, entry (currency_format), group (Main Panel)
 #. +> trunk6
 #: skgbasegui/skgbasegui_settings.kcfg:29
+#, kde-format
+msgid "Currency format"
+msgstr ""
+
+#. i18n: ectx: label, entry (icon_in_system_tray), group (Main Panel)
+#. +> trunk6
+#: skgbasegui/skgbasegui_settings.kcfg:33
 #, kde-format
 msgid "Icon in system tray"
 msgstr ""
@@ -16823,27 +16830,27 @@ msgid "%p%"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:383
+#: skgbasegui/skgmainpanel.cpp:385
 #, kde-format
 msgctxt "Splash screen message"
 msgid "Loading plugins…"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:395
+#: skgbasegui/skgmainpanel.cpp:397
 #, kde-format
 msgctxt "Splash screen message"
 msgid "Loading plugin %1/%2: %3…"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:465
+#: skgbasegui/skgmainpanel.cpp:467
 #, kde-format
 msgid "Developer of plugin '%1'"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:469
+#: skgbasegui/skgmainpanel.cpp:471
 #, kde-format
 msgid ""
 ",\n"
@@ -16851,175 +16858,175 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:552
+#: skgbasegui/skgmainpanel.cpp:554
 #, kde-format
 msgctxt "Noun"
 msgid "Pages"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:672
+#: skgbasegui/skgmainpanel.cpp:674
 #, kde-format
 msgctxt "Widget description"
 msgid "Progress of the current action"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:691 skgbasegui/skgmainpanel.cpp:692
+#: skgbasegui/skgmainpanel.cpp:693 skgbasegui/skgmainpanel.cpp:694
 #, kde-format
 msgctxt "Widget description"
 msgid "Cancel the current action"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:750
+#: skgbasegui/skgmainpanel.cpp:752
 #, kde-format
 msgctxt "Verb"
 msgid "Hide"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:753
+#: skgbasegui/skgmainpanel.cpp:755
 #, kde-format
 msgctxt "Verb"
 msgid "Show all"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1017
+#: skgbasegui/skgmainpanel.cpp:1019
 #, kde-format
 msgctxt "Noun, user action"
 msgid "New Tab"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1032
+#: skgbasegui/skgmainpanel.cpp:1034
 #, kde-format
 msgctxt "Verb"
 msgid "Lock panels"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1036
+#: skgbasegui/skgmainpanel.cpp:1038
 #, kde-format
 msgctxt "Verb"
 msgid "Unlock panels"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1040 skgbasegui/skgmainpanel.cpp:1775
+#: skgbasegui/skgmainpanel.cpp:1042 skgbasegui/skgmainpanel.cpp:1787
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Pin this page"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1051
+#: skgbasegui/skgmainpanel.cpp:1053
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Close All"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1057
+#: skgbasegui/skgmainpanel.cpp:1059
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Close All Other"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1065
+#: skgbasegui/skgmainpanel.cpp:1067
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Save page state"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1071
+#: skgbasegui/skgmainpanel.cpp:1073
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Reset page state"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1077
+#: skgbasegui/skgmainpanel.cpp:1079
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Reopen last page closed"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1086
+#: skgbasegui/skgmainpanel.cpp:1088
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Overwrite bookmark state"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1092
+#: skgbasegui/skgmainpanel.cpp:1094
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Configure…"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1100
+#: skgbasegui/skgmainpanel.cpp:1102
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Menu"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1112
+#: skgbasegui/skgmainpanel.cpp:1114
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Previous"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1123
+#: skgbasegui/skgmainpanel.cpp:1125
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Next"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1138
+#: skgbasegui/skgmainpanel.cpp:1140
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Enable editor"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1144
+#: skgbasegui/skgmainpanel.cpp:1146
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Migrate to SQLCipher format"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1273
+#: skgbasegui/skgmainpanel.cpp:1275
 #, kde-format
 msgctxt "Information message"
 msgid "You can exit full screen mode with %1 or with the contextual menu"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1277
+#: skgbasegui/skgmainpanel.cpp:1279
 #, kde-format
 msgctxt "Information message"
 msgid "At least one page must be opened to enable full screen mode"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1444
+#: skgbasegui/skgmainpanel.cpp:1446
 #, kde-format
 msgctxt "skgtestimportskg"
 msgid "The application cannot be closed when a transaction is running."
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1455
+#: skgbasegui/skgmainpanel.cpp:1457
 #, kde-format
 msgctxt "Question"
 msgid ""
@@ -17028,28 +17035,28 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1457
+#: skgbasegui/skgmainpanel.cpp:1459
 #, kde-format
 msgctxt "Question"
 msgid "Save as"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1457
+#: skgbasegui/skgmainpanel.cpp:1459
 #, kde-format
 msgctxt "Question"
 msgid "Save"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1459
+#: skgbasegui/skgmainpanel.cpp:1461
 #, kde-format
 msgctxt "Question"
 msgid "Do not save"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1467
+#: skgbasegui/skgmainpanel.cpp:1469
 #, kde-format
 msgctxt "Question"
 msgid ""
@@ -17058,238 +17065,252 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1468
+#: skgbasegui/skgmainpanel.cpp:1470
 #, kde-format
 msgctxt "Question"
 msgid "Close confirmation"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1613
+#: skgbasegui/skgmainpanel.cpp:1615
 #, kde-format
 msgctxt "Date format"
 msgid "Short date (%1, %2)"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1617
+#: skgbasegui/skgmainpanel.cpp:1619
 #, kde-format
 msgctxt "Date format"
 msgid "Long date (%1, %2)"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1621
+#: skgbasegui/skgmainpanel.cpp:1623
 #, kde-format
 msgctxt "Date format"
 msgid "Fancy short date (%1, %2)"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1625
+#: skgbasegui/skgmainpanel.cpp:1627
 #, kde-format
 msgctxt "Date format"
 msgid "Fancy long date (%1, %2)"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1629
+#: skgbasegui/skgmainpanel.cpp:1631
 #, kde-format
 msgctxt "Date format"
 msgid "ISO date (%1, %2)"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1630
+#: skgbasegui/skgmainpanel.cpp:1635
+#, kde-format
+msgctxt "Currency format"
+msgid "Currency (%1, %2)"
+msgstr ""
+
+#. +> trunk6
+#: skgbasegui/skgmainpanel.cpp:1638
+#, kde-format
+msgctxt "Currency format"
+msgid "Numerical (%1, %2)"
+msgstr ""
+
+#. +> trunk6
+#: skgbasegui/skgmainpanel.cpp:1640
 #, kde-format
 msgctxt "Noun"
 msgid "General"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1662
+#: skgbasegui/skgmainpanel.cpp:1674
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Save settings"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1773
+#: skgbasegui/skgmainpanel.cpp:1785
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Unpin this page"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1862
+#: skgbasegui/skgmainpanel.cpp:1874
 #, kde-format
 msgctxt "Noun, indicate that current document is modified"
 msgid " [modified]"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1865
+#: skgbasegui/skgmainpanel.cpp:1877
 #, kde-format
 msgctxt "Noun, indicate that current document is loaded in read only"
 msgid " [read only]"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1869
+#: skgbasegui/skgmainpanel.cpp:1881
 #, kde-format
 msgctxt "Noun, default name for a new document"
 msgid "Untitled"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1883
+#: skgbasegui/skgmainpanel.cpp:1895
 #, kde-format
 msgctxt "Title of the main window"
 msgid "%1%2"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:1982
+#: skgbasegui/skgmainpanel.cpp:1994
 #, kde-format
 msgctxt "An information message"
 msgid "Impossible to open the page because the plugin was not found"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2095
+#: skgbasegui/skgmainpanel.cpp:2107
 #, kde-format
 msgctxt "Error message"
 msgid "Unknown plugin or action [%1] in url [%2]"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2182
+#: skgbasegui/skgmainpanel.cpp:2194
 #, kde-format
 msgctxt "Information message"
 msgid "A page cannot be closed when a transaction is running."
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2293
+#: skgbasegui/skgmainpanel.cpp:2305
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Reset default state"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2302
+#: skgbasegui/skgmainpanel.cpp:2314
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Default state has been reset"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2393
+#: skgbasegui/skgmainpanel.cpp:2405
 #, kde-format
 msgctxt "Warning header"
 msgid "Warning: %1"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2395
+#: skgbasegui/skgmainpanel.cpp:2407
 #, kde-format
 msgctxt "Error header"
 msgid "Error: %1"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2397
+#: skgbasegui/skgmainpanel.cpp:2409
 #, kde-format
 msgctxt "Information header"
 msgid "Information: %1"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2399
+#: skgbasegui/skgmainpanel.cpp:2411
 #, kde-format
 msgctxt "Done header"
 msgid "Done: %1"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2423
+#: skgbasegui/skgmainpanel.cpp:2435
 #, kde-format
 msgctxt "Noun"
 msgid "Notification"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2462
+#: skgbasegui/skgmainpanel.cpp:2474
 #, kde-format
 msgctxt "Verb"
 msgid "Open …"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2612
+#: skgbasegui/skgmainpanel.cpp:2624
 #, kde-format
 msgctxt "Question"
 msgid "File <b>%1</b> already exists. Do you really want to overwrite it?"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2613
+#: skgbasegui/skgmainpanel.cpp:2625
 #, kde-format
 msgctxt "Question"
 msgid "Warning"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2614
+#: skgbasegui/skgmainpanel.cpp:2626
 #, kde-format
 msgctxt "Verb"
 msgid "Save"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2657 skgbasemodeler/skgobjectbase.cpp:268
+#: skgbasegui/skgmainpanel.cpp:2669 skgbasemodeler/skgobjectbase.cpp:268
 #, kde-format
 msgctxt "Key word to modify a string into a field"
 msgid "capitalize"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2658 skgbasemodeler/skgobjectbase.cpp:266
+#: skgbasegui/skgmainpanel.cpp:2670 skgbasemodeler/skgobjectbase.cpp:266
 #, kde-format
 msgctxt "Key word to modify a string into a field"
 msgid "capwords"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2659 skgbasemodeler/skgobjectbase.cpp:262
+#: skgbasegui/skgmainpanel.cpp:2671 skgbasemodeler/skgobjectbase.cpp:262
 #, kde-format
 msgctxt "Key word to modify a string into a field"
 msgid "lower"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2660 skgbasemodeler/skgobjectbase.cpp:270
+#: skgbasegui/skgmainpanel.cpp:2672 skgbasemodeler/skgobjectbase.cpp:270
 #, kde-format
 msgctxt "Key word to modify a string into a field"
 msgid "trim"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2661 skgbasemodeler/skgobjectbase.cpp:264
+#: skgbasegui/skgmainpanel.cpp:2673 skgbasemodeler/skgobjectbase.cpp:264
 #, kde-format
 msgctxt "Key word to modify a string into a field"
 msgid "upper"
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2752
+#: skgbasegui/skgmainpanel.cpp:2764
 #, kde-format
 msgctxt "An information message"
 msgid "The document must be saved to be migrated."
 msgstr ""
 
 #. +> trunk6
-#: skgbasegui/skgmainpanel.cpp:2791
+#: skgbasegui/skgmainpanel.cpp:2803
 #, kde-format
 msgctxt "Positive message"
 msgid ""
@@ -17463,6 +17484,13 @@ msgstr ""
 #: skgbasegui/skgmainpanel_pref.ui:204
 #, kde-format
 msgid "Date fo&rmat:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6
+#: skgbasegui/skgmainpanel_pref.ui:217
+#, kde-format
+msgid "Currency format:"
 msgstr ""
 
 #. +> trunk6
@@ -18478,8 +18506,8 @@ msgid "Wrong installation"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgdocument.cpp:443 skgbasemodeler/skgservices.cpp:1320
-#: skgbasemodeler/skgservices.cpp:1357
+#: skgbasemodeler/skgdocument.cpp:443 skgbasemodeler/skgservices.cpp:1332
+#: skgbasemodeler/skgservices.cpp:1369
 #, kde-format
 msgctxt "Error message"
 msgid "Wrong password"
@@ -18642,8 +18670,8 @@ msgid "Creation of backup file %1 failed"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgdocument.cpp:1898 skgbasemodeler/skgservices.cpp:1386
-#: skgbasemodeler/skgservices.cpp:1395
+#: skgbasemodeler/skgdocument.cpp:1898 skgbasemodeler/skgservices.cpp:1398
+#: skgbasemodeler/skgservices.cpp:1407
 #, kde-format
 msgctxt "Error message: writing a file failed"
 msgid "Write file '%1' failed"
@@ -18788,84 +18816,84 @@ msgid "Did you know …?"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:127
+#: skgbasemodeler/skgservices.cpp:128
 #, kde-format
 msgctxt "Logical condition"
 msgid "%1 or %2"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:171
+#: skgbasemodeler/skgservices.cpp:172
 #, kde-format
 msgctxt "Logical condition"
 msgid "(%1) and (%2)"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:191
+#: skgbasemodeler/skgservices.cpp:192
 #, kde-format
 msgctxt "Logical condition"
 msgid "(%1) or (%2)"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:195
+#: skgbasemodeler/skgservices.cpp:196
 #, kde-format
 msgctxt "Logical condition"
 msgid "not (%1)"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:197
+#: skgbasemodeler/skgservices.cpp:198
 #, kde-format
 msgctxt "Logical condition"
 msgid "(%1) and not (%2)"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:920
+#: skgbasemodeler/skgservices.cpp:921
 #, kde-format
 msgctxt "Percent value; %1 is the value, % is the sign. Use the appropriate percent sign and positioning for your locale."
 msgid "%1 %"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:1233
+#: skgbasemodeler/skgservices.cpp:1245
 #, kde-format
 msgctxt "An information message"
 msgid "Open file '%1' failed"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:1268 skgbasemodeler/skgservices.cpp:1274
+#: skgbasemodeler/skgservices.cpp:1280 skgbasemodeler/skgservices.cpp:1286
 #, kde-format
 msgctxt "Error message"
 msgid "Impossible to copy '%1' to '%2'"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:1337
+#: skgbasemodeler/skgservices.cpp:1349
 #, kde-format
 msgctxt "Error message about encrypting a file"
 msgid "Old encrypted files are no more supported. You should use Skrooge <= 2.32.0 to remove the encryption."
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:1572
+#: skgbasemodeler/skgservices.cpp:1584
 #, kde-format
 msgctxt "An error message: creating a file failed"
 msgid "Creation file '%1' failed"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:1576
+#: skgbasemodeler/skgservices.cpp:1588
 #, kde-format
 msgctxt "Error message: something failed"
 msgid "%1 failed"
 msgstr ""
 
 #. +> trunk6
-#: skgbasemodeler/skgservices.cpp:1628
+#: skgbasemodeler/skgservices.cpp:1640
 #, kde-format
 msgctxt "Error message"
 msgid "Creation failed. The object already exists."
