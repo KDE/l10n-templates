@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-25 07:40+0200\n"
+"POT-Creation-Date: 2026-06-26 07:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1195,7 +1195,7 @@ msgstr ""
 #: data/qml/whatisinteresting/wiview.qml:146
 #: data/qml/whatisinteresting/wiview.qml:158 dialogs/detaildialog.cpp:212
 #: dialogs/detaildialog.cpp:270 dialogs/detaildialog.cpp:1124
-#: indi/indimount.cpp:794 indi/indimount.cpp:809 options/opssolarsystem.ui:158
+#: indi/indimount.cpp:828 indi/indimount.cpp:843 options/opssolarsystem.ui:158
 #: printing/detailstable.cpp:140 printing/detailstable.cpp:187
 #: printing/pwizobjectselection.cpp:119
 #: skycomponents/planetmoonscomponent.cpp:59
@@ -2328,7 +2328,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.ui:1362
 #: ekos/scheduler/taskqueue/ui/propertytemplatebuilder.cpp:1015
 #: indi/indidome.cpp:21 indi/indidustcap.cpp:17 indi/indimount.cpp:30
-#: indi/indimount.cpp:1581 indi/indipac.cpp:17
+#: indi/indimount.cpp:1615 indi/indipac.cpp:17
 #, kde-format, kde-kuit-format
 msgid "Idle"
 msgstr ""
@@ -19298,7 +19298,7 @@ msgstr ""
 
 #. +> trunk5
 #: ekos/ekos.h:140 ekos/scheduler/scheduler.cpp:2489 indi/indimount.cpp:30
-#: indi/indimount.cpp:1587
+#: indi/indimount.cpp:1621
 #, kde-format
 msgid "Slewing"
 msgstr ""
@@ -26696,61 +26696,61 @@ msgid "Failed to clear Alignment Model."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1290
+#: ekos/mount/mount.cpp:1298
 #, kde-format
 msgid "Mount already parked."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1315
+#: ekos/mount/mount.cpp:1323
 #, kde-format
 msgid "Parking time cannot be in the past."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1324
+#: ekos/mount/mount.cpp:1332
 #, kde-format
 msgid "Parking time must be within 24 hours of current time."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1329
+#: ekos/mount/mount.cpp:1337
 #, kde-format
 msgid "Warning! Parking time is more than 12 hours away."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1332
+#: ekos/mount/mount.cpp:1340
 #, kde-format
 msgid "Caution: do not use Auto Park while scheduler is active."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1352
+#: ekos/mount/mount.cpp:1360
 #, kde-format
 msgid "Parking timer is up."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1362
+#: ekos/mount/mount.cpp:1370
 #, kde-format
 msgid "Starting auto park..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1858
+#: ekos/mount/mount.cpp:1866
 #, kde-format
 msgid "Updating master time source to %1."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1879
+#: ekos/mount/mount.cpp:1887
 #, kde-format
 msgid "Updating master location source to %1. Updating GPS..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1887
+#: ekos/mount/mount.cpp:1895
 #, kde-format
 msgid "Updating master location source to %1."
 msgstr ""
@@ -26973,7 +26973,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, trackingLabel)
 #. +> trunk5
 #: ekos/mount/mount.ui:783 indi/indidome.cpp:22 indi/indimount.cpp:31
-#: indi/indimount.cpp:1591
+#: indi/indimount.cpp:1625
 #, kde-format
 msgid "Tracking"
 msgstr ""
@@ -27165,7 +27165,7 @@ msgstr ""
 #. +> trunk5
 #: ekos/observatory/observatory.cpp:350 ekos/observatory/observatory.cpp:366
 #: indi/indidome.cpp:22 indi/indidustcap.cpp:17 indi/indimount.cpp:31
-#: indi/indimount.cpp:1585
+#: indi/indimount.cpp:1619
 #, kde-format
 msgid "Parking"
 msgstr ""
@@ -27228,7 +27228,7 @@ msgstr ""
 
 #. +> trunk5
 #: ekos/observatory/observatory.cpp:423 indi/indidome.cpp:22
-#: indi/indidustcap.cpp:18 indi/indimount.cpp:31 indi/indimount.cpp:1583
+#: indi/indidustcap.cpp:18 indi/indimount.cpp:31 indi/indimount.cpp:1617
 #, kde-format
 msgid "Parked"
 msgstr ""
@@ -38518,7 +38518,7 @@ msgid "INDI Server Message"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:30 indi/indimount.cpp:1589
+#: indi/indimount.cpp:30 indi/indimount.cpp:1623
 #, kde-format
 msgid "Moving"
 msgstr ""
@@ -38560,61 +38560,61 @@ msgid "Mount homing failed"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:486
+#: indi/indimount.cpp:520
 #, kde-format
 msgid "Mount parking failed"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:492
+#: indi/indimount.cpp:526
 #, kde-format
 msgid "Mount parking is in progress"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:500
+#: indi/indimount.cpp:534
 #, kde-format
 msgid "Mount unparking is in progress"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:507
+#: indi/indimount.cpp:541
 #, kde-format
 msgid "Mount parked"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:526
+#: indi/indimount.cpp:560
 #, kde-format
 msgid "Mount unparked"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:823
+#: indi/indimount.cpp:857
 #, kde-format
 msgid "Warning! Looking at the Sun without proper protection can lead to irreversible eye damage!"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:824
+#: indi/indimount.cpp:858
 #, kde-format
 msgid "Sun Warning"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:842
+#: indi/indimount.cpp:876
 #, kde-format
 msgid "Requested altitude %1 is outside the specified altitude limit boundary (%2,%3)."
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:876
+#: indi/indimount.cpp:910
 #, kde-format
 msgid "Requested altitude is below the horizon. Are you sure you want to proceed?"
 msgstr ""
 
 #. +> trunk5
-#: indi/indimount.cpp:877
+#: indi/indimount.cpp:911
 #, kde-format
 msgid "Telescope Motion"
 msgstr ""
@@ -51844,7 +51844,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:714
 #, kde-kuit-format
-msgctxt "City in Ivory coast"
+msgctxt "City in Ivory Coast"
 msgid "Abidjan"
 msgstr ""
 
@@ -51935,7 +51935,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:727
 #, kde-kuit-format
-msgctxt "City in Pitcairn Islands"
+msgctxt "City in Pitcairn"
 msgid "Adamstown"
 msgstr ""
 
@@ -53727,7 +53727,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:983
 #, kde-kuit-format
-msgctxt "City in Guinea Bissau"
+msgctxt "City in Guinea-Bissau"
 msgid "Bafata"
 msgstr ""
 
@@ -54448,7 +54448,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:1086
 #, kde-kuit-format
-msgctxt "City in Yugoslavia"
+msgctxt "City in Serbia"
 msgid "Belgrade"
 msgstr ""
 
@@ -54903,7 +54903,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:1151
 #, kde-kuit-format
-msgctxt "City in Guinea Bissau"
+msgctxt "City in Guinea-Bissau"
 msgid "Bissau"
 msgstr ""
 
@@ -55498,7 +55498,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:1236
 #, kde-kuit-format
-msgctxt "City in Congo"
+msgctxt "City in Republic of the Congo"
 msgid "Brazzaville"
 msgstr ""
 
@@ -56485,7 +56485,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:1377
 #, kde-kuit-format
-msgctxt "City in St. Lucia"
+msgctxt "City in Saint Lucia"
 msgid "Castries"
 msgstr ""
 
@@ -57682,7 +57682,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:1548
 #, kde-kuit-format
-msgctxt "City in Bénin"
+msgctxt "City in Benin"
 msgid "Cotonou"
 msgstr ""
 
@@ -57927,7 +57927,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:1583
 #, kde-kuit-format
-msgctxt "City in Western sahara"
+msgctxt "City in Western Sahara"
 msgid "Dakhla"
 msgstr ""
 
@@ -58515,7 +58515,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:1667
 #, kde-kuit-format
-msgctxt "City in US Territory"
+msgctxt "City in United States Minor Outlying Islands"
 msgid "Diego Garcia"
 msgstr ""
 
@@ -59362,7 +59362,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:1788
 #, kde-kuit-format
-msgctxt "City in Western sahara"
+msgctxt "City in Western Sahara"
 msgid "El Aaiun"
 msgstr ""
 
@@ -61154,21 +61154,21 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:2044
 #, kde-kuit-format
-msgctxt "City in Ascension Island"
+msgctxt "City in Cayman Islands"
 msgid "Georgetown"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:2045
 #, kde-kuit-format
-msgctxt "City in Cayman Islands"
+msgctxt "City in Guyana"
 msgid "Georgetown"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:2046
 #, kde-kuit-format
-msgctxt "City in Guyana"
+msgctxt "City in Saint Helena"
 msgid "Georgetown"
 msgstr ""
 
@@ -63919,7 +63919,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:2439
 #, kde-kuit-format
-msgctxt "City in US Territory"
+msgctxt "City in United States Minor Outlying Islands"
 msgid "Johnston Atoll"
 msgstr ""
 
@@ -65088,7 +65088,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:2606
 #, kde-kuit-format
-msgctxt "City in Congo (Democratic Republic)"
+msgctxt "City in Democratic Republic of the Congo"
 msgid "Kinshasa"
 msgstr ""
 
@@ -65130,7 +65130,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:2612
 #, kde-kuit-format
-msgctxt "City in Dem rep of Congo"
+msgctxt "City in Democratic Republic of the Congo"
 msgid "Kisangani"
 msgstr ""
 
@@ -67909,7 +67909,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:3009
 #, kde-kuit-format
-msgctxt "City in Dem rep of Congo"
+msgctxt "City in Democratic Republic of the Congo"
 msgid "Matadi"
 msgstr ""
 
@@ -67993,7 +67993,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:3021
 #, kde-kuit-format
-msgctxt "City in Dem rep of Congo"
+msgctxt "City in Democratic Republic of the Congo"
 msgid "Mbandaka"
 msgstr ""
 
@@ -68875,7 +68875,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:3147
 #, kde-kuit-format
-msgctxt "City in US Territory"
+msgctxt "City in United States Minor Outlying Islands"
 msgid "Midway Island"
 msgstr ""
 
@@ -71668,7 +71668,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:3546
 #, kde-kuit-format
-msgctxt "City in US Territory"
+msgctxt "City in United States Minor Outlying Islands"
 msgid "Pagan Island"
 msgstr ""
 
@@ -72578,7 +72578,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:3676
 #, kde-kuit-format
-msgctxt "City in Congo"
+msgctxt "City in Republic of the Congo"
 msgid "Pointe Noire"
 msgstr ""
 
@@ -72844,7 +72844,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:3714
 #, kde-kuit-format
-msgctxt "City in Bénin"
+msgctxt "City in Benin"
 msgid "Porto Novo"
 msgstr ""
 
@@ -74090,7 +74090,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:3892
 #, kde-kuit-format
-msgctxt "City in US Territory"
+msgctxt "City in United States Minor Outlying Islands"
 msgid "Rota Island"
 msgstr ""
 
@@ -74384,7 +74384,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:3934
 #, kde-kuit-format
-msgctxt "City in US Territory"
+msgctxt "City in United States Minor Outlying Islands"
 msgid "Saipan Island"
 msgstr ""
 
@@ -76295,7 +76295,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:4207
 #, kde-kuit-format
-msgctxt "City in Virgin Islands"
+msgctxt "City in U.S. Virgin Islands"
 msgid "St. Croix"
 msgstr ""
 
@@ -76421,7 +76421,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:4225
 #, kde-kuit-format
-msgctxt "City in Virgin Islands"
+msgctxt "City in U.S. Virgin Islands"
 msgid "St. Thomas"
 msgstr ""
 
@@ -77576,7 +77576,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:4390
 #, kde-kuit-format
-msgctxt "City in US Territory"
+msgctxt "City in United States Minor Outlying Islands"
 msgid "Tinian Island"
 msgstr ""
 
@@ -79053,7 +79053,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:4601
 #, kde-kuit-format
-msgctxt "City in US Territory"
+msgctxt "City in United States Minor Outlying Islands"
 msgid "Wake Island"
 msgstr ""
 
@@ -80054,7 +80054,7 @@ msgstr ""
 #. +> trunk5
 #: kstars_i18n.cpp:4744
 #, kde-kuit-format
-msgctxt "City in Ivory coast"
+msgctxt "City in Ivory Coast"
 msgid "Yamoussoukro"
 msgstr ""
 
@@ -83121,63 +83121,63 @@ msgstr ""
 #: kstars_i18n.cpp:5182
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Ascension Island"
+msgid "Australia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5183
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Australia"
+msgid "Austria"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5184
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Austria"
+msgid "Bahamas"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5185
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Bahamas"
+msgid "Bahrain"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5186
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Bahrain"
+msgid "Bangladesh"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5187
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Bangladesh"
+msgid "Barbados"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5188
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Barbados"
+msgid "Belgium"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5189
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Belgium"
+msgid "Belize"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5190
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Belize"
+msgid "Benin"
 msgstr ""
 
 #. +> trunk5
@@ -83247,784 +83247,784 @@ msgstr ""
 #: kstars_i18n.cpp:5200
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Bénin"
+msgid "Cameroon"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5201
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Cameroon"
+msgid "Canada"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5202
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Canada"
+msgid "Cape Verde"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5203
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Cape Verde"
+msgid "Cayman Islands"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5204
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Cayman Islands"
+msgid "Central African Republic"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5205
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Central African Republic"
+msgid "Chad"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5206
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Chad"
+msgid "Chile"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5207
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Chile"
+msgid "China"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5208
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "China"
+msgid "Colombia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5209
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Colombia"
+msgid "Costa Rica"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5210
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Congo"
+msgid "Croatia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5211
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Congo (Democratic Republic)"
+msgid "Cuba"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5212
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Costa Rica"
+msgid "Cyprus"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5213
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Croatia"
+msgid "Czechia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5214
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Cuba"
+msgid "Democratic Republic of the Congo"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5215
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Cyprus"
+msgid "Denmark"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5216
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Czechia"
+msgid "Djibouti"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5217
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Dem rep of Congo"
+msgid "Dominican Republic"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5218
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Denmark"
+msgid "Ecuador"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5219
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Djibouti"
+msgid "Egypt"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5220
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Dominican Republic"
+msgid "El Salvador"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5221
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Ecuador"
+msgid "Equatorial Guinea"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5222
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Egypt"
+msgid "Eritrea"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5223
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "El Salvador"
+msgid "Estonia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5224
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Equatorial Guinea"
+msgid "Ethiopia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5225
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Eritrea"
+msgid "Falkland Islands"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5226
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Estonia"
+msgid "Fiji"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5227
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Ethiopia"
+msgid "Finland"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5228
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Falkland Islands"
+msgid "France"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5229
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Fiji"
+msgid "French Guiana"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5230
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Finland"
+msgid "French Polynesia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5231
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "France"
+msgid "Gabon"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5232
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "French Guiana"
+msgid "Gambia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5233
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "French Polynesia"
+msgid "Germany"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5234
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Gabon"
+msgid "Ghana"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5235
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Gambia"
+msgid "Greece"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5236
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Germany"
+msgid "Greenland"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5237
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Ghana"
+msgid "Guam"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5238
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Greece"
+msgid "Guatemala"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5239
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Greenland"
+msgid "Guinea"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5240
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Guam"
+msgid "Guinea-Bissau"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5241
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Guatemala"
+msgid "Guyana"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5242
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Guinea"
+msgid "Haiti"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5243
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Guinea Bissau"
+msgid "Honduras"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5244
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Guyana"
+msgid "Hong Kong"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5245
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Haiti"
+msgid "Hungary"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5246
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Honduras"
+msgid "Iceland"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5247
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Hong Kong"
+msgid "India"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5248
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Hungary"
+msgid "Indonesia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5249
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Iceland"
+msgid "Iran"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5250
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "India"
+msgid "Iraq"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5251
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Indonesia"
+msgid "Ireland"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5252
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Iran"
+msgid "Isle of Man"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5253
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Iraq"
+msgid "Israel"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5254
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Ireland"
+msgid "Italy"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5255
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Isle of Man"
+msgid "Ivory Coast"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5256
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Israel"
+msgid "Jamaica"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5257
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Italy"
+msgid "Japan"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5258
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Ivory coast"
+msgid "Jordan"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5259
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Jamaica"
+msgid "Kazakhstan"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5260
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Japan"
+msgid "Kenya"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5261
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Jordan"
+msgid "Kiribati"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5262
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Kazakhstan"
+msgid "Kuwait"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5263
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Kenya"
+msgid "Latvia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5264
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Kiribati"
+msgid "Lebanon"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5265
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Kuwait"
+msgid "Lesotho"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5266
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Latvia"
+msgid "Liberia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5267
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Lebanon"
+msgid "Libya"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5268
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Lesotho"
+msgid "Lithuania"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5269
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Liberia"
+msgid "Luxembourg"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5270
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Libya"
+msgid "Macedonia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5271
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Lithuania"
+msgid "Madagascar"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5272
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Luxembourg"
+msgid "Malawi"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5273
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Macedonia"
+msgid "Malaysia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5274
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Madagascar"
+msgid "Maldives"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5275
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Malawi"
+msgid "Mali"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5276
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Malaysia"
+msgid "Malta"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5277
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Maldives"
+msgid "Marshall Islands"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5278
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Mali"
+msgid "Mauritania"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5279
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Malta"
+msgid "Mauritius"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5280
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Marshall Islands"
+msgid "Mexico"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5281
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Mauritania"
+msgid "Micronesia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5282
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Mauritius"
+msgid "Monaco"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5283
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Mexico"
+msgid "Morocco"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5284
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Micronesia"
+msgid "Mozambique"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5285
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Monaco"
+msgid "Myanmar"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5286
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Morocco"
+msgid "Namibia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5287
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Mozambique"
+msgid "Nepal"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5288
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Myanmar"
+msgid "Netherlands"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5289
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Namibia"
+msgid "New Zealand"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5290
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Nepal"
+msgid "Nicaragua"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5291
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Netherlands"
+msgid "Niger"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5292
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "New Zealand"
+msgid "Nigeria"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5293
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Nicaragua"
+msgid "North Korea"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5294
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Niger"
+msgid "Norway"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5295
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Nigeria"
+msgid "Pakistan"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5296
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "North Korea"
+msgid "Palau"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5297
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Norway"
+msgid "Panama"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5298
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Pakistan"
+msgid "Papua New Guinea"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5299
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Palau"
+msgid "Paraguay"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5300
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Panama"
+msgid "Peru"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5301
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Papua New Guinea"
+msgid "Philippines"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5302
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Paraguay"
+msgid "Pitcairn"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5303
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Peru"
+msgid "Poland"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5304
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Philippines"
+msgid "Portugal"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5305
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Pitcairn Islands"
+msgid "Qatar"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5306
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Poland"
+msgid "Republic of the Congo"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5307
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Portugal"
+msgid "Romania"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5308
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Qatar"
+msgid "Russia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5309
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Romania"
+msgid "Rwanda"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5310
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Russia"
+msgid "Saint Helena"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5311
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Rwanda"
+msgid "Saint Lucia"
 msgstr ""
 
 #. +> trunk5
@@ -84052,84 +84052,84 @@ msgstr ""
 #: kstars_i18n.cpp:5315
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Seychelles"
+msgid "Serbia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5316
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Sierra Leone"
+msgid "Seychelles"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5317
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Singapore"
+msgid "Sierra Leone"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5318
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Slovakia"
+msgid "Singapore"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5319
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Slovenia"
+msgid "Slovakia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5320
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Solomon Islands"
+msgid "Slovenia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5321
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Somalia"
+msgid "Solomon Islands"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5322
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "South Africa"
+msgid "Somalia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5323
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "South Korea"
+msgid "South Africa"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5324
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Spain"
+msgid "South Korea"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5325
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Sri Lanka"
+msgid "Spain"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5326
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "St. Lucia"
+msgid "Sri Lanka"
 msgstr ""
 
 #. +> trunk5
@@ -84227,7 +84227,7 @@ msgstr ""
 #: kstars_i18n.cpp:5340
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "US Territory"
+msgid "U.S. Virgin Islands"
 msgstr ""
 
 #. +> trunk5
@@ -84269,49 +84269,49 @@ msgstr ""
 #: kstars_i18n.cpp:5346
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Uruguay"
+msgid "United States Minor Outlying Islands"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5347
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Uzbekistan"
+msgid "Uruguay"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5348
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Vanuatu"
+msgid "Uzbekistan"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5349
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Vatican"
+msgid "Vanuatu"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5350
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Venezuela"
+msgid "Vatican"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5351
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Virgin Islands"
+msgid "Venezuela"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5352
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Western sahara"
+msgid "Western Sahara"
 msgstr ""
 
 #. +> trunk5
@@ -84325,2503 +84325,2496 @@ msgstr ""
 #: kstars_i18n.cpp:5354
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Yugoslavia"
+msgid "Zambia"
 msgstr ""
 
 #. +> trunk5
 #: kstars_i18n.cpp:5355
 #, kde-kuit-format
 msgctxt "Country name"
-msgid "Zambia"
-msgstr ""
-
-#. +> trunk5
-#: kstars_i18n.cpp:5356
-#, kde-kuit-format
-msgctxt "Country name"
 msgid "Zimbabwe"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5357
+#: kstars_i18n.cpp:5356
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Comet Impact Scars (HST)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5358
+#: kstars_i18n.cpp:5357
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Galilean Satellites (HST)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5359
+#: kstars_i18n.cpp:5358
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Global Dust Storm (HST)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5360
+#: kstars_i18n.cpp:5359
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Jupiter and Io (HST)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5361
+#: kstars_i18n.cpp:5360
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show APOD Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5362
+#: kstars_i18n.cpp:5361
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show APOD Image (Radar)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5363
+#: kstars_i18n.cpp:5362
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show APOD Image (Venera lander)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5364
+#: kstars_i18n.cpp:5363
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show Collage of Saturn and moons"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5365
+#: kstars_i18n.cpp:5364
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5366
+#: kstars_i18n.cpp:5365
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (1995)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5367
+#: kstars_i18n.cpp:5366
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (1996)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5368
+#: kstars_i18n.cpp:5367
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (1998)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5369
+#: kstars_i18n.cpp:5368
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (1999)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5370
+#: kstars_i18n.cpp:5369
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (2001)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5371
+#: kstars_i18n.cpp:5370
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (2002)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5372
+#: kstars_i18n.cpp:5371
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (2003)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5373
+#: kstars_i18n.cpp:5372
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (2004)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5374
+#: kstars_i18n.cpp:5373
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (Aurora)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5375
+#: kstars_i18n.cpp:5374
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (detail)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5376
+#: kstars_i18n.cpp:5375
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (Detail)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5377
+#: kstars_i18n.cpp:5376
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (Hubble V)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5378
+#: kstars_i18n.cpp:5377
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (Hubble X)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5379
+#: kstars_i18n.cpp:5378
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (SN 2004dj)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5380
+#: kstars_i18n.cpp:5379
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST Image (stars in M 31)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5381
+#: kstars_i18n.cpp:5380
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show HST (Rings and Moons)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5382
+#: kstars_i18n.cpp:5381
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show KPNO AOP Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5383
+#: kstars_i18n.cpp:5382
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show MGS Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5384
+#: kstars_i18n.cpp:5383
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show NASA Mosaic"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5385
+#: kstars_i18n.cpp:5384
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show NOAO Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5386
+#: kstars_i18n.cpp:5385
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show NOAO Image (Halpha)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5387
+#: kstars_i18n.cpp:5386
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show NOAO Image (Optical)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5388
+#: kstars_i18n.cpp:5387
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show SEDS Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5389
+#: kstars_i18n.cpp:5388
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show Spitzer Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5390
+#: kstars_i18n.cpp:5389
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show Sun Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5391
+#: kstars_i18n.cpp:5390
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show Viking Lander Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5392
+#: kstars_i18n.cpp:5391
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Show Voyager 1 Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5393
+#: kstars_i18n.cpp:5392
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Total Eclipse Image"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5394
+#: kstars_i18n.cpp:5393
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Triple Eclipse (HST)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5395
+#: kstars_i18n.cpp:5394
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Comet Shoemaker-Levy 9"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5396
+#: kstars_i18n.cpp:5395
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Comet Shoemaker–Levy 9 Wikipedia page"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5397
+#: kstars_i18n.cpp:5396
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Daily Solar Images"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5398
+#: kstars_i18n.cpp:5397
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "NASA Eclipse page"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5399
+#: kstars_i18n.cpp:5398
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "NASA Mars Missions"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5400
+#: kstars_i18n.cpp:5399
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "NASA Science Mariner missions"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5401
+#: kstars_i18n.cpp:5400
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "NASA Solar System Exploration Page"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5402
+#: kstars_i18n.cpp:5401
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "NASA Sun-Earth Days page"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5403
+#: kstars_i18n.cpp:5402
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Nine Planets Page"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5404
+#: kstars_i18n.cpp:5403
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "SEDS Information Page"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5405
+#: kstars_i18n.cpp:5404
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "The Apollo Program"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5406
+#: kstars_i18n.cpp:5405
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "The Cassini Mission"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5407
+#: kstars_i18n.cpp:5406
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "The \"face\" on Mars"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5408
+#: kstars_i18n.cpp:5407
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "The Galileo Mission"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5409
+#: kstars_i18n.cpp:5408
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "The Magellan Mission"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5410
+#: kstars_i18n.cpp:5409
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "The Mariner 10 Mission"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5411
+#: kstars_i18n.cpp:5410
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "The Mars Society"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5412
+#: kstars_i18n.cpp:5411
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "The Voyager Missions"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5413
+#: kstars_i18n.cpp:5412
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "The Whole Mars Catalog"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5414
+#: kstars_i18n.cpp:5413
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Welcome to Mars!"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5415
+#: kstars_i18n.cpp:5414
 #, kde-kuit-format
 msgctxt "Image/info menu item (should be translated)"
 msgid "Wikipedia Page"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5416
+#: kstars_i18n.cpp:5415
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sirius"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5417
+#: kstars_i18n.cpp:5416
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Canopus"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5418
+#: kstars_i18n.cpp:5417
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Arcturus"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5419
+#: kstars_i18n.cpp:5418
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Rigel Kentaurus"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5420
+#: kstars_i18n.cpp:5419
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Vega"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5421
+#: kstars_i18n.cpp:5420
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Capella"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5422
+#: kstars_i18n.cpp:5421
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Rigel"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5423
+#: kstars_i18n.cpp:5422
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Procyon"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5424
+#: kstars_i18n.cpp:5423
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Achernar"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5425
+#: kstars_i18n.cpp:5424
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Betelgeuse"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5426
+#: kstars_i18n.cpp:5425
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Hadar"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5427
+#: kstars_i18n.cpp:5426
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Altair"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5428
+#: kstars_i18n.cpp:5427
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Acrux"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5429
+#: kstars_i18n.cpp:5428
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Aldebaran"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5430
+#: kstars_i18n.cpp:5429
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Spica"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5431
+#: kstars_i18n.cpp:5430
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Antares"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5432
+#: kstars_i18n.cpp:5431
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Pollux"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5433
+#: kstars_i18n.cpp:5432
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Fomalhaut"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5434
+#: kstars_i18n.cpp:5433
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mimosa"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5435
+#: kstars_i18n.cpp:5434
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Deneb"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5436
+#: kstars_i18n.cpp:5435
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Regulus"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5437
+#: kstars_i18n.cpp:5436
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Adhara"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5438
+#: kstars_i18n.cpp:5437
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Castor"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5439
+#: kstars_i18n.cpp:5438
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Gacrux"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5440
+#: kstars_i18n.cpp:5439
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Shaula"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5441
+#: kstars_i18n.cpp:5440
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Bellatrix"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5442
+#: kstars_i18n.cpp:5441
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alnath"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5443
+#: kstars_i18n.cpp:5442
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Miaplacidus"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5444
+#: kstars_i18n.cpp:5443
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alnilam"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5445
+#: kstars_i18n.cpp:5444
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Al Na'ir"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5446
+#: kstars_i18n.cpp:5445
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alnitak"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5447
+#: kstars_i18n.cpp:5446
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Regor"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5448
+#: kstars_i18n.cpp:5447
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alioth"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5449
+#: kstars_i18n.cpp:5448
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mirfak"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5450
+#: kstars_i18n.cpp:5449
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kaus Australis"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5451
+#: kstars_i18n.cpp:5450
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Dubhe"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5452
+#: kstars_i18n.cpp:5451
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Wezen"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5453
+#: kstars_i18n.cpp:5452
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alkaid"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5454
+#: kstars_i18n.cpp:5453
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sargas"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5455
+#: kstars_i18n.cpp:5454
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Avior"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5456
+#: kstars_i18n.cpp:5455
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Menkalinan"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5457
+#: kstars_i18n.cpp:5456
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alhena"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5458
+#: kstars_i18n.cpp:5457
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Peacock"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5459 tools/polarishourangle.cpp:28
+#: kstars_i18n.cpp:5458 tools/polarishourangle.cpp:28
 #, kde-format, kde-kuit-format
 msgctxt "star name"
 msgid "Polaris"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5460
+#: kstars_i18n.cpp:5459
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mirzam"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5461
+#: kstars_i18n.cpp:5460
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alphard"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5462
+#: kstars_i18n.cpp:5461
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Hamal"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5463
+#: kstars_i18n.cpp:5462
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Al Gieba"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5464
+#: kstars_i18n.cpp:5463
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Diphda"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5465
+#: kstars_i18n.cpp:5464
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Nunki"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5466
+#: kstars_i18n.cpp:5465
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Menkent"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5467
+#: kstars_i18n.cpp:5466
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alpheratz"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5468
+#: kstars_i18n.cpp:5467
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Saiph"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5469
+#: kstars_i18n.cpp:5468
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mirach"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5470
+#: kstars_i18n.cpp:5469
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kocab"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5471
+#: kstars_i18n.cpp:5470
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Rasalhague"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5472
+#: kstars_i18n.cpp:5471
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Algol"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5473
+#: kstars_i18n.cpp:5472
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Almach"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5474
+#: kstars_i18n.cpp:5473
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Denebola"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5475
+#: kstars_i18n.cpp:5474
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Navi"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5476
+#: kstars_i18n.cpp:5475
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Naos"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5477
+#: kstars_i18n.cpp:5476
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Aspidiske"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5478
+#: kstars_i18n.cpp:5477
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alphecca"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5479
+#: kstars_i18n.cpp:5478
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mizar"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5480
+#: kstars_i18n.cpp:5479
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sadr"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5481
+#: kstars_i18n.cpp:5480
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Suhail"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5482
+#: kstars_i18n.cpp:5481
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Schedar"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5483
+#: kstars_i18n.cpp:5482
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Eltanin"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5484
+#: kstars_i18n.cpp:5483
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mintaka"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5485
+#: kstars_i18n.cpp:5484
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Caph"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5486
+#: kstars_i18n.cpp:5485
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Dschubba"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5487
+#: kstars_i18n.cpp:5486
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Men"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5488
+#: kstars_i18n.cpp:5487
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Merak"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5489
+#: kstars_i18n.cpp:5488
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Pulcherrima"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5490
+#: kstars_i18n.cpp:5489
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Enif"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5491
+#: kstars_i18n.cpp:5490
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Ankaa"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5492
+#: kstars_i18n.cpp:5491
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Phecda"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5493
+#: kstars_i18n.cpp:5492
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Scheat"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5494
+#: kstars_i18n.cpp:5493
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Aludra"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5495
+#: kstars_i18n.cpp:5494
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alderamin"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5496
+#: kstars_i18n.cpp:5495
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Merkab"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5497
+#: kstars_i18n.cpp:5496
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Gienah"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5498
+#: kstars_i18n.cpp:5497
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Markab"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5499
+#: kstars_i18n.cpp:5498
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Menkab"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5500
+#: kstars_i18n.cpp:5499
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Zozma"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5501
+#: kstars_i18n.cpp:5500
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Graffias"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5502
+#: kstars_i18n.cpp:5501
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Arneb"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5503
+#: kstars_i18n.cpp:5502
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Gienah Corvi"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5504
+#: kstars_i18n.cpp:5503
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Zuben el Chamali"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5505
+#: kstars_i18n.cpp:5504
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Unukalhai"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5506
+#: kstars_i18n.cpp:5505
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sheratan"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5507
+#: kstars_i18n.cpp:5506
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Phakt"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5508
+#: kstars_i18n.cpp:5507
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kraz"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5509
+#: kstars_i18n.cpp:5508
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Ruchbah"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5510
+#: kstars_i18n.cpp:5509
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Muphrid"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5511
+#: kstars_i18n.cpp:5510
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kabdhilinan"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5512
+#: kstars_i18n.cpp:5511
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Lesath"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5513
+#: kstars_i18n.cpp:5512
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kaus Media"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5514
+#: kstars_i18n.cpp:5513
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Tarazed"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5515
+#: kstars_i18n.cpp:5514
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Yed Prior"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5516
+#: kstars_i18n.cpp:5515
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Na'ir al Saif"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5517
+#: kstars_i18n.cpp:5516
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Zuben El Genubi"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5518
+#: kstars_i18n.cpp:5517
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kelb al Rai"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5519
+#: kstars_i18n.cpp:5518
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Cursa"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5520
+#: kstars_i18n.cpp:5519
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kornephoros"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5521
+#: kstars_i18n.cpp:5520
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Ras Algethi"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5522
+#: kstars_i18n.cpp:5521
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Rastaban"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5523
+#: kstars_i18n.cpp:5522
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Nihal"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5524
+#: kstars_i18n.cpp:5523
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kaus Borealis"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5525
+#: kstars_i18n.cpp:5524
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Algenib"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5526
+#: kstars_i18n.cpp:5525
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Atik"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5527
+#: kstars_i18n.cpp:5526
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Tchou"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5528
+#: kstars_i18n.cpp:5527
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alcyone"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5529
+#: kstars_i18n.cpp:5528
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Vindemiatrix"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5530
+#: kstars_i18n.cpp:5529
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Deneb Algiedi"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5531
+#: kstars_i18n.cpp:5530
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Tejat"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5532
+#: kstars_i18n.cpp:5531
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Acamar"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5533
+#: kstars_i18n.cpp:5532
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Gomeisa"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5534
+#: kstars_i18n.cpp:5533
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Cor Caroli"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5535
+#: kstars_i18n.cpp:5534
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Al Niyat"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5536
+#: kstars_i18n.cpp:5535
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sadalsud"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5537
+#: kstars_i18n.cpp:5536
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Matar"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5538
+#: kstars_i18n.cpp:5537
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Algorab"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5539
+#: kstars_i18n.cpp:5538
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sadalmelik"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5540
+#: kstars_i18n.cpp:5539
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Zaurak"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5541
+#: kstars_i18n.cpp:5540
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Al Nasl"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5542
+#: kstars_i18n.cpp:5541
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Pherkab"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5543
+#: kstars_i18n.cpp:5542
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Al Dhanab"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5544
+#: kstars_i18n.cpp:5543
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Furud"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5545
+#: kstars_i18n.cpp:5544
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Minkar"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5546
+#: kstars_i18n.cpp:5545
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Maaz"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5547
+#: kstars_i18n.cpp:5546
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Seginus"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5548
+#: kstars_i18n.cpp:5547
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Dabih"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5549
+#: kstars_i18n.cpp:5548
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Albireo"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5550
+#: kstars_i18n.cpp:5549
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mebsuta"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5551
+#: kstars_i18n.cpp:5550
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Tania Australis"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5552
+#: kstars_i18n.cpp:5551
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Altais"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5553
+#: kstars_i18n.cpp:5552
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Al Nair"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5554
+#: kstars_i18n.cpp:5553
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Talitha Borealis"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5555
+#: kstars_i18n.cpp:5554
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sarin"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5556
+#: kstars_i18n.cpp:5555
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Wazn"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5557
+#: kstars_i18n.cpp:5556
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kaou Pih"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5558
+#: kstars_i18n.cpp:5557
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Er Rai"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5559
+#: kstars_i18n.cpp:5558
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Yed Posterior"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5560
+#: kstars_i18n.cpp:5559
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alphirk"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5561
+#: kstars_i18n.cpp:5560
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sulaphat"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5562
+#: kstars_i18n.cpp:5561
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Skat"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5563
+#: kstars_i18n.cpp:5562
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Edasich"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5564
+#: kstars_i18n.cpp:5563
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Megrez"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5565
+#: kstars_i18n.cpp:5564
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Chertan"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5566
+#: kstars_i18n.cpp:5565
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Asmidiske"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5567
+#: kstars_i18n.cpp:5566
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Segin"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5568
+#: kstars_i18n.cpp:5567
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Muscida"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5569
+#: kstars_i18n.cpp:5568
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Heze"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5570
+#: kstars_i18n.cpp:5569
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Auva"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5571
+#: kstars_i18n.cpp:5570
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Homan"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5572
+#: kstars_i18n.cpp:5571
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mothallah"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5573
+#: kstars_i18n.cpp:5572
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Adhafera"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5574
+#: kstars_i18n.cpp:5573
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Al Thalimain"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5575
+#: kstars_i18n.cpp:5574
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Tania Borealis"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5576
+#: kstars_i18n.cpp:5575
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Nekkar"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5577
+#: kstars_i18n.cpp:5576
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alula Borealis"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5578
+#: kstars_i18n.cpp:5577
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Wasat"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5579
+#: kstars_i18n.cpp:5578
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sadalbari"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5580
+#: kstars_i18n.cpp:5579
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Rana"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5581
+#: kstars_i18n.cpp:5580
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Tseen Ke"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5582
+#: kstars_i18n.cpp:5581
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sheliak"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5583
+#: kstars_i18n.cpp:5582
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Baham"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5584
+#: kstars_i18n.cpp:5583
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Ain"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5585
+#: kstars_i18n.cpp:5584
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Tarf"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5586
+#: kstars_i18n.cpp:5585
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Schemali"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5587
+#: kstars_i18n.cpp:5586
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Talitha Australis"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5588
+#: kstars_i18n.cpp:5587
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Al Giedi"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5589
+#: kstars_i18n.cpp:5588
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Zawijah"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5590
+#: kstars_i18n.cpp:5589
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Atlas"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5591
+#: kstars_i18n.cpp:5590
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Rotanev"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5592
+#: kstars_i18n.cpp:5591
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Primus Hyadum"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5593
+#: kstars_i18n.cpp:5592
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Chow"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5594
+#: kstars_i18n.cpp:5593
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Nusakan"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5595
+#: kstars_i18n.cpp:5594
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Thuban"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5596
+#: kstars_i18n.cpp:5595
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Nashira"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5597
+#: kstars_i18n.cpp:5596
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sadatoni"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5598
+#: kstars_i18n.cpp:5597
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Marfik"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5599
+#: kstars_i18n.cpp:5598
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alshain"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5600
+#: kstars_i18n.cpp:5599
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Electra"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5601
+#: kstars_i18n.cpp:5600
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Prijipati"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5602
+#: kstars_i18n.cpp:5601
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Grumium"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5603
+#: kstars_i18n.cpp:5602
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Baten"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5604
+#: kstars_i18n.cpp:5603
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Svalocin"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5605
+#: kstars_i18n.cpp:5604
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Albali"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5606
+#: kstars_i18n.cpp:5605
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Praecipula"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5607
+#: kstars_i18n.cpp:5606
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Sadachbia"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5608
+#: kstars_i18n.cpp:5607
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Maia"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5609
+#: kstars_i18n.cpp:5608
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mesarthim"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5610
+#: kstars_i18n.cpp:5609
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Rasalas"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5611
+#: kstars_i18n.cpp:5610
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Azha"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5612
+#: kstars_i18n.cpp:5611
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Zuben el Hakrabi"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5613
+#: kstars_i18n.cpp:5612
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Kitalpha"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5614
+#: kstars_i18n.cpp:5613
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Asellus Australis"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5615
+#: kstars_i18n.cpp:5614
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Menkib"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5616
+#: kstars_i18n.cpp:5615
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alcor"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5617
+#: kstars_i18n.cpp:5616
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mekbuda"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5618
+#: kstars_i18n.cpp:5617
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Dulfim"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5619
+#: kstars_i18n.cpp:5618
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Beid"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5620
+#: kstars_i18n.cpp:5619
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Syrma"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5621
+#: kstars_i18n.cpp:5620
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alkes"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5622
+#: kstars_i18n.cpp:5621
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Muliphein"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5623
+#: kstars_i18n.cpp:5622
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alphekka Meridiana"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5624
+#: kstars_i18n.cpp:5623
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Merope"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5625
+#: kstars_i18n.cpp:5624
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Ancha"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5626
+#: kstars_i18n.cpp:5625
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Chara"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5627
+#: kstars_i18n.cpp:5626
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Acubens"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5628
+#: kstars_i18n.cpp:5627
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Taygeta"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5629
+#: kstars_i18n.cpp:5628
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alkalurops"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5630
+#: kstars_i18n.cpp:5629
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Botein"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5631
+#: kstars_i18n.cpp:5630
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Minhar al Shuja"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5632
+#: kstars_i18n.cpp:5631
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Cujam"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5633
+#: kstars_i18n.cpp:5632
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Dziban"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5634
+#: kstars_i18n.cpp:5633
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Alya"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5635
+#: kstars_i18n.cpp:5634
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Asellus Borealis"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5636
+#: kstars_i18n.cpp:5635
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Marsik"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5637
+#: kstars_i18n.cpp:5636
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Pleione"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5638
+#: kstars_i18n.cpp:5637
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Asterope"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5639
+#: kstars_i18n.cpp:5638
 #, kde-kuit-format
 msgctxt "star name"
 msgid "Mira"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5640
+#: kstars_i18n.cpp:5639
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Last Launches"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5641
+#: kstars_i18n.cpp:5640
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "International Space Station"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5642
+#: kstars_i18n.cpp:5641
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Brightest"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5643
+#: kstars_i18n.cpp:5642
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Weather"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5644
+#: kstars_i18n.cpp:5643
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "NOAA"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5645
+#: kstars_i18n.cpp:5644
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "GOES"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5646
+#: kstars_i18n.cpp:5645
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Earth Resources"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5647
+#: kstars_i18n.cpp:5646
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Search & Rescue (SARSAT)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5648
+#: kstars_i18n.cpp:5647
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Disaster Monitoring"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5649
+#: kstars_i18n.cpp:5648
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Tracking and Data Relay Satellite System (TDRSS)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5650
+#: kstars_i18n.cpp:5649
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Geostationary"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5651
+#: kstars_i18n.cpp:5650
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Intelsat"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5652
+#: kstars_i18n.cpp:5651
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Gorizont"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5653
+#: kstars_i18n.cpp:5652
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Raduga"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5654
+#: kstars_i18n.cpp:5653
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Molniya"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5655
+#: kstars_i18n.cpp:5654
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Iridium"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5656
+#: kstars_i18n.cpp:5655
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Orbcomm"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5657
+#: kstars_i18n.cpp:5656
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Globalstar"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5658
+#: kstars_i18n.cpp:5657
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Amateur Radio"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5659
+#: kstars_i18n.cpp:5658
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Experimental"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5660
+#: kstars_i18n.cpp:5659
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Other"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5661
+#: kstars_i18n.cpp:5660
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "GPS Operational"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5662
+#: kstars_i18n.cpp:5661
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Glonass Operational"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5663
+#: kstars_i18n.cpp:5662
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Galileo"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5664
+#: kstars_i18n.cpp:5663
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Satellite-Based Augmentation System (WAAS/EGNOS/MSAS)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5665
+#: kstars_i18n.cpp:5664
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Navy Navigation Satellite System (NNSS)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5666
+#: kstars_i18n.cpp:5665
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Russian LEO Navigation"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5667
+#: kstars_i18n.cpp:5666
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Space & Earth Science"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5668
+#: kstars_i18n.cpp:5667
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Geodetic"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5669
+#: kstars_i18n.cpp:5668
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Engineering"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5670
+#: kstars_i18n.cpp:5669
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Education"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5671
+#: kstars_i18n.cpp:5670
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Miscellaneous Military"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5672
+#: kstars_i18n.cpp:5671
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Radar Calibration"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5673
+#: kstars_i18n.cpp:5672
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "CubeSats"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5674
+#: kstars_i18n.cpp:5673
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Other Miscellaneous"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5675
+#: kstars_i18n.cpp:5674
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Supplemental GPS"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5676
+#: kstars_i18n.cpp:5675
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Supplemental GLONASS"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5677
+#: kstars_i18n.cpp:5676
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Supplemental METEOSAT"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5678
+#: kstars_i18n.cpp:5677
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Supplemental INTELSAT"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5679
+#: kstars_i18n.cpp:5678
 #, kde-kuit-format
 msgctxt "Satellite group name"
 msgid "Supplemental ORBCOMM"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5680
+#: kstars_i18n.cpp:5679
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Simbad"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5681
+#: kstars_i18n.cpp:5680
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Aladin"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5682
+#: kstars_i18n.cpp:5681
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Skyview"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5683
+#: kstars_i18n.cpp:5682
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Gamma-ray"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5684
+#: kstars_i18n.cpp:5683
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "X-ray"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5685
+#: kstars_i18n.cpp:5684
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "EUV"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5686
+#: kstars_i18n.cpp:5685
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "UV"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5687
+#: kstars_i18n.cpp:5686
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Optical"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5688
+#: kstars_i18n.cpp:5687
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Infrared"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5689
+#: kstars_i18n.cpp:5688
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Radio"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5690
+#: kstars_i18n.cpp:5689
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "High Energy Astrophysical Archive (HEASARC)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5691
+#: kstars_i18n.cpp:5690
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Recent X-Ray Missions"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5692
+#: kstars_i18n.cpp:5691
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Past X-ray Mission"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5693
+#: kstars_i18n.cpp:5692
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Gamma-Ray Missions"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5694
+#: kstars_i18n.cpp:5693
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Other Missions"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5695
+#: kstars_i18n.cpp:5694
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Popular Catalog Choices"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5696
+#: kstars_i18n.cpp:5695
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Multiwavelength Catalogs"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5697
+#: kstars_i18n.cpp:5696
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "NASA Extragalactic Database (NED)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5698
+#: kstars_i18n.cpp:5697
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Positions"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5699
+#: kstars_i18n.cpp:5698
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "NASA Astrophysics Data System (ADS)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5700
+#: kstars_i18n.cpp:5699
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Astronomy and Astrophysics"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5701
+#: kstars_i18n.cpp:5700
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Instrumentation"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5702
+#: kstars_i18n.cpp:5701
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Physics and Geophysics"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5703
+#: kstars_i18n.cpp:5702
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Astrophysics preprints"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5704
+#: kstars_i18n.cpp:5703
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Multimission Archive at Space Telescope (MAST)"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5705
+#: kstars_i18n.cpp:5704
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "HST"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5706
+#: kstars_i18n.cpp:5705
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "ASTRO"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5707
+#: kstars_i18n.cpp:5706
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "ORFEUS"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5708
+#: kstars_i18n.cpp:5707
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "COPERNICUS"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5709
+#: kstars_i18n.cpp:5708
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Images"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5710
+#: kstars_i18n.cpp:5709
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Spectra"
 msgstr ""
 
 #. +> trunk5
-#: kstars_i18n.cpp:5711
+#: kstars_i18n.cpp:5710
 #, kde-kuit-format
 msgctxt "Advanced URLs: description or category"
 msgid "Other"

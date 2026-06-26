@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-12 12:39+0200\n"
+"POT-Creation-Date: 2026-06-26 07:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27,204 +27,6 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:57
-#, kde-format
-msgctxt "@action:button"
-msgid "&Reload"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:60
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Use this button to reload the crash information (backtrace). This is useful when you have installed the proper debug symbol packages and you want to obtain a better backtrace."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:67
-#, kde-format
-msgctxt "@action:button"
-msgid "&Install Debug Symbols"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:70
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Use this button to install the missing debug symbols packages."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:77
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Symbol installation is unavailable because the application was updated or uninstalled after it had been started."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:85 qml/DeveloperPage.qml:72
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Use this button to copy the crash information (backtrace) to the clipboard."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:94 qml/DeveloperPage.qml:81
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Use this button to save the crash information (backtrace) to a file. This is useful if you want to take a look at it or to report the bug later."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:115
-#, kde-format
-msgid ""
-"<h2>What is a \"backtrace\" ?</h2>"
-"<p>A backtrace basically describes what was happening inside the application when it crashed, so the developers may track down where the mess started. They may look meaningless to you, but they might actually contain a wealth of useful information.<br />"
-"Backtraces are commonly used during interactive and post-mortem debugging.</p>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:135
-#, kde-format
-msgctxt "@info:status"
-msgid "Loading..."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:138
-#, kde-format
-msgctxt "@info:status"
-msgid "Generating backtrace... (this may take some time)"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:189
-#, kde-format
-msgctxt "@info"
-msgid "Another debugger is currently debugging the same application. The crash information could not be fetched."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:193
-#, kde-format
-msgctxt "@info:status"
-msgid "The crash information could not be fetched."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:196
-#, kde-kuit-format
-msgctxt "@info/rich"
-msgid "Another debugging process is attached to the crashed application. Therefore, the DrKonqi debugger cannot fetch the backtrace. Please close the other debugger and click <interface>Reload</interface>."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:241
-#, kde-format
-msgctxt "@info"
-msgid "The generated crash information is useful"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:244
-#, kde-format
-msgctxt "@info"
-msgid "The generated crash information may be useful"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:247
-#, kde-format
-msgctxt "@info"
-msgid "The generated crash information is probably not useful"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:250
-#, kde-format
-msgctxt "@info"
-msgid "The generated crash information is not useful"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:255
-#, kde-format
-msgctxt "@info"
-msgid "The rating of this crash information is invalid. This is a bug in DrKonqi itself."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:267
-#, kde-kuit-format
-msgctxt "@info/rich"
-msgid "You can click the <interface>Install Debug Symbols</interface> button in order to automatically install the missing debugging information packages. If this method does not work: please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages (<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:285
-#, kde-kuit-format
-msgctxt "@info/rich"
-msgid "Please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages (<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:301
-#, kde-format
-msgctxt "@info:status"
-msgid "The debugger has quit unexpectedly."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:303 backtracewidget.cpp:319
-#, kde-format
-msgctxt "@info:status"
-msgid "The crash information could not be generated."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:307
-#, kde-kuit-format
-msgctxt "@info/rich"
-msgid "You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:316
-#, kde-format
-msgctxt "@info:status"
-msgid "<strong>The debugger application is missing or could not be launched.</strong>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:322
-#, kde-kuit-format
-msgctxt "@info/rich"
-msgid "<strong>You need to first install the debugger application (%1) then click the <interface>Reload</interface> button.</strong>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:378 qml/DeveloperPage.qml:127
-#, kde-format
-msgctxt "@title:window"
-msgid "Error during the installation of debug symbols"
-msgstr ""
-
-#. i18nc here because that'd close the html tag but we need to append an unordered list of paths
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:409 qml/DeveloperPage.qml:265
-#, kde-format
-msgid "The packages containing debug information for the following application and libraries are missing:"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:418
-#, kde-format
-msgctxt "messagebox title"
-msgid "Missing debug information packages"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -563,113 +365,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to restart the crashed application."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:56
-#, kde-format
-msgctxt "@title:tab general information"
-msgid "&General"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:60
-#, kde-format
-msgctxt "@title:tab"
-msgid "&Developer Information"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:95
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:103
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>As the Crash Handler itself has failed, the automatic reporting process is disabled to reduce the risks of failing again.<nl />"
-"<nl />"
-"Please, <link url='%1'>manually report</link> this error to the KDE bug tracking system. Do not forget to include the backtrace from the <interface>Developer Information</interface> tab.</para>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:113
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>The reporting assistant is disabled because the crash handler dialog was started in safe mode.<nl />"
-"You can manually report this bug to %1 (including the backtrace from the <interface>Developer Information</interface> tab.)</para>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:122
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>The reporting assistant is disabled because the crashed application appears to have been updated or uninstalled since it had been started. This prevents accurate crash reporting and can also be the cause of this crash.</para>"
-"<para>After updating it is always a good idea to log out and back in to make sure the update is fully applied and will not cause any side effects.</para>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:131 qml/main.qml:64
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>You can help us improve KDE Software by reporting this error.<nl />"
-"<link url='%1'>Learn more about bug reporting.</link></para>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:138 qml/main.qml:26
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<para>You cannot report this error, because <application>%1</application> does not provide a bug reporting address.</para>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:146
-#, kde-format
-msgctxt "@label"
-msgid "Details:"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:150
-#, kde-kuit-format
-msgctxt "@info Note the time information is divided into date and time parts"
-msgid "<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) Time: %5 %6</para>"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: drkonqiwidgetsdialog.cpp:179
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Close this dialog (you will lose the crash information.)"
-msgstr ""
-
-#. +> stable5
-#: drkonqidialog.cpp:241
-#, kde-format
-msgctxt "@action:button this is the debug menu button label which contains the debugging applications"
-msgid "&Debug"
-msgstr ""
-
-#. +> stable5
-#: drkonqidialog.cpp:243
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Starts a program to debug the crashed application."
-msgstr ""
-
-#. +> stable5
-#: drkonqidialog.cpp:281
-#, kde-format
-msgctxt "@action:inmenu 1 is the debugger name"
-msgid "Debug in %1"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1020,9 +715,21 @@ msgid "Copy"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
+#: qml/DeveloperPage.qml:72
+msgctxt "@info:tooltip"
+msgid "Use this button to copy the crash information (backtrace) to the clipboard."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
 #: qml/DeveloperPage.qml:79
 msgctxt "@action:button"
 msgid "Save"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/DeveloperPage.qml:81
+msgctxt "@info:tooltip"
+msgid "Use this button to save the crash information (backtrace) to a file. This is useful if you want to take a look at it or to report the bug later."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1048,6 +755,12 @@ msgstr ""
 #: qml/DeveloperPage.qml:102 qml/main.qml:114
 msgctxt "@action retry gathering crash data"
 msgid "Retry"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/DeveloperPage.qml:127
+msgctxt "@title:window"
+msgid "Error during the installation of debug symbols"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1106,6 +819,12 @@ msgstr ""
 #: qml/DeveloperPage.qml:241
 msgctxt "@info/rich"
 msgid "The backtrace generation was stopped due to memory pressure. You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
+msgstr ""
+
+#. i18nc here because that'd close the html tag but we need to append an unordered list of paths
+#. +> trunk6 stable6 stable5
+#: qml/DeveloperPage.qml:265
+msgid "The packages containing debug information for the following application and libraries are missing:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1198,6 +917,12 @@ msgctxt "@info:tooltip"
 msgid "Use this button to login to the KDE bug tracking system using the provided e-mail address and password."
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:26
+msgctxt "@info"
+msgid "<para>You cannot report this error, because <application>%1</application> does not provide a bug reporting address.</para>"
+msgstr ""
+
 #. +> trunk6 stable6
 #: qml/main.qml:33
 msgctxt "@info"
@@ -1234,6 +959,14 @@ msgid ""
 "<para>After updating it is always a good idea to log out and back\n"
 "in to make sure the update is fully applied and will not cause\n"
 "any side effects.</para>"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:64
+msgctxt "@info"
+msgid ""
+"<para>You can help us improve KDE Software by reporting this error.<nl />"
+"<link url='%1'>Learn more about bug reporting.</link></para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1819,6 +1552,267 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "bugstest.kde.org password"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:57
+#, kde-format
+msgctxt "@action:button"
+msgid "&Reload"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:60
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to reload the crash information (backtrace). This is useful when you have installed the proper debug symbol packages and you want to obtain a better backtrace."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:67
+#, kde-format
+msgctxt "@action:button"
+msgid "&Install Debug Symbols"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:70
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to install the missing debug symbols packages."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Symbol installation is unavailable because the application was updated or uninstalled after it had been started."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:115
+#, kde-format
+msgid ""
+"<h2>What is a \"backtrace\" ?</h2>"
+"<p>A backtrace basically describes what was happening inside the application when it crashed, so the developers may track down where the mess started. They may look meaningless to you, but they might actually contain a wealth of useful information.<br />"
+"Backtraces are commonly used during interactive and post-mortem debugging.</p>"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:135
+#, kde-format
+msgctxt "@info:status"
+msgid "Loading..."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:138
+#, kde-format
+msgctxt "@info:status"
+msgid "Generating backtrace... (this may take some time)"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:189
+#, kde-format
+msgctxt "@info"
+msgid "Another debugger is currently debugging the same application. The crash information could not be fetched."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:193
+#, kde-format
+msgctxt "@info:status"
+msgid "The crash information could not be fetched."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:196
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid "Another debugging process is attached to the crashed application. Therefore, the DrKonqi debugger cannot fetch the backtrace. Please close the other debugger and click <interface>Reload</interface>."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:241
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information is useful"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:244
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information may be useful"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:247
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information is probably not useful"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:250
+#, kde-format
+msgctxt "@info"
+msgid "The generated crash information is not useful"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:255
+#, kde-format
+msgctxt "@info"
+msgid "The rating of this crash information is invalid. This is a bug in DrKonqi itself."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:267
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid "You can click the <interface>Install Debug Symbols</interface> button in order to automatically install the missing debugging information packages. If this method does not work: please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages (<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:285
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid "Please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages (<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:301
+#, kde-format
+msgctxt "@info:status"
+msgid "The debugger has quit unexpectedly."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:303 backtracewidget.cpp:319
+#, kde-format
+msgctxt "@info:status"
+msgid "The crash information could not be generated."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:307
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid "You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:316
+#, kde-format
+msgctxt "@info:status"
+msgid "<strong>The debugger application is missing or could not be launched.</strong>"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:322
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid "<strong>You need to first install the debugger application (%1) then click the <interface>Reload</interface> button.</strong>"
+msgstr ""
+
+#. +> stable6 stable5
+#: backtracewidget.cpp:418
+#, kde-format
+msgctxt "messagebox title"
+msgid "Missing debug information packages"
+msgstr ""
+
+#. +> stable6 stable5
+#: drkonqiwidgetsdialog.cpp:56
+#, kde-format
+msgctxt "@title:tab general information"
+msgid "&General"
+msgstr ""
+
+#. +> stable6 stable5
+#: drkonqiwidgetsdialog.cpp:60
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Developer Information"
+msgstr ""
+
+#. +> stable6 stable5
+#: drkonqiwidgetsdialog.cpp:95
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
+msgstr ""
+
+#. +> stable6 stable5
+#: drkonqiwidgetsdialog.cpp:103
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>As the Crash Handler itself has failed, the automatic reporting process is disabled to reduce the risks of failing again.<nl />"
+"<nl />"
+"Please, <link url='%1'>manually report</link> this error to the KDE bug tracking system. Do not forget to include the backtrace from the <interface>Developer Information</interface> tab.</para>"
+msgstr ""
+
+#. +> stable6 stable5
+#: drkonqiwidgetsdialog.cpp:113
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The reporting assistant is disabled because the crash handler dialog was started in safe mode.<nl />"
+"You can manually report this bug to %1 (including the backtrace from the <interface>Developer Information</interface> tab.)</para>"
+msgstr ""
+
+#. +> stable6 stable5
+#: drkonqiwidgetsdialog.cpp:122
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The reporting assistant is disabled because the crashed application appears to have been updated or uninstalled since it had been started. This prevents accurate crash reporting and can also be the cause of this crash.</para>"
+"<para>After updating it is always a good idea to log out and back in to make sure the update is fully applied and will not cause any side effects.</para>"
+msgstr ""
+
+#. +> stable6 stable5
+#: drkonqiwidgetsdialog.cpp:146
+#, kde-format
+msgctxt "@label"
+msgid "Details:"
+msgstr ""
+
+#. +> stable6 stable5
+#: drkonqiwidgetsdialog.cpp:150
+#, kde-kuit-format
+msgctxt "@info Note the time information is divided into date and time parts"
+msgid "<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) Time: %5 %6</para>"
+msgstr ""
+
+#. +> stable6 stable5
+#: drkonqiwidgetsdialog.cpp:179
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close this dialog (you will lose the crash information.)"
+msgstr ""
+
+#. +> stable5
+#: drkonqidialog.cpp:241
+#, kde-format
+msgctxt "@action:button this is the debug menu button label which contains the debugging applications"
+msgid "&Debug"
+msgstr ""
+
+#. +> stable5
+#: drkonqidialog.cpp:243
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Starts a program to debug the crashed application."
+msgstr ""
+
+#. +> stable5
+#: drkonqidialog.cpp:281
+#, kde-format
+msgctxt "@action:inmenu 1 is the debugger name"
+msgid "Debug in %1"
 msgstr ""
 
 #. +> stable5
