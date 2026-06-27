@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-26 07:39+0200\n"
+"POT-Creation-Date: 2026-06-27 09:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -394,7 +394,7 @@ msgid "Light"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BoatDelegate.qml:39 app/BoatEditor.qml:108 app/BoatPage.qml:46
+#: app/BoatDelegate.qml:39 app/BoatEditor.qml:108 app/BoatPage.qml:41
 #, kde-format
 msgctxt "default transport name for a boat trip"
 msgid "Ferry"
@@ -450,7 +450,7 @@ msgid "Trip"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BoatEditor.qml:124 app/BoatPage.qml:97
+#: app/BoatEditor.qml:124 app/BoatPage.qml:95
 #, kde-format
 msgctxt "Boat departure"
 msgid "Departure"
@@ -490,7 +490,7 @@ msgid "Terminal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BoatEditor.qml:173 app/BoatPage.qml:137
+#: app/BoatEditor.qml:173 app/BoatPage.qml:135
 #, kde-format
 msgctxt "Boat arrival"
 msgid "Arrival"
@@ -522,59 +522,52 @@ msgid "Boat Ticket"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BoatPage.qml:62 app/BusPage.qml:62 app/FlightPage.qml:69
-#: app/TrainPage.qml:89 app/TransferDelegate.qml:64
+#: app/BoatPage.qml:57 app/BusPage.qml:56 app/FlightPage.qml:63
+#: app/TrainPage.qml:78 app/TransferDelegate.qml:64
 #, kde-format
 msgid "%1 to %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BoatPage.qml:102 app/BusPage.qml:107 app/TrainPage.qml:128
+#: app/BoatPage.qml:100 app/BusPage.qml:104 app/TrainPage.qml:120
 #, kde-format
 msgid "Departure time"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BoatPage.qml:111 app/BoatPage.qml:155
+#: app/BoatPage.qml:109 app/BoatPage.qml:153
 #, kde-format
 msgctxt "Boat terminal"
 msgid "Terminal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BoatPage.qml:125 app/BoatPage.qml:166 app/BusPage.qml:158
-#: app/BusPage.qml:228 app/FlightPage.qml:212 app/FlightPage.qml:266
-#: app/TrainPage.qml:188 app/TrainPage.qml:273
+#: app/BoatPage.qml:123 app/BoatPage.qml:164 app/BusPage.qml:155
+#: app/BusPage.qml:225 app/FlightPage.qml:209 app/FlightPage.qml:263
+#: app/TrainPage.qml:180 app/TrainPage.qml:267
 #, kde-format
 msgid "Additional information"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BoatPage.qml:142 app/BusPage.qml:182 app/TrainPage.qml:216
+#: app/BoatPage.qml:140 app/BusPage.qml:179 app/TrainPage.qml:208
 #, kde-format
 msgid "Arrival time"
 msgstr ""
 
 #. +> trunk6
-#: app/BoatPage.qml:191 app/BusPage.qml:273 app/FlightPage.qml:295
-#: app/JourneyQueryPage.qml:99 app/TrainPage.qml:345
+#: app/BoatPage.qml:189 app/BusPage.qml:270 app/FlightPage.qml:292
+#: app/JourneyQueryPage.qml:99 app/TrainPage.qml:341
 #, kde-format
 msgctxt "purchase a ticket"
 msgid "Book"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BoatPage.qml:197 app/BusPage.qml:279 app/FlightPage.qml:301
-#: app/TrainPage.qml:360
+#: app/BoatPage.qml:195 app/BusPage.qml:276 app/FlightPage.qml:298
+#: app/TrainPage.qml:356
 #, kde-format
 msgid "Alternatives"
-msgstr ""
-
-#. +> trunk6 stable6
-#: app/BoatPage.qml:205 app/BusPage.qml:284 app/JourneySectionPage.qml:27
-#: app/TrainPage.qml:366
-#, kde-format
-msgid "Journey Details"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -835,7 +828,7 @@ msgid "Stop"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BusEditor.qml:326 app/BusEditor.qml:332 app/BusPage.qml:240
+#: app/BusEditor.qml:326 app/BusEditor.qml:332 app/BusPage.qml:237
 #, kde-format
 msgctxt "Bus seat"
 msgid "Seat"
@@ -848,20 +841,20 @@ msgid "Bus Ticket"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BusPage.qml:94
+#: app/BusPage.qml:91
 #, kde-format
 msgctxt "Bus departure"
 msgid "Departure"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BusPage.qml:128 app/TrainPage.qml:157
+#: app/BusPage.qml:125 app/TrainPage.qml:149
 #, kde-format
 msgid "Departure date"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BusPage.qml:138 app/BusPage.qml:208
+#: app/BusPage.qml:135 app/BusPage.qml:205
 #, kde-format
 msgctxt "bus station"
 msgid "Station"
@@ -875,7 +868,7 @@ msgid "Platform"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/BusPage.qml:170
+#: app/BusPage.qml:167
 #, kde-format
 msgctxt "Bus arrival"
 msgid "Arrival"
@@ -1442,8 +1435,8 @@ msgid "Departure"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightEditor.qml:99 app/FlightEditor.qml:168 app/FlightPage.qml:177
-#: app/FlightPage.qml:241
+#: app/FlightEditor.qml:99 app/FlightEditor.qml:168 app/FlightPage.qml:174
+#: app/FlightPage.qml:238
 #, kde-format
 msgid "Airport"
 msgstr ""
@@ -1483,7 +1476,7 @@ msgid "Gate"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightEditor.qml:136 app/FlightPage.qml:122
+#: app/FlightEditor.qml:136 app/FlightPage.qml:119
 #, kde-format
 msgid "Boarding time"
 msgstr ""
@@ -1562,78 +1555,78 @@ msgid "Invalid flight number."
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightEditor.qml:224 app/FlightEditor.qml:231 app/FlightPage.qml:139
+#: app/FlightEditor.qml:224 app/FlightEditor.qml:231 app/FlightPage.qml:136
 #, kde-format
 msgctxt "Flight seat"
 msgid "Seat"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:104
+#: app/FlightPage.qml:101
 #, kde-format
 msgid "Sequence Number:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:113
+#: app/FlightPage.qml:110
 #, kde-format
 msgid "Boarding"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:131
+#: app/FlightPage.qml:128
 #, kde-format
 msgid "Boarding group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:148
+#: app/FlightPage.qml:145
 #, kde-format
 msgid "Airline"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:156
+#: app/FlightPage.qml:153
 #, kde-format
 msgctxt "Flight departure"
 msgid "Departure"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:162
+#: app/FlightPage.qml:159
 #, kde-format
 msgctxt "flight departure"
 msgid "Departure time"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:167
+#: app/FlightPage.qml:164
 #, kde-format
 msgctxt "flight departure"
 msgid "Departure date"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:194 app/FlightPage.qml:258
+#: app/FlightPage.qml:191 app/FlightPage.qml:255
 #, kde-format
 msgid "Terminal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:204
+#: app/FlightPage.qml:201
 #, kde-format
 msgid "Gate"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:224
+#: app/FlightPage.qml:221
 #, kde-format
 msgctxt "Flight arrival"
 msgid "Arrival"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/FlightPage.qml:229
+#: app/FlightPage.qml:226
 #, kde-format
 msgctxt "flight arrival"
 msgid "Arrival time"
@@ -2605,7 +2598,7 @@ msgid "Boats or ferries"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/JourneyPathPage.qml:176 app/JourneySectionPage.qml:278
+#: app/JourneyPathPage.qml:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Map"
@@ -2770,7 +2763,7 @@ msgid "Platform %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/JourneySectionDelegate.qml:253 app/JourneySectionPage.qml:136
+#: app/JourneySectionDelegate.qml:253 app/JourneySectionView.qml:120
 #: app/VehicleLayoutPage.qml:177
 #, kde-format
 msgctxt "@action:button"
@@ -2778,29 +2771,22 @@ msgid "Show More…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/JourneySectionPage.qml:51 app/TimelineDelegateDepartureLayout.qml:82
-#: app/VehicleLayoutPage.qml:79
+#: app/JourneySectionPage.qml:18
 #, kde-format
-msgctxt "Direction of the transport mode"
-msgid "To %1"
+msgid "Journey Details"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/JourneySectionPage.qml:64
+#: app/JourneySectionPage.qml:120 app/LiveStatusPage.qml:378
+#: app/PublicTransportPage.qml:198
 #, kde-format
-msgid "Distance: %1"
+msgid "Journey"
 msgstr ""
 
-#. +> trunk6 stable6
-#: app/JourneySectionPage.qml:74
+#. +> trunk6
+#: app/JourneySectionPage.qml:124 app/PublicTransportPage.qml:203
 #, kde-format
-msgid "Average Speed: %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: app/JourneySectionPage.qml:84
-#, kde-format
-msgid "CO₂: %1"
+msgid "Map"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2828,6 +2814,14 @@ msgstr ""
 #, kde-format
 msgctxt "Generic abbreviation of platform"
 msgid "Pl. %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/JourneySectionView.qml:65 app/TimelineDelegateDepartureLayout.qml:82
+#: app/VehicleLayoutPage.qml:79
+#, kde-format
+msgctxt "Direction of the transport mode"
+msgid "To %1"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2945,12 +2939,6 @@ msgstr ""
 #: app/LiveStatusPage.qml:369
 #, kde-format
 msgid "Position"
-msgstr ""
-
-#. +> trunk6 stable6
-#: app/LiveStatusPage.qml:378
-#, kde-format
-msgid "Journey"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3777,7 +3765,8 @@ msgid "Home Country"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/MyDataPage.qml:131 app/StatisticsPage.qml:16 app/TripGroupPage.qml:680
+#: app/MyDataPage.qml:131 app/StatisticsPage.qml:16
+#: app/StopoverInformationSheet.qml:57 app/TripGroupPage.qml:680
 #, kde-format
 msgid "Statistics"
 msgstr ""
@@ -4162,6 +4151,13 @@ msgstr ""
 #: app/ProgramMembershipPage.qml:155
 #, kde-format
 msgid "Show Pass"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/PublicTransportPage.qml:194 app/TicketEditor.qml:58
+#: app/TicketPage.qml:18 app/TicketPage.qml:92
+#, kde-format
+msgid "Ticket"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4807,15 +4803,27 @@ msgid "Stop Map"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TicketEditor.qml:18
+#: app/StopoverInformationSheet.qml:63
 #, kde-format
-msgid "Edit Ticket"
+msgid "Distance: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TicketEditor.qml:58 app/TicketPage.qml:18 app/TicketPage.qml:92
+#: app/StopoverInformationSheet.qml:74
 #, kde-format
-msgid "Ticket"
+msgid "Average Speed: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/StopoverInformationSheet.qml:84
+#, kde-format
+msgid "CO₂: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/TicketEditor.qml:18
+#, kde-format
+msgid "Edit Ticket"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4972,21 +4980,21 @@ msgid "Platform %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainDelegate.qml:62 app/TrainPage.qml:305
+#: app/TrainDelegate.qml:62 app/TrainPage.qml:301
 #, kde-format
 msgctxt "train coach"
 msgid "Coach: <b>%1</b>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainDelegate.qml:68 app/TrainPage.qml:312
+#: app/TrainDelegate.qml:68 app/TrainPage.qml:308
 #, kde-format
 msgctxt "train seat"
 msgid "Seat: <b>%1</b>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainDelegate.qml:76 app/TrainPage.qml:320
+#: app/TrainDelegate.qml:76 app/TrainPage.qml:316
 #, kde-format
 msgctxt "train class"
 msgid "Class: <b>%1</b>"
@@ -5096,8 +5104,8 @@ msgid "Specifying the departure and arrival location helps Itinerary to find up-
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainEditor.qml:231 app/TrainEditor.qml:336 app/TrainPage.qml:167
-#: app/TrainPage.qml:252
+#: app/TrainEditor.qml:231 app/TrainEditor.qml:336 app/TrainPage.qml:159
+#: app/TrainPage.qml:246
 #, kde-format
 msgctxt "train station"
 msgid "Station"
@@ -5124,7 +5132,7 @@ msgid "Arrival station must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainEditor.qml:364 app/TrainEditor.qml:376 app/TrainPage.qml:296
+#: app/TrainEditor.qml:364 app/TrainEditor.qml:376 app/TrainPage.qml:292
 #, kde-format
 msgctxt "Train seat"
 msgid "Seat"
@@ -5145,13 +5153,13 @@ msgid "Class"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainPage.qml:19
+#: app/TrainPage.qml:21
 #, kde-format
 msgid "Train Ticket"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainPage.qml:122
+#: app/TrainPage.qml:114
 #, kde-format
 msgctxt "Train departure"
 msgid "Departure"
@@ -5165,39 +5173,39 @@ msgid "Platform"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainPage.qml:201
+#: app/TrainPage.qml:193
 #, kde-format
 msgid "Departure Vehicle Layout"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainPage.qml:210
+#: app/TrainPage.qml:202
 #, kde-format
 msgctxt "Train arrival"
 msgid "Arrival"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainPage.qml:286
+#: app/TrainPage.qml:282
 #, kde-format
 msgid "Arrival Vehicle Layout"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainPage.qml:352
+#: app/TrainPage.qml:348
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Träwelling"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainPage.qml:397
+#: app/TrainPage.qml:378
 #, kde-format
 msgid "Added to Träwelling"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/TrainPage.qml:397
+#: app/TrainPage.qml:378
 #, kde-format
 msgid "Failed to add to Träwelling"
 msgstr ""
