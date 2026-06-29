@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drawy\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-26 07:39+0200\n"
+"POT-Creation-Date: 2026-06-29 07:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -149,6 +149,20 @@ msgstr ""
 msgid "Align Items"
 msgstr ""
 
+#. +> trunk6
+#: widgets/command/commandhistory.cpp:72
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Undo: %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/command/commandhistory.cpp:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Redo: %1"
+msgstr ""
+
 #. +> trunk6 stable6
 #: widgets/command/deselectcommand.cpp:48
 #, kde-format
@@ -239,14 +253,14 @@ msgid "%1%"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/components/toolbar.cpp:74
+#: widgets/components/toolbar.cpp:63
 #, kde-format
 msgctxt "@action:button"
 msgid "Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/components/toolbuttonplugin.cpp:64
+#: widgets/components/toolbuttonselectplugin.cpp:65
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "More Tools"
