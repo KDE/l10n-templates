@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-14 15:33+0200\n"
+"POT-Creation-Date: 2026-06-30 07:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -120,7 +120,7 @@ msgid "Scrolling"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:94
+#: ui/main.qml:92
 #, kde-format
 msgctxt "@title:group prefix radiobutton group"
 msgid "Clicking in scrollbar track:"
@@ -133,7 +133,7 @@ msgid "Clicking in scrollbar track:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:95
+#: ui/main.qml:93
 #, kde-format
 msgctxt "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls to the clicked location'"
 msgid "Scrolls to the clicked location"
@@ -146,18 +146,25 @@ msgctxt "Animation speed"
 msgid "Slow"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:109
-#, kde-format
-msgctxt "@info:usagetip"
-msgid "Middle-click to scroll to clicked location"
-msgstr ""
-
 #. +> stable5
 #: package/contents/ui/main.qml:109
 #, kde-format
 msgctxt "Animation speed"
 msgid "Instant"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls one page up or down'"
+msgid "Scrolls one page up or down"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:112
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Middle-click to scroll to clicked location"
 msgstr ""
 
 #. +> stable5
@@ -166,50 +173,43 @@ msgstr ""
 msgid "Middle-click to scroll to clicked location"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:112
-#, kde-format
-msgctxt "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls one page up or down'"
-msgid "Scrolls one page up or down"
-msgstr ""
-
 #. +> trunk6 stable6
-#: ui/main.qml:130
+#: ui/main.qml:129
 #, kde-format
 msgctxt "@option:check"
 msgid "Prefer smooth scrolling"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:141
+#: ui/main.qml:140
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This setting enables or disables animated transitions when scrolling with a mouse wheel or the keyboard. Some applications may not honor this setting because they either do not support smooth scrolling, or have their own setting for enabling and disabling it."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:147
+#: ui/main.qml:146
 #, kde-format
 msgctxt "@title:group"
 msgid "Clicking"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:150
+#: ui/main.qml:149
 #, kde-format
 msgctxt "part of a sentence: 'Clicking files or folders [opens them/selects them]'"
 msgid "Clicking files or folders:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:154
+#: ui/main.qml:153
 #, kde-format
 msgctxt "part of a sentence: 'Clicking files or folders selects them'"
 msgid "Selects them"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:155
+#: ui/main.qml:154
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Open by double-clicking instead"
@@ -222,14 +222,14 @@ msgid "Open by double-clicking instead"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:172
+#: ui/main.qml:171
 #, kde-format
 msgctxt "part of a sentence: 'Clicking files or folders opens them'"
 msgid "Opens them"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:173
+#: ui/main.qml:172
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Select by clicking on item's selection marker"
@@ -324,56 +324,56 @@ msgid "Drag and Drop"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:311
+#: ui/main.qml:309
 #, kde-format
 msgctxt "@title:group prefix radiobutton group"
 msgid "When dragging files or folders:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:315
+#: ui/main.qml:313
 #, kde-format
 msgctxt "@option:radio When dragging..."
 msgid "Always ask what to do"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:316
+#: ui/main.qml:314
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Hold <shortcut>Shift</shortcut> to move, <shortcut>Ctrl</shortcut> to copy, and <shortcut>Shift+Ctrl</shortcut> to create a symlink. Otherwise show a dialog."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:328
+#: ui/main.qml:327
 #, kde-format
 msgctxt "@option:radio When dragging…"
 msgid "Move if on the same device"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:329
+#: ui/main.qml:328
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Hold <shortcut>Shift</shortcut> when dropping to show other options."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:339
+#: ui/main.qml:338
 #, kde-format
 msgctxt "@title:group"
 msgid "Touch"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:344
+#: ui/main.qml:341
 #, kde-format
 msgctxt "@title:group prefix radiobutton group"
 msgid "Enable Tablet Mode:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:347
+#: ui/main.qml:344
 #, kde-format
 msgctxt "As in: 'Tablet Mode is automatically enabled as needed'"
 msgid "Automatically enable as needed"
@@ -387,7 +387,7 @@ msgid "Automatically enable as needed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:347
+#: ui/main.qml:344
 #, kde-format
 msgctxt "As in: 'Tablet Mode is never enabled'"
 msgid "Never enabled"
@@ -401,7 +401,7 @@ msgid "Never enabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:365
+#: ui/main.qml:363
 #, kde-format
 msgctxt "@info:whatsthis contextualhelpbutton tooltip"
 msgid "Tablet Mode will be automatically enabled whenever the system detects a touchscreen but no mouse or touchpad. For example: when a transformable laptop's keyboard is flipped around or detached."
@@ -414,7 +414,7 @@ msgid "Touch Mode will be automatically activated whenever the system detects a 
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:371
+#: ui/main.qml:369
 #, kde-format
 msgctxt "As in: 'Tablet Mode is always enabled'"
 msgid "Always enabled"
@@ -428,14 +428,14 @@ msgid "Always enabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:393
+#: ui/main.qml:391
 #, kde-format
 msgctxt "As in: 'Tablet Mode is never enabled'"
 msgid "Disabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:394
+#: ui/main.qml:392
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "In Tablet Mode, the virtual keyboard will appear when needed."

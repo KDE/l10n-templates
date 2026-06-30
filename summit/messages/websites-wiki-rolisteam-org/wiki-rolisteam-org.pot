@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-wiki-rolisteam-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-09 10:13+0100\n"
+"POT-Creation-Date: 2026-06-30 07:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 #. +> trunk5
 #: content/01_overview.md:22 content/11_gmtoolbox.md:63
 #: content/19_sharedNotes.md:15 content/20_webpage.md:23
-#: content/21_mindmap.md:16 content/34_dice3d.md:11
+#: content/21_mindmap.md:18 content/34_dice3d.md:13
 msgid "Features"
 msgstr ""
 
@@ -369,8 +369,8 @@ msgstr ""
 
 #. +> trunk5
 #: content/01_overview.md:104 content/06_manual_players.md:31
-#: content/06_manual_players.md:38 content/07_antagonist.md:48
-#: content/07_antagonist.md:84 content/08_connected_players.md:46
+#: content/06_manual_players.md:38 content/07_antagonist.md:50
+#: content/07_antagonist.md:86 content/08_connected_players.md:46
 msgid "Color"
 msgstr ""
 
@@ -483,7 +483,7 @@ msgid "Configuration file"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:43 content/03_firststeps.md:53
+#: content/02_1_server.md:43 content/03_firststeps.md:54
 #: content/06_manual_players.md:26
 msgid "Password"
 msgstr ""
@@ -529,7 +529,7 @@ msgid "**Warning** : be sure, you run the server with Qt5.9 or higher. **Sha3_51
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:64 content/03_firststeps.md:52
+#: content/02_1_server.md:64 content/03_firststeps.md:53
 #: content/06_manual_players.md:25
 msgid "Port"
 msgstr ""
@@ -747,62 +747,67 @@ msgstr ""
 
 #. +> trunk5
 #: content/02_1_server.md:166
+msgid "**Warning**: If you are living in a country with Daylight saving time (or any kind of time change). Be sure, your session is bigger than the change. Otherwise, it may cause issue in the calculation the day the time is changed."
+msgstr ""
+
+#. +> trunk5
+#: content/02_1_server.md:169
 msgid "IpBan"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:168
+#: content/02_1_server.md:171
 msgid "Define a list of banned IP addresses."
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:170
+#: content/02_1_server.md:173
 msgid "Examples: A list with 3 addresses"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:172
+#: content/02_1_server.md:175
 msgid "80.80.80.80,127.9.9.1,10.10.10.10"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:175
+#: content/02_1_server.md:178
 msgid "IpMode"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:177
+#: content/02_1_server.md:180
 msgid "ipv4 or ipv6 or both."
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:179
+#: content/02_1_server.md:182
 msgid "It is not used yet."
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:181
+#: content/02_1_server.md:184
 msgid "MaxMemorySize"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:183
+#: content/02_1_server.md:186
 msgid "Set the value of the maximum size the server should store. When the limit is reach, all channels drop their data."
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:186 content/14_music.md:69
+#: content/02_1_server.md:189 content/14_music.md:69
 #: content/19_sharedNotes.md:47
 msgid "Example:"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:192
+#: content/02_1_server.md:195
 msgid "Example of working .conf file :"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:194
+#: content/02_1_server.md:197
 msgid ""
 "<pre>\n"
 "AdminPassword=tnjOmGIvYntbNcoej2VvG9M1RdJCtZ8BWjHek4r6OvvmhThbjjzJ/zfYwq+G7r/TGe7WWr20vkGBzULuTzcPYQ==\n"
@@ -825,27 +830,27 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:212
+#: content/02_1_server.md:215
 msgid "This will use 0000 as a password, it's recommended you create your own with the password creation utility available in the **Rolisteam** client."
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:216
+#: content/02_1_server.md:219
 msgid "Deploy on SystemD"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:218
+#: content/02_1_server.md:221
 msgid "Let's create our service file"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:224
+#: content/02_1_server.md:227
 msgid "Then copy and paste this in roliserver.service:"
 msgstr ""
 
 #. +> trunk5
-#: content/02_1_server.md:242
+#: content/02_1_server.md:245
 msgid "Then enable, and start the service:"
 msgstr ""
 
@@ -870,11 +875,11 @@ msgid "Software"
 msgstr ""
 
 #. +> trunk5
-#: content/02_install.md:11 content/03_firststeps.md:47
-#: content/05_VectorialMap.md:199 content/05_VectorialMap.md:222
-#: content/06_charactersheet.md:93 content/07_antagonist.md:71
+#: content/02_install.md:11 content/03_firststeps.md:48
+#: content/05_VectorialMap.md:205 content/05_VectorialMap.md:229
+#: content/06_charactersheet.md:95 content/07_antagonist.md:73
 #: content/10_resources.md:27 content/12_images.md:64 content/14_music.md:43
-#: content/21_mindmap.md:136 content/26_build_from_source.md:46
+#: content/21_mindmap.md:138 content/26_build_from_source.md:49
 msgid "Description"
 msgstr ""
 
@@ -1010,11 +1015,26 @@ msgstr ""
 
 #. +> trunk5
 #: content/02_install.md:55
+msgid "Running into Issue"
+msgstr ""
+
+#. +> trunk5
+#: content/02_install.md:58
+msgid "`xattr -d -r com.apple.quarantine /Applications/rolisteam.app`"
+msgstr ""
+
+#. +> trunk5
+#: content/02_install.md:60
+msgid "https://discuss.kde.org/t/kmymoney-arm64-dmg-damaged/27626"
+msgstr ""
+
+#. +> trunk5
+#: content/02_install.md:62
 msgid "GNU/Linux"
 msgstr ""
 
 #. +> trunk5
-#: content/02_install.md:57
+#: content/02_install.md:64
 msgid ""
 "Distribution may provide **Rolisteam** as package.<br />"
 "Check if the rolisteam package is up-to-date.<br />"
@@ -1022,22 +1042,22 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/02_install.md:61
+#: content/02_install.md:68
 msgid "on Ubuntu"
 msgstr ""
 
 #. +> trunk5
-#: content/02_install.md:63
+#: content/02_install.md:70
 msgid "Run these commands:"
 msgstr ""
 
 #. +> trunk5
-#: content/02_install.md:70
+#: content/02_install.md:77
 msgid "Compilation"
 msgstr ""
 
 #. +> trunk5
-#: content/02_install.md:72
+#: content/02_install.md:79
 msgid "The last way, to get rolisteam is to compile it. [compilation](29_compileLinux.md)"
 msgstr ""
 
@@ -1057,556 +1077,561 @@ msgid "[Let's get started](http://www.rolisteam.org/tutorial01.html)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:18
+#: content/03_firststeps.md:17
+msgid "[Video on YouTube](https://youtu.be/BJ0_8XG9NQc)"
+msgstr ""
+
+#. +> trunk5
+#: content/03_firststeps.md:19
 msgid "The playground"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:20
+#: content/03_firststeps.md:21
 msgid "To play together with **Rolisteam**. All participants must join the same virtual place. You can either host the game or join a game. They also need to define their role in the game: GM or Player. When creating your profile, you must select your connection mode."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:25
+#: content/03_firststeps.md:26
 msgid "Role/connection"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:25 content/03_firststeps.md:47
+#: content/03_firststeps.md:26 content/03_firststeps.md:48
 msgid "Hosting"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:25 content/03_firststeps.md:47
+#: content/03_firststeps.md:26 content/03_firststeps.md:48
 msgid "Joining"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:27 content/03_firststeps.md:47
+#: content/03_firststeps.md:28 content/03_firststeps.md:48
 msgid "Game Master"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:27 content/03_firststeps.md:28
-#: content/03_firststeps.md:50 content/03_firststeps.md:51
-#: content/03_firststeps.md:52 content/03_firststeps.md:53
-#: content/03_firststeps.md:55 content/03_firststeps.md:56
-#: content/03_firststeps.md:57 content/03_firststeps.md:58
-#: content/03_firststeps.md:59 content/03_firststeps.md:60
-#: content/03_firststeps.md:61 content/03_firststeps.md:62
-#: content/03_firststeps.md:63 content/03_firststeps.md:64
-#: content/03_firststeps.md:65 content/03_firststeps.md:66
-#: content/03_firststeps.md:67 content/03_firststeps.md:68
+#: content/03_firststeps.md:28 content/03_firststeps.md:29
+#: content/03_firststeps.md:51 content/03_firststeps.md:52
+#: content/03_firststeps.md:53 content/03_firststeps.md:54
+#: content/03_firststeps.md:56 content/03_firststeps.md:57
+#: content/03_firststeps.md:58 content/03_firststeps.md:59
+#: content/03_firststeps.md:60 content/03_firststeps.md:61
+#: content/03_firststeps.md:62 content/03_firststeps.md:63
+#: content/03_firststeps.md:64 content/03_firststeps.md:65
+#: content/03_firststeps.md:66 content/03_firststeps.md:67
+#: content/03_firststeps.md:68 content/03_firststeps.md:69
 msgid "Yes"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:28 content/03_firststeps.md:47
+#: content/03_firststeps.md:29 content/03_firststeps.md:48
 msgid "Player"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:30
+#: content/03_firststeps.md:31
 msgid "All possible configurations"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:32
+#: content/03_firststeps.md:33
 msgid "Game Master and Hosting"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:33
+#: content/03_firststeps.md:34
 msgid "Game Master and Joining"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:34
+#: content/03_firststeps.md:35
 msgid "Player and Hosting"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:35
+#: content/03_firststeps.md:36
 msgid "Player and Joining"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:37
+#: content/03_firststeps.md:38
 msgid "Let set up a profile and see in details what should be defined in order to cover all possibilities."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:39
+#: content/03_firststeps.md:40
 msgid "In any case, you must define the following fields: (from top to bottom)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:42
+#: content/03_firststeps.md:43
 msgid "Add your profile"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:44
+#: content/03_firststeps.md:45
 msgid "![images](/images/profiles/connection_dialog.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:47 content/06_charactersheet.md:93
+#: content/03_firststeps.md:48 content/06_charactersheet.md:95
 msgid "id"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:47
+#: content/03_firststeps.md:48
 msgid "Field"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:49
+#: content/03_firststeps.md:50
 msgid "0"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:49
+#: content/03_firststeps.md:50
 msgid "Profile list"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:49
+#: content/03_firststeps.md:50
 msgid "list of all profiles"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:50 content/05_VectorialMap.md:73
-#: content/06_charactersheet.md:95 content/06_charactersheet.md:371
-#: content/06_charactersheet.md:407
+#: content/03_firststeps.md:51 content/05_VectorialMap.md:77
+#: content/06_charactersheet.md:97 content/06_charactersheet.md:373
+#: content/06_charactersheet.md:409
 msgid "1"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:50
+#: content/03_firststeps.md:51
 msgid "Profile's name"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:50
+#: content/03_firststeps.md:51
 msgid "A name to identify this game. E.g Monday game, L5R"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:51 content/05_VectorialMap.md:74
-#: content/06_charactersheet.md:96 content/06_charactersheet.md:420
+#: content/03_firststeps.md:52 content/05_VectorialMap.md:78
+#: content/06_charactersheet.md:98 content/06_charactersheet.md:422
 msgid "2"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:51
+#: content/03_firststeps.md:52
 msgid "Hostname"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:51
+#: content/03_firststeps.md:52
 msgid "Address IP or hostname to join the server: 80.80.90.70 or rolisteam.blog.com"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:51 content/03_firststeps.md:58
-#: content/03_firststeps.md:59 content/03_firststeps.md:64
-#: content/03_firststeps.md:65 content/03_firststeps.md:66
-#: content/03_firststeps.md:67 content/03_firststeps.md:68
+#: content/03_firststeps.md:52 content/03_firststeps.md:59
+#: content/03_firststeps.md:60 content/03_firststeps.md:65
+#: content/03_firststeps.md:66 content/03_firststeps.md:67
+#: content/03_firststeps.md:68 content/03_firststeps.md:69
 msgid "No"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:52 content/05_VectorialMap.md:75
-#: content/06_charactersheet.md:97 content/06_charactersheet.md:358
-#: content/06_charactersheet.md:361 content/06_charactersheet.md:374
-#: content/06_charactersheet.md:401 content/06_charactersheet.md:404
+#: content/03_firststeps.md:53 content/05_VectorialMap.md:79
+#: content/06_charactersheet.md:99 content/06_charactersheet.md:360
+#: content/06_charactersheet.md:363 content/06_charactersheet.md:376
+#: content/06_charactersheet.md:403 content/06_charactersheet.md:406
 msgid "3"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:52
+#: content/03_firststeps.md:53
 msgid "Define the connection port default value: 6660"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:53 content/05_VectorialMap.md:76
-#: content/06_charactersheet.md:98 content/06_charactersheet.md:384
-#: content/06_charactersheet.md:414 content/06_charactersheet.md:417
+#: content/03_firststeps.md:54 content/05_VectorialMap.md:80
+#: content/06_charactersheet.md:100 content/06_charactersheet.md:386
+#: content/06_charactersheet.md:416 content/06_charactersheet.md:419
 msgid "4"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:53
+#: content/03_firststeps.md:54
 msgid "Set the password of the game. To set up a game without password, you can leave this part empty."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:53
+#: content/03_firststeps.md:54
 msgid "Yes (defining it)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:53
+#: content/03_firststeps.md:54
 msgid "Yes (wrong password will prevent connection)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:54 content/05_VectorialMap.md:77
-#: content/06_charactersheet.md:99
+#: content/03_firststeps.md:55 content/05_VectorialMap.md:81
+#: content/06_charactersheet.md:101
 msgid "5"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:54 content/03_firststeps.md:101
+#: content/03_firststeps.md:55 content/03_firststeps.md:102
 msgid "Host the game"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:54
+#: content/03_firststeps.md:55
 msgid "Must be checked to host the game"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:54
+#: content/03_firststeps.md:55
 msgid "Checked"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:54
+#: content/03_firststeps.md:55
 msgid "Unchecked"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:55 content/05_VectorialMap.md:78
-#: content/06_charactersheet.md:100 content/06_charactersheet.md:430
+#: content/03_firststeps.md:56 content/05_VectorialMap.md:82
+#: content/06_charactersheet.md:102 content/06_charactersheet.md:432
 msgid "6"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:55
+#: content/03_firststeps.md:56
 msgid "Player's name"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:55
+#: content/03_firststeps.md:56
 msgid ""
 "Your name or nickname<br/>"
 "(that can be changed in game)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:56 content/06_charactersheet.md:101
+#: content/03_firststeps.md:57 content/06_charactersheet.md:103
 msgid "7"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:56
+#: content/03_firststeps.md:57
 msgid "Player's Color"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:56 content/03_firststeps.md:61
+#: content/03_firststeps.md:57 content/03_firststeps.md:62
 msgid ""
 "Select a color that reflect you<br/>"
 "(that can be changed in game)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:57 content/06_charactersheet.md:102
-#: content/06_charactersheet.md:364
+#: content/03_firststeps.md:58 content/06_charactersheet.md:104
+#: content/06_charactersheet.md:366
 msgid "8"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:57
+#: content/03_firststeps.md:58
 msgid "Player's Image"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:57 content/03_firststeps.md:62
+#: content/03_firststeps.md:58 content/03_firststeps.md:63
 msgid ""
 "Click on the gray part, you should be able to select an image inside the image dialog.<br/>"
 "(that can be changed in game)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:58 content/06_charactersheet.md:103
+#: content/03_firststeps.md:59 content/06_charactersheet.md:105
 msgid "9"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:58
+#: content/03_firststeps.md:59
 msgid "I'm the game master"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:58
+#: content/03_firststeps.md:59
 msgid "Define your profile as Game Master"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:59 content/06_charactersheet.md:104
-#: content/06_charactersheet.md:381 content/06_charactersheet.md:427
+#: content/03_firststeps.md:60 content/06_charactersheet.md:106
+#: content/06_charactersheet.md:383 content/06_charactersheet.md:429
 msgid "10"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:59
+#: content/03_firststeps.md:60
 msgid "Campaign Path"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:59
+#: content/03_firststeps.md:60
 msgid "The path to the directory where the campaign is stored."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:60 content/06_charactersheet.md:105
+#: content/03_firststeps.md:61 content/06_charactersheet.md:107
 msgid "11"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:60
+#: content/03_firststeps.md:61
 msgid "Character's name"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:60
+#: content/03_firststeps.md:61
 msgid ""
 "Your character's name<br/>"
 "(that can be changed in game)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:61 content/06_charactersheet.md:106
+#: content/03_firststeps.md:62 content/06_charactersheet.md:108
 msgid "12"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:61
+#: content/03_firststeps.md:62
 msgid "Character's Color"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:62 content/06_charactersheet.md:107
+#: content/03_firststeps.md:63 content/06_charactersheet.md:109
 msgid "13"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:62
+#: content/03_firststeps.md:63
 msgid "Character's Image"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:63 content/06_charactersheet.md:108
+#: content/03_firststeps.md:64 content/06_charactersheet.md:110
 msgid "14"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:63
+#: content/03_firststeps.md:64
 msgid "Add profile"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:63
+#: content/03_firststeps.md:64
 msgid "By default, Rolisteam has one profile, but you can add more"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:64 content/06_charactersheet.md:109
+#: content/03_firststeps.md:65 content/06_charactersheet.md:111
 msgid "15"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:64
+#: content/03_firststeps.md:65
 msgid "Clone profile"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:64
+#: content/03_firststeps.md:65
 msgid "Select a profile and make a copy of it. All data will be reused."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:65 content/06_charactersheet.md:110
+#: content/03_firststeps.md:66 content/06_charactersheet.md:112
 msgid "16"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:65
+#: content/03_firststeps.md:66
 msgid "Remove profile"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:65
+#: content/03_firststeps.md:66
 msgid "Remove the selected profile"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:66 content/06_charactersheet.md:111
+#: content/03_firststeps.md:67 content/06_charactersheet.md:113
 msgid "17"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:66
+#: content/03_firststeps.md:67
 msgid "Save profiles"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:66
+#: content/03_firststeps.md:67
 msgid "If you are doing many operations, don't forget to save them all often"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:67 content/06_charactersheet.md:112
+#: content/03_firststeps.md:68 content/06_charactersheet.md:114
 msgid "18"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:67
+#: content/03_firststeps.md:68
 msgid "Connect"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:67
+#: content/03_firststeps.md:68
 msgid "When your profile is ready, this button can be clicked to start the connection and the game."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:68 content/06_charactersheet.md:113
+#: content/03_firststeps.md:69 content/06_charactersheet.md:115
 msgid "19"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:68
+#: content/03_firststeps.md:69
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:68
+#: content/03_firststeps.md:69
 msgid "Quit the application. Changes won't be saved."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:71
+#: content/03_firststeps.md:72
 msgid "A player must have at least one character. You can have many characters."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:73
+#: content/03_firststeps.md:74
 msgid "Make sure the appropriate checkbox is checked."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:75
+#: content/03_firststeps.md:76
 msgid "Save and Connect"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:77
+#: content/03_firststeps.md:78
 msgid "When your profile is fully defined, the `connect` button should be enabled. You can always click on the `Save profile` button and then try to connect."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:79
+#: content/03_firststeps.md:80
 msgid "If you are hosting the game, the **Rolisteam** will open directly. Otherwise, **Rolisteam** will try to reach the server, if rolisteam appears, you are connected."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:82
+#: content/03_firststeps.md:83
 msgid "Test internally before the real game"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:84
+#: content/03_firststeps.md:85
 msgid "It is strongly recommended to test **Rolisteam** before actually host a real game. To do that, start rolisteam twice, first as hosting and GM, then as Client/Player. In this case, the address field must be **localhost**."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:88
+#: content/03_firststeps.md:89
 msgid "Now, you can play around with **Rolisteam** and see how it will appears to your player's screens."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:90 content/26_build_from_source.md:34
+#: content/03_firststeps.md:91 content/26_build_from_source.md:34
 msgid "Configuration"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:92
+#: content/03_firststeps.md:93
 msgid "**Rolisteam** is a cross-platform software. You can use it on all 3 main systems: Windows, GNU/Linux and MacOs. It is written in C++ with the [framework Qt](https://www.qt.io). Rolisteam is virtual table to play games together with remote people. One of the players must provide the table (be the server). All the others must join his table (server)."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:97
+#: content/03_firststeps.md:98
 msgid "As you may know, TTRPG may require a game master. In rolisteam, this role has more power and responsibilities."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:99
+#: content/03_firststeps.md:100
 msgid "Troubleshooting"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:103
+#: content/03_firststeps.md:104
 msgid "Game can be hosted with rolisteam on any computer. Please follow these steps."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:106
+#: content/03_firststeps.md:107
 msgid "Join online server"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:108
+#: content/03_firststeps.md:109
 msgid "Player/RPG communities can now install rolisteam server on remote server. Just like any video game server. Please go to the [server list](http://www.rolisteam.org/serverList.html) to know online servers. Not all of them are listed there. [Contact us](26_contactUs.md) to add your server to the list."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:112
+#: content/03_firststeps.md:113
 msgid "If you want to install rolisteam server for your community, find [instruction here](02_1_server.md)"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:115
+#: content/03_firststeps.md:116
 msgid "Connectivity test"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:117
+#: content/03_firststeps.md:118
 msgid "TODO : to be tested"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:119
+#: content/03_firststeps.md:120
 msgid "We strongly recommend to test the connection before your first game. So we developed a [connection test](http://www.rolisteam.org/php/test_ip.php) to know if your network let incoming connections reach **Rolisteam**."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:122
+#: content/03_firststeps.md:123
 msgid "Set the ip address and port on the webpage and click on `Test`."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:124
+#: content/03_firststeps.md:125
 msgid ""
 "The response should be **Good News ! Connection succeed!**.<br />"
 "Any other response means it does not work."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:127
+#: content/03_firststeps.md:128
 msgid "My player can't join!"
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:129
+#: content/03_firststeps.md:130
 msgid "If your players can't reach your server. It means you need to configure your network device to forward the port to your computer."
 msgstr ""
 
 #. +> trunk5
-#: content/03_firststeps.md:131
+#: content/03_firststeps.md:132
 msgid "The process to do so, it is very different from one ISP to another. Please, search online for \"Port forwarding + your ISP name\"."
 msgstr ""
 
@@ -1671,7 +1696,7 @@ msgid "When clicking on **Save Campaign**, rolisteam saves all open documents (m
 msgstr ""
 
 #. +> trunk5
-#: content/04_campaign.md:25 content/21_mindmap.md:151
+#: content/04_campaign.md:25 content/21_mindmap.md:153
 msgid "Settings"
 msgstr ""
 
@@ -1761,7 +1786,7 @@ msgid "![image](/images/Campaign_Properties_002.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/04_campaign.md:61 content/07_antagonist.md:82
+#: content/04_campaign.md:61 content/07_antagonist.md:84
 msgid "Properties"
 msgstr ""
 
@@ -1855,184 +1880,194 @@ msgid "Campaign"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:10
-msgid "One of the biggest new features is the vectorial map. The main difference between this new plan and the older maps is that new plans allow to add items and modify them. For example, you can add a rectangle and change its size, rotate it or move it. All items can manage these kinds of transformation."
+#: content/05_VectorialMap.md:9
+msgid "[Video on YouTube](https://youtu.be/RtnZxa5HjAQ)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:16
+#: content/05_VectorialMap.md:11
+msgid "One of the biggest new features is the battle map. The main difference between this new plan and the older maps is that new plans allow to add items and modify them. For example, you can add a rectangle and change its size, rotate it or move it. All items can manage these kinds of transformation."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:17
 msgid "![toolbox vmap](/images/vmap/vmap_001.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:18
+#: content/05_VectorialMap.md:21
 msgid "List of Features"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:20
-msgid "Z Positioning : each item is added above the previous ones."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:21
-msgid "Infinite Plan Size"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:22
-msgid "Zoom in"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:23 content/12_images.md:69
-msgid "Zoom out"
+#: content/05_VectorialMap.md:23
+msgid "Light and dynamic shadow"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:24
-msgid "Move the camera on the plan"
+msgid "Z Positioning : each item is added above the previous ones."
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:25
-msgid "Amend item on map (Add, upsize, downsize, move, rotate, delete)"
+msgid "Infinite Plan Size"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:26
-msgid "Management of Character Token"
+msgid "Zoom in"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:27
-msgid "These token can show a picture of character."
+#: content/05_VectorialMap.md:27 content/12_images.md:69
+msgid "Zoom out"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:28
-msgid "Add images"
+msgid "Move the camera on the plan"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:29
-msgid "These images can be animated (gif…)"
+msgid "Amend item on map (Add, upsize, downsize, move, rotate, delete)"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:30
-msgid "Management of collision"
+msgid "Management of Character Token"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:31
-msgid "Item can be placed into set (ground, object or character)"
+msgid "These token can show a picture of character."
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:32
-msgid "Opacity"
+msgid "Add images"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:33
-msgid "others…"
+msgid "These images can be animated (gif…)"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:34
+msgid "Management of collision"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:35
+msgid "Item can be placed into set (ground, object or character)"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:36
+msgid "Opacity"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:37
+msgid "others…"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:40
 msgid "New Map"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:38
-msgid "You just have to go on **file** menu then to go in the **new** submenu then **Vectorial Map** A dialog opens:"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:41
-msgid "![new vmap](/images/tuto/13_newVMap_en.jpg)"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:43
-msgid "The title appears at the top of the map frame. It makes easier to find it in your workspace."
+#: content/05_VectorialMap.md:42
+msgid "You just have to go on **file** menu then to go in the **new** submenu then **Map** A dialog opens:"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:45
-msgid "The background color is used as global color of the map (default: white)."
+msgid "![new vmap](/images/tuto/13_newVMap_en.jpg)"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:47
+msgid "The title appears at the top of the map frame. It makes easier to find it in your workspace."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:49
+msgid "The background color is used as global color of the map (default: white)."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:51
 msgid "The visibility defines how your players see the map. Hidden means they see nothing. Fog Of War hides all map's elements (you can amand the fog to make visible some elements). Visible, all map items can be seen by the players. You can change the visibility at any moment in the game)."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:52
+#: content/05_VectorialMap.md:56
 msgid "Permission Mode describes which actions players can do. You can change it at any moment."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:54
+#: content/05_VectorialMap.md:58
 msgid "Grid scheme defines the shape of the grid: no scheme (no grid), square grid, hexagonal grid."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:56
+#: content/05_VectorialMap.md:60
 msgid "You can change the Grid color."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:57
+#: content/05_VectorialMap.md:61
 msgid "The size set how many pixels one single grid scheme is."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:58
+#: content/05_VectorialMap.md:62
 msgid "The scale defines in the unit of your choice the size of one grid scheme."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:63
+#: content/05_VectorialMap.md:67
 msgid "Edit Map"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:65
+#: content/05_VectorialMap.md:69
 msgid "ToolBar"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:68
+#: content/05_VectorialMap.md:72
 msgid "![toolbox vmap](/images/vmap/toolbar.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:71
+#: content/05_VectorialMap.md:75
 msgid "Zone #"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:71 content/06_charactersheet.md:93
+#: content/05_VectorialMap.md:75 content/06_charactersheet.md:95
 #: content/06_manual_players.md:37 content/08_connected_players.md:35
-#: content/10_resources.md:27 content/21_mindmap.md:155
+#: content/10_resources.md:27 content/21_mindmap.md:157
 msgid "Name"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:71
+#: content/05_VectorialMap.md:75
 msgid "description"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:73
+#: content/05_VectorialMap.md:77
 msgid "Background and Grid"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:73
+#: content/05_VectorialMap.md:77
 msgid ""
 "<div style=\"text-align: left\">1. Set/Change the background color<br/>"
 "2. Show/Hide the grid<br/>"
@@ -2044,12 +2079,12 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:74
+#: content/05_VectorialMap.md:78
 msgid "Permission Mode"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:74
+#: content/05_VectorialMap.md:78
 msgid ""
 "<div style=\"text-align: left\">There are 3 permissions mode:<br/>"
 "**Red** (selected): GM only <br/>"
@@ -2058,12 +2093,12 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:75
+#: content/05_VectorialMap.md:79
 msgid "Visibility Mode"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:75
+#: content/05_VectorialMap.md:79
 msgid ""
 "<div style=\"text-align: left\">There are 3 modes:<br/>"
 "1. **Hidden** (selected): The map appears normally for **GM** but fully blank on the players side.<br/>"
@@ -2072,12 +2107,12 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:76
+#: content/05_VectorialMap.md:80
 msgid "Current editing Layer"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:76
+#: content/05_VectorialMap.md:80
 msgid ""
 "<div style=\"text-align: left\">The map manages a current layer. <br/>"
 "It means you can only change visual element belonging to this peculiar layer. There are 4 layers:<br/>"
@@ -2091,24 +2126,24 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:77
+#: content/05_VectorialMap.md:81
 msgid "Visibility options"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:77
+#: content/05_VectorialMap.md:81
 msgid ""
 "<div style=\"text-align: left\">1. Activate Character vision in **Fog Of War**<br/>"
 " 2. Show all transparent Items</div>"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:78
+#: content/05_VectorialMap.md:82
 msgid "Map options"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:78
+#: content/05_VectorialMap.md:82
 msgid ""
 "<div style=\"text-align: left\">1. Show/Hide text under **PC tokens**<br/>"
 " 2. Show/Hide text under **NPC tokens**<br/>"
@@ -2120,867 +2155,882 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:80
+#: content/05_VectorialMap.md:84
 msgid "ToolBox"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:82 content/05_VectorialMap.md:130
-#: content/06_charactersheet.md:84
+#: content/05_VectorialMap.md:86 content/05_VectorialMap.md:134
+#: content/06_charactersheet.md:86
 msgid "<div style=\"display: flex;\">\n"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:84 content/05_VectorialMap.md:132
+#: content/05_VectorialMap.md:88 content/05_VectorialMap.md:136
 msgid "<div style=\"width: 500px;\">\n"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:86
+#: content/05_VectorialMap.md:90
 msgid "![toolbox vmap](/images/vmap/toolbox.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:88 content/05_VectorialMap.md:98
-#: content/05_VectorialMap.md:136 content/05_VectorialMap.md:152
-#: content/06_charactersheet.md:90 content/06_charactersheet.md:118
+#: content/05_VectorialMap.md:92 content/05_VectorialMap.md:102
+#: content/05_VectorialMap.md:140 content/05_VectorialMap.md:156
+#: content/06_charactersheet.md:92 content/06_charactersheet.md:120
 msgid "</div>\n"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:90
+#: content/05_VectorialMap.md:94
 msgid "**Current color**: All new element will be paint using this color. Double-click on it to get a color selector dialog."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:91
+#: content/05_VectorialMap.md:95
 msgid "**Color selector**: Change current color by clicking on the right part."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:92
+#: content/05_VectorialMap.md:96
 msgid "**Color brightness**: Make the current color darker or lighter (one way to select the black color)."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:93
+#: content/05_VectorialMap.md:97
 msgid "**Edition tools**: Pen, Line, Empty Rectangle, filled Rectangle, Empty Ellipse, filled Ellipse, Text with border (long press to select without border), Handler (select and move), Rule, Path, Anchor, pipette, paint bucket, Point of interest. The number of available tools will change accordingly to the painting mode or your permission (for player)."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:94
+#: content/05_VectorialMap.md:98
 msgid "**Pen Width**: Define the pen width: line width and border size. It will only be applied on new items."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:95
+#: content/05_VectorialMap.md:99
 msgid "**Quick NPC tool**: Add NPC token quickly on the map. Each will receive a name (text field) and a number (auto incremental, can be reset)."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:96
+#: content/05_VectorialMap.md:100
 msgid "**Opacity**: Change opacity of the current selected object."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:97
+#: content/05_VectorialMap.md:101
 msgid "**Map's thumbnail**: Let you see the whole map. The blue rectangle is showing the part of the map you are seeing right now."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:100
+#: content/05_VectorialMap.md:104
 msgid "When the **Fog of War** is enabled on the toolbar, the **Painting mode** selector will appear just below the **3. Color brightness selector**. The mask or unmask modes only affect the **Fog of War**."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:103
+#: content/05_VectorialMap.md:107
 msgid "First step : Define the ground"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:105
+#: content/05_VectorialMap.md:109
 msgid "Make sure the **Ground layer** is selected on the map's toolbar. Add all element to draw the ground, or you can **drag and drop** a picture with the ground of your map."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:108
+#: content/05_VectorialMap.md:112
 msgid "![toolbox vmap](/images/vmap/vmap_002.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:110
+#: content/05_VectorialMap.md:114
 msgid "Step 2 : Add Items"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:112
+#: content/05_VectorialMap.md:116
 msgid "You can make some change on the fly. Adding walls, doors… Make sure you have selected the **Object layer** on the map's toolbar."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:116
+#: content/05_VectorialMap.md:120
 msgid "![toolbox vmap](/images/vmap/vmap_003.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:118
+#: content/05_VectorialMap.md:122
 msgid "Step 3 : Modify Items"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:120
+#: content/05_VectorialMap.md:124
 msgid "Common modifications such as Position, Rotation and Size can be managed though the **Handler** tool. Use it to select an item."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:122
+#: content/05_VectorialMap.md:126
 msgid "**Position** : Click and hold on any selected item then move the mouse. The item will follow your mouse moves until you release the mouse left-button."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:123
+#: content/05_VectorialMap.md:127
 msgid "**Size** : you can adjust its size by moving its corners handles (grey rectangle)."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:124
+#: content/05_VectorialMap.md:128
 msgid "**Rotation** : Pressing `CTRL` will allow you to change the rotation of the item."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:126
+#: content/05_VectorialMap.md:130
 msgid "Many actions on items and map can be performed from the contextual menu. The first part of the menu are action on the selection (1 or several item(s)). The second part refers to the map."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:134
+#: content/05_VectorialMap.md:138
 msgid "![Contextual menu](/images/vmap/contextual_menu.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:138
+#: content/05_VectorialMap.md:142
 msgid "**Duplicate Items** (item): Make a copy of all selected item (with same size and position). It is up to you to move them at the right place."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:139
+#: content/05_VectorialMap.md:143
 msgid "**Overlapping** (item): If you want item to be below or above another."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:140
+#: content/05_VectorialMap.md:144
 msgid "**Rotate** (item): Apply some peculiar value to rotation."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:141
+#: content/05_VectorialMap.md:145
 msgid "**Set layer** (item): Show or define the current layer in which items belong to."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:142
+#: content/05_VectorialMap.md:146
 msgid "**Normalize size** (item): When several items are selected you can resize them accordingly to some criteria: biggest, smallest, average…"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:143
+#: content/05_VectorialMap.md:147
 msgid "**Lock/Unlock Geometry** (item): Prevent any unwanted changes."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:144
+#: content/05_VectorialMap.md:148
 msgid "**Remove** (item): remove the item from the map."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:145
+#: content/05_VectorialMap.md:149
 msgid "**Edit Layer** (Map): Change current edition layer of the map (same as layer tool on toolbar)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:146
+#: content/05_VectorialMap.md:150
 msgid "**Change visibility** (Map): Same as visibility selector on toolbar"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:147
+#: content/05_VectorialMap.md:151
 msgid "**Roll Init** (Map): Roll initiative on all NPC, All PC or Both. The initiative command must be defined in the token ([More details](15_antagonist.md))"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:148
+#: content/05_VectorialMap.md:152
 msgid "**Clear Init** (Map): Remove initiative scores from all NPC, All PC or Both."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:149
+#: content/05_VectorialMap.md:153
 msgid "**Zoom** (Map): Manage the zoom."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:150
+#: content/05_VectorialMap.md:154
 msgid "**Import image** (Map): Import image as Item on the map. Same as **drag and drop** or **paste**."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:156
+#: content/05_VectorialMap.md:160
 msgid "Step 4 : Add NPC"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:158
+#: content/05_VectorialMap.md:162
 msgid "Finally, you can add NPC tokens. To do that, you can use the quick NPC tool from the toolbox, or you can drag and drop character from the [antagonist panel](15_antagonist.md)."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:161
+#: content/05_VectorialMap.md:165
 msgid "![toolbox vmap](/images/vmap/vmap_004.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:164
+#: content/05_VectorialMap.md:168
 msgid "Step 5 : Save the map"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:166
+#: content/05_VectorialMap.md:170
 msgid "`Ctrl+s` or `Menu Campaign > Save Campaign` will do the job."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:168
+#: content/05_VectorialMap.md:172
 msgid "While playing"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:170 content/06_manual_players.md:87
+#: content/05_VectorialMap.md:174 content/06_manual_players.md:87
 #: content/08_connected_players.md:57
 msgid "![menu](/images/connected_players/drag_n_drop.apng)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:172
+#: content/05_VectorialMap.md:176
 msgid "You can **drag & drop** character tokens from the [player/character panel](08_connected_player.md)"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:174
+#: content/05_VectorialMap.md:178
 msgid "Selection and Manipulations"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:176
+#: content/05_VectorialMap.md:180
 msgid "Zoom in and out"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:178
+#: content/05_VectorialMap.md:182
 msgid "In order to control the zoom on map, you may use the contextual menu (right click on map), and select the proper option."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:180
+#: content/05_VectorialMap.md:184
 msgid "Alternatively, you can press **Shift** and use your mouse's **wheel**."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:183
-msgid "Scroll up/down/left/right"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:185
-msgid "Select the handler as current tool."
-msgstr ""
-
-#. +> trunk5
 #: content/05_VectorialMap.md:186
-msgid "Then press **Shift** (to grab the map)."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:187
-msgid "Finally, click anywhere on the map and move it."
+msgid "The zoom center is based on the cursor position."
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:189
-msgid "Select one or more Items"
+msgid "Scroll up/down/left/right"
 msgstr ""
 
 #. +> trunk5
 #: content/05_VectorialMap.md:191
+msgid "Select the handler as current tool."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:192
+msgid "Then press **Shift** (to grab the map)."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:193
+msgid "Finally, click anywhere on the map and move it."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:195
+msgid "Select one or more Items"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:197
 msgid "Select an item is easy. You just have to (right-)click on it. In order to select several items, you must keep the **Control** key pressed."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:194
+#: content/05_VectorialMap.md:200
 msgid "In details"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:196
+#: content/05_VectorialMap.md:202
 msgid "Painting tools [ToolBox]"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:199 content/05_VectorialMap.md:222
-#: content/14_music.md:43 content/21_mindmap.md:136 content/34_dice3d.md:31
+#: content/05_VectorialMap.md:205 content/05_VectorialMap.md:229
+#: content/14_music.md:43 content/21_mindmap.md:138 content/34_dice3d.md:33
 msgid "Icon"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:199 content/05_VectorialMap.md:222
+#: content/05_VectorialMap.md:205 content/05_VectorialMap.md:229
 msgid "Tool name"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:201
-msgid "<img class=\"icon\" src=\"/images/pictos/pen.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:201
-msgid "Pen"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:201
-msgid "You can paint line which follow your mouse. The diameter selector defines the width of the line. You can move the item but changing its curve is not supported."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:202
-msgid "<img class=\"icon\" src=\"/images/pictos/line.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:202
-msgid "Straight Line"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:202
-msgid "You must define two points to add straight line to the map: the starting point and the ending point. The diameter selector defines the width of the line. You can move the item and change the position of starting point or ending point."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:203
-msgid "<img class=\"icon\" src=\"/images/pictos/emptyrectangle.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:203
-msgid "Empty Rectangle"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:203
-msgid "You can add empty rectangle on the map. The diameter selector defines the width of the border. You can move the rectangle and change its size by moving its corner."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:204
-msgid "<img class=\"icon\" src=\"/images/pictos/filledrectangle.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:204
-msgid "Filled Rectangle"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:204
-msgid "You can add Filled rectangle on the map. You can move the rectangle and change its size by moving its corner."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:205
-msgid "<img class=\"icon\" src=\"/images/pictos/emptyellipse.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:205
-msgid "Empty Ellipse"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:205
-msgid "You can add empty ellipse on the map. The diameter selector defines the width of the border. You can move the rectangle and change its size by moving its two handles."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:206
-msgid "<img class=\"icon\" src=\"/images/pictos/filledellipse.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:206
-msgid "Filled Ellipse"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:206
-msgid "You can add Filled ellipse on the map. You can move the rectangle and change its size by moving its two handles."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:207
-msgid "<img class=\"icon\" src=\"/images/pictos/textIcon.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:207
-msgid "Text"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:207
-msgid "Add text element on the map. The text can be changed. The border defines the maximum width of the text. The text is wrapped automatically. The zone height adapts itself given the number of line. It is possible to add blank line manually to improve the readability. The text item manages HTML. To make it possible, you may paste webpage, the formatting is the same or directly you can edit the text thank of the rich text editor. ![Text editor](/images/panel/RichTextEditor.jpg) This editor allows modifications of properties of the text: color, size, font, underline, italic… It supports the copy/paste. You can create a list. It is also possible to edit html code."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:208
-msgid "<img class=\"icon\" src=\"/images/pictos/textwithborder.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:208
-msgid "Text with border"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:208
-msgid "Same than text but with border"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:209
-msgid "<img class=\"icon\" src=\"/images/pictos/hand.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:209
-msgid "Handler"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:209
-msgid "This tool allows to catch items on the map and move them. It is also useful to catch control square to make bigger or rotate the item (Ctrl + Mouse motion) It is also possible to move the item the whole map by keeping pressed the Shift pressed and clicking on the map."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:210
-msgid "<img class=\"icon\" src=\"/images/pictos/rule.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:210
-msgid "Rule"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:210
-msgid "This tool gets the distance between two points on the map given the current defined scale."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:211
-msgid "<img class=\"icon\" src=\"/images/pictos/path.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:211
-msgid "Path"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:211
-msgid "Path is several lines. It can be closed and filled (right-click on the path) and each point can be moved individually."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:212
-msgid "<img class=\"icon\" src=\"/images/pictos/insert-link-2.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:212
-msgid "Anchor"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:212
-msgid "It is possible to make a item anchored on another. This defines a parenthood relationship. If A is anchored on B, B is the parent of A. If B is moved, A is moved as well. If A is moved, B does not move. This feature makes easier any vehicles. You can move the vehicle, which means you move all passengers."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:213
-msgid "<img class=\"icon\" src=\"/images/pictos/pipette.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:213
-msgid "Pipette"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:213
-msgid "Click on any item. Its color becomes the current color."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:214
-msgid "<img class=\"icon\" src=\"/images/pictos/add.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:214
-msgid "Add NPC Token"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:214
-msgid "You can add PNJ, you can define the NPC name. The Plus symbol is the tool to add NPC on map. The NPC number is increased after adding NPC on map. It is possible to reset that number by clicking on the counter button."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:217
-msgid "Toolbar"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:219 content/06_charactersheet.md:228
-msgid "Background Color"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:224
-msgid "<img class=\"icon\" src=\"/images/pictos/grid.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:224
-msgid "Show/Hide square Grid"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:224
-msgid "Show or hide the square grid on map"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:225
-msgid "<img class=\"icon\" src=\"/images/pictos/hexa_grid.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:225
-msgid "Show/Hide hexagon Grid"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:225
-msgid "Show or hide the hexagon grid on map"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:226
-msgid "<img class=\"icon\" src=\"/images/pictos/grid_above.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:226
-msgid "Grid above"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:226
-msgid "Display the grid above the map."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:227
-msgid "<img class=\"icon\" src=\"/images/pictos/red_round.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:227
-msgid "GM only permission"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:227
-msgid "Set permission to GM only."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:228
-msgid "<img class=\"icon\" src=\"/images/pictos/orange_round.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:228
-msgid "PC move permission"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:228
-msgid "Set permission to PC move. Player can only move their token on the map."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:229
-msgid "<img class=\"icon\" src=\"/images/pictos/green_round.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:229
-msgid "All permission"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:229
-msgid "Set permission to All. Player can do anything."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:230
-msgid "<img class=\"icon\" src=\"/images/pictos/mask.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:230
-msgid "Visibility Mode: hidden"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:230
-msgid "The whole map appears blank to the players."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:231
-msgid "<img class=\"icon\" src=\"/images/pictos/fogofwar.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:231
-msgid "Visibility Mode: Fog of War"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:231
-msgid "Show the map under the fog of war."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:232
-msgid "<img class=\"icon\" src=\"/images/pictos/eye.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:232
-msgid "Visibility Mode: Show all"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:232
-msgid "The map is completely visible to players."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:233
-msgid "<img class=\"icon\" src=\"/images/pictos/ground_layer.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:233
-msgid "Layer: Ground"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:233
-msgid "Set ground layer as current edition layer."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:234
-msgid "<img class=\"icon\" src=\"/images/pictos/object_layer.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:234
-msgid "Layer: Object"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:234
-msgid "Set object layer as current edition layer."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:235
-msgid "<img class=\"icon\" src=\"/images/pictos/character_layer.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:235
-msgid "Layer: Character"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:235
-msgid "Set character layer as current edition layer."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:236
-msgid "<img class=\"icon\" src=\"/images/pictos/gm_icon.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:236
-msgid "Layer: Game Master"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:236
-msgid "Set game master layer as current edition layer."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:237
-msgid "<img class=\"icon\" src=\"/images/pictos/hideotherlayers.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:237
-msgid "Layer: hide all other layers"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:237
-msgid "All layers are hidden except the current one."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:238
-msgid "<img class=\"icon\" src=\"/images/pictos/sight.svg\"/>"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:238
-msgid "Character's sight"
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:238
-msgid "Show character sights when the fog of war is up."
-msgstr ""
-
-#. +> trunk5
-#: content/05_VectorialMap.md:239
+#: content/05_VectorialMap.md:207 content/05_VectorialMap.md:246
 msgid "<img class=\"icon\" src=\"/images/pictos/sun.svg\"/>"
 msgstr ""
 
 #. +> trunk5
+#: content/05_VectorialMap.md:207
+msgid "Light"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:207
+msgid "Add light on map, in fog of war mode, the light reveals map elements"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:208
+msgid "<img class=\"icon\" src=\"/images/pictos/pen.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:208
+msgid "Pen"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:208
+msgid "You can paint line which follow your mouse. The diameter selector defines the width of the line. You can move the item but changing its curve is not supported."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:209
+msgid "<img class=\"icon\" src=\"/images/pictos/line.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:209
+msgid "Straight Line"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:209
+msgid "You must define two points to add straight line to the map: the starting point and the ending point. The diameter selector defines the width of the line. You can move the item and change the position of starting point or ending point."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:210
+msgid "<img class=\"icon\" src=\"/images/pictos/emptyrectangle.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:210
+msgid "Empty Rectangle"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:210
+msgid "You can add empty rectangle on the map. The diameter selector defines the width of the border. You can move the rectangle and change its size by moving its corner."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:211
+msgid "<img class=\"icon\" src=\"/images/pictos/filledrectangle.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:211
+msgid "Filled Rectangle"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:211
+msgid "You can add Filled rectangle on the map. You can move the rectangle and change its size by moving its corner."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:212
+msgid "<img class=\"icon\" src=\"/images/pictos/emptyellipse.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:212
+msgid "Empty Ellipse"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:212
+msgid "You can add empty ellipse on the map. The diameter selector defines the width of the border. You can move the rectangle and change its size by moving its two handles."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:213
+msgid "<img class=\"icon\" src=\"/images/pictos/filledellipse.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:213
+msgid "Filled Ellipse"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:213
+msgid "You can add Filled ellipse on the map. You can move the rectangle and change its size by moving its two handles."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:214
+msgid "<img class=\"icon\" src=\"/images/pictos/textIcon.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:214
+msgid "Text"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:214
+msgid "Add text element on the map. The text can be changed. The border defines the maximum width of the text. The text is wrapped automatically. The zone height adapts itself given the number of line. It is possible to add blank line manually to improve the readability. The text item manages HTML. To make it possible, you may paste webpage, the formatting is the same or directly you can edit the text thank of the rich text editor. ![Text editor](/images/panel/RichTextEditor.jpg) This editor allows modifications of properties of the text: color, size, font, underline, italic… It supports the copy/paste. You can create a list. It is also possible to edit html code."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:215
+msgid "<img class=\"icon\" src=\"/images/pictos/textwithborder.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:215
+msgid "Text with border"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:215
+msgid "Same than text but with border"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:216
+msgid "<img class=\"icon\" src=\"/images/pictos/hand.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:216
+msgid "Handler"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:216
+msgid "This tool allows to catch items on the map and move them. It is also useful to catch control square to make bigger or rotate the item (Ctrl + Mouse motion) It is also possible to move the item the whole map by keeping pressed the Shift pressed and clicking on the map."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:217
+msgid "<img class=\"icon\" src=\"/images/pictos/rule.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:217
+msgid "Rule"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:217
+msgid "This tool gets the distance between two points on the map given the current defined scale."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:218
+msgid "<img class=\"icon\" src=\"/images/pictos/path.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:218
+msgid "Path"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:218
+msgid "Path is several lines. It can be closed and filled (right-click on the path) and each point can be moved individually."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:219
+msgid "<img class=\"icon\" src=\"/images/pictos/insert-link-2.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:219
+msgid "Anchor"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:219
+msgid "It is possible to make a item anchored on another. This defines a parenthood relationship. If A is anchored on B, B is the parent of A. If B is moved, A is moved as well. If A is moved, B does not move. This feature makes easier any vehicles. You can move the vehicle, which means you move all passengers."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:220
+msgid "<img class=\"icon\" src=\"/images/pictos/pipette.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:220
+msgid "Pipette"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:220
+msgid "Click on any item. Its color becomes the current color. On image, the color is exactly the one under the cursor. Press Shift while selecting a color, and the image is directly set as background."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:221
+msgid "<img class=\"icon\" src=\"/images/pictos/add.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:221
+msgid "Add NPC Token"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:221
+msgid "You can add PNJ, you can define the NPC name. The Plus symbol is the tool to add NPC on map. The NPC number is increased after adding NPC on map. It is possible to reset that number by clicking on the counter button."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:224
+msgid "Toolbar"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:226 content/06_charactersheet.md:230
+msgid "Background Color"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:231
+msgid "<img class=\"icon\" src=\"/images/pictos/grid.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:231
+msgid "Show/Hide square Grid"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:231
+msgid "Show or hide the square grid on map"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:232
+msgid "<img class=\"icon\" src=\"/images/pictos/hexa_grid.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:232
+msgid "Show/Hide hexagon Grid"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:232
+msgid "Show or hide the hexagon grid on map"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:233
+msgid "<img class=\"icon\" src=\"/images/pictos/grid_above.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:233
+msgid "Grid above"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:233
+msgid "Display the grid above the map."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:234
+msgid "<img class=\"icon\" src=\"/images/pictos/red_round.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:234
+msgid "GM only permission"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:234
+msgid "Set permission to GM only."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:235
+msgid "<img class=\"icon\" src=\"/images/pictos/orange_round.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:235
+msgid "PC move permission"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:235
+msgid "Set permission to PC move. Player can only move their token on the map."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:236
+msgid "<img class=\"icon\" src=\"/images/pictos/green_round.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:236
+msgid "All permission"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:236
+msgid "Set permission to All. Player can do anything."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:237
+msgid "<img class=\"icon\" src=\"/images/pictos/mask.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:237
+msgid "Visibility Mode: hidden"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:237
+msgid "The whole map appears blank to the players."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:238
+msgid "<img class=\"icon\" src=\"/images/pictos/fogofwar.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:238
+msgid "Visibility Mode: Fog of War"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:238
+msgid "Show the map under the fog of war."
+msgstr ""
+
+#. +> trunk5
 #: content/05_VectorialMap.md:239
+msgid "<img class=\"icon\" src=\"/images/pictos/eye.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:239
+msgid "Visibility Mode: Show all"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:239
+msgid "The map is completely visible to players."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:240
+msgid "<img class=\"icon\" src=\"/images/pictos/ground_layer.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:240
+msgid "Layer: Ground"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:240
+msgid "Set ground layer as current edition layer."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:241
+msgid "<img class=\"icon\" src=\"/images/pictos/object_layer.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:241
+msgid "Layer: Object"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:241
+msgid "Set object layer as current edition layer."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:242
+msgid "<img class=\"icon\" src=\"/images/pictos/character_layer.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:242
+msgid "Layer: Character"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:242
+msgid "Set character layer as current edition layer."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:243
+msgid "<img class=\"icon\" src=\"/images/pictos/gm_icon.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:243
+msgid "Layer: Game Master"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:243
+msgid "Set game master layer as current edition layer."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:244
+msgid "<img class=\"icon\" src=\"/images/pictos/hideotherlayers.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:244
+msgid "Layer: hide all other layers"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:244
+msgid "All layers are hidden except the current one."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:245
+msgid "<img class=\"icon\" src=\"/images/pictos/sight.svg\"/>"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:245
+msgid "Character's sight"
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:245
+msgid "Show character sights when the fog of war is up."
+msgstr ""
+
+#. +> trunk5
+#: content/05_VectorialMap.md:246
 msgid "Show all transparent Items"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:239
+#: content/05_VectorialMap.md:246
 msgid "Make visible any transparent item."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:240
+#: content/05_VectorialMap.md:247
 msgid "<img class=\"icon\" src=\"/images/pictos/pcName.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:240
+#: content/05_VectorialMap.md:247
 msgid "Show/hide PC names"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:240
+#: content/05_VectorialMap.md:247
 msgid "Character name can be displayed just under the token. You can hide it."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:241
+#: content/05_VectorialMap.md:248
 msgid "<img class=\"icon\" src=\"/images/pictos/npcName.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:241
+#: content/05_VectorialMap.md:248
 msgid "Show/Hide NPC names"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:241
+#: content/05_VectorialMap.md:248
 msgid "NPC name can be displayed just under the token. You can hide it."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:242
+#: content/05_VectorialMap.md:249
 msgid "<img class=\"icon\" src=\"/images/pictos/npcNumber.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:242
+#: content/05_VectorialMap.md:249
 msgid "Show/Hide NPC numbers"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:242
+#: content/05_VectorialMap.md:249
 msgid "NPC number can be displayed just under the token. You can hide it."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:243
+#: content/05_VectorialMap.md:250
 msgid "<img class=\"icon\" src=\"/images/pictos/stateName.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:243
+#: content/05_VectorialMap.md:250
 msgid "Show/Hide character states"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:243
+#: content/05_VectorialMap.md:250
 msgid "Character state can be displayed on the token. You can hide it."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:244
+#: content/05_VectorialMap.md:251
 msgid "<img class=\"icon\" src=\"/images/pictos/healthBar.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:244
+#: content/05_VectorialMap.md:251
 msgid "Show/Hide health bar"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:244
+#: content/05_VectorialMap.md:251
 msgid "Character health bar can be displayed just under the token. You can hide it."
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:245
+#: content/05_VectorialMap.md:252
 msgid "<img class=\"icon\" src=\"/images/pictos/initScore.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:245
+#: content/05_VectorialMap.md:252
 msgid "Show/hide initiative score"
 msgstr ""
 
 #. +> trunk5
-#: content/05_VectorialMap.md:245
+#: content/05_VectorialMap.md:252
 msgid "Character initiative score can be displayed on the left top corner of token. You can hide it."
 msgstr ""
 
@@ -3001,153 +3051,158 @@ msgstr ""
 
 #. +> trunk5
 #: content/06_charactersheet.md:13
-msgid "Make a character sheet with RCSE"
+msgid "[Video on YouTube](https://youtu.be/343vYAqrui8)"
 msgstr ""
 
 #. +> trunk5
 #: content/06_charactersheet.md:15
+msgid "Make a character sheet with RCSE"
+msgstr ""
+
+#. +> trunk5
+#: content/06_charactersheet.md:17
 msgid "The **Rolisteam Character Sheet Editor** is the best tool to make character sheet. Its design is dedicated to provide experience as close as possible to using the official character sheet of any RPG game."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:19
+#: content/06_charactersheet.md:21
 msgid "To make a character sheet, please follow these few steps:"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:21
+#: content/06_charactersheet.md:23
 msgid "Step 1: Import image (or PDF)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:23
+#: content/06_charactersheet.md:25
 msgid "![before](/images/rcse/RCSE_005.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:25
+#: content/06_charactersheet.md:27
 msgid "The first step is to drop background image on the editor (left side of `Editor` tab). This image could be the official charactersheet of your game for example."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:28
+#: content/06_charactersheet.md:30
 msgid "There are two ways to import image:"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:30
+#: content/06_charactersheet.md:32
 msgid "Drag and drop image from your computer to RCSE (left side)."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:31
+#: content/06_charactersheet.md:33
 msgid "You can also import from the menu &gt; Define Background Image"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:33
+#: content/06_charactersheet.md:35
 msgid "In the case, where you need **several pages** into your charactersheet. You can easily add pages with the button dedicated to this task. Then you will have to define the background of new pages by importing background images."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:38
+#: content/06_charactersheet.md:40
 msgid "![before](/images/rcse/RCSE_006.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:40 content/06_charactersheet.md:128
-#: content/06_charactersheet.md:138 content/06_charactersheet.md:239
-#: content/06_charactersheet.md:260 content/06_charactersheet.md:305
+#: content/06_charactersheet.md:42 content/06_charactersheet.md:130
+#: content/06_charactersheet.md:140 content/06_charactersheet.md:241
+#: content/06_charactersheet.md:262 content/06_charactersheet.md:307
 msgid "Save your file !"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:42
+#: content/06_charactersheet.md:44
 msgid "How to use PDF as background"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:44
+#: content/06_charactersheet.md:46
 msgid "**RCSE** has a native support for PDF."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:46
+#: content/06_charactersheet.md:48
 msgid "You just have to go `File > Import PDF`. This dialog will open:"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:49
+#: content/06_charactersheet.md:51
 msgid "![Import PDF](/images/rcse/export_pdf_001.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:51
+#: content/06_charactersheet.md:53
 msgid "Click on `Browse` to select your charactersheet file."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:53
+#: content/06_charactersheet.md:55
 msgid "![Imported PDF](/images/rcse/export_pdf_002.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:55
+#: content/06_charactersheet.md:57
 msgid "Then you can"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:56
+#: content/06_charactersheet.md:58
 msgid "Set the size (of the exported images)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:57
+#: content/06_charactersheet.md:59
 msgid "Select the pages"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:58
+#: content/06_charactersheet.md:60
 msgid "Take the image in Grayscale"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:60
+#: content/06_charactersheet.md:62
 msgid "Final step, just click on `Ok`."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:62
+#: content/06_charactersheet.md:64
 msgid "And voilà: As you can see, it supports multipage sheet."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:65
+#: content/06_charactersheet.md:67
 msgid "![Imported PDF](/images/rcse/result_pdf_01.png) ![Imported PDF](/images/rcse/result_pdf_02.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:69
+#: content/06_charactersheet.md:71
 msgid "Step 2: Add fields on the sheet"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:71
+#: content/06_charactersheet.md:73
 msgid "Then, it is important to set the position of each field. This work can be really long but thanks to RCSE you can make it graphically."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:74
+#: content/06_charactersheet.md:76
 msgid "Each field is also added onto the right table. You can remove field from this table."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:77
+#: content/06_charactersheet.md:79
 msgid "There are many types of field available into RCSE."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:81
+#: content/06_charactersheet.md:83
 msgid ""
 "<br/>"
 "\n"
@@ -3156,304 +3211,304 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:86
+#: content/06_charactersheet.md:88
 msgid "<div style=\"width: 1200px;\">\n"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:88
+#: content/06_charactersheet.md:90
 msgid "![rsce](/images/rcse/RCSE_tools.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:95
+#: content/06_charactersheet.md:97
 msgid "TextInput"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:95
+#: content/06_charactersheet.md:97
 msgid "Single line text Input with **no** borders or no decoration. Can be promoted to selector (see below)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:96
+#: content/06_charactersheet.md:98
 msgid "TextField"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:96
+#: content/06_charactersheet.md:98
 msgid "Single line text Input with borders and decoration."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:97
+#: content/06_charactersheet.md:99
 msgid "Checkbox"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:97
+#: content/06_charactersheet.md:99
 msgid "Stores 0 or 1 value, and display it as checkbox."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:98
+#: content/06_charactersheet.md:100
 msgid "TextArea"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:98
+#: content/06_charactersheet.md:100
 msgid "Multiline text input with decoration and border."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:99
+#: content/06_charactersheet.md:101
 msgid "DiceButton"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:99
+#: content/06_charactersheet.md:101
 msgid "Add clickable button to roll dice command, the command must be set as the value of the field"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:100
+#: content/06_charactersheet.md:102
 msgid "Function Button"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:100
+#: content/06_charactersheet.md:102
 msgid "Add clickable button to call QML function or make any computation"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:101
+#: content/06_charactersheet.md:103
 msgid "Table"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:101
+#: content/06_charactersheet.md:103
 msgid "Add dynamic table, manage several lines (useful for managing list of skills, objects…)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:102
+#: content/06_charactersheet.md:104
 msgid "Slider"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:102
+#: content/06_charactersheet.md:104
 msgid "Select value between min and max value (0 to 100 by default)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:103
+#: content/06_charactersheet.md:105
 msgid "Hidden Field"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:103
+#: content/06_charactersheet.md:105
 msgid "Add hidden field on the sheet, This allows an intermediate calculation to be performed."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:104
+#: content/06_charactersheet.md:106
 msgid "Image"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:104
+#: content/06_charactersheet.md:106
 msgid "Display a image from an url"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:105
+#: content/06_charactersheet.md:107
 msgid "text label"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:105
+#: content/06_charactersheet.md:107
 msgid "Add read-only text label"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:106
+#: content/06_charactersheet.md:108
 msgid "WebView"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:106
+#: content/06_charactersheet.md:108
 msgid "Add web view, set URL as value to show any website"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:107
+#: content/06_charactersheet.md:109
 msgid "PreviousPage"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:107
+#: content/06_charactersheet.md:109
 msgid "Add Button to make navigation between pages easier (go to the previous page)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:108
+#: content/06_charactersheet.md:110
 msgid "NextPage"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:108
+#: content/06_charactersheet.md:110
 msgid "Add Button to make navigation between pages easier (go to next page)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:109
+#: content/06_charactersheet.md:111
 msgid "Move"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:109
+#: content/06_charactersheet.md:111
 msgid "Tool for selecting or moving fields."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:110
+#: content/06_charactersheet.md:112
 msgid "Delete Items"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:110
+#: content/06_charactersheet.md:112
 msgid "Remove Items when you click on them while this tool is the current one."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:111
+#: content/06_charactersheet.md:113
 msgid "Page selector"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:111
+#: content/06_charactersheet.md:113
 msgid "Easy access to pages"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:112
+#: content/06_charactersheet.md:114
 msgid "Add Page"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:112
+#: content/06_charactersheet.md:114
 msgid "Add page at the end of all existing pages."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:113
+#: content/06_charactersheet.md:115
 msgid "Remove Page"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:113
+#: content/06_charactersheet.md:115
 msgid "Remove currently selected page"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:114
+#: content/06_charactersheet.md:116
 msgid "20"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:114
+#: content/06_charactersheet.md:116
 msgid "Scale"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:114
+#: content/06_charactersheet.md:116
 msgid "Set the current sheet scale"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:121
+#: content/06_charactersheet.md:123
 msgid "Select a tool"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:122
+#: content/06_charactersheet.md:124
 msgid "Click on visual editor (left side)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:123
+#: content/06_charactersheet.md:125
 msgid "A placeholder appears on the visual editor and a new line is added on the right side"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:124
+#: content/06_charactersheet.md:126
 msgid "Move the mouse cursor to define the proper size for this item (size can be changed after)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:130
+#: content/06_charactersheet.md:132
 msgid "Step 3: Edit fields"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:132
+#: content/06_charactersheet.md:134
 msgid "When all your fields are set, it is important to name them. This name can be use into formula."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:135
+#: content/06_charactersheet.md:137
 msgid "Including the name, many other properties can be edited. All you have to do is to edit from the right table on the first tab."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:140
+#: content/06_charactersheet.md:142
 msgid "Details about each column:"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:142
+#: content/06_charactersheet.md:144
 msgid "Id"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:144
+#: content/06_charactersheet.md:146
 msgid "This property is the unique ID for that data. By default, **RCSE** generates them automatically. It is recommended to keep the default value. Changing them requires respecting some rules:"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:149
+#: content/06_charactersheet.md:151
 msgid "Start with lower case letter"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:150
+#: content/06_charactersheet.md:152
 msgid "No space"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:151
+#: content/06_charactersheet.md:153
 msgid "Letters, digits and _"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:152
+#: content/06_charactersheet.md:154
 msgid "No special character"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:154
+#: content/06_charactersheet.md:156
 msgid ""
 "Ids can be used to get access to character information in formula.<br />"
 "The shorter, the better: Examples: `=${id_5}+4`"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:158
+#: content/06_charactersheet.md:160
 msgid "Label"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:160
+#: content/06_charactersheet.md:162
 msgid ""
 "This property is a human-readable ID for that field.<br />"
 "It is recommended to set the label of all fields.<br />"
@@ -3461,122 +3516,122 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:164
+#: content/06_charactersheet.md:166
 msgid "Value"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:166
+#: content/06_charactersheet.md:168
 msgid "The field value is displayed onto the character sheet. Please set values close to real game values. There are two reasons about that:"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:169
+#: content/06_charactersheet.md:171
 msgid "Values are used inside formula. So computation of formula can be checked."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:170
+#: content/06_charactersheet.md:172
 msgid "As values are displayed, you can adjust the element (size, font, color) to make sure it is readable."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:172
+#: content/06_charactersheet.md:174
 msgid "Values are set with generated text."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:174
+#: content/06_charactersheet.md:176
 msgid "Possible values"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:176
+#: content/06_charactersheet.md:178
 msgid "This field is only useful for TextInput. It allows changing a TextInput to selector. Selector (also known as Combobox) are items dedicated to select one value from limited list."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:180
+#: content/06_charactersheet.md:182
 msgid "To define the value set, values are separated with comma: `head,body,left arm,right arm,left leg,right leg`"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:182 content/10_resources.md:31
+#: content/06_charactersheet.md:184 content/10_resources.md:31
 msgid "Type"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:184
+#: content/06_charactersheet.md:186
 msgid "Change the field's type to another. Table can't be converted to another type (and no field can become a Table)."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:187
+#: content/06_charactersheet.md:189
 msgid "X"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:189
+#: content/06_charactersheet.md:191
 msgid "Field Position on X-axis (left to right). You can change it to align fields precisely."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:192
+#: content/06_charactersheet.md:194
 msgid "Y"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:194
+#: content/06_charactersheet.md:196
 msgid "Field Position on Y-axis (top to bottom). You can change it to align fields precisely."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:197
+#: content/06_charactersheet.md:199
 msgid "Width"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:199
+#: content/06_charactersheet.md:201
 msgid "Width of the field. You can change it to align fields precisely."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:201
+#: content/06_charactersheet.md:203
 msgid "Height"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:203
+#: content/06_charactersheet.md:205
 msgid "Height of the field. You can change it to align fields precisely."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:205
+#: content/06_charactersheet.md:207
 msgid "Font adaptation"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:207
+#: content/06_charactersheet.md:209
 msgid "This option can be enabled to adapt font size to the size of the character sheet."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:210
+#: content/06_charactersheet.md:212
 msgid "Text Alignment"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:212
+#: content/06_charactersheet.md:214
 msgid "You can set where the text should be displayed in the field."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:215
+#: content/06_charactersheet.md:217
 msgid "<table>\n"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:217
+#: content/06_charactersheet.md:219
 msgid ""
 "<tr>"
 "<td>Top left corner</td>"
@@ -3599,315 +3654,315 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:221
+#: content/06_charactersheet.md:223
 msgid ""
 "</table>"
 "\n"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:224
+#: content/06_charactersheet.md:226
 msgid "Text color"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:226
+#: content/06_charactersheet.md:228
 msgid "You can set the text color."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:230
+#: content/06_charactersheet.md:232
 msgid "You can set the background color"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:232
+#: content/06_charactersheet.md:234
 msgid "Border"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:234
+#: content/06_charactersheet.md:236
 msgid "You can set where the border should display (Top, right, left bottom, all or no border)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:237
+#: content/06_charactersheet.md:239
 msgid "![end](/images/panel/rcse_end_step3.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:241
+#: content/06_charactersheet.md:243
 msgid "Step 4: Generate sheet"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:243
+#: content/06_charactersheet.md:245
 msgid "![empty](/images/panel/rcse_view_tab_empty.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:245
+#: content/06_charactersheet.md:247
 msgid ""
 "When you have added all the fields you want, you may generate the sheet by clicking on<br />"
 "`Edit menu > Generate Code and Sheet (Ctrl+r)`."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:249
+#: content/06_charactersheet.md:251
 msgid "Sheet is visible in the **View** tab. The tab shows sheet exactly as it will be in Rolisteam."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:252
+#: content/06_charactersheet.md:254
 msgid "The code tab sees its content changed by this action. It shows QML code."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:254
+#: content/06_charactersheet.md:256
 msgid ""
 "You can adjust the sheet (in the editor tab step 3) and generate again and again until it fits your needs. You can repeat this operation as many times as you<br />"
 "want to get the perfect result."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:258
+#: content/06_charactersheet.md:260
 msgid "![end](/images/panel/rcse_end_step4.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:262
+#: content/06_charactersheet.md:264
 msgid "Write your own QML"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:264 content/06_charactersheet.md:496
+#: content/06_charactersheet.md:266 content/06_charactersheet.md:498
 msgid "![images](/images/red.svg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:266
+#: content/06_charactersheet.md:268
 msgid "It is also possible to amend **QML** code directly to add new features to the sheet. You can play music, videos or add animations and many other stuffs. Be careful, when you modify the generated code, you must not ask to generate code and sheet. It will erase all your modifications."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:271
+#: content/06_charactersheet.md:273
 msgid "Step 5: Add characters"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:272 content/06_charactersheet.md:503
+#: content/06_charactersheet.md:274 content/06_charactersheet.md:505
 msgid "![images](/images/green.svg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:274
+#: content/06_charactersheet.md:276
 msgid "![begin](/images/panel/rcse_begin_step5.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:276
+#: content/06_charactersheet.md:278
 msgid "Let's go to the third tab: `Characters`. From here, characters can be added into the file."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:278
+#: content/06_charactersheet.md:280
 msgid "![menu](/images/panel/rcse_contextual_menu_character.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:280
+#: content/06_charactersheet.md:282
 msgid "A column appears for each added characters. It is recommended to add default value for each field. RCSE helps you to set one value on several lines. One cell can be defined as the character's name. This will set the column header."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:284
+#: content/06_charactersheet.md:286
 msgid "![end](/images/panel/rcse_end_step5.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:286
+#: content/06_charactersheet.md:288
 msgid "As you can see, there is no data for avatar. In order to set images into character sheet. There are two options: First, the laziest solution is to put a URL to the image (http://site.com/image/myAvatar.png). The second solution is to go to the `stored images` tab."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:289
+#: content/06_charactersheet.md:291
 msgid "Step 6: Add images [optional]"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:291
+#: content/06_charactersheet.md:293
 msgid "![start](/images/panel/rcse_stored_image.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:293
+#: content/06_charactersheet.md:295
 msgid "Then, click on add button ![Add image](/images/pictos/add_round.jpg) and select image from your computer."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:295
+#: content/06_charactersheet.md:297
 msgid "![data](/images/panel/rcse_stored_image_with_data.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:297
+#: content/06_charactersheet.md:299
 msgid "Then we have to copy the URL of each image and paste it in the appropriated character. The contextual menu offers the action to copy the URL. ![menu](/images/panel/rcse_contextual_menu_stored_image.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:301
+#: content/06_charactersheet.md:303
 msgid "Then paste it into character."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:303
+#: content/06_charactersheet.md:305
 msgid "![data](/images/panel/rcse_end_step6.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:307
+#: content/06_charactersheet.md:309
 msgid "Step 7: Formula and automatization [optional]"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:309
+#: content/06_charactersheet.md:311
 msgid "Character sheet embeds formula engine. You can compute automatically values. The sheet does the job for the GM or player. To add a new formula, you just have to start the line with **=** such as any spreadsheet software."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:315
+#: content/06_charactersheet.md:317
 msgid "Possible Operations"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:317
+#: content/06_charactersheet.md:319
 msgid "The formula system can manage many functions and operations."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:319
+#: content/06_charactersheet.md:321
 msgid "Get value"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:321
+#: content/06_charactersheet.md:323
 msgid "As we saw, you can get the value of any field thank of its label or ID. You must encapsulate ID or label like this: ${label} or ${id}."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:324 content/21_dice_roller.md:809
+#: content/06_charactersheet.md:326 content/21_dice_roller.md:809
 msgid "Arithmetic"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:326
+#: content/06_charactersheet.md:328
 msgid "You can do all usual operations."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:328 content/06_manual_players.md:59
+#: content/06_charactersheet.md:330 content/06_manual_players.md:59
 #: content/21_dice_roller.md:476 content/21_dice_roller.md:927
 msgid "Examples:"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:330
+#: content/06_charactersheet.md:332
 msgid "Sum"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:335
+#: content/06_charactersheet.md:337
 msgid "Subtraction"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:340
+#: content/06_charactersheet.md:342
 msgid "Multiplication"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:346
+#: content/06_charactersheet.md:348
 msgid "Division"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:353
+#: content/06_charactersheet.md:355
 msgid "abs"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:355
+#: content/06_charactersheet.md:357
 msgid "Absolute value takes only one argument."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:366
+#: content/06_charactersheet.md:368
 msgid "min"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:368 content/06_charactersheet.md:378
-#: content/06_charactersheet.md:388 content/06_charactersheet.md:424
+#: content/06_charactersheet.md:370 content/06_charactersheet.md:380
+#: content/06_charactersheet.md:390 content/06_charactersheet.md:426
 msgid "This function takes several arguments."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:376
+#: content/06_charactersheet.md:378
 msgid "max"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:386
+#: content/06_charactersheet.md:388
 msgid "concat"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:391
+#: content/06_charactersheet.md:393
 msgid "7G3"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:394
+#: content/06_charactersheet.md:396
 msgid "4d10k3"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:396
+#: content/06_charactersheet.md:398
 msgid "floor"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:398 content/06_charactersheet.md:411
+#: content/06_charactersheet.md:400 content/06_charactersheet.md:413
 msgid "The function takes one argument."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:409
+#: content/06_charactersheet.md:411
 msgid "ceil"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:422
+#: content/06_charactersheet.md:424
 msgid "avg"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:433
+#: content/06_charactersheet.md:435
 msgid "3.5"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:435
+#: content/06_charactersheet.md:437
 msgid "Step 8: Use character sheet in Rolisteam"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:437
+#: content/06_charactersheet.md:439
 msgid "Open/load character sheet"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:439
+#: content/06_charactersheet.md:441
 msgid ""
 "When you save character sheet with RCSE, you get a .rcs file. This file must be loaded in Rolisteam (`File > Open > Character Sheet` or `CTRL+U`). A new window opens and you see a data tab (picture).<br />"
 "It is the same that the `characters` tab in RCSE.<br />"
@@ -3915,22 +3970,22 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:446
+#: content/06_charactersheet.md:448
 msgid "![data](/images/panel/sheet_in_rolisteam.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:448
+#: content/06_charactersheet.md:450
 msgid "Share character's sheet to the player"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:450
+#: content/06_charactersheet.md:452
 msgid "![menu](/images/panel/rolisteam_share_sheet.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:452
+#: content/06_charactersheet.md:454
 msgid ""
 "GM must share the character sheet with their player's character.<br />"
 "The view will be generated and send off to the player. To do that, you must click on the Share sub-menu from the contextual menu.<br />"
@@ -3940,92 +3995,92 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:460
+#: content/06_charactersheet.md:462
 msgid "![in game](/images/panel/rolisteam_sheet_in_game.jpg)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:462
+#: content/06_charactersheet.md:464
 msgid "Due to technical limitation, data tab does not show data from sub-fields in table."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:464
+#: content/06_charactersheet.md:466
 msgid "Many pages"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:466
+#: content/06_charactersheet.md:468
 msgid ""
 "As we saw, it is possible to create character sheet with several pages. In the view tab, you can change page by pressing **Left** or **Right** key.<br />"
 "It is also possible to provide clickable button to manager that."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:470
+#: content/06_charactersheet.md:472
 msgid "You can also copy the view and/or detach the tab. This is the way to see several pages at once."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:472 content/14_music.md:98
+#: content/06_charactersheet.md:474 content/14_music.md:98
 #: content/19_sharedNotes.md:84
 msgid "FAQ"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:474
+#: content/06_charactersheet.md:476
 msgid "How to use dicebutton ?"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:476
+#: content/06_charactersheet.md:478
 msgid "The **dicebutton** allows users to roll dice directly from the character sheet. The result is displayed in the global chat room. The rolled command is the value of field and it displays its label."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:480
+#: content/06_charactersheet.md:482
 msgid "Setting label to **Initiative** will show **Initiative** on all character sheets."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:482
+#: content/06_charactersheet.md:484
 msgid "Dice command is set in value column. For example, if you set 3d6, the roll will always roll \"3d6\" (It is strictly equivalent of rolling !3d6 in the chat). Now, many dice rolls depend on character sheet values."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:486
+#: content/06_charactersheet.md:488
 msgid "Let's say, we have to roll \"1d20+the character's agility bonus\", the agility bonus is stored in a field ( id: id_64, label: agilityBonus)."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:489
+#: content/06_charactersheet.md:491
 msgid ""
 "In the dice button value, you can write: 1d20+${agilityBonus} or 1d20+${id_64}.<br />"
 "There is no need of formula here. As the dice system is able to make translation between to variables \"${....}\" to value. After sharing charactersheets to players, each player is able to roll: !1d20+${agilityBonus} in the chat room."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:493
+#: content/06_charactersheet.md:495
 msgid "Warning: doing that, will only work after sharing the character sheet to its player. If the GM click on button Rolisteam won't be able to know in which characters it must read the value. We plan to fix this issue in future release."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:498
+#: content/06_charactersheet.md:500
 msgid "The dice button is emitting a signal roll dice. This signal takes two parameters: the command to roll and a boolean. The boolean means to enable or disable the use of dice aliases."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:501
+#: content/06_charactersheet.md:503
 msgid "Rolling huge command with string results (such as 1L[head,left leg, right leg, left arm, right arm, chess]) may cause conflict with aliases."
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:505
+#: content/06_charactersheet.md:507
 msgid "How to promote Textinput into selector ?"
 msgstr ""
 
 #. +> trunk5
-#: content/06_charactersheet.md:507
+#: content/06_charactersheet.md:509
 msgid ""
 "Selector type displays a menu where players can select one option among several propositions. To change any field in selector type, the only required action is to define possible values in the dedicated column into the right table. Values are separated by comma.<br />"
 "**Example**: red, blue, green, brown, yellow, black, white, orange, purple."
@@ -4083,7 +4138,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/06_manual_players.md:32 content/06_manual_players.md:39
-#: content/07_antagonist.md:73 content/08_connected_players.md:50
+#: content/07_antagonist.md:75 content/08_connected_players.md:50
 msgid "Avatar"
 msgstr ""
 
@@ -4108,7 +4163,7 @@ msgid "Send message"
 msgstr ""
 
 #. +> trunk5
-#: content/06_manual_players.md:45 content/07_chat.md:15
+#: content/06_manual_players.md:45 content/07_chat.md:17
 msgid "![show/hide](/images/im/showhide.apng)"
 msgstr ""
 
@@ -4128,7 +4183,7 @@ msgid "Roll dice"
 msgstr ""
 
 #. +> trunk5
-#: content/06_manual_players.md:54 content/07_chat.md:70
+#: content/06_manual_players.md:54 content/07_chat.md:72
 msgid "![roll dice](/images/im/roll_dice.apng)"
 msgstr ""
 
@@ -4178,7 +4233,7 @@ msgid "Display the roll 3D panel and from it, select how many dice you want."
 msgstr ""
 
 #. +> trunk5
-#: content/06_manual_players.md:73 content/34_dice3d.md:42
+#: content/06_manual_players.md:73 content/34_dice3d.md:44
 msgid ""
 "<video controls>\n"
 "  <source src=\"/images/dice3d/show_case.webm\" type=\"video/webm\" />\n"
@@ -4191,12 +4246,12 @@ msgid "The result is displayed in the **global** chatroom."
 msgstr ""
 
 #. +> trunk5
-#: content/06_manual_players.md:79 content/07_chat.md:79
+#: content/06_manual_players.md:79 content/07_chat.md:81
 msgid "![3droll](/images/im/im_3D.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/06_manual_players.md:82 content/07_chat.md:89
+#: content/06_manual_players.md:82 content/07_chat.md:91
 msgid "[More info](34_dice3d.md)"
 msgstr ""
 
@@ -4212,286 +4267,291 @@ msgstr ""
 
 #. +> trunk5
 #: content/07_antagonist.md:9
+msgid "[Video on YouTube](https://youtu.be/CKDvFuruCwE)"
+msgstr ""
+
+#. +> trunk5
+#: content/07_antagonist.md:11
 msgid "We saw previously how the campaign works, how to create battle maps and character sheet. So now, let's talk about the bad guys."
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:12
+#: content/07_antagonist.md:14
 msgid "On the right-edge of **Rolisteam**, there are several tabs. They all have an icon to identify them."
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:14
+#: content/07_antagonist.md:16
 msgid "Here, we are talking about the antagonist panel with this icon: <img src=\"/images/pictos/03_antagonist.svg\" class=\"icon\" /> (the third one)."
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:16
+#: content/07_antagonist.md:18
 msgid "This panel can be seen as the non-playable characters database. You can add as many characters as you want. Each NPC have the own avatar and name. You can edit it to define the character sheet of the **NPC**."
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:20 content/18_minutes_editor.md:11
+#: content/07_antagonist.md:22 content/18_minutes_editor.md:11
 msgid "Features:"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:22
+#: content/07_antagonist.md:24
 msgid "Add character"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:23
+#: content/07_antagonist.md:25
 msgid "Clone character"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:24
+#: content/07_antagonist.md:26
 msgid "Remove Character"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:25
+#: content/07_antagonist.md:27
 msgid "Edit Token (initiative, skills, actions…)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:26
+#: content/07_antagonist.md:28
 msgid "Change Avatar"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:27
+#: content/07_antagonist.md:29
 msgid "Show/Hide columns (see below)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:28
+#: content/07_antagonist.md:30
 msgid "Advanced search"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:29
+#: content/07_antagonist.md:31
 msgid "Description and tags"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:30
+#: content/07_antagonist.md:32
 msgid "GM only information on the NPC"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:31
+#: content/07_antagonist.md:33
 msgid "Drag and drop to map, mindmap etc."
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:33
+#: content/07_antagonist.md:35
 msgid "Add new antagonist"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:35
+#: content/07_antagonist.md:37
 msgid "Click on the <img src=\"/images/pictos/add-round.svg\" class=\"icon\" /> add button"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:36
+#: content/07_antagonist.md:38
 msgid "New empty line must appear"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:37
+#: content/07_antagonist.md:39
 msgid "Add name and/or avatar"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:38
+#: content/07_antagonist.md:40
 msgid "Display any columns to edit the value."
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:41
+#: content/07_antagonist.md:43
 msgid "Edit token"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:45
+#: content/07_antagonist.md:47
 msgid "Right-click on the NPC"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:46
+#: content/07_antagonist.md:48
 msgid "Select `Edit token` ![EditToken](/images/antagonist/anta2_menu.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:47
+#: content/07_antagonist.md:49
 msgid "Edit values: ![EditToken](/images/antagonist/anta3_edit.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:49 content/10_resources.md:30
+#: content/07_antagonist.md:51 content/10_resources.md:30
 msgid "Size"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:50 content/07_antagonist.md:83
+#: content/07_antagonist.md:52 content/07_antagonist.md:85
 msgid "Initiative command"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:51
+#: content/07_antagonist.md:53
 msgid "and so on"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:52
+#: content/07_antagonist.md:54
 msgid "Add Actions [optional]"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:53
+#: content/07_antagonist.md:55
 msgid "Add properties [optional]"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:54
+#: content/07_antagonist.md:56
 msgid "Add shapes [optional]"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:55
+#: content/07_antagonist.md:57
 msgid "Save (returns to antagonist view)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:60
+#: content/07_antagonist.md:62
 msgid "Search and Advanced Search"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:62
+#: content/07_antagonist.md:64
 msgid "![EditToken](/images/antagonist/anta4.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:64
+#: content/07_antagonist.md:66
 msgid "You can define a pattern to search for. Rolisteam is looking matching pattern against the name or the description of the character."
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:66
+#: content/07_antagonist.md:68
 msgid "To switch to the advanced search, just click on the button on the right. The panel appears, and you can tune your criteria in order to get the expected result."
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:69
+#: content/07_antagonist.md:71
 msgid "This is a table of all criteria:"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:71
+#: content/07_antagonist.md:73
 msgid "Criteria"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:73
+#: content/07_antagonist.md:75
 msgid "Show characters [With or without] avatar"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:74
+#: content/07_antagonist.md:76
 msgid "Initiative score"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:74
+#: content/07_antagonist.md:76
 msgid "Display only characters [with or without] Initiative score"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:75
+#: content/07_antagonist.md:77
 msgid "Exclude"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:75
+#: content/07_antagonist.md:77
 msgid "Exclude characters matching this pattern"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:76
+#: content/07_antagonist.md:78
 msgid "Tags"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:76
+#: content/07_antagonist.md:78
 msgid "List characters with these tags"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:77
+#: content/07_antagonist.md:79
 msgid "Exclude tags"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:77
+#: content/07_antagonist.md:79
 msgid "Hide characters with these tags"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:78
+#: content/07_antagonist.md:80
 msgid "State"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:78
+#: content/07_antagonist.md:80
 msgid "Display characters with selected state"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:79 content/14_music.md:39
+#: content/07_antagonist.md:81 content/14_music.md:39
 msgid "Actions"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:79
+#: content/07_antagonist.md:81
 msgid "Show characters with or without actions"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:80
+#: content/07_antagonist.md:82
 msgid "Shapes"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:80
+#: content/07_antagonist.md:82
 msgid "Show characters [With or without] Shapes"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:81
+#: content/07_antagonist.md:83
 msgid "Health"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:81
+#: content/07_antagonist.md:83
 msgid "Show characters in selected health state: Full life, injured or dead"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:82
+#: content/07_antagonist.md:84
 msgid "Show characters [with or without] Properties"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:83
+#: content/07_antagonist.md:85
 msgid "Show characters [with or without] Initiative command"
 msgstr ""
 
 #. +> trunk5
-#: content/07_antagonist.md:84
+#: content/07_antagonist.md:86
 msgid "Show characters with selected color"
 msgstr ""
 
@@ -4507,305 +4567,310 @@ msgstr ""
 
 #. +> trunk5
 #: content/07_chat.md:11
-msgid "Show/Hide the instant messaging panel"
+msgid "[Video on YouTube](https://youtu.be/t8iAKKfH2E4)"
 msgstr ""
 
 #. +> trunk5
 #: content/07_chat.md:13
+msgid "Show/Hide the instant messaging panel"
+msgstr ""
+
+#. +> trunk5
+#: content/07_chat.md:15
 msgid "Since Rolisteam v1.10, the instant message panel can be open from this <img src=\"/images/pictos/chaticon.svg\" class=\"icon\" /> in the toolbar of **Rolisteam**."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:19
+#: content/07_chat.md:21
 msgid "Send Messages"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:21
+#: content/07_chat.md:23
 msgid "As you can expect, you can type your message in the bottom part, and press `Enter` or click on `send`."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:23
+#: content/07_chat.md:25
 msgid "![icon](/images/im/chat_sendmessage.apng)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:25
+#: content/07_chat.md:27
 msgid "Send Images"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:27
+#: content/07_chat.md:29
 msgid "If you send an image's URL, the image will appear on the screen."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:29
+#: content/07_chat.md:31
 msgid "![image](/images/im/send_image.apng)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:31
+#: content/07_chat.md:33
 msgid "It must be an image, the URL must end with image extension: `.jpg`, `.png`, `.bmp`…"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:33
+#: content/07_chat.md:35
 msgid "Send Links"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:35
+#: content/07_chat.md:37
 msgid "If you send a URL, it will become clickable. Clicking on it, open the website in Rolisteam's web page."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:38
+#: content/07_chat.md:40
 msgid "![clickLink](/images/im/clickLink.apng)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:40
+#: content/07_chat.md:42
 msgid "Default Chatrooms"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:42
+#: content/07_chat.md:44
 msgid "At start up, **Rolisteam** adds automatically several chatrooms. The first chatroom is always the **Global** chatroom where all players and the Game Master talk together. Then, follows one to one chatrooms."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:46
+#: content/07_chat.md:48
 msgid "Default chatrooms can't be closed."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:48
+#: content/07_chat.md:50
 msgid "Global chatroom"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:50
+#: content/07_chat.md:52
 msgid "This chatroom brings together everyone. When new person connect to the server it is automatically added to the global chatroom."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:52
+#: content/07_chat.md:54
 msgid "One to One chatroom"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:54
+#: content/07_chat.md:56
 msgid "**Rolisteam** prepares one to one chatrooms. When you want to chat with only one person is the best way to do it."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:56
+#: content/07_chat.md:58
 msgid "Add new chatroom"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:58
+#: content/07_chat.md:60
 msgid ""
 "To add a chatroom, go to `settings > Add chatroom`.<br />"
 "A dialog will appear. From it, you can set the name of your new chatroom, and select who are participant of this chatroom. If you select All, all players will be involved, even ones who are not yet in the game. **Rolisteam** makes sure that all in-game players will receive the messages. Then, you can allow or deny the new chatroom per in-game player."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:63
+#: content/07_chat.md:65
 msgid "![clickLink](/images/im/add_chatroom.apng)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:65
+#: content/07_chat.md:67
 msgid "Added chatrooms can be closed, using the corner cross."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:68
+#: content/07_chat.md:70
 msgid "Roll Dice"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:72
+#: content/07_chat.md:74
 msgid "To roll dice command, you must prefix your command with `!`. The result is displayed in frame. You can see the details by clicking on the symbol on the right."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:75
+#: content/07_chat.md:77
 msgid "3D Dice"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:77
+#: content/07_chat.md:79
 msgid "When someone has rolled dice using the 3D dice system. The result will appear like that:"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:81
+#: content/07_chat.md:83
 msgid "As 3D Dice is a new feature, we prefer notify players that it has been used. We display some metrics in order to make sure the dice rolled enough. The higher the numbers are, the best it is."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:85
+#: content/07_chat.md:87
 msgid "**Distance** made by the dice between the press and release button of the mouse."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:86
+#: content/07_chat.md:88
 msgid "**Time** in second for the system to stabilize"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:87
+#: content/07_chat.md:89
 msgid "**Rotation** : sum of rotation changes on the dice."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:91
+#: content/07_chat.md:93
 msgid "Change Chatroom layout"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:93
+#: content/07_chat.md:95
 msgid "By default, chatroom are displayed using tab. Only one chatroom is visible at the time. You can change that. The contextual menu offers all features around chatroom's layout."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:97
+#: content/07_chat.md:99
 msgid "How to see two chatroom at the same time"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:99
+#: content/07_chat.md:101
 msgid "On the contextual menu, you must click on `Split XXXX` (where XXXX is the name of the current chatroom)."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:101
+#: content/07_chat.md:103
 msgid "![split_screen](/images/im/split_screen.apng)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:103
+#: content/07_chat.md:105
 msgid "Move a chatroom"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:105
+#: content/07_chat.md:107
 msgid "When you have two (or more) groups of chatroom, you can move chatroom from one group to another. Group with no chatroom are automatically closed."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:108
+#: content/07_chat.md:110
 msgid "![move_left_right](/images/im/move_chatroom.apng)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:110
+#: content/07_chat.md:112
 msgid "Merge group into the main one"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:112
+#: content/07_chat.md:114
 msgid "Merge means to move the chatroom to the main one. Group with no chatroom are automatically closed."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:115
+#: content/07_chat.md:117
 msgid "![merge](/images/im/merge_chatroom.apng)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:117
+#: content/07_chat.md:119
 msgid "Chatroom Menu"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:120
+#: content/07_chat.md:122
 msgid ""
 "On the top-right corner, you can see a <img src=\"/images/pictos/list.svg\" class=\"icon\" alt=\"list\"/>.<br />"
 "This menu appears:"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:123
+#: content/07_chat.md:125
 msgid "![image](/images/im/im_00_16-43-53.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:128
+#: content/07_chat.md:130
 msgid "1. Settings"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:130
+#: content/07_chat.md:132
 msgid "![image](/images/im/im_00_03-57-48.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:132 content/21_mindmap.md:28 content/21_mindmap.md:163
+#: content/07_chat.md:134 content/21_mindmap.md:30 content/21_mindmap.md:165
 msgid "Dark mode"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:133 content/18_minutes_editor.md:28
+#: content/07_chat.md:135 content/18_minutes_editor.md:28
 msgid "Font Size"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:134
+#: content/07_chat.md:136
 msgid "Sound Notification"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:136
+#: content/07_chat.md:138
 msgid "![settings](/images/im/settings.apng)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:138
+#: content/07_chat.md:140
 msgid "Settings are strictly local. Your players won't receive your changes."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:140
+#: content/07_chat.md:142
 msgid "2. Add chatroom"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:142
+#: content/07_chat.md:144
 msgid "Here, the popup to select who you want in this additional chatroom."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:144
+#: content/07_chat.md:146
 msgid "![image](/images/im/im_00_04-24-15.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:146
+#: content/07_chat.md:148
 msgid "(PS: manually creating a chatroom with another person is available, even if you already have a dedicated chatroom to talk to him/her)"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:148
+#: content/07_chat.md:150
 msgid "3. Reset To default View"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:150
+#: content/07_chat.md:152
 msgid "Reset the whole layout. All chatrooms return to the main group."
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:152
+#: content/07_chat.md:154
 msgid "4. Detach"
 msgstr ""
 
 #. +> trunk5
-#: content/07_chat.md:154
+#: content/07_chat.md:156
 msgid "Detach the instant messaging window. Then you can put it outside **Rolisteam**."
 msgstr ""
 
@@ -5501,7 +5566,7 @@ msgid "By default, `fit window` is enabled. In this configuration, **Rolisteam**
 msgstr ""
 
 #. +> trunk5
-#: content/12_images.md:64 content/34_dice3d.md:31
+#: content/12_images.md:64 content/34_dice3d.md:33
 msgid "Action"
 msgstr ""
 
@@ -6070,7 +6135,7 @@ msgid "Shift Left/Right selected text"
 msgstr ""
 
 #. +> trunk5
-#: content/19_sharedNotes.md:28 content/21_mindmap.md:179
+#: content/19_sharedNotes.md:28 content/21_mindmap.md:181
 msgid "Permission"
 msgstr ""
 
@@ -6176,46 +6241,51 @@ msgstr ""
 
 #. +> trunk5
 #: content/20_pdf.md:10
-msgid "Load PDF in rolisteam."
+msgid "[Video on YouTube](https://youtu.be/rRrQwUmLUp0)"
 msgstr ""
 
 #. +> trunk5
 #: content/20_pdf.md:12
+msgid "Load PDF in rolisteam."
+msgstr ""
+
+#. +> trunk5
+#: content/20_pdf.md:14
 msgid "![pdf1](/images/pdf/pdf1.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:14 content/20_webpage.md:11
+#: content/20_pdf.md:16 content/20_webpage.md:11
 msgid "Open"
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:16
+#: content/20_pdf.md:18
 msgid "From menu"
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:18
+#: content/20_pdf.md:20
 msgid "Open up PDF file is easy. Just click on `file > open > PDF`. Then select your file on your computer."
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:21
+#: content/20_pdf.md:23
 msgid "Drag and drop"
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:23
+#: content/20_pdf.md:25
 msgid "Just drag and drop any **PDF** file into **Rolisteam** then the file is displayed."
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:26
+#: content/20_pdf.md:28
 msgid "Select zone and share it as Image:"
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:28
+#: content/20_pdf.md:30
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/pdf/pdf2.webm\" type=\"video/webm\" />\n"
@@ -6223,17 +6293,17 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:32
+#: content/20_pdf.md:34
 msgid "You have to select, copy and paste the image. Select and copy from the PDF and paste it into the main window. You can also paste it into map or mind map."
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:36
+#: content/20_pdf.md:38
 msgid "Share PDF"
 msgstr ""
 
 #. +> trunk5
-#: content/20_pdf.md:38
+#: content/20_pdf.md:40
 msgid "**Rolisteam** provides PDF sharing features. You can share the whole document by clicking on: ![pdf1](/images/pictos/share_doc.svg). Be careful, sharing a PDF can be really long with heavy file."
 msgstr ""
 
@@ -8123,137 +8193,142 @@ msgid "Dice Roller"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:10 content/21_mindmap.md:165
+#: content/21_mindmap.md:10
+msgid "[Video on YouTube](https://youtu.be/3dkokPLlre8)"
+msgstr ""
+
+#. +> trunk5
+#: content/21_mindmap.md:12 content/21_mindmap.md:167
 msgid "![mindmap](/images/mindmap/mindmap3.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:12
+#: content/21_mindmap.md:14
 msgid "**Mind map** helps you to structure your thoughts. A really powerful tool to summarize relationship between items: Characters, places, objects or factions. Graphical and intuitive way to modelize a story."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:18
+#: content/21_mindmap.md:20
 msgid "Add/remove node"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:19
+#: content/21_mindmap.md:21
 msgid "Link between nodes"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:20
+#: content/21_mindmap.md:22
 msgid "Node Customization: color"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:21
+#: content/21_mindmap.md:23
 msgid "Packages"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:22
+#: content/21_mindmap.md:24
 msgid "Label on nodes, links and packages"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:23
+#: content/21_mindmap.md:25
 msgid "Automatic spacing"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:24
+#: content/21_mindmap.md:26
 msgid "Add Image to node"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:25
+#: content/21_mindmap.md:27
 msgid "Tags to node"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:26
+#: content/21_mindmap.md:28
 msgid "Permission management"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:27
+#: content/21_mindmap.md:29
 msgid "Sharing management"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:29
+#: content/21_mindmap.md:31
 msgid "Hide link label"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:30
+#: content/21_mindmap.md:32
 msgid "Hide empty link label"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:31
+#: content/21_mindmap.md:33
 msgid "Mini mind map"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:32
+#: content/21_mindmap.md:34
 msgid "Zoom level"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:34
+#: content/21_mindmap.md:36
 msgid "New Mindmap"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:36
+#: content/21_mindmap.md:38
 msgid "To add mind map to the workspace, just click on main menu: `File > New > Mindmap`."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:38
+#: content/21_mindmap.md:40
 msgid "Then set the mind map name. ![mind map](/images/mindmap/mindmap1.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:41
+#: content/21_mindmap.md:43
 msgid "Finally, you will see the empty mindmap. ![mind map](/images/mindmap/mindmap1b.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:44
+#: content/21_mindmap.md:46
 msgid "Add root node"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:46
+#: content/21_mindmap.md:48
 msgid "Open the contextual menu by right-click on the mind map"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:48
+#: content/21_mindmap.md:50
 msgid "![mind map](/images/mindmap/contextualmenu1.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:50
+#: content/21_mindmap.md:52
 msgid "Click on **Add Root**, the first item of the contextual menu. Alternatively, clicking on the **Add node** button from the button grid (more details below)."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:53
+#: content/21_mindmap.md:55
 msgid "Demos"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:55
+#: content/21_mindmap.md:57
 msgid "Global"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:57
+#: content/21_mindmap.md:59
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/mindmap/starwars.webm\" type=\"video/webm\" />\n"
@@ -8261,27 +8336,27 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:62
+#: content/21_mindmap.md:64
 msgid "Final result:"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:64
+#: content/21_mindmap.md:66
 msgid "![mind map](/images/mindmap/mindmap2.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:66
+#: content/21_mindmap.md:68
 msgid "Add child node"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:68
+#: content/21_mindmap.md:70
 msgid "To add child node, you need to **click on the blue vertical bar** on the right of the parent node."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:70
+#: content/21_mindmap.md:72
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/mindmap/create_subitem2.webm\" type=\"video/webm\" />\n"
@@ -8289,17 +8364,17 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:74
+#: content/21_mindmap.md:76
 msgid "Edit Label"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:76
+#: content/21_mindmap.md:78
 msgid "Just **double-click** in the center of the node, to start editing the label."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:78
+#: content/21_mindmap.md:80
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/mindmap/editlabel.webm\" type=\"video/webm\" />\n"
@@ -8307,17 +8382,17 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:82
+#: content/21_mindmap.md:84
 msgid "Hide child"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:84
+#: content/21_mindmap.md:86
 msgid "**Click on the triangle** at the bottom of the node to show or hide all children."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:86
+#: content/21_mindmap.md:88
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/mindmap/hide_child.webm\" type=\"video/webm\" />\n"
@@ -8325,17 +8400,17 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:90
+#: content/21_mindmap.md:92
 msgid "Show Menu"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:92
+#: content/21_mindmap.md:94
 msgid "**Click in the top-right corner** button to show the menu."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:94
+#: content/21_mindmap.md:96
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/mindmap/showMenu.webm\" type=\"video/webm\" />\n"
@@ -8343,17 +8418,17 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:98 content/34_dice3d.md:64
+#: content/21_mindmap.md:100 content/34_dice3d.md:66
 msgid "Change Color"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:100
+#: content/21_mindmap.md:102
 msgid "**Click in the top-right corner** button to show the menu then select the color you want. The change only affects the current node."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:103
+#: content/21_mindmap.md:105
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/mindmap/changecolor.webm\" type=\"video/webm\" />\n"
@@ -8361,17 +8436,17 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:107
+#: content/21_mindmap.md:109
 msgid "Parenting"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:109
+#: content/21_mindmap.md:111
 msgid "Select **parenting tool from the grid** menu, then **click on the parent** and finally **click on the child**."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:111
+#: content/21_mindmap.md:113
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/mindmap/parenting.webm\" type=\"video/webm\" />\n"
@@ -8379,17 +8454,17 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:115
+#: content/21_mindmap.md:117
 msgid "Reparenting"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:117
+#: content/21_mindmap.md:119
 msgid "Select an item, then **press Ctrl and drag** the item to its new parent."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:119
+#: content/21_mindmap.md:121
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/mindmap/reparenting.webm\" type=\"video/webm\" />\n"
@@ -8397,17 +8472,17 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:123
+#: content/21_mindmap.md:125
 msgid "Add Node to Package"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:125
+#: content/21_mindmap.md:127
 msgid "Select an item, then **press Ctrl and drag** the item to the package."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:127
+#: content/21_mindmap.md:129
 msgid ""
 "<video controls>\n"
 "<source src=\"/images/mindmap/addToPackage.webm\" type=\"video/webm\" />\n"
@@ -8415,217 +8490,217 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:131
+#: content/21_mindmap.md:133
 msgid "Grid Menu"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:133
+#: content/21_mindmap.md:135
 msgid "In the top right corner, there are many buttons. Let's call that the grid menu."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:138
+#: content/21_mindmap.md:140
 msgid "<img class=\"icon\" src=\"/images/pictos/undo.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:138
+#: content/21_mindmap.md:140
 msgid "Undo: undo latest action"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:139
+#: content/21_mindmap.md:141
 msgid "<img class=\"icon\" src=\"/images/pictos/redo.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:139
+#: content/21_mindmap.md:141
 msgid "Redo: redo latest undo action"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:140
+#: content/21_mindmap.md:142
 msgid "<img class=\"icon\" src=\"/images/pictos/save2.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:140
+#: content/21_mindmap.md:142
 msgid "Save: save map on file system"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:141
+#: content/21_mindmap.md:143
 msgid "<img class=\"icon\" src=\"/images/pictos/list.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:141
+#: content/21_mindmap.md:143
 msgid "Settings: Show settings panel"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:142
+#: content/21_mindmap.md:144
 msgid "<img class=\"icon\" src=\"/images/pictos/addnode.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:142
+#: content/21_mindmap.md:144
 msgid "Add node to the mind map"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:143
+#: content/21_mindmap.md:145
 msgid "<img class=\"icon\" src=\"/images/pictos/edit.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:143
+#: content/21_mindmap.md:145
 msgid "Add package to the mind map"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:144
+#: content/21_mindmap.md:146
 msgid "<img class=\"icon\" src=\"/images/pictos/addGrayArrow.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:144
+#: content/21_mindmap.md:146
 msgid "Add link between two nodes"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:145
+#: content/21_mindmap.md:147
 msgid "<img class=\"icon\" src=\"/images/pictos/trash.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:145
+#: content/21_mindmap.md:147
 msgid "Delete: delete all selected nodes"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:146
+#: content/21_mindmap.md:148
 msgid "<img class=\"icon\" src=\"/images/pictos/refresh.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:146
+#: content/21_mindmap.md:148
 msgid "Refresh: request refresh data (from server)"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:147
+#: content/21_mindmap.md:149
 msgid "<img class=\"icon\" src=\"/images/pictos/export.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:147
+#: content/21_mindmap.md:149
 msgid "Export as PNG"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:148
+#: content/21_mindmap.md:150
 msgid "<img class=\"icon\" src=\"/images/pictos/littlemap.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:148
+#: content/21_mindmap.md:150
 msgid "Hide Small map"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:149
+#: content/21_mindmap.md:151
 msgid "<img class=\"icon\" src=\"/images/pictos/spacing.svg\"/>"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:149
+#: content/21_mindmap.md:151
 msgid "Auto spacing: enable the auto spacing between nodes"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:153
+#: content/21_mindmap.md:155
 msgid "![settings](/images/mindmap/mindmapmenu.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:157
+#: content/21_mindmap.md:159
 msgid "Set or change the name of the current map."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:159
+#: content/21_mindmap.md:161
 msgid "UI Mode"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:161
+#: content/21_mindmap.md:163
 msgid "You can select the style of document."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:163
+#: content/21_mindmap.md:165
 msgid "Light Mode"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:165
+#: content/21_mindmap.md:167
 msgid "![mind map](/images/mindmap/mindmap4.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:167
+#: content/21_mindmap.md:169
 msgid "Link label visible"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:169
+#: content/21_mindmap.md:171
 msgid "Hide or show all link label. With complex mind map, it is sometime easy to read the map without link label."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:171
+#: content/21_mindmap.md:173
 msgid "Hide empty label"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:173
+#: content/21_mindmap.md:175
 msgid "Hide label when they are empty."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:175
+#: content/21_mindmap.md:177
 msgid "Default style"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:177
+#: content/21_mindmap.md:179
 msgid "Define the style used for all new nodes."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:181
+#: content/21_mindmap.md:183
 msgid "Share the mind map to players. You can specify permission globally or per player."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:184
+#: content/21_mindmap.md:186
 msgid "Search"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:186
+#: content/21_mindmap.md:188
 msgid "Search for node. The search is based on name, description and tag."
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:188
+#: content/21_mindmap.md:190
 msgid "Node List"
 msgstr ""
 
 #. +> trunk5
-#: content/21_mindmap.md:190
+#: content/21_mindmap.md:192
 msgid "List all nodes which fulfill the current search. No search, all nodes are displayed."
 msgstr ""
 
@@ -9615,42 +9690,92 @@ msgstr ""
 
 #. +> trunk5
 #: content/25_news_stable.md:40
-msgid "Refactoring and Quality"
+msgid "## Connection Dialog"
 msgstr ""
 
 #. +> trunk5
 #: content/25_news_stable.md:42
-msgid "Architecture changes"
+msgid "Manages Profile picture for Player and Character."
 msgstr ""
 
 #. +> trunk5
 #: content/25_news_stable.md:44
-msgid "Unit tests"
+msgid "Refactoring and Quality"
 msgstr ""
 
 #. +> trunk5
 #: content/25_news_stable.md:46
-msgid "Auto test"
+msgid "Migrate to Qt6."
 msgstr ""
 
 #. +> trunk5
-#: content/25_news_stable.md:48
-msgid "## Code coverage"
+#: content/25_news_stable.md:47
+msgid "Integration to KDE CI"
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:49
+msgid "Architecture changes"
 msgstr ""
 
 #. +> trunk5
 #: content/25_news_stable.md:51
-msgid "Removal"
+msgid "Build system (from QMake to CMake)"
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:52
+msgid "Split between view and logic"
 msgstr ""
 
 #. +> trunk5
 #: content/25_news_stable.md:53
-msgid "Old map system"
+msgid "Using updater for network communication"
 msgstr ""
 
 #. +> trunk5
 #: content/25_news_stable.md:55
-msgid "## Old instant messaging system"
+msgid "tests"
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:57
+msgid "Wrote several unit tests."
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:58
+msgid "Unit tests cover around 70% of the code."
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:59
+msgid "Add standalone app to test some feature faster: mindmap, battlemap, instant messaging…"
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:60
+msgid "Implement validation test."
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:62
+msgid "Removal"
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:64
+msgid "Old map system"
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:65
+msgid "Old instant messaging system"
+msgstr ""
+
+#. +> trunk5
+#: content/25_news_stable.md:66
+msgid "Old profile selector dialog"
 msgstr ""
 
 #. +> trunk5
@@ -9719,122 +9844,127 @@ msgid "Install"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:44
+#: content/26_build_from_source.md:43
+msgid "If you want to install the server only:"
+msgstr ""
+
+#. +> trunk5
+#: content/26_build_from_source.md:47
 msgid "Useful CMake options"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:46
+#: content/26_build_from_source.md:49
 msgid "Option"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:48
+#: content/26_build_from_source.md:51
 msgid "-DCMAKE_PREFIX_PATH:PATH"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:48
+#: content/26_build_from_source.md:51
 msgid "Path to Qt6 installation - e.g: `/path/to/qt/6.10.0/gcc_64`"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:49
+#: content/26_build_from_source.md:52
 msgid "-DCMAKE_C_COMPILER:FILEPATH"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:49
+#: content/26_build_from_source.md:52
 msgid "Path to c compiler - e.g: `/bin/gcc`"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:50
+#: content/26_build_from_source.md:53
 msgid "-DCMAKE_CXX_COMPILER:FILEPATH"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:50
+#: content/26_build_from_source.md:53
 msgid "Path to cpp compiler - e.g: `/bin/g++`"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:51
+#: content/26_build_from_source.md:54
 msgid "-DQT_QMAKE_EXECUTABLE:FILEPATH"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:51
+#: content/26_build_from_source.md:54
 msgid "Path to QMake in qt6 install folder - e.g: `/path/to/qt/6.10.0/gcc_64/bin/qmake`"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:52
+#: content/26_build_from_source.md:55
 msgid "-DCMAKE_BUILD_TYPE:STRING"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:52
+#: content/26_build_from_source.md:55
 msgid "Debug or Release"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:53
+#: content/26_build_from_source.md:56
 msgid "-DBUILD_TESTING:BOOL"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:53
+#: content/26_build_from_source.md:56
 msgid "ON or OFF - build unit tests"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:54
+#: content/26_build_from_source.md:57
 msgid "-DCODE_COVERAGE:BOOL"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:54
+#: content/26_build_from_source.md:57
 msgid "ON or OFF - Generate code coverage info after running tests"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:55
+#: content/26_build_from_source.md:58
 msgid "-DUPDATE_TRANSLATIONS:BOOL"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:55
+#: content/26_build_from_source.md:58
 msgid "ON or OFF - Update translation file"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:58
+#: content/26_build_from_source.md:61
 msgid "Create Installer"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:61
+#: content/26_build_from_source.md:64
 msgid "MacOS"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:63
+#: content/26_build_from_source.md:66
 msgid "WARNING : OUT OF DATE"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:65
+#: content/26_build_from_source.md:68
 msgid "Copy/paste rolisteam.app into packaging/MacOs"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:66
+#: content/26_build_from_source.md:69
 msgid "Run installZlib.sh"
 msgstr ""
 
 #. +> trunk5
-#: content/26_build_from_source.md:67
+#: content/26_build_from_source.md:70
 msgid "appdmg nodedmg.json rolisteam_v1.7.1-MacOsX_setup.dmg"
 msgstr ""
 
@@ -9905,156 +10035,161 @@ msgstr ""
 
 #. +> trunk5
 #: content/34_dice3d.md:9
+msgid "[Video on Youtube](https://youtu.be/d18iqq4eNFw)"
+msgstr ""
+
+#. +> trunk5
+#: content/34_dice3d.md:11
 msgid "![image](/images/dice3d/screen1.png)"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:13
+#: content/34_dice3d.md:15
 msgid "Roll dice from mouse move"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:14
+#: content/34_dice3d.md:16
 msgid "Manage all types of physical dice commonly use in RPG [d4,d6,d8,d10,d12,d20,d100]"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:15
+#: content/34_dice3d.md:17
 msgid "Adjust dice's size"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:16
+#: content/34_dice3d.md:18
 msgid "Adjust dice color (on new ones only)"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:17
+#: content/34_dice3d.md:19
 msgid "Add as many dice as you need/want"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:18
+#: content/34_dice3d.md:20
 msgid "Manage dice selection"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:19
+#: content/34_dice3d.md:21
 msgid "Collide detection"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:20
+#: content/34_dice3d.md:22
 msgid "Share result in 3D (must be activated)"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:21
+#: content/34_dice3d.md:23
 msgid "Auto computation of result value (and display it in the global chatroom)"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:22 content/34_dice3d.md:33
+#: content/34_dice3d.md:24 content/34_dice3d.md:35
 msgid "Select All"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:23
+#: content/34_dice3d.md:25
 msgid "Unselect all"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:24 content/34_dice3d.md:36
+#: content/34_dice3d.md:26 content/34_dice3d.md:38
 msgid "Remove all dice"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:25
+#: content/34_dice3d.md:27
 msgid "Reset colors and parameters"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:26 content/34_dice3d.md:70
+#: content/34_dice3d.md:28 content/34_dice3d.md:72
 msgid "Selection by zone"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:28 content/34_dice3d.md:31
+#: content/34_dice3d.md:30 content/34_dice3d.md:33
 msgid "Shortcut"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:33
+#: content/34_dice3d.md:35
 msgid "<img class=\"icon\" src=\"/images/dice3d/selectall.svg\" />"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:33
+#: content/34_dice3d.md:35
 msgid "System's Standard, often: `Ctrl+A`"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:34
+#: content/34_dice3d.md:36
 msgid "<img class=\"icon\" src=\"/images/dice3d/removeSelect.svg\" />"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:34
+#: content/34_dice3d.md:36
 msgid "Unselect All"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:34
+#: content/34_dice3d.md:36
 msgid "`Ctrl+Shift+A`"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:35
+#: content/34_dice3d.md:37
 msgid "<img class=\"icon\" src=\"/images/dice3d/selectRect.svg\" />"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:35
+#: content/34_dice3d.md:37
 msgid "Rectangular Selection"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:35
+#: content/34_dice3d.md:37
 msgid "`Ctrl+r`"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:36
+#: content/34_dice3d.md:38
 msgid "<img class=\"icon\" src=\"/images/dice3d/deleteall.svg\" />"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:36 content/34_dice3d.md:37
+#: content/34_dice3d.md:38 content/34_dice3d.md:39
 msgid "none"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:37
+#: content/34_dice3d.md:39
 msgid "<img class=\"icon\" src=\"/images/dice3d/resetSettings.svg\" />"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:37
+#: content/34_dice3d.md:39
 msgid "Reset color and size settings"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:40
+#: content/34_dice3d.md:42
 msgid "Demo"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:46
+#: content/34_dice3d.md:48
 msgid "Open or Hide"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:48
+#: content/34_dice3d.md:50
 msgid ""
 "<video controls>\n"
 "  <source src=\"/images/dice3d/open.webm\" type=\"video/webm\" />\n"
@@ -10062,12 +10197,12 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:52
+#: content/34_dice3d.md:54
 msgid "Change Size"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:54
+#: content/34_dice3d.md:56
 msgid ""
 "<video controls>\n"
 "  <source src=\"/images/dice3d/changeSize.webm\" type=\"video/webm\" />\n"
@@ -10075,12 +10210,12 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:58
+#: content/34_dice3d.md:60
 msgid "Add dice"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:60
+#: content/34_dice3d.md:62
 msgid ""
 "<video controls>\n"
 "  <source src=\"/images/dice3d/add.webm\" type=\"video/webm\" />\n"
@@ -10088,7 +10223,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:66
+#: content/34_dice3d.md:68
 msgid ""
 "<video controls>\n"
 "  <source src=\"/images/dice3d/changeColor.webm\" type=\"video/webm\" />\n"
@@ -10096,7 +10231,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:72
+#: content/34_dice3d.md:74
 msgid ""
 "<video controls>\n"
 "  <source src=\"/images/dice3d/selectionRect.webm\" type=\"video/webm\" />\n"
@@ -10104,112 +10239,112 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:76
+#: content/34_dice3d.md:78
 msgid "Dice Command"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:78
+#: content/34_dice3d.md:80
 msgid "Rolling 3D dice tries to give the exact same feeling that playing on a table, and rolling some dice. As **Rolisteam** is a software, it can do more than just simulate a real table. Computation can be done with the dice result."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:82
+#: content/34_dice3d.md:84
 msgid "Let's say, you must roll `!2d100+65`. Of course, you can run this command in the chatroom but in 3D, it's so much more fun. In the 3D panel, you add 2 d100. In the Dice command field, you add **+65**. Then, select your dice and roll them."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:87
+#: content/34_dice3d.md:89
 msgid "**Rolisteam** computes the value of your roll and adds 65 to it."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:89
+#: content/34_dice3d.md:91
 msgid "(As a reminder d100 can get this value: `[10,20,30,40,50,60,70,80,90,00]`, 00 means 100)."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:91
+#: content/34_dice3d.md:93
 msgid "Please, pay attention that the `+65` will be added for all next roll (except if you change or erase the value)."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:93
+#: content/34_dice3d.md:95
 msgid "How it works ?"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:95
+#: content/34_dice3d.md:97
 msgid "Dice3d is based on physical 3D engine to get the random value."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:97
+#: content/34_dice3d.md:99
 msgid "Known issues"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:99
+#: content/34_dice3d.md:101
 msgid "As **dice3d** is new in **Rolisteam**. There are few issues."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:101
+#: content/34_dice3d.md:103
 msgid "1. I can't click anywhere when the dice3d is active."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:103
+#: content/34_dice3d.md:105
 msgid "Yes, it is true for the version 1.10, it will be fixed in the future. There are many workarounds."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:105
+#: content/34_dice3d.md:107
 msgid "Don't forget to **hide** the dice3d panel when you have rolled some dice."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:106
+#: content/34_dice3d.md:108
 msgid "**Adjust the duration** of the timer (see upper on this page)."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:107
+#: content/34_dice3d.md:109
 msgid "Activate the dice3d as a **regular window** (see upper on this page)."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:108
+#: content/34_dice3d.md:110
 msgid "Final option, **disable dice3d** from the **preferences panel**."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:110
+#: content/34_dice3d.md:112
 msgid "2. When Dice3D is active, things are getting messy: static, slowness and so on…"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:112
+#: content/34_dice3d.md:114
 msgid "Your system doesn't allow window control programmatically. In this case, we suggest to **activate the dice3d as a regular window**. Then, it will be possible to move the window."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:116
+#: content/34_dice3d.md:118
 msgid "3. How to disable dice3D"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:118
+#: content/34_dice3d.md:120
 msgid "From **rolisteam** settings, you can hide the button. It will be impossible to open dice3d's panel by mistake."
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:121
+#: content/34_dice3d.md:123
 msgid "4. It takes too long to get the results"
 msgstr ""
 
 #. +> trunk5
-#: content/34_dice3d.md:123
+#: content/34_dice3d.md:125
 msgid "In some cases, the dice may have stopped on one value but the system still believes the dice is still rolling. Changing the size may help."
 msgstr ""
 
