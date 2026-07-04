@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-03 10:48+0200\n"
+"POT-Creation-Date: 2026-07-04 08:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -196,13 +196,13 @@ msgid "The following accounts are available:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/accountmanager.cpp:310
+#: core/accountmanager.cpp:342
 #, kde-format
 msgid "Invalid invite token"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/accountmanager.cpp:311
+#: core/accountmanager.cpp:343
 #, kde-format
 msgid "Invite Token is invalid. Creating account canceled."
 msgstr ""
@@ -1620,19 +1620,19 @@ msgid "Notify all in this room"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/messagesmodel.cpp:268
+#: core/model/messagesmodel.cpp:269
 #, kde-format
 msgid "Edited at %1 by %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/messagesmodel.cpp:432
+#: core/model/messagesmodel.cpp:436
 #, kde-format
 msgid "Ignored Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/messagesmodel.cpp:443
+#: core/model/messagesmodel.cpp:447
 #, kde-format
 msgid "Only you can see this message"
 msgstr ""
@@ -12063,13 +12063,13 @@ msgid "Link Preview"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:426
+#: widgets/room/delegate/messagelistdelegate.cpp:431
 #, kde-format
 msgid "User Info"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:436
+#: widgets/room/delegate/messagelistdelegate.cpp:441
 #: widgets/room/messagelistview.cpp:482
 #, kde-format
 msgctxt "@action"
@@ -12077,7 +12077,7 @@ msgid "Start a Private Conversation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:452
+#: widgets/room/delegate/messagelistdelegate.cpp:457
 #: widgets/room/messagelistview.cpp:590 widgets/room/messagelistview.cpp:650
 #, kde-format
 msgctxt "@action"
@@ -12085,7 +12085,7 @@ msgid "Show Original Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:452
+#: widgets/room/delegate/messagelistdelegate.cpp:457
 #: widgets/room/messagelistview.cpp:590 widgets/room/messagelistview.cpp:650
 #, kde-format
 msgctxt "@action"
@@ -12093,7 +12093,7 @@ msgid "Translate Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:690
+#: widgets/room/delegate/messagelistdelegate.cpp:706
 #, kde-format
 msgid "1 reply"
 msgid_plural "%1 replies"
@@ -12101,7 +12101,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:700
+#: widgets/room/delegate/messagelistdelegate.cpp:716
 #, kde-format
 msgid "1 message"
 msgid_plural "%1 messages"
@@ -12109,62 +12109,62 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:700
+#: widgets/room/delegate/messagelistdelegate.cpp:716
 #, kde-format
 msgid "No message yet"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:1019
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Following"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:1023
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Message has been pinned"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:1027
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Message has been starred"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:1031
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Message has a translated text"
 msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/room/delegate/messagelistdelegate.cpp:1035
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Reply in Thread"
+msgid "Following"
 msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/room/delegate/messagelistdelegate.cpp:1039
 #, kde-format
 msgctxt "@info:tooltip"
+msgid "Message has been pinned"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/room/delegate/messagelistdelegate.cpp:1043
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Message has been starred"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/room/delegate/messagelistdelegate.cpp:1047
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Message has a translated text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/room/delegate/messagelistdelegate.cpp:1051
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reply in Thread"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/room/delegate/messagelistdelegate.cpp:1055
+#, kde-format
+msgctxt "@info:tooltip"
 msgid "Add reaction"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:1045
+#: widgets/room/delegate/messagelistdelegate.cpp:1061
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Stop"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagelistdelegate.cpp:1045
+#: widgets/room/delegate/messagelistdelegate.cpp:1061
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Speak Text"
