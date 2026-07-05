@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-02 09:35+0200\n"
+"POT-Creation-Date: 2026-07-05 18:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -171,13 +171,13 @@ msgstr ""
 msgid "The requested item no longer exists"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: agentbase/resourcebase.cpp:1267
 #, kde-format
 msgid "Failed to fetch collection for collection sync."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: agentbase/resourcebase.cpp:1303
 #, kde-format
 msgid "Failed to fetch collection for collection attributes sync."
@@ -741,7 +741,7 @@ msgctxt "@action:button"
 msgid "Delete"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: quick/qml/AgentConfigurationForm.qml:100
 #, kde-format
 msgctxt "status message, progress percentage"
@@ -2756,34 +2756,28 @@ msgstr ""
 msgid "&Unsubscribe"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.cpp:123
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create new tag %1: %2"
 msgstr ""
 
-#. +> stable6
-#: widgets/tageditwidget.cpp:120
-#, kde-format
-msgid "Failed to create a new tag"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.cpp:130
 #, kde-format
 msgctxt "@info"
 msgid "Tag %1 successfully added"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.cpp:174
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Delete Tag  <resource>%1</resource>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.cpp:176
 #, kde-kuit-format
 msgctxt "@info"
@@ -2804,21 +2798,14 @@ msgctxt "@title:window"
 msgid "Delete Tag"
 msgstr ""
 
-#. +> stable6
-#: widgets/tageditwidget.cpp:120
-#, kde-format
-msgctxt "@title:window"
-msgid "An Error Occurred while Creating a New Tag"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.cpp:196
 #, kde-format
 msgctxt "@info"
 msgid "Failed to delete tag %1: %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.cpp:200
 #, kde-format
 msgctxt "@info"
@@ -2840,28 +2827,28 @@ msgid "Select tags that should be applied."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, newTagEdit)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.ui:55
 #, kde-format
 msgid "Enter the name for a new tag"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, newTagEdit)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.ui:58
 #, kde-format
 msgid "To create and select a new tag, enter a name for the new tag and then press the \"Create new tag\" button."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newTagButton)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.ui:68
 #, kde-format
 msgid "Create and select a new tag"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, newTagButton)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/tageditwidget.ui:71
 #, kde-format
 msgid "Press this button to create a new tag with the name specified in the adjacent line editor.  The new tag is automatically selected."
@@ -2996,52 +2983,4 @@ msgstr ""
 #: xml/xmldocument.cpp:302
 #, kde-format
 msgid "Unable to find collection %1"
-msgstr ""
-
-#. +> stable6
-#: widgets/agentactionmanager.cpp:36
-msgid "&New Agent Instance..."
-msgstr ""
-
-#. +> stable6
-#: widgets/agentactionmanager.cpp:37
-msgid "&Delete Agent Instance"
-msgstr ""
-
-#. +> stable6
-#: widgets/agentactionmanager.cpp:38
-msgid "&Configure Agent Instance"
-msgstr ""
-
-#. +> stable6
-#: widgets/agentactionmanager.cpp:54
-#, kde-format
-msgctxt "@title:window"
-msgid "New Agent Instance"
-msgstr ""
-
-#. +> stable6
-#: widgets/agentactionmanager.cpp:56
-#, kde-format
-msgid "Could not create agent instance: %1"
-msgstr ""
-
-#. +> stable6
-#: widgets/agentactionmanager.cpp:60
-#, kde-format
-msgctxt "@title:window"
-msgid "Agent Instance Creation Failed"
-msgstr ""
-
-#. +> stable6
-#: widgets/agentactionmanager.cpp:62
-#, kde-format
-msgctxt "@title:window"
-msgid "Delete Agent Instance?"
-msgstr ""
-
-#. +> stable6
-#: widgets/agentactionmanager.cpp:66
-#, kde-format
-msgid "Do you really want to delete the selected agent instance?"
 msgstr ""

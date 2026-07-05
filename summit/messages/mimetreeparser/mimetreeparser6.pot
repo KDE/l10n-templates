@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mimetreeparser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-03 10:48+0200\n"
+"POT-Creation-Date: 2026-07-05 18:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -112,7 +112,7 @@ msgctxt "list separator"
 msgid ", "
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/messagepart.cpp:97
 #, kde-format
 msgctxt "template for an unknown filename. %1 is an index, %2 is an extension"
@@ -138,19 +138,13 @@ msgstr ""
 msgid "Crypto plug-in \"%1\" could not decrypt the data."
 msgstr ""
 
-#. +> stable6
-#: core/messagepart.cpp:868
-#, kde-format
-msgid "Crypto plug-in \"%1\" cannot decrypt messages."
-msgstr ""
-
 #. +> trunk6 stable6
 #: core/messagepart.cpp:907
 #, kde-format
 msgid "Error: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/partmodel.cpp:409
 #, kde-format
 msgctxt "@info:status"
@@ -173,7 +167,7 @@ msgid_plural "The message is encrypted for the following recipients:"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/partmodel.cpp:649
 #, kde-format
 msgctxt "@info:status"
@@ -408,13 +402,6 @@ msgctxt "@action:inmenu"
 msgid "Import public key"
 msgstr ""
 
-#. +> stable6
-#: widgets/messageviewer.cpp:108
-#, kde-format
-msgctxt "Fallback when file has no name"
-msgid "unnamed"
-msgstr ""
-
 #. +> trunk6 stable6
 #: widgets/messageviewer.cpp:115
 #, kde-format
@@ -476,13 +463,13 @@ msgstr ""
 msgid "Encapsulated email"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewer.cpp:307 widgets/messageviewer.cpp:309
 #, kde-format
 msgid "Subject:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewer.cpp:307
 #, kde-format
 msgctxt "Email has no subject"
@@ -495,7 +482,7 @@ msgstr ""
 msgid "From:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewer.cpp:314
 #, kde-format
 msgctxt "@status missing from:, an unknown author"
@@ -520,7 +507,7 @@ msgstr ""
 msgid "&From:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewer.cpp:387
 #, kde-format
 msgctxt "@status missing from:, an unknown author"
@@ -613,13 +600,6 @@ msgctxt "@action:button"
 msgid "Use Fixed Font"
 msgstr ""
 
-#. +> stable6
-#: widgets/messageviewerdialog.cpp:144 widgets/messageviewerwindow.cpp:195
-#, kde-format
-msgctxt "Accepted files in a file dialog. You only need to translate 'file'"
-msgid "EML file (*.eml);;MBOX file (*.mbox);;MIME file (*.mime)"
-msgstr ""
-
 #. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:154
 #, kde-format
@@ -627,70 +607,49 @@ msgctxt "window title if email subject is empty"
 msgid "(No Subject)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:162
 #, kde-format
 msgctxt "@title:window if there's no email to display"
 msgid "(No Message)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:177
 #, kde-kuit-format
 msgctxt "@info"
 msgid "No messages to display."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:179
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Unable to read the file <filename>%1</filename>, or the file doesn't contain any messages."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:246
 #, kde-format
 msgctxt "@info"
 msgid "File %1 could not be created."
 msgstr ""
 
-#. +> stable6
-#: widgets/messageviewerdialog.cpp:155 widgets/messageviewerwindow.cpp:206
-#, kde-format
-msgid "File %1 could not be created."
-msgstr ""
-
-#. +> stable6
-#: widgets/messageviewerdialog.cpp:172 widgets/messageviewerwindow.cpp:223
-#, kde-format
-msgctxt "Error message"
-msgid "File %1 could not be created."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:246 widgets/messageviewerbase_p.cpp:252
 #, kde-format
 msgctxt "@title:window"
 msgid "Error Saving Message"
 msgstr ""
 
-#. +> stable6
-#: widgets/messageviewerdialog.cpp:155 widgets/messageviewerdialog.cpp:172
-#: widgets/messageviewerwindow.cpp:206 widgets/messageviewerwindow.cpp:223
-#, kde-format
-msgctxt "@title:window"
-msgid "Error saving message"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:252
 #, kde-format
 msgctxt "@info"
 msgid "File %1 could not be written."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:266 widgets/messageviewerbase_p.cpp:300
 #, kde-format
 msgctxt "@title:window"
@@ -704,60 +663,32 @@ msgctxt "File dialog accepted files"
 msgid "Email files (*.eml *.mbox *.mime)"
 msgstr ""
 
-#. +> stable6
-#: widgets/messageviewerdialog.cpp:138 widgets/messageviewerdialog.cpp:168
-#, kde-format
-msgctxt "File dialog accepted files"
-msgid "EML file (*.eml);;MBOX file (*.mbox);;MIME file (*.mime)"
-msgstr ""
-
-#. +> stable6
-#: widgets/messageviewerdialog.cpp:140 widgets/messageviewerwindow.cpp:191
-#, kde-format
-msgctxt "File dialog accepted files"
-msgid "Encrypted S/MIME files (*.p7m)"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:284
 #, kde-format
 msgctxt "@info"
 msgid "The message doesn't seem to be encrypted. Saving the original message."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:290
 #, kde-format
 msgctxt "@info"
 msgid "Some parts of the message could not be decrypted. Save partially decrypted message?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:291
 #, kde-format
 msgctxt "@info"
 msgid "Decryption failed"
 msgstr ""
 
-#. +> stable6
-#: widgets/messageviewerdialog.cpp:255
-#, kde-format
-msgctxt "@info"
-msgid "Unable to read file"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerbase_p.cpp:300
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Decrypted Message"
-msgstr ""
-
-#. +> stable6
-#: widgets/messageviewerdialog.cpp:166 widgets/messageviewerwindow.cpp:217
-#, kde-format
-msgctxt "@title:window"
-msgid "Save Decrypted File"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -774,13 +705,6 @@ msgctxt "@title:window"
 msgid "Print Preview"
 msgstr ""
 
-#. +> stable6
-#: widgets/messageviewerdialog.cpp:149 widgets/messageviewerwindow.cpp:200
-#, kde-format
-msgctxt "@title:window"
-msgid "Save File"
-msgstr ""
-
 #. +> trunk6 stable6
 #: widgets/messageviewerdialog.cpp:42 widgets/messageviewerwindow.cpp:35
 #, kde-format
@@ -788,7 +712,7 @@ msgctxt "@action:inmenu"
 msgid "&File"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/messageviewerdialog.cpp:49
 #, kde-format
 msgctxt "@action:inmenu"

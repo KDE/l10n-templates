@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkleo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-18 08:49+0200\n"
+"POT-Creation-Date: 2026-07-05 18:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2469,7 +2469,7 @@ msgctxt "@title:window"
 msgid "Security approval"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/newkeyapprovaldialog.cpp:296
 #, kde-format
 msgctxt "@title:group"
@@ -2483,14 +2483,7 @@ msgctxt "@option:radio"
 msgid "OpenPGP"
 msgstr ""
 
-#. +> stable6
-#: ui/newkeyapprovaldialog.cpp:306
-#, kde-format
-msgctxt "@option:check"
-msgid "OpenPGP"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/newkeyapprovaldialog.cpp:303
 #, kde-kuit-format
 msgctxt "@info:tooltip"
@@ -2504,42 +2497,35 @@ msgctxt "@option:radio"
 msgid "S/MIME"
 msgstr ""
 
-#. +> stable6
-#: ui/newkeyapprovaldialog.cpp:307
-#, kde-format
-msgctxt "@option:check"
-msgid "S/MIME"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/newkeyapprovaldialog.cpp:310
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Compose the message in S/MIME format. This implies that only S/MIME encryption keys can be selected."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/newkeyapprovaldialog.cpp:315
 #, kde-format
 msgctxt "@option:radio"
 msgid "Both OpenPGP and S/MIME"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/newkeyapprovaldialog.cpp:318
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Compose two separate messages, one encrypted for recipients with OpenPGP keys, and another for recipients with S/MIME keys. This allows to mix both types of keys, but may make it more difficult for recipients to reply to all addressees."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/newkeyapprovaldialog.cpp:330
 #, kde-format
 msgctxt "@info"
 msgid "The message will be composed in OpenPGP format."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/newkeyapprovaldialog.cpp:331
 #, kde-format
 msgctxt "@info"
@@ -2591,25 +2577,18 @@ msgctxt "@info:tooltip for not selecting a key for signing."
 msgid "The email will not be cryptographically signed."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/newkeyapprovaldialog.cpp:558
 #, kde-format
 msgctxt "@title:group"
 msgid "Sign as:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/newkeyapprovaldialog.cpp:559
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Signing your message provides cryptographic confirmation that you really are the sender of this message."
-msgstr ""
-
-#. +> stable6
-#: ui/newkeyapprovaldialog.cpp:580
-#, kde-format
-msgctxt "Caption for signing key selection"
-msgid "Confirm identity '%1' as:"
 msgstr ""
 
 #. +> trunk6 stable6

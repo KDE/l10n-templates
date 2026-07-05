@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-29 07:58+0200\n"
+"POT-Creation-Date: 2026-07-05 18:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -205,7 +205,7 @@ msgid "Linux Swap:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_38)
-#. +> trunk6
+#. +> trunk6 stable6
 #: config/configurepagefilesystemcolors.ui:348
 #, kde-format
 msgid "FreeBSD Swap:"
@@ -554,46 +554,32 @@ msgctxt "@info:progress"
 msgid "Setting up..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Stopping now may cause data loss or drive errors."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Stop Running Operations"
 msgstr ""
 
-#. +> stable6
-#: gui/applyprogressdialog.cpp:191
-#, kde-kuit-format
-msgctxt "@title:window"
-msgid "Cancel Running Operations"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Stop Anyway"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Keep Running"
-msgstr ""
-
-#. +> stable6
-#: gui/applyprogressdialog.cpp:191
-#, kde-kuit-format
-msgctxt "@action:button"
-msgid "Yes, Cancel Operations"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -658,13 +644,6 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not create temporary file <filename>%1</filename> for writing."
-msgstr ""
-
-#. +> stable6
-#: gui/applyprogressdialog.cpp:191
-#, kde-kuit-format
-msgctxt "@info"
-msgid "Do you really want to cancel?"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1936,21 +1915,21 @@ msgctxt "@info:status"
 msgid "Mount or unmount a partition."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/mainwindow.cpp:447
 #, kde-kuit-format
 msgctxt "@action:inmenu"
 msgid "Take Ownership"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/mainwindow.cpp:448
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Take ownership of the file system"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/mainwindow.cpp:449
 #, kde-kuit-format
 msgctxt "@info:status"
@@ -2623,77 +2602,77 @@ msgctxt "@title:window"
 msgid "Could Not Unmount File System."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:460
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Take Ownership of File System"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:466
 #, kde-kuit-format
 msgctxt "@info"
 msgid "This will set the ownership of <filename>%1</filename> to user <emphasis>%2</emphasis>."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:473
 #, kde-kuit-format
 msgctxt "@option:check"
 msgid "Apply recursively to all subdirectories and files"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:481
 #, kde-kuit-format
 msgctxt "@info"
 msgid "This will also change the ownership of all subdirectories and files. This may cause problems if some of them are owned by other users."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:488
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Take Ownership"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:506
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Taking ownership of <b>%1</b>…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:508
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Take Ownership"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:523
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not take ownership of <filename>%1</filename>."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:526
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Taking Ownership Failed"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:531
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Ownership of <filename>%1</filename> was successfully changed to <emphasis>%2</emphasis>."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: gui/partitionmanagerwidget.cpp:533
 #, kde-kuit-format
 msgctxt "@title:window"

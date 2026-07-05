@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio-extras\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-30 10:05+0200\n"
+"POT-Creation-Date: 2026-07-05 18:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -83,22 +83,6 @@ msgstr ""
 #: netpref/netpref.cpp:51
 #, kde-format
 msgid "FTP Options"
-msgstr ""
-
-#. +> stable6
-#: netpref/netpref.cpp:52
-#, kde-format
-msgctxt "@label:spinbox"
-msgid "%v byte"
-msgid_plural "%v bytes"
-msgstr[0] ""
-msgstr[1] ""
-
-#. +> stable6
-#: netpref/netpref.cpp:54
-#, kde-format
-msgctxt "@label:spinbox"
-msgid "If cancelled, automatically delete partially uploaded files smaller than:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -691,20 +675,11 @@ msgctxt "@title:column"
 msgid "Preferred"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: webshortcuts/ikwsopts.cpp:104
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Check to select this web search keyword as preferred."
-msgstr ""
-
-#. +> stable6
-#: webshortcuts/ikwsopts.cpp:104
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid ""
-"Check this box to select the highlighted Web search keyword as preferred.<nl/>"
-"Preferred Web search keywords are used in places where only a few select keywords can be shown at one time."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -720,7 +695,7 @@ msgstr ""
 msgid "Search F&ilters"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: webshortcuts/ikwsopts.cpp:299
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
@@ -728,22 +703,10 @@ msgid "<para>Web search keywords allow you to quickly search or look up words on
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbEnableShortcuts)
-#. +> trunk6
+#. +> trunk6 stable6
 #: webshortcuts/ikwsopts_ui.ui:17
 #, kde-format
 msgid "Check to recognise and use the web search keywords in applications that can use them"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbEnableShortcuts)
-#. +> stable6
-#: webshortcuts/ikwsopts_ui.ui:17
-#, kde-format
-msgid ""
-"<html><head/><body>"
-"<p>Enable or disable Web search keywords. </p>"
-"<p>Web search keywords allow you to quickly access or search for information located online or on your hard drive. </p>"
-"<p>KDE comes with many predefined keywords. One such keyword can be used to perform a the Google (TM) search; to use it, you simply type the keyword 'gg' followed by the keyword delimiter and the search term, e.g. <span style=\" font-weight:600;\">gg:KDE</span>.</p>"
-"</body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbEnableShortcuts)
@@ -753,22 +716,15 @@ msgstr ""
 msgid "&Enable Web search keywords"
 msgstr ""
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, searchLineEdit)
-#. +> stable6
-#: webshortcuts/ikwsopts_ui.ui:37
-#, kde-format
-msgid "Search for Web search keywords"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, lbQuickHelp)
-#. +> trunk6
+#. +> trunk6 stable6
 #: webshortcuts/ikwsopts_ui.ui:36
 #, kde-format
 msgid "<a href=\"whatsthis\">How do these work?</a>"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbUseSelectedShortcutsOnly)
-#. +> trunk6
+#. +> trunk6 stable6
 #: webshortcuts/ikwsopts_ui.ui:52
 #, kde-format
 msgid ""
@@ -784,7 +740,7 @@ msgid "&Use preferred keywords only"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, searchLineEdit)
-#. +> trunk6
+#. +> trunk6 stable6
 #: webshortcuts/ikwsopts_ui.ui:62
 #, kde-format
 msgid "Search..."
@@ -825,28 +781,11 @@ msgstr ""
 msgid "Delete the highlighted Web search keyword"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QComboBox, cmbDelimiter)
-#. +> stable6
-#: webshortcuts/ikwsopts_ui.ui:204
-#, kde-format
-msgid "Choose a delimiter to mark the Web search keyword."
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #. +> trunk6 stable6
 #: webshortcuts/ikwsopts_ui.ui:125
 #, kde-format
 msgid "De&lete"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, lbDefaultEngine)
-#. +> stable6
-#: webshortcuts/ikwsopts_ui.ui:138
-#, kde-format
-msgid ""
-"<qt>\n"
-"Select the search engine to use for input boxes that provide automatic lookup services when you type in normal words and phrases instead of a URL. To disable this feature select <b>None</b> from the list.\n"
-"</qt>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lbDefaultEngine)
@@ -856,20 +795,8 @@ msgstr ""
 msgid "Default Web &search keyword:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QComboBox, cmbDefaultEngine)
-#. +> stable6
-#: webshortcuts/ikwsopts_ui.ui:166
-#, kde-format
-msgid ""
-"<html><head/><body>"
-"<p>Select a default Web search keyword. </p>"
-"<p>This allows applications to automatically convert the typed word or phrase to Web search keyword queries when they cannot be filtered into a proper URL. </p>"
-"<p>To disable this functionality select <span style=\" font-weight:600;\">None</span> from the list. </p>"
-"</body></html>"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbDefaultEngine)
-#. +> trunk6
+#. +> trunk6 stable6
 #: webshortcuts/ikwsopts_ui.ui:186
 #, kde-format
 msgid ""
@@ -885,17 +812,10 @@ msgid "&Keyword delimiter:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbDelimiter)
-#. +> trunk6
+#. +> trunk6 stable6
 #: webshortcuts/ikwsopts_ui.ui:221
 #, kde-format
 msgid "Choose the delimiter to separate the keyword from the phrase or word to be searched."
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, lbDelimiter)
-#. +> stable6
-#: webshortcuts/ikwsopts_ui.ui:182
-#, kde-format
-msgid "Choose the delimiter that separates the keyword from the phrase or word to be searched."
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDelimiter)
@@ -1077,11 +997,4 @@ msgstr ""
 #: webshortcuts/searchproviderdlg_ui.ui:158
 #, kde-format
 msgid "Insert query placeholder"
-msgstr ""
-
-#. i18n: ectx: label, entry (MinimumKeepSize), group (&lt;default&gt;)
-#. +> stable6
-#: netpref/kioslave.kcfg:17
-#, kde-format
-msgid "The minimum file size for keeping aborted downloads"
 msgstr ""

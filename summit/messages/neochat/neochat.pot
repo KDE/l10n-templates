@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-05 13:18+0200\n"
+"POT-Creation-Date: 2026-07-05 18:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31,16 +31,10 @@ msgstr ""
 msgid "Receiving push notifications"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/main.cpp:145
 #, kde-format
 msgid "© 2018-2020 Black Hat, 2020-2026 KDE Community"
-msgstr ""
-
-#. +> stable6
-#: src/app/main.cpp:141
-#, kde-format
-msgid "© 2018-2020 Black Hat, 2020-2025 KDE Community"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -160,12 +154,6 @@ msgstr ""
 #: src/app/main.cpp:199
 #, kde-format
 msgid "Share a URL to Matrix"
-msgstr ""
-
-#. +> stable6
-#: src/app/main.cpp:139
-#, kde-format
-msgid "Chat on Matrix"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -299,20 +287,6 @@ msgctxt "@action:inmenu"
 msgid "Switch Account"
 msgstr ""
 
-#. +> stable6
-#: src/app/qml/AccountMenu.qml:44
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Edit This Account"
-msgstr ""
-
-#. +> stable6
-#: src/app/qml/AccountMenu.qml:71
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Verify This Device"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/app/qml/AccountSwitchDialog.qml:30
 #, kde-format
@@ -369,7 +343,7 @@ msgctxt "@title"
 msgid "Choose a Room"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/ChooseRoomDialog.qml:24
 #, kde-format
 msgctxt "@action"
@@ -748,7 +722,7 @@ msgstr ""
 msgid "Incoming key verification request from device **%1**"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/KeyVerificationDialog.qml:172
 #, kde-format
 msgid "Incoming key verification request from **%1**"
@@ -783,7 +757,7 @@ msgstr ""
 msgid "Successfully verified device **%1**"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/KeyVerificationDialog.qml:185
 #: src/app/qml/KeyVerificationDialog.qml:196
 #, kde-format
@@ -791,7 +765,7 @@ msgctxt "@info"
 msgid "Successfully verified **%1**"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/KeyVerificationDialog.qml:190
 #, kde-format
 msgctxt "@info"
@@ -863,28 +837,28 @@ msgctxt "@info:status"
 msgid "Encryption keys restored."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/ManageKeyStorageDialog.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Loaded keys from backup"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/ManageKeyStorageDialog.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Failed to load keys from backup"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/ManageKeyStorageDialog.qml:56
 #, kde-format
 msgctxt "@title"
 msgid "Verify Session"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/ManageKeyStorageDialog.qml:62
 #, kde-format
 msgctxt "@info:description"
@@ -947,14 +921,14 @@ msgctxt "@action:button"
 msgid "Request From Other Devices"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/ManageKeyStorageDialog.qml:138
 #, kde-format
 msgctxt "@title"
 msgid "Decryption Key Backup"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/ManageKeyStorageDialog.qml:144
 #, kde-format
 msgctxt "@action:button"
@@ -1103,7 +1077,7 @@ msgstr ""
 msgid "No Notifications"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/OlmKeyVerificationDialog.qml:18
 #, kde-format
 msgid "Session Verifications"
@@ -1501,7 +1475,7 @@ msgctxt "@action:intoolbar Message this user directly"
 msgid "Message"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/UserDetailDialog.qml:165
 #, kde-format
 msgctxt "@action:intoolbar Edit This Account"
@@ -1690,7 +1664,7 @@ msgctxt "@action:button Set the power level (such as 'Admin') for this user"
 msgid "Set Power Level"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/app/qml/UserDetailDialog.qml:416
 #, kde-format
 msgctxt "@title The user's timezone"
@@ -1981,7 +1955,7 @@ msgstr ""
 msgid "Quit"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/chatbar/ChatBar.qml:89
 #, kde-format
 msgctxt "@info:label"
@@ -2130,13 +2104,7 @@ msgstr ""
 msgid "Choose a Location"
 msgstr ""
 
-#. +> stable6
-#: src/chatbar/LocationChooser.qml:25
-#, kde-format
-msgid "Send this location"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/chatbar/LocationChooser.qml:24
 #, kde-format
 msgctxt "@action:intoolbar Set the location seleted by the user as the one to send"
@@ -2150,18 +2118,11 @@ msgctxt "@action:intoolbar Re-center the map onto the set location"
 msgid "Re-Center"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/chatbar/LocationChooser.qml:38
 #, kde-format
 msgctxt "@action:intoolbar Determine the device's location"
 msgid "Set to current location"
-msgstr ""
-
-#. +> stable6
-#: src/chatbar/LocationChooser.qml:39
-#, kde-format
-msgctxt "@action:intoolbar Determine the device's location"
-msgid "Locate"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2171,60 +2132,32 @@ msgctxt "@title: create new poll in the room"
 msgid "Create Poll"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/chatbar/NewPollDialog.qml:35
 #, kde-format
 msgctxt "@label The type of poll to create"
 msgid "Show Results:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/chatbar/NewPollDialog.qml:40
 #, kde-format
 msgctxt "@item:inlistbox Show results after a user votes"
 msgid "After Voting"
 msgstr ""
 
-#. +> stable6
-#: src/chatbar/NewPollDialog.qml:40
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Open poll"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/chatbar/NewPollDialog.qml:41
 #, kde-format
 msgctxt "@item:inlistbox Show results after the poll ends"
 msgid "After Poll Ends"
 msgstr ""
 
-#. +> stable6
-#: src/chatbar/NewPollDialog.qml:41
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Closed poll"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/chatbar/NewPollDialog.qml:52
 #, kde-format
 msgctxt "@info"
 msgid "Votes are not anonymous and will be visible to everyone in the room."
-msgstr ""
-
-#. +> stable6
-#: src/chatbar/NewPollDialog.qml:46
-#, kde-format
-msgctxt "@info"
-msgid "Voters can see the result as soon as they have voted"
-msgstr ""
-
-#. +> stable6
-#: src/chatbar/NewPollDialog.qml:46
-#, kde-format
-msgctxt "@info"
-msgid "Results are revealed only after the poll has closed"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2234,14 +2167,7 @@ msgctxt "@label"
 msgid "Question:"
 msgstr ""
 
-#. +> stable6
-#: src/chatbar/NewPollDialog.qml:35
-#, kde-format
-msgctxt "@label"
-msgid "Poll type:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/chatbar/NewPollDialog.qml:62
 #, kde-format
 msgctxt "@info:placeholder Example poll question"
@@ -2269,13 +2195,6 @@ msgctxt "@action:button"
 msgid "Remove option"
 msgstr ""
 
-#. +> stable6
-#: src/chatbar/NewPollDialog.qml:136
-#, kde-format
-msgctxt "@action:button"
-msgid "Add option"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/chatbar/NewPollDialog.qml:149
 #, kde-format
@@ -2283,7 +2202,7 @@ msgctxt "@action:button"
 msgid "Send"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/chatbar/NewPollDialog.qml:157
 #, kde-format
 msgctxt "@action:button Add new poll option"
@@ -2617,13 +2536,6 @@ msgctxt "@option:check Enable the matrix feature for audio and video calling"
 msgid "Calls"
 msgstr ""
 
-#. +> stable6
-#: src/devtools/FeatureFlagPage.qml:18
-#, kde-format
-msgctxt "@option:check Enable the matrix feature to add a phone number as a third party ID"
-msgid "Add phone numbers as 3PIDs"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/devtools/FeatureFlagPage.qml:27
 #, kde-format
@@ -2665,7 +2577,7 @@ msgstr ""
 msgid "Room Id: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/devtools/RoomData.qml:47
 #, kde-format
 msgctxt "@option:check Toggle for whether this room is considered a direct chat or not"
@@ -4188,7 +4100,7 @@ msgid_plural "%2 reacted with %3"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/libneochat/models/timezonemodel.cpp:21
 #, kde-format
 msgctxt "@item:inlistbox Prefer not to say which timezone im in"
@@ -4242,7 +4154,7 @@ msgctxt "'Lat' and 'Lon' as in Latitude and Longitude"
 msgid "Lat: %1, Lon: %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/libneochat/neochatroom.cpp:1632
 #, kde-format
 msgctxt "%3 is the description of the location, e.g. username's pin, 'Lat' and 'Lon' as in Latitude and Longitude"
@@ -4256,7 +4168,7 @@ msgctxt "%1 is the poll answer that had the most votes"
 msgid "The poll has ended. Top answer: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/libneochat/profilefieldshelper.cpp:55
 #, kde-format
 msgctxt "@info:label Local time (timezone offset)"
@@ -4637,166 +4549,112 @@ msgstr ""
 msgid "The passwords do not match."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:393
 #, kde-format
 msgctxt "@info"
 msgid "No server."
 msgstr ""
 
-#. +> stable6
-#: src/login/registration.cpp:339
-#, kde-format
-msgid "No server."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:395
 #, kde-format
 msgctxt "@info"
 msgid "Checking Server availability."
 msgstr ""
 
-#. +> stable6
-#: src/login/registration.cpp:341
-#, kde-format
-msgid "Checking Server availability."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:397
 #, kde-format
 msgctxt "@info"
 msgid "This is not a valid server."
 msgstr ""
 
-#. +> stable6
-#: src/login/registration.cpp:343
-#, kde-format
-msgid "This is not a valid server."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:399
 #, kde-format
 msgctxt "@info"
 msgid "Registration for this server is disabled."
 msgstr ""
 
-#. +> stable6
-#: src/login/registration.cpp:345
-#, kde-format
-msgid "Registration for this server is disabled."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:401
 #, kde-format
 msgctxt "@info"
 msgid "Registration for this server requires a registration token."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:403
 #, kde-format
 msgctxt "@info"
 msgid "This server cannot prevalidate registration tokens."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:405
 #, kde-format
 msgctxt "@info"
 msgid "This is not a valid registration token."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:407
 #, kde-format
 msgctxt "@info"
 msgid "No username."
 msgstr ""
 
-#. +> stable6
-#: src/login/registration.cpp:347
-#, kde-format
-msgid "No username."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:409
 #, kde-format
 msgctxt "@info"
 msgid "Checking username availability."
 msgstr ""
 
-#. +> stable6
-#: src/login/registration.cpp:349
-#, kde-format
-msgid "Checking username availability."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:411
 #, kde-format
 msgctxt "@info"
 msgid "This username is not available."
 msgstr ""
 
-#. +> stable6
-#: src/login/registration.cpp:351
-#, kde-format
-msgid "This username is not available."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:413
 #, kde-format
 msgctxt "@info"
 msgid "Continue"
 msgstr ""
 
-#. +> stable6
-#: src/login/registration.cpp:353
-#, kde-format
-msgid "Continue"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:415
 #, kde-format
 msgctxt "@info"
 msgid "Working"
 msgstr ""
 
-#. +> stable6
-#: src/login/registration.cpp:355
-#, kde-format
-msgid "Working"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:417
 #, kde-format
 msgctxt "@info"
 msgid "Checking registration token."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/registration.cpp:419
 #, kde-format
 msgctxt "@info"
 msgid "Waiting for login confirmation in your browser."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/RegistrationToken.qml:20
 #, kde-format
 msgctxt "@label"
 msgid "Registration Token:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/login/RegistrationToken.qml:23
 #, kde-format
 msgctxt "@info"
@@ -5040,23 +4898,11 @@ msgstr ""
 msgid "Expand preview"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/messagecontent/LinkPreviewLoadComponent.qml:53
 #, kde-format
 msgctxt "As in the app is loading the link preview"
 msgid "Loading URL preview…"
-msgstr ""
-
-#. +> stable6
-#: src/messagecontent/LinkPreviewLoadComponent.qml:63
-#, kde-format
-msgid "Loading reply"
-msgstr ""
-
-#. +> stable6
-#: src/messagecontent/LinkPreviewLoadComponent.qml:65
-#, kde-format
-msgid "Loading URL preview"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5081,13 +4927,13 @@ msgctxt "@action:button"
 msgid "Open Fullscreen"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/messagecontent/models/chatbarmessagecontentmodel.cpp:501
 #, kde-format
 msgid "pin"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/messagecontent/models/chatbarmessagecontentmodel.cpp:501
 #, kde-format
 msgid "location"
@@ -5259,7 +5105,7 @@ msgctxt "Short for train platform"
 msgid "Pl. %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/messagecontent/VideoComponent.qml:153
 #, kde-format
 msgctxt "@action:button"
@@ -5471,23 +5317,17 @@ msgstr ""
 msgid "Find messages…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/roominfo/RoomSearchPage.qml:59
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter text to start searching %1's messages"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/roominfo/RoomSearchPage.qml:59
 #, kde-format
 msgctxt "@info:placeholder"
-msgid "Enter text to start searching"
-msgstr ""
-
-#. +> stable6
-#: src/roominfo/RoomSearchPage.qml:49
-#, kde-format
 msgid "Enter text to start searching"
 msgstr ""
 
@@ -5960,17 +5800,11 @@ msgctxt "@action:button"
 msgid "Verify This Device"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/rooms/UserInfo.qml:112
 #, kde-format
 msgctxt "@action:button"
 msgid "View Notifications"
-msgstr ""
-
-#. +> stable6
-#: src/rooms/UserInfo.qml:95
-#, kde-format
-msgid "View notifications"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5980,65 +5814,53 @@ msgctxt "@title:window"
 msgid "Edit Account"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:36
 #, kde-format
 msgctxt "@info"
 msgid "New avatar could not be set."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:73
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset Changes"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:79
 #, kde-format
 msgctxt "@action:button Save changes to user"
 msgid "Save"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:92
 #, kde-format
 msgctxt "@title:dialog Apply unsaved settings"
 msgid "Apply Settings"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:93
 #, kde-format
 msgctxt "@info"
 msgid "There are unsaved changes to user information. Apply the changes or discard them?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:99
 #, kde-format
 msgctxt "@action:button As in 'Remove this device'"
 msgid "Apply"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:111
 #, kde-format
 msgctxt "@action:button As in 'Remove this device'"
 msgid "Reset"
-msgstr ""
-
-#. +> stable6
-#: src/settings/AccountEditorPage.qml:117
-#, kde-format
-msgid "Label:"
-msgstr ""
-
-#. +> stable6
-#: src/settings/AccountEditorPage.qml:118
-#, kde-format
-msgid "Work"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6080,7 +5902,7 @@ msgctxt "@action:button"
 msgid "Copy user ID to clipboard"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:242
 #, kde-format
 msgctxt "@label:combobox"
@@ -6115,18 +5937,11 @@ msgctxt "@label:textbox"
 msgid "New Password:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:290
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Confirm New Password:"
-msgstr ""
-
-#. +> stable6
-#: src/settings/AccountEditorPage.qml:201
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Confirm new Password:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6164,7 +5979,7 @@ msgctxt "@title:group"
 msgid "Account Management"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:338
 #, kde-format
 msgctxt "@info"
@@ -6178,25 +5993,11 @@ msgctxt "@action:button"
 msgid "Deactivate Account…"
 msgstr ""
 
-#. +> stable6
-#: src/settings/AccountEditorPage.qml:143
-#, kde-format
-msgctxt "@action:button"
-msgid "Show QR Code"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/settings/AccountEditorPage.qml:361
 #, kde-format
 msgctxt "@title:group"
 msgid "Server Information"
-msgstr ""
-
-#. +> stable6
-#: src/settings/AccountEditorPage.qml:232
-#, kde-format
-msgctxt "@title:group"
-msgid "Phone Numbers"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6430,17 +6231,10 @@ msgstr ""
 msgid "Activate Encryption"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/DeviceDelegate.qml:53
 #, kde-format
 msgctxt "@label (Device ID), Last activity: (timestamp)"
-msgid "%1, Last activity: %2"
-msgstr ""
-
-#. +> stable6
-#: src/settings/DeviceDelegate.qml:53
-#, kde-format
-msgctxt "@label"
 msgid "%1, Last activity: %2"
 msgstr ""
 
@@ -6483,18 +6277,11 @@ msgctxt "This device is verified"
 msgid "Verified"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/DeviceDelegate.qml:126
 #, kde-format
 msgctxt "@action:button"
 msgid "Logout device…"
-msgstr ""
-
-#. +> stable6
-#: src/settings/DeviceDelegate.qml:126
-#, kde-format
-msgctxt "@action:button"
-msgid "Logout device"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -7519,13 +7306,6 @@ msgctxt "@title:window"
 msgid "Security & Safety"
 msgstr ""
 
-#. +> stable6
-#: src/settings/NeoChatSecurityPage.qml:141
-#, kde-format
-msgctxt "@title:window"
-msgid "Manage Secret Backup"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/settings/NeoChatSecurityPage.qml:34
 #, kde-format
@@ -7561,7 +7341,7 @@ msgctxt "@label:checkbox"
 msgid "Send typing notifications"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/NeoChatSecurityPage.qml:74
 #, kde-format
 msgctxt "@option:check"
@@ -7674,13 +7454,6 @@ msgctxt "@action:button"
 msgid "Import Keys"
 msgstr ""
 
-#. +> stable6
-#: src/settings/NeoChatSecurityPage.qml:157
-#, kde-format
-msgctxt "@title"
-msgid "Import Keys"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/settings/NeoChatSecurityPage.qml:164
 #, kde-format
@@ -7699,13 +7472,6 @@ msgstr ""
 #: src/settings/NeoChatSecurityPage.qml:184
 #, kde-format
 msgctxt "@action:button"
-msgid "Export Keys"
-msgstr ""
-
-#. +> stable6
-#: src/settings/NeoChatSecurityPage.qml:180
-#, kde-format
-msgctxt "@title"
 msgid "Export Keys"
 msgstr ""
 
@@ -8028,7 +7794,7 @@ msgctxt "@action:button"
 msgid "Upgrade Room…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/settings/RoomAdvancedPage.qml:74
 #, kde-format
 msgctxt "@title:group"
@@ -8901,7 +8667,7 @@ msgctxt "@action:button"
 msgid "Leave this Space…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/timeline/DelegateContextMenu.qml:157
 #, kde-format
 msgctxt "@info:tooltip Pick specific emoji for a reaction"
@@ -8958,7 +8724,7 @@ msgctxt "@action:inmenu As in 'Forward this message'"
 msgid "Forward…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/timeline/DelegateContextMenu.qml:273
 #, kde-format
 msgctxt "@action:button As in 'Forward this message'"
@@ -9028,28 +8794,28 @@ msgctxt "@action:inmenu"
 msgid "Save File…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/timeline/DelegateContextMenu.qml:334
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Image"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/timeline/DelegateContextMenu.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Video"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/timeline/DelegateContextMenu.qml:348
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Image"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/timeline/DelegateContextMenu.qml:350
 #, kde-format
 msgctxt "@action:inmenu"
@@ -9316,7 +9082,7 @@ msgctxt "@info:placeholder"
 msgid "Drag items here to share them"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/timeline/TypingPane.qml:27
 #, kde-format
 msgctxt "Number of users typing in the room"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-03 10:47+0200\n"
+"POT-Creation-Date: 2026-07-05 18:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -172,14 +172,14 @@ msgstr ""
 msgid "GnuPG consulting"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/aboutdata.cpp:143
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "The verification of the file <filename>%1</filename> failed."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/aboutdata.cpp:147
 #, kde-kuit-format
 msgctxt "@info:tooltip"
@@ -2335,12 +2335,6 @@ msgstr[1] ""
 msgid "Sorry! No certificate to import from this card slot was found."
 msgstr ""
 
-#. +> stable6
-#: src/commands/importcertificatefrompivcardcommand.cpp:91
-#, kde-format
-msgid "Card Certificate"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:111
 #, kde-format
@@ -2485,48 +2479,42 @@ msgstr ""
 msgid "Detailed results of import:"
 msgstr ""
 
-#. +> stable6
-#: src/commands/importcertificatescommand.cpp:218
-#, kde-format
-msgid "Detailed results of importing %1:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:222
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Detailed results of import from <filename>%1</filename>:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:225
 #, kde-format
 msgctxt "@info"
 msgid "Detailed results of import from clipboard:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:228
 #, kde-format
 msgctxt "@info"
 msgid "Detailed results of import from notepad:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:231
 #, kde-format
 msgctxt "@info"
 msgid "Detailed results of import from smart card:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:234
 #, kde-format
 msgctxt "@info Detailed results of import from URL"
 msgid "Detailed results of import from %1:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:239
 #: src/commands/importcertificatescommand.cpp:244
 #, kde-format
@@ -2534,7 +2522,7 @@ msgctxt "@info"
 msgid "Detailed results of import from LDAP server:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:241
 #, kde-format
 msgctxt "@info"
@@ -3130,7 +3118,7 @@ msgctxt "@info"
 msgid "Searching for matching certificates ..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/lookupcertificatescommand.cpp:327
 #, kde-format
 msgctxt "@info"
@@ -3169,14 +3157,6 @@ msgctxt "@info"
 msgid "No certificates found"
 msgstr ""
 
-#. +> stable6
-#: src/commands/lookupcertificatescommand.cpp:567
-#: src/commands/lookupcertificatescommand.cpp:570
-#, kde-format
-msgctxt "@title %1:\"OpenPGP\" or \"S/MIME\""
-msgid "%1 Certificate Server"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/commands/lookupcertificatescommand.cpp:640
 #, kde-format
@@ -3203,14 +3183,14 @@ msgctxt "@title"
 msgid "Result Truncated"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/lookupcertificatescommand.cpp:663
 #, kde-format
 msgctxt "@info"
 msgid "Lookup on server is not possible because network access is disabled for OpenPGP and for S/MIME."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/lookupcertificatescommand.cpp:664
 #, kde-format
 msgctxt "@title"
@@ -3319,7 +3299,7 @@ msgid ""
 "%1</para>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/newopenpgpcertificatecommand.cpp:304
 #, kde-format
 msgctxt "@action:button"
@@ -3455,7 +3435,7 @@ msgctxt "@info"
 msgid "Result of OpenPGP certificate update from keyserver, LDAP server, or Active Directory"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/refreshcertificatescommand.cpp:426
 #: src/commands/refreshcertificatescommand.cpp:445
 #, kde-kuit-format
@@ -3516,7 +3496,7 @@ msgctxt "@info"
 msgid "Result of S/MIME certificate update"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/commands/refreshcertificatescommand.cpp:464
 #, kde-kuit-format
 msgctxt "@info"
@@ -5072,18 +5052,11 @@ msgctxt "@info 'Failed' meaning that there was an error during decryption"
 msgid "Failed to decrypt and verify <filename>%1</filename>:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/decryptverifytask.cpp:231
 #, kde-kuit-format
 msgctxt "@info Decrypted and verified <file> as <file>."
 msgid "Decrypted and verified <filename>%1</filename> as <filename>%2</filename>."
-msgstr ""
-
-#. +> stable6
-#: src/crypto/decryptverifytask.cpp:233
-#, kde-kuit-format
-msgctxt "@info Successfully decrypted and verified <file> as <file>."
-msgid "Successfully decrypted and verified <filename>%1</filename> as <filename>%2</filename>."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5130,18 +5103,11 @@ msgctxt "@info 'Failed' meaning that there was an error during decryption"
 msgid "Failed to decrypt <filename>%1</filename>:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/decryptverifytask.cpp:259
 #, kde-kuit-format
 msgctxt "@info Decrypted <file> as <file>."
 msgid "Decrypted <filename>%1</filename> as <filename>%2</filename>."
-msgstr ""
-
-#. +> stable6
-#: src/crypto/decryptverifytask.cpp:261
-#, kde-kuit-format
-msgctxt "@info Successfully decrypted <file> as <file>."
-msgid "Successfully decrypted <filename>%1</filename> as <filename>%2</filename>."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5211,46 +5177,25 @@ msgctxt "@info"
 msgid "Failed to verify the notepad: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/decryptverifytask.cpp:534
 #, kde-format
 msgctxt "@info"
 msgid "Decrypted and verified the notepad"
 msgstr ""
 
-#. +> stable6
-#: src/crypto/decryptverifytask.cpp:539
-#, kde-format
-msgctxt "@info"
-msgid "Successfully decrypted and verified the notepad"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/decryptverifytask.cpp:537
 #, kde-format
 msgctxt "@info"
 msgid "Decrypted the notepad"
 msgstr ""
 
-#. +> stable6
-#: src/crypto/decryptverifytask.cpp:542
-#, kde-format
-msgctxt "@info"
-msgid "Successfully decrypted the notepad"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/decryptverifytask.cpp:540
 #, kde-format
 msgctxt "@info"
 msgid "Verified the notepad"
-msgstr ""
-
-#. +> stable6
-#: src/crypto/decryptverifytask.cpp:545
-#, kde-format
-msgctxt "@info"
-msgid "Successfully verified the notepad"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5267,46 +5212,25 @@ msgctxt "@info"
 msgid "Failed to verify the clipboard: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/decryptverifytask.cpp:552
 #, kde-format
 msgctxt "@info"
 msgid "Decrypted and verified the clipboard"
 msgstr ""
 
-#. +> stable6
-#: src/crypto/decryptverifytask.cpp:557
-#, kde-format
-msgctxt "@info"
-msgid "Successfully decrypted and verified the clipboard"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/decryptverifytask.cpp:555
 #, kde-format
 msgctxt "@info"
 msgid "Decrypted the clipboard"
 msgstr ""
 
-#. +> stable6
-#: src/crypto/decryptverifytask.cpp:560
-#, kde-format
-msgctxt "@info"
-msgid "Successfully decrypted the clipboard"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/decryptverifytask.cpp:558
 #, kde-format
 msgctxt "@info"
 msgid "Verified the clipboard"
-msgstr ""
-
-#. +> stable6
-#: src/crypto/decryptverifytask.cpp:563
-#, kde-format
-msgctxt "@info"
-msgid "Successfully verified the clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5516,42 +5440,42 @@ msgstr ""
 msgid "..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/gui/cryptouihelpers.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Retry with Lower Security?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/gui/cryptouihelpers.cpp:29
 #, kde-format
 msgctxt "@info"
 msgid "Encryption failed because at least one certificate could not be validated."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/gui/cryptouihelpers.cpp:30
 #, kde-format
 msgctxt "@info"
 msgid "You can retry the operation with fewer validity checks on the certificates."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/gui/cryptouihelpers.cpp:33
 #, kde-format
 msgctxt "@action:button Sign / Encrypt (not Compliant)"
 msgid "%1 (%2)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/gui/cryptouihelpers.cpp:35
 #, kde-format
 msgctxt "@action:button"
 msgid "with Lower Security"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/crypto/gui/cryptouihelpers.cpp:43
 #, kde-format
 msgctxt "@info"
@@ -9434,14 +9358,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (prefillSourcesCN), group (CertificateCreationWizard)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:19
 #, kde-format
 msgid "Sources for prefilling CN"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (prefillSourcesCN), group (CertificateCreationWizard)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:20
 #, kde-format
 msgid "This setting specifies from which sources (and with what precedence) the common name (CN) field of newly generated S/MIME certificate signing requests (CSR) shall be prefilled. KEMailSettings uses the name of the desktop's email settings. WinGetUserName (Windows-only) uses the NameDisplay value returned by GetUserNameEx or the value returned by GetUserName. EnvEmail uses the name part of the EMAIL environment variable. ADDisplayName (Windows-only) uses the display name attribute (displayName) retrieved from the Active Directory server. ADFirstNameLastName (Windows-only) uses the first name (givenName) and last name (sn) attributes retrieved from the Active Directory server."
@@ -9478,14 +9402,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (prefillSourcesEmail), group (CertificateCreationWizard)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:35
 #, kde-format
 msgid "Sources for prefilling email"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (prefillSourcesEmail), group (CertificateCreationWizard)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:36
 #, kde-format
 msgid "This setting specifies from which sources (and with what precedence) the email address field of newly generated OpenPGP certificates and S/MIME certificate signing requests (CSR) shall be prefilled. KEMailSettings uses the email address of the desktop's email settings. WinGetUserName (Windows-only) uses the NameUserPrincipal value returned by GetUserNameEx. EnvEmail uses the email address of the EMAIL environment variable. ADMail (Windows-only) uses the mail attribute (mail) retrieved from the Active Directory server."
@@ -9536,14 +9460,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (prefillSourcesName), group (CertificateCreationWizard)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:56
 #, kde-format
 msgid "Sources for prefilling name"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (prefillSourcesName), group (CertificateCreationWizard)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/kcfg/settings.kcfg:57
 #, kde-format
 msgid "This setting specifies from which sources (and with what precedence) the name field of newly generated OpenPGP certificates shall be prefilled. KEMailSettings uses the name of the desktop's email settings. WinGetUserName (Windows-only) uses the NameDisplay value returned by GetUserNameEx or the value returned by GetUserName. EnvEmail uses the name part of the EMAIL environment variable. ADDisplayName (Windows-only) uses the display name attribute (displayName) retrieved from the Active Directory server. ADFirstNameLastName (Windows-only) uses the first name (givenName) and last name (sn) attributes retrieved from the Active Directory server."
@@ -10402,7 +10326,7 @@ msgctxt "@title:window"
 msgid "Prohibited"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/main.cpp:179
 #, kde-kuit-format
 msgctxt "@info"
@@ -10411,27 +10335,11 @@ msgid ""
 "<para>To manage keys for other users please manage them as a normal user and copy the <filename>%APPDATA%\\gnupg*</filename> directory with proper permissions.</para>"
 msgstr ""
 
-#. +> stable6
-#: src/main.cpp:190
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para><application>Kleopatra</application> cannot be run as adminstrator without breaking file permissions in the GnuPG data folder.</para>"
-"<para>To manage keys for other users please manage them as a normal user and copy the <filename>AppData\\Roaming\\gnupg</filename> directory with proper permissions.</para>"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/main.cpp:183
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Are you sure that you want to continue at your own risk?</para>"
-msgstr ""
-
-#. +> stable6
-#: src/main.cpp:194
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<para>Are you sure that you want to continue?</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -10441,7 +10349,7 @@ msgctxt "@title"
 msgid "Running as Administrator"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/main.cpp:195
 #, kde-kuit-format
 msgctxt "@info"
@@ -10520,7 +10428,7 @@ msgctxt "@title:window"
 msgid "Really Quit?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:276
 #, kde-format
 msgctxt "@info:status"
@@ -10656,28 +10564,28 @@ msgctxt "Only available in German and English. Leave to English for other langua
 msgid "encrypt_and_sign_gnupgvsd_en.pdf"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:733
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "User Manual"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:734
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "user-manual-en.pdf"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:741
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Administrator Manual"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/mainwindow.cpp:742
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
@@ -13877,21 +13785,4 @@ msgctxt "@info"
 msgid ""
 "Import certificate from a file.<nl/>"
 "To import from a public keyserver use <interface>Lookup on Server</interface> instead."
-msgstr ""
-
-#. +> stable6
-#: src/utils/kuniqueservice_win.cpp:150
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para><application>Kleopatra</application> seems to be running for you already, but with different privileges.</para>"
-"<para>This usually happens if <application>Kleopatra</application> is accidentally run as Administrator.</para>"
-"<para>Please right click the tray icon of <application>Kleopatra</application> and select 'quit' to try again.</para>"
-msgstr ""
-
-#. +> stable6
-#: src/utils/kuniqueservice_win.cpp:153
-#, kde-kuit-format
-msgctxt "@title"
-msgid "<application>Kleopatra</application> failed to start"
 msgstr ""

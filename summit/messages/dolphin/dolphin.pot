@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-19 08:16+0200\n"
+"POT-Creation-Date: 2026-07-05 18:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -214,48 +214,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu Shortcut, shift + middle click to trigger menu item, keep short"
 msgid "Shift+Middle Click"
-msgstr ""
-
-#. +> stable6
-#: dolphinmainwindow.cpp:367
-#, kde-format
-msgctxt "@info:status"
-msgid "Successfully copied."
-msgstr ""
-
-#. +> stable6
-#: dolphinmainwindow.cpp:370
-#, kde-format
-msgctxt "@info:status"
-msgid "Successfully moved."
-msgstr ""
-
-#. +> stable6
-#: dolphinmainwindow.cpp:373
-#, kde-format
-msgctxt "@info:status"
-msgid "Successfully linked."
-msgstr ""
-
-#. +> stable6
-#: dolphinmainwindow.cpp:376
-#, kde-format
-msgctxt "@info:status"
-msgid "Successfully moved to trash."
-msgstr ""
-
-#. +> stable6
-#: dolphinmainwindow.cpp:379
-#, kde-format
-msgctxt "@info:status"
-msgid "Successfully renamed."
-msgstr ""
-
-#. +> stable6
-#: dolphinmainwindow.cpp:383
-#, kde-format
-msgctxt "@info:status"
-msgid "Created folder."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -589,14 +547,14 @@ msgctxt "@action:inmenu Edit"
 msgid "Move to Other View"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1901
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Focus Other View"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1902
 #, kde-format
 msgctxt "@info:tooltip"
@@ -1578,7 +1536,7 @@ msgctxt "@action:button"
 msgid "Add Network Folder"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: dolphinnavigatorswidgetaction.cpp:314
 #, kde-format
 msgctxt "@action:button"
@@ -1798,14 +1756,14 @@ msgctxt "@action:inmenu"
 msgid "Close Other Tabs"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: dolphintabbar.cpp:192
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tabs to the Left"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: dolphintabbar.cpp:194
 #, kde-format
 msgctxt "@action:inmenu"
@@ -2016,34 +1974,34 @@ msgstr ""
 msgid "Filter…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: filterbar/filterbar.cpp:51
 #, kde-format
 msgid "Invalid expression"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: filterbar/filterbar.cpp:60
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Match case"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: filterbar/filterbar.cpp:66
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Plain Text"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: filterbar/filterbar.cpp:67
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Glob Pattern"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: filterbar/filterbar.cpp:68
 #, kde-format
 msgctxt "@item:inlistbox"
@@ -2955,7 +2913,7 @@ msgctxt "@label"
 msgid "Other"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:3160
 msgctxt "@label"
 msgid "Folder Name"
@@ -4507,7 +4465,7 @@ msgid "This option controls the style of the view. Currently supported values in
 msgstr ""
 
 #. i18n: ectx: label, entry (ZoomLevel), group (Dolphin)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/dolphin_directoryviewpropertysettings.kcfg:31
 #, kde-format
 msgctxt "@label"
@@ -4515,7 +4473,7 @@ msgid "Zoom Level"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ZoomLevel), group (Dolphin)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/dolphin_directoryviewpropertysettings.kcfg:32
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -4571,7 +4529,7 @@ msgid "This option defines which attribute (text, size, date, etc.) sorting is p
 msgstr ""
 
 #. i18n: ectx: label, entry (GroupRole), group (Dolphin)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/dolphin_directoryviewpropertysettings.kcfg:55
 #, kde-format
 msgctxt "@label"
@@ -4579,7 +4537,7 @@ msgid "Group files by"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (GroupRole), group (Dolphin)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/dolphin_directoryviewpropertysettings.kcfg:56
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -4817,13 +4775,6 @@ msgstr ""
 #: settings/dolphin_generalsettings.kcfg:115
 #, kde-format
 msgid "Show a bar for easy pasting after a cut or copy was done using the selection mode bottom bar."
-msgstr ""
-
-#. i18n: ectx: label, entry (UseTabForSwitchingSplitView), group (General)
-#. +> stable6
-#: settings/dolphin_generalsettings.kcfg:119
-#, kde-format
-msgid "Use tab for switching between right and left view"
 msgstr ""
 
 #. i18n: ectx: label, entry (CloseSplitViewChoice), group (General)
@@ -5300,13 +5251,6 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check Startup Settings"
 msgid "Open new windows in split view mode"
-msgstr ""
-
-#. +> stable6
-#: settings/interface/folderstabssettingspage.cpp:164
-#, kde-format
-msgctxt "option:check split view panes"
-msgid "Switch between views with Tab key"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6749,13 +6693,13 @@ msgstr ""
 msgid "No Apple devices found"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: views/dolphinview.cpp:2834
 #, kde-format
 msgid "No KDE Connect devices found"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: views/dolphinview.cpp:2836
 #, kde-format
 msgid "No storage found on this device"
@@ -7012,28 +6956,28 @@ msgctxt "@action:inmenu View"
 msgid "Show Additional Information"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:333
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Group By"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:335
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "This groups files and folders by a chosen attribute. \"None\" disables grouping. \"Same as Sort\" groups by the active sort criterion."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:346
 #, kde-format
 msgctxt "@action:inmenu Group By"
 msgid "None"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:353
 #, kde-format
 msgctxt "@action:inmenu Group By"
@@ -7064,13 +7008,6 @@ msgctxt "@action:inmenu View"
 msgid "Adjust View Display Style…"
 msgstr ""
 
-#. +> stable6
-#: views/dolphinviewactionhandler.cpp:332
-#, kde-format
-msgctxt "@action:inmenu View"
-msgid "Show in Groups"
-msgstr ""
-
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:387
 #, kde-format
@@ -7078,21 +7015,14 @@ msgctxt "@info:whatsthis"
 msgid "This opens a window in which all folder view properties can be adjusted."
 msgstr ""
 
-#. +> stable6
-#: views/dolphinviewactionhandler.cpp:333
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid "This groups files and folders by their first letter."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:393
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Restore to Defaults"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:394
 #, kde-format
 msgctxt "info:tooltip"
@@ -7120,7 +7050,7 @@ msgctxt "@item:intable, Heading of a list of fields"
 msgid "Sort by Field"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:436
 #, kde-format
 msgctxt "@item:intable, Heading of a list of fields"

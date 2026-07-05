@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-05 13:18+0200\n"
+"POT-Creation-Date: 2026-07-05 18:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1601,25 +1601,18 @@ msgctxt "@item this calendar is offline"
 msgid "%1 (Offline)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:304
 #, kde-format
 msgctxt "@item this is the default event calendar"
 msgid "%1 (Default Event)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:306
 #, kde-format
 msgctxt "@item this is the default todo calendar"
 msgid "%1 (Default Todo)"
-msgstr ""
-
-#. +> stable6
-#: akonadicollectionview.cpp:293
-#, kde-format
-msgctxt "@item this is the default calendar"
-msgid "%1 (Default)"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1657,35 +1650,28 @@ msgctxt "@action:inmenu"
 msgid "&Set Folder Color…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:506
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set as &Default Calendar"
 msgstr ""
 
-#. +> stable6
-#: akonadicollectionview.cpp:491
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Set as &Default Folder"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:544
 #, kde-format
 msgctxt "@info/plain the calendar contains events"
 msgid "Event"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:547
 #, kde-format
 msgctxt "@info/plain the calendar contains todos"
 msgid "Todo"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:610
 #, kde-kuit-format
 msgctxt "@info"
@@ -1694,65 +1680,35 @@ msgid ""
 "<para>This will replace <filename>%3</filename> as the default %4 calendar folder.</para>"
 msgstr ""
 
-#. +> stable6
-#: akonadicollectionview.cpp:541
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"Do you really want to set <filename>%1</filename> as your default calendar folder?"
-"<para>This will replace <filename>%2</filename> as the default calendar folder.</para>"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:617
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to set <filename>%1</filename> as your default %2 calendar folder?"
 msgstr ""
 
-#. +> stable6
-#: akonadicollectionview.cpp:546
-#, kde-kuit-format
-msgctxt "@info"
-msgid "Do you really want to set <filename>%1</filename> as your default calendar folder?"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:620
 #, kde-format
 msgctxt "@title:window"
 msgid "Replace Default %1 Calendar?"
 msgstr ""
 
-#. +> stable6
-#: akonadicollectionview.cpp:551
-#, kde-format
-msgctxt "@title:window"
-msgid "Replace Default Calendar?"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:624 akonadicollectionview.cpp:1056
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is now your default %2 calendar"
 msgstr ""
 
-#. +> stable6
-#: akonadicollectionview.cpp:555 akonadicollectionview.cpp:927
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<filename>%1</filename> is now your default event calendar"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:777
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set as &Default Event Calendar"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:780
 #, kde-format
 msgctxt "@action:inmenu"
@@ -1782,7 +1738,7 @@ msgid ""
 "<para><note>The calendar data will not be deleted, nor will the calendar be removed from its remote resource. The <filename>%1</filename> calendar can be added again at any time.</note></para>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:907
 #, kde-kuit-format
 msgctxt "@info"
@@ -1792,27 +1748,7 @@ msgid ""
 "<para><warning>This calendar contains a default calendar folder. If you delete it you may be prompted to select a new default calendar folder.</warning></para>"
 msgstr ""
 
-#. +> stable6
-#: akonadicollectionview.cpp:797
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"Do you really want to delete the <filename>%1</filename> calendar?"
-"<para><note>The calendar data will not be deleted, nor will the calendar be removed from its remote resource. The <filename>%1</filename> calendar can be added again at any time.</note></para>"
-"<para><warning>This calendar contains your default calendar folder <filename>%2</filename>. If you delete it you may be prompted to select a new default calendar folder.</warning></para>"
-msgstr ""
-
-#. +> stable6
-#: akonadicollectionview.cpp:808
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"Do you really want to delete the <filename>%1</filename> calendar?"
-"<para><note>The calendar data will not be deleted, nor will the calendar be removed from its remote resource. The <filename>%1</filename> calendar can be added again at any time.</note></para>"
-"<para><warning>This calendar contains your default calendar folder. If you delete it you may be prompted to select a new default calendar folder.</warning></para>"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:917
 #, kde-kuit-format
 msgctxt "@info"
@@ -1820,16 +1756,6 @@ msgid ""
 "Do you really want to delete the <filename>%1</filename> calendar?"
 "<para><note>The calendar data will not be deleted, nor will the calendar be removed from its remote resource. The <filename>%1</filename> calendar can be added again at any time.</note></para>"
 "<para><warning>This is your default %2 calendar. If you delete it you may be prompted to select a new %2 default calendar.</warning></para>"
-msgstr ""
-
-#. +> stable6
-#: akonadicollectionview.cpp:818
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"Do you really want to delete the <filename>%1</filename> calendar?"
-"<para><note>The calendar data will not be deleted, nor will the calendar be removed from its remote resource. The <filename>%1</filename> calendar can be added again at any time.</note></para>"
-"<para><warning>This is your default calendar. If you delete it you may be prompted to select a new default calendar.</warning></para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1841,7 +1767,7 @@ msgid ""
 "<para><warning>This cannot be undone. Please consider carefully before pressing the %2 button.</warning></para>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:938
 #, kde-kuit-format
 msgctxt "@info"
@@ -1849,16 +1775,6 @@ msgid ""
 "Do you really want to delete the <filename>%1</filename> folder?"
 "<para><warning>This cannot be undone. Please consider carefully before pressing the %2 button.</warning></para>"
 "<para><warning>This is your default %3 calendar folder. If you delete it you may be prompted to select a new default %4 calendar.</warning></para>"
-msgstr ""
-
-#. +> stable6
-#: akonadicollectionview.cpp:837
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"Do you really want to delete the <filename>%1</filename> folder?"
-"<para><warning>This cannot be undone. Please consider carefully before pressing the %2 button.</warning></para>"
-"<para><warning>This is your default calendar folder. If you delete it you may be prompted to select a new default calendar.</warning></para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1884,32 +1800,18 @@ msgctxt "@info"
 msgid "Delete calendar failed: <message>Invalid Akonadi agent instance</message>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:1062
 #, kde-format
 msgctxt "@info"
 msgid "Consider setting a default %1 calendar"
 msgstr ""
 
-#. +> stable6
-#: akonadicollectionview.cpp:932
-#, kde-format
-msgctxt "@info"
-msgid "Consider setting a default calendar for new events"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: akonadicollectionview.cpp:1064
 #, kde-format
 msgctxt "@info"
 msgid "Consider adding a write-enabled %1 calendar"
-msgstr ""
-
-#. +> stable6
-#: akonadicollectionview.cpp:934
-#, kde-format
-msgctxt "@info"
-msgid "Consider adding a write-enabled events calendar"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2005,7 +1907,7 @@ msgctxt "@info alarm disabled"
 msgid "<message>%1</message> reminder is disabled"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: calendarview.cpp:1378
 #, kde-kuit-format
 msgctxt "@info alarm toggle failed"
@@ -2026,7 +1928,7 @@ msgctxt "@info percentage completed"
 msgid "To-do <message>%1</message> %2 percent completed"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: calendarview.cpp:1416
 #, kde-kuit-format
 msgctxt "@info completed"
@@ -3519,21 +3421,21 @@ msgid_plural "%1 days ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kontactplugin/korganizer/todosummarywidget.cpp:236
 #, kde-format
 msgctxt "the to-do is due today"
 msgid "due any time today"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kontactplugin/korganizer/todosummarywidget.cpp:240
 #, kde-format
 msgctxt "the to-do is due at specified time"
 msgid "is due at %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kontactplugin/korganizer/todosummarywidget.cpp:244
 #, kde-format
 msgctxt "the to-do was due at specified time"
@@ -3583,13 +3485,6 @@ msgstr ""
 #, kde-format
 msgctxt "the to-do is overdue"
 msgid "overdue"
-msgstr ""
-
-#. +> stable6
-#: kontactplugin/korganizer/todosummarywidget.cpp:211
-#, kde-format
-msgctxt "the to-do is due"
-msgid "due"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3990,16 +3885,10 @@ msgctxt "@info:shell"
 msgid "Display the specified incidence (by URL)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: korganizer_options.h:25
 #, kde-format
 msgctxt "@info:shell"
-msgid "Url"
-msgstr ""
-
-#. +> stable6
-#: korganizer_options.h:24
-#, kde-format
 msgid "Url"
 msgstr ""
 
@@ -4120,7 +4009,7 @@ msgctxt "@title:group email settings"
 msgid "Email Settings"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: prefs/koprefsdialogmain.cpp:64
 #, kde-format
 msgctxt "@title:group"
@@ -4233,18 +4122,11 @@ msgctxt "@title:group"
 msgid "Holidays"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: prefs/koprefsdialogtime.cpp:72
 #, kde-format
 msgctxt "@label"
 msgid "Use holiday regions:"
-msgstr ""
-
-#. +> stable6
-#: prefs/koprefsdialogtime.cpp:67
-#, kde-format
-msgctxt "@label"
-msgid "Use holiday region:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4261,14 +4143,14 @@ msgctxt "@item:inlistbox"
 msgid "Select Holiday Regions"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: prefs/koprefsdialogtime.cpp:123
 #, kde-format
 msgctxt "@label"
 msgid "Use holiday categories:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: prefs/koprefsdialogtime.cpp:137
 #, kde-format
 msgctxt "@item:inlistbox"
@@ -4824,21 +4706,21 @@ msgid "Display icons in agenda view items"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnableAgendaBoldEvenHours), group (Agenda View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:124
 #, kde-format
 msgid "Draw bold horizontal grid lines for the even hours"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (EnableAgendaBoldEvenHours), group (Agenda View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:125
 #, kde-format
 msgid "Draw a bolder horizontal grid line for the even hours (12am, 2am, 4am, etc)."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (EnableAgendaBoldEvenHours), group (Agenda View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:126
 #, kde-format
 msgid "Draw bolder even hour grid lines"
@@ -4866,21 +4748,21 @@ msgid "Display incidence descriptions agenda view items"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnableAgendaItemLocation), group (Agenda View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:136
 #, kde-format
 msgid "Show incidence locations in agenda view items"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (EnableAgendaItemLocation), group (Agenda View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:137
 #, kde-format
 msgid "Check this box to display the incidence locations in agenda view items."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (EnableAgendaItemLocation), group (Agenda View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:138
 #, kde-format
 msgid "Display incidence locations agenda view items"
@@ -5153,13 +5035,6 @@ msgstr ""
 msgid "Show icons in month view items"
 msgstr ""
 
-#. i18n: ectx: label, entry (ShowTimeInMonthView), group (Month View)
-#. +> stable6
-#: settings/korganizer.kcfg:215
-#, kde-format
-msgid "Show time in month view items"
-msgstr ""
-
 #. i18n: ectx: whatsthis, entry (EnableMonthItemIcons), group (Month View)
 #. +> trunk6 stable6
 #: settings/korganizer.kcfg:222
@@ -5174,57 +5049,43 @@ msgstr ""
 msgid "Display icons in month view items"
 msgstr ""
 
-#. i18n: ectx: tooltip, entry (ShowTimeInMonthView), group (Month View)
-#. +> stable6
-#: settings/korganizer.kcfg:217
-#, kde-format
-msgid "Display time in month view items"
-msgstr ""
-
 #. i18n: ectx: label, entry (ShowTimeInMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:227
 #, kde-format
 msgid "Show start-times without end-times in month view items"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowTimeInMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:228
 #, kde-format
 msgid "Check this box to display the start-time without the end-time in month view items."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (ShowTimeInMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:229
 #, kde-format
 msgid "Display start-time without the end-time in month view items"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowEndTimeInMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:233
 #, kde-format
 msgid "Show the start-time and the end-time in month view items"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowEndTimeInMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:234
 #, kde-format
 msgid "Check this box to display the start and end times in month view items."
 msgstr ""
 
-#. i18n: ectx: whatsthis, entry (ShowTimeInMonthView), group (Month View)
-#. +> stable6
-#: settings/korganizer.kcfg:216
-#, kde-format
-msgid "Check this box to display the time in month view items."
-msgstr ""
-
 #. i18n: ectx: tooltip, entry (ShowEndTimeInMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:235
 #, kde-format
 msgid "Display the start and end times in month view items"
@@ -5266,14 +5127,14 @@ msgid "Display journals in the month view"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowHolidaysMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:251
 #, kde-format
 msgid "Show holidays"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowHolidaysMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:252
 #, kde-format
 msgid "Check this box to display holidays in the month view."
@@ -5281,28 +5142,28 @@ msgstr ""
 
 #. i18n: ectx: tooltip, entry (ShowHolidaysMonthView), group (Month View)
 #. i18n: ectx: tooltip, entry (ShowHolidaysBackgroundMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:253 settings/korganizer.kcfg:260
 #, kde-format
 msgid "Display holidays in the month view"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowHolidaysBackgroundMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:257
 #, kde-format
 msgid "Use the Holiday background color when a holiday lands on the date"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (ShowHolidaysBackgroundMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:258
 #, kde-format
 msgid "Use the custom holiday color as the date's background color if a holiday lands on the date"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowHolidaysBackgroundMonthView), group (Month View)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:259
 #, kde-format
 msgid "Check this box to use the custom holiday as the date's background color when at least one holiday lands on a date. Configure the holiday color in the Settings->Colors and Fonts."
@@ -5687,35 +5548,21 @@ msgid "Select the highlight color here. The highlight color will be used for mar
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Theming)
-#. +> stable6
-#: settings/korganizer.kcfg:503
-#, kde-format
-msgid "Use system color"
-msgstr ""
-
-#. i18n: ectx: whatsthis, entry, group (Theming)
-#. +> stable6
-#: settings/korganizer.kcfg:504
-#, kde-format
-msgid "Use system color instead of user defined color. If enabled will ignore all other color settings"
-msgstr ""
-
-#. i18n: ectx: label, entry, group (Theming)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:534
 #, kde-format
 msgid "Use system colors for some background colors"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry, group (Theming)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:535
 #, kde-format
 msgid "Use system colors instead of custom colors for some background colors"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Theming)
-#. +> trunk6
+#. +> trunk6 stable6
 #: settings/korganizer.kcfg:536
 #, kde-format
 msgid "Use system colors instead of user defined colors for the \"Agenda view background color\", \"Busy days background color\" and the \"Working hours color\" (and possibly others)."
@@ -6620,52 +6467,52 @@ msgstr ""
 msgid "Selected Calendars"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:18
 msgid "A default To-do calendar can be specified to make creating new to-dos faster and easier with less chance of filing them into the wrong folder. Setting a default Event calendar has been supported for a long time.  See the Calendar Manager context menu \"Set as Default Todo Calendar\""
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:20
 msgid "Agenda view: optionally draw bolder/fatter horizontal grid lines every two hours. To enable this behaviour, check the \"Draw bold horizontal grid lines for the even hours\" option in the View->Agenda View tab"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:22
 msgid "It is now possible to hide holidays that belong to specific categories, for example to hide religious holidays. See the Categories combobox in the Holidays section of the Time&Date->Regional tab"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:24
 msgid "Month view: for the sake of consistency, holidays that land on a workday are no longer hidden"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:25
 msgid "Month view: An option was added to allow hiding holidays. To enable this behavior, uncheck the \"Display holidays in the month view\" option in the Views->Month View tab"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:27
 msgid "Month view: An option was added to allow using the custom holiday color as the date box background color if at least one holiday lands on that date. To enable this behavior, check the \"Use the Holiday background color when a holiday lands on the date\" option in the Views->Month View tab"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:30
 msgid "Month view: An option was added to show start-time and end-times. Previously only showing the start-time was supported. To enable this option, check the \"Show the start-time and the end-time in month view items\" option in the View->Month View tab"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:32
 msgid "Agenda view: underline today's column header date"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:33
 msgid "Agenda view: optionally show the incidence locations inside the agenda items. To enable this behavior, check the \"Show incidence locations in agenda view items\" option in the View->Agenda View tab"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:35
 msgid "Options for setting default access classifications (Public, Confidential or Private) when creating new Events, To-dos and Journals have been added.  Select your preferences in the \"General->Personal Default Access Classification\" comboboxes."
 msgstr ""
@@ -6883,13 +6730,13 @@ msgstr ""
 msgid "Incidence editor: the tags are sorted alphabetically in the tags editor"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:162
 #, kde-format
 msgid "Fixed reminder toggling from menus"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: whatsnew/whatsnewtranslations.cpp:163
 #, kde-format
 msgid "Agenda view: improved timelabel vertical alignment with grid"
@@ -7117,30 +6964,16 @@ msgctxt "@info:tooltip"
 msgid "Select a year"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/navigatorbar.cpp:141
 #, kde-format
 msgctxt "@label monthname"
 msgid "%1"
 msgstr ""
 
-#. +> stable6
-#: widgets/navigatorbar.cpp:141
-#, kde-format
-msgctxt "monthname"
-msgid "%1"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/navigatorbar.cpp:142
 #, kde-format
 msgctxt "@label 4 digit year"
-msgid "%1"
-msgstr ""
-
-#. +> stable6
-#: widgets/navigatorbar.cpp:142
-#, kde-format
-msgctxt "4 digit year"
 msgid "%1"
 msgstr ""
