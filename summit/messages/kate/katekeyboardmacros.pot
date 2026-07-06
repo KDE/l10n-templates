@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-16 10:48+0100\n"
+"POT-Creation-Date: 2026-07-06 10:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,19 +17,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:66 keyboardmacrosplugin.cpp:102
+#, kde-format
+msgid "Could not open file ‘%1’."
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrosplugin.cpp:66 keyboardmacrosplugin.cpp:102
 #, kde-format
 msgid "Could not open file '%1'."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:72
+#, kde-format
+msgctxt "%2 is an error message"
+msgid "Malformed JSON file ‘%1’: %2"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrosplugin.cpp:72
 #, kde-format
 msgid "Malformed JSON file '%1': %2"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:80
+#, kde-format
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Could not load ‘%1’: malformed macro; wiping it."
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrosplugin.cpp:80
 #, kde-format
 msgid "Could not load '%1': malformed macro; wiping it."
@@ -49,52 +69,98 @@ msgstr ""
 msgid "<b>Keyboard Macros:</b> %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:170
+#, kde-format
+msgid "Can’t save macro during recording. Please end recording first"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrosplugin.cpp:170
 #, kde-format
 msgid "Can't save macro during recording. Please end recoding first"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:241
+#, kde-format
+msgctxt "@info:progress Macro is being recorded right now"
+msgid "Recording…"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrosplugin.cpp:241
 #, kde-format
 msgid "Recording…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: keyboardmacrosplugin.cpp:277
 #, kde-format
 msgid "ended"
 msgstr ""
 
-#. +> trunk6 stable6
-#: keyboardmacrosplugin.cpp:277
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:278
 #, kde-format
-msgid "canceled"
+msgid "Recording ended"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: keyboardmacrosplugin.cpp:277
 #, kde-format
 msgid "Recording %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:279
+#, kde-format
+msgid "Recording canceled"
+msgstr ""
+
+#. +> stable6
+#: keyboardmacrosplugin.cpp:277
+#, kde-format
+msgid "canceled"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrosplugin.cpp:327
 #, kde-format
 msgid "Saved '%1'"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:330
+#, kde-format
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Saved ‘%1’"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrosplugin.cpp:347
 #, kde-format
 msgid "Loaded '%1'"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:350
+#, kde-format
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Loaded ‘%1’"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrosplugin.cpp:365
 #, kde-format
 msgid "Wiped '%1'"
+msgstr ""
+
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:368
+#, kde-format
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wiped ‘%1’"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -168,7 +234,13 @@ msgstr ""
 msgid "Record and play keyboard macros."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrospluginview.cpp:41 keyboardmacrospluginview.cpp:163
+#, kde-format
+msgid "&Record Macro…"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrospluginview.cpp:41 keyboardmacrospluginview.cpp:163
 #, kde-format
 msgid "&Record Macro..."
@@ -216,7 +288,13 @@ msgstr ""
 msgid "Give a name to the current macro and persistently save it."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrospluginview.cpp:90
+#, kde-format
+msgid "&Load Named Macro…"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrospluginview.cpp:90
 #, kde-format
 msgid "&Load Named Macro..."
@@ -228,7 +306,19 @@ msgstr ""
 msgid "Load a named macro as the current one."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
+#: keyboardmacrospluginview.cpp:181
+#, kde-format
+msgid "Load the '%1' macro as the current one."
+msgstr ""
+
+#. +> trunk6
+#: keyboardmacrospluginview.cpp:98
+#, kde-format
+msgid "&Play Named Macro…"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrospluginview.cpp:98
 #, kde-format
 msgid "&Play Named Macro..."
@@ -240,7 +330,19 @@ msgstr ""
 msgid "Play a named macro without loading it."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
+#: keyboardmacrospluginview.cpp:194
+#, kde-format
+msgid "Play the '%1' macro without loading it."
+msgstr ""
+
+#. +> trunk6
+#: keyboardmacrospluginview.cpp:106
+#, kde-format
+msgid "&Wipe Named Macro…"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrospluginview.cpp:106
 #, kde-format
 msgid "&Wipe Named Macro..."
@@ -252,46 +354,82 @@ msgstr ""
 msgid "Wipe a named macro."
 msgstr ""
 
+#. +> stable6
+#: keyboardmacrospluginview.cpp:209
+#, kde-format
+msgid "Wipe the '%1' macro."
+msgstr ""
+
+#. +> stable6
+#: keyboardmacrospluginview.cpp:323
+#, kde-format
+msgid "Wipe the '%1' macro?"
+msgstr ""
+
 #. +> trunk6 stable6
 #: keyboardmacrospluginview.cpp:155
 #, kde-format
 msgid "End Macro &Recording"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrospluginview.cpp:180
+#, kde-format
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Load %1"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrospluginview.cpp:180
 #, kde-format
 msgid "Load %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: keyboardmacrospluginview.cpp:181
 #, kde-format
-msgid "Load the '%1' macro as the current one."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Load the ‘%1’ macro as the current one."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrospluginview.cpp:193
+#, kde-format
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Play %1"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrospluginview.cpp:193
 #, kde-format
 msgid "Play %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: keyboardmacrospluginview.cpp:194
 #, kde-format
-msgid "Play the '%1' macro without loading it."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Play the ‘%1’ macro without loading it."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: keyboardmacrospluginview.cpp:208
+#, kde-format
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wipe %1"
+msgstr ""
+
+#. +> stable6
 #: keyboardmacrospluginview.cpp:208
 #, kde-format
 msgid "Wipe %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: keyboardmacrospluginview.cpp:209
 #, kde-format
-msgid "Wipe the '%1' macro."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wipe the ‘%1’ macro."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -300,10 +438,11 @@ msgstr ""
 msgid "Save current macro as?"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: keyboardmacrospluginview.cpp:323
 #, kde-format
-msgid "Wipe the '%1' macro?"
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wipe the ‘%1’ macro?"
 msgstr ""
 
 #. i18n: ectx: Menu (tools)
