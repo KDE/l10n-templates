@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-02 09:35+0200\n"
+"POT-Creation-Date: 2026-07-07 08:19+0200\n"
 
 #. +> trunk6 stable6
 #: src/Account.cpp:465
@@ -1545,8 +1545,8 @@ msgctxt "AccountDetailsContent|"
 msgid "Enter your current password"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:701
+#. +> stable6
+#: src/qml/details/AccountDetailsContent.qml:718
 msgctxt "AccountDetailsContent|"
 msgid "Enter correct password"
 msgstr ""
@@ -1559,7 +1559,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/qml/details/AccountDetailsContent.qml:714
-#: src/qml/details/AccountDetailsContent.qml:972
+#: src/qml/details/AccountDetailsContent.qml:965
 msgctxt "AccountDetailsContent|"
 msgid "Password"
 msgstr ""
@@ -1570,20 +1570,26 @@ msgctxt "AccountDetailsContent|"
 msgid "Enter your new password"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/qml/details/AccountDetailsContent.qml:717
+msgctxt "AccountDetailsContent|"
+msgid "Enter a different password to change it"
+msgstr ""
+
+#. +> stable6
+#: src/qml/details/AccountDetailsContent.qml:734
 msgctxt "AccountDetailsContent|"
 msgid "Enter different password to change it"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:728
+#: src/qml/details/AccountDetailsContent.qml:726
 msgctxt "AccountDetailsContent|"
 msgid "Change password"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/details/AccountDetailsContent.qml:765
+#: src/qml/details/AccountDetailsContent.qml:762
 #, qt-format
 msgctxt "AccountDetailsContent|%1 is an error message"
 msgid "Failed to change password: %1"
@@ -1597,85 +1603,85 @@ msgid "Failed to change password: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:771
+#: src/qml/details/AccountDetailsContent.qml:768
 msgctxt "AccountDetailsContent|"
 msgid "Password changed successfully"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:803
+#: src/qml/details/AccountDetailsContent.qml:796
 msgctxt "AccountDetailsContent|"
 msgid "Password Visibility"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:807
+#: src/qml/details/AccountDetailsContent.qml:800
 msgctxt "AccountDetailsContent|"
 msgid "Configure this device to not expose your password for changing it or switching to another device. If you want to change your password or use your account on another device later, <b>consider storing the password somewhere else. This cannot be undone!</b>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:813
+#: src/qml/details/AccountDetailsContent.qml:806
 msgctxt "AccountDetailsContent|"
 msgid "Don't show password as text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:814
+#: src/qml/details/AccountDetailsContent.qml:807
 msgctxt "AccountDetailsContent|"
 msgid "Allow to add additional devices using the login QR code but never show the password"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:821
+#: src/qml/details/AccountDetailsContent.qml:814
 msgctxt "AccountDetailsContent|"
 msgid "Removing password from text…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:827
+#: src/qml/details/AccountDetailsContent.qml:820
 msgctxt "AccountDetailsContent|"
 msgid "Don't expose password in any way"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:828
+#: src/qml/details/AccountDetailsContent.qml:821
 msgctxt "AccountDetailsContent|"
 msgid "Neither allow to add additional devices using the login QR code nor show the password"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:835
+#: src/qml/details/AccountDetailsContent.qml:828
 msgctxt "AccountDetailsContent|"
 msgid "Removing password from text and QR code…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:845
+#: src/qml/details/AccountDetailsContent.qml:838
 msgctxt "AccountDetailsContent|"
 msgid "Connection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:849
+#: src/qml/details/AccountDetailsContent.qml:842
 msgctxt "AccountDetailsContent|"
 msgid "Configure the hostname and port to connect to (empty fields for default values)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:877
+#: src/qml/details/AccountDetailsContent.qml:870
 msgctxt "AccountDetailsContent|"
 msgid "Apply changes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:878
+#: src/qml/details/AccountDetailsContent.qml:871
 msgctxt "AccountDetailsContent|"
 msgid "Applying changes…"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/details/AccountDetailsContent.qml:908
+#: src/qml/details/AccountDetailsContent.qml:901
 #, qt-format
 msgctxt "AccountDetailsContent|%1 is an error message"
 msgid "Connection settings could not be changed: %1"
@@ -1689,127 +1695,127 @@ msgid "Connection settings could not be changed: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:921
+#: src/qml/details/AccountDetailsContent.qml:914
 msgctxt "AccountDetailsContent|"
 msgid "Connection settings changed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:932
+#: src/qml/details/AccountDetailsContent.qml:925
 msgctxt "AccountDetailsContent|"
 msgid "Switch Device"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:936
+#: src/qml/details/AccountDetailsContent.qml:929
 msgctxt "AccountDetailsContent|"
 msgid "Never show the information in this section to anyone else. It would allow unlimited access to your account!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:942
+#: src/qml/details/AccountDetailsContent.qml:935
 msgctxt "AccountDetailsContent|"
 msgid "Show login QR code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:943
+#: src/qml/details/AccountDetailsContent.qml:936
 msgctxt "AccountDetailsContent|"
 msgid "Scan the QR code by another device to log in on it"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:959
+#: src/qml/details/AccountDetailsContent.qml:952
 msgctxt "AccountDetailsContent|"
 msgid "Show credentials"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:960
+#: src/qml/details/AccountDetailsContent.qml:953
 msgctxt "AccountDetailsContent|"
 msgid "Enter the credentials in another device to log in on it"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:966
+#: src/qml/details/AccountDetailsContent.qml:959
 msgctxt "AccountDetailsContent|"
 msgid "Chat address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:984
+#: src/qml/details/AccountDetailsContent.qml:977
 msgctxt "AccountDetailsContent|"
 msgid "Migration"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:989
+#: src/qml/details/AccountDetailsContent.qml:982
 msgctxt "AccountDetailsContent|"
 msgid "Migrate account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:990
+#: src/qml/details/AccountDetailsContent.qml:983
 msgctxt "AccountDetailsContent|"
 msgid "Preparing account migration…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:992
+#: src/qml/details/AccountDetailsContent.qml:985
 msgctxt "AccountDetailsContent|"
 msgid "This may take a while"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:992
+#: src/qml/details/AccountDetailsContent.qml:985
 msgctxt "AccountDetailsContent|"
 msgid "Migrate account data (except chat history) to another account. Your current account will be removed from this app. Back up your credentials and chat history if needed!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1014
+#: src/qml/details/AccountDetailsContent.qml:1007
 msgctxt "AccountDetailsContent|"
 msgid "Removal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1020
+#: src/qml/details/AccountDetailsContent.qml:1013
 msgctxt "AccountDetailsContent|"
 msgid "Remove from Kaidan"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1021
+#: src/qml/details/AccountDetailsContent.qml:1014
 msgctxt "AccountDetailsContent|"
 msgid "Remove account from this app. Back up your credentials and chat history if needed!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1029
+#: src/qml/details/AccountDetailsContent.qml:1022
 msgctxt "AccountDetailsContent|"
 msgid "Removing account…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1036
+#: src/qml/details/AccountDetailsContent.qml:1029
 msgctxt "AccountDetailsContent|"
 msgid "Delete completely"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1037
+#: src/qml/details/AccountDetailsContent.qml:1030
 msgctxt "AccountDetailsContent|"
 msgid "Delete account from provider. You will not be able to use your account again!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1045
+#: src/qml/details/AccountDetailsContent.qml:1038
 msgctxt "AccountDetailsContent|"
 msgid "Deleting account…"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/details/AccountDetailsContent.qml:1052
+#: src/qml/details/AccountDetailsContent.qml:1045
 #, qt-format
 msgctxt "AccountDetailsContent|%1 is an error message"
 msgid "Your account could not be deleted from the server. Therefore, it was also not removed from this app: %1"
@@ -3074,36 +3080,42 @@ msgid "Confirm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/ContactAdditionContent.qml:30
+#: src/qml/elements/ContactAdditionContent.qml:32
 msgctxt "ContactAdditionContent|"
 msgid "Add"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/ContactAdditionContent.qml:42
+#: src/qml/elements/ContactAdditionContent.qml:45
 msgctxt "ContactAdditionContent|"
 msgid "Trust decisions made for contact"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/ContactAdditionContent.qml:62
+#: src/qml/elements/ContactAdditionContent.qml:65
 msgctxt "ContactAdditionContent|"
 msgid "Adding contact…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/elements/ContactAdditionContent.qml:92
+msgctxt "ContactAdditionContent|"
+msgid "Name (optional)"
+msgstr ""
+
+#. +> stable6
 #: src/qml/elements/ContactAdditionContent.qml:91
 msgctxt "ContactAdditionContent|"
 msgid "Name (optional):"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/qml/elements/ContactAdditionContent.qml:99
 msgctxt "ContactAdditionContent|"
 msgid "Message (optional, unencrypted):"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/qml/elements/ContactAdditionContent.qml:106
 msgctxt "ContactAdditionContent|"
 msgid "Hello, I'm…"
@@ -3181,34 +3193,52 @@ msgctxt "CopyFormTextDelegate|"
 msgid "Copy"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/elements/CustomConnectionSettings.qml:37
+msgctxt "CustomConnectionSettings|"
+msgid "Hostname"
+msgstr ""
+
+#. +> stable6
 #: src/qml/elements/CustomConnectionSettings.qml:37
 msgctxt "CustomConnectionSettings|"
 msgid "Hostname:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/qml/elements/CustomConnectionSettings.qml:41
 msgctxt "CustomConnectionSettings|"
-msgid "The hostname must not contain blank spaces"
+msgid "Enter a valid hostname or leave it empty"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/elements/CustomConnectionSettings.qml:50
+msgctxt "CustomConnectionSettings|"
+msgid "Port"
+msgstr ""
+
+#. +> stable6
 #: src/qml/elements/CustomConnectionSettings.qml:61
 msgctxt "CustomConnectionSettings|"
 msgid "Port:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/CustomConnectionSettings.qml:107
+#: src/qml/elements/CustomConnectionSettings.qml:88
 msgctxt "CustomConnectionSettings|"
 msgid "Plain authentication (SASL PLAIN)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/CustomConnectionSettings.qml:108
+#: src/qml/elements/CustomConnectionSettings.qml:89
 msgctxt "CustomConnectionSettings|"
 msgid "Required if your provider uses LDAP which is often the case in organizations where you can log in with a single account"
+msgstr ""
+
+#. +> stable6
+#: src/qml/elements/CustomConnectionSettings.qml:41
+msgctxt "CustomConnectionSettings|"
+msgid "The hostname must not contain blank spaces"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3289,22 +3319,34 @@ msgctxt "JidField|"
 msgid "user@example.org"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/elements/fields/JidField.qml:20
+msgctxt "JidField|"
+msgid "Enter a valid chat address"
+msgstr ""
+
+#. +> stable6
 #: src/qml/elements/fields/JidField.qml:21
 msgctxt "JidField|"
 msgid "The chat address must have the form <b>username@server</b>"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/elements/fields/PasswordField.qml:20
+#. +> trunk6
+#: src/qml/elements/fields/PasswordField.qml:23
 msgctxt "PasswordField|"
-msgid "Password"
+msgid "Enter a valid password"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/qml/elements/fields/PasswordField.qml:30
 msgctxt "PasswordField|"
 msgid "Please enter a valid password"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/elements/fields/PasswordField.qml:31
+msgctxt "PasswordField|"
+msgid "Password"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3344,61 +3386,79 @@ msgid "Send location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/GroupChatCreationContent.qml:19
+#: src/qml/elements/GroupChatCreationContent.qml:21
 msgctxt "GroupChatCreationContent|"
 msgid "Create"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/GroupChatCreationContent.qml:27
+#: src/qml/elements/GroupChatCreationContent.qml:23
 msgctxt "GroupChatCreationContent|"
 msgid "Creating group chat…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/elements/GroupChatCreationContent.qml:28
+msgctxt "GroupChatCreationContent|"
+msgid "Group name (optional)"
+msgstr ""
+
+#. +> stable6
 #: src/qml/elements/GroupChatCreationContent.qml:32
 msgctxt "GroupChatCreationContent|"
 msgid "Group Name (optional)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/GroupChatCreationContent.qml:33
+#: src/qml/elements/GroupChatCreationContent.qml:29
 msgctxt "GroupChatCreationContent|"
 msgid "Example Group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/GroupChatCreationContent.qml:41
+#: src/qml/elements/GroupChatCreationContent.qml:37
 msgctxt "GroupChatCreationContent|"
 msgid "Public"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/GroupChatCreationContent.qml:54
+#: src/qml/elements/GroupChatCreationContent.qml:51
 msgctxt "GroupChatCreationContent|"
 msgid "Group ID"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/GroupChatCreationContent.qml:57
+#: src/qml/elements/GroupChatCreationContent.qml:54
 msgctxt "GroupChatCreationContent|"
 msgid "example-group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/GroupChatCreationContent.qml:59
+#: src/qml/elements/GroupChatCreationContent.qml:56
 msgctxt "GroupChatCreationContent|"
 msgid "Enter a valid group ID"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/elements/GroupChatCreationContent.qml:65
+msgctxt "GroupChatCreationContent|"
+msgid "Service"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/GroupChatCreationContent.qml:73
+msgctxt "GroupChatCreationContent|"
+msgid "Nickname (optional)"
+msgstr ""
+
+#. +> stable6
 #: src/qml/elements/GroupChatCreationContent.qml:84
 msgctxt "GroupChatCreationContent|"
 msgid "Nickname (optional):"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/elements/GroupChatCreationContent.qml:101
+#: src/qml/elements/GroupChatCreationContent.qml:90
 #, qt-format
 msgctxt "GroupChatCreationContent|%1 is a service JID, %2 is either empty or ': ' followed by an error message"
 msgid "The group could not be created on %1%2"
@@ -3412,7 +3472,7 @@ msgid "The group could not be created on %1%2"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/elements/GroupChatCreationContent.qml:105
+#: src/qml/elements/GroupChatCreationContent.qml:94
 #, qt-format
 msgctxt "GroupChatCreationContent|%1 is a group JID, %2 is either empty or ': ' followed by an error message"
 msgid "The group %1 could not be created%2"
@@ -3426,7 +3486,7 @@ msgid "The group %1 could not be created%2"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/elements/GroupChatCreationContent.qml:109
+#: src/qml/elements/GroupChatCreationContent.qml:98
 #, qt-format
 msgctxt "GroupChatCreationContent|%1 is a group JID, %2 is either empty or ': ' followed by an error message"
 msgid "The group %1 could not be joined%2"
@@ -3452,36 +3512,60 @@ msgid "Create group chat"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/GroupChatJoiningContent.qml:18
+#: src/qml/elements/GroupChatJoiningContent.qml:19
 msgctxt "GroupChatJoiningContent|"
 msgid "Join"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/elements/GroupChatJoiningContent.qml:21
+msgctxt "GroupChatJoiningContent|"
+msgid "Joining group…"
+msgstr ""
+
+#. +> stable6
 #: src/qml/elements/GroupChatJoiningContent.qml:20
 msgctxt "GroupChatJoiningContent|"
 msgid "Joining group chat…"
 msgstr ""
 
+#. +> trunk6
+#: src/qml/elements/GroupChatJoiningContent.qml:26
+msgctxt "GroupChatJoiningContent|"
+msgid "Group address"
+msgstr ""
+
 #. +> trunk6 stable6
+#: src/qml/elements/GroupChatJoiningContent.qml:27
+msgctxt "GroupChatJoiningContent|"
+msgid "group@groups.example.org"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/GroupChatJoiningContent.qml:28
+msgctxt "GroupChatJoiningContent|"
+msgid "Enter a valid group address"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/GroupChatJoiningContent.qml:50
+msgctxt "GroupChatJoiningContent|"
+msgid "Nickname (optional)"
+msgstr ""
+
+#. +> stable6
 #: src/qml/elements/GroupChatJoiningContent.qml:25
 msgctxt "GroupChatJoiningContent|"
 msgid "Address"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/elements/GroupChatJoiningContent.qml:26
-msgctxt "GroupChatJoiningContent|"
-msgid "group@groups.example.org"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> stable6
 #: src/qml/elements/GroupChatJoiningContent.qml:28
 msgctxt "GroupChatJoiningContent|"
 msgid "The address must have the form <b>group@server</b>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/qml/elements/GroupChatJoiningContent.qml:50
 msgctxt "GroupChatJoiningContent|"
 msgid "Nickname (optional):"
@@ -3617,13 +3701,13 @@ msgid "Loading…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/LoginArea.qml:29 src/qml/elements/LoginArea.qml:100
+#: src/qml/elements/LoginArea.qml:30 src/qml/elements/LoginArea.qml:90
 msgctxt "LoginArea|"
 msgid "Log in"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/LoginArea.qml:38
+#: src/qml/elements/LoginArea.qml:39
 msgctxt "LoginArea|"
 msgid "Scan login QR code"
 msgstr ""
@@ -3635,7 +3719,7 @@ msgid "Show connection settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/LoginArea.qml:101
+#: src/qml/elements/LoginArea.qml:91
 msgctxt "LoginArea|"
 msgid "Connecting…"
 msgstr ""
@@ -4174,97 +4258,97 @@ msgid "Select a chat to start"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:66
+#: src/qml/GlobalDrawer.qml:55
 msgctxt "GlobalDrawer|"
 msgid "Accounts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:130
+#: src/qml/GlobalDrawer.qml:119
 msgctxt "GlobalDrawer|"
 msgid "Password"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:131
+#: src/qml/GlobalDrawer.qml:120
 msgctxt "GlobalDrawer|"
 msgid "Enter your correct password"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:140
+#: src/qml/GlobalDrawer.qml:129
 msgctxt "GlobalDrawer|"
 msgid "Confirm password"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:184
+#: src/qml/GlobalDrawer.qml:170
 msgctxt "GlobalDrawer|"
 msgid "Actions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:188
+#: src/qml/GlobalDrawer.qml:174
 msgctxt "GlobalDrawer|"
 msgid "Enable your account to use all available actions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:188
+#: src/qml/GlobalDrawer.qml:174
 msgctxt "GlobalDrawer|"
 msgid "Enable an account to use all available actions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:193
+#: src/qml/GlobalDrawer.qml:179
 msgctxt "GlobalDrawer|"
 msgid "Add contact by QR code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:200
+#: src/qml/GlobalDrawer.qml:186
 msgctxt "GlobalDrawer|"
 msgid "Add contact by chat address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:207
+#: src/qml/GlobalDrawer.qml:193
 msgctxt "GlobalDrawer|"
 msgid "Create group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:207
+#: src/qml/GlobalDrawer.qml:193
 msgctxt "GlobalDrawer|"
 msgid "Create group (unsupported)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:233
+#: src/qml/GlobalDrawer.qml:219
 msgctxt "GlobalDrawer|"
 msgid "Join group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:233
+#: src/qml/GlobalDrawer.qml:219
 msgctxt "GlobalDrawer|"
 msgid "Join group (unsupported)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:260
+#: src/qml/GlobalDrawer.qml:246
 msgctxt "GlobalDrawer|"
 msgid "Search public groups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:274
+#: src/qml/GlobalDrawer.qml:260
 msgctxt "GlobalDrawer|"
 msgid "About"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/GlobalDrawer.qml:498
+#: src/qml/GlobalDrawer.qml:484
 #, qt-format
 msgctxt "GlobalDrawer|%1 is a JID"
 msgid "Unblocked %1"
@@ -4278,13 +4362,13 @@ msgid "Unblocked %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/GlobalDrawer.qml:498
+#: src/qml/GlobalDrawer.qml:484
 msgctxt "GlobalDrawer|"
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/GlobalDrawer.qml:505
+#: src/qml/GlobalDrawer.qml:491
 #, qt-format
 msgctxt "GlobalDrawer|%1 is a JID, %2 an error message"
 msgid "Could not block %1: %2"
@@ -4298,7 +4382,7 @@ msgid "Could not block %1: %2"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/GlobalDrawer.qml:509
+#: src/qml/GlobalDrawer.qml:495
 #, qt-format
 msgctxt "GlobalDrawer|%1 is a JID, %2 an error message"
 msgid "Could not unblock %1: %2"
@@ -4312,19 +4396,19 @@ msgid "Could not unblock %1: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/QrCodeOnboardingPage.qml:26
+#: src/qml/QrCodeOnboardingPage.qml:27
 msgctxt "QrCodeOnboardingPage|"
 msgid "Scan a QR Code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/QrCodeOnboardingPage.qml:28
+#: src/qml/QrCodeOnboardingPage.qml:29
 msgctxt "QrCodeOnboardingPage|"
 msgid "Scan QR code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/QrCodeOnboardingPage.qml:28
+#: src/qml/QrCodeOnboardingPage.qml:29
 msgctxt "QrCodeOnboardingPage|"
 msgid "Show explanation"
 msgstr ""
@@ -4419,7 +4503,13 @@ msgctxt "ManualRegistrationPage|"
 msgid "Enter your desired credentials"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/registration/ManualRegistrationPage.qml:68
+msgctxt "ManualRegistrationPage|"
+msgid "Display name"
+msgstr ""
+
+#. +> stable6
 #: src/qml/registration/ManualRegistrationPage.qml:68
 msgctxt "ManualRegistrationPage|"
 msgid "Display Name"
@@ -4438,19 +4528,19 @@ msgid "Enter a valid username or leave the field empty for a random one"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ManualRegistrationPage.qml:141
+#: src/qml/registration/ManualRegistrationPage.qml:140
 msgctxt "ManualRegistrationPage|"
 msgid "The provider requires a stronger password."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ManualRegistrationPage.qml:190
+#: src/qml/registration/ManualRegistrationPage.qml:189
 msgctxt "ManualRegistrationPage|"
 msgid "The username is already taken."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ManualRegistrationPage.qml:194
+#: src/qml/registration/ManualRegistrationPage.qml:193
 msgctxt "ManualRegistrationPage|"
 msgid "A new random username has been generated."
 msgstr ""
@@ -4663,19 +4753,19 @@ msgid "Pin & Move"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/StartPage.qml:27
+#: src/qml/StartPage.qml:28
 msgctxt "StartPage|"
 msgid "Account Migration"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/StartPage.qml:27
+#: src/qml/StartPage.qml:28
 msgctxt "StartPage|"
 msgid "Account Creation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/StartPage.qml:50
+#: src/qml/StartPage.qml:51
 msgctxt "StartPage|"
 msgid "Enjoy free communication on every device!"
 msgstr ""
@@ -4705,7 +4795,7 @@ msgid "Unknown size"
 msgstr ""
 
 #. +> trunk6
-#: src/RosterController.cpp:154
+#: src/RosterController.cpp:152
 #, qt-format
 msgctxt "RosterController|%1 is a JID, %2 an error message"
 msgid "%1 could not be added: %2"
@@ -4719,19 +4809,19 @@ msgid "%1 could not be added: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:161
+#: src/RosterController.cpp:159
 msgctxt "RosterController|"
 msgid "Could not add contact as a result of not being connected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:171
+#: src/RosterController.cpp:169
 msgctxt "RosterController|"
 msgid "Could not rename contact as a result of not being connected."
 msgstr ""
 
 #. +> trunk6
-#: src/RosterController.cpp:181
+#: src/RosterController.cpp:179
 #, qt-format
 msgctxt "RosterController|%1 is a contact JID, %2 an error message"
 msgid "Requesting to see the personal data of %1 failed because of a connection problem: %2"
@@ -4745,7 +4835,7 @@ msgid "Requesting to see the personal data of %1 failed because of a connection 
 msgstr ""
 
 #. +> trunk6
-#: src/RosterController.cpp:194
+#: src/RosterController.cpp:192
 #, qt-format
 msgctxt "RosterController|%1 is a contact JID"
 msgid "Allowing %1 to see your personal data failed"
@@ -4759,7 +4849,7 @@ msgid "Allowing %1 to see your personal data failed"
 msgstr ""
 
 #. +> trunk6
-#: src/RosterController.cpp:206
+#: src/RosterController.cpp:204
 #, qt-format
 msgctxt "RosterController|%1 is a contact JID"
 msgid "Stopping %1 to see your personal data failed"
@@ -4773,7 +4863,7 @@ msgid "Stopping %1 to see your personal data failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:300
+#: src/RosterController.cpp:298
 msgctxt "RosterController|"
 msgid "Could not remove contact as a result of not being connected."
 msgstr ""
