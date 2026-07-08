@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-30 07:54+0200\n"
+"POT-Creation-Date: 2026-07-08 08:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -519,13 +519,6 @@ msgid "Shared Folders"
 msgstr ""
 
 #. +> trunk6 stable6
-#: retrieveitemstask.cpp:584
-#, kde-format
-msgctxt "@info:status"
-msgid "Fetching missing mail bodies in %3: %1/%2"
-msgstr ""
-
-#. +> trunk6 stable6
 #: retrieveitemtask.cpp:35
 #, kde-format
 msgid "Remote id is empty or invalid"
@@ -653,49 +646,49 @@ msgid "Disconnected during login."
 msgstr ""
 
 #. +> trunk6 stable6
-#: settings.cpp:124
+#: settings.cpp:126
 #, kde-format
 msgctxt "@info:status"
 msgid "Password not found for %1 IMAP account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: settings.cpp:129
+#: settings.cpp:131
 #, kde-format
 msgctxt "@info:status"
 msgid "An error occurred when retrieving the IMAP password from the system keychain: \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: settings.cpp:157
+#: settings.cpp:159
 #, kde-format
 msgctxt "@info:status"
 msgid "Password not found for %1 sieve account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: settings.cpp:162
+#: settings.cpp:164
 #, kde-format
 msgctxt "@info:status"
 msgid "An error occurred when retrieving the sieve password from the system keychain: \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: settings.cpp:192
+#: settings.cpp:194
 #, kde-format
 msgctxt "@info:status"
 msgid "An error occurred when saving the sieve password in the system keychain: \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: settings.cpp:218
+#: settings.cpp:220
 #, kde-format
 msgctxt "@info:status"
 msgid "An error occurred when saving the IMAP password in the system keychain: \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: settings.cpp:305
+#: settings.cpp:307
 #, kde-format
 msgctxt "@title"
 msgid "Problem with %1 IMAP account"
@@ -1244,4 +1237,11 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Subscribed only"
+msgstr ""
+
+#. +> stable6
+#: retrieveitemstask.cpp:584
+#, kde-format
+msgctxt "@info:status"
+msgid "Fetching missing mail bodies in %3: %1/%2"
 msgstr ""
