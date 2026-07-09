@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-08 08:37+0200\n"
+"POT-Creation-Date: 2026-07-09 08:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7223,7 +7223,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/certificatedetailswidget.cpp:355
-#: src/dialogs/subkeyswidget.cpp:420
+#: src/dialogs/subkeyswidget.cpp:429
 #, kde-format
 msgctxt "not applicable"
 msgid "n/a"
@@ -7245,7 +7245,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/certificatedetailswidget.cpp:363
-#: src/dialogs/subkeyswidget.cpp:428
+#: src/dialogs/subkeyswidget.cpp:437
 #, kde-format
 msgctxt "key is 'offline key', i.e. secret key is not stored on this computer"
 msgid "offline"
@@ -7647,7 +7647,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: src/dialogs/certifywidget.cpp:466
 #: src/dialogs/lookupcertificatesdialog.cpp:237
-#: src/dialogs/revokerswidget.cpp:69 src/dialogs/subkeyswidget.cpp:164
+#: src/dialogs/revokerswidget.cpp:69 src/dialogs/subkeyswidget.cpp:175
 #: src/view/cardkeysview.cpp:421
 #, kde-format
 msgctxt "@title:column"
@@ -8343,7 +8343,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/lookupcertificatesdialog.cpp:238
-#: src/dialogs/subkeyswidget.cpp:166
+#: src/dialogs/subkeyswidget.cpp:177
 #, kde-format
 msgctxt "@title:column"
 msgid "Valid From"
@@ -8351,7 +8351,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/lookupcertificatesdialog.cpp:239
-#: src/dialogs/subkeyswidget.cpp:167
+#: src/dialogs/subkeyswidget.cpp:178
 #, kde-format
 msgctxt "@title:column"
 msgid "Valid Until"
@@ -8359,7 +8359,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/lookupcertificatesdialog.cpp:240
-#: src/dialogs/subkeyswidget.cpp:165
+#: src/dialogs/subkeyswidget.cpp:176
 #, kde-format
 msgctxt "@title:column"
 msgid "Status"
@@ -8374,7 +8374,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/lookupcertificatesdialog.cpp:242
-#: src/dialogs/subkeyswidget.cpp:163
+#: src/dialogs/subkeyswidget.cpp:174
 #, kde-format
 msgctxt "@title:column"
 msgid "Key ID"
@@ -8389,7 +8389,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/lookupcertificatesdialog.cpp:254
-#: src/dialogs/revokerswidget.cpp:82 src/dialogs/subkeyswidget.cpp:324
+#: src/dialogs/revokerswidget.cpp:82 src/dialogs/subkeyswidget.cpp:334
 #: src/dialogs/useridswidget.cpp:534 src/dialogs/weboftrustwidget.cpp:320
 #: src/mainwindow.cpp:685 src/view/cardkeysview.cpp:448
 #: src/view/keytreeview.cpp:242
@@ -8841,98 +8841,98 @@ msgid "Manage Smart Cards"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:160
+#: src/dialogs/subkeyswidget.cpp:171
 #, kde-format
 msgctxt "@label"
 msgid "Subkeys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:168 src/view/cardkeysview.cpp:423
+#: src/dialogs/subkeyswidget.cpp:179 src/view/cardkeysview.cpp:423
 #, kde-format
 msgctxt "@title:column"
 msgid "Usage"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:169 src/view/cardkeysview.cpp:424
+#: src/dialogs/subkeyswidget.cpp:180 src/view/cardkeysview.cpp:424
 #, kde-format
 msgctxt "@title:column"
 msgid "Algorithm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:170
+#: src/dialogs/subkeyswidget.cpp:181
 #, kde-format
 msgctxt "@title:column"
 msgid "Storage"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:171 src/view/cardkeysview.cpp:425
+#: src/dialogs/subkeyswidget.cpp:182 src/view/cardkeysview.cpp:425
 #, kde-format
 msgctxt "@title:column"
 msgid "Keygrip"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:178
+#: src/dialogs/subkeyswidget.cpp:189
 #, kde-format
 msgctxt "@action:button"
 msgid "Add subkey"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:179
+#: src/dialogs/subkeyswidget.cpp:190
 #, kde-format
 msgctxt "@action:button"
 msgid "Change validity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:180
+#: src/dialogs/subkeyswidget.cpp:191
 #, kde-format
 msgctxt "@action:button"
 msgid "Export OpenSSH key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:181
+#: src/dialogs/subkeyswidget.cpp:192
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore printed backup"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:182
+#: src/dialogs/subkeyswidget.cpp:193
 #, kde-format
 msgctxt "@action:button"
 msgid "Transfer to smartcard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:183
+#: src/dialogs/subkeyswidget.cpp:194
 #, kde-format
 msgctxt "@action:button"
 msgid "Export secret subkey"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:184
+#: src/dialogs/subkeyswidget.cpp:195
 #, kde-format
 msgctxt "@action:button"
 msgid "Add ADSK"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:186
+#: src/dialogs/subkeyswidget.cpp:197
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<html>Add the ADSK specified in the GnuPG configuration to your certificate. By adding an ADSK to your certificate, you allow the owner of the ADSK to decrypt all new messages that are encrypted for your certificate, if the client encrypting the message supports this functionality.</html>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:198 src/dialogs/useridswidget.cpp:166
+#: src/dialogs/subkeyswidget.cpp:209 src/dialogs/useridswidget.cpp:166
 #: src/dialogs/weboftrustwidget.cpp:134
 #, kde-format
 msgctxt "@info:tooltip"
@@ -8940,50 +8940,50 @@ msgid "Show more options"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:294
+#: src/dialogs/subkeyswidget.cpp:305
 #, kde-format
 msgid "Change validity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:301
+#: src/dialogs/subkeyswidget.cpp:312
 #, kde-format
 msgid "Export OpenSSH key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:307
+#: src/dialogs/subkeyswidget.cpp:318
 #, kde-format
 msgid "Transfer to smartcard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:315
+#: src/dialogs/subkeyswidget.cpp:325
 #, kde-format
 msgid "Export secret subkey"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:423
+#: src/dialogs/subkeyswidget.cpp:432
 #, kde-format
 msgctxt "smart card <serial number>"
 msgid "smart card %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:425
+#: src/dialogs/subkeyswidget.cpp:434
 #, kde-format
 msgid "smart card"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:430
+#: src/dialogs/subkeyswidget.cpp:439
 #, kde-format
 msgid "on this computer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/subkeyswidget.cpp:432
+#: src/dialogs/subkeyswidget.cpp:441
 #, kde-format
 msgctxt "unknown storage location"
 msgid "unknown"
