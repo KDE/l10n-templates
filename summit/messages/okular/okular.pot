@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-09 08:39+0200\n"
+"POT-Creation-Date: 2026-07-10 07:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -697,7 +697,13 @@ msgstr ""
 msgid "Signing cancelled by user"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: core/signatureutils.cpp:516
+#, kde-format
+msgid "Signing failed: Wrong passphrase"
+msgstr ""
+
+#. +> stable6
 #: core/signatureutils.cpp:516
 #, kde-format
 msgid "Could not sign. Wrong passphrase"
@@ -730,74 +736,81 @@ msgid "&Default Font:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:39
+#: gui/certificatemodel.cpp:51
 #, kde-format
 msgid "Version"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:41
+#: gui/certificatemodel.cpp:53
 #, kde-format
 msgid "Serial Number"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:43
+#: gui/certificatemodel.cpp:55
 #, kde-format
 msgid "Issuer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:45 part/certificateviewer.cpp:88
+#: gui/certificatemodel.cpp:57 part/certificateviewer.cpp:89
 #, kde-format
 msgid "Issued On"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:47 part/certificateviewer.cpp:89
+#: gui/certificatemodel.cpp:59 part/certificateviewer.cpp:90
 #, kde-format
 msgid "Expires On"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:49
+#: gui/certificatemodel.cpp:61
 #, kde-format
 msgctxt "The person/company that made the signature"
 msgid "Subject"
 msgstr ""
 
+#. +> trunk6
+#: gui/certificatemodel.cpp:61
+#, kde-format
+msgctxt "Name/email on key"
+msgid "User Id"
+msgstr ""
+
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:51
+#: gui/certificatemodel.cpp:63
 #, kde-format
 msgid "Public Key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:53
+#: gui/certificatemodel.cpp:65
 #, kde-format
 msgid "Key Usage"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:72
+#: gui/certificatemodel.cpp:84
 #, kde-format
 msgid "V%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:84
+#: gui/certificatemodel.cpp:96
 #, kde-format
 msgid "%1 (%2 bits)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:146
+#: gui/certificatemodel.cpp:158
 #, kde-format
 msgid "Property"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gui/certificatemodel.cpp:148
+#: gui/certificatemodel.cpp:160
 #, kde-format
 msgid "Value"
 msgstr ""
@@ -2708,13 +2721,13 @@ msgid "Common Name(CN)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:67 part/certificateviewer.cpp:77
+#: part/certificateviewer.cpp:67 part/certificateviewer.cpp:78
 #, kde-format
 msgid "EMail"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:68 part/certificateviewer.cpp:80
+#: part/certificateviewer.cpp:68 part/certificateviewer.cpp:81
 #, kde-format
 msgid "Organization(O)"
 msgstr ""
@@ -2726,75 +2739,81 @@ msgid "Issued To"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:85
+#: part/certificateviewer.cpp:76 part/propertiesdialog.cpp:424
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/certificateviewer.cpp:86
 #, kde-format
 msgid "Validity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:89
+#: part/certificateviewer.cpp:90
 #, kde-format
 msgctxt "certificate that never expires"
 msgid "Never"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:93
+#: part/certificateviewer.cpp:94
 #, kde-format
 msgid "Fingerprints"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:103
+#: part/certificateviewer.cpp:104
 #, kde-format
 msgid "SHA-1 Fingerprint"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:104
+#: part/certificateviewer.cpp:105
 #, kde-format
 msgid "SHA-256 Fingerprint"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:106
+#: part/certificateviewer.cpp:107
 #, kde-format
 msgctxt "certificate key"
 msgid "Fingerprint"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:115
+#: part/certificateviewer.cpp:116
 #, kde-format
 msgid "Details"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:116
+#: part/certificateviewer.cpp:117
 #, kde-format
 msgid "Certificate Data:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:168
+#: part/certificateviewer.cpp:178
 #, kde-format
 msgid "Where do you want to save this certificate?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:172
+#: part/certificateviewer.cpp:182
 #, kde-format
 msgid "Certificate File (*.asc)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:175
+#: part/certificateviewer.cpp:185
 #, kde-format
 msgid "Certificate File (*.cer)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/certificateviewer.cpp:181
+#: part/certificateviewer.cpp:191
 #, kde-format
 msgid "Could not export the certificate"
 msgstr ""
@@ -6096,12 +6115,6 @@ msgstr ""
 #: part/propertiesdialog.cpp:391
 #, kde-format
 msgid "Embedded: %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: part/propertiesdialog.cpp:424
-#, kde-format
-msgid "Name"
 msgstr ""
 
 #. +> trunk6 stable6
