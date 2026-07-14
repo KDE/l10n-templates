@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-05 18:50+0200\n"
+"POT-Creation-Date: 2026-07-14 08:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -406,268 +406,275 @@ msgstr ""
 msgid "Rhythm exercises focus on timing rather than pitch. In the clapping mode, &minuet; listens to your microphone input and compares the onsets to the target pattern."
 msgstr ""
 
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:223
+#, no-c-format
+msgid "The <guilabel>Easy with rests</guilabel> and <guilabel>Medium with rests</guilabel> categories add silent positions to the corresponding note-only patterns. Listening exercises avoid choices that sound identical, while <guilabel>Read and clap</guilabel> includes every mixed note-and-rest pattern."
+msgstr ""
+
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: index.docbook:224
+#: index.docbook:230
 #, no-c-format
 msgid "&minuet; clapping exercise"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: index.docbook:227
+#: index.docbook:233
 #, no-c-format
 msgid "A rhythm clapping exercise in &minuet;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:231
+#: index.docbook:237
 #, no-c-format
 msgid "The clapping view shows the rhythm pattern cards, an input level meter, and a <guibutton>Calibrate Silence</guibutton> action. The count-in happens before recording starts, so you can settle into the tempo before the exercise listens for claps."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:237
+#: index.docbook:243
 #, no-c-format
 msgid "Use the rhythm practice to work on:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:242
+#: index.docbook:248
 #, no-c-format
 msgid "recognizing simple rhythm figures by ear;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:243
+#: index.docbook:249
 #, no-c-format
 msgid "matching your claps to the beat;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:244
+#: index.docbook:250
 #, no-c-format
 msgid "staying inside the configured timing tolerance."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:249
+#: index.docbook:255
 #, no-c-format
 msgid "Singing exercises"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:251
+#: index.docbook:257
 #, no-c-format
 msgid "Singing exercises use the microphone to compare what you sing with the target pitch content. The same practice screen is used for both interval and scale work, but the target and feedback change with the chosen exercise."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:257
+#: index.docbook:263
 #, no-c-format
 msgid "For interval exercises, &minuet; plays the root note and asks you to sing the requested interval relative to it. For scale exercises, the app presents a scale or mode and expects you to sing the notes in sequence while staying on pitch and on beat."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: index.docbook:264
+#: index.docbook:270
 #, no-c-format
 msgid "&minuet; singing interval exercise"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: index.docbook:267
+#: index.docbook:273
 #, no-c-format
 msgid "A singing interval exercise in &minuet;"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: index.docbook:272
+#: index.docbook:278
 #, no-c-format
 msgid "&minuet; singing scale exercise"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: index.docbook:275
+#: index.docbook:281
 #, no-c-format
 msgid "A singing scale exercise in &minuet;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:279
+#: index.docbook:285
 #, no-c-format
 msgid "The singing view shows the note targets, pitch and onset feedback, a live input meter, and a <guibutton>Calibrate Silence</guibutton> action. &minuet; also counts in before the first note, so you can start on the correct beat. The scale view extends the same feedback to longer sequences, which makes it useful for practicing melodic memory in addition to pitch matching."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:286
+#: index.docbook:292
 #, no-c-format
 msgid "Singing exercises are influenced by several settings:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:291
+#: index.docbook:297
 #, no-c-format
 msgid "<guilabel>Voice class</guilabel> selects the expected vocal range."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:292
+#: index.docbook:298
 #, no-c-format
 msgid "<guilabel>Pitch tolerance</guilabel> controls how far from the target pitch a sung note may be."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:293
+#: index.docbook:299
 #, no-c-format
 msgid "<guilabel>Timing tolerance</guilabel> controls how much rhythmic drift is accepted for claps."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:300
+#: index.docbook:306
 #, no-c-format
 msgid "Settings"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:302
+#: index.docbook:308
 #, no-c-format
 msgid "The settings page is split into four sections: <guilabel>Practice</guilabel>, <guilabel>Sound</guilabel>, <guilabel>Microphone</guilabel>, and <guilabel>Advanced</guilabel>. The first three sections keep the beginner controls visible. The advanced section stays collapsed until you open it."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: index.docbook:310
+#: index.docbook:316
 #, no-c-format
 msgid "&minuet; basic settings"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: index.docbook:313
+#: index.docbook:319
 #, no-c-format
 msgid "The basic settings page in &minuet;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:317
+#: index.docbook:323
 #, no-c-format
 msgid "The visible settings cover the controls most users need day to day:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:322
+#: index.docbook:328
 #, no-c-format
 msgid "<guilabel>Exercise speed</guilabel> sets the tempo in beats per minute."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:323
+#: index.docbook:329
 #, no-c-format
 msgid "<guilabel>Number of rhythm patterns</guilabel> controls the size of rhythm practice sets."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:324
+#: index.docbook:330
 #, no-c-format
 msgid "<guilabel>Number of exercises</guilabel> sets the length of a test run."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:325
+#: index.docbook:331
 #, no-c-format
 msgid "<guilabel>Volume</guilabel> adjusts playback loudness."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:326
+#: index.docbook:332
 #, no-c-format
 msgid "<guilabel>Instrument</guilabel> selects the melodic sound used for ear training."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:327
+#: index.docbook:333
 #, no-c-format
 msgid "<guilabel>Voice class</guilabel> selects the target singing range."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:330
+#: index.docbook:336
 #, no-c-format
 msgid "The microphone section also includes short helper descriptions for the tolerance and calibration controls. Those descriptions explain when to tighten the tolerance and when to recalibrate silence."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: index.docbook:336
+#: index.docbook:342
 #, no-c-format
 msgid "&minuet; advanced settings"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: index.docbook:339
+#: index.docbook:345
 #, no-c-format
 msgid "The advanced settings section in &minuet;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:343
+#: index.docbook:349
 #, no-c-format
 msgid "Advanced settings expose detection algorithms and thresholds for difficult microphones or noisy rooms. Use them when the default detection behavior is not enough. The section is collapsed by default and includes a <guibutton>Reset to Defaults</guibutton> button so you can restore the factory values after experimenting."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:350
+#: index.docbook:356
 #, no-c-format
 msgid "The advanced section includes separate groups for clapping detection and singing detection. Typical controls include onset method, onset threshold, input gate, minimum onset strength, silence level, pitch method, scoring mode, pitch confidence, and stable pitch frames."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:358
+#: index.docbook:364
 #, no-c-format
 msgid "Creating new &minuet;'s exercises"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:360
+#: index.docbook:366
 #, no-c-format
 msgid "&minuet;'s exercises are defined in &JSON; specification files. The app loads all available files at startup and merges them into the visible exercise tree."
 msgstr ""
 
 #. Tag: programlisting
 #. +> trunk6 stable6
-#: index.docbook:366
+#: index.docbook:372
 #, no-c-format
 msgid ""
 "{\n"
@@ -699,140 +706,140 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:369
+#: index.docbook:375
 #, no-c-format
 msgid "The top-level object contains an <parameter>exercises</parameter> array. Each item in that array is either a category or an exercise leaf. Categories use <parameter>children</parameter> to define the next level of the tree."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:375
+#: index.docbook:381
 #, no-c-format
 msgid "Useful fields include:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:380
+#: index.docbook:386
 #, no-c-format
 msgid "<parameter>name</parameter> gives every node its visible label."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:381
+#: index.docbook:387
 #, no-c-format
 msgid "<parameter>root</parameter> limits the note range used to generate the prompt."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:382
+#: index.docbook:388
 #, no-c-format
 msgid "<parameter>playMode</parameter> selects scale, chord, or rhythm playback."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:383
+#: index.docbook:389
 #, no-c-format
 msgid "<parameter>userMessage</parameter> customizes the instruction shown to the user."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:384
+#: index.docbook:390
 #, no-c-format
 msgid "<parameter>numberOfSelectedOptions</parameter> controls how many answers may be correct."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:385
+#: index.docbook:391
 #, no-c-format
 msgid "<parameter>_icon</parameter> sets the icon shown in the drawer and exercise browser."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:386
+#: index.docbook:392
 #, no-c-format
 msgid "<parameter>and-tags</parameter> and <parameter>or-tags</parameter> help group and filter related nodes."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:387
+#: index.docbook:393
 #, no-c-format
 msgid "<parameter>description</parameter> gives the browser a short explanation for the node."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:388
+#: index.docbook:394
 #, no-c-format
 msgid "<parameter>options</parameter> describes answer choices for a leaf exercise."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:389
+#: index.docbook:395
 #, no-c-format
 msgid "<parameter>sequenceFromRoot</parameter> defines the note offsets for melodic answers."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:390
+#: index.docbook:396
 #, no-c-format
 msgid "<parameter>template</parameter> is used by rhythm exercises to render notation."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:393
+#: index.docbook:399
 #, no-c-format
 msgid "The app merges files that share the same category names, so separate specification files can contribute to one visible hierarchy. Install them system-wide or place them in <filename class=\"directory\">minuet/exercises/</filename> under the generic data location returned by <userinput><command>qtpaths</command> <option>--paths GenericDataLocation</option></userinput>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:404
+#: index.docbook:410
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:406
+#: index.docbook:412
 #, no-c-format
 msgid "&minuet;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:409
+#: index.docbook:415
 #, no-c-format
 msgid "Program copyright 2016 &Sandro.Andrade; &Sandro.Andrade.mail;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:413
+#: index.docbook:419
 #, no-c-format
 msgid "Documentation Copyright &copy; 2026 &Sandro.Andrade; &Sandro.Andrade.mail;"
 msgstr ""
 
 #. Tag: trans_comment
 #. +> trunk6 stable6
-#: index.docbook:417
+#: index.docbook:423
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
 #. +> trunk6 stable6
-#: index.docbook:417
+#: index.docbook:423
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""

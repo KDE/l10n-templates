@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-linux-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-11 07:41+0200\n"
+"POT-Creation-Date: 2026-07-14 08:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -117,7 +117,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/_index.md:51
-msgid "**Help develop KDE Linux**, especially if you have an interest in operating systems (particularly immutable ones). There’s lots to do. [Chat with the devs](https://matrix.to/#/%23kde-linux:kde.org) and [submit merge requests](https://invent.kde.org/kde-linux/kde-linux/-/merge_requests). If you’re working on a similar OS, tell us about your experience, and we can compare notes and work on solutions together. Shared knowledge improves all projects."
+msgid "**Help develop KDE Linux**, especially if you have an interest in operating systems (particularly image-based ones). There’s lots to do. [Chat with the devs](https://matrix.to/#/%23kde-linux:kde.org) and [submit merge requests](https://invent.kde.org/kde-linux/kde-linux/-/merge_requests). If you’re working on a similar OS, tell us about your experience, and we can compare notes and work on solutions together. Shared knowledge improves all projects."
 msgstr ""
 
 #. +> trunk5
@@ -178,7 +178,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/_index.md:82
-msgid "**Opportunities for customizing the base OS are extremely limited.** As an “immutable base” operating system, KDE Linux deliberately limits system-level customization to preserve reliability. Don’t go starting and stopping Systemd services except to debug or fix reported bugs. Don’t try hacks to customize your Plymouth splash screen or SDDM theme."
+msgid "**Opportunities for customizing the base OS are extremely limited.** As an image-based operating system, KDE Linux deliberately limits system-level customization to preserve reliability. Don’t go starting and stopping Systemd services except to debug or fix reported bugs. Don’t try hacks to customize your Plymouth splash screen or SDDM theme."
 msgstr ""
 
 #. +> trunk5
@@ -394,7 +394,7 @@ msgid ""
 "    </ul>"
 "\n"
 "    {{< alert color=\"success\" icon=\"tip\" >}}\n"
-"KDE Linux is an “opinionated” and “immutable” operating system. If you know what these terms mean and they aren’t your cup of tea, you can find plenty of user-friendly KDE-focused operating systems with traditional package management tools [on the Distributions page](https://kde.org/distributions).\n"
+"KDE Linux is an opinionated image-based operating system. If you know what these terms mean and they aren’t your cup of tea, you can find plenty of user-friendly KDE-focused operating systems with traditional package management tools [on the Distributions page](https://kde.org/distributions).\n"
 msgstr ""
 
 #. +> trunk5
@@ -436,7 +436,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/_index.md:208
-msgid "You get excited about modern technology like Systemd, immutable OSs, containerized apps, and Btrfs"
+msgid "You get excited about modern technology like Systemd, image-based OSs, containerized apps, and Btrfs"
 msgstr ""
 
 #. +> trunk5
@@ -531,7 +531,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/_index.md:242
-msgid "KDE Linux is an “immutable base OS” Linux distro created using Arch Linux packages, but it should not be considered an “Arch-based distro”; Arch is simply a means to an end, and KDE Linux doesn’t even ship with the `pacman` package manager."
+msgid "KDE Linux is an image-based Linux distro created using Arch Linux packages, but it should not be considered an “Arch-based distro”; Arch is simply a means to an end, and KDE Linux doesn’t even ship with the `pacman` package manager."
 msgstr ""
 
 #. +> trunk5
@@ -571,7 +571,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs.md:11
-msgid "Life on a cutting-edge immutable OS can be unfamiliar! This page contains information about how to perform various tasks on KDE Linux:"
+msgid "Life on a cutting-edge image-based OS can be unfamiliar! This page contains information about how to perform various tasks on KDE Linux:"
 msgstr ""
 
 #. +> trunk5
@@ -931,17 +931,37 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/background.md:13
+msgid "History"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:14
 msgid "Veteran KDE developer Harald Sitter began working on KDE Linux in early 2023, and revealed its working prototype at Akademy 2024 ([slides](https://conf.kde.org/event/6/contributions/202/attachments/135/171/The%20Operating%20System.pdf), [recording](http://www.youtube.com/live/gTxRaBEUe-I?t=25936))."
 msgstr ""
 
 #. +> trunk5
-#: content/docs/background.md:15
+#: content/docs/background.md:16
 msgid "An [alpha release](https://pointieststick.com/2025/09/06/announcing-the-alpha-release-of-kde-linux/) followed at Akademy 2025 ([slides](https://conf.kde.org/event/9/contributions/265/attachments/171/220/growth.pdf), [recording](https://www.youtube.com/watch?v=PA03J1CAYoA))."
 msgstr ""
 
 #. +> trunk5
-#: content/docs/background.md:17
-msgid "The project incorporates lessons learned from the earlier [KDE neon](https://neon.kde.org/) project, and focuses on resilience, modern technical infrastructure, and low maintenance needs. KDE Linux’s design is heavily inspired by systemd creator Lennart Poettering’s thoughts on [OS design](https://0pointer.net/blog/fitting-everything-together.html) and [system extensions](https://0pointer.net/blog/testing-my-system-code-in-usr-without-modifying-usr.html)."
+#: content/docs/background.md:19
+msgid "Architecture"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:20
+msgid "KDE Linux incorporates lessons learned from the earlier [KDE neon](https://neon.kde.org/) project, and focuses on resilience, modern technical infrastructure, and low maintenance needs. KDE Linux’s design is heavily inspired by systemd creator Lennart Poettering’s thoughts on [operating system (OS) design](https://0pointer.net/blog/fitting-everything-together.html) and [system extensions](https://0pointer.net/blog/testing-my-system-code-in-usr-without-modifying-usr.html)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:23
+msgid "As such, KDE Linux is an “image-based” OS. This means the entire base OS is provided as one unit, rather than being split up into thousands of packages that are assembled into the final product on your computer."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:25
+msgid "Sometimes this model is called “immutable” because the base OS cannot be modified in the same way a traditional OS made of packages could. However, this terminology can be misleading; in KDE Linux, only `/usr` is provided in the form of a read-only image, and everything else on the system is modifiable like on any other Linux-based OS."
 msgstr ""
 
 #. +> trunk5
@@ -3936,7 +3956,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/password-managers.md:32
-msgid "Please consider providing feedback to password manager developers and browser vendors asking them to improve support for immutable operating systems and native messaging between Flatpak-sandboxed apps, and Flatpak support in general."
+msgid "Please consider providing feedback to password manager developers and browser vendors asking them to improve support for image-based operating systems and native messaging between Flatpak-sandboxed apps, and Flatpak support in general."
 msgstr ""
 
 #. +> trunk5
@@ -4516,7 +4536,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/nvidia.md:10
-msgid "NVIDIA GPUs using an architecture older than Turing (this means anything older than GTX 1630) require NVIDIA’s proprietary kernel modules. These modules cannot be loaded at runtime because the base OS is immutable, and pre-installing them appears to be in a [legal gray area](https://en.wikipedia.org/wiki/Linux_kernel#Loadable_kernel_modules). To be safe, KDE Linux doesn’t include them."
+msgid "NVIDIA GPUs using an architecture older than Turing (this means anything older than GTX 1630) require NVIDIA’s proprietary kernel modules. These modules cannot be loaded at runtime because the base OS is image-based, and pre-installing them appears to fall in a [legal gray area](https://en.wikipedia.org/wiki/Linux_kernel#Loadable_kernel_modules). To be safe, KDE Linux doesn’t include them."
 msgstr ""
 
 #. +> trunk5

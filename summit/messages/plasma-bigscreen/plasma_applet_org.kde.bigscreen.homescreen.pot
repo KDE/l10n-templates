@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-bigscreen\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-11 07:41+0200\n"
+"POT-Creation-Date: 2026-07-14 08:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,22 +17,77 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. +> trunk6
+#: contents/ui/FavoritesManager.qml:20 contents/ui/indicators/Favorites.qml:17
+#, kde-format
+msgid "Edit Home Screen"
+msgstr ""
+
 #. +> trunk6 stable6
+#: contents/ui/FavoritesManager.qml:141
+#: contents/ui/launcher/LauncherHome.qml:84
+#, kde-format
+msgid "Favorites"
+msgstr ""
+
+#. +> stable6
 #: contents/ui/FavoritesManager.qml:20
 #, kde-format
 msgid "Favorites Manager"
 msgstr ""
 
+#. +> trunk6
+#: contents/ui/FavoritesManager.qml:141 contents/ui/FavoritesManager.qml:281
+#, kde-format
+msgid "Launcher Sections"
+msgstr ""
+
 #. +> trunk6 stable6
-#: contents/ui/FavoritesManager.qml:139
+#: contents/ui/FavoritesManager.qml:213
 #, kde-format
 msgid "Add Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/FavoritesManager.qml:178
+#: contents/ui/FavoritesManager.qml:252
 #, kde-format
 msgid "Remove Favorites"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/FavoritesManager.qml:295
+#, kde-format
+msgid "Show Recent"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/FavoritesManager.qml:296
+#, kde-format
+msgid "Recently launched applications appear in a row on the home screen"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/FavoritesManager.qml:311
+#, kde-format
+msgid "Show Applications"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/FavoritesManager.qml:312
+#, kde-format
+msgid "Non-game applications appear in a row on the home screen"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/FavoritesManager.qml:328
+#, kde-format
+msgid "Show Games"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/FavoritesManager.qml:329
+#, kde-format
+msgid "Applications in the Game category appear in a row on the home screen"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -60,51 +115,51 @@ msgid "Shutdown"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/homeoverlay/MainColumn.qml:127
+#: contents/ui/homeoverlay/MainColumn.qml:131
 #, kde-format
 msgid "Home"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/homeoverlay/MainColumn.qml:140
+#: contents/ui/homeoverlay/MainColumn.qml:144
 #: contents/ui/indicators/Search.qml:16
 #, kde-format
 msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/homeoverlay/MainColumn.qml:157
+#: contents/ui/homeoverlay/MainColumn.qml:161
 #, kde-format
 msgctxt "@action:button Opens an overview of all currently running apps"
 msgid "Tasks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/homeoverlay/MainColumn.qml:180
+#: contents/ui/homeoverlay/MainColumn.qml:184
 #, kde-format
 msgid "Controller"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/homeoverlay/MainColumn.qml:181
+#: contents/ui/homeoverlay/MainColumn.qml:185
 #, kde-format
 msgid "Currently capturing keys…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/homeoverlay/MainColumn.qml:181
+#: contents/ui/homeoverlay/MainColumn.qml:185
 #, kde-format
 msgid "Key capture off"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/homeoverlay/MainColumn.qml:201
+#: contents/ui/homeoverlay/MainColumn.qml:205
 #, kde-format
 msgid "On-screen Keyboard"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/homeoverlay/MainColumn.qml:215
+#: contents/ui/homeoverlay/MainColumn.qml:219
 #: contents/ui/indicators/Settings.qml:18
 #, kde-format
 msgid "Settings"
@@ -133,12 +188,6 @@ msgstr ""
 #: contents/ui/indicators/Battery.qml:15
 #, kde-format
 msgid "Battery: %1%"
-msgstr ""
-
-#. +> trunk6 stable6
-#: contents/ui/indicators/Favorites.qml:17
-#, kde-format
-msgid "Customize Favorites"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -225,12 +274,6 @@ msgstr ""
 msgid "Network"
 msgstr ""
 
-#. +> trunk6 stable6
-#: contents/ui/launcher/LauncherHome.qml:84
-#, kde-format
-msgid "Favorites"
-msgstr ""
-
 #. +> stable5
 #: contents/ui/launcher/LauncherHome.qml:91
 #, kde-format
@@ -256,37 +299,37 @@ msgid "Games"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/main.qml:111
+#: contents/ui/main.qml:114
 #, kde-format
 msgid "Controller added: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/main.qml:115
+#: contents/ui/main.qml:118
 #, kde-format
 msgid "Controller removed: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/main.qml:119
+#: contents/ui/main.qml:122
 #, kde-format
 msgid "Remote added: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/main.qml:123
+#: contents/ui/main.qml:126
 #, kde-format
 msgid "Remote removed: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/main.qml:127
+#: contents/ui/main.qml:130
 #, kde-format
 msgid "System taking over controller input"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/main.qml:130
+#: contents/ui/main.qml:133
 #, kde-format
 msgid "Application taking over controller input"
 msgstr ""
@@ -309,6 +352,12 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
+msgstr ""
+
+#. +> stable6
+#: contents/ui/indicators/Favorites.qml:17
+#, kde-format
+msgid "Customize Favorites"
 msgstr ""
 
 #. +> stable5
