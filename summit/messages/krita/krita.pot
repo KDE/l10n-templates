@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-14 08:08+0200\n"
+"POT-Creation-Date: 2026-07-15 09:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -23030,7 +23030,7 @@ msgstr ""
 #: libs/image/kis_psd_layer_style.cpp:106
 #: libs/ui/dialogs/KisDlgCreateNewDocument.cpp:32
 #: libs/ui/dialogs/KisDlgCreateNewDocument.cpp:38
-#: libs/ui/KisApplicationArguments.cpp:384 libs/ui/KisMainWindow.cpp:1461
+#: libs/ui/KisApplicationArguments.cpp:384 libs/ui/KisMainWindow.cpp:1477
 #: plugins/impex/libkra/kis_kra_saver.cpp:89
 #, kde-format
 msgid "Unnamed"
@@ -23851,8 +23851,8 @@ msgid "Radiance RGBE Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/libkis/Document.cpp:986 libs/ui/KisMainWindow.cpp:2221
-#: libs/ui/KisMainWindow.cpp:2302
+#: libs/libkis/Document.cpp:986 libs/ui/KisMainWindow.cpp:2237
+#: libs/ui/KisMainWindow.cpp:2318
 #, kde-format
 msgid "Import frames"
 msgstr ""
@@ -25409,11 +25409,11 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:1344 libs/ui/KisDocument.cpp:1057
 #: libs/ui/KisDocument.cpp:1072 libs/ui/KisDocument.cpp:2039
 #: libs/ui/KisDocument.cpp:2082 libs/ui/KisDocument.cpp:2093
-#: libs/ui/KisMainWindow.cpp:1023 libs/ui/KisMainWindow.cpp:1093
-#: libs/ui/KisMainWindow.cpp:1237 libs/ui/KisMainWindow.cpp:1334
-#: libs/ui/KisMainWindow.cpp:2081 libs/ui/KisMainWindow.cpp:2090
-#: libs/ui/KisMainWindow.cpp:2229 libs/ui/KisMainWindow.cpp:2290
-#: libs/ui/KisMainWindow.cpp:2309 libs/ui/KisMainWindow.cpp:2951
+#: libs/ui/KisMainWindow.cpp:1039 libs/ui/KisMainWindow.cpp:1109
+#: libs/ui/KisMainWindow.cpp:1253 libs/ui/KisMainWindow.cpp:1350
+#: libs/ui/KisMainWindow.cpp:2097 libs/ui/KisMainWindow.cpp:2106
+#: libs/ui/KisMainWindow.cpp:2245 libs/ui/KisMainWindow.cpp:2306
+#: libs/ui/KisMainWindow.cpp:2325 libs/ui/KisMainWindow.cpp:2967
 #: libs/ui/KisPart.cpp:555 libs/ui/KisPart.cpp:558
 #: libs/ui/KisReferenceImage.cpp:192 libs/ui/KisRemoteFileFetcher.cpp:40
 #: libs/ui/KisRemoteFileFetcher.cpp:64 libs/ui/KisRemoteFileFetcher.cpp:91
@@ -26032,7 +26032,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:339
-#: libs/ui/KisMainWindow.cpp:2748
+#: libs/ui/KisMainWindow.cpp:2764
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:407
 #: qmlmodules/components/TagFilterProxyModelQmlWrapper.cpp:347
 #, kde-format
@@ -26551,7 +26551,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:54
-#: libs/ui/KisMainWindow.cpp:2332
+#: libs/ui/KisMainWindow.cpp:2348
 #, kde-format
 msgid "Render Animation"
 msgstr ""
@@ -28679,7 +28679,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:141
-#: libs/ui/KisMainWindow.cpp:1202
+#: libs/ui/KisMainWindow.cpp:1218
 #, kde-format
 msgid "Import Images"
 msgstr ""
@@ -28806,7 +28806,7 @@ msgid "Enter new style name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:319 libs/ui/KisMainWindow.cpp:2759
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:319 libs/ui/KisMainWindow.cpp:2775
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -33571,7 +33571,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSaveMask)
 #. +> trunk6 stable6
-#: libs/ui/forms/wdgpaintopsettings.ui:184 libs/ui/KisMainWindow.cpp:1068
+#: libs/ui/forms/wdgpaintopsettings.ui:184 libs/ui/KisMainWindow.cpp:1084
 #: libs/ui/widgets/kis_workspace_chooser.cpp:134
 #: libs/ui/widgets/kis_workspace_chooser.cpp:209
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
@@ -38578,25 +38578,25 @@ msgid "Hide %1 Toolbar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:1065
+#: libs/ui/KisMainWindow.cpp:1081
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:1093
+#: libs/ui/KisMainWindow.cpp:1109
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:1202
+#: libs/ui/KisMainWindow.cpp:1218
 #, kde-format
 msgid "Open Images"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:1335
+#: libs/ui/KisMainWindow.cpp:1351
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may be incomplete or corrupted.\n"
@@ -38605,25 +38605,25 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:1396
+#: libs/ui/KisMainWindow.cpp:1412
 #, kde-format
 msgid "Exporting"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:1396
+#: libs/ui/KisMainWindow.cpp:1412
 #, kde-format
 msgid "Saving As"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2050
+#: libs/ui/KisMainWindow.cpp:2066
 #, kde-format
 msgid "Layers/Masks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2076
+#: libs/ui/KisMainWindow.cpp:2092
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:201
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:365
 #, kde-format
@@ -38631,7 +38631,7 @@ msgid "You don't have any resource bundles enabled."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2080
+#: libs/ui/KisMainWindow.cpp:2096
 #, kde-format
 msgid ""
 "\n"
@@ -38639,7 +38639,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2090
+#: libs/ui/KisMainWindow.cpp:2106
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:211
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:377
 #, kde-format
@@ -38649,7 +38649,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2229 libs/ui/KisMainWindow.cpp:2309
+#: libs/ui/KisMainWindow.cpp:2245 libs/ui/KisMainWindow.cpp:2325
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -38657,66 +38657,66 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2290
+#: libs/ui/KisMainWindow.cpp:2306
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2739
+#: libs/ui/KisMainWindow.cpp:2755
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2754
+#: libs/ui/KisMainWindow.cpp:2770
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2758
+#: libs/ui/KisMainWindow.cpp:2774
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2802
+#: libs/ui/KisMainWindow.cpp:2818
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2805
+#: libs/ui/KisMainWindow.cpp:2821
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2974
+#: libs/ui/KisMainWindow.cpp:2990
 #, kde-format
 msgid "The Krita LittleCMS color management plugin is not installed. Krita will quit now."
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:2990
+#: libs/ui/KisMainWindow.cpp:3006
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:3103
+#: libs/ui/KisMainWindow.cpp:3119
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: libs/ui/KisMainWindow.cpp:3189
+#: libs/ui/KisMainWindow.cpp:3205
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""

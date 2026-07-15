@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-17 09:11+0200\n"
+"POT-Creation-Date: 2026-07-15 09:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -162,19 +162,19 @@ msgid "Unable to open the attachment."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/configurepluginswidget.cpp:23
+#: plugins/configurepluginswidget.cpp:24
 #, kde-format
 msgid "Restart is necessary for applying the changes."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/configurepluginswidget.cpp:157
+#: plugins/configurepluginswidget.cpp:158
 #, kde-format
 msgid "..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/configurepluginswidget.cpp:159
+#: plugins/configurepluginswidget.cpp:160
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Configure"
@@ -352,7 +352,7 @@ msgid "Important changes since last version:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: whatsnew/whatsnewwidget.cpp:98 whatsnewng/whatsnewngwidget.cpp:101
+#: whatsnew/whatsnewwidget.cpp:98
 #, kde-format
 msgid "Some of the new features in this release include:"
 msgstr ""
@@ -372,13 +372,27 @@ msgid ""
 "<br>"
 msgstr ""
 
+#. +> trunk6
+#: whatsnewng/whatsnewngwidget.cpp:66
+#, kde-format
+msgid ""
+"<h1>What's New History</h1>"
+"</hr>"
+msgstr ""
+
 #. +> trunk6 stable6
 #: whatsnewng/whatsnewngwidget.cpp:84
 #, kde-format
 msgid "<b><i><a href=\"%1\">Release Note</a></i></b>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: whatsnewng/whatsnewngwidget.cpp:93
+#, kde-format
+msgid "<h3><i>What's New in Version %1 (Released: %2)</i></h3>"
+msgstr ""
+
+#. +> stable6
 #: whatsnewng/whatsnewngwidget.cpp:93
 #, kde-format
 msgid ""
@@ -387,7 +401,13 @@ msgid ""
 "<br>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: whatsnewng/whatsnewngwidget.cpp:95
+#, kde-format
+msgid "<h3><i>What's New in Version %1 (Unreleased)</i></h3>"
+msgstr ""
+
+#. +> stable6
 #: whatsnewng/whatsnewngwidget.cpp:95
 #, kde-format
 msgid ""

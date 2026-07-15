@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mimetreeparser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-10 07:35+0200\n"
+"POT-Creation-Date: 2026-07-15 09:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -167,15 +167,29 @@ msgid_plural "The message is encrypted for the following recipients:"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: core/partmodel.cpp:644
+#, kde-format
+msgctxt "@info:status"
+msgid "Decryption was canceled"
+msgstr ""
+
+#. +> stable6
+#: core/partmodel.cpp:649
 #, kde-format
 msgctxt "@info:status"
 msgid "Decryption was cancelled."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: core/partmodel.cpp:646
+#, kde-format
+msgctxt "@info:status"
+msgid "Wrong passphrase"
+msgstr ""
+
+#. +> stable6
+#: core/partmodel.cpp:651
 #, kde-format
 msgctxt "@info:status"
 msgid "Wrong passphrase."
@@ -460,7 +474,7 @@ msgstr ""
 #. +> trunk6
 #: widgets/messageviewer.cpp:289
 #, kde-format
-msgctxt "@status"
+msgctxt "@info:status"
 msgid "Invitation is broken"
 msgstr ""
 
@@ -484,69 +498,76 @@ msgid "No subject"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/messageviewer.cpp:318 widgets/messageviewer.cpp:320
+#: widgets/messageviewer.cpp:318 widgets/messageviewer.cpp:321
 #, kde-format
 msgid "From:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: widgets/messageviewer.cpp:318
+#. +> trunk6
+#: widgets/messageviewer.cpp:319 widgets/messageviewer.cpp:392
+#, kde-format
+msgctxt "@info:status missing 'From:', i.e. an unknown author"
+msgid "Unknown"
+msgstr ""
+
+#. +> stable6
+#: widgets/messageviewer.cpp:314
 #, kde-format
 msgctxt "@status missing from:, an unknown author"
 msgid "Unknown"
 msgstr ""
 
-#. +> trunk6 stable6
-#: widgets/messageviewer.cpp:322
-#, kde-format
-msgid "Date:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/messageviewer.cpp:386
-#, kde-format
-msgid "&Subject:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/messageviewer.cpp:389 widgets/messageviewer.cpp:391
-#, kde-format
-msgid "&From:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/messageviewer.cpp:391
+#. +> stable6
+#: widgets/messageviewer.cpp:387
 #, kde-format
 msgctxt "@status missing from:, an unknown author"
 msgid "<i>Unknown</i>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/messageviewer.cpp:394
+#: widgets/messageviewer.cpp:323
+#, kde-format
+msgid "Date:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/messageviewer.cpp:387
+#, kde-format
+msgid "&Subject:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/messageviewer.cpp:390 widgets/messageviewer.cpp:392
+#, kde-format
+msgid "&From:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/messageviewer.cpp:395
 #, kde-format
 msgid "&Sender:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/messageviewer.cpp:397
+#: widgets/messageviewer.cpp:398
 #, kde-format
 msgid "&To:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/messageviewer.cpp:400
+#: widgets/messageviewer.cpp:401
 #, kde-format
 msgid "&CC:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/messageviewer.cpp:403
+#: widgets/messageviewer.cpp:404
 #, kde-format
 msgid "&BCC:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/messageviewer.cpp:406
+#: widgets/messageviewer.cpp:407
 #, kde-format
 msgid "&Date:"
 msgstr ""
@@ -684,7 +705,14 @@ msgctxt "@info"
 msgid "Some parts of the message could not be decrypted. Save partially decrypted message?"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: widgets/messageviewerbase_p.cpp:291
+#, kde-format
+msgctxt "@title:window"
+msgid "Decryption failed"
+msgstr ""
+
+#. +> stable6
 #: widgets/messageviewerbase_p.cpp:291
 #, kde-format
 msgctxt "@info"
