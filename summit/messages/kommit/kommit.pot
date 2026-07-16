@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kommit\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-14 13:41+0200\n"
+"POT-Creation-Date: 2026-07-16 08:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -115,7 +115,7 @@ msgid "Ignore file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinplugins/actions.h:24 src/gui/commandargsparser.cpp:404
+#: dolphinplugins/actions.h:24 src/gui/commandargsparser.cpp:384
 #, kde-format
 msgid "History"
 msgstr ""
@@ -164,7 +164,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: dolphinplugins/dolphinplugin.cpp:35 dolphinplugins/dolphinplugin.cpp:39
-#: src/apps/main.cpp:61
+#: src/apps/main.cpp:55
 #, kde-format
 msgid "Kommit"
 msgstr ""
@@ -182,40 +182,40 @@ msgid "Push/Commit to submodule %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/apps/main.cpp:63
+#: src/apps/main.cpp:57
 #, kde-format
 msgid "Git client gui for KDE"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/apps/main.cpp:65
+#: src/apps/main.cpp:59
 #, kde-format
 msgid "Copyright 2021-2024, Hamed Masafi <hamed.masafi@gmail.com>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/apps/main.cpp:67 src/libkommitwidgets/models/commitsmodel.cpp:296
+#: src/apps/main.cpp:61 src/libkommitwidgets/models/commitsmodel.cpp:296
 #: src/libkommitwidgets/reports/authorsreport.cpp:83
 #, kde-format
 msgid "Author"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/apps/main.cpp:67
+#: src/apps/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Hamed Masafi"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/apps/main.cpp:68
+#: src/apps/main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/apps/main.cpp:68
+#: src/apps/main.cpp:62
 #, kde-format
 msgid "Bug fixing"
 msgstr ""
@@ -394,7 +394,7 @@ msgid "Diff branches..."
 msgstr ""
 
 #. +> trunk6
-#: src/gui/appwindow.cpp:230 src/libkommitwidgets/actions/fileactions.cpp:51
+#: src/gui/appwindow.cpp:230 src/libkommitwidgets/actions/fileactions.cpp:46
 #, kde-format
 msgctxt "@action"
 msgid "Search…"
@@ -463,13 +463,13 @@ msgid "Clear"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/appwindow.cpp:307 src/gui/commandargsparser.cpp:225
+#: src/gui/appwindow.cpp:307 src/gui/commandargsparser.cpp:205
 #, kde-format
 msgid "Unable to create path: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/appwindow.cpp:307 src/gui/commandargsparser.cpp:225
+#: src/gui/appwindow.cpp:307 src/gui/commandargsparser.cpp:205
 #, kde-format
 msgid "Init repo"
 msgstr ""
@@ -481,13 +481,13 @@ msgid "Open repository"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/appwindow.cpp:403 src/gui/commandargsparser.cpp:478
+#: src/gui/appwindow.cpp:403 src/gui/commandargsparser.cpp:458
 #, kde-format
 msgid "Cannot switch branch while merging"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/appwindow.cpp:403 src/gui/commandargsparser.cpp:478
+#: src/gui/appwindow.cpp:403 src/gui/commandargsparser.cpp:458
 #, kde-format
 msgid "Switch branch"
 msgstr ""
@@ -584,31 +584,31 @@ msgid "The path is not git repo: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/commandargsparser.cpp:230
+#: src/gui/commandargsparser.cpp:210
 #, kde-format
 msgid "The repo inited successfully"
 msgstr ""
 
 #. +> trunk6
-#: src/gui/commandargsparser.cpp:404
+#: src/gui/commandargsparser.cpp:384
 #, kde-format
 msgid "Cannot find the file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/commandargsparser.cpp:551
+#: src/gui/commandargsparser.cpp:531
 #, kde-format
 msgid "File(s) added to git successfully"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/commandargsparser.cpp:562
+#: src/gui/commandargsparser.cpp:542
 #, kde-format
 msgid "Would you like to leave file(s) on disk?"
 msgstr ""
 
 #. +> trunk6
-#: src/gui/commandargsparser.cpp:562
+#: src/gui/commandargsparser.cpp:542
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove from index"
@@ -621,7 +621,7 @@ msgid "Remove from index"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/gui/commandargsparser.cpp:564
+#: src/gui/commandargsparser.cpp:544
 #, kde-format
 msgid "File(s) removed from git successfully"
 msgstr ""
@@ -690,6 +690,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelCommitBody)
 #. i18n: ectx: property (text), widget (QLabel, labelCommitHash)
 #. i18n: ectx: property (text), widget (QLabel, labelRefName)
+#. i18n: ectx: property (text), widget (QLabel, labelSignature)
 #. i18n: ectx: property (text), widget (QLabel, labelParent)
 #. i18n: ectx: property (text), widget (QLabel, labelChildren)
 #. i18n: ectx: property (text), widget (QLabel, labelAuthor)
@@ -717,11 +718,12 @@ msgstr ""
 #: src/libkommitwidgets/widgets/commitdetails.ui:137
 #: src/libkommitwidgets/widgets/commitdetails.ui:173
 #: src/libkommitwidgets/widgets/commitdetails.ui:192
-#: src/libkommitwidgets/widgets/commitdetails.ui:214
-#: src/libkommitwidgets/widgets/commitdetails.ui:285
-#: src/libkommitwidgets/widgets/commitdetails.ui:295
-#: src/libkommitwidgets/widgets/commitdetails.ui:337
-#: src/libkommitwidgets/widgets/commitdetails.ui:347
+#: src/libkommitwidgets/widgets/commitdetails.ui:217
+#: src/libkommitwidgets/widgets/commitdetails.ui:239
+#: src/libkommitwidgets/widgets/commitdetails.ui:310
+#: src/libkommitwidgets/widgets/commitdetails.ui:320
+#: src/libkommitwidgets/widgets/commitdetails.ui:362
+#: src/libkommitwidgets/widgets/commitdetails.ui:372
 #, kde-format
 msgid "-"
 msgstr ""
@@ -1504,7 +1506,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/libkommitwidgets/actions/commitactions.cpp:38
-#: src/libkommitwidgets/actions/fileactions.cpp:46
+#: src/libkommitwidgets/actions/fileactions.cpp:41
 #: src/libkommitwidgets/actions/stashactions.cpp:25
 #: src/libkommitwidgets/actions/tagsactions.cpp:28
 #, kde-format
@@ -1520,21 +1522,21 @@ msgid "Note"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkommitwidgets/actions/fileactions.cpp:42
+#: src/libkommitwidgets/actions/fileactions.cpp:37
 #, kde-format
 msgctxt "@action"
 msgid "Preview"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkommitwidgets/actions/fileactions.cpp:43
+#: src/libkommitwidgets/actions/fileactions.cpp:38
 #, kde-format
 msgctxt "@action"
 msgid "Open"
 msgstr ""
 
 #. +> trunk6
-#: src/libkommitwidgets/actions/fileactions.cpp:44
+#: src/libkommitwidgets/actions/fileactions.cpp:39
 #, kde-format
 msgctxt "@action"
 msgid "Open with…"
@@ -1548,14 +1550,14 @@ msgid "Open with..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkommitwidgets/actions/fileactions.cpp:47
+#: src/libkommitwidgets/actions/fileactions.cpp:42
 #, kde-format
 msgctxt "@action"
 msgid "Merge with working dir"
 msgstr ""
 
 #. +> trunk6
-#: src/libkommitwidgets/actions/fileactions.cpp:49
+#: src/libkommitwidgets/actions/fileactions.cpp:44
 #, kde-format
 msgctxt "@action"
 msgid "Save as…"
@@ -1569,7 +1571,7 @@ msgid "Save as..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkommitwidgets/actions/fileactions.cpp:50
+#: src/libkommitwidgets/actions/fileactions.cpp:45
 #, kde-format
 msgctxt "@action"
 msgid "Log"
@@ -1583,7 +1585,7 @@ msgid "Blame"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkommitwidgets/actions/fileactions.cpp:70
+#: src/libkommitwidgets/actions/fileactions.cpp:65
 #, kde-format
 msgid "%1 file (*.%1);;All files(*)"
 msgstr ""
@@ -2078,7 +2080,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. +> trunk6 stable6
 #: src/libkommitwidgets/dialogs/changedfilesdialog.ui:20
-#: src/libkommitwidgets/widgets/commitdetails.ui:229
+#: src/libkommitwidgets/widgets/commitdetails.ui:254
 #, kde-format
 msgid "Changed files:"
 msgstr ""
@@ -3674,29 +3676,82 @@ msgstr ""
 msgid "Filter branches"
 msgstr ""
 
+#. +> trunk6
+#: src/libkommitwidgets/widgets/commitdetails.cpp:95
+#, kde-format
+msgid "Not signed"
+msgstr ""
+
+#. +> trunk6
+#: src/libkommitwidgets/widgets/commitdetails.cpp:101
+#: src/libkommitwidgets/widgets/commitdetails.cpp:110
+#: src/libkommitwidgets/widgets/commitdetails.cpp:118
+#, kde-format
+msgctxt "@info commit signature"
+msgid "<span style='color:orange;font-weight:bold'>%1</span>"
+msgstr ""
+
+#. +> trunk6
+#: src/libkommitwidgets/widgets/commitdetails.cpp:103
+#, kde-format
+msgctxt "@info commit signature"
+msgid "<span style='color:green;font-weight:bold'>%1</span>"
+msgstr ""
+
+#. +> trunk6
+#: src/libkommitwidgets/widgets/commitdetails.cpp:115
+#, kde-format
+msgctxt "@info commit signature"
+msgid "<span style='color:red;font-weight:bold'>%1</span>"
+msgstr ""
+
+#. +> trunk6
+#: src/libkommitwidgets/widgets/commitdetails.cpp:127
+#, kde-format
+msgid " by %1"
+msgstr ""
+
+#. +> trunk6
+#: src/libkommitwidgets/widgets/commitdetails.cpp:129
+#, kde-format
+msgid " by %1 <%2>"
+msgstr ""
+
+#. +> trunk6
+#: src/libkommitwidgets/widgets/commitdetails.cpp:132
+#, kde-format
+msgid " (Key: %1)"
+msgstr ""
+
+#. +> trunk6
+#: src/libkommitwidgets/widgets/commitdetails.cpp:134
+#, kde-format
+msgid " (Fingerprint: %1)"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/libkommitwidgets/widgets/commitdetails.cpp:105
+#: src/libkommitwidgets/widgets/commitdetails.cpp:155
 #: src/libkommitwidgets/widgets/graphpainter.cpp:129
 #, kde-format
 msgid "Branch: "
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkommitwidgets/widgets/commitdetails.cpp:107
+#: src/libkommitwidgets/widgets/commitdetails.cpp:157
 #: src/libkommitwidgets/widgets/graphpainter.cpp:131
 #, kde-format
 msgid "Note: "
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkommitwidgets/widgets/commitdetails.cpp:109
+#: src/libkommitwidgets/widgets/commitdetails.cpp:159
 #: src/libkommitwidgets/widgets/graphpainter.cpp:133
 #, kde-format
 msgid "Remote: "
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/libkommitwidgets/widgets/commitdetails.cpp:111
+#: src/libkommitwidgets/widgets/commitdetails.cpp:161
 #: src/libkommitwidgets/widgets/graphpainter.cpp:135
 #, kde-format
 msgid "Tag: "
@@ -3704,22 +3759,22 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelRefType)
 #. +> trunk6 stable6
-#: src/libkommitwidgets/widgets/commitdetails.cpp:120
-#: src/libkommitwidgets/widgets/commitdetails.ui:251
+#: src/libkommitwidgets/widgets/commitdetails.cpp:170
+#: src/libkommitwidgets/widgets/commitdetails.ui:276
 #, kde-format
 msgid "Ref:"
 msgstr ""
 
 #. +> trunk6
-#: src/libkommitwidgets/widgets/commitdetails.cpp:120
+#: src/libkommitwidgets/widgets/commitdetails.cpp:170
 #, kde-format
 msgid "Refs:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelParentsText)
 #. +> trunk6
-#: src/libkommitwidgets/widgets/commitdetails.cpp:130
-#: src/libkommitwidgets/widgets/commitdetails.ui:185
+#: src/libkommitwidgets/widgets/commitdetails.cpp:180
+#: src/libkommitwidgets/widgets/commitdetails.ui:210
 #, kde-format
 msgid "Parent:"
 msgid_plural "Parents:"
@@ -3728,8 +3783,8 @@ msgstr[1] ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelChildrenText)
 #. +> trunk6
-#: src/libkommitwidgets/widgets/commitdetails.cpp:135
-#: src/libkommitwidgets/widgets/commitdetails.ui:207
+#: src/libkommitwidgets/widgets/commitdetails.cpp:185
+#: src/libkommitwidgets/widgets/commitdetails.ui:232
 #, kde-format
 msgid "Child:"
 msgid_plural "Children:"
@@ -3782,9 +3837,16 @@ msgstr ""
 msgid "Committer:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, labelSignatureText)
+#. +> trunk6
+#: src/libkommitwidgets/widgets/commitdetails.ui:185
+#, kde-format
+msgid "Signature:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, labelChangedFiles)
 #. +> trunk6 stable6
-#: src/libkommitwidgets/widgets/commitdetails.ui:236
+#: src/libkommitwidgets/widgets/commitdetails.ui:261
 #, kde-format
 msgid ""
 "<html><head/><body>"

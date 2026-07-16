@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-10 07:34+0200\n"
+"POT-Creation-Date: 2026-07-16 08:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -5896,27 +5896,27 @@ msgid "Keep each file separate instead of creating an archive for all."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:191
+#: src/crypto/gui/signencryptfilesdialog.cpp:192
 #, kde-format
 msgid "Invalid compliance settings for signing and encrypting files."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:193
+#: src/crypto/gui/signencryptfilesdialog.cpp:194
 #, kde-kuit-format
 msgctxt "@info %1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED compliant or VS-NfD compliant"
 msgid "<para>You cannot use <application>Kleopatra</application> for signing or encrypting files because the <application>GnuPG</application> system used by <application>Kleopatra</application> is not %1.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:278
+#: src/crypto/gui/signencryptfilesdialog.cpp:284
 #, kde-kuit-format
 msgctxt "@info %1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED compliant or VS-NfD compliant"
 msgid "<para>Sorry! You cannot use <application>Kleopatra</application> for signing or encrypting files because the <application>GnuPG</application> system used by <application>Kleopatra</application> is not %1.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:288
+#: src/crypto/gui/signencryptfilesdialog.cpp:294
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5926,14 +5926,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:293
+#: src/crypto/gui/signencryptfilesdialog.cpp:299
 #, kde-format
 msgctxt "@title:window"
 msgid "Unusual Signature Warning"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:307
+#: src/crypto/gui/signencryptfilesdialog.cpp:313
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5943,156 +5943,156 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:310
+#: src/crypto/gui/signencryptfilesdialog.cpp:316
 #, kde-format
 msgctxt "@title:window"
 msgid "Encrypt-To-Self Warning"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:347
+#: src/crypto/gui/signencryptfilesdialog.cpp:353
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This is the filename of the S/MIME signature."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:348
+#: src/crypto/gui/signencryptfilesdialog.cpp:354
 #, kde-format
 msgctxt "Lineedit accessible name"
 msgid "S/MIME signature file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:349
+#: src/crypto/gui/signencryptfilesdialog.cpp:355
 #, kde-format
 msgctxt "Name filter binary"
 msgid "S/MIME Signatures (*.p7s)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:350
+#: src/crypto/gui/signencryptfilesdialog.cpp:356
 #, kde-format
 msgctxt "Name filter ASCII"
 msgid "S/MIME Signatures (*.p7s *.pem)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:355
+#: src/crypto/gui/signencryptfilesdialog.cpp:361
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This is the filename of the detached OpenPGP signature."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:356
+#: src/crypto/gui/signencryptfilesdialog.cpp:362
 #, kde-format
 msgctxt "Lineedit accessible name"
 msgid "OpenPGP signature file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:357
+#: src/crypto/gui/signencryptfilesdialog.cpp:363
 #, kde-format
 msgctxt "Name filter binary"
 msgid "OpenPGP Signatures (*.sig *.pgp)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:358
+#: src/crypto/gui/signencryptfilesdialog.cpp:364
 #, kde-format
 msgctxt "Name filter ASCII"
 msgid "OpenPGP Signatures (*.asc *.sig)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:363
+#: src/crypto/gui/signencryptfilesdialog.cpp:369
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This is the filename of the OpenPGP-signed and encrypted file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:364
+#: src/crypto/gui/signencryptfilesdialog.cpp:370
 #, kde-format
 msgctxt "Lineedit accessible name"
 msgid "OpenPGP signed and encrypted file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:365
-#: src/crypto/gui/signencryptfilesdialog.cpp:373
+#: src/crypto/gui/signencryptfilesdialog.cpp:371
+#: src/crypto/gui/signencryptfilesdialog.cpp:379
 #, kde-format
 msgctxt "Name filter binary"
 msgid "OpenPGP Files (*.gpg *.pgp)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:366
-#: src/crypto/gui/signencryptfilesdialog.cpp:374
+#: src/crypto/gui/signencryptfilesdialog.cpp:372
+#: src/crypto/gui/signencryptfilesdialog.cpp:380
 #, kde-format
 msgctxt "Name filter ASCII"
 msgid "OpenPGP Files (*.asc)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:371
+#: src/crypto/gui/signencryptfilesdialog.cpp:377
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This is the filename of the OpenPGP encrypted file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:372
+#: src/crypto/gui/signencryptfilesdialog.cpp:378
 #, kde-format
 msgctxt "Lineedit accessible name"
 msgid "OpenPGP encrypted file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:379
+#: src/crypto/gui/signencryptfilesdialog.cpp:385
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This is the filename of the S/MIME encrypted file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:380
+#: src/crypto/gui/signencryptfilesdialog.cpp:386
 #, kde-format
 msgctxt "Lineedit accessible name"
 msgid "S/MIME encrypted file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:381
+#: src/crypto/gui/signencryptfilesdialog.cpp:387
 #, kde-format
 msgctxt "Name filter binary"
 msgid "S/MIME Files (*.p7m)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:382
+#: src/crypto/gui/signencryptfilesdialog.cpp:388
 #, kde-format
 msgctxt "Name filter ASCII"
 msgid "S/MIME Files (*.p7m *.pem)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:387
+#: src/crypto/gui/signencryptfilesdialog.cpp:393
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The resulting files are written to this directory."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:388
+#: src/crypto/gui/signencryptfilesdialog.cpp:394
 #, kde-format
 msgctxt "Lineedit accessible name"
 msgid "Output directory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:507
+#: src/crypto/gui/signencryptfilesdialog.cpp:513
 #: src/dialogs/signencryptclipboarddialog.cpp:170
 #, kde-format
 msgctxt "@title"
@@ -6100,57 +6100,57 @@ msgid "Results"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:508
+#: src/crypto/gui/signencryptfilesdialog.cpp:514
 #, kde-format
 msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:528
+#: src/crypto/gui/signencryptfilesdialog.cpp:534
 #, kde-format
 msgctxt "@title"
 msgid "Sign / Encrypt Files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:536
+#: src/crypto/gui/signencryptfilesdialog.cpp:542
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Sign / Encrypt Files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:556
-#: src/crypto/gui/signencryptfilesdialog.cpp:589
+#: src/crypto/gui/signencryptfilesdialog.cpp:562
+#: src/crypto/gui/signencryptfilesdialog.cpp:595
 #, kde-format
 msgctxt "@action:button"
 msgid "&Sign / Encrypt"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:566
+#: src/crypto/gui/signencryptfilesdialog.cpp:572
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Results"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:584
+#: src/crypto/gui/signencryptfilesdialog.cpp:590
 #, kde-format
 msgctxt "@action:button"
 msgid "&Sign"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:586
+#: src/crypto/gui/signencryptfilesdialog.cpp:592
 #, kde-format
 msgctxt "@action:button"
 msgid "&Encrypt"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:595
+#: src/crypto/gui/signencryptfilesdialog.cpp:601
 #: src/dialogs/signencryptclipboarddialog.cpp:184
 #, kde-format
 msgctxt "@action:button"
@@ -6158,124 +6158,124 @@ msgid "Finish"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:179
+#: src/crypto/gui/signencryptwidget.cpp:182
 #, kde-format
 msgctxt "@label"
 msgid "Protocol:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:189
+#: src/crypto/gui/signencryptwidget.cpp:192
 #, kde-format
 msgctxt "@option:radio"
 msgid "OpenPGP"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:190
+#: src/crypto/gui/signencryptwidget.cpp:193
 #, kde-format
 msgctxt "@option:radio"
 msgid "S/MIME"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:213
+#: src/crypto/gui/signencryptwidget.cpp:216
 #, kde-format
 msgid "Sign &as:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:256
+#: src/crypto/gui/signencryptwidget.cpp:264
 #, kde-format
 msgid "Encrypt for me:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:290
+#: src/crypto/gui/signencryptwidget.cpp:304
 #, kde-format
 msgctxt "@label"
 msgid "Encrypt for others:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:306
+#: src/crypto/gui/signencryptwidget.cpp:320
 #, kde-format
 msgctxt "@option:check"
 msgid "Encrypt with password:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:309
+#: src/crypto/gui/signencryptwidget.cpp:323
 #, kde-format
 msgctxt "Tooltip information for symmetric encryption"
 msgid "Additionally to the keys of the recipients you can encrypt your data with a password. Anyone who has the password can read the data without any secret key. Using a password is <b>less secure</b> then public key cryptography. Even if you pick a very strong password."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:318
+#: src/crypto/gui/signencryptwidget.cpp:332
 #, kde-format
 msgctxt "@info"
 msgid "Anyone you share the password with can read the data."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:448
+#: src/crypto/gui/signencryptwidget.cpp:438
 #, kde-format
 msgctxt "text for screen readers"
 msgid "recipient key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:449
-#: src/crypto/gui/signencryptwidget.cpp:763
+#: src/crypto/gui/signencryptwidget.cpp:439
+#: src/crypto/gui/signencryptwidget.cpp:745
 #, kde-format
 msgctxt "@info"
 msgid "This certificate cannot be used for encryption."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:524
+#: src/crypto/gui/signencryptwidget.cpp:505
 #, kde-format
 msgid "Usable for Signing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:525
+#: src/crypto/gui/signencryptwidget.cpp:506
 #, kde-format
 msgid "Certificates that can be used for signing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:528
-#: src/crypto/gui/signencryptwidget.cpp:565 src/dialogs/editgroupdialog.cpp:216
+#: src/crypto/gui/signencryptwidget.cpp:509
+#: src/crypto/gui/signencryptwidget.cpp:546 src/dialogs/editgroupdialog.cpp:216
 #, kde-format
 msgid "Usable for Encryption"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:529
-#: src/crypto/gui/signencryptwidget.cpp:566 src/dialogs/editgroupdialog.cpp:217
+#: src/crypto/gui/signencryptwidget.cpp:510
+#: src/crypto/gui/signencryptwidget.cpp:547 src/dialogs/editgroupdialog.cpp:217
 #, kde-format
 msgid "Certificates that can be used for encryption"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:753
-#: src/crypto/gui/signencryptwidget.cpp:1048
+#: src/crypto/gui/signencryptwidget.cpp:735
+#: src/crypto/gui/signencryptwidget.cpp:1027
 #, kde-format
 msgctxt "@info"
 msgid "This certificate is expired."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:756
+#: src/crypto/gui/signencryptwidget.cpp:738
 #, kde-format
 msgctxt "@info"
 msgid "This certificate expires today."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:758
+#: src/crypto/gui/signencryptwidget.cpp:740
 #, kde-format
 msgctxt "@info"
 msgid "This certificate expires tomorrow."
@@ -6284,34 +6284,34 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:765
+#: src/crypto/gui/signencryptwidget.cpp:747
 #, kde-format
 msgctxt "@info"
 msgid "This certificate cannot be used for signing."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:994
+#: src/crypto/gui/signencryptwidget.cpp:973
 #, kde-kuit-format
 msgctxt "@info translate 'Encrypt for others' the same way as for the other string in this file"
 msgid "Please choose at least one recipient or deselect <interface>Encrypt for others</interface>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:1009
+#: src/crypto/gui/signencryptwidget.cpp:988
 #, kde-format
 msgid "Could not find a key for the following recipients:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:1011
+#: src/crypto/gui/signencryptwidget.cpp:990
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to find some keys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptwidget.cpp:1051
+#: src/crypto/gui/signencryptwidget.cpp:1030
 #, kde-format
 msgctxt "@info"
 msgid "This certificate is revoked."
