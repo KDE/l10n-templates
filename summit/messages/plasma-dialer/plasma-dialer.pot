@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-dialer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-14 15:33+0200\n"
+"POT-Creation-Date: 2026-07-17 11:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31,7 +31,7 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:138 src/qml/Main.qml:121
+#: src/main.cpp:138 src/qml/AddContactPage.qml:64 src/qml/Main.qml:123
 #, kde-format
 msgid "Phone"
 msgstr ""
@@ -52,6 +52,18 @@ msgstr ""
 #: src/main.cpp:145
 #, kde-format
 msgid "Alexey Andreyev"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/AddContactPage.qml:26
+#, kde-format
+msgid "Adding contact"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/AddContactPage.qml:43
+#, kde-format
+msgid "Name"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -139,7 +151,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/qml/components/Sidebar.qml:121 src/qml/ContactsPage.qml:32
-#: src/qml/DialerPage.qml:42 src/qml/HistoryPage.qml:47
+#: src/qml/DialerPage.qml:56 src/qml/HistoryPage.qml:47
 #: src/qml/settings/SettingsPage.qml:26
 #, kde-format
 msgid "Settings"
@@ -164,19 +176,25 @@ msgid "Select number to call"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ContactsPage.qml:160 src/qml/DialerPage.qml:114
+#: src/qml/ContactsPage.qml:160 src/qml/DialerPage.qml:128
 #, kde-format
 msgid "Telephony daemons are not responding"
 msgstr ""
 
+#. +> trunk6
+#: src/qml/DialerPage.qml:41
+#, kde-format
+msgid "Add contact"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/qml/DialerPage.qml:124
+#: src/qml/DialerPage.qml:138
 #, kde-format
 msgid "Modem devices are not found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/DialerPage.qml:134
+#: src/qml/DialerPage.qml:148
 #, kde-format
 msgid "Voicemail number couldn't be found"
 msgstr ""
