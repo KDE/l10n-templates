@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-14 08:08+0200\n"
+"POT-Creation-Date: 2026-07-20 08:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -976,7 +976,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, amountTab)
 #. +> trunk6 stable5
 #: kmymoney/dialogs/kcurrencycalculator.ui:51
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:398
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:434
 #: kmymoney/plugins/csv/import/investmentwizardpage.cpp:59
 #: kmymoney/plugins/onlinetasks/sepa/ui/sepacredittransferedit.ui:61
 #: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:246
@@ -1627,7 +1627,7 @@ msgstr ""
 #: kmymoney/dialogs/keditequityentry.ui:217
 #: kmymoney/dialogs/kimportverifydlg.ui:92
 #: kmymoney/plugins/csv/export/csvexportdlg.ui:330
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:403
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:408
 #: kmymoney/plugins/qif/export/kexportdlgdecl.ui:423
 #: kmymoney/views/investtransactioneditor.ui:340
 #: kmymoney/views/kenterscheduledlg.ui:208
@@ -1840,6 +1840,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, m_categoryColClear)
 #. i18n: ectx: property (text), widget (QToolButton, m_memoColClear)
 #. i18n: ectx: property (text), widget (QToolButton, m_balanceColClear)
+#. i18n: ectx: property (text), widget (QToolButton, m_feeColClear)
 #. i18n: ectx: property (text), widget (QToolButton, m_amountColClear)
 #. i18n: ectx: property (text), widget (QToolButton, m_creditDebitIndicatorColClear)
 #. i18n: ectx: property (text), widget (QToolButton, m_debitColClear)
@@ -1855,10 +1856,11 @@ msgstr ""
 #: kmymoney/plugins/csv/import/bankingwizardpage.ui:260
 #: kmymoney/plugins/csv/import/bankingwizardpage.ui:318
 #: kmymoney/plugins/csv/import/bankingwizardpage.ui:354
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:441
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:471
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:612
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:657
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:390
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:477
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:507
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:648
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:693
 #: kmymoney/plugins/views/reports/kreportsview.ui:95
 #: kmymoney/settings/kmymoney.kcfg:506 kmymoney/views/kinstitutionsview.ui:53
 #: kmymoney/views/kinstitutionsview.ui:71
@@ -10900,7 +10902,7 @@ msgstr ""
 
 #. +> trunk6 stable5
 #: kmymoney/plugins/csv/export/csvwriter.cpp:87
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:469
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:474
 #: kmymoney/plugins/qif/export/mymoneyqifwriter.cpp:82
 #: kmymoney/plugins/xml/xmlstorage.cpp:213
 #, kde-format
@@ -11078,7 +11080,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:254
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:259
 #, kde-format
 msgid ""
 "<center>The '<b>%1</b>' field already has this column selected.</center>"
@@ -11086,7 +11088,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:257
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:262
 #: kmymoney/plugins/csv/import/investmentwizardpage.cpp:189
 #, kde-format
 msgctxt "@title:window"
@@ -11094,21 +11096,21 @@ msgid "Field assignment resolution"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:296
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:301
 #, kde-format
 msgctxt "@item:intext No field selection"
 msgid "None"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:304
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:309
 #, kde-format
 msgctxt "@label:listbox list of currently selected fields"
 msgid "<i>Memo columns:</i> %1"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:348
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:353
 #, kde-format
 msgid ""
 "<center>Field name not recognised.</center>"
@@ -11118,7 +11120,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:350
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:355
 #: kmymoney/plugins/csv/import/csvwizard.cpp:965
 #: kmymoney/plugins/csv/import/csvwizard.cpp:1037
 #: kmymoney/plugins/csv/import/investmentwizardpage.cpp:389
@@ -11130,13 +11132,13 @@ msgid "CSV import"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:369
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:374
 #, kde-format
 msgid "Column <b>%1</b> cannot be selected because it is already used in '<b>%2</b>'."
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:393
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:398
 #, kde-format
 msgid ""
 "<center>The %1 field contains '%2'</center>"
@@ -11145,14 +11147,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:400
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:405
 #, kde-format
 msgid "CSV invalid field values"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:401
-#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:402
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:406
+#: kmymoney/plugins/csv/import/bankingwizardpage.cpp:407
 #, kde-format
 msgid "Accept %1"
 msgstr ""
@@ -11327,9 +11329,31 @@ msgstr ""
 msgid "Clear balance field selection."
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, labelBnk_fee)
+#. +> trunk6 stable5
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:361
+#: kmymoney/plugins/csv/import/investmentwizardpage.cpp:57
+#, kde-format
+msgid "Fee"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, m_feeCol)
+#. +> trunk6
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:380
+#, kde-format
+msgid "Select column containing fee field."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_feeColClear)
+#. +> trunk6
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:387
+#, kde-format
+msgid "Clear fee field selection."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, labelBnk_amount)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:409
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:445
 #, kde-format
 msgctxt "location of amount column"
 msgid "Amount"
@@ -11337,7 +11361,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, m_amountCol)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:428
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:464
 #: kmymoney/plugins/csv/import/investmentwizardpage.ui:118
 #, kde-format
 msgid "Select column containing amount field."
@@ -11345,84 +11369,84 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_amountColClear)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:438
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:474
 #, kde-format
 msgid "Clear amount field selection."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelBnk_indicator)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:448
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:484
 #, kde-format
 msgid "Debit/Credit Indicator"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, m_creditDebitIndicatorCol)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:461
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:497
 #, kde-format
 msgid "Select column containing indicator field."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_creditDebitIndicatorColClear)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:468
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:504
 #, kde-format
 msgid "Clear indicator field selection."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelBnk_debit)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:478
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:514
 #, kde-format
 msgid "Indicator for Credit"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, m_creditIndicator)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:488
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:524
 #, kde-format
 msgid "Enter text that is used to indicate that amount is a credit."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelBnk_credit)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:498
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:534
 #, kde-format
 msgid "Indicator for Debit"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, m_debitIndicator)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:508
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:544
 #, kde-format
 msgid "Enter text that is used to indicate that amount is a debit."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelBnk_opposite)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:518
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:554
 #, kde-format
 msgid "Opposite signs"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_oppositeSigns)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:534
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:570
 #, kde-format
 msgid "Select if your amount column has signs improperly set."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, debitCreditTab)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:563
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:599
 #, kde-format
 msgid "Debit/credit"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelBnk_debits)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:577
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:613
 #, kde-format
 msgctxt "location of debit column"
 msgid "Debit"
@@ -11430,21 +11454,21 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, m_debitCol)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:599
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:635
 #, kde-format
 msgid "Select column containing debit field."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_debitColClear)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:609
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:645
 #, kde-format
 msgid "Clear debit field selection."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelBnk_credits)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:625
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:661
 #, kde-format
 msgctxt "location of credit column"
 msgid "Credit"
@@ -11452,28 +11476,28 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, m_creditCol)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:644
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:680
 #, kde-format
 msgid "Select column containing credit field."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_creditColClear)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:654
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:690
 #, kde-format
 msgid "Clear credit field selection."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_clear)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:719
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:755
 #, kde-format
 msgid "Clear all selected column and indicator entries"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_clear)
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/bankingwizardpage.ui:722
+#: kmymoney/plugins/csv/import/bankingwizardpage.ui:758
 #, kde-format
 msgctxt "Clear all column assignments"
 msgid "Clear all"
@@ -11496,49 +11520,49 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1565
+#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1582
 #, kde-format
 msgctxt "Type of operation as in financial statement"
 msgid "buy"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1568
+#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1585
 #, kde-format
 msgctxt "Type of operation as in financial statement"
 msgid "sell,repurchase"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1571
+#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1588
 #, kde-format
 msgctxt "Type of operation as in financial statement"
 msgid "reinvest,reinv,re-inv"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1574
+#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1591
 #, kde-format
 msgctxt "Type of operation as in financial statement"
 msgid "dividend"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1577
+#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1594
 #, kde-format
 msgctxt "Type of operation as in financial statement"
 msgid "interest,income"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1580
+#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1597
 #, kde-format
 msgctxt "Type of operation as in financial statement"
 msgid "add,stock dividend,divd reinv,transfer in,re-registration in,journal entry"
 msgstr ""
 
 #. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1584
+#: kmymoney/plugins/csv/import/core/csvimportercore.cpp:1601
 #, kde-format
 msgctxt "Type of operation as in financial statement"
 msgid "remove"
@@ -11904,12 +11928,6 @@ msgstr ""
 #: kmymoney/plugins/csv/import/introwizardpage.ui:241
 #, kde-format
 msgid "Select your importing profile here."
-msgstr ""
-
-#. +> trunk6 stable5
-#: kmymoney/plugins/csv/import/investmentwizardpage.cpp:57
-#, kde-format
-msgid "Fee"
 msgstr ""
 
 #. +> trunk6 stable5
