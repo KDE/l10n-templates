@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-15 09:21+0200\n"
+"POT-Creation-Date: 2026-07-23 08:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -355,7 +355,7 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:286
 #: discover/qml/InstallApplicationButton.qml:51
-#: discover/qml/ProgressView.qml:155 discover/qml/SourcesPage.qml:207
+#: discover/qml/ProgressView.qml:162 discover/qml/SourcesPage.qml:207
 #: discover/qml/UpdatesPage.qml:316 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
@@ -1530,33 +1530,47 @@ msgid "Resources for '%1'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:21
+#: discover/qml/ProgressView.qml:29
 #, kde-format
 msgid "Tasks (%1%)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:22 discover/qml/ProgressView.qml:52
+#: discover/qml/ProgressView.qml:30 discover/qml/ProgressView.qml:60
 #, kde-format
 msgid "Tasks"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:129
+#. +> trunk6
+#: discover/qml/ProgressView.qml:144
+#, kde-format
+msgctxt "TransactioName - TransactionStatus: speed, remaining time"
+msgid "%1: %2, %3 remaining"
+msgstr ""
+
+#. +> stable6 stable5
+#: discover/qml/ProgressView.qml:126
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed, remaining time"
 msgid "%1 - %2: %3, %4 remaining"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:137
+#. +> trunk6
+#: discover/qml/ProgressView.qml:151
+#, kde-format
+msgctxt "TransactioName - TransactionStatus: speed"
+msgid "%1: %2"
+msgstr ""
+
+#. +> stable6 stable5
+#: discover/qml/ProgressView.qml:134
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed"
 msgid "%1 - %2: %3"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:144
+#. +> stable6 stable5
+#: discover/qml/ProgressView.qml:141
 #, kde-format
 msgctxt "TransactioName - TransactionStatus"
 msgid "%1 - %2"
