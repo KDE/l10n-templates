@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdiff3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-23 08:56+0200\n"
+"POT-Creation-Date: 2026-07-24 07:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -133,20 +133,14 @@ msgstr ""
 msgid "File %1: Line not available"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: difftextwindow.cpp:1971
 #, kde-format
 msgctxt "@label:textbox Encoding for text"
 msgid "Encoding:"
 msgstr ""
 
-#. +> stable6
-#: difftextwindow.cpp:1992
-#, kde-format
-msgid "Encoding:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: difftextwindow.cpp:1975
 #, kde-format
 msgctxt "@label:textbox"
@@ -159,56 +153,38 @@ msgstr ""
 msgid "A (Base)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: difftextwindow.cpp:2002
 #, kde-format
 msgctxt "@label:textbox Encoding for text, %1 = encoding name"
 msgid "Encoding: %1"
 msgstr ""
 
-#. +> stable6
-#: difftextwindow.cpp:2023
-#, kde-format
-msgid "Encoding: %1"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: difftextwindow.cpp:2003
 #, kde-format
 msgctxt "@item:intext line ending type"
 msgid "DOS"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: difftextwindow.cpp:2003
 #, kde-format
 msgctxt "@item:intext line ending type"
 msgid "Unix"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: difftextwindow.cpp:2003
 #, kde-format
 msgctxt "@label:textbox %1 = line ending style"
 msgid "Line end style: %1"
 msgstr ""
 
-#. +> stable6
-#: difftextwindow.cpp:2024
-#, kde-format
-msgid "Line end style: %1"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: difftextwindow.cpp:2004
 #, kde-format
 msgctxt "@item:intext line ending style not recognized"
-msgid "Unknown"
-msgstr ""
-
-#. +> stable6
-#: difftextwindow.cpp:2025
-#, kde-format
 msgid "Unknown"
 msgstr ""
 
@@ -876,17 +852,11 @@ msgstr ""
 msgid "Error while creating folder."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: directorymergewindow.cpp:2725 directorymergewindow.cpp:2807
 #: directorymergewindow.cpp:2838
 #, kde-format
 msgctxt "@label:textbox"
-msgid "Dest: "
-msgstr ""
-
-#. +> stable6
-#: directorymergewindow.cpp:2807
-#, kde-format
 msgid "Dest: "
 msgstr ""
 
@@ -987,12 +957,6 @@ msgstr ""
 #: directorymergewindow.cpp:2800
 #, kde-format
 msgid "C (Dest): "
-msgstr ""
-
-#. +> stable6
-#: directorymergewindow.cpp:2725 directorymergewindow.cpp:2839
-#, kde-format
-msgid "Dest"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1233,100 +1197,70 @@ msgstr ""
 msgid "Merge to A && B"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:526
 #, kde-format
 msgctxt "@info:shell"
 msgid "Unable to determine full url. No parent specified."
 msgstr ""
 
-#. +> stable6
-#: fileaccess.cpp:526
-#, kde-format
-msgid "Unable to determine full url. No parent specified."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:538
 #, kde-format
 msgctxt "@info:shell"
 msgid "Parent and child could not be distinguished."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:542
 #, kde-format
 msgctxt "@info:shell"
 msgid "Computed url is: "
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:800
 #, kde-format
 msgctxt "@info %1 is a path"
 msgid "Failed to read file: %1"
 msgstr ""
 
-#. +> stable6
-#: fileaccess.cpp:800
-#, kde-format
-msgid "Failed to read file: %1"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:808 fileaccess.cpp:836
 #, kde-format
 msgctxt "@info %1 is a path"
 msgid "User cancelled read operation on %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:872
 #, kde-format
 msgctxt "@info:status"
 msgid "User cancelled write operation."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:954
 #, kde-format
 msgctxt "@info:status %1 is the destination path"
 msgid "Creating temp copy of %1 failed."
 msgstr ""
 
-#. +> stable6
-#: fileaccess.cpp:947
-#, kde-format
-msgid "Creating temp copy of %1 failed."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:963 fileaccess.cpp:969
 #, kde-format
 msgctxt "@info:status %1 is the path, %2 is the error message"
 msgid "Opening %1 failed. %2"
 msgstr ""
 
-#. +> stable6
-#: fileaccess.cpp:956 fileaccess.cpp:962
-#, kde-format
-msgid "Opening %1 failed. %2"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:989 fileaccess.cpp:997
 #, kde-format
 msgctxt "@info:status %1 is the path, %2 is the error message"
 msgid "Error reading from %1. %2"
 msgstr ""
 
-#. +> stable6
-#: fileaccess.cpp:982 fileaccess.cpp:990
-#, kde-format
-msgid "Error reading from %1. %2"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:1128
 #, kde-format
 msgctxt "@info %1 is the path that failed"
@@ -1335,26 +1269,10 @@ msgid ""
 "Filename: %1"
 msgstr ""
 
-#. +> stable6
-#: fileaccess.cpp:1121
-#, kde-format
-msgid ""
-"While trying to make a backup, deleting an older backup failed.\n"
-"Filename: %1"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: fileaccess.cpp:1135
 #, kde-format
 msgctxt "@info %1 is the current path, %2 is the failed path"
-msgid ""
-"While trying to make a backup, renaming failed.\n"
-"Filenames: %1 -> %2"
-msgstr ""
-
-#. +> stable6
-#: fileaccess.cpp:1128
-#, kde-format
 msgid ""
 "While trying to make a backup, renaming failed.\n"
 "Filenames: %1 -> %2"
@@ -2384,7 +2302,7 @@ msgstr ""
 msgid "File Save Error"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: mergeresultwindow.cpp:2680
 #, kde-format
 msgid "Output file may contain replacement characters for unrecognized code points."
@@ -2456,7 +2374,7 @@ msgstr ""
 msgid "Codec from C: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: mergeresultwindow.cpp:2951
 #, kde-format
 msgid "Select file (not saving yet)"
@@ -3444,21 +3362,12 @@ msgstr ""
 msgid "File Encoding for A:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: optiondialog.cpp:1325
 #, kde-format
 msgid ""
 "If enabled then encoding will be automatically detected.\n"
 "If the file's encoding can not be found automatically then the selected encoding will be used as fallback.\n"
-"(Unicode detection depends on the first bytes of a file.)"
-msgstr ""
-
-#. +> stable6
-#: optiondialog.cpp:1327
-#, kde-format
-msgid ""
-"If enabled then encoding will be automaticly detected.\n"
-"If the file's encoding can not be found automaticly then the selected encoding will be used as fallback.\n"
 "(Unicode detection depends on the first bytes of a file.)"
 msgstr ""
 
