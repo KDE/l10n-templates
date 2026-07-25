@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-14 08:08+0200\n"
+"POT-Creation-Date: 2026-07-25 08:04+0200\n"
 
 #. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
 #. +> trunk6 trunk5
@@ -38,6 +38,18 @@ msgstr ""
 #, qt-format
 msgctxt "FontHelpers|@item Font name [foundry]"
 msgid "%1 [%2]"
+msgstr ""
+
+#. +> trunk6
+#: kabstractcoloredit.cpp:70
+msgctxt "KAbstractColorEdit|@action:inmenu"
+msgid "Copy Color"
+msgstr ""
+
+#. +> trunk6
+#: kabstractcoloredit.cpp:81
+msgctxt "KAbstractColorEdit|@action:inmenu"
+msgid "Paste Color"
 msgstr ""
 
 #. +> trunk6 trunk5
@@ -1733,7 +1745,7 @@ msgid "Unknown"
 msgstr ""
 
 #. +> trunk6
-#: kcolorcombo.cpp:333
+#: kcolorcombo.cpp:389
 msgctxt "KColorCombo|@item:inlistbox Custom color"
 msgid "Custom…"
 msgstr ""
