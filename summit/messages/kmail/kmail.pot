@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-25 08:02+0200\n"
+"POT-Creation-Date: 2026-07-27 07:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1960,7 +1960,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: editor/kmcomposerwin.cpp:326 kmail_part.cpp:38 kmmainwin.cpp:99
-#: kmreadermainwin.cpp:488 kontactplugin/kmail/kmail_plugin.cpp:42
+#: kmreadermainwin.cpp:488 kontactplugin/kmail/kmail_plugin.cpp:46
 #, kde-format
 msgid "KMail2"
 msgstr ""
@@ -6417,6 +6417,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
+#: kmundoredomanager.cpp:35 undostack.cpp:107
+#, kde-format
+msgid "Cannot move message. %1"
+msgstr ""
+
+#. +> trunk6 stable6
 #: kontactplugin/kmail/kcmkmailsummary.cpp:30
 #, kde-format
 msgctxt "@option:check"
@@ -6438,21 +6444,21 @@ msgid "Enable this option if you want to see the full path for each folder liste
 msgstr ""
 
 #. +> trunk6 stable6
-#: kontactplugin/kmail/kmail_plugin.cpp:44
+#: kontactplugin/kmail/kmail_plugin.cpp:48
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Message…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kontactplugin/kmail/kmail_plugin.cpp:50
+#: kontactplugin/kmail/kmail_plugin.cpp:54
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "You will be presented with a dialog where you can create and send a new email message."
 msgstr ""
 
 #. +> trunk6 stable6
-#: kontactplugin/kmail/kmail_plugin.cpp:55
+#: kontactplugin/kmail/kmail_plugin.cpp:59
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Sync Mail"
@@ -6460,7 +6466,7 @@ msgstr ""
 
 #. i18nc( "@info:status", "Synchronize groupware mail" ) );
 #. +> trunk6 stable6
-#: kontactplugin/kmail/kmail_plugin.cpp:58
+#: kontactplugin/kmail/kmail_plugin.cpp:62
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose this option to synchronize your groupware email."
@@ -8573,12 +8579,6 @@ msgstr ""
 #: undostack.cpp:96
 #, kde-format
 msgid "There is nothing to undo."
-msgstr ""
-
-#. +> trunk6 stable6
-#: undostack.cpp:107
-#, kde-format
-msgid "Cannot move message. %1"
 msgstr ""
 
 #. +> trunk6 stable6

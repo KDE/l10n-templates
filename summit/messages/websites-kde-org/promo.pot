@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-06 10:24+0200\n"
+"POT-Creation-Date: 2026-07-27 08:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1752,7 +1752,8 @@ msgid "![Screenshot of Kontrast with a blue background and white foreground](/fo
 msgstr ""
 
 #. +> trunk5
-#: content/for/creators.md:189 content/for/scientists.md:195
+#: content/for/creators.md:189 content/for/developers/index.md:144
+#: content/for/scientists.md:195
 msgid "Other open source applications for you"
 msgstr ""
 
@@ -1938,6 +1939,195 @@ msgstr ""
 #. +> trunk5
 #: content/for/creators.md:0 content/for/scientists.md:0
 msgid "Preview your artworks Krita files directly from the file manager and image viewer"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:35
+msgid "Kate, the Feature-Packed Text Editor"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:37
+msgid "Kate is packed with features that make it easier to view and edit all your text files. It lets you edit and view many files at the same time, both in tabs and split views, and comes with a wide variety of plugins, including an embedded terminal that lets you launch console commands directly from Kate, powerful search and replace plugins, and a preview plugin that can show you what your markdown, HTML and even SVG files will look like."
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:39
+msgid "![Kate tools](/for/developers/kate.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:47
+msgid ""
+"<div class=\"row\">\n"
+"  <div class=\"col-12 col-lg-6\">\n"
+"    "
+"<h2>KDE Frameworks</h2>"
+"\n"
+"    "
+"<p class=\"text-left\">KDE's Frameworks consist of over 80 add-on libraries to use in your Qt applications. For example, KWidgetsAddons includes many helpful and common widgets; KConfig provides configuration and state management; KCalendarCore and KContact provide easy-to-use .ics and vcard file parsers; Kirigami is a full toolkit for developing convergent user interfaces.</p>"
+"\n"
+"    <a href=\"https://develop.kde.org/products/frameworks/\" class=\"btn btn-outline-light btn-lg mx-auto\">Learn more</a>\n"
+"  </div>\n"
+"  <div class=\"col-12 col-lg-6\">\n"
+"    <img src=\"https://develop.kde.org/frameworks/kirigami/tokodon-desktop.png\" class=\"img-fluid kirigami-devices\"/>\n"
+"  </div>\n"
+"</div>\n"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:62
+msgid "Konsole"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:64
+msgid "Konsole is KDE's terminal application. It provides tabs, split views, an ssh connection manager, a way to bookmark your favorite commands and servers, thumbnails for your files, Sixel support, and much more."
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:68
+msgid "Konsole is also integrated into multiple other KDE Applications, making it your constant companion. For example, KDevelop, Kate, Yakuake, and Dolphin all use Konsole as an integrated terminal emulator."
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:80
+msgid "![Yakuake](yakuake.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:82
+msgid "Yakuake"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:84
+msgid "Konsole but as a dropdown terminal, accessible from anywhere with a quick press of the <kdb>F12</kdb> key"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:92
+msgid "Clazy"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:94
+msgid "Clazy is a Clang compiler plugin to ensure that your Qt application follows industry-standard best practices."
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:116
+msgid "KDevelop"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:118
+msgid "A cross-platform IDE for C, C++, Python, QML/JavaScript and PHP"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:120
+msgid "KDevelop is a fully-featured Integrated Development Environment, perfect for C and C++ projects and other supported languages. It has great code completion and project support, along with documentation integration that keeps you close to where you're editing code."
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:124
+msgid "Screenshot of kdevelop"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:130
+msgid "Profile your application"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:132
+msgid "Use [Heaptrack](https://apps.kde.org/heaptrack/) to profile your Linux application's memory allocation to find hotspots and memory leaks."
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:134
+msgid "![Flame graph of memory allocation](gui_flamegraph.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:136
+msgid "And use [ELF Dissector](https://apps.kde.org/elf-dissector/) to investigate load time performance bottlenecks and profile the size of your Linux executables."
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:138
+msgid "![Elf Dissector](elf-dissector-size-treemap.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:146
+msgid "Here are some other open source applications from our partners to complement your workflow. Most of them are using [KDE Frameworks](https://develop.kde.org/products/frameworks/) internally."
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:148
+msgid "And check out our other [development-related applications](https://apps.kde.org/categories/development)."
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "KDE for Developers"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "Everything you need to build great software"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "Gammaray"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "Inspect your Qt application"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "Hotspot"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "Performance analysis for Linux applications"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "Qt Creator"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "C++ IDE"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "Valgrind"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "Dynamic analysis tool"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "By Programmers, for Programmers"
+msgstr ""
+
+#. +> trunk5
+#: content/for/developers/index.md:0
+msgid "The KDE community has created a huge number of [applications](https://apps.kde.org) over the years. Along the way, we built world-class tools to make it easy."
 msgstr ""
 
 #. +> trunk5
