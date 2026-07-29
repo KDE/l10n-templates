@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: chessament\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-28 08:16+0200\n"
+"POT-Creation-Date: 2026-07-29 09:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -489,25 +489,25 @@ msgid "Delete tiebreak"
 msgstr ""
 
 #. +> trunk6
-#: qml/components/TimeControlDelegate.qml:36
+#: qml/components/TimeControlDelegate.qml:37
 msgctxt "@label:textbox Number of moves"
 msgid "Moves"
 msgstr ""
 
 #. +> trunk6
-#: qml/components/TimeControlDelegate.qml:49
+#: qml/components/TimeControlDelegate.qml:51
 msgctxt "@label:textbox Time control period time"
 msgid "Time (minutes)"
 msgstr ""
 
 #. +> trunk6
-#: qml/components/TimeControlDelegate.qml:63
+#: qml/components/TimeControlDelegate.qml:65
 msgctxt "@label:textbox Time control period increment (per second)"
 msgid "Increment (seconds)"
 msgstr ""
 
 #. +> trunk6
-#: qml/components/TimeControlDelegate.qml:75
+#: qml/components/TimeControlDelegate.qml:77
 msgctxt "@action:button Delete time control period"
 msgid "Delete"
 msgstr ""
@@ -621,13 +621,13 @@ msgid "Hide finished games"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairingsPage.qml:60 qml/PlayersPage.qml:123 qml/StandingsPage.qml:49
+#: qml/PairingsPage.qml:60 qml/PlayersPage.qml:132 qml/StandingsPage.qml:49
 msgctxt "@action:intoolbar"
 msgid "Print…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PairingsPage.qml:65 qml/PlayersPage.qml:128 qml/StandingsPage.qml:54
+#: qml/PairingsPage.qml:65 qml/PlayersPage.qml:137 qml/StandingsPage.qml:54
 msgctxt "@action:intoolbar"
 msgid "Export as PDF…"
 msgstr ""
@@ -775,48 +775,54 @@ msgstr ""
 
 #. +> trunk6
 #: qml/PlayersPage.qml:113
+msgctxt "@action Update players ratings"
+msgid "Update ratings…"
+msgstr ""
+
+#. +> trunk6
+#: qml/PlayersPage.qml:122
 msgctxt "@action:intoolbar"
 msgid "Sort Players…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:134
+#: qml/PlayersPage.qml:143
 msgctxt "@action:intoolbar"
 msgid "Add Player…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:145
+#: qml/PlayersPage.qml:154
 msgctxt "@action:inmenu"
 msgid "Open Player Details"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:151
+#: qml/PlayersPage.qml:160
 msgctxt "@action:inmenu"
 msgid "Delete Player…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:171
+#: qml/PlayersPage.qml:180
 msgctxt "@info:placeholder"
 msgid "No players found"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:171
+#: qml/PlayersPage.qml:180
 msgctxt "@info:placeholder"
 msgid "No players yet"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:175
+#: qml/PlayersPage.qml:184
 msgctxt "@action:button"
 msgid "Add Player…"
 msgstr ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:194
+#: qml/PlayersPage.qml:203
 msgctxt "@info:status Number of players"
 msgid "1 player"
 msgid_plural "%1 players"
@@ -824,7 +830,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:195
+#: qml/PlayersPage.qml:204
 msgctxt "@info:status Number of rated players"
 msgid "1 rated"
 msgid_plural "%1 rated"
@@ -832,7 +838,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: qml/PlayersPage.qml:197
+#: qml/PlayersPage.qml:206
 msgctxt "@info:status Total number of players (Number of players rated)"
 msgid "%1 (%2)"
 msgstr ""
@@ -985,13 +991,13 @@ msgid "Add Period"
 msgstr ""
 
 #. +> trunk6
-#: qml/TournamentSettingsFormat.qml:88
+#: qml/TournamentSettingsFormat.qml:94
 msgctxt "@title:group"
 msgid "Tiebreaks"
 msgstr ""
 
 #. +> trunk6
-#: qml/TournamentSettingsFormat.qml:113
+#: qml/TournamentSettingsFormat.qml:119
 msgctxt "@action:button"
 msgid "Add Tiebreak"
 msgstr ""
@@ -1036,6 +1042,24 @@ msgstr ""
 #: qml/TournamentSettingsInformation.qml:63
 msgctxt "@info:status"
 msgid "No arbiters yet."
+msgstr ""
+
+#. +> trunk6
+#: qml/UpdateRatingsDialog.qml:17
+msgctxt "@title"
+msgid "Update Ratings"
+msgstr ""
+
+#. +> trunk6
+#: qml/UpdateRatingsDialog.qml:25
+msgctxt "@label:listbox"
+msgid "Choose a rating list:"
+msgstr ""
+
+#. +> trunk6
+#: qml/UpdateRatingsDialog.qml:35
+msgctxt "@action:button Update players ratings"
+msgid "Update"
 msgstr ""
 
 #. +> trunk6
@@ -1232,6 +1256,27 @@ msgid "Rank"
 msgstr ""
 
 #. +> trunk6
+#: timecontrolmodel.cpp:38
+#, kde-format
+msgctxt "@info"
+msgid "The time control is Blitz."
+msgstr ""
+
+#. +> trunk6
+#: timecontrolmodel.cpp:40
+#, kde-format
+msgctxt "@info"
+msgid "The time control is Rapid."
+msgstr ""
+
+#. +> trunk6
+#: timecontrolmodel.cpp:42
+#, kde-format
+msgctxt "@info"
+msgid "The time control is Classical."
+msgstr ""
+
+#. +> trunk6
 #: tournament/event.cpp:166 tournament/event.cpp:175
 #, kde-kuit-format
 msgctxt "@info"
@@ -1408,7 +1453,7 @@ msgid "File format not supported."
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglist.cpp:496
+#: tournament/ratinglists/ratinglist.cpp:472
 #, kde-format
 msgctxt "@info:progress"
 msgid "Saved 1 player."
@@ -1417,7 +1462,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: tournament/tiebreaks/aob.h:23 tournament/tournament.cpp:533
+#: tournament/tiebreaks/aob.h:23 tournament/tournament.cpp:555
 #, kde-format
 msgctxt "Tiebreak"
 msgid "Average Buchholz of Opponents"
@@ -1438,7 +1483,7 @@ msgid "Unsupported tiebreak option \"%1\""
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/buchholz.h:25 tournament/tournament.cpp:515
+#: tournament/tiebreaks/buchholz.h:25 tournament/tournament.cpp:537
 #, kde-format
 msgctxt "Buchholz tiebreak"
 msgid "Buchholz"
@@ -1459,14 +1504,14 @@ msgid "Unsupported tiebreak"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/numberwins.h:22 tournament/tournament.cpp:519
+#: tournament/tiebreaks/numberwins.h:22 tournament/tournament.cpp:541
 #, kde-format
 msgctxt "Number of Wins tiebreak"
 msgid "Number of Wins"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/playedblack.h:22 tournament/tournament.cpp:529
+#: tournament/tiebreaks/playedblack.h:22 tournament/tournament.cpp:551
 #, kde-format
 msgctxt "Number of Games Played with Black (over the board) tiebreak"
 msgid "Number of Games Played with Black (over the board)"
@@ -1474,27 +1519,27 @@ msgstr ""
 
 #. +> trunk6
 #: tournament/tiebreaks/points.h:22 tournament/tiebreaks/points.h:27
-#: tournament/tournament.cpp:511
+#: tournament/tournament.cpp:533
 #, kde-format
 msgctxt "Game points"
 msgid "Points"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tiebreaks/won.h:23 tournament/tournament.cpp:525
+#: tournament/tiebreaks/won.h:23 tournament/tournament.cpp:547
 #, kde-format
 msgctxt "Number of Games Won (over the board) tiebreak. Different from the 'Number of Wins' tiebreak, which includes games won by forfeit."
 msgid "Number of Games Won (over the board)"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:968
+#: tournament/tournament.cpp:990
 #, kde-format
 msgid "An error ocurred while pairing the round: %1"
 msgstr ""
 
 #. +> trunk6
-#: tournament/tournament.cpp:1200
+#: tournament/tournament.cpp:1222
 #, kde-format
 msgid "Couldn't open file"
 msgstr ""

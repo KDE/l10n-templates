@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-26 11:01+0200\n"
+"POT-Creation-Date: 2026-07-29 09:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -175,7 +175,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: dolphincontextmenu.cpp:242 dolphinmainwindow.cpp:1787
+#: dolphincontextmenu.cpp:242 dolphinmainwindow.cpp:1789
 #, kde-format
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
@@ -272,7 +272,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:652 dolphinmainwindow.cpp:702
-#: views/dolphinview.cpp:2346
+#: views/dolphinview.cpp:2344
 #, kde-format
 msgid "Do not ask again"
 msgstr ""
@@ -311,7 +311,7 @@ msgid "Open %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1365 dolphinmainwindow.cpp:2176
+#: dolphinmainwindow.cpp:1365 dolphinmainwindow.cpp:2178
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Open Preferred Search Tool"
@@ -348,29 +348,36 @@ msgctxt "@info"
 msgid "Cannot create new folder: You do not have permission to create items in this folder."
 msgstr ""
 
+#. +> trunk6
+#: dolphinmainwindow.cpp:1515
+#, kde-format
+msgctxt "@info"
+msgid "Cannot create new subfolder: Select a single folder you can write to."
+msgstr ""
+
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1612
+#: dolphinmainwindow.cpp:1614
 #, kde-format
 msgctxt "@action:inmenu menu for configure actions"
 msgid "Configure"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1796
+#: dolphinmainwindow.cpp:1798
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1797
+#: dolphinmainwindow.cpp:1799
 #, kde-format
 msgctxt "@info"
 msgid "Open a new Dolphin window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1799
+#: dolphinmainwindow.cpp:1801
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -379,14 +386,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1806
+#: dolphinmainwindow.cpp:1808
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1808
+#: dolphinmainwindow.cpp:1810
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -395,63 +402,63 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1817
+#: dolphinmainwindow.cpp:1819
 #, kde-format
 msgctxt "@action:inmenu Add current folder to places"
 msgid "Add to Places"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1819
+#: dolphinmainwindow.cpp:1821
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "This adds the selected folder to the Places panel."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1824
+#: dolphinmainwindow.cpp:1826
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1825
+#: dolphinmainwindow.cpp:1827
 #, kde-format
 msgctxt "@info"
 msgid "Close Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1827
+#: dolphinmainwindow.cpp:1829
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "This closes the currently viewed tab. If no more tabs are left, this closes the whole window instead."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1832
+#: dolphinmainwindow.cpp:1834
 #, kde-format
 msgctxt "@info:whatsthis quit"
 msgid "This closes this window."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1841
+#: dolphinmainwindow.cpp:1843
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<para><emphasis>Cut, Copy</emphasis> and <emphasis>Paste</emphasis> work between many applications and are among the most used commands. That's why their <emphasis>keyboard shortcuts</emphasis> are prominently placed right next to each other on the keyboard: <shortcut>Ctrl+X</shortcut>, <shortcut>Ctrl+C</shortcut> and <shortcut>Ctrl+V</shortcut>.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1848
+#: dolphinmainwindow.cpp:1850
 #, kde-format
 msgctxt "@action"
 msgid "Cut…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1850
+#: dolphinmainwindow.cpp:1852
 #, kde-kuit-format
 msgctxt "@info:whatsthis cut"
 msgid ""
@@ -460,14 +467,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1857
+#: dolphinmainwindow.cpp:1859
 #, kde-format
 msgctxt "@action"
 msgid "Copy…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1859
+#: dolphinmainwindow.cpp:1861
 #, kde-kuit-format
 msgctxt "@info:whatsthis copy"
 msgid ""
@@ -476,14 +483,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1868
+#: dolphinmainwindow.cpp:1870
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1870
+#: dolphinmainwindow.cpp:1872
 #, kde-kuit-format
 msgctxt "@info:whatsthis paste"
 msgid ""
@@ -492,91 +499,91 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1877
+#: dolphinmainwindow.cpp:1879
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy to Other View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1878
+#: dolphinmainwindow.cpp:1880
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy to Other View…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1880
+#: dolphinmainwindow.cpp:1882
 #, kde-kuit-format
 msgctxt "@info:whatsthis Copy"
 msgid "This copies the selected items from the view in focus to the other view. (Only available while in Split View mode.)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1884
+#: dolphinmainwindow.cpp:1886
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Copy to Other View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1889
+#: dolphinmainwindow.cpp:1891
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Move to Other View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1890
+#: dolphinmainwindow.cpp:1892
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Move to Other View…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1892
+#: dolphinmainwindow.cpp:1894
 #, kde-kuit-format
 msgctxt "@info:whatsthis Move"
 msgid "This moves the selected items from the view in focus to the other view. (Only available while in Split View mode.)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1896
+#: dolphinmainwindow.cpp:1898
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Move to Other View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1901
+#: dolphinmainwindow.cpp:1903
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Focus Other View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1902
+#: dolphinmainwindow.cpp:1904
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move keyboard focus to the inactive view."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1908
+#: dolphinmainwindow.cpp:1910
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Filter…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1909
+#: dolphinmainwindow.cpp:1911
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show Filter Bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1911
+#: dolphinmainwindow.cpp:1913
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -585,48 +592,48 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1923
+#: dolphinmainwindow.cpp:1925
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Filter Bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1924
+#: dolphinmainwindow.cpp:1926
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1932 search/bar.cpp:216
+#: dolphinmainwindow.cpp:1934 search/bar.cpp:216
 #, kde-format
 msgid "Search…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1933
+#: dolphinmainwindow.cpp:1935
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Search for files and folders"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1935
+#: dolphinmainwindow.cpp:1937
 #, kde-kuit-format
 msgctxt "@info:whatsthis find"
 msgid "<para>This helps you find files and folders by opening a <emphasis>search bar</emphasis>. There you can enter search terms and specify settings to find the items you are looking for.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1944
+#: dolphinmainwindow.cpp:1946
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Search Bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1945
+#: dolphinmainwindow.cpp:1947
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Search"
@@ -634,7 +641,7 @@ msgstr ""
 
 #. i18n: This action toggles a selection mode.
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1960
+#: dolphinmainwindow.cpp:1962
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Select Files and Folders"
@@ -643,14 +650,14 @@ msgstr ""
 #. i18n: Opens a selection mode for selecting files/folders.
 #. The text is kept so unspecific because it will be shown on the toolbar where space is at a premium.
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1963
+#: dolphinmainwindow.cpp:1965
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Select"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1966
+#: dolphinmainwindow.cpp:1968
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -659,28 +666,28 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1989
+#: dolphinmainwindow.cpp:1991
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "This selects all files and folders in the current location."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1993 dolphinpart.cpp:166
+#: dolphinmainwindow.cpp:1995 dolphinpart.cpp:169
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1995
+#: dolphinmainwindow.cpp:1997
 #, kde-kuit-format
 msgctxt "@info:whatsthis invert"
 msgid "This selects all items that you have currently <emphasis>not</emphasis> selected instead."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2015
+#: dolphinmainwindow.cpp:2017
 #, kde-kuit-format
 msgctxt "@info:whatsthis split"
 msgid ""
@@ -690,35 +697,35 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2030
+#: dolphinmainwindow.cpp:2032
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "If the view has been split, this will pop the view in focus out into a new window."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2038
+#: dolphinmainwindow.cpp:2040
 #, kde-format
 msgctxt "@action:intoolbar Stash"
 msgid "Stash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2039
+#: dolphinmainwindow.cpp:2041
 #, kde-format
 msgctxt "@info"
 msgid "Opens the stash virtual directory in a split window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2048
+#: dolphinmainwindow.cpp:2050
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Refresh view"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2050
+#: dolphinmainwindow.cpp:2052
 #, kde-kuit-format
 msgctxt "@info:whatsthis refresh"
 msgid ""
@@ -728,35 +735,35 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2057
+#: dolphinmainwindow.cpp:2059
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2058
+#: dolphinmainwindow.cpp:2060
 #, kde-format
 msgctxt "@info"
 msgid "Stop loading"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2059
+#: dolphinmainwindow.cpp:2061
 #, kde-format
 msgctxt "@info"
 msgid "This stops the loading of the contents of the current folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2064
+#: dolphinmainwindow.cpp:2066
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2066
+#: dolphinmainwindow.cpp:2068
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -765,35 +772,35 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2074
+#: dolphinmainwindow.cpp:2076
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2079
+#: dolphinmainwindow.cpp:2081
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "This switches to editing the location and selects it so you can quickly enter a different location."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2109
+#: dolphinmainwindow.cpp:2111
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Undo close tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2110
+#: dolphinmainwindow.cpp:2112
 #, kde-format
 msgctxt "@info:whatsthis undo close tab"
 msgid "This returns you to the previously closed tab."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2118
+#: dolphinmainwindow.cpp:2120
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -803,7 +810,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2128
+#: dolphinmainwindow.cpp:2130
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -813,7 +820,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2157
+#: dolphinmainwindow.cpp:2159
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -822,21 +829,21 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2164
+#: dolphinmainwindow.cpp:2166
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2170
+#: dolphinmainwindow.cpp:2172
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Manage Disk Space Usage"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2178
+#: dolphinmainwindow.cpp:2180
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -845,14 +852,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2192
+#: dolphinmainwindow.cpp:2194
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2194
+#: dolphinmainwindow.cpp:2196
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -862,14 +869,14 @@ msgstr ""
 
 #. i18n: "Here" refers to the location(s) of the currently selected item(s) or the currently viewed location if nothing is selected.
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2202
+#: dolphinmainwindow.cpp:2204
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Open Terminal Here"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2204
+#: dolphinmainwindow.cpp:2206
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -878,14 +885,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2212
+#: dolphinmainwindow.cpp:2214
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2222
+#: dolphinmainwindow.cpp:2224
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -895,84 +902,84 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2247
+#: dolphinmainwindow.cpp:2249
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go to Tab %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2260
+#: dolphinmainwindow.cpp:2262
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Last Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2261
+#: dolphinmainwindow.cpp:2263
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go to Last Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2267
+#: dolphinmainwindow.cpp:2269
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2268
+#: dolphinmainwindow.cpp:2270
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go to Next Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2274
+#: dolphinmainwindow.cpp:2276
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2275
+#: dolphinmainwindow.cpp:2277
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go to Previous Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2282
+#: dolphinmainwindow.cpp:2284
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Target"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2288
+#: dolphinmainwindow.cpp:2290
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2293
+#: dolphinmainwindow.cpp:2295
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Tabs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2298
+#: dolphinmainwindow.cpp:2300
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2303 panels/places/placespanel.cpp:45
+#: dolphinmainwindow.cpp:2305 panels/places/placespanel.cpp:45
 #: tests/placespaneltest.cpp:125 tests/placespaneltest.cpp:147
 #: tests/placespaneltest.cpp:169
 #, kde-format
@@ -981,27 +988,27 @@ msgid "Open in Split View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2315
+#: dolphinmainwindow.cpp:2317
 #, kde-format
 msgid "&Window Color Scheme"
-msgstr ""
-
-#. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2328
-#, kde-format
-msgctxt "@action:inmenu Panels"
-msgid "Unlock Panels"
 msgstr ""
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2330
 #, kde-format
 msgctxt "@action:inmenu Panels"
+msgid "Unlock Panels"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dolphinmainwindow.cpp:2332
+#, kde-format
+msgctxt "@action:inmenu Panels"
 msgid "Lock Panels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2333
+#: dolphinmainwindow.cpp:2335
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1011,21 +1018,21 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2342
+#: dolphinmainwindow.cpp:2344
 #, kde-format
 msgctxt "@title:window"
 msgid "Information"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2365
+#: dolphinmainwindow.cpp:2367
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<para>To show or hide panels like this go to <interface>Menu|Panels</interface> or <interface>View|Panels</interface>.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2372
+#: dolphinmainwindow.cpp:2374
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1035,7 +1042,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2380
+#: dolphinmainwindow.cpp:2382
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1045,14 +1052,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2389
+#: dolphinmainwindow.cpp:2391
 #, kde-format
 msgctxt "@title:window"
 msgid "Folders"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2409
+#: dolphinmainwindow.cpp:2411
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1062,7 +1069,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2414
+#: dolphinmainwindow.cpp:2416
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1071,14 +1078,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2424
+#: dolphinmainwindow.cpp:2426
 #, kde-format
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2450
+#: dolphinmainwindow.cpp:2452
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1088,7 +1095,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2458
+#: dolphinmainwindow.cpp:2460
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1097,56 +1104,56 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2468 dolphinmainwindow.cpp:3135
+#: dolphinmainwindow.cpp:2470 dolphinmainwindow.cpp:3137
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Focus Terminal Panel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2469
+#: dolphinmainwindow.cpp:2471
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move keyboard focus to and from the Terminal panel."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2475
+#: dolphinmainwindow.cpp:2477
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Follow Directory Switch"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2477
+#: dolphinmainwindow.cpp:2479
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Determines if current working directory must be kept in sync with terminal whenever directory is changed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2493
+#: dolphinmainwindow.cpp:2495
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2521
+#: dolphinmainwindow.cpp:2523
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Show Hidden Places"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2525
+#: dolphinmainwindow.cpp:2527
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "This displays all places in the places panel that have been hidden. They will appear semi-transparent and allow you to uncheck their \"Hide\" property."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2537
+#: dolphinmainwindow.cpp:2539
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1155,7 +1162,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2544
+#: dolphinmainwindow.cpp:2546
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1165,105 +1172,105 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2558 dolphinmainwindow.cpp:3153
+#: dolphinmainwindow.cpp:2560 dolphinmainwindow.cpp:3155
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Focus Places Panel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2559
+#: dolphinmainwindow.cpp:2561
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move keyboard focus to and from the Places panel."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2565
+#: dolphinmainwindow.cpp:2567
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Show Panels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2651
+#: dolphinmainwindow.cpp:2653
 #, kde-format
 msgctxt "@info"
 msgid "Cannot rename: You do not have permission to rename items in this folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2654 dolphinmainwindow.cpp:2671
+#: dolphinmainwindow.cpp:2656 dolphinmainwindow.cpp:2673
 #, kde-format
 msgctxt "@info"
 msgid "Cannot delete: You do not have permission to remove items from this folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2656
+#: dolphinmainwindow.cpp:2658
 #, kde-format
 msgctxt "@info"
 msgid "Cannot cut: You do not have permission to move items from this folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2661
+#: dolphinmainwindow.cpp:2663
 #, kde-format
 msgctxt "@info"
 msgid "Cannot duplicate here: You do not have permission to create items in this folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2683
+#: dolphinmainwindow.cpp:2685
 #, kde-format
 msgctxt "@info"
 msgid "Cannot copy to other view: No files selected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2685
+#: dolphinmainwindow.cpp:2687
 #, kde-format
 msgctxt "@info"
 msgid "Cannot move to other view: No files selected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2704
+#: dolphinmainwindow.cpp:2706
 #, kde-format
 msgctxt "@info"
 msgid "Cannot copy to other view: The other view already contains these items."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2707
+#: dolphinmainwindow.cpp:2709
 #, kde-format
 msgctxt "@info"
 msgid "Cannot move to other view: The other view already contains these items."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2712
+#: dolphinmainwindow.cpp:2714
 #, kde-format
 msgctxt "@info"
 msgid "Cannot copy to other view: You do not have permission to write into the destination folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2716
+#: dolphinmainwindow.cpp:2718
 #, kde-format
 msgctxt "@info"
 msgid "Cannot move to other view: You do not have permission to write into the destination folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2722
+#: dolphinmainwindow.cpp:2724
 #, kde-format
 msgctxt "@info"
 msgid "Cannot move to other view: You do not have permission to move items from this folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2749
+#: dolphinmainwindow.cpp:2751
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1272,61 +1279,53 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2842 dolphinmainwindow.cpp:2861
+#: dolphinmainwindow.cpp:2844 dolphinmainwindow.cpp:2863
 #, kde-format
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2843 dolphinmainwindow.cpp:2862
-#, kde-format
-msgctxt "@info View refer here to split view"
-msgid "Close Left View"
-msgstr ""
-
-#. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2845 dolphinmainwindow.cpp:2864
 #, kde-format
-msgctxt "@action:inmenu View refer here to split view"
+msgctxt "@info View refer here to split view"
 msgid "Close Left View"
 msgstr ""
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2847 dolphinmainwindow.cpp:2866
 #, kde-format
+msgctxt "@action:inmenu View refer here to split view"
+msgid "Close Left View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dolphinmainwindow.cpp:2849 dolphinmainwindow.cpp:2868
+#, kde-format
 msgctxt "@action:intoolbar Move left split view to a new window"
 msgid "Pop out Left View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2848 dolphinmainwindow.cpp:2867
+#: dolphinmainwindow.cpp:2850 dolphinmainwindow.cpp:2869
 #, kde-format
 msgctxt "@info View refer here to split view"
 msgid "Move left split view to a new window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2850 dolphinmainwindow.cpp:2869
-#: dolphinmainwindow.cpp:2879
+#: dolphinmainwindow.cpp:2852 dolphinmainwindow.cpp:2871
+#: dolphinmainwindow.cpp:2881
 #, kde-format
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2851 dolphinmainwindow.cpp:2870
-#: dolphinmainwindow.cpp:2880
-#, kde-format
-msgctxt "@info View refer here to split view"
-msgid "Close Right View"
-msgstr ""
-
-#. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2853 dolphinmainwindow.cpp:2872
 #: dolphinmainwindow.cpp:2882
 #, kde-format
-msgctxt "@action:inmenu View refer here to split view"
+msgctxt "@info View refer here to split view"
 msgid "Close Right View"
 msgstr ""
 
@@ -1334,41 +1333,49 @@ msgstr ""
 #: dolphinmainwindow.cpp:2855 dolphinmainwindow.cpp:2874
 #: dolphinmainwindow.cpp:2884
 #, kde-format
+msgctxt "@action:inmenu View refer here to split view"
+msgid "Close Right View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dolphinmainwindow.cpp:2857 dolphinmainwindow.cpp:2876
+#: dolphinmainwindow.cpp:2886
+#, kde-format
 msgctxt "@action:intoolbar Move right split view to a new window"
 msgid "Pop out Right View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2856 dolphinmainwindow.cpp:2875
-#: dolphinmainwindow.cpp:2885
+#: dolphinmainwindow.cpp:2858 dolphinmainwindow.cpp:2877
+#: dolphinmainwindow.cpp:2887
 #, kde-format
 msgctxt "@info View refer here to split view"
 msgid "Move right split view to a new window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2897
+#: dolphinmainwindow.cpp:2899
 #, kde-format
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2899
+#: dolphinmainwindow.cpp:2901
 #, kde-format
 msgctxt "@info"
 msgid "Split view"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2901
+#: dolphinmainwindow.cpp:2903
 #, kde-format
 msgctxt "@action:intoolbar Move view in focus to a new window"
 msgid "Pop out"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2961
+#: dolphinmainwindow.cpp:2963
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1377,7 +1384,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2968
+#: dolphinmainwindow.cpp:2970
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1387,7 +1394,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2980
+#: dolphinmainwindow.cpp:2982
 #, kde-kuit-format
 msgctxt "@info:whatsthis main view"
 msgid ""
@@ -1397,7 +1404,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2996
+#: dolphinmainwindow.cpp:2998
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1406,7 +1413,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3002
+#: dolphinmainwindow.cpp:3004
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1415,7 +1422,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3006
+#: dolphinmainwindow.cpp:3008
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "This opens a window where you can change a multitude of settings for this application. For an explanation of the various settings go to the chapter <emphasis>Configuring Dolphin</emphasis> in <interface>Help|Dolphin Handbook</interface>."
@@ -1427,7 +1434,7 @@ msgstr ""
 #. know with a reasonable chance you might want to have 2 external links.
 #. The same might be true for any external link you translate.
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3026
+#: dolphinmainwindow.cpp:3028
 #, kde-kuit-format
 msgctxt "@info:whatsthis handbook"
 msgid ""
@@ -1436,7 +1443,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3031
+#: dolphinmainwindow.cpp:3033
 #, kde-kuit-format
 msgctxt "@info:whatsthis whatsthis button"
 msgid ""
@@ -1446,7 +1453,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3042
+#: dolphinmainwindow.cpp:3044
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1455,7 +1462,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3051
+#: dolphinmainwindow.cpp:3053
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1465,7 +1472,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3064
+#: dolphinmainwindow.cpp:3066
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1474,14 +1481,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3069
+#: dolphinmainwindow.cpp:3071
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "This opens a window that informs you about the version, license, used libraries and maintainers of this application."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3074
+#: dolphinmainwindow.cpp:3076
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1490,21 +1497,21 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3129 dolphinmainwindow.cpp:3140
+#: dolphinmainwindow.cpp:3131 dolphinmainwindow.cpp:3142
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Defocus Terminal Panel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3147
+#: dolphinmainwindow.cpp:3149
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Defocus Terminal Panel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:3158
+#: dolphinmainwindow.cpp:3160
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Defocus Places Panel"
@@ -1576,97 +1583,97 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:147
+#: dolphinpart.cpp:150
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:151
+#: dolphinpart.cpp:154
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Select Items Matching…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:156
+#: dolphinpart.cpp:159
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Unselect Items Matching…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:162
+#: dolphinpart.cpp:165
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Unselect All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:177
+#: dolphinpart.cpp:180
 #, kde-format
 msgctxt "@action:inmenu Go"
 msgid "App&lications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:178
+#: dolphinpart.cpp:181
 #, kde-format
 msgctxt "@action:inmenu Go"
 msgid "&Network Folders"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:179
+#: dolphinpart.cpp:182
 #, kde-format
 msgctxt "@action:inmenu Go"
 msgid "Trash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:182
+#: dolphinpart.cpp:185
 #, kde-format
 msgctxt "@action:inmenu Go"
 msgid "Autostart"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:188
+#: dolphinpart.cpp:191
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Find File…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:194
+#: dolphinpart.cpp:197
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Open &Terminal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:446
+#: dolphinpart.cpp:449
 #, kde-format
 msgctxt "@title:window"
 msgid "Select"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:446
+#: dolphinpart.cpp:449
 #, kde-format
 msgid "Select all items matching this pattern:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:451
+#: dolphinpart.cpp:454
 #, kde-format
 msgctxt "@title:window"
 msgid "Unselect"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinpart.cpp:451
+#: dolphinpart.cpp:454
 #, kde-format
 msgid "Unselect all items matching this pattern:"
 msgstr ""
@@ -1729,63 +1736,63 @@ msgid "Empty Recently Closed Tabs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphintabbar.cpp:186
+#: dolphintabbar.cpp:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphintabbar.cpp:187
+#: dolphintabbar.cpp:184
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Detach Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphintabbar.cpp:189
+#: dolphintabbar.cpp:186
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rename Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphintabbar.cpp:191
+#: dolphintabbar.cpp:188
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Other Tabs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphintabbar.cpp:192
+#: dolphintabbar.cpp:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tabs to the Left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphintabbar.cpp:194
+#: dolphintabbar.cpp:191
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tabs to the Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphintabbar.cpp:196
+#: dolphintabbar.cpp:193
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphintabbar.cpp:224
+#: dolphintabbar.cpp:221
 #, kde-format
 msgctxt "@title:window for text input"
 msgid "Rename Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphintabbar.cpp:224
+#: dolphintabbar.cpp:221
 #, kde-format
 msgid "New tab name:"
 msgstr ""
@@ -6534,28 +6541,28 @@ msgid "Custom Column Widths"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2116
+#: views/dolphinview.cpp:2114
 #, kde-format
 msgctxt "@info:status"
 msgid "Trash operation completed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2126
+#: views/dolphinview.cpp:2124
 #, kde-format
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2294
+#: views/dolphinview.cpp:2292
 #, kde-format
 msgctxt "@action:button"
 msgid "Rename and Hide"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2298
+#: views/dolphinview.cpp:2296
 #, kde-format
 msgid ""
 "Adding a dot to the beginning of this file's name will hide it from view.\n"
@@ -6563,7 +6570,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2300
+#: views/dolphinview.cpp:2298
 #, kde-format
 msgid ""
 "Adding a dot to the beginning of this folder's name will hide it from view.\n"
@@ -6571,26 +6578,26 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2302
+#: views/dolphinview.cpp:2300
 #, kde-format
 msgid "Hide this File?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2302
+#: views/dolphinview.cpp:2300
 #, kde-format
 msgid "Hide this Folder?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2323
+#: views/dolphinview.cpp:2321
 #, kde-format
 msgctxt "@action:button"
 msgid "Rename"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2333
+#: views/dolphinview.cpp:2331
 #, kde-format
 msgid ""
 "This will make the file type unknown.\n"
@@ -6599,7 +6606,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2337
+#: views/dolphinview.cpp:2335
 #, kde-format
 msgid ""
 "This will change the file type from \"%1\" to \"%2\".\n"
@@ -6608,118 +6615,118 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2343
+#: views/dolphinview.cpp:2341
 #, kde-format
 msgctxt "@title:window"
 msgid "Change File Type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2387
+#: views/dolphinview.cpp:2385
 #, kde-format
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2389
+#: views/dolphinview.cpp:2387
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2778
+#: views/dolphinview.cpp:2776
 #, kde-format
 msgid "Loading…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2807
+#: views/dolphinview.cpp:2805
 #, kde-format
 msgid "Loading canceled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2809
+#: views/dolphinview.cpp:2807
 #, kde-format
 msgid "No items matching the filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2811
+#: views/dolphinview.cpp:2809
 #, kde-format
 msgid "No items matching the search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2813
+#: views/dolphinview.cpp:2811
 #, kde-format
 msgid "Trash is empty"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2816
+#: views/dolphinview.cpp:2814
 #, kde-format
 msgid "No tags"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2819
+#: views/dolphinview.cpp:2817
 #, kde-format
 msgid "No files tagged with \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2823
+#: views/dolphinview.cpp:2821
 #, kde-format
 msgid "No recently used items"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2825
+#: views/dolphinview.cpp:2823
 #, kde-format
 msgid "No shared folders found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2827
+#: views/dolphinview.cpp:2825
 #, kde-format
 msgid "No relevant network resources found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2829
+#: views/dolphinview.cpp:2827
 #, kde-format
 msgid "No MTP-compatible devices found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2831
+#: views/dolphinview.cpp:2829
 #, kde-format
 msgid "No Apple devices found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2834
+#: views/dolphinview.cpp:2832
 #, kde-format
 msgid "No KDE Connect devices found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2836
+#: views/dolphinview.cpp:2834
 #, kde-format
 msgid "No storage found on this device"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2839
+#: views/dolphinview.cpp:2837
 #, kde-format
 msgid "No Bluetooth devices found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinview.cpp:2841
+#: views/dolphinview.cpp:2839
 #, kde-format
 msgid "Folder is empty"
 msgstr ""
@@ -6731,15 +6738,22 @@ msgctxt "@action"
 msgid "Create Folder…"
 msgstr ""
 
+#. +> trunk6
+#: views/dolphinviewactionhandler.cpp:95
+#, kde-format
+msgctxt "@action"
+msgid "Create Subfolder…"
+msgstr ""
+
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:93
+#: views/dolphinviewactionhandler.cpp:103
 #, kde-format
 msgctxt "@action"
 msgid "Create File…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:102
+#: views/dolphinviewactionhandler.cpp:112
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6748,7 +6762,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:114
+#: views/dolphinviewactionhandler.cpp:124
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6757,35 +6771,35 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:127
+#: views/dolphinviewactionhandler.cpp:137
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "This deletes the items in your current selection permanently. They cannot be recovered by normal means."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:137
+#: views/dolphinviewactionhandler.cpp:147
 #, kde-format
 msgctxt "@action \"Move to Trash\" for non-local files, etc."
 msgid "Delete (using shortcut for Trash)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:143
+#: views/dolphinviewactionhandler.cpp:153
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Duplicate Here"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:151
+#: views/dolphinviewactionhandler.cpp:161
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Properties"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:153
+#: views/dolphinviewactionhandler.cpp:163
 #, kde-kuit-format
 msgctxt "@info:whatsthis properties"
 msgid ""
@@ -6795,49 +6809,49 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:163
+#: views/dolphinviewactionhandler.cpp:173
 #, kde-format
 msgctxt "@action:incontextmenu"
 msgid "Copy Location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:164
+#: views/dolphinviewactionhandler.cpp:174
 #, kde-format
 msgctxt "@info:whatsthis copy_location"
 msgid "This will copy the path of the first selected item into the clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:172
+#: views/dolphinviewactionhandler.cpp:182
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Move to Trash…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:173
+#: views/dolphinviewactionhandler.cpp:183
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Delete…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:174
+#: views/dolphinviewactionhandler.cpp:184
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Duplicate Here…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:175
+#: views/dolphinviewactionhandler.cpp:185
 #, kde-format
 msgctxt "@action:incontextmenu"
 msgid "Copy Location…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:204
+#: views/dolphinviewactionhandler.cpp:214
 #, kde-kuit-format
 msgctxt "@info:whatsthis Icons view mode"
 msgid ""
@@ -6846,7 +6860,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:211
+#: views/dolphinviewactionhandler.cpp:221
 #, kde-kuit-format
 msgctxt "@info:whatsthis Compact view mode"
 msgid ""
@@ -6855,7 +6869,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:215
+#: views/dolphinviewactionhandler.cpp:225
 #, kde-kuit-format
 msgctxt "@info:whatsthis Details view mode"
 msgid ""
@@ -6865,69 +6879,69 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:225
+#: views/dolphinviewactionhandler.cpp:235
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Change View Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:226
+#: views/dolphinviewactionhandler.cpp:236
 #, kde-kuit-format
 msgctxt "@info:whatsthis View Mode Toolbutton"
 msgid "This cycles through all view modes."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:246
+#: views/dolphinviewactionhandler.cpp:256
 #, kde-format
 msgctxt "@info:whatsthis zoom in"
 msgid "This increases the icon size."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:249
+#: views/dolphinviewactionhandler.cpp:259
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Reset Zoom Level"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:250
+#: views/dolphinviewactionhandler.cpp:260
 #, kde-format
 msgid "Zoom To Default"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:251
+#: views/dolphinviewactionhandler.cpp:261
 #, kde-format
 msgctxt "@info:whatsthis zoom reset"
 msgid "This resets the icon size to default."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:257
+#: views/dolphinviewactionhandler.cpp:267
 #, kde-format
 msgctxt "@info:whatsthis zoom out"
 msgid "This reduces the icon size."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:263
+#: views/dolphinviewactionhandler.cpp:273
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Show Previews"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:264
+#: views/dolphinviewactionhandler.cpp:274
 #, kde-format
 msgctxt "@info"
 msgid "Show preview of files and folders"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:266
+#: views/dolphinviewactionhandler.cpp:276
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6936,70 +6950,70 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:275
+#: views/dolphinviewactionhandler.cpp:285
 #, kde-format
 msgctxt "@action:inmenu Sort"
 msgid "Folders First"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:279
+#: views/dolphinviewactionhandler.cpp:289
 #, kde-format
 msgctxt "@action:inmenu Sort"
 msgid "Hidden Files Last"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:287
+#: views/dolphinviewactionhandler.cpp:297
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Sort By"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:322
+#: views/dolphinviewactionhandler.cpp:332
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Show Additional Information"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:333
+#: views/dolphinviewactionhandler.cpp:343
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Group By"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:335
+#: views/dolphinviewactionhandler.cpp:345
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "This groups files and folders by a chosen attribute. \"None\" disables grouping. \"Same as Sort\" groups by the active sort criterion."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:346
+#: views/dolphinviewactionhandler.cpp:356
 #, kde-format
 msgctxt "@action:inmenu Group By"
 msgid "None"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:353
+#: views/dolphinviewactionhandler.cpp:363
 #, kde-format
 msgctxt "@action:inmenu Group By"
 msgid "Same as Sort"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:368
+#: views/dolphinviewactionhandler.cpp:378
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Show Hidden Files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:370
+#: views/dolphinviewactionhandler.cpp:380
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7009,182 +7023,182 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:384
+#: views/dolphinviewactionhandler.cpp:394
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Adjust View Display Style…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:387
+#: views/dolphinviewactionhandler.cpp:397
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "This opens a window in which all folder view properties can be adjusted."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:393
+#: views/dolphinviewactionhandler.cpp:403
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Restore to Defaults"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:394
+#: views/dolphinviewactionhandler.cpp:404
 #, kde-format
 msgctxt "info:tooltip"
 msgid "Restore View Settings to Defaults Value"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:399
+#: views/dolphinviewactionhandler.cpp:409
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "View Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:401
+#: views/dolphinviewactionhandler.cpp:411
 #, kde-kuit-format
 msgctxt "@info:whatsthis View Settings Toolbutton"
 msgid "This cycles through all view modes. The dropdown menu contains various view-related actions."
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:433
+#: views/dolphinviewactionhandler.cpp:443
 #, kde-format
 msgctxt "@item:intable, Heading of a list of fields"
 msgid "Sort by Field"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:436
+#: views/dolphinviewactionhandler.cpp:446
 #, kde-format
 msgctxt "@item:intable, Heading of a list of fields"
 msgid "Group by Field"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:439
+#: views/dolphinviewactionhandler.cpp:449
 #, kde-format
 msgctxt "@item:intable, Heading of a list of fields"
 msgid "Show Field"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:770
+#: views/dolphinviewactionhandler.cpp:781
 #, kde-format
 msgctxt "@action:inmenu View Mode"
 msgid "Icons"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:771
+#: views/dolphinviewactionhandler.cpp:782
 #, kde-format
 msgctxt "@info"
 msgid "Icons view mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:781
+#: views/dolphinviewactionhandler.cpp:792
 #, kde-format
 msgctxt "@action:inmenu View Mode"
 msgid "Compact"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:782
+#: views/dolphinviewactionhandler.cpp:793
 #, kde-format
 msgctxt "@info"
 msgid "Compact view mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:792
+#: views/dolphinviewactionhandler.cpp:803
 #, kde-format
 msgctxt "@action:inmenu View Mode"
 msgid "Details"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:793
+#: views/dolphinviewactionhandler.cpp:804
 #, kde-format
 msgctxt "@info"
 msgid "Details view mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:816
+#: views/dolphinviewactionhandler.cpp:827
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:817
+#: views/dolphinviewactionhandler.cpp:828
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:819
+#: views/dolphinviewactionhandler.cpp:830
 #, kde-format
 msgctxt "Sort descending"
 msgid "Largest First"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:820
+#: views/dolphinviewactionhandler.cpp:831
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Smallest First"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:822
+#: views/dolphinviewactionhandler.cpp:833
 #, kde-format
 msgctxt "Sort descending"
 msgid "Newest First"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:823
+#: views/dolphinviewactionhandler.cpp:834
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Oldest First"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:825
+#: views/dolphinviewactionhandler.cpp:836
 #, kde-format
 msgctxt "Sort descending"
 msgid "Highest First"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:826
+#: views/dolphinviewactionhandler.cpp:837
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Lowest First"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:828
+#: views/dolphinviewactionhandler.cpp:839
 #, kde-format
 msgctxt "Sort descending"
 msgid "Descending"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:829
+#: views/dolphinviewactionhandler.cpp:840
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Ascending"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:927
+#: views/dolphinviewactionhandler.cpp:938
 #, kde-format
 msgctxt "@action:inmenu menu with actions like copy, paste, rename. The user's selection is empty when this text is shown."
 msgid "Actions for Current View"
@@ -7196,13 +7210,13 @@ msgstr ""
 #. If this sort of word puzzle can not be correctly translated in your language, translate it as "NULL" (without the quotes)
 #. and a fallback will be used.
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:936
+#: views/dolphinviewactionhandler.cpp:947
 #, kde-format
 msgid "Actions for %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: views/dolphinviewactionhandler.cpp:943
+#: views/dolphinviewactionhandler.cpp:954
 #, kde-format
 msgctxt "@action:inmenu menu with actions like copy, paste, rename. %1 is the amount of selected files/folders."
 msgid "Actions for One Selected Item"
