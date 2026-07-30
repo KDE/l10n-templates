@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-29 09:11+0200\n"
+"POT-Creation-Date: 2026-07-30 11:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7728,6 +7728,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_operation/skgoperationboardwidgetqml.cpp:29
+#: skroogecompanion/qml/DashboardPage.qml:82
 #, kde-format
 msgctxt "Dashboard widget title"
 msgid "Income & Expenditure"
@@ -15057,6 +15058,7 @@ msgstr ""
 
 #. +> trunk6
 #: skgbankmodeler/skgreportbank.cpp:797
+#: skroogecompanion/qml/DashboardPage.qml:55
 #, kde-format
 msgctxt "A monthly report title"
 msgid "Net Worth"
@@ -15064,6 +15066,7 @@ msgstr ""
 
 #. +> trunk6
 #: skgbankmodeler/skgreportbank.cpp:798
+#: skroogecompanion/qml/DashboardPage.qml:55
 #, kde-format
 msgctxt "A monthly report title"
 msgid "Annual Spending"
@@ -15071,6 +15074,7 @@ msgstr ""
 
 #. +> trunk6
 #: skgbankmodeler/skgreportbank.cpp:799
+#: skroogecompanion/qml/DashboardPage.qml:27
 #, kde-format
 msgctxt "A monthly report title"
 msgid "Personal Finance Score"
@@ -19321,21 +19325,21 @@ msgid "Personal finances management made simple"
 msgstr ""
 
 #. +> trunk6
-#: skrooge/main.cpp:95 skroogeconvert/main.cpp:54
+#: skrooge/main.cpp:95 skroogecompanion/main.cpp:52 skroogeconvert/main.cpp:54
 #, kde-format
 msgctxt "Fullname"
 msgid "(c) 2007-%1 Stephane MANKOWSKI & Guillaume DE BURE"
 msgstr ""
 
 #. +> trunk6
-#: skrooge/main.cpp:99 skroogeconvert/main.cpp:58
+#: skrooge/main.cpp:99 skroogecompanion/main.cpp:56 skroogeconvert/main.cpp:58
 #, kde-format
 msgctxt "Fullname"
 msgid "Stephane MANKOWSKI"
 msgstr ""
 
 #. +> trunk6
-#: skrooge/main.cpp:100 skroogeconvert/main.cpp:59
+#: skrooge/main.cpp:100 skroogecompanion/main.cpp:57 skroogeconvert/main.cpp:59
 #, kde-format
 msgctxt "A job description"
 msgid "Architect & Developer"
@@ -19384,7 +19388,7 @@ msgid "Splash screen photographer"
 msgstr ""
 
 #. +> trunk6
-#: skrooge/main.cpp:116 skroogeconvert/main.cpp:69
+#: skrooge/main.cpp:116 skroogecompanion/main.cpp:62 skroogeconvert/main.cpp:69
 #, kde-format
 msgctxt "The description of the application"
 msgid "The application name is inspired by Charles Dicken's tale <i>A Christmas Carol</i>, where the main character, Ebenezer Scrooge, a grumpy old narrow man, gets visited by three ghosts who change the way he sees the world, in a good way."
@@ -19451,6 +19455,477 @@ msgstr ""
 #, kde-format
 msgctxt "Splash screen message"
 msgid "Loading …"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/main.cpp:48
+#, kde-format
+msgctxt "The name of the application"
+msgid "Skrooge Companion"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/main.cpp:50
+#, kde-format
+msgctxt "The description of the application"
+msgid "The Skrooge companion application for mobile devices"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/main.cpp:69
+#, kde-format
+msgctxt "Application description"
+msgid "Skrooge mobile accounts viewer"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/main.cpp:71
+#, kde-format
+msgctxt "CLI argument description"
+msgid "Skrooge file to open"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/main.cpp:73
+#, kde-format
+msgctxt "CLI option description"
+msgid "Password for encrypted Skrooge file"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/AccountListItem.qml:85
+#, kde-format
+msgctxt "@info:total by account type"
+msgid "%1 - %2"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/AccountListItem.qml:108
+#, kde-format
+msgctxt "@info:account status"
+msgid " (Closed)"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/AccountListItem.qml:108
+#, kde-format
+msgctxt "@info:account subtitle"
+msgid "%1 - %2%3"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/AccountsPage.qml:27
+#, kde-format
+msgctxt "@option:check"
+msgid "Show closed accounts"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/AccountsPage.qml:42
+#: skroogecompanion/qml/DashboardPage.qml:198
+#, kde-format
+msgctxt "@label"
+msgid "Total"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/CategoriesPage.qml:31
+#, kde-format
+msgctxt "@info"
+msgid "No category to display"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:55
+#: skroogecompanion/qml/DashboardPage.qml:60
+#, kde-format
+msgctxt "@info"
+msgid "%1 / %2"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:109
+#, kde-format
+msgctxt "@label"
+msgid "Incomes"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:125
+#, kde-format
+msgctxt "@label"
+msgid "Expenditures"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:141
+#, kde-format
+msgctxt "@label"
+msgid "Savings"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:167
+#, kde-format
+msgctxt "@title"
+msgid "Bank"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:210
+#, kde-format
+msgctxt "@info"
+msgid "No bank to display"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:15
+#, kde-format
+msgctxt "@title:tab"
+msgid "Sub-transactions"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:16 skroogecompanion/qml/Main.qml:46
+#, kde-format
+msgctxt "@title:tab"
+msgid "Dashboard"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:17 skroogecompanion/qml/Main.qml:52
+#, kde-format
+msgctxt "@title:tab"
+msgid "Accounts"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:18 skroogecompanion/qml/Main.qml:58
+#, kde-format
+msgctxt "@title:tab"
+msgid "Transactions"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:19 skroogecompanion/qml/Main.qml:64
+#, kde-format
+msgctxt "@title:tab"
+msgid "Trackers"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:20 skroogecompanion/qml/Main.qml:70
+#, kde-format
+msgctxt "@title:tab"
+msgid "Payees"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:21 skroogecompanion/qml/Main.qml:76
+#, kde-format
+msgctxt "@title:tab"
+msgid "Categories"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:22 skroogecompanion/qml/Main.qml:82
+#, kde-format
+msgctxt "@title:tab"
+msgid "Units"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:23 skroogecompanion/qml/Main.qml:102
+#, kde-format
+msgctxt "@title:tab"
+msgid "About"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:24
+#, kde-format
+msgctxt "@title"
+msgid "Skrooge Companion"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Skrooge Companion"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:92
+#, kde-format
+msgctxt "@action:button"
+msgid "Settings"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:127
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Filter"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:184
+#, kde-format
+msgctxt "@action:button"
+msgid "Back"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:199
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:206
+#, kde-format
+msgctxt "@action:button"
+msgid "Open file"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:226
+#, kde-format
+msgctxt "@label:textbox"
+msgid "File:"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:227
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Path to .skg file"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:231
+#, kde-format
+msgctxt "@action:button"
+msgid "Browse…"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:239
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:240
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Password (optional)"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:248
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Skrooge file"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/Main.qml:249
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Skrooge files (*.skg)"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/PayeesPage.qml:22
+#, kde-format
+msgctxt "@info"
+msgid "No payee to display"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/SubTransactionListItem.qml:24
+#, kde-format
+msgctxt "@label"
+msgid "Sub-transaction"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/SubTransactionListItem.qml:24
+#, kde-format
+msgctxt "@info:subtransaction first line"
+msgid "%1 - %2"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/SubTransactionListItem.qml:39
+#, kde-format
+msgctxt "@info:subtransaction second line"
+msgid "%1 - %2"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/SubTransactionListItem.qml:49
+#, kde-format
+msgctxt "@info:subtransaction third line"
+msgid "%1 - %2"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/SubTransactionsPage.qml:16
+#, kde-format
+msgctxt "@info"
+msgid "Selection: %1"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/SubTransactionsPage.qml:37
+#, kde-format
+msgctxt "@info"
+msgid "No sub-transaction to display"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TrackersPage.qml:25
+#, kde-format
+msgctxt "@option:check"
+msgid "Show closed trackers"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TrackersPage.qml:45
+#, kde-format
+msgctxt "@info"
+msgid "No tracker to display"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionListItem.qml:26
+#, kde-format
+msgctxt "@label"
+msgid "Transaction"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionListItem.qml:26
+#, kde-format
+msgctxt "@info:transaction first line"
+msgid "%1 - %2"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionListItem.qml:47
+#, kde-format
+msgctxt "@info:transaction second line"
+msgid "%1 - %2"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionListItem.qml:57
+#, kde-format
+msgctxt "@info:transaction third line"
+msgid "%1 - %2"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionsPage.qml:22
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All statuses"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionsPage.qml:23
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Pointed"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionsPage.qml:24
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Not checked"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionsPage.qml:25
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Checked"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionsPage.qml:46
+#, kde-format
+msgctxt "@label"
+msgid "Balance"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/TransactionsPage.qml:78
+#, kde-format
+msgctxt "@info"
+msgid "No transaction to display"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/UnitsPage.qml:22
+#, kde-format
+msgctxt "@info"
+msgid "No unit to display"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/skgmcontroler.cpp:411
+#, kde-format
+msgctxt "Error message"
+msgid "Missing file path."
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/skgmcontroler.cpp:419
+#, kde-format
+msgctxt "Error message"
+msgid "File not found: %1"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/skgmcontroler.cpp:993
+#, kde-format
+msgctxt "@info"
+msgid "Transaction #%1"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/skgmreferenceproxymodel.cpp:80
+#, kde-format
+msgctxt "@info:tracker operations"
+msgid "%1 transactions"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/skgmreferenceproxymodel.cpp:88
+#, kde-format
+msgctxt "@info:payee operations"
+msgid "%1 transactions"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/skgmreferenceproxymodel.cpp:89
+#, kde-format
+msgctxt "@info:payee subtitle"
+msgid "%1 - %2 operations"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/skgmreferenceproxymodel.cpp:93
+#, kde-format
+msgctxt "@info:category operations"
+msgid "%1 transactions"
 msgstr ""
 
 #. +> trunk6
