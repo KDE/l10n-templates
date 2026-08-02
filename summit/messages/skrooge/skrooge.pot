@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-30 11:27+0200\n"
+"POT-Creation-Date: 2026-08-02 10:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3623,189 +3623,196 @@ msgid "Invalid server URL: %1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:281
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:282
 #, kde-format
 msgctxt "Tool description"
 msgid "Execute a SQLite SELECT query on the current Skrooge database. Only SELECT statements are allowed."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:287
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:288
 #, kde-format
 msgctxt "Tool parameter description"
 msgid "The SQL query to execute. Only SELECT statements are allowed."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:304
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:305
 #, kde-format
 msgctxt "Tool description"
 msgid "Search the internet using DuckDuckGo to find relevant information."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:310
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:311
 #, kde-format
 msgctxt "Tool parameter description"
 msgid "The search query to look up on the internet."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:314
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:315
 #, kde-format
 msgctxt "Tool parameter description"
 msgid "Maximum number of results to return (1-10)."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:477
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:332
+#, kde-format
+msgctxt "Tool description"
+msgid "Get the current selection (accounts, transactions, trackers, units ...)."
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:496
 #, kde-format
 msgctxt "Error message"
 msgid "Only a single SQLite SELECT statement is allowed."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:486
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:505
 #, kde-format
 msgctxt "Error message"
 msgid "No document is opened."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:504
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:523
 #, kde-format
 msgctxt "Error message"
 msgid "Search query cannot be empty."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:527
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:546
 #, kde-format
 msgctxt "Error message"
 msgid "Web search failed: %1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:541
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:560
 #, kde-format
 msgctxt "Error message"
 msgid "Failed to parse search results."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:616
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:653
 #, kde-format
 msgctxt "Error message"
 msgid "Invalid tool call arguments."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:635
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:676
 #, kde-format
 msgctxt "Error message"
 msgid "Unknown tool: %1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:646
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:687
 #, kde-format
 msgctxt "Error message"
-msgid "Invalid JSON response from server."
+msgid "Invalid JSON response from server: %1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:660
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:700
 #, kde-format
 msgctxt "Error message"
 msgid "Server error: %1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:666
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:706
 #, kde-format
 msgctxt "Error message"
-msgid "No answer returned by the model."
+msgid "No answer returned by the model: %1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:681
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:720
 #, kde-format
 msgctxt "Error message"
 msgid "Too many consecutive tool calls."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:729
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:768
 #, kde-format
 msgctxt "Error message"
-msgid "The model returned an empty answer."
+msgid "Oops, sorry, I lost my train of thought. Could you rephrase the question?"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:753
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:792
 #, kde-format
 msgctxt "Error message"
 msgid "Connection refused. Are you sure the server is running ?"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:757
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:796
 #, kde-format
 msgctxt "Error message"
 msgid "Network error (%1): %2"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:817
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:856
 #, kde-format
 msgctxt "User question prefix"
 msgid "<b>You:</b>%1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:822
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:861
 #, kde-format
 msgctxt "Assistant reasoning prefix"
 msgid "<b>Reasoning...</b>"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:823
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:862
 #, kde-format
 msgctxt "Assistant reasoning prefix"
 msgid "<b>Reasoning:</b>%1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:831
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:870
 #, kde-format
 msgctxt "Assistant answer prefix"
 msgid "<b>AI:</b>%1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:838
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:877
 #, kde-format
 msgctxt "Tool answer prefix"
 msgid "<b>Tool:</b>%1"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:855
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:894
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Save AI Session"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:867
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:906
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Delete AI Session"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:900
+#: plugins/skrooge/skrooge_aiassistant/skgassistantplugindockwidget.cpp:939
 #, kde-format
 msgctxt "AI session list"
 msgid "New session"
@@ -19494,8 +19501,14 @@ msgstr ""
 
 #. +> trunk6
 #: skroogecompanion/qml/AccountListItem.qml:85
+#: skroogecompanion/qml/SubTransactionListItem.qml:24
+#: skroogecompanion/qml/SubTransactionListItem.qml:39
+#: skroogecompanion/qml/SubTransactionListItem.qml:49
+#: skroogecompanion/qml/TransactionListItem.qml:26
+#: skroogecompanion/qml/TransactionListItem.qml:47
+#: skroogecompanion/qml/TransactionListItem.qml:57
 #, kde-format
-msgctxt "@info:total by account type"
+msgctxt "@info"
 msgid "%1 - %2"
 msgstr ""
 
@@ -19754,27 +19767,6 @@ msgid "Sub-transaction"
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/qml/SubTransactionListItem.qml:24
-#, kde-format
-msgctxt "@info:subtransaction first line"
-msgid "%1 - %2"
-msgstr ""
-
-#. +> trunk6
-#: skroogecompanion/qml/SubTransactionListItem.qml:39
-#, kde-format
-msgctxt "@info:subtransaction second line"
-msgid "%1 - %2"
-msgstr ""
-
-#. +> trunk6
-#: skroogecompanion/qml/SubTransactionListItem.qml:49
-#, kde-format
-msgctxt "@info:subtransaction third line"
-msgid "%1 - %2"
-msgstr ""
-
-#. +> trunk6
 #: skroogecompanion/qml/SubTransactionsPage.qml:16
 #, kde-format
 msgctxt "@info"
@@ -19807,27 +19799,6 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "Transaction"
-msgstr ""
-
-#. +> trunk6
-#: skroogecompanion/qml/TransactionListItem.qml:26
-#, kde-format
-msgctxt "@info:transaction first line"
-msgid "%1 - %2"
-msgstr ""
-
-#. +> trunk6
-#: skroogecompanion/qml/TransactionListItem.qml:47
-#, kde-format
-msgctxt "@info:transaction second line"
-msgid "%1 - %2"
-msgstr ""
-
-#. +> trunk6
-#: skroogecompanion/qml/TransactionListItem.qml:57
-#, kde-format
-msgctxt "@info:transaction third line"
-msgid "%1 - %2"
 msgstr ""
 
 #. +> trunk6
