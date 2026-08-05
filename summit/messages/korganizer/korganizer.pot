@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-26 11:03+0200\n"
+"POT-Creation-Date: 2026-08-05 07:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -4584,15 +4584,29 @@ msgctxt "@title:group"
 msgid "Calendar Decorations"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: prefs/koprefsdialogplugins.cpp:144
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure the %1 plugin"
+msgstr ""
+
+#. +> stable6
 #: prefs/koprefsdialogplugins.cpp:144
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Configure"
 msgstr ""
 
+#. +> trunk6
+#: prefs/koprefsdialogplugins.cpp:145
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Press this button to configure the %1 plugin."
+msgstr ""
+
 #. +> trunk6 stable6
-#: prefs/koprefsdialogplugins.cpp:205
+#: prefs/koprefsdialogplugins.cpp:207
 #, kde-format
 msgctxt "@info"
 msgid "Unable to configure this plugin"

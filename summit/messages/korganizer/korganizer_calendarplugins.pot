@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-25 08:02+0200\n"
+"POT-Creation-Date: 2026-08-05 07:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -197,38 +197,203 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/configdialog.cpp:28
+#: hebrewcalendar/configdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Holidays"
 msgstr ""
 
-#. +> trunk6 stable6
-#: hebrew/configdialog.cpp:42
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:42
 #, kde-format
+msgctxt "@option:check"
 msgid "Use Israeli holidays"
 msgstr ""
 
-#. +> trunk6 stable6
-#: hebrew/configdialog.cpp:46
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:43
 #, kde-format
+msgctxt "@info:tooltip"
+msgid "Include Israeli holidays"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:44
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select this option to show Israeli holidays; including national, non-religious holidays."
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:48
+#, kde-format
+msgctxt "@option:check"
 msgid "Show weekly parsha"
 msgstr ""
 
-#. +> trunk6 stable6
-#: hebrew/configdialog.cpp:50
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:49
 #, kde-format
+msgctxt "@info:tooltip"
+msgid "Include weekly parsha days"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:50
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select this option to show weekly parsha days."
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:54
+#, kde-format
+msgctxt "@option:check"
 msgid "Show day of Omer"
 msgstr ""
 
-#. +> trunk6 stable6
-#: hebrew/configdialog.cpp:54
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:55
 #, kde-format
+msgctxt "@info:tooltip"
+msgid "Include days of the Omer"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:56
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select this option to show days of the Omer period."
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:60
+#, kde-format
+msgctxt "@option:check"
 msgid "Show Chol HaMoed"
 msgstr ""
 
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:61
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include days of the Chol HaMoed"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/configdialog.cpp:62
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select this option to dhow days of the Chol HaMoed."
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:87
+#, kde-format
+msgctxt "Hebrew month 1 - KLocale::LongName"
+msgid "Tishrey"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:89
+#, kde-format
+msgctxt "Hebrew month 2 - KLocale::LongName"
+msgid "Heshvan"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:91
+#, kde-format
+msgctxt "Hebrew month 3 - KLocale::LongName"
+msgid "Kislev"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:93
+#, kde-format
+msgctxt "Hebrew month 4 - KLocale::LongName"
+msgid "Tevet"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:95
+#, kde-format
+msgctxt "Hebrew month 5 - KLocale::LongName"
+msgid "Shvat"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:97
+#, kde-format
+msgctxt "Hebrew month 6 - KLocale::LongName"
+msgid "Adar"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:99
+#, kde-format
+msgctxt "Hebrew month 7 - KLocale::LongName"
+msgid "Nisan"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:101
+#, kde-format
+msgctxt "Hebrew month 8 - KLocale::LongName"
+msgid "Iyar"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:103
+#, kde-format
+msgctxt "Hebrew month 9 - KLocale::LongName"
+msgid "Sivan"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:105
+#, kde-format
+msgctxt "Hebrew month 10 - KLocale::LongName"
+msgid "Tamuz"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:107
+#, kde-format
+msgctxt "Hebrew month 11 - KLocale::LongName"
+msgid "Av"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:109
+#, kde-format
+msgctxt "Hebrew month 12 - KLocale::LongName"
+msgid "Elul"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:111
+#, kde-format
+msgctxt "Hebrew month 13 - KLocale::LongName"
+msgid "Adar I"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:113
+#, kde-format
+msgctxt "Hebrew month 14 - KLocale::LongName"
+msgid "Adar II"
+msgstr ""
+
+#. +> trunk6
+#: hebrewcalendar/hebrew.cpp:125
+#, kde-format
+msgctxt "1. day of the month 2. hebrew month"
+msgid "%1 %2"
+msgstr ""
+
 #. +> trunk6 stable6
-#: hebrew/hebrew.cpp:60
+#: hebrewcalendar/hebrew.cpp:131
 #, kde-format
 msgctxt "Change the next two strings if emphasis is done differently in your language."
 msgid ""
@@ -240,586 +405,589 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/hebrew.cpp:67
+#: hebrewcalendar/hebrew.cpp:138
 #, kde-format
 msgid "This plugin provides the date in the Jewish calendar."
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:75
+#: hebrewcalendar/holiday.cpp:77
 #, kde-format
 msgctxt "These are Jewish holidays and mostly do not have translations. They may have different spellings in your language; otherwise, just translate the sound to your characters."
 msgid "Sh. HaHodesh"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:83
+#: hebrewcalendar/holiday.cpp:85
 #, kde-format
 msgid "Erev Pesach"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:94
+#: hebrewcalendar/holiday.cpp:96
 #, kde-format
 msgid "Sh. HaGadol"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:102
+#: hebrewcalendar/holiday.cpp:104
 #, kde-format
 msgid "Pesach"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:113 hebrew/holiday.cpp:307
+#: hebrewcalendar/holiday.cpp:115 hebrewcalendar/holiday.cpp:309
 #, kde-format
 msgid "Chol Hamoed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:124 hebrew/holiday.cpp:129 hebrew/holiday.cpp:138
+#: hebrewcalendar/holiday.cpp:126 hebrewcalendar/holiday.cpp:131
+#: hebrewcalendar/holiday.cpp:140
 #, kde-format
 msgid "Yom HaShoah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:164 hebrew/holiday.cpp:171 hebrew/holiday.cpp:182
+#: hebrewcalendar/holiday.cpp:166 hebrewcalendar/holiday.cpp:173
+#: hebrewcalendar/holiday.cpp:184
 #, kde-format
 msgid "Yom HaAtzmaut"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:166 hebrew/holiday.cpp:180
+#: hebrewcalendar/holiday.cpp:168 hebrewcalendar/holiday.cpp:182
 #, kde-format
 msgid "Yom HaZikaron"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:190
+#: hebrewcalendar/holiday.cpp:192
 #, kde-format
 msgid "Yom Yerushalayim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:194
+#: hebrewcalendar/holiday.cpp:196
 #, kde-format
 msgid "Lag BaOmer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:220
+#: hebrewcalendar/holiday.cpp:222
 #, kde-format
 msgid "Erev Shavuot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:225
+#: hebrewcalendar/holiday.cpp:227
 #, kde-format
 msgid "Shavuot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:234
+#: hebrewcalendar/holiday.cpp:236
 #, kde-format
 msgid "Tzom Tammuz"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:242
+#: hebrewcalendar/holiday.cpp:244
 #, kde-format
 msgid "Sh. Hazon"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:244
+#: hebrewcalendar/holiday.cpp:246
 #, kde-format
 msgid "Sh. Nahamu"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:248
+#: hebrewcalendar/holiday.cpp:250
 #, kde-format
 msgid "Tisha B'Av"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:254
+#: hebrewcalendar/holiday.cpp:256
 #, kde-format
 msgid "S'lichot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:256
+#: hebrewcalendar/holiday.cpp:258
 #, kde-format
 msgid "Erev R.H."
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:264
+#: hebrewcalendar/holiday.cpp:266
 #, kde-format
 msgid "Rosh Hashana"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:268 hebrew/holiday.cpp:283
+#: hebrewcalendar/holiday.cpp:270 hebrewcalendar/holiday.cpp:285
 #, kde-format
 msgid "Sh. Shuvah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:270 hebrew/holiday.cpp:275
+#: hebrewcalendar/holiday.cpp:272 hebrewcalendar/holiday.cpp:277
 #, kde-format
 msgid "Tzom Gedalia"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:287
+#: hebrewcalendar/holiday.cpp:289
 #, kde-format
 msgid "Erev Y.K."
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:290
+#: hebrewcalendar/holiday.cpp:292
 #, kde-format
 msgid "Yom Kippur"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:293
+#: hebrewcalendar/holiday.cpp:295
 #, kde-format
 msgid "Erev Sukkot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:298
+#: hebrewcalendar/holiday.cpp:300
 #, kde-format
 msgid "Sukkot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:311
+#: hebrewcalendar/holiday.cpp:313
 #, kde-format
 msgid "Hoshana Rabah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:314
+#: hebrewcalendar/holiday.cpp:316
 #, kde-format
 msgid "Shmini Atzeret"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:318
+#: hebrewcalendar/holiday.cpp:320
 #, kde-format
 msgid "Simchat Torah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:329
+#: hebrewcalendar/holiday.cpp:331
 #, kde-format
 msgid "Erev Hanukah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:331 hebrew/holiday.cpp:339
+#: hebrewcalendar/holiday.cpp:333 hebrewcalendar/holiday.cpp:341
 #, kde-format
 msgid "Hanukah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:342
+#: hebrewcalendar/holiday.cpp:344
 #, kde-format
 msgid "Tzom Tevet"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:352 hebrew/holiday.cpp:361 hebrew/holiday.cpp:366
-#: hebrew/holiday.cpp:372
+#: hebrewcalendar/holiday.cpp:354 hebrewcalendar/holiday.cpp:363
+#: hebrewcalendar/holiday.cpp:368 hebrewcalendar/holiday.cpp:374
 #, kde-format
 msgid "Sh. Shirah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:368
+#: hebrewcalendar/holiday.cpp:370
 #, kde-format
 msgid "Tu B'Shvat"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:383 hebrew/holiday.cpp:395 hebrew/holiday.cpp:403
+#: hebrewcalendar/holiday.cpp:385 hebrewcalendar/holiday.cpp:397
+#: hebrewcalendar/holiday.cpp:405
 #, kde-format
 msgid "Sh. Shekalim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:392
+#: hebrewcalendar/holiday.cpp:394
 #, kde-format
 msgid "Purim Katan"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:411 hebrew/holiday.cpp:431
+#: hebrewcalendar/holiday.cpp:413 hebrewcalendar/holiday.cpp:433
 #, kde-format
 msgid "Ta'anit Ester"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:420 hebrew/holiday.cpp:425
+#: hebrewcalendar/holiday.cpp:422 hebrewcalendar/holiday.cpp:427
 #, kde-format
 msgid "Sh. Zachor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:427
+#: hebrewcalendar/holiday.cpp:429
 #, kde-format
 msgid "Erev Purim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:435
+#: hebrewcalendar/holiday.cpp:437
 #, kde-format
 msgid "Purim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:439 hebrew/holiday.cpp:444
+#: hebrewcalendar/holiday.cpp:441 hebrewcalendar/holiday.cpp:446
 #, kde-format
 msgid "Shushan Purim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:455
+#: hebrewcalendar/holiday.cpp:457
 #, kde-format
 msgid "Sh. Parah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:465
+#: hebrewcalendar/holiday.cpp:467
 #, kde-format
 msgid "Sh. HaHodesh"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/holiday.cpp:481
+#: hebrewcalendar/holiday.cpp:483
 #, kde-format
 msgid " Omer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:28
+#: hebrewcalendar/parsha.cpp:28
 #, kde-format
 msgctxt "These are weekly readings and do not have translations. They may have different spellings in your language; otherwise, just translate the sound to your characters"
 msgid "Bereshit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:29
+#: hebrewcalendar/parsha.cpp:29
 #, kde-format
 msgid "Noach"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:29
+#: hebrewcalendar/parsha.cpp:29
 #, kde-format
 msgid "Lech L'cha"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:29
+#: hebrewcalendar/parsha.cpp:29
 #, kde-format
 msgid "Vayera"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:29
+#: hebrewcalendar/parsha.cpp:29
 #, kde-format
 msgid "Chaye Sarah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:29
+#: hebrewcalendar/parsha.cpp:29
 #, kde-format
 msgid "Toldot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:29
+#: hebrewcalendar/parsha.cpp:29
 #, kde-format
 msgid "Vayetze"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:29
+#: hebrewcalendar/parsha.cpp:29
 #, kde-format
 msgid "Vayishlach"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:30
+#: hebrewcalendar/parsha.cpp:30
 #, kde-format
 msgid "Vayeshev"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:30
+#: hebrewcalendar/parsha.cpp:30
 #, kde-format
 msgid "Miketz"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:30
+#: hebrewcalendar/parsha.cpp:30
 #, kde-format
 msgid "Vayigash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:30
+#: hebrewcalendar/parsha.cpp:30
 #, kde-format
 msgid "Vayechi"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:30
+#: hebrewcalendar/parsha.cpp:30
 #, kde-format
 msgid "Shemot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:30
+#: hebrewcalendar/parsha.cpp:30
 #, kde-format
 msgid "Vaera"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:30
+#: hebrewcalendar/parsha.cpp:30
 #, kde-format
 msgid "Bo"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:31
+#: hebrewcalendar/parsha.cpp:31
 #, kde-format
 msgid "Beshalach"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:31
+#: hebrewcalendar/parsha.cpp:31
 #, kde-format
 msgid "Yitro"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:31
+#: hebrewcalendar/parsha.cpp:31
 #, kde-format
 msgid "Mishpatim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:31
+#: hebrewcalendar/parsha.cpp:31
 #, kde-format
 msgid "Terumah"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:31
+#: hebrewcalendar/parsha.cpp:31
 #, kde-format
 msgid "Tetzaveh"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:31
+#: hebrewcalendar/parsha.cpp:31
 #, kde-format
 msgid "Ki Tisa"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:31
+#: hebrewcalendar/parsha.cpp:31
 #, kde-format
 msgid "Vayakhel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:32
+#: hebrewcalendar/parsha.cpp:32
 #, kde-format
 msgid "Pekudei"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:32
+#: hebrewcalendar/parsha.cpp:32
 #, kde-format
 msgid "Vayikra"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:32
+#: hebrewcalendar/parsha.cpp:32
 #, kde-format
 msgid "Tzav"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:32
+#: hebrewcalendar/parsha.cpp:32
 #, kde-format
 msgid "Shemini"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:32
+#: hebrewcalendar/parsha.cpp:32
 #, kde-format
 msgid "Tazria"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:32
+#: hebrewcalendar/parsha.cpp:32
 #, kde-format
 msgid "Metzora"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:32
+#: hebrewcalendar/parsha.cpp:32
 #, kde-format
 msgid "Acharei Mot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:33
+#: hebrewcalendar/parsha.cpp:33
 #, kde-format
 msgid "Kedoshim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:33
+#: hebrewcalendar/parsha.cpp:33
 #, kde-format
 msgid "Emor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:33
+#: hebrewcalendar/parsha.cpp:33
 #, kde-format
 msgid "Behar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:33
+#: hebrewcalendar/parsha.cpp:33
 #, kde-format
 msgid "Bechukotai"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:33
+#: hebrewcalendar/parsha.cpp:33
 #, kde-format
 msgid "Bemidbar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:33
+#: hebrewcalendar/parsha.cpp:33
 #, kde-format
 msgid "Naso"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:33
+#: hebrewcalendar/parsha.cpp:33
 #, kde-format
 msgid "Behaalotcha"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:34
+#: hebrewcalendar/parsha.cpp:34
 #, kde-format
 msgid "Shelach"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:34
+#: hebrewcalendar/parsha.cpp:34
 #, kde-format
 msgid "Korach"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:34
+#: hebrewcalendar/parsha.cpp:34
 #, kde-format
 msgid "Chukat"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:34
+#: hebrewcalendar/parsha.cpp:34
 #, kde-format
 msgid "Balak"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:34
+#: hebrewcalendar/parsha.cpp:34
 #, kde-format
 msgid "Pinchas"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:34
+#: hebrewcalendar/parsha.cpp:34
 #, kde-format
 msgid "Matot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:34
+#: hebrewcalendar/parsha.cpp:34
 #, kde-format
 msgid "Masei"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:35
+#: hebrewcalendar/parsha.cpp:35
 #, kde-format
 msgid "Devarim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:35
+#: hebrewcalendar/parsha.cpp:35
 #, kde-format
 msgid "Vaetchanan"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:35
+#: hebrewcalendar/parsha.cpp:35
 #, kde-format
 msgid "Ekev"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:35
+#: hebrewcalendar/parsha.cpp:35
 #, kde-format
 msgid "Reeh"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:35
+#: hebrewcalendar/parsha.cpp:35
 #, kde-format
 msgid "Shoftim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:35
+#: hebrewcalendar/parsha.cpp:35
 #, kde-format
 msgid "Ki Tetze"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:35
+#: hebrewcalendar/parsha.cpp:35
 #, kde-format
 msgid "Ki Tavo"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:36
+#: hebrewcalendar/parsha.cpp:36
 #, kde-format
 msgid "Nitzavim"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:36
+#: hebrewcalendar/parsha.cpp:36
 #, kde-format
 msgid "Vayelech"
 msgstr ""
 
 #. +> trunk6 stable6
-#: hebrew/parsha.cpp:36
+#: hebrewcalendar/parsha.cpp:36
 #, kde-format
 msgid "Haazinu"
 msgstr ""
@@ -975,4 +1143,28 @@ msgstr ""
 #, kde-format
 msgctxt "Qt date format used by the localized Wikipedia"
 msgid "MMMM_yyyy"
+msgstr ""
+
+#. +> stable6
+#: hebrew/configdialog.cpp:42
+#, kde-format
+msgid "Use Israeli holidays"
+msgstr ""
+
+#. +> stable6
+#: hebrew/configdialog.cpp:46
+#, kde-format
+msgid "Show weekly parsha"
+msgstr ""
+
+#. +> stable6
+#: hebrew/configdialog.cpp:50
+#, kde-format
+msgid "Show day of Omer"
+msgstr ""
+
+#. +> stable6
+#: hebrew/configdialog.cpp:54
+#, kde-format
+msgid "Show Chol HaMoed"
 msgstr ""
