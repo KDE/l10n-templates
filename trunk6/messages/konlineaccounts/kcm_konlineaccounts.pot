@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konlineaccounts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-23 00:47+0000\n"
+"POT-Creation-Date: 2026-08-08 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -67,12 +67,20 @@ msgstr ""
 msgid "Add Account…"
 msgstr ""
 
-#: ui/main.qml:46
+#: ui/main.qml:44
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"This feature is under development and is still considered experimental. "
+"Report all issues <link url='%1'>here</link>."
+msgstr ""
+
+#: ui/main.qml:60
 #, kde-format
 msgid "Online accounts service is not running"
 msgstr ""
 
-#: ui/main.qml:53
+#: ui/main.qml:67
 #, kde-format
 msgid "No accounts configured"
 msgstr ""
