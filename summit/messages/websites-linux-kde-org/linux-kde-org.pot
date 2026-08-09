@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-linux-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-08 14:33+0200\n"
+"POT-Creation-Date: 2026-08-09 10:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -24,17 +24,22 @@ msgstr ""
 
 #. +> trunk5
 #: config.yaml:0
-msgid "Install it"
+msgid "Install"
 msgstr ""
 
 #. +> trunk5
 #: config.yaml:0
-msgid "Documentation"
+msgid "Docs"
 msgstr ""
 
 #. +> trunk5
-#: config.yaml:0 content/help.md:0
-msgid "Help & Support"
+#: config.yaml:0
+msgid "Help"
+msgstr ""
+
+#. +> trunk5
+#: config.yaml:0
+msgid "News"
 msgstr ""
 
 #. +> trunk5
@@ -943,62 +948,127 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/background.md:19
-msgid "Architecture"
+msgid "Reason for existence"
 msgstr ""
 
 #. +> trunk5
 #: content/docs/background.md:20
-msgid "Design"
+msgid "Be “the KDE operating system” so KDE can have direct relationships with hardware vendors and users"
 msgstr ""
 
 #. +> trunk5
 #: content/docs/background.md:21
-msgid "KDE Linux incorporates lessons learned from the earlier [KDE neon](https://neon.kde.org/) project, and focuses on resilience, recoverability, user-friendliness, and low maintenance needs. The design is heavily inspired by systemd creator Lennart Poettering’s thoughts on [operating system (OS) design](https://0pointer.net/blog/fitting-everything-together.html) and [system extensions](https://0pointer.net/blog/testing-my-system-code-in-usr-without-modifying-usr.html)."
+msgid "Showcase KDE software in its most positive light"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:22
+msgid "Offer a high-quality UX competitive with or exceeding that of proprietary alternatives"
 msgstr ""
 
 #. +> trunk5
 #: content/docs/background.md:23
-msgid "As such, KDE Linux is an “image-based” OS. This means the entire base OS is provided as one unit, rather than being split up into thousands of packages that are assembled into the final product on your computer."
+msgid "Don’t make users manually install device drivers, optional KDE features, etc."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:24
+msgid "Be highly reliable, and easy to recover"
 msgstr ""
 
 #. +> trunk5
 #: content/docs/background.md:25
-msgid "Sometimes this model is called “immutable” because the base OS cannot be modified in the same way a traditional OS made of packages could. However, this terminology can be misleading; in KDE Linux, only <tt>/usr</tt> is provided in the form of a read-only image, and everything else on the system is modifiable like on any other Linux-based OS. And [<tt>/usr</tt> is modifiable through the use of systemd extensions](override-usr)."
+msgid "Improve KDE software deployed using containerized apps and image-based operating systems in general"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/background.md:28
-msgid "High-level implementation"
+#: content/docs/background.md:26
+msgid "Any edition can be used as the main system by our developers for internal dogfooding purposes"
 msgstr ""
 
 #. +> trunk5
 #: content/docs/background.md:29
-msgid "The bootable image is an ISO-compatible <code>.raw</code> disk image built using <code>mkosi</code>. The base system comes from Arch Linux packages, with most KDE content built using <code>kde-builder</code>. Some KDE apps and 3rd-party apps are pre-installed Flatpaks."
+msgid "Things we have consciously decided not to care about right now"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:30
+msgid "Proprietary NVIDIA kernel driver for graphics cards older than NVIDIA GTX 16xx (newer ones use the open-source kernel modules, which are included)."
 msgstr ""
 
 #. +> trunk5
 #: content/docs/background.md:31
-msgid "The OS is image-based, with <tt>/usr</tt> being a mounted EROFS image/filesystem. Updating the system entails downloading a new one of these and its companion unified kernel image."
+msgid "VirtualBox - requires out-of-tree kernel modules, and other VM solutions work fine."
 msgstr ""
 
 #. +> trunk5
-#: content/docs/background.md:33
-msgid "Everything else on <tt>/</tt> is writable. A small helper program updates <tt>/etc</tt> from the content in <tt>/usr/share/factory/etc</tt> in the active OS image for anything you haven’t changed yourself. Btrfs snapshots of <tt>/etc</tt> are generated automatically."
+#: content/docs/background.md:32
+msgid "Vendor-specific VPNs - require custom out-of-tree kernel modules"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/background.md:35
-msgid "<tt>/home</tt> is a btrfs subvolume."
+#: content/docs/background.md:36
+msgid "Architecture"
 msgstr ""
 
 #. +> trunk5
 #: content/docs/background.md:37
+msgid "Design"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:38
+msgid "KDE Linux incorporates lessons learned from the earlier [KDE neon](https://neon.kde.org/) project, and focuses on resilience, recoverability, user-friendliness, and low maintenance needs. The design is heavily inspired by systemd creator Lennart Poettering’s thoughts on [operating system (OS) design](https://0pointer.net/blog/fitting-everything-together.html) and [system extensions](https://0pointer.net/blog/testing-my-system-code-in-usr-without-modifying-usr.html)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:40
+msgid "As such, KDE Linux is an “image-based” OS. This means the entire base OS is provided as one unit, rather than being split up into thousands of packages that are assembled into the final product on your computer."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:42
+msgid "Sometimes this model is called “immutable” because the base OS cannot be modified in the same way a traditional OS made of packages could. However, this terminology can be misleading; in KDE Linux, only <tt>/usr</tt> is provided in the form of a read-only image, and everything else on the system is modifiable like on any other Linux-based OS. And [<tt>/usr</tt> is modifiable through the use of systemd extensions](override-usr)."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:45
+msgid "High-level implementation"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:46
+msgid "systemd-boot is used as the bootloader."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:48
+msgid "The bootable image is an ISO-compatible <code>.raw</code> disk image built using <code>mkosi</code>. The base system comes from Arch Linux packages, with most KDE content built using <code>kde-builder</code>. Some KDE apps and 3rd-party apps are pre-installed Flatpaks."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:50
+msgid "<tt>/</tt> is a read-write Btrfs volume. <tt>/usr</tt> is mounted on top of it in the form of an EROFS image/filesystem. Updating the system entails downloading a new one of these and its companion unified kernel image. 3-4 OS of these images and their UKIs are cached on disk at any given time, providing the ability to roll back in case of problems after updating"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:52
+msgid "A small helper program updates <tt>/etc</tt> from the content in <tt>/usr/share/factory/etc</tt> in the active OS image for anything you haven’t changed yourself. Btrfs snapshots of <tt>/etc</tt> are generated automatically."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:54
+msgid "<tt>/home</tt> is a Btrfs subvolume."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/background.md:56
 msgid "User-facing apps shown in Discover come from [Flathub](https://flathub.org)."
 msgstr ""
 
 #. +> trunk5
-#: content/docs/background.md:39
-msgid "[Multiple methods](more-software) can be used to install software that’s not available as a Flatpak app. This is an evolving topic that’s likely to change over time."
+#: content/docs/background.md:58
+msgid "No package manager is included, but [multiple methods](more-software) are available for installing software that’s not available as a Flatpak app. This is an evolving topic that’s likely to change over time."
 msgstr ""
 
 #. +> trunk5
@@ -2627,7 +2697,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/install.md:77
-msgid "4. Explore the live session and install KDE Linux"
+msgid "4. Explore the live session"
 msgstr ""
 
 #. +> trunk5
@@ -2636,8 +2706,8 @@ msgid "Now you’re in the “Live Session” of KDE Linux! This lets you see wh
 msgstr ""
 
 #. +> trunk5
-#: content/docs/install.md:80
-msgid "Once you’re ready to install, double-click on the “Install KDE Linux” icon on the desktop and go through the installer. Installing KDE Linux to the entire disk (erasing all existing data) is the most reliable option. Other installation methods may work, but are known to [fail under certain circumstances](https://invent.kde.org/kde-linux/kde-linux/-/work_items?label_name%5B%5D=Live%20session%2Finstaller) and are therefore **not recommended**."
+#: content/docs/install.md:81
+msgid "5. Install KDE Linux"
 msgstr ""
 
 #. +> trunk5
@@ -2647,12 +2717,27 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/install.md:86
-msgid "5. Enjoy KDE Linux"
+msgid "Once you’re ready to install, double-click on the “Install KDE Linux” icon on the desktop and go through the installer. Installing KDE Linux to the entire disk (erasing all existing data) is the most reliable option. Other installation methods may work, but are known to [fail under certain circumstances](https://invent.kde.org/kde-linux/kde-linux/-/work_items?label_name%5B%5D=Live%20session%2Finstaller) and are therefore **not recommended**."
 msgstr ""
 
 #. +> trunk5
-#: content/docs/install.md:87
+#: content/docs/install.md:89
+msgid "6. Enjoy KDE Linux"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/install.md:90
 msgid "We hope you love it!"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/install.md:93
+msgid "7. Learn more"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/install.md:94
+msgid "Read [the documentation](docs) to find out how to use KDE Linux, and check out the [KDE Linux news feed](https://blogs.kde.org/categories/kde-linux) to keep on top of news and alerts for the project."
 msgstr ""
 
 #. +> trunk5
@@ -5110,7 +5195,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/roadmap.md:16
-msgid "[Public release](https://invent.kde.org/groups/kde-linux/-/milestones/1) (Stable edition) - not started"
+msgid "[Public release](https://invent.kde.org/groups/kde-linux/-/milestones/1) (OEM & large organization friendliness) - not started"
 msgstr ""
 
 #. +> trunk5
@@ -5131,6 +5216,16 @@ msgstr ""
 #. +> trunk5
 #: content/docs/roadmap.md:24
 msgid "Each released version of KDE Linux is supported until the next one is released. Users are expected to update regularly and ensure they are using the latest version."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:27
+msgid "End-of-life policy"
+msgstr ""
+
+#. +> trunk5
+#: content/docs/roadmap.md:28
+msgid "In the end that KDE Linux is discontinued because no contributors are available or can be recruited to continue the project, a final update will be made available that transforms KDE Linux into another Linux-based operating system. The exact choice here would be based on which team KDE has a good relationship with whose OS could take on all the new users at such a time."
 msgstr ""
 
 #. +> trunk5
@@ -5364,6 +5459,11 @@ msgstr ""
 #. +> trunk5
 #: content/help.md:28
 msgid "**To talk with the KDE Linux developers about issues that may be bugs**, [use Matrix](https://matrix.to/#/%23kde-linux:kde.org)."
+msgstr ""
+
+#. +> trunk5
+#: content/help.md:0
+msgid "Help & Support"
 msgstr ""
 
 #. +> trunk5
