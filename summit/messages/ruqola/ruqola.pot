@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-12 09:50+0200\n"
+"POT-Creation-Date: 2026-08-13 09:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2077,7 +2077,7 @@ msgid "(Autojoin)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/usersforroommodel.cpp:307 core/room.cpp:1184
+#: core/model/usersforroommodel.cpp:307 core/room.cpp:1186
 #, kde-format
 msgid "Owner"
 msgstr ""
@@ -2155,13 +2155,13 @@ msgid "Not connected yet"
 msgstr ""
 
 #. +> trunk6
-#: core/rocketchataccount.cpp:3240
+#: core/rocketchataccount.cpp:3256
 #, kde-format
 msgid "Room Added"
 msgstr ""
 
 #. +> trunk6
-#: core/rocketchataccount.cpp:3241
+#: core/rocketchataccount.cpp:3257
 #, kde-format
 msgid "A new room was added in '%1'."
 msgstr ""
@@ -2179,31 +2179,31 @@ msgid "A new account was added."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/room.cpp:1187
+#: core/room.cpp:1189
 #, kde-format
 msgid "Leader"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/room.cpp:1190
+#: core/room.cpp:1192
 #, kde-format
 msgid "Moderator"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/room.cpp:1627
+#: core/room.cpp:1668
 #, kde-format
 msgid "Channel is read only."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/room.cpp:1630
+#: core/room.cpp:1671
 #, kde-format
 msgid "You have blocked this channel."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/room.cpp:1633
+#: core/room.cpp:1674
 #, kde-format
 msgid "Channel was blocked."
 msgstr ""
@@ -10698,14 +10698,27 @@ msgid "Disable Encryption"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/encryption/e2edisabledialog.cpp:30
+#: widgets/encryption/e2edisabledialog.cpp:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Disable Encryption"
 msgstr ""
 
+#. +> trunk6
+#: widgets/encryption/e2edisablewidget.cpp:20
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset encryption keys"
+msgstr ""
+
+#. +> stable6
+#: widgets/encryption/e2edisablewidget.cpp:41
+#, kde-format
+msgid "Reset encryption keys"
+msgstr ""
+
 #. +> trunk6 stable6
-#: widgets/encryption/e2edisablewidget.cpp:23
+#: widgets/encryption/e2edisablewidget.cpp:28
 #, kde-format
 msgid ""
 "Disabling E2EE will compromise the privacy of this groupe privé. Access to any encrypted content will be lost for all groupe privé members.\n"
@@ -10714,15 +10727,31 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/encryption/e2edisablewidget.cpp:36
+#: widgets/encryption/e2edisablewidget.cpp:41
 #, kde-format
 msgid "Alternatively, resetting encryption keys will keep encryption enabled but access to previously encrypted content may be lost."
 msgstr ""
 
-#. +> trunk6 stable6
-#: widgets/encryption/e2edisablewidget.cpp:41
+#. +> trunk6
+#: widgets/encryption/e2edisablewidget.cpp:69
 #, kde-format
-msgid "Reset encryption keys"
+msgid ""
+"Resetting the encryption keys is only recommended if no room member has a valid key to regain access to the previously encrypted content. All members may lose access to previously encrypted content.\n"
+"This action cannot be undone. Do you want to continue?"
+msgstr ""
+
+#. +> trunk6
+#: widgets/encryption/e2edisablewidget.cpp:71
+#: widgets/encryption/e2edisablewidget.cpp:80
+#, kde-format
+msgctxt "@title:window"
+msgid "Reset Encryption Keys"
+msgstr ""
+
+#. +> trunk6
+#: widgets/encryption/e2edisablewidget.cpp:80
+#, kde-format
+msgid "The encryption keys of this room could not be reset."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11252,30 +11281,49 @@ msgid "Send new code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/myaccount/myaccount2e2configurewidget.cpp:26
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset E2E Key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/myaccount/myaccount2e2configurewidget.cpp:27
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Modify"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/myaccount/myaccount2e2configurewidget.cpp:35
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:36
 #, kde-format
 msgctxt "@label:textbox"
 msgid "You can now create encrypted private groups and direct messages. You may also change existing private groups or DMs to encrypted. This is end to end encryption so the key to encode/decode your messages will not be saved on the server. For that reason you need to store your password somewhere safe. You will be required to enter it on other devices you wish to use e2e encryption on."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/myaccount/myaccount2e2configurewidget.cpp:53
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:54
 #, kde-format
 msgid "This option will remove your current E2E key and log you out. When you login again, Rocket.Chat will generate you a new key and restore your access to any encrypted room that has one or more members online. Due to the nature of the E2E encryption, Rocket.Chat will not be able to restore access to any encrypted room that has no member online."
+msgstr ""
+
+#. +> trunk6
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:114
+#, kde-format
+msgid "The server refused to reset your E2E key."
+msgstr ""
+
+#. +> trunk6
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:114
+#, kde-format
+msgid "The server refused to reset your E2E key: %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:115
+#, kde-format
+msgctxt "@title:window"
+msgid "Reset E2E Key"
 msgstr ""
 
 #. +> trunk6 stable6

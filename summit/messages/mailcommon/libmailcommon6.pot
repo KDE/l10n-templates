@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mailcommon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-05 18:49+0200\n"
+"POT-Creation-Date: 2026-08-13 09:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2181,9 +2181,19 @@ msgstr ""
 msgid "Removing old messages from folder %1 failed."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: job/expirejob.cpp:157
 #, kde-format
+msgid "Removing 1 old message from folder %2…"
+msgid_plural "Removing %1 old messages from folder %2…"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +: msgctxt-pad 0f593eee839c400415d2be7e8c7887bd
+#. +> stable6
+#: job/expirejob.cpp:157
+#, kde-format
+msgctxt "0f593eee839c400415d2be7e8c7887bd"
 msgid "Removing 1 old message from folder %2…"
 msgid_plural "Removing %1 old messages from folder %2..."
 msgstr[0] ""
