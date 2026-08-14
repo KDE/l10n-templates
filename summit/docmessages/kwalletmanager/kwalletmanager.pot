@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"POT-Creation-Date: 2026-08-14 07:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -660,27 +660,27 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:378
-#, no-c-format
-msgid "<title>Applications tab</title>"
-msgstr ""
-
-#. Tag: screeninfo
-#. +> trunk6 stable6
 #: index.docbook:381
 #, no-c-format
-msgid "<screeninfo>Applications tab</screeninfo>"
+msgid "Configuring &kwallet5;"
 msgstr ""
 
-#. Tag: phrase
+#. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:387
+#: index.docbook:384
 #, no-c-format
-msgid "<phrase>Applications tab</phrase>"
+msgid "Wallet Preferences"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
+#: index.docbook:386
+#, no-c-format
+msgid "&kwallet5; contains a small configuration panel with several options that allow you to tune &kwallet5; to your personal preferences. The default settings for &kwallet5; are sufficient for most users."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: index.docbook:389
 #, no-c-format
 msgid "<para>Applications tab</para>"
@@ -688,329 +688,329 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
+#: index.docbook:390
+#, no-c-format
+msgid "Check the box to enable or disable the &kde; wallet subsystem entirely. If this box is unchecked, then &kwallet5; is entirely disabled and none of the other options here have any effect, nor will &kwallet5; record any information, or offer to fill in forms for you."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: index.docbook:393
 #, no-c-format
 msgid "The first list shows all applications currently connected to the selected wallet. Use the button at the right side of each entry to disconnect the application."
 msgstr ""
 
-#. Tag: para
+#. Tag: guilabel
 #. +> trunk6 stable6
+#: index.docbook:396
+#, no-c-format
+msgid "Close Wallet"
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: index.docbook:396
 #, no-c-format
 msgid "In the second list all applications are displayed which are authorized to access the wallet. Use the button right of each entry in the list to revoke the access."
 msgstr ""
 
-#. Tag: title
-#. +> trunk6 stable6
-#: index.docbook:406
-#, no-c-format
-msgid "Configuring &kwallet5;"
-msgstr ""
-
-#. Tag: title
-#. +> trunk6 stable6
-#: index.docbook:409
-#, no-c-format
-msgid "Wallet Preferences"
-msgstr ""
-
-#. Tag: para
-#. +> trunk6 stable6
-#: index.docbook:411
-#, no-c-format
-msgid "&kwallet5; contains a small configuration panel with several options that allow you to tune &kwallet5; to your personal preferences. The default settings for &kwallet5; are sufficient for most users."
-msgstr ""
-
-#. Tag: para
-#. +> trunk6 stable6
-#: index.docbook:415
-#, no-c-format
-msgid "Check the box to enable or disable the &kde; wallet subsystem entirely. If this box is unchecked, then &kwallet5; is entirely disabled and none of the other options here have any effect, nor will &kwallet5; record any information, or offer to fill in forms for you."
-msgstr ""
-
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:421
-#, no-c-format
-msgid "Close Wallet"
-msgstr ""
-
-#. Tag: guilabel
-#. +> trunk6 stable6
-#: index.docbook:423
+#: index.docbook:398
 #, no-c-format
 msgid "Close when unused for:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:425
+#: index.docbook:400
 #, no-c-format
 msgid "Close the current wallet after a period of inactivity. If you check this option, set the period in the box, default is 10 minutes. When a wallet is closed, the password is needed to access it again."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:432
+#: index.docbook:407
 #, no-c-format
 msgid "Close when screensaver starts"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:434
+#: index.docbook:409
 #, no-c-format
 msgid "Close the wallet as soon as the screen saver starts. When a wallet is closed, the password is needed to access it again."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:440
+#: index.docbook:415
 #, no-c-format
 msgid "Close when last application stops using it"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:442
+#: index.docbook:417
 #, no-c-format
 msgid "Close the wallet as soon as applications that use it have stopped. Note that your wallets will only be closed when all the applications that use it have stopped. When a wallet is closed, the password is needed to access it again."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:451
+#: index.docbook:426
 #, no-c-format
 msgid "Automatic Wallet Selection"
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:453
+#: index.docbook:428
 #, no-c-format
 msgid "Select wallet to use as default:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:455
+#: index.docbook:430
 #, no-c-format
 msgid "Select which wallet you want to use as default wallet. Please keep in mind that only the wallet named <guilabel>kdewallet</guilabel> will be opened automatically at login, if this wallet and your login password are identical."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:464
+#: index.docbook:439
 #, no-c-format
 msgid "Different wallet for local passwords:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:466
+#: index.docbook:441
 #, no-c-format
 msgid "If checked, choose a different wallet for local passwords."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:472
+#: index.docbook:447
 #, no-c-format
 msgid "Wallet Manager"
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:474
+#: index.docbook:449
 #, no-c-format
 msgid "Show manager in system tray"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:476
+#: index.docbook:451
 #, no-c-format
 msgid "Enable the wallet manager to have its icon in the system tray."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:481
+#: index.docbook:456
 #, no-c-format
 msgid "Hide System tray icon when last wallet closes"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:484
+#: index.docbook:459
 #, no-c-format
 msgid "When there is no wallet in use anymore, remove the wallet icon from the system tray."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:490
+#: index.docbook:465
 #, no-c-format
 msgid "Finally, there is a button labeled <guibutton>Launch Wallet Manager</guibutton>, which does precisely that."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:492
+#: index.docbook:467
 #, no-c-format
 msgid "This button is only visible if &kwalletmanager5; is not running"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:496
+#: index.docbook:471
 #, no-c-format
 msgid "<title>Access Control</title>"
 msgstr ""
 
+#. Tag: title
+#. +> stable6
+#: index.docbook:378
+#, no-c-format
+msgid "<title>Applications tab</title>"
+msgstr ""
+
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:498
+#: index.docbook:473
 #, no-c-format
 msgid "There is only one option on this page:"
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: index.docbook:502
+#: index.docbook:477
 #, no-c-format
 msgid "Prompt when an application accesses a wallet"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:504
+#: index.docbook:479
 #, no-c-format
 msgid "Signal you when an application gains access to a wallet."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:509
+#: index.docbook:484
 #, no-c-format
 msgid "Next there is a tree style view of the access controls for your wallets."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: index.docbook:512
+#: index.docbook:487
 #, no-c-format
 msgid "<screeninfo>Access Control</screeninfo>"
 msgstr ""
 
+#. Tag: screeninfo
+#. +> stable6
+#: index.docbook:381
+#, no-c-format
+msgid "<screeninfo>Applications tab</screeninfo>"
+msgstr ""
+
 #. Tag: phrase
 #. +> trunk6 stable6
-#: index.docbook:518
+#: index.docbook:493
 #, no-c-format
 msgid "<phrase>Access Control</phrase>"
 msgstr ""
 
+#. Tag: phrase
+#. +> stable6
+#: index.docbook:387
+#, no-c-format
+msgid "<phrase>Applications tab</phrase>"
+msgstr ""
+
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:523
+#: index.docbook:498
 #, no-c-format
 msgid "Click with the &LMB; on the <guiicon>&gt;</guiicon> symbol beside a wallet name to expand the tree. You will see the name of each application that has asked for access to the wallet, and the policy you set for it. You cannot edit policies here, or add them, but it is possible to delete an entry by &RMB; clicking on it and choosing <guimenuitem>Delete</guimenuitem> from the context menu that appears, or by simply selecting it and pressing the <keysym>Del</keysym> key."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:531
+#: index.docbook:506
 #, no-c-format
 msgid "An application that has been allowed access to a wallet is granted access to all passwords stored inside."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:534
+#: index.docbook:509
 #, no-c-format
 msgid "If you erroneously configured an application not to use the &kwallet5; delete the policy for this application here."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:537
+#: index.docbook:512
 #, no-c-format
 msgid "On the next start of this application you can define a new policy for access to the wallet."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: index.docbook:541
+#: index.docbook:516
 #, no-c-format
 msgid "<screeninfo>Access request to open a wallet</screeninfo>"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: index.docbook:547
+#: index.docbook:522
 #, no-c-format
 msgid "<phrase>Access request to open a wallet</phrase>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:549
+#: index.docbook:524
 #, no-c-format
 msgid "An application requesting access to a wallet"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:558
+#: index.docbook:533
 #, no-c-format
 msgid "Advanced Features"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:560
+#: index.docbook:535
 #, no-c-format
 msgid "Wallets can be dragged from the &kwalletmanager5; window. This allows you to drag the wallet to a file browser window, where you can choose to copy, move, or link the wallet, as desired."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:564
+#: index.docbook:539
 #, no-c-format
 msgid "You might use this to save a wallet to portable media, such as a USB keychain, so that you can take your passwords with you to work or on a vacation, and still have easy access to important sites."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: index.docbook:571
+#: index.docbook:546
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:573
+#: index.docbook:548
 #, no-c-format
 msgid "&kwallet5; &copy; 2003 &George.Staikos;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: index.docbook:574
+#: index.docbook:549
 #, no-c-format
 msgid "Documentation &copy; &Lauri.Watts; and &George.Staikos;"
 msgstr ""
 
 #. Tag: trans_comment
 #. +> trunk6 stable6
-#: index.docbook:576
+#: index.docbook:551
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
 #. +> trunk6 stable6
-#: index.docbook:576
+#: index.docbook:551
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""

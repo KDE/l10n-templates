@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-06 19:24+0100\n"
+"POT-Creation-Date: 2026-08-14 07:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7551,10 +7551,10 @@ msgid "Zig - <command>zigfmt</command>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: plugins.docbook:4641
 #, no-c-format
-msgid "CMake - <command>cmake-format</command>"
+msgid "CMake - <command>gersemi</command>"
 msgstr ""
 
 #. Tag: para
@@ -7590,6 +7590,13 @@ msgstr ""
 #: plugins.docbook:4646
 #, no-c-format
 msgid "QML - <command>qmlformat</command>"
+msgstr ""
+
+#. Tag: para
+#. +> stable6
+#: plugins.docbook:4641
+#, no-c-format
+msgid "CMake - <command>cmake-format</command>"
 msgstr ""
 
 #. Tag: para
@@ -7670,7 +7677,24 @@ msgid "When reading the config, the plugin will first try to read the config fro
 msgstr ""
 
 #. Tag: screen
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins.docbook:4685
+#, no-c-format
+msgid ""
+"{\n"
+"    \"formatOnSave\": true,\n"
+"    \"formatterForJson\": \"jq\",\n"
+"    \"gersemi\": {\n"
+"        \"formatOnSave\": false\n"
+"    },\n"
+"    \"autopep8\": {\n"
+"        \"formatOnSave\": false\n"
+"    }\n"
+"}"
+msgstr ""
+
+#. Tag: screen
+#. +> stable6
 #: plugins.docbook:4685
 #, no-c-format
 msgid ""
@@ -7708,7 +7732,14 @@ msgid "specifies \"jq\" as the formatter for JSON"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins.docbook:4691
+#, no-c-format
+msgid "disables \"format on save\" for gersemi and autopep8"
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: plugins.docbook:4691
 #, no-c-format
 msgid "disables \"format on save\" for cmake-format and autopep8"
