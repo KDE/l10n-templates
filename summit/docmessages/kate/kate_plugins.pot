@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-14 07:45+0200\n"
+"POT-Creation-Date: 2026-08-16 07:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7628,57 +7628,64 @@ msgid "Godot Script - <command>gdformat</command>"
 msgstr ""
 
 #. Tag: para
+#. +> trunk6
+#: plugins.docbook:4651
+#, no-c-format
+msgid "Perl - <command>perltidy</command>"
+msgstr ""
+
+#. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4652
+#: plugins.docbook:4653
 #, no-c-format
 msgid "Python"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4659
+#: plugins.docbook:4660
 #, no-c-format
 msgid "YAML"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4672
+#: plugins.docbook:4673
 #, no-c-format
 msgid "Configuring"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4674
+#: plugins.docbook:4675
 #, no-c-format
 msgid "The plugin can be configured in two ways:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4676
+#: plugins.docbook:4677
 #, no-c-format
 msgid "Globally, from the Configure dialog"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4677
+#: plugins.docbook:4678
 #, no-c-format
 msgid "On a per project basis using the <filename>.kateproject</filename> file"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4681
+#: plugins.docbook:4682
 #, no-c-format
 msgid "When reading the config, the plugin will first try to read the config from <filename>.kateproject</filename> file and then read the global config. Example:"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6
-#: plugins.docbook:4685
+#: plugins.docbook:4686
 #, no-c-format
 msgid ""
 "{\n"
@@ -7712,28 +7719,28 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4687
+#: plugins.docbook:4688
 #, no-c-format
 msgid "The above:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4689
+#: plugins.docbook:4690
 #, no-c-format
 msgid "enables \"format on save\" globally"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4690
+#: plugins.docbook:4691
 #, no-c-format
 msgid "specifies \"jq\" as the formatter for JSON"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: plugins.docbook:4691
+#: plugins.docbook:4692
 #, no-c-format
 msgid "disables \"format on save\" for gersemi and autopep8"
 msgstr ""
@@ -7747,21 +7754,21 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4695
+#: plugins.docbook:4696
 #, no-c-format
 msgid "To configure formatting for a project, first create a <filename>.kateproject</filename> file and then add a <code>\"formatting\"</code> object to it. In the <code>\"formatting\"</code> object you can specify your settings as shown in the previous example. Example:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4698
+#: plugins.docbook:4699
 #, no-c-format
 msgid "You need to enable the <link linkend=\"kate-application-plugin-projects\">Project plugin</link> for this to work"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:4700
+#: plugins.docbook:4701
 #, no-c-format
 msgid ""
 "{\n"
@@ -7782,14 +7789,14 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4705
+#: plugins.docbook:4706
 #, no-c-format
 msgid "Temporarily disable format on save"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4707
+#: plugins.docbook:4708
 #, no-c-format
 msgid "While working you will often need to disable the formatting for a short while due to any reason. You can do this from the menubar, <menuchoice><guimenu>Tools</guimenu> <guimenuitem>Format on Save</guimenuitem></menuchoice>. You can also trigger this action from the <guilabel>Command bar</guilabel>."
 msgstr ""

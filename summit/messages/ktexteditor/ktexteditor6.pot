@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktexteditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-28 08:17+0200\n"
+"POT-Creation-Date: 2026-08-16 07:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2628,13 +2628,6 @@ msgstr ""
 msgid "VI: INSERT MODE"
 msgstr ""
 
-#. +> trunk6
-#: inputmode/kateviinputmode.cpp:31
-#, kde-format
-msgctxt "The INSERT mode of VI"
-msgid "VI: INSERT"
-msgstr ""
-
 #. +> trunk5
 #: inputmode/kateviinputmode.cpp:32
 #, kde-format
@@ -2642,44 +2635,51 @@ msgid "VI: NORMAL MODE"
 msgstr ""
 
 #. +> trunk6
-#: inputmode/kateviinputmode.cpp:34
+#: inputmode/kateviinputmode.cpp:33
+#, kde-format
+msgctxt "The INSERT mode of VI"
+msgid "VI: INSERT"
+msgstr ""
+
+#. +> trunk6
+#: inputmode/kateviinputmode.cpp:36
 #, kde-format
 msgctxt "The NORMAL mode of VI"
 msgid "VI: NORMAL"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: inputmode/kateviinputmode.cpp:37
+#: inputmode/kateviinputmode.cpp:39
 #, kde-format
 msgid "VI: VISUAL"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: inputmode/kateviinputmode.cpp:40
+#: inputmode/kateviinputmode.cpp:42
 #, kde-format
 msgid "VI: VISUAL BLOCK"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: inputmode/kateviinputmode.cpp:43
+#: inputmode/kateviinputmode.cpp:45
 #, kde-format
 msgid "VI: VISUAL LINE"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: inputmode/kateviinputmode.cpp:46
+#: inputmode/kateviinputmode.cpp:48
 #, kde-format
 msgid "VI: REPLACE"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: inputmode/kateviinputmode.cpp:148
+#: inputmode/kateviinputmode.cpp:150
 #, kde-format
 msgid "vi-mode"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: inputmode/kateviinputmode.cpp:161
+#: inputmode/kateviinputmode.cpp:163
 #, kde-format
 msgid "recording"
 msgstr ""
@@ -9288,32 +9288,32 @@ msgid "Import from vimrc file"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: vimode/marks.cpp:117
+#: vimode/marks.cpp:112
 #, kde-format
 msgid "Mark set: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: vimode/marks.cpp:163
+#: vimode/marks.cpp:158
 #, kde-format
 msgid "There are no more chars for the next bookmark."
 msgstr ""
 
 #. +> trunk6 trunk5
 #: vimode/modes/insertvimode.cpp:261 vimode/modes/modebase.cpp:794
-#: vimode/modes/normalvimode.cpp:3562
+#: vimode/modes/normalvimode.cpp:3564
 #, kde-format
 msgid "Nothing in register %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: vimode/modes/normalvimode.cpp:1686
+#: vimode/modes/normalvimode.cpp:1688
 #, kde-format
 msgid "'%1' %2,  Hex %3,  Octal %4"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: vimode/modes/normalvimode.cpp:2529
+#: vimode/modes/normalvimode.cpp:2531
 #, kde-format
 msgid "Mark not set: %1"
 msgstr ""
