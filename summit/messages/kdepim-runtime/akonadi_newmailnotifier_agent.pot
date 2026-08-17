@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-10 11:38+0200\n"
+"POT-Creation-Date: 2026-08-17 07:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -32,13 +32,13 @@ msgid "Notification History"
 msgstr ""
 
 #. +> trunk6 stable6
-#: newmailnotificationhistorymanager.cpp:33
+#: newmailnotificationhistorymanager.cpp:28
 #, kde-format
 msgid "[Open Folder]"
 msgstr ""
 
 #. +> trunk6 stable6
-#: newmailnotificationhistorymanager.cpp:43
+#: newmailnotificationhistorymanager.cpp:38
 #, kde-format
 msgid "[Show Mail]"
 msgstr ""
@@ -52,7 +52,7 @@ msgid "Enabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: newmailnotifieragent.cpp:365
+#: newmailnotifieragent.cpp:366
 #, kde-format
 msgctxt "%2 = name of mail folder; %3 = name of Akonadi POP3/IMAP/etc resource (as user named it)"
 msgid "One new email in %2 from \"%3\""
@@ -61,7 +61,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: newmailnotifieragent.cpp:402
+#: newmailnotifieragent.cpp:403
 #, kde-format
 msgid "New mail arrived"
 msgstr ""
@@ -71,6 +71,12 @@ msgstr ""
 #: newmailnotifiershowmessagejob.cpp:35
 #, kde-format
 msgid "Unable to start KMail application."
+msgstr ""
+
+#. +> trunk6
+#: newmailnotifieropenfolderjob.cpp:46
+#, kde-format
+msgid "Impossible to access the DBus interface."
 msgstr ""
 
 #. +> trunk6 stable6

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-14 07:45+0200\n"
+"POT-Creation-Date: 2026-08-17 07:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1135,6 +1135,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv4widget.cpp:267 editor/settings/ipv6widget.cpp:258
+#: editorqml/settings/ipv4settings/ipv4settings.cpp:232
 #, kde-format
 msgid "Other DNS Servers:"
 msgstr ""
@@ -1144,6 +1145,7 @@ msgstr ""
 #: editor/settings/ipv4widget.cpp:306 editor/settings/ipv4widget.cpp:319
 #: editor/settings/ipv6widget.cpp:271 editor/settings/ipv6widget.cpp:284
 #: editor/settings/ipv6widget.cpp:297 editor/settings/ipv6widget.cpp:310
+#: editorqml/settings/ipv4settings/ipv4settings.cpp:232
 #, kde-format
 msgid "DNS Servers:"
 msgstr ""
@@ -1163,7 +1165,7 @@ msgid "Send hostname:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editor/settings/ipv4widget.cpp:436
+#: editor/settings/ipv4widget.cpp:436 editorqml/qml/ipv4/IPv4Advance.qml:53
 #, kde-format
 msgid "DHCP hostname:"
 msgstr ""
@@ -1183,7 +1185,7 @@ msgid " ms"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editor/settings/ipv4widget.cpp:445
+#: editor/settings/ipv4widget.cpp:445 editorqml/qml/ipv4/IPv4Advance.qml:63
 #, kde-format
 msgid "DAD timeout:"
 msgstr ""
@@ -1638,7 +1640,7 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bond.ui:110
 #: editor/settings/ui/wificonnectionwidget.ui:68
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:71
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:70
 #, kde-format
 msgid "Mode:"
 msgstr ""
@@ -1910,7 +1912,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, advancedSectionLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/gsm.ui:84 editor/settings/ui/wificonnectionwidget.ui:112
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:91
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:90
 #, kde-format
 msgid "Advanced"
 msgstr ""
@@ -1967,7 +1969,7 @@ msgstr ""
 #: editor/settings/ui/wificonnectionwidget.ui:301
 #: editor/settings/ui/wiredconnectionwidget.ui:89
 #: editor/settings/ui/wireguardinterfacewidget.ui:89
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:221
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:219
 #, kde-format
 msgid "MTU:"
 msgstr ""
@@ -2002,13 +2004,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:29 editor/settings/ui/ipv6.ui:49
+#: editorqml/qml/ipv4/IPv4Settings.qml:26
 #, kde-format
 msgid "Method:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, method)
 #. +> trunk6 stable6
-#: editor/settings/ui/ipv4.ui:54
+#: editor/settings/ui/ipv4.ui:54 editorqml/qml/ipv4/IPv4Settings.qml:37
 #, kde-format
 msgid ""
 "How to configure the IPv4 address:\n"
@@ -2076,6 +2079,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dns)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:127 editor/settings/ui/ipv6.ui:76
+#: editorqml/qml/ipv4/IPv4Settings.qml:59
 #, kde-format
 msgid "Use this field to specify the IP address(es) of one or more DNS servers. Use ',' to separate entries."
 msgstr ""
@@ -2098,6 +2102,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dnsSearch)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:173 editor/settings/ui/ipv6.ui:280
+#: editorqml/qml/ipv4/IPv4Settings.qml:96
 #, kde-format
 msgid "Use this field to specify one or more DNS domains to search. Use ',' to separate entries."
 msgstr ""
@@ -2105,13 +2110,14 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsSearchMorePushButton)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:180 editor/settings/ui/ipv6.ui:287
+#: editorqml/qml/ipv4/IPv4Settings.qml:110
 #, kde-format
 msgid "Edit the list of DNS domains being searched"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelDhcpClientId)
 #. +> trunk6 stable6 stable5
-#: editor/settings/ui/ipv4.ui:198
+#: editor/settings/ui/ipv4.ui:198 editorqml/qml/ipv4/IPv4Settings.qml:115
 #, kde-format
 msgid "DHCP Client ID:"
 msgstr ""
@@ -2129,6 +2135,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelRouteMetric)
 #. +> trunk6 stable6
 #: editor/settings/ui/ipv4.ui:226 editor/settings/ui/ipv6.ui:379
+#: editorqml/qml/ipv4/IPv4Settings.qml:129
 #, kde-format
 msgid "Route Metric:"
 msgstr ""
@@ -2147,8 +2154,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:270 editor/settings/ui/ipv6.ui:97
+#: editorqml/qml/ipv4/IPv4Settings.qml:289
+#: editorqml/qml/ipv4/SearchDomainList.qml:99
 #: editorqml/qml/wifisecurity/AlternativeSubjectMatch.qml:98
-#: editorqml/qml/wifisecurity/DnsList.qml:98
+#: editorqml/qml/wifisecurity/DnsList.qml:100
 #, kde-format
 msgid "Remove"
 msgstr ""
@@ -2156,8 +2165,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:280 editor/settings/ui/ipv6.ui:107
+#: editorqml/qml/ipv4/IPv4Settings.qml:281
+#: editorqml/qml/ipv4/SearchDomainList.qml:85
 #: editorqml/qml/wifisecurity/AlternativeSubjectMatch.qml:84
-#: editorqml/qml/wifisecurity/DnsList.qml:84
+#: editorqml/qml/wifisecurity/DnsList.qml:86
 #, kde-format
 msgid "Add"
 msgstr ""
@@ -2183,7 +2194,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ipv4RequiredCB)
 #. +> trunk6 stable6 stable5
-#: editor/settings/ui/ipv4.ui:338
+#: editor/settings/ui/ipv4.ui:338 editorqml/qml/ipv4/IPv4Settings.qml:302
 #, kde-format
 msgid "IPv4 is required for this connection"
 msgstr ""
@@ -2213,7 +2224,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
 #. +> trunk6 stable6 stable5
-#: editor/settings/ui/ipv6.ui:83
+#: editor/settings/ui/ipv6.ui:83 editorqml/qml/ipv4/IPv4Settings.qml:73
 #, kde-format
 msgid "Edit the list of DNS servers"
 msgstr ""
@@ -2458,7 +2469,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, SSIDLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:39
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:35
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:34
 #, kde-format
 msgid "SSID:"
 msgstr ""
@@ -2491,7 +2502,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:94
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:74
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:73
 #, kde-format
 msgid "Infrastructure"
 msgstr ""
@@ -2499,7 +2510,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:99
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:74
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:73
 #, kde-format
 msgid "Ad-hoc"
 msgstr ""
@@ -2516,7 +2527,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:104
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:74
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:73
 #, kde-format
 msgid "Access Point"
 msgstr ""
@@ -2524,7 +2535,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, BSSIDLabel)
 #. +> trunk6 stable6
 #: editor/settings/ui/wificonnectionwidget.ui:128
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:99
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:97
 #, kde-format
 msgid "Restrict to BSSID:"
 msgstr ""
@@ -2539,7 +2550,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, bandLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:163
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:135
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:133
 #, kde-format
 msgid "Band:"
 msgstr ""
@@ -2564,7 +2575,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:192
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:138
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:136
 #, kde-format
 msgid "A (5 GHz)"
 msgstr ""
@@ -2572,7 +2583,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:197
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:138
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:136
 #, kde-format
 msgid "B/G (2.4 GHz)"
 msgstr ""
@@ -2580,7 +2591,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, channelLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:205
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:147
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:145
 #, kde-format
 msgid "Channel:"
 msgstr ""
@@ -2597,7 +2608,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6
 #: editor/settings/ui/wificonnectionwidget.ui:232
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:166
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:164
 #, kde-format
 msgid "Restrict to network adapter:"
 msgstr ""
@@ -2613,7 +2624,7 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:258
 #: editor/settings/ui/wiredconnectionwidget.ui:47
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:199
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:197
 #, kde-format
 msgid "Cloned MAC address:"
 msgstr ""
@@ -2628,7 +2639,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, btnRandomMacAddr)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:292
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:214
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:212
 #, kde-format
 msgid "Random…"
 msgstr ""
@@ -2661,7 +2672,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:345
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:244
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:242
 #, kde-format
 msgid "Visibility:"
 msgstr ""
@@ -2669,7 +2680,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, hiddenNetwork)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:361
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:245
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:243
 #, kde-format
 msgid "Hidden network"
 msgstr ""
@@ -4531,7 +4542,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, RoutesIp4Config)
 #. +> trunk6 stable6 stable5
-#: editor/widgets/ui/ipv4routes.ui:20
+#: editor/widgets/ui/ipv4routes.ui:20 editorqml/qml/ipv4/IPv4Routes.qml:18
 #, kde-format
 msgid "Edit IPv4 Routes"
 msgstr ""
@@ -4539,6 +4550,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbNeverDefault)
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv4routes.ui:42 editor/widgets/ui/ipv6routes.ui:130
+#: editorqml/qml/ipv4/IPv4Routes.qml:216
 #, kde-format
 msgid "If enabled, this connection will never be used as the default network connection"
 msgstr ""
@@ -4546,6 +4558,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbNeverDefault)
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv4routes.ui:45 editor/widgets/ui/ipv6routes.ui:133
+#: editorqml/qml/ipv4/IPv4Routes.qml:208
 #, kde-format
 msgid "Use only for resources on this connection"
 msgstr ""
@@ -4569,6 +4582,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbIgnoreAutoRoutes)
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv4routes.ui:136 editor/widgets/ui/ipv6routes.ui:120
+#: editorqml/qml/ipv4/IPv4Routes.qml:202
 #, kde-format
 msgid "If enabled, automatically configured routes are ignored and only routes specified above are used"
 msgstr ""
@@ -4576,6 +4590,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreAutoRoutes)
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv4routes.ui:139 editor/widgets/ui/ipv6routes.ui:123
+#: editorqml/qml/ipv4/IPv4Routes.qml:194
 #, kde-format
 msgid "Ignore automatically obtained routes"
 msgstr ""
@@ -4653,6 +4668,204 @@ msgid "Automatic"
 msgstr ""
 
 #. +> trunk6
+#: editorqml/qml/ipv4/IPv4Advance.qml:18
+#, kde-format
+msgid "Advanced IPv4 Settings"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Advance.qml:45
+#, kde-format
+msgid "DHCP:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Advance.qml:46
+#, kde-format
+msgid "Send hostname to DHCP server"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Advance.qml:76 editorqml/qml/ipv4/IPv4Advance.qml:83
+#, kde-format
+msgctxt "@item DAD timeout left to NetworkManager"
+msgid "Default"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Advance.qml:78 editorqml/qml/ipv4/IPv4Advance.qml:85
+#, kde-format
+msgctxt "@item duplicate address detection turned off"
+msgid "Disabled"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Advance.qml:79
+#, kde-format
+msgctxt "@item:intext duplicate address detection timeout in milliseconds"
+msgid "%1 ms"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Advance.qml:94
+#, kde-format
+msgid ""
+"Timeout in milliseconds used to check for the presence of duplicate IP addresses on the network.\n"
+"\n"
+"0 disables the check, -1 lets NetworkManager decide."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Routes.qml:125
+#: editorqml/qml/ipv4/IPv4Settings.qml:254
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "10.0.0.0"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Routes.qml:127
+#: editorqml/qml/ipv4/IPv4Settings.qml:256
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "255.255.255.0"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Routes.qml:129
+#: editorqml/qml/ipv4/IPv4Settings.qml:258
+#, kde-format
+msgctxt "@info:placeholder optional field"
+msgid "Optional"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Routes.qml:170
+#, kde-format
+msgctxt "@action:button Insert a row"
+msgid "Add"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Routes.qml:177
+#, kde-format
+msgctxt "@action:button Remove a selected row"
+msgid "Remove"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:29
+#, kde-format
+msgctxt "@item:inlistbox IPv4 method"
+msgid "Automatic"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:29
+#, kde-format
+msgctxt "@item:inlistbox IPv4 method"
+msgid "Automatic (Only addresses)"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:29
+#, kde-format
+msgctxt "@item:inlistbox IPv4 method"
+msgid "Link-Local"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:29
+#, kde-format
+msgctxt "@item:inlistbox like in use Manual configuration"
+msgid "Manual"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:29
+#, kde-format
+msgctxt "@item:inlistbox IPv4 method"
+msgid "Shared to other computers"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:29
+#, kde-format
+msgctxt "@item:inlistbox like in this setting is Disabled"
+msgid "Disabled"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:78
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Search Domains:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:126
+#, kde-format
+msgid "Use this field to specify the DHCP client ID which is a string sent to the DHCP server to identify the local machine that the DHCP server may use to customize the DHCP lease and options."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:155
+#, kde-format
+msgid ""
+"A score that helps choose the best path for data packets to reach their destination, based on factors like distance, delay, and reliability.\n"
+"\n"
+"Default value -1 means that NetworkManager gets to choose and manage the actual metric of the route."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:162
+#, kde-format
+msgid "Addresses"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:310
+#, kde-format
+msgid "Allows the connection to complete if IPv4 configuration fails but IPv6 configuration succeeds"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:326
+#, kde-format
+msgctxt "@action:button"
+msgid "Advanced…"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/IPv4Settings.qml:332
+#, kde-format
+msgctxt "@action:button"
+msgid "Routes…"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/SearchDomainList.qml:16
+#, kde-format
+msgid "Search Domains"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/SearchDomainList.qml:107
+#: editorqml/qml/wifisecurity/AlternativeSubjectMatch.qml:106
+#: editorqml/qml/wifisecurity/DnsList.qml:108
+#, kde-format
+msgid "Move Up"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/ipv4/SearchDomainList.qml:120
+#: editorqml/qml/wifisecurity/AlternativeSubjectMatch.qml:119
+#: editorqml/qml/wifisecurity/DnsList.qml:121
+#, kde-format
+msgid "Move Down"
+msgstr ""
+
+#. +> trunk6
 #: editorqml/qml/PasswordField.qml:95
 #, kde-format
 msgid "Always asked"
@@ -4707,41 +4920,41 @@ msgid "Password must be between 8 and 64 characters"
 msgstr ""
 
 #. +> trunk6
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:117
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:115
 #, kde-format
 msgctxt "@item BSSID (MAC address) followed by signal strength"
 msgid "%1 (%2%)"
 msgstr ""
 
 #. +> trunk6
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:121
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:119
 #, kde-format
 msgid "Frequency: %1 MHz"
 msgstr ""
 
 #. +> trunk6
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:126
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:124
 #, kde-format
 msgid "Channel: %1"
 msgstr ""
 
 #. +> trunk6
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:138
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:136
 #, kde-format
 msgctxt "@item wireless band"
 msgid "Automatic"
 msgstr ""
 
 #. +> trunk6
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:231
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:234
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:229
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:232
 #, kde-format
 msgctxt "@item MTU is automatically determined"
 msgid "Automatic"
 msgstr ""
 
 #. +> trunk6
-#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:231
+#: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:229
 #, kde-format
 msgctxt "@item:intext MTU size, %1 is the number of bytes"
 msgid "%1 bytes"
@@ -4751,20 +4964,6 @@ msgstr ""
 #: editorqml/qml/wifisecurity/AlternativeSubjectMatch.qml:15
 #, kde-format
 msgid "Alternative subject matches"
-msgstr ""
-
-#. +> trunk6
-#: editorqml/qml/wifisecurity/AlternativeSubjectMatch.qml:106
-#: editorqml/qml/wifisecurity/DnsList.qml:106
-#, kde-format
-msgid "Move Up"
-msgstr ""
-
-#. +> trunk6
-#: editorqml/qml/wifisecurity/AlternativeSubjectMatch.qml:119
-#: editorqml/qml/wifisecurity/DnsList.qml:119
-#, kde-format
-msgid "Move Down"
 msgstr ""
 
 #. +> trunk6
@@ -4898,6 +5097,34 @@ msgstr ""
 #, kde-format
 msgctxt "@item real name not available"
 msgid "N/A"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/settings/ipv4settings/ipv4routetablemodel.cpp:105
+#, kde-format
+msgctxt "@title:column"
+msgid "Address"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/settings/ipv4settings/ipv4routetablemodel.cpp:107
+#, kde-format
+msgctxt "@title:column"
+msgid "Netmask"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/settings/ipv4settings/ipv4routetablemodel.cpp:109
+#, kde-format
+msgctxt "@title:column"
+msgid "Gateway"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/settings/ipv4settings/ipv4routetablemodel.cpp:111
+#, kde-format
+msgctxt "@title:column"
+msgid "Metric"
 msgstr ""
 
 #. +> trunk6

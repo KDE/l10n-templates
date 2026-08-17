@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpmcore\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-02 10:14+0200\n"
+"POT-Creation-Date: 2026-08-17 07:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1676,88 +1676,123 @@ msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
+#: fs/filesystem.cpp:530
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "exfat"
+msgstr ""
+
+#. +> trunk6
+#: fs/filesystem.cpp:512
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "Linux swap"
+msgstr ""
+
+#. +> stable6
 #: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: fs/filesystem.cpp:513
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "FreeBSD swap"
+msgstr ""
+
+#. +> stable6
 #: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "freebsdswap"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "fat16"
+msgid "FAT16"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "fat32"
+msgid "FAT32"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "ntfs"
+msgid "NTFS"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: fs/filesystem.cpp:517
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "ReiserFS"
+msgstr ""
+
+#. +> trunk6
+#: fs/filesystem.cpp:518
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "Reiser4"
+msgstr ""
+
+#. +> stable6
 #: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "xfs"
+msgid "XFS"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:520
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "jfs"
+msgid "JFS"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "hfs"
+msgid "HFS"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "hfsplus"
+msgid "HFS Plus"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "ufs"
+msgid "UFS"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1767,95 +1802,109 @@ msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: fs/filesystem.cpp:525
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "Btrfs"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:516
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "ntfs"
+msgstr ""
+
+#. +> stable6
 #: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "hpfs"
+msgid "HPFS"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "luks"
+msgid "LUKS"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "ocfs2"
+msgid "OCFS2"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "zfs"
+msgid "ZFS"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "exfat"
+msgid "exFAT"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "nilfs2"
+msgid "NILFS2"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:532
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "lvm2 pv"
+msgid "LVM PV"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:533
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "f2fs"
+msgid "F2FS"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "udf"
+msgid "UDF"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "iso9660"
+msgid "ISO 9660"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "luks2"
+msgid "LUKS2"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "fat12"
+msgid "FAT12"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1872,21 +1921,168 @@ msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: fs/filesystem.cpp:540
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "APFS"
+msgstr ""
+
+#. +> trunk6
+#: fs/filesystem.cpp:541
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "MINIX"
+msgstr ""
+
+#. +> trunk6
+#: fs/filesystem.cpp:542
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "Bcachefs"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:514
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "fat16"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:515
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "fat32"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:519
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "xfs"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:520
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "jfs"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:521
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "hfs"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:522
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "hfsplus"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:523
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "ufs"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:526
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "hpfs"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:527
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "luks"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:528
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "ocfs2"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:529
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "zfs"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:531
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "nilfs2"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:532
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "lvm2 pv"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:533
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "f2fs"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:534
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "udf"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:535
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "iso9660"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:536
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "luks2"
+msgstr ""
+
+#. +> stable6
+#: fs/filesystem.cpp:537
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "fat12"
+msgstr ""
+
+#. +> stable6
 #: fs/filesystem.cpp:540
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: fs/filesystem.cpp:541
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: fs/filesystem.cpp:542
 #, kde-kuit-format
 msgctxt "@item filesystem name"
