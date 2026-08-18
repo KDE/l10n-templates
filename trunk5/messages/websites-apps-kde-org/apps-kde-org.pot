@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-apps-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-14 02:12+0000\n"
+"POT-Creation-Date: 2026-08-18 02:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1480,100 +1480,125 @@ msgstr ""
 msgid "iOS"
 msgstr ""
 
-#. unmaintained
-#: i18n/en.yaml:16
-msgid "Unmaintained"
-msgstr ""
-
 #. categories
-#: i18n/en.yaml:19
+#: i18n/en.yaml:17
 msgid "Categories"
 msgstr ""
 
 #. platforms
-#: i18n/en.yaml:21
+#: i18n/en.yaml:19
 msgid "Other platforms"
+msgstr ""
+
+#. lifecycle
+#: i18n/en.yaml:21
+msgid "Lifecycle"
+msgstr ""
+
+#. active
+#: i18n/en.yaml:25
+msgid "Active"
+msgstr ""
+
+#. playground
+#: i18n/en.yaml:27
+msgid "Playground"
+msgstr ""
+
+#. in-review
+#: i18n/en.yaml:29
+msgid "In review"
+msgstr ""
+
+#. reviewed
+#: i18n/en.yaml:31
+msgid "Reviewed"
+msgstr ""
+
+#. unmaintained
+#: i18n/en.yaml:33
+msgid "Unmaintained"
 msgstr ""
 
 #. games-other
 #. Label for sub-category of apps that do not belong to any sub-categories
-#: i18n/en.yaml:25 i18n/en.yaml:28
+#: i18n/en.yaml:37 i18n/en.yaml:40
 msgid "Others"
 msgstr ""
 
 #. popular
-#: i18n/en.yaml:32
+#: i18n/en.yaml:44
 msgid "Popular"
 msgstr ""
 
 #. text-filter-label
-#: i18n/en.yaml:36
+#: i18n/en.yaml:48
 msgid "Filter by name and description"
 msgstr ""
 
 #. category-filter-label
-#: i18n/en.yaml:38
+#: i18n/en.yaml:50
 msgid "Filter by category"
 msgstr ""
 
 #. platform-filter-label
-#: i18n/en.yaml:40
+#: i18n/en.yaml:52
 msgid "Filter by platform"
 msgstr ""
 
 #. all-categories
-#: i18n/en.yaml:42
+#: i18n/en.yaml:54
 msgid "All categories"
 msgstr ""
 
 #. all-platforms
-#: i18n/en.yaml:44
+#: i18n/en.yaml:56
 msgid "All platforms"
 msgstr ""
 
 #. sort-label
-#: i18n/en.yaml:46
+#: i18n/en.yaml:58
 msgid "Sort applications by"
 msgstr ""
 
 #. pop-dsc
-#: i18n/en.yaml:48
+#: i18n/en.yaml:60
 msgid "Popularity, descending"
 msgstr ""
 
 #. pop-asc
-#: i18n/en.yaml:50
+#: i18n/en.yaml:62
 msgid "Popularity, ascending"
 msgstr ""
 
 #. name-asc
-#: i18n/en.yaml:52
+#: i18n/en.yaml:64
 msgid "Name, ascending"
 msgstr ""
 
 #. name-dsc
-#: i18n/en.yaml:54
+#: i18n/en.yaml:66
 msgid "Name, descending"
 msgstr ""
 
 #. platforms-desc
-#: i18n/en.yaml:58
+#: i18n/en.yaml:70
 msgid "Other platforms KDE applications are available on"
 msgstr ""
 
 #. icon-name
 #. %1 app name
-#: i18n/en.yaml:62
+#: i18n/en.yaml:74
 msgid "%1 icon"
 msgstr ""
 
 #. app-unmaintained-notice
-#: i18n/en.yaml:65
+#: i18n/en.yaml:77
 msgid "This app is unmaintained and no longer released by the KDE community."
 msgstr ""
 
 #. app-unreleased-notice
-#: i18n/en.yaml:67
+#: i18n/en.yaml:79
 msgid ""
 "This app is still in development and isn't released yet by the KDE "
 "community."
@@ -1581,18 +1606,18 @@ msgstr ""
 
 #. extendees
 #. Label for a list of apps that an addon extends
-#: i18n/en.yaml:71
+#: i18n/en.yaml:83
 msgid "Extends:"
 msgstr ""
 
 #. install-linux
-#: i18n/en.yaml:76
+#: i18n/en.yaml:88
 msgid "Install on Linux"
 msgstr ""
 
 #. nightly-packages
 #. %1 app name
-#: i18n/en.yaml:78
+#: i18n/en.yaml:90
 msgid ""
 "%1 nightly installers are also available to download from the [KDE "
 "CDN](https://cdn.kde.org/ci-builds/). These versions are intended for "
@@ -1601,208 +1626,208 @@ msgid ""
 msgstr ""
 
 #. nightly-packages-title
-#: i18n/en.yaml:81
+#: i18n/en.yaml:93
 msgid "Nightly installers"
 msgstr ""
 
 #. nightly-stable
-#: i18n/en.yaml:83
+#: i18n/en.yaml:95
 msgid "Stable version."
 msgstr ""
 
 #. nightly-stable-desc
-#: i18n/en.yaml:85
+#: i18n/en.yaml:97
 msgid ""
 "Generated from the latest version of the stable branch. Contains the latest "
 "bugfixes."
 msgstr ""
 
 #. nightly-unstable
-#: i18n/en.yaml:87
+#: i18n/en.yaml:99
 msgid "Unstable version."
 msgstr ""
 
 #. nightly-unstable-desc
-#: i18n/en.yaml:89
+#: i18n/en.yaml:101
 msgid "Generated from the latest version of the development branch."
 msgstr ""
 
 #. macos-arm
-#: i18n/en.yaml:91
+#: i18n/en.yaml:103
 msgid "macOS ARM"
 msgstr ""
 
 #. macos-intel
-#: i18n/en.yaml:93
+#: i18n/en.yaml:105
 msgid "macOS Intel"
 msgstr ""
 
 #. macos-universal
-#: i18n/en.yaml:95
+#: i18n/en.yaml:107
 msgid "macOS Universal"
 msgstr ""
 
 #. android-arm64-v8a
-#: i18n/en.yaml:97
+#: i18n/en.yaml:109
 msgid "Android ARM 64-bit"
 msgstr ""
 
 #. android-armeabi-v7a
-#: i18n/en.yaml:99
+#: i18n/en.yaml:111
 msgid "Android ARM 32-bit"
 msgstr ""
 
 #. android-x86_64
-#: i18n/en.yaml:101
+#: i18n/en.yaml:113
 msgid "Android Intel"
 msgstr ""
 
 #. nightly-flatpak-description
-#: i18n/en.yaml:104
+#: i18n/en.yaml:116
 msgid ""
 "Download the [flatpakref file](%1) and open it with your software center for"
 " installation or run the following in a terminal:"
 msgstr ""
 
 #. releases
-#: i18n/en.yaml:108
+#: i18n/en.yaml:120
 msgid "Releases"
 msgstr ""
 
 #. show-older-releases
-#: i18n/en.yaml:110
+#: i18n/en.yaml:122
 msgid "Show older releases"
 msgstr ""
 
 #. AppImage
-#: i18n/en.yaml:112
+#: i18n/en.yaml:124
 msgid "AppImage"
 msgstr ""
 
 #. extensions
-#: i18n/en.yaml:114
+#: i18n/en.yaml:126
 msgid "Extensions"
 msgstr ""
 
 #. details
 #. %1 app name
-#: i18n/en.yaml:118
+#: i18n/en.yaml:130
 msgid "Details for %1"
 msgstr ""
 
 #. website
-#: i18n/en.yaml:121
+#: i18n/en.yaml:133
 msgid "Project website"
 msgstr ""
 
 #. report
-#: i18n/en.yaml:123
+#: i18n/en.yaml:135
 msgid "Report a bug"
 msgstr ""
 
 #. source
-#: i18n/en.yaml:125
+#: i18n/en.yaml:137
 msgid "Browse source code"
 msgstr ""
 
 #. get-help
-#: i18n/en.yaml:127
+#: i18n/en.yaml:139
 msgid "Get help"
 msgstr ""
 
 #. handbook
 #. %1 app name
-#: i18n/en.yaml:129
+#: i18n/en.yaml:141
 msgid "%1 Handbook"
 msgstr ""
 
 #. forum
-#: i18n/en.yaml:132
+#: i18n/en.yaml:144
 msgid "Forum"
 msgstr ""
 
 #. on-irc-network
-#: i18n/en.yaml:134
+#: i18n/en.yaml:146
 msgid " on Libera.chat"
 msgstr ""
 
 #. get-involved
-#: i18n/en.yaml:136
+#: i18n/en.yaml:148
 msgid "Get involved"
 msgstr ""
 
 #. how-to-contribute
-#: i18n/en.yaml:138
+#: i18n/en.yaml:150
 msgid "How to contribute"
 msgstr ""
 
 #. dev-blogs
-#: i18n/en.yaml:140
+#: i18n/en.yaml:152
 msgid "Developer blogs:"
 msgstr ""
 
 #. bug-list
-#: i18n/en.yaml:142
+#: i18n/en.yaml:154
 msgid "Bug list"
 msgstr ""
 
 #. legacy-api-doc
-#: i18n/en.yaml:144
+#: i18n/en.yaml:156
 msgid "Legacy API Documentation"
 msgstr ""
 
 #. l10n-trunk-gui
-#: i18n/en.yaml:146
+#: i18n/en.yaml:158
 msgid "Trunk GUI"
 msgstr ""
 
 #. l10n-stable-gui
-#: i18n/en.yaml:148
+#: i18n/en.yaml:160
 msgid "Stable GUI"
 msgstr ""
 
 #. l10n-doc
-#: i18n/en.yaml:150
+#: i18n/en.yaml:162
 msgid "Doc"
 msgstr ""
 
 #. authors
-#: i18n/en.yaml:152
+#: i18n/en.yaml:164
 msgid "Author(s):"
 msgstr ""
 
 #. details.thanks
-#: i18n/en.yaml:154
+#: i18n/en.yaml:166
 msgid "Thanks to:"
 msgstr ""
 
 #. details.supporters
-#: i18n/en.yaml:156
+#: i18n/en.yaml:168
 msgid "Supported by:"
 msgstr ""
 
 #. details.supporters_more
-#: i18n/en.yaml:158
+#: i18n/en.yaml:170
 msgid "Support %1 too by becoming a Supporting Member."
 msgstr ""
 
 #. mastodon
-#: i18n/en.yaml:160
+#: i18n/en.yaml:172
 msgid "Mastodon"
 msgstr ""
 
 #. education.vocab
-#: i18n/en.yaml:164
+#: i18n/en.yaml:176
 msgid "Vocabulary Files"
 msgstr ""
 
 #. education.vocab.intro
-#: i18n/en.yaml:166
+#: i18n/en.yaml:178
 msgid "Here we present some contributions to our applications."
 msgstr ""
 
 #. education.vocab.intro2
-#: i18n/en.yaml:168
+#: i18n/en.yaml:180
 msgid ""
 "All the files here are distributed under free licenses. If not otherwise "
 "stated this is the <b>GNU General Public License</b>. You are encouraged to "
@@ -1812,13 +1837,13 @@ msgid ""
 msgstr ""
 
 #. education.vocab.create
-#: i18n/en.yaml:170
+#: i18n/en.yaml:182
 msgid "Create Your Files"
 msgstr ""
 
 #. education.vocab.create.kwordquiz
 #. %1 link
-#: i18n/en.yaml:172
+#: i18n/en.yaml:184
 msgid ""
 "You can create a vocabulary file using [KWordQuiz](%1). You add the back and"
 " front for each cards and then you save your data."
@@ -1826,7 +1851,7 @@ msgstr ""
 
 #. education.vocab.create.parley
 #. %1 link
-#: i18n/en.yaml:175
+#: i18n/en.yaml:187
 msgid ""
 "You can also use [Parley](%1). Parley offers a wealth of editing "
 "possibilities."
@@ -1834,7 +1859,7 @@ msgstr ""
 
 #. education.vocab.create.example
 #. %1 link
-#: i18n/en.yaml:178
+#: i18n/en.yaml:190
 msgid ""
 "Please see [here](%1) for an example of a vocabulary file if you want to "
 "create one with an editor."
@@ -1842,7 +1867,7 @@ msgstr ""
 
 #. education.kvtml
 #. %1, %2, %3, %4 links
-#: i18n/en.yaml:181
+#: i18n/en.yaml:193
 msgid ""
 "The learning files listed here are intended for use with [Parley](%1) and "
 "[KWordQuiz](%2). To some extent these files also work with [Kanagram](%3) "
@@ -1850,104 +1875,104 @@ msgid ""
 msgstr ""
 
 #. education.vocab.lang
-#: i18n/en.yaml:184
+#: i18n/en.yaml:196
 msgid "Vocabulary / Languages"
 msgstr ""
 
 #. education.vocab.anatomy
-#: i18n/en.yaml:186
+#: i18n/en.yaml:198
 msgid "Anatomy / Physiology"
 msgstr ""
 
 #. education.vocab.anatomy.joints
-#: i18n/en.yaml:188
+#: i18n/en.yaml:200
 msgid "Joints"
 msgstr ""
 
 #. education.vocab.anatomy.bones
-#: i18n/en.yaml:190
+#: i18n/en.yaml:202
 msgid "Bones"
 msgstr ""
 
 #. education.vocab.anatomy.muscles
-#: i18n/en.yaml:192
+#: i18n/en.yaml:204
 msgid "Muscles"
 msgstr ""
 
 #. education.vocab.anatomy.ligamenti
-#: i18n/en.yaml:194
+#: i18n/en.yaml:206
 msgid "Ligamenti"
 msgstr ""
 
 #. education.vocab.anatomy.misc
-#: i18n/en.yaml:196
+#: i18n/en.yaml:208
 msgid "Miscellaneous"
 msgstr ""
 
 #. education.vocab.music
-#: i18n/en.yaml:198
+#: i18n/en.yaml:210
 msgid "Music"
 msgstr ""
 
 #. education.vocab.music.guitar
-#: i18n/en.yaml:200
+#: i18n/en.yaml:212
 msgid "Guitar"
 msgstr ""
 
 #. education.vocab.music.theory
-#: i18n/en.yaml:202
+#: i18n/en.yaml:214
 msgid "Music Theory"
 msgstr ""
 
 #. education.vocab.history
-#: i18n/en.yaml:204
+#: i18n/en.yaml:216
 msgid "History"
 msgstr ""
 
 #. education.vocab.geography
-#: i18n/en.yaml:206
+#: i18n/en.yaml:218
 msgid "Geography"
 msgstr ""
 
 #. education.vocab.maths
-#: i18n/en.yaml:208
+#: i18n/en.yaml:220
 msgid "Maths"
 msgstr ""
 
 #. education.vocab.chemistry
-#: i18n/en.yaml:210
+#: i18n/en.yaml:222
 msgid "Chemistry"
 msgstr ""
 
 #. education.vocab.exam
-#: i18n/en.yaml:212
+#: i18n/en.yaml:224
 msgid "Exam Preparation"
 msgstr ""
 
 #. education.additional
-#: i18n/en.yaml:216
+#: i18n/en.yaml:228
 msgid "Additional information"
 msgstr ""
 
 #. games.title
-#: i18n/en.yaml:220
+#: i18n/en.yaml:232
 msgid "KDE Games"
 msgstr ""
 
 #. games.subtitle
-#: i18n/en.yaml:222
+#: i18n/en.yaml:234
 msgid "High Quality Gaming and Entertainment Software"
 msgstr ""
 
 #. games.intro1
-#: i18n/en.yaml:224
+#: i18n/en.yaml:236
 msgid ""
 "**KDE Games** is a part of the [KDE community](https://kde.org) focusing on "
 "providing desktop users with high quality gaming and entertainment software."
 msgstr ""
 
 #. games.intro2
-#: i18n/en.yaml:226
+#: i18n/en.yaml:238
 msgid ""
 "We realize that games are first and foremost about fun and our greatest "
 "ambition is to create only the most enjoyable and amusing playware. The "
@@ -1957,7 +1982,7 @@ msgid ""
 msgstr ""
 
 #. games.intro3
-#: i18n/en.yaml:228
+#: i18n/en.yaml:240
 msgid ""
 "To date **KDE Games** has accumulated an impressive selection of quality "
 "games in nearly all genres. Each of these small masterpieces have been "
@@ -1966,61 +1991,61 @@ msgid ""
 msgstr ""
 
 #. games.all
-#: i18n/en.yaml:230
+#: i18n/en.yaml:242
 msgid "All Games"
 msgstr ""
 
 #. games.old
-#: i18n/en.yaml:232
+#: i18n/en.yaml:244
 msgid "older games"
 msgstr ""
 
 #. games.additional
-#: i18n/en.yaml:236
+#: i18n/en.yaml:248
 msgid "How to play"
 msgstr ""
 
 #. development
-#: i18n/en.yaml:239
+#: i18n/en.yaml:251
 msgid "Development"
 msgstr ""
 
 #. education
-#: i18n/en.yaml:241
+#: i18n/en.yaml:253
 msgid "Education"
 msgstr ""
 
 #. games
-#: i18n/en.yaml:243
+#: i18n/en.yaml:255
 msgid "Games"
 msgstr ""
 
 #. graphics
-#: i18n/en.yaml:245
+#: i18n/en.yaml:257
 msgid "Graphics"
 msgstr ""
 
 #. internet
-#: i18n/en.yaml:247
+#: i18n/en.yaml:259
 msgid "Internet"
 msgstr ""
 
 #. multimedia
-#: i18n/en.yaml:249
+#: i18n/en.yaml:261
 msgid "Multimedia"
 msgstr ""
 
 #. office
-#: i18n/en.yaml:251
+#: i18n/en.yaml:263
 msgid "Office"
 msgstr ""
 
 #. system
-#: i18n/en.yaml:253
+#: i18n/en.yaml:265
 msgid "System"
 msgstr ""
 
 #. utilities
-#: i18n/en.yaml:255
+#: i18n/en.yaml:267
 msgid "Utilities"
 msgstr ""
