@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-18 08:26+0200\n"
+"POT-Creation-Date: 2026-08-19 09:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -79,10 +79,18 @@ msgstr ""
 msgid "KDE Wayland Compositor"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: compositor.cpp:760
+#. +> trunk6
+#: core/gpumanager.cpp:278
 #, kde-format
-msgid "Desktop effects were restarted due to a graphics reset"
+msgctxt "@info: status"
+msgid "Graphics card “%1” (%2) was reset"
+msgstr ""
+
+#. +> trunk6
+#: core/gpumanager.cpp:280
+#, kde-format
+msgctxt "@info: status"
+msgid "Graphics card “%1” was reset"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5387,6 +5395,12 @@ msgstr ""
 #: xwayland/xwaylandlauncher.cpp:323
 #, kde-format
 msgid "Xwayland has crashed"
+msgstr ""
+
+#. +> stable6 stable5
+#: compositor.cpp:657
+#, kde-format
+msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
 
 #. +> stable5
