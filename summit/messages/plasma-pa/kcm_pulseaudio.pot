@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-pa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-18 08:26+0200\n"
+"POT-Creation-Date: 2026-08-20 08:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -230,7 +230,19 @@ msgstr ""
 msgid "Recording Streams"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: kcm/ui/main.qml:312
+#, kde-kuit-format
+msgctxt "@info %1 is an error string produced by an external component, and probably untranslated"
+msgid ""
+"The PulseAudio audio subsystem was unable to play a test sound, and reported the following error:<nl/>"
+"<nl/>"
+"“%1”<nl/>"
+"<nl/>"
+"Restart the system and try again."
+msgstr ""
+
+#. +> stable6 stable5
 #: kcm/ui/main.qml:312
 #, kde-format
 msgctxt "%1 is an error string produced by an external component, and probably untranslated"
@@ -299,7 +311,7 @@ msgstr ""
 msgid "Click on any speaker to test sound"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: kcm/ui/main.qml:505
 #, kde-kuit-format
 msgctxt "@info"
@@ -309,64 +321,76 @@ msgid ""
 "%1"
 msgstr ""
 
+#. +> trunk6
+#: kcm/ui/main.qml:507
+#, kde-kuit-format
+msgctxt "@info %1 is an error string produced by an external component, and probably untranslated"
+msgid ""
+"The PulseAudio audio subsystem was unable to record sound, and reported the following error:<nl/>"
+"<nl/>"
+"“%1”<nl/>"
+"<nl/>"
+"Restart the system and try again."
+msgstr ""
+
 #. +> trunk6 stable6
-#: kcm/ui/main.qml:570
+#: kcm/ui/main.qml:572
 #, kde-format
 msgctxt "Button to stop microphone recording in test mode"
 msgid "Stop"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcm/ui/main.qml:570
+#: kcm/ui/main.qml:572
 #, kde-format
 msgctxt "Button to start microphone recording in test mode"
 msgid "Record"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcm/ui/main.qml:583
+#: kcm/ui/main.qml:585
 #, kde-format
 msgctxt "Button to stop microphone playing in test mode"
 msgid "Stop"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcm/ui/main.qml:583
+#: kcm/ui/main.qml:585
 #, kde-format
 msgctxt "Button to start microphone playing in test mode"
 msgid "Play"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcm/ui/main.qml:602
+#: kcm/ui/main.qml:604
 #, kde-format
 msgctxt "Label above the microphone volume meter in test overlay"
 msgid "Volume level"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcm/ui/main.qml:632
+#: kcm/ui/main.qml:634
 #, kde-format
 msgctxt "Label showing current microphone input level percentage in test mode"
 msgid "%1 %"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcm/ui/main.qml:647
+#: kcm/ui/main.qml:649
 #, kde-format
 msgctxt "Label above the microphone sensitivity slider in test overlay"
 msgid "Sensitivity"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcm/ui/main.qml:678 kcm/ui/VolumeSlider.qml:68
+#: kcm/ui/main.qml:680 kcm/ui/VolumeSlider.qml:68
 #, kde-format
 msgctxt "volume percentage"
 msgid "%1%"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcm/ui/main.qml:691 kcm/ui/VolumeSlider.qml:89
+#: kcm/ui/main.qml:693 kcm/ui/VolumeSlider.qml:89
 #, kde-format
 msgctxt "only used for sizing, should be widest possible string"
 msgid "100%"
@@ -630,32 +654,67 @@ msgctxt "Microphone name: is currently muted (osd, keep short)"
 msgid "%1: Muted"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: microphonetest.cpp:105 microphonetest.cpp:147 microphonetest.cpp:258
+#, kde-format
+msgctxt "@info:status"
+msgid "PulseAudio context is not ready."
+msgstr ""
+
+#. +> stable6
+#: microphonetest.cpp:106 microphonetest.cpp:217
 #, kde-format
 msgid "PulseAudio context is not ready"
 msgstr ""
 
-#. +> trunk6 stable6
-#: microphonetest.cpp:155
-#, kde-format
-msgid "Failed to create a record stream"
-msgstr ""
-
-#. +> trunk6 stable6
-#: microphonetest.cpp:171
+#. +> stable6
+#: microphonetest.cpp:130
 #, kde-format
 msgid "Failed to connect record: %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: microphonetest.cpp:155
+#, kde-format
+msgctxt "@info:status"
+msgid "Couldn’t create a recording stream."
+msgstr ""
+
+#. +> stable6
+#: microphonetest.cpp:114
+#, kde-format
+msgid "Failed to create a record stream"
+msgstr ""
+
+#. +> trunk6
+#: microphonetest.cpp:171
+#, kde-format
+msgctxt "@info:status"
+msgid "Couldn’t connect to recording stream: %1."
+msgstr ""
+
+#. +> trunk6
 #: microphonetest.cpp:268
+#, kde-format
+msgctxt "@info:status"
+msgid "Couldn’t create a playback stream."
+msgstr ""
+
+#. +> stable6
+#: microphonetest.cpp:227
 #, kde-format
 msgid "Couldn't create a playback stream"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: microphonetest.cpp:284
+#, kde-format
+msgctxt "@info:status"
+msgid "Couldn’t connect to playback stream: %1"
+msgstr ""
+
+#. +> stable6
+#: microphonetest.cpp:243
 #, kde-format
 msgid "Couldn't connect playback"
 msgstr ""
