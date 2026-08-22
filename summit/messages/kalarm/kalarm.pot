@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-14 07:44+0200\n"
+"POT-Creation-Date: 2026-08-22 08:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -6895,6 +6895,44 @@ msgctxt "@info"
 msgid "Error!  The file <filename>%1</filename> is already used by an existing calendar."
 msgstr ""
 
+#. +> trunk6
+#: resources/fileresourcedatamodel.cpp:406
+#, kde-format
+msgid "Checking for existing KAlarm calendars to migrate."
+msgstr ""
+
+#. +> trunk6
+#: resources/fileresourcedatamodel.cpp:411
+#, kde-format
+msgid " – Waiting for Akonadi to start."
+msgstr ""
+
+#. +> trunk6
+#: resources/fileresourcedatamodel.cpp:414
+#, kde-format
+msgid " – Finding KAlarm Akonadi resources."
+msgstr ""
+
+#. +> trunk6
+#: resources/fileresourcedatamodel.cpp:417
+#, kde-format
+msgid "Migrating existing KAlarm calendars."
+msgstr ""
+
+#. +> trunk6
+#: resources/fileresourcedatamodel.cpp:432
+#, kde-format
+msgctxt "@title:window"
+msgid "Calendar migration"
+msgstr ""
+
+#. +> trunk6
+#: resources/fileresourcedatamodel.cpp:449
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel migration"
+msgstr ""
+
 #. +> trunk6 stable6
 #: resources/migration/dirresourceimportdialog.cpp:34
 #, kde-format
@@ -7132,28 +7170,28 @@ msgid "Do not import"
 msgstr ""
 
 #. +> trunk6 stable6
-#: resources/migration/fileresourcemigrator.cpp:260
+#: resources/migration/fileresourcemigrator.cpp:297
 #, kde-format
 msgctxt "@info/plain Name of a calendar"
 msgid "Active Alarms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: resources/migration/fileresourcemigrator.cpp:262
+#: resources/migration/fileresourcemigrator.cpp:299
 #, kde-format
 msgctxt "@info/plain Name of a calendar"
 msgid "Archived Alarms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: resources/migration/fileresourcemigrator.cpp:264
+#: resources/migration/fileresourcemigrator.cpp:301
 #, kde-format
 msgctxt "@info/plain Name of a calendar"
 msgid "Alarm Templates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: resources/migration/fileresourcemigrator.cpp:284
+#: resources/migration/fileresourcemigrator.cpp:321
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
