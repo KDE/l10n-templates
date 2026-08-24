@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-20 08:41+0200\n"
+"POT-Creation-Date: 2026-08-24 09:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -141,6 +141,54 @@ msgstr ""
 #, kde-format
 msgctxt "Tooltip text, describing that '%1' branch is checked out"
 msgid "Active branch: %1"
+msgstr ""
+
+#. +> trunk6
+#: git/gitstatus.cpp:159
+#, kde-format
+msgid " ‣ Modified"
+msgstr ""
+
+#. +> trunk6
+#: git/gitstatus.cpp:161
+#, kde-format
+msgid " ‣ Untracked"
+msgstr ""
+
+#. +> trunk6
+#: git/gitstatus.cpp:163
+#, kde-format
+msgid " ‣ Renamed"
+msgstr ""
+
+#. +> trunk6
+#: git/gitstatus.cpp:166
+#, kde-format
+msgid " ‣ Deleted"
+msgstr ""
+
+#. +> trunk6
+#: git/gitstatus.cpp:169
+#, kde-format
+msgid " ‣ Added"
+msgstr ""
+
+#. +> trunk6
+#: git/gitstatus.cpp:171
+#, kde-format
+msgid " ‣ Copied"
+msgstr ""
+
+#. +> trunk6
+#: git/gitstatus.cpp:173
+#, kde-format
+msgid " ‣ Ignored"
+msgstr ""
+
+#. +> trunk6
+#: git/gitstatus.cpp:181
+#, kde-format
+msgid " ‣ Conflicted"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1373,6 +1421,162 @@ msgstr ""
 #: stashdialog.cpp:225
 #, kde-format
 msgid "Show stash failed. Error: "
+msgstr ""
+
+#. +> trunk6
+#: tools/clazy.h:25
+#, kde-format
+msgid "Clazy (Qt/C++)"
+msgstr ""
+
+#. +> trunk6
+#: tools/clazy.h:30
+#, kde-format
+msgid "Clazy is a static analysis tool for Qt/C++ code"
+msgstr ""
+
+#. +> trunk6
+#: tools/clazy.h:71
+#, kde-format
+msgid "Please install 'clazy'"
+msgstr ""
+
+#. +> trunk6
+#: tools/clazycurrent.h:24
+#, kde-format
+msgid "Clazy - Current File"
+msgstr ""
+
+#. +> trunk6
+#: tools/clazycurrent.h:29
+#, kde-format
+msgid "clang-tidy is a clang-based C++ “linter” tool"
+msgstr ""
+
+#. +> trunk6
+#: tools/clippy.h:27
+#, kde-format
+msgid "Clippy (Rust)"
+msgstr ""
+
+#. +> trunk6
+#: tools/clippy.h:32
+#, kde-format
+msgid "Clippy is a static analysis tool for Rust code"
+msgstr ""
+
+#. +> trunk6
+#: tools/clippy.h:95
+#, kde-format
+msgid "Please install 'cargo'"
+msgstr ""
+
+#. +> trunk6
+#: tools/cppcheck.h:26
+#, kde-format
+msgid "Cppcheck (C++)"
+msgstr ""
+
+#. +> trunk6
+#: tools/cppcheck.h:31
+#, kde-format
+msgid "Cppcheck is a static analysis tool for C/C++ code"
+msgstr ""
+
+#. +> trunk6
+#: tools/cppcheck.h:64
+#, kde-format
+msgid "Please install 'cppcheck'"
+msgstr ""
+
+#. +> trunk6
+#: tools/eslint.h:23
+#, kde-format
+msgid "ESLint"
+msgstr ""
+
+#. +> trunk6
+#: tools/eslint.h:28
+#, kde-format
+msgid "ESLint is a static analysis tool & style guide enforcer for JavaScript/Typescript code"
+msgstr ""
+
+#. +> trunk6
+#: tools/eslint.h:67
+#, kde-format
+msgid "Please install 'eslint'"
+msgstr ""
+
+#. +> trunk6
+#: tools/flake8.h:26
+#, kde-format
+msgid "Flake8 (Python)"
+msgstr ""
+
+#. +> trunk6
+#: tools/flake8.h:31
+#, kde-format
+msgid "Flake8: Your Tool For Style Guide Enforcement for Python"
+msgstr ""
+
+#. +> trunk6
+#: tools/flake8.h:77
+#, kde-format
+msgid "Please install 'flake8'"
+msgstr ""
+
+#. +> trunk6
+#: tools/ruff.h:28
+#, kde-format
+msgid "Ruff (Python)"
+msgstr ""
+
+#. +> trunk6
+#: tools/ruff.h:33
+#, kde-format
+msgid "An extremely fast Python linter"
+msgstr ""
+
+#. +> trunk6
+#: tools/ruff.h:64
+#, kde-format
+msgid "Ruff is not installed. Please use your package manager to install it. See https://docs.astral.sh/ruff/installation/"
+msgstr ""
+
+#. +> trunk6
+#: tools/shellcheck.h:24
+#, kde-format
+msgid "ShellCheck (sh/bash)"
+msgstr ""
+
+#. +> trunk6
+#: tools/shellcheck.h:29
+#, kde-format
+msgid "ShellCheck is a static analysis and linting tool for sh/bash scripts"
+msgstr ""
+
+#. +> trunk6
+#: tools/shellcheck.h:73
+#, kde-format
+msgid "Please install ShellCheck (see https://www.shellcheck.net)"
+msgstr ""
+
+#. +> trunk6
+#: tools/tidy.h:24
+#, kde-format
+msgid "Html Tidy"
+msgstr ""
+
+#. +> trunk6
+#: tools/tidy.h:29
+#, kde-format
+msgid "Runs html tidy on current file"
+msgstr ""
+
+#. +> trunk6
+#: tools/tidy.h:64
+#, kde-format
+msgid "Html tidy is not installed. Please use your package manager to install it. See https://www.html-tidy.org/"
 msgstr ""
 
 #. i18n: ectx: Menu (projects)
