@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: chessament\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-16 07:02+0200\n"
+"POT-Creation-Date: 2026-08-25 08:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -896,19 +896,25 @@ msgid "No standings yet"
 msgstr ""
 
 #. +> trunk6
-#: qml/UpdateRatingsDialog.qml:17
+#: qml/UpdateRatingsDialog.qml:18
 msgctxt "@title"
 msgid "Update Ratings"
 msgstr ""
 
 #. +> trunk6
-#: qml/UpdateRatingsDialog.qml:25
+#: qml/UpdateRatingsDialog.qml:26
+msgctxt "@info"
+msgid "No rating lists available."
+msgstr ""
+
+#. +> trunk6
+#: qml/UpdateRatingsDialog.qml:34
 msgctxt "@label:listbox"
 msgid "Choose a rating list:"
 msgstr ""
 
 #. +> trunk6
-#: qml/UpdateRatingsDialog.qml:35
+#: qml/UpdateRatingsDialog.qml:45
 msgctxt "@action:button Update players ratings"
 msgid "Update"
 msgstr ""
@@ -1397,15 +1403,15 @@ msgid "Edit Tiebreak"
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:167
-#: tournament/ratinglists/ratinglistsmanager.cpp:200
+#: tournament/ratinglists/ratinglistsmanager.cpp:191
+#: tournament/ratinglists/ratinglistsmanager.cpp:224
 #, kde-format
 msgctxt "@info"
 msgid "Could not open file."
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:183
+#: tournament/ratinglists/ratinglistsmanager.cpp:207
 #, kde-format
 msgctxt "@info:progress"
 msgid "Imported one player."
@@ -1414,21 +1420,21 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:195
+#: tournament/ratinglists/ratinglistsmanager.cpp:219
 #, kde-format
 msgctxt "@info"
 msgid "Could not open file: the file does not exists."
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:216
+#: tournament/ratinglists/ratinglistsmanager.cpp:240
 #, kde-format
 msgctxt "@info:progress"
 msgid "Downloading file…"
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:232
+#: tournament/ratinglists/ratinglistsmanager.cpp:256
 #, kde-format
 msgctxt "@info:progress %1 & %2 are the file download progress (received / total), %3 is the download percentage"
 msgid ""
@@ -1437,36 +1443,37 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:244
+#: tournament/ratinglists/ratinglistsmanager.cpp:268
 #, kde-format
 msgctxt "@info"
 msgid "Could not download rating list: %1"
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:256
+#: tournament/ratinglists/ratinglistsmanager.cpp:280
 #, kde-format
 msgctxt "@info"
 msgid "Could not download rating list from %1 (unsupported protocol)."
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:269
+#: tournament/ratinglists/ratinglistsmanager.cpp:293
 #, kde-format
 msgctxt "@info"
 msgid "Could not extract file."
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:274
-#: tournament/ratinglists/ratinglistsmanager.cpp:293
+#: tournament/ratinglists/ratinglistsmanager.cpp:298
+#: tournament/ratinglists/ratinglistsmanager.cpp:303
+#: tournament/ratinglists/ratinglistsmanager.cpp:321
 #, kde-format
 msgctxt "@info"
 msgid "File format not supported."
 msgstr ""
 
 #. +> trunk6
-#: tournament/ratinglists/ratinglistsmanager.cpp:482
+#: tournament/ratinglists/ratinglistsmanager.cpp:510
 #, kde-format
 msgctxt "@info:progress"
 msgid "Saved 1 player."
