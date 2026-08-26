@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kasts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-13 09:00+0200\n"
+"POT-Creation-Date: 2026-08-26 10:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -118,14 +118,14 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: kmediasession/example-app/qml/Main.qml:103 qml/ChapterListDelegate.qml:48
-#: qml/Desktop/DesktopPlayerControls.qml:136 qml/GenericEntryDelegate.qml:389
+#: qml/Desktop/DesktopPlayerControls.qml:136 qml/GenericEntryDelegate.qml:392
 #, kde-format
 msgid "Play"
 msgstr ""
 
 #. +> trunk6 stable6
 #: kmediasession/example-app/qml/Main.qml:111
-#: qml/Desktop/DesktopPlayerControls.qml:136 qml/GenericEntryDelegate.qml:412
+#: qml/Desktop/DesktopPlayerControls.qml:136 qml/GenericEntryDelegate.qml:415
 #, kde-format
 msgid "Pause"
 msgstr ""
@@ -235,84 +235,98 @@ msgid "Bart De Vries"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:181
+#: models/abstractepisodeproxymodel.cpp:168
 #, kde-format
 msgctxt "@label:chooser Choice of filter for episode list"
 msgid "No filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:183
+#: models/abstractepisodeproxymodel.cpp:170
 #, kde-format
 msgctxt "@label:chooser Choice of filter for episode list"
 msgid "Played episodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:185
+#: models/abstractepisodeproxymodel.cpp:172
 #, kde-format
 msgctxt "@label:chooser Choice of filter for episode list"
 msgid "Unplayed episodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:187
+#: models/abstractepisodeproxymodel.cpp:174
 #, kde-format
 msgctxt "@label:chooser Choice of filter for episode list"
 msgid "Episodes marked as \"New\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:189
+#: models/abstractepisodeproxymodel.cpp:176
 #, kde-format
 msgctxt "@label:chooser Choice of filter for episode list"
 msgid "Episodes not marked as \"New\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:191
+#: models/abstractepisodeproxymodel.cpp:178
 #, kde-format
 msgctxt "@label:chooser Choice of filter for episode list"
 msgid "Episodes marked as Favorite"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:193
+#: models/abstractepisodeproxymodel.cpp:180
 #, kde-format
 msgctxt "@label:chooser Choice of filter for episode list"
 msgid "Episodes not marked as Favorite"
 msgstr ""
 
+#. +> trunk6
+#: models/abstractepisodeproxymodel.cpp:182
+#, kde-format
+msgctxt "@label:chooser Choice of filter for episode list"
+msgid "Downloaded episodes"
+msgstr ""
+
+#. +> trunk6
+#: models/abstractepisodeproxymodel.cpp:184
+#, kde-format
+msgctxt "@label:chooser Choice of filter for episode list"
+msgid "Not downloaded episodes"
+msgstr ""
+
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:203
+#: models/abstractepisodeproxymodel.cpp:194
 #, kde-format
 msgctxt "@label:chooser Choice of fields to search for string"
 msgid "Title"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:205
+#: models/abstractepisodeproxymodel.cpp:196
 #, kde-format
 msgctxt "@label:chooser Choice of fields to search for string"
 msgid "Description"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:207
+#: models/abstractepisodeproxymodel.cpp:198
 #, kde-format
 msgctxt "@label:chooser Choice of fields to search for string"
 msgid "Podcast title"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:217
+#: models/abstractepisodeproxymodel.cpp:208
 #, kde-format
 msgctxt "@label:chooser Sort episodes by decreasing date"
 msgid "Date: newer first"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/abstractepisodeproxymodel.cpp:219
+#: models/abstractepisodeproxymodel.cpp:210
 #, kde-format
 msgctxt "@label:chooser Sort episodes by increasing date"
 msgid "Date: older first"
@@ -685,28 +699,28 @@ msgid "No downloads"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/DownloadListPage.qml:76
+#: qml/DownloadListPage.qml:77 qml/GenericEntryListView.qml:43
 #, kde-format
 msgctxt "@title:group Status of downloaded episodes"
 msgid "Downloading"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/DownloadListPage.qml:76
+#: qml/DownloadListPage.qml:77 qml/GenericEntryListView.qml:43
 #, kde-format
 msgctxt "@title:group Status of downloaded episodes"
 msgid "Incomplete Downloads"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/DownloadListPage.qml:76
+#: qml/DownloadListPage.qml:77 qml/GenericEntryListView.qml:43
 #, kde-format
 msgctxt "@title:group Status of downloaded episodes"
 msgid "Downloaded"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/DownloadListPage.qml:76
+#: qml/DownloadListPage.qml:77 qml/GenericEntryListView.qml:43
 #, kde-format
 msgctxt "@title:group Status of downloaded episodes"
 msgid "Queued"
@@ -818,14 +832,14 @@ msgid "Label as \"New\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/EntryPage.qml:208 qml/GenericEntryListView.qml:321
+#: qml/EntryPage.qml:208 qml/GenericEntryListView.qml:336
 #, kde-format
 msgctxt "@action:intoolbar Button to remove the \"favorite\" property of a podcast episode"
 msgid "Remove from Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/EntryPage.qml:208 qml/GenericEntryListView.qml:312
+#: qml/EntryPage.qml:208 qml/GenericEntryListView.qml:327
 #, kde-format
 msgctxt "@action:intoolbar Button to add a podcast episode as favorite"
 msgid "Add to Favorites"
@@ -1162,133 +1176,147 @@ msgid "Active filter: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryDelegate.qml:224
+#: qml/GenericEntryDelegate.qml:227
 #, kde-format
 msgid "Played"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryDelegate.qml:224
+#: qml/GenericEntryDelegate.qml:227
 #, kde-format
 msgid "Read"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryDelegate.qml:230
+#: qml/GenericEntryDelegate.qml:233
 #, kde-format
 msgid "New"
 msgstr ""
 
 #. +> trunk6
-#: qml/GenericEntryDelegate.qml:268
+#: qml/GenericEntryDelegate.qml:271
 #, kde-format
 msgctxt "@info:tooltip Tooltip for an icon that can be displayed on an episode list item"
 msgid "This episode has been removed from the podcast RSS feed by the podcast author(s). Downloading and/or streaming this episode might be broken."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryDelegate.qml:349 qml/GenericEntryListView.qml:268
+#: qml/GenericEntryDelegate.qml:352 qml/GenericEntryListView.qml:283
 #, kde-format
 msgid "Remove from Queue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryDelegate.qml:358 qml/GenericEntryListView.qml:330
+#: qml/GenericEntryDelegate.qml:361 qml/GenericEntryListView.qml:345
 #, kde-format
 msgid "Download"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryDelegate.qml:368
+#: qml/GenericEntryDelegate.qml:371
 #, kde-format
 msgid "Cancel Download"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryDelegate.qml:375
+#: qml/GenericEntryDelegate.qml:378
 #, kde-format
 msgid "Delete Download"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryDelegate.qml:382 qml/GenericEntryListView.qml:258
+#: qml/GenericEntryDelegate.qml:385 qml/GenericEntryListView.qml:273
 #, kde-format
 msgid "Add to Queue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryDelegate.qml:399 qml/GenericEntryListView.qml:349
+#: qml/GenericEntryDelegate.qml:402 qml/GenericEntryListView.qml:364
 #, kde-format
 msgctxt "@action:inmenu Action to start playback by streaming the episode rather than downloading it first"
 msgid "Stream"
 msgstr ""
 
+#. +> trunk6
+#: qml/GenericEntryListView.qml:43
+#, kde-format
+msgctxt "@title:group Status of downloaded episodes"
+msgid "Not Downloaded"
+msgstr ""
+
+#. +> trunk6
+#: qml/GenericEntryListView.qml:43
+#, kde-format
+msgctxt "@title:group Status of downloaded episodes"
+msgid "Episodes without Media Files"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:136
+#: qml/GenericEntryListView.qml:151
 #, kde-format
 msgctxt "@action:intoolbar Open menu with options to sort episodes"
 msgid "Sort"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:139
+#: qml/GenericEntryListView.qml:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select how to sort episodes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:193
+#: qml/GenericEntryListView.qml:208
 #, kde-format
 msgctxt "@action:intoolbar Button to open menu to filter episodes based on their status (played, new, etc.)"
 msgid "Filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:195
+#: qml/GenericEntryListView.qml:210
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Filter episodes by status"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:239
+#: qml/GenericEntryListView.qml:254
 #, kde-format
 msgid "Select All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:249
+#: qml/GenericEntryListView.qml:264
 #, kde-format
 msgid "Deselect All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:278
+#: qml/GenericEntryListView.qml:293
 #, kde-format
 msgid "Mark as Played"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:286
+#: qml/GenericEntryListView.qml:301
 #, kde-format
 msgid "Mark as Unplayed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:294
+#: qml/GenericEntryListView.qml:309
 #, kde-format
 msgid "Label as \"New\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:303
+#: qml/GenericEntryListView.qml:318
 #, kde-format
 msgid "Remove \"New\" Label"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/GenericEntryListView.qml:340
+#: qml/GenericEntryListView.qml:355
 #, kde-format
 msgctxt "context menu action"
 msgid "Delete Download"

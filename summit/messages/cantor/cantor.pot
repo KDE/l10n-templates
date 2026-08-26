@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cantor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-25 08:29+0200\n"
+"POT-Creation-Date: 2026-08-26 10:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2106,7 +2106,8 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. +> trunk6 stable6
-#: backends/qalculate/settings.ui:205 worksheetentry.cpp:498
+#: backends/qalculate/settings.ui:205 worksheetentry.cpp:499
+#: worksheetentry.cpp:521
 #, kde-format
 msgid "Evaluate"
 msgstr ""
@@ -3182,7 +3183,7 @@ msgid "Restart Backend"
 msgstr ""
 
 #. +> trunk6 stable6
-#: cantor_part.cpp:295 worksheetentry.cpp:964
+#: cantor_part.cpp:295 worksheetentry.cpp:980
 #, kde-format
 msgid "Evaluate Entry"
 msgstr ""
@@ -5608,47 +5609,53 @@ msgstr ""
 #. +> trunk6
 #: worksheetentry.cpp:502
 #, kde-format
-msgid "Evaluate Selected Entry and All Below"
+msgid "Selected Entry and All Above"
 msgstr ""
 
 #. +> trunk6
-#: worksheetentry.cpp:506
+#: worksheetentry.cpp:507
 #, kde-format
-msgid "Evaluate Selected Entry and All Above"
+msgid "Selected Entry"
+msgstr ""
+
+#. +> trunk6
+#: worksheetentry.cpp:512
+#, kde-format
+msgid "Selected Entry and All Below"
 msgstr ""
 
 #. +> trunk6 stable6
-#: worksheetentry.cpp:514
+#: worksheetentry.cpp:530
 #, kde-format
 msgid "Move Up"
 msgstr ""
 
 #. +> trunk6 stable6
-#: worksheetentry.cpp:522
+#: worksheetentry.cpp:538
 #, kde-format
 msgid "Move Down"
 msgstr ""
 
 #. +> trunk6 stable6
-#: worksheetentry.cpp:529
+#: worksheetentry.cpp:545
 #, kde-format
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: worksheetentry.cpp:827
+#: worksheetentry.cpp:843
 #, kde-format
 msgid "This step cannot be undone. Do you really want to delete this entry?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: worksheetentry.cpp:827 worksheetentry.cpp:955
+#: worksheetentry.cpp:843 worksheetentry.cpp:971
 #, kde-format
 msgid "Delete Entry"
 msgstr ""
 
 #. +> trunk6 stable6
-#: worksheetentry.cpp:960
+#: worksheetentry.cpp:976
 #, kde-format
 msgid "Drag Entry"
 msgstr ""
