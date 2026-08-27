@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio-extras\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-10 11:38+0200\n"
+"POT-Creation-Date: 2026-08-27 08:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,19 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-
-#. +> trunk6 stable6
-#: ksaveioconfig.cpp:36
-#, kde-format
-msgid "You have to restart the running applications for these changes to take effect."
-msgstr ""
-
-#. +> trunk6 stable6
-#: ksaveioconfig.cpp:38
-#, kde-format
-msgctxt "@title:window"
-msgid "Update Failed"
-msgstr ""
 
 #. i18n: ectx: label, entry (DisablePassiveMode), group (&lt;default&gt;)
 #. +> stable6
@@ -454,6 +441,188 @@ msgstr ""
 #: proxy/kproxydlg.ui:688
 #, kde-format
 msgid "Use s&ystem proxy configuration:"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:33
+#, kde-format
+msgctxt "@info"
+msgid "Restart running applications to make these changes take effect for them."
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:49
+#, kde-format
+msgctxt "@label"
+msgid "No proxy"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:65
+#, kde-format
+msgctxt "@label"
+msgid "Detect proxy configuration automatically"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:75
+#, kde-format
+msgctxt "@info"
+msgid "Automatic Configuration, also known as Web Proxy Auto-Discovery (WPAD), is almost never the correct configuration. Enabling it when it is not required may slow down network access and make your network less secure. Your network administrator will know whether enabling it is required."
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:83
+#, kde-format
+msgctxt "@label"
+msgid "Use proxy auto-configuration URL"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:104
+#, kde-format
+msgctxt "@label:button"
+msgid "Choose file…"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:119
+#, kde-format
+msgctxt "@label"
+msgid "Use system proxy configuration"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:129
+#, kde-format
+msgctxt "@action:button"
+msgid "Auto-Detect"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:137
+#, kde-format
+msgctxt "@label"
+msgid "HTTP proxy:"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:143
+#, kde-format
+msgctxt "@label"
+msgid "SSL proxy:"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:149
+#, kde-format
+msgctxt "@label"
+msgid "FTP proxy:"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:155
+#, kde-format
+msgctxt "@label"
+msgid "SOCKS proxy:"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:161 proxy/ui/main.qml:304
+#, kde-format
+msgctxt "@label"
+msgid "Exceptions:"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:162 proxy/ui/main.qml:301
+#, kde-format
+msgctxt "@placeholder"
+msgid "Comma-separated list of IP addresses"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:171
+#, kde-format
+msgctxt "@label"
+msgid "Show the value of the environment variables"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:178
+#, kde-format
+msgctxt "@label"
+msgid "Use manually-specified proxy configuration"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:196
+#, kde-format
+msgctxt "@title"
+msgid "HTTP Proxy"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:219
+#, kde-format
+msgctxt "@label"
+msgid "Use this proxy server for all protocols"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:233
+#, kde-format
+msgctxt "@title"
+msgid "SSL Proxy"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:256
+#, kde-format
+msgctxt "@title"
+msgid "FTP Proxy"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:279
+#, kde-format
+msgctxt "@title"
+msgid "SOCKS Proxy"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:320
+#, kde-format
+msgctxt "@label"
+msgid "Use proxy settings only for addresses in the exceptions list"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:363
+#, kde-format
+msgctxt "@label"
+msgid "Url:"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:387
+#, kde-format
+msgctxt "@label"
+msgid "Port:"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:410
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Open Proxy Auto-Configuration File"
+msgstr ""
+
+#. +> trunk6
+#: proxy/ui/main.qml:411
+#, kde-format
+msgctxt "@label"
+msgid "Proxy auto-configuration files (*.pac)"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -951,6 +1120,19 @@ msgstr ""
 #: webshortcuts/searchproviderdlg_ui.ui:158
 #, kde-format
 msgid "Insert query placeholder"
+msgstr ""
+
+#. +> stable6
+#: ksaveioconfig.cpp:36
+#, kde-format
+msgid "You have to restart the running applications for these changes to take effect."
+msgstr ""
+
+#. +> stable6
+#: ksaveioconfig.cpp:38
+#, kde-format
+msgctxt "@title:window"
+msgid "Update Failed"
 msgstr ""
 
 #. +> stable6

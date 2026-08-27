@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-26 10:38+0200\n"
+"POT-Creation-Date: 2026-08-27 08:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -285,15 +285,29 @@ msgctxt "@info"
 msgid "This tablet button is forwarded to the focused application, which can decide how to handle it."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/ActionDialog.qml:244
+#, kde-format
+msgctxt "@label prefix for configuring Keybind to send when dial/ring is turned upwards"
+msgid "Clockwise:"
+msgstr ""
+
+#. +> stable6
+#: ui/ActionDialog.qml:248
 #, kde-format
 msgctxt "@label prefix for configuring Keybind to send when dial/ring is turned upwards"
 msgid "Up:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/ActionDialog.qml:257
+#, kde-format
+msgctxt "@label prefix for configuring Keybind to send when dial/ring is turned downwards"
+msgid "Counterclockwise:"
+msgstr ""
+
+#. +> stable6
+#: ui/ActionDialog.qml:261
 #, kde-format
 msgctxt "@label prefix for configuring Keybind to send when dial/ring is turned downwards"
 msgid "Down:"

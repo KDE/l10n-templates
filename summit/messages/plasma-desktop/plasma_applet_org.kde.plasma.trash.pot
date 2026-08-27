@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-27 09:18+0100\n"
+"POT-Creation-Date: 2026-08-27 08:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -32,8 +32,15 @@ msgctxt "@info:status The trash is being emptied"
 msgid "Emptying…"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: main.qml:38
+#, kde-format
+msgctxt "@info:status Counting the number of items in trash"
+msgid "Counting…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.qml:40
 #, kde-format
 msgctxt "@info:status The trash contains this many items in it"
 msgid "One item"
@@ -42,28 +49,28 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: main.qml:40
+#: main.qml:42
 #, kde-format
 msgctxt "@info:status The trash is empty"
 msgid "Empty"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.qml:80
+#: main.qml:77
 #, kde-format
 msgctxt "@action:inmenu Open the trash"
 msgid "Open"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.qml:85
+#: main.qml:82
 #, kde-format
 msgctxt "@action:inmenu Empty the trash"
 msgid "Empty"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.qml:91
+#: main.qml:88
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Trash Settings…"
