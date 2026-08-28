@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde-cli-tools\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-04 10:12+0200\n"
+"POT-Creation-Date: 2026-08-28 08:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -30,132 +30,108 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filegroupdetails.cpp:22
-#, kde-format
-msgid "Left Click Action (only for Konqueror file manager)"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: filegroupdetails.cpp:26 filetypedetails.cpp:134
-#, kde-format
-msgid "Show file in embedded viewer"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: filegroupdetails.cpp:27 filetypedetails.cpp:135
-#, kde-format
-msgid "Show file in separate viewer"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: filegroupdetails.cpp:36
-#, kde-format
-msgid "Here you can configure what the Konqueror file manager will do when you click on a file belonging to this group. Konqueror can display the file in an embedded viewer or start up a separate application. You can change this setting for a specific file type in the 'Embedding' tab of the file type configuration. Dolphin  shows files always in a separate viewer"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:61
+#: filetypedetails.cpp:54
 #, kde-format
 msgid "This button displays the icon associated with the selected file type. Click on it to choose a different icon."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:67
+#: filetypedetails.cpp:60
 #, kde-format
 msgid "Filename Patterns"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:79
+#: filetypedetails.cpp:72
 #, kde-format
 msgid "This box contains a list of patterns that can be used to identify files of the selected type. For example, the pattern *.txt is associated with the file type 'text/plain'; all files ending in '.txt' are recognized as plain text files."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:87 filetypesview.cpp:86 kservicelistwidget.cpp:105
+#: filetypedetails.cpp:80 filetypesview.cpp:84 kservicelistwidget.cpp:105
 #, kde-format
 msgid "Add..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:92
+#: filetypedetails.cpp:85
 #, kde-format
 msgid "Add a new pattern for the selected file type."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:94 kservicelistwidget.cpp:119
+#: filetypedetails.cpp:87 kservicelistwidget.cpp:119
 #, kde-format
 msgid "Remove"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:99
+#: filetypedetails.cpp:92
 #, kde-format
 msgid "Remove the selected filename pattern."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:110
+#: filetypedetails.cpp:103
 #, kde-format
 msgid "Description:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:115
+#: filetypedetails.cpp:108
 #, kde-format
 msgid "You can enter a short description for files of the selected file type (e.g. 'HTML Page'). This description will be used by applications like Konqueror to display directory content."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
+#: filetypedetails.cpp:128
+#, kde-format
+msgid "&General"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: filetypedetails.cpp:129
+#, kde-format
+msgid "&Embedding"
+msgstr ""
+
+#. +> stable6 stable5
 #: filetypedetails.cpp:129
 #, kde-format
 msgid "Left Click Action in Konqueror"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable6 stable5
 #: filetypedetails.cpp:138
 #, kde-format
 msgid "Ask whether to save to disk instead (only for Konqueror browser)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable6 stable5
 #: filetypedetails.cpp:154
 #, kde-format
 msgid "Here you can configure what the Konqueror file manager will do when you click on a file of this type. Konqueror can either display the file in an embedded viewer, or start up a separate application. If set to 'Use settings for G group', the file manager will behave according to the settings of the group G to which this type belongs; for instance, 'image' if the current file type is image/png. Dolphin always shows files in a separate viewer."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:167
-#, kde-format
-msgid "&General"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:168
-#, kde-format
-msgid "&Embedding"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:209
+#: filetypedetails.cpp:170
 #, kde-format
 msgid "Add New Extension"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:209
+#: filetypedetails.cpp:170
 #, kde-format
 msgid "Extension:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypedetails.cpp:328
+#: filetypedetails.cpp:203
 #, kde-format
 msgid "File type %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable6 stable5
 #: filetypedetails.cpp:336
 #, kde-format
 msgid "Use settings for '%1' group"
@@ -182,73 +158,73 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:57
+#: filetypesview.cpp:55
 #, kde-format
 msgid "Search for file type or filename pattern..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:63
+#: filetypesview.cpp:61
 #, kde-format
 msgid "Enter a part of a filename pattern, and only file types with a matching file pattern will appear in the list. Alternatively, enter a part of a file type name as it appears in the list."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:71 multiapplydialog.cpp:27
+#: filetypesview.cpp:69 multiapplydialog.cpp:27
 #, kde-format
 msgid "Known Types"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:77
+#: filetypesview.cpp:75
 #, kde-format
 msgid "Here you can see a hierarchical list of the file types which are known on your system. Click on the '+' sign to expand a category, or the '-' sign to collapse it. Select a file type (e.g. text/html for HTML files) to view/edit the information for that file type using the controls on the right."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:91
+#: filetypesview.cpp:89
 #, kde-format
 msgid "Click here to add a new file type."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:93 filetypesview.cpp:389
+#: filetypesview.cpp:91 filetypesview.cpp:368
 #, kde-format
 msgid "&Remove"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:119
+#: filetypesview.cpp:111
 #, kde-format
 msgid "Select a file type by name or by extension"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:382
+#: filetypesview.cpp:361
 #, kde-format
 msgid "&Revert"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:383
+#: filetypesview.cpp:362
 #, kde-format
 msgid "Revert this file type to its initial system-wide definition"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:385
+#: filetypesview.cpp:364
 #, kde-format
 msgid "Click here to revert this file type to its initial system-wide definition, which undoes any changes made to the file type. Note that system-wide file types cannot be deleted. You can however empty their pattern list, to minimize the chances of them being used (but the file type determination from file contents can still end up using them)."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:390
+#: filetypesview.cpp:369
 #, kde-format
 msgid "Delete this file type definition completely"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: filetypesview.cpp:392
+#: filetypesview.cpp:371
 #, kde-format
 msgid "Click here to delete this file type definition completely. This is only possible for user-defined file types. System-wide file types cannot be deleted. You can however empty their pattern list, to minimize the chances of them being used (but the file type determination from file contents can still end up using them)."
 msgstr ""
@@ -481,4 +457,28 @@ msgstr ""
 #: newtypedlg.cpp:50
 #, kde-format
 msgid "Type the name of the file type. For instance, if you selected 'image' as category and you type 'custom' here, the file type 'image/custom' will be created."
+msgstr ""
+
+#. +> stable6 stable5
+#: filegroupdetails.cpp:22
+#, kde-format
+msgid "Left Click Action (only for Konqueror file manager)"
+msgstr ""
+
+#. +> stable6 stable5
+#: filegroupdetails.cpp:26 filetypedetails.cpp:134
+#, kde-format
+msgid "Show file in embedded viewer"
+msgstr ""
+
+#. +> stable6 stable5
+#: filegroupdetails.cpp:27 filetypedetails.cpp:135
+#, kde-format
+msgid "Show file in separate viewer"
+msgstr ""
+
+#. +> stable6 stable5
+#: filegroupdetails.cpp:36
+#, kde-format
+msgid "Here you can configure what the Konqueror file manager will do when you click on a file belonging to this group. Konqueror can display the file in an embedded viewer or start up a separate application. You can change this setting for a specific file type in the 'Embedding' tab of the file type configuration. Dolphin  shows files always in a separate viewer"
 msgstr ""

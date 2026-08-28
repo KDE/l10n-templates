@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-25 08:55+0200\n"
+"POT-Creation-Date: 2026-08-28 08:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -78,7 +78,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:49 strongswanprop.ui:140 strongswanprop.ui:185
+#: strongswanprop.ui:49 strongswanprop.ui:145 strongswanprop.ui:190
 #, kde-format
 msgid "Certificate:"
 msgstr ""
@@ -125,100 +125,114 @@ msgstr ""
 msgid "EAP"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbMethod)
+#. +> trunk6
+#: strongswanprop.ui:118
+#, kde-format
+msgid "EAP-TTLS"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:150
+#: strongswanprop.ui:155
 #, kde-format
 msgid "Private key:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:160
+#: strongswanprop.ui:165
 #, kde-format
 msgid "Private Key Password:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:202
+#: strongswanprop.ui:207
 #, kde-format
 msgid "PIN:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:230
+#: strongswanprop.ui:235
 #, kde-format
 msgid "Username:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:258
+#: strongswanprop.ui:263
 #, kde-format
 msgid "User Password:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_eapttls_info)
+#. +> trunk6
+#: strongswanprop.ui:283
+#, kde-format
+msgid "Uses the same Username/Password fields as EAP above."
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:275
+#: strongswanprop.ui:297
 #, kde-format
 msgid "Options"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, innerIP)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:284
+#: strongswanprop.ui:306
 #, kde-format
 msgid "Request an inner IP address"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, udpEncap)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:297
+#: strongswanprop.ui:319
 #, kde-format
 msgid "Enforce UDP encapsulation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ipComp)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:304
+#: strongswanprop.ui:326
 #, kde-format
 msgid "Use IP compression"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, proposal)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:314
+#: strongswanprop.ui:336
 #, kde-format
 msgid "Enable Custom Cipher Proposals"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:328
+#: strongswanprop.ui:350
 #, kde-format
 msgid "IKE:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, ike)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:335
+#: strongswanprop.ui:357
 #, kde-format
 msgid "A list of proposals for IKE separated by \";\""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:342
+#: strongswanprop.ui:364
 #, kde-format
 msgid "ESP:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, esp)
 #. +> trunk6 stable6 stable5
-#: strongswanprop.ui:349
+#: strongswanprop.ui:371
 #, kde-format
 msgid "A list of proposals for ESP separated by \";\""
 msgstr ""
