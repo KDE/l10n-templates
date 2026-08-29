@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-07 00:59+0000\n"
+"POT-Creation-Date: 2026-08-29 00:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -149,7 +149,7 @@ msgid "<keyword>cli</keyword>"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:72 index.docbook:1666
+#: index.docbook:72 index.docbook:1744
 #, no-c-format
 msgid "Introduction"
 msgstr ""
@@ -1017,19 +1017,141 @@ msgid ""
 msgstr ""
 
 #. Tag: title
+#: index.docbook:524
+#, no-c-format
+msgid "Container Awareness"
+msgstr ""
+
+#. Tag: para
 #: index.docbook:526
+#, no-c-format
+msgid ""
+"&konsole; can detect when the foreground process is running inside a Linux "
+"container such as <application>Distrobox</application>, "
+"<application>Toolbox</application>, or <application>Kapsule</application>, "
+"and provides visual feedback to help you keep track of which terminal is "
+"running inside which container."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:534
+#, no-c-format
+msgid "Visual Indicators"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:536
+#, no-c-format
+msgid "When a container is detected, &konsole; shows two indicators:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:539
+#, no-c-format
+msgid ""
+"<emphasis>Colored tab</emphasis> — the tab receives a unique color derived "
+"from the container identity. Each container consistently gets the same color "
+"across sessions, so you can tell at a glance which tab belongs to which "
+"container."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:545
+#, no-c-format
+msgid ""
+"<emphasis>Container label</emphasis> — a small bar appears at the bottom of "
+"the terminal area showing the container type and name (for example, "
+"<guilabel>Distrobox: fedora-41</guilabel>). The label disappears "
+"automatically when the foreground process returns to the host."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:552
+#, no-c-format
+msgid ""
+"Both indicators can be enabled or disabled independently in "
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &konsole;…</"
+"guimenuitem> <guimenuitem>Tab Bar / Splitters</guimenuitem></menuchoice>:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:559
+#, no-c-format
+msgid ""
+"<guilabel>Color-code tab when inside a container</guilabel> — toggles the "
+"colored tab. On by default."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:562
+#, no-c-format
+msgid ""
+"<guilabel>Show container label in terminal footer</guilabel> — toggles the "
+"footer label. On by default."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:569
+#, no-c-format
+msgid "Opening a Tab Inside a Container"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:571
+#, no-c-format
+msgid ""
+"The <guimenu>File</guimenu> menu and the <guibutton>New Tab</guibutton> "
+"button offer a submenu listing all available containers. Selecting a "
+"container opens a new tab that enters that container immediately. A "
+"<guilabel>Host</guilabel> entry is also provided to explicitly open a tab on "
+"the host system regardless of any profile default."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:580
+#, no-c-format
+msgid "Profile Settings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:582
+#, no-c-format
+msgid ""
+"Two container-related options are available per profile in the "
+"<guilabel>General</guilabel> tab of <guilabel>Edit Profile</guilabel>:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:588
+#, no-c-format
+msgid ""
+"<guilabel>Always start in container</guilabel> — choose a specific container "
+"that new sessions using this profile will always enter automatically."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:592
+#, no-c-format
+msgid ""
+"<guilabel>Enter same container as current session</guilabel> — new tabs "
+"opened from an existing container session will enter the same container "
+"instead of starting on the host."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:604
 #, no-c-format
 msgid "Command Reference"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:529
+#: index.docbook:607
 #, no-c-format
 msgid "The Menubar"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:531
+#: index.docbook:609
 #, no-c-format
 msgid ""
 "The menubar is at the top of the &konsole; window. If the menubar is hidden, "
@@ -1040,7 +1162,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:539
+#: index.docbook:617
 #, no-c-format
 msgid ""
 "Alternatively you can use the shortcut <keycombo action=\"simul\">&Ctrl;"
@@ -1048,13 +1170,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:544
+#: index.docbook:622
 #, no-c-format
 msgid "File Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:548
+#: index.docbook:626
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>N</keycap></"
@@ -1063,13 +1185,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:553
+#: index.docbook:631
 #, no-c-format
 msgid "Opens a new separate &konsole; window with the default profile"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:557
+#: index.docbook:635
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>T</keycap></"
@@ -1078,13 +1200,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:561
+#: index.docbook:639
 #, no-c-format
 msgid "Opens a new tab with the default profile"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:562
+#: index.docbook:640
 #, no-c-format
 msgid ""
 "The first profile in the submenu will always be \"Default\" which is the "
@@ -1093,19 +1215,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:571
+#: index.docbook:649
 #, no-c-format
 msgid "<guimenu>File</guimenu> <guimenuitem>Clone Tab</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:575
+#: index.docbook:653
 #, no-c-format
 msgid "Attempts to clone the current tab in a new tab"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:580
+#: index.docbook:658
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>S</keycap></"
@@ -1114,13 +1236,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:584
+#: index.docbook:662
 #, no-c-format
 msgid "Saves the current scrollback as a text or html file"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:589
+#: index.docbook:667
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>P</keycap></"
@@ -1129,7 +1251,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:593
+#: index.docbook:671
 #, no-c-format
 msgid ""
 "<action>Print the current screen.</action> By default the output is scaled "
@@ -1139,13 +1261,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:599
+#: index.docbook:677
 #, no-c-format
 msgid "<guimenu>File</guimenu> <guimenuitem>Open File Manager</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:602
+#: index.docbook:680
 #, no-c-format
 msgid ""
 "<action>Opens &kde;'s file manager at the current directory</action>. By "
@@ -1153,7 +1275,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:609
+#: index.docbook:687
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>W</keycap></"
@@ -1162,13 +1284,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:614
+#: index.docbook:692
 #, no-c-format
 msgid "Closes the current session"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:619
+#: index.docbook:697
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Q</keycap></"
@@ -1177,13 +1299,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:624
+#: index.docbook:702
 #, no-c-format
 msgid "Quits &konsole;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:625
+#: index.docbook:703
 #, no-c-format
 msgid ""
 "&konsole; will display a confirmation dialog if there is more than one "
@@ -1193,13 +1315,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:638
+#: index.docbook:716
 #, no-c-format
 msgid "Edit Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:642
+#: index.docbook:720
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>C</keycap></"
@@ -1207,13 +1329,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:646
+#: index.docbook:724
 #, no-c-format
 msgid "Copies the selected text to the clipboard"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:650
+#: index.docbook:728
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>V</keycap></"
@@ -1221,25 +1343,25 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:654
+#: index.docbook:732
 #, no-c-format
 msgid "Pastes text from the clipboard at the cursor location"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:659
+#: index.docbook:737
 #, no-c-format
 msgid "<guimenu>Edit</guimenu><guimenuitem>Select All</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:661
+#: index.docbook:739
 #, no-c-format
 msgid "<action>Selects all</action> the text in current window"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:666
+#: index.docbook:744
 #, no-c-format
 msgid ""
 "<guimenu>Edit</guimenu><guisubmenu>Copy Input To</"
@@ -1247,7 +1369,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:668
+#: index.docbook:746
 #, no-c-format
 msgid ""
 "Allows input from the current session to be sent simultaneously to all "
@@ -1255,7 +1377,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:674
+#: index.docbook:752
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>.</keycap></"
@@ -1264,7 +1386,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:678
+#: index.docbook:756
 #, no-c-format
 msgid ""
 "Allows input from the current session to be sent simultaneously to sessions "
@@ -1272,7 +1394,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:684
+#: index.docbook:762
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>/</keycap></"
@@ -1281,19 +1403,19 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:688
+#: index.docbook:766
 #, no-c-format
 msgid "Stop sending input from current session into other sessions"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:694
+#: index.docbook:772
 #, no-c-format
 msgid "<guimenu>Edit</guimenu> <guisubmenu>Send Signal</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:696
+#: index.docbook:774
 #, no-c-format
 msgid ""
 "<action>Send the specified signal to the shell process, or other process, "
@@ -1301,110 +1423,110 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:698
+#: index.docbook:776
 #, no-c-format
 msgid "Currently available signals are:"
 msgstr ""
 
 #. Tag: errorcode
-#: index.docbook:704
+#: index.docbook:782
 #, no-c-format
 msgid "STOP"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:705
+#: index.docbook:783
 #, no-c-format
 msgid "to stop process"
 msgstr ""
 
 #. Tag: errorcode
-#: index.docbook:708
+#: index.docbook:786
 #, no-c-format
 msgid "CONT"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:709
+#: index.docbook:787
 #, no-c-format
 msgid "continue if stopped"
 msgstr ""
 
 #. Tag: errorcode
-#: index.docbook:712
+#: index.docbook:790
 #, no-c-format
 msgid "<errorcode>HUP</errorcode>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:713
+#: index.docbook:791
 #, no-c-format
 msgid ""
 "hangup detected on controlling terminal, or death of controlling process"
 msgstr ""
 
 #. Tag: errorcode
-#: index.docbook:717
+#: index.docbook:795
 #, no-c-format
 msgid "<errorcode>INT</errorcode>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:718
+#: index.docbook:796
 #, no-c-format
 msgid "interrupt from keyboard"
 msgstr ""
 
 #. Tag: errorcode
-#: index.docbook:721
+#: index.docbook:799
 #, no-c-format
 msgid "TERM"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:722
+#: index.docbook:800
 #, no-c-format
 msgid "termination signal"
 msgstr ""
 
 #. Tag: errorcode
-#: index.docbook:725
+#: index.docbook:803
 #, no-c-format
 msgid "KILL"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:726
+#: index.docbook:804
 #, no-c-format
 msgid "kill signal"
 msgstr ""
 
 #. Tag: errorcode
-#: index.docbook:729
+#: index.docbook:807
 #, no-c-format
 msgid "USR1"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:730
+#: index.docbook:808
 #, no-c-format
 msgid "user signal 1"
 msgstr ""
 
 #. Tag: errorcode
-#: index.docbook:733
+#: index.docbook:811
 #, no-c-format
 msgid "USR2"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:734
+#: index.docbook:812
 #, no-c-format
 msgid "user signal 2"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:740
+#: index.docbook:818
 #, no-c-format
 msgid ""
 "Refer to your system manual pages for further details by giving the command "
@@ -1412,7 +1534,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:746
+#: index.docbook:824
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>S</keycap></"
@@ -1421,7 +1543,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:750
+#: index.docbook:828
 #, no-c-format
 msgid ""
 "<action>Opens a dialog box allowing you to change the name format, the "
@@ -1430,7 +1552,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:757
+#: index.docbook:835
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>U</keycap></"
@@ -1439,7 +1561,7 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:761
+#: index.docbook:839
 #, no-c-format
 msgid ""
 "Opens up a dialog to select a file to be uploaded if the required software "
@@ -1447,7 +1569,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:767
+#: index.docbook:845
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F</keycap></"
@@ -1456,13 +1578,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:770
+#: index.docbook:848
 #, no-c-format
 msgid "Opens a search bar at the bottom of &konsole;'s window"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:772
+#: index.docbook:850
 #, no-c-format
 msgid ""
 "This allows for case sensitive, forward or backwards, and regular "
@@ -1470,7 +1592,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:800
+#: index.docbook:878
 #, no-c-format
 msgid ""
 "<shortcut><keycombo><keycap>F3</keycap></keycombo></shortcut> <guimenu>Edit</"
@@ -1478,7 +1600,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:804
+#: index.docbook:882
 #, no-c-format
 msgid ""
 "<action>Moves to the next search instance </action>. If the search bar has "
@@ -1486,7 +1608,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:809
+#: index.docbook:887
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo></"
@@ -1494,7 +1616,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:813
+#: index.docbook:891
 #, no-c-format
 msgid ""
 "<action>Moves to the previous search instance </action>. If the search bar "
@@ -1503,13 +1625,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:822
+#: index.docbook:900
 #, no-c-format
 msgid "View Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:826
+#: index.docbook:904
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>(</keycap></keycombo></"
@@ -1518,19 +1640,19 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:831
+#: index.docbook:909
 #, no-c-format
 msgid "Splits all the tabs into left and right views"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:832 index.docbook:844
+#: index.docbook:910 index.docbook:922
 #, no-c-format
 msgid "Any output on one view is duplicated in the other view."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:838
+#: index.docbook:916
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>)</keycap></keycombo></"
@@ -1539,13 +1661,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:843
+#: index.docbook:921
 #, no-c-format
 msgid "Splits all the tabs into top and bottom views"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:850
+#: index.docbook:928
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>]</keycap></"
@@ -1554,13 +1676,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:854
+#: index.docbook:932
 #, no-c-format
 msgid "Makes the current view larger"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:859
+#: index.docbook:937
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>[</keycap></"
@@ -1569,13 +1691,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:863
+#: index.docbook:941
 #, no-c-format
 msgid "Makes the current view smaller"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:868
+#: index.docbook:946
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>E</keycap></"
@@ -1584,13 +1706,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:872
+#: index.docbook:950
 #, no-c-format
 msgid "Toggles the current view between current size and the maximize size"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:877
+#: index.docbook:955
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>\\</keycap></"
@@ -1599,13 +1721,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:881
+#: index.docbook:959
 #, no-c-format
 msgid "Sets the same size for all views"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:886
+#: index.docbook:964
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>L</keycap></"
@@ -1614,13 +1736,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:890
+#: index.docbook:968
 #, no-c-format
 msgid "Opens the current tab in a separate window"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:892
+#: index.docbook:970
 #, no-c-format
 msgid ""
 "Quitting the previous &konsole; window will not affect the newly created "
@@ -1628,7 +1750,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:899
+#: index.docbook:977
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>H</keycap></"
@@ -1637,20 +1759,20 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:903
+#: index.docbook:981
 #, no-c-format
 msgid "Opens the current split view in a separate window"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:909
+#: index.docbook:987
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guimenuitem>Save tab layout to file</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:912
+#: index.docbook:990
 #, no-c-format
 msgid ""
 "Allows you to save the tab layout of the current view in a specialized "
@@ -1659,14 +1781,14 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:918
+#: index.docbook:996
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guimenuitem>Load tab layout from file</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:921
+#: index.docbook:999
 #, no-c-format
 msgid ""
 "<action>Allows you to load one of your favorite view layouts from the layout "
@@ -1677,19 +1799,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:928
+#: index.docbook:1006
 #, no-c-format
 msgid "<guimenu>View</guimenu><guimenuitem>One-shot monitors</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:930
+#: index.docbook:1008
 #, no-c-format
 msgid "The following monitors only notify once, and are then disabled."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:935
+#: index.docbook:1013
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>R</keycap></"
@@ -1698,13 +1820,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:939
+#: index.docbook:1017
 #, no-c-format
 msgid "Toggles the monitoring of the current tab for a shell prompt."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:941
+#: index.docbook:1019
 #, no-c-format
 msgid ""
 "When a shell prompt is displayed, &konsole; will show a notification. This "
@@ -1712,7 +1834,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:947
+#: index.docbook:1025
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>I</keycap></"
@@ -1721,13 +1843,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:951
+#: index.docbook:1029
 #, no-c-format
 msgid "Toggles the monitoring of the current tab for lack of activity"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:953
+#: index.docbook:1031
 #, no-c-format
 msgid ""
 "By default, after 10 seconds of inactivity, an info icon will appear on the "
@@ -1738,7 +1860,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:962
+#: index.docbook:1040
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></"
@@ -1747,13 +1869,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:966
+#: index.docbook:1044
 #, no-c-format
 msgid "Toggles the monitoring of the current tab for activity"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:968
+#: index.docbook:1046
 #, no-c-format
 msgid ""
 "Upon any activity, an info icon will appear on the session's tab. The type "
@@ -1764,7 +1886,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:976
+#: index.docbook:1054
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guimenuitem>Monitor for Process Finishing</"
@@ -1772,7 +1894,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:979
+#: index.docbook:1057
 #, no-c-format
 msgid ""
 "<action>Toggles the monitoring of the current tab for the process finishing</"
@@ -1780,7 +1902,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:981
+#: index.docbook:1059
 #, no-c-format
 msgid ""
 "If checked, upon finishing the current process, &konsole; will show a "
@@ -1790,13 +1912,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:987
+#: index.docbook:1065
 #, no-c-format
 msgid "<guimenu>View</guimenu><guimenuitem>Read-only</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:989
+#: index.docbook:1067
 #, no-c-format
 msgid ""
 "Toggles the session to be read-only: no input is accepted, drag and drop is "
@@ -1804,7 +1926,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:995
+#: index.docbook:1073
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo></"
@@ -1812,13 +1934,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:998
+#: index.docbook:1076
 #, no-c-format
 msgid "Increases the text font size"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1002
+#: index.docbook:1080
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>0</keycap></keycombo></"
@@ -1826,13 +1948,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1005
+#: index.docbook:1083
 #, no-c-format
 msgid "Reset the text font size to the profile default"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1010
+#: index.docbook:1088
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo></"
@@ -1840,37 +1962,37 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1013
+#: index.docbook:1091
 #, no-c-format
 msgid "Decreases the text font size"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1017
+#: index.docbook:1095
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>Set Encoding</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1019
+#: index.docbook:1097
 #, no-c-format
 msgid "Sets the character encoding"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1023
+#: index.docbook:1101
 #, no-c-format
 msgid "<guimenu>View</guimenu><guimenuitem>Clear Scrollback</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1024
+#: index.docbook:1102
 #, no-c-format
 msgid "Clears the text in the scrollback"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1029
+#: index.docbook:1107
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>K</keycap></"
@@ -1879,14 +2001,14 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1033
+#: index.docbook:1111
 #, no-c-format
 msgid ""
 "Clears the text in the current tab and scrollback and resets the terminal"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1038
+#: index.docbook:1116
 #, no-c-format
 msgid ""
 "<shortcut><keycap>F11</keycap></shortcut> <guimenu>View</"
@@ -1894,19 +2016,19 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1041
+#: index.docbook:1119
 #, no-c-format
 msgid "Toggles &konsole; filling the entire screen"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1048
+#: index.docbook:1126
 #, no-c-format
 msgid "Bookmarks Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1053
+#: index.docbook:1131
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>B</keycap></"
@@ -1915,13 +2037,13 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1056
+#: index.docbook:1134
 #, no-c-format
 msgid "Adds the current location"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1060
+#: index.docbook:1138
 #, no-c-format
 msgid ""
 "<guimenu>Bookmarks</guimenu><guimenuitem>Bookmark Tabs as Folder...</"
@@ -1929,51 +2051,51 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1061
+#: index.docbook:1139
 #, no-c-format
 msgid "Adds all tabs to a bookmark folder"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1062 index.docbook:1070
+#: index.docbook:1140 index.docbook:1148
 #, no-c-format
 msgid "A dialog will open for the bookmark folder name."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1068
+#: index.docbook:1146
 #, no-c-format
 msgid ""
 "<guimenu>Bookmarks</guimenu><guimenuitem>New Bookmark Folder...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1069
+#: index.docbook:1147
 #, no-c-format
 msgid "Adds a new folder to the bookmark list"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1076
+#: index.docbook:1154
 #, no-c-format
 msgid "<guimenu>Bookmarks</guimenu><guimenuitem>Edit Bookmarks</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1077
+#: index.docbook:1155
 #, no-c-format
 msgid "Opens the bookmark editor"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1078
+#: index.docbook:1156
 #, no-c-format
 msgid ""
 "The keditbookmarks program must be installed for this menu item to appear."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1079
+#: index.docbook:1157
 #, no-c-format
 msgid ""
 "You can use the bookmark editor to manually add URLs. Currently, &konsole; "
@@ -1981,88 +2103,88 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1082
+#: index.docbook:1160
 #, no-c-format
 msgid "ssh://user@host:port"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1083
+#: index.docbook:1161
 #, no-c-format
 msgid "telnet://user@host:port"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1094
+#: index.docbook:1172
 #, no-c-format
 msgid "Plugins Menu"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1096
+#: index.docbook:1174
 #, no-c-format
 msgid "Any installed plugins will be listed or \"No plugins available\""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1104
+#: index.docbook:1182
 #, no-c-format
 msgid "Settings Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1108
+#: index.docbook:1186
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Edit Current Profile...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1110
+#: index.docbook:1188
 #, no-c-format
 msgid "Opens a dialog to configure current profile"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1116
+#: index.docbook:1194
 #, no-c-format
 msgid "<guimenu>Settings</guimenu><guimenuitem>Switch Profile </guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1118
+#: index.docbook:1196
 #, no-c-format
 msgid "Switch current profile to a listed profile"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1124
+#: index.docbook:1202
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Manage Profiles...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1126
+#: index.docbook:1204
 #, no-c-format
 msgid "Opens an editor for managing profiles"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1132
+#: index.docbook:1210
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Window Color Scheme</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1134
+#: index.docbook:1212
 #, no-c-format
 msgid "Change &konsole;'s &GUI; to the specified scheme"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1140
+#: index.docbook:1218
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>M</keycap></"
@@ -2071,50 +2193,50 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1145
+#: index.docbook:1223
 #, no-c-format
 msgid "Toggles the menubar being visible"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1149
+#: index.docbook:1227
 #, no-c-format
 msgid "<guimenu>Settings</guimenu><guimenuitem>Toolbars Shown</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1150
+#: index.docbook:1228
 #, no-c-format
 msgid "Allows visibility toggling of the &konsole; toolbars"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1155
+#: index.docbook:1233
 #, no-c-format
 msgid "<guimenu>Settings</guimenu><guimenuitem>Show Statusbar</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1157
+#: index.docbook:1235
 #, no-c-format
 msgid "Toggles the statusbar being visible"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1161
+#: index.docbook:1239
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Language... </guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1163
+#: index.docbook:1241
 #, no-c-format
 msgid "Opens window to choose an interface translation of &konsole;."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1169
+#: index.docbook:1247
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Keyboard Shortcuts...</"
@@ -2122,7 +2244,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1171
+#: index.docbook:1249
 #, no-c-format
 msgid ""
 "<action>Opens the keyboard shortcut editor.</action> More on shortcuts "
@@ -2131,7 +2253,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1174
+#: index.docbook:1252
 #, no-c-format
 msgid ""
 "Additionally &konsole; has a few special shortcuts with no corresponding "
@@ -2139,86 +2261,86 @@ msgid ""
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:1180
+#: index.docbook:1258
 #, no-c-format
 msgid "Shortcut"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:1181
+#: index.docbook:1259
 #, no-c-format
 msgid "Description"
 msgstr ""
 
 #. Tag: keycombo
-#: index.docbook:1186
+#: index.docbook:1264
 #, no-c-format
 msgid "&Shift;<keysym>Right</keysym>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:1187
+#: index.docbook:1265
 #, no-c-format
 msgid "Next Tab"
 msgstr ""
 
 #. Tag: keycombo
-#: index.docbook:1190
+#: index.docbook:1268
 #, no-c-format
 msgid "&Shift;<keysym>Left</keysym>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:1191
+#: index.docbook:1269
 #, no-c-format
 msgid "Previous Tab"
 msgstr ""
 
 #. Tag: keycombo
-#: index.docbook:1194
+#: index.docbook:1272
 #, no-c-format
 msgid "&Ctrl;&Alt;<keysym>Left</keysym>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:1195
+#: index.docbook:1273
 #, no-c-format
 msgid "Move Tab Left"
 msgstr ""
 
 #. Tag: keycombo
-#: index.docbook:1198
+#: index.docbook:1276
 #, no-c-format
 msgid "&Ctrl;&Alt;<keysym>Right</keysym>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:1199
+#: index.docbook:1277
 #, no-c-format
 msgid "Move Tab Right"
 msgstr ""
 
 #. Tag: keycombo
-#: index.docbook:1202
+#: index.docbook:1280
 #, no-c-format
 msgid "&Ctrl;&Shift;<keysym>Ins</keysym>"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:1203
+#: index.docbook:1281
 #, no-c-format
 msgid "Paste Selection"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1213
+#: index.docbook:1291
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Toolbars...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1215
+#: index.docbook:1293
 #, no-c-format
 msgid ""
 "Opens <ulink url=\"help:/fundamentals/config.html#toolbars-items\">the "
@@ -2226,7 +2348,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1220
+#: index.docbook:1298
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Notifications...</"
@@ -2234,26 +2356,26 @@ msgid ""
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1222
+#: index.docbook:1300
 #, no-c-format
 msgid "Opens the notifications editor"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:1227
+#: index.docbook:1305
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure &konsole;...</guimenuitem>"
 msgstr ""
 
 #. Tag: action
-#: index.docbook:1229
+#: index.docbook:1307
 #, no-c-format
 msgid "Opens the &konsole; settings editor"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1230
+#: index.docbook:1308
 #, no-c-format
 msgid ""
 "This dialog has options influencing the appearance and behaviour of the "
@@ -2261,7 +2383,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1235
+#: index.docbook:1313
 #, no-c-format
 msgid ""
 "The <guilabel>General</guilabel> page allows configuring the menubar "
@@ -2277,7 +2399,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1246
+#: index.docbook:1324
 #, no-c-format
 msgid ""
 "The <guilabel>Profiles</guilabel> page is meant for creating and handling "
@@ -2285,7 +2407,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1251
+#: index.docbook:1329
 #, no-c-format
 msgid ""
 "Using the <guilabel>Tab Bar/Splitters</guilabel> page you can configure the "
@@ -2300,7 +2422,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1259
+#: index.docbook:1337
 #, no-c-format
 msgid ""
 "It is also possible to configure visibility of the split headers "
@@ -2312,7 +2434,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1264
+#: index.docbook:1342
 #, no-c-format
 msgid ""
 "The <guilabel>Temporary Files</guilabel> page is used to define the <link "
@@ -2320,7 +2442,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1269
+#: index.docbook:1347
 #, no-c-format
 msgid ""
 "The <guilabel>Thumbnails</guilabel> page can be used to define the thumbnail "
@@ -2329,7 +2451,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1274
+#: index.docbook:1352
 #, no-c-format
 msgid ""
 "To use the thumbnails feature showing image thumbnails in popups when "
@@ -2341,13 +2463,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1287
+#: index.docbook:1365
 #, no-c-format
 msgid "Help Menu"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1288
+#: index.docbook:1366
 #, no-c-format
 msgid ""
 "&konsole; has the some of the common &kde; <guimenu>Help</guimenu> menu "
@@ -2357,19 +2479,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1297
+#: index.docbook:1375
 #, no-c-format
 msgid "&konsole; Dialogs"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1300
+#: index.docbook:1378
 #, no-c-format
 msgid "Configure Tab Settings Dialog"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1302
+#: index.docbook:1380
 #, no-c-format
 msgid ""
 "The name format, the remote tab title format, and the color of the current "
@@ -2380,97 +2502,97 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1309
+#: index.docbook:1387
 #, no-c-format
 msgid "&konsole; will substitute these tokens for local tabs:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1313
+#: index.docbook:1391
 #, no-c-format
 msgid "%n : program name"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1314
+#: index.docbook:1392
 #, no-c-format
 msgid "%d : current directory (short)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1315
+#: index.docbook:1393
 #, no-c-format
 msgid "%D : current directory (long)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1316
+#: index.docbook:1394
 #, no-c-format
 msgid "%h : local host (short)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1317 index.docbook:1329
+#: index.docbook:1395 index.docbook:1407
 #, no-c-format
 msgid "%u : user name"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1318
+#: index.docbook:1396
 #, no-c-format
 msgid "%B : user's Bourne prompt sigil ($ = normal user, # = superuser)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1319 index.docbook:1331
+#: index.docbook:1397 index.docbook:1409
 #, no-c-format
 msgid "%w : window title set by shell"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1320 index.docbook:1332
+#: index.docbook:1398 index.docbook:1410
 #, no-c-format
 msgid "%# : session number"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1323
+#: index.docbook:1401
 #, no-c-format
 msgid "&konsole; will substitute these tokens for remote tabs:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1326
+#: index.docbook:1404
 #, no-c-format
 msgid "%c : current program"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1327
+#: index.docbook:1405
 #, no-c-format
 msgid "%h : remote host (short)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1328
+#: index.docbook:1406
 #, no-c-format
 msgid "%H : remote host (long)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1330
+#: index.docbook:1408
 #, no-c-format
 msgid "%U : user name@ (if given)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1336 index.docbook:1574 index.docbook:1867
+#: index.docbook:1414 index.docbook:1652 index.docbook:1945
 #, no-c-format
 msgid "Examples:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1340
+#: index.docbook:1418
 #, no-c-format
 msgid ""
 "<userinput>%d : %n</userinput> with /usr/src as current directory and "
@@ -2479,7 +2601,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1347
+#: index.docbook:1425
 #, no-c-format
 msgid ""
 "<userinput>%D : %n</userinput> with /usr/src as current directory and "
@@ -2488,7 +2610,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1354
+#: index.docbook:1432
 #, no-c-format
 msgid ""
 "<userinput>%w (%#)</userinput> with ~ as current directory and running "
@@ -2497,13 +2619,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1368
+#: index.docbook:1446
 #, no-c-format
 msgid "Copy Input Dialog"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1370
+#: index.docbook:1448
 #, no-c-format
 msgid ""
 "The text entered in one tab can simultaneously be sent to other tabs. This "
@@ -2512,13 +2634,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1392
+#: index.docbook:1470
 #, no-c-format
 msgid "Adjust Scrollback Dialog"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1394
+#: index.docbook:1472
 #, no-c-format
 msgid ""
 "The <link linkend=\"scrollback\">scrollback</link> options for the history "
@@ -2527,13 +2649,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1407
+#: index.docbook:1485
 #, no-c-format
 msgid "Command-line Options"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1409
+#: index.docbook:1487
 #, no-c-format
 msgid ""
 "When &konsole; is started from the command line, various options can be "
@@ -2541,25 +2663,25 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1414
+#: index.docbook:1492
 #, no-c-format
 msgid "--help"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1415
+#: index.docbook:1493
 #, no-c-format
 msgid "<action>List various options</action>."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1419
+#: index.docbook:1497
 #, no-c-format
 msgid "<option>--profile</option> <parameter>file</parameter>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1420
+#: index.docbook:1498
 #, no-c-format
 msgid ""
 "<action>Start &konsole;</action> using the specified profile instead of the "
@@ -2567,13 +2689,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1425
+#: index.docbook:1503
 #, no-c-format
 msgid "<option>--layout</option> <parameter>file</parameter>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1426
+#: index.docbook:1504
 #, no-c-format
 msgid ""
 "<action>Start &konsole;</action> using a <link linkend=\"save-layout\">saved "
@@ -2581,25 +2703,25 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1430
+#: index.docbook:1508
 #, no-c-format
 msgid "--builtin-profile"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1431
+#: index.docbook:1509
 #, no-c-format
 msgid "Use the built-in profile instead of the current default profile."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1435
+#: index.docbook:1513
 #, no-c-format
 msgid "<option>--workdir</option> <parameter>dir</parameter>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1436
+#: index.docbook:1514
 #, no-c-format
 msgid ""
 "<action>Open with</action> <parameter>dir</parameter> as the initial working "
@@ -2607,26 +2729,26 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1441
+#: index.docbook:1519
 #, no-c-format
 msgid "--hold, --noclose"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1442
+#: index.docbook:1520
 #, no-c-format
 msgid ""
 "<action>Do not close</action> the initial session automatically when it ends."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1447
+#: index.docbook:1525
 #, no-c-format
 msgid "--new-tab"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1448
+#: index.docbook:1526
 #, no-c-format
 msgid ""
 "<action>Create a new tab</action> in an existing window rather than creating "
@@ -2634,13 +2756,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1453
+#: index.docbook:1531
 #, no-c-format
 msgid "<option>--tabs-from-file </option><parameter>file</parameter>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1454
+#: index.docbook:1532
 #, no-c-format
 msgid ""
 "<action>Create tabs</action> as specified in the given tabs configuration "
@@ -2648,13 +2770,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1456
+#: index.docbook:1534
 #, no-c-format
 msgid "The file has one tab per line in the following format:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1457
+#: index.docbook:1535
 #, no-c-format
 msgid ""
 "Each line specifies a tab to open using up to 4 fields specifying how it is "
@@ -2665,7 +2787,7 @@ msgid ""
 msgstr ""
 
 #. Tag: member
-#: index.docbook:1464
+#: index.docbook:1542
 #, no-c-format
 msgid ""
 "<userinput>title:</userinput> a name for this tab, tab default if blank or "
@@ -2673,7 +2795,7 @@ msgid ""
 msgstr ""
 
 #. Tag: member
-#: index.docbook:1465
+#: index.docbook:1543
 #, no-c-format
 msgid ""
 "<userinput>workdir:</userinput> working directory, <filename class="
@@ -2681,7 +2803,7 @@ msgid ""
 msgstr ""
 
 #. Tag: member
-#: index.docbook:1466
+#: index.docbook:1544
 #, no-c-format
 msgid ""
 "<userinput>profile:</userinput> a &konsole; profile to use, the default if "
@@ -2689,13 +2811,13 @@ msgid ""
 msgstr ""
 
 #. Tag: member
-#: index.docbook:1467
+#: index.docbook:1545
 #, no-c-format
 msgid "<userinput>command:</userinput> a command to run"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1469
+#: index.docbook:1547
 #, no-c-format
 msgid ""
 "Each line should contain at least one of <userinput>command</userinput> or "
@@ -2703,7 +2825,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1471
+#: index.docbook:1549
 #, no-c-format
 msgid ""
 "Example: <userinput>title: %n;; command: /usr/bin/top ;; profile: Shell</"
@@ -2711,13 +2833,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1477
+#: index.docbook:1555
 #, no-c-format
 msgid "--background-mode"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1478
+#: index.docbook:1556
 #, no-c-format
 msgid ""
 "<action>Start &konsole;</action> in the background and bring to the front "
@@ -2726,92 +2848,92 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1483
+#: index.docbook:1561
 #, no-c-format
 msgid "--separate"
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1484
+#: index.docbook:1562
 #, no-c-format
 msgid "--nofork"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1485
+#: index.docbook:1563
 #, no-c-format
 msgid ""
 "<action>Run</action> the new instance of &konsole; in a separate process."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1490
+#: index.docbook:1568
 #, no-c-format
 msgid "--show-menubar"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1491
+#: index.docbook:1569
 #, no-c-format
 msgid "<action>Show</action> the menubar, overriding the default behavior."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1496
+#: index.docbook:1574
 #, no-c-format
 msgid "--hide-menubar"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1497
+#: index.docbook:1575
 #, no-c-format
 msgid "<action>Hide</action> the menubar, overriding the default behavior."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1502
+#: index.docbook:1580
 #, no-c-format
 msgid "--show-tabbar"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1503
+#: index.docbook:1581
 #, no-c-format
 msgid "<action>Show</action> the tabbar, overriding the default behavior."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1508
+#: index.docbook:1586
 #, no-c-format
 msgid "--hide-tabbar"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1509
+#: index.docbook:1587
 #, no-c-format
 msgid "<action>Hide</action> the tabbar, overriding the default behavior."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1514
+#: index.docbook:1592
 #, no-c-format
 msgid "--fullscreen"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1515
+#: index.docbook:1593
 #, no-c-format
 msgid "<action>Start &konsole; in fullscreen mode</action>."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1519
+#: index.docbook:1597
 #, no-c-format
 msgid "--notransparency"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1520
+#: index.docbook:1598
 #, no-c-format
 msgid ""
 "<action>Disable</action> transparent backgrounds, even if the system "
@@ -2819,25 +2941,25 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1525
+#: index.docbook:1603
 #, no-c-format
 msgid "--list-profiles"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1526
+#: index.docbook:1604
 #, no-c-format
 msgid "<action>List</action> all available profiles."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1531
+#: index.docbook:1609
 #, no-c-format
 msgid "--list-profile-properties"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1533
+#: index.docbook:1611
 #, no-c-format
 msgid ""
 "<action>List</action> all possible properties with name and type. See option "
@@ -2845,7 +2967,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1535
+#: index.docbook:1613
 #, no-c-format
 msgid ""
 "For more information, please visit <ulink url=\"https://api.kde.org/4.14-api/"
@@ -2854,25 +2976,25 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1544
+#: index.docbook:1622
 #, no-c-format
 msgid "<option>-p</option> <parameter>property=value</parameter>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1545
+#: index.docbook:1623
 #, no-c-format
 msgid "<action>Change</action> the value of a profile property."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1550
+#: index.docbook:1628
 #, no-c-format
 msgid "<option>-e</option> <parameter>command</parameter>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1551
+#: index.docbook:1629
 #, no-c-format
 msgid ""
 "<action>Execute</action> <parameter>command</parameter> instead of the "
@@ -2880,7 +3002,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1553
+#: index.docbook:1631
 #, no-c-format
 msgid ""
 "This option will catch all following arguments passed to &konsole;, and "
@@ -2889,7 +3011,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1559
+#: index.docbook:1637
 #, no-c-format
 msgid ""
 "&konsole; also accepts generic &Qt; and &kf6-full; options, see man pages "
@@ -2897,19 +3019,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1564
+#: index.docbook:1642
 #, no-c-format
 msgid "Scripting &konsole;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1566
+#: index.docbook:1644
 #, no-c-format
 msgid "&konsole; does support numerous methods that can be used with &DBus;."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1568
+#: index.docbook:1646
 #, no-c-format
 msgid ""
 "There are two ways to use the &DBus; interface: &Qt;'s &GUI; "
@@ -2918,7 +3040,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1578
+#: index.docbook:1656
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> will display all services "
@@ -2926,7 +3048,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1584
+#: index.docbook:1662
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole</"
@@ -2934,7 +3056,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1591
+#: index.docbook:1669
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole /"
@@ -2942,7 +3064,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1599
+#: index.docbook:1677
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole "
@@ -2951,7 +3073,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1606
+#: index.docbook:1684
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole /"
@@ -2959,7 +3081,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1613
+#: index.docbook:1691
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole "
@@ -2968,7 +3090,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1620
+#: index.docbook:1698
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>"
@@ -2977,7 +3099,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1630
+#: index.docbook:1708
 #, no-c-format
 msgid ""
 "If any of the above commands outputs: Service 'org.kde.konsole' does not "
@@ -2985,14 +3107,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1637
+#: index.docbook:1715
 #, no-c-format
 msgid ""
 "<option>org.kde.konsole-`pidof -s konsole`</option> (will select first pid)"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1641
+#: index.docbook:1719
 #, no-c-format
 msgid ""
 "<option>$KONSOLE_DBUS_SERVICE</option> (this can be used from the current "
@@ -3000,13 +3122,13 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:1646
+#: index.docbook:1724
 #, no-c-format
 msgid "select one from the output of 'qdbus | grep konsole'"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1652
+#: index.docbook:1730
 #, no-c-format
 msgid ""
 "For more information, please visit <ulink url=\"https://techbase.kde.org/"
@@ -3014,19 +3136,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1660
+#: index.docbook:1738
 #, no-c-format
 msgid "Terminal Key Bindings"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1663
+#: index.docbook:1741
 #, no-c-format
 msgid "How &konsole; Uses Key Bindings"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1667
+#: index.docbook:1745
 #, no-c-format
 msgid ""
 "&konsole; uses *.keytab files to translate key combinations into control "
@@ -3037,7 +3159,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1669
+#: index.docbook:1747
 #, no-c-format
 msgid ""
 "Users can customize the key bindings settings in &konsole; using the Key "
@@ -3046,7 +3168,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1671
+#: index.docbook:1749
 #, no-c-format
 msgid ""
 "You can open the Key Bindings Editor from the menu entry "
@@ -3057,31 +3179,31 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1675
+#: index.docbook:1753
 #, no-c-format
 msgid "Key Combinations and Modes"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1677
+#: index.docbook:1755
 #, no-c-format
 msgid "Key combinations follow the pattern:"
 msgstr ""
 
 #. Tag: programlisting
-#: index.docbook:1678
+#: index.docbook:1756
 #, no-c-format
 msgid "Key (+|-) Modes"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1681
+#: index.docbook:1759
 #, no-c-format
 msgid "for example:"
 msgstr ""
 
 #. Tag: programlisting
-#: index.docbook:1682
+#: index.docbook:1760
 #, no-c-format
 msgid ""
 "Up+Shift+AppScreen\n"
@@ -3090,7 +3212,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1685
+#: index.docbook:1763
 #, no-c-format
 msgid ""
 "Key names are defined in the qnamespace.h header file, with the <quote>Qt::"
@@ -3100,7 +3222,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1687
+#: index.docbook:1765
 #, no-c-format
 msgid ""
 "A <quote>+</quote> preceding a Mode name means that mode is <emphasis>set</"
@@ -3111,7 +3233,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1689
+#: index.docbook:1767
 #, no-c-format
 msgid ""
 "A <quote>-</quote> preceding a Mode name means that mode is <emphasis>reset</"
@@ -3123,26 +3245,26 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1692
+#: index.docbook:1770
 #, no-c-format
 msgid ""
 "If a Mode name isn't present in a key combination, its state is ignored."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1695
+#: index.docbook:1773
 #, no-c-format
 msgid "The supported Key Bindings modes are listed below:"
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1700
+#: index.docbook:1778
 #, no-c-format
 msgid "Alt, Ctrl, Shift"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1702
+#: index.docbook:1780
 #, no-c-format
 msgid ""
 "One or more of these Modes can be used in a key combination, if any of them "
@@ -3151,13 +3273,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1707
+#: index.docbook:1785
 #, no-c-format
 msgid "AnyModifier"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1709
+#: index.docbook:1787
 #, no-c-format
 msgid ""
 "If this mode is set, the key combination uses any modifier key (any of the "
@@ -3165,33 +3287,33 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1714
+#: index.docbook:1792
 #, no-c-format
 msgid "Ansi"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1716
+#: index.docbook:1794
 #, no-c-format
 msgid ""
 "If this mode is set, &konsole; will send ANSI escape and control sequences"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1717
+#: index.docbook:1795
 #, no-c-format
 msgid ""
 "If this mode is reset &konsole; will send VT52 escape and control sequences"
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1722
+#: index.docbook:1800
 #, no-c-format
 msgid "AppScreen"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1724
+#: index.docbook:1802
 #, no-c-format
 msgid ""
 "If this mode is set, the key combination will only affect interactive "
@@ -3199,7 +3321,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1725
+#: index.docbook:1803
 #, no-c-format
 msgid ""
 "If this mode is reset the key combination will only affect the terminal when "
@@ -3207,13 +3329,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1728
+#: index.docbook:1806
 #, no-c-format
 msgid "&konsole; makes use of two screen buffers:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1731
+#: index.docbook:1809
 #, no-c-format
 msgid ""
 "The Normal Screen buffer (default): allows you to scroll back to view "
@@ -3222,7 +3344,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1734
+#: index.docbook:1812
 #, no-c-format
 msgid ""
 "The Alternate Screen buffer: the terminal switches to this buffer when you "
@@ -3232,13 +3354,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1743
+#: index.docbook:1821
 #, no-c-format
 msgid "KeyPad"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1745
+#: index.docbook:1823
 #, no-c-format
 msgid ""
 "If this mode is set, the key combination uses a key on the Keypad (Number "
@@ -3252,13 +3374,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1750
+#: index.docbook:1828
 #, no-c-format
 msgid "AppCursorKeys"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1752
+#: index.docbook:1830
 #, no-c-format
 msgid ""
 "This mode implements the VT100 <ulink url=\"https://www.vt100.net/docs/vt100-"
@@ -3269,7 +3391,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1753
+#: index.docbook:1831
 #, no-c-format
 msgid ""
 "By default &konsole; follows the XTerm behavior of treating the "
@@ -3278,13 +3400,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1758
+#: index.docbook:1836
 #, no-c-format
 msgid "AppKeyPad"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1760
+#: index.docbook:1838
 #, no-c-format
 msgid ""
 "If this mode is set, the key combination will only work when the Keypad is "
@@ -3292,7 +3414,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1761
+#: index.docbook:1839
 #, no-c-format
 msgid ""
 "If this mode is reset, the key combination will only work when the Keypad is "
@@ -3300,13 +3422,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:1766
+#: index.docbook:1844
 #, no-c-format
 msgid "NewLine"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1768
+#: index.docbook:1846
 #, no-c-format
 msgid ""
 "If this mode is set, the <keycap>Return</keycap> (Enter) key on the keyboard "
@@ -3315,7 +3437,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1769
+#: index.docbook:1847
 #, no-c-format
 msgid ""
 "If this mode is reset, the <keycap>Return</keycap> key will send only a "
@@ -3323,13 +3445,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1770
+#: index.docbook:1848
 #, no-c-format
 msgid "The same applies to the <keycap>Enter</keycap> key on the Keypad"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1771
+#: index.docbook:1849
 #, no-c-format
 msgid ""
 "This mode emulates the <ulink url=\"https://www.vt100.net/docs/vt100-ug/"
@@ -3337,7 +3459,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1777
+#: index.docbook:1855
 #, no-c-format
 msgid ""
 "Note that each combination of Key and Modes (set/reset) must be unique. For "
@@ -3345,19 +3467,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1780
+#: index.docbook:1858
 #, no-c-format
 msgid "A+Shift : <quote>A</quote>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1781
+#: index.docbook:1859
 #, no-c-format
 msgid "a : <quote>a</quote>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1783
+#: index.docbook:1861
 #, no-c-format
 msgid ""
 "&konsole; will <emphasis>not</emphasis> accept the small letter <quote>a</"
@@ -3366,13 +3488,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1787
+#: index.docbook:1865
 #, no-c-format
 msgid "The Output Field"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1789
+#: index.docbook:1867
 #, no-c-format
 msgid ""
 "In the Output field you can add the escape sequences or control characters "
@@ -3381,7 +3503,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1791
+#: index.docbook:1869
 #, no-c-format
 msgid ""
 "You can also use any of the following keywords, each of which has a special "
@@ -3389,35 +3511,35 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1794
+#: index.docbook:1872
 #, no-c-format
 msgid ""
 "scrollUpLine : scroll up one line in the shell history scrollback buffer"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1795
+#: index.docbook:1873
 #, no-c-format
 msgid ""
 "scrollUpPage : scroll up one page in the shell history scrollback buffer"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1796
+#: index.docbook:1874
 #, no-c-format
 msgid ""
 "scrollDownLine : scroll down one line in the shell history scrollback buffer"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1797
+#: index.docbook:1875
 #, no-c-format
 msgid ""
 "scrollDownPage : scroll down one page in the shell history scrollback buffer"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1798
+#: index.docbook:1876
 #, no-c-format
 msgid ""
 "scrollUpToTop : scroll up to the begining of the shell history scrollback "
@@ -3425,7 +3547,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1799
+#: index.docbook:1877
 #, no-c-format
 msgid ""
 "scrollDownToBottom : scroll down to the end of the shell history scrollback "
@@ -3433,7 +3555,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1802
+#: index.docbook:1880
 #, no-c-format
 msgid ""
 "You can also use strings with C-string syntax; you may use the following "
@@ -3441,55 +3563,55 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1805
+#: index.docbook:1883
 #, no-c-format
 msgid "\\E : Escape"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1806
+#: index.docbook:1884
 #, no-c-format
 msgid "\\\\ : Backslash"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1807
+#: index.docbook:1885
 #, no-c-format
 msgid "\\\" : Double quote"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1808
+#: index.docbook:1886
 #, no-c-format
 msgid "\\t : Tab"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1809
+#: index.docbook:1887
 #, no-c-format
 msgid "\\r : Carriage Return"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1810
+#: index.docbook:1888
 #, no-c-format
 msgid "\\n : New line"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1811
+#: index.docbook:1889
 #, no-c-format
 msgid "\\b : Backspace"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1813
+#: index.docbook:1891
 #, no-c-format
 msgid "\\xHH : where HH are two hex digits"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1815
+#: index.docbook:1893
 #, no-c-format
 msgid ""
 "This can be used to send &ASCII; control characters, &eg; <quote>\\x00</"
@@ -3497,19 +3619,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1823
+#: index.docbook:1901
 #, no-c-format
 msgid "Other System Resources"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1824
+#: index.docbook:1902
 #, no-c-format
 msgid "There are other system resources that can affect terminal Key Bindings:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1827
+#: index.docbook:1905
 #, no-c-format
 msgid ""
 "Consult the <ulink url=\"man:terminfo(5)\">terminfo</ulink> or <ulink url="
@@ -3519,7 +3641,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1830
+#: index.docbook:1908
 #, no-c-format
 msgid ""
 "It is likely that your system has other keyboard databases which have to be "
@@ -3529,13 +3651,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1836
+#: index.docbook:1914
 #, no-c-format
 msgid "Further Reading"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1837
+#: index.docbook:1915
 #, no-c-format
 msgid ""
 "For more information on escape sequences and control characters, check the "
@@ -3543,19 +3665,19 @@ msgid ""
 msgstr ""
 
 #. Tag: ulink
-#: index.docbook:1840
+#: index.docbook:1918
 #, no-c-format
 msgid "The VT100 user guide"
 msgstr ""
 
 #. Tag: ulink
-#: index.docbook:1843
+#: index.docbook:1921
 #, no-c-format
 msgid "The VT102 user guide"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1846
+#: index.docbook:1924
 #, no-c-format
 msgid ""
 "The comprehensive and indispensable <ulink url=\"https://invisible-island."
@@ -3564,13 +3686,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1855
+#: index.docbook:1933
 #, no-c-format
 msgid "Using Style Sheet for the Tab Bar"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1856
+#: index.docbook:1934
 #, no-c-format
 msgid ""
 "The default style sheet for the tab bar sets the minimum and maximum tab "
@@ -3581,7 +3703,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1862
+#: index.docbook:1940
 #, no-c-format
 msgid ""
 "For more information, consider reading <ulink url=\"https://doc.qt.io/qt-5/"
@@ -3589,13 +3711,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1875
+#: index.docbook:1953
 #, no-c-format
 msgid "Change the selected tab's background to a light gray"
 msgstr ""
 
 #. Tag: programlisting
-#: index.docbook:1877
+#: index.docbook:1955
 #, no-c-format
 msgid ""
 "QTabBar::tab:selected {\n"
@@ -3604,13 +3726,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1881
+#: index.docbook:1959
 #, no-c-format
 msgid "Change the selected tab's text to red"
 msgstr ""
 
 #. Tag: programlisting
-#: index.docbook:1883
+#: index.docbook:1961
 #, no-c-format
 msgid ""
 "QTabBar::tab:selected {\n"
@@ -3619,13 +3741,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1886
+#: index.docbook:1964
 #, no-c-format
 msgid "All tabs will be at least 200 pixels in width"
 msgstr ""
 
 #. Tag: programlisting
-#: index.docbook:1888
+#: index.docbook:1966
 #, no-c-format
 msgid ""
 "QTabBar::tab {\n"
@@ -3634,13 +3756,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1891
+#: index.docbook:1969
 #, no-c-format
 msgid "Only the selected tab will be at least 200 pixels in width"
 msgstr ""
 
 #. Tag: programlisting
-#: index.docbook:1893
+#: index.docbook:1971
 #, no-c-format
 msgid ""
 "QTabBar::tab::selected {\n"
@@ -3649,13 +3771,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1896
+#: index.docbook:1974
 #, no-c-format
 msgid "Any of these can be combined in one file"
 msgstr ""
 
 #. Tag: programlisting
-#: index.docbook:1898
+#: index.docbook:1976
 #, no-c-format
 msgid ""
 "QTabBar::tab::selected {\n"
@@ -3669,19 +3791,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1908
+#: index.docbook:1986
 #, no-c-format
 msgid "Did You Know?, Common Issues and More"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1911
+#: index.docbook:1989
 #, no-c-format
 msgid "Did You Know?"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1915
+#: index.docbook:1993
 #, no-c-format
 msgid ""
 "Pressing &Ctrl; while selecting text will cause lines breaks to be converted "
@@ -3689,7 +3811,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1919
+#: index.docbook:1997
 #, no-c-format
 msgid ""
 "Pressing the <keycombo action=\"simul\">&Ctrl;&Alt;</keycombo> keys while "
@@ -3697,7 +3819,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1923
+#: index.docbook:2001
 #, no-c-format
 msgid ""
 "The <keycombo action=\"simul\">&Ctrl;<mousebutton>Wheel</mousebutton></"
@@ -3705,7 +3827,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1927
+#: index.docbook:2005
 #, no-c-format
 msgid ""
 "When a program evaluates either mouse button, pressing the &Shift; key will "
@@ -3713,7 +3835,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1931
+#: index.docbook:2009
 #, no-c-format
 msgid ""
 "The <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F10</keycap></keycombo> "
@@ -3721,7 +3843,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1935
+#: index.docbook:2013
 #, no-c-format
 msgid ""
 "The <keycombo action=\"simul\">&Shift;<keycap>Insert</keycap></keycombo> "
@@ -3729,7 +3851,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1939
+#: index.docbook:2017
 #, no-c-format
 msgid ""
 "Double-clicking will select a whole word. Continuing to hold the mouse "
@@ -3737,7 +3859,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1943
+#: index.docbook:2021
 #, no-c-format
 msgid ""
 "Triple-clicking will select a whole line. Continuing to hold the mouse "
@@ -3745,7 +3867,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1947
+#: index.docbook:2025
 #, no-c-format
 msgid ""
 "There is a hidden feature for the \"%d\" formatter in tab title. You can "
@@ -3758,7 +3880,7 @@ msgid ""
 msgstr ""
 
 #. Tag: programlisting
-#: index.docbook:1951
+#: index.docbook:2029
 #, no-c-format
 msgid ""
 "[ProcessInfo]\n"
@@ -3766,7 +3888,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1953
+#: index.docbook:2031
 #, no-c-format
 msgid ""
 "If you are using <application>Yakuake</application>, you need to edit "
@@ -3775,13 +3897,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:1964
+#: index.docbook:2042
 #, no-c-format
 msgid "Common Issues"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1968
+#: index.docbook:2046
 #, no-c-format
 msgid ""
 "Some fonts might be unavailable for usage in &konsole;, although they are "
@@ -3791,7 +3913,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1970
+#: index.docbook:2048
 #, no-c-format
 msgid ""
 "Starting with version 16.08 (August 2016), &konsole; can be configured to "
@@ -3799,7 +3921,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1973
+#: index.docbook:2051
 #, no-c-format
 msgid ""
 "Since KDE4 all the tabs use the same process ID. This has the side-effect "
@@ -3808,7 +3930,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1976
+#: index.docbook:2054
 #, no-c-format
 msgid ""
 "This is most noticeable when a command that connects to an external device "
@@ -3816,7 +3938,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1980
+#: index.docbook:2058
 #, no-c-format
 msgid ""
 "&konsole; treats arguments after the <option>-e</option> option as one "
@@ -3825,19 +3947,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1987
+#: index.docbook:2065
 #, no-c-format
 msgid "<command>konsole -e \"command1 ; command2\"</command> does not work"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1991
+#: index.docbook:2069
 #, no-c-format
 msgid "<command>konsole -e $SHELL -c \"command1 ; command2\"</command> works"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:1999
+#: index.docbook:2077
 #, no-c-format
 msgid ""
 "&konsole; doesn't provide convenience for running login shell, because "
@@ -3845,7 +3967,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2002
+#: index.docbook:2080
 #, no-c-format
 msgid ""
 "Of course, users still can run login shell in &konsole; if they really need "
@@ -3855,7 +3977,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2007
+#: index.docbook:2085
 #, no-c-format
 msgid ""
 "The <option>--new-tab</option> option sometimes behaves strangely. It may "
@@ -3864,7 +3986,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2010
+#: index.docbook:2088
 #, no-c-format
 msgid ""
 "Those behaviors feel strange, but they are not necessarily bugs. The "
@@ -3875,20 +3997,20 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2022
+#: index.docbook:2100
 #, no-c-format
 msgid "Credits and Copyright"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2024
+#: index.docbook:2102
 #, no-c-format
 msgid ""
 "&konsole; is currently maintained by &Kurt.Hindenburg; &Kurt.Hindenburg.mail;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2026
+#: index.docbook:2104
 #, no-c-format
 msgid ""
 "Previous &konsole; maintainers include: &Robert.Knight; &Robert.Knight.mail; "
@@ -3896,7 +4018,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2028
+#: index.docbook:2106
 #, no-c-format
 msgid ""
 "The application &konsole; Copyright &copy; 1997-2008 &Lars.Doelle; &Lars."
@@ -3904,7 +4026,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2031
+#: index.docbook:2109
 #, no-c-format
 msgid ""
 "This document was originally written by &Jonathan.Singer; &Jonathan.Singer."
@@ -3912,7 +4034,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2034
+#: index.docbook:2112
 #, no-c-format
 msgid ""
 "This document was updated for &kde; 4.x by &Kurt.Hindenburg; &Kurt."
@@ -3920,7 +4042,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2037
+#: index.docbook:2115
 #, no-c-format
 msgid ""
 "This document was updated for &kde; 3.4 by &Kurt.Hindenburg; &Kurt."
@@ -3928,7 +4050,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2040
+#: index.docbook:2118
 #, no-c-format
 msgid ""
 "Originally converted to DocBook <acronym>SGML</acronym> by &Mike.McBride; "
@@ -3936,31 +4058,31 @@ msgid ""
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:2043
+#: index.docbook:2121
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:2043
+#: index.docbook:2121
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2050
+#: index.docbook:2128
 #, no-c-format
 msgid "Links"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2052
+#: index.docbook:2130
 #, no-c-format
 msgid "For more information please visit these websites:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2054
+#: index.docbook:2132
 #, no-c-format
 msgid ""
 "<ulink url=\"https://userbase.kde.org/Konsole\">&konsole;'s homepage on "
@@ -3968,25 +4090,25 @@ msgid ""
 msgstr ""
 
 #. Tag: ulink
-#: index.docbook:2055
+#: index.docbook:2133
 #, no-c-format
 msgid "&konsole;'s homepage"
 msgstr ""
 
 #. Tag: ulink
-#: index.docbook:2056
+#: index.docbook:2134
 #, no-c-format
 msgid "&konsole;'s mailing list"
 msgstr ""
 
 #. Tag: ulink
-#: index.docbook:2057
+#: index.docbook:2135
 #, no-c-format
 msgid "&kde; on FreeBSD"
 msgstr ""
 
 #. Tag: ulink
-#: index.docbook:2059
+#: index.docbook:2137
 #, no-c-format
 msgid "&kde; on &Solaris;"
 msgstr ""
