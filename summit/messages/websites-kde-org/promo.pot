@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-27 09:00+0200\n"
+"POT-Creation-Date: 2026-08-29 09:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -4786,12 +4786,32 @@ msgstr ""
 
 #. +> trunk5
 #: content/products.md:0
+msgid "Frameworks"
+msgstr ""
+
+#. +> trunk5
+#: content/products.md:0
+msgid "Add-ons for Qt. Try, for example, [Kirigami](https://develop.kde.org/frameworks/kirigami/): the UI for building apps for desktop, mobile, and everything in between."
+msgstr ""
+
+#. +> trunk5
+#: content/products.md:0
 msgid "Plasma Mobile"
 msgstr ""
 
 #. +> trunk5
 #: content/products.md:0
 msgid "Experience the freedom and privacy of KDE software on your mobile device."
+msgstr ""
+
+#. +> trunk5
+#: content/products.md:0
+msgid "Plasma Bigscreen"
+msgstr ""
+
+#. +> trunk5
+#: content/products.md:0
+msgid "Experience the freedom and privacy of KDE software for TVs and handhelds."
 msgstr ""
 
 #. +> trunk5
@@ -4807,16 +4827,6 @@ msgstr ""
 #. +> trunk5
 #: content/products.md:0
 msgid "Developers using KDE tools are given strong foundations to build great software."
-msgstr ""
-
-#. +> trunk5
-#: content/products.md:0
-msgid "Frameworks"
-msgstr ""
-
-#. +> trunk5
-#: content/products.md:0
-msgid "Add-ons for Qt. Try, for example, [Kirigami](https://develop.kde.org/frameworks/kirigami/): the UI for building apps for desktop, mobile, and everything in between."
 msgstr ""
 
 #. +> trunk5
@@ -5066,81 +5076,126 @@ msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:24
-msgid "Telemetry, if present, is opt-in"
+msgid "Vulnerability reporting and disclosure"
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:26
-msgid "Some applications include optional, disabled-by-default telemetry that a user can choose to enable. Where this exists, only anonymous details about the software and device are ever transmitted, never document or file content, and it’s covered by our [Privacy Policy](/privacypolicy). See the [Telemetry Policy](https://community.kde.org/Policies/Telemetry_Policy) for details on what individual applications collect when this is turned on."
+msgid "Security issues in KDE software can be reported to <security@kde.org>. Issues with KDE's own infrastructure (such as GitLab or Bugzilla) rather than with a specific application should go to <sysadmin@kde.org> instead."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:28
-msgid "Online services are a different case"
+msgid "Reports are handled according to the [KDE Security Policy](https://community.kde.org/Policies/Security_Policy): the security team verifies the issue and works with the affected project's maintainers on a fix. Where an immediate public alert isn't necessary, the team instead coordinates a private advance-notice period with Linux distributors and other downstream packagers, so they can prepare updated packages before the fix and a public advisory are published at the same time. A CVE is requested for confirmed issues."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:30
-msgid "A small number of things KDE operates are genuine online services rather than local software, such as the [KDE Bug Tracking System](https://bugs.kde.org), the [Discussion Forum](https://discuss.kde.org), and [KDE Identity](https://identity.kde.org). These do collect and process some personal information (such as an email address for account registration) in order to function. If your compliance question concerns one of these services specifically, see the [KDE.org Privacy Policy](/privacypolicy) for details of what each service collects and how it’s handled."
+msgid "Every published advisory is listed on the [KDE Security Advisories](/info/security/) page, with a public record going back to 1998, so you can review KDE's actual disclosure track record and timelines directly rather than relying on our word for it. KDE does not currently run a bug bounty program."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:32
-msgid "Sustainability"
+msgid "Long-term support (LTS) releases"
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:34
-msgid "Software has an environmental footprint, and it’s increasingly common for organizations to ask about this as part of their own procurement or ESG requirements. As Free and Open Source Software, KDE applications are generally designed to run efficiently across a wide range of hardware, including older machines, which helps extend the useful life of existing devices rather than forcing new purchases to keep up with each release."
+msgid "Plasma normally releases on a four-month cadence, with each stable release receiving six subsequent bugfix updates released over the next six months. Periodically, one release is additionally designated a “Long-Term Support” (LTS) release, receiving bug fixes and security updates for a longer period of time; typically 2-3 years."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:36
-msgid "Okular was the first computer program in the world to receive Germany’s Blue Angel eco-label, recognizing it against criteria for sustainable software design such as resource efficiency, portability, and avoidance of forced obsolescence. This work is part of a broader, ongoing initiative: see [eco.kde.org](https://eco.kde.org) for more on our approach to energy-efficient software, related research, and which other projects have applied similar principles."
+msgid "**Plasma 6.6 is the current LTS release, supported until approximately August 2029.** This is the result of a commercial partnership between KDE Patrons [Kubuntu Focus](https://kfocus.org/) and [Techpaladin Software](https://techpaladin.com/), who fund continuous maintenance of Plasma 6.6, KDE Frameworks, and Gear applications, plus dedicated continuous-integration infrastructure to validate the software on an ongoing basis. See the [initiative announcement](https://www.einpresswire.com/article/930823977/kubuntu-focus-techpaladin-software-and-kde-e-v-announce-the-bullet-proof-kde-software-initiative) for details, and get in contact with them if you'd like to join the initiative or sponsor LTS work in your own organization."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:38
-msgid "If your organization needs specific figures (energy consumption benchmarks, etc.) for a particular application, this varies project by project, so contact that application’s team to see what’s available."
+msgid "The work lands upstream, and while the initiative is anchored to Kubuntu 26.04 LTS, any distribution or organization is free to build and ship Plasma 6.6 LTS itself."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:40
-msgid "Accessibility"
+msgid "For the exact schedule, including future LTS designations as they're decided, see the [Plasma 6 release schedule](https://community.kde.org/Schedules/Plasma_6) on the KDE Community wiki."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:42
-msgid "KDE aims for its software to be usable by people who rely on assistive technology, including screen readers, switch devices, and other alternative input methods. Plasma and most KDE applications are built on Qt, which provides accessibility APIs (AT-SPI on Linux, and equivalents on Windows and macOS) that our software integrates with to expose its interface to assistive tools, and contributors maintain [Human Interface Guidelines](https://develop.kde.org/hig/) covering accessible design."
+msgid "Telemetry, if present, is opt-in"
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:44
-msgid "Accessibility work in KDE is ongoing and carried out project by project rather than centrally certified, so we don’t currently maintain a formal conformance report (such as a VPAT against WCAG or EN 301 549) covering our applications, and a full accessibility audit only exists for a few of them. If your organization needs this kind of documentation for procurement purposes, for instance under the European Accessibility Act, let us know which application it’s for and we can put you in touch with that project’s maintainers to discuss what’s feasible. Background on our ongoing accessibility efforts is available on the [Accessibility page](https://community.kde.org/Get_Involved/accessibility) of the KDE Community wiki."
+msgid "Some applications include optional, disabled-by-default telemetry that a user can choose to enable. Where this exists, only anonymous details about the software and device are ever transmitted, never document or file content, and it’s covered by our [Privacy Policy](/privacypolicy). See the [Telemetry Policy](https://community.kde.org/Policies/Telemetry_Policy) for details on what individual applications collect when this is turned on."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:46
-msgid "This is also an area where we could use help: accessibility audits take real expertise and time that our volunteer maintainers often can’t spare, so if your organization has accessibility professionals able to contribute an audit for a KDE application, even informally, we’d very much appreciate it. Get in touch via the Accessibility page linked above, or with the application’s team directly."
+msgid "Online services are a different case"
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:48
-msgid "If you or your users have hit a specific accessibility barrier in a KDE application, please [report it as a bug](https://community.kde.org/Get_Involved/Issue_Reporting) so it can be fixed like any other issue."
+msgid "A small number of things KDE operates are genuine online services rather than local software, such as the [KDE Bug Tracking System](https://bugs.kde.org), the [Discussion Forum](https://discuss.kde.org), and [KDE Identity](https://identity.kde.org). These do collect and process some personal information (such as an email address for account registration) in order to function. If your compliance question concerns one of these services specifically, see the [KDE.org Privacy Policy](/privacypolicy) for details of what each service collects and how it’s handled."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:50
-msgid "Questions?"
+msgid "Sustainability"
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:52
-msgid "If none of the above answers your question, or you need something further for your own paperwork, please reach out. For questions about a specific application’s behavior, contact that application’s team. For anything relating to KDE e.V., the non-profit that represents the KDE Community in legal matters, [get in touch with the Board](https://ev.kde.org/contact/)."
+msgid "Software has an environmental footprint, and it’s increasingly common for organizations to ask about this as part of their own procurement or ESG requirements. As Free and Open Source Software, KDE applications are generally designed to run efficiently across a wide range of hardware, including older machines, which helps extend the useful life of existing devices rather than forcing new purchases to keep up with each release."
 msgstr ""
 
 #. +> trunk5
 #: content/support/compliance.md:54
+msgid "Okular was the first computer program in the world to receive Germany’s Blue Angel eco-label, recognizing it against criteria for sustainable software design such as resource efficiency, portability, and avoidance of forced obsolescence. This work is part of a broader, ongoing initiative: see [eco.kde.org](https://eco.kde.org) for more on our approach to energy-efficient software, related research, and which other projects have applied similar principles."
+msgstr ""
+
+#. +> trunk5
+#: content/support/compliance.md:56
+msgid "If your organization needs specific figures (energy consumption benchmarks, etc.) for a particular application, this varies project by project, so contact that application’s team to see what’s available."
+msgstr ""
+
+#. +> trunk5
+#: content/support/compliance.md:58
+msgid "Accessibility"
+msgstr ""
+
+#. +> trunk5
+#: content/support/compliance.md:60
+msgid "KDE aims for its software to be usable by people who rely on assistive technology, including screen readers, switch devices, and other alternative input methods. Plasma and most KDE applications are built on Qt, which provides accessibility APIs (AT-SPI on Linux, and equivalents on Windows and macOS) that our software integrates with to expose its interface to assistive tools, and contributors maintain [Human Interface Guidelines](https://develop.kde.org/hig/) covering accessible design."
+msgstr ""
+
+#. +> trunk5
+#: content/support/compliance.md:62
+msgid "Accessibility work in KDE is ongoing and carried out project by project rather than centrally certified, so we don’t currently maintain a formal conformance report (such as a VPAT against WCAG or EN 301 549) covering our applications, and a full accessibility audit only exists for a few of them. If your organization needs this kind of documentation for procurement purposes, for instance under the European Accessibility Act, let us know which application it’s for and we can put you in touch with that project’s maintainers to discuss what’s feasible. Background on our ongoing accessibility efforts is available on the [Accessibility page](https://community.kde.org/Get_Involved/accessibility) of the KDE Community wiki."
+msgstr ""
+
+#. +> trunk5
+#: content/support/compliance.md:64
+msgid "This is also an area where we could use help: accessibility audits take real expertise and time that our volunteer maintainers often can’t spare, so if your organization has accessibility professionals able to contribute an audit for a KDE application, even informally, we’d very much appreciate it. Get in touch via the Accessibility page linked above, or with the application’s team directly."
+msgstr ""
+
+#. +> trunk5
+#: content/support/compliance.md:66
+msgid "If you or your users have hit a specific accessibility barrier in a KDE application, please [report it as a bug](https://community.kde.org/Get_Involved/Issue_Reporting) so it can be fixed like any other issue."
+msgstr ""
+
+#. +> trunk5
+#: content/support/compliance.md:68
+msgid "Questions?"
+msgstr ""
+
+#. +> trunk5
+#: content/support/compliance.md:70
+msgid "If none of the above answers your question, or you need something further for your own paperwork, please reach out. For questions about a specific application’s behavior, contact that application’s team. For anything relating to KDE e.V., the non-profit that represents the KDE Community in legal matters, [get in touch with the Board](https://ev.kde.org/contact/)."
+msgstr ""
+
+#. +> trunk5
+#: content/support/compliance.md:72
 msgid "If your organization needs paid support, custom development, or professional services (including help with the kind of audits mentioned above), the [KDE e.V. Trusted IT Consulting Firms](https://ev.kde.org/consultants/) are a good place to start: an independently vetted list of firms with a track record in the KDE community."
 msgstr ""
 

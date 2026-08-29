@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-08-10 11:38+0200\n"
+"POT-Creation-Date: 2026-08-29 09:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -148,8 +148,13 @@ msgid "Use your device to change slides in a presentation"
 msgstr ""
 
 #. +> trunk5
-msgctxt "pref_plugin_remotekeyboard"
-msgid "Receive remote keypresses"
+msgctxt "pref_plugin_remotekeyboard_ime"
+msgid "Keyboard receiver (via Android keyboard)"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_remotekeyboard_accessibility"
+msgid "Keyboard receiver (via accessibility)"
 msgstr ""
 
 #. +> trunk5
@@ -263,6 +268,16 @@ msgid "Open settings"
 msgstr ""
 
 #. +> trunk5
+msgctxt "open_accessibility_settings"
+msgid "Open accessibility settings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "open_input_settings"
+msgid "Open keyboard settings"
+msgstr ""
+
+#. +> trunk5
 msgctxt "no_permissions"
 msgid "You need to grant permission to access notifications"
 msgstr ""
@@ -273,8 +288,13 @@ msgid "To be able to control your media players you need to grant access to the 
 msgstr ""
 
 #. +> trunk5
-msgctxt "no_permissions_remotekeyboard"
-msgid "To receive keypresses you need to activate the KDE Connect Remote Keyboard"
+msgctxt "no_permissions_remotekeyboard_ime"
+msgid "To receive keypresses you need to activate the KDE Connect Remote Keyboard as an Android input method"
+msgstr ""
+
+#. +> trunk5
+msgctxt "no_permissions_remotekeyboard_accessibility"
+msgid "To receive keypresses you need to grant Accessibility permissions"
 msgstr ""
 
 #. +> trunk5
@@ -550,7 +570,12 @@ msgstr ""
 
 #. +> trunk5
 msgctxt "mouse_receiver_no_permissions"
-msgid "To receive touch inputs remotely you need to grant Accessibility permissions to fully control your device"
+msgid "To receive touch inputs remotely you need to grant Accessibility permissions"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mouse_keyboard_receiver_service_description"
+msgid "Receive remote mouse movement and Keyboard input"
 msgstr ""
 
 #. +> trunk5
