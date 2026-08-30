@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-28 08:33+0200\n"
+"POT-Creation-Date: 2026-08-30 07:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -5422,7 +5422,14 @@ msgctxt "@action:button"
 msgid "Remove widget"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/rooms/ExploreComponent.qml:36
+#, kde-format
+msgctxt "@title Home space for the uncategorized rooms. Please keep this consistent across all usages."
+msgid "Home"
+msgstr ""
+
+#. +> stable6
 #: src/rooms/ExploreComponent.qml:36
 #, kde-format
 msgctxt "@title Home space"
@@ -5457,7 +5464,14 @@ msgctxt "@action:button"
 msgid "Open Settings"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/rooms/ExploreComponentMobile.qml:34 src/rooms/SpaceDrawer.qml:59
+#, kde-format
+msgctxt "@action:button Home space for the uncategorized rooms. Please keep this consistent across all usages."
+msgid "Home"
+msgstr ""
+
+#. +> stable6
 #: src/rooms/ExploreComponentMobile.qml:34
 #, kde-format
 msgctxt "@action:button The 'normal' view of NeoChat including the room list"
@@ -5714,7 +5728,16 @@ msgctxt "Expand <section name"
 msgid "Expand %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/rooms/SpaceDrawer.qml:59
+#, kde-format
+msgctxt "@action:button Home space for the uncategorized rooms. Please keep this consistent across all usages."
+msgid "Home (%1 notification)"
+msgid_plural "Home (%1 notifications)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> stable6
 #: src/rooms/SpaceDrawer.qml:59
 #, kde-format
 msgctxt "Home space for the uncategorized rooms"
@@ -5723,7 +5746,7 @@ msgid_plural "Home (%1 notifications)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/rooms/SpaceDrawer.qml:59
 #, kde-format
 msgctxt "Home space for the uncategorized rooms"
@@ -7210,10 +7233,11 @@ msgstr ""
 msgid "Minimize to system tray on startup"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/settings/NeoChatGeneralPage.qml:64
 #, kde-format
-msgid "Show all rooms in \"Home\" tab"
+msgctxt "@option:check Show all rooms in the 'Home' space. Keep this consistent with the same translation you use for that space."
+msgid "Show all rooms in \"Home\" space"
 msgstr ""
 
 #. +> stable6
@@ -7234,6 +7258,12 @@ msgstr ""
 #, kde-format
 msgctxt "@info:label"
 msgid "Hidden events are not considered as recent activity when sorting rooms."
+msgstr ""
+
+#. +> stable6
+#: src/settings/NeoChatGeneralPage.qml:80
+#, kde-format
+msgid "Show all rooms in \"Home\" tab"
 msgstr ""
 
 #. +> trunk6 stable6
