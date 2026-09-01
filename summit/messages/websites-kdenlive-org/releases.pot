@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-07 08:20+0200\n"
+"POT-Creation-Date: 2026-09-01 09:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -171,6 +171,7 @@ msgstr ""
 #: content/news/releases/26.04.1/index.md:0
 #: content/news/releases/26.04.2/index.md:0
 #: content/news/releases/26.04.3/index.md:0
+#: content/news/releases/26.08.0/index.md:0
 msgid "kdenlive"
 msgstr ""
 
@@ -273,6 +274,7 @@ msgstr ""
 #: content/news/releases/26.04.0/index.md:0
 #: content/news/releases/26.04.2/index.md:0
 #: content/news/releases/26.04.3/index.md:0
+#: content/news/releases/26.08.0/index.md:0
 msgid "Farid Abdelnour"
 msgstr ""
 
@@ -1345,6 +1347,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/news/releases/26.04.0/index.md:49
+#: content/news/releases/26.08.0/index.md:15
 msgid "Timeline"
 msgstr ""
 
@@ -1390,11 +1393,13 @@ msgstr ""
 
 #. +> trunk5
 #: content/news/releases/26.04.0/index.md:67
+#: content/news/releases/26.08.0/index.md:68
 msgid "Added a button in the Status Bar to toggle between zooming to the mouse cursor position or the playhead position. Implemented by _the mrfantastic_."
 msgstr ""
 
 #. +> trunk5
 #: content/news/releases/26.04.0/index.md:69
+#: content/news/releases/26.08.0/index.md:70
 msgid "{{< video src-webm=timeline-zoom.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.3\" >}}"
 msgstr ""
 
@@ -1548,4 +1553,303 @@ msgstr ""
 #. +> trunk5
 #: content/news/releases/26.04.3/index.md:7
 msgid "The last maintenance release of the 26.04 series is out, bringing the usual batch of bug fixes and workflow and stability improvements. Highlights include fixes for crashes when undoing sequence creation and recording audio without an audio device, as well as improvements to Rectangular Alpha Mask and Rotoscoping effects. This release also continues the security hardening efforts of this cycle by preventing unwanted command execution on MLT versions below 7.40."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:7
+msgid "We are happy to announce the summer release of Kdenlive 26.08. Continuing the efforts from the last version, the core team has been focusing mostly on stability - fixing bugs and crashes while also doing lot's under the hood improvements."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:9
+msgid "This release comes with 11 crash fixes as well as improvements to the undo/redo stack for compositions and sequence creation. Work has also been done to modernize the codebase in the Qml loader for Clips and Compositions."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:11
+msgid "The majority of the new, nifty and shiny additions and enhancements in this release were made by new contributors! This seems to have become a tradition in 2026, and we couldn’t be happier about it."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:13
+msgid "Highlights"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:17
+msgid "**Automatic Track Creation**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:19
+msgid "Added functionality to automatically create audio tracks when adding a clip to the timeline in case there are not enough. Implemented by _Vineet Tiwari_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:21
+msgid "{{< video src-webm=add-tracks.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.8\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:23
+#: content/news/releases/26.08.0/index.md:31
+#: content/news/releases/26.08.0/index.md:39
+#: content/news/releases/26.08.0/index.md:47
+#: content/news/releases/26.08.0/index.md:56
+#: content/news/releases/26.08.0/index.md:64
+#: content/news/releases/26.08.0/index.md:72
+#: content/news/releases/26.08.0/index.md:89
+#: content/news/releases/26.08.0/index.md:97
+#: content/news/releases/26.08.0/index.md:105
+#: content/news/releases/26.08.0/index.md:113
+#: content/news/releases/26.08.0/index.md:123
+#: content/news/releases/26.08.0/index.md:131
+msgid ""
+"<br>"
+"\n"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:25
+msgid "**Reorder Tracks**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:27
+msgid "Added a long awaited ability to reorder tracks. Implemented by _Vineet Tiwari_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:29
+msgid "{{< video src-webm=move-tracks.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.3\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:33
+msgid "**Markers At Gaps**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:35
+msgid "Added option to add markers at gaps between timeline clips. Implemented by *Yash Bavadiya*."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:37
+msgid "{{< video src-webm=marker-gaps.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.3\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:41
+msgid "**Playhead Snapping When Dragging**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:43
+msgid "ALT + drag the time cursor (playhead) in the timeline ruler, it now snaps to nearby snap points like clip edges, guides, markers, and zone in/out. Implemented by *Yash Bavadiya*."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:45
+msgid "{{< video src-webm=playhead-snapping.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.3\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:50
+msgid "**Copy Selection To New Sequence**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:52
+msgid "It works similarly to \"Create sequence from selection\" except that it does not remove the clips from the original sequence and replace them with the new sequence clip. Implemented by _Vineet Tiwari_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:54
+msgid "{{< video src-webm=copy-sel-seq.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.4\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:58
+msgid "**Clip Color Configuration**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:60
+msgid "Added an option to configure colors for video, audio, title, image, and slideshow clip types."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:62
+msgid "![Color Clip Configuration](conf-colors.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:66
+msgid "**Playhead/Mouse Zoom**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:74
+msgid "**Multi-Clip Speed Changes**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:76
+msgid "Added the ability to change the playback speed of multiple clips at once either by directly _Ctrl + dragging_ in the timeline or by using the _Clip Speed_ tool. Implemented by _Vineet Tiwari_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:78
+msgid "{{< video src-webm=speed-adjust.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.3\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:81
+msgid "Title Editor"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:83
+msgid "**Snapping**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:85
+msgid "Added snapping in the Title Editor. Implemented by _chocolateimage_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:87
+msgid "{{< video src-webm=te-snapping.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.5\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:91
+msgid "**Rounded Corners**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:93
+msgid "Rectangles now can have rounded corners. Also notice the draggable spinbox ability to change the radius. Implemented by _chocolateimage_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:95
+msgid "{{< video src-webm=te-rounded-corners.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.5\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:99
+msgid "**Copy/Paste**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:101
+msgid "Added the ability to copy and paste elements in the Titler. Implemented by _chocolateimage_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:103
+msgid "{{< video src-webm=te-copy-paste.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.5\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:107
+msgid "**Automatic Clip Replacement**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:109
+msgid "Added option to automatically replace a title clip in the timeline with the new title clip being edited. Implemented by *Eduardo Guedes*."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:111
+msgid "{{< video src-webm=te-replace-clip.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.6\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:115
+msgid "Miscellaneous"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:117
+msgid "**Additive Soloing**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:119
+msgid "Added the ability to do additive soloing in the audio mixer by shift clicking. Implemented by *Patrick Williamson*."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:121
+msgid "{{< video src-webm=additive-solo.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.33\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:125
+msgid "**Adjustable Rotation Anchor**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:127
+msgid "Added the ability to set the rotation anchor in the Transform effect. Implemented by _Jean Baptiste Mardelle_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:129
+msgid "{{< video src-webm=rotation-anchor.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.6\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:133
+msgid "**Other Noteworthy Changes**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:135
+msgid "Updated effects with text (GPS Text, Dynamic Text, Timer) to allow for more font properties. Implemented by _Bernd Jordan_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:136
+msgid "Rectangular alpha mask is now animatable. Implemented by _Jean Baptiste Mardelle_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:137
+msgid "Added ability to use math expressions in effects values. Implemented by _Jean Baptiste Mardelle_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:138
+msgid "Drawbox and Delogo effects use the newly implemented feature to draw a rectangle directly on monitor. Implemented by _Jean Baptiste Mardelle_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:139
+msgid "Added the frei0r Color Enhance effect. Implemented by _Bernd Jordan_."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:140
+msgid "Added option to add rendered video to project bin in the Render Widget. Implemented by *Jaimukund Bhan*."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:141
+msgid "Multi-cam Editing: Added functionality to insert clips to timeline using the clip's timecode from their metadata (if they contain it). Implemented by *Jaimukund Bhan*."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:142
+msgid "Ability to open video, audio, image files from file managers or CLI environments with Kdenlive. Implemented by *Yash Bavadiya*."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/26.08.0/index.md:143
+msgid "Added webp support for image sequences. Implemented by *Farid Abdelnour*."
 msgstr ""

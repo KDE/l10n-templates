@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
-# This file is distributed under the same license as the Kdenlive 26.04 Manual package.
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive 26.04 Manual 26.04\n"
+"Project-Id-Version: Kdenlive 26.08 Manual 26.08\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 09:10+0200\n"
+"POT-Creation-Date: 2026-09-01 09:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19,6 +19,21 @@ msgstr ""
 #. +> trunk5
 #: ../../<rst_epilog>:94
 msgid "document-open"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:640
+msgid "linux"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:648
+msgid "windows"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:652
+msgid "apple"
 msgstr ""
 
 #. +> trunk5
@@ -43,11 +58,21 @@ msgstr ""
 
 #. +> trunk5
 #: ../../project_and_asset_management/file_management/backup.rst:36
+msgid "Backups are stored in folder:"
+msgstr ""
+
+#. +> trunk5
+#: ../../project_and_asset_management/file_management/backup.rst:44
+msgid "File / Folder"
+msgstr ""
+
+#. +> trunk5
+#: ../../project_and_asset_management/file_management/backup.rst:50
 msgid "**Kdenlive** keeps up to 20 versions of your project file in the last hour, 20 versions from the current day, 20 versions in the last 7 days and 20 older versions, which should be sufficient to recover from any problem."
 msgstr ""
 
 #. +> trunk5
-#: ../../project_and_asset_management/file_management/backup.rst:39
+#: ../../project_and_asset_management/file_management/backup.rst:53
 msgid ":doc:`/project_and_asset_management/file_management/project_files`"
 msgstr ""
 
@@ -59,4 +84,19 @@ msgstr ""
 #. +> trunk5
 #: ../../project_and_asset_management/file_management/backup.rst:-1
 msgid "KDE, Kdenlive, project bin, working, file, management, backup, restore, documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+
+#. +> trunk5
+#: ../../project_and_asset_management/file_management/backup.rst:0
+msgid "|linux|: :file:`~/.local/share/kdenlive/.backup/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../project_and_asset_management/file_management/backup.rst:0
+msgid "|windows|: :file:`%AppData%\\\\kdenlive\\\\.backup\\\\`"
+msgstr ""
+
+#. +> trunk5
+#: ../../project_and_asset_management/file_management/backup.rst:0
+msgid "|apple|: :file:`~/Library/Application Support/kdenlive/.backup/`"
 msgstr ""

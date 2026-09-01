@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
-# This file is distributed under the same license as the Kdenlive 26.04 Manual package.
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive 26.04 Manual 26.04\n"
+"Project-Id-Version: Kdenlive 26.08 Manual 26.08\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 09:10+0200\n"
+"POT-Creation-Date: 2026-09-01 09:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -108,56 +108,61 @@ msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:62
-msgid "Contains the different layout files saved by the user"
+msgid "Backup files"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:67
-msgid "Contains UI configuration. If your UI is broken, delete this file."
+msgid "Contains the different layout files saved by the user"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:72
-msgid "Contains LUT definition"
+msgid "Contains UI configuration. If your UI is broken, delete this file."
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:77
-msgid "Contains the downloaded VOSK models"
+msgid "Contains LUT definition"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:82
-msgid "Contains the downloaded OpenCV models"
+msgid "Contains the downloaded VOSK models"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:87
+msgid "Contains the downloaded OpenCV models"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:92
 msgid "Contains the Python virtual environment (venv)"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:90
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:95
 msgid "Contains the SeamlessM4T models for Whisper"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:94
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:99
 msgid "Windows"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:94
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:99
 msgid "To reach the above folders: :kbd:`Windows+R` then copy above path into the window."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:97
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:102
 msgid "To reach the above folders: click on the menu on :menuselection:`Go --> Go to Folder` (:kbd:`Cmd+Shift+G`) and enter :file:`~/Library`."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_info.rst:98
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:103
 msgid "MacOs"
 msgstr ""
 
@@ -238,12 +243,27 @@ msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
-msgid "|linux|: :file:`~/.local/share/kdenlive/ .backup/`"
+msgid "|linux|: :file:`~/.cache/stalefiles/kdenlive/`"
 msgstr ""
 
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_info.rst:0
-msgid "|windows|: :file:`%AppData%\\\\kdenlive\\\\ .backup\\\\`"
+msgid "|windows|: :file:`%LocalAppData%\\\\stalefiles\\\\kdenlive\\\\`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|apple|: :file:`~/Library/Caches/stalefiles/kdenlive/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|linux|: :file:`~/.local/share/kdenlive/.backup/`"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_info.rst:0
+msgid "|windows|: :file:`%AppData%\\\\kdenlive\\\\.backup\\\\`"
 msgstr ""
 
 #. +> trunk5

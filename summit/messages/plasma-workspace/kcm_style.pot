@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-16 08:27+0200\n"
+"POT-Creation-Date: 2026-09-01 09:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #. +> trunk6 stable6 stable5
 #: gtkpage.cpp:57
@@ -23,14 +24,151 @@ msgstr ""
 msgid "%1 is not a valid GTK Theme archive."
 msgstr ""
 
+#. +> trunk6
+#: kcmstyle.cpp:117
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed: Cannot install a style from a remote location."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:123
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed: The style file could not be read."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:128
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed: The style file does not contain any data."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:134
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed: The style file could not be unpacked."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:144
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed: The style could not be found."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:148
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed: The selected file is not a valid Union style."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:151
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed: The selected style is not supported."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:165
+#, kde-format
+msgctxt "@info:status"
+msgid "Installing “%1” failed: The style is already installed."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:170
+#, kde-format
+msgctxt "@info:status"
+msgid "Installing “%1” failed: Permission was denied."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:174
+#, kde-format
+msgctxt "@info:status"
+msgid "Installing “%1” failed: %2"
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:179
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully installed “%1”."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:192
+#, kde-format
+msgctxt "@info:status"
+msgid "Uninstall failed: The style with ID “%1” could not be found."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:202
+#, kde-format
+msgctxt "@info:status"
+msgid "Uninstalling “%1” failed: Permission was denied."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:204
+#, kde-format
+msgctxt "@info:status"
+msgid "Uninstalling “%1” failed: The style is not installed."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:206
+#, kde-format
+msgctxt "@info:status"
+msgid "Uninstalling “%1” failed: The style is in use."
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:208
+#, kde-format
+msgctxt "@info:status"
+msgid "Uninstalling “%1” failed: %2"
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:223
+#, kde-format
+msgctxt "@info:status"
+msgid "Could not uninstall styles:\n"
+msgstr ""
+
+#. +> trunk6
+#: kcmstyle.cpp:226
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully uninstalled “%2” but could not uninstall others:\n"
+msgid_plural "Successfully uninstalled %1 styles but could not uninstall others:\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6
+#: kcmstyle.cpp:237
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully uninstalled “%2”."
+msgid_plural "Successfully uninstalled %1 styles."
+msgstr[0] ""
+msgstr[1] ""
+
 #. +> trunk6 stable6 stable5
-#: kcmstyle.cpp:145 kcmstyle.cpp:152
+#: kcmstyle.cpp:300 kcmstyle.cpp:307
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmstyle.cpp:258
+#: kcmstyle.cpp:414
 #, kde-format
 msgid "Failed to apply selected style '%1'."
 msgstr ""
@@ -48,8 +186,22 @@ msgstr ""
 msgid "Tab 1"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#. i18n: ectx: property (format), widget (QProgressBar, progressBar)
 #. +> trunk6 stable6 stable5
+#: stylepreview.ui:65
+#, no-c-format, kde-format
+msgid "%p%"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#. +> trunk6
+#: stylepreview.ui:85
+#, kde-format
+msgid "Button"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#. +> stable6 stable5
 #: stylepreview.ui:65
 #, kde-format
 msgid "Push Button"
@@ -57,14 +209,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #. +> trunk6 stable6 stable5
-#: stylepreview.ui:86
+#: stylepreview.ui:99
 #, kde-format
 msgid "Combo box"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
 #. +> trunk6 stable6 stable5
-#: stylepreview.ui:96
+#: stylepreview.ui:109
 #, kde-format
 msgid "Checkbox"
 msgstr ""
@@ -72,21 +224,21 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_1)
 #. +> trunk6 stable6 stable5
-#: stylepreview.ui:106 stylepreview.ui:116
+#: stylepreview.ui:119 stylepreview.ui:129
 #, kde-format
 msgid "Radio button"
 msgstr ""
 
-#. i18n: ectx: property (format), widget (QProgressBar, progressBar)
-#. +> trunk6 stable6 stable5
-#: stylepreview.ui:128
-#, kde-format, no-c-format
-msgid "%p%"
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lineEdit)
+#. +> trunk6
+#: stylepreview.ui:138
+#, kde-format
+msgid "Text Field"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. +> trunk6 stable6 stable5
-#: stylepreview.ui:136
+#: stylepreview.ui:146
 #, kde-format
 msgid "Tab 2"
 msgstr ""
@@ -98,30 +250,37 @@ msgstr ""
 msgid "Application style"
 msgstr ""
 
+#. i18n: ectx: label, entry (unionStyle), group (KDE)
+#. +> trunk6
+#: stylesettings.kcfg:13
+#, kde-format
+msgid "Union Style ID"
+msgstr ""
+
 #. i18n: ectx: label, entry (iconsOnButtons), group (KDE)
 #. +> trunk6 stable6 stable5
-#: stylesettings.kcfg:13
+#: stylesettings.kcfg:17
 #, kde-format
 msgid "Show icons on buttons"
 msgstr ""
 
 #. i18n: ectx: label, entry (iconsInMenus), group (KDE)
 #. +> trunk6 stable6 stable5
-#: stylesettings.kcfg:17
+#: stylesettings.kcfg:21
 #, kde-format
 msgid "Show icons in menus"
 msgstr ""
 
 #. i18n: ectx: label, entry (toolButtonStyle), group (Toolbar style)
 #. +> trunk6 stable6 stable5
-#: stylesettings.kcfg:23
+#: stylesettings.kcfg:27
 #, kde-format
 msgid "Main toolbar label"
 msgstr ""
 
 #. i18n: ectx: label, entry (toolButtonStyleOtherToolbars), group (Toolbar style)
 #. +> trunk6 stable6 stable5
-#: stylesettings.kcfg:27
+#: stylesettings.kcfg:31
 #, kde-format
 msgid "Secondary toolbar label"
 msgstr ""
@@ -243,22 +402,140 @@ msgstr ""
 msgid "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
 msgstr ""
 
+#. +> trunk6
+#: ui/main.qml:85
+#, kde-format
+msgctxt "@action:button"
+msgid "Install From File…"
+msgstr ""
+
 #. +> trunk6 stable6
-#: ui/main.qml:55
+#: ui/main.qml:90
 #, kde-format
 msgid "Configure Icons and Toolbars…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:73
+#: ui/main.qml:108
 #, kde-format
 msgid "Configure GNOME/GTK Application Style…"
 msgstr ""
 
+#. +> trunk6
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This style is using the Union style engine which is still under development. Some things may look or behave incorrectly when using this style."
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:106
+#: ui/main.qml:174
 #, kde-format
 msgid "Configure Style…"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:182
+#, kde-format
+msgctxt "@action:button"
+msgid "Uninstall…"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:184
+#, kde-format
+msgctxt "@action:button"
+msgid "Cannot uninstall system-installed styles."
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:186
+#, kde-format
+msgctxt "@action:button"
+msgid "Can only uninstall Union styles."
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:199
+#, kde-format
+msgid "Do not uninstall this style."
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:245
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Choose Union Style to Install"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:246
+#, kde-format
+msgctxt "@action:button"
+msgid "Install"
+msgstr ""
+
+#. +> trunk6
+#: ui/UnionThumbnailItem.qml:25
+#, kde-format
+msgctxt "@title:tab"
+msgid "Tab 1"
+msgstr ""
+
+#. +> trunk6
+#: ui/UnionThumbnailItem.qml:29
+#, kde-format
+msgctxt "@title:tab"
+msgid "Tab 2"
+msgstr ""
+
+#. +> trunk6
+#: ui/UnionThumbnailItem.qml:50
+#, kde-format
+msgctxt "@option:check"
+msgid "Checkbox"
+msgstr ""
+
+#. +> trunk6
+#: ui/UnionThumbnailItem.qml:56 ui/UnionThumbnailItem.qml:62
+#, kde-format
+msgctxt "@option:radio"
+msgid "Radio Button"
+msgstr ""
+
+#. +> trunk6
+#: ui/UnionThumbnailItem.qml:84
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Combo Box"
+msgstr ""
+
+#. +> trunk6
+#: ui/UnionThumbnailItem.qml:85
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Combo Box Item"
+msgstr ""
+
+#. +> trunk6
+#: ui/UnionThumbnailItem.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Button"
+msgstr ""
+
+#. +> trunk6
+#: ui/UnionThumbnailItem.qml:107
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text Field"
+msgstr ""
+
+#. +> trunk6
+#: ui/UnionThumbnailItem.qml:122
+#, kde-format
+msgctxt "@item:inrange Progress bar value"
+msgid "%1%"
 msgstr ""
 
 #. +> stable5
