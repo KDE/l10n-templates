@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
-# This file is distributed under the same license as the Kdenlive 26.04 Manual package.
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive 26.04 Manual 26.04\n"
+"Project-Id-Version: Kdenlive 26.08 Manual 26.08\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 02:21+0000\n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -101,11 +101,11 @@ msgid "There is quite some clipping. A lot of R values are sticking at the very 
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:83
-msgid "The RGB components also show very well that the shadows are not neutral grey but orange, otherwise the color heaps on the left would, as in the gradient histogram above, have their center at the same position. There isn't a lot to correct here, what could be done is raising the shadows with a :doc:`/effects_and_filters/video_effects/color_image_correction/curves` effect, but this is a matter of taste and the intended mood for the final movie."
+msgid "The RGB components also show very well that the shadows are not neutral grey but orange, otherwise the color heaps on the left would, as in the gradient histogram above, have their center at the same position. There isn't a lot to correct here, what could be done is raising the shadows with a :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter` or :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` effect, but this is a matter of taste and the intended mood for the final movie."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:88
-msgid "Histogram before and after applying some color correcting with the :doc:`/effects_and_filters/video_effects/color_image_correction/curves` effect"
+msgid "Histogram before and after applying some color correcting with the :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` effect"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:91
@@ -129,7 +129,7 @@ msgid "The image is too dark. The brightest component, red, only reaches a value
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:104
-msgid "Monitoring correct exposure is the histogram's strength! The exposure can be corrected with :doc:`/effects_and_filters/video_effects/color_image_correction/curves` as well, but this time we will use the :doc:`/effects_and_filters/video_effects/color_image_correction/levels` effect."
+msgid "Monitoring correct exposure is the histogram's strength! The exposure can be corrected with :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` or :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter` as well, but this time we will use the :doc:`/effects_and_filters/video_effects/color_image_correction/levels` effect."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:109
