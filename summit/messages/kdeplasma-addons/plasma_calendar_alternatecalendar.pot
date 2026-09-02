@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeplasma-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-07 08:19+0200\n"
+"POT-Creation-Date: 2026-09-02 08:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19,80 +19,87 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #. +> trunk6 stable6 stable5
-#: calendarsystem.h:52
+#: calendarsystem.h:53
 #, kde-format
 msgctxt "@item:inlist"
 msgid "Julian"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: calendarsystem.h:56
+#: calendarsystem.h:57
 #, kde-format
 msgctxt "@item:inlist"
 msgid "Milankovic"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: calendarsystem.h:60
+#: calendarsystem.h:61
 #, kde-format
 msgctxt "@item:inlist"
 msgid "The Solar Hijri Calendar (Persian)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: calendarsystem.h:64
+#: calendarsystem.h:65
 #, kde-format
 msgctxt "@item:inlist See https://cldr.unicode.org/development/development-process/design-proposals/islamic-calendar-types for more details"
 msgid "Islamic Calendar (Astronomical)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: calendarsystem.h:68
+#: calendarsystem.h:69
 #, kde-format
 msgctxt "@item:inlist See https://cldr.unicode.org/development/development-process/design-proposals/islamic-calendar-types for more details"
 msgid "The Islamic Civil Calendar (Tabular)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: calendarsystem.h:72
+#: calendarsystem.h:73
 #, kde-format
 msgctxt "@item:inlist See https://cldr.unicode.org/development/development-process/design-proposals/islamic-calendar-types for more details"
 msgid "Islamic Calendar (Umm al-Qura)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: calendarsystem.h:76
+#: calendarsystem.h:77
 #, kde-format
 msgctxt "@item:inlist"
 msgid "Chinese Lunar Calendar"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: calendarsystem.h:80
+#: calendarsystem.h:81
 #, kde-format
 msgctxt "@item:inlist"
 msgid "Indian National Calendar"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: calendarsystem.h:84
+#: calendarsystem.h:85
 #, kde-format
 msgctxt "@item:inlist"
 msgid "Hebrew Calendar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: calendarsystem.h:88
+#: calendarsystem.h:89
 #, kde-format
 msgctxt "@item:inlist"
 msgid "Vietnamese Lunar Calendar"
 msgstr ""
 
 #. +> trunk6
-#: calendarsystem.h:92
+#: calendarsystem.h:93
 #, kde-format
 msgctxt "@item:inlist"
 msgid "Ethiopian Calendar"
+msgstr ""
+
+#. +> trunk6
+#: calendarsystem.h:97
+#, kde-format
+msgctxt "@item:inlist"
+msgid "Bikram Sambat"
 msgstr ""
 
 #. +> stable5
@@ -164,6 +171,20 @@ msgstr ""
 #, kde-format
 msgctxt "@label %1 Day number %2 Month name in Islamic Calendar %3 Year number %4 Islamic calendar date in Arabic"
 msgid "%1 %2, %3 (%4)"
+msgstr ""
+
+#. +> trunk6
+#: provider/nepalicalendar.cpp:258
+#, kde-format
+msgctxt "@label date outside the officially published Bikram Sambat range"
+msgid " (approx.)"
+msgstr ""
+
+#. +> trunk6
+#: provider/nepalicalendar.cpp:261
+#, kde-format
+msgctxt "@label %1 Day number %2 Month name in Bikram Sambat %3 Year number"
+msgid "%1 %2, %3"
 msgstr ""
 
 #. +> trunk6 stable6 stable5

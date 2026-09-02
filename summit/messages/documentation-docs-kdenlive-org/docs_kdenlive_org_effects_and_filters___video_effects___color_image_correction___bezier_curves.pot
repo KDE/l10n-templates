@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 26.08 Manual 26.08\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 09:26+0200\n"
+"POT-Creation-Date: 2026-09-02 08:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -75,103 +75,108 @@ msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:50
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:66
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:69
 msgid "Description"
 msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:51
-msgid "This effect is used to adjust the color levels similar to the :doc:`/effects_and_filters/video_effects/color_image_correction/3_point_balance` but with finer control. Although the effect defaults to the RGB channel, it is mostly used with the :term:`Luma` channel. See also the :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` effect that does the same thing but does not have the curve handles. If you need to control the color components individually using curves, see :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter`."
+msgid "This effect is used to adjust the color levels similar to the :doc:`/effects_and_filters/video_effects/color_image_correction/3_point_balance` but with finer control. Although the effect defaults to the RGB channel, it is mostly used with the :term:`Luma` channel."
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:53
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:54
+msgid "See also the :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` and :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter` effects."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:56
 msgid "Click anywhere on the graph paper to insert a node. Use the extended handles on the node to adjust the steepness of the curve leading to and leaving the point."
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:57
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:60
 msgid "Parameters"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:64
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:67
 msgid "Parameter"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:65
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:68
 msgid "Value"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:67
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:70
 msgid "Channel"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:68
 #: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:71
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:74
 msgid "Selection"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:69
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:72
 msgid "Sets the channel to operate on"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:70
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:73
 msgid "Luma formula"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:72
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:75
 msgid "Defines the :term:`color space` to operate in"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:74
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:77
 msgid "The following selection items are available:"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:76
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:79
 msgid ":guilabel:`Channel`"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:91
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:94
 msgid "Default is RGB (all color channels)"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:93
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:96
 msgid ":guilabel:`Luma formula`"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:100
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:103
 msgid "Rec. 601"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:102
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:105
 msgid "Rec. 709"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:103
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:106
 msgid "(default)"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:109
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:112
 msgid "Notes"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:110
+#: ../../effects_and_filters/video_effects/color_image_correction/bezier_curves.rst:113
 msgid "See |thediveo_grading| blog for an example of how to use this effect to color grade clips."
 msgstr ""
 

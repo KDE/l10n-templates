@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdp\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-28 08:33+0200\n"
+"POT-Creation-Date: 2026-09-02 08:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -87,11 +87,11 @@ msgstr ""
 msgid "Autostart the server on login"
 msgstr ""
 
-#. i18n: ectx: label, entry (lockOnDisconnect), group (General)
+#. i18n: ectx: label, entry (exclusiveMode), group (General)
 #. +> trunk6
 #: krdpserversettings.kcfg:47
 #, kde-format
-msgid "Lock the session when the last client disconnects and unlock it on connect"
+msgid "Disable the host monitors and create virtual screens for exclusive session use by a remote user"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -101,14 +101,28 @@ msgctxt "@info:status"
 msgid "Generating certificates automatically has failed!"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/CertLoader.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Select certificate key file"
+msgstr ""
+
+#. +> stable6
 #: ui/CertLoader.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Certificate Key file"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/CertLoader.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Select certificate file"
+msgstr ""
+
+#. +> stable6
 #: ui/CertLoader.qml:16
 #, kde-format
 msgctxt "@title:window"
@@ -193,21 +207,21 @@ msgid "Received following error with password keychain: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:76
+#: ui/main.qml:77
 #, kde-format
 msgctxt "@option:check Enable RDP server"
 msgid "Enable RDP server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:118
+#: ui/main.qml:119
 #, kde-format
 msgctxt "@info:status"
 msgid "Systemd not found. krdpserver will require manual activation."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:127
+#: ui/main.qml:128
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -216,7 +230,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:142 ui/main_phone.qml:101
+#: ui/main.qml:143 ui/main_phone.qml:101
 #, kde-format
 msgid "Users listed below can log into this device remotely using apps that support the “RDP” protocol."
 msgstr ""
@@ -228,10 +242,85 @@ msgid "Set up remote login to connect using apps supporting the “RDP” remote
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:152
+#: ui/main.qml:153
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Connect to this device at any of the following addresses:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:188 ui/main_phone.qml:158
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy Address to Clipboard"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:222
+#, kde-format
+msgctxt "@option:check"
+msgid "Autostart on login"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:233 ui/main_phone.qml:173
+#, kde-format
+msgctxt "@title:group"
+msgid "Server Settings"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:216
+#, kde-format
+msgctxt "title:group Group of RDP server settings"
+msgid "Server Settings"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:236
+#, kde-format
+msgctxt "part of a sentence: 'Start server [automatically on login]'"
+msgid "Start server:"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:240
+#, kde-format
+msgctxt "part of a sentence: 'Start server automatically on login'"
+msgid "Automatically on login"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:252
+#, kde-format
+msgid "Listening port:"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:238
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Listening Port:"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:253
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Video quality:"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:284
+#, kde-format
+msgid "Operating mode:"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:285
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Displays will be locked, and the remote user will see a virtual screen."
 msgstr ""
 
 #. +> stable6
@@ -241,116 +330,165 @@ msgctxt "@info:usagetip"
 msgid "Use any of the following addresses to connect to this device:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:187 ui/main_phone.qml:158
+#. +> trunk6
+#: ui/main.qml:288
 #, kde-format
-msgctxt "@action:button"
-msgid "Copy Address to Clipboard"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:241
-#, kde-format
-msgctxt "title:group Group of RDP server settings"
-msgid "Server Settings"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:247
-#, kde-format
-msgctxt "@option:check"
-msgid "Autostart on login"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:263
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Listening Port:"
+msgid "Enable exclusive mode"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:276
+#: ui/main.qml:302
 #, kde-format
-msgctxt "@option:check"
-msgid "Lock the session when disconnecting, unlock on connect"
+msgid "Quality:"
 msgstr ""
 
 #. +> trunk6
-#: ui/main.qml:289
+#: ui/main.qml:338
 #, kde-format
-msgctxt "@option:check"
-msgid "Adjust quality for network conditions"
+msgctxt "Animation speed"
+msgid "Responsiveness"
 msgstr ""
 
-#. +> trunk6
-#: ui/main.qml:304
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Maximum video quality:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:304
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Video quality:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:324
+#. +> stable6
+#: ui/main.qml:273
 #, kde-format
 msgctxt "@label:slider"
 msgid "Responsiveness"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:330
+#. +> trunk6
+#: ui/main.qml:345
+#, kde-format
+msgctxt "Animation speed"
+msgid "Quality"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:279
 #, kde-format
 msgctxt "@label:slider"
 msgid "Quality"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:337
+#. +> trunk6
+#: ui/main.qml:355
+#, kde-format
+msgid "Automatically adjust quality for network conditions"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:368
+#, kde-format
+msgctxt "@title:group"
+msgid "Security Certificates"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:286
 #, kde-format
 msgctxt "title:group Group of RDP server settings"
 msgid "Security Certificates"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:342
+#. +> trunk6
+#: ui/main.qml:371
+#, kde-format
+msgctxt "part of a sentence: 'Generate certificates [automatically]'"
+msgid "Generate certificates:"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:376
+#, kde-format
+msgctxt "part of a sentence: '[Generate certificates] automatically'"
+msgid "Automatically"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:291
 #, kde-format
 msgctxt "@label:check generate security certificates automatically"
 msgid "Generate automatically"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:360
+#. +> trunk6
+#: ui/main.qml:396
+#, kde-format
+msgid "Certificate path:"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:309
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Certificate path:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:374
+#. +> trunk6
+#: ui/main.qml:406
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter certificate path…"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:426
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose certificate file…"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:324
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose Certificate File…"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:386
+#. +> trunk6
+#: ui/main.qml:438
+#, kde-format
+msgid "Opens a file picker for the certificate file"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:445
+#, kde-format
+msgid "Certificate key path:"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:336
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Certificate key path:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:401
+#. +> trunk6
+#: ui/main.qml:455
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter certificate key path…"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:475
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose certificate key file…"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:352
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose Certificate Key File…"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:487
+#, kde-format
+msgid "Opens a file picker for the certificate key file"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -383,13 +521,6 @@ msgstr ""
 #: ui/main_phone.qml:135
 #, kde-format
 msgid "Connect to this device at any of the following addresses:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main_phone.qml:173
-#, kde-format
-msgctxt "@title:group"
-msgid "Server Settings"
 msgstr ""
 
 #. +> trunk6 stable6
