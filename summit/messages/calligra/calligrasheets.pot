@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-31 08:36+0200\n"
+"POT-Creation-Date: 2026-09-04 09:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -324,76 +324,76 @@ msgid "false"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/SheetBase.cpp:357
+#: engine/SheetBase.cpp:362
 #, kde-format
 msgid "Dependency"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:657
+#: engine/Value.cpp:674
 #, kde-format
 msgctxt "Error: circular formula dependency"
 msgid "#CIRCLE!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:665
+#: engine/Value.cpp:682
 #, kde-format
 msgctxt "Error: broken cell reference"
 msgid "#DEPEND!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:673
+#: engine/Value.cpp:690
 #, kde-format
 msgctxt "Error: division by zero"
 msgid "#DIV/0!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:681
+#: engine/Value.cpp:698
 #, kde-format
 msgctxt "Error: not available"
 msgid "#N/A"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:689
+#: engine/Value.cpp:706
 #, kde-format
 msgctxt "Error: unknown function name"
 msgid "#NAME?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:697
+#: engine/Value.cpp:714
 #, kde-format
 msgctxt "Error: number out of range"
 msgid "#NUM!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:705
+#: engine/Value.cpp:722
 #, kde-format
 msgctxt "Error: empty intersecting area"
 msgid "#NULL!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:713
+#: engine/Value.cpp:730
 #, kde-format
 msgctxt "Error: formula not parseable"
 msgid "#PARSE!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:721
+#: engine/Value.cpp:738
 #, kde-format
 msgctxt "Error: invalid cell/array reference"
 msgid "#REF!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: engine/Value.cpp:729
+#: engine/Value.cpp:746
 #, kde-format
 msgctxt "Error: wrong (number of) function argument(s)"
 msgid "#VALUE!"
@@ -5285,13 +5285,13 @@ msgid "ZERO_COUPON(1000;.1;20) equals 148.64"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/information.cpp:196 part/dialogs/PreferenceDialog.cpp:433
+#: functions/information.cpp:193 part/dialogs/PreferenceDialog.cpp:433
 #, kde-format
 msgid "Manual"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/information.cpp:198 part/dialogs/PreferenceDialog.cpp:435
+#: functions/information.cpp:195 part/dialogs/PreferenceDialog.cpp:435
 #: ui/dialogs/LayoutPage_Float.cpp:215
 #, kde-format
 msgid "Automatic"
@@ -8224,13 +8224,13 @@ msgid "COLUMNS(D2) returns 1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:137 functions/reference.xml:266
+#: functions/reference.xml:137 functions/reference.xml:278
 #, kde-format
 msgid "Row"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:141 functions/reference.xml:292
+#: functions/reference.xml:141 functions/reference.xml:304
 #: ui/actions/dialogs/DatabaseDialog.cpp:188
 #, kde-format
 msgid "Column"
@@ -8375,8 +8375,8 @@ msgid "SHEETS(reference)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:236 functions/reference.xml:258
-#: functions/reference.xml:284
+#: functions/reference.xml:236 functions/reference.xml:256
+#: functions/reference.xml:270 functions/reference.xml:296
 #, kde-format
 msgid "Lookup value"
 msgstr ""
@@ -8411,230 +8411,260 @@ msgstr ""
 msgid "LOOKUP(1.232; A1:A6; B1:B6) for A1 = 1, A2 = 2 returns the value of B1."
 msgstr ""
 
+#. +> trunk6
+#: functions/reference.xml:257
+#, kde-format
+msgid "Lookup array"
+msgstr ""
+
+#. +> trunk6
+#: functions/reference.xml:258
+#, kde-format
+msgid "Return array"
+msgstr ""
+
+#. +> trunk6
+#: functions/reference.xml:259
+#, kde-format
+msgid "If not found (optional)"
+msgstr ""
+
+#. +> trunk6
+#: functions/reference.xml:261
+#, kde-format
+msgid "Searches an array for a value and returns the corresponding value from a result array."
+msgstr ""
+
+#. +> trunk6
+#: functions/reference.xml:262
+#, kde-format
+msgid "XLOOKUP(value; lookup array; return array; if not found)"
+msgstr ""
+
 #. +> trunk6 stable6
-#: functions/reference.xml:262 functions/reference.xml:288
+#: functions/reference.xml:274 functions/reference.xml:300
 #, kde-format
 msgid "Data source"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:270 functions/reference.xml:296
+#: functions/reference.xml:282 functions/reference.xml:308
 #, kde-format
 msgid "Sorted (optional)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:274
+#: functions/reference.xml:286
 #, kde-format
 msgid "Look for a matching value in the first row of the given table, and return the value of the indicated row."
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:275
+#: functions/reference.xml:287
 #, kde-format
 msgid "Looks up the 'lookup value' in the first row of the 'data source'. If a value matches, the value in the 'row' and the column, the value was found in, is returned. If 'sorted' is true (default), the first row is assumed to be sorted. The search will end, if the 'lookup value' is lower than the value, currently compared to."
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:276
+#: functions/reference.xml:288
 #, kde-format
 msgid "HLOOKUP(Lookup value; data source; Row; Sorted)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:300
+#: functions/reference.xml:312
 #, kde-format
 msgid "Look for a matching value in the first column of the given table, and return the value of the indicated column."
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:301
+#: functions/reference.xml:313
 #, kde-format
 msgid "Looks up the 'lookup value' in the first column of the 'data source'. If a value matches, the value in the 'column' and the row, the value was found in, is returned. If 'sorted' is true (default), the first column is assumed to be sorted. The search will end, if the 'lookup value' is lower than the value, currently compared to."
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:302
+#: functions/reference.xml:314
 #, kde-format
 msgid "VLOOKUP(Lookup value; data source; Column; Sorted)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:310
+#: functions/reference.xml:322
 #, kde-format
 msgid "Formula cell"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:314
+#: functions/reference.xml:326
 #, kde-format
 msgid "Row cell"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:318
+#: functions/reference.xml:330
 #, kde-format
 msgid "Row replacement"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:322
+#: functions/reference.xml:334
 #, kde-format
 msgid "Column cell (optional)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:326
+#: functions/reference.xml:338
 #, kde-format
 msgid "Column replacement (optional)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:330
+#: functions/reference.xml:342
 #, kde-format
 msgid "MULTIPLE.OPERATIONS executes the formula expression pointed to by FormulaCell and all formula expressions it depends on while replacing all references to RowCell with references to RowReplacement respectively all references to ColumnCell with references to ColumnReplacement. The function may be used to easily create tables of expressions that depend on two input parameters."
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:331
+#: functions/reference.xml:343
 #, kde-format
 msgid "MULTIPLE.OPERATIONS(Formula cell; Row cell; Row replacement; Column cell; Column replacement)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:339
+#: functions/reference.xml:351
 #, kde-format
 msgid "Search value"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:343
+#: functions/reference.xml:355
 #, kde-format
 msgid "Search region"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:347
+#: functions/reference.xml:359
 #, kde-format
 msgid "Match type (optional)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:351
+#: functions/reference.xml:363
 #, kde-format
 msgid "Finds a search value in a search region, and returns its position (starting from 1). Match type can be either -1, 0 or 1 and determines how is searched for the value. If match type is 0, the index of the first value that equals search value is returned. If match type is 1 (or omitted), the index of the first value that is less than or equal to the search value is returned and the values in the search region must be sorted in ascending order. If match type is -1, the smallest value that is greater than or equal to the search value is found, and the search region needs to be sorted in descending order."
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:352
+#: functions/reference.xml:364
 #, kde-format
 msgid "MATCH(Search value; Search region; Match type)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:360
+#: functions/reference.xml:372
 #, kde-format
 msgid "Reference or range"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:364
+#: functions/reference.xml:376
 #, kde-format
 msgid "Number of rows to offset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:368
+#: functions/reference.xml:380
 #, kde-format
 msgid "Number of columns to offset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:372
+#: functions/reference.xml:384
 #, kde-format
 msgid "Height of the offset range (optional)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:376
+#: functions/reference.xml:388
 #, kde-format
 msgid "Width of the offset range (optional)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:380
+#: functions/reference.xml:392
 #, kde-format
 msgid "Modifies a reference's position and dimension."
 msgstr ""
 
 #. +> trunk6 stable6
-#: functions/reference.xml:381
+#: functions/reference.xml:393
 #, kde-format
 msgid "OFFSET(Reference reference; Integer rowOffset; Integer columnOffset; Integer newHeight; Integer newWidth)"
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:389
+#: functions/reference.xml:401
 #, kde-format
 msgid "Server application"
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:393
+#: functions/reference.xml:405
 #, kde-format
 msgid "Topic"
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:397
+#: functions/reference.xml:409
 #, kde-format
 msgid "Item"
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:401
+#: functions/reference.xml:413
 #, kde-format
 msgid "Mode"
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:405
+#: functions/reference.xml:417
 #, kde-format
 msgid "Requests data from another running application via Dynamic Data Exchange, a Windows-only inter-process mechanism this platform does not support. DDE() is recognized so documents that reference it still load, but always evaluates to an error."
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:406
+#: functions/reference.xml:418
 #, kde-format
 msgid "DDE(server; topic; item; mode)"
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:414
+#: functions/reference.xml:426
 #, kde-format
 msgid "URL"
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:418
+#: functions/reference.xml:430
 #, kde-format
 msgid "Display text (defaults to the URL)"
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:422
+#: functions/reference.xml:434
 #, kde-format
 msgid "Returns the display text for a hyperlink, or the URL itself if no display text is given. Following the link is handled by the application, not by formula evaluation."
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:423
+#: functions/reference.xml:435
 #, kde-format
 msgid "HYPERLINK(url; display text)"
 msgstr ""
 
 #. +> trunk6
-#: functions/reference.xml:424
+#: functions/reference.xml:436
 #, kde-format
 msgid "HYPERLINK(\"https://calligra.org\"; \"Calligra\") returns \"Calligra\""
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-12 09:50+0200\n"
+"POT-Creation-Date: 2026-09-04 09:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -262,18 +262,46 @@ msgctxt "@option:check"
 msgid "Invert scroll direction"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/main.qml:363
+#, kde-format
+msgctxt "@option:check"
+msgid "Scroll when moving the pointer"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:336
 #, kde-format
 msgctxt "@option:check"
 msgid "Hold down middle button and move mouse to scroll"
 msgstr ""
 
+#. +> trunk6
+#: ui/main.qml:383
+#, kde-format
+msgctxt "@option:radio"
+msgid "while pressing the middle button"
+msgstr ""
+
 #. +> trunk6 stable6
-#: ui/main.qml:375
+#: ui/main.qml:396
 #, kde-format
 msgctxt "@info:whatsthis ContextualHelpButton tooltip"
 msgid "This will interfere with applications that use middle-button drag, such as some image editors, document viewers, or video games. It may be used on any device, but is intended primarily as a substitute for scroll wheels on devices that do not have any."
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:406
+#, kde-format
+msgctxt "@option:radio"
+msgid "after clicking the middle button"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:419
+#, kde-format
+msgctxt "@info:whatsthis ContextualHelpButton tooltip"
+msgid "This will interfere with middle-clicks in general; middle-click twice when you want the application to receive a single middle-click. This includes middle-click dragging."
 msgstr ""
 
 #. +> stable5
