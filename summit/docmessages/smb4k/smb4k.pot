@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-16 09:22+0100\n"
+"POT-Creation-Date: 2026-09-05 10:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -50,10 +50,17 @@ msgid "Alexander Reinholdt"
 msgstr ""
 
 #. Tag: date
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:37
 #, no-c-format
 msgid "2026-01-26"
+msgstr ""
+
+#. Tag: date
+#. +> stable6
+#: index.docbook:37
+#, no-c-format
+msgid "2026-08-28"
 msgstr ""
 
 #. Tag: releaseinfo
@@ -67,7 +74,7 @@ msgstr ""
 #. +> stable6
 #: index.docbook:38
 #, no-c-format
-msgid "&smb4k; 4.0.6"
+msgid "&smb4k; 4.0.7"
 msgstr ""
 
 #. Tag: para
@@ -123,14 +130,21 @@ msgstr ""
 #. +> stable6
 #: index.docbook:60
 #, no-c-format
-msgid "This handbook describes &smb4k; 4.0.6 and later. To some extent, it is also correct for earlier versions."
+msgid "This handbook describes &smb4k; 4.0.7 and later. To some extent, it is also correct for earlier versions."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:63
 #, no-c-format
 msgid "In 2025, several security vulnerabilities were found in the KAuth mount helper program (see the <ulink url=\"https://security.opensuse.org/2025/12/10/smb4k-major-issues-in-kauth-helper.html\">report</ulink> by the SUSE Security Team) and were fixed in version 4.0.5. Since the feature set for mounts and unmounts has been restricted, these security improvements have a noticeable impact on the entire program."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
+#: index.docbook:63
+#, no-c-format
+msgid "In 2025 and 2026, several security vulnerabilities were found in the KAuth mount helper program and were fixed in version 4.0.5 and 4.0.7, respectively. Since the feature sets for mounts and unmounts have been restricted, these security improvements have a noticeable impact on the entire program."
 msgstr ""
 
 #. Tag: para
@@ -4477,21 +4491,21 @@ msgid "Do not send byte range lock requests to the server. This is necessary for
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2475
 #, no-c-format
 msgid "SMB protocol version"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2478
 #, no-c-format
 msgid "Option: <option>vers=VERS</option>"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2479
 #, no-c-format
 msgid "Define which version of the SMB protocol is to be used. Normally, this option does not need to be enabled because the protocol version is negotiated between the client and the server."
@@ -4505,126 +4519,126 @@ msgid "The following values are allowed:"
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2484
 #, no-c-format
 msgid "1.0 (Classic &CIFS;/SMBv1 protocol)"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2487
 #, no-c-format
 msgid "This causes <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> to use the classic &CIFS;/SMBv1 protocol."
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2492
 #, no-c-format
 msgid "2.0 (Windows Vista SP1/Windows Server 2008)"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2495
 #, no-c-format
 msgid "This causes <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> to use the SMBv2.002 protocol. This was initially introduced in &Microsoft; &Windows; Vista Service Pack 1 and &Windows; Server 2008."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2496
 #, no-c-format
 msgid "Please note that the initial release version of &Microsoft; &Windows; Vista spoke a slightly different dialect (2.000) that is not supported."
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2501
 #, no-c-format
 msgid "2.1 (Windows 7/Windows Server 2008R2)"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2504
 #, no-c-format
 msgid "This causes <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> to use the SMBv2.1 protocol that was introduced in &Microsoft; &Windows; 7 and &Windows; Server 2008R2."
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2509
 #, no-c-format
 msgid "3.0 (Windows 8/Windows Server 2012)"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2512
 #, no-c-format
 msgid "This causes <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> to use the SMBv3.0 protocol that was introduced in &Microsoft; &Windows; 8 and &Windows; Server 2012."
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2517
 #, no-c-format
 msgid "3.0.2 (Windows 8.1/Windows Server 2012R2)"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2520
 #, no-c-format
 msgid "This causes <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> to use the SMBv3.0.2 protocol that was introduced in &Microsoft; &Windows; 8.1 and &Windows; Server 2012R2."
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2526
 #, no-c-format
 msgid "3.1.1 (Windows Server 2016)"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2529
 #, no-c-format
 msgid "This causes <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> to use the SMBv3.1.1 protocol that was introduced in &Microsoft; &Windows; Server 2016."
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2534
 #, no-c-format
 msgid "3 (Version 3.0 and above)"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2537
 #, no-c-format
 msgid "This causes <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> to use the SMBv3.0 protocol version and above."
 msgstr ""
 
 #. Tag: guibutton
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2542
 #, no-c-format
 msgid "default (Negotiate the highest version)"
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2545
 #, no-c-format
 msgid "This causes <ulink url=\"man:/mount.cifs\"><citerefentry><refentrytitle>mount.cifs</refentrytitle><manvolnum>8</manvolnum></citerefentry></ulink> to try to negotiate the highest SMBv2+ version supported by both the client and server."
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: index.docbook:2549
 #, no-c-format
 msgid "Default: not selected; VERS: <guibutton>default (Negotiate the highest version)</guibutton>"
