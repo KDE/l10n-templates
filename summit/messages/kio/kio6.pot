@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-06 10:50+0200\n"
+"POT-Creation-Date: 2026-09-07 07:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -43,7 +43,7 @@ msgid "Could not modify the ownership of file <filename>%1</filename>. You have 
 msgstr ""
 
 #. +> trunk6 trunk5
-#: core/copyjob.cpp:196 kioworkers/file/file_unix.cpp:1106
+#: core/copyjob.cpp:196 kioworkers/file/file_unix.cpp:595
 #, kde-format
 msgctxt "The first arg is the path to the symlink that couldn't be created, the secondarg is the filesystem type (e.g. vfat, exfat)"
 msgid ""
@@ -4471,127 +4471,28 @@ msgstr ""
 msgid "unmounting is not supported by Windows CE."
 msgstr ""
 
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:102
-#, kde-format
-msgid "Change File Permissions"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:103
-#, kde-format
-msgid "New Permissions: %1"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:106
-#, kde-format
-msgid "Change File Owner"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:107
-#, kde-format
-msgid "New Owner: UID=%1, GID=%2"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:110
-#, kde-format
-msgid "Remove File"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:113
-#, kde-format
-msgid "Remove Directory"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:116
-#, kde-format
-msgid "Create Directory"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:117
-#, kde-format
-msgid "Directory Permissions: %1"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:120
-#, kde-format
-msgid "Open File"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:123
-#, kde-format
-msgid "Open Directory"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:127
-#, kde-format
-msgid "New Filename: %1"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:131
-#, kde-format
-msgid "Target: %1"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:134
-#, kde-format
-msgid "Change Timestamp"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:138
-#, kde-format
-msgid "From: %1, To: %2"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:141
-#, kde-format
-msgid "Unknown Action"
-msgstr ""
-
-#. +> trunk5
-#: ioslaves/file/file_unix.cpp:146
-#, kde-format
-msgid ""
-"Action: %1\n"
-"Source: %2\n"
-"%3"
-msgstr ""
-
 #. +> trunk6 trunk5
-#: kioworkers/file/file_unix.cpp:693
-#, kde-format
-msgid "Cannot copy file from %1 to %2. (Errno: %3)"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: kioworkers/file/file_unix.cpp:905
+#: kioworkers/file/file_unix.cpp:394
 #, kde-format
 msgid "No media in device for %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kioworkers/file/file_unix.cpp:1264
+#: kioworkers/file/file_unix.cpp:753
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kioworkers/file/file_unix.cpp:1275
+#: kioworkers/file/file_unix.cpp:764
 #, kde-format
 msgid "Could not get group id for given group name %1"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kioworkers/file/file_unix_copy.cpp:405
+#, kde-format
+msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
 #. +> trunk6 trunk5
@@ -8458,6 +8359,105 @@ msgstr ""
 #: filewidgets/kstatusbarofflineindicator.cpp:54
 #, kde-format
 msgid "The desktop is offline"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:102
+#, kde-format
+msgid "Change File Permissions"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:103
+#, kde-format
+msgid "New Permissions: %1"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:106
+#, kde-format
+msgid "Change File Owner"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:107
+#, kde-format
+msgid "New Owner: UID=%1, GID=%2"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:110
+#, kde-format
+msgid "Remove File"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:113
+#, kde-format
+msgid "Remove Directory"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:116
+#, kde-format
+msgid "Create Directory"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:117
+#, kde-format
+msgid "Directory Permissions: %1"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:120
+#, kde-format
+msgid "Open File"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:123
+#, kde-format
+msgid "Open Directory"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:127
+#, kde-format
+msgid "New Filename: %1"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:131
+#, kde-format
+msgid "Target: %1"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:134
+#, kde-format
+msgid "Change Timestamp"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:138
+#, kde-format
+msgid "From: %1, To: %2"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:141
+#, kde-format
+msgid "Unknown Action"
+msgstr ""
+
+#. +> trunk5
+#: ioslaves/file/file_unix.cpp:146
+#, kde-format
+msgid ""
+"Action: %1\n"
+"Source: %2\n"
+"%3"
 msgstr ""
 
 #. +> trunk5

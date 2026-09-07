@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-linux-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-04 09:39+0200\n"
+"POT-Creation-Date: 2026-09-07 07:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -849,7 +849,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/apps-and-games.md:14 content/docs/cjkv-input.md:49
-#: content/docs/updates.md:14
+#: content/docs/updates.md:24
 msgid "Graphical"
 msgstr ""
 
@@ -865,7 +865,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/apps-and-games.md:20 content/docs/cjkv-input.md:66
-#: content/docs/updates.md:22
+#: content/docs/updates.md:32
 msgid "Command-line"
 msgstr ""
 
@@ -5734,52 +5734,72 @@ msgid "There are two methods of keeping a KDE Linux system up to date: graphical
 msgstr ""
 
 #. +> trunk5
-#: content/docs/updates.md:15
-msgid "Updates are done through the _Discover_ software center app. Discover handles both system updates as well as updates for Flatpak-based apps and add-on content."
+#: content/docs/updates.md:13
+msgid "{{< alert color=\"warning\" title=\"6 September 2026: Issue affecting system updates in Discover\">}} We are working to fix an issue that can cause Discover to be unable to update the system."
 msgstr ""
 
 #. +> trunk5
-#: content/docs/updates.md:17
-msgid "Discover will notify you when updates are available; just click the notification to launch Discover and see what’s available. On Discover’s Updates page, click *Update All* when you’re ready to update."
+#: content/docs/updates.md:16
+msgid "If you see an error like this:"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/updates.md:19
-msgid "Updates to apps take effect the next time the updated apps are launched, while system updates take effect the next time the machine is restarted."
+#: content/docs/updates.md:18
+msgid "<code>Failed to fetch the updates from https://invent.kde.orq/kde-linux/kde-linux/-/raw/master/org.kde.linux.metainfo.xml. Error message: Error transferring https://invent.kde.org/kde-linux/kde-linux/-/raw/master/org.kde.linux.metainfo.xml - server replied with status code 403</code>"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/updates.md:23
-msgid "Alternatively, you can update software using command-line tools in a terminal."
+#: content/docs/updates.md:21
+msgid "then try to update using the command line instead, as described below. {{< /alert >}}"
 msgstr ""
 
 #. +> trunk5
 #: content/docs/updates.md:25
-msgid "Check for Flatpak updates and interactively decide to install them or not using <code>flatpak update</code>."
+msgid "Updates are done through the _Discover_ software center app. Discover handles both system updates as well as updates for Flatpak-based apps and add-on content."
 msgstr ""
 
 #. +> trunk5
 #: content/docs/updates.md:27
-msgid "Check for system updates using <code>updatectl check</code>, and install the latest one with <code>updatectl update</code>. Restart the system to apply the update."
+msgid "Discover will notify you when updates are available; just click the notification to launch Discover and see what’s available. On Discover’s Updates page, click *Update All* when you’re ready to update."
 msgstr ""
 
 #. +> trunk5
 #: content/docs/updates.md:29
+msgid "Updates to apps take effect the next time the updated apps are launched, while system updates take effect the next time the machine is restarted."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/updates.md:33
+msgid "Alternatively, you can update software using command-line tools in a terminal."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/updates.md:35
+msgid "Check for Flatpak updates and interactively decide to install them or not using <code>flatpak update</code>."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/updates.md:37
+msgid "Check for system updates using <code>updatectl check</code>, and install the latest one with <code>updatectl update</code>. Restart the system to apply the update."
+msgstr ""
+
+#. +> trunk5
+#: content/docs/updates.md:39
 msgid "If greater verbosity is needed, or <code>updatectl</code> is not working, use <code>run0 /usr/lib/systemd/systemd-sysupdate update</code> instead. In these cases, record the output and enter it into a bug report at https://invent.kde.org/kde-linux/kde-linux/-/issues/new."
 msgstr ""
 
 #. +> trunk5
-#: content/docs/updates.md:32
+#: content/docs/updates.md:42
 msgid "Retaining older versions of the base system"
 msgstr ""
 
 #. +> trunk5
-#: content/docs/updates.md:34
+#: content/docs/updates.md:44
 msgid "When you update the system, older versions of the KDE Linux base system (but not of the installed apps) are automatically kept, so that in the event of a problem you can [roll back to an older version](boot-failure-recovery)."
 msgstr ""
 
 #. +> trunk5
-#: content/docs/updates.md:36
+#: content/docs/updates.md:46
 msgid "To save space, performing a system update will remove older versions as needed — but never the currently-running version. If you perform an update when the currently-running version is the oldest one, the second-oldest version will be removed instead."
 msgstr ""
 
