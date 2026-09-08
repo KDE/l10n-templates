@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-05 10:02+0200\n"
+"POT-Creation-Date: 2026-09-08 07:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3375,8 +3375,15 @@ msgstr ""
 msgid "Launch"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: libdiscover/resources/AbstractResource.cpp:270
+#, kde-format
+msgctxt "@info 'Refresh' is used as a noun here. An app or runtime got updated without changing the user-facing version number %1"
+msgid "Refresh of version %1"
+msgstr ""
+
+#. +> stable6 stable5
+#: libdiscover/resources/AbstractResource.cpp:250
 #, kde-format
 msgctxt "@info 'Refresh' is used as a noun here, and %1 is an app's version number"
 msgid "Refresh of version %1"
