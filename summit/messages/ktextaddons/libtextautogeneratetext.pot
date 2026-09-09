@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-31 08:37+0200\n"
+"POT-Creation-Date: 2026-09-09 08:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -305,28 +305,28 @@ msgid "Generic"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:29
+#: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:32
-#: plugins/lmstudio/lmstudioconfiguredialog.cpp:35
-#: plugins/ollama/ollamaconfiguredialog.cpp:50
-#: plugins/ollamacloud/ollamacloudconfiguredialog.cpp:35
-#: plugins/ollamaonline/ollamaonlineconfiguredialog.cpp:36
+#: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:28
+#: plugins/lmstudio/lmstudioconfiguredialog.cpp:31
+#: plugins/ollama/ollamaconfiguredialog.cpp:46
+#: plugins/ollamacloud/ollamacloudconfiguredialog.cpp:31
+#: plugins/ollamaonline/ollamaonlineconfiguredialog.cpp:32
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:38
-#: plugins/ollama/ollamaconfiguredialog.cpp:56
-#: plugins/ollamacloud/ollamacloudconfiguredialog.cpp:41
-#: plugins/ollamaonline/ollamaonlineconfiguredialog.cpp:42
+#: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:34
+#: plugins/ollama/ollamaconfiguredialog.cpp:52
+#: plugins/ollamacloud/ollamacloudconfiguredialog.cpp:37
+#: plugins/ollamaonline/ollamaonlineconfiguredialog.cpp:38
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Available Models"
@@ -588,14 +588,14 @@ msgid "LMStudio"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/lmstudio/lmstudioconfiguredialog.cpp:31
+#: plugins/lmstudio/lmstudioconfiguredialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure LMStudio"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/lmstudio/lmstudioconfiguredialog.cpp:41
+#: plugins/lmstudio/lmstudioconfiguredialog.cpp:37
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Installed model"
@@ -641,7 +641,7 @@ msgid "Impossible to start LMStudio."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/modelsmanager/ollamamodelavailabledialog.cpp:28
+#: plugins/ollama/modelsmanager/ollamamodelavailabledialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Ollama Models"
@@ -874,21 +874,21 @@ msgid "Default Model Path:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfiguredialog.cpp:36
+#: plugins/ollama/ollamaconfiguredialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Ollama"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfiguredialog.cpp:62
+#: plugins/ollama/ollamaconfiguredialog.cpp:58
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Installed Models"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfiguredialog.cpp:68
+#: plugins/ollama/ollamaconfiguredialog.cpp:64
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Create Models"
@@ -933,7 +933,7 @@ msgid "Failed to start Ollama"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamalogdialog.cpp:27
+#: plugins/ollama/ollamalogdialog.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Ollama Log"
@@ -991,7 +991,7 @@ msgid "Ollama (Cloud)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollamacloud/ollamacloudconfiguredialog.cpp:31
+#: plugins/ollamacloud/ollamacloudconfiguredialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Ollama Cloud"
@@ -2545,7 +2545,7 @@ msgid "Ollama (Online)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollamaonline/ollamaonlineconfiguredialog.cpp:32
+#: plugins/ollamaonline/ollamaonlineconfiguredialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Ollama Online"
@@ -2609,7 +2609,7 @@ msgid "Power saver mode is enabled, this will slow down message generation."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/common/textautogenerateshowmodelinfodialog.cpp:27
+#: widgets/common/textautogenerateshowmodelinfodialog.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Show Model Information"
@@ -2708,7 +2708,7 @@ msgid "Error Opening File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/common/textautogeneratetoolshowmetadatadialog.cpp:27
+#: widgets/common/textautogeneratetoolshowmetadatadialog.cpp:23
 #, kde-format
 msgid "Metadata Info"
 msgstr ""
@@ -2766,8 +2766,8 @@ msgid "Show metadata info"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/debug/textautogenerateshowdebugdialog.cpp:26
-#: widgets/promptswidget/textautogenerateskilldialog.cpp:27
+#: widgets/debug/textautogenerateshowdebugdialog.cpp:22
+#: widgets/promptswidget/textautogenerateskilldialog.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug"
@@ -2795,7 +2795,7 @@ msgid "Select a Type of Instance:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/instancesmanager/textautogeneratetextinstancesmanagerdialog.cpp:28
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerdialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Instances"
@@ -2861,7 +2861,7 @@ msgid "Add Instance…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/menu/textautogeneratemenuconfiguredialog.cpp:27
+#: widgets/menu/textautogeneratemenuconfiguredialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure AI text plugins"
@@ -2959,7 +2959,7 @@ msgid "Travel"
 msgstr ""
 
 #. +> trunk6
-#: widgets/promptswidget/textautogeneratepromptdialog.cpp:27
+#: widgets/promptswidget/textautogeneratepromptdialog.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Prompt"
@@ -2999,7 +2999,7 @@ msgid "Instructions:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/quickask/textautogeneratequickaskdialog.cpp:29
+#: widgets/quickask/textautogeneratequickaskdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Quick Ask"
@@ -3042,7 +3042,7 @@ msgid "Save Discussion in Database"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/textautogeneratedialog.cpp:35
+#: widgets/textautogeneratedialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Conversation"
@@ -3098,7 +3098,7 @@ msgid "Next Chat"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/textautogeneratesearchdialog.cpp:29
+#: widgets/textautogeneratesearchdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Search"
@@ -3111,13 +3111,13 @@ msgid "No plugin found."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/textautogeneratewidget.cpp:240
+#: widgets/textautogeneratewidget.cpp:239
 #, kde-format
 msgid "Error reported: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/textautogeneratewidget.cpp:240
+#: widgets/textautogeneratewidget.cpp:239
 #, kde-format
 msgctxt "@title:window"
 msgid "Error"
@@ -3187,26 +3187,26 @@ msgid "Copy Block Code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/view/images/textautogenerateshowimagedialog.cpp:40
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:36
 #, kde-format
 msgctxt "@title:window"
 msgid "Display Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/view/images/textautogenerateshowimagedialog.cpp:60
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:56
 #, kde-format
 msgid "Copy Image to Clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/view/images/textautogenerateshowimagedialog.cpp:62
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:58
 #, kde-format
 msgid "Copy Location to Clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/view/images/textautogenerateshowimagedialog.cpp:141
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:122
 #, kde-format
 msgid "Other Application..."
 msgstr ""

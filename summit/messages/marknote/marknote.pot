@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: marknote\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-08 07:34+0200\n"
+"POT-Creation-Date: 2026-09-09 08:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -169,28 +169,42 @@ msgid "© 2023–2026 Mathis Brüchert"
 msgstr ""
 
 #. +> trunk6
-#: notesmodel.cpp:225
+#: notesmodel.cpp:198
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to create note. A note already exists with the same name."
+msgstr ""
+
+#. +> trunk6
+#: notesmodel.cpp:205
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to create note: %1"
+msgstr ""
+
+#. +> trunk6
+#: notesmodel.cpp:234
 #, kde-format
 msgctxt "@info:status"
 msgid "Unable to rename note. A note already exists with the same name."
 msgstr ""
 
 #. +> trunk6
-#: notesmodel.cpp:289
+#: notesmodel.cpp:298
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid move operation."
 msgstr ""
 
 #. +> trunk6
-#: notesmodel.cpp:296
+#: notesmodel.cpp:305
 #, kde-format
 msgctxt "@info:status"
 msgid "Cannot move a folder into itself."
 msgstr ""
 
 #. +> trunk6
-#: notesmodel.cpp:302
+#: notesmodel.cpp:311
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to move file."
@@ -628,24 +642,31 @@ msgid "Optional alternate text to display instead of the note name."
 msgstr ""
 
 #. +> trunk6
-#: qml/NoteMetadataDialog.qml:24
+#: qml/NoteMetadataDialog.qml:30
 #, kde-format
 msgctxt "@title:window"
 msgid "New Note"
 msgstr ""
 
 #. +> trunk6
-#: qml/NoteMetadataDialog.qml:24
+#: qml/NoteMetadataDialog.qml:30
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Note"
 msgstr ""
 
 #. +> trunk6
-#: qml/NoteMetadataDialog.qml:55
+#: qml/NoteMetadataDialog.qml:73
 #, kde-format
 msgctxt "@label:textbox Note name"
 msgid "Name:"
+msgstr ""
+
+#. +> trunk6
+#: qml/NoteMetadataDialog.qml:78
+#, kde-format
+msgctxt "@info"
+msgid "A note with this name already exists."
 msgstr ""
 
 #. +> trunk6
