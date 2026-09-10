@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR This file is copyright:
-# This file is distributed under the same license as the plasma-mobile package.
+# This file is distributed under the same license as the plasma-nm package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: plasma-mobile\n"
+"Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"POT-Creation-Date: 2026-09-08 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,22 +17,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: contents/logout/Logout.qml:141
+#: kcm.cpp:666
 #, kde-format
-msgid "Restart"
+msgid "Failed to get secrets for %1"
 msgstr ""
 
-#: contents/logout/Logout.qml:150
+#: kcm.cpp:692
 #, kde-format
-msgid "Shut Down"
+msgid "my_shared_connection"
 msgstr ""
 
-#: contents/logout/Logout.qml:159
+#: kcm.cpp:762
 #, kde-format
-msgid "Log Out"
+msgid "Do you want to save changes made to the connection '%1'?"
 msgstr ""
 
-#: contents/logout/Logout.qml:175
+#: kcm.cpp:765
 #, kde-format
-msgid "Cancel"
+msgctxt "@title:window"
+msgid "Save Changes"
+msgstr ""
+
+#: kcm.cpp:794
+#, kde-format
+msgctxt "Suffix appended to duplicated connection name"
+msgid " (Copy)"
 msgstr ""

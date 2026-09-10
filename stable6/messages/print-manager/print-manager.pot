@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: print-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-07 02:49+0000\n"
+"POT-Creation-Date: 2026-08-13 00:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/configure-printer/ConfigureDialog.cpp:93
-#: src/configure-printer/ConfigureDialog.cpp:94
+#: src/configure-printer/ConfigureDialog.cpp:96
+#: src/configure-printer/ConfigureDialog.cpp:97
 #, kde-format
 msgid "Media Settings"
 msgstr ""
 
-#: src/configure-printer/ConfigureDialog.cpp:101
-#: src/configure-printer/ConfigureDialog.cpp:102
+#: src/configure-printer/ConfigureDialog.cpp:104
+#: src/configure-printer/ConfigureDialog.cpp:105
 #, kde-format
 msgid "Banners, Policies and Allowed Users"
 msgstr ""
 
-#: src/configure-printer/ConfigureDialog.cpp:171
+#: src/configure-printer/ConfigureDialog.cpp:182
 #, kde-format
 msgid ""
 "The current page has changes.\n"
 "Do you want to save them?"
 msgstr ""
 
-#: src/configure-printer/ConfigureDialog.cpp:173
+#: src/configure-printer/ConfigureDialog.cpp:184
 #, kde-format
 msgid "Save"
 msgstr ""
@@ -261,28 +261,21 @@ msgid ""
 "properly."
 msgstr ""
 
-#: src/kded/MarkerLevelChecker.cpp:194
+#: src/kded/CupsWatcher.cpp:55
 #, kde-format
-msgctxt "@info:usagetip The name and type of the ink cartridge"
-msgid "%1 (%2) appears to be empty."
+msgctxt "@info:status %1 is the reason message for the status"
+msgid ""
+"%1\n"
+"The print job will complete when the printer becomes available."
 msgstr ""
 
-#: src/kded/MarkerLevelChecker.cpp:197
+#: src/kded/CupsWatcher.cpp:59
 #, kde-format
-msgctxt ""
-"@info:usagetip The name and type of the ink cartridge and percent ink "
-"remaining"
-msgid "%1 (%2) appears to be low (%3% remaining)."
+msgctxt "@action:button Prompt to resume printer"
+msgid "Resume Printer"
 msgstr ""
 
-#: src/kded/MarkerLevelChecker.cpp:204
-#, kde-format
-msgctxt ""
-"@info:usagetip The name, type, and percentage full of the waste receptacle"
-msgid "%1 (%2) is almost full (%3%)"
-msgstr ""
-
-#: src/kded/MarkerLevelChecker.cpp:219
+#: src/kded/CupsWatcher.cpp:79
 #, kde-format
 msgctxt "@action:button check printer ink levels"
 msgid "Check Levels…"
@@ -669,14 +662,41 @@ msgstr ""
 msgid "A CUPS connection requires authentication: \"%1\""
 msgstr ""
 
-#: src/libkcups/KCupsPasswordDialog.cpp:22
+#: src/libkcups/KCupsPasswordDialog.cpp:21
 #, kde-format
 msgid "Enter an username and a password to complete the task"
 msgstr ""
 
-#: src/libkcups/KCupsPasswordDialog.cpp:44
+#: src/libkcups/KCupsPasswordDialog.cpp:43
 #, kde-format
 msgid "Wrong username or password"
+msgstr ""
+
+#: src/libkcups/KCupsPrinter.cpp:147
+#, kde-format
+msgctxt "@info:usagetip The name and type of the ink cartridge"
+msgid "%1 (%2) appears to be empty."
+msgstr ""
+
+#: src/libkcups/KCupsPrinter.cpp:150
+#, kde-format
+msgctxt ""
+"@info:usagetip The name and type of the ink cartridge and percent ink "
+"remaining"
+msgid "%1 (%2) appears to be low (%3% remaining)."
+msgstr ""
+
+#: src/libkcups/KCupsPrinter.cpp:157
+#, kde-format
+msgctxt ""
+"@info:usagetip The name, type, and percentage full of the waste receptacle"
+msgid "%1 (%2) is almost full (%3%)"
+msgstr ""
+
+#: src/libkcups/KCupsPrinter.cpp:309
+#, kde-format
+msgctxt "@info:status"
+msgid "The printer is paused or stopped."
 msgstr ""
 
 #: src/libkcups/KCupsRequest.cpp:31
@@ -709,118 +729,118 @@ msgstr ""
 msgid "Empty ppd model"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:196
+#: src/libkcups/PrinterModel.cpp:192
 #, kde-format
 msgid "Printers"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:384
+#: src/libkcups/PrinterModel.cpp:390
 #, kde-format
 msgid "Idle"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:384
+#: src/libkcups/PrinterModel.cpp:390
 #, kde-format
 msgid "Idle, rejecting jobs"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:386
+#: src/libkcups/PrinterModel.cpp:392
 #, kde-format
 msgid "Idle - '%1'"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:386
+#: src/libkcups/PrinterModel.cpp:392
 #, kde-format
 msgid "Idle, rejecting jobs - '%1'"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:390
+#: src/libkcups/PrinterModel.cpp:396
 #, kde-format
 msgid "In use"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:392
+#: src/libkcups/PrinterModel.cpp:398
 #, kde-format
 msgid "In use - '%1'"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:396
+#: src/libkcups/PrinterModel.cpp:402
 #, kde-format
 msgid "Paused"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:396
+#: src/libkcups/PrinterModel.cpp:402
 #, kde-format
 msgid "Paused, rejecting jobs"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:398
+#: src/libkcups/PrinterModel.cpp:404
 #, kde-format
 msgid "Paused - '%1'"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:398
+#: src/libkcups/PrinterModel.cpp:404
 #, kde-format
 msgid "Paused, rejecting jobs - '%1'"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:402
+#: src/libkcups/PrinterModel.cpp:408
 #, kde-format
 msgid "Unknown"
 msgstr ""
 
-#: src/libkcups/PrinterModel.cpp:404
+#: src/libkcups/PrinterModel.cpp:410
 #, kde-format
 msgid "Unknown - '%1'"
 msgstr ""
 
-#: src/print-queue/main.cpp:38
+#: src/print-queue/main.cpp:39
 #, kde-format
 msgctxt "@info:credit"
 msgid "Plasma Print Queue Manager"
 msgstr ""
 
-#: src/print-queue/main.cpp:40
+#: src/print-queue/main.cpp:41
 #, kde-format
 msgctxt "@info:credit"
 msgid "Manage printer job queues"
 msgstr ""
 
-#: src/print-queue/main.cpp:42
+#: src/print-queue/main.cpp:43
 #, kde-format
 msgid "© KDE Community"
 msgstr ""
 
-#: src/print-queue/main.cpp:47
+#: src/print-queue/main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Mike Noe"
 msgstr ""
 
-#: src/print-queue/main.cpp:47
+#: src/print-queue/main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Developer"
 msgstr ""
 
-#: src/print-queue/main.cpp:48
+#: src/print-queue/main.cpp:49
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: src/print-queue/main.cpp:48
+#: src/print-queue/main.cpp:49
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: src/print-queue/main.cpp:58
+#: src/print-queue/main.cpp:62
 #, kde-format
 msgid "Show printer queue"
 msgstr ""
 
-#: src/print-queue/PrintQueue.cpp:82
+#: src/print-queue/PrintQueue.cpp:88
 #, kde-format
 msgid "Enter credentials to print from <b>%1</b>"
 msgstr ""
