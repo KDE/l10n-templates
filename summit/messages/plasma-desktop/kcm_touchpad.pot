@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-12 09:50+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -422,36 +422,6 @@ msgctxt "@option:radio"
 msgid "Middle-click"
 msgstr ""
 
-#. +> stable6 stable5
-#: backends/x11/xlibbackend.cpp:69
-#, kde-format
-msgid "Cannot connect to X server"
-msgstr ""
-
-#. +> stable6 stable5
-#: backends/x11/xlibbackend.cpp:80
-#, kde-format
-msgid "No touchpad found"
-msgstr ""
-
-#. +> stable6 stable5
-#: backends/x11/xlibbackend.cpp:120
-#, kde-format
-msgid "Cannot apply touchpad configuration"
-msgstr ""
-
-#. +> stable6 stable5
-#: backends/x11/xlibbackend.cpp:134
-#, kde-format
-msgid "Cannot read touchpad configuration"
-msgstr ""
-
-#. +> stable6 stable5
-#: backends/x11/xlibbackend.cpp:147
-#, kde-format
-msgid "Cannot read default touchpad configuration"
-msgstr ""
-
 #. +> stable5
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -492,6 +462,36 @@ msgstr ""
 #: backends/kwin_wayland/kwinwaylandbackend.cpp:63
 #, kde-format
 msgid "Querying input devices failed. Please reopen this settings module."
+msgstr ""
+
+#. +> stable5
+#: backends/x11/xlibbackend.cpp:74
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr ""
+
+#. +> stable5
+#: backends/x11/xlibbackend.cpp:90 kcm/libinput/touchpad.qml:98
+#, kde-format
+msgid "No touchpad found"
+msgstr ""
+
+#. +> stable5
+#: backends/x11/xlibbackend.cpp:136 backends/x11/xlibbackend.cpp:150
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr ""
+
+#. +> stable5
+#: backends/x11/xlibbackend.cpp:164 backends/x11/xlibbackend.cpp:177
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr ""
+
+#. +> stable5
+#: backends/x11/xlibbackend.cpp:190
+#, kde-format
+msgid "Cannot read default touchpad configuration"
 msgstr ""
 
 #. +> stable5

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-17 11:27+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -420,6 +420,12 @@ msgid "Fullscreen"
 msgstr ""
 
 #. +> stable5
+#: rulesmodel.cpp:526
+#, kde-format
+msgid "Obey geometry restrictions"
+msgstr ""
+
+#. +> stable5
 #: rulesmodel.cpp:528
 #, kde-format
 msgid ""
@@ -490,12 +496,6 @@ msgstr ""
 msgid "Window shall (not) appear in the Alt+Tab list"
 msgstr ""
 
-#. +> stable6 stable5
-#: rulesmodel.cpp:564
-#, kde-format
-msgid "Obey geometry restrictions"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: rulesmodel.cpp:566
 #, kde-format
@@ -513,6 +513,12 @@ msgstr ""
 #: rulesmodel.cpp:571
 #, kde-format
 msgid "Keep below other windows"
+msgstr ""
+
+#. +> stable5
+#: rulesmodel.cpp:571
+#, kde-format
+msgid "No titlebar and frame"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -571,7 +577,7 @@ msgid ""
 "\"Extreme\" will completely prevent it from taking the focus."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesmodel.cpp:600
 #, kde-format
 msgid "Window manager draws titlebar, frame, and shadows"
@@ -601,12 +607,6 @@ msgstr ""
 #: rulesmodel.cpp:606
 #, kde-format
 msgid "Titlebar color scheme"
-msgstr ""
-
-#. +> stable6 stable5
-#: rulesmodel.cpp:611
-#, kde-format
-msgid "No titlebar and frame"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -673,6 +673,12 @@ msgstr ""
 msgid "Focus protection"
 msgstr ""
 
+#. +> stable5
+#: rulesmodel.cpp:651
+#, kde-format
+msgid "Block compositing"
+msgstr ""
+
 #. +> trunk6 stable6
 #: rulesmodel.cpp:652
 #, kde-kuit-format
@@ -718,16 +724,6 @@ msgid ""
 "Note that you won't be able to <shortcut>Alt+Tab</shortcut> out of the window or use any other global shortcuts such as <shortcut>Alt+Space</shortcut> to activate KRunner."
 msgstr ""
 
-#. +> stable6
-#: rulesmodel.cpp:566
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid ""
-"Some apps like video players or terminals can ask KWin to constrain them to certain aspect ratios or only grow by values larger than the dimensions of one character. Use this property to ignore such restrictions and allow those windows to be resized to arbitrary sizes.<nl/>"
-"<nl/>"
-"This can be helpful for windows that can't quite fit the full screen area when maximized."
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: rulesmodel.cpp:696
 #, kde-format
@@ -750,12 +746,6 @@ msgstr ""
 #: rulesmodel.cpp:712
 #, kde-format
 msgid "Adaptive sync"
-msgstr ""
-
-#. +> stable6 stable5
-#: rulesmodel.cpp:716
-#, kde-format
-msgid "Block compositing"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1096,28 +1086,28 @@ msgstr ""
 msgid "Overlay"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesmodel.cpp:936
 #, kde-format
 msgctxt "Never draw a server side decoration"
 msgid "Never"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesmodel.cpp:937
 #, kde-format
 msgctxt "Draw a server side decoration if the application asks for it"
 msgid "If the application asks"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesmodel.cpp:938
 #, kde-format
 msgctxt "Always draw a server side decoration"
 msgid "Always"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesmodel.cpp:939
 #, kde-format
 msgctxt "Always draw a server side drop shadow"

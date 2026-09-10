@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-09 08:36+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -383,12 +383,6 @@ msgctxt "Power profile was changed to performance mode, keep short"
 msgid "Performance Mode"
 msgstr ""
 
-#. +> stable6
-#: panelview.cpp:458
-#, kde-format
-msgid "With an NVIDIA GPU on X11, the Floating style and Adaptive opacity mode are known to cause poor window drag and resize performance. Consider using other settings."
-msgstr ""
-
 #. +> trunk6 stable6
 #: panelview.cpp:1066
 #, kde-format
@@ -410,17 +404,17 @@ msgctxt "Percentage value"
 msgid "%1%"
 msgstr ""
 
-#. +> trunk6
-#: shellcontainmentconfig.cpp:109
-#, kde-format
-msgid "Built-in Screen"
-msgstr ""
-
-#. +> stable6 stable5
-#: shellcontainmentconfig.cpp:111
+#. +> stable5
+#: shellcontainmentconfig.cpp:108
 #, kde-format
 msgctxt "Screen manufacturer and model on connector"
 msgid "%1 %2 on %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: shellcontainmentconfig.cpp:109
+#, kde-format
+msgid "Built-in Screen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -429,8 +423,8 @@ msgstr ""
 msgid "Disconnected Screen %1"
 msgstr ""
 
-#. +> stable6 stable5
-#: shellcontainmentconfig.cpp:107
+#. +> stable5
+#: shellcontainmentconfig.cpp:104
 #, kde-format
 msgid "Internal Screen on %1"
 msgstr ""
@@ -477,7 +471,7 @@ msgstr ""
 msgid "Stop Current Activity"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: shellcorona.cpp:232
 #, kde-format
 msgid "Activate Task Manager Entry %1"

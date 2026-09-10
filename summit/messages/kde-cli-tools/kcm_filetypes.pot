@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde-cli-tools\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-28 08:32+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -89,26 +89,26 @@ msgstr ""
 msgid "&General"
 msgstr ""
 
+#. +> stable5
+#: filetypedetails.cpp:128
+#, kde-format
+msgid "Left Click Action in Konqueror"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: filetypedetails.cpp:129
 #, kde-format
 msgid "&Embedding"
 msgstr ""
 
-#. +> stable6 stable5
-#: filetypedetails.cpp:129
-#, kde-format
-msgid "Left Click Action in Konqueror"
-msgstr ""
-
-#. +> stable6 stable5
-#: filetypedetails.cpp:138
+#. +> stable5
+#: filetypedetails.cpp:137
 #, kde-format
 msgid "Ask whether to save to disk instead (only for Konqueror browser)"
 msgstr ""
 
-#. +> stable6 stable5
-#: filetypedetails.cpp:154
+#. +> stable5
+#: filetypedetails.cpp:153
 #, kde-format
 msgid "Here you can configure what the Konqueror file manager will do when you click on a file of this type. Konqueror can either display the file in an embedded viewer, or start up a separate application. If set to 'Use settings for G group', the file manager will behave according to the settings of the group G to which this type belongs; for instance, 'image' if the current file type is image/png. Dolphin always shows files in a separate viewer."
 msgstr ""
@@ -131,8 +131,8 @@ msgstr ""
 msgid "File type %1"
 msgstr ""
 
-#. +> stable6 stable5
-#: filetypedetails.cpp:336
+#. +> stable5
+#: filetypedetails.cpp:333
 #, kde-format
 msgid "Use settings for '%1' group"
 msgstr ""
@@ -459,25 +459,25 @@ msgstr ""
 msgid "Type the name of the file type. For instance, if you selected 'image' as category and you type 'custom' here, the file type 'image/custom' will be created."
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: filegroupdetails.cpp:22
 #, kde-format
 msgid "Left Click Action (only for Konqueror file manager)"
 msgstr ""
 
-#. +> stable6 stable5
-#: filegroupdetails.cpp:26 filetypedetails.cpp:134
+#. +> stable5
+#: filegroupdetails.cpp:26 filetypedetails.cpp:133
 #, kde-format
 msgid "Show file in embedded viewer"
 msgstr ""
 
-#. +> stable6 stable5
-#: filegroupdetails.cpp:27 filetypedetails.cpp:135
+#. +> stable5
+#: filegroupdetails.cpp:27 filetypedetails.cpp:134
 #, kde-format
 msgid "Show file in separate viewer"
 msgstr ""
 
-#. +> stable6 stable5
+#. +> stable5
 #: filegroupdetails.cpp:36
 #, kde-format
 msgid "Here you can configure what the Konqueror file manager will do when you click on a file belonging to this group. Konqueror can display the file in an embedded viewer or start up a separate application. You can change this setting for a specific file type in the 'Embedding' tab of the file type configuration. Dolphin  shows files always in a separate viewer"

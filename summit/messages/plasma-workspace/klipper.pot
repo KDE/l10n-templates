@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-10 07:52+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -48,7 +48,7 @@ msgstr[1] ""
 msgid "Selection and Clipboard:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog.cpp:105
 #, kde-kuit-format
 msgctxt "@info:tooltip"
@@ -60,8 +60,8 @@ msgid ""
 "When turned on, this option keeps the selection and the clipboard the same,  so that any selection is immediately available to paste by any means. If it is turned off, the selection may still be saved in the clipboard history (subject to the option below), but it can only be pasted using the middle mouse button."
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:107
+#. +> stable5
+#: configdialog.cpp:87
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -72,43 +72,43 @@ msgid ""
 "When turned on this option keeps the selection and the clipboard the same, so that any selection is immediately available to paste by any means. If it is turned off, the selection may still be saved in the clipboard history (subject to the options below), but it can only be pasted using the middle mouse button."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog.cpp:124
 #, kde-format
 msgid "Text selected with the pointer or keyboard"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog.cpp:126
 #, kde-format
 msgid "Include in history:"
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:136 configdialog.cpp:174
+#. +> stable5
+#: configdialog.cpp:131 configdialog.cpp:169
 #, kde-format
 msgid "Always save in history"
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:185
+#. +> stable5
+#: configdialog.cpp:180
 #, kde-format
 msgid "Never save in history"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog.cpp:128
 #, kde-format
 msgid "Text copied explicitly is always saved unless it is marked as a password."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog.cpp:133
 #, kde-format
 msgid "Image data copied explicitly"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog.cpp:137
 #, kde-format
 msgid ""
@@ -116,13 +116,19 @@ msgid ""
 "<a href=\"1\">More about images in the clipboard.</a>"
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:142 configdialog.cpp:180
+#. +> stable5
+#: configdialog.cpp:137 configdialog.cpp:175
 #, kde-format
 msgid "Only when explicitly copied"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: configdialog.cpp:142
+#, kde-format
+msgid "Whether text selections are saved in the clipboard history."
+msgstr ""
+
+#. +> trunk6 stable6
 #: configdialog.cpp:146
 #, kde-kuit-format
 msgctxt "@info:tooltip"
@@ -144,20 +150,14 @@ msgid ""
 "and click on the window that you want to exclude. The first name that it displays after the equal sign is the one that you need to enter."
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:147
-#, kde-format
-msgid "Whether text selections are saved in the clipboard history."
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: configdialog.cpp:171
 #, kde-format
 msgid "Show action popup menu:"
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:178
+#. +> stable5
+#: configdialog.cpp:173
 #, kde-format
 msgid "Non-text selection:"
 msgstr ""
@@ -169,8 +169,8 @@ msgctxt "@info"
 msgid "When text that matches an action pattern is selected or is chosen from the clipboard history, automatically show the popup menu with applicable actions. If the automatic menu is turned off here, or it is not shown for an excluded window, then it can be shown by using the <shortcut>%1</shortcut> key shortcut."
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:190
+#. +> stable5
+#: configdialog.cpp:185
 #, kde-format
 msgid "Whether non-text selections (such as images) are saved in the clipboard history."
 msgstr ""
@@ -238,8 +238,8 @@ msgstr ""
 msgid "Delete Action"
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:140
+#. +> stable5
+#: configdialog.cpp:135
 #, kde-format
 msgid "Text selection:"
 msgstr ""
@@ -272,8 +272,8 @@ msgid ""
 "and all of its commands?"
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:321
+#. +> stable5
+#: configdialog.cpp:359
 #, kde-kuit-format
 msgctxt "@info"
 msgid "When a <interface>match pattern</interface> matches the clipboard contents, its <interface>commands</interface> appear in the Klipper popup menu and can be executed."
@@ -443,14 +443,14 @@ msgstr ""
 msgid "Starred Only"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: declarative/qml/ClipboardMenu.qml:353
 #, kde-format
 msgctxt "@info"
 msgid "The clipboard currently holds a sensitive piece of data that will not be stored in the history."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: declarative/qml/ClipboardMenu.qml:362
 #, kde-format
 msgctxt "@action:button"
@@ -681,15 +681,15 @@ msgstr ""
 msgid "Command:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: editcommanddialog.cpp:73
 #, kde-kuit-format
 msgctxt "@info"
 msgid "A <b>&#37;s</b> in the command will be replaced by the complete clipboard contents. <b>&#37;0</b> through <b>&#37;9</b> will be replaced by the corresponding captured texts from the match pattern."
 msgstr ""
 
-#. +> stable6 stable5
-#: editcommanddialog.cpp:73
+#. +> stable5
+#: editcommanddialog.cpp:71
 #, kde-kuit-format
 msgctxt "@info"
 msgid "A <placeholder>&#37;s</placeholder> in the command will be replaced by the complete clipboard contents. <placeholder>&#37;0</placeholder> through <placeholder>&#37;9</placeholder> will be replaced by the corresponding captured texts from the match pattern."
@@ -962,7 +962,7 @@ msgid "Keep the selection and clipboard the same"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SyncClipboards), group (General)
-#. +> trunk6
+#. +> trunk6 stable6
 #: klipper.kcfg:29
 #, kde-format
 msgid ""
@@ -971,7 +971,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SyncClipboards), group (General)
-#. +> stable6 stable5
+#. +> stable5
 #: klipper.kcfg:29
 #, kde-format
 msgid ""
@@ -980,70 +980,70 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SaveSelection), group (General)
-#. +> trunk6
+#. +> trunk6 stable6
 #: klipper.kcfg:32
 #, kde-format
 msgid "Save the selection"
 msgstr ""
 
 #. i18n: ectx: label, entry (IgnoreSelection), group (General)
-#. +> stable6 stable5
+#. +> stable5
 #: klipper.kcfg:32
 #, kde-format
 msgid "Ignore the selection"
 msgstr ""
 
 #. i18n: ectx: label, entry (SelectionTextOnly), group (General)
-#. +> stable6 stable5
+#. +> stable5
 #: klipper.kcfg:37
 #, kde-format
 msgid "Text selection only"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SaveSelection), group (General)
-#. +> trunk6
+#. +> trunk6 stable6
 #: klipper.kcfg:34
 #, kde-format
 msgid "Content selected with the pointer but not explicitly copied to the clipboard is automatically stored in the clipboard history."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
-#. +> stable6 stable5
+#. +> stable5
 #: klipper.kcfg:34
 #, kde-format
 msgid "Content selected with the cursor but not explicitly copied to the clipboard is not automatically stored in the clipboard history, and can only be pasted using a middle-click."
 msgstr ""
 
 #. i18n: ectx: label, entry (SaveImages), group (General)
-#. +> trunk6
+#. +> trunk6 stable6
 #: klipper.kcfg:37
 #, kde-format
 msgid "Save images"
 msgstr ""
 
 #. i18n: ectx: label, entry (IgnoreImages), group (General)
-#. +> stable6 stable5
+#. +> stable5
 #: klipper.kcfg:42
 #, kde-format
 msgid "Always ignore images"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SaveImages), group (General)
-#. +> trunk6
+#. +> trunk6 stable6
 #: klipper.kcfg:39
 #, kde-format
 msgid "Store images in the clipboard history."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SelectionTextOnly), group (General)
-#. +> stable6 stable5
+#. +> stable5
 #: klipper.kcfg:39
 #, kde-format
 msgid "Only store text selections in the clipboard history, not images or any other type of data."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (IgnoreImages), group (General)
-#. +> stable6 stable5
+#. +> stable5
 #: klipper.kcfg:44
 #, kde-format
 msgid "Do not store images in the clipboard history, even if explicitly copied."
@@ -1113,29 +1113,29 @@ msgid "Dummy entry for indicating changes in an action's tree widget"
 msgstr ""
 
 #. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
-#. +> trunk6
+#. +> trunk6 stable6
 #: klipper.kcfg:71
 #, kde-format
 msgid "Trim whitespace"
 msgstr ""
 
 #. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
-#. +> stable6 stable5
-#: klipper.kcfg:76
+#. +> stable5
+#: klipper.kcfg:84
 #, kde-format
 msgid "Trim whitespace from selection"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
-#. +> trunk6
+#. +> trunk6 stable6
 #: klipper.kcfg:73
 #, kde-format
 msgid "Remove any whitespace from the start and end of the text passed to an action. The text saved in history is not affected."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
-#. +> stable6 stable5
-#: klipper.kcfg:78
+#. +> stable5
+#: klipper.kcfg:86
 #, kde-format
 msgid "Remove any whitespace from the start and end of selected text, before performing an action. For example, this ensures that a URL pasted in a browser is interpreted as expected. The text saved on the clipboard is not affected."
 msgstr ""
@@ -1155,29 +1155,29 @@ msgid "Show the popup menu of applicable actions if an entry is chosen from the 
 msgstr ""
 
 #. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
-#. +> trunk6
+#. +> trunk6 stable6
 #: klipper.kcfg:81
 #, kde-format
 msgid "Offer applications for copied links and files"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (EnableMagicMimeActions), group (Actions)
-#. +> trunk6
+#. +> trunk6 stable6
 #: klipper.kcfg:83
 #, kde-format
 msgid "For a link starting with <i>http://</i> or <i>https://</i> or for files, applications that can open them will be offered alongside your matching actions, if any."
 msgstr ""
 
 #. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
-#. +> stable6 stable5
-#: klipper.kcfg:86
+#. +> stable5
+#: klipper.kcfg:94
 #, kde-format
 msgid "Include MIME actions"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (EnableMagicMimeActions), group (Actions)
-#. +> stable6 stable5
-#: klipper.kcfg:88
+#. +> stable5
+#: klipper.kcfg:96
 #, kde-format
 msgid "If a file name or URL is selected, include applications that can accept its MIME type in the popup menu."
 msgstr ""

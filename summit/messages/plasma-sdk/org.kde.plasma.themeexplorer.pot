@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-sdk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-26 10:38+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -191,14 +191,15 @@ msgstr ""
 msgid "Complementary focus color:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/ColorEditorDialog.qml:301
 #, kde-format
 msgid "Ok"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/ColorEditor.qml:313 src/qml/MetadataEditor.qml:137
+#. +> stable5
+#: package/contents/ui/ColorEditor.qml:324
+#: package/contents/ui/MetadataEditor.qml:137
 #, kde-format
 msgid "OK"
 msgstr ""
@@ -320,16 +321,22 @@ msgstr ""
 msgid "Image path: %1"
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/main.qml:219
+#, kde-format
+msgid "This is a readonly, system wide installed theme"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: src/qml/Main.qml:224
 #, kde-format
 msgid "Description: %1"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/Main.qml:224
+#. +> stable5
+#: package/contents/ui/main.qml:224
 #, kde-format
-msgid "This is a readonly, system wide installed theme"
+msgid "Preview:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -342,12 +349,6 @@ msgstr ""
 #: src/qml/Main.qml:229
 #, kde-format
 msgid "Present in this theme"
-msgstr ""
-
-#. +> stable6 stable5
-#: src/qml/Main.qml:229
-#, kde-format
-msgid "Preview:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -368,125 +369,119 @@ msgstr ""
 msgid "Open In Editor…"
 msgstr ""
 
-#. +> stable6
-#: src/qml/Main.qml:244
-#, kde-format
-msgid "None"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/MetadataEditor.qml:35
 #, kde-format
 msgctxt "@title:dialog"
 msgid "New Theme"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/MetadataEditor.qml:24
-#, kde-format
-msgid "New Theme"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/MetadataEditor.qml:35
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Edit Theme"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/MetadataEditor.qml:24
-#, kde-format
-msgid "Edit Theme"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/MetadataEditor.qml:55
 #, kde-format
 msgctxt "@info"
 msgid "Warning: don't change author or license for themes you don't own"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/MetadataEditor.qml:59
-#, kde-format
-msgid "Warning: don't change author or license for themes you don't own"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/MetadataEditor.qml:66
 #, kde-format
 msgctxt "@label"
 msgid "Theme Name:"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/MetadataEditor.qml:70
-#, kde-format
-msgid "Theme Name:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/MetadataEditor.qml:82
 #, kde-format
 msgctxt "@info"
 msgid "This theme name already exists"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/MetadataEditor.qml:86
-#, kde-format
-msgid "This theme name already exists"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/MetadataEditor.qml:91
 #, kde-format
 msgctxt "@label"
 msgid "Author:"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/MetadataEditor.qml:95
-#, kde-format
-msgid "Author:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/MetadataEditor.qml:99
 #, kde-format
 msgctxt "@label"
 msgid "Email:"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/MetadataEditor.qml:103
-#, kde-format
-msgid "Email:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/MetadataEditor.qml:107
 #, kde-format
 msgctxt "@label"
 msgid "License:"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/MetadataEditor.qml:111
-#, kde-format
-msgid "License:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/MetadataEditor.qml:118
 #, kde-format
 msgctxt "@label"
 msgid "Website:"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/qml/MetadataEditor.qml:122
+#. +> stable5
+#: package/contents/ui/MetadataEditor.qml:24
+#, kde-format
+msgid "New Theme"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/MetadataEditor.qml:24
+#, kde-format
+msgid "Edit Theme"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/MetadataEditor.qml:59
+#, kde-format
+msgid "Warning: don't change author or license for themes you don't own"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/MetadataEditor.qml:70
+#, kde-format
+msgid "Theme Name:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/MetadataEditor.qml:86
+#, kde-format
+msgid "This theme name already exists"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/MetadataEditor.qml:95
+#, kde-format
+msgid "Author:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/MetadataEditor.qml:103
+#, kde-format
+msgid "Email:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/MetadataEditor.qml:111
+#, kde-format
+msgid "License:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/MetadataEditor.qml:122
 #, kde-format
 msgid "Website:"
 msgstr ""

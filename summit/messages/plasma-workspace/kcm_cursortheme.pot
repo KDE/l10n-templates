@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-18 07:22+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -46,8 +46,8 @@ msgstr ""
 msgid "Current cursor size"
 msgstr ""
 
-#. +> stable6 stable5
-#: kcmcursortheme.cpp:314
+#. +> stable5
+#: kcmcursortheme.cpp:308
 #, kde-format
 msgid "You have to restart the Plasma session for these changes to take effect."
 msgstr ""
@@ -64,7 +64,7 @@ msgstr ""
 msgid "Unable to download the icon theme archive: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcmcursortheme.cpp:400
 #, kde-format
 msgctxt "@info"
@@ -128,6 +128,12 @@ msgid "The name of the pointer theme you wish to set for your current Plasma ses
 msgstr ""
 
 #. +> stable5
+#: plasma-apply-cursortheme.cpp:42
+#, kde-format
+msgid "The requested size '%1' is not available, using %2 instead."
+msgstr ""
+
+#. +> stable5
 #: plasma-apply-cursortheme.cpp:67
 #, kde-format
 msgid "The name of the cursor theme you wish to set for your current Plasma session (passing a full path will only use the last part of the path)"
@@ -143,12 +149,6 @@ msgstr ""
 #: plasma-apply-cursortheme.cpp:44
 #, kde-format
 msgid "Use a specific size, rather than the theme default size"
-msgstr ""
-
-#. +> stable6 stable5
-#: plasma-apply-cursortheme.cpp:44
-#, kde-format
-msgid "The requested size '%1' is not available, using %2 instead."
 msgstr ""
 
 #. +> trunk6 stable6

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kscreen\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-02 08:23+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -171,8 +171,8 @@ msgstr ""
 msgid "&Revert"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:213
+#. +> stable5
+#: package/contents/ui/main.qml:197
 #, kde-format
 msgid "Restart"
 msgstr ""
@@ -216,16 +216,16 @@ msgstr ""
 msgid "No KScreen backend found. Please check your KScreen installation."
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/main.qml:191
+#, kde-format
+msgid "Global scale changes will come into effect after the system is restarted."
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: ui/main.qml:194
 #, kde-format
 msgid "Outputs could not be saved due to error."
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:207
-#, kde-format
-msgid "Global scale changes will come into effect after the system is restarted."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -750,28 +750,10 @@ msgstr ""
 msgid "Replica of:"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/Panel.qml:29
-#, kde-format
-msgid "Device:"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/Panel.qml:55
-#, kde-format
-msgid "Global scale:"
-msgstr ""
-
 #. +> trunk6 stable6
 #: ui/Panel.qml:69
 #, kde-format
 msgid "Legacy applications (X11):"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/Panel.qml:131 package/contents/ui/Panel.qml:151
-#, kde-format
-msgid "Legacy Applications (X11):"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -785,12 +767,6 @@ msgstr ""
 #: ui/Panel.qml:77
 #, kde-format
 msgid "Legacy applications that support scaling will use it and look crisp, however those that don’t will not be scaled at all."
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/Panel.qml:141
-#, kde-format
-msgid "Legacy applications that support scaling will use it and look crisp, however those that don't will not be scaled at all."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -827,30 +803,6 @@ msgctxt "@info:tooltip"
 msgid "Screen tearing reduces latency with most displays. Note that not all graphics drivers support this setting."
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/Panel.qml:171
-#, kde-format
-msgid "The global scale factor is limited to multiples of 6.25% to minimize visual glitches in applications using the X11 windowing system."
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/Panel.qml:183
-#, kde-format
-msgid "Save displays' properties:"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/Panel.qml:189
-#, kde-format
-msgid "For any display arrangement"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/Panel.qml:196
-#, kde-format
-msgid "For only this specific display arrangement"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: ui/RotationButton.qml:54
 #, kde-format
@@ -879,6 +831,54 @@ msgstr ""
 #: ui/ScreenView.qml:53
 #, kde-format
 msgid "Drag screens to re-arrange them"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Panel.qml:29
+#, kde-format
+msgid "Device:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Panel.qml:71
+#, kde-format
+msgid "Global scale:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Panel.qml:131 package/contents/ui/Panel.qml:151
+#, kde-format
+msgid "Legacy Applications (X11):"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Panel.qml:141
+#, kde-format
+msgid "Legacy applications that support scaling will use it and look crisp, however those that don't will not be scaled at all."
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Panel.qml:171
+#, kde-format
+msgid "The global scale factor is limited to multiples of 6.25% to minimize visual glitches in applications using the X11 windowing system."
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Panel.qml:183
+#, kde-format
+msgid "Save displays' properties:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Panel.qml:189
+#, kde-format
+msgid "For any display arrangement"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Panel.qml:196
+#, kde-format
+msgid "For only this specific display arrangement"
 msgstr ""
 
 #. +> stable5

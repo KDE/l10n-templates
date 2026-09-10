@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-14 08:08+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -145,6 +145,12 @@ msgstr ""
 msgid "This module lets you configure the system fonts."
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/main.qml:37
+#, kde-format
+msgid "Some changes such as anti-aliasing or DPI will only affect newly started applications."
+msgstr ""
+
 #. +> trunk6 stable6
 #: ui/main.qml:39
 #, kde-format
@@ -156,12 +162,6 @@ msgstr ""
 #: ui/main.qml:44
 #, kde-format
 msgid "Adjust Global Scale…"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:58
-#, kde-format
-msgid "Some changes such as anti-aliasing or DPI will only affect newly started applications."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -183,17 +183,17 @@ msgctxt "@info"
 msgid "“Display” fonts are <link url='https://wikipedia.org/wiki/Display_typeface'>not intended for use on computer displays</link>, and may produce odd results. Consider using a different font."
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/main.qml:94
+#, kde-format
+msgid "The recommended way to scale the user interface is using the global screen scaling feature."
+msgstr ""
+
 #. +> trunk6 stable6
 #: ui/main.qml:95
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Plasma is not designed to be usable with fonts smaller than 4pt. Size has been reset to 4pt."
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:109
-#, kde-format
-msgid "The recommended way to scale the user interface is using the global screen scaling feature."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -349,6 +349,12 @@ msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Hinting:"
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/main.qml:380
+#, kde-format
+msgid "Force font DPI:"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: ui/main.qml:394
 #, kde-kuit-format
@@ -356,14 +362,8 @@ msgctxt "@info:tooltip Hinting"
 msgid "Hinting is a technique in which hints embedded in a font are used to enhance the rendering quality especially at small sizes. Stronger hinting generally leads to sharper edges but the small letters will less closely resemble their shape at big sizes."
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:431
-#, kde-format
-msgid "Force font DPI:"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:459
+#. +> stable5
+#: package/contents/ui/main.qml:422
 #, kde-kuit-format
 msgctxt "@info:tooltip Force fonts DPI"
 msgid ""
@@ -371,16 +371,16 @@ msgid ""
 "<para>To increase text size, change the size of the fonts above. To scale everything, use the scaling slider on the <interface>Display & Monitor</interface> page.</para>"
 msgstr ""
 
-#. i18n: ectx: label, entry (forceFontDPI), group (General)
-#. +> stable6 stable5
-#: fontsaasettingsbase.kcfg:9
-#, kde-format
-msgid "Force font DPI on X11"
-msgstr ""
-
 #. i18n: ectx: label, entry (forceFontDPIWayland), group (General)
 #. +> stable5
 #: fontsaasettingsbase.kcfg:9
 #, kde-format
 msgid "Force font DPI Wayland"
+msgstr ""
+
+#. i18n: ectx: label, entry (forceFontDPI), group (General)
+#. +> stable5
+#: fontsaasettingsbase.kcfg:13
+#, kde-format
+msgid "Force font DPI on X11"
 msgstr ""

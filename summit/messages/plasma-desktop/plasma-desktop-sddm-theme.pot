@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-05 10:03+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -101,12 +101,6 @@ msgctxt "@info:status"
 msgid "Login Failed"
 msgstr ""
 
-#. +> stable6 stable5
-#: Main.qml:449
-msgctxt "Button to show/hide virtual keyboard"
-msgid "Virtual Keyboard"
-msgstr ""
-
 #. +> trunk6 stable6
 #: SessionButton.qml:18
 msgctxt "@action:button opens sessions menu %1 is current"
@@ -182,6 +176,13 @@ msgstr ""
 #: ../sddm-theme/Main.qml:483
 #, kde-format
 msgid "List Users"
+msgstr ""
+
+#. +> stable5
+#: ../sddm-theme/Main.qml:550 contents/lockscreen/LockScreenUi.qml:576
+#, kde-format
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
 msgstr ""
 
 #. +> stable5
@@ -351,10 +352,48 @@ msgid "Next track"
 msgstr ""
 
 #. +> stable5
+#: contents/logout/Logout.qml:139
+#, kde-format
+msgid "One other user is currently logged in. If the computer is shut down or restarted, that user may lose work."
+msgid_plural "%1 other users are currently logged in. If the computer is shut down or restarted, those users may lose work."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> stable5
+#: contents/logout/Logout.qml:153
+#, kde-format
+msgid "When restarted, the computer will enter the firmware setup screen."
+msgstr ""
+
+#. +> stable5
 #: contents/logout/Logout.qml:201
 #, kde-format
 msgid "Log Out"
 msgstr ""
+
+#. +> stable5
+#: contents/logout/Logout.qml:224
+#, kde-format
+msgid "Restarting in 1 second"
+msgid_plural "Restarting in %1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> stable5
+#: contents/logout/Logout.qml:226
+#, kde-format
+msgid "Shutting down in 1 second"
+msgid_plural "Shutting down in %1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> stable5
+#: contents/logout/Logout.qml:228
+#, kde-format
+msgid "Logging out in 1 second"
+msgid_plural "Logging out in %1 seconds"
+msgstr[0] ""
+msgstr[1] ""
 
 #. +> stable5
 #: contents/logout/Logout.qml:239
@@ -373,4 +412,11 @@ msgstr ""
 #, kde-format
 msgctxt "Percentage value"
 msgid "%1%"
+msgstr ""
+
+#. +> stable5
+#: contents/splash/Splash.qml:79
+#, kde-format
+msgctxt "This is the first text the user sees while starting in the splash screen, should be translated as something short, is a form that can be seen on a product. Plasma is the project name so shouldn't be translated."
+msgid "Plasma made by KDE"
 msgstr ""

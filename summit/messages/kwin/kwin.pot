@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-10 07:51+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -79,14 +79,14 @@ msgstr ""
 msgid "KDE Wayland Compositor"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/gpumanager.cpp:278
 #, kde-format
 msgctxt "@info: status"
 msgid "Graphics card “%1” (%2) was reset"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/gpumanager.cpp:280
 #, kde-format
 msgctxt "@info: status"
@@ -1308,7 +1308,7 @@ msgid "Windows"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pickWindowButton)
-#. +> trunk6
+#. +> trunk6 stable6
 #: debug_console.ui:43
 #, kde-format
 msgctxt "@action:button"
@@ -1857,14 +1857,14 @@ msgstr ""
 msgid "Xaver Hugl"
 msgstr ""
 
-#. +> stable6 stable5
-#: main.cpp:189
+#. +> stable5
+#: main.cpp:201
 #, kde-format
 msgid "Disable configuration options"
 msgstr ""
 
-#. +> stable6 stable5
-#: main.cpp:190
+#. +> stable5
+#: main.cpp:202
 #, kde-format
 msgid "Indicate that KWin has recently crashed n times"
 msgstr ""
@@ -1947,13 +1947,13 @@ msgstr ""
 msgid "Name of the xwayland display that has been pre-set up"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: main_wayland.cpp:390
 #, kde-format
 msgid "XWayland socket to use for Xwayland's init connections"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: main_wayland.cpp:394
 #, kde-format
 msgid "Name of the xwayland init display that has been pre-set up"
@@ -2131,42 +2131,42 @@ msgid "Fullscreen windows"
 msgstr ""
 
 #. i18n: ectx: label, entry (DelayTime), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/dwellclicker/dwellclickerconfig.kcfg:9
 #, kde-format
 msgid "Delay Time"
 msgstr ""
 
 #. i18n: ectx: label, entry (DwellTime), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/dwellclicker/dwellclickerconfig.kcfg:13
 #, kde-format
 msgid "Dwell Time"
 msgstr ""
 
 #. i18n: ectx: label, entry (MotionThreshold), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/dwellclicker/dwellclickerconfig.kcfg:17
 #, kde-format
 msgid "Motion Threshold"
 msgstr ""
 
 #. i18n: ectx: label, entry (DefaultButton), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/dwellclicker/dwellclickerconfig.kcfg:21
 #, kde-format
 msgid "Default Button"
 msgstr ""
 
 #. i18n: ectx: label, entry (ButtonLocked), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/dwellclicker/dwellclickerconfig.kcfg:33
 #, kde-format
 msgid "Lock Button"
 msgstr ""
 
 #. i18n: ectx: label, entry (DwellColor), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/dwellclicker/dwellclickerconfig.kcfg:37
 #, kde-format
 msgid "Dwell Color"
@@ -2902,7 +2902,7 @@ msgstr ""
 msgid "Color Temperature Preview"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/outputlocator/outputlocator.cpp:26
 #, kde-format
 msgctxt "@label"
@@ -3099,12 +3099,6 @@ msgstr ""
 msgid "Invalid region"
 msgstr ""
 
-#. +> stable6
-#: plugins/screencast/screencaststream.cpp:377
-#, kde-format
-msgid "OpenGL compositing is required for screencasting"
-msgstr ""
-
 #. +> trunk6 stable6
 #: plugins/screencast/screencaststream.cpp:402
 #, kde-format
@@ -3139,13 +3133,6 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "Paint Duration"
-msgstr ""
-
-#. +> stable6
-#: plugins/showfps/qml/Main.qml:162
-#, kde-format
-msgctxt "@label"
-msgid "Paint Amount"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3799,16 +3786,9 @@ msgstr ""
 msgid "Window position"
 msgstr ""
 
-#. i18n: ectx: label, entry (shade), group ($(ruleDescriptionOrNumber))
-#. +> stable5
-#: rulesettings.kcfg:227
-#, kde-format
-msgid "Shaded"
-msgstr ""
-
 #. i18n: ectx: label, entry (blockcompositing), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:326
+#. +> stable5
+#: rulesettings.kcfg:323
 #, kde-format
 msgid "Block Compositing"
 msgstr ""
@@ -3821,15 +3801,15 @@ msgid "Window position rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (blockcompositingrule), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:330
+#. +> stable5
+#: rulesettings.kcfg:327
 #, kde-format
 msgid "Block Compositing rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (strictgeometryrule), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:405
+#. +> stable5
+#: rulesettings.kcfg:402
 #, kde-format
 msgid "Obey geometry restrictions rule type"
 msgstr ""
@@ -3940,8 +3920,8 @@ msgid "Desktop Ids rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (autogroupidrule), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:396
+#. +> stable5
+#: rulesettings.kcfg:393
 #, kde-format
 msgid "Autogroup by ID rule type"
 msgstr ""
@@ -4002,6 +3982,13 @@ msgstr ""
 msgid "Maximized horizontally rule type"
 msgstr ""
 
+#. i18n: ectx: label, entry (shade), group ($(ruleDescriptionOrNumber))
+#. +> stable5
+#: rulesettings.kcfg:227
+#, kde-format
+msgid "Shaded"
+msgstr ""
+
 #. i18n: ectx: label, entry (minimize), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
 #: rulesettings.kcfg:230
@@ -4059,8 +4046,8 @@ msgid "Skip switcher rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (autogrouprule), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:379
+#. +> stable5
+#: rulesettings.kcfg:376
 #, kde-format
 msgid "Autogroup with identical rule type"
 msgstr ""
@@ -4122,14 +4109,14 @@ msgid "No titlebar rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (decorationpolicy), group ($(ruleDescriptionOrNumber))
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesettings.kcfg:322
 #, kde-format
 msgid "Decoration policy"
 msgstr ""
 
 #. i18n: ectx: label, entry (decorationpolicyrule), group ($(ruleDescriptionOrNumber))
-#. +> trunk6
+#. +> trunk6 stable6
 #: rulesettings.kcfg:332
 #, kde-format
 msgid "Decoration policy rule type"
@@ -4184,18 +4171,18 @@ msgstr ""
 msgid "Accept Focus"
 msgstr ""
 
+#. i18n: ectx: label, entry (autogroup), group ($(ruleDescriptionOrNumber))
+#. +> stable5
+#: rulesettings.kcfg:372
+#, kde-format
+msgid "Autogroup with identical"
+msgstr ""
+
 #. i18n: ectx: label, entry (acceptfocusrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
 #: rulesettings.kcfg:373
 #, kde-format
 msgid "Accept Focus rule type"
-msgstr ""
-
-#. i18n: ectx: label, entry (autogroup), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:375
-#, kde-format
-msgid "Autogroup with identical"
 msgstr ""
 
 #. i18n: ectx: label, entry (closeable), group ($(ruleDescriptionOrNumber))
@@ -4205,6 +4192,13 @@ msgstr ""
 msgid "Closeable"
 msgstr ""
 
+#. i18n: ectx: label, entry (autogroupfg), group ($(ruleDescriptionOrNumber))
+#. +> stable5
+#: rulesettings.kcfg:381
+#, kde-format
+msgid "Autogroup in foreground"
+msgstr ""
+
 #. i18n: ectx: label, entry (closeablerule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
 #: rulesettings.kcfg:382
@@ -4212,11 +4206,11 @@ msgstr ""
 msgid "Closeable rule type"
 msgstr ""
 
-#. i18n: ectx: label, entry (autogroupfg), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:384
+#. i18n: ectx: label, entry (autogroupfgrule), group ($(ruleDescriptionOrNumber))
+#. +> stable5
+#: rulesettings.kcfg:385
 #, kde-format
-msgid "Autogroup in foreground"
+msgid "Autogroup in foreground rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (shortcut), group ($(ruleDescriptionOrNumber))
@@ -4224,13 +4218,6 @@ msgstr ""
 #: rulesettings.kcfg:387
 #, kde-format
 msgid "Shortcut"
-msgstr ""
-
-#. i18n: ectx: label, entry (autogroupfgrule), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:388
-#, kde-format
-msgid "Autogroup in foreground rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (shortcutrule), group ($(ruleDescriptionOrNumber))
@@ -4241,8 +4228,8 @@ msgid "Shortcut rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (autogroupid), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:393
+#. +> stable5
+#: rulesettings.kcfg:390
 #, kde-format
 msgid "Autogroup by ID"
 msgstr ""
@@ -4254,18 +4241,18 @@ msgstr ""
 msgid "Ignore global shortcuts"
 msgstr ""
 
+#. i18n: ectx: label, entry (strictgeometry), group ($(ruleDescriptionOrNumber))
+#. +> stable5
+#: rulesettings.kcfg:398
+#, kde-format
+msgid "Obey geometry restrictions"
+msgstr ""
+
 #. i18n: ectx: label, entry (disableglobalshortcutsrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
 #: rulesettings.kcfg:401
 #, kde-format
 msgid "Ignore global shortcuts rule type"
-msgstr ""
-
-#. i18n: ectx: label, entry (strictgeometry), group ($(ruleDescriptionOrNumber))
-#. +> stable6 stable5
-#: rulesettings.kcfg:401
-#, kde-format
-msgid "Obey geometry restrictions"
 msgstr ""
 
 #. i18n: ectx: label, entry (desktopfile), group ($(ruleDescriptionOrNumber))
@@ -4345,7 +4332,7 @@ msgstr ""
 msgid "Hide from screenshots and screen recordings rule type"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: scene/workspacescene.cpp:115
 #, kde-format
 msgid "Toggle “Show Compositing” effect"
@@ -4674,12 +4661,6 @@ msgstr ""
 msgid "Move to %1 %2"
 msgstr ""
 
-#. +> stable6
-#: useractions.cpp:986
-#, kde-format
-msgid "Move Mouse to Focus"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: useractions.cpp:509
 #, kde-format
@@ -4852,12 +4833,6 @@ msgstr ""
 #: useractions.cpp:864
 #, kde-format
 msgid "Move Window to the Center"
-msgstr ""
-
-#. +> stable6
-#: useractions.cpp:987
-#, kde-format
-msgid "Move Mouse to Center"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -5214,14 +5189,14 @@ msgstr ""
 msgid "Kill Window"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: useractions.cpp:1017
 #, kde-format
 msgctxt "@action"
 msgid "Center Pointer in Focused Window"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: useractions.cpp:1018
 #, kde-format
 msgctxt "@action"
@@ -5302,7 +5277,7 @@ msgstr ""
 msgid "Switch to Desktop %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:521
 #, kde-format
 msgid "Setting custom modes with too old kde-output-management-v2 protocol versions is unsupported"
@@ -5368,22 +5343,16 @@ msgstr ""
 msgid "The session is not active"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:747
 #, kde-format
 msgid "More displays are enabled than are supported by the graphics card."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: wayland/outputmanagement_v2.cpp:750
 #, kde-format
 msgid "The driver rejected the output configuration: %s"
-msgstr ""
-
-#. +> stable6
-#: wayland/outputmanagement_v2.cpp:721
-#, kde-format
-msgid "The driver rejected the output configuration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -5452,8 +5421,8 @@ msgstr ""
 msgid "Xwayland has crashed"
 msgstr ""
 
-#. +> stable6 stable5
-#: compositor.cpp:657
+#. +> stable5
+#: composite.cpp:646
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""

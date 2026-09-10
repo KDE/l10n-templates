@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-03 08:01+0200\n"
+"POT-Creation-Date: 2026-09-10 21:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -221,35 +221,35 @@ msgid "Whether Colorblindness Correction is enabled"
 msgstr ""
 
 #. i18n: ectx: label, entry (DwellClicker), group (Plugins)
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcmaccessibilitydwellclicker.kcfg:13
 #, kde-format
 msgid "Whether Dwell Clicker is enabled"
 msgstr ""
 
 #. i18n: ectx: label, entry (DwellClickerDelayTime), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcmaccessibilitydwellclicker.kcfg:19
 #, kde-format
 msgid "Delay Time"
 msgstr ""
 
 #. i18n: ectx: label, entry (DwellClickerDwellTime), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcmaccessibilitydwellclicker.kcfg:24
 #, kde-format
 msgid "Dwell Time"
 msgstr ""
 
 #. i18n: ectx: label, entry (DwellClickerDwellColor), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcmaccessibilitydwellclicker.kcfg:29
 #, kde-format
 msgid "Dwell Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (DwellClickerMotionThreshold), group (Effect-dwellclicker)
-#. +> trunk6
+#. +> trunk6 stable6
 #: kcmaccessibilitydwellclicker.kcfg:33
 #, kde-format
 msgid "Motion Threshold"
@@ -302,6 +302,27 @@ msgstr ""
 #: kcmaccessibilitykeyboard.kcfg:29
 #, kde-format
 msgid "Notify when a keyboard modifier is pressed"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccessXTimeout), group (Keyboard)
+#. +> stable5
+#: kcmaccessibilitykeyboard.kcfg:33
+#, kde-format
+msgid "Use a timeout delay"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccessXTimeoutDelay), group (Keyboard)
+#. +> stable5
+#: kcmaccessibilitykeyboard.kcfg:37
+#, kde-format
+msgid "Delay for timeout"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccessXBeep), group (Keyboard)
+#. +> stable5
+#: kcmaccessibilitykeyboard.kcfg:41
+#, kde-format
+msgid "Use a beep for access"
 msgstr ""
 
 #. i18n: ectx: label, entry (SlowKeys), group (Keyboard)
@@ -400,6 +421,27 @@ msgstr ""
 #: kcmaccessibilitymouse.kcfg:29
 #, kde-format
 msgid "Mouse Key Curve"
+msgstr ""
+
+#. i18n: ectx: label, entry (Gestures), group (Keyboard)
+#. +> stable5
+#: kcmaccessibilitymouse.kcfg:35
+#, kde-format
+msgid "Use Gestures"
+msgstr ""
+
+#. i18n: ectx: label, entry (GestureConfirmation), group (Keyboard)
+#. +> stable5
+#: kcmaccessibilitymouse.kcfg:39
+#, kde-format
+msgid "Ask for Confirmation for a gesture"
+msgstr ""
+
+#. i18n: ectx: label, entry (KeyboardNotifyAccess), group (Keyboard)
+#. +> stable5
+#: kcmaccessibilitymouse.kcfg:43
+#, kde-format
+msgid "Confirm access to the Keyboard"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShakeCursor), group (Plugins)
@@ -709,35 +751,35 @@ msgctxt "@title:group for color rectangles"
 msgid "Purples:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:19
 #, kde-format
 msgctxt "@label"
 msgid "Click when pointer remains still:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:21
 #, kde-format
 msgctxt "@option check, Enable dwell clicker effect"
 msgid "Enable"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:33
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Automatically click when pointer remains still for a set amount of time."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:39
 #, kde-format
 msgctxt "@label:spinbox Slow keys Delay"
 msgid "Motion Threshold:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:55
 #, kde-format
 msgctxt "@label:valuesuffix %1 is the motion threshold"
@@ -746,7 +788,7 @@ msgid_plural "%1 px"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:64
 #, kde-format
 msgctxt "@label:valuesuffix short for pixel(s)"
@@ -755,14 +797,14 @@ msgid_plural "px"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:70
 #, kde-format
 msgctxt "@label:spinbox Dwell clicker delay time"
 msgid "Delay Time:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:86
 #, kde-format
 msgctxt "@label:valuesuffix %1 is the delay time"
@@ -771,14 +813,14 @@ msgid_plural "%1 ms"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:101
 #, kde-format
 msgctxt "@label:spinbox Dwell clicker dwell time"
 msgid "Dwell Time:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:117
 #, kde-format
 msgctxt "@label:valuesuffix %1 is the dwell time"
@@ -787,7 +829,7 @@ msgid_plural "%1 ms"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/DwellClicker.qml:132
 #, kde-format
 msgctxt "@label:button Dwell clicker dwell color"
@@ -966,7 +1008,7 @@ msgctxt "@title Category name in sidebar"
 msgid "Mouse Navigation"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:58
 #, kde-format
 msgctxt "@title Category name in sidebar"
@@ -985,13 +1027,6 @@ msgstr ""
 #, kde-format
 msgctxt "@title Category name in sidebar"
 msgid "Color Blindness Correction"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:53
-#, kde-format
-msgctxt "@title Category name in sidebar"
-msgid "Activation Shortcuts"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1129,15 +1164,6 @@ msgid_plural "%1 ms"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> stable6
-#: ui/MouseNavigation.qml:110
-#, kde-format
-msgctxt "@label:valuesuffix acceleration time spinbox %1 is value"
-msgid "%1 ms"
-msgid_plural "%1 ms"
-msgstr[0] ""
-msgstr[1] ""
-
 #. +> trunk6 stable6
 #: ui/MouseNavigation.qml:61 ui/MouseNavigation.qml:90
 #, kde-format
@@ -1261,13 +1287,6 @@ msgctxt "@label:listbox"
 msgid "Pointer tracking:"
 msgstr ""
 
-#. +> stable6
-#: ui/ZoomMagnifier.qml:85
-#, kde-format
-msgctxt "@label:listbox"
-msgid "Pointer appearance:"
-msgstr ""
-
 #. +> trunk6 stable6
 #: ui/ZoomMagnifier.qml:82
 #, kde-format
@@ -1338,27 +1357,6 @@ msgctxt "@item:inlistbox"
 msgid "Zoom area doesn't follow pointer"
 msgstr ""
 
-#. +> stable6
-#: ui/ZoomMagnifier.qml:87
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Scale"
-msgstr ""
-
-#. +> stable6
-#: ui/ZoomMagnifier.qml:87
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Keep"
-msgstr ""
-
-#. +> stable6
-#: ui/ZoomMagnifier.qml:87
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Hide"
-msgstr ""
-
 #. +> trunk6 stable6
 #: ui/ZoomMagnifier.qml:123
 #, kde-format
@@ -1371,13 +1369,6 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable text caret tracking"
-msgstr ""
-
-#. +> stable6
-#: ui/ZoomMagnifier.qml:178
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable focus tracking"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1459,155 +1450,11 @@ msgctxt "@label Hint for scroll gestures"
 msgid "Scroll while modifier keys are pressed to zoom"
 msgstr ""
 
-#. +> stable6
-#: ui/ZoomMagnifier.qml:371
-#, kde-format
-msgctxt "@info:tooltip, indicates feature unavailable on X11"
-msgid "Zoom scroll gestures are only available on Wayland."
-msgstr ""
-
-#. +> stable6
-#: ui/ZoomMagnifier.qml:398
-#, kde-format
-msgctxt "@label Hint for zoom/magnify effect usage"
-msgid "Use shortcuts to control zoom"
-msgstr ""
-
-#. i18n: ectx: label, entry (Gestures), group (Keyboard)
-#. +> stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:9
-#, kde-format
-msgid "Use Gestures"
-msgstr ""
-
-#. i18n: ectx: label, entry (GestureConfirmation), group (Keyboard)
-#. +> stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:13
-#, kde-format
-msgid "Ask for Confirmation for a gesture"
-msgstr ""
-
-#. i18n: ectx: label, entry (KeyboardNotifyAccess), group (Keyboard)
-#. +> stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:17
-#, kde-format
-msgid "Confirm access to the Keyboard"
-msgstr ""
-
-#. i18n: ectx: label, entry (AccessXTimeout), group (Keyboard)
-#. +> stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:21
-#, kde-format
-msgid "Use a timeout delay"
-msgstr ""
-
-#. i18n: ectx: label, entry (AccessXTimeoutDelay), group (Keyboard)
-#. +> stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:25
-#, kde-format
-msgid "Delay for timeout"
-msgstr ""
-
-#. i18n: ectx: label, entry (AccessXBeep), group (Keyboard)
-#. +> stable6 stable5
-#: kcmaccessibilityactivationgestures.kcfg:29
-#, kde-format
-msgid "Use a beep for access"
-msgstr ""
-
 #. i18n: ectx: label, entry (Enabled), group (ScreenReader)
-#. +> stable6 stable5
-#: kcmaccessibilityscreenreader.kcfg:9
+#. +> stable5
+#: kcmaccessibilityscreenreader.kcfg:9 package/contents/ui/ScreenReader.qml:17
 #, kde-format
 msgid "Enable Screen Reader"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:18
-#, kde-format
-msgctxt "@option:check"
-msgid "Activation shortcuts:"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:19
-#, kde-format
-msgctxt "Enable activation shortcuts"
-msgid "Enable"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:31
-#, kde-format
-msgctxt "@label"
-msgid "Press Shift 5 times to enable Sticky Keys"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:38
-#, kde-format
-msgctxt "@label"
-msgid "Hold Shift for 8 seconds to enable Slow Keys"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:47
-#, kde-format
-msgctxt "@option:check"
-msgid "Disable sticky and slow keys after:"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:71
-#, kde-format
-msgctxt "@label:valuesuffix in spinbox %1 is timeout delay"
-msgid "%1 min"
-msgid_plural "%1 min"
-msgstr[0] ""
-msgstr[1] ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:80
-#, kde-format
-msgctxt "short for minute(s)"
-msgid "min"
-msgid_plural "min"
-msgstr[0] ""
-msgstr[1] ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:89
-#, kde-format
-msgctxt "@title:group for checkbox group"
-msgid "When a shortcut is used:"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:90
-#, kde-format
-msgctxt "@option:check when shortcut used"
-msgid "Display a confirmation dialog"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:101
-#, kde-format
-msgctxt "@option:check when shortcut used"
-msgid "Ring the system bell"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:112
-#, kde-format
-msgctxt "@option:check when shortcut used"
-msgid "Show a notification"
-msgstr ""
-
-#. +> stable6
-#: ui/ActivationShortcuts.qml:123
-#, kde-format
-msgctxt "@action:button opens Notifications kcm"
-msgid "Configure Notifications…"
 msgstr ""
 
 #. +> stable5
