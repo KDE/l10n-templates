@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-19 09:01+0200\n"
+"POT-Creation-Date: 2026-09-11 08:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -72,6 +72,7 @@ msgstr ""
 #: content/news/2025/berlin-sprint/index.md:0
 #: content/news/2025/fundraising-final-report/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
+#: content/news/2026/dopesheet-status-9-26/index.md:0
 msgid "Jean-Baptiste Mardelle"
 msgstr ""
 
@@ -79,6 +80,7 @@ msgstr ""
 #: content/news/2025/amsterdam-sprint-report/index.md:0
 #: content/news/2025/berlin-sprint/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
+#: content/news/2026/dopesheet-status-9-26/index.md:0
 #: content/news/2026/state-2026/index.md:0
 msgid "Inside"
 msgstr ""
@@ -213,6 +215,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/news/2025/berlin-sprint/index.md:52
+#: content/news/2026/dopesheet-status-9-26/index.md:43
 msgid "And all the rest"
 msgstr ""
 
@@ -244,6 +247,7 @@ msgstr ""
 #. +> trunk5
 #: content/news/2025/berlin-sprint/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
+#: content/news/2026/dopesheet-status-9-26/index.md:0
 #: content/news/2026/state-2026/index.md:0
 msgid "kdenlive"
 msgstr ""
@@ -555,6 +559,7 @@ msgstr ""
 #. +> trunk5
 #: content/news/2025/fundraising-final-report/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
+#: content/news/2026/dopesheet-status-9-26/index.md:0
 #: content/news/2026/state-2026/index.md:0
 msgid "Fundraising"
 msgstr ""
@@ -637,6 +642,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/news/2026/dopesheet-status-1-26/index.md:33
+#: content/news/2026/dopesheet-status-9-26/index.md:65
 msgid "Kdenlive needs your support"
 msgstr ""
 
@@ -648,6 +654,145 @@ msgstr ""
 #. +> trunk5
 #: content/news/2026/dopesheet-status-1-26/index.md:0
 msgid "Parametrized Keyframes - Status Report, February 2026"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:12
+msgid "Besides maintenance and debugging work, this year, my work on Kdenlive was mostly dedicated to refactoring the Kdenlive keyframes system to make it more powerful. This is part of a [NGI Zero Commons grant via NLnet][1], see my [last status report][2] from february for some more context."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:14
+msgid "Previously, keyframes were set globally for an effect, touching all its parameters. With the updated logic, you can now decide to add keyframes only to a specific parameter, and parameters can have independant keyframes. This work will soon be made available for testing, and will be part of the next 26.12.0 Kdenlive release."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:16
+msgid "This new widget allows to move keyframes for several effects in one step, and also supports keyframe scaling, meaning that you can easily stretch a group of keyframes."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:18
+msgid ""
+"<div class=\"row row-cols-1 row-cols-md-2\">\n"
+"{{< card title=\"Effect Stack Before\" style=\"width:40%\">}}\n"
+"![](effect-before.jpg \"Effect Stack before the refactoring\")\n"
+"{{< /card >}}\n"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:23
+msgid "{{< card title=\"Effect Stack After Refactoring\" style=\"width:40%\">}} ![](effect-dopesheet.jpg \"New Effect Stack with Keyframes panel below\") {{< /card >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:26
+msgid "</div>\n"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:28
+msgid "Basic keyframe features remain in the effect stack, like add/remove keyframe and seek to previous/next keyframe, but all other keyframe-related features have otherwise been removed from the effect stack into a dedicated Keyframes panel. The parameter values now have a colored background to indicate if you are currently on a keyframe or not."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:30
+msgid "One drawback is that it uses more space, but we plan to futher refine the interface in the next months before the final release."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:32
+msgid "New features"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:34
+msgid "Beyond the obvious possibility to add per-parameter keyframes, and manage keyframes from several effects in one place, a few other features were included in the rewrite:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:36
+msgid "Move keyframes with keyboard"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:37
+msgid "You can now grab the selected keyframes with the usual shortcut, then move them frame by frame using arrow keys."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:39
+msgid "Zoom and Keyframe scaling"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:40
+msgid "Zooming and scrolling can be used with the standard mouse wheel events, and it is now possible to scale selected keyframes by selecting them and dragging with the Ctrl modifier. {{< video src-webm=keyframe-scaling.webm autoplay=\"true\" muted=\"true\" loop=\"true\" controls=\"false\" ratio=\"0.3\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:44
+msgid "The Keyframes interface also allows to filter parameters by name to only show matching parameters, useful if you have lots of effects on a clip. All this work will also make it much easier to add new keyframe features in the future."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:48
+msgid "Performance"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:50
+msgid "\"_Adding new features is nice, but what about performance?_\" you may ask. Well, good news: this work also involved some cleanup and performance improvements. People working with lots of keyframes (for example with object tracking) will really enjoy the changes."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:52
+msgid "For example if you have a clip with more than 1000 keyframes, you will enjoy:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:53
+msgid "Much faster project load time (can be as much as twice as fast)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:54
+msgid "Much faster keyframe operation (changing a keyframe value was previously very laggy)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:55
+msgid "Much better playback speed when the clip is selected (was previously very choppy)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:57
+msgid "And even if you don't use that many keyframes, the general workflow should be a lot smoother."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:59
+msgid "Meet us at Akademy"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:61
+msgid "[![](https://akademy.kde.org/media/2026/akademy2026-banner-600x110.png)][3]"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:63
+msgid "Part of the Kdenlive team will be in Graz for [KDE's Akademy][3], celebrating 30 years of KDE. Be there to meet us!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:66
+msgid "Our small team has been working for years to build an intuitive open source video editor that does not track you, does not use your data, and respects your privacy. However, to ensure a proper development requires resources, so please consider a [donation][4] if you enjoy using Kdenlive - even small amounts can make a big difference."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/dopesheet-status-9-26/index.md:0
+msgid "Parametrized Keyframes - Status Report, September 2026"
 msgstr ""
 
 #. +> trunk5
