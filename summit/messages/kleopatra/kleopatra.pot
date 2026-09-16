@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-15 07:55+0200\n"
+"POT-Creation-Date: 2026-09-16 07:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2725,7 +2725,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/commands/importcertificatescommand.cpp:626
-#: src/dialogs/certifywidget.cpp:193
+#: src/dialogs/certifywidget.cpp:192
 #, kde-format
 msgctxt "@action:button"
 msgid "Yes, I am the only user"
@@ -3280,7 +3280,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/commands/newcertificatesigningrequestcommand.cpp:213
-#: src/kleopatraapplication.cpp:587
+#: src/kleopatraapplication.cpp:601
 #, kde-format
 msgid "You are not allowed to create S/MIME certificate signing requests."
 msgstr ""
@@ -5538,28 +5538,28 @@ msgid "WARNING: Compliance of the result: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:53
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:51
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Choose output folder"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:54
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:52
 #, kde-format
 msgctxt "@label:textbox"
 msgid "&Output folder:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:90
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:88
 #, kde-format
 msgctxt "@title:window"
 msgid "Decrypt/Verify Files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/decryptverifyfilesdialog.cpp:97
+#: src/crypto/gui/decryptverifyfilesdialog.cpp:95
 #, kde-format
 msgctxt "@title:window"
 msgid "Verify Files"
@@ -5684,13 +5684,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/resultitemwidget.cpp:136
+#: src/crypto/gui/resultitemwidget.cpp:137
 #, kde-format
 msgid "Diagnostics"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/resultitemwidget.cpp:137
+#: src/crypto/gui/resultitemwidget.cpp:138
 #, kde-format
 msgctxt "The Audit Log is a detailed error log from the gnupg backend"
 msgid "Show Audit Log"
@@ -7190,7 +7190,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/dialogs/certificatedetailswidget.cpp:207
-#: src/dialogs/certifywidget.cpp:176
+#: src/dialogs/certifywidget.cpp:175
 #, kde-format
 msgid "Fingerprint:"
 msgstr ""
@@ -7589,7 +7589,7 @@ msgid "Certify Certificate Group %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:159
+#: src/dialogs/certifywidget.cpp:158
 #, kde-format
 msgid ""
 "Verify the fingerprint, mark the user IDs you want to certify, and select the key you want to certify the user IDs with.<br>"
@@ -7597,147 +7597,147 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:181
+#: src/dialogs/certifywidget.cpp:180
 #, kde-format
 msgid "Certify with:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:195
+#: src/dialogs/certifywidget.cpp:194
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Click to set the trust level of the selected certification key to ultimate trust. This is what you usually want to do for your own keys."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:210
+#: src/dialogs/certifywidget.cpp:209
 #, kde-format
 msgctxt "@info"
 msgid "One or more certificates cannot be certified."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:216 src/dialogs/useridswidget.cpp:136
+#: src/dialogs/certifywidget.cpp:215 src/dialogs/useridswidget.cpp:136
 #, kde-format
 msgid "User IDs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:223 src/dialogs/certifywidget.cpp:452
-#: src/dialogs/certifywidget.cpp:466 src/view/cardkeysview.cpp:419
+#: src/dialogs/certifywidget.cpp:222 src/dialogs/certifywidget.cpp:451
+#: src/dialogs/certifywidget.cpp:465 src/view/cardkeysview.cpp:419
 #, kde-format
 msgctxt "@title:column"
 msgid "User ID"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:227
+#: src/dialogs/certifywidget.cpp:226
 #, kde-format
 msgid "Advanced"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:227
+#: src/dialogs/certifywidget.cpp:226
 #, kde-format
 msgid "Show advanced options"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:233
+#: src/dialogs/certifywidget.cpp:232
 #, kde-format
 msgid "Certify for everyone to see (exportable)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:235
+#: src/dialogs/certifywidget.cpp:234
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Check this option, if you want to share your certifications with others. If you just want to mark certificates as certified for yourself, then you can uncheck it."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:244
+#: src/dialogs/certifywidget.cpp:243
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Publish in internal directory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:246
+#: src/dialogs/certifywidget.cpp:245
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Publish to %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:249
+#: src/dialogs/certifywidget.cpp:248
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Check this option if you want to upload your certifications to a certificate directory after successful certification."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:263
+#: src/dialogs/certifywidget.cpp:262
 #, kde-format
 msgid "Tags:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:267
+#: src/dialogs/certifywidget.cpp:266
 #, kde-format
 msgid "You can use this to add additional info to a certification."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:268
+#: src/dialogs/certifywidget.cpp:267
 #, kde-format
 msgid "Tags created by anyone with full certification trust are shown in the keylist and can be searched."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:283
+#: src/dialogs/certifywidget.cpp:282
 #, kde-format
 msgid "Expiration:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:290
+#: src/dialogs/certifywidget.cpp:289
 #, kde-format
 msgid "You can use this to set an expiration date for a certification."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:291
+#: src/dialogs/certifywidget.cpp:290
 #, kde-format
 msgid "By setting an expiration date, you can limit the validity of your certification to a certain amount of time. Once the expiration date has passed, your certification is no longer valid."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:306
+#: src/dialogs/certifywidget.cpp:305
 #, kde-format
 msgid "Certify as trusted introducer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:307
+#: src/dialogs/certifywidget.cpp:306
 #, kde-format
 msgid "You can use this to certify a trusted introducer for a domain."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:308
+#: src/dialogs/certifywidget.cpp:307
 #, kde-format
 msgid "All certificates with email addresses belonging to the domain that have been certified by the trusted introducer are treated as certified, i.e. a trusted introducer acts as a kind of intermediate CA for a domain."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:319
+#: src/dialogs/certifywidget.cpp:318
 #, kde-format
 msgid "Domain:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:433
+#: src/dialogs/certifywidget.cpp:432
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -7746,7 +7746,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:466
+#: src/dialogs/certifywidget.cpp:465
 #: src/dialogs/lookupcertificatesdialog.cpp:237
 #: src/dialogs/revokerswidget.cpp:69 src/dialogs/subkeyswidget.cpp:175
 #: src/view/cardkeysview.cpp:421
@@ -7756,28 +7756,28 @@ msgid "Fingerprint"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:482 src/dialogs/certifywidget.cpp:483
+#: src/dialogs/certifywidget.cpp:481 src/dialogs/certifywidget.cpp:482
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "S/MIME certificates cannot be certified."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:485 src/dialogs/certifywidget.cpp:486
+#: src/dialogs/certifywidget.cpp:484 src/dialogs/certifywidget.cpp:485
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Expired or revoked certificates cannot be certified."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:796
+#: src/dialogs/certifywidget.cpp:795
 #, kde-format
 msgctxt "@info"
 msgid "Are you the only user of this secret key?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:811
+#: src/dialogs/certifywidget.cpp:810
 #, kde-format
 msgid ""
 "<p>Changing the certification trust of the key <b>%1</b> failed:</p>"
@@ -7785,14 +7785,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:814
+#: src/dialogs/certifywidget.cpp:813
 #, kde-format
 msgctxt "@title:window"
 msgid "Certification Trust Change Failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/certifywidget.cpp:821
+#: src/dialogs/certifywidget.cpp:820
 #, kde-format
 msgid "Owner trust set successfully."
 msgstr ""
@@ -10533,63 +10533,63 @@ msgid "String or Fingerprint for query and search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:465
+#: src/kleopatraapplication.cpp:479
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to execute command"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:488
+#: src/kleopatraapplication.cpp:502
 #, kde-kuit-format
 msgctxt "@info"
 msgid "For technical reasons you can only use this option if <application>%1</application> is not already running."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:525
+#: src/kleopatraapplication.cpp:539
 #, kde-format
 msgid "Ambiguous protocol: --openpgp and --cms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:559
+#: src/kleopatraapplication.cpp:573
 #, kde-format
 msgid "No search string specified for --search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:570
+#: src/kleopatraapplication.cpp:584
 #, kde-format
 msgid "No fingerprint argument specified for --query"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:631
+#: src/kleopatraapplication.cpp:645
 #, kde-format
 msgid "Ambiguous commands \"%1\" and \"%2\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:638
+#: src/kleopatraapplication.cpp:652
 #, kde-format
 msgid "No files specified for \"%1\" command"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:652
+#: src/kleopatraapplication.cpp:666
 #, kde-format
 msgid "Cannot read \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:931
+#: src/kleopatraapplication.cpp:945
 #, kde-format
 msgid "Opening an external link is administratively prohibited."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kleopatraapplication.cpp:931
+#: src/kleopatraapplication.cpp:945
 #, kde-format
 msgctxt "@title:window"
 msgid "Prohibited"
@@ -11472,49 +11472,49 @@ msgid "Key Management Key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/systrayicon.cpp:109
+#: src/systrayicon.cpp:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Open Certificate Manager..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/systrayicon.cpp:111
+#: src/systrayicon.cpp:110
 #, kde-kuit-format
 msgctxt "@action:inmenu"
 msgid "&Configure <application>%1</application>..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/systrayicon.cpp:114
+#: src/systrayicon.cpp:113
 #, kde-kuit-format
 msgctxt "@action:inmenu"
 msgid "&About <application>%1</application>..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/systrayicon.cpp:117
+#: src/systrayicon.cpp:116
 #, kde-kuit-format
 msgctxt "@action:inmenu"
 msgid "&Shutdown <application>%1</application>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/systrayicon.cpp:120
+#: src/systrayicon.cpp:119
 #, kde-format
 msgctxt "@title:menu"
 msgid "SmartCard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/systrayicon.cpp:121
+#: src/systrayicon.cpp:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Update Card Status"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/systrayicon.cpp:122
+#: src/systrayicon.cpp:121
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set NetKey v3 Initial PIN..."

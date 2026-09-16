@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-15 07:55+0200\n"
+"POT-Creation-Date: 2026-09-16 07:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -817,8 +817,9 @@ msgstr ""
 #: editor/connectiondetails.cpp:321 editorqml/qml/components/Vpn.qml:28
 #: editorqml/qml/components/Wired.qml:30
 #: editorqml/qml/components/Wireless.qml:30
-#: editorqml/qml/ConfigurationDialog.qml:34 editorqml/qml/vpn/ssh/Ssh.qml:30
-#: editorqml/qml/vpn/sstp/Sstp.qml:26
+#: editorqml/qml/ConfigurationDialog.qml:34
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:26
+#: editorqml/qml/vpn/ssh/Ssh.qml:30 editorqml/qml/vpn/sstp/Sstp.qml:26
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:238
 #, kde-format
 msgid "General"
@@ -1363,6 +1364,7 @@ msgstr ""
 #: editor/settings/ui/pppoe.ui:37 editor/settings/ui/wifisecurity.ui:207
 #: editorqml/qml/vpn/sstp/Sstp.qml:43
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:265
+#: editorqml/qml/vpn/vpnc/VpncAuth.qml:26
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapFast.qml:173
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapLeap.qml:25
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapMd5.qml:22
@@ -1388,6 +1390,10 @@ msgstr ""
 #: editor/settings/ui/cdma.ui:50 editor/settings/ui/gsm.ui:54
 #: editor/settings/ui/pppoe.ui:50 editor/settings/ui/wifisecurity.ui:223
 #: editor/settings/ui/wifisecurity.ui:243 editorqml/qml/PasswordField.qml:15
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:62
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAuth.qml:25
+#: editorqml/qml/vpn/iodine/Iodine.qml:51
+#: editorqml/qml/vpn/iodine/IodineAuth.qml:23
 #, kde-format
 msgid "Password:"
 msgstr ""
@@ -1405,7 +1411,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_31)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:134 editor/settings/ui/802-1x.ui:572
-#: editor/settings/ui/802-1x.ui:714
+#: editor/settings/ui/802-1x.ui:714 editorqml/qml/vpn/vpnc/VpncAdvanced.qml:38
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapPeap.qml:101
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTls.qml:30
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTtls.qml:102
@@ -2356,8 +2362,10 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, authGroup)
 #. +> trunk6 stable6 stable5
-#: editor/settings/ui/ppp.ui:23 editorqml/qml/vpn/ssh/Ssh.qml:136
-#: editorqml/qml/vpn/sstp/SstpAdvanced.qml:81
+#: editor/settings/ui/ppp.ui:23
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:43
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:34
+#: editorqml/qml/vpn/ssh/Ssh.qml:136 editorqml/qml/vpn/sstp/SstpAdvanced.qml:81
 #, kde-format
 msgid "Authentication"
 msgstr ""
@@ -2748,6 +2756,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, securitySectionLabel)
 #. +> trunk6 stable6
 #: editor/settings/ui/wificonnectionwidget.ui:368
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:73
 #, kde-format
 msgid "Security"
 msgstr ""
@@ -2915,6 +2924,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, btnRandomMacAddr)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wiredconnectionwidget.ui:80
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:135
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:136
 #, kde-format
 msgid "Random"
 msgstr ""
@@ -2929,11 +2940,10 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, speedLabel)
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: editor/settings/ui/wiredconnectionwidget.ui:125
-#: editorqml/qml/wiredconnectionsettings/WiredConnectionSettings.qml:128
 #, kde-format
-msgid "Speed:"
+msgid "Speed limit:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, duplexLabel)
@@ -4910,8 +4920,10 @@ msgid "Allows the connection to complete if IPv4 configuration fails but IPv6 co
 msgstr ""
 
 #. +> trunk6 stable6
-#: editorqml/qml/ipv4/IPv4Settings.qml:326 editorqml/qml/vpn/ssh/Ssh.qml:194
-#: editorqml/qml/vpn/sstp/Sstp.qml:106
+#: editorqml/qml/ipv4/IPv4Settings.qml:326
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:139
+#: editorqml/qml/vpn/ssh/Ssh.qml:194 editorqml/qml/vpn/sstp/Sstp.qml:106
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:142
 #, kde-format
 msgctxt "@action:button"
 msgid "Advanced…"
@@ -5099,9 +5111,159 @@ msgid "Password must be between 8 and 64 characters"
 msgstr ""
 
 #. +> trunk6 stable6
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:30
 #: editorqml/qml/vpn/ssh/Ssh.qml:34 editorqml/qml/vpn/sstp/Sstp.qml:30
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:25
 #, kde-format
 msgid "Gateway:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:33
+#, kde-format
+msgid "SSLVPN server IP or name."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:47
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:37
+#, kde-format
+msgid "User name:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:50
+#, kde-format
+msgid "Set the name used for authenticating the local system to the peer to <name>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:77
+#: editorqml/qml/vpn/sstp/Sstp.qml:59
+#, kde-format
+msgid "CA Certificate:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:95
+#, kde-format
+msgid "User Certificate:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:113
+#, kde-format
+msgid "User Key:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:40
+#, kde-format
+msgid "Use a One-Time Password"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:42
+#, kde-format
+msgid "Ask for a one-time password every time this connection is activated."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:53
+#, kde-format
+msgid "2FA"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:55
+#, kde-format
+msgid "Use two-factor authentication. This supersedes the one-time password."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:64
+#, kde-format
+msgid "Realm:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:77
+#, kde-format
+msgid "Trusted certificate:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAuth.qml:24
+#, kde-format
+msgid "FortiSSLVPN Authentication"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAuth.qml:37
+#, kde-format
+msgid "One Time Password"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/fortisslvpn/FortisslvpnAuth.qml:38
+#, kde-format
+msgid "Token:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/iodine/Iodine.qml:24
+#, kde-format
+msgid "Toplevel Domain:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/iodine/Iodine.qml:27
+#, kde-format
+msgid "The domain the iodine server is authoritative for."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/iodine/Iodine.qml:36
+#, kde-format
+msgid "Nameserver:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/iodine/Iodine.qml:39
+#, kde-format
+msgid "Nameserver to use for the tunnel. Leave empty to use the system default."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/iodine/Iodine.qml:65
+#, kde-format
+msgid "Fragment Size:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/iodine/Iodine.qml:67
+#, kde-format
+msgid "Maximum size of the upstream DNS fragments, in bytes. Automatic lets iodine probe for it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editorqml/qml/vpn/iodine/Iodine.qml:74
+#: editorqml/qml/vpn/iodine/Iodine.qml:75
+#: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapPeap.qml:133
+#, kde-format
+msgid "Automatic"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/iodine/Iodine.qml:74
+#, kde-format
+msgid "%1 bytes"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/iodine/IodineAuth.qml:22
+#, kde-format
+msgid "Iodine VPN"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5244,12 +5406,6 @@ msgid "NT Domain:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: editorqml/qml/vpn/sstp/Sstp.qml:59
-#, kde-format
-msgid "CA Certificate:"
-msgstr ""
-
-#. +> trunk6 stable6
 #: editorqml/qml/vpn/sstp/Sstp.qml:79
 #, kde-format
 msgid "Ignore certificate warnings"
@@ -5376,6 +5532,312 @@ msgstr ""
 msgid "SSTP VPN"
 msgstr ""
 
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:28
+#, kde-format
+msgid "IP/hostname of IPsec gateway."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:40
+#, kde-format
+msgid "User name for the connection."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:52
+#, kde-format
+msgid "User password:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:67 editorqml/qml/vpn/vpnc/VpncAuth.qml:35
+#, kde-format
+msgid "Group name:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:70
+#, kde-format
+msgid "Group name"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:82
+#, kde-format
+msgid "Group password:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:99
+#, kde-format
+msgid "Use hybrid authentication"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:101
+#, kde-format
+msgid "Enable hybrid authentication, i.e. use certificate in addition to password."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:110
+#, kde-format
+msgid "CA file:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:119
+#, kde-format
+msgid "CA certificate in PEM format."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:34
+#, kde-format
+msgid "Identification"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:41
+#, kde-format
+msgid "(NT-)Domain name for authentication."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:50
+#, kde-format
+msgid "Vendor:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:53
+#, kde-format
+msgid "Vendor of your IPsec gateway."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:57
+#, kde-format
+msgctxt "VPNC vendor name"
+msgid "Cisco"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:57
+#, kde-format
+msgctxt "VPNC vendor name"
+msgid "Netscreen"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:57
+#, kde-format
+msgctxt "VPNC vendor name"
+msgid "Fortigate"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:65
+#, kde-format
+msgid "Transport and Security"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:69
+#, kde-format
+msgid "Encryption method:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:72
+#, kde-format
+msgid "Encryption method."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:76
+#, kde-format
+msgctxt "VPNC encryption method"
+msgid "Secure (default)"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:76
+#, kde-format
+msgctxt "VPNC encryption method"
+msgid "Weak (DES encryption, use with caution)"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:76
+#, kde-format
+msgctxt "VPNC encryption method"
+msgid "None (completely insecure)"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:83
+#, kde-format
+msgid "NAT traversal:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:86
+#, kde-format
+msgid "NAT traversal method to use."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:90
+#, kde-format
+msgctxt "NAT traversal method"
+msgid "NAT-T when available (default)"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:90
+#, kde-format
+msgctxt "NAT traversal method"
+msgid "NAT-T always"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:90
+#, kde-format
+msgctxt "NAT traversal method"
+msgid "Cisco UDP"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:90
+#, kde-format
+msgctxt "NAT traversal method"
+msgid "Disabled"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:97
+#, kde-format
+msgid "IKE DH Group:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:100
+#, kde-format
+msgid "Name of the IKE DH group."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:104
+#, kde-format
+msgctxt "IKE DH group"
+msgid "DH Group 1"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:104
+#, kde-format
+msgctxt "IKE DH group"
+msgid "DH Group 2 (default)"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:104
+#, kde-format
+msgctxt "IKE DH group"
+msgid "DH Group 5"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:111
+#, kde-format
+msgid "Perfect Forward Secrecy:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:114
+#, kde-format
+msgid "Diffie-Hellman group to use for PFS."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:118
+#, kde-format
+msgctxt "Perfect Forward Secrecy"
+msgid "Server (default)"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:118
+#, kde-format
+msgctxt "Perfect Forward Secrecy"
+msgid "None"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:118
+#, kde-format
+msgctxt "Perfect Forward Secrecy"
+msgid "DH Group 1"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:118
+#, kde-format
+msgctxt "Perfect Forward Secrecy"
+msgid "DH Group 2"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:118
+#, kde-format
+msgctxt "Perfect Forward Secrecy"
+msgid "DH Group 5"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:125
+#, kde-format
+msgid "Local Port:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:127
+#, kde-format
+msgid "Local port to use (0-65535). 0 (default value) means random port. 500 is vpnc's default."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:145
+#, kde-format
+msgid "Disable dead peer detection"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:147
+#, kde-format
+msgid "Disable sending DPD packets (set timeout to 0)."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAuth.qml:49
+#, kde-format
+msgid "VPNC Authentication"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAuth.qml:50
+#, kde-format
+msgid "User Password:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/vpnc/VpncAuth.qml:61
+#, kde-format
+msgid "Group Password:"
+msgstr ""
+
 #. +> trunk6 stable6
 #: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:115
 #, kde-format
@@ -5475,12 +5937,6 @@ msgstr ""
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTtls.qml:118
 #, kde-format
 msgid "*.der *.pem *.crt *.cer"
-msgstr ""
-
-#. +> trunk6 stable6
-#: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapPeap.qml:133
-#, kde-format
-msgid "Automatic"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5595,6 +6051,12 @@ msgstr ""
 #: editorqml/qml/wiredconnectionsettings/WiredConnectionSettings.qml:122
 #, kde-format
 msgid "Device link negotiation. If “Manual” is chosen, “Speed” and “Duplex” values will be forced without checking the device compatibility. If unsure, leave here “Ignore” or pick “Automatic”."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: editorqml/qml/wiredconnectionsettings/WiredConnectionSettings.qml:128
+#, kde-format
+msgid "Speed:"
 msgstr ""
 
 #. +> trunk6 stable6
