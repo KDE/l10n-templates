@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-10 21:17+0200\n"
+"POT-Creation-Date: 2026-09-17 09:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3132,7 +3132,13 @@ msgstr ""
 msgid "rpm-ostree backend: Error: Unknown resource format. Please file a bug."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:366
+#, kde-format
+msgid "Canceling rpm-ostree transaction. This may take some time. Please wait."
+msgstr ""
+
+#. +> stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:366
 #, kde-format
 msgid "Cancelling rpm-ostree transaction. This may take some time. Please wait."
@@ -3489,7 +3495,14 @@ msgctxt "@info:status"
 msgid "Failed"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: libdiscover/Transaction/TransactionModel.cpp:97
+#, kde-format
+msgctxt "@info:status"
+msgid "Canceled"
+msgstr ""
+
+#. +> stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:97
 #, kde-format
 msgctxt "@info:status"

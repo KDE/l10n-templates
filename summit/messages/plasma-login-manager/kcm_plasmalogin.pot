@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-login-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-10 21:18+0200\n"
+"POT-Creation-Date: 2026-09-17 09:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -38,26 +38,26 @@ msgid "Unable to reset Plasma settings because the 'plasmalogin' user does not e
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Appearance.qml:23
+#: ui/Appearance.qml:25
 #, kde-format
 msgctxt "@title"
 msgid "Appearance"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Appearance.qml:35
+#: ui/Appearance.qml:37
 #, kde-format
 msgid "Clock"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Appearance.qml:36
+#: ui/Appearance.qml:38
 #, kde-format
 msgid "Show clock"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Appearance.qml:52
+#: ui/Appearance.qml:54
 #, kde-format
 msgid "Wallpaper type:"
 msgstr ""
@@ -129,34 +129,83 @@ msgid "Reset to Default Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:89
+#: ui/main.qml:86
 #, kde-format
 msgctxt "@title:group"
 msgid "Auto-login"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:89
+#, kde-format
+msgctxt "part of a sentence: 'Automatically log in [as user: foo / with session: bar]'"
+msgid "Automatically log in:"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:94
 #, kde-format
 msgctxt "@option:check"
 msgid "Automatically log in:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:103
+#, kde-format
+msgctxt "@label:listbox part of a sentence: '[Automatically log in] as user: [foo / with session: bar]'"
+msgid "as user:"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:100
 #, kde-format
 msgctxt "@label:listbox, the following combobox selects the user to log in automatically"
 msgid "as user:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:127
+#, kde-format
+msgid "Automatically log in with a specific user and session"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:149
+#, kde-format
+msgid "Select a user for automatic log in"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:161
+#, kde-format
+msgctxt "@label:listbox part of a sentence: '[Automatically log in as user: foo / ] with session: [bar]'"
+msgid "with session:"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:150
 #, kde-format
 msgctxt "@label:listbox, the following combobox selects the session that is started automatically"
 msgid "with session:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:183
+#, kde-format
+msgid "Select a session for automatic log in"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:195
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Auto-login does not support unlocking your KDE Wallet automatically, so it will ask you to unlock it every time you log in.<nl/>"
+"<nl/>"
+"To avoid this, you can change the wallet to have a blank password. Note that this is insecure and should only be done in a trusted environment."
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:180
 #, kde-kuit-format
 msgctxt "@info"
@@ -167,26 +216,32 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:185
+#: ui/main.qml:200
 #, kde-format
 msgid "Open KDE Wallet Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:192
+#: ui/main.qml:210
 #, kde-format
 msgctxt "@option:check"
 msgid "Log in again immediately after logging off"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:203
+#: ui/main.qml:224
 #, kde-format
 msgctxt "@title:group"
 msgid "Defaults"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:227
+#, kde-format
+msgid "Default user:"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:208
 #, kde-format
 msgctxt "@label"
@@ -194,13 +249,25 @@ msgid "Default user:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:214
+#: ui/main.qml:235
 #, kde-format
 msgctxt "@option:radio"
 msgid "Last logged-in user"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:295
+#, kde-format
+msgid "Select the default user to be shown at the login screen"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:303
+#, kde-format
+msgid "Default session:"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:281
 #, kde-format
 msgctxt "@label"
@@ -208,8 +275,14 @@ msgid "Default session:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:287
+#: ui/main.qml:311
 #, kde-format
 msgctxt "@option:radio"
 msgid "Last logged-in session"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:369
+#, kde-format
+msgid "Select the default session to be shown at the login screen"
 msgstr ""
