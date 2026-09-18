@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-16 07:31+0200\n"
+"POT-Creation-Date: 2026-09-18 07:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1411,7 +1411,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_31)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:134 editor/settings/ui/802-1x.ui:572
-#: editor/settings/ui/802-1x.ui:714 editorqml/qml/vpn/vpnc/VpncAdvanced.qml:38
+#: editor/settings/ui/802-1x.ui:714
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:114
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:38
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapPeap.qml:101
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTls.qml:30
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTtls.qml:102
@@ -5112,6 +5114,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:30
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:24
 #: editorqml/qml/vpn/ssh/Ssh.qml:34 editorqml/qml/vpn/sstp/Sstp.qml:30
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:25
 #, kde-format
@@ -5126,6 +5129,7 @@ msgstr ""
 
 #. +> trunk6
 #: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:47
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:78
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:37
 #, kde-format
 msgid "User name:"
@@ -5264,6 +5268,85 @@ msgstr ""
 #: editorqml/qml/vpn/iodine/IodineAuth.qml:22
 #, kde-format
 msgid "Iodine VPN"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:27
+#, kde-format
+msgid "IP or hostname of the IPsec gateway."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:36
+#: editorqml/qml/vpn/libreswan/LibreswanAuth.qml:26
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:67 editorqml/qml/vpn/vpnc/VpncAuth.qml:35
+#, kde-format
+msgid "Group name:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:39
+#, kde-format
+msgid "Group name, or local identifier, this connection belongs to."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:51
+#: editorqml/qml/vpn/libreswan/LibreswanAuth.qml:39
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:52
+#, kde-format
+msgid "User password:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:64
+#: editorqml/qml/vpn/libreswan/LibreswanAuth.qml:50
+#: editorqml/qml/vpn/vpnc/Vpnc.qml:82
+#, kde-format
+msgid "Group password:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:81
+#, kde-format
+msgid "User name for XAUTH authentication."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:90
+#, kde-format
+msgid "Phase1 algorithms:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:93
+#, kde-format
+msgid "IKE algorithms to propose. Leave empty for the defaults."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:102
+#, kde-format
+msgid "Phase2 algorithms:"
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:105
+#, kde-format
+msgid "ESP algorithms to propose. Leave empty for the defaults."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/Libreswan.qml:117
+#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:41
+#, kde-format
+msgid "(NT-)Domain name for authentication."
+msgstr ""
+
+#. +> trunk6
+#: editorqml/qml/vpn/libreswan/LibreswanAuth.qml:38
+#, kde-format
+msgid "Libreswan VPN"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5545,27 +5628,9 @@ msgid "User name for the connection."
 msgstr ""
 
 #. +> trunk6
-#: editorqml/qml/vpn/vpnc/Vpnc.qml:52
-#, kde-format
-msgid "User password:"
-msgstr ""
-
-#. +> trunk6
-#: editorqml/qml/vpn/vpnc/Vpnc.qml:67 editorqml/qml/vpn/vpnc/VpncAuth.qml:35
-#, kde-format
-msgid "Group name:"
-msgstr ""
-
-#. +> trunk6
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:70
 #, kde-format
 msgid "Group name"
-msgstr ""
-
-#. +> trunk6
-#: editorqml/qml/vpn/vpnc/Vpnc.qml:82
-#, kde-format
-msgid "Group password:"
 msgstr ""
 
 #. +> trunk6
@@ -5596,12 +5661,6 @@ msgstr ""
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:34
 #, kde-format
 msgid "Identification"
-msgstr ""
-
-#. +> trunk6
-#: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:41
-#, kde-format
-msgid "(NT-)Domain name for authentication."
 msgstr ""
 
 #. +> trunk6

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-17 09:22+0200\n"
+"POT-Creation-Date: 2026-09-18 07:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1120,7 +1120,14 @@ msgid "No actions for WM_CLASS"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (MaxClipItems), group (General)
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: klipper.kcfg:58
+#, kde-format
+msgid "The clipboard history will store up to this many items. Maximum is 2048."
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (MaxClipItems), group (General)
+#. +> stable6 stable5
 #: klipper.kcfg:58
 #, kde-format
 msgid "The clipboard history will store up to this many items."
