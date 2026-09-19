@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-18 07:11+0200\n"
+"POT-Creation-Date: 2026-09-19 07:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -72,42 +72,18 @@ msgid ""
 "When turned on this option keeps the selection and the clipboard the same, so that any selection is immediately available to paste by any means. If it is turned off, the selection may still be saved in the clipboard history (subject to the options below), but it can only be pasted using the middle mouse button."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog.cpp:124
 #, kde-format
 msgctxt "@option:check Part of the setting 'Include in history:'"
 msgid "Text selected with the pointer or keyboard"
 msgstr ""
 
-#. +> stable6
-#: configdialog.cpp:124
-#, kde-format
-msgid "Text selected with the pointer or keyboard"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog.cpp:126
 #, kde-format
 msgctxt "Followed e.g. by 'Text selected with the pointer or keyboard'"
 msgid "Include in history:"
-msgstr ""
-
-#. +> stable6
-#: configdialog.cpp:126
-#, kde-format
-msgid "Include in history:"
-msgstr ""
-
-#. +> stable5
-#: configdialog.cpp:131 configdialog.cpp:169
-#, kde-format
-msgid "Always save in history"
-msgstr ""
-
-#. +> stable5
-#: configdialog.cpp:180
-#, kde-format
-msgid "Never save in history"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -116,16 +92,16 @@ msgstr ""
 msgid "Text copied explicitly is always saved unless it is marked as a password."
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: configdialog.cpp:131 configdialog.cpp:169
+#, kde-format
+msgid "Always save in history"
+msgstr ""
+
+#. +> trunk6 stable6
 #: configdialog.cpp:133
 #, kde-format
 msgctxt "@option:check Part of the setting 'Include in history:'"
-msgid "Image data copied explicitly"
-msgstr ""
-
-#. +> stable6
-#: configdialog.cpp:133
-#, kde-format
 msgid "Image data copied explicitly"
 msgstr ""
 
@@ -181,6 +157,12 @@ msgstr ""
 #: configdialog.cpp:173
 #, kde-format
 msgid "Non-text selection:"
+msgstr ""
+
+#. +> stable5
+#: configdialog.cpp:180
+#, kde-format
+msgid "Never save in history"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
