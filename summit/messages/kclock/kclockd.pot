@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-16 08:26+0200\n"
+"POT-Creation-Date: 2026-09-20 07:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -166,13 +166,25 @@ msgctxt "@action Enable Alarm"
 msgid "Enable"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: main.cpp:32
+#, kde-format
+msgid "Don’t use PowerDevil for alarms if it is available"
+msgstr ""
+
+#. +> stable6
 #: main.cpp:32
 #, kde-format
 msgid "Don't use PowerDevil for alarms if it is available"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: main.cpp:48
+#, kde-format
+msgid "© 2020–2026 KDE Community"
+msgstr ""
+
+#. +> stable6
 #: main.cpp:48
 #, kde-format
 msgid "© 2020-2022 KDE Community"
@@ -216,42 +228,42 @@ msgid "Your timer %1 has finished!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: timermodel.cpp:284
+#: timermodel.cpp:287
 #, kde-format
 msgctxt "@action:button Open kclock app"
 msgid "Open Clock"
 msgstr ""
 
 #. +> trunk6 stable6
-#: timermodel.cpp:289
+#: timermodel.cpp:292
 #, kde-format
 msgctxt "@action:button Add minute to timer"
 msgid "+1 Minute"
 msgstr ""
 
 #. +> trunk6 stable6
-#: timermodel.cpp:292
+#: timermodel.cpp:295
 #, kde-format
 msgctxt "@action:button Reset timer"
 msgid "Reset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: timermodel.cpp:295 timermodel.cpp:320
+#: timermodel.cpp:298 timermodel.cpp:323
 #, kde-format
 msgctxt "@action:button Pause timer"
 msgid "Pause"
 msgstr ""
 
 #. +> trunk6 stable6
-#: timermodel.cpp:313
+#: timermodel.cpp:316
 #, kde-format
 msgctxt "@title:notification Timer name (paused)"
 msgid "%1 (Paused)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: timermodel.cpp:322
+#: timermodel.cpp:325
 #, kde-format
 msgctxt "@action:button Resume timer"
 msgid "Resume"
