@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-18 07:11+0200\n"
+"POT-Creation-Date: 2026-09-20 21:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -677,41 +677,48 @@ msgstr ""
 msgid "Not Available"
 msgstr ""
 
+#. +> trunk6
+#: core/signatureutils.cpp:508
+#, kde-format
+msgctxt "signing error"
+msgid "Signing certificate not found. If you are using a smartcard, it might have been removed or the signature store changed"
+msgstr ""
+
 #. +> trunk6 stable6
-#: core/signatureutils.cpp:510
+#: core/signatureutils.cpp:511
 #, kde-format
 msgctxt "%1 is a error code"
 msgid "Internal signing error. Please report a bug with the steps to reproduce it. Error code %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/signatureutils.cpp:512
+#: core/signatureutils.cpp:513
 #, kde-kuit-format
 msgctxt "%1 is a filename with path"
 msgid "Could not sign the document: <filename>%1</filename>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/signatureutils.cpp:514
+#: core/signatureutils.cpp:515
 #, kde-format
 msgid "Signing cancelled by user"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/signatureutils.cpp:516
+#: core/signatureutils.cpp:517
 #, kde-format
 msgid "Signing failed: Wrong passphrase"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/signatureutils.cpp:518
+#: core/signatureutils.cpp:519
 #, kde-kuit-format
 msgctxt "%1 is a filename with path"
 msgid "Could not write the signed document to <filename>%1</filename>, please ensure you have selected a folder with write permission"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/signatureutils.cpp:520
+#: core/signatureutils.cpp:521
 #, kde-format
 msgid "Unknown signing error"
 msgstr ""

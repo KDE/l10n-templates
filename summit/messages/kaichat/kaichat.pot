@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 07:17+0200\n"
+"POT-Creation-Date: 2026-09-20 21:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -218,6 +218,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
+msgstr ""
+
+#. +> trunk6
+#: core/kaichatcommandlineparser.cpp:54
+#, kde-format
+msgctxt "@info:shell"
+msgid "Chat file to import"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -575,7 +582,7 @@ msgid "Import as JSON…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:88
+#: widgets/kaichatmainwindow.cpp:91
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
@@ -583,67 +590,67 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:138
+#: widgets/kaichatmainwindow.cpp:141
 #, kde-format
 msgid "What's new"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:142
+#: widgets/kaichatmainwindow.cpp:145
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:156
+#: widgets/kaichatmainwindow.cpp:159
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:194
+#: widgets/kaichatmainwindow.cpp:197
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:306
+#: widgets/kaichatmainwindow.cpp:311
 #, kde-format
 msgid "<qt>This will hide the menu bar completely. You can show it again by typing %1.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:309
+#: widgets/kaichatmainwindow.cpp:314
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:345
+#: widgets/kaichatmainwindow.cpp:350
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:358
+#: widgets/kaichatmainwindow.cpp:363
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:464
+#: widgets/kaichatmainwindow.cpp:481
 #, kde-format
 msgid "Model Download Done"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/kaichatmainwindow.cpp:465
+#: widgets/kaichatmainwindow.cpp:482
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr ""

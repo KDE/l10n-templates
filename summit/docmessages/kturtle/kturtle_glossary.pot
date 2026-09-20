@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"POT-Creation-Date: 2026-09-20 21:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -179,7 +179,7 @@ msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: glossary.docbook:48 glossary.docbook:83
+#: glossary.docbook:48 glossary.docbook:88
 #, no-c-format
 msgid "gray"
 msgstr ""
@@ -242,7 +242,7 @@ msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: glossary.docbook:63 glossary.docbook:125
+#: glossary.docbook:63 glossary.docbook:130
 #, no-c-format
 msgid "<entry>red</entry>"
 msgstr ""
@@ -255,309 +255,449 @@ msgid "Not much to say about (text) strings either, except that they always star
 msgstr ""
 
 #. Tag: entry
-#. +> trunk6 stable6
+#. +> trunk6
 #: glossary.docbook:67
 #, no-c-format
-msgid "numbers"
+msgid "named-colors"
 msgstr ""
 
 #. Tag: entry
-#. +> trunk6 stable6
-#: glossary.docbook:68 glossary.docbook:73 glossary.docbook:126
+#. +> trunk6
+#: glossary.docbook:68
 #, no-c-format
-msgid "dark red"
+msgid "depends on color"
 msgstr ""
 
 #. Tag: entry
-#. +> trunk6 stable6
+#. +> trunk6
 #: glossary.docbook:69
 #, no-c-format
-msgid "Numbers, well not much to say about them."
+msgid "<glossterm linkend=\"named-colors\">Named-colors</glossterm> will have a background color identical to them."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:72
 #, no-c-format
-msgid "boolean values"
+msgid "numbers"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: glossary.docbook:73 glossary.docbook:78 glossary.docbook:131
+#, no-c-format
+msgid "dark red"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:74
 #, no-c-format
-msgid "There are exactly two boolean values, namely: true and false."
+msgid "Numbers, well not much to say about them."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:77
 #, no-c-format
-msgid "variables"
-msgstr ""
-
-#. Tag: entry
-#. +> trunk6 stable6
-#: glossary.docbook:78
-#, no-c-format
-msgid "purple"
+msgid "boolean values"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:79
 #, no-c-format
-msgid "Start with a '$' and can contain numbers, strings or boolean values."
+msgid "There are exactly two boolean values, namely: true and false."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:82
 #, no-c-format
-msgid "mathematical operators"
+msgid "variables"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: glossary.docbook:83
+#, no-c-format
+msgid "purple"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:84
 #, no-c-format
-msgid "These are the mathematical operators: <userinput>+</userinput>, <userinput>-</userinput>, <userinput>*</userinput>, <userinput>/</userinput> and <userinput>^</userinput>."
+msgid "Start with a '$' and can contain numbers, strings or boolean values."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:87
 #, no-c-format
-msgid "comparison operators"
-msgstr ""
-
-#. Tag: entry
-#. +> trunk6 stable6
-#: glossary.docbook:88
-#, no-c-format
-msgid "light blue (bold)"
+msgid "mathematical operators"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:89
 #, no-c-format
-msgid "These are the comparison operators: <userinput>==</userinput>, <userinput>!=</userinput>, <userinput>&lt;</userinput>, <userinput>&gt;</userinput>, <userinput>&lt;=</userinput> and <userinput>&gt;=</userinput>."
+msgid "These are the mathematical operators: <userinput>+</userinput>, <userinput>-</userinput>, <userinput>*</userinput>, <userinput>/</userinput> and <userinput>^</userinput>."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:92
 #, no-c-format
-msgid "boolean operators"
+msgid "comparison operators"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:93
 #, no-c-format
-msgid "pink (bold)"
+msgid "light blue (bold)"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:94
 #, no-c-format
-msgid "These are the boolean operators: <userinput>and</userinput>, <userinput>or</userinput> and <userinput>not</userinput>."
+msgid "These are the comparison operators: <userinput>==</userinput>, <userinput>!=</userinput>, <userinput>&lt;</userinput>, <userinput>&gt;</userinput>, <userinput>&lt;=</userinput> and <userinput>&gt;=</userinput>."
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
 #: glossary.docbook:97
 #, no-c-format
+msgid "boolean operators"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: glossary.docbook:98
+#, no-c-format
+msgid "pink (bold)"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: glossary.docbook:99
+#, no-c-format
+msgid "These are the boolean operators: <userinput>and</userinput>, <userinput>or</userinput> and <userinput>not</userinput>."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: glossary.docbook:102
+#, no-c-format
 msgid "regular text"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: glossary.docbook:98 glossary.docbook:123
+#: glossary.docbook:103 glossary.docbook:128
 #, no-c-format
 msgid "black"
 msgstr ""
 
 #. Tag: glossterm
 #. +> trunk6 stable6
-#: glossary.docbook:108
+#: glossary.docbook:113
 #, no-c-format
 msgid "pixels"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: glossary.docbook:109
+#: glossary.docbook:114
 #, no-c-format
 msgid "A pixel is a dot on the screen. If you look very close you will see that the screen of your monitor uses pixels. All images on the screen are built with these pixels. A pixel is the smallest thing that can be drawn on the screen."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: glossary.docbook:110
+#: glossary.docbook:115
 #, no-c-format
 msgid "A lot of commands need a number of pixels as input. These commands are: <userinput>forward</userinput>, <userinput>backward</userinput>, <userinput>go</userinput>, <userinput>gox</userinput>, <userinput>goy</userinput>, <userinput>canvassize</userinput> and <userinput>penwidth</userinput>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: glossary.docbook:111
+#: glossary.docbook:116
 #, no-c-format
 msgid "In early versions of &kturtle; the canvas was essentially a raster image, yet for recent versions the canvas is a vector drawing. This means that the canvas can be zoomed in and out, therefore a pixel does not necessarily have to translate to one dot on the screen."
 msgstr ""
 
 #. Tag: glossterm
 #. +> trunk6 stable6
-#: glossary.docbook:116
+#: glossary.docbook:121
 #, no-c-format
 msgid "RGB combinations (color codes)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: glossary.docbook:117
+#: glossary.docbook:122
 #, no-c-format
 msgid "RGB combinations are used to describe colors. The <quote>R</quote> stand for <quote>red</quote>, the <quote>G</quote> stands for <quote>green</quote> and the <quote>B</quote> stands for <quote>blue</quote>. An example of an RGB combination is <userinput>255,0,0</userinput>: the first value (<quote>red</quote>) is 255 and the others are 0, so this represents a bright shade of red. Each value of an RGB combination has to be in the range 0 to 255. Here a small list of some often used colors:"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: glossary.docbook:119
+#: glossary.docbook:124
 #, no-c-format
 msgid "Often used RGB combinations"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6 stable6
-#: glossary.docbook:123
+#: glossary.docbook:128
 #, no-c-format
 msgid "0,0,0"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6 stable6
-#: glossary.docbook:124
+#: glossary.docbook:129
 #, no-c-format
 msgid "255,255,255"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: glossary.docbook:124
+#: glossary.docbook:129
 #, no-c-format
 msgid "white"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6 stable6
-#: glossary.docbook:125
+#: glossary.docbook:130
 #, no-c-format
 msgid "255,0,0"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6 stable6
-#: glossary.docbook:126
+#: glossary.docbook:131
 #, no-c-format
 msgid "150,0,0"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6 stable6
-#: glossary.docbook:127
+#: glossary.docbook:132
 #, no-c-format
 msgid "0,255,0"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: glossary.docbook:127
+#: glossary.docbook:132
 #, no-c-format
 msgid "green"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6 stable6
-#: glossary.docbook:128
+#: glossary.docbook:133
 #, no-c-format
 msgid "0,0,255"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: glossary.docbook:128
+#: glossary.docbook:133
 #, no-c-format
 msgid "blue"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6 stable6
-#: glossary.docbook:129
+#: glossary.docbook:134
 #, no-c-format
 msgid "0,255,255"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: glossary.docbook:129
+#: glossary.docbook:134
 #, no-c-format
 msgid "light blue"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6 stable6
-#: glossary.docbook:130
+#: glossary.docbook:135
 #, no-c-format
 msgid "255,0,255"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: glossary.docbook:130
+#: glossary.docbook:135
 #, no-c-format
 msgid "pink"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6 stable6
-#: glossary.docbook:131
+#: glossary.docbook:136
 #, no-c-format
 msgid "255,255,0"
 msgstr ""
 
 #. Tag: entry
 #. +> trunk6 stable6
-#: glossary.docbook:131
+#: glossary.docbook:136
 #, no-c-format
 msgid "yellow"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: glossary.docbook:136
+#: glossary.docbook:141
 #, no-c-format
 msgid "Two commands need an RGB combination as input: these commands are <userinput>canvascolor</userinput> and <userinput>pencolor</userinput>."
 msgstr ""
 
 #. Tag: glossterm
+#. +> trunk6
+#: glossary.docbook:145
+#, no-c-format
+msgid "Named-colors (color strings)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: glossary.docbook:146
+#, no-c-format
+msgid "In addition to RGB combinations, you can use named-colors. Kturtle supports a group of named-colors, which are passed as strings to the command requiring a color."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: glossary.docbook:148
+#, no-c-format
+msgid "Named-colors currently supported"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:151
+#, no-c-format
+msgid "\"white\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:152
+#, no-c-format
+msgid "\"black\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:153
+#, no-c-format
+msgid "\"gray\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:154
+#, no-c-format
+msgid "\"grey\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:155
+#, no-c-format
+msgid "\"red\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:156
+#, no-c-format
+msgid "\"brown\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:157
+#, no-c-format
+msgid "\"orange\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:158
+#, no-c-format
+msgid "\"yellow\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:159
+#, no-c-format
+msgid "\"gold\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:160
+#, no-c-format
+msgid "\"green\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:161
+#, no-c-format
+msgid "\"blue\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:162
+#, no-c-format
+msgid "\"purple\""
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6
+#: glossary.docbook:163
+#, no-c-format
+msgid "\"pink\""
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: glossary.docbook:168
+#, no-c-format
+msgid "Two commands can use a named-color as input: these commands are <userinput>canvascolor</userinput> and <userinput>pencolor</userinput>."
+msgstr ""
+
+#. Tag: glossterm
 #. +> trunk6 stable6
-#: glossary.docbook:140
+#: glossary.docbook:172
 #, no-c-format
 msgid "sprite"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: glossary.docbook:141
+#: glossary.docbook:173
 #, no-c-format
 msgid "A sprite is a small picture that can be moved around the screen. Our beloved turtle, for instance, is a sprite."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: glossary.docbook:142
+#: glossary.docbook:174
 #, no-c-format
 msgid "With this version of &kturtle; the sprite cannot be changed from a turtle into something else. Future versions of &kturtle; will be able to do this."
 msgstr ""

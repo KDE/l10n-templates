@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-19 07:58+0200\n"
+"POT-Creation-Date: 2026-09-20 21:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -8376,7 +8376,14 @@ msgid "OCSP responder signature:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, OCSPResponderURL)
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/smimeconfiguration.ui:74
+#, kde-format
+msgid "Enter here the address of the server for online validation of certificates (OCSP responder). The URL is usually starting with https://."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, OCSPResponderURL)
+#. +> stable6
 #: ui/smimeconfiguration.ui:74
 #, kde-format
 msgid "Enter here the address of the server for online validation of certificates (OCSP responder). The URL is usually starting with http://."

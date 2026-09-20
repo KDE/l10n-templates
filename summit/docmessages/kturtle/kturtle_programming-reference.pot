@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"POT-Creation-Date: 2026-09-20 21:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -885,8 +885,22 @@ msgstr ""
 msgid "pencolor R,G,B"
 msgstr ""
 
+#. Tag: screen
+#. +> trunk6
+#: programming-reference.docbook:307
+#, no-c-format
+msgid "pencolor \"color\""
+msgstr ""
+
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
+#: programming-reference.docbook:307
+#, no-c-format
+msgid "<userinput>pencolor</userinput> sets the color of the pen. <userinput>pencolor</userinput> takes an <glossterm linkend=\"rgb\">RGB combination</glossterm> or a <glossterm linkend=\"named-colors\">named-color</glossterm> as input. <userinput>pencolor</userinput> can be abbreviated to <userinput>pc</userinput>."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: programming-reference.docbook:306
 #, no-c-format
 msgid "<userinput>pencolor</userinput> sets the color of the pen. <userinput>pencolor</userinput> takes an <glossterm linkend=\"rgb\">RGB combination</glossterm> as input. <userinput>pencolor</userinput> can be abbreviated to <userinput>pc</userinput>."
@@ -894,69 +908,83 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:313
+#: programming-reference.docbook:314
 #, no-c-format
 msgid "Commands to control the canvas"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:314
+#: programming-reference.docbook:315
 #, no-c-format
 msgid "There are several commands to control the canvas."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:318
+#: programming-reference.docbook:319
 #, no-c-format
 msgid "<term>canvassize (cs)</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:318
+#: programming-reference.docbook:319
 #, no-c-format
 msgid "<primary>canvassize (cs)</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:319
+#: programming-reference.docbook:320
 #, no-c-format
 msgid "canvassize X,Y"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:319
+#: programming-reference.docbook:320
 #, no-c-format
 msgid "With the <userinput>canvassize</userinput> command you can set the size of the canvas. It takes X and Y as input, where X is the new canvas width in <glossterm linkend=\"pixels\">pixels</glossterm>, and Y is the new height of the canvas in <glossterm linkend=\"pixels\">pixels</glossterm>. <userinput>canvassize</userinput> can be abbreviated to <userinput>cs</userinput>."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:326
+#: programming-reference.docbook:327
 #, no-c-format
 msgid "<term>canvascolor (cc)</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:326
+#: programming-reference.docbook:327
 #, no-c-format
 msgid "<primary>canvascolor (cc)</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:327
+#: programming-reference.docbook:328
 #, no-c-format
 msgid "canvascolor R,G,B"
 msgstr ""
 
+#. Tag: screen
+#. +> trunk6
+#: programming-reference.docbook:329
+#, no-c-format
+msgid "canvascolor \"color\""
+msgstr ""
+
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
+#: programming-reference.docbook:329
+#, no-c-format
+msgid "<userinput>canvascolor</userinput> set the color of the canvas. <userinput>canvascolor</userinput> takes an <glossterm linkend=\"rgb\">RGB combination</glossterm> or <glossterm linkend=\"named-colors\">named-color</glossterm> as input. <userinput>canvascolor</userinput> can be abbreviated to <userinput>cc</userinput>."
+msgstr ""
+
+#. Tag: para
+#. +> stable6
 #: programming-reference.docbook:327
 #, no-c-format
 msgid "<userinput>canvascolor</userinput> set the color of the canvas. <userinput>canvascolor</userinput> takes an <glossterm linkend=\"rgb\">RGB combination</glossterm> as input. <userinput>canvascolor</userinput> can be abbreviated to <userinput>cc</userinput>."
@@ -964,203 +992,203 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:334
+#: programming-reference.docbook:336
 #, no-c-format
 msgid "Commands to clean up"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:335
+#: programming-reference.docbook:337
 #, no-c-format
 msgid "There are two commands to clean up the canvas after you have made a mess."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:339
+#: programming-reference.docbook:341
 #, no-c-format
 msgid "<term>clear (ccl)</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:339
+#: programming-reference.docbook:341
 #, no-c-format
 msgid "<primary>clear (ccl)</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:340
+#: programming-reference.docbook:342
 #, no-c-format
 msgid "clear"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:340
+#: programming-reference.docbook:342
 #, no-c-format
 msgid "With <userinput>clear</userinput> you can clean all drawings from the canvas. All other things remain: the position and angle of the turtle, the canvascolor, the visibility of the turtle, and the canvas size."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:347
+#: programming-reference.docbook:349
 #, no-c-format
 msgid "<term>reset</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:347
+#: programming-reference.docbook:349
 #, no-c-format
 msgid "<primary>reset</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:348
+#: programming-reference.docbook:350
 #, no-c-format
 msgid "<screen>reset</screen>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:348
+#: programming-reference.docbook:350
 #, no-c-format
 msgid "<userinput>reset</userinput> cleans much more thoroughly than the <userinput>clear</userinput> command. After a <userinput>reset</userinput> command everything is like is was when you had just started &kturtle;. The turtle is positioned at the middle of the screen, the canvas color is white, the turtle draws a black line on the canvas and the canvassize is set to 400 x 400 pixels."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:355
+#: programming-reference.docbook:357
 #, no-c-format
 msgid "The turtle is a sprite"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:356
+#: programming-reference.docbook:358
 #, no-c-format
 msgid "First a brief explanation of what sprites are: sprites are small pictures that can be moved around the screen, like we often see in computer games. Our turtle is also a sprite. For more info see the glossary on <glossterm linkend=\"sprites\">sprites</glossterm>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:357
+#: programming-reference.docbook:359
 #, no-c-format
 msgid "Next you will find a full overview on all commands to work with sprites."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:358
+#: programming-reference.docbook:360
 #, no-c-format
 msgid "The current version of &kturtle; does not yet support the use of sprites other than the turtle. With future versions you will be able to change the turtle into something of your own design."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:362
+#: programming-reference.docbook:364
 #, no-c-format
 msgid "<term>spriteshow (ss)</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:362
+#: programming-reference.docbook:364
 #, no-c-format
 msgid "<primary>spriteshow (ss)</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:363
+#: programming-reference.docbook:365
 #, no-c-format
 msgid "spriteshow"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:363
+#: programming-reference.docbook:365
 #, no-c-format
 msgid "<userinput>spriteshow</userinput> makes the turtle visible again after it has been hidden. <userinput>spriteshow</userinput> can be abbreviated to <userinput>ss</userinput>."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:370
+#: programming-reference.docbook:372
 #, no-c-format
 msgid "<term>spritehide (sh)</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:370
+#: programming-reference.docbook:372
 #, no-c-format
 msgid "<primary>spritehide (sh)</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:371
+#: programming-reference.docbook:373
 #, no-c-format
 msgid "spritehide"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:371
+#: programming-reference.docbook:373
 #, no-c-format
 msgid "<userinput>spritehide</userinput> hides the turtle. This can be used if the turtle does not fit in your drawing. <userinput>spritehide</userinput> can be abbreviated to <userinput>sh</userinput>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:378
+#: programming-reference.docbook:380
 #, no-c-format
 msgid "Can the turtle write?"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:379
+#: programming-reference.docbook:381
 #, no-c-format
 msgid "The answer is: <quote>yes</quote>. The turtle can write: it writes just about everything you command it to."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:383
+#: programming-reference.docbook:385
 #, no-c-format
 msgid "<term>print</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:383
+#: programming-reference.docbook:385
 #, no-c-format
 msgid "<primary>print</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:384
+#: programming-reference.docbook:386
 #, no-c-format
 msgid "print X"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:384
+#: programming-reference.docbook:386
 #, no-c-format
 msgid "The <userinput>print</userinput> command is used to command the turtle to write something on the canvas. <userinput>print</userinput> takes numbers and strings as input. You can <userinput>print</userinput> various numbers and strings using the <quote>+</quote> symbol. See here a small example:"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:386
+#: programming-reference.docbook:388
 #, no-c-format
 msgid ""
 "$year = 2003\n"
@@ -1170,70 +1198,70 @@ msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:393
+#: programming-reference.docbook:395
 #, no-c-format
 msgid "<term>fontsize</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:393
+#: programming-reference.docbook:395
 #, no-c-format
 msgid "<primary>fontsize</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:394
+#: programming-reference.docbook:396
 #, no-c-format
 msgid "fontsize X"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:394
+#: programming-reference.docbook:396
 #, no-c-format
 msgid "<userinput>fontsize</userinput> sets the size of the font that is used by <userinput>print</userinput>. <userinput>fontsize</userinput> takes one input which should be a number. The size is set in <glossterm linkend=\"pixels\">pixels</glossterm>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:401
+#: programming-reference.docbook:403
 #, no-c-format
 msgid "Mathematical commands"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:402
+#: programming-reference.docbook:404
 #, no-c-format
 msgid "The following commands are &kturtle;'s more advanced mathematical commands."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:406
+#: programming-reference.docbook:408
 #, no-c-format
 msgid "<term>round</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:406
+#: programming-reference.docbook:408
 #, no-c-format
 msgid "<primary>round</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:407
+#: programming-reference.docbook:409
 #, no-c-format
 msgid "round(x)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:407
+#: programming-reference.docbook:409
 #, no-c-format
 msgid ""
 "<userinput>round</userinput> the given number to the nearest integer. <screen>\n"
@@ -1245,28 +1273,28 @@ msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:416
+#: programming-reference.docbook:418
 #, no-c-format
 msgid "<term>random (rnd)</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:416
+#: programming-reference.docbook:418
 #, no-c-format
 msgid "<primary>random (rnd)</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:417
+#: programming-reference.docbook:419
 #, no-c-format
 msgid "random X,Y"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:417
+#: programming-reference.docbook:419
 #, no-c-format
 msgid ""
 "<userinput>random</userinput> is a command that takes input and gives output. As input are required two numbers, the first (X) sets the minimum output, the second (Y) sets the maximum. The output is a randomly chosen number that is equal or greater than the minimum and equal or smaller than the maximum. Here a small example: <screen>\n"
@@ -1280,105 +1308,105 @@ msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:426
+#: programming-reference.docbook:428
 #, no-c-format
 msgid "<term>mod</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:426
+#: programming-reference.docbook:428
 #, no-c-format
 msgid "<primary>mod</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:427
+#: programming-reference.docbook:429
 #, no-c-format
 msgid "mod X,Y"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:427
+#: programming-reference.docbook:429
 #, no-c-format
 msgid "The <userinput>mod</userinput> returns remainder of the division of first number by the second number."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:434
+#: programming-reference.docbook:436
 #, no-c-format
 msgid "<term>sqrt</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:434
+#: programming-reference.docbook:436
 #, no-c-format
 msgid "<primary>sqrt</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:435
+#: programming-reference.docbook:437
 #, no-c-format
 msgid "sqrt X"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:435
+#: programming-reference.docbook:437
 #, no-c-format
 msgid "The <userinput>sqrt</userinput> command is sued to find the square root of a number, X."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:452
+#: programming-reference.docbook:454
 #, no-c-format
 msgid "<term>pi</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:452
+#: programming-reference.docbook:454
 #, no-c-format
 msgid "<primary>pi</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:453
+#: programming-reference.docbook:455
 #, no-c-format
 msgid "<screen>pi</screen>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:453
+#: programming-reference.docbook:455
 #, no-c-format
 msgid "This command returns the constant Pi, <userinput>3.14159</userinput>."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:462
+#: programming-reference.docbook:464
 #, no-c-format
 msgid "sin<indexterm><primary>sin</primary></indexterm>, cos<indexterm><primary>cos</primary></indexterm>, tan"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:462
+#: programming-reference.docbook:464
 #, no-c-format
 msgid "<primary>tan</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:464
+#: programming-reference.docbook:466
 #, no-c-format
 msgid ""
 "sin X\n"
@@ -1388,28 +1416,28 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:464
+#: programming-reference.docbook:466
 #, no-c-format
 msgid "These three commands represent the world famous trigoniometrical functions <userinput>sin</userinput>, <userinput>cos</userinput> and <userinput>tan</userinput>. The input argument of these commands, X, is a <link linkend=\"number\">number</link>."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:473
+#: programming-reference.docbook:475
 #, no-c-format
 msgid "arcsin<indexterm><primary>arcsin</primary></indexterm>, arccos<indexterm><primary>arccos</primary></indexterm>, arctan"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:473
+#: programming-reference.docbook:475
 #, no-c-format
 msgid "arctan"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:475
+#: programming-reference.docbook:477
 #, no-c-format
 msgid ""
 "arcsin X\n"
@@ -1419,84 +1447,84 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:475
+#: programming-reference.docbook:477
 #, no-c-format
 msgid "These commands are the inverse functions of <link linkend=\"sin\">sin</link>, <link linkend=\"cos\">cos</link> and <link linkend=\"tan\">tan</link>. The input argument of these commands, X, is a <link linkend=\"number\">number</link>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:482
+#: programming-reference.docbook:484
 #, no-c-format
 msgid "Input and feedback through dialogs"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:483
+#: programming-reference.docbook:485
 #, no-c-format
 msgid "A dialog is a small pop-up window that provides some feedback or asks for some input. &kturtle; has two commands for dialogs, namely: <userinput>message</userinput> and <userinput>ask</userinput>"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:487
+#: programming-reference.docbook:489
 #, no-c-format
 msgid "<term>message</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:487
+#: programming-reference.docbook:489
 #, no-c-format
 msgid "<primary>message</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:488
+#: programming-reference.docbook:490
 #, no-c-format
 msgid "message X"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:488
+#: programming-reference.docbook:490
 #, no-c-format
 msgid "The <userinput>message</userinput> command takes a <link linkend=\"string\">string</link> as input. It shows a pop-up dialog containing the text from the <link linkend=\"string\">string</link>."
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:490
+#: programming-reference.docbook:492
 #, no-c-format
 msgid "message \"Cies started KTurtle in 2003 and still enjoys working on it!\""
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:497
+#: programming-reference.docbook:499
 #, no-c-format
 msgid "<term>ask</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:497
+#: programming-reference.docbook:499
 #, no-c-format
 msgid "<primary>ask</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:498
+#: programming-reference.docbook:500
 #, no-c-format
 msgid "ask X"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:498
+#: programming-reference.docbook:500
 #, no-c-format
 msgid ""
 "<userinput>ask</userinput> takes a <link linkend=\"string\">string</link> as input. It shows this string in a pop-up dialog (similar to <link linkend=\"message\">message</link>), along with an input field. After the user has entered a <link linkend=\"number\">number</link> or a <link linkend=\"string\">string</link> into this, the result can be stored in a <link linkend=\"assignment-of-variables\">variable</link> or passed as an argument to a <link linkend=\"commands\">command</link>. For example: <screen>\n"
@@ -1508,35 +1536,35 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:511
+#: programming-reference.docbook:513
 #, no-c-format
 msgid "Assignment of variables"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:512
+#: programming-reference.docbook:514
 #, no-c-format
 msgid "First we have a look at variables, then we look at assigning values to those variables."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:516
+#: programming-reference.docbook:518
 #, no-c-format
 msgid "Variables are words that start with a <quote>$</quote>, in the <link linkend=\"the-editor\">editor</link> they are <glossterm>highlighted</glossterm> with purple."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:518
+#: programming-reference.docbook:520
 #, no-c-format
 msgid "Variables can contain any <link linkend=\"number\">number</link>, <link linkend=\"string\">string</link> or <link linkend=\"boolean-value\">boolean (true/false) value</link>. Using the assignment, <userinput>=</userinput>, a variable is given its content. It will keep that content until the program finishes executing or until the variable is reassigned to something else."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:520
+#: programming-reference.docbook:522
 #, no-c-format
 msgid ""
 "You can use variables, once assigned, just as if they are their content. For instance in the following piece of &turtlescript;: <screen>\n"
@@ -1548,7 +1576,7 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:524
+#: programming-reference.docbook:526
 #, no-c-format
 msgid ""
 "Variables have to be assigned in order to be used. For example: <screen>\n"
@@ -1558,7 +1586,7 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:528
+#: programming-reference.docbook:530
 #, no-c-format
 msgid ""
 "Please consider the following piece of &turtlescript;: <screen>\n"
@@ -1575,7 +1603,7 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:534
+#: programming-reference.docbook:536
 #, no-c-format
 msgid ""
 "One more example: <screen>\n"
@@ -1586,70 +1614,70 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:538
+#: programming-reference.docbook:540
 #, no-c-format
 msgid "When using variables the <link linkend=\"the-inspector\">inspector</link> is very helpful. It shows you the contents of all variables that are currently in use."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:544
+#: programming-reference.docbook:546
 #, no-c-format
 msgid "Controlling execution"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:545
+#: programming-reference.docbook:547
 #, no-c-format
 msgid "The execution controllers enable you &mdash; as their name implies &mdash; to control execution."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:546
+#: programming-reference.docbook:548
 #, no-c-format
 msgid "Execution controlling commands are <glossterm>highlighted</glossterm> with dark green in a bold font type. The brackets are mostly used together with execution controllers and they are <glossterm>highlighted</glossterm> with black."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:549
+#: programming-reference.docbook:551
 #, no-c-format
 msgid "Have the turtle wait"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:550
+#: programming-reference.docbook:552
 #, no-c-format
 msgid "If you have done some programming in &kturtle; you have might noticed that the turtle can be very quick at drawing. This command makes the turtle wait for a given amount of time."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:553
+#: programming-reference.docbook:555
 #, no-c-format
 msgid "<term>wait</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:553
+#: programming-reference.docbook:555
 #, no-c-format
 msgid "<primary>wait</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:554
+#: programming-reference.docbook:556
 #, no-c-format
 msgid "wait X"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:554
+#: programming-reference.docbook:556
 #, no-c-format
 msgid ""
 "<userinput>wait</userinput> makes the turtle wait for X seconds. <screen>\n"
@@ -1663,35 +1691,35 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:564
+#: programming-reference.docbook:566
 #, no-c-format
 msgid "Execute <quote>if</quote>"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:567
+#: programming-reference.docbook:569
 #, no-c-format
 msgid "<term>if</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:567
+#: programming-reference.docbook:569
 #, no-c-format
 msgid "<primary>if</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:568
+#: programming-reference.docbook:570
 #, no-c-format
 msgid "if <link linkend=\"boolean-value\">boolean</link> { ... }"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:568
+#: programming-reference.docbook:570
 #, no-c-format
 msgid ""
 "The code that is placed between the brackets will only be executed <userinput>if</userinput> the <link linkend=\"boolean-value\">boolean value</link> evaluates <quote>true</quote>. <screen>\n"
@@ -1704,35 +1732,35 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:577
+#: programming-reference.docbook:579
 #, no-c-format
 msgid "If not, in other words: <quote>else</quote>"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:580
+#: programming-reference.docbook:582
 #, no-c-format
 msgid "<term>else</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:580
+#: programming-reference.docbook:582
 #, no-c-format
 msgid "<primary>else</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:581
+#: programming-reference.docbook:583
 #, no-c-format
 msgid "if <link linkend=\"boolean-value\">boolean</link> { ... } else { ... }"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:581
+#: programming-reference.docbook:583
 #, no-c-format
 msgid ""
 "<userinput>else</userinput> can be used in addition to the execution controller <link linkend=\"if\"><userinput>if</userinput></link>. The code between the brackets after <userinput>else</userinput> is only executed if the <link linkend=\"boolean-value\">boolean</link> evaluates <quote>false</quote>. <screen>\n"
@@ -1748,35 +1776,35 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:590
+#: programming-reference.docbook:592
 #, no-c-format
 msgid "The <quote>while</quote> loop"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:593
+#: programming-reference.docbook:595
 #, no-c-format
 msgid "<term>while</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:593
+#: programming-reference.docbook:595
 #, no-c-format
 msgid "<primary>while</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:594
+#: programming-reference.docbook:596
 #, no-c-format
 msgid "while <link linkend=\"boolean-value\">boolean</link> { ... }"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:594
+#: programming-reference.docbook:596
 #, no-c-format
 msgid ""
 "The execution controller <userinput>while</userinput> is a lot like <link linkend=\"if\"><userinput>if</userinput></link>. The difference is that <userinput>while</userinput> keeps repeating (looping) the code between the brackets until the <link linkend=\"boolean-value\">boolean</link> evaluates <quote>false</quote>. <screen>\n"
@@ -1791,84 +1819,84 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:603
+#: programming-reference.docbook:605
 #, no-c-format
 msgid "The <quote>repeat</quote> loop"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:606
+#: programming-reference.docbook:608
 #, no-c-format
 msgid "<term>repeat</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:606
+#: programming-reference.docbook:608
 #, no-c-format
 msgid "<primary>repeat</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:607
+#: programming-reference.docbook:609
 #, no-c-format
 msgid "repeat <link linkend=\"number\">number</link> { ... }"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:607
+#: programming-reference.docbook:609
 #, no-c-format
 msgid "The execution controller <userinput>repeat</userinput> is a lot like <link linkend=\"while\"><userinput>while</userinput></link>. The difference is that <userinput>repeat</userinput> keeps repeating (looping) the code between the brackets for as many times as the given number."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:614
+#: programming-reference.docbook:616
 #, no-c-format
 msgid "The <quote>for</quote> loop, a counting loop"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:617
+#: programming-reference.docbook:619
 #, no-c-format
 msgid "<term>for</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:617
+#: programming-reference.docbook:619
 #, no-c-format
 msgid "<primary>for</primary>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:617
+#: programming-reference.docbook:619
 #, no-c-format
 msgid "<primary>to</primary>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:617
+#: programming-reference.docbook:619
 #, no-c-format
 msgid "step"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:618
+#: programming-reference.docbook:620
 #, no-c-format
 msgid "for <link linkend=\"assignment-of-variables\">variable</link> = <link linkend=\"number\">number</link> to <link linkend=\"number\">number</link> { ... }"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:618
+#: programming-reference.docbook:620
 #, no-c-format
 msgid ""
 "The <userinput>for</userinput> loop is a <quote>counting loop</quote>, &ie; it keeps count for you. The first number sets the variable to the value in the first loop. Every loop the number is increased until the second number is reached. <screen>\n"
@@ -1881,126 +1909,126 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:623
+#: programming-reference.docbook:625
 #, no-c-format
 msgid "The default step size of a loop is 1, you can use an other value with"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:625
+#: programming-reference.docbook:627
 #, no-c-format
 msgid "for <link linkend=\"assignment-of-variables\">variable</link> = <link linkend=\"number\">number</link> to <link linkend=\"number\">number</link> step <link linkend=\"number\">number</link> { ... }"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:631
+#: programming-reference.docbook:633
 #, no-c-format
 msgid "Leave a loop"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:634
+#: programming-reference.docbook:636
 #, no-c-format
 msgid "<term>break</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:634
+#: programming-reference.docbook:636
 #, no-c-format
 msgid "<primary>break</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:635
+#: programming-reference.docbook:637
 #, no-c-format
 msgid "<screen>break</screen>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:635
+#: programming-reference.docbook:637
 #, no-c-format
 msgid "Terminates the current loop immediately and transfers control to the statement immediately following that loop."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:642
+#: programming-reference.docbook:644
 #, no-c-format
 msgid "Stop executing your program"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:645
+#: programming-reference.docbook:647
 #, no-c-format
 msgid "<term>exit</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:645
+#: programming-reference.docbook:647
 #, no-c-format
 msgid "<primary>exit</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:646
+#: programming-reference.docbook:648
 #, no-c-format
 msgid "<screen>exit</screen>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:646
+#: programming-reference.docbook:648
 #, no-c-format
 msgid "Finishes the execution of your program."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:653
+#: programming-reference.docbook:655
 #, no-c-format
 msgid "Checking assertions at runtime"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: programming-reference.docbook:656
+#: programming-reference.docbook:658
 #, no-c-format
 msgid "<term>assert</term>"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: programming-reference.docbook:656
+#: programming-reference.docbook:658
 #, no-c-format
 msgid "<primary>assert</primary>"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:657
+#: programming-reference.docbook:659
 #, no-c-format
 msgid "assert <link linkend=\"boolean-value\">boolean</link>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:657
+#: programming-reference.docbook:659
 #, no-c-format
 msgid "Can be used to reason about program or input correctness."
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:659
+#: programming-reference.docbook:661
 #, no-c-format
 msgid ""
 "$in = ask \"What is your year of birth?\"\n"
@@ -2010,14 +2038,14 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: programming-reference.docbook:668
+#: programming-reference.docbook:670
 #, no-c-format
 msgid "Create your own commands with <quote>learn</quote>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:669
+#: programming-reference.docbook:671
 #, no-c-format
 msgid ""
 "<userinput>learn</userinput><indexterm><primary>learn</primary></indexterm> is special as it is used to create your own commands. The commands you create can take <glossterm linkend=\"input-output\">input</glossterm> and return <glossterm linkend=\"input-output\">output</glossterm>. Let us take a look at how a new command is created: <screen>\n"
@@ -2032,7 +2060,7 @@ msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: programming-reference.docbook:672
+#: programming-reference.docbook:674
 #, no-c-format
 msgid ""
 "learn circle $X {\n"
@@ -2051,7 +2079,7 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:674
+#: programming-reference.docbook:676
 #, no-c-format
 msgid ""
 "In the next example, a command with a return<indexterm><primary>return</primary></indexterm> value is created. <screen>\n"
@@ -2069,7 +2097,7 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: programming-reference.docbook:677
+#: programming-reference.docbook:679
 #, no-c-format
 msgid ""
 "Commands can have more than one <glossterm linkend=\"input-output\">input</glossterm>. In the next example, a command that draws a rectangle is created: <screen>\n"
