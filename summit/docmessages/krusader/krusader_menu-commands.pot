@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-08 08:11+0200\n"
+"POT-Creation-Date: 2026-09-21 07:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1695,7 +1695,14 @@ msgid "Opens a dialog which allows you to configure the &krusader; key bindings.
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: menu-commands.docbook:1746
+#, no-c-format
+msgid "With the <guibutton>Import shortcuts</guibutton> and <guibutton>Export shortcuts</guibutton> buttons you can load and save a Key-binding profile. This allows &krusader; to have the <trademark class=\"copyright\">Total Commander</trademark>, <application>Midnight Commander</application> or your custom Key-bindings. The only limitation is that global &plasma; key-bindings and some &krusader; key-bindings cannot be changed yet, as well as some features in other orthodox file managers that we either do not have or need. The Key-bindings are stored in <filename>/usr/share/krusader</filename>, <filename>foo.keymap.info</filename> contains a description, <filename>foo.keymap</filename> is an ini file that holds the Key-bindings. Until &krusader;-1.70.1 this was a binary file, &krusader; is backwards compatible for importing this legacy binary format. If a <filename>*.keymap.info</filename> text file exists, &krusader; will display it, showing additional information regarding the loaded Key-bindings file. Here you have a chance to exit without importing the proposed Key-bindings file."
+msgstr ""
+
+#. Tag: para
+#. +> stable6 stable5
 #: menu-commands.docbook:1746
 #, no-c-format
 msgid "With the <guibutton>Import shortcuts</guibutton> and <guibutton>Export shortcuts</guibutton> buttons you can load and save a Key-binding profile. This allows &krusader; to have the <trademark class=\"copyright\">Total Commander</trademark>, <application>Midnight Commander</application>, foo-commander, or your custom Key-bindings. The only limitation is that global &plasma; key-bindings and some &krusader; key-bindings cannot be changed yet, as well as some features in foo-commander that we either do not have or need. The Key-bindings are stored in <filename>/usr/share/krusader</filename>, <filename>foo.keymap.info</filename> contains a description, <filename>foo.keymap</filename> is an ini file that holds the Key-bindings. Until &krusader;-1.70.1 this was a binary file, &krusader; is backwards compatible for importing this legacy binary format. If a <filename>*.keymap.info</filename> text file exists, &krusader; will display it, showing additional information regarding the loaded Key-bindings file. Here you have a chance to exit without importing the proposed Key-bindings file."
@@ -1703,49 +1710,49 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6 stable5
-#: menu-commands.docbook:1770
+#: menu-commands.docbook:1771
 #, no-c-format
 msgid "A <trademark class=\"copyright\">Total Commander</trademark> Key-bindings file is provided. Please <link linkend=\"help_krusader\"> upload your favorite Key-bindings schemes</link> so that they become available for the &krusader; community. Thanks!"
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6 stable5
-#: menu-commands.docbook:1781
+#: menu-commands.docbook:1782
 #, no-c-format
 msgid "<guimenu>Settings</guimenu> <guimenuitem>Configure Toolbars...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6 stable5
-#: menu-commands.docbook:1787
+#: menu-commands.docbook:1788
 #, no-c-format
 msgid "Opens a dialog which allows you to configure the <link linkend=\"mainwindow\">Main Toolbar</link> or the <link linkend=\"actions_toolbar\">Actions Toolbar</link>. You can add action buttons of your favourite <link linkend=\"useractions\">UserActions</link> to the desired toolbar."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6 stable5
-#: menu-commands.docbook:1796
+#: menu-commands.docbook:1797
 #, no-c-format
 msgid "<guimenu>Settings</guimenu> <guimenuitem>Configure &krusader;...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6 stable5
-#: menu-commands.docbook:1803
+#: menu-commands.docbook:1804
 #, no-c-format
 msgid "Opens <link linkend=\"konfigurator\">Konfigurator</link> - the &krusader; configuration center."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6 stable5
-#: menu-commands.docbook:1811
+#: menu-commands.docbook:1812
 #, no-c-format
 msgid "Help Menu"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6 stable5
-#: menu-commands.docbook:1812
+#: menu-commands.docbook:1813
 #, no-c-format
 msgid "Additionally, &krusader; has the common &kde; <guimenu>Help</guimenu> menu items, for more information read the sections about the <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
 msgstr ""
