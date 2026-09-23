@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-22 23:02+0200\n"
+"POT-Creation-Date: 2026-09-23 08:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1610,14 +1610,20 @@ msgstr ""
 msgid "Find Action…"
 msgstr ""
 
-#. +> trunk6 trunk5
-#: kxmlguiwindow.cpp:568
+#. +> trunk6
+#: kxmlguiwindow.cpp:572
+#, kde-format
+msgid "There are two actions (%1, %2) that want to use the same shortcut (%3). This is most probably a bug. Please report it in <a href=\"%4\">%4</a>"
+msgstr ""
+
+#. +> trunk5
+#: kxmlguiwindow.cpp:535
 #, kde-format
 msgid "There are two actions (%1, %2) that want to use the same shortcut (%3). This is most probably a bug. Please report it in <a href='https://bugs.kde.org'>bugs.kde.org</a>"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kxmlguiwindow.cpp:573
+#: kxmlguiwindow.cpp:578
 #, kde-format
 msgid "Ambiguous Shortcuts"
 msgstr ""
