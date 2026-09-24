@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 10:35+0200\n"
+"POT-Creation-Date: 2026-09-24 09:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -149,13 +149,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5
-#: common/daverror.cpp:136
+#: common/daverror.cpp:136 common/daverror.cpp:148
 #, kde-format
 msgid "There was a problem with the request."
 msgstr ""
 
 #. +> trunk6
-#: common/daverror.cpp:140
+#: common/daverror.cpp:139
 #, kde-format
 msgid ""
 "There was a problem with the request. The item was not moved.\n"
@@ -163,7 +163,25 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5
-#: common/daverror.cpp:144
+#: common/daverror.cpp:142
 #, kde-format
 msgid "There was a problem with the request. The requested MIME types are not supported."
+msgstr ""
+
+#. +> trunk6
+#: common/daverror.cpp:145
+#, kde-format
+msgid "The server returned a malformed response payload."
+msgstr ""
+
+#. +> trunk6
+#: common/davitemssyncjob.cpp:210
+#, kde-format
+msgid "Invalid server response payload, response item missing HREF element"
+msgstr ""
+
+#. +> trunk6
+#: common/davitemssyncjob.cpp:240
+#, kde-format
+msgid "Invalid server response payload, response item missing PROPSTAT element"
 msgstr ""
