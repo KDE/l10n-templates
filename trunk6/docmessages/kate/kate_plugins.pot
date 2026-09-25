@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-16 00:57+0000\n"
+"POT-Creation-Date: 2026-09-25 00:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1316,8 +1316,8 @@ msgstr ""
 #. Tag: title
 #: plugins.docbook:552 plugins.docbook:871 plugins.docbook:913
 #: plugins.docbook:938 plugins.docbook:1377 plugins.docbook:1532
-#: plugins.docbook:1903 plugins.docbook:2659 plugins.docbook:4123
-#: plugins.docbook:4231
+#: plugins.docbook:1903 plugins.docbook:2672 plugins.docbook:4136
+#: plugins.docbook:4244
 #, no-c-format
 msgid "Configuration"
 msgstr ""
@@ -1364,8 +1364,8 @@ msgid "<firstname>Salma</firstname> <surname>Sultana</surname>"
 msgstr ""
 
 #. Tag: author
-#: plugins.docbook:578 plugins.docbook:1590 plugins.docbook:3076
-#: plugins.docbook:3425 plugins.docbook:3863
+#: plugins.docbook:578 plugins.docbook:1590 plugins.docbook:3089
+#: plugins.docbook:3438 plugins.docbook:3876
 #, no-c-format
 msgid "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
 msgstr ""
@@ -1380,8 +1380,8 @@ msgstr ""
 #: plugins.docbook:584 plugins.docbook:790 plugins.docbook:859
 #: plugins.docbook:907 plugins.docbook:923 plugins.docbook:1093
 #: plugins.docbook:1399 plugins.docbook:1596 plugins.docbook:2017
-#: plugins.docbook:3083 plugins.docbook:3431 plugins.docbook:3751
-#: plugins.docbook:3869
+#: plugins.docbook:3096 plugins.docbook:3444 plugins.docbook:3764
+#: plugins.docbook:3882
 #, no-c-format
 msgid "Introduction"
 msgstr ""
@@ -1622,10 +1622,10 @@ msgstr ""
 #. Tag: title
 #: plugins.docbook:707 plugins.docbook:823 plugins.docbook:1031
 #: plugins.docbook:1135 plugins.docbook:1180 plugins.docbook:1238
-#: plugins.docbook:1487 plugins.docbook:2330 plugins.docbook:3366
-#: plugins.docbook:3445 plugins.docbook:4012 plugins.docbook:4100
-#: plugins.docbook:4162 plugins.docbook:4301 plugins.docbook:4390
-#: plugins.docbook:4508
+#: plugins.docbook:1487 plugins.docbook:2343 plugins.docbook:3379
+#: plugins.docbook:3458 plugins.docbook:4025 plugins.docbook:4113
+#: plugins.docbook:4175 plugins.docbook:4314 plugins.docbook:4403
+#: plugins.docbook:4521
 #, no-c-format
 msgid "Menu Structure"
 msgstr ""
@@ -1754,8 +1754,8 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:778 plugins.docbook:1895 plugins.docbook:3733
-#: plugins.docbook:4065 plugins.docbook:4407 plugins.docbook:4557
+#: plugins.docbook:778 plugins.docbook:1895 plugins.docbook:3746
+#: plugins.docbook:4078 plugins.docbook:4420 plugins.docbook:4570
 #, no-c-format
 msgid "Thanks and Acknowledgments"
 msgstr ""
@@ -1789,7 +1789,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:797 plugins.docbook:4080
+#: plugins.docbook:797 plugins.docbook:4093
 #, no-c-format
 msgid "Using the Close Except/Like Plugin"
 msgstr ""
@@ -2149,7 +2149,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:1023 plugins.docbook:2231 plugins.docbook:2243
+#: plugins.docbook:1023 plugins.docbook:2244 plugins.docbook:2256
 #, no-c-format
 msgid ""
 "Select an item in the list to jump to the corresponding line in the source "
@@ -2326,7 +2326,7 @@ msgid "Toggle the display of &kate;'s Document preview in a sidebar."
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:1151 plugins.docbook:1255 plugins.docbook:3094
+#: plugins.docbook:1151 plugins.docbook:1255 plugins.docbook:3107
 #, no-c-format
 msgid "Interface"
 msgstr ""
@@ -3038,7 +3038,7 @@ msgid ""
 msgstr ""
 
 #. Tag: author
-#: plugins.docbook:1589 plugins.docbook:3424
+#: plugins.docbook:1589 plugins.docbook:3437
 #, no-c-format
 msgid "<firstname>Martin</firstname> <surname>Gergov</surname>"
 msgstr ""
@@ -3537,7 +3537,7 @@ msgid "The &gdb; Plugin's <guilabel>Locals</guilabel> tool view."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:1897 plugins.docbook:3735
+#: plugins.docbook:1897 plugins.docbook:3748
 #, no-c-format
 msgid ""
 "Special thanks to Google Code-In 2011 participant Martin Gergov for writing "
@@ -3644,7 +3644,7 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:1936 plugins.docbook:2892
+#: plugins.docbook:1936 plugins.docbook:2905
 #, no-c-format
 msgid "Execution environment setup"
 msgstr ""
@@ -4087,12 +4087,54 @@ msgstr ""
 #: plugins.docbook:2173
 #, no-c-format
 msgid ""
+"Git hosting mappings can also be configured for a project. A project mapping "
+"overrides a global mapping with the same host and port, while mappings for "
+"other hosts remain available as fallbacks:"
+msgstr ""
+
+#. Tag: screen
+#: plugins.docbook:2178
+#, no-c-format
+msgid ""
+"{\n"
+"  \"name\": \"Kate\",\n"
+"  \"files\": [\n"
+"    {\n"
+"      \"git\": 1\n"
+"    }\n"
+"  ],\n"
+"  \"git\": {\n"
+"    \"hostMappings\": [\n"
+"      {\n"
+"        \"host\": \"git.example.com:2222\",\n"
+"        \"provider\": \"Forgejo\",\n"
+"        \"webBaseUrl\": \"https://code.example.com\"\n"
+"      }\n"
+"    ]\n"
+"  }\n"
+"}"
+msgstr ""
+
+#. Tag: para
+#: plugins.docbook:2180
+#, no-c-format
+msgid ""
+"The <code>\"provider\"</code> value must be <code>\"Forgejo\"</code>, <code>"
+"\"GitHub\"</code>, or <code>\"GitLab\"</code>. The <code>\"host\"</code> may "
+"include the SSH port used by the Git remote, and <code>\"webBaseUrl\"</code> "
+"is the HTTP or HTTPS address used to open repository links."
+msgstr ""
+
+#. Tag: para
+#: plugins.docbook:2186
+#, no-c-format
+msgid ""
 "If you want to add support for the building, you can write a <filename>."
 "kateproject</filename> like this:"
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:2176
+#: plugins.docbook:2189
 #, no-c-format
 msgid ""
 "{\n"
@@ -4123,7 +4165,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2178
+#: plugins.docbook:2191
 #, no-c-format
 msgid ""
 "The targets specified above will then appear in the <link linkend=\"kate-"
@@ -4138,7 +4180,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2186
+#: plugins.docbook:2199
 #, no-c-format
 msgid ""
 "In case you have a <filename>.kateproject</filename> file tracked by a "
@@ -4149,13 +4191,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2199
+#: plugins.docbook:2212
 #, no-c-format
 msgid "<title>Current Project</title>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2201
+#: plugins.docbook:2214
 #, no-c-format
 msgid ""
 "Using <menuchoice><shortcut><keycombo action=\"simul\">&Alt;<keycap>1</"
@@ -4165,19 +4207,19 @@ msgid ""
 msgstr ""
 
 #. Tag: screeninfo
-#: plugins.docbook:2206
+#: plugins.docbook:2219
 #, no-c-format
 msgid "<screeninfo>Current Project</screeninfo>"
 msgstr ""
 
 #. Tag: guimenu
-#: plugins.docbook:2216
+#: plugins.docbook:2229
 #, no-c-format
 msgid "Terminal Panel"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2219
+#: plugins.docbook:2232
 #, no-c-format
 msgid ""
 "A <link linkend=\"kate-application-plugin-konsole\">Terminal emulator</link> "
@@ -4185,13 +4227,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenu
-#: plugins.docbook:2226
+#: plugins.docbook:2239
 #, no-c-format
 msgid "Code Index"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2229
+#: plugins.docbook:2242
 #, no-c-format
 msgid ""
 "Entering characters into the search bar will start the search and display "
@@ -4200,13 +4242,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenu
-#: plugins.docbook:2237
+#: plugins.docbook:2250
 #, no-c-format
 msgid "Code Analysis"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2240
+#: plugins.docbook:2253
 #, no-c-format
 msgid ""
 "Click <guilabel>Start Analysis</guilabel> to run a static code analysis for "
@@ -4216,13 +4258,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenu
-#: plugins.docbook:2249
+#: plugins.docbook:2262
 #, no-c-format
 msgid "Notes"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2252
+#: plugins.docbook:2265
 #, no-c-format
 msgid ""
 "Text entered in this tab will be saved in the file <filename>.kateproject."
@@ -4230,13 +4272,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2262
+#: plugins.docbook:2275
 #, no-c-format
 msgid "The Projects Menu"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2264
+#: plugins.docbook:2277
 #, no-c-format
 msgid ""
 "The <guimenu>Projects</guimenu> menu allows you to switch between currently "
@@ -4244,7 +4286,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2270
+#: plugins.docbook:2283
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;&Left;</keycombo> </"
@@ -4252,13 +4294,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2278
+#: plugins.docbook:2291
 #, no-c-format
 msgid "Switch to the previous project."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2283
+#: plugins.docbook:2296
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;&Right;</keycombo> </"
@@ -4266,13 +4308,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2291
+#: plugins.docbook:2304
 #, no-c-format
 msgid "Switch to the next project."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2296
+#: plugins.docbook:2309
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Alt;<keycap>1</keycap></keycombo> </"
@@ -4280,7 +4322,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2303
+#: plugins.docbook:2316
 #, no-c-format
 msgid ""
 "Open the <guilabel>Current Project</guilabel> view at the bottom of the "
@@ -4288,13 +4330,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2320
+#: plugins.docbook:2333
 #, no-c-format
 msgid "LSP Client Plugin"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2322
+#: plugins.docbook:2335
 #, no-c-format
 msgid ""
 "The LSP Client plugin provides many language features such as code "
@@ -4304,7 +4346,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2325
+#: plugins.docbook:2338
 #, no-c-format
 msgid ""
 "Once you have enabled the LSP Client in the plugin page, a new page called "
@@ -4312,7 +4354,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2332
+#: plugins.docbook:2345
 #, no-c-format
 msgid ""
 "If appropriate, a corresponding LSP command is also mentioned in the "
@@ -4324,76 +4366,76 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2344
+#: plugins.docbook:2357
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Go to Definition</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2349
+#: plugins.docbook:2362
 #, no-c-format
 msgid "[textDocument/definition] Go to current symbol definition."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2354
+#: plugins.docbook:2367
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Go to Declaration</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2359
+#: plugins.docbook:2372
 #, no-c-format
 msgid "[textDocument/declaration] Go to current symbol declaration."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2364
+#: plugins.docbook:2377
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Go to Type Definition</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2369
+#: plugins.docbook:2382
 #, no-c-format
 msgid "[textDocument/typeDefinition] Go to current symbol type definition."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2374
+#: plugins.docbook:2387
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Find References</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2379
+#: plugins.docbook:2392
 #, no-c-format
 msgid "[textDocument/references] Find references to current symbol."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2384
+#: plugins.docbook:2397
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Find Implementations</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2389
+#: plugins.docbook:2402
 #, no-c-format
 msgid "[textDocument/implementation] Find implementations of current symbol."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2394
+#: plugins.docbook:2407
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Highlight</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2399
+#: plugins.docbook:2412
 #, no-c-format
 msgid ""
 "[textDocument/documentHighlight] Highlight current symbol references in "
@@ -4401,25 +4443,25 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2404
+#: plugins.docbook:2417
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Hover</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2409
+#: plugins.docbook:2422
 #, no-c-format
 msgid "[textDocument/hover] Hover info for current symbol."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2414
+#: plugins.docbook:2427
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Format</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2419
+#: plugins.docbook:2432
 #, no-c-format
 msgid ""
 "[textDocument/formatting] [textDocument/rangeFormatting] Format the current "
@@ -4427,25 +4469,25 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2425
+#: plugins.docbook:2438
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Rename</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2430
+#: plugins.docbook:2443
 #, no-c-format
 msgid "[textDocument/rename] Rename current symbol."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2435
+#: plugins.docbook:2448
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Quick Fix</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2440
+#: plugins.docbook:2453
 #, no-c-format
 msgid ""
 "[textDocument/codeAction, workspace/executeCommand] Computes and applies a "
@@ -4453,7 +4495,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2446
+#: plugins.docbook:2459
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Show selected completion "
@@ -4461,13 +4503,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2451
+#: plugins.docbook:2464
 #, no-c-format
 msgid "Show documentation for a selected item in the completion list."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2456
+#: plugins.docbook:2469
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Enable signature help with auto "
@@ -4475,13 +4517,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2461
+#: plugins.docbook:2474
 #, no-c-format
 msgid "Also show signature help in the completion list."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2466
+#: plugins.docbook:2479
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Include declaration in references</"
@@ -4489,13 +4531,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2471
+#: plugins.docbook:2484
 #, no-c-format
 msgid "Request to include a symbol's declaration when requesting references."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2476
+#: plugins.docbook:2489
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Add parentheses upon function "
@@ -4503,20 +4545,20 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2481
+#: plugins.docbook:2494
 #, no-c-format
 msgid "Automatically add a pair of parentheses after completion of a function."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2486
+#: plugins.docbook:2499
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Show hover information</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2491
+#: plugins.docbook:2504
 #, no-c-format
 msgid ""
 "Show hover information upon (mouse cursor) hover. Regardless of this "
@@ -4524,13 +4566,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2498
+#: plugins.docbook:2511
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Format on typing</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2503
+#: plugins.docbook:2516
 #, no-c-format
 msgid ""
 "[document/onTypeFormatting] Format parts of document when typing certain "
@@ -4541,7 +4583,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2512
+#: plugins.docbook:2525
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Incremental document "
@@ -4549,7 +4591,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2517
+#: plugins.docbook:2530
 #, no-c-format
 msgid ""
 "Send partial document edits to update the server rather than whole document "
@@ -4557,7 +4599,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2522
+#: plugins.docbook:2535
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Highlight goto location</"
@@ -4565,7 +4607,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2527
+#: plugins.docbook:2540
 #, no-c-format
 msgid ""
 "Provide a transient visual cue after performing a goto to a location (of "
@@ -4573,7 +4615,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2532
+#: plugins.docbook:2545
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Show diagnostics notifications</"
@@ -4581,7 +4623,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2537
+#: plugins.docbook:2550
 #, no-c-format
 msgid ""
 "[textDocument/publishDiagnostics] Process and show diagnostics notifications "
@@ -4589,7 +4631,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2542
+#: plugins.docbook:2555
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Show diagnostics highlights</"
@@ -4597,26 +4639,26 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2547
+#: plugins.docbook:2560
 #, no-c-format
 msgid "Add text highlights for ranges indicated in diagnostics."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2552
+#: plugins.docbook:2565
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Show diagnostics marks</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2557
+#: plugins.docbook:2570
 #, no-c-format
 msgid "Add document marks for lines indicated in diagnostics."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2562
+#: plugins.docbook:2575
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Switch to diagnostic tab</"
@@ -4624,13 +4666,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2567
+#: plugins.docbook:2580
 #, no-c-format
 msgid "Switch to the diagnostic tab in the plugin toolview."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2572
+#: plugins.docbook:2585
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Close all non-diagnostics tabs</"
@@ -4638,26 +4680,26 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2577
+#: plugins.docbook:2590
 #, no-c-format
 msgid "Close all non-diagnostics (&eg; references) tabs in plugin toolview."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2582
+#: plugins.docbook:2595
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Restart LSP Server</guisubmenu>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2587
+#: plugins.docbook:2600
 #, no-c-format
 msgid "Restart current document's LSP Server."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:2592
+#: plugins.docbook:2605
 #, no-c-format
 msgid ""
 "<guimenu>LSP Client</guimenu> <guisubmenu>Restart all LSP Servers</"
@@ -4665,19 +4707,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2597
+#: plugins.docbook:2610
 #, no-c-format
 msgid "Stop all LSP Servers which will then be (re)started as needed."
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2606
+#: plugins.docbook:2619
 #, no-c-format
 msgid "Goto Symbol support"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2607
+#: plugins.docbook:2620
 #, no-c-format
 msgid ""
 "LSP Client can help you jump to any symbol in your project or current file. "
@@ -4687,13 +4729,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2616
+#: plugins.docbook:2629
 #, no-c-format
 msgid "Configuring LSP Client Symbol Outline"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2618
+#: plugins.docbook:2631
 #, no-c-format
 msgid ""
 "By default the symbols are sorted by their occurrence in the document but "
@@ -4702,7 +4744,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2624
+#: plugins.docbook:2637
 #, no-c-format
 msgid ""
 "The toolview shows the symbols in tree mode by default, however you can "
@@ -4710,13 +4752,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2631
+#: plugins.docbook:2644
 #, no-c-format
 msgid "Global Goto symbol support"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2632
+#: plugins.docbook:2645
 #, no-c-format
 msgid ""
 "To jump to any symbol in your project, you can open the goto symbol dialog "
@@ -4728,13 +4770,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2644
+#: plugins.docbook:2657
 #, no-c-format
 msgid "Other Features"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2646
+#: plugins.docbook:2659
 #, no-c-format
 msgid ""
 "Clangd switch source header command is supported. To switch source header in "
@@ -4744,7 +4786,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2651
+#: plugins.docbook:2664
 #, no-c-format
 msgid ""
 "You can jump to a symbol quickly by putting your mouse over the symbol and "
@@ -4753,7 +4795,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2661
+#: plugins.docbook:2674
 #, no-c-format
 msgid ""
 "The plugin's configuration page mostly allows for persistent configuration "
@@ -4766,7 +4808,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:2671
+#: plugins.docbook:2684
 #, no-c-format
 msgid ""
 "{\n"
@@ -4844,7 +4886,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2673
+#: plugins.docbook:2686
 #, no-c-format
 msgid ""
 "Note that each \"command\" may be an array or a string (in which case it is "
@@ -4859,7 +4901,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2684
+#: plugins.docbook:2697
 #, no-c-format
 msgid ""
 "All of the entries in \"command\", \"root\" and \"path\" are subject to "
@@ -4867,7 +4909,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2688
+#: plugins.docbook:2701
 #, no-c-format
 msgid ""
 "The \"highlightingModeRegex\" is used to map the highlighting mode as used "
@@ -4879,7 +4921,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2697
+#: plugins.docbook:2710
 #, no-c-format
 msgid ""
 "From the above example, the gist is presumably clear. In addition, each "
@@ -4894,13 +4936,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2709
+#: plugins.docbook:2722
 #, no-c-format
 msgid "Various stages of override/merge are applied;"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2713
+#: plugins.docbook:2726
 #, no-c-format
 msgid ""
 "user configuration (loaded from file) overrides (internal) default "
@@ -4908,7 +4950,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2716
+#: plugins.docbook:2729
 #, no-c-format
 msgid ""
 "\"lspclient\" entry in <filename>.kateproject</filename> project "
@@ -4916,7 +4958,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2719
+#: plugins.docbook:2732
 #, no-c-format
 msgid ""
 "the resulting \"global\" entry is used to supplement (not override) any "
@@ -4924,7 +4966,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2724
+#: plugins.docbook:2737
 #, no-c-format
 msgid ""
 "One server instance is used per (root, servertype) combination. If \"root\" "
@@ -4943,7 +4985,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2738
+#: plugins.docbook:2751
 #, no-c-format
 msgid ""
 "In general, it is recommended to leave root unspecified, as it is not that "
@@ -4953,7 +4995,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2745
+#: plugins.docbook:2758
 #, no-c-format
 msgid ""
 "As mentioned above, several entries are subject to variable expansion. A "
@@ -4968,7 +5010,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:2755
+#: plugins.docbook:2768
 #, no-c-format
 msgid ""
 "{\n"
@@ -4985,7 +5027,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2756
+#: plugins.docbook:2769
 #, no-c-format
 msgid ""
 "The root entry above is relative to the project directory and ensures that a "
@@ -4994,7 +5036,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2761
+#: plugins.docbook:2774
 #, no-c-format
 msgid ""
 "<filename>pylsp_in_env</filename> is a small \"wrapper script\" that should "
@@ -5003,7 +5045,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:2765
+#: plugins.docbook:2778
 #, no-c-format
 msgid ""
 "#!/bin/bash\n"
@@ -5017,7 +5059,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2766
+#: plugins.docbook:2779
 #, no-c-format
 msgid ""
 "This is but one example of a more general pattern which may be handled a bit "
@@ -5026,13 +5068,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2773
+#: plugins.docbook:2786
 #, no-c-format
 msgid "LSP Server Configuration"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2775
+#: plugins.docbook:2788
 #, no-c-format
 msgid ""
 "Each particular LSP server has its own way of customization and may use "
@@ -5048,7 +5090,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2790
+#: plugins.docbook:2803
 #, no-c-format
 msgid ""
 "Since various level of override/merge are applied, the following example of "
@@ -5057,7 +5099,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:2796
+#: plugins.docbook:2809
 #, no-c-format
 msgid ""
 "{\n"
@@ -5078,7 +5120,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2798
+#: plugins.docbook:2811
 #, no-c-format
 msgid ""
 "Unfortunately, LSP server configuration/customization is often not so well "
@@ -5092,26 +5134,26 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2812
+#: plugins.docbook:2825
 #, no-c-format
 msgid "LSP Server Format On Save"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2814
+#: plugins.docbook:2827
 #, no-c-format
 msgid ""
 "You can enable \"format on save\" from LSP settings in configure dialog."
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2821
+#: plugins.docbook:2834
 #, no-c-format
 msgid "LSP Server Diagnostic Suppression"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2823
+#: plugins.docbook:2836
 #, no-c-format
 msgid ""
 "It may happen that diagnostics are reported which are not quite useful. This "
@@ -5125,7 +5167,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2833
+#: plugins.docbook:2846
 #, no-c-format
 msgid ""
 "As such, the plugin supports diagnostics suppression similar to e.g. "
@@ -5134,7 +5176,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:2839
+#: plugins.docbook:2852
 #, no-c-format
 msgid ""
 "{\n"
@@ -5151,7 +5193,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2841
+#: plugins.docbook:2854
 #, no-c-format
 msgid ""
 "Each (valid) rule has an arbitrary name and is defined by an array of length "
@@ -5161,7 +5203,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2848
+#: plugins.docbook:2861
 #, no-c-format
 msgid ""
 "In addition to the above fine-grained configuration, the context menu in the "
@@ -5172,13 +5214,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:2858
+#: plugins.docbook:2871
 #, no-c-format
 msgid "LSP Server Troubleshooting"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2860
+#: plugins.docbook:2873
 #, no-c-format
 msgid ""
 "It is one thing to describe how to configure a (custom) LSP server for any "
@@ -5193,7 +5235,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2872
+#: plugins.docbook:2885
 #, no-c-format
 msgid ""
 "The usual way to diagnose this is to add some flag(s) to the startup command "
@@ -5204,7 +5246,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2880
+#: plugins.docbook:2893
 #, no-c-format
 msgid ""
 "It may also be informative to examine the protocol exchange between &kate;'s "
@@ -5215,7 +5257,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2894
+#: plugins.docbook:2907
 #, no-c-format
 msgid ""
 "The python virtualenv example above is but one example of an \"execution "
@@ -5231,7 +5273,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2907
+#: plugins.docbook:2920
 #, no-c-format
 msgid ""
 "In particular, as in the previous virtualenv example, one may choose/need to "
@@ -5246,7 +5288,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2919
+#: plugins.docbook:2932
 #, no-c-format
 msgid ""
 "For example, the following can be specified in a <literal>.kateproject</"
@@ -5255,7 +5297,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:2924
+#: plugins.docbook:2937
 #, no-c-format
 msgid ""
 "{\n"
@@ -5295,7 +5337,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2926
+#: plugins.docbook:2939
 #, no-c-format
 msgid ""
 "So, what happens as a result of the above? As mentioned, the "
@@ -5317,7 +5359,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2945
+#: plugins.docbook:2958
 #, no-c-format
 msgid ""
 "However, the LSP server may now observe different (remote) paths than the "
@@ -5339,7 +5381,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2964
+#: plugins.docbook:2977
 #, no-c-format
 msgid ""
 "It is now easily seen that a simplified version of above configuration "
@@ -5349,14 +5391,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2971
+#: plugins.docbook:2984
 #, no-c-format
 msgid ""
 "The following may not be so easily seen, so it is mentioned here explicitly."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2976
+#: plugins.docbook:2989
 #, no-c-format
 msgid ""
 "Both a <literal>hostname</literal> and the actual <literal>prefix</literal> "
@@ -5367,7 +5409,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2985
+#: plugins.docbook:2998
 #, no-c-format
 msgid ""
 "Both <literal>prefix</literal> and <literal>pathMappings</literal> are "
@@ -5375,7 +5417,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:2991
+#: plugins.docbook:3004
 #, no-c-format
 msgid ""
 "At runtime, some environment variables are also set, which may be used to "
@@ -5386,7 +5428,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3000
+#: plugins.docbook:3013
 #, no-c-format
 msgid ""
 "In particular, also <literal>KATE_EXEC_INSPECT</literal> is set to "
@@ -5402,7 +5444,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:3010
+#: plugins.docbook:3023
 #, no-c-format
 msgid ""
 "{\n"
@@ -5421,7 +5463,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3015
+#: plugins.docbook:3028
 #, no-c-format
 msgid ""
 "Last but not least, what if the \"fallback KIO\" approach is not considered "
@@ -5451,13 +5493,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3080
+#: plugins.docbook:3093
 #, no-c-format
 msgid "Search &amp; Replace"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3084
+#: plugins.docbook:3097
 #, no-c-format
 msgid ""
 "&kate;'s Search &amp; Replace plugin allows you to search for text or <ulink "
@@ -5469,13 +5511,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3097
+#: plugins.docbook:3110
 #, no-c-format
 msgid "Search Query"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3099
+#: plugins.docbook:3112
 #, no-c-format
 msgid ""
 "The following options are always displayed at the top of the Search in Files "
@@ -5483,7 +5525,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3107
+#: plugins.docbook:3120
 #, no-c-format
 msgid ""
 "You can have as many searches as you want open at the same time. Simply "
@@ -5492,7 +5534,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3118
+#: plugins.docbook:3131
 #, no-c-format
 msgid ""
 "The button in the top right-corner of the Search in Files tool view will "
@@ -5501,13 +5543,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3126
+#: plugins.docbook:3139
 #, no-c-format
 msgid "Find"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3127
+#: plugins.docbook:3140
 #, no-c-format
 msgid ""
 "This is where you type in what you want to find. You may enter standard "
@@ -5515,13 +5557,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:3134
+#: plugins.docbook:3147
 #, no-c-format
 msgid "<guilabel>Replace</guilabel> (text box)"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3135
+#: plugins.docbook:3148
 #, no-c-format
 msgid ""
 "Replacement text that will be added to file(s) in place of the text in the "
@@ -5529,13 +5571,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: plugins.docbook:3142
+#: plugins.docbook:3155
 #, no-c-format
 msgid "Search"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3143
+#: plugins.docbook:3156
 #, no-c-format
 msgid ""
 "When you've finished configuring everything, just press the "
@@ -5548,13 +5590,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: plugins.docbook:3155
+#: plugins.docbook:3168
 #, no-c-format
 msgid "Replace"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3156
+#: plugins.docbook:3169
 #, no-c-format
 msgid ""
 "When you've finished configuring everything, just press the "
@@ -5565,26 +5607,26 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: plugins.docbook:3166
+#: plugins.docbook:3179
 #, no-c-format
 msgid "Next"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3167
+#: plugins.docbook:3180
 #, no-c-format
 msgid ""
 "Go to the next match of your search query, switching files if necessary."
 msgstr ""
 
 #. Tag: guibutton
-#: plugins.docbook:3173
+#: plugins.docbook:3186
 #, no-c-format
 msgid "Replace Checked"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3174
+#: plugins.docbook:3187
 #, no-c-format
 msgid ""
 "The same as <guibutton>Replace</guibutton>, but will only perform "
@@ -5592,13 +5634,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3184
+#: plugins.docbook:3197
 #, no-c-format
 msgid "Search in Folder Options"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3186
+#: plugins.docbook:3199
 #, no-c-format
 msgid ""
 "These options are displayed below the aforementioned query options. If "
@@ -5609,13 +5651,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3194
+#: plugins.docbook:3207
 #, no-c-format
 msgid "Search in"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3195
+#: plugins.docbook:3208
 #, no-c-format
 msgid ""
 "This has three options. Select <guilabel>Open Files</guilabel> to search all "
@@ -5625,7 +5667,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3201
+#: plugins.docbook:3214
 #, no-c-format
 msgid ""
 "If the <guilabel>Projects</guilabel> plugin is loaded, you can also search "
@@ -5634,13 +5676,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3208
+#: plugins.docbook:3221
 #, no-c-format
 msgid "Match case"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3209
+#: plugins.docbook:3222
 #, no-c-format
 msgid ""
 "Restricts search results to only those that have the exact same combination "
@@ -5648,13 +5690,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3216
+#: plugins.docbook:3229
 #, no-c-format
 msgid "Regular expressions"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3217
+#: plugins.docbook:3230
 #, no-c-format
 msgid ""
 "Permits you to use <ulink url=\"help:/katepart/regular-expressions.html"
@@ -5662,13 +5704,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3224
+#: plugins.docbook:3237
 #, no-c-format
 msgid "Expand results"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3225
+#: plugins.docbook:3238
 #, no-c-format
 msgid ""
 "Display all the results found in each file, instead of just a list of files "
@@ -5676,13 +5718,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3232
+#: plugins.docbook:3245
 #, no-c-format
 msgid "Folder"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3233
+#: plugins.docbook:3246
 #, no-c-format
 msgid ""
 "You may enter the path of the folder you wish to search. For instance, you "
@@ -5692,13 +5734,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guiicon
-#: plugins.docbook:3242
+#: plugins.docbook:3255
 #, no-c-format
 msgid "Open file dialog"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3243
+#: plugins.docbook:3256
 #, no-c-format
 msgid ""
 "Press this button to locate the folder in your desktop's folder browser. "
@@ -5706,7 +5748,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3252
+#: plugins.docbook:3265
 #, no-c-format
 msgid ""
 "Press this button to change <guilabel>Folder</guilabel> to the parent of the "
@@ -5715,7 +5757,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3262
+#: plugins.docbook:3275
 #, no-c-format
 msgid ""
 "This button will set the <guilabel>Folder</guilabel> entry to the folder in "
@@ -5724,13 +5766,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3270
+#: plugins.docbook:3283
 #, no-c-format
 msgid "Filter"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3271
+#: plugins.docbook:3284
 #, no-c-format
 msgid ""
 "This permits you to only search filenames that match a particular pattern. "
@@ -5742,13 +5784,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3282
+#: plugins.docbook:3295
 #, no-c-format
 msgid "Exclude"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3283
+#: plugins.docbook:3296
 #, no-c-format
 msgid ""
 "The opposite of <guilabel>Filter</guilabel>, this prevents &kate; from "
@@ -5759,13 +5801,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3293
+#: plugins.docbook:3306
 #, no-c-format
 msgid "Recursive"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3294
+#: plugins.docbook:3307
 #, no-c-format
 msgid ""
 "If this option is enabled, &kate; will also search in all subfolders of the "
@@ -5774,13 +5816,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3302
+#: plugins.docbook:3315
 #, no-c-format
 msgid "Include hidden"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3303
+#: plugins.docbook:3316
 #, no-c-format
 msgid ""
 "If this option is enabled, &kate; will also search in files or folders that "
@@ -5789,13 +5831,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3311
+#: plugins.docbook:3324
 #, no-c-format
 msgid "Follow symbolic links"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3312
+#: plugins.docbook:3325
 #, no-c-format
 msgid ""
 "The Search in Files plugin typically does not follow <ulink url=\"https://en."
@@ -5806,7 +5848,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3319
+#: plugins.docbook:3332
 #, no-c-format
 msgid ""
 "It's possible for symbolic links to reference a folder that is the parent of "
@@ -5817,13 +5859,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3328
+#: plugins.docbook:3341
 #, no-c-format
 msgid "Include binary files"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3329
+#: plugins.docbook:3342
 #, no-c-format
 msgid ""
 "If enabled, &kate; will also search in files that do not appear to be text "
@@ -5831,13 +5873,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3339
+#: plugins.docbook:3352
 #, no-c-format
 msgid "Search Results"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3341
+#: plugins.docbook:3354
 #, no-c-format
 msgid ""
 "The results of your search are displayed below the query options. If options "
@@ -5849,7 +5891,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3348
+#: plugins.docbook:3361
 #, no-c-format
 msgid ""
 "The search results display a list of files that contains text that matches "
@@ -5857,7 +5899,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3351
+#: plugins.docbook:3364
 #, no-c-format
 msgid ""
 "To see a list of matches in that file, simply click the expansion arrow to "
@@ -5868,7 +5910,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3357
+#: plugins.docbook:3370
 #, no-c-format
 msgid ""
 "To open the file your result was found in, simply double-click it. &kate; "
@@ -5878,7 +5920,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:3371
+#: plugins.docbook:3384
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>F</keycap></"
@@ -5887,32 +5929,32 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3379
+#: plugins.docbook:3392
 #, no-c-format
 msgid "Launches the Search and Replace tool view."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:3384
+#: plugins.docbook:3397
 #, no-c-format
 msgid "<guimenu>Edit</guimenu> <guimenuitem>Go to Next Match</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3389
+#: plugins.docbook:3402
 #, no-c-format
 msgid ""
 "Go to the next match in a search performed by the Search and Replace plugin."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:3395
+#: plugins.docbook:3408
 #, no-c-format
 msgid "<guimenu>Edit</guimenu> <guimenuitem>Go to Previous Match</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3400
+#: plugins.docbook:3413
 #, no-c-format
 msgid ""
 "Go to the previous match in a search performed by the Search and Replace "
@@ -5920,7 +5962,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:3406
+#: plugins.docbook:3419
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show "
@@ -5928,20 +5970,20 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3411
+#: plugins.docbook:3424
 #, no-c-format
 msgid ""
 "Toggle the display of &kate;'s <guilabel>Search and Replace</guilabel> tool."
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3428
+#: plugins.docbook:3441
 #, no-c-format
 msgid "&kate; Scripts &amp; Snippets"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3432
+#: plugins.docbook:3445
 #, no-c-format
 msgid ""
 "The &kate; Scripts &amp; Snippets plugin allows you to add, and manage your "
@@ -5952,7 +5994,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3436
+#: plugins.docbook:3449
 #, no-c-format
 msgid ""
 "For the most part, these types of content are managed in exactly the same "
@@ -5962,7 +6004,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3439
+#: plugins.docbook:3452
 #, no-c-format
 msgid ""
 "The plugin also supports assigning keyboard shortcuts, and inserting "
@@ -5971,7 +6013,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:3449
+#: plugins.docbook:3462
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show "
@@ -5979,7 +6021,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3451
+#: plugins.docbook:3464
 #, no-c-format
 msgid ""
 "Shows snippets panel containing all snippets in your repository that are for "
@@ -5987,13 +6029,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:3456
+#: plugins.docbook:3469
 #, no-c-format
 msgid "<guimenu>Tools</guimenu> <guimenuitem>Create Snippet</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3461
+#: plugins.docbook:3474
 #, no-c-format
 msgid ""
 "Create a new snippet, which is a reusable chunk of text you may insert in "
@@ -6001,31 +6043,31 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3471
+#: plugins.docbook:3484
 #, no-c-format
 msgid "Snippets panel"
 msgstr ""
 
 #. Tag: screeninfo
-#: plugins.docbook:3474
+#: plugins.docbook:3487
 #, no-c-format
 msgid "&kate; Snippets Panel"
 msgstr ""
 
 #. Tag: phrase
-#: plugins.docbook:3477
+#: plugins.docbook:3490
 #, no-c-format
 msgid "The &kate; snippets panel."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3478
+#: plugins.docbook:3491
 #, no-c-format
 msgid "The panel for &kate; Snippets."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3482
+#: plugins.docbook:3495
 #, no-c-format
 msgid ""
 "In the panel you should see a list of snippet repositories, along with "
@@ -6036,13 +6078,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3489
+#: plugins.docbook:3502
 #, no-c-format
 msgid "Loading Snippet Repository Files"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3490
+#: plugins.docbook:3503
 #, no-c-format
 msgid ""
 "You can download snippet repositories from the Internet. Just click "
@@ -6052,13 +6094,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3501
+#: plugins.docbook:3514
 #, no-c-format
 msgid "Creating and Editing Repositories"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3503
+#: plugins.docbook:3516
 #, no-c-format
 msgid ""
 "To create a new snippet repository, click <guibutton>Add Repository</"
@@ -6068,37 +6110,37 @@ msgid ""
 msgstr ""
 
 #. Tag: screeninfo
-#: plugins.docbook:3508 plugins.docbook:3558
+#: plugins.docbook:3521 plugins.docbook:3571
 #, no-c-format
 msgid "Snippet Editor"
 msgstr ""
 
 #. Tag: phrase
-#: plugins.docbook:3511
+#: plugins.docbook:3524
 #, no-c-format
 msgid "The repository editor."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3512
+#: plugins.docbook:3525
 #, no-c-format
 msgid "The repository editor interface."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3516
+#: plugins.docbook:3529
 #, no-c-format
 msgid "The snippet repository editor contains the following options:"
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3521 plugins.docbook:3569
+#: plugins.docbook:3534 plugins.docbook:3582
 #, no-c-format
 msgid "Name"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3522
+#: plugins.docbook:3535
 #, no-c-format
 msgid ""
 "Appears in the list of snippets in the tool view and is also searched when "
@@ -6106,49 +6148,49 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3527
+#: plugins.docbook:3540
 #, no-c-format
 msgid "Namespace"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3528
+#: plugins.docbook:3541
 #, no-c-format
 msgid "Prefix used while using code completion."
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3532
+#: plugins.docbook:3545
 #, no-c-format
 msgid "License"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3533
+#: plugins.docbook:3546
 #, no-c-format
 msgid "Select the license for you snippet repository."
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3537
+#: plugins.docbook:3550
 #, no-c-format
 msgid "Authors"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3538
+#: plugins.docbook:3551
 #, no-c-format
 msgid "Enter the name(s) of the author(s) of the snippet file."
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3542
+#: plugins.docbook:3555
 #, no-c-format
 msgid "File types"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3543
+#: plugins.docbook:3556
 #, no-c-format
 msgid ""
 "Select the file type(s) you want the snippet repository to apply to. It is "
@@ -6159,25 +6201,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3555
+#: plugins.docbook:3568
 #, no-c-format
 msgid "Creating and Editing Snippets"
 msgstr ""
 
 #. Tag: phrase
-#: plugins.docbook:3561
+#: plugins.docbook:3574
 #, no-c-format
 msgid "The snippet editor."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3562
+#: plugins.docbook:3575
 #, no-c-format
 msgid "The snippet editor interface."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3570
+#: plugins.docbook:3583
 #, no-c-format
 msgid ""
 "The name as shown in the list of snippets, and in the completion list "
@@ -6185,13 +6227,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3574
+#: plugins.docbook:3587
 #, no-c-format
 msgid "Type"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3575
+#: plugins.docbook:3588
 #, no-c-format
 msgid ""
 "Snippets may either be defined as text templates or scripts. Both types "
@@ -6203,7 +6245,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3579
+#: plugins.docbook:3592
 #, no-c-format
 msgid ""
 "Kate needs to be compiled against KTextEditor version 6.15.0 or higher, for "
@@ -6212,13 +6254,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:3583
+#: plugins.docbook:3596
 #, no-c-format
 msgid "Shortcut"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3584
+#: plugins.docbook:3597
 #, no-c-format
 msgid ""
 "Pressing this shortcut will insert (or run) the snippet into the current "
@@ -6226,20 +6268,20 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:3588
+#: plugins.docbook:3601
 #, no-c-format
 msgid ""
 "<guilabel>Snippet</guilabel> (type <userinput>Text Template</userinput>)"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3589
+#: plugins.docbook:3602
 #, no-c-format
 msgid "The text your snippet will insert into the document."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3590
+#: plugins.docbook:3603
 #, no-c-format
 msgid ""
 "A snippet can contain editable fields. They can be cycled by pressing &Tab;. "
@@ -6247,7 +6289,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3593
+#: plugins.docbook:3606
 #, no-c-format
 msgid ""
 "<userinput>${<replaceable>field_name</replaceable>}</userinput> creates a "
@@ -6257,7 +6299,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3599
+#: plugins.docbook:3612
 #, no-c-format
 msgid ""
 "Field names may contain any character except for the closing curly bracket "
@@ -6265,7 +6307,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3600
+#: plugins.docbook:3613
 #, no-c-format
 msgid ""
 "To insert <userinput>${text}</userinput> literally in a snippet, escape the "
@@ -6276,7 +6318,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3606
+#: plugins.docbook:3619
 #, no-c-format
 msgid ""
 "<userinput>${func(<replaceable>other_field1</replaceable>, "
@@ -6287,7 +6329,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3612
+#: plugins.docbook:3625
 #, no-c-format
 msgid ""
 "<userinput>${<replaceable>field_name=default</replaceable>}</userinput> sets "
@@ -6298,7 +6340,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3618
+#: plugins.docbook:3631
 #, no-c-format
 msgid ""
 "When using default values (<userinput>${<replaceable>field_name=default</"
@@ -6308,7 +6350,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3621
+#: plugins.docbook:3634
 #, no-c-format
 msgid ""
 "You can reference other fields in default values if they are defined before "
@@ -6317,14 +6359,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3623
+#: plugins.docbook:3636
 #, no-c-format
 msgid ""
 "If no custom default value is defined, the default value is a field's name."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3626
+#: plugins.docbook:3639
 #, no-c-format
 msgid ""
 "<userinput>${cursor}</userinput> marks the end position of the cursor after "
@@ -6334,19 +6376,19 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:3633
+#: plugins.docbook:3646
 #, no-c-format
 msgid "<guilabel>Snippet</guilabel> (type <userinput>Script</userinput>)"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3634
+#: plugins.docbook:3647
 #, no-c-format
 msgid "The &javascript; code to evaluate for this snippet"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3635
+#: plugins.docbook:3648
 #, no-c-format
 msgid ""
 "If this code contains a <userinput>return</userinput> statement, the "
@@ -6356,7 +6398,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3638
+#: plugins.docbook:3651
 #, no-c-format
 msgid ""
 "Additionally, your code may use functions defined in the <link linkend="
@@ -6365,13 +6407,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3645
+#: plugins.docbook:3658
 #, no-c-format
 msgid "Script Library"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3646
+#: plugins.docbook:3659
 #, no-c-format
 msgid ""
 "&javascript; helper functions to use in your snippets. These functions are "
@@ -6379,7 +6421,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3647
+#: plugins.docbook:3660
 #, no-c-format
 msgid ""
 "You can use the <ulink url=\"help:/katepart/dev-scripting.html#dev-scripting-"
@@ -6390,7 +6432,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3651
+#: plugins.docbook:3664
 #, no-c-format
 msgid ""
 "When a function is called in a field of a <userinput>Text Template</"
@@ -6399,13 +6441,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3655
+#: plugins.docbook:3668
 #, no-c-format
 msgid "Using functions in <userinput>Text Template</userinput> snippets:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3657
+#: plugins.docbook:3670
 #, no-c-format
 msgid ""
 "Functions can access the up-to-date contents of all fields through the "
@@ -6416,7 +6458,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3660
+#: plugins.docbook:3673
 #, no-c-format
 msgid ""
 "Fields can be passed as arguments to functions. The field name can be used "
@@ -6427,7 +6469,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3664
+#: plugins.docbook:3677
 #, no-c-format
 msgid ""
 "Function fields (e.g. <userinput>${func()}</userinput>) are re-evaluated "
@@ -6437,7 +6479,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3667
+#: plugins.docbook:3680
 #, no-c-format
 msgid ""
 "For more complex scripts it may be important to understand that "
@@ -6450,7 +6492,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3673
+#: plugins.docbook:3686
 #, no-c-format
 msgid ""
 "To simply wrap the currently selected text into tags, use: <userinput>&lt;"
@@ -6458,7 +6500,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3674
+#: plugins.docbook:3687
 #, no-c-format
 msgid ""
 "Remember that only the <emphasis>return value</emphasis> of a function is "
@@ -6466,13 +6508,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3682
+#: plugins.docbook:3695
 #, no-c-format
 msgid "Description"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3683
+#: plugins.docbook:3696
 #, no-c-format
 msgid ""
 "An optional description of what this snippet does. This will be shown in "
@@ -6480,13 +6522,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:3688
+#: plugins.docbook:3701
 #, no-c-format
 msgid "Usage example"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3689
+#: plugins.docbook:3702
 #, no-c-format
 msgid ""
 "The following example invokes a script that wraps the selected text, or - if "
@@ -6495,7 +6537,7 @@ msgid ""
 msgstr ""
 
 #. Tag: programlisting
-#: plugins.docbook:3692
+#: plugins.docbook:3705
 #, no-c-format
 msgid ""
 "let range = view.hasSelection() ? view.selection() : new Range(view."
@@ -6507,49 +6549,49 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3703
+#: plugins.docbook:3716
 #, no-c-format
 msgid "Using Snippets"
 msgstr ""
 
 #. Tag: screeninfo
-#: plugins.docbook:3706
+#: plugins.docbook:3719
 #, no-c-format
 msgid "&kate; Snippets in Action"
 msgstr ""
 
 #. Tag: phrase
-#: plugins.docbook:3709
+#: plugins.docbook:3722
 #, no-c-format
 msgid "Accessing &kate; Snippets from a tool view and a drop down menu."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3710
+#: plugins.docbook:3723
 #, no-c-format
 msgid "Selecting from a list of snippets."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3714
+#: plugins.docbook:3727
 #, no-c-format
 msgid "You can call snippets in several ways:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3717
+#: plugins.docbook:3730
 #, no-c-format
 msgid "By clicking on the snippet from the tool view."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3718
+#: plugins.docbook:3731
 #, no-c-format
 msgid "Using a keyboard shortcut, if you have assigned one."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3719
+#: plugins.docbook:3732
 #, no-c-format
 msgid ""
 "While writing, you can press <keycombo action=\"simul\">&Ctrl; &Space;</"
@@ -6559,7 +6601,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3725
+#: plugins.docbook:3738
 #, no-c-format
 msgid ""
 "If the snippet contains variables (besides <literal>${cursor}</literal>) the "
@@ -6569,13 +6611,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3734
+#: plugins.docbook:3747
 #, no-c-format
 msgid "&kate; Snippets was written by Joseph Wenninger."
 msgstr ""
 
 #. Tag: author
-#: plugins.docbook:3745
+#: plugins.docbook:3758
 #, no-c-format
 msgid ""
 "<firstname>Pablo</firstname> <surname>Rauzy</surname> <email>r .at. uzy.me</"
@@ -6583,31 +6625,31 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3748
+#: plugins.docbook:3761
 #, no-c-format
 msgid "Keyboard Macros Plugin"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3752
+#: plugins.docbook:3765
 #, no-c-format
 msgid "Record and play keyboard macros (i.e., keyboard action sequences)."
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3756
+#: plugins.docbook:3769
 #, no-c-format
 msgid "Basic usage"
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3759
+#: plugins.docbook:3772
 #, no-c-format
 msgid "To start recording a keyboard macro:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3760
+#: plugins.docbook:3773
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -6616,19 +6658,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3764
+#: plugins.docbook:3777
 #, no-c-format
 msgid "The plugin will record every key presses until you end recording."
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3768
+#: plugins.docbook:3781
 #, no-c-format
 msgid "To end recording:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3769
+#: plugins.docbook:3782
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -6637,7 +6679,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3773
+#: plugins.docbook:3786
 #, no-c-format
 msgid ""
 "The plugin will stop recording key presses and save the sequence as the "
@@ -6645,13 +6687,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3777
+#: plugins.docbook:3790
 #, no-c-format
 msgid "To cancel recording:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3778
+#: plugins.docbook:3791
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -6660,7 +6702,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3782
+#: plugins.docbook:3795
 #, no-c-format
 msgid ""
 "The plugin will stop recording key presses but the current macro won't "
@@ -6668,13 +6710,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3786
+#: plugins.docbook:3799
 #, no-c-format
 msgid "To play the current macro:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3787
+#: plugins.docbook:3800
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -6683,13 +6725,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3791
+#: plugins.docbook:3804
 #, no-c-format
 msgid "The plugin will play the current macro."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3792
+#: plugins.docbook:3805
 #, no-c-format
 msgid ""
 "The <userinput>kmplay</userinput> command without any arguments will also "
@@ -6697,19 +6739,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3798
+#: plugins.docbook:3811
 #, no-c-format
 msgid "Named macros"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3800
+#: plugins.docbook:3813
 #, no-c-format
 msgid "It is possible to save keyboard macros by giving them a name."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3801
+#: plugins.docbook:3814
 #, no-c-format
 msgid ""
 "Named macros are persistent between Kate's sessions, they're saved in the "
@@ -6718,13 +6760,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3804
+#: plugins.docbook:3817
 #, no-c-format
 msgid "To save the current macro:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3805
+#: plugins.docbook:3818
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -6733,13 +6775,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3809
+#: plugins.docbook:3822
 #, no-c-format
 msgid "The plugin will prompt you for a name and save the macro under it."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3810
+#: plugins.docbook:3823
 #, no-c-format
 msgid ""
 "The <userinput>kmsave <replaceable>name</replaceable></userinput> command "
@@ -6748,13 +6790,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3814
+#: plugins.docbook:3827
 #, no-c-format
 msgid "To load a saved macro as the current one:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3815
+#: plugins.docbook:3828
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -6762,7 +6804,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3818
+#: plugins.docbook:3831
 #, no-c-format
 msgid ""
 "The plugin lists saved macros as items in this submenu, activating an item "
@@ -6770,7 +6812,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3819
+#: plugins.docbook:3832
 #, no-c-format
 msgid ""
 "The <userinput>kmload <replaceable>name</replaceable></userinput> command "
@@ -6779,13 +6821,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3823
+#: plugins.docbook:3836
 #, no-c-format
 msgid "To play a saved macro without loading it:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3824
+#: plugins.docbook:3837
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -6793,7 +6835,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3827
+#: plugins.docbook:3840
 #, no-c-format
 msgid ""
 "The plugin lists saved macros as items in this submenu, activating an item "
@@ -6801,7 +6843,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3828
+#: plugins.docbook:3841
 #, no-c-format
 msgid ""
 "Note that each saved macros is an action that is part of the current action "
@@ -6811,7 +6853,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3829
+#: plugins.docbook:3842
 #, no-c-format
 msgid ""
 "The <userinput>kmplay <replaceable>name</replaceable></userinput> command "
@@ -6820,13 +6862,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3833
+#: plugins.docbook:3846
 #, no-c-format
 msgid "To wipe (i.e., delete) a saved macro:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3834
+#: plugins.docbook:3847
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -6834,7 +6876,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3837
+#: plugins.docbook:3850
 #, no-c-format
 msgid ""
 "The plugin lists saved macros as items in this submenu, activating an item "
@@ -6842,7 +6884,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3838
+#: plugins.docbook:3851
 #, no-c-format
 msgid ""
 "The <userinput>kmwipe <replaceable>name</replaceable></userinput> command "
@@ -6851,13 +6893,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3842
+#: plugins.docbook:3855
 #, no-c-format
 msgid "Tips for commands:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3843
+#: plugins.docbook:3856
 #, no-c-format
 msgid ""
 "Note that after the <userinput>km</userinput> prefix, all these commands use "
@@ -6865,13 +6907,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3849
+#: plugins.docbook:3862
 #, no-c-format
 msgid "Limitations"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3851
+#: plugins.docbook:3864
 #, no-c-format
 msgid ""
 "As of now, keyboard macros fail to play properly if some types of GUI "
@@ -6881,7 +6923,7 @@ msgid ""
 msgstr ""
 
 #. Tag: author
-#: plugins.docbook:3862
+#: plugins.docbook:3875
 #, no-c-format
 msgid ""
 "<firstname>Ömer</firstname> <othername>Faruk</othername> <surname>ORUÇ</"
@@ -6889,13 +6931,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3866
+#: plugins.docbook:3879
 #, no-c-format
 msgid "SQL Plugin"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3871
+#: plugins.docbook:3884
 #, no-c-format
 msgid ""
 "The Structured Query Language (SQL) is a specialized language for updating, "
@@ -6903,49 +6945,49 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3874
+#: plugins.docbook:3887
 #, no-c-format
 msgid "The &kate; SQL Plugin allows you to:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3877
+#: plugins.docbook:3890
 #, no-c-format
 msgid "Create a database"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3878
+#: plugins.docbook:3891
 #, no-c-format
 msgid "Connect to existing databases"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3879
+#: plugins.docbook:3892
 #, no-c-format
 msgid "Insert and delete data in the database"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3880
+#: plugins.docbook:3893
 #, no-c-format
 msgid "Execute queries"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3881
+#: plugins.docbook:3894
 #, no-c-format
 msgid "Display results in a table"
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3887
+#: plugins.docbook:3900
 #, no-c-format
 msgid "Connecting to a Database"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3889
+#: plugins.docbook:3902
 #, no-c-format
 msgid ""
 "Select <guibutton>Add Connection</guibutton> from the <guimenu>SQL</guimenu> "
@@ -6956,7 +6998,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3895
+#: plugins.docbook:3908
 #, no-c-format
 msgid ""
 "If the database you selected uses a file, simply indicate the database's "
@@ -6967,7 +7009,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3901
+#: plugins.docbook:3914
 #, no-c-format
 msgid ""
 "Finally, give a name to your connection, and press <guibutton>Finish</"
@@ -6975,19 +7017,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3906
+#: plugins.docbook:3919
 #, no-c-format
 msgid "Running Queries"
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3909
+#: plugins.docbook:3922
 #, no-c-format
 msgid "INSERT/DELETE/UPDATE"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3911
+#: plugins.docbook:3924
 #, no-c-format
 msgid ""
 "You can insert, delete, and update data using the SQL plugin just as you "
@@ -6998,13 +7040,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3918
+#: plugins.docbook:3931
 #, no-c-format
 msgid "Some Example Queries"
 msgstr ""
 
 #. Tag: programlisting
-#: plugins.docbook:3923
+#: plugins.docbook:3936
 #, no-c-format
 msgid ""
 "INSERT INTO <replaceable>table_name</replaceable> (\"<replaceable>feature1</"
@@ -7018,7 +7060,7 @@ msgid ""
 msgstr ""
 
 #. Tag: programlisting
-#: plugins.docbook:3928
+#: plugins.docbook:3941
 #, no-c-format
 msgid ""
 "DELETE FROM <replaceable>table_name</replaceable> WHERE name = "
@@ -7026,7 +7068,7 @@ msgid ""
 msgstr ""
 
 #. Tag: programlisting
-#: plugins.docbook:3933
+#: plugins.docbook:3946
 #, no-c-format
 msgid ""
 "UPDATE <replaceable>table_name</replaceable> SET \"<replaceable>feature1</"
@@ -7039,13 +7081,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3942
+#: plugins.docbook:3955
 #, no-c-format
 msgid "SELECT"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3944
+#: plugins.docbook:3957
 #, no-c-format
 msgid ""
 "After running a <command>SELECT</command> query, you can view the results as "
@@ -7055,19 +7097,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3950
+#: plugins.docbook:3963
 #, no-c-format
 msgid "Example <command>SELECT</command> Query"
 msgstr ""
 
 #. Tag: programlisting
-#: plugins.docbook:3951
+#: plugins.docbook:3964
 #, no-c-format
 msgid "SELECT * FROM <replaceable>table_name</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3954
+#: plugins.docbook:3967
 #, no-c-format
 msgid ""
 "In the <guilabel>SQL Data Output</guilabel> tool view, there are several "
@@ -7075,50 +7117,50 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: plugins.docbook:3959
+#: plugins.docbook:3972
 #, no-c-format
 msgid "Resize columns to contents"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3960
+#: plugins.docbook:3973
 #, no-c-format
 msgid "Changes the size of columns to fit their contents."
 msgstr ""
 
 #. Tag: guibutton
-#: plugins.docbook:3964
+#: plugins.docbook:3977
 #, no-c-format
 msgid "Resize rows to contents"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3965
+#: plugins.docbook:3978
 #, no-c-format
 msgid "Changes the size of rows to fit their contents."
 msgstr ""
 
 #. Tag: guibutton
-#: plugins.docbook:3969
+#: plugins.docbook:3982
 #, no-c-format
 msgid "Copy"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3970
+#: plugins.docbook:3983
 #, no-c-format
 msgid ""
 "Selects all of the table contents and copies it to the clipboard buffer."
 msgstr ""
 
 #. Tag: guibutton
-#: plugins.docbook:3974
+#: plugins.docbook:3987
 #, no-c-format
 msgid "Export"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3975
+#: plugins.docbook:3988
 #, no-c-format
 msgid ""
 "Exports all of the table contents to a file, the clipboard, or the current "
@@ -7126,19 +7168,19 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: plugins.docbook:3980
+#: plugins.docbook:3993
 #, no-c-format
 msgid "Clear"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3981
+#: plugins.docbook:3994
 #, no-c-format
 msgid "Removes everything from the table view."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3988
+#: plugins.docbook:4001
 #, no-c-format
 msgid ""
 "You can now change the colors displayed in the table in the <guilabel>SQL</"
@@ -7147,13 +7189,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3996
+#: plugins.docbook:4009
 #, no-c-format
 msgid "Browsing"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3998
+#: plugins.docbook:4011
 #, no-c-format
 msgid ""
 "You can browse your database using the <guilabel>Database schema</guilabel> "
@@ -7162,7 +7204,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4002
+#: plugins.docbook:4015
 #, no-c-format
 msgid ""
 "To refresh this list, right-click anywhere in the tool view and select "
@@ -7174,49 +7216,49 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4016
+#: plugins.docbook:4029
 #, no-c-format
 msgid "<guimenu>SQL</guimenu><guimenuitem>Add connection...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4019
+#: plugins.docbook:4032
 #, no-c-format
 msgid "Adds a new connection using any database driver."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4025
+#: plugins.docbook:4038
 #, no-c-format
 msgid "<guimenu>SQL</guimenu><guimenuitem>Remove connection</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4028
+#: plugins.docbook:4041
 #, no-c-format
 msgid "Removes the selected connection."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4034
+#: plugins.docbook:4047
 #, no-c-format
 msgid "<guimenu>SQL</guimenu><guimenuitem>Edit connection...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4037
+#: plugins.docbook:4050
 #, no-c-format
 msgid "Edits the current connection's settings."
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:4043
+#: plugins.docbook:4056
 #, no-c-format
 msgid "Connections"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4044
+#: plugins.docbook:4057
 #, no-c-format
 msgid ""
 "All database connections you have created are listed between the "
@@ -7226,7 +7268,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4052
+#: plugins.docbook:4065
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo></"
@@ -7234,19 +7276,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4056
+#: plugins.docbook:4069
 #, no-c-format
 msgid "Runs your query."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4067
+#: plugins.docbook:4080
 #, no-c-format
 msgid "The SQL Plugin was written by Marco Mentasti."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4068
+#: plugins.docbook:4081
 #, no-c-format
 msgid ""
 "Special thanks to Google Code-In 2011 participant Ömer Faruk ORUÇ for "
@@ -7254,13 +7296,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4077
+#: plugins.docbook:4090
 #, no-c-format
 msgid "Symbol Viewer Plugin"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4082
+#: plugins.docbook:4095
 #, no-c-format
 msgid ""
 "It allows developers to view symbols (functions, macros and structures) from "
@@ -7268,61 +7310,61 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4083
+#: plugins.docbook:4096
 #, no-c-format
 msgid "By clicking the parsed information you can easily browse the code."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4084
+#: plugins.docbook:4097
 #, no-c-format
 msgid "At the moment the following languages are supported:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4085
+#: plugins.docbook:4098
 #, no-c-format
 msgid "C/C++, &Java;, Perl, PHP, Python, Ruby, XSLT, Tcl/Tk, Fortran"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4087
+#: plugins.docbook:4100
 #, no-c-format
 msgid "Feature list:"
 msgstr ""
 
 #. Tag: member
-#: plugins.docbook:4089
+#: plugins.docbook:4102
 #, no-c-format
 msgid "List/Tree mode"
 msgstr ""
 
 #. Tag: member
-#: plugins.docbook:4090
+#: plugins.docbook:4103
 #, no-c-format
 msgid "Enable/disable sorting"
 msgstr ""
 
 #. Tag: member
-#: plugins.docbook:4091
+#: plugins.docbook:4104
 #, no-c-format
 msgid "Hide/Show Functions Parameters"
 msgstr ""
 
 #. Tag: member
-#: plugins.docbook:4092
+#: plugins.docbook:4105
 #, no-c-format
 msgid "Expand/collapse tree mode"
 msgstr ""
 
 #. Tag: member
-#: plugins.docbook:4093
+#: plugins.docbook:4106
 #, no-c-format
 msgid "Auto-update on document change"
 msgstr ""
 
 #. Tag: member
-#: plugins.docbook:4094
+#: plugins.docbook:4107
 #, no-c-format
 msgid ""
 "Code parsing is based on the Syntax-Highlighting framework from &kde-"
@@ -7330,7 +7372,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4104
+#: plugins.docbook:4117
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>\\</keycap></keycombo> </"
@@ -7339,7 +7381,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4113
+#: plugins.docbook:4126
 #, no-c-format
 msgid ""
 "Toggle the display of &kate;'s Symbol List displaying Functions, Macros and "
@@ -7347,31 +7389,31 @@ msgid ""
 msgstr ""
 
 #. Tag: screeninfo
-#: plugins.docbook:4126
+#: plugins.docbook:4139
 #, no-c-format
 msgid "Symbol Viewer"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4129
+#: plugins.docbook:4142
 #, no-c-format
 msgid "Choose the default parser options"
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4139
+#: plugins.docbook:4152
 #, no-c-format
 msgid "Terminal Tool View Plugin"
 msgstr ""
 
 #. Tag: primary
-#: plugins.docbook:4141
+#: plugins.docbook:4154
 #, no-c-format
 msgid "Terminal emulator"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4141
+#: plugins.docbook:4154
 #, no-c-format
 msgid ""
 "The built in Terminal Emulator is a copy of the &kde; &konsole; terminal "
@@ -7386,7 +7428,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4153
+#: plugins.docbook:4166
 #, no-c-format
 msgid ""
 "The default location in the &kate; window is at the bottom, below the "
@@ -7394,7 +7436,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4156
+#: plugins.docbook:4169
 #, no-c-format
 msgid ""
 "You can configure the &konsole; using its &RMB; menu, for more information, "
@@ -7402,14 +7444,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4159
+#: plugins.docbook:4172
 #, no-c-format
 msgid ""
 "The built-in terminal emulator is provided by the Terminal Tool View plugin."
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4167
+#: plugins.docbook:4180
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show "
@@ -7417,19 +7459,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4172
+#: plugins.docbook:4185
 #, no-c-format
 msgid "Toggles the display of the built-in terminal emulator."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4173
+#: plugins.docbook:4186
 #, no-c-format
 msgid "When activated for the first time, the terminal will be created."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4174
+#: plugins.docbook:4187
 #, no-c-format
 msgid ""
 "When the terminal emulator is displayed, it will get the focus, so that you "
@@ -7442,13 +7484,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4185
+#: plugins.docbook:4198
 #, no-c-format
 msgid "<guimenu>Tools</guimenu><guimenuitem>Pipe to Terminal</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4187
+#: plugins.docbook:4200
 #, no-c-format
 msgid ""
 "Feed the currently selected text into the built-in terminal emulator. No "
@@ -7456,7 +7498,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4192
+#: plugins.docbook:4205
 #, no-c-format
 msgid ""
 "<guimenu>Tools</guimenu> <guimenuitem>Synchronize Terminal with Current "
@@ -7464,7 +7506,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4196
+#: plugins.docbook:4209
 #, no-c-format
 msgid ""
 "This will cause the built-in Terminal to <command>cd</command> into the "
@@ -7472,7 +7514,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4199
+#: plugins.docbook:4212
 #, no-c-format
 msgid ""
 "Alternatively, you can configure &kate; to always keep the terminal in sync "
@@ -7481,14 +7523,14 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4206
+#: plugins.docbook:4219
 #, no-c-format
 msgid ""
 "<guimenu>Tools</guimenu> <guimenuitem>Run Current Document</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4210
+#: plugins.docbook:4223
 #, no-c-format
 msgid ""
 "Run the current document in &konsole;. Only the local documents can be run. "
@@ -7497,7 +7539,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4217
+#: plugins.docbook:4230
 #, no-c-format
 msgid ""
 "<guimenu>Tools</guimenu> <guimenuitem>Focus/Defocus Terminal Panel</"
@@ -7505,14 +7547,14 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4222
+#: plugins.docbook:4235
 #, no-c-format
 msgid ""
 "Switch the focus from the current document to the terminal and vice versa."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4233
+#: plugins.docbook:4246
 #, no-c-format
 msgid ""
 "You can configure the Terminal Tool View plugin on the <guilabel>Terminal</"
@@ -7521,13 +7563,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4237
+#: plugins.docbook:4250
 #, no-c-format
 msgid "The following options are available:"
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:4242
+#: plugins.docbook:4255
 #, no-c-format
 msgid ""
 "Automatically synchronize the terminal with the current document when "
@@ -7535,7 +7577,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4243
+#: plugins.docbook:4256
 #, no-c-format
 msgid ""
 "This will cause the built-in terminal to <command>cd</command> into the "
@@ -7545,13 +7587,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:4251
+#: plugins.docbook:4264
 #, no-c-format
 msgid "Set EDITOR environment variable to 'kate -b'"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4252
+#: plugins.docbook:4265
 #, no-c-format
 msgid ""
 "This sets the <envar>EDITOR</envar> environment variable so programs run in "
@@ -7563,13 +7605,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:4260
+#: plugins.docbook:4273
 #, no-c-format
 msgid "Hide &konsole; on pressing 'Esc'"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4261
+#: plugins.docbook:4274
 #, no-c-format
 msgid ""
 "This allows closing the built-in terminal by pressing the &Esc; key. May "
@@ -7579,19 +7621,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4273
+#: plugins.docbook:4286
 #, no-c-format
 msgid "Text Filter Plugin"
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4276
+#: plugins.docbook:4289
 #, no-c-format
 msgid "Using the Text Filter Plugin"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4278
+#: plugins.docbook:4291
 #, no-c-format
 msgid ""
 "You can use this plugin to process selected text using terminal commands. "
@@ -7601,13 +7643,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4284
+#: plugins.docbook:4297
 #, no-c-format
 msgid "Examples:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4285
+#: plugins.docbook:4298
 #, no-c-format
 msgid ""
 "<command>less /etc/fstab</command> - paste the contents of this file or copy "
@@ -7615,7 +7657,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4288
+#: plugins.docbook:4301
 #, no-c-format
 msgid ""
 "<command>wc</command> - count lines, words and characters of the selection "
@@ -7623,7 +7665,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4292
+#: plugins.docbook:4305
 #, no-c-format
 msgid ""
 "<command>sort</command> - sort lines of the selection and paste the result "
@@ -7631,7 +7673,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4306
+#: plugins.docbook:4319
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>\\</keycap></keycombo> </"
@@ -7639,19 +7681,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4315
+#: plugins.docbook:4328
 #, no-c-format
 msgid "<action>Opens</action> the Text Filter dialog:"
 msgstr ""
 
 #. Tag: screeninfo
-#: plugins.docbook:4318
+#: plugins.docbook:4331
 #, no-c-format
 msgid "Text Filter dialog"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4324
+#: plugins.docbook:4337
 #, no-c-format
 msgid ""
 "Enter the shell command into the combobox or select a previous command from "
@@ -7659,25 +7701,25 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:4329
+#: plugins.docbook:4342
 #, no-c-format
 msgid "Copy the result instead of pasting it"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4331
+#: plugins.docbook:4344
 #, no-c-format
 msgid "Copy the result to clipboard leaving a document unchanged."
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:4336
+#: plugins.docbook:4349
 #, no-c-format
 msgid "Merge STDOUT and STDERR"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4338
+#: plugins.docbook:4351
 #, no-c-format
 msgid ""
 "If checked, an output from STDOUT and STDERR will be merged and no errors "
@@ -7685,25 +7727,25 @@ msgid ""
 msgstr ""
 
 #. Tag: author
-#: plugins.docbook:4358 plugins.docbook:4420
+#: plugins.docbook:4371 plugins.docbook:4433
 #, no-c-format
 msgid "&Daniel.Naber; &Daniel.Naber.mail;"
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4363
+#: plugins.docbook:4376
 #, no-c-format
 msgid "&XML; Validation"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4365
+#: plugins.docbook:4378
 #, no-c-format
 msgid "This plugin checks &XML; files for validity and being well-formed."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4366
+#: plugins.docbook:4379
 #, no-c-format
 msgid ""
 "This plugin checks the current file. A list of warnings and errors will "
@@ -7719,13 +7761,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4375
+#: plugins.docbook:4388
 #, no-c-format
 msgid "If the file has no doctype it will be checked for being well-formed."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4377
+#: plugins.docbook:4390
 #, no-c-format
 msgid ""
 "To learn more about &XML; check out the <ulink url=\"https://www.w3.org/XML/"
@@ -7733,7 +7775,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4379
+#: plugins.docbook:4392
 #, no-c-format
 msgid ""
 "Internally this plugin calls the external command <command>xmllint</"
@@ -7742,7 +7784,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4383
+#: plugins.docbook:4396
 #, no-c-format
 msgid ""
 "To load this plugin open &kate;'s configuration dialog under "
@@ -7753,19 +7795,19 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4395
+#: plugins.docbook:4408
 #, no-c-format
 msgid "<guimenu>&XML;</guimenu> <guimenuitem>Validate &XML;</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4400
+#: plugins.docbook:4413
 #, no-c-format
 msgid "This will start the check, as described above."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4408
+#: plugins.docbook:4421
 #, no-c-format
 msgid ""
 "&kate; Plugin <quote>&XML; Validation</quote> copyright 2002 &Daniel.Naber; "
@@ -7773,19 +7815,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4412
+#: plugins.docbook:4425
 #, no-c-format
 msgid "Documentation copyright 2002 &Daniel.Naber;"
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4424
+#: plugins.docbook:4437
 #, no-c-format
 msgid "&XML; Completion"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4426
+#: plugins.docbook:4439
 #, no-c-format
 msgid ""
 "This plugin gives hints about what is allowed at a certain position in an "
@@ -7797,7 +7839,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4433
+#: plugins.docbook:4446
 #, no-c-format
 msgid ""
 "The <acronym>DTD</acronym> must exist in &XML; format, as produced by the "
@@ -7812,13 +7854,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4444
+#: plugins.docbook:4457
 #, no-c-format
 msgid "How to Use"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4446
+#: plugins.docbook:4459
 #, no-c-format
 msgid ""
 "Start &kate; and open the configuration dialog under "
@@ -7834,19 +7876,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4456
+#: plugins.docbook:4469
 #, no-c-format
 msgid "You can now use the plugin while typing your text:"
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:4461
+#: plugins.docbook:4474
 #, no-c-format
 msgid "<keycap>&lt;</keycap> (less than key)"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4462
+#: plugins.docbook:4475
 #, no-c-format
 msgid ""
 "This will trigger a list of possible elements unless the cursor is inside a "
@@ -7855,13 +7897,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:4468
+#: plugins.docbook:4481
 #, no-c-format
 msgid "<keycap>&lt;</keycap><keycap>/</keycap>(less than key + slash)"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4469
+#: plugins.docbook:4482
 #, no-c-format
 msgid ""
 "Entering these characters will offer to close the current element (nearest "
@@ -7871,13 +7913,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:4476
+#: plugins.docbook:4489
 #, no-c-format
 msgid "<keycap>\"</keycap> (quote key)"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4477
+#: plugins.docbook:4490
 #, no-c-format
 msgid ""
 "The quote key will trigger a list of possible attribute values (if there are "
@@ -7885,13 +7927,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:4482
+#: plugins.docbook:4495
 #, no-c-format
 msgid "<keycap>&nbsp;</keycap> (space key)"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4483
+#: plugins.docbook:4496
 #, no-c-format
 msgid ""
 "This key will trigger a list of possible attributes for the current element "
@@ -7899,25 +7941,25 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:4489
+#: plugins.docbook:4502
 #, no-c-format
 msgid "<keycap>&amp;</keycap> (ampersand key)"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4490
+#: plugins.docbook:4503
 #, no-c-format
 msgid "This key will trigger a list of named entities."
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4497
+#: plugins.docbook:4510
 #, no-c-format
 msgid "Features and Limitations"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4499
+#: plugins.docbook:4512
 #, no-c-format
 msgid ""
 "You can test all functions and limitations by loading <filename>katexmltools/"
@@ -7927,7 +7969,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4512
+#: plugins.docbook:4525
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Enter;</keycombo> </shortcut> "
@@ -7935,7 +7977,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4519
+#: plugins.docbook:4532
 #, no-c-format
 msgid ""
 "This will open a dialog that lets you insert an &XML; element. The &lt;, "
@@ -7948,7 +7990,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4530
+#: plugins.docbook:4543
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>&lt;</keycap></keycombo> "
@@ -7956,7 +7998,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4537
+#: plugins.docbook:4550
 #, no-c-format
 msgid ""
 "This will search your text for a tag that is not yet closed and will close "
@@ -7966,13 +8008,13 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: plugins.docbook:4544
+#: plugins.docbook:4557
 #, no-c-format
 msgid "<guimenu>&XML;</guimenu> <guimenuitem>Assign Meta DTD...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4548
+#: plugins.docbook:4561
 #, no-c-format
 msgid ""
 "This will tell the plugin which meta DTD to use for the current document. "
@@ -7981,7 +8023,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4558
+#: plugins.docbook:4571
 #, no-c-format
 msgid ""
 "&kate; Plugin <quote>&XML; Completion</quote> copyright 2001,2002 &Daniel."
@@ -7989,25 +8031,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4562
+#: plugins.docbook:4575
 #, no-c-format
 msgid "&kde; SC 4 version copyright 2010 Tomáš Trnka"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4563
+#: plugins.docbook:4576
 #, no-c-format
 msgid "Documentation copyright 2001,2002 &Daniel.Naber;"
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4568
+#: plugins.docbook:4581
 #, no-c-format
 msgid "Compiler Explorer Plugin"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4570
+#: plugins.docbook:4583
 #, no-c-format
 msgid ""
 "The compiler explorer plugin allows you to use compiler explorer from within "
@@ -8018,13 +8060,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4573 plugins.docbook:4601
+#: plugins.docbook:4586 plugins.docbook:4614
 #, no-c-format
 msgid "Usage"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4575
+#: plugins.docbook:4588
 #, no-c-format
 msgid ""
 "The first thing you need to do is to open a compiler explorer tab. Hit "
@@ -8035,7 +8077,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4579
+#: plugins.docbook:4592
 #, no-c-format
 msgid ""
 "Next you need to setup a local instance of compiler explorer or use the "
@@ -8048,7 +8090,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4581
+#: plugins.docbook:4594
 #, no-c-format
 msgid ""
 "Next you need a compile_commands.json if you need to see codegen for a file "
@@ -8062,7 +8104,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4583
+#: plugins.docbook:4596
 #, no-c-format
 msgid ""
 "If you are just using compiler explorer to see the codegen for something "
@@ -8073,7 +8115,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4585
+#: plugins.docbook:4598
 #, no-c-format
 msgid ""
 "Once the file is compiled you should see the codegen on the right hand side. "
@@ -8084,13 +8126,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4594
+#: plugins.docbook:4607
 #, no-c-format
 msgid "Formatting Plugin"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4596
+#: plugins.docbook:4609
 #, no-c-format
 msgid ""
 "The formatting plugin allows one to format code easily. The plugin aims to "
@@ -8100,25 +8142,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4603
+#: plugins.docbook:4616
 #, no-c-format
 msgid "It allows the user to format code in two ways:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4606
+#: plugins.docbook:4619
 #, no-c-format
 msgid "Manually using the \"Format Document\" action."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4607
+#: plugins.docbook:4620
 #, no-c-format
 msgid "Automatically on save"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4611
+#: plugins.docbook:4624
 #, no-c-format
 msgid ""
 "You can search for this action in the command bar and bind a shortcut to it "
@@ -8126,19 +8168,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4616
+#: plugins.docbook:4629
 #, no-c-format
 msgid "Supported languages and formatters"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4618
+#: plugins.docbook:4631
 #, no-c-format
 msgid "The current list of supported languages and formatters are as follows:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4622
+#: plugins.docbook:4635
 #, no-c-format
 msgid ""
 "C/C++/ObjectiveC/ObjectiveC++/Protobuf/GLSL/Java - <command>clang-format</"
@@ -8146,151 +8188,151 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4625
+#: plugins.docbook:4638
 #, no-c-format
 msgid "Javascript/Typescript/JSX/TSX - <command>prettier</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4628
+#: plugins.docbook:4641
 #, no-c-format
 msgid "JSON"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4636
+#: plugins.docbook:4649
 #, no-c-format
 msgid "Dart - <command>dartfmt</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4637
+#: plugins.docbook:4650
 #, no-c-format
 msgid "Rust - <command>rustfmt</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4638
+#: plugins.docbook:4651
 #, no-c-format
 msgid "Go - <command>gofmt</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4639
+#: plugins.docbook:4652
 #, no-c-format
 msgid "XML - <command>xmllint</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4640
+#: plugins.docbook:4653
 #, no-c-format
 msgid "Zig - <command>zigfmt</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4641
+#: plugins.docbook:4654
 #, no-c-format
 msgid "CMake - <command>gersemi</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4642
+#: plugins.docbook:4655
 #, no-c-format
 msgid "D - <command>dfmt</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4643
+#: plugins.docbook:4656
 #, no-c-format
 msgid "Fish Shell - <command>fish_indent</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4644
+#: plugins.docbook:4657
 #, no-c-format
 msgid "Bash - <command>shfmt</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4645
+#: plugins.docbook:4658
 #, no-c-format
 msgid "Nix - <command>nixfmt</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4646
+#: plugins.docbook:4659
 #, no-c-format
 msgid "QML - <command>qmlformat</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4647
+#: plugins.docbook:4660
 #, no-c-format
 msgid "HTML - <command>prettier</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4648
+#: plugins.docbook:4661
 #, no-c-format
 msgid "Swift - <command>swiftformat</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4649
+#: plugins.docbook:4662
 #, no-c-format
 msgid "Erlang - <command>erlfmt</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4650
+#: plugins.docbook:4663
 #, no-c-format
 msgid "Godot Script - <command>gdformat</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4651
+#: plugins.docbook:4664
 #, no-c-format
 msgid "Perl - <command>perltidy</command>"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4653
+#: plugins.docbook:4666
 #, no-c-format
 msgid "Python"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4660
+#: plugins.docbook:4673
 #, no-c-format
 msgid "YAML"
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4673
+#: plugins.docbook:4686
 #, no-c-format
 msgid "Configuring"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4675
+#: plugins.docbook:4688
 #, no-c-format
 msgid "The plugin can be configured in two ways:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4677
+#: plugins.docbook:4690
 #, no-c-format
 msgid "Globally, from the Configure dialog"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4678
+#: plugins.docbook:4691
 #, no-c-format
 msgid "On a per project basis using the <filename>.kateproject</filename> file"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4682
+#: plugins.docbook:4695
 #, no-c-format
 msgid ""
 "When reading the config, the plugin will first try to read the config from "
@@ -8299,7 +8341,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:4686
+#: plugins.docbook:4699
 #, no-c-format
 msgid ""
 "{\n"
@@ -8315,31 +8357,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4688
+#: plugins.docbook:4701
 #, no-c-format
 msgid "The above:"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4690
+#: plugins.docbook:4703
 #, no-c-format
 msgid "enables \"format on save\" globally"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4691
+#: plugins.docbook:4704
 #, no-c-format
 msgid "specifies \"jq\" as the formatter for JSON"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4692
+#: plugins.docbook:4705
 #, no-c-format
 msgid "disables \"format on save\" for gersemi and autopep8"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4696
+#: plugins.docbook:4709
 #, no-c-format
 msgid ""
 "To configure formatting for a project, first create a <filename>."
@@ -8349,7 +8391,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4699
+#: plugins.docbook:4712
 #, no-c-format
 msgid ""
 "You need to enable the <link linkend=\"kate-application-plugin-projects"
@@ -8357,7 +8399,7 @@ msgid ""
 msgstr ""
 
 #. Tag: screen
-#: plugins.docbook:4701
+#: plugins.docbook:4714
 #, no-c-format
 msgid ""
 "{\n"
@@ -8377,13 +8419,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:4706
+#: plugins.docbook:4719
 #, no-c-format
 msgid "Temporarily disable format on save"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:4708
+#: plugins.docbook:4721
 #, no-c-format
 msgid ""
 "While working you will often need to disable the formatting for a short "
