@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-12 11:25+0200\n"
+"POT-Creation-Date: 2026-09-25 09:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -80,7 +80,109 @@ msgid "Failed to write some ACLs for '%1' on the IMAP server. %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: imapresource.cpp:46
+#: imapresource.cpp:233
+#, kde-format
+msgid "No server configured yet."
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:253
+#, kde-format
+msgid "Connection established."
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:270
+#, kde-format
+msgid "Server is not available."
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:321
+#, kde-format
+msgctxt "@info:status"
+msgid "Adding item in '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:328
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating item in '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:335
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:349
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:365
+#, kde-format
+msgctxt "@info:status"
+msgid "Moving items from '%1' to '%2'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:374
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:381
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving extra folder information for '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:399
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating folder '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:405
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating folder '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:418
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing folder '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:425
+#, kde-format
+msgctxt "@info:status"
+msgid "Moving folder '%1' from '%2' to '%3'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:455
+#, kde-format
+msgctxt "@info:status"
+msgid "Searching…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imapresource.cpp:727
 #, kde-format
 msgid "IMAP Account"
 msgstr ""
@@ -298,108 +400,6 @@ msgstr ""
 #: imapresource.kcfg:133
 #, kde-format
 msgid "The activities of the agent"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:215
-#, kde-format
-msgid "No server configured yet."
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:235
-#, kde-format
-msgid "Connection established."
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:252
-#, kde-format
-msgid "Server is not available."
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:303
-#, kde-format
-msgctxt "@info:status"
-msgid "Adding item in '%1'"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:310
-#, kde-format
-msgctxt "@info:status"
-msgid "Updating item in '%1'"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:317
-#, kde-format
-msgctxt "@info:status"
-msgid "Updating items"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:331
-#, kde-format
-msgctxt "@info:status"
-msgid "Removing items"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:347
-#, kde-format
-msgctxt "@info:status"
-msgid "Moving items from '%1' to '%2'"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:356
-#, kde-format
-msgctxt "@info:status"
-msgid "Retrieving folders"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:363
-#, kde-format
-msgctxt "@info:status"
-msgid "Retrieving extra folder information for '%1'"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:381
-#, kde-format
-msgctxt "@info:status"
-msgid "Creating folder '%1'"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:387
-#, kde-format
-msgctxt "@info:status"
-msgid "Updating folder '%1'"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:400
-#, kde-format
-msgctxt "@info:status"
-msgid "Removing folder '%1'"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:407
-#, kde-format
-msgctxt "@info:status"
-msgid "Moving folder '%1' from '%2' to '%3'"
-msgstr ""
-
-#. +> trunk6 stable6
-#: imapresourcebase.cpp:437
-#, kde-format
-msgctxt "@info:status"
-msgid "Searching…"
 msgstr ""
 
 #. +> trunk6 stable6

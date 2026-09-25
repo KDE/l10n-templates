@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-16 07:04+0200\n"
+"POT-Creation-Date: 2026-09-25 09:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1285,8 +1285,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: plugins.docbook:552 plugins.docbook:871 plugins.docbook:913
 #: plugins.docbook:938 plugins.docbook:1377 plugins.docbook:1532
-#: plugins.docbook:1903 plugins.docbook:2659 plugins.docbook:4123
-#: plugins.docbook:4231
+#: plugins.docbook:1903 plugins.docbook:2672 plugins.docbook:4136
+#: plugins.docbook:4244
 #, no-c-format
 msgid "Configuration"
 msgstr ""
@@ -1335,8 +1335,8 @@ msgstr ""
 
 #. Tag: author
 #. +> trunk6 stable6
-#: plugins.docbook:578 plugins.docbook:1590 plugins.docbook:3076
-#: plugins.docbook:3425 plugins.docbook:3863
+#: plugins.docbook:578 plugins.docbook:1590 plugins.docbook:3089
+#: plugins.docbook:3438 plugins.docbook:3876
 #, no-c-format
 msgid "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
 msgstr ""
@@ -1353,8 +1353,8 @@ msgstr ""
 #: plugins.docbook:584 plugins.docbook:790 plugins.docbook:859
 #: plugins.docbook:907 plugins.docbook:923 plugins.docbook:1093
 #: plugins.docbook:1399 plugins.docbook:1596 plugins.docbook:2017
-#: plugins.docbook:3083 plugins.docbook:3431 plugins.docbook:3751
-#: plugins.docbook:3869
+#: plugins.docbook:3096 plugins.docbook:3444 plugins.docbook:3764
+#: plugins.docbook:3882
 #, no-c-format
 msgid "Introduction"
 msgstr ""
@@ -1552,10 +1552,10 @@ msgstr ""
 #. +> trunk6 stable6
 #: plugins.docbook:707 plugins.docbook:823 plugins.docbook:1031
 #: plugins.docbook:1135 plugins.docbook:1180 plugins.docbook:1238
-#: plugins.docbook:1487 plugins.docbook:2330 plugins.docbook:3366
-#: plugins.docbook:3445 plugins.docbook:4012 plugins.docbook:4100
-#: plugins.docbook:4162 plugins.docbook:4301 plugins.docbook:4390
-#: plugins.docbook:4508
+#: plugins.docbook:1487 plugins.docbook:2343 plugins.docbook:3379
+#: plugins.docbook:3458 plugins.docbook:4025 plugins.docbook:4113
+#: plugins.docbook:4175 plugins.docbook:4314 plugins.docbook:4403
+#: plugins.docbook:4521
 #, no-c-format
 msgid "Menu Structure"
 msgstr ""
@@ -1674,8 +1674,8 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:778 plugins.docbook:1895 plugins.docbook:3733
-#: plugins.docbook:4065 plugins.docbook:4407 plugins.docbook:4557
+#: plugins.docbook:778 plugins.docbook:1895 plugins.docbook:3746
+#: plugins.docbook:4078 plugins.docbook:4420 plugins.docbook:4570
 #, no-c-format
 msgid "Thanks and Acknowledgments"
 msgstr ""
@@ -1710,7 +1710,7 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:797 plugins.docbook:4080
+#: plugins.docbook:797 plugins.docbook:4093
 #, no-c-format
 msgid "Using the Close Except/Like Plugin"
 msgstr ""
@@ -2060,7 +2060,7 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:1023 plugins.docbook:2231 plugins.docbook:2243
+#: plugins.docbook:1023 plugins.docbook:2244 plugins.docbook:2256
 #, no-c-format
 msgid "Select an item in the list to jump to the corresponding line in the source file."
 msgstr ""
@@ -2242,7 +2242,7 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:1151 plugins.docbook:1255 plugins.docbook:3094
+#: plugins.docbook:1151 plugins.docbook:1255 plugins.docbook:3107
 #, no-c-format
 msgid "Interface"
 msgstr ""
@@ -2914,7 +2914,7 @@ msgstr ""
 
 #. Tag: author
 #. +> trunk6 stable6
-#: plugins.docbook:1589 plugins.docbook:3424
+#: plugins.docbook:1589 plugins.docbook:3437
 #, no-c-format
 msgid "<firstname>Martin</firstname> <surname>Gergov</surname>"
 msgstr ""
@@ -3432,7 +3432,7 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:1897 plugins.docbook:3735
+#: plugins.docbook:1897 plugins.docbook:3748
 #, no-c-format
 msgid "Special thanks to Google Code-In 2011 participant Martin Gergov for writing much of this section."
 msgstr ""
@@ -3527,7 +3527,7 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:1936 plugins.docbook:2892
+#: plugins.docbook:1936 plugins.docbook:2905
 #, no-c-format
 msgid "Execution environment setup"
 msgstr ""
@@ -3915,15 +3915,53 @@ msgid "Here, subfolders and filters define what’s part of the project. You can
 msgstr ""
 
 #. Tag: para
-#. +> trunk6 stable6
+#. +> trunk6
 #: plugins.docbook:2173
+#, no-c-format
+msgid "Git hosting mappings can also be configured for a project. A project mapping overrides a global mapping with the same host and port, while mappings for other hosts remain available as fallbacks:"
+msgstr ""
+
+#. Tag: screen
+#. +> trunk6
+#: plugins.docbook:2178
+#, no-c-format
+msgid ""
+"{\n"
+"  \"name\": \"Kate\",\n"
+"  \"files\": [\n"
+"    {\n"
+"      \"git\": 1\n"
+"    }\n"
+"  ],\n"
+"  \"git\": {\n"
+"    \"hostMappings\": [\n"
+"      {\n"
+"        \"host\": \"git.example.com:2222\",\n"
+"        \"provider\": \"Forgejo\",\n"
+"        \"webBaseUrl\": \"https://code.example.com\"\n"
+"      }\n"
+"    ]\n"
+"  }\n"
+"}"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: plugins.docbook:2180
+#, no-c-format
+msgid "The <code>\"provider\"</code> value must be <code>\"Forgejo\"</code>, <code>\"GitHub\"</code>, or <code>\"GitLab\"</code>. The <code>\"host\"</code> may include the SSH port used by the Git remote, and <code>\"webBaseUrl\"</code> is the HTTP or HTTPS address used to open repository links."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: plugins.docbook:2186
 #, no-c-format
 msgid "If you want to add support for the building, you can write a <filename>.kateproject</filename> like this:"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:2176
+#: plugins.docbook:2189
 #, no-c-format
 msgid ""
 "{\n"
@@ -3955,609 +3993,609 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2178
+#: plugins.docbook:2191
 #, no-c-format
 msgid "The targets specified above will then appear in the <link linkend=\"kate-application-plugin-build\">Build Plugin </link> under <emphasis role=\"bold\"> \"Project Plugin Targets\"</emphasis>. If the <code>\"targets\"</code> array is specified then <code>\"build\"</code>, <code>\"clean\"</code> and <code>\"install\"</code> are ignored. Each element in the array specifies a target. <code>\"name\"</code> is the name of the target, <code>\"build_cmd\"</code> will be used to build the target, <code>\"run_cmd\"</code> will be used to run the target. Most important of all is <code>\"directory\"</code>, this is where the commands will be executed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2186
+#: plugins.docbook:2199
 #, no-c-format
 msgid "In case you have a <filename>.kateproject</filename> file tracked by a control version system, but you need to tweak the configuration for a particular workspace, you can save those changes to a separated file named <filename>.kateproject.local</filename>. The content of this file will take precedence over <filename>.kateproject</filename>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2199
+#: plugins.docbook:2212
 #, no-c-format
 msgid "<title>Current Project</title>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2201
+#: plugins.docbook:2214
 #, no-c-format
 msgid "Using <menuchoice><shortcut><keycombo action=\"simul\">&Alt;<keycap>1</keycap></keycombo></shortcut> <guimenu>Projects</guimenu><guimenuitem>Go To</guimenuitem></menuchoice> you can open the <guilabel>Current Project</guilabel> view at the bottom of the editor window with four tabs:"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: plugins.docbook:2206
+#: plugins.docbook:2219
 #, no-c-format
 msgid "<screeninfo>Current Project</screeninfo>"
 msgstr ""
 
 #. Tag: guimenu
 #. +> trunk6 stable6
-#: plugins.docbook:2216
+#: plugins.docbook:2229
 #, no-c-format
 msgid "Terminal Panel"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2219
+#: plugins.docbook:2232
 #, no-c-format
 msgid "A <link linkend=\"kate-application-plugin-konsole\">Terminal emulator</link> starting in the root folder of the project."
 msgstr ""
 
 #. Tag: guimenu
 #. +> trunk6 stable6
-#: plugins.docbook:2226
+#: plugins.docbook:2239
 #, no-c-format
 msgid "Code Index"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2229
+#: plugins.docbook:2242
 #, no-c-format
 msgid "Entering characters into the search bar will start the search and display matching names of functions, classes, symbols &etc; together with kind, filename and line number."
 msgstr ""
 
 #. Tag: guimenu
 #. +> trunk6 stable6
-#: plugins.docbook:2237
+#: plugins.docbook:2250
 #, no-c-format
 msgid "Code Analysis"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2240
+#: plugins.docbook:2253
 #, no-c-format
 msgid "Click <guilabel>Start Analysis</guilabel> to run a static code analysis for the C and C++ using <command>cppcheck</command> and to generate a report showing filename, line number, severity (style, warning &etc;) and the issue found."
 msgstr ""
 
 #. Tag: guimenu
 #. +> trunk6 stable6
-#: plugins.docbook:2249
+#: plugins.docbook:2262
 #, no-c-format
 msgid "Notes"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2252
+#: plugins.docbook:2265
 #, no-c-format
 msgid "Text entered in this tab will be saved in the file <filename>.kateproject.notes</filename>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2262
+#: plugins.docbook:2275
 #, no-c-format
 msgid "The Projects Menu"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2264
+#: plugins.docbook:2277
 #, no-c-format
 msgid "The <guimenu>Projects</guimenu> menu allows you to switch between currently open projects. It is displayed by the Project plugin."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2270
+#: plugins.docbook:2283
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;&Left;</keycombo> </shortcut> <guimenu>Projects</guimenu> <guimenuitem>Back</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2278
+#: plugins.docbook:2291
 #, no-c-format
 msgid "Switch to the previous project."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2283
+#: plugins.docbook:2296
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;&Right;</keycombo> </shortcut> <guimenu>Projects</guimenu> <guimenuitem>Forward</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2291
+#: plugins.docbook:2304
 #, no-c-format
 msgid "Switch to the next project."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2296
+#: plugins.docbook:2309
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Alt;<keycap>1</keycap></keycombo> </shortcut> <guimenu>Projects</guimenu><guimenuitem>Go To</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2303
+#: plugins.docbook:2316
 #, no-c-format
 msgid "Open the <guilabel>Current Project</guilabel> view at the bottom of the editor window."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2320
+#: plugins.docbook:2333
 #, no-c-format
 msgid "LSP Client Plugin"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2322
+#: plugins.docbook:2335
 #, no-c-format
 msgid "The LSP Client plugin provides many language features such as code completion, code navigation or finding references based on the <ulink url=\"https://microsoft.github.io/language-server-protocol/\">Language Server Protocol</ulink>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2325
+#: plugins.docbook:2338
 #, no-c-format
 msgid "Once you have enabled the LSP Client in the plugin page, a new page called LSP Client will appear in your &kate; configuration dialog."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2332
+#: plugins.docbook:2345
 #, no-c-format
 msgid "If appropriate, a corresponding LSP command is also mentioned in the explanation below, the documentation of which may then provide additional background and interpretation, though it may vary depending on the actual language. The phrase 'current symbol' refers to the symbol corresponding to the current cursor position, as so determined by the language and server implementation."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2344
+#: plugins.docbook:2357
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Go to Definition</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2349
+#: plugins.docbook:2362
 #, no-c-format
 msgid "[textDocument/definition] Go to current symbol definition."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2354
+#: plugins.docbook:2367
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Go to Declaration</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2359
+#: plugins.docbook:2372
 #, no-c-format
 msgid "[textDocument/declaration] Go to current symbol declaration."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2364
+#: plugins.docbook:2377
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Go to Type Definition</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2369
+#: plugins.docbook:2382
 #, no-c-format
 msgid "[textDocument/typeDefinition] Go to current symbol type definition."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2374
+#: plugins.docbook:2387
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Find References</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2379
+#: plugins.docbook:2392
 #, no-c-format
 msgid "[textDocument/references] Find references to current symbol."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2384
+#: plugins.docbook:2397
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Find Implementations</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2389
+#: plugins.docbook:2402
 #, no-c-format
 msgid "[textDocument/implementation] Find implementations of current symbol."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2394
+#: plugins.docbook:2407
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Highlight</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2399
+#: plugins.docbook:2412
 #, no-c-format
 msgid "[textDocument/documentHighlight] Highlight current symbol references in current document."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2404
+#: plugins.docbook:2417
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Hover</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2409
+#: plugins.docbook:2422
 #, no-c-format
 msgid "[textDocument/hover] Hover info for current symbol."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2414
+#: plugins.docbook:2427
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Format</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2419
+#: plugins.docbook:2432
 #, no-c-format
 msgid "[textDocument/formatting] [textDocument/rangeFormatting] Format the current document or current selection."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2425
+#: plugins.docbook:2438
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Rename</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2430
+#: plugins.docbook:2443
 #, no-c-format
 msgid "[textDocument/rename] Rename current symbol."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2435
+#: plugins.docbook:2448
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Quick Fix</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2440
+#: plugins.docbook:2453
 #, no-c-format
 msgid "[textDocument/codeAction, workspace/executeCommand] Computes and applies a quick fix for a diagnostic on current position (or line)."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2446
+#: plugins.docbook:2459
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Show selected completion documentation</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2451
+#: plugins.docbook:2464
 #, no-c-format
 msgid "Show documentation for a selected item in the completion list."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2456
+#: plugins.docbook:2469
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Enable signature help with auto completion</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2461
+#: plugins.docbook:2474
 #, no-c-format
 msgid "Also show signature help in the completion list."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2466
+#: plugins.docbook:2479
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Include declaration in references</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2471
+#: plugins.docbook:2484
 #, no-c-format
 msgid "Request to include a symbol's declaration when requesting references."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2476
+#: plugins.docbook:2489
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Add parentheses upon function completion</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2481
+#: plugins.docbook:2494
 #, no-c-format
 msgid "Automatically add a pair of parentheses after completion of a function."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2486
+#: plugins.docbook:2499
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Show hover information</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2491
+#: plugins.docbook:2504
 #, no-c-format
 msgid "Show hover information upon (mouse cursor) hover. Regardless of this setting, the request can always be manually initiated."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2498
+#: plugins.docbook:2511
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Format on typing</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2503
+#: plugins.docbook:2516
 #, no-c-format
 msgid "[document/onTypeFormatting] Format parts of document when typing certain trigger characters. For example, this might apply indentation upon newline, or as otherwise determined by LSP Server. Note that editor indentation scripts might be trying to do the same (depending on the mode) and so it may not be advisable to have both enabled at the same time."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2512
+#: plugins.docbook:2525
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Incremental document synchronization</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2517
+#: plugins.docbook:2530
 #, no-c-format
 msgid "Send partial document edits to update the server rather than whole document text (if supported)."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2522
+#: plugins.docbook:2535
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Highlight goto location</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2527
+#: plugins.docbook:2540
 #, no-c-format
 msgid "Provide a transient visual cue after performing a goto to a location (of definition, declaration, etc)."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2532
+#: plugins.docbook:2545
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Show diagnostics notifications</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2537
+#: plugins.docbook:2550
 #, no-c-format
 msgid "[textDocument/publishDiagnostics] Process and show diagnostics notifications sent by server."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2542
+#: plugins.docbook:2555
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Show diagnostics highlights</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2547
+#: plugins.docbook:2560
 #, no-c-format
 msgid "Add text highlights for ranges indicated in diagnostics."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2552
+#: plugins.docbook:2565
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Show diagnostics marks</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2557
+#: plugins.docbook:2570
 #, no-c-format
 msgid "Add document marks for lines indicated in diagnostics."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2562
+#: plugins.docbook:2575
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Switch to diagnostic tab</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2567
+#: plugins.docbook:2580
 #, no-c-format
 msgid "Switch to the diagnostic tab in the plugin toolview."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2572
+#: plugins.docbook:2585
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Close all non-diagnostics tabs</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2577
+#: plugins.docbook:2590
 #, no-c-format
 msgid "Close all non-diagnostics (&eg; references) tabs in plugin toolview."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2582
+#: plugins.docbook:2595
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Restart LSP Server</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2587
+#: plugins.docbook:2600
 #, no-c-format
 msgid "Restart current document's LSP Server."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:2592
+#: plugins.docbook:2605
 #, no-c-format
 msgid "<guimenu>LSP Client</guimenu> <guisubmenu>Restart all LSP Servers</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2597
+#: plugins.docbook:2610
 #, no-c-format
 msgid "Stop all LSP Servers which will then be (re)started as needed."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2606
+#: plugins.docbook:2619
 #, no-c-format
 msgid "Goto Symbol support"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2607
+#: plugins.docbook:2620
 #, no-c-format
 msgid "LSP Client can help you jump to any symbol in your project or current file. To jump to any symbol in the file, use the toolview \"LSP Client Symbol Outline\" on the right border of kate. This toolview lists all symbols found by the server in current document."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2616
+#: plugins.docbook:2629
 #, no-c-format
 msgid "Configuring LSP Client Symbol Outline"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2618
+#: plugins.docbook:2631
 #, no-c-format
 msgid "By default the symbols are sorted by their occurrence in the document but you can change the sort to be alphabetical. To do so, right click in the toolview and check \"Sort Alphabetically\"."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2624
+#: plugins.docbook:2637
 #, no-c-format
 msgid "The toolview shows the symbols in tree mode by default, however you can change it to a list using the context menu."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2631
+#: plugins.docbook:2644
 #, no-c-format
 msgid "Global Goto symbol support"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2632
+#: plugins.docbook:2645
 #, no-c-format
 msgid "To jump to any symbol in your project, you can open the goto symbol dialog using <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>p</keycap></keycombo>. The dialog is empty when it opens but as soon as you type something the dialog will start showing you matching symbols. The quality of matches as well as filtering capabilities depend upon the server that you use. For example, clangd supports fuzzy filtering but some other server may not."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2644
+#: plugins.docbook:2657
 #, no-c-format
 msgid "Other Features"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2646
+#: plugins.docbook:2659
 #, no-c-format
 msgid "Clangd switch source header command is supported. To switch source header in a C or C++ project either use the \"Switch Source Header\" option from the context menu or the shortcut <keycombo action=\"simul\"><keycap>F12</keycap></keycombo>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2651
+#: plugins.docbook:2664
 #, no-c-format
 msgid "You can jump to a symbol quickly by putting your mouse over the symbol and then pressing <keycombo action=\"simul\">&Ctrl;</keycombo> + left mouse button."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2661
+#: plugins.docbook:2674
 #, no-c-format
 msgid "The plugin's configuration page mostly allows for persistent configuration of some of the above menu items. However, there is one additional entry to specify the Server Configuration file. This is a &JSON; file that can be used to specify the LSP server to start (and then to communicate with over stdin/stdout). For convenience, some default configuration is included, which can be inspected in the plugin's configuration page. To aid in the explanation below, an excerpt of that configuration is given here:"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:2671
+#: plugins.docbook:2684
 #, no-c-format
 msgid ""
 "{\n"
@@ -4628,84 +4666,84 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2673
+#: plugins.docbook:2686
 #, no-c-format
 msgid "Note that each \"command\" may be an array or a string (in which case it is split into an array). Also, a top-level \"global\" entry (next to \"server\") is considered as well (see further below). The specified binary is searched for in the usual way, e.g. using <literal>PATH</literal>. If it is installed in some custom location, then the latter may have to be extended. Or alternatively, a (sym)link or wrapper script may be used in a location that is within the usual <literal>PATH</literal>. As illustrated above, one may also specify a \"path\" that will be searched for after the standard locations."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2684
+#: plugins.docbook:2697
 #, no-c-format
 msgid "All of the entries in \"command\", \"root\" and \"path\" are subject to variable expansion."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2688
+#: plugins.docbook:2701
 #, no-c-format
 msgid "The \"highlightingModeRegex\" is used to map the highlighting mode as used by &kate; to the language id of the server. If no regular expression is given, the language id itself is used. If a \"documentLanguageId\" entry is set to false, then no language id is provided to the server when opening the document. This may have better results for some servers that are more precise in determining the document type than doing so based on a kate mode."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2697
+#: plugins.docbook:2710
 #, no-c-format
 msgid "From the above example, the gist is presumably clear. In addition, each server entry object may also have an \"initializationOptions\" entry, which is passed along to the server as part of the 'initialize' method. If present, a \"settings\" entry is passed to the server by means of the 'workspace/didChangeConfiguration' notification. Either of \"completionTriggerCharacters\" or \"signatureTriggerCharacters\" may be specified as a JSON object with string members \"exclude\" and/or \"include\". These will be used to respectively exclude or add some characters to the respective trigger set as provided by the server."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2709
+#: plugins.docbook:2722
 #, no-c-format
 msgid "Various stages of override/merge are applied;"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2713
+#: plugins.docbook:2726
 #, no-c-format
 msgid "user configuration (loaded from file) overrides (internal) default configuration"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2716
+#: plugins.docbook:2729
 #, no-c-format
 msgid "\"lspclient\" entry in <filename>.kateproject</filename> project configuration overrides the above"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2719
+#: plugins.docbook:2732
 #, no-c-format
 msgid "the resulting \"global\" entry is used to supplement (not override) any server entry"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2724
+#: plugins.docbook:2737
 #, no-c-format
 msgid "One server instance is used per (root, servertype) combination. If \"root\" is specified as an absolute path, then it used as-is, otherwise it is relative to the <quote>projectBase</quote> (as determined by the <link linkend=\"kate-application-plugin-projects\">Project plugin</link>) if applicable, or otherwise relative to the document's directory. If not specified and \"rootIndicationFileNames\" is an array as filenames, then a parent directory of current document containing such a file is selected. Alternatively, if \"root\" is not specified and \"rootIndicationFilePatterns\" is an array of file patterns, then a parent directory of the current document matching the file pattern is selected. As a last fallback, the home directory is selected as \"root\". For any document, the resulting \"root\" then determines whether or not a separate instance is needed. If so, the \"root\" is passed as rootUri/rootPath."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2738
+#: plugins.docbook:2751
 #, no-c-format
 msgid "In general, it is recommended to leave root unspecified, as it is not that important for a server (your mileage may vary though). Fewer server instances are obviously more efficient, and they also have a 'wider' view than the view of many separate instances."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2745
+#: plugins.docbook:2758
 #, no-c-format
 msgid "As mentioned above, several entries are subject to variable expansion. A suitable application of that combined with \"wrapper script\" approaches allows for customization to a great many circumstances. For example, consider a python development scenario that consists of multiple projects (e.g. git repos), each with its own virtualenv setup. Using the default configuration, the python language server will not be aware of the virtual env. However, that can be remedied with the following approach. First, the following fragment can be entered in LSPClient plugin's \"User Server Settings\":"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:2755
+#: plugins.docbook:2768
 #, no-c-format
 msgid ""
 "{\n"
@@ -4722,21 +4760,21 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2756
+#: plugins.docbook:2769
 #, no-c-format
 msgid "The root entry above is relative to the project directory and ensures that a separate language server is started for each project, which is necessary in this case as each has a distinct virtual environment."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2761
+#: plugins.docbook:2774
 #, no-c-format
 msgid "<filename>pylsp_in_env</filename> is a small \"wrapper script\" that should be placed in <literal>PATH</literal> with the following (to-be-adjusted) content:"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:2765
+#: plugins.docbook:2778
 #, no-c-format
 msgid ""
 "#!/bin/bash\n"
@@ -4751,35 +4789,35 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2766
+#: plugins.docbook:2779
 #, no-c-format
 msgid "This is but one example of a more general pattern which may be handled a bit more comfortably as outlined in the <link linkend=\"lspclient-exec\">Execution environment</link> section below."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2773
+#: plugins.docbook:2786
 #, no-c-format
 msgid "LSP Server Configuration"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2775
+#: plugins.docbook:2788
 #, no-c-format
 msgid "Each particular LSP server has its own way of customization and may use language/tool specific means for configuration, &eg; <filename>tox.ini</filename> (a.o. for python), <filename>.clang-format</filename> for C++ style format. Such configuration may then also be used by other (non-LSP) tools (such as then <application>tox</application> or <application>clang-format</application>). On top of that, some LSP servers also load configuration from custom files (&eg; <filename>.ccls</filename>). Furthermore, custom server configuration can also be passed through LSP (protocol), see the aforementioned \"initializationOptions\" and \"settings\" entries in server configuration."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2790
+#: plugins.docbook:2803
 #, no-c-format
 msgid "Since various level of override/merge are applied, the following example of user specified client configuration tweaks some python-language-server configuration."
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:2796
+#: plugins.docbook:2809
 #, no-c-format
 msgid ""
 "{\n"
@@ -4801,49 +4839,49 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2798
+#: plugins.docbook:2811
 #, no-c-format
 msgid "Unfortunately, LSP server configuration/customization is often not so well documented, in ways that only examining the source code shows configuration approaches and the set of available configuration options. In particular, the above example's server supports many more options in \"settings\". See <ulink url=\"https://github.com/neoclide/coc.nvim/wiki/Language-servers\"> another LSP client's documentation</ulink> for various other language server examples and corresponding settings, which can easily and readily be transformed to the &JSON; configuration that is used here and outlined above."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2812
+#: plugins.docbook:2825
 #, no-c-format
 msgid "LSP Server Format On Save"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2814
+#: plugins.docbook:2827
 #, no-c-format
 msgid "You can enable \"format on save\" from LSP settings in configure dialog."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2821
+#: plugins.docbook:2834
 #, no-c-format
 msgid "LSP Server Diagnostic Suppression"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2823
+#: plugins.docbook:2836
 #, no-c-format
 msgid "It may happen that diagnostics are reported which are not quite useful. This can be quite cumbersome, especially if there are many (often of the same kind). In some cases, this may be tweaked by language (server) specific means. For example, the <ulink url=\"https://clangd.llvm.org/config.html\">clangd configuration mechanism</ulink> allows tweaking of some diagnostics aspects. In general, however, it may not always be evident how to do so, or it may not even be possible at all in desired ways due to server limitations or bug."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2833
+#: plugins.docbook:2846
 #, no-c-format
 msgid "As such, the plugin supports diagnostics suppression similar to e.g. valgrind suppressions. The most fine-grained configuration can be supplied in a \"suppressions\" key in the (merged) &JSON; configuration."
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:2839
+#: plugins.docbook:2852
 #, no-c-format
 msgid ""
 "{\n"
@@ -4860,70 +4898,70 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2841
+#: plugins.docbook:2854
 #, no-c-format
 msgid "Each (valid) rule has an arbitrary name and is defined by an array of length 2 or 3 which provides a regex to match against the (full) filename, a regex to match against the diagnostic (text) and an optional regex matched against the (source code range of) text to which the diagnostic applies."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2848
+#: plugins.docbook:2861
 #, no-c-format
 msgid "In addition to the above fine-grained configuration, the context menu in the diagnostics tab also supports add/remove of suppressions that match a particular diagnostic (text) exactly, either globally (any file) or locally (the specific file in question). These suppression are stored in and loaded from session config."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:2858
+#: plugins.docbook:2871
 #, no-c-format
 msgid "LSP Server Troubleshooting"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2860
+#: plugins.docbook:2873
 #, no-c-format
 msgid "It is one thing to describe how to configure a (custom) LSP server for any particular language, it is another to end up with the server running smoothly. Usually, the latter is fortunately the case. Sometimes, however, problems may arise due to either some \"silly\" misconfiguration or a more fundamental problem with the server itself. The latter might typically manifest itself as a couple of attempts at starting the server, as so reported in &kate; Output tab. The latter, however, is only meant to convey high-level messages or progress rather than to provide detailed diagnostics, and even less so for what is in fact another process (the LSP server)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2872
+#: plugins.docbook:2885
 #, no-c-format
 msgid "The usual way to diagnose this is to add some flag(s) to the startup command (of the language server) that enables (additional) logging (to some file or standard error), in as far as it does not do so by default. If &kate; is then started on the command line, then one might be able to obtain more (in)sight in what might be going wrong."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2880
+#: plugins.docbook:2893
 #, no-c-format
 msgid "It may also be informative to examine the protocol exchange between &kate;'s LSP client and the LSP server. Again, the latter usually has ways to trace that. The LSP client also provides additional debug tracing (to stderr) when &kate; is invoked with the following <literal>LSPCLIENT_DEBUG=1</literal> suitably <literal>export</literal>'ed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2894
+#: plugins.docbook:2907
 #, no-c-format
 msgid "The python virtualenv example above is but one example of an \"execution environment\" that operates in a distinct and separate way from the usual host environment. This could be achieved by different variable settings (e.g. virtualenv), or a (s)chroot setup (switching to another dir as new root), a container (e.g. podman, docker), or an ssh session to another host. In each case, the \"other environment\" is defined by an \"execution prefix\". That is, some program can be invoked/run in the other environment by means of a \"prefix\" (a program and arguments) appended with the intended invocation. For example, <literal>podman exec -i containername</literal> or <literal>ssh user@host</literal>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2907
+#: plugins.docbook:2920
 #, no-c-format
 msgid "In particular, as in the previous virtualenv example, one may choose/need to run an LSP server is such a separate environment (e.g. a container with all dependencies needed by some project). The \"manual\" approach outlined above has as disadvantage that it replaces the standard LSP command-line, which then has to specified and duplicated again in the wrapper script. Also, in some of the other examples mentioned above the \"path namespace\" of host (as viewed by the editor) may be different from that of the environment. To address these matters in a more systematic way (than a \"custom\" approach), some additional configuration can be specified."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2919
+#: plugins.docbook:2932
 #, no-c-format
 msgid "For example, the following can be specified in a <literal>.kateproject</literal> configuration. Obviously, the \"fake\" comments should not be included."
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:2924
+#: plugins.docbook:2937
 #, no-c-format
 msgid ""
 "{\n"
@@ -4962,63 +5000,63 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2926
+#: plugins.docbook:2939
 #, no-c-format
 msgid "So, what happens as a result of the above? As mentioned, the <literal>lspclient</literal> part of the above is merged onto the global config, hence an <literal>exec</literal> section is found (for specified languages). A search is performed for another object (that specifies matching <literal>hostname</literal>) in either <literal>exec</literal> or <literal>lspclient</literal> section, and a matching one is as a basis for a merge. As a result, an LSP server (for C and python) will have its commandline appended to the specified (variable substituted) prefix, and will therefore be started within the given container. Of course, the container must have been created, in a proper started state and equipped with proper LSP servers. One might have been tempted to use the <literal>global</literal> section (within <literal>lspclient</literal>.) That could also work, but then <emphasis>all</emphasis> LSP servers would be started with that prefix, including those for e.g. Markdown, Bash script or JSON. It is more likely that the usual host will still supply these (if in use). So, as always, it depends on your particular setup."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2945
+#: plugins.docbook:2958
 #, no-c-format
 msgid "However, the LSP server may now observe different (remote) paths than the (local) ones that are seen and used by the editor. The specified <literal>pathMappings</literal> are used to translate back and forth between either within the communication with the LSP server. That is, of course, as much as possible. Clearly, not all local paths have a remote representation, but the missing ones are also not seen (by the server) and do not pose a problem. Conversely, however, the (remote) server may now see and provide references in the \"remote root\" which are not evidently/easily represented in the local system. The enabled <literal>mapRemoteRoot</literal> implicitly maps the remote root onto a \"local URL\" <literal>exec://foobar/</literal>, which is then handled by a plain-and-simple KIO protocol. The latter essentially uses (e.g.) <literal>podman exec -i foobarcontainer cat somefile\"</literal> for copy from remote to local (and other such variations using tools from the <literal>coreutils</literal> suite). Suffice it to say it is not meant for general use and claims no performance whatsoever, but it does suffice to get a referenced file quickly and easily loaded into editor."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2964
+#: plugins.docbook:2977
 #, no-c-format
 msgid "It is now easily seen that a simplified version of above configuration (without <literal>hostname</literal> or <literal>pathMappings</literal>) could be used to handle the virtualenv without having to duplicate server commandline (in wrapper script)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2971
+#: plugins.docbook:2984
 #, no-c-format
 msgid "The following may not be so easily seen, so it is mentioned here explicitly."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2976
+#: plugins.docbook:2989
 #, no-c-format
 msgid "Both a <literal>hostname</literal> and the actual <literal>prefix</literal> define the execution environment (the former by name, the latter by content). Within an editor process instance, the same <literal>hostname</literal> should not be associated with different <literal>prefix</literal>, as such leads to undefined behavior (with no diagnostic required)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2985
+#: plugins.docbook:2998
 #, no-c-format
 msgid "Both <literal>prefix</literal> and <literal>pathMappings</literal> are subject to (editor) variable expansion (but do mind the foregoing item)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:2991
+#: plugins.docbook:3004
 #, no-c-format
 msgid "At runtime, some environment variables are also set, which may be used to (subtly) adjust the \"prefix launcher\"'s behavior (though again mind the first item). In particular, <literal>KATE_EXEC_PLUGIN</literal> is set to <literal>lspclient</literal> and <literal>KATE_EXEC_SERVER</literal> is set to the server's id (e.g. <literal>python</literal>)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3000
+#: plugins.docbook:3013
 #, no-c-format
 msgid "In particular, also <literal>KATE_EXEC_INSPECT</literal> is set to <literal>1</literal>. This notifies the \"prefix launcher\" that the receiver (Kate plugin) accepts some out-of-band/protocol data. This allows the launcher to use some means to determine path mappings (e.g. <literal>podman inspect</literal>) and to communicate this in suitable format. This will then be removed from the otherwise LSP protocol conforming stream and used to extend any defined path mapping. This may serve as an alternative to specifying e.g. bind mounts explicitly (again, duplicating the container's definition). Concretely, the above snippet could then be used instead;"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:3010
+#: plugins.docbook:3023
 #, no-c-format
 msgid ""
 "{\n"
@@ -5036,7 +5074,7 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3015
+#: plugins.docbook:3028
 #, no-c-format
 msgid ""
 "Last but not least, what if the \"fallback KIO\" approach is not considered adequate? It is in practice often possible to \"mount\" the remote root into the local filesystem and then specify the latter in a <literal>pathMappings</literal>. For starters, the well-known <literal>sshfs</literal> (fuse) filesystem can mount a (really) remote system into the local one. For a container (podman/docker), most (filesystem driver) setups support the following trick; <screen>\n"
@@ -5054,931 +5092,931 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3080
+#: plugins.docbook:3093
 #, no-c-format
 msgid "Search &amp; Replace"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3084
+#: plugins.docbook:3097
 #, no-c-format
 msgid "&kate;'s Search &amp; Replace plugin allows you to search for text or <ulink url=\"help:/katepart/regular-expressions.html\">regular expressions</ulink> in many different files at once. You can search all open files, all the files in one directory and optionally its subdirectories, or in the active file. You can even filter by filename, for instance searching only files that end with a particular file extension."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3097
+#: plugins.docbook:3110
 #, no-c-format
 msgid "Search Query"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3099
+#: plugins.docbook:3112
 #, no-c-format
 msgid "The following options are always displayed at the top of the Search in Files tool view:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3107
+#: plugins.docbook:3120
 #, no-c-format
 msgid "You can have as many searches as you want open at the same time. Simply click the new tab button at the top-left corner of the Search tool view and a new results tab will open permitting you to perform another search."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3118
+#: plugins.docbook:3131
 #, no-c-format
 msgid "The button in the top right-corner of the Search in Files tool view will toggle the bottom half of the tool view between displaying additional options for the Search in Folder mode and the results of your search."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3126
+#: plugins.docbook:3139
 #, no-c-format
 msgid "Find"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3127
+#: plugins.docbook:3140
 #, no-c-format
 msgid "This is where you type in what you want to find. You may enter standard text, or a regular expression if enabled."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:3134
+#: plugins.docbook:3147
 #, no-c-format
 msgid "<guilabel>Replace</guilabel> (text box)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3135
+#: plugins.docbook:3148
 #, no-c-format
 msgid "Replacement text that will be added to file(s) in place of the text in the <guilabel>Find</guilabel> text box."
 msgstr ""
 
 #. Tag: guibutton
 #. +> trunk6 stable6
-#: plugins.docbook:3142
+#: plugins.docbook:3155
 #, no-c-format
 msgid "Search"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3143
+#: plugins.docbook:3156
 #, no-c-format
 msgid "When you've finished configuring everything, just press the <guibutton>Search</guibutton> button to perform your search; to perform the search in a new tab press and hold &Ctrl; before pressing the <guibutton>Search</guibutton> button. You may also press &Enter; in the <guilabel>Find</guilabel> text box to do the same (similarly pressing <keycombo action=\"simul\">&Ctrl;&Enter;</keycombo> will perform the search in a new tab)."
 msgstr ""
 
 #. Tag: guibutton
 #. +> trunk6 stable6
-#: plugins.docbook:3155
+#: plugins.docbook:3168
 #, no-c-format
 msgid "Replace"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3156
+#: plugins.docbook:3169
 #, no-c-format
 msgid "When you've finished configuring everything, just press the <guibutton>Replace</guibutton> button to replace the text entered in the <guilabel>Find</guilabel> text box with that of the <guilabel>Replace</guilabel> text box. You may also press &Enter; in the <guilabel>Replace</guilabel> text box to do the same."
 msgstr ""
 
 #. Tag: guibutton
 #. +> trunk6 stable6
-#: plugins.docbook:3166
+#: plugins.docbook:3179
 #, no-c-format
 msgid "Next"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3167
+#: plugins.docbook:3180
 #, no-c-format
 msgid "Go to the next match of your search query, switching files if necessary."
 msgstr ""
 
 #. Tag: guibutton
 #. +> trunk6 stable6
-#: plugins.docbook:3173
+#: plugins.docbook:3186
 #, no-c-format
 msgid "Replace Checked"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3174
+#: plugins.docbook:3187
 #, no-c-format
 msgid "The same as <guibutton>Replace</guibutton>, but will only perform replacements in files that are checked in the pane below."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3184
+#: plugins.docbook:3197
 #, no-c-format
 msgid "Search in Folder Options"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3186
+#: plugins.docbook:3199
 #, no-c-format
 msgid "These options are displayed below the aforementioned query options. If search results are being displayed instead, press the <guiicon><inlinemediaobject><imageobject> <imagedata fileref=\"games-config-options-22.png\" format=\"PNG\"/></imageobject></inlinemediaobject></guiicon> button to display them."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3194
+#: plugins.docbook:3207
 #, no-c-format
 msgid "Search in"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3195
+#: plugins.docbook:3208
 #, no-c-format
 msgid "This has three options. Select <guilabel>Open Files</guilabel> to search all files currently open in &kate;. Select <guilabel>Folder</guilabel> to search inside a folder and optionally its subfolders. Select <guilabel>Current File</guilabel> to search only in the active file."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3201
+#: plugins.docbook:3214
 #, no-c-format
 msgid "If the <guilabel>Projects</guilabel> plugin is loaded, you can also search in the <guilabel>Current Project</guilabel> or in <guilabel>All Open Projects</guilabel>."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3208
+#: plugins.docbook:3221
 #, no-c-format
 msgid "Match case"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3209
+#: plugins.docbook:3222
 #, no-c-format
 msgid "Restricts search results to only those that have the exact same combination of upper and lower case letters as your search query."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3216
+#: plugins.docbook:3229
 #, no-c-format
 msgid "Regular expressions"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3217
+#: plugins.docbook:3230
 #, no-c-format
 msgid "Permits you to use <ulink url=\"help:/katepart/regular-expressions.html\">regular expressions</ulink> instead of simple text as your search query."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3224
+#: plugins.docbook:3237
 #, no-c-format
 msgid "Expand results"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3225
+#: plugins.docbook:3238
 #, no-c-format
 msgid "Display all the results found in each file, instead of just a list of files that contain the search query."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3232
+#: plugins.docbook:3245
 #, no-c-format
 msgid "Folder"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3233
+#: plugins.docbook:3246
 #, no-c-format
 msgid "You may enter the path of the folder you wish to search. For instance, you might enter <userinput>~/development/kde/kate/</userinput> if you wished to search the &kate; source code. This option is only available when using <guilabel>in Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guiicon
 #. +> trunk6 stable6
-#: plugins.docbook:3242
+#: plugins.docbook:3255
 #, no-c-format
 msgid "Open file dialog"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3243
+#: plugins.docbook:3256
 #, no-c-format
 msgid "Press this button to locate the folder in your desktop's folder browser. This button only works when using <guilabel>Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3252
+#: plugins.docbook:3265
 #, no-c-format
 msgid "Press this button to change <guilabel>Folder</guilabel> to the parent of the currently selected folder. This button only works when using <guilabel>Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3262
+#: plugins.docbook:3275
 #, no-c-format
 msgid "This button will set the <guilabel>Folder</guilabel> entry to the folder in which the currently open document is located. This button only works when using <guilabel>Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3270
+#: plugins.docbook:3283
 #, no-c-format
 msgid "Filter"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3271
+#: plugins.docbook:3284
 #, no-c-format
 msgid "This permits you to only search filenames that match a particular pattern. For instance, to only search files written in C++, change it to <userinput>*.cpp</userinput>. To search only files beginning with <literal>kate</literal>, change it to <userinput>kate*</userinput>. You can enter multiple filters separated with a comma (<userinput>,</userinput>). This option is not available when using <guilabel>Open files</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3282
+#: plugins.docbook:3295
 #, no-c-format
 msgid "Exclude"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3283
+#: plugins.docbook:3296
 #, no-c-format
 msgid "The opposite of <guilabel>Filter</guilabel>, this prevents &kate; from searching files that match the specified patterns. As with <guilabel>Filter</guilabel>, you can enter multiple patterns separated with a comma (<userinput>,</userinput>). This option is not available when using <guilabel>Open files</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3293
+#: plugins.docbook:3306
 #, no-c-format
 msgid "Recursive"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3294
+#: plugins.docbook:3307
 #, no-c-format
 msgid "If this option is enabled, &kate; will also search in all subfolders of the selected folder. This option is only available when using <guilabel>Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3302
+#: plugins.docbook:3315
 #, no-c-format
 msgid "Include hidden"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3303
+#: plugins.docbook:3316
 #, no-c-format
 msgid "If this option is enabled, &kate; will also search in files or folders that are typically hidden by your &OS;. This option is only available when using <guilabel>Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3311
+#: plugins.docbook:3324
 #, no-c-format
 msgid "Follow symbolic links"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3312
+#: plugins.docbook:3325
 #, no-c-format
 msgid "The Search in Files plugin typically does not follow <ulink url=\"https://en.wikipedia.org/wiki/Symbolic_link\">symbolic links</ulink>. When this option is enabled, the plugin will follow them instead and search inside the files or folders they reference. This option is only available when using <guilabel>Folder</guilabel> mode."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3319
+#: plugins.docbook:3332
 #, no-c-format
 msgid "It's possible for symbolic links to reference a folder that is the parent of the folder currently being searched, or other folders that contain symbolic links to their parent. If there is such a link in the folder being searched and this option is enabled, &kate; will repeatedly follow the link and search the folder, and the search will never complete."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3328
+#: plugins.docbook:3341
 #, no-c-format
 msgid "Include binary files"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3329
+#: plugins.docbook:3342
 #, no-c-format
 msgid "If enabled, &kate; will also search in files that do not appear to be text files."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3339
+#: plugins.docbook:3352
 #, no-c-format
 msgid "Search Results"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3341
+#: plugins.docbook:3354
 #, no-c-format
 msgid "The results of your search are displayed below the query options. If options for Search in Folder mode are displayed, simply press the <guiicon><inlinemediaobject><imageobject><imagedata fileref=\"games-config-options-22.png\" format=\"PNG\"/> </imageobject></inlinemediaobject></guiicon> button to display them. They will also automatically be displayed as soon as a search is performed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3348
+#: plugins.docbook:3361
 #, no-c-format
 msgid "The search results display a list of files that contains text that matches your search query, followed by the number of matches found in that file."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3351
+#: plugins.docbook:3364
 #, no-c-format
 msgid "To see a list of matches in that file, simply click the expansion arrow to the left of the file name. (If you selected the <guilabel>Expand results</guilabel> option, this will already be done for you.) The line number each match is found on will be displayed, followed by the contents of that line, with your search query indicated in bold text."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3357
+#: plugins.docbook:3370
 #, no-c-format
 msgid "To open the file your result was found in, simply double-click it. &kate; will open the file if needed. You can also move the cursor to the location of a particular match by double-clicking on its listing instead of the file name."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:3371
+#: plugins.docbook:3384
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>F</keycap></keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Search in Files</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3379
+#: plugins.docbook:3392
 #, no-c-format
 msgid "Launches the Search and Replace tool view."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:3384
+#: plugins.docbook:3397
 #, no-c-format
 msgid "<guimenu>Edit</guimenu> <guimenuitem>Go to Next Match</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3389
+#: plugins.docbook:3402
 #, no-c-format
 msgid "Go to the next match in a search performed by the Search and Replace plugin."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:3395
+#: plugins.docbook:3408
 #, no-c-format
 msgid "<guimenu>Edit</guimenu> <guimenuitem>Go to Previous Match</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3400
+#: plugins.docbook:3413
 #, no-c-format
 msgid "Go to the previous match in a search performed by the Search and Replace plugin."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:3406
+#: plugins.docbook:3419
 #, no-c-format
 msgid "<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show Search and Replace</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3411
+#: plugins.docbook:3424
 #, no-c-format
 msgid "Toggle the display of &kate;'s <guilabel>Search and Replace</guilabel> tool."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3428
+#: plugins.docbook:3441
 #, no-c-format
 msgid "&kate; Scripts &amp; Snippets"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3432
+#: plugins.docbook:3445
 #, no-c-format
 msgid "The &kate; Scripts &amp; Snippets plugin allows you to add, and manage your own bits of automation. This can range from static re-useable pieces of plain text, over sophisticated templates with custom automated and scriptable fields, to fully custom &javascript; scripts to modify the contents of your document."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3436
+#: plugins.docbook:3449
 #, no-c-format
 msgid "For the most part, these types of content are managed in exactly the same way. Therefore, for ease of reading, the following discussion does not differentiate between static snippets, scripted snippets, and scripts. Rather, the term <quote>snippet</quote> is used to refer to all of them."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3439
+#: plugins.docbook:3452
 #, no-c-format
 msgid "The plugin also supports assigning keyboard shortcuts, and inserting snippets via code completion. Further, you can download collections of snippets (so-called repositories) from the internet."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:3449
+#: plugins.docbook:3462
 #, no-c-format
 msgid "<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show Snippets</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3451
+#: plugins.docbook:3464
 #, no-c-format
 msgid "Shows snippets panel containing all snippets in your repository that are for the currently opened file type."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:3456
+#: plugins.docbook:3469
 #, no-c-format
 msgid "<guimenu>Tools</guimenu> <guimenuitem>Create Snippet</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3461
+#: plugins.docbook:3474
 #, no-c-format
 msgid "Create a new snippet, which is a reusable chunk of text you may insert in any part of any document, or a small script."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3471
+#: plugins.docbook:3484
 #, no-c-format
 msgid "Snippets panel"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: plugins.docbook:3474
+#: plugins.docbook:3487
 #, no-c-format
 msgid "&kate; Snippets Panel"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: plugins.docbook:3477
+#: plugins.docbook:3490
 #, no-c-format
 msgid "The &kate; snippets panel."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3478
+#: plugins.docbook:3491
 #, no-c-format
 msgid "The panel for &kate; Snippets."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3482
+#: plugins.docbook:3495
 #, no-c-format
 msgid "In the panel you should see a list of snippet repositories, along with options to create your own, get them from the Internet or load them from a local file. Each repository has a checkbox that can be used to activate or deactivate it. There are also buttons to edit and delete existing repositories."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3489
+#: plugins.docbook:3502
 #, no-c-format
 msgid "Loading Snippet Repository Files"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3490
+#: plugins.docbook:3503
 #, no-c-format
 msgid "You can download snippet repositories from the Internet. Just click <guibutton>Get New Snippets</guibutton> and a window with a list of snippet repositories will open. After downloading the desired snippet, make sure that you have activated it."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3501
+#: plugins.docbook:3514
 #, no-c-format
 msgid "Creating and Editing Repositories"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3503
+#: plugins.docbook:3516
 #, no-c-format
 msgid "To create a new snippet repository, click <guibutton>Add Repository</guibutton>. You should now see a dialog that asks for the name of the snippet file, license and author. After choosing the desired options, click <guibutton>OK</guibutton>."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: plugins.docbook:3508 plugins.docbook:3558
+#: plugins.docbook:3521 plugins.docbook:3571
 #, no-c-format
 msgid "Snippet Editor"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: plugins.docbook:3511
+#: plugins.docbook:3524
 #, no-c-format
 msgid "The repository editor."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3512
+#: plugins.docbook:3525
 #, no-c-format
 msgid "The repository editor interface."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3516
+#: plugins.docbook:3529
 #, no-c-format
 msgid "The snippet repository editor contains the following options:"
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3521 plugins.docbook:3569
+#: plugins.docbook:3534 plugins.docbook:3582
 #, no-c-format
 msgid "Name"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3522
+#: plugins.docbook:3535
 #, no-c-format
 msgid "Appears in the list of snippets in the tool view and is also searched when using the code completion feature."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3527
+#: plugins.docbook:3540
 #, no-c-format
 msgid "Namespace"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3528
+#: plugins.docbook:3541
 #, no-c-format
 msgid "Prefix used while using code completion."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3532
+#: plugins.docbook:3545
 #, no-c-format
 msgid "License"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3533
+#: plugins.docbook:3546
 #, no-c-format
 msgid "Select the license for you snippet repository."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3537
+#: plugins.docbook:3550
 #, no-c-format
 msgid "Authors"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3538
+#: plugins.docbook:3551
 #, no-c-format
 msgid "Enter the name(s) of the author(s) of the snippet file."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3542
+#: plugins.docbook:3555
 #, no-c-format
 msgid "File types"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3543
+#: plugins.docbook:3556
 #, no-c-format
 msgid "Select the file type(s) you want the snippet repository to apply to. It is set to <quote></quote> by default, so the repository applies to all files. You can change it to something like <userinput>C++</userinput> for instance, or select from a list by clicking on the items. You can specify more than one file type pressing the &Shift; while adding types."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3555
+#: plugins.docbook:3568
 #, no-c-format
 msgid "Creating and Editing Snippets"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: plugins.docbook:3561
+#: plugins.docbook:3574
 #, no-c-format
 msgid "The snippet editor."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3562
+#: plugins.docbook:3575
 #, no-c-format
 msgid "The snippet editor interface."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3570
+#: plugins.docbook:3583
 #, no-c-format
 msgid "The name as shown in the list of snippets, and in the completion list (required)."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3574
+#: plugins.docbook:3587
 #, no-c-format
 msgid "Type"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3575
+#: plugins.docbook:3588
 #, no-c-format
 msgid "Snippets may either be defined as text templates or scripts. Both types allow to use &javascript; functions (see below for details), and can thus be used to similar effect. However, as a rule of thumb, text templates will be more suitable if you mostly want to <emphasis>insert</emphasis> text, while scripts are often an easier solution if you want to <emphasis>modify</emphasis> text)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3579
+#: plugins.docbook:3592
 #, no-c-format
 msgid "Kate needs to be compiled against KTextEditor version 6.15.0 or higher, for this feature to be available. For earlier versions, only text template snippets can be used."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:3583
+#: plugins.docbook:3596
 #, no-c-format
 msgid "Shortcut"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3584
+#: plugins.docbook:3597
 #, no-c-format
 msgid "Pressing this shortcut will insert (or run) the snippet into the current document."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:3588
+#: plugins.docbook:3601
 #, no-c-format
 msgid "<guilabel>Snippet</guilabel> (type <userinput>Text Template</userinput>)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3589
+#: plugins.docbook:3602
 #, no-c-format
 msgid "The text your snippet will insert into the document."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3590
+#: plugins.docbook:3603
 #, no-c-format
 msgid "A snippet can contain editable fields. They can be cycled by pressing &Tab;. The following expressions can be used in the template text to create fields:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3593
+#: plugins.docbook:3606
 #, no-c-format
 msgid "<userinput>${<replaceable>field_name</replaceable>}</userinput> creates a simple, editable field. All subsequent occurrences of the same <replaceable>field_name</replaceable> create fields which mirror the contents of the first during editing."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3599
+#: plugins.docbook:3612
 #, no-c-format
 msgid "Field names may contain any character except for the closing curly bracket (<userinput>}</userinput>)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3600
+#: plugins.docbook:3613
 #, no-c-format
 msgid "To insert <userinput>${text}</userinput> literally in a snippet, escape the <userinput>$</userinput> sign with a backslash: <userinput>\\${text}</userinput>. The text will then not be turned into a field. To insert literal backslashes before a field, escape each individual backslash: <userinput>\\\\${field}</userinput>, <userinput>\\\\\\\\${field}</userinput>, and so on."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3606
+#: plugins.docbook:3619
 #, no-c-format
 msgid "<userinput>${func(<replaceable>other_field1</replaceable>, <replaceable>other_field2</replaceable>, ...)}</userinput> creates a field which evaluates a &javascript; function on each edit and is replaced by that function's return value. See the <link linkend=\"snippet-input-library\"><guilabel>Script Library</guilabel></link> tab for more information."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3612
+#: plugins.docbook:3625
 #, no-c-format
 msgid "<userinput>${<replaceable>field_name=default</replaceable>}</userinput> sets a default value for the field. <replaceable>default</replaceable> is a &javascript; expression. Use quotes (<userinput>${<replaceable>field_name</replaceable>=<replaceable>\"text\"</replaceable>}</userinput>) to specify a fixed string as the default value."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3618
+#: plugins.docbook:3631
 #, no-c-format
 msgid "When using default values (<userinput>${<replaceable>field_name=default</replaceable>}</userinput>), keep in mind that the default value is evaluated immediately when the snippet is inserted into the document, and it is not updated later when fields are changed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3621
+#: plugins.docbook:3634
 #, no-c-format
 msgid "You can reference other fields in default values if they are defined before the default value that is being evaluated. However, this will only give you access to the default value of these fields."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3623
+#: plugins.docbook:3636
 #, no-c-format
 msgid "If no custom default value is defined, the default value is a field's name."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3626
+#: plugins.docbook:3639
 #, no-c-format
 msgid "<userinput>${cursor}</userinput> marks the end position of the cursor after everything else was filled in. Inserting text at this position will finish editing. Plus after pressing &Esc; to finish editing, the cursor will jump to this position."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:3633
+#: plugins.docbook:3646
 #, no-c-format
 msgid "<guilabel>Snippet</guilabel> (type <userinput>Script</userinput>)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3634
+#: plugins.docbook:3647
 #, no-c-format
 msgid "The &javascript; code to evaluate for this snippet"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3635
+#: plugins.docbook:3648
 #, no-c-format
 msgid "If this code contains a <userinput>return</userinput> statement, the returned string will be inserted at the current cursor position. You can also use the <ulink url=\"help:/katepart/dev-scripting.html#dev-scripting-api\">&kate; scripting API</ulink> to modify the document directly."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3638
+#: plugins.docbook:3651
 #, no-c-format
 msgid "Additionally, your code may use functions defined in the <link linkend=\"snippet-input-library\"><guilabel>Script Library</guilabel></link> tab, which are shared between all snippets in a repository."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3645
+#: plugins.docbook:3658
 #, no-c-format
 msgid "Script Library"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3646
+#: plugins.docbook:3659
 #, no-c-format
 msgid "&javascript; helper functions to use in your snippets. These functions are shared between all snippets in a repository."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3647
+#: plugins.docbook:3660
 #, no-c-format
 msgid "You can use the <ulink url=\"help:/katepart/dev-scripting.html#dev-scripting-api\">&kate; scripting API</ulink> to get the selected text, full text, file name, and more by using the appropriate methods of the <userinput>document</userinput> and <userinput>view</userinput> objects. Refer to the scripting API documentation for more information."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3651
+#: plugins.docbook:3664
 #, no-c-format
 msgid "When a function is called in a field of a <userinput>Text Template</userinput> snippet, its <emphasis>return</emphasis> value is inserted into the text."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3655
+#: plugins.docbook:3668
 #, no-c-format
 msgid "Using functions in <userinput>Text Template</userinput> snippets:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3657
+#: plugins.docbook:3670
 #, no-c-format
 msgid "Functions can access the up-to-date contents of all fields through the <userinput>fields</userinput> object: use <userinput>fields.my_field</userinput> or <userinput>fields[\"my_field\"]</userinput>. When using a function as the default value for a field, only fields defined in the text before are available."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3660
+#: plugins.docbook:3673
 #, no-c-format
 msgid "Fields can be passed as arguments to functions. The field name can be used directly if it is a valid &javascript; identifier and no variable with that name exists. Otherwise use the <userinput>fields</userinput> object: <userinput>${func(field)}</userinput>, <userinput>${func(fields.document)}</userinput>, <userinput>${func(fields[\"my field\"])}</userinput>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3664
+#: plugins.docbook:3677
 #, no-c-format
 msgid "Function fields (e.g. <userinput>${func()}</userinput>) are re-evaluated every time any field's contents are changed. However, this does not apply to function calls in default values: they are only evaluated once when the snippet is inserted into the document."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3667
+#: plugins.docbook:3680
 #, no-c-format
 msgid "For more complex scripts it may be important to understand that <emphasis>first</emphasis>, the raw snippet is inserted into the document, and <emphasis>then</emphasis> functions are being evaluated. E.g., if a function retrieves the text on the line where the snippet is being inserted, that text will also contain <userinput>${functionCall()}</userinput>. Where this causes complications, consider using a <userinput>Script</userinput>-type snippet, instead."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3673
+#: plugins.docbook:3686
 #, no-c-format
 msgid "To simply wrap the currently selected text into tags, use: <userinput>&lt;strong&gt;${view.selectedText()}&lt;/strong&gt;</userinput>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3674
+#: plugins.docbook:3687
 #, no-c-format
 msgid "Remember that only the <emphasis>return value</emphasis> of a function is inserted in a field."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:3682
+#: plugins.docbook:3695
 #, no-c-format
 msgid "Description"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3683
+#: plugins.docbook:3696
 #, no-c-format
 msgid "An optional description of what this snippet does. This will be shown in tooltips. The description may contain basic HTML formatting."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:3688
+#: plugins.docbook:3701
 #, no-c-format
 msgid "Usage example"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3689
+#: plugins.docbook:3702
 #, no-c-format
 msgid "The following example invokes a script that wraps the selected text, or - if there is no selection - a default text, into tags (Snippet type <userinput>Script</userinput>):"
 msgstr ""
 
 #. Tag: programlisting
 #. +> trunk6 stable6
-#: plugins.docbook:3692
+#: plugins.docbook:3705
 #, no-c-format
 msgid ""
 "let range = view.hasSelection() ? view.selection() : new Range(view.cursorPosition(), view.cursorPosition());\n"
@@ -5989,483 +6027,483 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3703
+#: plugins.docbook:3716
 #, no-c-format
 msgid "Using Snippets"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: plugins.docbook:3706
+#: plugins.docbook:3719
 #, no-c-format
 msgid "&kate; Snippets in Action"
 msgstr ""
 
 #. Tag: phrase
 #. +> trunk6 stable6
-#: plugins.docbook:3709
+#: plugins.docbook:3722
 #, no-c-format
 msgid "Accessing &kate; Snippets from a tool view and a drop down menu."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3710
+#: plugins.docbook:3723
 #, no-c-format
 msgid "Selecting from a list of snippets."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3714
+#: plugins.docbook:3727
 #, no-c-format
 msgid "You can call snippets in several ways:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3717
+#: plugins.docbook:3730
 #, no-c-format
 msgid "By clicking on the snippet from the tool view."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3718
+#: plugins.docbook:3731
 #, no-c-format
 msgid "Using a keyboard shortcut, if you have assigned one."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3719
+#: plugins.docbook:3732
 #, no-c-format
 msgid "While writing, you can press <keycombo action=\"simul\">&Ctrl; &Space;</keycombo>, which will display all the snippets in a convenient window from which you can choose. This key combination provides functionality similar to code completion."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3725
+#: plugins.docbook:3738
 #, no-c-format
 msgid "If the snippet contains variables (besides <literal>${cursor}</literal>) the cursor will automatically go to the first occurrence of a variable and will wait for you to write something. When you are done, you can press &Tab; to move to the next variable, and so on."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3734
+#: plugins.docbook:3747
 #, no-c-format
 msgid "&kate; Snippets was written by Joseph Wenninger."
 msgstr ""
 
 #. Tag: author
 #. +> trunk6 stable6
-#: plugins.docbook:3745
+#: plugins.docbook:3758
 #, no-c-format
 msgid "<firstname>Pablo</firstname> <surname>Rauzy</surname> <email>r .at. uzy.me</email>"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3748
+#: plugins.docbook:3761
 #, no-c-format
 msgid "Keyboard Macros Plugin"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3752
+#: plugins.docbook:3765
 #, no-c-format
 msgid "Record and play keyboard macros (i.e., keyboard action sequences)."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3756
+#: plugins.docbook:3769
 #, no-c-format
 msgid "Basic usage"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3759
+#: plugins.docbook:3772
 #, no-c-format
 msgid "To start recording a keyboard macro:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3760
+#: plugins.docbook:3773
 #, no-c-format
 msgid "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</guimenuitem><guimenuitem>Record Macro...</guimenuitem></menuchoice> (<keycombo action=\"simul\">&Ctrl;&Shift;<keycap>K</keycap></keycombo>)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3764
+#: plugins.docbook:3777
 #, no-c-format
 msgid "The plugin will record every key presses until you end recording."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3768
+#: plugins.docbook:3781
 #, no-c-format
 msgid "To end recording:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3769
+#: plugins.docbook:3782
 #, no-c-format
 msgid "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</guimenuitem><guimenuitem>End Macro Recording</guimenuitem></menuchoice> (<keycombo action=\"simul\">&Ctrl;&Shift;<keycap>K</keycap></keycombo>)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3773
+#: plugins.docbook:3786
 #, no-c-format
 msgid "The plugin will stop recording key presses and save the sequence as the current macro."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3777
+#: plugins.docbook:3790
 #, no-c-format
 msgid "To cancel recording:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3778
+#: plugins.docbook:3791
 #, no-c-format
 msgid "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</guimenuitem><guimenuitem>Cancel Macro Recording</guimenuitem></menuchoice> (<keycombo action=\"simul\">&Ctrl;&Alt;&Shift;<keycap>K</keycap></keycombo>)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3782
+#: plugins.docbook:3795
 #, no-c-format
 msgid "The plugin will stop recording key presses but the current macro won't change."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3786
+#: plugins.docbook:3799
 #, no-c-format
 msgid "To play the current macro:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3787
+#: plugins.docbook:3800
 #, no-c-format
 msgid "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</guimenuitem><guimenuitem>Play Macro</guimenuitem></menuchoice> (<keycombo action=\"simul\">&Ctrl;&Alt;<keycap>K</keycap></keycombo>)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3791
+#: plugins.docbook:3804
 #, no-c-format
 msgid "The plugin will play the current macro."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3792
+#: plugins.docbook:3805
 #, no-c-format
 msgid "The <userinput>kmplay</userinput> command without any arguments will also play the current macro."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3798
+#: plugins.docbook:3811
 #, no-c-format
 msgid "Named macros"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3800
+#: plugins.docbook:3813
 #, no-c-format
 msgid "It is possible to save keyboard macros by giving them a name."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3801
+#: plugins.docbook:3814
 #, no-c-format
 msgid "Named macros are persistent between Kate's sessions, they're saved in the <filename>keyboardmacros.json</filename> file in Kate's user data directory (usually <filename>~/.local/share/kate/</filename>)."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3804
+#: plugins.docbook:3817
 #, no-c-format
 msgid "To save the current macro:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3805
+#: plugins.docbook:3818
 #, no-c-format
 msgid "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</guimenuitem><guimenuitem>Save Current Macro</guimenuitem></menuchoice> (<keycombo action=\"simul\">&Alt;&Shift;<keycap>K</keycap></keycombo>)."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3809
+#: plugins.docbook:3822
 #, no-c-format
 msgid "The plugin will prompt you for a name and save the macro under it."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3810
+#: plugins.docbook:3823
 #, no-c-format
 msgid "The <userinput>kmsave <replaceable>name</replaceable></userinput> command will save the current macro under the name <userinput><replaceable>name</replaceable></userinput>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3814
+#: plugins.docbook:3827
 #, no-c-format
 msgid "To load a saved macro as the current one:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3815
+#: plugins.docbook:3828
 #, no-c-format
 msgid "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</guimenuitem><guimenuitem>Load Named Macro...</guimenuitem></menuchoice>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3818
+#: plugins.docbook:3831
 #, no-c-format
 msgid "The plugin lists saved macros as items in this submenu, activating an item will load the corresponding macro as the current one."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3819
+#: plugins.docbook:3832
 #, no-c-format
 msgid "The <userinput>kmload <replaceable>name</replaceable></userinput> command will load the macro saved under the name <userinput><replaceable>name</replaceable></userinput> as the current one."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3823
+#: plugins.docbook:3836
 #, no-c-format
 msgid "To play a saved macro without loading it:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3824
+#: plugins.docbook:3837
 #, no-c-format
 msgid "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</guimenuitem><guimenuitem>Play Named Macro...</guimenuitem></menuchoice>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3827
+#: plugins.docbook:3840
 #, no-c-format
 msgid "The plugin lists saved macros as items in this submenu, activating an item will play the corresponding macro without loading it."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3828
+#: plugins.docbook:3841
 #, no-c-format
 msgid "Note that each saved macros is an action that is part of the current action collection so that a custom shortcut can be assigned to it through the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Keyboard Shortcuts...</guimenuitem></menuchoice> interface."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3829
+#: plugins.docbook:3842
 #, no-c-format
 msgid "The <userinput>kmplay <replaceable>name</replaceable></userinput> command will play the macro saved under the name <userinput><replaceable>name</replaceable></userinput> without loading it."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3833
+#: plugins.docbook:3846
 #, no-c-format
 msgid "To wipe (i.e., delete) a saved macro:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3834
+#: plugins.docbook:3847
 #, no-c-format
 msgid "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</guimenuitem><guimenuitem>Wipe Named Macro...</guimenuitem></menuchoice>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3837
+#: plugins.docbook:3850
 #, no-c-format
 msgid "The plugin lists saved macros as items in this submenu, activating an item will wipe (i.e., delete) the corresponding macro."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3838
+#: plugins.docbook:3851
 #, no-c-format
 msgid "The <userinput>kmwipe <replaceable>name</replaceable></userinput> command will wipe the macro saved under the name <userinput><replaceable>name</replaceable></userinput>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3842
+#: plugins.docbook:3855
 #, no-c-format
 msgid "Tips for commands:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3843
+#: plugins.docbook:3856
 #, no-c-format
 msgid "Note that after the <userinput>km</userinput> prefix, all these commands use a different letter so you can efficiently call them using tab-completion!"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3849
+#: plugins.docbook:3862
 #, no-c-format
 msgid "Limitations"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3851
+#: plugins.docbook:3864
 #, no-c-format
 msgid "As of now, keyboard macros fail to play properly if some types of GUI widgets are used: QMenu, QuickOpenLineEdit, or TabSwitcherTreeView, for example. I'm not sure why but my first guess would be that these widgets work in a non-standard way regarding keyboard events."
 msgstr ""
 
 #. Tag: author
 #. +> trunk6 stable6
-#: plugins.docbook:3862
+#: plugins.docbook:3875
 #, no-c-format
 msgid "<firstname>Ömer</firstname> <othername>Faruk</othername> <surname>ORUÇ</surname>"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3866
+#: plugins.docbook:3879
 #, no-c-format
 msgid "SQL Plugin"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3871
+#: plugins.docbook:3884
 #, no-c-format
 msgid "The Structured Query Language (SQL) is a specialized language for updating, deleting, and requesting information from databases."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3874
+#: plugins.docbook:3887
 #, no-c-format
 msgid "The &kate; SQL Plugin allows you to:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3877
+#: plugins.docbook:3890
 #, no-c-format
 msgid "Create a database"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3878
+#: plugins.docbook:3891
 #, no-c-format
 msgid "Connect to existing databases"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3879
+#: plugins.docbook:3892
 #, no-c-format
 msgid "Insert and delete data in the database"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3880
+#: plugins.docbook:3893
 #, no-c-format
 msgid "Execute queries"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3881
+#: plugins.docbook:3894
 #, no-c-format
 msgid "Display results in a table"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3887
+#: plugins.docbook:3900
 #, no-c-format
 msgid "Connecting to a Database"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3889
+#: plugins.docbook:3902
 #, no-c-format
 msgid "Select <guibutton>Add Connection</guibutton> from the <guimenu>SQL</guimenu> menu or toolbar, and then select the &Qt; database driver you want to use (including QSQLITE, QMYSQL3, QMYSQL, QODBC3, QODBC, QPSQL7, and QPSQL). If you can't see the desired driver, you need to install it. Then, press <guibutton>Next</guibutton>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3895
+#: plugins.docbook:3908
 #, no-c-format
 msgid "If the database you selected uses a file, simply indicate the database's location and press the <guibutton>Next</guibutton> button. If it requires connecting to a server, you must enter the hostname of the server, your username and password, and any other information that particular driver may require. Then press <guibutton>Next</guibutton>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3901
+#: plugins.docbook:3914
 #, no-c-format
 msgid "Finally, give a name to your connection, and press <guibutton>Finish</guibutton>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3906
+#: plugins.docbook:3919
 #, no-c-format
 msgid "Running Queries"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3909
+#: plugins.docbook:3922
 #, no-c-format
 msgid "INSERT/DELETE/UPDATE"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3911
+#: plugins.docbook:3924
 #, no-c-format
 msgid "You can insert, delete, and update data using the SQL plugin just as you would from the command line or from within a program. Simply enter a query and press the <guibutton>Run query</guibutton> button in the toolbar or use <menuchoice><guimenu>SQL</guimenu><guimenuitem>Run query</guimenuitem></menuchoice> (<keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo>)."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3918
+#: plugins.docbook:3931
 #, no-c-format
 msgid "Some Example Queries"
 msgstr ""
 
 #. Tag: programlisting
 #. +> trunk6 stable6
-#: plugins.docbook:3923
+#: plugins.docbook:3936
 #, no-c-format
 msgid ""
 "INSERT INTO <replaceable>table_name</replaceable> (\"<replaceable>feature1</replaceable>\", \"<replaceable>feature2</replaceable>\", \"<replaceable>feature3</replaceable>\", \"<replaceable>feature4</replaceable>\", \"<replaceable>feature5</replaceable>\")\n"
@@ -6474,1120 +6512,1120 @@ msgstr ""
 
 #. Tag: programlisting
 #. +> trunk6 stable6
-#: plugins.docbook:3928
+#: plugins.docbook:3941
 #, no-c-format
 msgid "DELETE FROM <replaceable>table_name</replaceable> WHERE name = \"<replaceable>text</replaceable>\""
 msgstr ""
 
 #. Tag: programlisting
 #. +> trunk6 stable6
-#: plugins.docbook:3933
+#: plugins.docbook:3946
 #, no-c-format
 msgid "UPDATE <replaceable>table_name</replaceable> SET \"<replaceable>feature1</replaceable>\" = \"<replaceable>text</replaceable>\", \"<replaceable>feature2</replaceable>\" = \"<replaceable>text</replaceable>\", \"<replaceable>feature3</replaceable>\" = \"<replaceable>text</replaceable>\", \"<replaceable>feature4</replaceable>\" = \"<replaceable>text</replaceable>\", \"<replaceable>feature5</replaceable>\" = \"<replaceable>text</replaceable>\""
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3942
+#: plugins.docbook:3955
 #, no-c-format
 msgid "SELECT"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3944
+#: plugins.docbook:3957
 #, no-c-format
 msgid "After running a <command>SELECT</command> query, you can view the results as a table that will appear in the <guilabel>SQL Data Output</guilabel> tool view at the bottom of &kate;, or as text in the <guilabel>SQL Text Output</guilabel>. If there is an error, you can see it in the text output."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3950
+#: plugins.docbook:3963
 #, no-c-format
 msgid "Example <command>SELECT</command> Query"
 msgstr ""
 
 #. Tag: programlisting
 #. +> trunk6 stable6
-#: plugins.docbook:3951
+#: plugins.docbook:3964
 #, no-c-format
 msgid "SELECT * FROM <replaceable>table_name</replaceable>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3954
+#: plugins.docbook:3967
 #, no-c-format
 msgid "In the <guilabel>SQL Data Output</guilabel> tool view, there are several buttons:"
 msgstr ""
 
 #. Tag: guibutton
 #. +> trunk6 stable6
-#: plugins.docbook:3959
+#: plugins.docbook:3972
 #, no-c-format
 msgid "Resize columns to contents"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3960
+#: plugins.docbook:3973
 #, no-c-format
 msgid "Changes the size of columns to fit their contents."
 msgstr ""
 
 #. Tag: guibutton
 #. +> trunk6 stable6
-#: plugins.docbook:3964
+#: plugins.docbook:3977
 #, no-c-format
 msgid "Resize rows to contents"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3965
+#: plugins.docbook:3978
 #, no-c-format
 msgid "Changes the size of rows to fit their contents."
 msgstr ""
 
 #. Tag: guibutton
 #. +> trunk6 stable6
-#: plugins.docbook:3969
+#: plugins.docbook:3982
 #, no-c-format
 msgid "Copy"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3970
+#: plugins.docbook:3983
 #, no-c-format
 msgid "Selects all of the table contents and copies it to the clipboard buffer."
 msgstr ""
 
 #. Tag: guibutton
 #. +> trunk6 stable6
-#: plugins.docbook:3974
+#: plugins.docbook:3987
 #, no-c-format
 msgid "Export"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3975
+#: plugins.docbook:3988
 #, no-c-format
 msgid "Exports all of the table contents to a file, the clipboard, or the current document in the Comma Separated Values format."
 msgstr ""
 
 #. Tag: guibutton
 #. +> trunk6 stable6
-#: plugins.docbook:3980
+#: plugins.docbook:3993
 #, no-c-format
 msgid "Clear"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3981
+#: plugins.docbook:3994
 #, no-c-format
 msgid "Removes everything from the table view."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3988
+#: plugins.docbook:4001
 #, no-c-format
 msgid "You can now change the colors displayed in the table in the <guilabel>SQL</guilabel> section of <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kate;...</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:3996
+#: plugins.docbook:4009
 #, no-c-format
 msgid "Browsing"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:3998
+#: plugins.docbook:4011
 #, no-c-format
 msgid "You can browse your database using the <guilabel>Database schema</guilabel> browser tool view on the left. The information displayed varies depending on which database driver you are using."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4002
+#: plugins.docbook:4015
 #, no-c-format
 msgid "To refresh this list, right-click anywhere in the tool view and select <guimenuitem>Refresh</guimenuitem>. To generate a query on any entry in the list, right-click on an entry, select <guisubmenu>Generate</guisubmenu>, and select the query type (<guimenuitem>SELECT</guimenuitem>, <guimenuitem>UPDATE</guimenuitem>, <guimenuitem>INSERT</guimenuitem>, or <guimenuitem>DELETE</guimenuitem>) from the submenu that appears."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4016
+#: plugins.docbook:4029
 #, no-c-format
 msgid "<guimenu>SQL</guimenu><guimenuitem>Add connection...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4019
+#: plugins.docbook:4032
 #, no-c-format
 msgid "Adds a new connection using any database driver."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4025
+#: plugins.docbook:4038
 #, no-c-format
 msgid "<guimenu>SQL</guimenu><guimenuitem>Remove connection</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4028
+#: plugins.docbook:4041
 #, no-c-format
 msgid "Removes the selected connection."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4034
+#: plugins.docbook:4047
 #, no-c-format
 msgid "<guimenu>SQL</guimenu><guimenuitem>Edit connection...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4037
+#: plugins.docbook:4050
 #, no-c-format
 msgid "Edits the current connection's settings."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:4043
+#: plugins.docbook:4056
 #, no-c-format
 msgid "Connections"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4044
+#: plugins.docbook:4057
 #, no-c-format
 msgid "All database connections you have created are listed between the <guimenuitem>Edit connection</guimenuitem> and <guimenuitem>Run query</guimenuitem> menu items. Select one to run queries or make modifications to it."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4052
+#: plugins.docbook:4065
 #, no-c-format
 msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo></shortcut> <guimenu>SQL</guimenu><guimenuitem>Run query</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4056
+#: plugins.docbook:4069
 #, no-c-format
 msgid "Runs your query."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4067
+#: plugins.docbook:4080
 #, no-c-format
 msgid "The SQL Plugin was written by Marco Mentasti."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4068
+#: plugins.docbook:4081
 #, no-c-format
 msgid "Special thanks to Google Code-In 2011 participant Ömer Faruk ORUÇ for writing much of this section."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4077
+#: plugins.docbook:4090
 #, no-c-format
 msgid "Symbol Viewer Plugin"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4082
+#: plugins.docbook:4095
 #, no-c-format
 msgid "It allows developers to view symbols (functions, macros and structures) from source code."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4083
+#: plugins.docbook:4096
 #, no-c-format
 msgid "By clicking the parsed information you can easily browse the code."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4084
+#: plugins.docbook:4097
 #, no-c-format
 msgid "At the moment the following languages are supported:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4085
+#: plugins.docbook:4098
 #, no-c-format
 msgid "C/C++, &Java;, Perl, PHP, Python, Ruby, XSLT, Tcl/Tk, Fortran"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4087
+#: plugins.docbook:4100
 #, no-c-format
 msgid "Feature list:"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: plugins.docbook:4089
+#: plugins.docbook:4102
 #, no-c-format
 msgid "List/Tree mode"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: plugins.docbook:4090
+#: plugins.docbook:4103
 #, no-c-format
 msgid "Enable/disable sorting"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: plugins.docbook:4091
+#: plugins.docbook:4104
 #, no-c-format
 msgid "Hide/Show Functions Parameters"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: plugins.docbook:4092
+#: plugins.docbook:4105
 #, no-c-format
 msgid "Expand/collapse tree mode"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: plugins.docbook:4093
+#: plugins.docbook:4106
 #, no-c-format
 msgid "Auto-update on document change"
 msgstr ""
 
 #. Tag: member
 #. +> trunk6 stable6
-#: plugins.docbook:4094
+#: plugins.docbook:4107
 #, no-c-format
 msgid "Code parsing is based on the Syntax-Highlighting framework from &kde-frameworks;"
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4104
+#: plugins.docbook:4117
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>\\</keycap></keycombo> </shortcut> <guimenu>View</guimenu> <guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show Symbol List</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4113
+#: plugins.docbook:4126
 #, no-c-format
 msgid "Toggle the display of &kate;'s Symbol List displaying Functions, Macros and Structures of the source code in the active document."
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: plugins.docbook:4126
+#: plugins.docbook:4139
 #, no-c-format
 msgid "Symbol Viewer"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4129
+#: plugins.docbook:4142
 #, no-c-format
 msgid "Choose the default parser options"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4139
+#: plugins.docbook:4152
 #, no-c-format
 msgid "Terminal Tool View Plugin"
 msgstr ""
 
 #. Tag: primary
 #. +> trunk6 stable6
-#: plugins.docbook:4141
+#: plugins.docbook:4154
 #, no-c-format
 msgid "Terminal emulator"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4141
+#: plugins.docbook:4154
 #, no-c-format
 msgid "The built in Terminal Emulator is a copy of the &kde; &konsole; terminal application, for your convenience. It is available from the <menuchoice><guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show Terminal Panel</guimenuitem></menuchoice> menu item and will get the focus whenever displayed. Additionally, if the <link linkend=\"konsole-config\">Automatically synchronize the terminal with the current document when possible</link> option is enabled, it will change to the directory of the current document if possible when it is displayed, or when the current document changes."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4153
+#: plugins.docbook:4166
 #, no-c-format
 msgid "The default location in the &kate; window is at the bottom, below the editing area."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4156
+#: plugins.docbook:4169
 #, no-c-format
 msgid "You can configure the &konsole; using its &RMB; menu, for more information, see the <ulink url=\"help:/konsole/index.html\">&konsole; manual</ulink>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4159
+#: plugins.docbook:4172
 #, no-c-format
 msgid "The built-in terminal emulator is provided by the Terminal Tool View plugin."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4167
+#: plugins.docbook:4180
 #, no-c-format
 msgid "<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show Terminal Panel</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4172
+#: plugins.docbook:4185
 #, no-c-format
 msgid "Toggles the display of the built-in terminal emulator."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4173
+#: plugins.docbook:4186
 #, no-c-format
 msgid "When activated for the first time, the terminal will be created."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4174
+#: plugins.docbook:4187
 #, no-c-format
 msgid "When the terminal emulator is displayed, it will get the focus, so that you can start typing in commands immediately. If the <link linkend=\"konsole-config\">Automatically synchronize the terminal with the current document when possible</link> option is enabled in the <guilabel>Terminal</guilabel> page of the <link linkend=\"config-dialog\">Main configuration dialog</link> the shell session will change to the directory of the active document, if it is a local file."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4185
+#: plugins.docbook:4198
 #, no-c-format
 msgid "<guimenu>Tools</guimenu><guimenuitem>Pipe to Terminal</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4187
+#: plugins.docbook:4200
 #, no-c-format
 msgid "Feed the currently selected text into the built-in terminal emulator. No newline is added after the text."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4192
+#: plugins.docbook:4205
 #, no-c-format
 msgid "<guimenu>Tools</guimenu> <guimenuitem>Synchronize Terminal with Current Document</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4196
+#: plugins.docbook:4209
 #, no-c-format
 msgid "This will cause the built-in Terminal to <command>cd</command> into the directory of the active document."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4199
+#: plugins.docbook:4212
 #, no-c-format
 msgid "Alternatively, you can configure &kate; to always keep the terminal in sync with the current document. See <xref linkend=\"konsole-config\"/> for more information."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4206
+#: plugins.docbook:4219
 #, no-c-format
 msgid "<guimenu>Tools</guimenu> <guimenuitem>Run Current Document</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4210
+#: plugins.docbook:4223
 #, no-c-format
 msgid "Run the current document in &konsole;. Only the local documents can be run. &kate; will show a warning before running document because this action can be a serious security threat."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4217
+#: plugins.docbook:4230
 #, no-c-format
 msgid "<guimenu>Tools</guimenu> <guimenuitem>Focus/Defocus Terminal Panel</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4222
+#: plugins.docbook:4235
 #, no-c-format
 msgid "Switch the focus from the current document to the terminal and vice versa."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4233
+#: plugins.docbook:4246
 #, no-c-format
 msgid "You can configure the Terminal Tool View plugin on the <guilabel>Terminal</guilabel> page of the <link linkend=\"configuring-kate\">configuration dialog</link>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4237
+#: plugins.docbook:4250
 #, no-c-format
 msgid "The following options are available:"
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:4242
+#: plugins.docbook:4255
 #, no-c-format
 msgid "Automatically synchronize the terminal with the current document when possible"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4243
+#: plugins.docbook:4256
 #, no-c-format
 msgid "This will cause the built-in terminal to <command>cd</command> into the directory of the active document when launched and when a new document gets the focus. If not enabled, you have to do all your navigation in the terminal on your own."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:4251
+#: plugins.docbook:4264
 #, no-c-format
 msgid "Set EDITOR environment variable to 'kate -b'"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4252
+#: plugins.docbook:4265
 #, no-c-format
 msgid "This sets the <envar>EDITOR</envar> environment variable so programs run in the built-in terminal that automatically open a file in an editor will open them in &kate; instead of the default editor configured in your shell. You will not be able to continue using the terminal until you have closed the file in &kate;, so the calling program is aware you have finished editing the file."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:4260
+#: plugins.docbook:4273
 #, no-c-format
 msgid "Hide &konsole; on pressing 'Esc'"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4261
+#: plugins.docbook:4274
 #, no-c-format
 msgid "This allows closing the built-in terminal by pressing the &Esc; key. May cause issues with terminal applications that use &Esc; key, &eg; <application>vim</application>. Add such applications in the text input box below. The items in the list should be separated with comma."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4273
+#: plugins.docbook:4286
 #, no-c-format
 msgid "Text Filter Plugin"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4276
+#: plugins.docbook:4289
 #, no-c-format
 msgid "Using the Text Filter Plugin"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4278
+#: plugins.docbook:4291
 #, no-c-format
 msgid "You can use this plugin to process selected text using terminal commands. The selection will be used as input for the command, and the output will either replace the selection or be copied to the clipboard, depending on the user's preference."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4284
+#: plugins.docbook:4297
 #, no-c-format
 msgid "Examples:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4285
+#: plugins.docbook:4298
 #, no-c-format
 msgid "<command>less /etc/fstab</command> - paste the contents of this file or copy it to the clipboard"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4288
+#: plugins.docbook:4301
 #, no-c-format
 msgid "<command>wc</command> - count lines, words and characters of the selection and paste this into the document or copy it to the clipboard"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4292
+#: plugins.docbook:4305
 #, no-c-format
 msgid "<command>sort</command> - sort lines of the selection and paste the result into the document or copy it to the clipboard"
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4306
+#: plugins.docbook:4319
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>\\</keycap></keycombo> </shortcut> <guimenu>Tools</guimenu> <guisubmenu>Filter Text</guisubmenu>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4315
+#: plugins.docbook:4328
 #, no-c-format
 msgid "<action>Opens</action> the Text Filter dialog:"
 msgstr ""
 
 #. Tag: screeninfo
 #. +> trunk6 stable6
-#: plugins.docbook:4318
+#: plugins.docbook:4331
 #, no-c-format
 msgid "Text Filter dialog"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4324
+#: plugins.docbook:4337
 #, no-c-format
 msgid "Enter the shell command into the combobox or select a previous command from the history."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:4329
+#: plugins.docbook:4342
 #, no-c-format
 msgid "Copy the result instead of pasting it"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4331
+#: plugins.docbook:4344
 #, no-c-format
 msgid "Copy the result to clipboard leaving a document unchanged."
 msgstr ""
 
 #. Tag: guilabel
 #. +> trunk6 stable6
-#: plugins.docbook:4336
+#: plugins.docbook:4349
 #, no-c-format
 msgid "Merge STDOUT and STDERR"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4338
+#: plugins.docbook:4351
 #, no-c-format
 msgid "If checked, an output from STDOUT and STDERR will be merged and no errors will be reported. Otherwise, STDERR will be displayed as a passive message."
 msgstr ""
 
 #. Tag: author
 #. +> trunk6 stable6
-#: plugins.docbook:4358 plugins.docbook:4420
+#: plugins.docbook:4371 plugins.docbook:4433
 #, no-c-format
 msgid "&Daniel.Naber; &Daniel.Naber.mail;"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4363
+#: plugins.docbook:4376
 #, no-c-format
 msgid "&XML; Validation"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4365
+#: plugins.docbook:4378
 #, no-c-format
 msgid "This plugin checks &XML; files for validity and being well-formed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4366
+#: plugins.docbook:4379
 #, no-c-format
 msgid "This plugin checks the current file. A list of warnings and errors will appear at the bottom of &kate;'s main window. You can click on an error message to jump to the corresponding place in the file. If the file has a <quote>DOCTYPE</quote> the DTD given with this doctype will be used to check the file for validity. The DTD is expected at a position relative to the current file, &eg; if the doctype refers to <quote>DTD/xhtml1-transitional.dtd</quote> and the file is <filename>/home/peter/test.xml</filename> the DTD is expected to be located at <filename>/home/peter/DTD/xhtml1-transitional.dtd</filename>. However, remote DTDs specified via http are supported."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4375
+#: plugins.docbook:4388
 #, no-c-format
 msgid "If the file has no doctype it will be checked for being well-formed."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4377
+#: plugins.docbook:4390
 #, no-c-format
 msgid "To learn more about &XML; check out the <ulink url=\"https://www.w3.org/XML/\"> official W3C &XML; pages</ulink>."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4379
+#: plugins.docbook:4392
 #, no-c-format
 msgid "Internally this plugin calls the external command <command>xmllint</command>, which is part of libxml2. If this command is not correctly installed on your system, the plugin will not work."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4383
+#: plugins.docbook:4396
 #, no-c-format
 msgid "To load this plugin open &kate;'s configuration dialog under <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kate;...</guimenuitem></menuchoice>. Then select <guilabel>&XML; Validation</guilabel> which will appear in the <guilabel>Application</guilabel> / <guilabel>Plugins</guilabel> section and close the dialog."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4395
+#: plugins.docbook:4408
 #, no-c-format
 msgid "<guimenu>&XML;</guimenu> <guimenuitem>Validate &XML;</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4400
+#: plugins.docbook:4413
 #, no-c-format
 msgid "This will start the check, as described above."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4408
+#: plugins.docbook:4421
 #, no-c-format
 msgid "&kate; Plugin <quote>&XML; Validation</quote> copyright 2002 &Daniel.Naber; &Daniel.Naber.mail;."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4412
+#: plugins.docbook:4425
 #, no-c-format
 msgid "Documentation copyright 2002 &Daniel.Naber;"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4424
+#: plugins.docbook:4437
 #, no-c-format
 msgid "&XML; Completion"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4426
+#: plugins.docbook:4439
 #, no-c-format
 msgid "This plugin gives hints about what is allowed at a certain position in an &XML; file, according to the file's DTD. It will list possible elements, attributes, attribute values or entities, depending on the cursor position (&eg; all entities are listed if the character on the left of the cursor is <quote>&amp;</quote>). It's also possible to close the nearest open tag on the left."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4433
+#: plugins.docbook:4446
 #, no-c-format
 msgid "The <acronym>DTD</acronym> must exist in &XML; format, as produced by the Perl program <command>dtdparse</command>. We will call a DTD in this format <quote>meta DTD</quote>. Some meta DTDs are supplied. They are installed in <filename class=\"directory\">katexmltools/</filename> in <userinput><command>qtpaths</command> <option>--paths GenericDataLocation </option></userinput>, which is also the default folder when you choose <guimenuitem>Assign Meta DTD...</guimenuitem>. To produce your own meta DTDs, get <command>dtdparse</command> from <ulink url=\"http://dtdparse.sourceforge.net\">http://dtdparse.sourceforge.net</ulink>."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4444
+#: plugins.docbook:4457
 #, no-c-format
 msgid "How to Use"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4446
+#: plugins.docbook:4459
 #, no-c-format
 msgid "Start &kate; and open the configuration dialog under <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kate;...</guimenuitem></menuchoice>. Then select <guilabel>&XML; Completion</guilabel> which will appear in the <menuchoice><guimenu>Application</guimenu> <guimenuitem>Plugins</guimenuitem></menuchoice> page and close the dialog. After that, select <menuchoice><guimenu>&XML;</guimenu><guimenuitem>Assign Meta DTD...</guimenuitem></menuchoice>. If your document contains no <quote>DOCTYPE</quote> or the doctype is unknown, you will have to select a meta DTD from the file system. Otherwise the meta DTD that matches the current document's DOCTYPE will be loaded automatically."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4456
+#: plugins.docbook:4469
 #, no-c-format
 msgid "You can now use the plugin while typing your text:"
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:4461
+#: plugins.docbook:4474
 #, no-c-format
 msgid "<keycap>&lt;</keycap> (less than key)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4462
+#: plugins.docbook:4475
 #, no-c-format
 msgid "This will trigger a list of possible elements unless the cursor is inside a tag already. Note that you currently cannot use this to insert the top level element (&eg; <quote>&lt;html&gt;</quote>)."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:4468
+#: plugins.docbook:4481
 #, no-c-format
 msgid "<keycap>&lt;</keycap><keycap>/</keycap>(less than key + slash)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4469
+#: plugins.docbook:4482
 #, no-c-format
 msgid "Entering these characters will offer to close the current element (nearest open one to the left of the cursor). Press &Enter; to accept the suggestion. Unlike the <guimenuitem>Close Element</guimenuitem> menu item, this works only with a DTD assigned."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:4476
+#: plugins.docbook:4489
 #, no-c-format
 msgid "<keycap>\"</keycap> (quote key)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4477
+#: plugins.docbook:4490
 #, no-c-format
 msgid "The quote key will trigger a list of possible attribute values (if there are any) if you are inside a tag."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:4482
+#: plugins.docbook:4495
 #, no-c-format
 msgid "<keycap>&nbsp;</keycap> (space key)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4483
+#: plugins.docbook:4496
 #, no-c-format
 msgid "This key will trigger a list of possible attributes for the current element if you are inside a tag."
 msgstr ""
 
 #. Tag: term
 #. +> trunk6 stable6
-#: plugins.docbook:4489
+#: plugins.docbook:4502
 #, no-c-format
 msgid "<keycap>&amp;</keycap> (ampersand key)"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4490
+#: plugins.docbook:4503
 #, no-c-format
 msgid "This key will trigger a list of named entities."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4497
+#: plugins.docbook:4510
 #, no-c-format
 msgid "Features and Limitations"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4499
+#: plugins.docbook:4512
 #, no-c-format
 msgid "You can test all functions and limitations by loading <filename>katexmltools/testcases.xml</filename> in <userinput><command>qtpaths</command> <option>--paths GenericDataLocation </option></userinput> into &kate; and following the instructions."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4512
+#: plugins.docbook:4525
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Enter;</keycombo> </shortcut> <guimenu>&XML;</guimenu> <guimenuitem>Insert Element...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4519
+#: plugins.docbook:4532
 #, no-c-format
 msgid "This will open a dialog that lets you insert an &XML; element. The &lt;, &gt; characters and the closing tag will be inserted automatically. If you have selected text when this menu item is selected, the selected text will be surrounded by the opening and the closing tag. The dialog also offers completion of all elements that may be inserted at the current cursor position if you have assigned a meta DTD by using <guimenuitem>Assign Meta DTD...</guimenuitem>."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4530
+#: plugins.docbook:4543
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>&lt;</keycap></keycombo> </shortcut> <guimenu>&XML;</guimenu> <guimenuitem>Close Element</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4537
+#: plugins.docbook:4550
 #, no-c-format
 msgid "This will search your text for a tag that is not yet closed and will close it by inserting the corresponding closing tag. The search starts at the cursor position and goes left. If it cannot find an open tag nothing will happen."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6 stable6
-#: plugins.docbook:4544
+#: plugins.docbook:4557
 #, no-c-format
 msgid "<guimenu>&XML;</guimenu> <guimenuitem>Assign Meta DTD...</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4548
+#: plugins.docbook:4561
 #, no-c-format
 msgid "This will tell the plugin which meta DTD to use for the current document. Note that this assignment will not be saved. You will have to repeat it when you start &kate; the next time."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4558
+#: plugins.docbook:4571
 #, no-c-format
 msgid "&kate; Plugin <quote>&XML; Completion</quote> copyright 2001,2002 &Daniel.Naber; &Daniel.Naber.mail;."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4562
+#: plugins.docbook:4575
 #, no-c-format
 msgid "&kde; SC 4 version copyright 2010 Tomáš Trnka"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4563
+#: plugins.docbook:4576
 #, no-c-format
 msgid "Documentation copyright 2001,2002 &Daniel.Naber;"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4568
+#: plugins.docbook:4581
 #, no-c-format
 msgid "Compiler Explorer Plugin"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4570
+#: plugins.docbook:4583
 #, no-c-format
 msgid "The compiler explorer plugin allows you to use compiler explorer from within Kate. Compiler explorer is usually limited to 1 file only and it is difficult to use it to see the codegen of a file in your project. This plugin aims to simplify this process by automatically detecting compile commands for your file."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4573 plugins.docbook:4601
+#: plugins.docbook:4586 plugins.docbook:4614
 #, no-c-format
 msgid "Usage"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4575
+#: plugins.docbook:4588
 #, no-c-format
 msgid "The first thing you need to do is to open a compiler explorer tab. Hit <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>I</keycap></keycombo> to open the command bar and search for \"Open Current File in Compiler Explorer\" and hit enter. You can add this action to the toolbar or assign a shortcut to it for easier access."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4579
+#: plugins.docbook:4592
 #, no-c-format
 msgid "Next you need to setup a local instance of compiler explorer or use the public <ulink url=\"https://godbolt.org/\">https://godbolt.org/</ulink> instance. See <ulink url=\"https://github.com/compiler-explorer/compiler-explorer\">https://github.com/compiler-explorer/compiler-explorer</ulink>. Once you have an instance, click on <guilabel>Option</guilabel> combobox in the compiler explorer tab you opened earlier and select <guilabel>Change Url...</guilabel> and then enter the url of the compiler explorer server."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4581
+#: plugins.docbook:4594
 #, no-c-format
 msgid "Next you need a compile_commands.json if you need to see codegen for a file in your project. Otherwise you can skip this part. This can easily be obtained if you are using a modern build system like CMake or Meson. For CMake it is enough to pass <code>-DCMAKE_EXPORT_COMPILE_COMMANDS=ON</code> when invoking cmake. The <code>compile_commands.json</code> should be placed at the root of your project. Close and reopen the compiler explorer tab in Kate. After reopening the tab it should show the compile commands need to compile the file"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4583
+#: plugins.docbook:4596
 #, no-c-format
 msgid "If you are just using compiler explorer to see the codegen for something temporary, you can just write down the compile commands for your file and click the <guilabel>Compile</guilabel>. Note that auto recompilation on editing is not supported. You need to click Compile every time you want to recompile the file"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4585
+#: plugins.docbook:4598
 #, no-c-format
 msgid "Once the file is compiled you should see the codegen on the right hand side. You can right-click and select <guilabel>Reveal linked code</guilabel> to see the codegen for a particular line. Similarly on the right hand side, you can right click and select <guilabel>Scroll to source</guilabel> to show the source code for a given codegen line"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4594
+#: plugins.docbook:4607
 #, no-c-format
 msgid "Formatting Plugin"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4596
+#: plugins.docbook:4609
 #, no-c-format
 msgid "The formatting plugin allows one to format code easily. The plugin aims to preserve the document's undo history and user's cursor position when formatting the code so that the formatting of code doesn't disrupt user's work. This is especially important for automatic formatting on save."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4603
+#: plugins.docbook:4616
 #, no-c-format
 msgid "It allows the user to format code in two ways:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4606
+#: plugins.docbook:4619
 #, no-c-format
 msgid "Manually using the \"Format Document\" action."
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4607
+#: plugins.docbook:4620
 #, no-c-format
 msgid "Automatically on save"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4611
+#: plugins.docbook:4624
 #, no-c-format
 msgid "You can search for this action in the command bar and bind a shortcut to it for easier access"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4616
+#: plugins.docbook:4629
 #, no-c-format
 msgid "Supported languages and formatters"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4618
+#: plugins.docbook:4631
 #, no-c-format
 msgid "The current list of supported languages and formatters are as follows:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4622
+#: plugins.docbook:4635
 #, no-c-format
 msgid "C/C++/ObjectiveC/ObjectiveC++/Protobuf/GLSL/Java - <command>clang-format</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4625
+#: plugins.docbook:4638
 #, no-c-format
 msgid "Javascript/Typescript/JSX/TSX - <command>prettier</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4628
+#: plugins.docbook:4641
 #, no-c-format
 msgid "JSON"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4636
+#: plugins.docbook:4649
 #, no-c-format
 msgid "Dart - <command>dartfmt</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4637
+#: plugins.docbook:4650
 #, no-c-format
 msgid "Rust - <command>rustfmt</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4638
+#: plugins.docbook:4651
 #, no-c-format
 msgid "Go - <command>gofmt</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4639
+#: plugins.docbook:4652
 #, no-c-format
 msgid "XML - <command>xmllint</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4640
+#: plugins.docbook:4653
 #, no-c-format
 msgid "Zig - <command>zigfmt</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: plugins.docbook:4641
+#: plugins.docbook:4654
 #, no-c-format
 msgid "CMake - <command>gersemi</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4642
+#: plugins.docbook:4655
 #, no-c-format
 msgid "D - <command>dfmt</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4643
+#: plugins.docbook:4656
 #, no-c-format
 msgid "Fish Shell - <command>fish_indent</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4644
+#: plugins.docbook:4657
 #, no-c-format
 msgid "Bash - <command>shfmt</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4645
+#: plugins.docbook:4658
 #, no-c-format
 msgid "Nix - <command>nixfmt</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4646
+#: plugins.docbook:4659
 #, no-c-format
 msgid "QML - <command>qmlformat</command>"
 msgstr ""
@@ -7601,91 +7639,91 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4647
+#: plugins.docbook:4660
 #, no-c-format
 msgid "HTML - <command>prettier</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4648
+#: plugins.docbook:4661
 #, no-c-format
 msgid "Swift - <command>swiftformat</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4649
+#: plugins.docbook:4662
 #, no-c-format
 msgid "Erlang - <command>erlfmt</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4650
+#: plugins.docbook:4663
 #, no-c-format
 msgid "Godot Script - <command>gdformat</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: plugins.docbook:4651
+#: plugins.docbook:4664
 #, no-c-format
 msgid "Perl - <command>perltidy</command>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4653
+#: plugins.docbook:4666
 #, no-c-format
 msgid "Python"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4660
+#: plugins.docbook:4673
 #, no-c-format
 msgid "YAML"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4673
+#: plugins.docbook:4686
 #, no-c-format
 msgid "Configuring"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4675
+#: plugins.docbook:4688
 #, no-c-format
 msgid "The plugin can be configured in two ways:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4677
+#: plugins.docbook:4690
 #, no-c-format
 msgid "Globally, from the Configure dialog"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4678
+#: plugins.docbook:4691
 #, no-c-format
 msgid "On a per project basis using the <filename>.kateproject</filename> file"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4682
+#: plugins.docbook:4695
 #, no-c-format
 msgid "When reading the config, the plugin will first try to read the config from <filename>.kateproject</filename> file and then read the global config. Example:"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6
-#: plugins.docbook:4686
+#: plugins.docbook:4699
 #, no-c-format
 msgid ""
 "{\n"
@@ -7719,28 +7757,28 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4688
+#: plugins.docbook:4701
 #, no-c-format
 msgid "The above:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4690
+#: plugins.docbook:4703
 #, no-c-format
 msgid "enables \"format on save\" globally"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4691
+#: plugins.docbook:4704
 #, no-c-format
 msgid "specifies \"jq\" as the formatter for JSON"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: plugins.docbook:4692
+#: plugins.docbook:4705
 #, no-c-format
 msgid "disables \"format on save\" for gersemi and autopep8"
 msgstr ""
@@ -7754,21 +7792,21 @@ msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4696
+#: plugins.docbook:4709
 #, no-c-format
 msgid "To configure formatting for a project, first create a <filename>.kateproject</filename> file and then add a <code>\"formatting\"</code> object to it. In the <code>\"formatting\"</code> object you can specify your settings as shown in the previous example. Example:"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4699
+#: plugins.docbook:4712
 #, no-c-format
 msgid "You need to enable the <link linkend=\"kate-application-plugin-projects\">Project plugin</link> for this to work"
 msgstr ""
 
 #. Tag: screen
 #. +> trunk6 stable6
-#: plugins.docbook:4701
+#: plugins.docbook:4714
 #, no-c-format
 msgid ""
 "{\n"
@@ -7789,14 +7827,14 @@ msgstr ""
 
 #. Tag: title
 #. +> trunk6 stable6
-#: plugins.docbook:4706
+#: plugins.docbook:4719
 #, no-c-format
 msgid "Temporarily disable format on save"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6 stable6
-#: plugins.docbook:4708
+#: plugins.docbook:4721
 #, no-c-format
 msgid "While working you will often need to disable the formatting for a short while due to any reason. You can do this from the menubar, <menuchoice><guimenu>Tools</guimenu> <guimenuitem>Format on Save</guimenuitem></menuchoice>. You can also trigger this action from the <guilabel>Command bar</guilabel>."
 msgstr ""
