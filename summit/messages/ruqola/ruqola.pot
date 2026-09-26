@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-25 09:35+0200\n"
+"POT-Creation-Date: 2026-09-26 09:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3446,14 +3446,20 @@ msgstr ""
 msgid "You don't have permission to add this channel to the team"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: rocketchatrestapi-qt/teams/teamslistroomsjob.cpp:91
+#, kde-format
+msgid "The required \"teamId\" or \"teamName\" param provided does not match any teams"
+msgstr ""
+
+#. +> stable6
+#: rocketchatrestapi-qt/teams/teamslistroomsjob.cpp:96
 #, kde-format
 msgid "The required \\\"roomId\\\" or \\\"roomName\\\" param provided does not match any teams"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rocketchatrestapi-qt/users/getavatarjob.cpp:81
+#: rocketchatrestapi-qt/users/getavatarjob.cpp:82
 #, kde-format
 msgid "Get Avatar"
 msgstr ""
@@ -3465,13 +3471,13 @@ msgid "Invalid Email '%1'."
 msgstr ""
 
 #. +> trunk6 stable6
-#: rocketchatrestapi-qt/users/setavatarjob.cpp:109
+#: rocketchatrestapi-qt/users/setavatarjob.cpp:111
 #, kde-format
 msgid "Invalid avatar URL: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rocketchatrestapi-qt/users/setavatarjob.cpp:113
+#: rocketchatrestapi-qt/users/setavatarjob.cpp:115
 #, kde-format
 msgid "Error while handling avatar setting from a URL \"%1\" for %2"
 msgstr ""

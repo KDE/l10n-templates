@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-25 09:34+0200\n"
+"POT-Creation-Date: 2026-09-26 09:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3497,7 +3497,7 @@ msgstr ""
 #: core/libs/album/manager/albummanager.cpp:181
 #: core/libs/album/widgets/albumselecttabs.cpp:180
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:70
-#: core/libs/properties/itempropertiestab.cpp:525
+#: core/libs/properties/itempropertiestab.cpp:500
 #: core/libs/tags/widgets/tagfolderview.cpp:102
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:689
 #: core/utilities/searchwindow/fields/searchfields_createfield.cpp:75
@@ -4621,7 +4621,7 @@ msgstr ""
 #: core/app/views/tableview/tableview_column_file.cpp:58
 #: core/app/views/tableview/tableview_column_file.cpp:91
 #: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:67
-#: core/libs/properties/itempropertiestab.cpp:489
+#: core/libs/properties/itempropertiestab.cpp:464
 #, kde-format
 msgid "Size"
 msgstr ""
@@ -4735,7 +4735,7 @@ msgstr ""
 #. +> trunk6
 #: core/app/views/tableview/tableview_column_item.cpp:74
 #: core/app/views/tableview/tableview_column_item.cpp:103
-#: core/libs/properties/itempropertiestab.cpp:494
+#: core/libs/properties/itempropertiestab.cpp:469
 #, kde-format
 msgid "Dimensions"
 msgstr ""
@@ -4976,7 +4976,7 @@ msgstr ""
 #: core/app/views/tableview/tableview_column_thumbnail.cpp:84
 #: core/dplugins/generic/webservices/imgur/imgurimageslist.cpp:53
 #: core/dplugins/generic/webservices/ipfs/ipfsimageslist.cpp:45
-#: core/libs/dtrash/dtrashitemmodel.cpp:258
+#: core/libs/dtrash/dtrashitemmodel.cpp:249
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:677
 #, kde-format
 msgid "Thumbnail"
@@ -8477,33 +8477,33 @@ msgid "If you press this button, all levels' values from the currently selected 
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:904
+#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:894
 #, kde-format
 msgid "Adjust Levels"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:911
+#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:901
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Gimp Levels File to Load"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:923
+#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:913
 #, kde-format
 msgid "Cannot load from the Gimp levels text file."
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:938
+#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:928
 #, kde-format
 msgctxt "@title:window"
 msgid "Gimp Levels File to Save"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:950
+#: core/dplugins/editor/colors/adjustlevels/adjustlevelstool.cpp:940
 #, kde-format
 msgid "Cannot save to the Gimp levels text file."
 msgstr ""
@@ -8956,7 +8956,7 @@ msgstr ""
 #. +> trunk6
 #: core/dplugins/editor/colors/whitebalance/whitebalancetool.cpp:77
 #: core/dplugins/editor/colors/whitebalance/whitebalancetool.cpp:241
-#: core/libs/properties/itempropertiestab.cpp:513
+#: core/libs/properties/itempropertiestab.cpp:488
 #: core/utilities/searchwindow/fields/searchfields_createfield.cpp:605
 #, kde-format
 msgid "White Balance"
@@ -9134,19 +9134,19 @@ msgid "Use semi-transparent text background under image"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/editor/decorate/inserttext/inserttexttool.cpp:301
+#: core/dplugins/editor/decorate/inserttext/inserttexttool.cpp:292
 #, kde-format
 msgid "Enter your text here."
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/editor/decorate/inserttext/inserttexttool.cpp:420
+#: core/dplugins/editor/decorate/inserttext/inserttexttool.cpp:411
 #, kde-format
 msgid "Insert Text Tool"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/editor/decorate/inserttext/inserttexttool.cpp:433
+#: core/dplugins/editor/decorate/inserttext/inserttexttool.cpp:424
 #, kde-format
 msgid "Insert Text"
 msgstr ""
@@ -11037,7 +11037,7 @@ msgid "Advanced Settings"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/editor/transform/contentawareresize/contentawareresizetool.cpp:745
+#: core/dplugins/editor/transform/contentawareresize/contentawareresizetool.cpp:736
 #, kde-format
 msgid "Liquid Rescale"
 msgstr ""
@@ -12357,14 +12357,14 @@ msgid "KML Export"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:600
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:589
 #, kde-format
 msgctxt "@info"
 msgid "Loading metadata -"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:793
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:782
 #, kde-format
 msgctxt "@info"
 msgid "You have 1 modified image."
@@ -12373,29 +12373,29 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:800
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:789
 #, kde-format
 msgctxt "@title:window"
 msgid "Unsaved Changes"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:801
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:790
 #, kde-format
 msgctxt "@info"
 msgid "%1 Would you like to save the changes you made to them?"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:916
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:905
 #, kde-format
 msgctxt "@info"
 msgid "Saving changes -"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:975
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:232
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:964
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:152
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:382
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:372
 #: core/dplugins/generic/webservices/box/boxwindow.cpp:239
@@ -12432,14 +12432,14 @@ msgid "Error"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:976
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:965
 #, kde-format
 msgctxt "@info"
 msgid "Failed to save some information:"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:1014
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:1003
 #, kde-format
 msgctxt "@title"
 msgid "Edit Geolocation"
@@ -16426,7 +16426,7 @@ msgstr ""
 
 #. +> trunk6
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:122
-#: core/libs/dialogs/solidhardwaredlg.cpp:290
+#: core/libs/dialogs/solidhardwaredlg.cpp:284
 #, kde-format
 msgctxt "@item"
 msgid "Properties"
@@ -18221,7 +18221,7 @@ msgid "unknown"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/expoblending/manager/expoblendingthread.cpp:957
+#: core/dplugins/generic/tools/expoblending/manager/expoblendingthread.cpp:938
 #, kde-format
 msgid ""
 "Cannot run %1:\n"
@@ -19414,25 +19414,25 @@ msgid "%1 Media Server"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/mediaserver/server/dmediaservermngr.cpp:156
+#: core/dplugins/generic/tools/mediaserver/server/dmediaservermngr.cpp:152
 #, kde-format
 msgid "Media Server have been started"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/mediaserver/server/dmediaservermngr.cpp:157
+#: core/dplugins/generic/tools/mediaserver/server/dmediaservermngr.cpp:153
 #, kde-format
 msgid "Media Server cannot be started!"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/mjpegstream/mjpegservermngr.cpp:173
+#: core/dplugins/generic/tools/mjpegstream/mjpegservermngr.cpp:169
 #, kde-format
 msgid "MJPEG Server have been started"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/mjpegstream/mjpegservermngr.cpp:174
+#: core/dplugins/generic/tools/mjpegstream/mjpegservermngr.cpp:170
 #, kde-format
 msgid "MJPEG Server cannot be started!"
 msgstr ""
@@ -20660,13 +20660,13 @@ msgid "Panorama Post-Processing"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:273
+#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:264
 #, kde-format
 msgid "Preview Processing Cancelled."
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:332
+#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:323
 #, kde-format
 msgid ""
 "<h1><b>Error</b></h1>"
@@ -20674,7 +20674,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:366
+#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:357
 #, kde-format
 msgctxt "a project file is a .pto file, as given to hugin to build a panorama"
 msgid ""
@@ -20683,7 +20683,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:396
+#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:387
 #, kde-format
 msgctxt "Error message for panorama compilation"
 msgid ""
@@ -20692,7 +20692,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:444
+#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:435
 #, kde-format
 msgid ""
 "<qt>"
@@ -20703,14 +20703,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:485
+#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:476
 #, kde-format
 msgctxt "Success for panorama compilation"
 msgid "Panorama compilation"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:526
+#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:517
 #, kde-format
 msgctxt "Panorama compilation started"
 msgid "Panorama compilation"
@@ -21099,7 +21099,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, m_photoUnits)
 #. +> trunk6
 #: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:203
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:967
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:929
 #, kde-format
 msgid "cm"
 msgstr ""
@@ -21114,7 +21114,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, m_photoUnits)
 #. +> trunk6
 #: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:213
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:962
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:924
 #, kde-format
 msgid "inches"
 msgstr ""
@@ -21423,27 +21423,27 @@ msgid "Open in File Browser"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:67
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:56
 #, kde-format
 msgctxt "@info layout page"
 msgid "Custom"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:128
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:117
 #, kde-format
 msgctxt "@info"
 msgid "Select your preferred print output."
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:508
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:479
 #, kde-format
 msgid "Add again"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:522
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:493
 #: core/utilities/geolocation/engine/osm/OsmRelationManagerWidget.cpp:174
 #: core/utilities/geolocation/engine/osm/OsmRelationManagerWidget.cpp:184
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksdlg.cpp:372
@@ -21452,20 +21452,20 @@ msgid "Remove"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1125
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1087
 #, kde-format
 msgctxt "@title:window"
 msgid "Custom Layout"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1126
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1088
 #, kde-format
 msgid "The selected custom photo size can not be applied to the paper size."
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1357
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1302
 #, kde-format
 msgid ""
 "Custom\n"
@@ -22905,28 +22905,21 @@ msgid "Soundtrack:"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:179
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:221
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:242
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:143
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:162
 #, kde-format
 msgctxt "artist - title"
 msgid "%1 - %2"
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:200
-#, kde-format
-msgid "No detail available"
-msgstr ""
-
-#. +> trunk6
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:233
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:153
 #, kde-format
 msgid "%1 may not be playable."
 msgstr ""
 
 #. +> trunk6
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:241
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:161
 #, kde-format
 msgid "This file may not be playable."
 msgstr ""
@@ -26548,7 +26541,7 @@ msgstr ""
 
 #. +> trunk6
 #: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:67
-#: core/libs/properties/itempropertiestab.cpp:527
+#: core/libs/properties/itempropertiestab.cpp:502
 #: core/libs/template/templatepanel.cpp:275
 #: core/libs/template/templateviewer.cpp:147
 #, kde-format
@@ -30115,10 +30108,10 @@ msgid "Shared directory mounted at \"%1\""
 msgstr ""
 
 #. +> trunk6
-#: core/libs/database/coredb/coredbaccess.cpp:303
-#: core/libs/database/similaritydb/similaritydbaccess.cpp:233
-#: core/libs/database/thumbsdb/thumbsdbaccess.cpp:243
-#: core/libs/facesengine/facedb/facedbaccess.cpp:234
+#: core/libs/database/coredb/coredbaccess.cpp:293
+#: core/libs/database/similaritydb/similaritydbaccess.cpp:223
+#: core/libs/database/thumbsdb/thumbsdbaccess.cpp:233
+#: core/libs/facesengine/facedb/facedbaccess.cpp:224
 #, kde-format
 msgid ""
 "Error opening database backend.\n"
@@ -31943,7 +31936,7 @@ msgid "Features"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/libsinfodlg_features.cpp:93
+#: core/libs/dialogs/libsinfodlg_features.cpp:81
 #, kde-format
 msgctxt "@item: information about memory"
 msgid "Unknown"
@@ -32082,117 +32075,117 @@ msgid "Refresh"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:268
-#: core/libs/dialogs/solidhardwaredlg.cpp:392
+#: core/libs/dialogs/solidhardwaredlg.cpp:262
+#: core/libs/dialogs/solidhardwaredlg.cpp:386
 #, kde-format
 msgctxt "@item: universal device ID"
 msgid "Udi"
 msgstr ""
 
 #. +> trunk6
+#: core/libs/dialogs/solidhardwaredlg.cpp:262
 #: core/libs/dialogs/solidhardwaredlg.cpp:268
+#: core/libs/dialogs/solidhardwaredlg.cpp:271
 #: core/libs/dialogs/solidhardwaredlg.cpp:274
-#: core/libs/dialogs/solidhardwaredlg.cpp:277
-#: core/libs/dialogs/solidhardwaredlg.cpp:280
 #, kde-format
 msgctxt "@item: device property"
 msgid "empty"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:271
-#: core/libs/dialogs/solidhardwaredlg.cpp:395
+#: core/libs/dialogs/solidhardwaredlg.cpp:265
+#: core/libs/dialogs/solidhardwaredlg.cpp:389
 #, kde-format
 msgctxt "@item: parent device ID"
 msgid "Parent Udi"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:271
-#: core/libs/dialogs/solidhardwaredlg.cpp:283
+#: core/libs/dialogs/solidhardwaredlg.cpp:265
+#: core/libs/dialogs/solidhardwaredlg.cpp:277
 #, kde-format
 msgctxt "@item: device property"
 msgid "none"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:274
+#: core/libs/dialogs/solidhardwaredlg.cpp:268
 #, kde-format
 msgctxt "@item; device constructor"
 msgid "Vendor"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:277
-#: core/libs/dialogs/solidhardwaredlg.cpp:401
+#: core/libs/dialogs/solidhardwaredlg.cpp:271
+#: core/libs/dialogs/solidhardwaredlg.cpp:395
 #, kde-format
 msgctxt "@item: device name"
 msgid "Product"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:280
-#: core/libs/dialogs/solidhardwaredlg.cpp:404
+#: core/libs/dialogs/solidhardwaredlg.cpp:274
+#: core/libs/dialogs/solidhardwaredlg.cpp:398
 #, kde-format
 msgctxt "@item: device description"
 msgid "Description"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:283
-#: core/libs/dialogs/solidhardwaredlg.cpp:407
+#: core/libs/dialogs/solidhardwaredlg.cpp:277
+#: core/libs/dialogs/solidhardwaredlg.cpp:401
 #, kde-format
 msgctxt "@item: device status"
 msgid "States"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:290
+#: core/libs/dialogs/solidhardwaredlg.cpp:284
 #, kde-format
 msgctxt "@item"
 msgid "Non-portable info"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:385
+#: core/libs/dialogs/solidhardwaredlg.cpp:379
 #, kde-format
 msgctxt "@item"
 msgid "New Device Added"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:395
-#: core/libs/dialogs/solidhardwaredlg.cpp:407
+#: core/libs/dialogs/solidhardwaredlg.cpp:389
+#: core/libs/dialogs/solidhardwaredlg.cpp:401
 #, kde-format
 msgctxt "@info: device property"
 msgid "none"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:398
+#: core/libs/dialogs/solidhardwaredlg.cpp:392
 #, kde-format
 msgctxt "@item: device constructor"
 msgid "Vendor"
 msgstr ""
 
 #. +> trunk6
+#: core/libs/dialogs/solidhardwaredlg.cpp:392
+#: core/libs/dialogs/solidhardwaredlg.cpp:395
 #: core/libs/dialogs/solidhardwaredlg.cpp:398
-#: core/libs/dialogs/solidhardwaredlg.cpp:401
-#: core/libs/dialogs/solidhardwaredlg.cpp:404
 #, kde-format
 msgctxt "@info: device property"
 msgid "empty"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:417
+#: core/libs/dialogs/solidhardwaredlg.cpp:411
 #, kde-format
 msgctxt "@item"
 msgid "Device Removed"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dialogs/solidhardwaredlg.cpp:420
+#: core/libs/dialogs/solidhardwaredlg.cpp:414
 #, kde-format
 msgctxt "@item"
 msgid "Udi"
@@ -36848,13 +36841,13 @@ msgid "Help"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dtrash/dtrashitemmodel.cpp:263
+#: core/libs/dtrash/dtrashitemmodel.cpp:254
 #, kde-format
 msgid "Relative Path"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/dtrash/dtrashitemmodel.cpp:268
+#: core/libs/dtrash/dtrashitemmodel.cpp:259
 #, kde-format
 msgid "Deletion Time"
 msgstr ""
@@ -38038,133 +38031,213 @@ msgid "Could not restore file %1 from trash"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:860
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:766
 #, kde-format
 msgctxt "@info: rotation"
 msgid "Unspecified"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:865
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:771
 #, kde-format
 msgctxt "@info: rotation of an unrotated image"
 msgid "Normal"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:870
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:776
 #, kde-format
 msgctxt "@info: rotation"
 msgid "Flipped Horizontally"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:875
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:781
 #, kde-format
 msgctxt "@info: rotation"
 msgid "Rotated by 180 Degrees"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:880
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:786
 #, kde-format
 msgctxt "@info: rotation"
 msgid "Flipped Vertically"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:885
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:791
 #, kde-format
 msgctxt "@info: rotation"
 msgid "Flipped Horizontally and Rotated Left"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:890
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:796
 #, kde-format
 msgctxt "@info: rotation"
 msgid "Rotated Left"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:895
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:801
 #, kde-format
 msgctxt "@info: rotation"
 msgid "Flipped Vertically and Rotated Left"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:900
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:806
 #, kde-format
 msgctxt "@info: rotation"
 msgid "Rotated Right"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:905
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:811
 #, kde-format
 msgctxt "@info: rotation"
 msgid "Unknown"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:991
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:897
 #, kde-format
 msgctxt "@info: Temperature in Kelvin"
 msgid "%1 K"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1017
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1033
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:923
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:939
 #, kde-format
 msgctxt "@info: For use in longitude coordinate"
 msgid "West"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1018
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1034
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:924
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:940
 #, kde-format
 msgctxt "@info: For use in longitude coordinate"
 msgid "East"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1053
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1069
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:959
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:975
 #, kde-format
 msgctxt "@info: For use in latitude coordinate"
 msgid "North"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1054
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1070
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:960
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:976
 #, kde-format
 msgctxt "@info: For use in latitude coordinate"
 msgid "South"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1083
-#, kde-format, no-c-format
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:989
+#, no-c-format, kde-format
 msgctxt "@info: Height in meters"
 msgid "%1m"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1263
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1169
 #, kde-format
 msgctxt "@info"
 msgid "Flash has been fired"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1264
+#: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1170
 #, kde-format
 msgctxt "@info"
 msgid "Flash with red-eye reduction mode"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:391
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:539
+#, kde-format
+msgctxt "@info: country code"
+msgid "Afar"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:392
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:540
+#, kde-format
+msgctxt "@info: country code"
+msgid "Abkhazian"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:393
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:541
+#, kde-format
+msgctxt "@info: country code"
+msgid "Afrikaans"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:394
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:542
+#, kde-format
+msgctxt "@info: country code"
+msgid "Amharic"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:395
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:543
+#, kde-format
+msgctxt "@info: country code"
+msgid "Arabic"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:396
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:544
+#, kde-format
+msgctxt "@info: country code"
+msgid "Assamese"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:397
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:545
+#, kde-format
+msgctxt "@info: country code"
+msgid "Aymara"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:398
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:546
+#, kde-format
+msgctxt "@info: country code"
+msgid "Azerbaijani"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:399
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:547
+#, kde-format
+msgctxt "@info: country code"
+msgid "Bashkir"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:400
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:548
+#, kde-format
+msgctxt "@info: country code"
+msgid "Byelorussian"
 msgstr ""
 
 #. +> trunk6
@@ -38172,7 +38245,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:549
 #, kde-format
 msgctxt "@info: country code"
-msgid "Afar"
+msgid "Bulgarian"
 msgstr ""
 
 #. +> trunk6
@@ -38180,7 +38253,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:550
 #, kde-format
 msgctxt "@info: country code"
-msgid "Abkhazian"
+msgid "Bihari"
 msgstr ""
 
 #. +> trunk6
@@ -38188,7 +38261,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:551
 #, kde-format
 msgctxt "@info: country code"
-msgid "Afrikaans"
+msgid "Bislama"
 msgstr ""
 
 #. +> trunk6
@@ -38196,7 +38269,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:552
 #, kde-format
 msgctxt "@info: country code"
-msgid "Amharic"
+msgid "Bengali;Bangla"
 msgstr ""
 
 #. +> trunk6
@@ -38204,7 +38277,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:553
 #, kde-format
 msgctxt "@info: country code"
-msgid "Arabic"
+msgid "Tibetan"
 msgstr ""
 
 #. +> trunk6
@@ -38212,7 +38285,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:554
 #, kde-format
 msgctxt "@info: country code"
-msgid "Assamese"
+msgid "Breton"
 msgstr ""
 
 #. +> trunk6
@@ -38220,7 +38293,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:555
 #, kde-format
 msgctxt "@info: country code"
-msgid "Aymara"
+msgid "Catalan"
 msgstr ""
 
 #. +> trunk6
@@ -38228,7 +38301,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:556
 #, kde-format
 msgctxt "@info: country code"
-msgid "Azerbaijani"
+msgid "Corsican"
 msgstr ""
 
 #. +> trunk6
@@ -38236,7 +38309,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:557
 #, kde-format
 msgctxt "@info: country code"
-msgid "Bashkir"
+msgid "Czech"
 msgstr ""
 
 #. +> trunk6
@@ -38244,7 +38317,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:558
 #, kde-format
 msgctxt "@info: country code"
-msgid "Byelorussian"
+msgid "Welsh"
 msgstr ""
 
 #. +> trunk6
@@ -38252,7 +38325,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:559
 #, kde-format
 msgctxt "@info: country code"
-msgid "Bulgarian"
+msgid "Danish"
 msgstr ""
 
 #. +> trunk6
@@ -38260,7 +38333,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:560
 #, kde-format
 msgctxt "@info: country code"
-msgid "Bihari"
+msgid "German"
 msgstr ""
 
 #. +> trunk6
@@ -38268,7 +38341,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:561
 #, kde-format
 msgctxt "@info: country code"
-msgid "Bislama"
+msgid "Dzongkha"
 msgstr ""
 
 #. +> trunk6
@@ -38276,7 +38349,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:562
 #, kde-format
 msgctxt "@info: country code"
-msgid "Bengali;Bangla"
+msgid "Greek"
 msgstr ""
 
 #. +> trunk6
@@ -38284,7 +38357,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:563
 #, kde-format
 msgctxt "@info: country code"
-msgid "Tibetan"
+msgid "English"
 msgstr ""
 
 #. +> trunk6
@@ -38292,7 +38365,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:564
 #, kde-format
 msgctxt "@info: country code"
-msgid "Breton"
+msgid "Esperanto"
 msgstr ""
 
 #. +> trunk6
@@ -38300,7 +38373,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:565
 #, kde-format
 msgctxt "@info: country code"
-msgid "Catalan"
+msgid "Spanish"
 msgstr ""
 
 #. +> trunk6
@@ -38308,7 +38381,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:566
 #, kde-format
 msgctxt "@info: country code"
-msgid "Corsican"
+msgid "Estonian"
 msgstr ""
 
 #. +> trunk6
@@ -38316,7 +38389,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:567
 #, kde-format
 msgctxt "@info: country code"
-msgid "Czech"
+msgid "Basque"
 msgstr ""
 
 #. +> trunk6
@@ -38324,7 +38397,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:568
 #, kde-format
 msgctxt "@info: country code"
-msgid "Welsh"
+msgid "Persian(farsi)"
 msgstr ""
 
 #. +> trunk6
@@ -38332,7 +38405,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:569
 #, kde-format
 msgctxt "@info: country code"
-msgid "Danish"
+msgid "Finnish"
 msgstr ""
 
 #. +> trunk6
@@ -38340,7 +38413,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:570
 #, kde-format
 msgctxt "@info: country code"
-msgid "German"
+msgid "Fijan"
 msgstr ""
 
 #. +> trunk6
@@ -38348,7 +38421,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:571
 #, kde-format
 msgctxt "@info: country code"
-msgid "Dzongkha"
+msgid "Faroese"
 msgstr ""
 
 #. +> trunk6
@@ -38356,7 +38429,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:572
 #, kde-format
 msgctxt "@info: country code"
-msgid "Greek"
+msgid "French"
 msgstr ""
 
 #. +> trunk6
@@ -38364,7 +38437,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:573
 #, kde-format
 msgctxt "@info: country code"
-msgid "English"
+msgid "Frisian"
 msgstr ""
 
 #. +> trunk6
@@ -38372,7 +38445,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:574
 #, kde-format
 msgctxt "@info: country code"
-msgid "Esperanto"
+msgid "Irish"
 msgstr ""
 
 #. +> trunk6
@@ -38380,7 +38453,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:575
 #, kde-format
 msgctxt "@info: country code"
-msgid "Spanish"
+msgid "Scotsgaelic"
 msgstr ""
 
 #. +> trunk6
@@ -38388,7 +38461,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:576
 #, kde-format
 msgctxt "@info: country code"
-msgid "Estonian"
+msgid "Galician"
 msgstr ""
 
 #. +> trunk6
@@ -38396,7 +38469,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:577
 #, kde-format
 msgctxt "@info: country code"
-msgid "Basque"
+msgid "Guarani"
 msgstr ""
 
 #. +> trunk6
@@ -38404,7 +38477,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:578
 #, kde-format
 msgctxt "@info: country code"
-msgid "Persian(farsi)"
+msgid "Gujarati"
 msgstr ""
 
 #. +> trunk6
@@ -38412,7 +38485,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:579
 #, kde-format
 msgctxt "@info: country code"
-msgid "Finnish"
+msgid "Hausa"
 msgstr ""
 
 #. +> trunk6
@@ -38420,7 +38493,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:580
 #, kde-format
 msgctxt "@info: country code"
-msgid "Fijan"
+msgid "Hebrew"
 msgstr ""
 
 #. +> trunk6
@@ -38428,7 +38501,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:581
 #, kde-format
 msgctxt "@info: country code"
-msgid "Faroese"
+msgid "Hindi"
 msgstr ""
 
 #. +> trunk6
@@ -38436,7 +38509,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:582
 #, kde-format
 msgctxt "@info: country code"
-msgid "French"
+msgid "Croatian"
 msgstr ""
 
 #. +> trunk6
@@ -38444,7 +38517,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:583
 #, kde-format
 msgctxt "@info: country code"
-msgid "Frisian"
+msgid "Hungarian"
 msgstr ""
 
 #. +> trunk6
@@ -38452,7 +38525,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:584
 #, kde-format
 msgctxt "@info: country code"
-msgid "Irish"
+msgid "Armenian"
 msgstr ""
 
 #. +> trunk6
@@ -38460,7 +38533,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:585
 #, kde-format
 msgctxt "@info: country code"
-msgid "Scotsgaelic"
+msgid "Interlingua"
 msgstr ""
 
 #. +> trunk6
@@ -38468,7 +38541,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:586
 #, kde-format
 msgctxt "@info: country code"
-msgid "Galician"
+msgid "Interlingue"
 msgstr ""
 
 #. +> trunk6
@@ -38476,7 +38549,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:587
 #, kde-format
 msgctxt "@info: country code"
-msgid "Guarani"
+msgid "Inupiak"
 msgstr ""
 
 #. +> trunk6
@@ -38484,7 +38557,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:588
 #, kde-format
 msgctxt "@info: country code"
-msgid "Gujarati"
+msgid "Indonesian"
 msgstr ""
 
 #. +> trunk6
@@ -38492,7 +38565,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:589
 #, kde-format
 msgctxt "@info: country code"
-msgid "Hausa"
+msgid "Icelandic"
 msgstr ""
 
 #. +> trunk6
@@ -38500,7 +38573,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:590
 #, kde-format
 msgctxt "@info: country code"
-msgid "Hebrew"
+msgid "Italian"
 msgstr ""
 
 #. +> trunk6
@@ -38508,7 +38581,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:591
 #, kde-format
 msgctxt "@info: country code"
-msgid "Hindi"
+msgid "Inuktitut"
 msgstr ""
 
 #. +> trunk6
@@ -38516,7 +38589,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:592
 #, kde-format
 msgctxt "@info: country code"
-msgid "Croatian"
+msgid "Japanese"
 msgstr ""
 
 #. +> trunk6
@@ -38524,7 +38597,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:593
 #, kde-format
 msgctxt "@info: country code"
-msgid "Hungarian"
+msgid "Javanese"
 msgstr ""
 
 #. +> trunk6
@@ -38532,7 +38605,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:594
 #, kde-format
 msgctxt "@info: country code"
-msgid "Armenian"
+msgid "Georgian"
 msgstr ""
 
 #. +> trunk6
@@ -38540,7 +38613,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:595
 #, kde-format
 msgctxt "@info: country code"
-msgid "Interlingua"
+msgid "Kazakh"
 msgstr ""
 
 #. +> trunk6
@@ -38548,7 +38621,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:596
 #, kde-format
 msgctxt "@info: country code"
-msgid "Interlingue"
+msgid "Greenlandic"
 msgstr ""
 
 #. +> trunk6
@@ -38556,7 +38629,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:597
 #, kde-format
 msgctxt "@info: country code"
-msgid "Inupiak"
+msgid "Cambodian"
 msgstr ""
 
 #. +> trunk6
@@ -38564,7 +38637,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:598
 #, kde-format
 msgctxt "@info: country code"
-msgid "Indonesian"
+msgid "Kannada"
 msgstr ""
 
 #. +> trunk6
@@ -38572,7 +38645,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:599
 #, kde-format
 msgctxt "@info: country code"
-msgid "Icelandic"
+msgid "Korean"
 msgstr ""
 
 #. +> trunk6
@@ -38580,7 +38653,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:600
 #, kde-format
 msgctxt "@info: country code"
-msgid "Italian"
+msgid "Kashmiri"
 msgstr ""
 
 #. +> trunk6
@@ -38588,7 +38661,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:601
 #, kde-format
 msgctxt "@info: country code"
-msgid "Inuktitut"
+msgid "Kurdish"
 msgstr ""
 
 #. +> trunk6
@@ -38596,7 +38669,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:602
 #, kde-format
 msgctxt "@info: country code"
-msgid "Japanese"
+msgid "Kirghiz"
 msgstr ""
 
 #. +> trunk6
@@ -38604,7 +38677,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:603
 #, kde-format
 msgctxt "@info: country code"
-msgid "Javanese"
+msgid "Latin"
 msgstr ""
 
 #. +> trunk6
@@ -38612,7 +38685,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:604
 #, kde-format
 msgctxt "@info: country code"
-msgid "Georgian"
+msgid "Lingala"
 msgstr ""
 
 #. +> trunk6
@@ -38620,7 +38693,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:605
 #, kde-format
 msgctxt "@info: country code"
-msgid "Kazakh"
+msgid "Laothian"
 msgstr ""
 
 #. +> trunk6
@@ -38628,7 +38701,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:606
 #, kde-format
 msgctxt "@info: country code"
-msgid "Greenlandic"
+msgid "Lithuanian"
 msgstr ""
 
 #. +> trunk6
@@ -38636,7 +38709,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:607
 #, kde-format
 msgctxt "@info: country code"
-msgid "Cambodian"
+msgid "Latvian;Lettish"
 msgstr ""
 
 #. +> trunk6
@@ -38644,7 +38717,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:608
 #, kde-format
 msgctxt "@info: country code"
-msgid "Kannada"
+msgid "Malagasy"
 msgstr ""
 
 #. +> trunk6
@@ -38652,7 +38725,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:609
 #, kde-format
 msgctxt "@info: country code"
-msgid "Korean"
+msgid "Maori"
 msgstr ""
 
 #. +> trunk6
@@ -38660,7 +38733,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:610
 #, kde-format
 msgctxt "@info: country code"
-msgid "Kashmiri"
+msgid "Macedonian"
 msgstr ""
 
 #. +> trunk6
@@ -38668,7 +38741,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:611
 #, kde-format
 msgctxt "@info: country code"
-msgid "Kurdish"
+msgid "Malayalam"
 msgstr ""
 
 #. +> trunk6
@@ -38676,7 +38749,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:612
 #, kde-format
 msgctxt "@info: country code"
-msgid "Kirghiz"
+msgid "Mongolian"
 msgstr ""
 
 #. +> trunk6
@@ -38684,7 +38757,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:613
 #, kde-format
 msgctxt "@info: country code"
-msgid "Latin"
+msgid "Marathi"
 msgstr ""
 
 #. +> trunk6
@@ -38692,7 +38765,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:614
 #, kde-format
 msgctxt "@info: country code"
-msgid "Lingala"
+msgid "Malay"
 msgstr ""
 
 #. +> trunk6
@@ -38700,7 +38773,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:615
 #, kde-format
 msgctxt "@info: country code"
-msgid "Laothian"
+msgid "Maltese"
 msgstr ""
 
 #. +> trunk6
@@ -38708,92 +38781,12 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:616
 #, kde-format
 msgctxt "@info: country code"
-msgid "Lithuanian"
+msgid "Burmese"
 msgstr ""
 
 #. +> trunk6
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:469
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:617
-#, kde-format
-msgctxt "@info: country code"
-msgid "Latvian;Lettish"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:470
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:618
-#, kde-format
-msgctxt "@info: country code"
-msgid "Malagasy"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:471
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:619
-#, kde-format
-msgctxt "@info: country code"
-msgid "Maori"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:472
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:620
-#, kde-format
-msgctxt "@info: country code"
-msgid "Macedonian"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:473
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:621
-#, kde-format
-msgctxt "@info: country code"
-msgid "Malayalam"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:474
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:622
-#, kde-format
-msgctxt "@info: country code"
-msgid "Mongolian"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:475
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:623
-#, kde-format
-msgctxt "@info: country code"
-msgid "Marathi"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:476
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:624
-#, kde-format
-msgctxt "@info: country code"
-msgid "Malay"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:477
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:625
-#, kde-format
-msgctxt "@info: country code"
-msgid "Maltese"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:478
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:626
-#, kde-format
-msgctxt "@info: country code"
-msgid "Burmese"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:479
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:627
 #: core/libs/widgets/metadata/utils/countryselector.cpp:196
 #, kde-format
 msgctxt "@info: country code"
@@ -38801,11 +38794,91 @@ msgid "Nauru"
 msgstr ""
 
 #. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:470
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:618
+#, kde-format
+msgctxt "@info: country code"
+msgid "Nepali"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:471
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:619
+#, kde-format
+msgctxt "@info: country code"
+msgid "Dutch"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:472
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:620
+#, kde-format
+msgctxt "@info: country code"
+msgid "Norwegian"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:473
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:621
+#, kde-format
+msgctxt "@info: country code"
+msgid "Occitan"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:474
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:622
+#, kde-format
+msgctxt "@info: country code"
+msgid "Oromo"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:475
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:623
+#, kde-format
+msgctxt "@info: country code"
+msgid "Oriya"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:476
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:624
+#, kde-format
+msgctxt "@info: country code"
+msgid "Punjabi"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:477
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:625
+#, kde-format
+msgctxt "@info: country code"
+msgid "Polish"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:478
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:626
+#, kde-format
+msgctxt "@info: country code"
+msgid "Pashto;Pushto"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:479
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:627
+#, kde-format
+msgctxt "@info: country code"
+msgid "Portuguese"
+msgstr ""
+
+#. +> trunk6
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:480
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:628
 #, kde-format
 msgctxt "@info: country code"
-msgid "Nepali"
+msgid "Quechua"
 msgstr ""
 
 #. +> trunk6
@@ -38813,7 +38886,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:629
 #, kde-format
 msgctxt "@info: country code"
-msgid "Dutch"
+msgid "Rhaeto-romance"
 msgstr ""
 
 #. +> trunk6
@@ -38821,7 +38894,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:630
 #, kde-format
 msgctxt "@info: country code"
-msgid "Norwegian"
+msgid "Kurundi"
 msgstr ""
 
 #. +> trunk6
@@ -38829,7 +38902,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:631
 #, kde-format
 msgctxt "@info: country code"
-msgid "Occitan"
+msgid "Romanian"
 msgstr ""
 
 #. +> trunk6
@@ -38837,7 +38910,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:632
 #, kde-format
 msgctxt "@info: country code"
-msgid "Oromo"
+msgid "Russian"
 msgstr ""
 
 #. +> trunk6
@@ -38845,7 +38918,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:633
 #, kde-format
 msgctxt "@info: country code"
-msgid "Oriya"
+msgid "Kinyarwanda"
 msgstr ""
 
 #. +> trunk6
@@ -38853,7 +38926,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:634
 #, kde-format
 msgctxt "@info: country code"
-msgid "Punjabi"
+msgid "Sanskrit"
 msgstr ""
 
 #. +> trunk6
@@ -38861,7 +38934,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:635
 #, kde-format
 msgctxt "@info: country code"
-msgid "Polish"
+msgid "Sindhi"
 msgstr ""
 
 #. +> trunk6
@@ -38869,7 +38942,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:636
 #, kde-format
 msgctxt "@info: country code"
-msgid "Pashto;Pushto"
+msgid "Sangho"
 msgstr ""
 
 #. +> trunk6
@@ -38877,7 +38950,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:637
 #, kde-format
 msgctxt "@info: country code"
-msgid "Portuguese"
+msgid "Singhalese"
 msgstr ""
 
 #. +> trunk6
@@ -38885,7 +38958,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:638
 #, kde-format
 msgctxt "@info: country code"
-msgid "Quechua"
+msgid "Slovak"
 msgstr ""
 
 #. +> trunk6
@@ -38893,7 +38966,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:639
 #, kde-format
 msgctxt "@info: country code"
-msgid "Rhaeto-romance"
+msgid "Slovenian"
 msgstr ""
 
 #. +> trunk6
@@ -38901,7 +38974,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:640
 #, kde-format
 msgctxt "@info: country code"
-msgid "Kurundi"
+msgid "Samoan"
 msgstr ""
 
 #. +> trunk6
@@ -38909,7 +38982,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:641
 #, kde-format
 msgctxt "@info: country code"
-msgid "Romanian"
+msgid "Shona"
 msgstr ""
 
 #. +> trunk6
@@ -38917,7 +38990,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:642
 #, kde-format
 msgctxt "@info: country code"
-msgid "Russian"
+msgid "Somali"
 msgstr ""
 
 #. +> trunk6
@@ -38925,7 +38998,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:643
 #, kde-format
 msgctxt "@info: country code"
-msgid "Kinyarwanda"
+msgid "Albanian"
 msgstr ""
 
 #. +> trunk6
@@ -38933,7 +39006,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:644
 #, kde-format
 msgctxt "@info: country code"
-msgid "Sanskrit"
+msgid "Serbian"
 msgstr ""
 
 #. +> trunk6
@@ -38941,7 +39014,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:645
 #, kde-format
 msgctxt "@info: country code"
-msgid "Sindhi"
+msgid "Siswati"
 msgstr ""
 
 #. +> trunk6
@@ -38949,7 +39022,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:646
 #, kde-format
 msgctxt "@info: country code"
-msgid "Sangho"
+msgid "Sesotho"
 msgstr ""
 
 #. +> trunk6
@@ -38957,7 +39030,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:647
 #, kde-format
 msgctxt "@info: country code"
-msgid "Singhalese"
+msgid "Sundanese"
 msgstr ""
 
 #. +> trunk6
@@ -38965,7 +39038,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:648
 #, kde-format
 msgctxt "@info: country code"
-msgid "Slovak"
+msgid "Swedish"
 msgstr ""
 
 #. +> trunk6
@@ -38973,7 +39046,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:649
 #, kde-format
 msgctxt "@info: country code"
-msgid "Slovenian"
+msgid "Swahili"
 msgstr ""
 
 #. +> trunk6
@@ -38981,7 +39054,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:650
 #, kde-format
 msgctxt "@info: country code"
-msgid "Samoan"
+msgid "Tamil"
 msgstr ""
 
 #. +> trunk6
@@ -38989,7 +39062,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:651
 #, kde-format
 msgctxt "@info: country code"
-msgid "Shona"
+msgid "Telugu"
 msgstr ""
 
 #. +> trunk6
@@ -38997,7 +39070,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:652
 #, kde-format
 msgctxt "@info: country code"
-msgid "Somali"
+msgid "Tajik"
 msgstr ""
 
 #. +> trunk6
@@ -39005,7 +39078,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:653
 #, kde-format
 msgctxt "@info: country code"
-msgid "Albanian"
+msgid "Thai"
 msgstr ""
 
 #. +> trunk6
@@ -39013,7 +39086,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:654
 #, kde-format
 msgctxt "@info: country code"
-msgid "Serbian"
+msgid "Tigrinya"
 msgstr ""
 
 #. +> trunk6
@@ -39021,7 +39094,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:655
 #, kde-format
 msgctxt "@info: country code"
-msgid "Siswati"
+msgid "Turkmen"
 msgstr ""
 
 #. +> trunk6
@@ -39029,7 +39102,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:656
 #, kde-format
 msgctxt "@info: country code"
-msgid "Sesotho"
+msgid "Tagalog"
 msgstr ""
 
 #. +> trunk6
@@ -39037,92 +39110,12 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:657
 #, kde-format
 msgctxt "@info: country code"
-msgid "Sundanese"
+msgid "Setswana"
 msgstr ""
 
 #. +> trunk6
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:510
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:658
-#, kde-format
-msgctxt "@info: country code"
-msgid "Swedish"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:511
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:659
-#, kde-format
-msgctxt "@info: country code"
-msgid "Swahili"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:512
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:660
-#, kde-format
-msgctxt "@info: country code"
-msgid "Tamil"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:513
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:661
-#, kde-format
-msgctxt "@info: country code"
-msgid "Telugu"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:514
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:662
-#, kde-format
-msgctxt "@info: country code"
-msgid "Tajik"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:515
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:663
-#, kde-format
-msgctxt "@info: country code"
-msgid "Thai"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:516
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:664
-#, kde-format
-msgctxt "@info: country code"
-msgid "Tigrinya"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:517
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:665
-#, kde-format
-msgctxt "@info: country code"
-msgid "Turkmen"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:518
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:666
-#, kde-format
-msgctxt "@info: country code"
-msgid "Tagalog"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:519
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:667
-#, kde-format
-msgctxt "@info: country code"
-msgid "Setswana"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:520
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:668
 #: core/libs/widgets/metadata/utils/countryselector.cpp:263
 #, kde-format
 msgctxt "@info: country code"
@@ -39130,11 +39123,91 @@ msgid "Tonga"
 msgstr ""
 
 #. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:511
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:659
+#, kde-format
+msgctxt "@info: country code"
+msgid "Turkish"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:512
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:660
+#, kde-format
+msgctxt "@info: country code"
+msgid "Tsonga"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:513
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:661
+#, kde-format
+msgctxt "@info: country code"
+msgid "Tatar"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:514
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:662
+#, kde-format
+msgctxt "@info: country code"
+msgid "Twi"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:515
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:663
+#, kde-format
+msgctxt "@info: country code"
+msgid "Uigur"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:516
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:664
+#, kde-format
+msgctxt "@info: country code"
+msgid "Ukrainian"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:517
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:665
+#, kde-format
+msgctxt "@info: country code"
+msgid "Urdu"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:518
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:666
+#, kde-format
+msgctxt "@info: country code"
+msgid "Uzbek"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:519
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:667
+#, kde-format
+msgctxt "@info: country code"
+msgid "Vietnamese"
+msgstr ""
+
+#. +> trunk6
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:520
+#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:668
+#, kde-format
+msgctxt "@info: country code"
+msgid "Volapuk"
+msgstr ""
+
+#. +> trunk6
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:521
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:669
 #, kde-format
 msgctxt "@info: country code"
-msgid "Turkish"
+msgid "Wolof"
 msgstr ""
 
 #. +> trunk6
@@ -39142,7 +39215,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:670
 #, kde-format
 msgctxt "@info: country code"
-msgid "Tsonga"
+msgid "Xhosa"
 msgstr ""
 
 #. +> trunk6
@@ -39150,7 +39223,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:671
 #, kde-format
 msgctxt "@info: country code"
-msgid "Tatar"
+msgid "Yiddish"
 msgstr ""
 
 #. +> trunk6
@@ -39158,7 +39231,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:672
 #, kde-format
 msgctxt "@info: country code"
-msgid "Twi"
+msgid "Yoruba"
 msgstr ""
 
 #. +> trunk6
@@ -39166,7 +39239,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:673
 #, kde-format
 msgctxt "@info: country code"
-msgid "Uigur"
+msgid "Zhuang"
 msgstr ""
 
 #. +> trunk6
@@ -39174,7 +39247,7 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:674
 #, kde-format
 msgctxt "@info: country code"
-msgid "Ukrainian"
+msgid "Chinese"
 msgstr ""
 
 #. +> trunk6
@@ -39182,133 +39255,53 @@ msgstr ""
 #: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:675
 #, kde-format
 msgctxt "@info: country code"
-msgid "Urdu"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:528
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:676
-#, kde-format
-msgctxt "@info: country code"
-msgid "Uzbek"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:529
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:677
-#, kde-format
-msgctxt "@info: country code"
-msgid "Vietnamese"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:530
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:678
-#, kde-format
-msgctxt "@info: country code"
-msgid "Volapuk"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:531
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:679
-#, kde-format
-msgctxt "@info: country code"
-msgid "Wolof"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:532
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:680
-#, kde-format
-msgctxt "@info: country code"
-msgid "Xhosa"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:533
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:681
-#, kde-format
-msgctxt "@info: country code"
-msgid "Yiddish"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:534
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:682
-#, kde-format
-msgctxt "@info: country code"
-msgid "Yoruba"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:535
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:683
-#, kde-format
-msgctxt "@info: country code"
-msgid "Zhuang"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:536
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:684
-#, kde-format
-msgctxt "@info: country code"
-msgid "Chinese"
-msgstr ""
-
-#. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:537
-#: core/libs/metadataengine/dmetadata/dmetadata_iptc.cpp:685
-#, kde-format
-msgctxt "@info: country code"
 msgid "Zulu"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:52
+#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:42
 #, kde-format
 msgctxt "@title: xmp namespace for tags container"
 msgid "Tags"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:56
+#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:46
 #, kde-format
 msgctxt "@title: xmp namespace for title container"
 msgid "Title"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:60
+#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:50
 #, kde-format
 msgctxt "@title: xmp namespace for rating container"
 msgid "Rating"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:64
+#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:54
 #, kde-format
 msgctxt "@title: xmp namespace for comment container"
 msgid "Caption"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:68
+#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:58
 #, kde-format
 msgctxt "@title: xmp namespace for pick-label container"
 msgid "Pick label"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:72
+#: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:62
 #, kde-format
 msgctxt "@title: xmp namespace for color-label container"
 msgid "Color label"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/metadataengine/engine/metaengine_exif.cpp:1591
+#: core/libs/metadataengine/engine/metaengine_exif.cpp:1406
 #, kde-format
 msgctxt "info"
 msgid "Binary data %1 bytes"
@@ -41089,117 +41082,117 @@ msgid "Rights"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:485
+#: core/libs/properties/itempropertiestab.cpp:460
 #: core/utilities/advancedrename/parser/options/filepropertiesoption.cpp:57
 #, kde-format
 msgid "File"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:486
+#: core/libs/properties/itempropertiestab.cpp:461
 #, kde-format
 msgid "Folder"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:487
+#: core/libs/properties/itempropertiestab.cpp:462
 #, kde-format
 msgid "Symlink"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:488
+#: core/libs/properties/itempropertiestab.cpp:463
 #, kde-format
 msgid "Modified Date"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:490
+#: core/libs/properties/itempropertiestab.cpp:465
 #, kde-format
 msgid "Owner"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:491
+#: core/libs/properties/itempropertiestab.cpp:466
 #, kde-format
 msgid "Permissions"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:493
+#: core/libs/properties/itempropertiestab.cpp:468
 #, kde-format
 msgid "Mime"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:495
+#: core/libs/properties/itempropertiestab.cpp:470
 #, kde-format
 msgid "Ratio"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:496
+#: core/libs/properties/itempropertiestab.cpp:471
 #, kde-format
 msgid "Bit Depth"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:497
+#: core/libs/properties/itempropertiestab.cpp:472
 #, kde-format
 msgid "Color Mode"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:498
+#: core/libs/properties/itempropertiestab.cpp:473
 #, kde-format
 msgid "Has Sidecar"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:499
+#: core/libs/properties/itempropertiestab.cpp:474
 #, kde-format
 msgid "Has GPS"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:500
+#: core/libs/properties/itempropertiestab.cpp:475
 #, kde-format
 msgid "Versioned"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:501
+#: core/libs/properties/itempropertiestab.cpp:476
 #, kde-format
 msgid "Grouped"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:503
+#: core/libs/properties/itempropertiestab.cpp:478
 #, kde-format
 msgid "Make"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:504
+#: core/libs/properties/itempropertiestab.cpp:479
 #, kde-format
 msgid "Model"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:505
+#: core/libs/properties/itempropertiestab.cpp:480
 #, kde-format
 msgid "Date Time"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:506
+#: core/libs/properties/itempropertiestab.cpp:481
 #: core/utilities/searchwindow/fields/searchfields_createfield.cpp:435
 #, kde-format
 msgid "Lens"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:507
+#: core/libs/properties/itempropertiestab.cpp:482
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:176
 #: core/utilities/searchwindow/fields/searchfields_createfield.cpp:466
 #: core/utilities/searchwindow/fields/searchfields_createfield.cpp:669
@@ -41208,19 +41201,19 @@ msgid "Aperture"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:508
+#: core/libs/properties/itempropertiestab.cpp:483
 #, kde-format
 msgid "Focal Length"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:509
+#: core/libs/properties/itempropertiestab.cpp:484
 #, kde-format
 msgid "Exposure Time"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:510
+#: core/libs/properties/itempropertiestab.cpp:485
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:182
 #: core/utilities/searchwindow/fields/searchfields_createfield.cpp:569
 #, kde-format
@@ -41228,82 +41221,82 @@ msgid "Sensitivity"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:511
+#: core/libs/properties/itempropertiestab.cpp:486
 #, kde-format
 msgid "Exposure Mode"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:512
+#: core/libs/properties/itempropertiestab.cpp:487
 #, kde-format
 msgid "Flash"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:515
+#: core/libs/properties/itempropertiestab.cpp:490
 #: core/utilities/setup/tooltip/setuptooltip_icon.cpp:138
 #, kde-format
 msgid "Video Aspect Ratio"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:516
+#: core/libs/properties/itempropertiestab.cpp:491
 #: core/utilities/setup/tooltip/setuptooltip_icon.cpp:150
 #, kde-format
 msgid "Video Duration"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:517
+#: core/libs/properties/itempropertiestab.cpp:492
 #: core/utilities/setup/tooltip/setuptooltip_icon.cpp:153
 #, kde-format
 msgid "Video Frame Rate"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:518
+#: core/libs/properties/itempropertiestab.cpp:493
 #, kde-format
 msgid "Video Video Codec"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:519
+#: core/libs/properties/itempropertiestab.cpp:494
 #, kde-format
 msgid "Video Audio Bit Rate"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:520
+#: core/libs/properties/itempropertiestab.cpp:495
 #, kde-format
 msgid "Video Audio Channel Type"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:521
+#: core/libs/properties/itempropertiestab.cpp:496
 #, kde-format
 msgid "Video Audio Codec"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:523
+#: core/libs/properties/itempropertiestab.cpp:498
 #, kde-format
 msgid "Caption"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:524
+#: core/libs/properties/itempropertiestab.cpp:499
 #, kde-format
 msgid "Title"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:526
+#: core/libs/properties/itempropertiestab.cpp:501
 #, kde-format
 msgid "Peoples"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:528
+#: core/libs/properties/itempropertiestab.cpp:503
 #: core/libs/template/templatepanel.cpp:209
 #: core/libs/template/templateviewer.cpp:127
 #, kde-format
@@ -41311,19 +41304,19 @@ msgid "Rights"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:529
+#: core/libs/properties/itempropertiestab.cpp:504
 #, kde-format
 msgid "Pick"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:530
+#: core/libs/properties/itempropertiestab.cpp:505
 #, kde-format
 msgid "Color"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/properties/itempropertiestab.cpp:531
+#: core/libs/properties/itempropertiestab.cpp:506
 #: core/libs/widgets/metadata/labels/ratingwidget_menu.cpp:24
 #: core/utilities/searchwindow/fields/searchfields_createfield.cpp:161
 #, kde-format
@@ -42760,7 +42753,7 @@ msgid "Quick Access List"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/tags/manager/models/tagmngrlistview.cpp:157
+#: core/libs/tags/manager/models/tagmngrlistview.cpp:147
 #, kde-format
 msgctxt "@action"
 msgid "Delete Selected from List"
@@ -43002,32 +42995,32 @@ msgstr ""
 
 #. +> trunk6
 #: core/libs/tags/manager/tagsmanager_io.cpp:191
-#: core/libs/tags/manager/tagsmanager_io.cpp:309
+#: core/libs/tags/manager/tagsmanager_io.cpp:299
 #, kde-format
 msgid "Text File (*.txt)"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/tags/manager/tagsmanager_io.cpp:289
+#: core/libs/tags/manager/tagsmanager_io.cpp:279
 #, kde-format
 msgid "Select a tag into which the tags should be imported."
 msgstr ""
 
 #. +> trunk6
-#: core/libs/tags/manager/tagsmanager_io.cpp:299
+#: core/libs/tags/manager/tagsmanager_io.cpp:289
 #, kde-format
 msgid "No tags can be imported to the selected face tag."
 msgstr ""
 
 #. +> trunk6
-#: core/libs/tags/manager/tagsmanager_io.cpp:308
+#: core/libs/tags/manager/tagsmanager_io.cpp:298
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Controlled Vocabulary Tag File"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/tags/manager/tagsmanager_io.cpp:407
+#: core/libs/tags/manager/tagsmanager_io.cpp:387
 #, kde-format
 msgid "Do you really want to remove the selected tag from all images?"
 msgid_plural "Do you really want to remove the selected tags from all images?"
@@ -45211,14 +45204,13 @@ msgid "Select here the font used to display text on the screen display ."
 msgstr ""
 
 #. +> trunk6
-#: core/libs/video/player/audplayerwdg.cpp:264
+#: core/libs/video/player/audplayerwdg.cpp:192
 #, kde-format
 msgid "An error has occurred while playing: the media is not valid"
 msgstr ""
 
 #. +> trunk6
-#: core/libs/video/player/audplayerwdg.cpp:293
-#: core/libs/video/player/audplayerwdg.cpp:328
+#: core/libs/video/player/audplayerwdg.cpp:219
 #, kde-format
 msgid "An error has occurred while playing: %1"
 msgstr ""

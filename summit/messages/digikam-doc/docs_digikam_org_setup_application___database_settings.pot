@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Digikam Manual 9.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-20 07:17+0200\n"
+"POT-Creation-Date: 2026-09-26 09:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -362,283 +362,293 @@ msgid "The locale used in the MariaDB server must be the same as the locale from
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:224
+#: ../../setup_application/database_settings.rst:225
+msgid "When you run a connection test with the **Check Connection** button, if you receive a TLS/SSL relevant error message as **SSL is required, but the server does not support it**, try to add `skip-ssl=true` to the **Connection Settings** from the digiKam MariaDB database configuration dialog. This is not a bug in digiKam: the MariaDB connector attempts to establish an SSL connection by default, and this option disables it."
+msgstr ""
+
+#. +> trunk5
+#: ../../setup_application/database_settings.rst:231
+msgid "Alternatively, on the server side, you can set the `use_ssl=false` option in the :file:`my.ini` or :file:`~/.my.cnf` configuration files."
+msgstr ""
+
+#. +> trunk5
+#: ../../setup_application/database_settings.rst:235
 msgid "Database Type Criteria"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:226
+#: ../../setup_application/database_settings.rst:237
 msgid "See the summary below to choose the right database type depending on your use case."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:229
+#: ../../setup_application/database_settings.rst:240
 msgid "Storage"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:229
+#: ../../setup_application/database_settings.rst:240
 msgid "Type"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:229
+#: ../../setup_application/database_settings.rst:240
 msgid "Items"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:229
+#: ../../setup_application/database_settings.rst:240
 msgid "Remarks"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:231
-#: ../../setup_application/database_settings.rst:232
-#: ../../setup_application/database_settings.rst:245
+#: ../../setup_application/database_settings.rst:242
+#: ../../setup_application/database_settings.rst:243
+#: ../../setup_application/database_settings.rst:256
 msgid "HDD"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:231
-#: ../../setup_application/database_settings.rst:233
-#: ../../setup_application/database_settings.rst:235
-#: ../../setup_application/database_settings.rst:237
-#: ../../setup_application/database_settings.rst:239
+#: ../../setup_application/database_settings.rst:242
+#: ../../setup_application/database_settings.rst:244
+#: ../../setup_application/database_settings.rst:246
+#: ../../setup_application/database_settings.rst:248
+#: ../../setup_application/database_settings.rst:250
 msgid "SQLite"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:231
-#: ../../setup_application/database_settings.rst:237
+#: ../../setup_application/database_settings.rst:242
+#: ../../setup_application/database_settings.rst:248
 msgid "< 500K"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:231
+#: ../../setup_application/database_settings.rst:242
 msgid "**Warning: WAL is mandatory.**"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:232
-#: ../../setup_application/database_settings.rst:234
-#: ../../setup_application/database_settings.rst:236
-#: ../../setup_application/database_settings.rst:238
-#: ../../setup_application/database_settings.rst:240
+#: ../../setup_application/database_settings.rst:243
+#: ../../setup_application/database_settings.rst:245
+#: ../../setup_application/database_settings.rst:247
+#: ../../setup_application/database_settings.rst:249
+#: ../../setup_application/database_settings.rst:251
 msgid "MariaDB-Internal"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:232
-#: ../../setup_application/database_settings.rst:238
+#: ../../setup_application/database_settings.rst:243
+#: ../../setup_application/database_settings.rst:249
 msgid "> 500K"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:233
-#: ../../setup_application/database_settings.rst:234
-#: ../../setup_application/database_settings.rst:248
+#: ../../setup_application/database_settings.rst:244
+#: ../../setup_application/database_settings.rst:245
+#: ../../setup_application/database_settings.rst:259
 msgid "SSD"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:233
-#: ../../setup_application/database_settings.rst:235
+#: ../../setup_application/database_settings.rst:244
+#: ../../setup_application/database_settings.rst:246
 msgid "WAL is optional."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:235
-#: ../../setup_application/database_settings.rst:236
+#: ../../setup_application/database_settings.rst:246
+#: ../../setup_application/database_settings.rst:247
 msgid "NVME"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:237
-#: ../../setup_application/database_settings.rst:238
-#: ../../setup_application/database_settings.rst:254
+#: ../../setup_application/database_settings.rst:248
+#: ../../setup_application/database_settings.rst:249
+#: ../../setup_application/database_settings.rst:265
 msgid "Removable"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:237
+#: ../../setup_application/database_settings.rst:248
 msgid "**Warning: WAL is mandatory. USB 3.1 minimum with NVMe drive.**"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:238
+#: ../../setup_application/database_settings.rst:249
 msgid "**Warning: USB 3.1 minimum with NVMe drive.**"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:239
-#: ../../setup_application/database_settings.rst:240
-#: ../../setup_application/database_settings.rst:257
+#: ../../setup_application/database_settings.rst:250
+#: ../../setup_application/database_settings.rst:251
+#: ../../setup_application/database_settings.rst:268
 msgid "Network FS"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:239
+#: ../../setup_application/database_settings.rst:250
 msgid "**Prohibited: SQLite databases must be stored on local file system.**"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:240
+#: ../../setup_application/database_settings.rst:251
 msgid "**Prohibited: MariaDB databases must be stored on local file system.**"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:241
-#: ../../setup_application/database_settings.rst:260
+#: ../../setup_application/database_settings.rst:252
+#: ../../setup_application/database_settings.rst:271
 msgid "Remote"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:241
+#: ../../setup_application/database_settings.rst:252
 msgid "MariaDB-Server"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:241
+#: ../../setup_application/database_settings.rst:252
 msgid "Gigabit Ethernet or higher is recommended."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:247
+#: ../../setup_application/database_settings.rst:258
 msgid "Hard Disk Drive."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:250
+#: ../../setup_application/database_settings.rst:261
 msgid "Solid State Drive."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:251
+#: ../../setup_application/database_settings.rst:262
 msgid "NVMe"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:253
+#: ../../setup_application/database_settings.rst:264
 msgid "Non-Volatile Memory."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:256
+#: ../../setup_application/database_settings.rst:267
 msgid "External USB HDD/SSD/NVMe drive."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:259
+#: ../../setup_application/database_settings.rst:270
 msgid "Network File System mounted locally."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:262
+#: ../../setup_application/database_settings.rst:273
 msgid "Network server as NAS (Network Attached Storage)."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:263
+#: ../../setup_application/database_settings.rst:274
 msgid "WAL"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:265
+#: ../../setup_application/database_settings.rst:276
 msgid "Write-Ahead Lock (SQLite database only)."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:269
+#: ../../setup_application/database_settings.rst:280
 msgid "Refer the :ref:`Digital Asset Management <storage_deterioration>` chapter for more details about media and data protection."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:271
+#: ../../setup_application/database_settings.rst:282
 msgid "Also refer to the :ref:`Collection Settings <collections_settings>` chapter for more details about how to configure your collections depending on your storage policy."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:275
+#: ../../setup_application/database_settings.rst:286
 msgid "If you share the same **Removable** media for host databases and/or collections between different computers, you must have the same kind of operating system, the same mount paths everywhere (use symbolic links to resolve paths), and the same digiKam version everywhere to prevent conflicts with the database schema."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:277
+#: ../../setup_application/database_settings.rst:288
 msgid "If you use a common **Remote** server to host *databases and collections*, you must use the same digiKam version everywhere to prevent conflicts with database schema. Computers running different instantiations of digiKam cannot access a common database and collection at the same time."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:279
+#: ../../setup_application/database_settings.rst:290
 msgid "If you use a common **Remote** server to host collections, with the databases stored on individual computers, then different versions of digiKam can be used and digiKam sessions can run at the same time, accessing the common collections. But you'll need to take a care about concurrent accesses to file metadata, if you have turned this option on from the **Metadata Setup** page."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:284
+#: ../../setup_application/database_settings.rst:295
 msgid "Database Migration"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:286
+#: ../../setup_application/database_settings.rst:297
 msgid "digiKam comes up with an exclusive tool named **Database Migration**, that allows users to migrate their data. For example, the migration tool can help you move all your data from a SQLite database into a MariaDB database, or vice versa."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:288
+#: ../../setup_application/database_settings.rst:299
 msgid "To migrate to another database, go to :menuselection:`Settings --> Database Migration...`. A dialog box appears:"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:294
+#: ../../setup_application/database_settings.rst:305
 msgid "The digiKam Database Migration Tool"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:296
+#: ../../setup_application/database_settings.rst:307
 msgid "Now choose the appropriate database types you want to convert to. Finally, click on **Migrate** button to convert the database from SQLite to MariaDB (or vice versa). Depending on the database size, this operation can take a while."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:300
+#: ../../setup_application/database_settings.rst:311
 msgid "Only the digiKam **Core** database will be migrated by this conversion process. All of the other databases needs to be rebuilt using post-processing with the :ref:`Maintenance Tools <maintenance_tools>`. The **Thumbs** and **Similarity** databases will need to be created from scratch, and the **Face** database includes the option **Rebuild the Training Data**."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:305
+#: ../../setup_application/database_settings.rst:316
 msgid "Database Backup Recommendation"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:307
+#: ../../setup_application/database_settings.rst:318
 msgid "For security reasons, planning a database backup using crontab over the network can help against device failures. A NAS or an external drive can also be used for backup."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:309
+#: ../../setup_application/database_settings.rst:320
 msgid "Each database can be renamed with a different, unique name. This allows users to backup only what is needed. For instance, renaming **Core** database as *digiKam_Core*, allows you to backup only this database, which is the most important file. **Thumbnails**, **Similarity** and **Face Recognition** databases can always be regenerated from scratch."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:311
+#: ../../setup_application/database_settings.rst:322
 msgid "The chapter about digiKam :ref:`Maintenance Tools <maintenance_tools>` will explain how to maintain the database contents and how to synchronize the collections with information in the databases (and vice versa)."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:316
+#: ../../setup_application/database_settings.rst:327
 msgid "Database Statistics"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:318
+#: ../../setup_application/database_settings.rst:329
 msgid "digiKam provides a unique tool to show the statistics from your collections. It includes count of images, videos (including individual count by image format), tags etc. this also includes the **Database Backend** (Sqlite or MariaDB) and the **Database Path** (where your collection is located)."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:320
+#: ../../setup_application/database_settings.rst:331
 msgid "You can view your statistics by going to :menuselection:`Help --> Database Statistics...`. A dialog box like this will appear:"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/database_settings.rst:327
+#: ../../setup_application/database_settings.rst:338
 msgid "The digiKam Database Statistics Dialog"
 msgstr ""
 

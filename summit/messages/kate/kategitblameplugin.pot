@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 11:13+0100\n"
+"POT-Creation-Date: 2026-09-26 09:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -38,9 +38,15 @@ msgid " %1: %2: %3 "
 msgstr ""
 
 #. +> trunk6 stable6
-#: kategitblameplugin.cpp:187
+#: kategitblameplugin.cpp:187 kategitblameplugin.cpp:340
 #, kde-format
 msgid "Git Blame"
+msgstr ""
+
+#. +> stable6
+#: kategitblameplugin.cpp:340
+#, kde-format
+msgid "Git"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -55,14 +61,15 @@ msgstr ""
 msgid "Toggle Git Blame Details"
 msgstr ""
 
-#. +> trunk6 stable6
-#: kategitblameplugin.cpp:340
+#. +> trunk6
+#: kategitblameplugin.cpp:350
 #, kde-format
-msgid "Git"
+msgctxt "@info %1 is a git error"
+msgid "Git Blame plugin error: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kategitblameplugin.cpp:403
+#: kategitblameplugin.cpp:407
 #, kde-format
 msgid "Git blame, show commit failed."
 msgstr ""
