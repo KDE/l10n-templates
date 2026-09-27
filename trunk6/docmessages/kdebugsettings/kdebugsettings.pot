@@ -1,0 +1,818 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-27 00:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:11
+#, no-c-format
+msgid "The &kdebugsettings; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:14
+#, no-c-format
+msgid "<firstname>Laurent</firstname> <surname>Montel</surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:17
+#, no-c-format
+msgid "montel@kde.org"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:19
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:25
+#, no-c-format
+msgid "Laurent Montel"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:30
+#, no-c-format
+msgid "2026-09-21"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:31
+#, no-c-format
+msgid "&kdebugsettings; 26.11"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:34
+#, no-c-format
+msgid ""
+"&kdebugsettings; configures which debug messages &Qt; and &kde; applications "
+"print, without recompiling them."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:38
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:39
+#, no-c-format
+msgid "KDebugSettings"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:40
+#, no-c-format
+msgid "debug"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:41
+#, no-c-format
+msgid "logging"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:42
+#, no-c-format
+msgid "categories"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:43
+#, no-c-format
+msgid "qtlogging.ini"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:44
+#, no-c-format
+msgid "QT_LOGGING_RULES"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:50
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:52
+#, no-c-format
+msgid ""
+"&Qt; applications group their diagnostic output into <emphasis>logging "
+"categories</emphasis>: named channels such as <literal>org.kde.pim.kmail</"
+"literal> or <literal>kf.kio.core</literal>, each of which can be turned on "
+"or off independently and for each severity (debug, info, warning, critical). "
+"By default most categories are quiet, so that applications do not flood the "
+"journal in normal use."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:54
+#, no-c-format
+msgid ""
+"&kdebugsettings; is a graphical front end for those rules. It lists all the "
+"categories installed on the system, lets you choose how verbose each one "
+"should be, and writes the result to the configuration file &Qt; reads at "
+"application startup:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:56
+#, no-c-format
+msgid ""
+"<filename>$<envar>XDG_CONFIG_HOME</envar>/QtProject/qtlogging.ini</filename> "
+"(usually <filename class=\"directory\">~/.config/QtProject/qtlogging.ini</"
+"filename>)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:58
+#, no-c-format
+msgid ""
+"Rules take effect the next time an application starts; already running "
+"applications are not affected."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:60
+#, no-c-format
+msgid ""
+"&kdebugsettings; does not decide <emphasis>where</emphasis> the messages go, "
+"only which ones are produced. The output still ends up wherever the platform "
+"sends it, typically the systemd journal or the terminal the application was "
+"started from."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:65
+#, no-c-format
+msgid "Using &kdebugsettings;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:67
+#, no-c-format
+msgid ""
+"The main window is a dialog with three tabs and a row of buttons shared by "
+"all of them."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:70
+#, no-c-format
+msgid "The <guilabel>KDE Application</guilabel> Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:72
+#, no-c-format
+msgid ""
+"This tab lists every logging category declared by the applications and "
+"libraries installed on your system. Each row shows the description of the "
+"category and a drop down box with its current severity level. Hovering over "
+"a row displays the category name, its identifier and its default severity."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid ""
+"Use the <guilabel>Search…</guilabel> field at the top to narrow the list; "
+"the filter matches the description, the category name and the identifier, so "
+"typing <userinput>kmail</userinput>, <userinput>org.kde.pim</userinput> or "
+"<userinput>KMAIL_LOG</userinput> all work."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:76
+#, no-c-format
+msgid ""
+"To change a single category, pick a level in its drop down box. To change "
+"several at once, select the rows first &mdash; the change is then applied to "
+"the whole selection. The three buttons at the bottom act on the selected "
+"rows, or on every row currently shown by the filter when nothing is selected:"
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:80
+#, no-c-format
+msgid "Enable All Debug"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:81
+#, no-c-format
+msgid ""
+"Sets the categories to <guilabel>Full Debug</guilabel>, &ie; every message "
+"of every severity is printed."
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:84
+#, no-c-format
+msgid "Turn Off Debug"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:85
+#, no-c-format
+msgid ""
+"Sets the categories back to <guilabel>Info</guilabel>: informational, "
+"warning and critical messages are kept, debug messages are dropped."
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:88
+#, no-c-format
+msgid "Turn Off All Messages"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"Sets the categories to <guilabel>Off</guilabel>, silencing them completely."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:93
+#, no-c-format
+msgid ""
+"The <guibutton>Restore Defaults</guibutton> button of the dialog resets "
+"every category of this tab to the default severity declared by the "
+"application that owns it (see <xref linkend=\"categories-file\"/>)."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:96
+#, no-c-format
+msgid "Severity Levels"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:98
+#, no-c-format
+msgid ""
+"A category is not a simple on/off switch: choosing a level enables that "
+"severity and everything more serious than it. The levels offered, from the "
+"most to the least verbose, are:"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:103
+#, no-c-format
+msgid "Level"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:103
+#, no-c-format
+msgid "Messages that are printed"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:106
+#, no-c-format
+msgid "Full Debug"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:106
+#, no-c-format
+msgid "debug, info, warning and critical"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:107
+#, no-c-format
+msgid "Info"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:107
+#, no-c-format
+msgid "info, warning and critical"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:108
+#, no-c-format
+msgid "Warning"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:108
+#, no-c-format
+msgid "warning and critical"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:109
+#, no-c-format
+msgid "Critical"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:109
+#, no-c-format
+msgid "critical only"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:110
+#, no-c-format
+msgid "<guilabel>Off</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:110
+#, no-c-format
+msgid "nothing"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:115
+#, no-c-format
+msgid ""
+"Each level is written out as an explicit rule for all four severities, so "
+"that a category always has a well defined state regardless of what the "
+"system wide defaults are. Selecting <guilabel>Warning</guilabel> for "
+"<literal>org.kde.example</literal>, for instance, produces:"
+msgstr ""
+
+#. Tag: programlisting
+#: index.docbook:117
+#, no-c-format
+msgid ""
+"org.kde.example.info=false\n"
+"org.kde.example.debug=false\n"
+"org.kde.example.warning=true\n"
+"org.kde.example.critical=true"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:123
+#, no-c-format
+msgid "The <guilabel>Custom Rules</guilabel> Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:125
+#, no-c-format
+msgid ""
+"Not every category is declared in an installed <filename>.categories</"
+"filename> file: third party applications, or code you are currently working "
+"on, may use categories &kdebugsettings; knows nothing about. This tab lets "
+"you write rules for them by hand."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:127
+#, no-c-format
+msgid ""
+"Use <guibutton>Add…</guibutton> to create a rule, <guibutton>Edit…</"
+"guibutton> to change the selected one and <guibutton>Remove…</guibutton> to "
+"delete the selected ones. A rule consists of a category name, a type and an "
+"<guilabel>Enable</guilabel> check box, and is displayed in the &Qt; syntax, "
+"&eg; <literal>org.kde.example.debug=true</literal>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:129
+#, no-c-format
+msgid ""
+"The category name may contain the wildcard <literal>*</literal>, at the "
+"beginning of the name, at the end, or both. <literal>org.kde.pim.*</literal> "
+"therefore matches every &PIM; category at once."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:132
+#, no-c-format
+msgid ""
+"A rule whose category is just <literal>*</literal> with no type, &ie; "
+"<literal>*=true</literal> or <literal>*=false</literal>, matches everything "
+"and overrides all the other rules. &kdebugsettings; warns you at the top of "
+"the dialog when such a rule is found and it is best to remove it. If you "
+"really want a catch-all rule, write it as <literal>*.*=true</literal> or "
+"<literal>*.*=false</literal> instead, which is ordered so that the more "
+"specific rules still win."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:138
+#, no-c-format
+msgid "The <guilabel>Rules Settings With Environment Variable</guilabel> Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:140
+#, no-c-format
+msgid ""
+"&Qt; also reads logging rules from the <envar>QT_LOGGING_RULES</envar> "
+"environment variable, and those rules take precedence over the ones stored "
+"in <filename>qtlogging.ini</filename>. If the variable is set in the "
+"environment &kdebugsettings; was started from, this tab shows its content, "
+"so that you can tell why a category behaves differently from what the first "
+"two tabs suggest."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:142
+#, no-c-format
+msgid ""
+"The rules are read-only here: to change them, change the environment "
+"variable itself."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:147
+#, no-c-format
+msgid "Saving, Loading and Groups"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:149
+#, no-c-format
+msgid ""
+"<guibutton>OK</guibutton> and <guibutton>Apply</guibutton> write the rules "
+"of the first two tabs to <filename>~/.config/QtProject/qtlogging.ini</"
+"filename>. Only the categories that differ from their default severity are "
+"written, which keeps the file short and lets applications change their own "
+"defaults later."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:151
+#, no-c-format
+msgid ""
+"<guibutton>Preview…</guibutton> opens a read only window showing the "
+"<filename>qtlogging.ini</filename> that <guibutton>OK</guibutton> and "
+"<guibutton>Apply</guibutton> would write, without writing anything. Since it "
+"applies the same rule as they do, it is also the quickest way to see which "
+"categories were left out because they still sit at their default severity."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:153
+#, no-c-format
+msgid ""
+"The remaining buttons manage rule sets you want to keep side by side, for "
+"instance one per bug you are chasing:"
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:157
+#, no-c-format
+msgid "Save As…"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:159
+#, no-c-format
+msgid ""
+"<guimenuitem>Save As File</guimenuitem> exports the current rules to a "
+"<filename class=\"extension\">.kdebugsettingsrules</filename> file anywhere "
+"on disk. <guimenuitem>Save As Group</guimenuitem> asks for a name and stores "
+"the rules as a group in <filename class=\"directory\">~/.local/share/"
+"kdebugsettings/groups/</filename>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:160
+#, no-c-format
+msgid ""
+"Unlike <guibutton>Apply</guibutton>, both write out <emphasis>every</"
+"emphasis> category, not only the modified ones, so that reloading the file "
+"restores exactly the state you saved."
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:164
+#, no-c-format
+msgid "Load"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:165
+#, no-c-format
+msgid ""
+"<guimenuitem>Load From File</guimenuitem> reads back a <filename class="
+"\"extension\">.kdebugsettingsrules</filename> file, <guimenuitem>Load Group</"
+"guimenuitem> offers the saved groups in a submenu, and <guimenuitem>Manage "
+"Group</guimenuitem> opens a dialog where groups can be renamed, removed and "
+"exported. Loading only fills the dialog; use <guibutton>OK</guibutton> or "
+"<guibutton>Apply</guibutton> to actually activate the rules."
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:168
+#, no-c-format
+msgid "Insert…"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:169
+#, no-c-format
+msgid ""
+"Reads an additional <filename class=\"extension\">.categories</filename> "
+"file and adds the categories it declares to the <guilabel>KDE Application</"
+"guilabel> tab. This is useful for an application that is not installed "
+"system wide, typically one you are building yourself."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:177
+#, no-c-format
+msgid ""
+"Declaring Categories: the <filename class=\"extension\">.categories</"
+"filename> File"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:179
+#, no-c-format
+msgid ""
+"The list shown in the <guilabel>KDE Application</guilabel> tab is not "
+"hardcoded. It is read from the <filename class=\"extension\">.categories</"
+"filename> files installed by applications, in:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:182
+#, no-c-format
+msgid ""
+"<filename class=\"directory\">${KDE_INSTALL_LOGGINGCATEGORIESDIR}</"
+"filename>, &ie; <filename class=\"directory\">/usr/share/qlogging-"
+"categories6/</filename>, where <filename>kde.categories</filename> is the "
+"shared file listing the categories of the &kde; applications;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:183
+#, no-c-format
+msgid ""
+"the <acronym>XDG</acronym> configuration directories, for example <filename "
+"class=\"directory\">~/.config/</filename>;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:184
+#, no-c-format
+msgid ""
+"<filename class=\"directory\">$<envar>XDG_CONFIG_HOME</envar>/qdebug."
+"categories/</filename>, for applications outside &kde;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:187
+#, no-c-format
+msgid ""
+"The format is one category per line. Lines starting with <literal>#</"
+"literal> are comments:"
+msgstr ""
+
+#. Tag: programlisting
+#: index.docbook:189
+#, no-c-format
+msgid ""
+"&lt;category name&gt; &lt;description&gt; [DEFAULT_SEVERITY [&lt;"
+"severity&gt;]] [IDENTIFIER [&lt;identifier&gt;]]"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:191
+#, no-c-format
+msgid ""
+"The name and the description are mandatory, the rest is optional. "
+"<literal>&lt;severity&gt;</literal> is one of <literal>DEBUG</literal>, "
+"<literal>INFO</literal>, <literal>WARNING</literal> or <literal>CRITICAL</"
+"literal> and gives the level the category falls back to, the one "
+"<guibutton>Restore Defaults</guibutton> returns to; when it is absent, "
+"<literal>INFO</literal> is assumed. <literal>&lt;identifier&gt;</literal> is "
+"the name of the <classname>QLoggingCategory</classname> object in the source "
+"code, which makes the category searchable by the name developers actually "
+"type. For example:"
+msgstr ""
+
+#. Tag: programlisting
+#: index.docbook:193
+#, no-c-format
+msgid ""
+"org.kde.example.core Example core library DEFAULT_SEVERITY [WARNING] "
+"IDENTIFIER [EXAMPLE_CORE_LOG]"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:195
+#, no-c-format
+msgid ""
+"If you build your application with the extra-cmake-modules, you do not need "
+"to write this file by hand: declare the category with "
+"<function>ecm_qt_declare_logging_category()</function> and install it with "
+"<function>ecm_qt_install_logging_categories()</function>, and the file is "
+"generated for you."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:198
+#, no-c-format
+msgid "Renamed Categories"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:200
+#, no-c-format
+msgid ""
+"When an application renames one of its categories, the rules users already "
+"have in their <filename>qtlogging.ini</filename> still refer to the old "
+"name. A <filename class=\"extension\">.renamecategories</filename> file, "
+"installed next to the <filename class=\"extension\">.categories</filename> "
+"file, tells &kdebugsettings; how to migrate them. Each line maps an old name "
+"to a new one:"
+msgstr ""
+
+#. Tag: programlisting
+#: index.docbook:202
+#, no-c-format
+msgid ""
+"# old module name&lt;space&gt;new module name\n"
+"org.kde.old.name org.kde.new.name"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:208
+#, no-c-format
+msgid "Command Line Options"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:210
+#, no-c-format
+msgid ""
+"Besides the usual &kde; options, &kdebugsettings; accepts the following, "
+"which list or change the rules without opening the dialog:"
+msgstr ""
+
+#. Tag: option
+#: index.docbook:214
+#, no-c-format
+msgid "--list"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:216
+#, no-c-format
+msgid ""
+"Prints the name of every known logging category on the standard output and "
+"exits, without changing anything. The categories are the ones read from the "
+"<filename class=\"extension\">.categories</filename> files (see <xref "
+"linkend=\"categories-file\"/>), &ie; the same ones listed in the "
+"<guilabel>KDE Application</guilabel> tab:"
+msgstr ""
+
+#. Tag: screen
+#: index.docbook:217
+#, no-c-format
+msgid ""
+"<prompt>%</prompt> <userinput><command>kdebugsettings</command> <option>--"
+"list</option> | <command>grep</command> <parameter>kmail</parameter></"
+"userinput>"
+msgstr ""
+
+#. Tag: option
+#: index.docbook:221
+#, no-c-format
+msgid "--enable-full-debug"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:222
+#, no-c-format
+msgid "Sets every known category to <guilabel>Full Debug</guilabel> and exits."
+msgstr ""
+
+#. Tag: option
+#: index.docbook:225
+#, no-c-format
+msgid "--disable-full-debug"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:226
+#, no-c-format
+msgid "Sets every known category to <guilabel>Off</guilabel> and exits."
+msgstr ""
+
+#. Tag: option
+#: index.docbook:229
+#, no-c-format
+msgid ""
+"--debug-mode <replaceable>Full|Info|Warning|Critical|Off</replaceable> "
+"<replaceable>category…</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:231
+#, no-c-format
+msgid ""
+"Sets the given level on the categories named as arguments and exits. At "
+"least one category name is required:"
+msgstr ""
+
+#. Tag: screen
+#: index.docbook:232
+#, no-c-format
+msgid ""
+"<prompt>%</prompt> <userinput><command>kdebugsettings</command> <option>--"
+"debug-mode</option> <parameter>Full</parameter> <parameter>org.kde.pim."
+"kmail</parameter> <parameter>org.kde.pim.messagelist</parameter></userinput>"
+msgstr ""
+
+#. Tag: option
+#: index.docbook:236
+#, no-c-format
+msgid "--test-mode"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:237
+#, no-c-format
+msgid ""
+"Enables the <classname>QStandardPaths</classname> test mode, so that the "
+"settings of the unit tests are used instead of yours. Intended for testing "
+"&kdebugsettings; itself."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:244
+#, no-c-format
+msgid "The &systemsettings; Module"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:246
+#, no-c-format
+msgid ""
+"&kdebugsettings; also installs a &systemsettings; module, found under "
+"<menuchoice><guimenu>System Administration</guimenu><guimenuitem>Debug "
+"Settings</guimenuitem></menuchoice>. It offers the same three tabs as the "
+"standalone application and writes the same <filename>qtlogging.ini</"
+"filename> file."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:251
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:253
+#, no-c-format
+msgid "&kdebugsettings;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:255
+#, no-c-format
+msgid ""
+"Program copyright 2015-2026 Laurent Montel <email>montel@kde.org</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:257
+#, no-c-format
+msgid ""
+"Documentation copyright 2026 Laurent Montel <email>montel@kde.org</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:259
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:259
+#, no-c-format
+msgid "&underGPL; &underFDL;"
+msgstr ""
