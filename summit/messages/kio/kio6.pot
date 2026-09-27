@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 09:23+0200\n"
+"POT-Creation-Date: 2026-09-27 10:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3967,16 +3967,10 @@ msgstr ""
 msgid "You can change the icon later in folder properties."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, md5CopyButton)
-#. i18n: ectx: property (text), widget (QPushButton, sha1CopyButton)
-#. i18n: ectx: property (text), widget (QPushButton, sha256CopyButton)
-#. i18n: ectx: property (text), widget (QPushButton, sha512CopyButton)
-#. +> trunk6 trunk5
-#: filewidgets/kurlnavigator.cpp:611 widgets/checksumswidget.ui:145
-#: widgets/checksumswidget.ui:192 widgets/checksumswidget.ui:239
-#: widgets/checksumswidget.ui:286
+#. +> trunk6
+#: filewidgets/kurlnavigator.cpp:611
 #, kde-format
-msgid "Copy"
+msgid "Copy Location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pasteButton)
@@ -5305,6 +5299,17 @@ msgstr ""
 #: widgets/checksumswidget.ui:236 widgets/checksumswidget.ui:283
 #, kde-format
 msgid "Click to copy the checksum to the clipboard."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, md5CopyButton)
+#. i18n: ectx: property (text), widget (QPushButton, sha1CopyButton)
+#. i18n: ectx: property (text), widget (QPushButton, sha256CopyButton)
+#. i18n: ectx: property (text), widget (QPushButton, sha512CopyButton)
+#. +> trunk6 trunk5
+#: widgets/checksumswidget.ui:145 widgets/checksumswidget.ui:192
+#: widgets/checksumswidget.ui:239 widgets/checksumswidget.ui:286
+#, kde-format
+msgid "Copy"
 msgstr ""
 
 #. +> trunk6 trunk5
