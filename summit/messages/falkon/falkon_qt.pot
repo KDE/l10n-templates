@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-28 09:56+0200\n"
+"POT-Creation-Date: 2026-09-29 08:38+0200\n"
 
 #. +> trunk6 stable6
 #: lib/3rdparty/lineedit.cpp:102
@@ -3260,40 +3260,58 @@ msgctxt "EditSearchEngine|"
 msgid "Name:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: lib/opensearch/editsearchengine.ui:30
 msgctxt "EditSearchEngine|"
-msgid "Url:"
+msgid "URL:"
 msgstr ""
 
 #. +> trunk6 stable6
 #: lib/opensearch/editsearchengine.ui:44
 msgctxt "EditSearchEngine|"
+msgid "Post Data:"
+msgstr ""
+
+#. +> trunk6
+#: lib/opensearch/editsearchengine.ui:54
+msgctxt "EditSearchEngine|"
+msgid "Suggestions URL:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/opensearch/editsearchengine.ui:64
+msgctxt "EditSearchEngine|"
 msgid "Shortcut:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/editsearchengine.ui:54
+#: lib/opensearch/editsearchengine.ui:74
 msgctxt "EditSearchEngine|"
 msgid "Icon:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/editsearchengine.ui:83
+#: lib/opensearch/editsearchengine.ui:103
 msgctxt "EditSearchEngine|"
 msgid "Change..."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: lib/opensearch/editsearchengine.ui:126
+msgctxt "EditSearchEngine|"
+msgid "<b>Note: </b>%s in URLs and post data represent searched string"
+msgstr ""
+
+#. +> stable6
+#: lib/opensearch/editsearchengine.ui:30
+msgctxt "EditSearchEngine|"
+msgid "Url:"
+msgstr ""
+
+#. +> stable6
 #: lib/opensearch/editsearchengine.ui:106
 msgctxt "EditSearchEngine|"
 msgid "<b>Note: </b>%s in url or post data represent searched string"
-msgstr ""
-
-#. +> trunk6 stable6
-#: lib/opensearch/editsearchengine.ui:123
-msgctxt "EditSearchEngine|"
-msgid "Post Data:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3310,13 +3328,13 @@ msgid "Add Search Engine"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/searchenginesdialog.cpp:89
+#: lib/opensearch/searchenginesdialog.cpp:90
 msgctxt "SearchEnginesDialog|"
 msgid "Remove Engine"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/searchenginesdialog.cpp:90
+#: lib/opensearch/searchenginesdialog.cpp:91
 #, qt-format
 msgctxt "SearchEnginesDialog|"
 msgid ""
@@ -3325,7 +3343,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/searchenginesdialog.cpp:107
+#: lib/opensearch/searchenginesdialog.cpp:108
 msgctxt "SearchEnginesDialog|"
 msgid "Edit Search Engine"
 msgstr ""
@@ -3391,32 +3409,32 @@ msgid "Defaults"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/searchenginesmanager.cpp:400
+#: lib/opensearch/searchenginesmanager.cpp:401
 msgctxt "SearchEnginesManager|"
 msgid "Search Engine Added"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/searchenginesmanager.cpp:400
+#: lib/opensearch/searchenginesmanager.cpp:401
 #, qt-format
 msgctxt "SearchEnginesManager|"
 msgid "Search Engine \"%1\" has been successfully added."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/searchenginesmanager.cpp:407
+#: lib/opensearch/searchenginesmanager.cpp:408
 msgctxt "SearchEnginesManager|"
 msgid "Search Engine is not valid!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/searchenginesmanager.cpp:408
+#: lib/opensearch/searchenginesmanager.cpp:409
 msgctxt "SearchEnginesManager|"
 msgid "Error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/opensearch/searchenginesmanager.cpp:408
+#: lib/opensearch/searchenginesmanager.cpp:409
 #, qt-format
 msgctxt "SearchEnginesManager|"
 msgid ""

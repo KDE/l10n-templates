@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-22 23:02+0200\n"
+"POT-Creation-Date: 2026-09-29 08:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -156,7 +156,7 @@ msgid "Open folder where file was saved"
 msgstr ""
 
 #. +> trunk6 stable6
-#: opensavedfilefolderwidget.cpp:86
+#: opensavedfilefolderwidget.cpp:85
 #, kde-format
 msgid "Unable to open the attachment."
 msgstr ""
@@ -165,12 +165,6 @@ msgstr ""
 #: plugins/configurepluginswidget.cpp:24
 #, kde-format
 msgid "Restart is necessary for applying the changes."
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/configurepluginswidget.cpp:159
-#, kde-format
-msgid "..."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -309,69 +303,29 @@ msgid "Check New Version"
 msgstr ""
 
 #. +> trunk6 stable6
-#: whatsnew/whatsnewcomboboxwidget.cpp:31
+#: whatsnewng/whatsnewcomboboxwidget.cpp:31
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: whatsnew/whatsnewdialog.cpp:26 whatsnewng/whatsnewngdialog.cpp:27
-#, kde-format
-msgctxt "@title:window"
-msgid "What's new in %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: whatsnew/whatsnewmessagewidget.cpp:22
 #: whatsnewng/whatsnewmessagengwidget.cpp:23
 #, kde-format
 msgid "(Show News)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: whatsnew/whatsnewmessagewidget.cpp:22
-#, kde-format
-msgid "What's new in %2. %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: whatsnew/whatsnewwidget.cpp:48 whatsnewng/whatsnewngwidget.cpp:51
-#, kde-format
-msgid "All Versions"
-msgstr ""
-
-#. +> trunk6 stable6
-#: whatsnew/whatsnewwidget.cpp:95
-#, kde-format
-msgid "Important changes since last version:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: whatsnew/whatsnewwidget.cpp:100
-#, kde-format
-msgid "Some of the new features in this release include:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: whatsnew/whatsnewwidget.cpp:105
-#, kde-format
-msgid "Some bug fixing:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: whatsnew/whatsnewwidget.cpp:146
-#, kde-format
-msgid ""
-"<h1><i> Version %1 </i></h1>"
-"<hr/>"
-"<br>"
-msgstr ""
-
-#. +> trunk6 stable6
 #: whatsnewng/whatsnewmessagengwidget.cpp:23
 #, kde-format
 msgid "What's new in %1. %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: whatsnewng/whatsnewngdialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "What's new in %1"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -396,4 +350,43 @@ msgstr ""
 #: whatsnewng/whatsnewngutils.cpp:50
 #, kde-format
 msgid "<h1>What's New History</h1>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: whatsnewng/whatsnewngwidget.cpp:51
+#, kde-format
+msgid "All Versions"
+msgstr ""
+
+#. +> stable6
+#: whatsnew/whatsnewmessagewidget.cpp:22
+#, kde-format
+msgid "What's new in %2. %1"
+msgstr ""
+
+#. +> stable6
+#: whatsnew/whatsnewwidget.cpp:95
+#, kde-format
+msgid "Important changes since last version:"
+msgstr ""
+
+#. +> stable6
+#: whatsnew/whatsnewwidget.cpp:100
+#, kde-format
+msgid "Some of the new features in this release include:"
+msgstr ""
+
+#. +> stable6
+#: whatsnew/whatsnewwidget.cpp:105
+#, kde-format
+msgid "Some bug fixing:"
+msgstr ""
+
+#. +> stable6
+#: whatsnew/whatsnewwidget.cpp:146
+#, kde-format
+msgid ""
+"<h1><i> Version %1 </i></h1>"
+"<hr/>"
+"<br>"
 msgstr ""
