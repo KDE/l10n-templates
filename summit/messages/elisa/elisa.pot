@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-27 10:01+0200\n"
+"POT-Creation-Date: 2026-09-30 08:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -52,43 +52,50 @@ msgctxt "@action"
 msgid "Toggle Playlist"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: elisaapplication.cpp:187
+#, kde-format
+msgctxt "@action"
+msgid "Clear Playlist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: elisaapplication.cpp:193
 #, kde-format
 msgctxt "@action"
 msgid "Seek forward 10 seconds"
 msgstr ""
 
 #. +> trunk6 stable6
-#: elisaapplication.cpp:194
+#: elisaapplication.cpp:200
 #, kde-format
 msgctxt "@action"
 msgid "Scrub backwards 10 seconds"
 msgstr ""
 
 #. +> trunk6 stable6
-#: elisaapplication.cpp:201
+#: elisaapplication.cpp:207
 #, kde-format
 msgctxt "@action"
 msgid "Go to next track"
 msgstr ""
 
 #. +> trunk6 stable6
-#: elisaapplication.cpp:208
+#: elisaapplication.cpp:214
 #, kde-format
 msgctxt "@action"
 msgid "Go to previous track"
 msgstr ""
 
 #. +> trunk6 stable6
-#: elisaapplication.cpp:215
+#: elisaapplication.cpp:221
 #, kde-format
 msgctxt "@action"
 msgid "Play/pause"
 msgstr ""
 
 #. +> trunk6 stable6
-#: elisaapplication.cpp:228
+#: elisaapplication.cpp:234
 #, kde-format
 msgctxt "@action"
 msgid "Toggle Party Mode"
@@ -646,7 +653,7 @@ msgid "Loading failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:31 qml/ElisaMainWindow.qml:310
+#: qml/ElisaMainWindow.qml:31 qml/ElisaMainWindow.qml:318
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
@@ -667,77 +674,77 @@ msgid "Undo"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:142
+#: qml/ElisaMainWindow.qml:146
 #, kde-format
 msgctxt "@action:button"
 msgid "Show playlist drawer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:143
+#: qml/ElisaMainWindow.qml:147
 #, kde-format
 msgctxt "@action:button"
 msgid "Hide playlist drawer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:179 qml/ElisaMainWindow.qml:623
+#: qml/ElisaMainWindow.qml:183 qml/ElisaMainWindow.qml:631
 #, kde-format
 msgctxt "@info:status"
 msgid "Could not load some files. Elisa can only open audio and playlist files."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:238 qml/mobile/MobileSidebar.qml:21
+#: qml/ElisaMainWindow.qml:242 qml/mobile/MobileSidebar.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Elisa"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:238
+#: qml/ElisaMainWindow.qml:242
 #, kde-format
 msgctxt "@title:window"
 msgid "%1 — Elisa"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:290
+#: qml/ElisaMainWindow.qml:298
 #, kde-format
 msgctxt "@option file type (mime type) for m3u, m3u8 playlist file formats; do not translate *.m3u*"
 msgid "m3u8, m3u Playlist File (*.m3u*)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:290
+#: qml/ElisaMainWindow.qml:298
 #, kde-format
 msgctxt "@option file type (mime type) for pls playlist file formats; do not translate *.pls"
 msgid "pls Playlist File (*.pls)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:297
+#: qml/ElisaMainWindow.qml:305
 #, kde-format
 msgctxt "@option Allow opening music and playlist files. %1 and %2 are lists of untranslated file extensions"
 msgid "Playlist files and music files (%1 %2) (%1 %2)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:298
+#: qml/ElisaMainWindow.qml:306
 #, kde-format
 msgctxt "@option Allow opening playlist files. %1 is an untranslated list of file extensions"
 msgid "Playlist files (%1) (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:299
+#: qml/ElisaMainWindow.qml:307
 #, kde-format
 msgctxt "@option Allow opening music files. %1 is an untranslated list of file extensions"
 msgid "Music files (%1) (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:310
+#: qml/ElisaMainWindow.qml:318
 #, kde-format
 msgctxt "@label"
 msgid "Saving failed"

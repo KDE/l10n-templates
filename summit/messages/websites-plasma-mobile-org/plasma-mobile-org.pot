@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-plasma-mobile-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-24 07:24+0200\n"
+"POT-Creation-Date: 2026-09-30 08:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -124,7 +124,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/apps.md:14
-msgid "KDE applications are generally developed with [Kirigami](https://develop.kde.org/frameworks/kirigami), but applications developed in other frameworks (ex. [GTK](https://gtk.org/)) are also compatible with Plasma Mobile!"
+msgid "KDE applications are generally developed with [Kirigami](https://develop.kde.org/frameworks/kirigami), but applications developed in other frameworks (e.g. [GTK](https://gtk.org/)) are also compatible with Plasma Mobile."
 msgstr ""
 
 #. +> trunk5
@@ -134,7 +134,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/apps.md:18
-msgid "Want your project to join [KDE](https://kde.org)? See [this page](https://develop.kde.org/docs/getting-started/add-project/)."
+msgid "Want your project to join [KDE](https://kde.org)? See [our documentation](https://develop.kde.org/docs/getting-started/add-project/)."
 msgstr ""
 
 #. +> trunk5
@@ -171,7 +171,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/get.md:20
-msgid "Distributions for ARM Devices"
+msgid "Distributions for ARM devices"
 msgstr ""
 
 #. +> trunk5
@@ -190,12 +190,12 @@ msgid ""
 "    <div class=\"project-description\">\n"
 "      "
 "<p>\n"
-"        postmarketOS (pmOS), is an Alpine Linux based distribution for mobile devices. View the <a href=\"https://wiki.postmarketos.org/wiki/Devices\">device list</a> to see the progress for supporting your device.\n"
+"        postmarketOS (pmOS), is an Alpine Linux-based distribution for mobile devices. View the <a href=\"https://wiki.postmarketos.org/wiki/Devices\">device list</a> to see the progress for supporting your device.\n"
 "      </p>"
 "\n"
 "      "
 "<p>\n"
-"        For devices that do not have prebuilt images, you will need to flash it manually using the pmbootstrap utility. Follow instructions <a href=\"https://wiki.postmarketos.org/wiki/Installation_guide\">here</a>. Be sure to also check the device's wiki page for more information on what is working.\n"
+"        For devices that do not have prebuilt images, you will need to flash it manually using the pmbootstrap utility. Follow the <a href=\"https://wiki.postmarketos.org/wiki/Installation_guide\">installation guide</a>. Be sure to also check the device's wiki page for more information on what is working.\n"
 "      </p>"
 "\n"
 "      "
@@ -230,12 +230,12 @@ msgid ""
 "\n"
 "      "
 "<p>\n"
-"        Thanks to the efforts of the developers of <a href=\"https://mobian-project.org/\">Mobian</a> project (a mobile derivative of Debian), flashable images with Plasma Mobile environment (both based on stable Mobian release and weekly-generated images out of testing branch) are now available!\n"
+"        Thanks to the efforts of the developers of <a href=\"https://mobian-project.org/\">Mobian</a> (a mobile derivative of Debian), flashable images with the Plasma Mobile environment (with a choice of the stable Mobian release, and weekly-generated images from the testing branch) are available.\n"
 "      </p>"
 "\n"
 "      "
 "<p>\n"
-"        Instructions to manually install Plasma Mobile on existing Debian systems can be found on <a href=\"https://wiki.debian.org/Mobian/Tweaks#Plasma_mobile\">Debian wiki</a>.\n"
+"        Instructions to manually install Plasma Mobile on existing Debian systems can be found on the <a href=\"https://wiki.debian.org/Mobian/Tweaks#Plasma_mobile\">Debian wiki</a>.\n"
 "      </p>"
 "\n"
 "    </div>\n"
@@ -254,12 +254,12 @@ msgid ""
 "  <div class=\"project\">\n"
 "    <img src=\"/img/openSUSE.svg\" class=\"project-logo\"/>\n"
 "    "
-"<h2 class=\"project-name\"><a href=\"https://opensuse.org\">OpenSUSE</a></h2>"
+"<h2 class=\"project-name\"><a href=\"https://opensuse.org\">openSUSE</a></h2>"
 "\n"
 "    <div class=\"project-description\">\n"
 "      "
 "<p>\n"
-"        openSUSE, formerly SUSE Linux and SuSE Linux Professional, is a Linux distribution sponsored by SUSE Linux GmbH and other companies. Currently openSUSE provides Tumbleweed based Plasma Mobile builds.\n"
+"        openSUSE is a Linux distribution sponsored by SUSE Linux GmbH and other companies. Currently openSUSE provides Tumbleweed-based Plasma Mobile builds for the PinePhone.\n"
 "      </p>"
 "\n"
 "    </div>\n"
@@ -274,7 +274,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/get.md:80 content/get.md:160
+#: content/get.md:80 content/get.md:157
 msgid "</div>\n"
 msgstr ""
 
@@ -287,7 +287,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/get.md:84
-msgid "Distributions for x86 Devices"
+msgid "Distributions for x86 devices"
 msgstr ""
 
 #. +> trunk5
@@ -301,12 +301,7 @@ msgid ""
 "    <div class=\"project-description\">\n"
 "      "
 "<p>\n"
-"        Fedora has an official Plasma Mobile spin, with the shell and related applications packaged in their repositories.\n"
-"      </p>"
-"\n"
-"      "
-"<p>\n"
-"        Check out and download the spin <a href=\"https://fedoraproject.org/spins/kde-mobile\">here</a>.\n"
+"        Fedora has an official <a href=\"https://fedoraproject.org/spins/kde-mobile\">Plasma Mobile spin</a>, with the shell and related applications packaged in their repositories.\n"
 "      </p>"
 "\n"
 "      "
@@ -323,7 +318,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/get.md:106
+#: content/get.md:103
 msgid ""
 "  <div class=\"project\">\n"
 "    <img src=\"/img/pmOS.svg\" class=\"project-logo\"/>\n"
@@ -338,12 +333,12 @@ msgid ""
 "\n"
 "      "
 "<p>\n"
-"        Check out and download images <a href=\"https://postmarketos.org/install/\">here</a>.\n"
+"        Check out and download <a href=\"https://postmarketos.org/install/\">their images</a>.\n"
 "      </p>"
 "\n"
 "      "
 "<p>\n"
-"        Custom images can also be tested in QEMU with the <a href=\"https://wiki.postmarketos.org/wiki/Category:QEMU\">instructions here</a>.\n"
+"        Custom images can also be <a href=\"https://wiki.postmarketos.org/wiki/Category:QEMU\">tested in QEMU</a>.\n"
 "      </p>"
 "\n"
 "    </div>\n"
@@ -355,7 +350,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/get.md:124
+#: content/get.md:121
 msgid ""
 "  <div class=\"project\">\n"
 "    <img src=\"/img/debian.svg\" class=\"project-logo\"/>\n"
@@ -377,7 +372,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/get.md:136
+#: content/get.md:133
 msgid ""
 "  <div class=\"project\">\n"
 "    <img src=\"/img/archlinux.png\" class=\"project-logo\"/>\n"
@@ -399,17 +394,17 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/get.md:148
+#: content/get.md:145
 msgid ""
 "  <div class=\"project\">\n"
 "    <img src=\"/img/neon.svg\" class=\"project-logo\"/>\n"
 "    "
-"<h2 class=\"project-name\"><a href=\"https://neon.kde.org/\">KDE Neon</a></h2>"
+"<h2 class=\"project-name\"><a href=\"https://neon.kde.org/\">KDE neon</a></h2>"
 "\n"
 "    <div class=\"project-description\">\n"
 "      "
 "<p>\n"
-"        This image, based on KDE neon, can be tested on non-android intel tablets, PCs and virtual machines. It can be <a href=\"https://files.kde.org/neon/images/mobile/\">downloaded here</a>.\n"
+"        <a href=\"https://files.kde.org/neon/images/mobile/\">This image</a>, based on KDE neon, can be tested on non-Android Intel tablets, PCs, and virtual machines.\n"
 "      </p>"
 "\n"
 "    </div>\n"
@@ -438,7 +433,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/join.md:13
-msgid "See more information on the project's [source code here](/get-source)."
+msgid "See more information on the project’s [source code](/get-source)."
 msgstr ""
 
 #. +> trunk5
@@ -659,7 +654,7 @@ msgstr ""
 #. openup
 #. +> trunk5
 #: i18n/en.yaml:4
-msgid "Open up."
+msgid "Open up"
 msgstr ""
 
 #. opensource-phone
@@ -695,21 +690,19 @@ msgstr ""
 #. wayland
 #. +> trunk5
 #: i18n/en.yaml:18
-msgid "Wayland is the next-generation protocol for delivering cutting-edge user interfaces. KWin is KDE's battle-tested window manager which implements Wayland, delivering a polished and reliable experience on both the desktop and mobile devices."
+msgid "Wayland is the next-generation protocol for delivering cutting-edge user interfaces. KWin is KDE’s battle-tested window manager which implements Wayland, delivering a polished and reliable experience on both desktop and mobile devices."
 msgstr ""
 
 #. opensource
 #. +> trunk5
 #: i18n/en.yaml:20
-msgid "Making full use of Open Source"
+msgid "Making full use of open source"
 msgstr ""
 
 #. parts
 #. +> trunk5
 #: i18n/en.yaml:22
-msgid ""
-"Plasma Mobile utilizes established projects in the Linux desktop ecosystem.<br />"
-" ModemManager provides telephony and PulseAudio/PipeWire drives the Plasma Mobile sound system."
+msgid "Plasma Mobile utilizes established projects in the Linux desktop ecosystem. ModemManager provides telephony and PulseAudio/PipeWire drives the Plasma Mobile sound system."
 msgstr ""
 
 #. adapting
@@ -727,7 +720,7 @@ msgstr ""
 #. home.why
 #. +> trunk5
 #: i18n/en.yaml:28
-msgid "Community Powered"
+msgid "Community powered"
 msgstr ""
 
 #. home.why.description

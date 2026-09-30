@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-17 09:22+0200\n"
+"POT-Creation-Date: 2026-09-30 08:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -260,7 +260,14 @@ msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: package/contents/ui/ConfigIcons.qml:126
+#, kde-format
+msgctxt "@label:listbox rows/columns"
+msgid "Arrangement:"
+msgstr ""
+
+#. +> stable6
 #: package/contents/ui/ConfigIcons.qml:126
 #, kde-format
 msgctxt "@label:listbox columns/rows"
@@ -277,14 +284,14 @@ msgstr ""
 #: package/contents/ui/ConfigIcons.qml:129
 #, kde-format
 msgctxt "@item:inlistbox arrangement of icons"
-msgid "In Columns"
+msgid "In Rows"
 msgstr ""
 
 #. +> trunk6 stable6
 #: package/contents/ui/ConfigIcons.qml:130
 #, kde-format
 msgctxt "@item:inlistbox arrangement of icons"
-msgid "In Rows"
+msgid "In Columns"
 msgstr ""
 
 #. +> stable5
@@ -1137,14 +1144,14 @@ msgstr ""
 #: plugins/folder/viewpropertiesmenu.cpp:70
 #, kde-format
 msgctxt "@item:inmenu arrangement of icons"
-msgid "In Columns"
+msgid "In Rows"
 msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/folder/viewpropertiesmenu.cpp:74
 #, kde-format
 msgctxt "@item:inmenu arrangement of icons"
-msgid "In Rows"
+msgid "In Columns"
 msgstr ""
 
 #. +> stable5

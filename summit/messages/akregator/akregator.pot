@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-25 09:33+0200\n"
+"POT-Creation-Date: 2026-09-30 08:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 #. +> trunk6
 #: configuration/akregator_config_accounts.cpp:45
 #, kde-format
-msgctxt "@action:button"
+msgctxt "@action:button Add account"
 msgid "Add…"
 msgstr ""
 
@@ -69,8 +69,8 @@ msgstr ""
 #: configuration/akregator_config_accounts.cpp:134
 #, kde-format
 msgid ""
-"Do you really want to remove the account \"%1\"?\n"
-"This removes the account's folder from the feed tree and deletes its stored credentials; the server is not affected."
+"Do you really want to remove the account “%1”?\n"
+"This removes the account’s folder from the feed tree and deletes its stored credentials; the server is not affected."
 msgstr ""
 
 #. +> trunk6
@@ -380,7 +380,14 @@ msgid "Security"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckPhishingUrl)
-#. +> trunk6 stable6
+#. +> trunk6
+#: configuration/ui/settings_browser.ui:146
+#, kde-format
+msgid "Verify URLs using Google’s Safe Browsing API"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckPhishingUrl)
+#. +> stable6
 #: configuration/ui/settings_browser.ui:146
 #, kde-format
 msgid "Verify URLs using Google's Safe Browsing API"
@@ -796,7 +803,14 @@ msgid "Use the KDE-wide HTML cache settings when downloading feeds, to avoid unn
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Network)
-#. +> trunk6 stable6
+#. +> trunk6
+#: interfaces/akregator.kcfg:146
+#, kde-format
+msgid "This option allows user to specify custom user-agent string instead of using the default one. This is here because some proxies may interrupt the connection because of having “gator” in the name."
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Network)
+#. +> stable6
 #: interfaces/akregator.kcfg:146
 #, kde-format
 msgid "This option allows user to specify custom user-agent string instead of using the default one. This is here because some proxies may interrupt the connection because of having \"gator\" in the name."
@@ -1212,8 +1226,14 @@ msgctxt "@info:credit"
 msgid "Eike Hein"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/aboutdata.cpp:42
+#, kde-format
+msgid "‘Delayed mark as read’ feature"
+msgstr ""
+
+#. +> stable6
+#: src/aboutdata.cpp:40
 #, kde-format
 msgid "'Delayed mark as read' feature"
 msgstr ""
@@ -1519,8 +1539,14 @@ msgctxt "@action"
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/actions/actionmanagerimpl.cpp:463
+#, kde-format
+msgid "What’s new"
+msgstr ""
+
+#. +> stable6
+#: src/actions/actionmanagerimpl.cpp:450
 #, kde-format
 msgid "What's new"
 msgstr ""
@@ -1861,8 +1887,16 @@ msgstr ""
 msgid "No result found"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/articlelistview.cpp:382
+#, kde-format
+msgid ""
+"<h2>Article list</h2>"
+"Here you can browse articles from the currently selected feed. You can also manage articles, as marking them as persistent (“Mark as Important”) or delete them, using the right mouse button menu. To view the web page of the article, you can open the article internally in a tab or in an external browser window."
+msgstr ""
+
+#. +> stable6
+#: src/articlelistview.cpp:379
 #, kde-format
 msgid ""
 "<h2>Article list</h2>"
@@ -2627,6 +2661,7 @@ msgstr ""
 #. +> trunk6
 #: src/plugins/miniflux/minifluxaccountwidget.cpp:31
 #, kde-format
+msgctxt "@info:placeholder"
 msgid "My Miniflux"
 msgstr ""
 
@@ -2696,7 +2731,7 @@ msgstr ""
 #. +> trunk6
 #: src/plugins/miniflux/minifluxplugin.cpp:90
 #, kde-format
-msgid "An account named \"%1\" already exists."
+msgid "An account named “%1” already exists."
 msgstr ""
 
 #. +> trunk6 stable6
