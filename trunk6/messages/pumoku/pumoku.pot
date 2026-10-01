@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pumoku\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-07 00:41+0000\n"
+"POT-Creation-Date: 2026-10-01 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,170 +17,206 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: contents/ui/GamePage.qml:200
+#: contents/ui/CheckBoardDialog.qml:79
+#, kde-format
+msgid "All is good!"
+msgstr ""
+
+#: contents/ui/CheckBoardDialog.qml:80
+#, kde-format
+msgid "There are some errors."
+msgstr ""
+
+#: contents/ui/CheckBoardDialog.qml:81
+#, kde-format
+msgid "Check board: "
+msgstr ""
+
+#: contents/ui/CheckBoardDialog.qml:81
+#, kde-format
+msgid "There is an error."
+msgstr ""
+
+#: contents/ui/FinishDialog.qml:48
+#, kde-format
+msgctxt "@action:button, %1 is level name"
+msgid "Another %1"
+msgstr ""
+
+#: contents/ui/FinishDialog.qml:64
 #, kde-format
 msgid "There is your solution"
 msgstr ""
 
-#: contents/ui/GamePage.qml:201
+#: contents/ui/FinishDialog.qml:65
 #, kde-format
 msgctxt "%1 is step count"
 msgid "You gave in after %1 steps."
 msgstr ""
 
-#: contents/ui/GamePage.qml:202
+#: contents/ui/FinishDialog.qml:66
 #, kde-format
 msgctxt "%1 is hint count"
 msgid "Automatically solved. Hints: %1."
 msgstr ""
 
-#: contents/ui/GamePage.qml:205 contents/ui/GamePage.qml:215
+#: contents/ui/FinishDialog.qml:69 contents/ui/FinishDialog.qml:79
 #, kde-format
 msgid "Well done!"
 msgstr ""
 
-#: contents/ui/GamePage.qml:206
+#: contents/ui/FinishDialog.qml:70
 #, kde-format
-msgctxt "%1 is level name, %2 is step count"
-msgid "You finished this %1 Sudoku (with a bit of help) using %2 steps."
+msgctxt "%1 is step count"
+msgid "You solved this sudoku (with a bit of help) in %1 steps."
 msgstr ""
 
-#: contents/ui/GamePage.qml:208
+#: contents/ui/FinishDialog.qml:72
 #, kde-format
 msgid "Auto pencilmarks used."
 msgstr ""
 
-#: contents/ui/GamePage.qml:210
+#: contents/ui/FinishDialog.qml:74
 #, kde-format
 msgctxt "%1 is hint count"
 msgid "Hints: %1."
 msgstr ""
 
-#: contents/ui/GamePage.qml:213
+#: contents/ui/FinishDialog.qml:77
 #, kde-format
 msgid "CONGRATULATIONS!!"
 msgstr ""
 
-#: contents/ui/GamePage.qml:214
+#: contents/ui/FinishDialog.qml:77
 #, kde-format
-msgctxt "%1 is level name, %2 is step count"
-msgid "You finished this %1 Sudoku with no hints or help using %2 steps."
+msgid "PURE PERFECTION!!"
 msgstr ""
 
-#: contents/ui/GamePage.qml:464
+#: contents/ui/FinishDialog.qml:78
+#, kde-format
+msgctxt "%1 is step count"
+msgid "You solved this sudoku with no hints or help in %1 steps."
+msgstr ""
+
+#: contents/ui/GamePage.qml:55
+#, kde-format
+msgid "Play at sudokuexchange.com"
+msgstr ""
+
+#: contents/ui/GamePage.qml:447
 #, kde-format
 msgctxt "@action:button"
 msgid "Undo"
 msgstr ""
 
-#: contents/ui/GamePage.qml:473
+#: contents/ui/GamePage.qml:457
 #, kde-format
 msgctxt "@action:button"
 msgid "Redo"
 msgstr ""
 
-#: contents/ui/GamePage.qml:482
+#: contents/ui/GamePage.qml:467
 #, kde-format
 msgctxt "@action:button"
 msgid "Hint"
 msgstr ""
 
-#: contents/ui/GamePage.qml:488
+#: contents/ui/GamePage.qml:473
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Check board"
+msgstr ""
+
+#: contents/ui/GamePage.qml:480
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Solve Cell"
 msgstr ""
 
-#: contents/ui/GamePage.qml:501
+#: contents/ui/GamePage.qml:493
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Solve Game"
 msgstr ""
 
-#: contents/ui/GamePage.qml:505
+#: contents/ui/GamePage.qml:497
 #, kde-format
 msgctxt "@title:window"
 msgid "Solve Game?"
 msgstr ""
 
-#: contents/ui/GamePage.qml:506
+#: contents/ui/GamePage.qml:498
 #, kde-format
 msgid ""
 "You will lose any changes you have made, this cannot be undone. You can’t "
 "solve the puzzle on your own!"
 msgstr ""
 
-#: contents/ui/GamePage.qml:515
+#: contents/ui/GamePage.qml:507
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set Pencilmarks"
 msgstr ""
 
-#: contents/ui/GamePage.qml:560
+#: contents/ui/GamePage.qml:552
 #, kde-format
 msgctxt "@action:button"
 msgid "Pencil"
 msgstr ""
 
-#: contents/ui/GamePage.qml:568
+#: contents/ui/GamePage.qml:562
 #, kde-format
 msgctxt "@action:button"
 msgid "Erase"
 msgstr ""
 
-#: contents/ui/GamePage.qml:576
+#: contents/ui/GamePage.qml:572
 #, kde-format
 msgctxt "@action:button"
 msgid "Game"
 msgstr ""
 
-#: contents/ui/GamePage.qml:582
+#: contents/ui/GamePage.qml:578
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reset Game"
 msgstr ""
 
-#: contents/ui/GamePage.qml:586
+#: contents/ui/GamePage.qml:582
 #, kde-format
 msgctxt "@title:window"
 msgid "Reset Game?"
 msgstr ""
 
-#: contents/ui/GamePage.qml:587 contents/ui/GamePage.qml:605
+#: contents/ui/GamePage.qml:583 contents/ui/GamePage.qml:601
 #, kde-format
 msgid "You will lose any changes you have made, this cannot be undone."
 msgstr ""
 
-#: contents/ui/GamePage.qml:596
+#: contents/ui/GamePage.qml:592
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Clear Pencilmarks"
 msgstr ""
 
-#: contents/ui/GamePage.qml:600
+#: contents/ui/GamePage.qml:596
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Give Up"
 msgstr ""
 
-#: contents/ui/GamePage.qml:604
+#: contents/ui/GamePage.qml:600
 #, kde-format
 msgctxt "@title:window"
 msgid "Give Up?"
 msgstr ""
 
-#: contents/ui/GamePage.qml:687
-#, kde-format
-msgctxt "@action:button, %1 is level name"
-msgid "Another %1"
-msgstr ""
-
-#: contents/ui/GamePage.qml:700
+#: contents/ui/GamePage.qml:660
 #, kde-format
 msgid "Please select a valid cell to solve."
 msgstr ""
 
-#: contents/ui/GamePage.qml:703
+#: contents/ui/GamePage.qml:663
 #, kde-format
 msgid "Solve"
 msgstr ""
@@ -341,6 +377,12 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Wrong values"
+msgstr ""
+
+#: contents/ui/ShareAction.qml:29
+#, kde-format
+msgctxt "@title:menu"
+msgid "Share sudokuexchange.com link"
 msgstr ""
 
 #: main.cpp:76
