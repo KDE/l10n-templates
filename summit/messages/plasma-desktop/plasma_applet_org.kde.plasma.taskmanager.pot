@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-25 09:35+0200\n"
+"POT-Creation-Date: 2026-10-02 08:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -944,8 +944,29 @@ msgstr ""
 msgid "Move to %1"
 msgstr ""
 
+#. +> trunk6
+#: qml/ContextMenu.qml:505
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move to &Screen"
+msgstr ""
+
+#. +> trunk6
+#: qml/ContextMenu.qml:535
+#, kde-format
+msgctxt "@item:inmenu List of all Screens to send a window to."
+msgid "Built-in Screen"
+msgstr ""
+
+#. +> trunk6
+#: qml/ContextMenu.qml:538
+#, kde-format
+msgctxt "@item:inmenu List of all Screens to send a window to, manufacturer, model (output identifier)"
+msgid "%1 %2 (%3)"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:509 qml/ContextMenu.qml:525
+#: qml/ContextMenu.qml:583 qml/ContextMenu.qml:599
 #, kde-format
 msgctxt "action:inmenu"
 msgid "&Pin to Task Manager"
@@ -959,7 +980,7 @@ msgid "&Pin to Task Manager"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:577
+#: qml/ContextMenu.qml:651
 #, kde-format
 msgctxt "action:inmenu"
 msgid "On All Activities"
@@ -972,7 +993,7 @@ msgid "On All Activities"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:583
+#: qml/ContextMenu.qml:657
 #, kde-format
 msgctxt "action:inmenu"
 msgid "On The Current Activity"
@@ -985,7 +1006,7 @@ msgid "On The Current Activity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:607
+#: qml/ContextMenu.qml:681
 #, kde-format
 msgctxt "action:inmenu"
 msgid "Unpin from Task Manager"
@@ -998,7 +1019,7 @@ msgid "Unpin from Task Manager"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:622
+#: qml/ContextMenu.qml:696
 #, kde-format
 msgctxt "item:inmenu opens submenu"
 msgid "More"
@@ -1011,7 +1032,7 @@ msgid "More"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:631
+#: qml/ContextMenu.qml:705
 #, kde-format
 msgctxt "action:inmenu"
 msgid "&Move"
@@ -1023,8 +1044,14 @@ msgstr ""
 msgid "&Move"
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/ContextMenu.qml:708
+#, kde-format
+msgid "&Shade"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:640
+#: qml/ContextMenu.qml:714
 #, kde-format
 msgctxt "action:inmenu"
 msgid "Re&size"
@@ -1037,7 +1064,7 @@ msgid "Re&size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:654
+#: qml/ContextMenu.qml:728
 #, kde-format
 msgctxt "action:inmenu"
 msgid "Ma&ximize"
@@ -1050,7 +1077,7 @@ msgid "Ma&ximize"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:668
+#: qml/ContextMenu.qml:742
 #, kde-format
 msgctxt "action:inmenu"
 msgid "Mi&nimize"
@@ -1063,7 +1090,7 @@ msgid "Mi&nimize"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:678
+#: qml/ContextMenu.qml:752
 #, kde-format
 msgctxt "action:inmenu"
 msgid "Keep &Above Others"
@@ -1076,7 +1103,7 @@ msgid "Keep &Above Others"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:688
+#: qml/ContextMenu.qml:762
 #, kde-format
 msgctxt "action:inmenu"
 msgid "Keep &Below Others"
@@ -1089,7 +1116,7 @@ msgid "Keep &Below Others"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:700
+#: qml/ContextMenu.qml:774
 #, kde-format
 msgctxt "action:inmenu"
 msgid "&Fullscreen"
@@ -1101,28 +1128,22 @@ msgstr ""
 msgid "&Fullscreen"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/ContextMenu.qml:708
-#, kde-format
-msgid "&Shade"
-msgstr ""
-
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:712
+#: qml/ContextMenu.qml:786
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&No Titlebar and Frame"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:725
+#: qml/ContextMenu.qml:799
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Hide from Screencast"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:741
+#: qml/ContextMenu.qml:815
 #, kde-format
 msgctxt "@option:check inmenu"
 msgid "Allow this program to be grouped"
@@ -1135,14 +1156,14 @@ msgid "Allow this program to be grouped"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:787
+#: qml/ContextMenu.qml:861
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Close All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ContextMenu.qml:787
+#: qml/ContextMenu.qml:861
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Close"
