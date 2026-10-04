@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kstars-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-22 09:08+0100\n"
+"POT-Creation-Date: 2026-10-04 08:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -766,145 +766,165 @@ msgstr ""
 #. download.windows.guide
 #. %1 Quick Hash GUI link, %2 SHA256 link
 #. +> trunk5
-#: i18n/en.yaml:32 i18n/en.yaml:38
+#: i18n/en.yaml:32
 msgid "Use the [Quick Hash GUI](%1) to verify the integrity of the executable file by comparing it to the [SHA256 checksum](%2)."
 msgstr ""
 
-#. download.macos
-#. %1 version number, %2 link, %3 macOS version, e.g. "10.15+"
+#. download.macos.arm64
+#. %1 version number, %2 link, %3 macOS version, e.g. "11+"
 #. +> trunk5
 #: i18n/en.yaml:35
-msgid "[64bit KStars %1 Installer](%2) for macOS %3"
+msgid "[KStars %1 Installer for Apple Silicon (arm64)](%2) for macOS %3"
+msgstr ""
+
+#. download.macos.x86_64
+#. %1 version number, %2 link, %3 macOS version, e.g. "10.15+"
+#. +> trunk5
+#: i18n/en.yaml:38
+msgid "[KStars %1 Installer for Intel (x86_64)](%2) for macOS %3"
+msgstr ""
+
+#. download.macos.which
+#. +> trunk5
+#: i18n/en.yaml:41
+msgid "Not sure which one you need? Open the Apple menu and choose *About This Mac*. If it lists a **Chip** (e.g. Apple M1), use the Apple Silicon installer. If it lists a **Processor** (e.g. Intel Core i7), use the Intel installer."
+msgstr ""
+
+#. download.macos.verify
+#. %1 Quick Hash GUI link, %2 Apple Silicon SHA256 link, %3 Intel SHA256 link
+#. +> trunk5
+#: i18n/en.yaml:43
+msgid "Use the [Quick Hash GUI](%1) to verify the integrity of the disk image by comparing it to the SHA256 checksum for your Mac: [Apple Silicon](%2) or [Intel](%3)."
 msgstr ""
 
 #. download.appstream
 #. +> trunk5
-#: i18n/en.yaml:41
+#: i18n/en.yaml:46
 msgid "Install KStars from your Linux distribution [software center](appstream://org.kde.kstars.desktop)."
 msgstr ""
 
 #. download.ubuntu
 #. +> trunk5
-#: i18n/en.yaml:43
+#: i18n/en.yaml:48
 msgid "Under Ubuntu/Mint, you can install the latest KStars by typing the following commands in the console:"
 msgstr ""
 
 #. download.flatpak.flathub
 #. +> trunk5
-#: i18n/en.yaml:45
+#: i18n/en.yaml:50
 msgid "Add flathub repository:"
 msgstr ""
 
 #. download.flatpak
 #. +> trunk5
-#: i18n/en.yaml:47
+#: i18n/en.yaml:52
 msgid "Install KStars:"
 msgstr ""
 
 #. download.flatpak.nightly.remote
 #. +> trunk5
-#: i18n/en.yaml:49
+#: i18n/en.yaml:54
 msgid "Add KStars Nightly repository:"
 msgstr ""
 
 #. download.flatpak.nightly.install
 #. +> trunk5
-#: i18n/en.yaml:51
+#: i18n/en.yaml:56
 msgid "Install KStars Nightly:"
 msgstr ""
 
 #. download.snap
 #. %1 link
 #. +> trunk5
-#: i18n/en.yaml:53
+#: i18n/en.yaml:58
 msgid "Install the [latest and stable KStars](%1) on many linux distributions using Snap."
 msgstr ""
 
 #. download.source.title
 #. +> trunk5
-#: i18n/en.yaml:56
+#: i18n/en.yaml:61
 msgid "Building from source"
 msgstr ""
 
 #. download.source.tarball
 #. +> trunk5
-#: i18n/en.yaml:58
+#: i18n/en.yaml:63
 msgid "Source tarball"
 msgstr ""
 
 #. download.source.mirror-list
 #. +> trunk5
-#: i18n/en.yaml:60
+#: i18n/en.yaml:65
 msgid "Mirror list"
 msgstr ""
 
 #. download.source.detail
 #. %1 link
 #. +> trunk5
-#: i18n/en.yaml:62
+#: i18n/en.yaml:67
 msgid "See [Building KStars from Source](%1) for details."
 msgstr ""
 
 #. download.windows.link
 #. +> trunk5
-#: i18n/en.yaml:65
+#: i18n/en.yaml:70
 msgid "Download for Windows"
 msgstr ""
 
 #. download.macos.link
 #. +> trunk5
-#: i18n/en.yaml:67
+#: i18n/en.yaml:72
 msgid "Download for macOS"
 msgstr ""
 
 #. download.linux.link
 #. +> trunk5
-#: i18n/en.yaml:69
+#: i18n/en.yaml:74
 msgid "Download for Linux"
 msgstr ""
 
 #. download.verification.title
 #. +> trunk5
-#: i18n/en.yaml:71
+#: i18n/en.yaml:76
 msgid "Verification"
 msgstr ""
 
 #. users.help.description
 #. +> trunk5
-#: i18n/en.yaml:74
+#: i18n/en.yaml:79
 msgid "You are most welcome to tell us about your problems with KStars on our [mailing list](https://mail.kde.org/mailman/listinfo/kstars-devel) or our [Web Chat channel](https://webchat.kde.org/#/room/#kstars:kde.org) where you can chat directly with developers and users. For some of these issues, there are temporary workarounds, and asking on the mailing list will help you discover these antidotes for symptomatic relief. We welcome your feedback, and discussion on both the mailing list and Web Chat channel. See the [Get Involved](/get-involved) page for more information and pointers."
 msgstr ""
 
 #. users.bug.description
 #. +> trunk5
-#: i18n/en.yaml:76
+#: i18n/en.yaml:81
 msgid "KStars has a lot of known issues, and many unknown issues. In either case, reporting a bug is always helpful. To report a bug against KStars, you can use the KDE [bug reporting interface](https://bugs.kde.org/). Choose \"kstars\" as the product to file the bug against."
 msgstr ""
 
 #. features.edu
 #. %1 link
 #. +> trunk5
-#: i18n/en.yaml:79
+#: i18n/en.yaml:84
 msgid "[Education](%1)"
 msgstr ""
 
 #. features.img
 #. %1 link
 #. +> trunk5
-#: i18n/en.yaml:82
+#: i18n/en.yaml:87
 msgid "[Astrophotography](%1)"
 msgstr ""
 
 #. features.visual
 #. %1 link
 #. +> trunk5
-#: i18n/en.yaml:85
+#: i18n/en.yaml:90
 msgid "[Visual Observation](%1)"
 msgstr ""
 
 #. features.any
 #. %1 link
 #. +> trunk5
-#: i18n/en.yaml:88
+#: i18n/en.yaml:93
 msgid "[Astronomy Enthusiasts](%1)"
 msgstr ""

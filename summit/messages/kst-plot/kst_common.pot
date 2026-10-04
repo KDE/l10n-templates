@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-09 23:52+0200\n"
+"POT-Creation-Date: 2026-10-04 08:29+0200\n"
 
 #. +> trunk6
 #: ../src/datasources/ascii/asciiconfig.ui:40
@@ -396,8 +396,8 @@ msgid "BIT Image Stream Reader"
 msgstr ""
 
 #. +> trunk6
-#: ../src/datasources/dirfilesource/dirfilesource.cpp:477
 #: ../src/datasources/dirfilesource/dirfilesource.cpp:478
+#: ../src/datasources/dirfilesource/dirfilesource.cpp:479
 msgctxt "DirFilePlugin|"
 msgid "DirFile Reader"
 msgstr ""
@@ -463,6 +463,36 @@ msgid "Source List Reader"
 msgstr ""
 
 #. +> trunk6
+#: ../src/datasources/ssdb/ssdbsource.cpp:238
+msgctxt "SsdbConfigWidget|"
+msgid "Frame rate:"
+msgstr ""
+
+#. +> trunk6
+#: ../src/datasources/ssdb/ssdbsource.cpp:245
+msgctxt "SsdbConfigWidget|"
+msgid "End delay:"
+msgstr ""
+
+#. +> trunk6
+#: ../src/datasources/ssdb/ssdbsource.cpp:252
+msgctxt "SsdbConfigWidget|"
+msgid "Late correction window:"
+msgstr ""
+
+#. +> trunk6
+#: ../src/datasources/ssdb/ssdbsource.cpp:915
+msgctxt "SsdbSourcePlugin|"
+msgid "SSDB Reader"
+msgstr ""
+
+#. +> trunk6
+#: ../src/datasources/ssdb/ssdbsource.cpp:919
+msgctxt "SsdbSourcePlugin|"
+msgid "SSDB scalar time-series and indexed matrices (zero-order hold resampling)"
+msgstr ""
+
+#. +> trunk6
 #: ../src/datasources/tiff16source/tiff16source.cpp:386
 #: ../src/datasources/tiff16source/tiff16source.cpp:387
 msgctxt "Tiff16SourcePlugin|"
@@ -509,7 +539,7 @@ msgid "%1 of %2"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/dataprimitive.cpp:73
+#: ../src/libkst/dataprimitive.cpp:77
 #, qt-format
 msgctxt "Kst::Primitive|"
 msgid "Data file for vector %1 was not opened."
@@ -540,7 +570,7 @@ msgid "%2 of %1 = %3"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datasource.cpp:518
+#: ../src/libkst/datasource.cpp:528
 msgctxt "Kst::DataSource|"
 msgid "frames"
 msgstr ""
@@ -554,35 +584,35 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datasourcepluginmanager.cpp:150
+#: ../src/libkst/datasourcepluginmanager.cpp:157
 msgctxt "Kst::DataSource|"
 msgid "Scanning for data-source plugins."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datasourcepluginmanager.cpp:175
+#: ../src/libkst/datasourcepluginmanager.cpp:182
 #, qt-format
 msgctxt "Kst::DataSource|"
 msgid "Plugin loaded: %1"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datasourcepluginmanager.cpp:178
+#: ../src/libkst/datasourcepluginmanager.cpp:185
 #, qt-format
 msgctxt "Kst::DataSource|"
 msgid "instance failed for %1 (%2)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datasourcepluginmanager.cpp:327
+#: ../src/libkst/datasourcepluginmanager.cpp:353
 #, qt-format
 msgctxt "QObject|"
 msgid "File '%1' does not exist."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datasourcepluginmanager.cpp:433
-#: ../src/libkst/datasourcepluginmanager.cpp:455
+#: ../src/libkst/datasourcepluginmanager.cpp:469
+#: ../src/libkst/datasourcepluginmanager.cpp:491
 #, qt-format
 msgctxt "Kst::DataSource|"
 msgid "Could not find a datasource for '%1'(%2), but we found one just prior.  Something is wrong with Kst."
@@ -613,14 +643,14 @@ msgid "%1 of %2"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datavector.cpp:173
+#: ../src/libkst/datavector.cpp:175
 #, qt-format
 msgctxt "Kst::DataVector|"
 msgid "Data file for vector %1 was not opened."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datavector.cpp:816
+#: ../src/libkst/datavector.cpp:849
 #, qt-format
 msgctxt "Kst::DataVector|"
 msgid ""
@@ -630,7 +660,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datavector.cpp:822
+#: ../src/libkst/datavector.cpp:855
 #, qt-format
 msgctxt "Kst::DataVector|"
 msgid ""
@@ -639,7 +669,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datavector.cpp:824
+#: ../src/libkst/datavector.cpp:857
 #, qt-format
 msgctxt "Kst::DataVector|"
 msgid ""
@@ -648,7 +678,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datavector.cpp:826
+#: ../src/libkst/datavector.cpp:859
 #, qt-format
 msgctxt "Kst::DataVector|"
 msgid ""
@@ -657,7 +687,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datavector.cpp:830
+#: ../src/libkst/datavector.cpp:863
 #, qt-format
 msgctxt "Kst::DataVector|"
 msgid ""
@@ -666,7 +696,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datavector.cpp:832
+#: ../src/libkst/datavector.cpp:865
 #, qt-format
 msgctxt "Kst::DataVector|"
 msgid ""
@@ -675,7 +705,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/datavector.cpp:843
+#: ../src/libkst/datavector.cpp:876
 #, qt-format
 msgctxt "Kst::DataVector|%2 is a variable name.  F0 is short for the first element.  N is the number of elements"
 msgid "%2 F0: %3 N: %4 of %1"
@@ -891,7 +921,7 @@ msgid "Data file for scalar %1 was not opened."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/vscalar.cpp:183
+#: ../src/libkst/vscalar.cpp:184
 #, qt-format
 msgctxt "Kst::VScalar|"
 msgid ""
@@ -902,7 +932,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkst/vscalar.cpp:217
+#: ../src/libkst/vscalar.cpp:218
 #, qt-format
 msgctxt "Kst::VScalar|%2 is field name.  %3 is frame/index.  %1 is the file name.  %4 is the value"
 msgid "%2 frame %3 of %1 = %4"
@@ -1675,21 +1705,21 @@ msgid "R&emove All"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/changefiledialog.cpp:308
-#: ../src/libkstapp/changefiledialog.cpp:487
-#: ../src/libkstapp/changefiledialog.cpp:489
+#: ../src/libkstapp/changefiledialog.cpp:314
+#: ../src/libkstapp/changefiledialog.cpp:493
+#: ../src/libkstapp/changefiledialog.cpp:495
 msgctxt "Kst::ChangeFileDialog|"
 msgid "Kst"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/changefiledialog.cpp:308
+#: ../src/libkstapp/changefiledialog.cpp:314
 msgctxt "Kst::ChangeFileDialog|"
 msgid "The file could not be loaded or contains no data."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/changefiledialog.cpp:487
+#: ../src/libkstapp/changefiledialog.cpp:493
 #, qt-format
 msgctxt "Kst::ChangeFileDialog|"
 msgid ""
@@ -1698,7 +1728,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/changefiledialog.cpp:489
+#: ../src/libkstapp/changefiledialog.cpp:495
 #, qt-format
 msgctxt "Kst::ChangeFileDialog|"
 msgid ""
@@ -1903,159 +1933,177 @@ msgid "end"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:469
-#, qt-format
-msgctxt "Kst::CommandLineParser|"
-msgid "file %1 does not exist.\n"
-msgstr ""
-
-#. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:474
+#: ../src/libkstapp/commandlineparser.cpp:472
 #, qt-format
 msgctxt "Kst::CommandLineParser|"
 msgid "file %1 is empty.\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:514
+#: ../src/libkstapp/commandlineparser.cpp:478
+#, qt-format
+msgctxt "Kst::CommandLineParser|"
+msgid "file %1 does not exist or is not a recognized data source.\n"
+msgstr ""
+
+#. +> trunk6
+#: ../src/libkstapp/commandlineparser.cpp:480
+#, qt-format
+msgctxt "Kst::CommandLineParser|"
+msgid "file %1 is not a recognized data source.\n"
+msgstr ""
+
+#. +> trunk6
+#: ../src/libkstapp/commandlineparser.cpp:520
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -f <startframe>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:521
+#: ../src/libkstapp/commandlineparser.cpp:527
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -n <numframes>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:528
+#: ../src/libkstapp/commandlineparser.cpp:534
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -s <frames per sample>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:537
+#: ../src/libkstapp/commandlineparser.cpp:543
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -P <plotname>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:545
+#: ../src/libkstapp/commandlineparser.cpp:551
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -T <tab name>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:555
+#: ../src/libkstapp/commandlineparser.cpp:561
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -m <columns>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:572
+#: ../src/libkstapp/commandlineparser.cpp:578
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -x <xfieldname>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:586
+#: ../src/libkstapp/commandlineparser.cpp:588
+#: ../src/libkstapp/commandlineparser.cpp:618
+#: ../src/libkstapp/commandlineparser.cpp:675
+#: ../src/libkstapp/commandlineparser.cpp:733
+#: ../src/libkstapp/commandlineparser.cpp:776
+#, qt-format
+msgctxt "Kst::CommandLineParser|"
+msgid "Could not load data source %1.\n"
+msgstr ""
+
+#. +> trunk6
+#: ../src/libkstapp/commandlineparser.cpp:597
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -e <errorfieldname>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:588
+#: ../src/libkstapp/commandlineparser.cpp:599
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -r <samplerate>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:591
+#: ../src/libkstapp/commandlineparser.cpp:602
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -y <fieldname>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:594
+#: ../src/libkstapp/commandlineparser.cpp:605
 msgctxt "Kst::CommandLineParser|"
 msgid "No data files specified\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:647
+#: ../src/libkstapp/commandlineparser.cpp:663
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -p <fieldname>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:700
+#: ../src/libkstapp/commandlineparser.cpp:721
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -h <fieldname>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:739
+#: ../src/libkstapp/commandlineparser.cpp:765
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -z <fieldname>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:764
+#: ../src/libkstapp/commandlineparser.cpp:795
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: -F <datafile>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:766
+#: ../src/libkstapp/commandlineparser.cpp:797
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: --asciiDataStart <Line Number>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:768
+#: ../src/libkstapp/commandlineparser.cpp:799
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: --asciiFieldNames <Line Number>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:772
+#: ../src/libkstapp/commandlineparser.cpp:803
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: --asciiReadUnits <Line Number>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:779
+#: ../src/libkstapp/commandlineparser.cpp:810
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: --asciiDelim <delimiter>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:782
+#: ../src/libkstapp/commandlineparser.cpp:813
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: --asciiFixedWidth <width>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:790
+#: ../src/libkstapp/commandlineparser.cpp:821
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: --png <filename>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:792
+#: ../src/libkstapp/commandlineparser.cpp:823
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: --pngWidth <width>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:794
+#: ../src/libkstapp/commandlineparser.cpp:825
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: --pngHeight <height>\n"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/commandlineparser.cpp:797
+#: ../src/libkstapp/commandlineparser.cpp:828
 msgctxt "Kst::CommandLineParser|"
 msgid "Usage: --print <filename>\n"
 msgstr ""
@@ -2501,93 +2549,93 @@ msgid "Error creating data source from Kst file."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:71
+#: ../src/libkstapp/datawizard.cpp:69
 msgctxt "Kst::DataWizardPageDataSource|update periodically"
 msgid "Time Interval"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:72
+#: ../src/libkstapp/datawizard.cpp:70
 msgctxt "Kst::DataWizardPageDataSource|update when a change is detected"
 msgid "Change Detection"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:73
+#: ../src/libkstapp/datawizard.cpp:71
 msgctxt "Kst::DataWizardPageDataSource|do not update the file"
 msgid "No Update"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:230
+#: ../src/libkstapp/datawizard.cpp:228
 msgctxt "Kst::DataWizardPageVectors|"
 msgid "Raise in plot order: Alt+Up"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:231
+#: ../src/libkstapp/datawizard.cpp:229
 msgctxt "Kst::DataWizardPageVectors|"
 msgid "Lower in plot order: Alt+Down"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:232
+#: ../src/libkstapp/datawizard.cpp:230
 msgctxt "Kst::DataWizardPageVectors|"
 msgid "Select: Alt+s"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:233
+#: ../src/libkstapp/datawizard.cpp:231
 msgctxt "Kst::DataWizardPageVectors|"
 msgid "Remove: Alt+r"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:263
+#: ../src/libkstapp/datawizard.cpp:261
 #, qt-format
 msgctxt "Kst::DataWizardPageVectors|"
 msgid "%1 vector(s) available"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:288 ../src/libkstapp/datawizard.cpp:304
+#: ../src/libkstapp/datawizard.cpp:286 ../src/libkstapp/datawizard.cpp:302
 #, qt-format
 msgctxt "Kst::DataWizardPageVectors|"
 msgid "%1 vector(s) selected"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:651
+#: ../src/libkstapp/datawizard.cpp:649
 msgctxt "Kst::DataWizardPageDataPresentation|"
 msgid "Create S&pectra Plots. Set FFT options below:"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:740
+#: ../src/libkstapp/datawizard.cpp:738
 msgctxt "Kst::DataWizardPageDataPresentation|"
 msgid "Warning: the data range of the existing X vector does not match the Y vectors."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:745
+#: ../src/libkstapp/datawizard.cpp:743
 msgctxt "Kst::DataWizardPageDataPresentation|"
 msgid "Warning: the file name of the existing X vector does not match the Y vectors."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:750
+#: ../src/libkstapp/datawizard.cpp:748
 msgctxt "Kst::DataWizardPageDataPresentation|"
 msgid "Warning: the selected X vector may not match the data range of the Y vectors."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:1032
+#: ../src/libkstapp/datawizard.cpp:1030
 msgctxt "Kst::DataWizard|"
 msgid "Insufficient Memory"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/datawizard.cpp:1032
+#: ../src/libkstapp/datawizard.cpp:1030
 #, qt-format
 msgctxt "Kst::DataWizard|"
 msgid "You requested to read in %1 MB of data but it seems that you only have approximately %2 MB of usable memory available.  You cannot load this much data."
@@ -5473,19 +5521,19 @@ msgid "&Cleanup Non-Existent Files"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:590
+#: ../src/libkstapp/mainwindow.cpp:593
 msgctxt "Kst::MainWindow|"
 msgid "For details see Help->Debug Dialog->Log."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:591
+#: ../src/libkstapp/mainwindow.cpp:594
 msgctxt "Kst::MainWindow|"
 msgid "Kst"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:591
+#: ../src/libkstapp/mainwindow.cpp:594
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid ""
@@ -5495,1159 +5543,1159 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1137
+#: ../src/libkstapp/mainwindow.cpp:1140
 msgctxt "Kst::MainWindow|"
 msgid "&Open..."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1138
+#: ../src/libkstapp/mainwindow.cpp:1141
 msgctxt "Kst::MainWindow|"
 msgid "Open a new session"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1143
+#: ../src/libkstapp/mainwindow.cpp:1146
 msgctxt "Kst::MainWindow|"
 msgid "&Save"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1144 ../src/libkstapp/mainwindow.cpp:1150
+#: ../src/libkstapp/mainwindow.cpp:1147 ../src/libkstapp/mainwindow.cpp:1153
 msgctxt "Kst::MainWindow|"
 msgid "Save the current session"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1149
+#: ../src/libkstapp/mainwindow.cpp:1152
 msgctxt "Kst::MainWindow|"
 msgid "Save &as..."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1155
+#: ../src/libkstapp/mainwindow.cpp:1158
 msgctxt "Kst::MainWindow|"
 msgid "Ne&w Session"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1156
+#: ../src/libkstapp/mainwindow.cpp:1159
 msgctxt "Kst::MainWindow|"
 msgid "Close current session and start a new, empty one"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1161
+#: ../src/libkstapp/mainwindow.cpp:1164
 msgctxt "Kst::MainWindow|"
 msgid "Reload All &Data Sources"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1162
+#: ../src/libkstapp/mainwindow.cpp:1165
 msgctxt "Kst::MainWindow|"
 msgid "Reload all data sources"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1166
+#: ../src/libkstapp/mainwindow.cpp:1169
 msgctxt "Kst::MainWindow|"
 msgid "&Print..."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1167
+#: ../src/libkstapp/mainwindow.cpp:1170
 msgctxt "Kst::MainWindow|"
 msgid "Print the current view"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1175
+#: ../src/libkstapp/mainwindow.cpp:1178
 msgctxt "Kst::MainWindow|"
 msgid "&Export as Image(s)..."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1176
+#: ../src/libkstapp/mainwindow.cpp:1179
 msgctxt "Kst::MainWindow|"
 msgid "Export graphics to disk"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1180
+#: ../src/libkstapp/mainwindow.cpp:1183
 msgctxt "Kst::MainWindow|"
 msgid "Save &Vectors to Disk..."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1181
+#: ../src/libkstapp/mainwindow.cpp:1184
 msgctxt "Kst::MainWindow|"
 msgid "Export vectors to ascii file"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1185
+#: ../src/libkstapp/mainwindow.cpp:1188
 msgctxt "Kst::MainWindow|"
 msgid "&Log Entry..."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1186
+#: ../src/libkstapp/mainwindow.cpp:1189
 msgctxt "Kst::MainWindow|"
 msgid "Commit a log entry"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1190
+#: ../src/libkstapp/mainwindow.cpp:1193
 msgctxt "Kst::MainWindow|"
 msgid "&New Tab"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1191
+#: ../src/libkstapp/mainwindow.cpp:1194
 msgctxt "Kst::MainWindow|"
 msgid "Create a new tab"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1196
+#: ../src/libkstapp/mainwindow.cpp:1199
 msgctxt "Kst::MainWindow|"
 msgid "&Close Tab"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1197
+#: ../src/libkstapp/mainwindow.cpp:1200
 msgctxt "Kst::MainWindow|"
 msgid "Close the current tab"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1201
+#: ../src/libkstapp/mainwindow.cpp:1204
 msgctxt "Kst::MainWindow|"
 msgid "E&xit"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1203
+#: ../src/libkstapp/mainwindow.cpp:1206
 msgctxt "Kst::MainWindow|"
 msgid "Exit the application"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1216
+#: ../src/libkstapp/mainwindow.cpp:1219
 msgctxt "Kst::MainWindow|"
 msgid "Copy Tab Image"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1222
+#: ../src/libkstapp/mainwindow.cpp:1225
 msgctxt "Kst::MainWindow|"
 msgid "&Vectors"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1223
+#: ../src/libkstapp/mainwindow.cpp:1226
 msgctxt "Kst::MainWindow|"
 msgid "Show all vectors in a spreadsheet"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1226
+#: ../src/libkstapp/mainwindow.cpp:1229
 msgctxt "Kst::MainWindow|"
 msgid "&Scalars"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1227
+#: ../src/libkstapp/mainwindow.cpp:1230
 msgctxt "Kst::MainWindow|"
 msgid "Show all scalars in a spreadsheet"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1230
+#: ../src/libkstapp/mainwindow.cpp:1233
 msgctxt "Kst::MainWindow|"
 msgid "&Matrices"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1231
+#: ../src/libkstapp/mainwindow.cpp:1234
 msgctxt "Kst::MainWindow|"
 msgid "Show all matrices in a spreadsheet"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1234
+#: ../src/libkstapp/mainwindow.cpp:1237
 msgctxt "Kst::MainWindow|"
 msgid "S&trings"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1235
+#: ../src/libkstapp/mainwindow.cpp:1238
 msgctxt "Kst::MainWindow|"
 msgid "Show all strings in a spreadsheet"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1239
+#: ../src/libkstapp/mainwindow.cpp:1242
 msgctxt "Kst::MainWindow|"
 msgid "&Back One Screen"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1240 ../src/libkstapp/mainwindow.cpp:1241
+#: ../src/libkstapp/mainwindow.cpp:1243 ../src/libkstapp/mainwindow.cpp:1244
 msgctxt "Kst::MainWindow|"
 msgid "Back one screen (Page Up)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1246
+#: ../src/libkstapp/mainwindow.cpp:1249
 msgctxt "Kst::MainWindow|"
 msgid "&Forward One Screen"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1247 ../src/libkstapp/mainwindow.cpp:1248
+#: ../src/libkstapp/mainwindow.cpp:1250 ../src/libkstapp/mainwindow.cpp:1251
 msgctxt "Kst::MainWindow|"
 msgid "Forward one screen (Page Down)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1253
+#: ../src/libkstapp/mainwindow.cpp:1256
 msgctxt "Kst::MainWindow|"
 msgid "&Back 1/5th Screen"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1254 ../src/libkstapp/mainwindow.cpp:1255
+#: ../src/libkstapp/mainwindow.cpp:1257 ../src/libkstapp/mainwindow.cpp:1258
 msgctxt "Kst::MainWindow|"
 msgid "Back 1/5th screen (Shift + Page Up)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1260
+#: ../src/libkstapp/mainwindow.cpp:1263
 msgctxt "Kst::MainWindow|"
 msgid "&Forward 1/5th Screen"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1261 ../src/libkstapp/mainwindow.cpp:1262
+#: ../src/libkstapp/mainwindow.cpp:1264 ../src/libkstapp/mainwindow.cpp:1265
 msgctxt "Kst::MainWindow|"
 msgid "Forward 1/5th screen (Page Down)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1267
+#: ../src/libkstapp/mainwindow.cpp:1270
 msgctxt "Kst::MainWindow|"
 msgid "&Count from End"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1268 ../src/libkstapp/mainwindow.cpp:1269
+#: ../src/libkstapp/mainwindow.cpp:1271 ../src/libkstapp/mainwindow.cpp:1272
 msgctxt "Kst::MainWindow|"
 msgid "Count from end mode (End)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1274
+#: ../src/libkstapp/mainwindow.cpp:1277
 msgctxt "Kst::MainWindow|"
 msgid "&Read to End"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1275
+#: ../src/libkstapp/mainwindow.cpp:1278
 msgctxt "Kst::MainWindow|"
 msgid "Read to end mode"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1276
+#: ../src/libkstapp/mainwindow.cpp:1279
 msgctxt "Kst::MainWindow|"
 msgid "Read to end mode (shift+end)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1281
+#: ../src/libkstapp/mainwindow.cpp:1284
 msgctxt "Kst::MainWindow|"
 msgid "&Pause"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1284
+#: ../src/libkstapp/mainwindow.cpp:1287
 msgctxt "Kst::MainWindow|shortcut for pause"
 msgid "p"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1285
+#: ../src/libkstapp/mainwindow.cpp:1288
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Toggle pause updates of data sources (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1286
+#: ../src/libkstapp/mainwindow.cpp:1289
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Toggle \"Pause Data Sources\" (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1289
+#: ../src/libkstapp/mainwindow.cpp:1292
 msgctxt "Kst::MainWindow|"
 msgid "Change Data &Sample Range..."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1290
+#: ../src/libkstapp/mainwindow.cpp:1293
 msgctxt "Kst::MainWindow|shortcut change data sample dialog"
 msgid "J"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1291
+#: ../src/libkstapp/mainwindow.cpp:1294
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's Change Data Sample Range Dialog (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1292
+#: ../src/libkstapp/mainwindow.cpp:1295
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Change Data Sample Range (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1297 ../src/libkstapp/mainwindow.cpp:1305
+#: ../src/libkstapp/mainwindow.cpp:1300 ../src/libkstapp/mainwindow.cpp:1308
 msgctxt "Kst::MainWindow|"
 msgid "&Plot"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1300
+#: ../src/libkstapp/mainwindow.cpp:1303
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Insert a plot in the current view (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1301
+#: ../src/libkstapp/mainwindow.cpp:1304
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "New plot (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1308
+#: ../src/libkstapp/mainwindow.cpp:1311
 msgctxt "Kst::MainWindow|"
 msgid "Create a plot for the current view"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1312
+#: ../src/libkstapp/mainwindow.cpp:1315
 msgctxt "Kst::MainWindow|"
 msgid "&Scalar"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1315
+#: ../src/libkstapp/mainwindow.cpp:1318
 msgctxt "Kst::MainWindow|"
 msgid "&Vector"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1318
+#: ../src/libkstapp/mainwindow.cpp:1321
 msgctxt "Kst::MainWindow|"
 msgid "&Matrix"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1321
+#: ../src/libkstapp/mainwindow.cpp:1324
 msgctxt "Kst::MainWindow|"
 msgid "Strin&g"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1324
+#: ../src/libkstapp/mainwindow.cpp:1327
 msgctxt "Kst::MainWindow|"
 msgid "&Curve"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1327
+#: ../src/libkstapp/mainwindow.cpp:1330
 msgctxt "Kst::MainWindow|"
 msgid "&Equation"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1330
+#: ../src/libkstapp/mainwindow.cpp:1333
 msgctxt "Kst::MainWindow|"
 msgid "Po&wer Spectrum"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1333
+#: ../src/libkstapp/mainwindow.cpp:1336
 msgctxt "Kst::MainWindow|"
 msgid "&Histogram"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1336
+#: ../src/libkstapp/mainwindow.cpp:1339
 msgctxt "Kst::MainWindow|"
 msgid "&Image"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1339
+#: ../src/libkstapp/mainwindow.cpp:1342
 msgctxt "Kst::MainWindow|"
 msgid "Spectr&ogram"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1342
+#: ../src/libkstapp/mainwindow.cpp:1345
 msgctxt "Kst::MainWindow|"
 msgid "Eve&nt Monitor"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1346
+#: ../src/libkstapp/mainwindow.cpp:1349
 msgctxt "Kst::MainWindow|"
 msgid "&Label"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1349
+#: ../src/libkstapp/mainwindow.cpp:1352
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create a label for the current view (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1350
+#: ../src/libkstapp/mainwindow.cpp:1353
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create label (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1354
+#: ../src/libkstapp/mainwindow.cpp:1357
 msgctxt "Kst::MainWindow|"
 msgid "&Box"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1357
+#: ../src/libkstapp/mainwindow.cpp:1360
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create a box for the current view (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1358
+#: ../src/libkstapp/mainwindow.cpp:1361
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create box (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1362
+#: ../src/libkstapp/mainwindow.cpp:1365
 msgctxt "Kst::MainWindow|"
 msgid "&Circle"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1365
+#: ../src/libkstapp/mainwindow.cpp:1368
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create a circle for the current view (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1366
+#: ../src/libkstapp/mainwindow.cpp:1369
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create circle (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1370
+#: ../src/libkstapp/mainwindow.cpp:1373
 msgctxt "Kst::MainWindow|"
 msgid "&Ellipse"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1373
+#: ../src/libkstapp/mainwindow.cpp:1376
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create an ellipse for the current view (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1374
+#: ../src/libkstapp/mainwindow.cpp:1377
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create ellipse (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1378
+#: ../src/libkstapp/mainwindow.cpp:1381
 msgctxt "Kst::MainWindow|"
 msgid "&Line"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1381
+#: ../src/libkstapp/mainwindow.cpp:1384
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create a line for the current view (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1382
+#: ../src/libkstapp/mainwindow.cpp:1385
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create line (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1386
+#: ../src/libkstapp/mainwindow.cpp:1389
 msgctxt "Kst::MainWindow|"
 msgid "&Arrow"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1389
+#: ../src/libkstapp/mainwindow.cpp:1392
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create a arrow for the current view (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1390
+#: ../src/libkstapp/mainwindow.cpp:1393
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create arrow (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1394
+#: ../src/libkstapp/mainwindow.cpp:1397
 msgctxt "Kst::MainWindow|"
 msgid "&Picture"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1397
+#: ../src/libkstapp/mainwindow.cpp:1400
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create a picture for the current view (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1398
+#: ../src/libkstapp/mainwindow.cpp:1401
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create picture (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1403
+#: ../src/libkstapp/mainwindow.cpp:1406
 msgctxt "Kst::MainWindow|"
 msgid "&Svg"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1406
+#: ../src/libkstapp/mainwindow.cpp:1409
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create a svg for the current view (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1407
+#: ../src/libkstapp/mainwindow.cpp:1410
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Create embedded svg image (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1412
+#: ../src/libkstapp/mainwindow.cpp:1415
 msgctxt "Kst::MainWindow|"
 msgid "Shared Axis &Box"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1413
+#: ../src/libkstapp/mainwindow.cpp:1416
 msgctxt "Kst::MainWindow|"
 msgid "Create a shared axis box for the current item"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1420
+#: ../src/libkstapp/mainwindow.cpp:1423
 msgctxt "Kst::MainWindow|"
 msgid "&Toggle Tied Zoom"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1424
+#: ../src/libkstapp/mainwindow.cpp:1427
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Toggle the current view's tied zoom (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1425
+#: ../src/libkstapp/mainwindow.cpp:1428
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Toggle tied zoom (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1428
+#: ../src/libkstapp/mainwindow.cpp:1431
 msgctxt "Kst::MainWindow|"
 msgid "Tie &Across All Tabs"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1429
+#: ../src/libkstapp/mainwindow.cpp:1432
 msgctxt "Kst::MainWindow|"
 msgid "Tied zoom applies between tabs"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1435
+#: ../src/libkstapp/mainwindow.cpp:1438
 msgctxt "Kst::MainWindow|"
 msgid "&Highlight Data Points"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1437 ../src/libkstapp/mainwindow.cpp:1438
+#: ../src/libkstapp/mainwindow.cpp:1440 ../src/libkstapp/mainwindow.cpp:1441
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Highlight closest data point (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1447
+#: ../src/libkstapp/mainwindow.cpp:1450
 msgctxt "Kst::MainWindow|"
 msgid "X-Y Zoom/Scroll"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1448
+#: ../src/libkstapp/mainwindow.cpp:1451
 msgctxt "Kst::MainWindow|"
 msgid "Zoom arbitrarily in X- or Y-direction"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1450
+#: ../src/libkstapp/mainwindow.cpp:1453
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "X-Y Zoom mode (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1455
+#: ../src/libkstapp/mainwindow.cpp:1458
 msgctxt "Kst::MainWindow|"
 msgid "&X-only Zoom"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1456
+#: ../src/libkstapp/mainwindow.cpp:1459
 msgctxt "Kst::MainWindow|"
 msgid "Zoom only in X direction"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1458
+#: ../src/libkstapp/mainwindow.cpp:1461
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "X Zoom mode (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1463
+#: ../src/libkstapp/mainwindow.cpp:1466
 msgctxt "Kst::MainWindow|"
 msgid "&Y-only Zoom"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1464
+#: ../src/libkstapp/mainwindow.cpp:1467
 msgctxt "Kst::MainWindow|"
 msgid "Zoom only in Y direction"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1466
+#: ../src/libkstapp/mainwindow.cpp:1469
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Y Zoom mode (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1471
+#: ../src/libkstapp/mainwindow.cpp:1474
 msgctxt "Kst::MainWindow|"
 msgid "&Layout Mode"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1475
+#: ../src/libkstapp/mainwindow.cpp:1478
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Toggle the current view's layout mode (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1476
+#: ../src/libkstapp/mainwindow.cpp:1479
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Layout mode (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1483
+#: ../src/libkstapp/mainwindow.cpp:1486
 msgctxt "Kst::MainWindow|"
 msgid "Data Manager"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1486
+#: ../src/libkstapp/mainwindow.cpp:1489
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's data manager window (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1487
+#: ../src/libkstapp/mainwindow.cpp:1490
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Show Data Manager (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1490
+#: ../src/libkstapp/mainwindow.cpp:1493
 msgctxt "Kst::MainWindow|"
 msgid "&Data Wizard"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1493
+#: ../src/libkstapp/mainwindow.cpp:1496
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's Data Wizard (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1494
+#: ../src/libkstapp/mainwindow.cpp:1497
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Show Data Wizard (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1497
+#: ../src/libkstapp/mainwindow.cpp:1500
 msgctxt "Kst::MainWindow|"
 msgid "Change Data &File"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1499
+#: ../src/libkstapp/mainwindow.cpp:1502
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's Change Data File Dialog (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1501
+#: ../src/libkstapp/mainwindow.cpp:1504
 #, qt-format
 msgctxt "Kst::MainWindow|"
 msgid "Show Change Data File Dialog (%1)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1504
+#: ../src/libkstapp/mainwindow.cpp:1507
 msgctxt "Kst::MainWindow|"
 msgid "Assign Curve &Color per File"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1505
+#: ../src/libkstapp/mainwindow.cpp:1508
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's Choose Color Dialog"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1509
+#: ../src/libkstapp/mainwindow.cpp:1512
 msgctxt "Kst::MainWindow|"
 msgid "D&ifferentiate Curves"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1510
+#: ../src/libkstapp/mainwindow.cpp:1513
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's Differentiate Curves Dialog"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1514
+#: ../src/libkstapp/mainwindow.cpp:1517
 msgctxt "Kst::MainWindow|"
 msgid "&Filter Vectors"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1515
+#: ../src/libkstapp/mainwindow.cpp:1518
 msgctxt "Kst::MainWindow|"
 msgid "Filter multiple vectors"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1520
+#: ../src/libkstapp/mainwindow.cpp:1523
 msgctxt "Kst::MainWindow|"
 msgid "&Configure Kst"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1521
+#: ../src/libkstapp/mainwindow.cpp:1524
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's Configuration Dialog"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1525
+#: ../src/libkstapp/mainwindow.cpp:1528
 msgctxt "Kst::MainWindow|"
 msgid "&Theme"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1526
+#: ../src/libkstapp/mainwindow.cpp:1529
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's Theme Dialog"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1530
+#: ../src/libkstapp/mainwindow.cpp:1533
 msgctxt "Kst::MainWindow|"
 msgid "Clear settings and defaults"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1531
+#: ../src/libkstapp/mainwindow.cpp:1534
 msgctxt "Kst::MainWindow|"
 msgid "Clear sticky defaults and all settings in all dialogs."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1535 ../src/libkstapp/mainwindow.cpp:1536
+#: ../src/libkstapp/mainwindow.cpp:1538 ../src/libkstapp/mainwindow.cpp:1539
 msgctxt "Kst::MainWindow|"
 msgid "Clear datasource settings"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1540
+#: ../src/libkstapp/mainwindow.cpp:1543
 msgctxt "Kst::MainWindow|"
 msgid "Show status bar"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1546
+#: ../src/libkstapp/mainwindow.cpp:1549
 msgctxt "Kst::MainWindow|"
 msgid "&Debug Dialog"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1547
+#: ../src/libkstapp/mainwindow.cpp:1550
 msgctxt "Kst::MainWindow|"
 msgid "Show the Kst debugging dialog"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1551
+#: ../src/libkstapp/mainwindow.cpp:1554
 msgctxt "Kst::MainWindow|"
 msgid "&Bug Report Wizard"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1552
+#: ../src/libkstapp/mainwindow.cpp:1555
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's Bug Report Wizard"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1556
+#: ../src/libkstapp/mainwindow.cpp:1559
 msgctxt "Kst::MainWindow|"
 msgid "Kst User's &Guide"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1557
+#: ../src/libkstapp/mainwindow.cpp:1560
 msgctxt "Kst::MainWindow|"
 msgid "Open Kst User's Guide in browser."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1561
+#: ../src/libkstapp/mainwindow.cpp:1564
 msgctxt "Kst::MainWindow|"
 msgid "&About"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1562
+#: ../src/libkstapp/mainwindow.cpp:1565
 msgctxt "Kst::MainWindow|"
 msgid "Show Kst's About box"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1566
+#: ../src/libkstapp/mainwindow.cpp:1569
 msgctxt "Kst::MainWindow|"
 msgid "Keyboard Shortcuts"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1567
+#: ../src/libkstapp/mainwindow.cpp:1570
 msgctxt "Kst::MainWindow|"
 msgid "Show a list of keyboard shortcuts"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1570
+#: ../src/libkstapp/mainwindow.cpp:1573
 msgctxt "Kst::MainWindow|"
 msgid "#&1: Quick Start"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1571
+#: ../src/libkstapp/mainwindow.cpp:1574
 msgctxt "Kst::MainWindow|"
 msgid "Kst presentation #1: The shortest tutorial to the fastest plotting tool"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1574
+#: ../src/libkstapp/mainwindow.cpp:1577
 msgctxt "Kst::MainWindow|"
 msgid "#&2: General UI Presentation"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1575
+#: ../src/libkstapp/mainwindow.cpp:1578
 msgctxt "Kst::MainWindow|"
 msgid "Kst presentation #2: General presentation of the user interface and most important concepts"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1578
+#: ../src/libkstapp/mainwindow.cpp:1581
 msgctxt "Kst::MainWindow|"
 msgid "#&3: Live Data / Range Tools"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1579
+#: ../src/libkstapp/mainwindow.cpp:1582
 msgctxt "Kst::MainWindow|"
 msgid "Kst presentation #3: Range tools and live plots with streaming data"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1582
+#: ../src/libkstapp/mainwindow.cpp:1585
 msgctxt "Kst::MainWindow|"
 msgid "#&4: FFT, Equations, Fits, Filters"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1583
+#: ../src/libkstapp/mainwindow.cpp:1586
 msgctxt "Kst::MainWindow|"
 msgid "Kst presentation #4: FFTs, equations, filters, fits, plugins"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1586
+#: ../src/libkstapp/mainwindow.cpp:1589
 msgctxt "Kst::MainWindow|"
 msgid "#&5: Productivity Features"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1587
+#: ../src/libkstapp/mainwindow.cpp:1590
 msgctxt "Kst::MainWindow|"
 msgid "Kst presentation #5: Unique productivity features like edit multiple mode and change data file tool"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1590
+#: ../src/libkstapp/mainwindow.cpp:1593
 msgctxt "Kst::MainWindow|"
 msgid "#&6: Advanced Layout / Export"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1591
+#: ../src/libkstapp/mainwindow.cpp:1594
 msgctxt "Kst::MainWindow|"
 msgid "Kst presentation #6: Advanced layout and export options"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1594
+#: ../src/libkstapp/mainwindow.cpp:1597
 msgctxt "Kst::MainWindow|"
 msgid "#&7: Matrices / Images / Metadata"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1595
+#: ../src/libkstapp/mainwindow.cpp:1598
 msgctxt "Kst::MainWindow|"
 msgid "Kst presentation #7: Matrices, images and metadata"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1603
+#: ../src/libkstapp/mainwindow.cpp:1606
 msgctxt "Kst::MainWindow|"
 msgid "&File"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1610
+#: ../src/libkstapp/mainwindow.cpp:1613
 msgctxt "Kst::MainWindow|"
 msgid "&Recent Sessions"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1611
+#: ../src/libkstapp/mainwindow.cpp:1614
 msgctxt "Kst::MainWindow|"
 msgid "Recent Data &Files"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1633
+#: ../src/libkstapp/mainwindow.cpp:1636
 msgctxt "Kst::MainWindow|"
 msgid "&Edit"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1639
+#: ../src/libkstapp/mainwindow.cpp:1642
 msgctxt "Kst::MainWindow|"
 msgid "&View"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1645
+#: ../src/libkstapp/mainwindow.cpp:1648
 msgctxt "Kst::MainWindow|"
 msgid "&Range"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1657
+#: ../src/libkstapp/mainwindow.cpp:1660
 msgctxt "Kst::MainWindow|"
 msgid "&Create"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1678
+#: ../src/libkstapp/mainwindow.cpp:1681
 msgctxt "Kst::MainWindow|"
 msgid "Standard P&lugin"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1679
+#: ../src/libkstapp/mainwindow.cpp:1682
 msgctxt "Kst::MainWindow|"
 msgid "Fit Pl&ugin"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1680
+#: ../src/libkstapp/mainwindow.cpp:1683
 msgctxt "Kst::MainWindow|"
 msgid "Fil&ter Plugin"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1703
+#: ../src/libkstapp/mainwindow.cpp:1706
 msgctxt "Kst::MainWindow|"
 msgid "&Annotation"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1715
+#: ../src/libkstapp/mainwindow.cpp:1718
 msgctxt "Kst::MainWindow|"
 msgid "&Mode"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1717
+#: ../src/libkstapp/mainwindow.cpp:1720
 msgctxt "Kst::MainWindow|"
 msgid "Interaction mode"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1731
+#: ../src/libkstapp/mainwindow.cpp:1734
 msgctxt "Kst::MainWindow|"
 msgid "&Tools"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1741
+#: ../src/libkstapp/mainwindow.cpp:1744
 msgctxt "Kst::MainWindow|"
 msgid "&Settings"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1750
+#: ../src/libkstapp/mainwindow.cpp:1753
 msgctxt "Kst::MainWindow|"
 msgid "&Help"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1753
+#: ../src/libkstapp/mainwindow.cpp:1756
 msgctxt "Kst::MainWindow|"
 msgid "&Video tutorials"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1774
+#: ../src/libkstapp/mainwindow.cpp:1777
 msgctxt "Kst::MainWindow|"
 msgid "File"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1782
+#: ../src/libkstapp/mainwindow.cpp:1785
 msgctxt "Kst::MainWindow|"
 msgid "Edit"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1788
+#: ../src/libkstapp/mainwindow.cpp:1791
 msgctxt "Kst::MainWindow|"
 msgid "Tools"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1795
+#: ../src/libkstapp/mainwindow.cpp:1798
 msgctxt "Kst::MainWindow|"
 msgid "Data Range"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1803
+#: ../src/libkstapp/mainwindow.cpp:1806
 msgctxt "Kst::MainWindow|"
 msgid "Mode"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1813
+#: ../src/libkstapp/mainwindow.cpp:1816
 msgctxt "Kst::MainWindow|"
 msgid "Plot Layout"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1819
+#: ../src/libkstapp/mainwindow.cpp:1822
 msgctxt "Kst::MainWindow|"
 msgid "Advanced Layout"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:1836
+#: ../src/libkstapp/mainwindow.cpp:1839
 msgctxt "Kst::MainWindow|"
 msgid "Ready"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:2482
+#: ../src/libkstapp/mainwindow.cpp:2485
 msgctxt "Kst::MainWindow|"
 msgid "Clear all settings and defaults?"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:2483
+#: ../src/libkstapp/mainwindow.cpp:2486
 msgctxt "Kst::MainWindow|"
 msgid ""
 "You are about to clear all settings defaults in all dialogs in kst.\n"
@@ -6655,13 +6703,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:2504
+#: ../src/libkstapp/mainwindow.cpp:2507
 msgctxt "Kst::MainWindow|"
 msgid "Clear datasource settings?"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/mainwindow.cpp:2505
+#: ../src/libkstapp/mainwindow.cpp:2508
 msgctxt "Kst::MainWindow|"
 msgid ""
 "You are about to clear all\n"
@@ -6832,19 +6880,19 @@ msgid "Use &vector as marker source:"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/matrixdialog.cpp:44
+#: ../src/libkstapp/matrixdialog.cpp:48
 msgctxt "Kst::MatrixTab|"
 msgid "Matrix"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/matrixdialog.cpp:629
+#: ../src/libkstapp/matrixdialog.cpp:638
 msgctxt "Kst::MatrixDialog|"
 msgid "Edit Matrix"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/matrixdialog.cpp:631
+#: ../src/libkstapp/matrixdialog.cpp:640
 msgctxt "Kst::MatrixDialog|"
 msgid "New Matrix"
 msgstr ""
@@ -7061,7 +7109,7 @@ msgid "Co&nfigure..."
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/memorywidget.cpp:38
+#: ../src/libkstapp/memorywidget.cpp:35
 #, qt-format
 msgctxt "Kst::MemoryWidget|"
 msgid "%1 MB available"
@@ -8634,13 +8682,13 @@ msgid "No Update"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/vectordialog.cpp:321
+#: ../src/libkstapp/vectordialog.cpp:328
 msgctxt "Kst::VectorDialog|"
 msgid "Edit Vector"
 msgstr ""
 
 #. +> trunk6
-#: ../src/libkstapp/vectordialog.cpp:323
+#: ../src/libkstapp/vectordialog.cpp:330
 msgctxt "Kst::VectorDialog|"
 msgid "New Vector"
 msgstr ""
@@ -13066,7 +13114,13 @@ msgid " frame(s)"
 msgstr ""
 
 #. +> trunk6
-#: ../src/widgets/datasourceselectordialog.cpp:72
+#: ../src/widgets/datasourceselector.cpp:46
+msgctxt "Kst::DataSourceSelector|"
+msgid "File or datasource address (ssdb://host:port)"
+msgstr ""
+
+#. +> trunk6
+#: ../src/widgets/datasourceselectordialog.cpp:75
 #, qt-format
 msgctxt "Kst::DataSourceSelectorDialog|"
 msgid ""

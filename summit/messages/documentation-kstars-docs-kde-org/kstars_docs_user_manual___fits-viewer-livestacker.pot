@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KStars Handbook 3.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 10:16+0100\n"
+"POT-Creation-Date: 2026-10-04 08:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. +> trunk5
 #: ../../user_manual/fits-viewer-livestacker.rst:3
-#: ../../user_manual/fits-viewer-livestacker.rst:491
+#: ../../user_manual/fits-viewer-livestacker.rst:494
 msgid "FITS Viewer Live Stacker"
 msgstr ""
 
@@ -619,150 +619,170 @@ msgstr ""
 
 #. +> trunk5
 #: ../../user_manual/fits-viewer-livestacker.rst:430
-msgid "It's possible to run more than 1 Live Stacker to monitor multiple directories. This would be useful if you are imaging multiple targets or filters and want to keep an eye on everything without having to reset the Live Stacker to a new directory periodically."
+msgid "Live Stacker is started by selecting \"Live Stacker...\" from the File menu on the KStars Skymap..."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-livestacker.rst:432
+msgid "|FITS Viewer Live Stacker Launch|"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_manual/fits-viewer-livestacker.rst:434
-msgid "Live Stacker is started by selecting \"Live Stacker...\" from the KStars Skymap. Selecting \"Live Stacker...\" a second time will launch another Live Stacker. Depending on how FITS Viewer is configured will determine whether multiple Live Stacker windows are started (\"Single Window Capture\" unchecked) or whether multiple tabs within a single Live Stacker window are started (\"Single Window Capture\" checked)."
+msgid "It's possible to run more than 1 Live Stacker to monitor multiple directories. This would be useful if you are imaging multiple targets or filters and want to keep an eye on everything without having to reset the Live Stacker to a new directory periodically."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:440
+#: ../../user_manual/fits-viewer-livestacker.rst:438
+msgid "Selecting \"Live Stacker...\" a second time will launch another Live Stacker. Depending on how FITS Viewer is configured will determine whether multiple Live Stacker windows are started (\"Single Window Capture\" unchecked) or whether multiple tabs within a single Live Stacker window are started (\"Single Window Capture\" checked)."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-livestacker.rst:443
 msgid "|FITS Viewer Live Stacker Options|"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:442
+#: ../../user_manual/fits-viewer-livestacker.rst:445
 msgid "By default the tab name for Live Stacker is \"(n) DirectoryPath\" where n is the number of subs in DirectoryPath. Right click on tabname to change the name to whatever you like. This is particularly useful when runing multiple instances of Live Stacker as separate tabs."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:447
+#: ../../user_manual/fits-viewer-livestacker.rst:450
 msgid "The \"Live Stacker own process\" option allows Live Stacker to be started as a separate process. When \"Live Stacker own process\" is unchecked, Live Stacker resides in the KStars / Ekos process space. The advantage of running Live Stacker as its own process is that if it crashes it will not disturb other KStars / Ekos functionality."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:453
+#: ../../user_manual/fits-viewer-livestacker.rst:456
 msgid "Using FITS Viewer functionality with Live Stacker"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:455
+#: ../../user_manual/fits-viewer-livestacker.rst:458
 msgid "Live Stacker is integrated into FITSViewer. This means that existing FITSViewer functionality can be applied to stacked images displayed in Live Stacker. For example:"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:458
+#: ../../user_manual/fits-viewer-livestacker.rst:461
 msgid "Saving image stacks to disk."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:459
+#: ../../user_manual/fits-viewer-livestacker.rst:462
 msgid "Re-opening a saved stacked image."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:460
+#: ../../user_manual/fits-viewer-livestacker.rst:463
 msgid "Using blink functionality alongside stacking."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:461
+#: ../../user_manual/fits-viewer-livestacker.rst:464
 msgid "Zooming in / out."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:462
+#: ../../user_manual/fits-viewer-livestacker.rst:465
 msgid "Rotating the image"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:463
+#: ../../user_manual/fits-viewer-livestacker.rst:466
 msgid "Marking stars / highlighting clipped stars"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:464
+#: ../../user_manual/fits-viewer-livestacker.rst:467
 msgid "Plate solving the stacked image, although by default the stacking process will have already plate solved it."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:466
+#: ../../user_manual/fits-viewer-livestacker.rst:469
 msgid "Stretch / Histogram adjustments"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:467
+#: ../../user_manual/fits-viewer-livestacker.rst:470
 msgid "Viewing image statistics / FITS Header keywords"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:468
+#: ../../user_manual/fits-viewer-livestacker.rst:471
 msgid "Viewing Catalog objects (e.g. Simbad objects)"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:471
+#: ../../user_manual/fits-viewer-livestacker.rst:474
 msgid "Trouble Shooting Issues"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:473
+#: ../../user_manual/fits-viewer-livestacker.rst:476
 msgid "The pre-requisites for Live Stacker are that KStars is built with WCS, CFITIO and OpenCV. If any of these components is not present, the Live Stacker menu item in the SkyMap will not be visible and Live Stacker will be disabled."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:477
+#: ../../user_manual/fits-viewer-livestacker.rst:480
 msgid "Subframes need to have WCS FITS Keywords. These are added by the Indi driver when WCS is enabled. Also, on the FITS options tab in Ekos, AutoWCS should be enabled."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:480
+#: ../../user_manual/fits-viewer-livestacker.rst:483
 msgid "Live Stacker makes use of KStars internal Plate Solving so it is crucial that this is setup to work correctly. Plate Solving in KStars is flexible and functions like Align and Guide have their own Plate Solving SEP profiles. Live Stacker uses the FITSViewer Plate Solving functionality and default profile, so this is the profile to check if you have issues. Go to the Plate Solve tab in FITSViewer and see which default SEP profile you are using. Choose a different one if that works for you. Make sure you can reliably plate solve subframes with your chosen SEP profile. See the Fits Viewer Solver section of this manual for more information."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:491
+#: ../../user_manual/fits-viewer-livestacker.rst:494
 msgid ".. image:: /images/fitsviewer-livestacker.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:492
+#: ../../user_manual/fits-viewer-livestacker.rst:495
 msgid "FITS Viewer Live Stacker Webcast"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:492
+#: ../../user_manual/fits-viewer-livestacker.rst:495
 msgid ".. image:: /images/fitsviewer-livestacker-webcast.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:493
+#: ../../user_manual/fits-viewer-livestacker.rst:496
 msgid "FITS Viewer Live Stacker Monitor"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:493
+#: ../../user_manual/fits-viewer-livestacker.rst:496
 msgid ".. image:: /images/fitsviewer-livestacker-monitor.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:494
+#: ../../user_manual/fits-viewer-livestacker.rst:497
 msgid "FITS Viewer Live Stacker MultiChannel"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:494
+#: ../../user_manual/fits-viewer-livestacker.rst:497
 msgid ".. image:: /images/fitsviewer-livestacker-mchan.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:495
+#: ../../user_manual/fits-viewer-livestacker.rst:498
+msgid "FITS Viewer Live Stacker Launch"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-livestacker.rst:498
+msgid ".. image:: /images/fitsviewer-livestacker-launch.png"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-livestacker.rst:499
 msgid "FITS Viewer Live Stacker Options"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/fits-viewer-livestacker.rst:495
+#: ../../user_manual/fits-viewer-livestacker.rst:499
 msgid ".. image:: /images/fitsviewer-livestacker-options.png"
 msgstr ""
