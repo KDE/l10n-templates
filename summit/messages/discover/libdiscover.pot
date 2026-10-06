@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 09:22+0200\n"
+"POT-Creation-Date: 2026-10-06 08:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1583,7 +1583,14 @@ msgid ""
 "To be able to upgrade to this new version, first apply all available updates, and then restart the system."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1051
+#, kde-format
+msgctxt "@action:button Upgrade to new distro release"
+msgid "Upgrade Now"
+msgstr ""
+
+#. +> stable6
 #: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1051
 #, kde-format
 msgctxt "@action: button"
@@ -2698,7 +2705,14 @@ msgctxt "distro upgrade: name version"
 msgid "%1 %2"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:100
+#, kde-format
+msgctxt "Major system upgrade upgrade, not a smaller security update"
+msgid "System upgrade"
+msgstr ""
+
+#. +> stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:100
 #, kde-format
 msgid "System upgrade"
@@ -2963,7 +2977,14 @@ msgstr ""
 msgid "rpm-ostree: No booted deployment found. Please file a bug."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:373
+#, kde-format
+msgctxt "@action:button Perform a distro upgrade, not just a package update"
+msgid "Begin Upgrade…"
+msgstr ""
+
+#. +> stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:373
 #, kde-format
 msgctxt "@action: button"
