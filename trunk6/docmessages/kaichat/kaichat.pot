@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-27 00:58+0000\n"
+"POT-Creation-Date: 2026-10-06 01:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -911,35 +911,23 @@ msgstr ""
 #. Tag: term
 #: index.docbook:449
 #, no-c-format
-msgid "<option>--instance</option> <replaceable>name</replaceable>"
+msgid "<option>--new-chat</option> <replaceable>title</replaceable>"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:450
 #, no-c-format
-msgid "Start with a specific instance."
+msgid "Create a new chat with this title."
 msgstr ""
 
 #. Tag: term
 #: index.docbook:453
 #, no-c-format
-msgid "<option>--new-chat</option> <replaceable>title</replaceable>"
-msgstr ""
-
-#. Tag: para
-#: index.docbook:454
-#, no-c-format
-msgid "Create a new chat with this title."
-msgstr ""
-
-#. Tag: term
-#: index.docbook:457
-#, no-c-format
 msgid "<option>--ephemeral-chat</option> <replaceable>title</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:458
+#: index.docbook:454
 #, no-c-format
 msgid ""
 "Create a new ephemeral discussion with this title. It is not stored in the "
@@ -947,109 +935,109 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:462
+#: index.docbook:458
 #, no-c-format
 msgid "<option>--switch-to-chat</option> <replaceable>name</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:463
+#: index.docbook:459
 #, no-c-format
 msgid "Switch to an existing chat, by title."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:466
+#: index.docbook:462
 #, no-c-format
 msgid "<option>--switch-to-chat-from-id</option> <replaceable>id</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:467
+#: index.docbook:463
 #, no-c-format
 msgid "Switch to an existing chat, by identifier."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:470
+#: index.docbook:466
 #, no-c-format
 msgid "<option>--ask-message</option> <replaceable>message</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:471
+#: index.docbook:467
 #, no-c-format
 msgid "Ask this question straight away."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:474
+#: index.docbook:470
 #, no-c-format
 msgid "<option>--attach</option> <replaceable>url</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:475
+#: index.docbook:471
 #, no-c-format
 msgid "Attach a file to the question. Can be repeated."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:478
+#: index.docbook:474
 #, no-c-format
 msgid "<option>--tool</option> <replaceable>name</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:479
+#: index.docbook:475
 #, no-c-format
 msgid "Allow the model to use this tool. Can be repeated."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:482
+#: index.docbook:478
 #, no-c-format
 msgid "--quick-ask"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:483
+#: index.docbook:479
 #, no-c-format
 msgid "Open the Quick Ask dialog."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:486
+#: index.docbook:482
 #, no-c-format
 msgid "<option>--import</option> <replaceable>file</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:487
+#: index.docbook:483
 #, no-c-format
 msgid "Import a chat from a JSON file."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:490
+#: index.docbook:486
 #, no-c-format
 msgid "--start-ollama"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:491
+#: index.docbook:487
 #, no-c-format
 msgid "Start the local <application>Ollama</application> program."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:494
+#: index.docbook:490
 #, no-c-format
 msgid "--debug"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:495
+#: index.docbook:491
 #, no-c-format
 msgid ""
 "Enable debug mode, which adds a <guimenu>Debug</guimenu> menu showing the "
@@ -1057,31 +1045,31 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:499
+#: index.docbook:495
 #, no-c-format
 msgid "--feedback"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:500
+#: index.docbook:496
 #, no-c-format
 msgid "List the information that can be sent as user feedback."
 msgstr ""
 
 #. Tag: replaceable
-#: index.docbook:503
+#: index.docbook:499
 #, no-c-format
 msgid "file…"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:504
+#: index.docbook:500
 #, no-c-format
 msgid "Chat files to import."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:508
+#: index.docbook:504
 #, no-c-format
 msgid ""
 "On systems with &DBus;, a running &i18n-kapplication; also exposes the "
@@ -1091,37 +1079,37 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:517
+#: index.docbook:513
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:519
+#: index.docbook:515
 #, no-c-format
 msgid "&i18n-kapplication;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:520
+#: index.docbook:516
 #, no-c-format
 msgid "Program copyright 2025-2026 &Laurent.Montel; &Laurent.Montel.mail;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:523
+#: index.docbook:519
 #, no-c-format
 msgid "Documentation Copyright &copy; &Laurent.Montel; &Laurent.Montel.mail;"
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:527
+#: index.docbook:523
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:527
+#: index.docbook:523
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
