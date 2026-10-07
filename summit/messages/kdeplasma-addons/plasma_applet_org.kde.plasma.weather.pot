@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeplasma-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-30 08:35+0200\n"
+"POT-Creation-Date: 2026-10-07 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -753,36 +753,43 @@ msgctxt "@info:tooltip"
 msgid "Click to choose a location and monitor the weather there"
 msgstr ""
 
+#. +> trunk6 stable6
+#: qml/main.qml:116 qml/SwitchPanel.qml:176
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Unable to load weather forecast"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:126
+#: qml/main.qml:130
 #, kde-format
 msgctxt "weather condition + temperature"
 msgid "%1 %2"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:139
+#: qml/main.qml:143
 #, kde-format
 msgctxt "winddirection windspeed (windgust)"
 msgid "%1 %2 (%3)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:142
+#: qml/main.qml:146
 #, kde-format
 msgctxt "winddirection windspeed"
 msgid "%1 %2"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:154
+#: qml/main.qml:158
 #, kde-format
 msgctxt "pressure (tendency)"
 msgid "%1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:163
+#: qml/main.qml:167
 #, kde-format
 msgid "Humidity: %1"
 msgstr ""
@@ -867,13 +874,6 @@ msgid "%1 Notice"
 msgid_plural "%1 Notices"
 msgstr[0] ""
 msgstr[1] ""
-
-#. +> trunk6 stable6
-#: qml/SwitchPanel.qml:176
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Unable to load weather forecast"
-msgstr ""
 
 #. +> trunk6 stable6
 #: qml/SwitchPanel.qml:178
