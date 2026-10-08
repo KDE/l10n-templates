@@ -1,0 +1,884 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-08 03:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: !ENTITY
+#: index.docbook:6
+#, no-c-format
+msgid "<!ENTITY i18n-kapplication \"<application>Ruqola</application>\">"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:16
+#, no-c-format
+msgid "The &i18n-kapplication; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:19
+#, no-c-format
+msgid ""
+"<personname> <firstname>Laurent</firstname> <surname>Montel</surname> </"
+"personname> <email>montel@kde.org</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:26
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:31
+#, no-c-format
+msgid "Laurent Montel"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:36
+#, no-c-format
+msgid "2026-10-07"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:37
+#, no-c-format
+msgid "2.9.0"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:40
+#, no-c-format
+msgid "&i18n-kapplication; is a client apps for RocketChat."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:46
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:47
+#, no-c-format
+msgid "RocketChat"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:52
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:53
+#, no-c-format
+msgid ""
+"&i18n-kapplication; is a desktop client for Rocket.Chat servers. It lets you "
+"chat in channels, private groups, discussions and teams, exchange direct "
+"messages, share files, and administer a server, all from a native &kde; "
+"application."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:57
+#, no-c-format
+msgid ""
+"&i18n-kapplication; can be connected to several Rocket.Chat servers at the "
+"same time and lets you switch between them quickly."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:62
+#, no-c-format
+msgid "Getting Started"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:65
+#, no-c-format
+msgid "Adding a Server"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:66
+#, no-c-format
+msgid ""
+"When &i18n-kapplication; is started for the first time, you are asked to add "
+"a server account. You can add other accounts later with "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Add Server…</guimenuitem></"
+"menuchoice>. Enter the server &URL; and choose an authentication method."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:71
+#, no-c-format
+msgid ""
+"Depending on what the server allows, the following authentication methods "
+"are available:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid "User name (or email) and password"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid "Personal access token"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:76
+#, no-c-format
+msgid "OAuth providers such as Google, GitHub, GitLab, Facebook or Twitter"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:79
+#, no-c-format
+msgid ""
+"If two-factor authentication is enabled on your account, &i18n-kapplication; "
+"asks for the code when you log in. Passwords are stored in the system wallet."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:82
+#, no-c-format
+msgid ""
+"If the server allows it, you can create a new account with "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Register a New User…</"
+"guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:87
+#, no-c-format
+msgid "Using Several Servers"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:88
+#, no-c-format
+msgid ""
+"Each configured account appears as a tab. Use <menuchoice><guimenu>Window</"
+"guimenu><guimenuitem>Next Server</guimenuitem></menuchoice> and "
+"<menuchoice><guimenu>Window</guimenu><guimenuitem>Previous Server</"
+"guimenuitem></menuchoice> to switch between them. Accounts can be enabled, "
+"disabled, reordered or removed in the <guilabel>Accounts</guilabel> page of "
+"the settings dialog."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:94
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>Tools</guimenu><guimenuitem>Export Accounts</"
+"guimenuitem></menuchoice> and <menuchoice><guimenu>Tools</"
+"guimenu><guimenuitem>Import Accounts</guimenuitem></menuchoice> let you move "
+"your account configuration to another computer."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:101
+#, no-c-format
+msgid "The Main Window"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:104
+#, no-c-format
+msgid "The Room List"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:105
+#, no-c-format
+msgid ""
+"The left side of the window lists your channels, private groups, direct "
+"messages, discussions and teams. A search field at the top filters the list. "
+"Your status (online, busy, away, offline, or a custom status) can be changed "
+"from the status bar at the bottom of the window."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:110
+#, no-c-format
+msgid "The <guimenu>View</guimenu> menu changes how the list looks:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:112
+#, no-c-format
+msgid ""
+"<guimenuitem>Condensed</guimenuitem>, <guimenuitem>Medium</guimenuitem> or "
+"<guimenuitem>Extended</guimenuitem> display"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"Sorting <guimenuitem>By Last Message</guimenuitem> or "
+"<guimenuitem>Alphabetically</guimenuitem>, with optional <guimenuitem>Unread "
+"on Top</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:116
+#, no-c-format
+msgid ""
+"<guimenuitem>Show Room Avatar</guimenuitem> and <guimenuitem>Show Favorite "
+"Room</guimenuitem>"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:118
+#, no-c-format
+msgid "Mark All Channels as Read"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:121
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>Channel</guimenu><guimenuitem>Jump to Next Unread "
+"Channel</guimenuitem></menuchoice> takes you to the next room with unread "
+"messages."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:126
+#, no-c-format
+msgid "The Room View"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:127
+#, no-c-format
+msgid ""
+"The right side of the window shows the messages of the selected room. The "
+"header displays the room name and topic, and contains buttons to mark the "
+"room as favorite, open the room information, list its users, search "
+"messages, start a call, and open the room menu."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:132
+#, no-c-format
+msgid "The room menu gives access to:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:134
+#, no-c-format
+msgid ""
+"Pinned, starred and mentioned messages, threads, discussions and file "
+"attachments"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:135
+#, no-c-format
+msgid "Adding or inviting users, showing banned users"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:136
+#, no-c-format
+msgid "Notification settings for this room"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:137
+#, no-c-format
+msgid "Automatic translation of messages"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:138
+#, no-c-format
+msgid "Exporting or pruning messages (with the required permissions)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:139
+#, no-c-format
+msgid "End-to-end encryption, when the server supports it"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:145
+#, no-c-format
+msgid "Messages"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:148
+#, no-c-format
+msgid "Writing Messages"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:149
+#, no-c-format
+msgid ""
+"Type your message in the text field at the bottom of the room and press "
+"&Enter; to send it. Messages support Markdown formatting. Typing <literal>@</"
+"literal> completes user names, <literal>#</literal> completes channel names, "
+"<literal>:</literal> completes emoji and <literal>/</literal> lists the "
+"slash commands available on the server."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:154
+#, no-c-format
+msgid "The buttons next to the text field let you:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:156
+#, no-c-format
+msgid "Insert an emoji, including the custom emoji of the server"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:157
+#, no-c-format
+msgid "Attach one or more files (you can also drag and drop or paste them)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:158
+#, no-c-format
+msgid "Record and send a sound message or a video message"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:159
+#, no-c-format
+msgid "Use the tools provided by plugins, such as taking a screenshot"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:162
+#, no-c-format
+msgid ""
+"Spell checking and auto-correction are available while typing and can be "
+"configured in the settings dialog."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:167
+#, no-c-format
+msgid "Acting on Messages"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:168
+#, no-c-format
+msgid ""
+"Hovering a message shows buttons to add a reaction, reply in a thread or "
+"star the message. Its context menu offers more actions, depending on your "
+"permissions:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:171
+#, no-c-format
+msgid "Edit, delete or quote the message"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:172
+#, no-c-format
+msgid "Copy the message, the selection, or a link to the message"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:173
+#, no-c-format
+msgid "Reply in a thread, follow or unfollow it, show the full thread"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:174
+#, no-c-format
+msgid "Start a discussion or a private conversation from the message"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:175
+#, no-c-format
+msgid "Pin, star, forward or report the message"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:176
+#, no-c-format
+msgid "Mark the message as unread"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:177
+#, no-c-format
+msgid "Translate the message, or show the original text"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:178
+#, no-c-format
+msgid "Show read receipts, when enabled on the server"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:181
+#, no-c-format
+msgid ""
+"Images, videos and sounds are displayed inline and can be opened in a "
+"viewer. &URL; previews can be enabled in the settings."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:186
+#, no-c-format
+msgid "Searching"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:187
+#, no-c-format
+msgid ""
+"Use the search button of the room header to search the messages of the "
+"current room. <menuchoice><guimenu>Channel</guimenu><guimenuitem>Join Room…</"
+"guimenuitem></menuchoice>, <guimenuitem>Join Team…</guimenuitem> and "
+"<guimenuitem>Open Private Conversation…</guimenuitem> search the server "
+"directory for rooms, teams and users."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:195
+#, no-c-format
+msgid "Rooms, Discussions and Teams"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:196
+#, no-c-format
+msgid "The <guimenu>Channel</guimenu> menu lets you create:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:198
+#, no-c-format
+msgid ""
+"<guimenuitem>Create New Channel…</guimenuitem>: a public channel or a "
+"private group, optionally read-only, broadcast or encrypted"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:200
+#, no-c-format
+msgid ""
+"<guimenuitem>Create Direct Messages…</guimenuitem>: a conversation with one "
+"or more users"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:201
+#, no-c-format
+msgid ""
+"<guimenuitem>Create Discussion…</guimenuitem>: a sub-conversation attached "
+"to a room"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:202
+#, no-c-format
+msgid ""
+"<guimenuitem>Create Team…</guimenuitem>: a group of users with its own "
+"channels"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:205
+#, no-c-format
+msgid ""
+"The room information dialog shows the name, topic, announcement, description "
+"and avatar of the room. Owners can edit them, change the room type, set a "
+"password, and configure options such as read-only mode or message pruning. "
+"Team owners can add, remove and convert team channels."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:212
+#, no-c-format
+msgid "Notifications"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:213
+#, no-c-format
+msgid ""
+"&i18n-kapplication; uses the desktop notification system to tell you about "
+"new messages and mentions, and shows unread counters in the room list and in "
+"the system tray. Notification behavior (desktop alert, sound, email) can be "
+"set for each room with <guimenuitem>Configure Notification…</guimenuitem> in "
+"the room menu."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:218
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>Tools</guimenu><guimenuitem>Show Notify History</"
+"guimenuitem></menuchoice> lists the notifications you received during the "
+"session."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:223
+#, no-c-format
+msgid "End-to-End Encryption"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:224
+#, no-c-format
+msgid ""
+"When the server enables it, &i18n-kapplication; supports Rocket.Chat end-to-"
+"end encryption for direct messages and private groups. Your encryption keys "
+"are protected by a password that you can manage in the <guilabel>Encryption</"
+"guilabel> page of <menuchoice><guimenu>File</guimenu><guimenuitem>My Account…"
+"</guimenuitem></menuchoice>. Encrypted rooms show a lock icon in their "
+"header. Note that the content of encrypted messages cannot be searched."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:233
+#, no-c-format
+msgid "My Account"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:234
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>File</guimenu><guimenuitem>My Account…</guimenuitem></"
+"menuchoice> lets you manage your Rocket.Chat profile:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:237
+#, no-c-format
+msgid "Profile: name, user name, email, avatar, status message and password"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:238
+#, no-c-format
+msgid "Preferences offered by the server"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:239
+#, no-c-format
+msgid "Two-factor authentication (email or TOTP)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:240
+#, no-c-format
+msgid "End-to-end encryption keys"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:241
+#, no-c-format
+msgid "Personal access tokens"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:242
+#, no-c-format
+msgid "Devices logged in to your account"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:243
+#, no-c-format
+msgid "Feature previews"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:248
+#, no-c-format
+msgid "Server Administration"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:249
+#, no-c-format
+msgid ""
+"Users with the required permissions can administer the server from "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Administration</"
+"guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:252
+#, no-c-format
+msgid ""
+"<guimenuitem>Administrator…</guimenuitem> gives access to server "
+"information, rooms, users, invites, custom emoji, custom sounds, custom user "
+"statuses, roles, permissions, OAuth applications, the moderation console and "
+"the server logs."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:256
+#, no-c-format
+msgid ""
+"<guimenuitem>Server Settings…</guimenuitem> lets you change the server "
+"configuration, and the <guimenuitem>Applications</guimenuitem> entries let "
+"you browse and manage Rocket.Chat Marketplace applications."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:260
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>Tools</guimenu><guimenuitem>Server Checklist…</"
+"guimenuitem></menuchoice> checks the server configuration for common "
+"problems."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:265
+#, no-c-format
+msgid "Offline Mode"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:266
+#, no-c-format
+msgid ""
+"&i18n-kapplication; can keep messages in a local database (enable "
+"<guilabel>Enable local database</guilabel> in the <guilabel>General</"
+"guilabel> settings), so that rooms are displayed faster and remain readable "
+"when the connection is lost. <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Work Offline</guimenuitem></menuchoice> disconnects "
+"from the server on purpose."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:274
+#, no-c-format
+msgid "Configuring &i18n-kapplication;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:275
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &i18n-"
+"kapplication;…</guimenuitem></menuchoice> opens the settings dialog, which "
+"contains the following pages:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:278
+#, no-c-format
+msgid "Accounts"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:279
+#, no-c-format
+msgid "Add, modify, enable, disable or remove server accounts."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:280
+#, no-c-format
+msgid "General"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:281
+#, no-c-format
+msgid ""
+"System tray icon, status on startup, image and &URL; previews, animated "
+"GIFs, local database, logging, and other behavior options."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:283
+#, no-c-format
+msgid "Font"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:284
+#, no-c-format
+msgid "Font used to display messages."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:285
+#, no-c-format
+msgid ""
+"<guilabel>Spell Checking</guilabel> and <guilabel>Auto-Correction</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:286
+#, no-c-format
+msgid "Language and correction rules used while typing."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:287
+#, no-c-format
+msgid "Translation"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:288
+#, no-c-format
+msgid "Translation engine used to translate messages."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:289
+#, no-c-format
+msgid "Accessibility"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:290
+#, no-c-format
+msgid "Text-to-speech and speech-to-text options, when available."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:291
+#, no-c-format
+msgid "Plugins"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:292
+#, no-c-format
+msgid ""
+"Enable or disable plugins, for example sharing text, web shortcuts, "
+"screenshots, or text generation with an AI engine."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:294
+#, no-c-format
+msgid "User Feedback"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:295
+#, no-c-format
+msgid "Choose which anonymous usage statistics are sent to the developers."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:297
+#, no-c-format
+msgid ""
+"The color scheme can be changed in the <guimenu>Settings</guimenu> menu, and "
+"the message font size in the <guimenu>View</guimenu> menu."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:302
+#, no-c-format
+msgid "Tools"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:303
+#, no-c-format
+msgid ""
+"The <guimenu>Tools</guimenu> menu provides helpers mostly useful for "
+"troubleshooting:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:305
+#, no-c-format
+msgid ""
+"<guimenuitem>Show Channel Log</guimenuitem> and <guimenuitem>Show Server "
+"Errors</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:306
+#, no-c-format
+msgid ""
+"<guimenuitem>Show RocketChat Information</guimenuitem>: version and "
+"capabilities of the server"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:307
+#, no-c-format
+msgid ""
+"<guimenuitem>Retry Wallet Access</guimenuitem>, when the password could not "
+"be read from the wallet"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:313
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:315
+#, no-c-format
+msgid "&i18n-kapplication;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:316
+#, no-c-format
+msgid "Program copyright 2018-2026 &Laurent.Montel; &Laurent.Montel.mail;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:319
+#, no-c-format
+msgid "Documentation Copyright &copy; &Laurent.Montel; &Laurent.Montel.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:323
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:323
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""
