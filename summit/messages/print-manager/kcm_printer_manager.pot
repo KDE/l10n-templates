@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: print-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-18 07:22+0200\n"
+"POT-Creation-Date: 2026-10-08 08:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -338,11 +338,14 @@ msgctxt "@info:status"
 msgid "Unable to automatically discover any printing devices"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/FindPrinter.qml:229
-#, kde-format
+#, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid "Choose \"Refresh\" to try again or choose a manual configuration option from the list"
+msgid ""
+"Click <interface>Refresh</interface> to try again, or choose a manual configuration option from the list.<nl/>"
+"<nl/>"
+"Note: Automatic printer discovery requires this system’s firewall to allow through the “mdns” service, or be disabled."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -350,6 +353,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Choose a manual configuration option from the list"
+msgstr ""
+
+#. +> stable6
+#: ui/FindPrinter.qml:229
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Choose \"Refresh\" to try again or choose a manual configuration option from the list"
 msgstr ""
 
 #. +> trunk6 stable6

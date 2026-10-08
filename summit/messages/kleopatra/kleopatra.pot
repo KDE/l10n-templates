@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-04 08:29+0200\n"
+"POT-Creation-Date: 2026-10-08 08:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3394,7 +3394,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/commands/refreshcertificatescommand.cpp:203
-#: src/commands/refreshcertificatescommand.cpp:276
+#: src/commands/refreshcertificatescommand.cpp:270
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating key..."
@@ -3408,43 +3408,43 @@ msgid "Updating certificate..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:295
+#: src/commands/refreshcertificatescommand.cpp:289
 #, kde-format
 msgid "The certificate has not changed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:299
+#: src/commands/refreshcertificatescommand.cpp:293
 #, kde-format
 msgid "The certificate has been revoked."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:302
+#: src/commands/refreshcertificatescommand.cpp:296
 #, kde-format
 msgid "The certificate has been updated."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:306
+#: src/commands/refreshcertificatescommand.cpp:300
 #, kde-format
 msgid "New user IDs: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:309
+#: src/commands/refreshcertificatescommand.cpp:303
 #, kde-format
 msgid "New subkeys: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:312
+#: src/commands/refreshcertificatescommand.cpp:306
 #, kde-format
 msgid "New signatures: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:322
+#: src/commands/refreshcertificatescommand.cpp:316
 #, kde-format
 msgid "Additionally, one new key has been retrieved."
 msgid_plural "Additionally, %1 new keys have been retrieved."
@@ -3452,30 +3452,30 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:423
+#: src/commands/refreshcertificatescommand.cpp:417
 #, kde-format
 msgctxt "@info"
 msgid "Result of OpenPGP certificate update from keyserver, LDAP server, or Active Directory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:426
-#: src/commands/refreshcertificatescommand.cpp:445
+#: src/commands/refreshcertificatescommand.cpp:420
+#: src/commands/refreshcertificatescommand.cpp:439
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Update skipped because network access is disabled for OpenPGP.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:428
+#: src/commands/refreshcertificatescommand.cpp:422
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Update skipped because no OpenPGP keyserver is configured.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:430
-#: src/commands/refreshcertificatescommand.cpp:450
+#: src/commands/refreshcertificatescommand.cpp:424
+#: src/commands/refreshcertificatescommand.cpp:444
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>The certificate was not found.</para>"
@@ -3484,9 +3484,9 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:432
-#: src/commands/refreshcertificatescommand.cpp:447
-#: src/commands/refreshcertificatescommand.cpp:466
+#: src/commands/refreshcertificatescommand.cpp:426
+#: src/commands/refreshcertificatescommand.cpp:441
+#: src/commands/refreshcertificatescommand.cpp:460
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3495,9 +3495,9 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:435
-#: src/commands/refreshcertificatescommand.cpp:454
-#: src/commands/refreshcertificatescommand.cpp:469
+#: src/commands/refreshcertificatescommand.cpp:429
+#: src/commands/refreshcertificatescommand.cpp:448
+#: src/commands/refreshcertificatescommand.cpp:463
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>The certificate was updated.</para>"
@@ -3506,28 +3506,28 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:443
+#: src/commands/refreshcertificatescommand.cpp:437
 #, kde-format
 msgctxt "@info"
 msgid "Result of update from Web Key Directory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:462
+#: src/commands/refreshcertificatescommand.cpp:456
 #, kde-format
 msgctxt "@info"
 msgid "Result of S/MIME certificate update"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:464
+#: src/commands/refreshcertificatescommand.cpp:458
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Update skipped because network access is disabled for S/MIME.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:474
+#: src/commands/refreshcertificatescommand.cpp:468
 #, kde-format
 msgctxt "@title:window"
 msgid "Certificate Updated"
@@ -3536,7 +3536,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: src/commands/refreshcertificatescommand.cpp:474
+#: src/commands/refreshcertificatescommand.cpp:468
 #, kde-format
 msgctxt "@title:window"
 msgid "Update Failed"

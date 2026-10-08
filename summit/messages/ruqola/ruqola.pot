@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-07 08:43+0200\n"
+"POT-Creation-Date: 2026-10-08 08:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -48,12 +48,6 @@ msgstr ""
 #: apps/main.cpp:65
 #, kde-format
 msgid "Original Author"
-msgstr ""
-
-#. +> stable6
-#: apps/main.cpp:68
-#, kde-format
-msgid "Rocket Chat Client"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -196,13 +190,13 @@ msgid "The following accounts are available:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/accountmanager.cpp:339
+#: core/accountmanager.cpp:338
 #, kde-format
 msgid "Invalid invite token"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/accountmanager.cpp:340
+#: core/accountmanager.cpp:339
 #, kde-format
 msgid "Invite Token is invalid. Creating account canceled."
 msgstr ""
@@ -235,7 +229,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: core/apps/appsmarketplaceinfo.cpp:424
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:140
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:142
 #, kde-format
 msgid "Version"
 msgstr ""
@@ -457,25 +451,25 @@ msgstr ""
 msgid "Modify Livechat custom field configuration"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/apps/appsmarketplaceinfo.cpp:698
 #, kde-format
 msgid "Access to multiple Livechat messages information"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/apps/appsmarketplaceinfo.cpp:700
 #, kde-format
 msgid "Access thread information"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/apps/appsmarketplaceinfo.cpp:702
 #, kde-format
 msgid "Modify moderation information"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/apps/appsmarketplaceinfo.cpp:704
 #, kde-format
 msgid "Access moderation information"
@@ -517,13 +511,13 @@ msgstr ""
 msgid "Allow to register button"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/apps/appsmarketplaceinfo.cpp:718
 #, kde-format
 msgid "Access contact information"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/apps/appsmarketplaceinfo.cpp:720
 #, kde-format
 msgid "Modify contact information"
@@ -565,13 +559,7 @@ msgstr ""
 msgid "Connecting"
 msgstr ""
 
-#. +> stable6
-#: core/authenticationmanager.cpp:89
-#, kde-format
-msgid "Login OTP code required"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/authenticationmanager.cpp:90
 #, kde-format
 msgid "Verifying OTP code"
@@ -740,16 +728,10 @@ msgstr ""
 msgid "Displays (╯°□°）╯︵ ┻━┻"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/commands/command.cpp:91
 #, kde-format
 msgid "Displays ┬─┬ ノ( ゜-゜ノ)"
-msgstr ""
-
-#. +> stable6
-#: core/commands/command.cpp:89
-#, kde-format
-msgid "Displays ┬─┬<feff> ノ( ゜-゜ノ)"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -898,7 +880,7 @@ msgstr ""
 msgid "Ding"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/customsound/customsoundsmanager.cpp:83
 #, kde-format
 msgid "Droplet"
@@ -967,7 +949,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: core/messages/block/block.cpp:160 core/messages/message.cpp:900
 #: core/model/notificationhistorymodel.cpp:69
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:133
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:132
 #, kde-format
 msgid "Conference Call"
 msgstr ""
@@ -976,12 +958,6 @@ msgstr ""
 #: core/messages/message.cpp:800
 #, kde-format
 msgid "%1 has joined the channel"
-msgstr ""
-
-#. +> stable6
-#: core/messages/message.cpp:880
-#, kde-format
-msgid "%1 has joined OTR chat."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1038,12 +1014,6 @@ msgstr ""
 msgid "%2 changed room description to %1"
 msgstr ""
 
-#. +> stable6
-#: core/messages/message.cpp:821
-#, kde-format
-msgid "Encrypted Message"
-msgstr ""
-
 #. +> trunk6 stable6
 #: core/messages/message.cpp:825
 #, kde-format
@@ -1080,7 +1050,7 @@ msgstr ""
 msgid "Message Pinned"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/messages/message.cpp:839
 #, kde-format
 msgid "Message Pinned by %1"
@@ -1207,12 +1177,6 @@ msgstr ""
 msgid "%1 converted #%2 to a Channel"
 msgstr ""
 
-#. +> stable6
-#: core/messages/message.cpp:884
-#, kde-format
-msgid "%1 has requested key refresh."
-msgstr ""
-
 #. +> trunk6 stable6
 #: core/messages/message.cpp:886
 #, kde-format
@@ -1286,7 +1250,7 @@ msgid "%1 and %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/admincustomemojimodel.cpp:37
+#: core/model/admincustomemojimodel.cpp:35
 #: core/model/admincustomsoundmodel.cpp:30 core/model/adminoauthmodel.cpp:32
 #: core/model/adminrolesmodel.cpp:32 core/model/adminroomsmodel.cpp:32
 #: core/model/adminusersallmodel.cpp:68
@@ -1294,10 +1258,10 @@ msgstr ""
 #: core/model/adminusersstatusmodel.cpp:24
 #: core/model/directoryroomsmodel.cpp:119
 #: core/model/directoryteamsmodel.cpp:93
-#: core/model/directoryusersmodel.cpp:104
-#: core/model/moderationreportedmessagemodel.cpp:33
+#: core/model/directoryusersmodel.cpp:103
+#: core/model/moderationreportedmessagemodel.cpp:31
 #: core/model/moderationreportedusermodel.cpp:39
-#: core/model/permissionsmodel.cpp:33
+#: core/model/permissionsmodel.cpp:31
 #: core/model/personalaccesstokeninfosmodel.cpp:82
 #: core/model/usersinrolemodel.cpp:89
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:46
@@ -1307,7 +1271,7 @@ msgid "Name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/admincustomemojimodel.cpp:39
+#: core/model/admincustomemojimodel.cpp:37
 #: core/model/admincustomsoundmodel.cpp:32 core/model/adminoauthmodel.cpp:30
 #: core/model/adminrolesmodel.cpp:30 core/model/adminroomsmodel.cpp:40
 #: core/model/directoryroomsmodel.cpp:125
@@ -1318,7 +1282,7 @@ msgid "Identifier"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/admincustomemojimodel.cpp:42
+#: core/model/admincustomemojimodel.cpp:40
 #, kde-format
 msgid "Aliases"
 msgstr ""
@@ -1489,7 +1453,7 @@ msgstr ""
 #: core/model/adminusersallmodel.cpp:72
 #: core/model/adminuserspendingmodel.cpp:70
 #: core/model/adminusersstatusmodel.cpp:28
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:130
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:129
 #: widgets/dialogs/configurenotificationwidget.cpp:115
 #, kde-format
 msgid "Email"
@@ -1507,7 +1471,7 @@ msgstr ""
 #: core/model/adminusersallmodel.cpp:76 core/model/adminusersallmodel.cpp:126
 #: core/model/adminuserspendingmodel.cpp:74
 #: core/model/adminuserspendingmodel.cpp:130
-#: widgets/applicationssettingsdialog/applicationssettingsdelegate.cpp:167
+#: widgets/applicationssettingsdialog/applicationssettingsdelegate.cpp:166
 #: widgets/applicationssettingsdialog/applicationssettingsstatuscombobox.cpp:15
 #: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:292
 #, kde-format
@@ -1642,13 +1606,13 @@ msgid "Rooms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/directoryusersmodel.cpp:106 core/model/usersinrolemodel.cpp:91
+#: core/model/directoryusersmodel.cpp:105 core/model/usersinrolemodel.cpp:91
 #, kde-format
 msgid "Emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/directoryusersmodel.cpp:108
+#: core/model/directoryusersmodel.cpp:107
 #, kde-format
 msgid "Join At"
 msgstr ""
@@ -1678,31 +1642,31 @@ msgid "Notify all in this room"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/messagesmodel.cpp:354
+#: core/model/messagesmodel.cpp:352
 #, kde-format
 msgid "Edited at %1 by %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/messagesmodel.cpp:574
+#: core/model/messagesmodel.cpp:572
 #, kde-format
 msgid "Ignored Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/messagesmodel.cpp:584
+#: core/model/messagesmodel.cpp:582
 #, kde-format
 msgid "Only you can see this message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/moderationreportedmessagemodel.cpp:40
+#: core/model/moderationreportedmessagemodel.cpp:38
 #, kde-format
 msgid "Reported message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/moderationreportedmessagemodel.cpp:42
+#: core/model/moderationreportedmessagemodel.cpp:40
 #: core/model/moderationreportedusermodel.cpp:37
 #: widgets/administratorsettingsdialog/email/emailsettingswidget.cpp:69
 #, kde-format
@@ -1710,21 +1674,21 @@ msgid "Username"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/moderationreportedmessagemodel.cpp:44
+#: core/model/moderationreportedmessagemodel.cpp:42
 #: core/model/moderationreportedusermodel.cpp:30
 #, kde-format
 msgid "Reports"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/moderationreportedmessagemodel.cpp:46
+#: core/model/moderationreportedmessagemodel.cpp:44
 #: core/model/moderationreportedusermodel.cpp:32
 #, kde-format
 msgid "Report date"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/moderationreportedmessagemodel.cpp:48
+#: core/model/moderationreportedmessagemodel.cpp:46
 #, kde-format
 msgid "Room"
 msgstr ""
@@ -1765,7 +1729,7 @@ msgid "Nothing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/permissionsmodel.cpp:36 core/model/rolesmodel.cpp:33
+#: core/model/permissionsmodel.cpp:34 core/model/rolesmodel.cpp:33
 #: widgets/administratordialog/administratorwidget.cpp:84
 #: widgets/dialogs/channelrolesinfowidget.cpp:23
 #, kde-format
@@ -1859,7 +1823,7 @@ msgid "Channel Room"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/roommodel.cpp:680 widgets/dialogs/showtheadscombobox.cpp:17
+#: core/model/roommodel.cpp:680 widgets/dialogs/showtheadscombobox.cpp:16
 #, kde-format
 msgid "Unread"
 msgstr ""
@@ -2119,11 +2083,11 @@ msgstr ""
 #. +> trunk6 stable6
 #: core/model/systemmessagesmodel.cpp:73
 #, kde-format
-msgid "Joined this Team"
+msgid "Hide \"Joined this Team\" messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/teamroomsmodel.cpp:38
+#: core/model/teamroomsmodel.cpp:37
 #, kde-format
 msgid "(Autojoin)"
 msgstr ""
@@ -2135,7 +2099,7 @@ msgid "Owner"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/model/usersmodel.cpp:78 core/utils.cpp:101 core/utils.cpp:376
+#: core/model/usersmodel.cpp:78 core/utils.cpp:100 core/utils.cpp:375
 #, kde-format
 msgid "Offline"
 msgstr ""
@@ -2206,13 +2170,13 @@ msgstr ""
 msgid "Not connected yet"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/rocketchataccount.cpp:3271
 #, kde-format
 msgid "Room Added"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/rocketchataccount.cpp:3272
 #, kde-format
 msgid "A new room was added in '%1'."
@@ -2299,7 +2263,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: core/roominfo/roominfo.cpp:145
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:111
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:113
 #, kde-format
 msgid "Omnichannel"
 msgstr ""
@@ -2420,7 +2384,7 @@ msgid_plural "%1 months"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/translatetext/translatetextjob.cpp:47
 #, kde-format
 msgid "No translator engine available."
@@ -2432,7 +2396,7 @@ msgstr ""
 msgid "Missing translator info. It's a bug"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/translatetext/translatorenginemanager.cpp:104
 #, kde-format
 msgid "Translation was interrupted as the translator engine changed."
@@ -2457,19 +2421,19 @@ msgid "Bot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/utils.cpp:95 core/utils.cpp:370
+#: core/utils.cpp:94 core/utils.cpp:369
 #, kde-format
 msgid "Online"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/utils.cpp:97 core/utils.cpp:372 widgets/room/usersinroomcombobox.cpp:28
+#: core/utils.cpp:96 core/utils.cpp:371 widgets/room/usersinroomcombobox.cpp:28
 #, kde-format
 msgid "Busy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/utils.cpp:99 core/utils.cpp:374 widgets/room/usersinroomcombobox.cpp:27
+#: core/utils.cpp:98 core/utils.cpp:373 widgets/room/usersinroomcombobox.cpp:27
 #, kde-format
 msgid "Away"
 msgstr ""
@@ -2656,7 +2620,7 @@ msgid_plural "%v seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rocketchatrestapi-qt/apps/appupdateinfojob.cpp:190
 #, kde-format
 msgid "License not authorized it."
@@ -2732,7 +2696,7 @@ msgstr ""
 msgid "Extract Roles"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rocketchatrestapi-qt/chat/deletemessagefilejob.cpp:91
 #, kde-format
 msgid "Delete File Message"
@@ -2798,14 +2762,14 @@ msgstr ""
 msgid "File not found '%1'"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rocketchatrestapi-qt/downloadfilejob.cpp:60
 #: rocketchatrestapi-qt/downloadfilejob.cpp:65
 #, kde-format
 msgid "Download failed: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rocketchatrestapi-qt/downloadfilejob.cpp:65
 #, kde-format
 msgid "No reply received"
@@ -3190,7 +3154,7 @@ msgstr ""
 msgid "Room is not closed"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rocketchatrestapi-qt/restapiabstractjob.cpp:338
 msgid "The room already has an end-to-end encryption key ID"
 msgstr ""
@@ -3237,8 +3201,8 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: rocketchatrestapi-qt/restapiabstractjob.cpp:347
-#, c-format
-msgid "You are not in the room `%s`"
+#, kde-format
+msgid "You are not in the room `%1`"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3414,22 +3378,16 @@ msgstr ""
 msgid "Only groups or direct channels can enable encryption"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rocketchatrestapi-qt/rooms/saveroomsettingsjob.cpp:67
 #, kde-format
 msgid "Editing room is not allowed"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rocketchatrestapi-qt/rooms/saveroomsettingsjob.cpp:69
 #, kde-format
 msgid "Changing room type is not allowed"
-msgstr ""
-
-#. +> stable6
-#: rocketchatrestapi-qt/rooms/saveroomsettingsjob.cpp:73
-#, kde-format
-msgid "Room does not have retention policy"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3462,16 +3420,10 @@ msgstr ""
 msgid "You don't have permission to add this channel to the team"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rocketchatrestapi-qt/teams/teamslistroomsjob.cpp:91
 #, kde-format
 msgid "The required \"teamId\" or \"teamName\" param provided does not match any teams"
-msgstr ""
-
-#. +> stable6
-#: rocketchatrestapi-qt/teams/teamslistroomsjob.cpp:96
-#, kde-format
-msgid "The required \\\"roomId\\\" or \\\"roomName\\\" param provided does not match any teams"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3531,7 +3483,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/administratordialog/administratorwidget.cpp:54
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:241
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:243
 #, kde-format
 msgid "Server Info"
 msgstr ""
@@ -3556,7 +3508,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/administratordialog/administratorwidget.cpp:69
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:253
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:255
 #, kde-format
 msgid "Users"
 msgstr ""
@@ -3575,7 +3527,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/administratordialog/administratorwidget.cpp:87
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:136
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:135
 #, kde-format
 msgid "Oauth"
 msgstr ""
@@ -3619,8 +3571,8 @@ msgstr ""
 #: widgets/administratordialog/users/administratoradduserwidget.cpp:61
 #: widgets/dialogs/channelinfoeditablewidget.cpp:55
 #: widgets/dialogs/channelinforeadonlywidget.cpp:35
-#: widgets/dialogs/createnewchannelwidget.cpp:37
-#: widgets/dialogs/directchannelinfowidget.cpp:111
+#: widgets/dialogs/createnewchannelwidget.cpp:36
+#: widgets/dialogs/directchannelinfowidget.cpp:110
 #: widgets/myaccount/myaccountpersonalaccesscreatewidget.cpp:30
 #: widgets/myaccount/myaccountprofileconfigurewidget.cpp:65
 #: widgets/webdav/webdavaddserverwidget.cpp:34
@@ -3642,20 +3594,20 @@ msgid "File:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:35
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:34
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search custom emojis"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:53
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:52
 #, kde-format
 msgid "No custom emoji found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:58
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:57
 #, kde-format
 msgid "%1 custom emoji (Total: %2)"
 msgid_plural "%1 custom emojis (Total: %2)"
@@ -3663,21 +3615,21 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:159
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:158
 #, kde-format
 msgid "Do you want to remove this emoji?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:160
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:159
 #, kde-format
 msgctxt "@title"
 msgid "Remove Emoji"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:186
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:330
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:185
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:329
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:172
 #: widgets/administratordialog/oauth/oauthtreeview.cpp:52
 #: widgets/administratordialog/roles/administratorroleswidget.cpp:104
@@ -3690,8 +3642,8 @@ msgid "Add…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:189
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:333
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:188
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:332
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:175
 #: widgets/administratordialog/oauth/oauthtreeview.cpp:54
 #: widgets/administratordialog/permissions/permissionswidget.cpp:94
@@ -3704,8 +3656,8 @@ msgid "Modify…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:194
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:337
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:193
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:336
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:177
 #: widgets/administratordialog/invites/invitetreeview.cpp:36
 #: widgets/administratordialog/oauth/oauthtreeview.cpp:58
@@ -3734,20 +3686,20 @@ msgid "mp3 file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:39
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:38
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search Custom Sounds"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:75
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:74
 #, kde-format
 msgid "No custom sound found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:80
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:79
 #, kde-format
 msgid "%1 custom sound (Total: %2)"
 msgid_plural "%1 custom sounds (Total: %2)"
@@ -3755,13 +3707,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:289
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:288
 #, kde-format
 msgid "Do you want to remove this sound?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:290
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:289
 #, kde-format
 msgctxt "@title"
 msgid "Remove Custom Sound"
@@ -3784,7 +3736,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:31
 #: widgets/conferencecalldialog/conferenceinfowidget.cpp:52
-#: widgets/dialogs/directchannelinfowidget.cpp:127
+#: widgets/dialogs/directchannelinfowidget.cpp:126
 #: widgets/dialogs/modifystatuswidget.cpp:34
 #, kde-format
 msgid "Status:"
@@ -3813,8 +3765,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/administratordialog/featurepreview/featurepreviewmessagewidget.cpp:19
 #: widgets/dialogs/roomavatarwidget.cpp:35
-#: widgets/room/roomquotemessagewidget.cpp:21
-#: widgets/room/roomreplythreadwidget.cpp:22
+#: widgets/room/roomquotemessagewidget.cpp:20
+#: widgets/room/roomreplythreadwidget.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Cancel"
@@ -4140,7 +4092,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/administratordialog/moderationconsole/moderationreportinfolistview.cpp:84
-#: widgets/notificationhistory/notificationhistorylistview.cpp:104
+#: widgets/notificationhistory/notificationhistorylistview.cpp:109
 #: widgets/room/messagelistview.cpp:453
 #: widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:54
 #, kde-format
@@ -4150,7 +4102,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/administratordialog/moderationconsole/moderationreportinfolistview.cpp:86
-#: widgets/notificationhistory/notificationhistorylistview.cpp:106
+#: widgets/notificationhistory/notificationhistorylistview.cpp:111
 #: widgets/room/messagelistview.cpp:455
 #: widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:56
 #, kde-format
@@ -4161,7 +4113,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/administratordialog/moderationconsole/moderationreportinfolistview.cpp:98
 #: widgets/discussions/discussionlistview.cpp:71
-#: widgets/notificationhistory/notificationhistorylistview.cpp:118
+#: widgets/notificationhistory/notificationhistorylistview.cpp:125
 #: widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:69
 #, kde-format
 msgctxt "@action"
@@ -4173,7 +4125,7 @@ msgstr ""
 #: widgets/applicationssettingsdialog/applicationssettingslistview.cpp:107
 #: widgets/bannerinfodialog/bannerinfolistview.cpp:58
 #: widgets/discussions/discussionlistview.cpp:77
-#: widgets/notificationhistory/notificationhistorylistview.cpp:124
+#: widgets/notificationhistory/notificationhistorylistview.cpp:133
 #: widgets/room/messagelistview.cpp:486
 #: widgets/servererrorinfohistory/servererrorinfomessagehistorylistview.cpp:76
 #, kde-format
@@ -4203,7 +4155,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/administratordialog/moderationconsole/moderationuserswidget.cpp:38
 #: widgets/administratordialog/users/administratoradduserwidget.cpp:64
-#: widgets/dialogs/directchannelinfowidget.cpp:218
+#: widgets/dialogs/directchannelinfowidget.cpp:217
 #: widgets/myaccount/myaccountprofileconfigurewidget.cpp:77
 #: widgets/registeruser/registeruserwidget.cpp:39
 #, kde-format
@@ -4213,7 +4165,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/administratordialog/moderationconsole/moderationuserswidget.cpp:43
 #: widgets/administratordialog/users/administratoradduserwidget.cpp:72
-#: widgets/dialogs/directchannelinfowidget.cpp:186
+#: widgets/dialogs/directchannelinfowidget.cpp:185
 #, kde-format
 msgid "Roles:"
 msgstr ""
@@ -4390,7 +4342,7 @@ msgid "Global"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/roles/userinroleeditdialog.cpp:26
+#: widgets/administratordialog/roles/userinroleeditdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Users in Role"
@@ -4399,7 +4351,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:39
 #: widgets/administratordialog/users/administratoruserswidget.cpp:84
-#: widgets/dialogs/addusersinroomwidget.cpp:25
+#: widgets/dialogs/addusersinroomwidget.cpp:24
 #: widgets/directory/directorywidget.cpp:39
 #: widgets/room/usersinroomwidget.cpp:57
 #, kde-format
@@ -4470,14 +4422,14 @@ msgid "Featured"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/rooms/administratorroomseditdialog.cpp:28
+#: widgets/administratordialog/rooms/administratorroomseditdialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Direct Room"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/rooms/administratorroomseditdialog.cpp:34
+#: widgets/administratordialog/rooms/administratorroomseditdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Room"
@@ -4536,7 +4488,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/administratordialog/rooms/administratorroomseditwidget.cpp:70
-#: widgets/dialogs/createnewchannelwidget.cpp:69
+#: widgets/dialogs/createnewchannelwidget.cpp:68
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Just invited people can access this channel."
@@ -4614,7 +4566,7 @@ msgid "Refresh"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:71
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:72
 #: widgets/exploreappstranlationdialog/exploreappstranslationwidget.cpp:59
 #, kde-format
 msgctxt "@action"
@@ -4622,229 +4574,229 @@ msgid "Copy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:107
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:109
 #, kde-format
 msgid "Licenses"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:112
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:114
 #, kde-format
 msgid "Auditing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:113
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:115
 #, kde-format
 msgid "Canned Responses"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:114
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:116
 #, kde-format
 msgid "Engagement Dashboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:115
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:117
 #, kde-format
 msgid "Read Receipts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:141
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:143
 #, kde-format
 msgid "Deployment ID"
 msgstr ""
 
-#. +> trunk6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:142
+#. +> trunk6 stable6
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:144
 #, kde-format
 msgid "Mongo Version"
 msgstr ""
 
-#. +> trunk6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:143
+#. +> trunk6 stable6
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:145
 #, kde-format
 msgid "Mongo Storage Engine"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:161
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:163
 #, kde-format
 msgid "Online Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:162
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:164
 #, kde-format
 msgid "Away Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:163
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:165
 #, kde-format
 msgid "Offline Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:164
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:166
 #, kde-format
 msgid "Busy Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:165
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:167
 #, kde-format
 msgid "Total Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:171
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:173
 #, kde-format
 msgid "Rocket.Chat App Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:172
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:174
 #, kde-format
 msgid "Total Uploads Size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:173
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:175
 #, kde-format
 msgid "Total Uploads"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:175
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:177
 #, kde-format
 msgid "Activated Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:176
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:178
 #, kde-format
 msgid "Activated Guests"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:177
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:179
 #, kde-format
 msgid "Deactivated Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:179
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:181
 #, kde-format
 msgid "Total Channels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:180
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:182
 #, kde-format
 msgid "Total Rooms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:181
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:183
 #, kde-format
 msgid "Total Private Groups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:182
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:184
 #, kde-format
 msgid "Total Direct Message Rooms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:183
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:185
 #, kde-format
 msgid "Total Threads"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:184
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:186
 #, kde-format
 msgid "Total Discussions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:185
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:187
 #, kde-format
 msgid "Total Omnichannel Rooms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:187
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:189
 #, kde-format
 msgid "Total Messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:188
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:190
 #, kde-format
 msgid "Total Messages in Channels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:189
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:191
 #, kde-format
 msgid "Total Messages in Private Groups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:190
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:192
 #, kde-format
 msgid "Total Messages in Direct Messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:191
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:193
 #, kde-format
 msgid "Total Connected Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:227
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:229
 #, kde-format
 msgid "OS Release"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:228
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:230
 #, kde-format
 msgid "OS Type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:229
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:231
 #, kde-format
 msgid "OS Platform"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:230
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:232
 #, kde-format
 msgid "OS Total Memory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:231
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:233
 #, kde-format
 msgid "OS Free Memory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:248
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:250
 #, kde-format
 msgid "Usage"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:259
+#: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:261
 #, kde-format
 msgid "Runtime Environment"
 msgstr ""
@@ -4893,7 +4845,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/administratordialog/users/administratoradduserwidget.cpp:62
-#: widgets/dialogs/directchannelinfowidget.cpp:120
+#: widgets/dialogs/directchannelinfowidget.cpp:119
 #: widgets/dialogs/serverinfo/serverinfowidget.cpp:42
 #: widgets/myaccount/myaccountprofileconfigurewidget.cpp:70
 #: widgets/registeruser/registeruserwidget.cpp:33
@@ -4918,7 +4870,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/administratordialog/users/administratoradduserwidget.cpp:67
-#: widgets/dialogs/directchannelinfowidget.cpp:143
+#: widgets/dialogs/directchannelinfowidget.cpp:142
 #, kde-format
 msgid "Bio:"
 msgstr ""
@@ -4954,7 +4906,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/administratordialog/users/administratoruserstabwidget.cpp:33
 #: widgets/dialogs/showattachmentcombobox.cpp:21
-#: widgets/dialogs/showtheadscombobox.cpp:15
+#: widgets/dialogs/showtheadscombobox.cpp:14
 #: widgets/room/usersinroomcombobox.cpp:23
 #: widgets/teams/teamchannelscombobox.cpp:19
 #, kde-format
@@ -4987,18 +4939,11 @@ msgctxt "@action"
 msgid "Deactivate"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/administratordialog/users/administratoruserswidget.cpp:318
 #, kde-format
 msgctxt "@action"
 msgid "Activate"
-msgstr ""
-
-#. +> stable6
-#: widgets/administratordialog/users/administratoruserswidget.cpp:317
-#, kde-format
-msgctxt "@action"
-msgid "Active"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5419,50 +5364,50 @@ msgid "Administrator Server Settings - %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:108
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:107
 #, kde-format
 msgid "Accounts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:109
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:108
 #: widgets/room/roomheaderwidget.cpp:98
 #, kde-format
 msgid "Encryption"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:110
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:109
 #, kde-format
 msgid "Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:111
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:110
 #, kde-format
 msgid "File Upload"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:112
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:111
 #, kde-format
 msgid "Retention Policy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:113
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:112
 #, kde-format
 msgid "General"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:114
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:113
 #, kde-format
 msgid "Rate Limiter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:115
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:114
 #: widgets/administratorsettingsdialog/email/emailsettingswidget.cpp:72
 #: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:62
 #, kde-format
@@ -5470,94 +5415,94 @@ msgid "Password"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:116
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:115
 #, kde-format
 msgid "Video Conference"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:117
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:116
 #, kde-format
 msgid "IRC Federation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:118
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:117
 #, kde-format
 msgid "IRC"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:119
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:118
 #, kde-format
 msgid "Webdav"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:120
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:119
 #, kde-format
 msgid "LDAP"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:121
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:120
 #, kde-format
 msgid "Layout"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:122
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:121
 #: widgets/dialogs/serverinfo/serverinfowidget.cpp:61
 #, kde-format
 msgid "Enterprise"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:123
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:122
 #, kde-format
 msgid "User Data Download"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:124
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:123
 #, kde-format
 msgid "Slack Bridge"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:125
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:124
 #: widgets/applicationssettingsdialog/applicationssettingsdescriptiontabwidget.cpp:42
 #, kde-format
 msgid "Logs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:131
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:130
 #: widgets/dialogs/configurenotificationwidget.cpp:97
 #, kde-format
 msgid "Mobile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:132
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:131
 #, kde-format
 msgid "Troubleshoot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:134
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:133
 #, kde-format
 msgid "WebRTC"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:135
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:134
 #, kde-format
 msgid "CAS"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:137
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:136
 #, kde-format
 msgid "Analytics"
 msgstr ""
@@ -5704,7 +5649,7 @@ msgid "Hide Outgoing Links"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:23
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:21
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:19
 #: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:25
 #: widgets/administratorsettingsdialog/retentionpolicy/retentionpolicysettingswidget.cpp:20
@@ -5718,54 +5663,54 @@ msgid "Enabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:27
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:25
 #, kde-format
 msgctxt "@option:check"
 msgid "Trust CAS Username"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:28
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:26
 #, kde-format
 msgctxt "@option:check"
 msgid "Allow user creation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:29
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:27
 #, kde-format
 msgctxt "@option:check"
 msgid "Always Sync User Data"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:36
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:34
 #, kde-format
 msgid "SSO Base URL"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:37
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:35
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The base URL of your external SSO service e.g: https://sso.example.undef/sso/"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:40
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:38
 #, kde-format
 msgid "SSO Login URL"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:41
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:39
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The login URL of your external SSO service e.g: https://sso.example.undef/sso/login"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:48
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:46
 #: widgets/administratorsettingsdialog/email/emailsettingswidget.cpp:56
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:37
 #, kde-format
@@ -5773,7 +5718,7 @@ msgid "Protocol"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:52
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:50
 #, kde-format
 msgid ""
 "When enabled, Rocket.Chat will trust that any username from CAS belongs to the same user on Rocket.Chat.\n"
@@ -5781,20 +5726,20 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:57
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:55
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Allow CAS User creation from data provided by the CAS ticket."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:60
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:58
 #, kde-format
 msgid "Attribute handling"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:67
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:65
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -5803,13 +5748,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:71
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:69
 #, kde-format
 msgid "Attribute Map"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:73
+#: widgets/administratorsettingsdialog/cas/cassettingswidget.cpp:71
 #, kde-format
 msgid ""
 "Use this JSON input to build internal attributes (key) from external attributes (value).\n"
@@ -5833,7 +5778,7 @@ msgctxt "@option:check"
 msgid "Enable in public channels"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/administratorsettingsdialog/conferencecall/conferencecallsettingswidget.cpp:25
 #, kde-format
 msgctxt "@option:check"
@@ -6067,13 +6012,6 @@ msgctxt "@option:check"
 msgid "Mentions"
 msgstr ""
 
-#. +> stable6
-#: widgets/administratorsettingsdialog/encryption/encryptionsettingswidget.cpp:23
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable OTR"
-msgstr ""
-
 #. +> trunk6 stable6
 #: widgets/administratorsettingsdialog/encryption/encryptionsettingswidget.cpp:26
 #, kde-format
@@ -6093,12 +6031,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Notify people, and highlight user, channel, and team mentions in encrypted content."
-msgstr ""
-
-#. +> stable6
-#: widgets/administratorsettingsdialog/encryption/encryptionsettingswidget.cpp:51
-#, kde-format
-msgid "Enable option to use off-the-record (OTR) messages in direct messages between 2 users. OTR messages are not recorded on the server and exchanged directly and encrypted between the 2 users."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6192,7 +6124,6 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:57
 #: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:61
-#: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:66
 #, kde-format
 msgid "Accepted Media Types"
 msgstr ""
@@ -6201,7 +6132,7 @@ msgstr ""
 #: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:60
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Comma-separated list of media types. This setting has priority over the Accepted Media Types."
+msgid "Comma-separated list of media types. This setting has priority over the Blocked Media Types."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6209,6 +6140,12 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "File Upload Json Web Token Secret (Used to be able to access uploaded files without authentication)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:66
+#, kde-format
+msgid "Json Web Token Secret"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -7048,7 +6985,7 @@ msgstr ""
 msgid "Microsoft"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:165
 #, kde-format
 msgid "LibreTranslate"
@@ -7078,13 +7015,13 @@ msgstr ""
 msgid "Microsoft API Key"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:179
 #, kde-format
 msgid "LibreTranslate URL"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:182
 #, kde-format
 msgid "LibreTranslate API Key"
@@ -7413,156 +7350,156 @@ msgid "Google Secret"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:20
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Password History"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:22
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:21
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Password Policy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:25
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:24
 #, kde-format
 msgctxt "@option:check"
 msgid "Forbid Repeating Characters"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:27
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:26
 #, kde-format
 msgctxt "@option:check"
 msgid "At Least One Lowercase"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:28
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:27
 #, kde-format
 msgctxt "@option:check"
 msgid "At Least One Uppercase"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:29
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:28
 #, kde-format
 msgctxt "@option:check"
 msgid "At Least One Number"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:30
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:29
 #, kde-format
 msgctxt "@option:check"
 msgid "At Least One Symbol"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:32
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:31
 #, kde-format
 msgid "Password History"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:38
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:51
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:37
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:50
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "When enabled, users won't be able to update their passwords to some of their most recently used passwords."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:42
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Amount of most recently used passwords to prevent users from reusing."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:43
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:42
 #, kde-format
 msgid "Password History Length"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:45
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:44
 #, kde-format
 msgid "Password Policy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:55
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:54
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Ensures that passwords must have at least this amount of characters. Use -1 to disable."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:57
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:56
 #, kde-format
 msgid "Minimum Length"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:60
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:59
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Ensures that passwords do not have more than this amount of characters. Use -1 to disable."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:62
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:61
 #, kde-format
 msgid "Maximum Length"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:65
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:64
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Ensures passwords do not contain the same character repeating next to each other."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:69
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:68
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The amount of times a character can be repeating before it is not allowed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:70
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:69
 #, kde-format
 msgid "Max Repeating Characters"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:73
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:72
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enforce that a password contain at least one lowercase character."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:77
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:76
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enforce that a password contain at least one uppercase character."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:81
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:80
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enforce that a password contain at least one numerical character."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:85
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:84
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enforce that a password contain at least one special character."
@@ -7773,35 +7710,35 @@ msgid "Maximum message age in direct messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:233
+#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:232
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Enterprise"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:236
+#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:235
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Need to activate enterprise license"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:252
+#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:251
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Apply"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:263
+#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:262
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:272
+#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:271
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Restore to Default Server Value"
@@ -8214,21 +8151,21 @@ msgid "Want to use %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/applicationssettingsdialog/applicationssettingsdelegate.cpp:134
+#: widgets/applicationssettingsdialog/applicationssettingsdelegate.cpp:133
 #: widgets/applicationssettingsdialog/applicationssettingspricecombobox.cpp:16
 #, kde-format
 msgid "Premium"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/applicationssettingsdialog/applicationssettingsdelegate.cpp:163
+#: widgets/applicationssettingsdialog/applicationssettingsdelegate.cpp:162
 #: widgets/applicationssettingsdialog/applicationssettingsstatuscombobox.cpp:14
 #, kde-format
 msgid "Enabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/applicationssettingsdialog/applicationssettingsdelegate.cpp:176
+#: widgets/applicationssettingsdialog/applicationssettingsdelegate.cpp:175
 #, kde-format
 msgid "%1 request"
 msgid_plural "%1 requests"
@@ -8376,19 +8313,19 @@ msgid "Search Private Applications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/applicationssettingsdialog/applicationssettingssettingswidget.cpp:52
+#: widgets/applicationssettingsdialog/applicationssettingssettingswidget.cpp:51
 #, kde-format
 msgid "Application does not have settings."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/applicationssettingsdialog/applicationssettingssettingswidget.cpp:93
+#: widgets/applicationssettingsdialog/applicationssettingssettingswidget.cpp:92
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/applicationssettingsdialog/applicationssettingssettingswidget.cpp:101
+#: widgets/applicationssettingsdialog/applicationssettingssettingswidget.cpp:100
 #, kde-format
 msgid "Apply"
 msgstr ""
@@ -8583,28 +8520,28 @@ msgid "Convert to Team"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/channellist/channellistwidget.cpp:62
+#: widgets/channellist/channellistwidget.cpp:58
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Filter channels (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/channellist/channellistwidget.cpp:71
+#: widgets/channellist/channellistwidget.cpp:67
 #, kde-format
 msgctxt "@action"
 msgid "Search Channels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/channellist/channellistwidget.cpp:78
+#: widgets/channellist/channellistwidget.cpp:74
 #, kde-format
 msgctxt "@action"
 msgid "Previous Channel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/channellist/channellistwidget.cpp:86
+#: widgets/channellist/channellistwidget.cpp:82
 #, kde-format
 msgctxt "@action"
 msgid "Next Channel"
@@ -8644,7 +8581,7 @@ msgid "Username or email:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/common/authenticationloginwidget.cpp:168
+#: widgets/common/authenticationloginwidget.cpp:169
 #: widgets/ruqolamainwindow.cpp:1139
 #, kde-format
 msgid ""
@@ -8653,7 +8590,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/common/authenticationloginwidget.cpp:169
+#: widgets/common/authenticationloginwidget.cpp:170
 #: widgets/ruqolamainwindow.cpp:1140
 #, kde-format
 msgctxt "@title:window"
@@ -8736,18 +8673,18 @@ msgid "Provider:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/configuredialog/accountservertreewidget.cpp:217
+#: widgets/configuredialog/accountservertreewidget.cpp:218
 #, kde-format
 msgid "Display Account in Current Activity"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/configuredialog/configureaccessibilitytabwidget.cpp:28
 #, kde-format
 msgid "Text to Speech"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/configuredialog/configureaccessibilitytabwidget.cpp:31
 #, kde-format
 msgid "Speech to Text"
@@ -8954,7 +8891,7 @@ msgctxt "@title Preferences page name"
 msgid "Plugins"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/configuredialog/configurespeechtotextconfigurewidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
@@ -8989,21 +8926,21 @@ msgid "Do you want to remove this account '%1'?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/configurenewserver/checknewserverurlwidget.cpp:26
+#: widgets/configurenewserver/checknewserverurlwidget.cpp:24
 #, kde-format
 msgctxt "@action:button"
 msgid "Connect"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/configurenewserver/checknewserverurlwidget.cpp:37
+#: widgets/configurenewserver/checknewserverurlwidget.cpp:35
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Server URL:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/configurenewserver/checknewserverurlwidget.cpp:117
+#: widgets/configurenewserver/checknewserverurlwidget.cpp:115
 #, kde-format
 msgid "Failed to connect to server: %1"
 msgstr ""
@@ -9100,7 +9037,7 @@ msgstr ""
 msgid "DataBase E2E"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/databasedialog/exploredatabasedialog.cpp:73
 #, kde-format
 msgid "DataBase E2E Rooms"
@@ -9132,7 +9069,7 @@ msgctxt "@title:window"
 msgid "Add Users in Room"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/dialogs/asktwoauthenticationpassworddialog.cpp:20
 #, kde-format
 msgctxt "@title:window"
@@ -9216,10 +9153,10 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/dialogs/channelinfoeditablewidget.cpp:83
-#: widgets/dialogs/channelinfoeditablewidget.cpp:106
+#: widgets/dialogs/createnewchannelwidget.cpp:53
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Messages are end-to-end encrypted, search will not work and notifications may not show message content"
+msgid "Only owners can send new messages"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -9271,6 +9208,13 @@ msgstr ""
 #: widgets/dialogs/channelinfoeditablewidget.cpp:103
 #, kde-format
 msgid "Encrypted:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/dialogs/channelinfoeditablewidget.cpp:106
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Messages are end-to-end encrypted, search will not work and notifications may not show message content"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -9560,13 +9504,13 @@ msgid "Create Channel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:41
+#: widgets/dialogs/createnewchannelwidget.cpp:40
 #, kde-format
 msgid "Topic:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:45
+#: widgets/dialogs/createnewchannelwidget.cpp:44
 #: widgets/dialogs/createnewdiscussionwidget.cpp:64
 #, kde-format
 msgctxt "@info:placeholder"
@@ -9574,28 +9518,28 @@ msgid "Invite users…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:46
+#: widgets/dialogs/createnewchannelwidget.cpp:45
 #, kde-format
 msgid "Users:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:50
-#: widgets/dialogs/createnewchannelwidget.cpp:54
+#: widgets/dialogs/createnewchannelwidget.cpp:49
+#: widgets/dialogs/createnewchannelwidget.cpp:53
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Anyone can send new messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:51
+#: widgets/dialogs/createnewchannelwidget.cpp:50
 #, kde-format
 msgid "Read-Only:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:52
-#: widgets/dialogs/createnewchannelwidget.cpp:55
+#: widgets/dialogs/createnewchannelwidget.cpp:51
+#: widgets/dialogs/createnewchannelwidget.cpp:54
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Anyone can send new messages"
@@ -9604,58 +9548,51 @@ msgstr ""
 #. +> trunk6 stable6
 #: widgets/dialogs/createnewchannelwidget.cpp:54
 #, kde-format
-msgctxt "@info:tooltip"
-msgid "Only owners can send new messages"
-msgstr ""
-
-#. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:55
-#, kde-format
 msgctxt "@label:textbox"
 msgid "Only owners can send new messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:61
+#: widgets/dialogs/createnewchannelwidget.cpp:60
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Only authorized users can write new messages, but the other users will be able to reply"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:62
+#: widgets/dialogs/createnewchannelwidget.cpp:61
 #, kde-format
 msgid "Broadcast:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:66
+#: widgets/dialogs/createnewchannelwidget.cpp:65
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Only invited people can join"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:68
+#: widgets/dialogs/createnewchannelwidget.cpp:67
 #, kde-format
 msgid "Private Room:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:76
+#: widgets/dialogs/createnewchannelwidget.cpp:75
 #, kde-format
 msgctxt "@label:textbox"
 msgid "End-to-end encrypted channel. Search will not work with encrypted channel and notifications may not show the messages content."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:82
+#: widgets/dialogs/createnewchannelwidget.cpp:81
 #, kde-format
 msgid "Encrypted Room:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createnewchannelwidget.cpp:89
+#: widgets/dialogs/createnewchannelwidget.cpp:88
 #, kde-format
 msgid "Federated:"
 msgstr ""
@@ -9711,100 +9648,100 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/dialogs/createsoundmessagewidget.cpp:161
-#: widgets/dialogs/createvideomessagewidget.cpp:249
+#: widgets/dialogs/createvideomessagewidget.cpp:248
 #, kde-format
 msgid "Recorded %1 sec"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createsoundmessagewizard.cpp:25
+#: widgets/dialogs/createsoundmessagewizard.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Sound Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createsoundmessagewizard.cpp:29
-#: widgets/dialogs/createvideomessagewizard.cpp:34
+#: widgets/dialogs/createsoundmessagewizard.cpp:28
+#: widgets/dialogs/createvideomessagewizard.cpp:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Send"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createsoundmessagewizard.cpp:105
-#: widgets/dialogs/createvideomessagewizard.cpp:116
+#: widgets/dialogs/createsoundmessagewizard.cpp:104
+#: widgets/dialogs/createvideomessagewizard.cpp:115
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createsoundmessagewizard.cpp:118
-#: widgets/dialogs/createvideomessagewizard.cpp:129
+#: widgets/dialogs/createsoundmessagewizard.cpp:117
+#: widgets/dialogs/createvideomessagewizard.cpp:128
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/createvideomessagewizard.cpp:29
+#: widgets/dialogs/createvideomessagewizard.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Video Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/directchannelinfodialog.cpp:21
+#: widgets/dialogs/directchannelinfodialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "User Info"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/directchannelinfowidget.cpp:135
+#: widgets/dialogs/directchannelinfowidget.cpp:134
 #, kde-format
 msgid "Custom Status:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/directchannelinfowidget.cpp:157
+#: widgets/dialogs/directchannelinfowidget.cpp:156
 #, kde-format
 msgid "Timezone:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/directchannelinfowidget.cpp:167
+#: widgets/dialogs/directchannelinfowidget.cpp:166
 #, kde-format
 msgid "Local Time:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/directchannelinfowidget.cpp:196
+#: widgets/dialogs/directchannelinfowidget.cpp:195
 #, kde-format
 msgid "Created At:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/directchannelinfowidget.cpp:205
+#: widgets/dialogs/directchannelinfowidget.cpp:204
 #, kde-format
 msgid "Last Login:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/directchannelinfowidget.cpp:213
+#: widgets/dialogs/directchannelinfowidget.cpp:212
 #, kde-format
 msgid "Verified"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/directchannelinfowidget.cpp:213
+#: widgets/dialogs/directchannelinfowidget.cpp:212
 #, kde-format
 msgid "Not verified"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/directchannelinfowidget.cpp:213
+#: widgets/dialogs/directchannelinfowidget.cpp:212
 #, kde-format
 msgid "%1 [%2]"
 msgstr ""
@@ -10248,7 +10185,7 @@ msgid "Files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/showattachmentdialog.cpp:34
+#: widgets/dialogs/showattachmentdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Show Attachments - %1"
@@ -10295,7 +10232,7 @@ msgid "Show Banned Users - %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/showbanneduserslistview.cpp:28
+#: widgets/dialogs/showbanneduserslistview.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Unban User"
@@ -10331,7 +10268,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/dialogs/showimagedialog.cpp:56
-#: widgets/room/delegate/messageattachmentdelegatehelperimage.cpp:289
+#: widgets/room/delegate/messageattachmentdelegatehelperimage.cpp:287
 #, kde-format
 msgid "Copy Image to Clipboard"
 msgstr ""
@@ -10424,15 +10361,15 @@ msgctxt "@title:window"
 msgid "Show Pinned Messages - %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/dialogs/showreadreceiptsdialog.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Show Read Receipts"
 msgstr ""
 
-#. +> trunk6
-#: widgets/dialogs/showreadreceiptswidget.cpp:46
+#. +> trunk6 stable6
+#: widgets/dialogs/showreadreceiptswidget.cpp:45
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search Read Receipts…"
@@ -10446,7 +10383,7 @@ msgid "Show Starred Messages - %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/showtheadscombobox.cpp:16
+#: widgets/dialogs/showtheadscombobox.cpp:15
 #, kde-format
 msgid "Following"
 msgstr ""
@@ -10479,22 +10416,15 @@ msgctxt "@title:window"
 msgid "Unban Users"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/dialogs/unbanuserswidget.cpp:18
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Some users are banned from this room. Do you want to unban and add them back?"
 msgstr ""
 
-#. +> stable6
-#: widgets/dialogs/unbanuserswidget.cpp:18
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Some user are banned from this room. Do you want to unban and add them back ?"
-msgstr ""
-
 #. +> trunk6 stable6
-#: widgets/dialogs/uploadfiledialog.cpp:21
+#: widgets/dialogs/uploadfiledialog.cpp:20
 #: widgets/room/messagelinewidget.cpp:554
 #, kde-format
 msgctxt "@title:window"
@@ -10502,14 +10432,14 @@ msgid "Upload File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/uploadfiledialog.cpp:33
+#: widgets/dialogs/uploadfiledialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "Upload Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/dialogs/uploadfilewidget.cpp:50
+#: widgets/dialogs/uploadfilewidget.cpp:51
 #, kde-format
 msgid "File Name:"
 msgstr ""
@@ -10613,7 +10543,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: widgets/discussions/discussion/listdiscussiondelegate.cpp:81
+#: widgets/discussions/discussion/listdiscussiondelegate.cpp:80
 #, kde-format
 msgid "%1 message"
 msgid_plural "%1 messages"
@@ -10621,7 +10551,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: widgets/discussions/discussion/listdiscussiondelegate.cpp:250
+#: widgets/discussions/discussion/listdiscussiondelegate.cpp:249
 #, kde-format
 msgid "Open Discussion"
 msgstr ""
@@ -10670,7 +10600,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/encryption/e2ecopypassworddialog.cpp:37
-#: widgets/encryption/e2epassworddecodekeydialog.cpp:33
+#: widgets/encryption/e2epassworddecodekeydialog.cpp:35
 #, kde-format
 msgctxt "@action:button"
 msgid "Do it later"
@@ -10735,33 +10665,18 @@ msgctxt "@action:button"
 msgid "Disable Encryption"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/encryption/e2edisablewidget.cpp:20
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset encryption keys"
 msgstr ""
 
-#. +> stable6
-#: widgets/encryption/e2edisablewidget.cpp:41
-#, kde-format
-msgid "Reset encryption keys"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/encryption/e2edisablewidget.cpp:28
 #, kde-format
 msgid ""
 "Disabling E2EE will compromise the privacy of this private group. Access to any encrypted content will be lost for all private group members.\n"
-"Encryption can be re-enabled later. Proceed with caution.\n"
-"If no one is able to access the encrypted content you can reset encryption keys instead."
-msgstr ""
-
-#. +> stable6
-#: widgets/encryption/e2edisablewidget.cpp:23
-#, kde-format
-msgid ""
-"Disabling E2EE will compromise the privacy of this groupe privé. Access to any encrypted content will be lost for all groupe privé members.\n"
 "Encryption can be re-enabled later. Proceed with caution.\n"
 "If no one is able to access the encrypted content you can reset encryption keys instead."
 msgstr ""
@@ -10772,7 +10687,7 @@ msgstr ""
 msgid "Alternatively, resetting encryption keys will keep encryption enabled but access to previously encrypted content may be lost."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/encryption/e2edisablewidget.cpp:69
 #, kde-format
 msgid ""
@@ -10780,7 +10695,7 @@ msgid ""
 "This action cannot be undone. Do you want to continue?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/encryption/e2edisablewidget.cpp:71
 #: widgets/encryption/e2edisablewidget.cpp:79
 #, kde-format
@@ -10788,7 +10703,7 @@ msgctxt "@title:window"
 msgid "Reset Encryption Keys"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/encryption/e2edisablewidget.cpp:79
 #, kde-format
 msgid "The encryption keys of this room could not be reset."
@@ -10802,7 +10717,7 @@ msgid "Decode Key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/encryption/e2epassworddecodekeydialog.cpp:32
+#: widgets/encryption/e2epassworddecodekeydialog.cpp:34
 #, kde-format
 msgctxt "@action:button"
 msgid "Enable Encryption"
@@ -11000,7 +10915,7 @@ msgstr ""
 msgid "Impossible to open file"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/importexportdata/importdata/importaccountjob.cpp:73
 #, kde-format
 msgid "Invalid zip file."
@@ -11097,16 +11012,10 @@ msgstr ""
 msgid "Login Failed: App user is not allowed to login."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/loginwidget/ruqolaswitchofflinemodewidget.cpp:21
 #, kde-format
 msgid "No network found."
-msgstr ""
-
-#. +> stable6
-#: widgets/loginwidget/ruqolaswitchofflinemodewidget.cpp:21
-#, kde-format
-msgid "Not network found."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11233,16 +11142,10 @@ msgctxt "Message Style"
 msgid "Compact"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/misc/passwordconfirmwidget.cpp:24
 #, kde-format
 msgid "Your passwords do not match."
-msgstr ""
-
-#. +> stable6
-#: widgets/misc/passwordconfirmwidget.cpp:24
-#, kde-format
-msgid "Your passwords do no match."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11307,7 +11210,7 @@ msgid "At least one number"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/misc/searchwithdelaylineedit.cpp:18
+#: widgets/misc/searchwithdelaylineedit.cpp:17
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search Word…"
@@ -11320,7 +11223,7 @@ msgid "Server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/misc/serverscombobox.cpp:22
+#: widgets/misc/serverscombobox.cpp:21
 #, kde-format
 msgid "Filter Account…"
 msgstr ""
@@ -11366,19 +11269,19 @@ msgstr ""
 msgid "This option will remove your current E2E key and log you out. When you login again, Rocket.Chat will generate you a new key and restore your access to any encrypted room that has one or more members online. Due to the nature of the E2E encryption, Rocket.Chat will not be able to restore access to any encrypted room that has no member online."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/myaccount/myaccount2e2configurewidget.cpp:114
 #, kde-format
 msgid "The server refused to reset your E2E key."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/myaccount/myaccount2e2configurewidget.cpp:114
 #, kde-format
 msgid "The server refused to reset your E2E key: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/myaccount/myaccount2e2configurewidget.cpp:115
 #, kde-format
 msgctxt "@title:window"
@@ -11924,14 +11827,14 @@ msgid "Clear"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/notificationhistory/notificationhistorylistview.cpp:92
+#: widgets/notificationhistory/notificationhistorylistview.cpp:93
 #, kde-format
 msgctxt "@action"
 msgid "Switch To New Room"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/notificationhistory/notificationhistorylistview.cpp:96
+#: widgets/notificationhistory/notificationhistorylistview.cpp:99
 #: widgets/room/messagelistview.cpp:848
 #, kde-format
 msgctxt "@action"
@@ -11945,19 +11848,13 @@ msgctxt "@item:inmenu Instant message presence status"
 msgid "Status"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/notifications/notificationmanager.cpp:95
 #, kde-format
 msgid "%1 has %2 unread message"
 msgid_plural "%1 has %2 unread messages"
 msgstr[0] ""
 msgstr[1] ""
-
-#. +> stable6
-#: widgets/notifications/notificationmanager.cpp:98
-#, kde-format
-msgid "%1 has %2 Unread Message"
-msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/offlinewidget/offlinewidget.cpp:17
@@ -12163,13 +12060,6 @@ msgctxt "@action"
 msgid "Show Banned Users…"
 msgstr ""
 
-#. +> stable6
-#: widgets/room/channelactionpopupmenu.cpp:127
-#, kde-format
-msgctxt "@action"
-msgid "OTR"
-msgstr ""
-
 #. +> trunk6 stable6
 #: widgets/room/debugdialog/showdebugdialog.cpp:21
 #, kde-format
@@ -12191,8 +12081,8 @@ msgid "Error Opening File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/delegate/messagedelegatehelperconferencevideo.cpp:67
-#: widgets/room/delegate/messagedelegatehelperconferencevideo.cpp:165
+#: widgets/room/delegate/messagedelegatehelperconferencevideo.cpp:65
+#: widgets/room/delegate/messagedelegatehelperconferencevideo.cpp:163
 #, kde-format
 msgid "Join"
 msgstr ""
@@ -12305,18 +12195,11 @@ msgctxt "@info:tooltip"
 msgid "Speak Text"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/room/messagelineextratoolbutton.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Add WebDAV Server"
-msgstr ""
-
-#. +> stable6
-#: widgets/room/messagelineextratoolbutton.cpp:18
-#, kde-format
-msgctxt "@action"
-msgid "Add WebDav Server"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -12450,16 +12333,10 @@ msgctxt "@title:window"
 msgid "File upload"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/room/messagelinewidget.cpp:589
 #, kde-format
 msgid "Server doesn't authorized this file (invalid mimetype %1)"
-msgstr ""
-
-#. +> stable6
-#: widgets/room/messagelinewidget.cpp:537
-#, kde-format
-msgid "Server doesn't authorized this file (invalid mimetype)"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -12537,7 +12414,7 @@ msgctxt "@action"
 msgid "Quote"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/room/messagelistview.cpp:513
 #, kde-format
 msgctxt "@action"
@@ -12682,8 +12559,8 @@ msgstr ""
 msgid "New Message"
 msgstr ""
 
-#. +> trunk6
-#: widgets/room/pendingattachmentclickablewidget.cpp:61
+#. +> trunk6 stable6
+#: widgets/room/pendingattachmentclickablewidget.cpp:60
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove attachment"
@@ -12735,7 +12612,7 @@ msgstr ""
 msgid "(Show More Info…)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/room/roomheaderlabel.cpp:166
 #, kde-format
 msgid "Add Topic"
@@ -12840,19 +12717,19 @@ msgid "Team's Information"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/roomquotemessagewidget.cpp:30
+#: widgets/room/roomquotemessagewidget.cpp:29
 #, kde-format
 msgid "Quote Message: '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/roomreplythreadwidget.cpp:20
+#: widgets/room/roomreplythreadwidget.cpp:19
 #, kde-format
 msgid "Replying in a thread"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/room/roomreplythreadwidget.cpp:37
+#: widgets/room/roomreplythreadwidget.cpp:36
 #, kde-format
 msgid "Reply in Thread for Message: '%1'"
 msgstr ""
@@ -13192,14 +13069,14 @@ msgstr ""
 msgid "Show New Notifications"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/ruqolamainwindow.cpp:446
 #, kde-format
 msgctxt "@action"
 msgid "Retry Wallet Access"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/ruqolamainwindow.cpp:452
 #, kde-format
 msgid "Could not access the wallet. Password changes may not be saved. Use Tools > Retry Wallet Access to try again."
@@ -13426,7 +13303,7 @@ msgctxt "@action"
 msgid "Show RocketChat Information"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/ruqolamainwindow.cpp:716
 #, kde-format
 msgctxt "@action"
@@ -13581,69 +13458,69 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/abstractservercheck.cpp:47
 #, kde-format
 msgid "Timed out waiting for the server to answer."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/abstractusercheck.cpp:85
 #, kde-format
 msgid "Could not start the add owner request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/abstractusercheck.cpp:97
 #, kde-format
 msgid "Could not start the remove owner request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/abstractusercheck.cpp:117
 #, kde-format
 msgid "Could not start the add moderator request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/abstractusercheck.cpp:129
 #, kde-format
 msgid "Could not start the remove moderator request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/abstractusercheck.cpp:149
 #, kde-format
 msgid "Could not start the add leader request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/abstractusercheck.cpp:161
 #, kde-format
 msgid "Could not start the remove leader request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/abstractusercheck.cpp:183
 #: widgets/serverchecks/abstractusercheck.cpp:198
 #, kde-format
 msgid "Could not start the invite request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/abstractusercheck.cpp:219
 #: widgets/serverchecks/abstractusercheck.cpp:231
 #, kde-format
 msgid "Could not start the kick request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/addleaderusercheck.cpp:13
 #, kde-format
 msgid "Add Leader User"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/addleaderusercheck.cpp:19
 #: widgets/serverchecks/addmoderatorusercheck.cpp:19
 #: widgets/serverchecks/addownerusercheck.cpp:19
@@ -13668,7 +13545,7 @@ msgstr ""
 msgid "No account."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/addleaderusercheck.cpp:26
 #: widgets/serverchecks/addmoderatorusercheck.cpp:26
 #: widgets/serverchecks/addownerusercheck.cpp:26
@@ -13681,55 +13558,55 @@ msgstr ""
 msgid "Could not resolve user \"%1\"."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/addleaderusercheck.cpp:37
 #, kde-format
 msgid "Could not add leader \"%1\": %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/addmoderatorusercheck.cpp:13
 #, kde-format
 msgid "Add Moderator User"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/addmoderatorusercheck.cpp:37
 #, kde-format
 msgid "Could not add moderator \"%1\": %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/addownerusercheck.cpp:13
 #, kde-format
 msgid "Add Owner User"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/addownerusercheck.cpp:37
 #, kde-format
 msgid "Could not add owner \"%1\": %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/adduserscheck.cpp:13
 #, kde-format
 msgid "Add user to room"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/adduserscheck.cpp:34
 #, kde-format
 msgid "Could not add \"%1\": %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/announcementchangecheck.cpp:21
 #, kde-format
 msgid "Change channel announcement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/announcementchangecheck.cpp:37
 #: widgets/serverchecks/descriptionchangecheck.cpp:37
 #: widgets/serverchecks/markasfavoriteroomcheck.cpp:32
@@ -13739,320 +13616,320 @@ msgstr ""
 msgid "Could not find the room."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/deletemessagecheck.cpp:16
 #, kde-format
 msgid "Delete message"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/descriptionchangecheck.cpp:21
 #, kde-format
 msgid "Change channel description"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/editmessagecheck.cpp:16
 #, kde-format
 msgid "Edit message"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/editmessagecheck.cpp:26
 #, kde-format
 msgid " (edited)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/editmessagecheck.cpp:57
 #, kde-format
 msgid "Edited text arrived but the message is not flagged as edited."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/favoritemessagecheck.cpp:18
 #, kde-format
 msgid "Favorite (star) message"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/favoritemessagecheck.cpp:50
 #, kde-format
 msgid "Could not start the star-message request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/fileuploadcheck.cpp:25
 #, kde-format
 msgid "File attachment upload"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/fileuploadcheck.cpp:39
 #, kde-format
 msgid "Cannot create a temporary file."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/fileuploadcheck.cpp:81
 #, kde-format
 msgid "The file arrived but was not recognized as a file attachment."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/imagedescriptioncheck.cpp:31
 #, kde-format
 msgid "Image description"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/imagedescriptioncheck.cpp:47
 #, kde-format
 msgid "Cannot create a temporary image file."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/imagedescriptioncheck.cpp:91
 #, kde-format
 msgid "The image arrived but its description was dropped by the server."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/imagedescriptioncheck.cpp:93
 #, kde-format
 msgid "The image arrived with a wrong description: \"%1\"."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/linkpreviewcheck.cpp:20
 #, kde-format
 msgid "Link preview (URL unfurl)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/markasfavoriteroomcheck.cpp:16
 #, kde-format
 msgid "Change Favorite Room State"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/pinmessagecheck.cpp:23
 #, kde-format
 msgid "Pin message"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/pinmessagecheck.cpp:64
 #, kde-format
 msgid "Could not start the pin-message request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/pinmessagecheck.cpp:86
 #, kde-format
 msgid "The message was not found among the server's pinned messages."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/pinmessagecheck.cpp:93
 #, kde-format
 msgid "Could not start the pinned-messages request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/quotemessagecheck.cpp:20
 #, kde-format
 msgid "Quote message"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/quotemessagecheck.cpp:30
 #, kde-format
 msgid " (quote)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/reactioncheck.cpp:19
 #, kde-format
 msgid "Emoji reaction"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/removeleaderusercheck.cpp:13
 #, kde-format
 msgid "Remove Leader User"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/removeleaderusercheck.cpp:40
 #, kde-format
 msgid "Could not remove leader \"%1\": %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/removemoderatorusercheck.cpp:13
 #, kde-format
 msgid "Remove Moderator User"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/removemoderatorusercheck.cpp:40
 #, kde-format
 msgid "Could not remove moderator \"%1\": %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/removeownerusercheck.cpp:13
 #, kde-format
 msgid "Remove Owner User"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/removeownerusercheck.cpp:40
 #, kde-format
 msgid "Could not remove owner \"%1\": %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/removeuserscheck.cpp:13
 #, kde-format
 msgid "Remove user from room"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/removeuserscheck.cpp:34
 #, kde-format
 msgid "Could not remove \"%1\": %2"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/searchmessagecheck.cpp:23
 #, kde-format
 msgid "Message search"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/searchmessagecheck.cpp:85
 #, kde-format
 msgid "Could not start the search request."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/sendmessagecheck.cpp:15
 #, kde-format
 msgid "Send message"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Server Checklist"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:43
 #, kde-format
 msgid "Runs a series of checks against the current server and reports whether each feature behaves as expected. Temporary test messages are sent to the selected channel and removed afterwards, so pick a scratch channel first."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:54
 #, kde-format
 msgctxt "@title:column"
 msgid "Check"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:54
 #, kde-format
 msgctxt "@title:column"
 msgid "Result"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:60
 #, kde-format
 msgctxt "@action:button"
 msgid "Run Checks"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:65
 #, kde-format
 msgctxt "@action:button"
 msgid "Post Results to Channel"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:68
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Post the checklist results as a message in the current channel."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:82
 #, kde-format
 msgid "<b>Open a channel first: the checks need a room to send their test messages to.</b>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:88
 #, kde-format
 msgid "<b>Checks cannot be executed in direct channel.</b>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:105
 #, kde-format
 msgctxt "@info:status not run yet"
 msgid "Not run"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:117
 #, kde-format
 msgctxt "@info:status"
 msgid "Waiting…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:127
 #, kde-format
 msgctxt "@info:status"
 msgid "Running…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:136
 #, kde-format
 msgctxt "@info:status"
 msgid "OK"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:139
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:139
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:157
 #, kde-format
 msgctxt "Unknown server version"
 msgid "unknown"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/serverchecklistdialog.cpp:160
 #, kde-format
 msgid ""
@@ -14060,25 +13937,25 @@ msgid ""
 "Automated check list from ruqola:\n"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/threadreplycheck.cpp:16
 #, kde-format
 msgid "Thread reply"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/threadreplycheck.cpp:26
 #, kde-format
 msgid " (thread reply)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/threadreplycheck.cpp:63
 #, kde-format
 msgid "The reply arrived but is not linked to the parent thread."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/serverchecks/topicchangecheck.cpp:21
 #, kde-format
 msgid "Change channel topic"
@@ -14247,43 +14124,43 @@ msgid "Add TimeStamp"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:22
+#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:21
 #, kde-format
 msgid "Short Time (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:24
+#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:23
 #, kde-format
 msgid "Long Time (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:26
+#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:25
 #, kde-format
 msgid "Short Date (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:28
+#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:27
 #, kde-format
 msgid "Long Date (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:30
+#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:29
 #, kde-format
 msgid "Full Date and Time (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:32
+#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:31
 #, kde-format
 msgid "Full Date and Time (long) (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:35
+#: widgets/timestampinmessages/timestampinmessagesformatcombobox.cpp:34
 #, kde-format
 msgid "Relative time (%1)"
 msgstr ""
@@ -14355,858 +14232,4 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Account…"
-msgstr ""
-
-#. +> stable6
-#: core/otr/otrnotificationjob.cpp:47 core/otr/otrnotificationjob.cpp:57
-#: core/otr/otrnotificationjob.cpp:72
-#, kde-format
-msgid "OTR"
-msgstr ""
-
-#. +> stable6
-#: core/otr/otrnotificationjob.cpp:64
-#, kde-format
-msgid "Ok"
-msgstr ""
-
-#. +> stable6
-#: core/otr/otrnotificationjob.cpp:96
-#, kde-format
-msgid "%1 ended the OTR session."
-msgstr ""
-
-#. +> stable6
-#: core/otr/otrnotificationjob.cpp:100
-#, kde-format
-msgid "%1 wants to start OTR. Do you want to accept?"
-msgstr ""
-
-#. +> stable6
-#: core/otr/otrnotificationjob.cpp:104
-#, kde-format
-msgid "%1 denied the OTR session."
-msgstr ""
-
-#. +> stable6
-#: widgets/otr/otrwidget.cpp:20
-#, kde-format
-msgid "Otr Activated"
-msgstr ""
-
-#. +> stable6
-#: widgets/otr/otrwidget.cpp:22
-#, kde-format
-msgctxt "@action"
-msgid "End OTR"
-msgstr ""
-
-#. +> stable6
-#: widgets/otr/otrwidget.cpp:27
-#, kde-format
-msgctxt "@action"
-msgid "Refresh Keys"
-msgstr ""
-
-#. +> stable6
-#: widgets/room/delegate/messagedelegatehelperurlpreview.cpp:81
-#, kde-format
-msgid "Link Preview"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:18
-msgid "Improve offline Mode"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:19
-msgid "Allow to open saved file."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:20
-msgid "Allow to rotate image in show image dialog."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:21
-msgid "Add new room info in notification history dialog."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:22
-msgid "Use new textmessagewidget for error notification."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:23
-msgid "Implement Draft message sorting channel."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:24
-msgid "Implement Banned Users list dialog."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:25
-msgid "Implement Banned/Unbanned Users."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
-#, kde-format
-msgid "Store Message in Local Database (experimental)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:36
-#, kde-format
-msgid "Download Server Icon from Server"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
-#, kde-format
-msgid "Show Server Error Info in Specific DialogBox"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
-#, kde-format
-msgid "Allow to Copy Image in Clipboard"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
-#, kde-format
-msgid "Improve debug support (Allow to show current account permissions)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
-#, kde-format
-msgid "Add support for quoted text (text which starts by '>')"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
-#, kde-format
-msgid "Show leader/moderator/owner in channel info."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
-#, kde-format
-msgid "Video/Sound Message support (kf6 only)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
-#, kde-format
-msgid "Import/Export Accounts."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
-#, kde-format
-msgid "Fix avatar support"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
-#, kde-format
-msgid "Fix emoji support (use new ktextaddons/textemoticons)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
-#, kde-format
-msgid "Fix animated gif in reactions"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
-#, kde-format
-msgid "Fix kf6 support"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:54
-#, kde-format
-msgid "Add Moderation Console (Administration, RC server 6.2)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:54
-#, kde-format
-msgid "Implement message style"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:54
-#, kde-format
-msgid "Implement Url Preview"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:56
-#, kde-format
-msgid "Fix markdown support (header + check mark)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:57
-#, kde-format
-msgid "Fix mem leak"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:58
-#, kde-format
-msgid "Cache message size (optimization)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:59
-#, kde-format
-msgid "Improve select room or user in message line edit (show icon, inform if user is in channel)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:60
-#, kde-format
-msgid "Fix show commands in message line edit (Hide action when room doesn't support it)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:61
-#, kde-format
-msgid "Fix download sound/video file when it's not in cache."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:62
-#, kde-format
-msgid "Fix list of authentication method."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:63
-#, kde-format
-msgid "Fix show avatar url."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:71
-#, kde-format
-msgid "Allow to increase/decrease font (CTRL++/CTRL+-)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:72
-#, kde-format
-msgid "Add channel list style (Condensed/Medium/Extended)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:73
-#, kde-format
-msgid "Add forward message"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:74
-#, kde-format
-msgid "Improve mentions support."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:75
-#, kde-format
-msgid "Add support for deep linking <a href=\"https://developer.rocket.chat/getting-started/deep-linking\">Deep Linking</a>."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:76
-#, kde-format
-msgid "Implement block actions."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:77
-#, kde-format
-msgid "Implement personal token authentication. <a href=\"https://bugs.kde.org/show_bug.cgi?id=481400\">Bug 481400</a>"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:78
-#, kde-format
-msgid "Add Plasma Activities Support"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:79
-#, kde-format
-msgid "Add Report User Support"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:80
-#, kde-format
-msgid "Implement Channel Sound Notification."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:81
-#, kde-format
-msgid "Implement New Room Sound Notification."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:82
-#, kde-format
-msgid "Implement Sorted/Unsorted markdown list."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:85
-#: widgets/whatsnew/whatsnewtranslations.cpp:172
-#, kde-format
-msgid "Fix dark mode support."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:86
-#, kde-format
-msgid "Fix jitsi support."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:87
-#, kde-format
-msgid "Fix translate message in direct channel."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:88
-#, kde-format
-msgid "Don't show @here/@all as user."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:89
-#, kde-format
-msgid "Reduce memory footprint."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:90
-#, kde-format
-msgid "Use RESTAPI for logging."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:91
-#, kde-format
-msgid "Allow to send multi files."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:92
-#, kde-format
-msgid "Fix preview url."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:100
-#, kde-format
-msgid "Implement Rocket.Chat Marketplace."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:101
-#, kde-format
-msgid "Allow to clean room history."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:102
-#, kde-format
-msgid "Allow to check new version."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:103
-#, kde-format
-msgid "Implement moderation (administrator mode)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:104
-#, kde-format
-msgid "Add welcome page."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:105
-#, kde-format
-msgid "Implement pending users info (administrator mode)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:106
-#, kde-format
-msgid "Use cmark-rc (https://github.com/dfaure/cmark-rc) for markdown support."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:107
-#, kde-format
-msgid "Delete oldest files from some cache directories (file-upload and media) so it doesn't grow forever."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:111
-#, kde-format
-msgid "Clean market application model after 30 minutes (reduce memory footprint)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:112
-#, kde-format
-msgid "Fix show discussion name in completion."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:113
-#, kde-format
-msgid "Fix duplicated messages in search message dialog."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:114
-#, kde-format
-msgid "Add delegate in search rooms in team dialog."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:123
-#, kde-format
-msgid "Allow to clean up room history when room was not opened from long time."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:124
-#, kde-format
-msgid "Add restore button in administrator server settings dialog."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:125
-#, kde-format
-msgid "Improve changing password (show validation info)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:126
-#, kde-format
-msgid "Improve register new account (Add reason support)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:127
-#, kde-format
-msgid "Implement mute/unmute user."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:128
-#, kde-format
-msgid "Add color to the text in the account tab"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:129
-#, kde-format
-msgid "Allow to show private installed applications"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:134
-#, kde-format
-msgid "Fix editing message."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:135
-#, kde-format
-msgid "Show permissions in Rocket.Chat Marketplace."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:136
-#, kde-format
-msgid "Fix reconnect server."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:137
-#, kde-format
-msgid "Fix single application on Windows/MacOs"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:138
-#, kde-format
-msgid "Fix select created room/discussion/teams"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:139
-#, kde-format
-msgid "Fix filter discussion in administrator mode"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:140
-#, kde-format
-msgid "Fix message video support"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:141
-#, kde-format
-msgid "Fix highlight text in quoted message"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:142
-#, kde-format
-msgid "Fix open discussion channel"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:143
-#, kde-format
-msgid "Allow to show application market settings"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:151
-#, kde-format
-msgid "Add support for tools plugins"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:152
-#, kde-format
-msgid "Plugin: Add screenshot button (near send message button)"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:153
-#, kde-format
-msgid "Implement invite RC url support"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:154
-#, kde-format
-msgid "Implement verify if a new Ruqola version exist"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:155
-#, kde-format
-msgid "Allow to search threads by unread/following"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:156
-#, kde-format
-msgid "Show images from attachment dialog box"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:157
-#, kde-format
-msgid "Implement Rocket.Chat application support."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:158
-#, kde-format
-msgid "Implement command preview."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:159
-#, kde-format
-msgid "Debug: explore translation from RC server."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:160
-#, kde-format
-msgid "Implement plugin UI support (Create dialog box for configure settings)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:164
-#, kde-format
-msgid "Allow to search file from username and filename."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:165
-#, kde-format
-msgid "Fix copy action text when we copy a text selection."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:166
-#, kde-format
-msgid "A command start with '/' and not /* or // "
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:167
-#, kde-format
-msgid "Allow to put command line in clipboard when an error occurred"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:168
-#, kde-format
-msgid "Allow to activate/deactivate apps market."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:169
-#, kde-format
-msgid "Improve list of user in room."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:170
-#, kde-format
-msgid "Search in encrypted room is not possible."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:171
-#, kde-format
-msgid "Show roles for users in rooms."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:173
-#, kde-format
-msgid "Fix download languages apps."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:181
-#, kde-format
-msgid "Add AI plugin"
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:182
-#, kde-format
-msgid "Allow to dnd image."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:183
-#, kde-format
-msgid "Add restore button in administration settings."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:184
-#, kde-format
-msgid "Allow to activate plugins."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:185
-#, kde-format
-msgid "Add Open With button in show image."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:186
-#, kde-format
-msgid "Add Quick Text Format."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:187
-#, kde-format
-msgid "Add Extension message line button."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:188
-#, kde-format
-msgid "Allow to Add WebDav Server."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:189
-#, kde-format
-msgid "Show room info (italic text) when there is some pending message typed."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:190
-#, kde-format
-msgid "Allow to add emoticon from popup menu."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:194
-#, kde-format
-msgid "Fix show date info."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:195
-#, kde-format
-msgid "Fix save application settings."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:196
-#, kde-format
-msgid "Fix text selection in attachment."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:197
-#, kde-format
-msgid "Fix display user."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:198
-#, kde-format
-msgid "Display translate menu in thread dialog."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:199
-#, kde-format
-msgid "Add AI Rocket Chat Actions support."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:200
-#, kde-format
-msgid "Fix apply, restore, cancel buttons in administration dialog."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:201
-#, kde-format
-msgid "Fix search users."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:202
-#, kde-format
-msgid "Fix extract language from code block."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:203
-#, kde-format
-msgid "Fix attachment info in \"Show Channel Log\" dialog."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:204
-#, kde-format
-msgid "Fix icon on windows."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:205
-#, kde-format
-msgid "Fix show file attachment size."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:214
-#, kde-format
-msgid "Copy block code more easily."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:215
-#, kde-format
-msgid "Improve Text To Speech user interface."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:216
-#, kde-format
-msgid "Show attachment fields."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:217
-#, kde-format
-msgid "Implement Offline Mode (experimental)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:218
-#, kde-format
-msgid "Implement Pending Typed database storage."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:219
-#, kde-format
-msgid "Fix RC 8.0.0 support."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:220
-#, kde-format
-msgid "Add Attachment Actions Support."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:221
-#, kde-format
-msgid "Add TimeStamp support."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:224
-#, kde-format
-msgid "Save local translation to local database."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:225
-#, kde-format
-msgid "Fix remove room (in local database)."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:226
-#, kde-format
-msgid "Fix export database."
-msgstr ""
-
-#. +> stable6
-#: widgets/whatsnew/whatsnewtranslations.cpp:227
-#, kde-format
-msgid "Fix upload Custom Sound"
 msgstr ""
