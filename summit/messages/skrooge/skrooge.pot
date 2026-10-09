@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-21 07:34+0200\n"
+"POT-Creation-Date: 2026-10-09 09:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7735,7 +7735,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_operation/skgoperationboardwidgetqml.cpp:29
-#: skroogecompanion/qml/DashboardPage.qml:82
+#: skroogecompanion/qml/DashboardPage.qml:164
 #, kde-format
 msgctxt "Dashboard widget title"
 msgid "Income & Expenditure"
@@ -15065,7 +15065,7 @@ msgstr ""
 
 #. +> trunk6
 #: skgbankmodeler/skgreportbank.cpp:797
-#: skroogecompanion/qml/DashboardPage.qml:55
+#: skroogecompanion/qml/DashboardPage.qml:56
 #, kde-format
 msgctxt "A monthly report title"
 msgid "Net Worth"
@@ -15073,7 +15073,7 @@ msgstr ""
 
 #. +> trunk6
 #: skgbankmodeler/skgreportbank.cpp:798
-#: skroogecompanion/qml/DashboardPage.qml:55
+#: skroogecompanion/qml/DashboardPage.qml:56
 #, kde-format
 msgctxt "A monthly report title"
 msgid "Annual Spending"
@@ -15081,7 +15081,7 @@ msgstr ""
 
 #. +> trunk6
 #: skgbankmodeler/skgreportbank.cpp:799
-#: skroogecompanion/qml/DashboardPage.qml:27
+#: skroogecompanion/qml/DashboardPage.qml:28
 #, kde-format
 msgctxt "A monthly report title"
 msgid "Personal Finance Score"
@@ -19535,7 +19535,7 @@ msgstr ""
 
 #. +> trunk6
 #: skroogecompanion/qml/AccountsPage.qml:42
-#: skroogecompanion/qml/DashboardPage.qml:198
+#: skroogecompanion/qml/DashboardPage.qml:280
 #, kde-format
 msgctxt "@label"
 msgid "Total"
@@ -19549,43 +19549,71 @@ msgid "No category to display"
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/qml/DashboardPage.qml:55
-#: skroogecompanion/qml/DashboardPage.qml:60
+#: skroogecompanion/qml/DashboardPage.qml:56
+#: skroogecompanion/qml/DashboardPage.qml:61
 #, kde-format
 msgctxt "@info"
 msgid "%1 / %2"
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/qml/DashboardPage.qml:109
+#: skroogecompanion/qml/DashboardPage.qml:84
+#, kde-format
+msgctxt "Dashboard widget title"
+msgid "Income & Expenditure chart"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:134
+#, kde-format
+msgctxt "Chart legend"
+msgid "Incomes"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:140
+#, kde-format
+msgctxt "Chart legend"
+msgid "Expenditures"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:146
+#, kde-format
+msgctxt "Chart legend"
+msgid "Savings"
+msgstr ""
+
+#. +> trunk6
+#: skroogecompanion/qml/DashboardPage.qml:191
 #, kde-format
 msgctxt "@label"
 msgid "Incomes"
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/qml/DashboardPage.qml:125
+#: skroogecompanion/qml/DashboardPage.qml:207
 #, kde-format
 msgctxt "@label"
 msgid "Expenditures"
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/qml/DashboardPage.qml:141
+#: skroogecompanion/qml/DashboardPage.qml:223
 #, kde-format
 msgctxt "@label"
 msgid "Savings"
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/qml/DashboardPage.qml:167
+#: skroogecompanion/qml/DashboardPage.qml:249
 #, kde-format
 msgctxt "@title"
 msgid "Bank"
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/qml/DashboardPage.qml:210
+#: skroogecompanion/qml/DashboardPage.qml:292
 #, kde-format
 msgctxt "@info"
 msgid "No bank to display"
@@ -19851,21 +19879,21 @@ msgid "No unit to display"
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/skgmcontroler.cpp:429
+#: skroogecompanion/skgmcontroler.cpp:449
 #, kde-format
 msgctxt "Error message"
 msgid "Missing file path."
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/skgmcontroler.cpp:437
+#: skroogecompanion/skgmcontroler.cpp:457
 #, kde-format
 msgctxt "Error message"
 msgid "File not found or not readable: %1"
 msgstr ""
 
 #. +> trunk6
-#: skroogecompanion/skgmcontroler.cpp:1011
+#: skroogecompanion/skgmcontroler.cpp:1042
 #, kde-format
 msgctxt "@info"
 msgid "Transaction #%1"

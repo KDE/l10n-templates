@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 21:49+0200\n"
+"POT-Creation-Date: 2026-10-09 09:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -152,7 +152,7 @@ msgid "The command <command>%1</command> failed: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/public/qml/ApplicationIcon.qml:48
+#: src/public/qml/ApplicationIcon.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1 now"
@@ -500,6 +500,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit home page"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/pages/Live.qml:62
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of the user's distro"
+msgid "Install %1 now"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
