@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: merkuro\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-06 08:42+0200\n"
+"POT-Creation-Date: 2026-10-10 13:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -4890,21 +4890,21 @@ msgid "Save as…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mail/mailapplication.cpp:70 mail/qml/ConversationViewer.qml:39
+#: mail/mailapplication.cpp:70 mail/qml/ConversationViewer.qml:40
 #, kde-format
 msgctxt "@action"
 msgid "Reply"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mail/mailapplication.cpp:74 mail/qml/ConversationViewer.qml:45
+#: mail/mailapplication.cpp:74 mail/qml/ConversationViewer.qml:46
 #, kde-format
 msgctxt "@action"
 msgid "Reply to All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mail/mailapplication.cpp:78 mail/qml/ConversationViewer.qml:51
+#: mail/mailapplication.cpp:78 mail/qml/ConversationViewer.qml:52
 #, kde-format
 msgctxt "@action"
 msgid "Forward"
@@ -5096,6 +5096,48 @@ msgstr ""
 #: mail/qml/actions/NewFolderAction.qml:43
 #, kde-format
 msgid "Folder Name…"
+msgstr ""
+
+#. +> trunk6
+#: mail/qml/ConversationViewer.qml:85
+#, kde-format
+msgctxt "@info"
+msgid "Domain authentication (DKIM): %1"
+msgstr ""
+
+#. +> trunk6
+#: mail/qml/ConversationViewer.qml:120
+#, kde-format
+msgctxt "@info"
+msgid "Valid signature with warnings from domain %1"
+msgstr ""
+
+#. +> trunk6
+#: mail/qml/ConversationViewer.qml:121
+#, kde-format
+msgctxt "@info"
+msgid "Valid signature from domain %1"
+msgstr ""
+
+#. +> trunk6
+#: mail/qml/ConversationViewer.qml:123
+#, kde-format
+msgctxt "@info"
+msgid "Invalid domain signature"
+msgstr ""
+
+#. +> trunk6
+#: mail/qml/ConversationViewer.qml:125
+#, kde-format
+msgctxt "@info"
+msgid "No domain signature"
+msgstr ""
+
+#. +> trunk6
+#: mail/qml/ConversationViewer.qml:127
+#, kde-format
+msgctxt "@info"
+msgid "Expected signature from domain %1"
 msgstr ""
 
 #. +> trunk6 stable6
