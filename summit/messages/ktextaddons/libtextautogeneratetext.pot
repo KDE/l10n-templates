@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-10 13:20+0200\n"
+"POT-Creation-Date: 2026-10-11 07:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -75,7 +75,7 @@ msgstr ""
 
 #. +> trunk6
 #: core/mcp/textautogeneratemcptoolcalljob.cpp:45
-#: core/mcp/textautogeneratemcptoolcalljob.cpp:124
+#: core/mcp/textautogeneratemcptoolcalljob.cpp:142
 #: widgets/toolswidget/textautogeneratetoolswidget.cpp:132
 #, kde-format
 msgid "Error: %1"
@@ -83,31 +83,31 @@ msgstr ""
 
 #. +> trunk6
 #: core/mcp/textautogeneratemcptoolcalljob.cpp:50
-#: core/mcp/textautogeneratemcptoolcalljob.cpp:59
+#: core/mcp/textautogeneratemcptoolcalljob.cpp:62
 #, kde-format
 msgid "Error: server was stopped."
 msgstr ""
 
 #. +> trunk6
-#: core/mcp/textautogeneratemcptoolcalljob.cpp:55
+#: core/mcp/textautogeneratemcptoolcalljob.cpp:58
 #, kde-format
 msgid "User refused to run tool \"%1\"."
 msgstr ""
 
 #. +> trunk6
-#: core/mcp/textautogeneratemcptoolcalljob.cpp:62
+#: core/mcp/textautogeneratemcptoolcalljob.cpp:65
 #, kde-format
 msgid "Calling tool \"%1\"…"
 msgstr ""
 
 #. +> trunk6
-#: core/mcp/textautogeneratemcptoolcalljob.cpp:65
+#: core/mcp/textautogeneratemcptoolcalljob.cpp:68
 #, kde-format
 msgid "Error: impossible to call tool \"%1\"."
 msgstr ""
 
 #. +> trunk6
-#: core/mcp/textautogeneratemcptoolsmanager.cpp:74
+#: core/mcp/textautogeneratemcptoolsmanager.cpp:75
 #, kde-format
 msgid "Server is invalid or disabled."
 msgstr ""
@@ -269,13 +269,13 @@ msgid "You are an AI assistant. Be helpful, professional, and courteous. Do not 
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/textautogeneratetextplugin.cpp:360
+#: core/textautogeneratetextplugin.cpp:382
 #, kde-format
 msgid "Local"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/textautogeneratetextplugin.cpp:362
+#: core/textautogeneratetextplugin.cpp:384
 #, kde-format
 msgid "Network"
 msgstr ""
@@ -2911,6 +2911,34 @@ msgid "Add Instance…"
 msgstr ""
 
 #. +> trunk6
+#: widgets/mcp/textautogenerateelicitationdialog.cpp:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Request from MCP Server"
+msgstr ""
+
+#. +> trunk6
+#: widgets/mcp/textautogenerateelicitationdialog.cpp:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr ""
+
+#. +> trunk6
+#: widgets/mcp/textautogenerateelicitationdialog.cpp:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Decline"
+msgstr ""
+
+#. +> trunk6
+#: widgets/mcp/textautogenerateelicitationdialog.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Request from %1"
+msgstr ""
+
+#. +> trunk6
 #: widgets/mcp/textautogeneratemcptoolconfirmation.cpp:23
 #, kde-format
 msgid "The MCP server \"%1\" wants to run the tool \"%2\"."
@@ -3409,13 +3437,13 @@ msgid "No plugin found."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/textautogeneratewidget.cpp:250
+#: widgets/textautogeneratewidget.cpp:252
 #, kde-format
 msgid "Error reported: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/textautogeneratewidget.cpp:250
+#: widgets/textautogeneratewidget.cpp:252
 #, kde-format
 msgctxt "@title:window"
 msgid "Error"
