@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-16 07:29+0200\n"
+"POT-Creation-Date: 2026-10-12 09:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -44,13 +44,13 @@ msgid "Enable Bluetooth"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:132 ui/main.qml:214
+#: ui/Device.qml:132 ui/DeviceConnectionSidebar.qml:63 ui/main.qml:214
 #, kde-format
 msgid "Disconnect"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:132 ui/main.qml:214
+#: ui/Device.qml:132 ui/DeviceConnectionSidebar.qml:63 ui/main.qml:214
 #, kde-format
 msgid "Connect"
 msgstr ""
@@ -98,13 +98,13 @@ msgid "Name:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:182
+#: ui/Device.qml:182 ui/DeviceConnectionSidebar.qml:120
 #, kde-format
 msgid "Trusted"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:191 ui/main.qml:180
+#: ui/Device.qml:191 ui/DeviceConnectionSidebar.qml:135 ui/main.qml:180
 #, kde-format
 msgid "Blocked"
 msgstr ""
@@ -138,6 +138,103 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button Forget the Bluetooth device"
 msgid "Forget"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:53
+#, kde-format
+msgid "Device information"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:63
+#, kde-format
+msgid "Connecting…"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:63
+#, kde-format
+msgid "Disconnecting…"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:63
+#, kde-format
+msgid "Pair"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:87
+#, kde-format
+msgid "Forget device"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:98
+#, kde-format
+msgid "Are you sure you want to forget the device %1?"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:121
+#, kde-format
+msgid "Auto-accept incoming connections"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:136
+#, kde-format
+msgid "Reject all connections from this device"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:152
+#, kde-format
+msgid "Device details"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:163
+#, kde-format
+msgid "Type: %1"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:169
+#, kde-format
+msgid "Address: %1"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:176
+#, kde-format
+msgid "Battery: %1"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:177
+#, kde-format
+msgctxt "Battery percentage level"
+msgid "%1%"
+msgstr ""
+
+#. +> trunk6
+#: ui/DeviceConnectionSidebar.qml:183 ui/DeviceConnectionSidebar.qml:190
+#, kde-format
+msgid "Change name"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/DeviceDelegate.qml:25 ui/main.qml:182
+#, kde-format
+msgid "Connected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/DeviceDelegate.qml:31 ui/main.qml:247
+#, kde-format
+msgid "%1% Battery"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -178,7 +275,7 @@ msgid "On login:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/General.qml:74
+#: ui/General.qml:74 ui/main_mediacenter.qml:74
 #, kde-format
 msgid "Enable Bluetooth"
 msgstr ""
@@ -237,12 +334,6 @@ msgstr ""
 msgid "Pair Device…"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/main.qml:241
-#, kde-format
-msgid "Add New Device…"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
 #: ui/main.qml:41
 #, kde-format
@@ -256,40 +347,14 @@ msgctxt "@action: button as in, 'enable Bluetooth'"
 msgid "Enabled"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/main.qml:54
-#, kde-format
-msgid "Forget this Device?"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:55
-#, kde-format
-msgid "Are you sure you want to forget \"%1\"?"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:66
-#, kde-format
-msgctxt "@action:button"
-msgid "Forget Device"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/main.qml:73
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:126
+#: ui/main.qml:126 ui/main_mediacenter.qml:61
 #, kde-format
 msgid "No Bluetooth adapters found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:127
+#: ui/main.qml:127 ui/main_mediacenter.qml:62
 #, kde-format
 msgid "Connect an external Bluetooth adapter"
 msgstr ""
@@ -320,12 +385,6 @@ msgid "Click <interface>Pair Device…</interface> to pair some"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:182
-#, kde-format
-msgid "Connected"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
 #: ui/main.qml:184
 #, kde-format
 msgid "Available"
@@ -338,10 +397,22 @@ msgctxt "@label/rich"
 msgid "%1"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:247
+#. +> trunk6
+#: ui/main_mediacenter.qml:20
 #, kde-format
-msgid "%1% Battery"
+msgid "Bluetooth"
+msgstr ""
+
+#. +> trunk6
+#: ui/main_mediacenter.qml:92
+#, kde-format
+msgid "Paired devices"
+msgstr ""
+
+#. +> trunk6
+#: ui/main_mediacenter.qml:121
+#, kde-format
+msgid "Available devices"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -532,4 +603,36 @@ msgstr ""
 #, kde-format
 msgctxt "Type of device: could not be determined"
 msgid "Unknown"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:54
+#, kde-format
+msgid "Forget this Device?"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:55
+#, kde-format
+msgid "Are you sure you want to forget \"%1\"?"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Forget Device"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:73
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:241
+#, kde-format
+msgid "Add New Device…"
 msgstr ""

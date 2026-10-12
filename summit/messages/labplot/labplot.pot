@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: labplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-11 07:38+0200\n"
+"POT-Creation-Date: 2026-10-12 09:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17986,7 +17986,7 @@ msgstr ""
 #: src/frontend/dockwidgets/ReferenceLineDock.cpp:250
 #: src/frontend/dockwidgets/RunChartDock.cpp:232
 #: src/frontend/dockwidgets/SeasonalDecompositionDock.cpp:648
-#: src/frontend/dockwidgets/SpreadsheetDock.cpp:236
+#: src/frontend/dockwidgets/SpreadsheetDock.cpp:235
 #: src/frontend/dockwidgets/WorksheetDock.cpp:609
 #: src/frontend/dockwidgets/XYCurveDock.cpp:684
 #, kde-format
@@ -19443,7 +19443,7 @@ msgid "Show Columns Statistics Spreadsheet"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/dockwidgets/SpreadsheetDock.cpp:234
+#: src/frontend/dockwidgets/SpreadsheetDock.cpp:233
 #, kde-format
 msgid "%1 spreadsheets: template \"%2\" loaded"
 msgstr ""
@@ -32681,13 +32681,19 @@ msgid "Invalid value entered. Valid value: %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/frontend/widgets/TreeViewComboBox.cpp:54
+#: src/frontend/widgets/TreeViewComboBox.cpp:56
 #, kde-format
 msgid "Search/Filter text"
 msgstr ""
 
+#. +> trunk6
+#: src/frontend/widgets/TreeViewComboBox.cpp:62
+#, kde-format
+msgid "Clear selection"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/frontend/widgets/TreeViewComboBox.cpp:363
+#: src/frontend/widgets/TreeViewComboBox.cpp:421
 #, kde-format
 msgid ""
 "The aspect \"%1\"\n"

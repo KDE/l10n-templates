@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-10 13:20+0200\n"
+"POT-Creation-Date: 2026-10-12 09:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -54,21 +54,21 @@ msgid "Server stopped"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/server/mcpserver.cpp:105
+#: core/server/mcpserver.cpp:107
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "SSE"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/server/mcpserver.cpp:107
+#: core/server/mcpserver.cpp:109
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Standard IO"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/server/mcpserver.cpp:109
+#: core/server/mcpserver.cpp:111
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Streamable HTTP"
@@ -204,15 +204,50 @@ msgctxt "@title:window"
 msgid "Modify Server"
 msgstr ""
 
+#. +> trunk6
+#: widgets/server/addmcpserverrootswidget.cpp:35
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Folder…"
+msgstr ""
+
+#. +> trunk6
+#: widgets/server/addmcpserverrootswidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select Folder"
+msgstr ""
+
+#. +> trunk6
+#: widgets/server/addmcpserverrootswidget.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Folders that server is allowed to access"
+msgstr ""
+
+#. +> trunk6
+#: widgets/server/addmcpserverrootswidget.cpp:57
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Folder"
+msgstr ""
+
 #. +> trunk6 stable6
-#: widgets/server/addmcpserverwidget.cpp:34
+#: widgets/server/addmcpserverwidget.cpp:38
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr ""
 
 #. +> trunk6
-#: widgets/server/addmcpserverwidget.cpp:38
+#: widgets/server/addmcpserverwidget.cpp:42
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Icon:"
+msgstr ""
+
+#. +> trunk6
+#: widgets/server/addmcpserverwidget.cpp:45
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Type:"
@@ -223,6 +258,13 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Type:"
+msgstr ""
+
+#. +> trunk6
+#: widgets/server/addmcpserverwidget.cpp:60
+#, kde-format
+msgctxt "@label"
+msgid "Allowed folders:"
 msgstr ""
 
 #. +> trunk6
