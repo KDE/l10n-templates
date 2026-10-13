@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-06 08:41+0200\n"
+"POT-Creation-Date: 2026-10-13 07:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1514,7 +1514,7 @@ msgid "Log in information for %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: libdiscover/backends/PackageKitBackend/AppPackageKitResource.cpp:258
+#: libdiscover/backends/PackageKitBackend/AppPackageKitResource.cpp:263
 #, kde-format
 msgid "Cannot launch %1"
 msgstr ""
@@ -2726,7 +2726,7 @@ msgid_plural "%1 packages will be upgraded"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:203
 #, kde-format
 msgid ""
@@ -2735,7 +2735,25 @@ msgid ""
 "No release notes provided"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:206
+#, kde-format
+msgid ""
+"<h3>%1</h3>"
+"%2"
+msgstr ""
+
+#. +> trunk6
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:208
+#, kde-format
+msgid ""
+"<h3>%1</h3>"
+"%2<br/>"
+"Release notes:"
+"<blockquote>%3</blockquote>"
+msgstr ""
+
+#. +> stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:205
 #, kde-format
 msgid ""

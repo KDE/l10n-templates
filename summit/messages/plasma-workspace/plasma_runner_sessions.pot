@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-13 14:38+0100\n"
+"POT-Creation-Date: 2026-10-13 07:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,20 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:20
+#: sessionrunner.cpp:22
 #, kde-format
 msgctxt "KRunner keywords (split by semicolons without whitespace) to log out of the session"
 msgid "logout;log out"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:23
+#: sessionrunner.cpp:25
 #, kde-format
 msgid "Logs out, exiting the current desktop session"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sessionrunner.cpp:27
+#: sessionrunner.cpp:29
 #, kde-format
 msgctxt "KRunner keywords (split by semicolons without whitespace) to shut down the computer"
 msgid "shutdown;shut down;power;poweroff;power off"
@@ -45,52 +45,52 @@ msgid "shutdown;shut down"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:30
+#: sessionrunner.cpp:32
 #, kde-format
 msgid "Turns off the computer"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:33
+#: sessionrunner.cpp:35
 #, kde-format
 msgctxt "KRunner keywords (split by semicolons without whitespace) to restart the computer"
 msgid "restart;reboot"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:36
+#: sessionrunner.cpp:38
 #, kde-format
 msgid "Reboots the computer"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:40
+#: sessionrunner.cpp:42
 #, kde-format
 msgctxt "KRunner keywords (split by semicolons without whitespace) to lock the screen"
 msgid "lock;lock screen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:42
+#: sessionrunner.cpp:44
 #, kde-format
 msgid "Locks the current sessions and starts the screen saver"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:45
+#: sessionrunner.cpp:47
 #, kde-format
 msgctxt "KRunner keywords (split by semicolons without whitespace) to save the desktop session"
 msgid "save;save session"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:48
+#: sessionrunner.cpp:50
 #, kde-format
 msgid "Saves the current session for session restoration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:51
+#: sessionrunner.cpp:53
 #, kde-format
 msgctxt "KRunner keywords (split by semicolons without whitespace) to switch user sessions"
 msgid "switch user;new session"
@@ -104,7 +104,7 @@ msgid "switch"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sessionrunner.cpp:54
+#: sessionrunner.cpp:56
 #, kde-format
 msgid "Switch to a session as a different user"
 msgstr ""
@@ -113,20 +113,6 @@ msgstr ""
 #: sessionrunner.cpp:76
 #, kde-format
 msgid "Starts a new session as a different user"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:75
-#, kde-format
-msgctxt "log out command"
-msgid "Log Out"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:83
-#, kde-format
-msgctxt "turn off computer command"
-msgid "Shut Down"
 msgstr ""
 
 #. +> stable5
@@ -149,21 +135,35 @@ msgid "Switches to the active session for the user :q:, or lists all active sess
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:90
+#: sessionrunner.cpp:101
+#, kde-format
+msgctxt "log out command"
+msgid "Log Out"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: sessionrunner.cpp:102
+#, kde-format
+msgctxt "turn off computer command"
+msgid "Shut Down"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: sessionrunner.cpp:103
 #, kde-format
 msgctxt "restart computer command"
 msgid "Restart"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:97
+#: sessionrunner.cpp:104
 #, kde-format
 msgctxt "lock screen command"
 msgid "Lock"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:104
+#: sessionrunner.cpp:105
 #, kde-format
 msgid "Save Session"
 msgstr ""
@@ -175,7 +175,7 @@ msgid "New Desktop Session"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:111
+#: sessionrunner.cpp:106
 #, kde-format
 msgid "Switch User"
 msgstr ""

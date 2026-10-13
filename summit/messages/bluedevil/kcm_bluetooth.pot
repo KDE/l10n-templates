@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-12 09:21+0200\n"
+"POT-Creation-Date: 2026-10-13 07:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -44,13 +44,13 @@ msgid "Enable Bluetooth"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:132 ui/DeviceConnectionSidebar.qml:63 ui/main.qml:214
+#: ui/Device.qml:132 ui/DeviceConnectionSidebar.qml:63 ui/main.qml:203
 #, kde-format
 msgid "Disconnect"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:132 ui/DeviceConnectionSidebar.qml:63 ui/main.qml:214
+#: ui/Device.qml:132 ui/DeviceConnectionSidebar.qml:63 ui/main.qml:203
 #, kde-format
 msgid "Connect"
 msgstr ""
@@ -104,7 +104,7 @@ msgid "Trusted"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:191 ui/DeviceConnectionSidebar.qml:135 ui/main.qml:180
+#: ui/Device.qml:191 ui/DeviceConnectionSidebar.qml:135
 #, kde-format
 msgid "Blocked"
 msgstr ""
@@ -225,14 +225,14 @@ msgstr ""
 msgid "Change name"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/DeviceDelegate.qml:25 ui/main.qml:182
+#. +> trunk6 stable5
+#: ui/DeviceDelegate.qml:25
 #, kde-format
 msgid "Connected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/DeviceDelegate.qml:31 ui/main.qml:247
+#: ui/DeviceDelegate.qml:31 ui/main.qml:236
 #, kde-format
 msgid "%1% Battery"
 msgstr ""
@@ -384,14 +384,8 @@ msgctxt "@info"
 msgid "Click <interface>Pair Device…</interface> to pair some"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:184
-#, kde-format
-msgid "Available"
-msgstr ""
-
 #. +> stable6
-#: ui/main.qml:204
+#: ui/main.qml:193
 #, kde-kuit-format
 msgctxt "@label/rich"
 msgid "%1"
@@ -629,6 +623,12 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:180
+#, kde-format
+msgid "Available"
 msgstr ""
 
 #. +> stable5
