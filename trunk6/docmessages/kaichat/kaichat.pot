@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-06 01:04+0000\n"
+"POT-Creation-Date: 2026-10-13 00:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 #. Tag: date
 #: index.docbook:37
 #, no-c-format
-msgid "2026-09-26"
+msgid "2026-10-12"
 msgstr ""
 
 #. Tag: para
@@ -91,17 +91,23 @@ msgstr ""
 #. Tag: keyword
 #: index.docbook:52
 #, no-c-format
+msgid "<keyword>MCP</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:53
+#, no-c-format
 msgid "privacy"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:57
+#: index.docbook:58
 #, no-c-format
 msgid "Introduction"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:59
+#: index.docbook:60
 #, no-c-format
 msgid ""
 "&i18n-kapplication; is a chat application that lets you talk with AI "
@@ -110,7 +116,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:62
+#: index.docbook:63
 #, no-c-format
 msgid ""
 "Conversations are stored in a local database on your computer, so they are "
@@ -122,7 +128,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:68
+#: index.docbook:69
 #, no-c-format
 msgid ""
 "&i18n-kapplication; does not provide a model of its own: it talks to a model "
@@ -131,13 +137,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:75
+#: index.docbook:76
 #, no-c-format
 msgid "Getting Started"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:77
+#: index.docbook:78
 #, no-c-format
 msgid ""
 "Before you can ask anything, &i18n-kapplication; needs at least one "
@@ -147,7 +153,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:81
+#: index.docbook:82
 #, no-c-format
 msgid ""
 "The first time you start the application without any instance, it offers to "
@@ -157,13 +163,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:88
+#: index.docbook:89
 #, no-c-format
 msgid "Using a local model"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:90
+#: index.docbook:91
 #, no-c-format
 msgid ""
 "Running the model on your own computer keeps your questions on your machine. "
@@ -173,7 +179,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:95
+#: index.docbook:96
 #, no-c-format
 msgid ""
 "Install and start the server first, then add an instance of the matching "
@@ -185,7 +191,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:102
+#: index.docbook:103
 #, no-c-format
 msgid ""
 "Once the instance is connected you still need a model. Models can be "
@@ -194,13 +200,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:109
+#: index.docbook:110
 #, no-c-format
 msgid "Using an online service"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:111
+#: index.docbook:112
 #, no-c-format
 msgid ""
 "&i18n-kapplication; can also talk to hosted services, among them Ollama "
@@ -212,7 +218,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:118
+#: index.docbook:119
 #, no-c-format
 msgid ""
 "Create an instance of the matching type and paste the API key given to you "
@@ -222,25 +228,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:127
+#: index.docbook:128
 #, no-c-format
 msgid "Using &i18n-kapplication;"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:130
+#: index.docbook:131
 #, no-c-format
 msgid "The main window"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:132
+#: index.docbook:133
 #, no-c-format
 msgid "The window is split in three parts:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:135
+#: index.docbook:136
 #, no-c-format
 msgid ""
 "the list of your chats, on the left. It can be collapsed with the button on "
@@ -248,7 +254,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:137
+#: index.docbook:138
 #, no-c-format
 msgid ""
 "the conversation itself, on the right, where your questions and the answers "
@@ -256,13 +262,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:139
+#: index.docbook:140
 #, no-c-format
 msgid "the input field at the bottom, where you type your question."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:143
+#: index.docbook:144
 #, no-c-format
 msgid ""
 "Above them, a header bar lets you start a new chat or an ephemeral "
@@ -272,13 +278,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:150
+#: index.docbook:151
 #, no-c-format
 msgid "Asking questions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:152
+#: index.docbook:153
 #, no-c-format
 msgid ""
 "Type your question in the input field and validate it. The answer appears in "
@@ -287,22 +293,24 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:156
+#: index.docbook:157
 #, no-c-format
 msgid ""
 "You can attach files to a question, and enable the tools the model is "
-"allowed to call while answering it. Each chat keeps its own history, which "
-"is sent along with your new question so that the model knows the context."
+"allowed to call while answering it, including the ones provided by your MCP "
+"servers (see <xref linkend=\"mcp-servers\"/>). Each chat keeps its own "
+"history, which is sent along with your new question so that the model knows "
+"the context."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:163
+#: index.docbook:165
 #, no-c-format
 msgid "Managing chats"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:165
+#: index.docbook:167
 #, no-c-format
 msgid ""
 "Chats are created from the header bar, or with <userinput><command>kaichat</"
@@ -311,31 +319,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:169
+#: index.docbook:171
 #, no-c-format
 msgid "Right-click a chat in the list to act on it:"
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:173
+#: index.docbook:175
 #, no-c-format
 msgid "Modify…"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:174
+#: index.docbook:176
 #, no-c-format
 msgid "Change the title of the chat."
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:177
+#: index.docbook:179
 #, no-c-format
 msgid "Duplicate…"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:178
+#: index.docbook:180
 #, no-c-format
 msgid ""
 "Create a copy of the chat, for instance to try another direction without "
@@ -343,13 +351,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:182
+#: index.docbook:184
 #, no-c-format
 msgid "Set as Favorite"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:183
+#: index.docbook:185
 #, no-c-format
 msgid ""
 "Show the chat in the <guilabel>Favorite</guilabel> section at the top of the "
@@ -358,13 +366,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guisubmenu
-#: index.docbook:188
+#: index.docbook:190
 #, no-c-format
 msgid "Project"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:189
+#: index.docbook:191
 #, no-c-format
 msgid ""
 "Move the chat into a project, or out of it with <guimenuitem>No Project</"
@@ -372,43 +380,43 @@ msgid ""
 msgstr ""
 
 #. Tag: guisubmenu
-#: index.docbook:193
+#: index.docbook:195
 #, no-c-format
 msgid "Tags"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:194
+#: index.docbook:196
 #, no-c-format
 msgid "Add tags to the chat or remove them."
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:197
+#: index.docbook:199
 #, no-c-format
 msgid "Archive"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:198
+#: index.docbook:200
 #, no-c-format
 msgid "Hide the chat from the list without deleting it."
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:201
+#: index.docbook:203
 #, no-c-format
 msgid "Remove…"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:202
+#: index.docbook:204
 #, no-c-format
 msgid "Delete the chat and its messages for good."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:206
+#: index.docbook:208
 #, no-c-format
 msgid ""
 "The other chats are grouped by age: today, the last seven days, the last "
@@ -416,7 +424,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:209
+#: index.docbook:211
 #, no-c-format
 msgid ""
 "A conversation can also be forked from one of its messages with the "
@@ -426,7 +434,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:214
+#: index.docbook:216
 #, no-c-format
 msgid ""
 "A chat you do not need any more can be archived instead of being deleted. "
@@ -436,7 +444,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:219
+#: index.docbook:221
 #, no-c-format
 msgid ""
 "To look for something you asked or read some time ago, use "
@@ -448,13 +456,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:228
+#: index.docbook:230
 #, no-c-format
 msgid "Projects and tags"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:230
+#: index.docbook:232
 #, no-c-format
 msgid ""
 "Projects and tags are two ways of organizing your chats. A chat belongs to "
@@ -463,7 +471,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:234
+#: index.docbook:236
 #, no-c-format
 msgid ""
 "Both are created, renamed and removed with <guimenuitem>Manage Projects…</"
@@ -474,7 +482,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:240
+#: index.docbook:242
 #, no-c-format
 msgid ""
 "The tag selector above the chat list only shows the chats which have one of "
@@ -482,13 +490,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:246
+#: index.docbook:248
 #, no-c-format
 msgid "Ephemeral discussions"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:248
+#: index.docbook:250
 #, no-c-format
 msgid ""
 "An ephemeral discussion is a chat which is never written to the database. "
@@ -501,7 +509,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:256
+#: index.docbook:258
 #, no-c-format
 msgid ""
 "If you change your mind, the <guibutton>Save Discussion in Database</"
@@ -509,7 +517,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:259
+#: index.docbook:261
 #, no-c-format
 msgid ""
 "Keep in mind that this only concerns what is stored on your computer: with "
@@ -517,13 +525,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:265
+#: index.docbook:267
 #, no-c-format
 msgid "Quick Ask"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:267
+#: index.docbook:269
 #, no-c-format
 msgid ""
 "Quick Ask is a small dialog for a single question, without opening the main "
@@ -537,13 +545,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:279
+#: index.docbook:281
 #, no-c-format
 msgid "Importing and exporting chats"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:281
+#: index.docbook:283
 #, no-c-format
 msgid ""
 "The current chat can be saved to a file with <menuchoice><guimenu>File</"
@@ -552,13 +560,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:287
+#: index.docbook:289
 #, no-c-format
 msgid "Export as JSON…"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:288
+#: index.docbook:290
 #, no-c-format
 msgid ""
 "A <filename class=\"extension\">.kaichat</filename> file. This is the only "
@@ -566,43 +574,43 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:292
+#: index.docbook:294
 #, no-c-format
 msgid "Export as Markdown…"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:293
+#: index.docbook:295
 #, no-c-format
 msgid "A text file keeping the formatting of the answers."
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:296
+#: index.docbook:298
 #, no-c-format
 msgid "Export as Text…"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:297
+#: index.docbook:299
 #, no-c-format
 msgid "Plain text."
 msgstr ""
 
 #. Tag: guimenuitem
-#: index.docbook:300
+#: index.docbook:302
 #, no-c-format
 msgid "Export as Pdf…"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:301
+#: index.docbook:303
 #, no-c-format
 msgid "A printable document."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:305
+#: index.docbook:307
 #, no-c-format
 msgid ""
 "A previously exported <filename class=\"extension\">.kaichat</filename> file "
@@ -612,13 +620,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:314
+#: index.docbook:316
 #, no-c-format
 msgid "Adjusting the display"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:316
+#: index.docbook:318
 #, no-c-format
 msgid ""
 "The text of the whole application can be made bigger or smaller with "
@@ -629,7 +637,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:322
+#: index.docbook:324
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Settings</guimenu><guisubmenu>Color Scheme</"
@@ -638,7 +646,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:326
+#: index.docbook:328
 #, no-c-format
 msgid ""
 "The menu bar can be hidden with <menuchoice><guimenu>Settings</"
@@ -647,13 +655,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:336
+#: index.docbook:338
 #, no-c-format
 msgid "Configuring &i18n-kapplication;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:338
+#: index.docbook:340
 #, no-c-format
 msgid ""
 "The configuration dialog is opened with <menuchoice><guimenu>Settings</"
@@ -663,13 +671,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:345
+#: index.docbook:347
 #, no-c-format
 msgid "General"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:346
+#: index.docbook:348
 #, no-c-format
 msgid ""
 "Whether the system tray icon is shown, and the system prompt sent to the "
@@ -677,25 +685,25 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:350
+#: index.docbook:352
 #, no-c-format
 msgid "Font"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:351
+#: index.docbook:353
 #, no-c-format
 msgid "Use a font of your choice instead of the system one."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:354
+#: index.docbook:356
 #, no-c-format
 msgid "Instances"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:355
+#: index.docbook:357
 #, no-c-format
 msgid ""
 "Add, remove and configure the connections to your model providers, and "
@@ -703,39 +711,39 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:359
+#: index.docbook:361
 #, no-c-format
 msgid "MCP Servers"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:360
+#: index.docbook:362
 #, no-c-format
 msgid ""
 "Model Context Protocol servers, which give the model access to external data "
-"and actions. This support is still experimental."
+"and actions. See <xref linkend=\"mcp-servers\"/>."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:364
+#: index.docbook:366
 #, no-c-format
 msgid "Spell Checking"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:365
+#: index.docbook:367
 #, no-c-format
 msgid "Spell checking of what you type."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:368
+#: index.docbook:370
 #, no-c-format
 msgid "Accessibility"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:369
+#: index.docbook:371
 #, no-c-format
 msgid ""
 "Text-to-speech settings, when the application was built with text-to-speech "
@@ -743,13 +751,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:373
+#: index.docbook:375
 #, no-c-format
 msgid "Plugins"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:374
+#: index.docbook:376
 #, no-c-format
 msgid ""
 "Enable or disable the installed plugins and configure the tools the model "
@@ -757,13 +765,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:378
+#: index.docbook:380
 #, no-c-format
 msgid "User Feedback"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:379
+#: index.docbook:381
 #, no-c-format
 msgid ""
 "How much information, if any, you want to send to the developers. Nothing is "
@@ -771,13 +779,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:384
+#: index.docbook:386
 #, no-c-format
 msgid "Retention"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:385
+#: index.docbook:387
 #, no-c-format
 msgid ""
 "How long your chats are kept. <guilabel>Retention Days</guilabel> is the "
@@ -787,13 +795,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:391
+#: index.docbook:393
 #, no-c-format
 msgid "Privacy"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:392
+#: index.docbook:394
 #, no-c-format
 msgid ""
 "Shows where your chats are stored on disk. The path can be copied to the "
@@ -802,7 +810,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:398
+#: index.docbook:400
 #, no-c-format
 msgid ""
 "Notifications are configured with <menuchoice><guimenu>Settings</"
@@ -810,7 +818,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:402
+#: index.docbook:404
 #, no-c-format
 msgid ""
 "Instances and MCP servers can also be configured outside of the application, "
@@ -818,31 +826,259 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:406
+#: index.docbook:408
+#, no-c-format
+msgid "MCP servers"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:410
+#, no-c-format
+msgid ""
+"The Model Context Protocol (MCP) is an open standard which lets a model use "
+"tools provided by external programs, called MCP servers: reading your files, "
+"querying a database, searching a documentation, and so on. &i18n-"
+"kapplication; acts as an MCP client: it connects to the servers you "
+"configure and offers their tools to the model."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:417
+#, no-c-format
+msgid "Adding a server"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:419
+#, no-c-format
+msgid ""
+"Servers are managed on the <guilabel>MCP Servers</guilabel> page of the "
+"configuration dialog. Use the <guibutton>Add Server…</guibutton> button, or "
+"the context menu of the list, to add one; double-click a server or use "
+"<guimenuitem>Edit…</guimenuitem> to modify it, and <guimenuitem>Remove "
+"Server</guimenuitem> to delete it. The checkbox in front of each server "
+"enables or disables it without losing its configuration."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:426
+#, no-c-format
+msgid ""
+"Each server has a <guilabel>Name</guilabel>, an optional <guilabel>Icon</"
+"guilabel> and a <guilabel>Type</guilabel>, which tells how &i18n-"
+"kapplication; talks to it:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:432
+#, no-c-format
+msgid "Standard IO"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:433
+#, no-c-format
+msgid ""
+"The server is a program started by &i18n-kapplication; on your computer. "
+"Enter the <guilabel>Command</guilabel> to run and its <guilabel>Arguments</"
+"guilabel>, as given in the documentation of the server."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:439
+#, no-c-format
+msgid "Streamable HTTP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:440
+#, no-c-format
+msgid ""
+"The server is reached over the network at the given <guilabel>URL</"
+"guilabel>. Additional <guilabel>Headers</guilabel>, for instance an "
+"<literal>Authorization</literal> header holding an access token, can be "
+"added in <quote>Name: Value</quote> form."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:446
+#, no-c-format
+msgid "<guilabel>SSE</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:447
+#, no-c-format
+msgid ""
+"The older HTTP transport based on Server-Sent Events, still used by some "
+"servers. Enter its <guilabel>URL</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:452
+#, no-c-format
+msgid ""
+"<guilabel>Allowed folders</guilabel> lists the folders the server may work "
+"in. The list is passed to the server, which is expected to restrict itself "
+"to these folders; a server which accesses files usually needs at least one."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:456
+#, no-c-format
+msgid ""
+"Changes are applied when you close the configuration dialog with "
+"<guibutton>OK</guibutton> or <guibutton>Apply</guibutton>. MCP servers can "
+"also be configured from the <guilabel>AI</guilabel> module of "
+"&systemsettings;; the list is shared with the other applications using it."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:464
+#, no-c-format
+msgid "Using MCP tools in a chat"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:466
+#, no-c-format
+msgid ""
+"Every enabled server is shown as a button among the tools available under "
+"the input field. Check the button to let the model use the tools of this "
+"server for your next questions. The arrow next to it opens a menu listing "
+"these tools, from which you can select only some of them; &i18n-"
+"kapplication; connects to the server the first time this menu is opened, in "
+"order to know its tools."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:472
+#, no-c-format
+msgid ""
+"While the model is calling a tool, its name is shown in the status bar, and "
+"the result is sent back to the model to complete its answer."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:478
+#, no-c-format
+msgid "Confirmations and requests"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:480
+#, no-c-format
+msgid ""
+"A tool can do more than read data, so &i18n-kapplication; asks before "
+"running one. The <guilabel>Run Tool</guilabel> dialog shows the server, the "
+"tool and the arguments the model wants to pass to it:"
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:486
+#, no-c-format
+msgid "Allow"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:487
+#, no-c-format
+msgid "Run the tool this time."
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:490
+#, no-c-format
+msgid "Always Allow This Server"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:491
+#, no-c-format
+msgid "Run the tool, and no longer ask for any tool of this server."
+msgstr ""
+
+#. Tag: guibutton
+#: index.docbook:495
+#, no-c-format
+msgid "Deny"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:496
+#, no-c-format
+msgid "Do not run the tool."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:500
+#, no-c-format
+msgid ""
+"The servers whose tools run without confirmation are checked in the "
+"<guilabel>Run tools without confirmation</guilabel> list of the "
+"<guilabel>MCP Servers</guilabel> page, where you can uncheck them again."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:504
+#, no-c-format
+msgid "A server can also ask something of you or of the model while it works:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:507
+#, no-c-format
+msgid ""
+"it can ask you to fill in some information, in a <guilabel>Request from</"
+"guilabel> dialog showing the fields it needs. <guibutton>Accept</guibutton> "
+"sends your answer, <guibutton>Decline</guibutton> refuses to give it;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:511
+#, no-c-format
+msgid ""
+"it can ask the model to generate some text for it. The <guilabel>Sampling "
+"Request from MCP Server</guilabel> dialog shows what would be sent to the "
+"model; nothing is sent unless you choose <guibutton>Send to LLM</guibutton>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:517
+#, no-c-format
+msgid ""
+"Only add servers you trust. A <guilabel>Standard IO</guilabel> server is a "
+"program running with your own rights, and what a tool returns is read by the "
+"model and, with an online service, sent to its provider along with your "
+"conversation."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:527
 #, no-c-format
 msgid "Files used"
 msgstr ""
 
 #. Tag: filename
-#: index.docbook:410
+#: index.docbook:531
 #, no-c-format
 msgid "~/.config/kaichatrc"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:411
+#: index.docbook:532
 #, no-c-format
 msgid "The settings of the application."
 msgstr ""
 
 #. Tag: filename
-#: index.docbook:414
+#: index.docbook:535
 #, no-c-format
 msgid "~/.local/share/kaichat/ai-database/"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:415
+#: index.docbook:536
 #, no-c-format
 msgid ""
 "The databases holding your chats and their messages. The exact location is "
@@ -850,7 +1086,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:421
+#: index.docbook:542
 #, no-c-format
 msgid ""
 "The configuration of your instances contains the API keys of the online "
@@ -858,13 +1094,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:429
+#: index.docbook:550
 #, no-c-format
 msgid "Command Line Options"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:431
+#: index.docbook:552
 #, no-c-format
 msgid ""
 "&i18n-kapplication; runs as a single instance: starting it again while it is "
@@ -873,61 +1109,61 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:437
+#: index.docbook:558
 #, no-c-format
 msgid "--list-instances"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:438
+#: index.docbook:559
 #, no-c-format
 msgid "Print the configured instances and exit."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:441
+#: index.docbook:562
 #, no-c-format
 msgid "--list-chats"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:442
+#: index.docbook:563
 #, no-c-format
 msgid "Print the titles of the stored chats and exit."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:445
+#: index.docbook:566
 #, no-c-format
 msgid "--plugin-info"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:446
+#: index.docbook:567
 #, no-c-format
 msgid "Print the available text and tool plugins and exit."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:449
+#: index.docbook:570
 #, no-c-format
 msgid "<option>--new-chat</option> <replaceable>title</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:450
+#: index.docbook:571
 #, no-c-format
 msgid "Create a new chat with this title."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:453
+#: index.docbook:574
 #, no-c-format
 msgid "<option>--ephemeral-chat</option> <replaceable>title</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:454
+#: index.docbook:575
 #, no-c-format
 msgid ""
 "Create a new ephemeral discussion with this title. It is not stored in the "
@@ -935,109 +1171,109 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: index.docbook:458
+#: index.docbook:579
 #, no-c-format
 msgid "<option>--switch-to-chat</option> <replaceable>name</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:459
+#: index.docbook:580
 #, no-c-format
 msgid "Switch to an existing chat, by title."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:462
+#: index.docbook:583
 #, no-c-format
 msgid "<option>--switch-to-chat-from-id</option> <replaceable>id</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:463
+#: index.docbook:584
 #, no-c-format
 msgid "Switch to an existing chat, by identifier."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:466
+#: index.docbook:587
 #, no-c-format
 msgid "<option>--ask-message</option> <replaceable>message</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:467
+#: index.docbook:588
 #, no-c-format
 msgid "Ask this question straight away."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:470
+#: index.docbook:591
 #, no-c-format
 msgid "<option>--attach</option> <replaceable>url</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:471
+#: index.docbook:592
 #, no-c-format
 msgid "Attach a file to the question. Can be repeated."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:474
+#: index.docbook:595
 #, no-c-format
 msgid "<option>--tool</option> <replaceable>name</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:475
+#: index.docbook:596
 #, no-c-format
 msgid "Allow the model to use this tool. Can be repeated."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:478
+#: index.docbook:599
 #, no-c-format
 msgid "--quick-ask"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:479
+#: index.docbook:600
 #, no-c-format
 msgid "Open the Quick Ask dialog."
 msgstr ""
 
 #. Tag: term
-#: index.docbook:482
+#: index.docbook:603
 #, no-c-format
 msgid "<option>--import</option> <replaceable>file</replaceable>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:483
+#: index.docbook:604
 #, no-c-format
 msgid "Import a chat from a JSON file."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:486
+#: index.docbook:607
 #, no-c-format
 msgid "--start-ollama"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:487
+#: index.docbook:608
 #, no-c-format
 msgid "Start the local <application>Ollama</application> program."
 msgstr ""
 
 #. Tag: option
-#: index.docbook:490
+#: index.docbook:611
 #, no-c-format
 msgid "--debug"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:491
+#: index.docbook:612
 #, no-c-format
 msgid ""
 "Enable debug mode, which adds a <guimenu>Debug</guimenu> menu showing the "
@@ -1045,31 +1281,31 @@ msgid ""
 msgstr ""
 
 #. Tag: option
-#: index.docbook:495
+#: index.docbook:616
 #, no-c-format
 msgid "--feedback"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:496
+#: index.docbook:617
 #, no-c-format
 msgid "List the information that can be sent as user feedback."
 msgstr ""
 
 #. Tag: replaceable
-#: index.docbook:499
+#: index.docbook:620
 #, no-c-format
 msgid "file…"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:500
+#: index.docbook:621
 #, no-c-format
 msgid "Chat files to import."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:504
+#: index.docbook:625
 #, no-c-format
 msgid ""
 "On systems with &DBus;, a running &i18n-kapplication; also exposes the "
@@ -1079,37 +1315,37 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:513
+#: index.docbook:634
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:515
+#: index.docbook:636
 #, no-c-format
 msgid "&i18n-kapplication;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:516
+#: index.docbook:637
 #, no-c-format
 msgid "Program copyright 2025-2026 &Laurent.Montel; &Laurent.Montel.mail;"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:519
+#: index.docbook:640
 #, no-c-format
 msgid "Documentation Copyright &copy; &Laurent.Montel; &Laurent.Montel.mail;"
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:523
+#: index.docbook:644
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:523
+#: index.docbook:644
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr ""
