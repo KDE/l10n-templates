@@ -3,7 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-13 07:16+0200\n"
+"POT-Creation-Date: 2026-10-14 09:29+0200\n"
 
 #. +> trunk6 stable6
 #: activities/adjacent_numbers/ActivityConfig.qml:19
@@ -190,19 +190,25 @@ msgstr ""
 #: activities/align4_2players/ActivityInfo.qml:24
 #: activities/alphabet-sequence/ActivityInfo.qml:25
 #: activities/baby_wordprocessor/ActivityInfo.qml:25
+#: activities/babymatch/ActivityInfo.qml:28
+#: activities/babyshapes/ActivityInfo.qml:28
 #: activities/braille_alphabets/ActivityInfo.qml:25
 #: activities/braille_fun/ActivityInfo.qml:25
 #: activities/calendar/ActivityInfo.qml:25
+#: activities/chronos/ActivityInfo.qml:29
 #: activities/click_on_letter/ActivityInfo.qml:25
 #: activities/click_on_letter_up/ActivityInfo.qml:25
 #: activities/colors/ActivityInfo.qml:25
 #: activities/comparator/ActivityInfo.qml:27
 #: activities/compass/ActivityInfo.qml:35 activities/crane/ActivityInfo.qml:30
+#: activities/details/ActivityInfo.qml:27
 #: activities/drawing_wheels/ActivityInfo.qml:28
 #: activities/enumerate/ActivityInfo.qml:25
 #: activities/fifteen/ActivityInfo.qml:24
 #: activities/find_the_day/ActivityInfo.qml:25
 #: activities/frieze/ActivityInfo.qml:23
+#: activities/geo-country/ActivityInfo.qml:28
+#: activities/geography/ActivityInfo.qml:28
 #: activities/gnumch-equality/ActivityInfo.qml:28
 #: activities/gnumch-factors/ActivityInfo.qml:28
 #: activities/gnumch-inequality/ActivityInfo.qml:27
@@ -216,6 +222,7 @@ msgstr ""
 #: activities/gravity/ActivityInfo.qml:28
 #: activities/guess24/ActivityInfo.qml:24
 #: activities/guessnumber/ActivityInfo.qml:24
+#: activities/imagename/ActivityInfo.qml:28
 #: activities/instruments/ActivityInfo.qml:24
 #: activities/land_safe/ActivityInfo.qml:28
 #: activities/lang/ActivityInfo.qml:33
@@ -262,6 +269,7 @@ msgstr ""
 #: activities/mosaic/ActivityInfo.qml:24
 #: activities/multiple_choice_questions/ActivityInfo.qml:25
 #: activities/numbers-odd-even/ActivityInfo.qml:24
+#: activities/paintings/ActivityInfo.qml:30
 #: activities/piano_composition/ActivityInfo.qml:33
 #: activities/planegame/ActivityInfo.qml:24
 #: activities/play_piano/ActivityInfo.qml:30
@@ -1002,9 +1010,16 @@ msgstr ""
 #: activities/algebra_div/ActivityInfo.qml:28
 #: activities/algebra_minus/ActivityInfo.qml:28
 #: activities/algebra_plus/ActivityInfo.qml:28
+#: activities/babymatch/ActivityInfo.qml:33
+#: activities/babyshapes/ActivityInfo.qml:33
+#: activities/chronos/ActivityInfo.qml:34
+#: activities/details/ActivityInfo.qml:32
+#: activities/geo-country/ActivityInfo.qml:33
+#: activities/geography/ActivityInfo.qml:33
 #: activities/grammar_analysis/ActivityInfo.qml:34
 #: activities/grammar_classes/ActivityInfo.qml:34
 #: activities/guessnumber/ActivityInfo.qml:27
+#: activities/imagename/ActivityInfo.qml:33
 #: activities/learn_additions/ActivityInfo.qml:27
 #: activities/learn_decimals/ActivityInfo.qml:24
 #: activities/learn_decimals_additions/ActivityInfo.qml:25
@@ -1013,6 +1028,7 @@ msgstr ""
 #: activities/learn_quantities/ActivityInfo.qml:24
 #: activities/learn_subtractions/ActivityInfo.qml:27
 #: activities/letter-in-word/ActivityInfo.qml:28
+#: activities/paintings/ActivityInfo.qml:35
 #: activities/roman_numerals/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Enter: validate your answer"
@@ -2369,6 +2385,58 @@ msgctxt "ActivityInfo|"
 msgid "In the main board area, a set of objects is displayed. In the side panel, another set of objects is shown. Each object in the side panel corresponds logically to one object in the main board area. Drag each object from the side panel to the correct spot in the main area."
 msgstr ""
 
+#. +> trunk6
+#: activities/babymatch/ActivityInfo.qml:29
+#: activities/babyshapes/ActivityInfo.qml:29
+#: activities/chronos/ActivityInfo.qml:30
+#: activities/details/ActivityInfo.qml:28
+#: activities/geo-country/ActivityInfo.qml:29
+#: activities/geography/ActivityInfo.qml:29
+#: activities/imagename/ActivityInfo.qml:29
+#: activities/paintings/ActivityInfo.qml:31
+msgctxt "ActivityInfo|"
+msgid "Arrows: move the selection cursor through the panel items and board spots"
+msgstr ""
+
+#. +> trunk6
+#: activities/babymatch/ActivityInfo.qml:30
+#: activities/babyshapes/ActivityInfo.qml:30
+#: activities/chronos/ActivityInfo.qml:31
+#: activities/details/ActivityInfo.qml:29
+#: activities/geo-country/ActivityInfo.qml:30
+#: activities/geography/ActivityInfo.qml:30
+#: activities/imagename/ActivityInfo.qml:30
+#: activities/paintings/ActivityInfo.qml:32
+msgctxt "ActivityInfo|"
+msgid "Space: select an item in the list, and place it on a spot. If there is nothing selected in the list, remove item from selected spot"
+msgstr ""
+
+#. +> trunk6
+#: activities/babymatch/ActivityInfo.qml:31
+#: activities/babyshapes/ActivityInfo.qml:31
+#: activities/chronos/ActivityInfo.qml:32
+#: activities/details/ActivityInfo.qml:30
+#: activities/geo-country/ActivityInfo.qml:31
+#: activities/geography/ActivityInfo.qml:31
+#: activities/imagename/ActivityInfo.qml:31
+#: activities/paintings/ActivityInfo.qml:33
+msgctxt "ActivityInfo|"
+msgid "Tab: toggle navigation between the panel and the board without any other action"
+msgstr ""
+
+#. +> trunk6
+#: activities/babymatch/ActivityInfo.qml:32
+#: activities/babyshapes/ActivityInfo.qml:32
+#: activities/chronos/ActivityInfo.qml:33
+#: activities/details/ActivityInfo.qml:31
+#: activities/geo-country/ActivityInfo.qml:32
+#: activities/geography/ActivityInfo.qml:32
+#: activities/imagename/ActivityInfo.qml:32
+#: activities/paintings/ActivityInfo.qml:34
+msgctxt "ActivityInfo|"
+msgid "Delete or Backspace: remove item from selected spot"
+msgstr ""
+
 #. +> trunk6 stable6
 #: activities/babymatch/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
@@ -2404,7 +2472,7 @@ msgid "Complete the puzzle by dragging each piece on the side to the matching sp
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/babyshapes/ActivityInfo.qml:28
+#: activities/babyshapes/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
 msgid "The dog is provided by Andre Connes and released under the GPL"
 msgstr ""
@@ -4555,7 +4623,7 @@ msgid "Arrange the pictures to make a coherent story. Drag the pictures from the
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/chronos/ActivityInfo.qml:29
+#: activities/chronos/ActivityInfo.qml:35
 msgctxt "ActivityInfo|"
 msgid "Dates of Transportation are based on those found in &lt;https://www.wikipedia.org&gt;."
 msgstr ""
@@ -4701,13 +4769,13 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board5_0.qml:33
 msgctxt "board5_0|"
-msgid "1829 Stephenson's Rocket Steam locomotive"
+msgid "1769 Cugnot's fardier"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board5_0.qml:41
 msgctxt "board5_0|"
-msgid "1769 Cugnot's fardier"
+msgid "1829 Stephenson's Rocket Steam locomotive"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4785,19 +4853,19 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board5_4.qml:39
 msgctxt "board5_4|"
-msgid "1829 Stephenson's Rocket Steam locomotive"
+msgid "1769 Cugnot's fardier"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board5_4.qml:47
 msgctxt "board5_4|"
-msgid "1890 Clement Ader's Eole"
+msgid "1829 Stephenson's Rocket Steam locomotive"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board5_4.qml:55
 msgctxt "board5_4|"
-msgid "1769 Cugnot's fardier"
+msgid "1890 Clement Ader's Eole"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4833,19 +4901,19 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board6_1.qml:39
 msgctxt "board6_1|"
-msgid "1947 Chuck Yeager breaks the sound-barrier"
+msgid "1927 Charles Lindbergh crosses the Atlantic Ocean"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board6_1.qml:47
 msgctxt "board6_1|"
-msgid "1927 Charles Lindbergh crosses the Atlantic Ocean"
+msgid "1934 Hélène Boucher's speed record of 445km/h"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board6_1.qml:55
 msgctxt "board6_1|"
-msgid "1934 Hélène Boucher's speed record of 445km/h"
+msgid "1947 Chuck Yeager breaks the sound-barrier"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4857,13 +4925,13 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board6_2.qml:39
 msgctxt "board6_2|"
-msgid "1878 Amédée Bollée's La Mancelle"
+msgid "1769 Cugnot's fardier"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/chronos/resource/board/board6_2.qml:47
 msgctxt "board6_2|"
-msgid "1769 Cugnot's fardier"
+msgid "1878 Amédée Bollée's La Mancelle"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6197,7 +6265,7 @@ msgid "Find a picture detail in the sidebar, and drag it to the right spot on th
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/details/ActivityInfo.qml:27
+#: activities/details/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid "The images are from Wikimedia Commons."
 msgstr ""
@@ -10388,347 +10456,347 @@ msgctxt "board10_0|"
 msgid "Washington"
 msgstr ""
 
-#. State of America: Oregon
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:31
-msgctxt "board10_0|"
-msgid "Oregon"
-msgstr ""
-
-#. State of America: Idaho
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:38
-msgctxt "board10_0|"
-msgid "Idaho"
-msgstr ""
-
 #. State of America: Montana
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:45
+#: activities/geo-country/resource/board/board10_0.qml:31
 msgctxt "board10_0|"
 msgid "Montana"
 msgstr ""
 
 #. State of America: North Dakota
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:52
+#: activities/geo-country/resource/board/board10_0.qml:38
 msgctxt "board10_0|"
 msgid "North Dakota"
 msgstr ""
 
-#. State of America: South Dakota
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:59
-msgctxt "board10_0|"
-msgid "South Dakota"
-msgstr ""
-
-#. State of America: Nebraska
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:66
-msgctxt "board10_0|"
-msgid "Nebraska"
-msgstr ""
-
-#. State of America: Kansas
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:73
-msgctxt "board10_0|"
-msgid "Kansas"
-msgstr ""
-
-#. State of America: Colorado
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:80
-msgctxt "board10_0|"
-msgid "Colorado"
-msgstr ""
-
-#. State of America: New Mexico
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:87
-msgctxt "board10_0|"
-msgid "New Mexico"
-msgstr ""
-
-#. State of America: Arizona
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:94
-msgctxt "board10_0|"
-msgid "Arizona"
-msgstr ""
-
-#. State of America: Alaska
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:101
-msgctxt "board10_0|"
-msgid "Alaska"
-msgstr ""
-
-#. State of America: Hawaii
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:108
-msgctxt "board10_0|"
-msgid "Hawaii"
-msgstr ""
-
-#. State of America: Texas
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:115
-msgctxt "board10_0|"
-msgid "Texas"
-msgstr ""
-
-#. State of America: Oklahoma
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:122
-msgctxt "board10_0|"
-msgid "Oklahoma"
-msgstr ""
-
 #. State of America: Minnesota
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:129
+#: activities/geo-country/resource/board/board10_0.qml:45
 msgctxt "board10_0|"
 msgid "Minnesota"
 msgstr ""
 
-#. State of America: Iowa
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:136
-msgctxt "board10_0|"
-msgid "Iowa"
-msgstr ""
-
-#. State of America: Missouri
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:143
-msgctxt "board10_0|"
-msgid "Missouri"
-msgstr ""
-
-#. State of America: Arkansas
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:150
-msgctxt "board10_0|"
-msgid "Arkansas"
-msgstr ""
-
-#. State of America: Louisiana
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:157
-msgctxt "board10_0|"
-msgid "Louisiana"
-msgstr ""
-
-#. State of America: Mississippi
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:164
-msgctxt "board10_0|"
-msgid "Mississippi"
-msgstr ""
-
-#. State of America: Tennessee
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:171
-msgctxt "board10_0|"
-msgid "Tennessee"
-msgstr ""
-
-#. State of America: Kentucky
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:178
-msgctxt "board10_0|"
-msgid "Kentucky"
-msgstr ""
-
-#. State of America: Indiana
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:185
-msgctxt "board10_0|"
-msgid "Indiana"
-msgstr ""
-
-#. State of America: Illinois
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:192
-msgctxt "board10_0|"
-msgid "Illinois"
-msgstr ""
-
 #. State of America: Wisconsin
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:199
+#: activities/geo-country/resource/board/board10_0.qml:52
 msgctxt "board10_0|"
 msgid "Wisconsin"
 msgstr ""
 
 #. State of America: Michigan
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:206
+#: activities/geo-country/resource/board/board10_0.qml:59
 msgctxt "board10_0|"
 msgid "Michigan"
 msgstr ""
 
-#. State of America: Ohio
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:213
-msgctxt "board10_0|"
-msgid "Ohio"
-msgstr ""
-
-#. State of America: West Virginia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:220
-msgctxt "board10_0|"
-msgid "West Virginia"
-msgstr ""
-
-#. State of America: Virginia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:227
-msgctxt "board10_0|"
-msgid "Virginia"
-msgstr ""
-
-#. State of America: North Carolina
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:234
-msgctxt "board10_0|"
-msgid "North Carolina"
-msgstr ""
-
-#. State of America: South Carolina
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:241
-msgctxt "board10_0|"
-msgid "South Carolina"
-msgstr ""
-
-#. State of America: Georgia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:248
-msgctxt "board10_0|"
-msgid "Georgia"
-msgstr ""
-
-#. State of America: Florida
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:255
-msgctxt "board10_0|"
-msgid "Florida"
-msgstr ""
-
-#. State of America: Alabama
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:262
-msgctxt "board10_0|"
-msgid "Alabama"
-msgstr ""
-
-#. State of America: Maryland
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:269
-msgctxt "board10_0|"
-msgid "Maryland"
-msgstr ""
-
-#. State of America: New Jersey
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:276
-msgctxt "board10_0|"
-msgid "New Jersey"
-msgstr ""
-
-#. State of America: Delaware
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:283
-msgctxt "board10_0|"
-msgid "Delaware"
-msgstr ""
-
-#. State of America: Pennsylvania
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:290
-msgctxt "board10_0|"
-msgid "Pennsylvania"
-msgstr ""
-
 #. State of America: New York
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:297
+#: activities/geo-country/resource/board/board10_0.qml:66
 msgctxt "board10_0|"
 msgid "New York"
 msgstr ""
 
 #. State of America: Vermont
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:304
+#: activities/geo-country/resource/board/board10_0.qml:73
 msgctxt "board10_0|"
 msgid "Vermont"
 msgstr ""
 
 #. State of America: New Hampshire
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:311
+#: activities/geo-country/resource/board/board10_0.qml:80
 msgctxt "board10_0|"
 msgid "New Hampshire"
 msgstr ""
 
 #. State of America: Maine
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:318
+#: activities/geo-country/resource/board/board10_0.qml:87
 msgctxt "board10_0|"
 msgid "Maine"
 msgstr ""
 
-#. State of America: California
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:325
-msgctxt "board10_0|"
-msgid "California"
-msgstr ""
-
-#. State of America: Nevada
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:332
-msgctxt "board10_0|"
-msgid "Nevada"
-msgstr ""
-
-#. State of America: Utah
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:339
-msgctxt "board10_0|"
-msgid "Utah"
-msgstr ""
-
-#. State of America: Wyoming
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:346
-msgctxt "board10_0|"
-msgid "Wyoming"
-msgstr ""
-
 #. State of America: Massachusetts
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:353
+#: activities/geo-country/resource/board/board10_0.qml:94
 msgctxt "board10_0|"
 msgid "Massachusetts"
 msgstr ""
 
 #. State of America: Rhode Island
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:360
+#: activities/geo-country/resource/board/board10_0.qml:101
 msgctxt "board10_0|"
 msgid "Rhode Island"
 msgstr ""
 
 #. State of America: Connecticut
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board10_0.qml:367
+#: activities/geo-country/resource/board/board10_0.qml:108
 msgctxt "board10_0|"
 msgid "Connecticut"
+msgstr ""
+
+#. State of America: Oregon
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:115
+msgctxt "board10_0|"
+msgid "Oregon"
+msgstr ""
+
+#. State of America: Idaho
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:122
+msgctxt "board10_0|"
+msgid "Idaho"
+msgstr ""
+
+#. State of America: Wyoming
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:129
+msgctxt "board10_0|"
+msgid "Wyoming"
+msgstr ""
+
+#. State of America: South Dakota
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:136
+msgctxt "board10_0|"
+msgid "South Dakota"
+msgstr ""
+
+#. State of America: Nebraska
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:143
+msgctxt "board10_0|"
+msgid "Nebraska"
+msgstr ""
+
+#. State of America: Iowa
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:150
+msgctxt "board10_0|"
+msgid "Iowa"
+msgstr ""
+
+#. State of America: Illinois
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:157
+msgctxt "board10_0|"
+msgid "Illinois"
+msgstr ""
+
+#. State of America: Indiana
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:164
+msgctxt "board10_0|"
+msgid "Indiana"
+msgstr ""
+
+#. State of America: Ohio
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:171
+msgctxt "board10_0|"
+msgid "Ohio"
+msgstr ""
+
+#. State of America: Pennsylvania
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:178
+msgctxt "board10_0|"
+msgid "Pennsylvania"
+msgstr ""
+
+#. State of America: New Jersey
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:185
+msgctxt "board10_0|"
+msgid "New Jersey"
+msgstr ""
+
+#. State of America: Delaware
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:192
+msgctxt "board10_0|"
+msgid "Delaware"
+msgstr ""
+
+#. State of America: California
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:199
+msgctxt "board10_0|"
+msgid "California"
+msgstr ""
+
+#. State of America: Nevada
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:206
+msgctxt "board10_0|"
+msgid "Nevada"
+msgstr ""
+
+#. State of America: Utah
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:213
+msgctxt "board10_0|"
+msgid "Utah"
+msgstr ""
+
+#. State of America: Colorado
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:220
+msgctxt "board10_0|"
+msgid "Colorado"
+msgstr ""
+
+#. State of America: Kansas
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:227
+msgctxt "board10_0|"
+msgid "Kansas"
+msgstr ""
+
+#. State of America: Missouri
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:234
+msgctxt "board10_0|"
+msgid "Missouri"
+msgstr ""
+
+#. State of America: Kentucky
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:241
+msgctxt "board10_0|"
+msgid "Kentucky"
+msgstr ""
+
+#. State of America: West Virginia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:248
+msgctxt "board10_0|"
+msgid "West Virginia"
+msgstr ""
+
+#. State of America: Virginia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:255
+msgctxt "board10_0|"
+msgid "Virginia"
+msgstr ""
+
+#. State of America: Maryland
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:262
+msgctxt "board10_0|"
+msgid "Maryland"
+msgstr ""
+
+#. State of America: Arizona
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:269
+msgctxt "board10_0|"
+msgid "Arizona"
+msgstr ""
+
+#. State of America: New Mexico
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:276
+msgctxt "board10_0|"
+msgid "New Mexico"
+msgstr ""
+
+#. State of America: Oklahoma
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:283
+msgctxt "board10_0|"
+msgid "Oklahoma"
+msgstr ""
+
+#. State of America: Arkansas
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:290
+msgctxt "board10_0|"
+msgid "Arkansas"
+msgstr ""
+
+#. State of America: Tennessee
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:297
+msgctxt "board10_0|"
+msgid "Tennessee"
+msgstr ""
+
+#. State of America: North Carolina
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:304
+msgctxt "board10_0|"
+msgid "North Carolina"
+msgstr ""
+
+#. State of America: South Carolina
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:311
+msgctxt "board10_0|"
+msgid "South Carolina"
+msgstr ""
+
+#. State of America: Georgia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:318
+msgctxt "board10_0|"
+msgid "Georgia"
+msgstr ""
+
+#. State of America: Alabama
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:325
+msgctxt "board10_0|"
+msgid "Alabama"
+msgstr ""
+
+#. State of America: Mississippi
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:332
+msgctxt "board10_0|"
+msgid "Mississippi"
+msgstr ""
+
+#. State of America: Louisiana
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:339
+msgctxt "board10_0|"
+msgid "Louisiana"
+msgstr ""
+
+#. State of America: Texas
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:346
+msgctxt "board10_0|"
+msgid "Texas"
+msgstr ""
+
+#. State of America: Florida
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:353
+msgctxt "board10_0|"
+msgid "Florida"
+msgstr ""
+
+#. State of America: Alaska
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:360
+msgctxt "board10_0|"
+msgid "Alaska"
+msgstr ""
+
+#. State of America: Hawaii
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board10_0.qml:367
+msgctxt "board10_0|"
+msgid "Hawaii"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -10737,11 +10805,11 @@ msgctxt "board11_0|"
 msgid "Regions of Italy"
 msgstr ""
 
-#. Region of Italy: Liguria
+#. Region of Italy: Aosta Valley
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board11_0.qml:24
 msgctxt "board11_0|"
-msgid "Liguria"
+msgid "Aosta Valley"
 msgstr ""
 
 #. Region of Italy: Piedmont
@@ -10751,39 +10819,39 @@ msgctxt "board11_0|"
 msgid "Piedmont"
 msgstr ""
 
-#. Region of Italy: Aosta Valley
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board11_0.qml:38
-msgctxt "board11_0|"
-msgid "Aosta Valley"
-msgstr ""
-
 #. Region of Italy: Lombardy
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board11_0.qml:45
+#: activities/geo-country/resource/board/board11_0.qml:38
 msgctxt "board11_0|"
 msgid "Lombardy"
 msgstr ""
 
 #. Region of Italy: Trentino-South Tyrol
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board11_0.qml:52
+#: activities/geo-country/resource/board/board11_0.qml:45
 msgctxt "board11_0|"
 msgid "Trentino-South Tyrol"
 msgstr ""
 
 #. Region of Italy: Veneto
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board11_0.qml:59
+#: activities/geo-country/resource/board/board11_0.qml:52
 msgctxt "board11_0|"
 msgid "Veneto"
 msgstr ""
 
 #. Region of Italy: Friuli Venezia Giulia
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board11_0.qml:66
+#: activities/geo-country/resource/board/board11_0.qml:59
 msgctxt "board11_0|"
 msgid "Friuli Venezia Giulia"
+msgstr ""
+
+#. Region of Italy: Liguria
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board11_0.qml:66
+msgctxt "board11_0|"
+msgid "Liguria"
 msgstr ""
 
 #. Region of Italy: Emilia-Romagna
@@ -10856,25 +10924,25 @@ msgctxt "board11_0|"
 msgid "Basilicata"
 msgstr ""
 
-#. Region of Italy: Calabria
+#. Region of Italy: Sardinia
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board11_0.qml:143
+msgctxt "board11_0|"
+msgid "Sardinia"
+msgstr ""
+
+#. Region of Italy: Calabria
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board11_0.qml:150
 msgctxt "board11_0|"
 msgid "Calabria"
 msgstr ""
 
 #. Region of Italy: Sicily
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board11_0.qml:150
-msgctxt "board11_0|"
-msgid "Sicily"
-msgstr ""
-
-#. Region of Italy: Sardinia
-#. +> trunk6 stable6
 #: activities/geo-country/resource/board/board11_0.qml:157
 msgctxt "board11_0|"
-msgid "Sardinia"
+msgid "Sicily"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -10883,254 +10951,254 @@ msgctxt "board12_0|"
 msgid "States and Union Territories of India"
 msgstr ""
 
-#. State of India: Himachal Pradesh
+#. Union Territory of India: Ladakh
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board12_0.qml:24
+msgctxt "board12_0|"
+msgid "Ladakh"
+msgstr ""
+
+#. Union Territory of India: Jammu and Kashmir
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:31
+msgctxt "board12_0|"
+msgid "Jammu and Kashmir"
+msgstr ""
+
+#. State of India: Himachal Pradesh
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:38
 msgctxt "board12_0|"
 msgid "Himachal Pradesh"
 msgstr ""
 
 #. State of India: Punjab
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:31
+#: activities/geo-country/resource/board/board12_0.qml:45
 msgctxt "board12_0|"
 msgid "Punjab"
 msgstr ""
 
 #. State of India: Uttarakhand
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:38
+#: activities/geo-country/resource/board/board12_0.qml:52
 msgctxt "board12_0|"
 msgid "Uttarakhand"
 msgstr ""
 
+#. State of India: Haryana
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:59
+msgctxt "board12_0|"
+msgid "Haryana"
+msgstr ""
+
+#. Union Territory of India: Delhi
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:66
+msgctxt "board12_0|"
+msgid "Delhi"
+msgstr ""
+
+#. State of India: Sikkim
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:73
+msgctxt "board12_0|"
+msgid "Sikkim"
+msgstr ""
+
+#. State of India: Arunachal Pradesh
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:80
+msgctxt "board12_0|"
+msgid "Arunachal Pradesh"
+msgstr ""
+
 #. State of India: Rajasthan
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:45
+#: activities/geo-country/resource/board/board12_0.qml:87
 msgctxt "board12_0|"
 msgid "Rajasthan"
 msgstr ""
 
 #. State of India: Uttar Pradesh
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:52
+#: activities/geo-country/resource/board/board12_0.qml:94
 msgctxt "board12_0|"
 msgid "Uttar Pradesh"
 msgstr ""
 
 #. State of India: Bihar
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:59
+#: activities/geo-country/resource/board/board12_0.qml:101
 msgctxt "board12_0|"
 msgid "Bihar"
 msgstr ""
 
+#. State of India: Assam
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:108
+msgctxt "board12_0|"
+msgid "Assam"
+msgstr ""
+
+#. State of India: Nagaland
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:115
+msgctxt "board12_0|"
+msgid "Nagaland"
+msgstr ""
+
+#. State of India: Meghalaya
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:122
+msgctxt "board12_0|"
+msgid "Meghalaya"
+msgstr ""
+
+#. State of India: Manipur
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:129
+msgctxt "board12_0|"
+msgid "Manipur"
+msgstr ""
+
+#. State of India: Tripura
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:136
+msgctxt "board12_0|"
+msgid "Tripura"
+msgstr ""
+
+#. State of India: Mizoram
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:143
+msgctxt "board12_0|"
+msgid "Mizoram"
+msgstr ""
+
 #. State of India: Gujarat
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:66
+#: activities/geo-country/resource/board/board12_0.qml:150
 msgctxt "board12_0|"
 msgid "Gujarat"
 msgstr ""
 
-#. State of India: Haryana
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:73
-msgctxt "board12_0|"
-msgid "Haryana"
-msgstr ""
-
 #. State of India: Madhya Pradesh
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:80
+#: activities/geo-country/resource/board/board12_0.qml:157
 msgctxt "board12_0|"
 msgid "Madhya Pradesh"
 msgstr ""
 
 #. State of India: Jharkhand
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:87
+#: activities/geo-country/resource/board/board12_0.qml:164
 msgctxt "board12_0|"
 msgid "Jharkhand"
 msgstr ""
 
-#. State of India: Maharashtra
+#. State of India: West Bengal
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:94
+#: activities/geo-country/resource/board/board12_0.qml:171
 msgctxt "board12_0|"
-msgid "Maharashtra"
+msgid "West Bengal"
 msgstr ""
 
 #. State of India: Chhattisgarh
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:101
+#: activities/geo-country/resource/board/board12_0.qml:178
 msgctxt "board12_0|"
 msgid "Chhattisgarh"
 msgstr ""
 
+#. State of India: Odisha
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:185
+msgctxt "board12_0|"
+msgid "Odisha"
+msgstr ""
+
+#. State of India: Maharashtra
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:192
+msgctxt "board12_0|"
+msgid "Maharashtra"
+msgstr ""
+
+#. State of India: Telangana
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:199
+msgctxt "board12_0|"
+msgid "Telangana"
+msgstr ""
+
 #. State of India: Goa
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:108
+#: activities/geo-country/resource/board/board12_0.qml:206
 msgctxt "board12_0|"
 msgid "Goa"
 msgstr ""
 
 #. State of India: Karnataka
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:115
+#: activities/geo-country/resource/board/board12_0.qml:213
 msgctxt "board12_0|"
 msgid "Karnataka"
 msgstr ""
 
-#. State of India: Telangana
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:122
-msgctxt "board12_0|"
-msgid "Telangana"
-msgstr ""
-
 #. State of India: Andhra Pradesh
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:130
+#: activities/geo-country/resource/board/board12_0.qml:220
 msgctxt "board12_0|"
 msgid "Andhra Pradesh"
 msgstr ""
 
+#. Union Territory of India: Lakshadweep
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board12_0.qml:227
+msgctxt "board12_0|"
+msgid "Lakshadweep"
+msgstr ""
+
 #. State of India: Kerala
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:137
+#: activities/geo-country/resource/board/board12_0.qml:234
 msgctxt "board12_0|"
 msgid "Kerala"
 msgstr ""
 
 #. State of India: Tamil Nadu
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:144
+#: activities/geo-country/resource/board/board12_0.qml:241
 msgctxt "board12_0|"
 msgid "Tamil Nadu"
 msgstr ""
 
-#. State of India: West Bengal
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:151
-msgctxt "board12_0|"
-msgid "West Bengal"
-msgstr ""
-
-#. State of India: Sikkim
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:158
-msgctxt "board12_0|"
-msgid "Sikkim"
-msgstr ""
-
-#. State of India: Assam
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:165
-msgctxt "board12_0|"
-msgid "Assam"
-msgstr ""
-
-#. State of India: Arunachal Pradesh
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:172
-msgctxt "board12_0|"
-msgid "Arunachal Pradesh"
-msgstr ""
-
-#. State of India: Nagaland
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:179
-msgctxt "board12_0|"
-msgid "Nagaland"
-msgstr ""
-
-#. State of India: Odisha
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:186
-msgctxt "board12_0|"
-msgid "Odisha"
-msgstr ""
-
-#. State of India: Manipur
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:193
-msgctxt "board12_0|"
-msgid "Manipur"
-msgstr ""
-
-#. State of India: Mizoram
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:200
-msgctxt "board12_0|"
-msgid "Mizoram"
-msgstr ""
-
-#. State of India: Tripura
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:207
-msgctxt "board12_0|"
-msgid "Tripura"
-msgstr ""
-
-#. State of India: Meghalaya
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:214
-msgctxt "board12_0|"
-msgid "Meghalaya"
-msgstr ""
-
 #. Union Territory of India: Andaman and Nicobar Islands
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:221
+#: activities/geo-country/resource/board/board12_0.qml:248
 msgctxt "board12_0|"
 msgid "Andaman and Nicobar Islands"
 msgstr ""
 
-#. Union Territory of India: Delhi
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:228
-msgctxt "board12_0|"
-msgid "Delhi"
-msgstr ""
-
 #. Union Territory of India: Chandigarh
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:235
+#: activities/geo-country/resource/board/board12_0.qml:255
 msgctxt "board12_0|"
 msgid "Chandigarh"
 msgstr ""
 
 #. Union Territory of India: Dadra and Nagar Haveli and Daman and Diu
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:243
+#: activities/geo-country/resource/board/board12_0.qml:263
 msgctxt "board12_0|"
 msgid "Dadra and Nagar Haveli and Daman and Diu"
 msgstr ""
 
-#. Union Territory of India: Ladakh
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:251
-msgctxt "board12_0|"
-msgid "Ladakh"
-msgstr ""
-
-#. Union Territory of India: Lakshadweep
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:258
-msgctxt "board12_0|"
-msgid "Lakshadweep"
-msgstr ""
-
-#. Union Territory of India: Jammu and Kashmir
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:265
-msgctxt "board12_0|"
-msgid "Jammu and Kashmir"
-msgstr ""
-
 #. Union Territory of India: Puducherry
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board12_0.qml:272
+#: activities/geo-country/resource/board/board12_0.qml:271
 msgctxt "board12_0|"
 msgid "Puducherry"
 msgstr ""
@@ -11155,18 +11223,18 @@ msgctxt "board13_0|"
 msgid "Northern Territory"
 msgstr ""
 
-#. State of Australia: South Australia
+#. State of Australia: Queensland
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board13_0.qml:38
 msgctxt "board13_0|"
-msgid "South Australia"
+msgid "Queensland"
 msgstr ""
 
-#. State of Australia: Queensland
+#. State of Australia: South Australia
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board13_0.qml:45
 msgctxt "board13_0|"
-msgid "Queensland"
+msgid "South Australia"
 msgstr ""
 
 #. State of Australia: New South Wales
@@ -11176,25 +11244,25 @@ msgctxt "board13_0|"
 msgid "New South Wales"
 msgstr ""
 
-#. State of Australia: Victoria
+#. Territory of Australia: Australian Capital Territory
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board13_0.qml:59
+msgctxt "board13_0|"
+msgid "Australian Capital Territory"
+msgstr ""
+
+#. State of Australia: Victoria
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board13_0.qml:66
 msgctxt "board13_0|"
 msgid "Victoria"
 msgstr ""
 
 #. State of Australia: Tasmania
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board13_0.qml:66
-msgctxt "board13_0|"
-msgid "Tasmania"
-msgstr ""
-
-#. Territory of Australia: Australian Capital Territory
-#. +> trunk6 stable6
 #: activities/geo-country/resource/board/board13_0.qml:73
 msgctxt "board13_0|"
-msgid "Australian Capital Territory"
+msgid "Tasmania"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11210,25 +11278,25 @@ msgctxt "board14_0|"
 msgid "Xinjiang"
 msgstr ""
 
-#. Province of China: Gansu
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:31
-msgctxt "board14_0|"
-msgid "Gansu"
-msgstr ""
-
 #. Province of China: Inner Mongolia
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:38
+#: activities/geo-country/resource/board/board14_0.qml:31
 msgctxt "board14_0|"
 msgid "Inner Mongolia"
 msgstr ""
 
-#. Province of China: Ningxia
+#. Province of China: Liaoning
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board14_0.qml:38
+msgctxt "board14_0|"
+msgid "Liaoning"
+msgstr ""
+
+#. Province of China: Jilin
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:45
 msgctxt "board14_0|"
-msgid "Ningxia"
+msgid "Jilin"
 msgstr ""
 
 #. Province of China: Heilongjiang
@@ -11238,39 +11306,39 @@ msgctxt "board14_0|"
 msgid "Heilongjiang"
 msgstr ""
 
-#. Province of China: Jilin
+#. Province of China: Tibet
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:59
 msgctxt "board14_0|"
-msgid "Jilin"
+msgid "Tibet"
 msgstr ""
 
-#. Province of China: Liaoning
+#. Province of China: Qinghai
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:66
 msgctxt "board14_0|"
-msgid "Liaoning"
+msgid "Qinghai"
 msgstr ""
 
-#. Province of China: Tianjin
+#. Province of China: Gansu
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:73
 msgctxt "board14_0|"
-msgid "Tianjin"
+msgid "Gansu"
 msgstr ""
 
-#. Province of China: Beijing
+#. Province of China: Ningxia
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:80
 msgctxt "board14_0|"
-msgid "Beijing"
+msgid "Ningxia"
 msgstr ""
 
-#. Province of China: Shandong
+#. Province of China: Shaanxi
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:87
 msgctxt "board14_0|"
-msgid "Shandong"
+msgid "Shaanxi"
 msgstr ""
 
 #. Province of China: Shanxi
@@ -11280,95 +11348,95 @@ msgctxt "board14_0|"
 msgid "Shanxi"
 msgstr ""
 
-#. Province of China: Shaanxi
+#. Province of China: Hebei
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:101
 msgctxt "board14_0|"
-msgid "Shaanxi"
+msgid "Hebei"
 msgstr ""
 
-#. Province of China: Qinghai
+#. Province of China: Beijing
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:108
 msgctxt "board14_0|"
-msgid "Qinghai"
+msgid "Beijing"
 msgstr ""
 
-#. Province of China: Tibet
+#. Province of China: Tianjin
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:115
 msgctxt "board14_0|"
-msgid "Tibet"
+msgid "Tianjin"
+msgstr ""
+
+#. Province of China: Shandong
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board14_0.qml:122
+msgctxt "board14_0|"
+msgid "Shandong"
+msgstr ""
+
+#. Province of China: Henan
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board14_0.qml:129
+msgctxt "board14_0|"
+msgid "Henan"
 msgstr ""
 
 #. Province of China: Sichuan
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:122
+#: activities/geo-country/resource/board/board14_0.qml:136
 msgctxt "board14_0|"
 msgid "Sichuan"
 msgstr ""
 
 #. Province of China: Chongqing
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:129
+#: activities/geo-country/resource/board/board14_0.qml:143
 msgctxt "board14_0|"
 msgid "Chongqing"
 msgstr ""
 
-#. Province of China: Henan
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:136
-msgctxt "board14_0|"
-msgid "Henan"
-msgstr ""
-
-#. Province of China: Jiangsu
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:143
-msgctxt "board14_0|"
-msgid "Jiangsu"
-msgstr ""
-
-#. Province of China: Anhui
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:150
-msgctxt "board14_0|"
-msgid "Anhui"
-msgstr ""
-
 #. Province of China: Hubei
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:157
+#: activities/geo-country/resource/board/board14_0.qml:150
 msgctxt "board14_0|"
 msgid "Hubei"
 msgstr ""
 
-#. Province of China: Shanghai
+#. Province of China: Anhui
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board14_0.qml:157
+msgctxt "board14_0|"
+msgid "Anhui"
+msgstr ""
+
+#. Province of China: Jiangsu
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:164
+msgctxt "board14_0|"
+msgid "Jiangsu"
+msgstr ""
+
+#. Province of China: Shanghai
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board14_0.qml:171
 msgctxt "board14_0|"
 msgid "Shanghai"
 msgstr ""
 
-#. Province of China: Zhejiang
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:171
-msgctxt "board14_0|"
-msgid "Zhejiang"
-msgstr ""
-
-#. Province of China: Fujian
+#. Province of China: Yunnan
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:178
 msgctxt "board14_0|"
-msgid "Fujian"
+msgid "Yunnan"
 msgstr ""
 
-#. Province of China: Jiangxi
+#. Province of China: Guizhou
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:185
 msgctxt "board14_0|"
-msgid "Jiangxi"
+msgid "Guizhou"
 msgstr ""
 
 #. Province of China: Hunan
@@ -11378,46 +11446,46 @@ msgctxt "board14_0|"
 msgid "Hunan"
 msgstr ""
 
-#. Province of China: Guizhou
+#. Province of China: Jiangxi
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:199
 msgctxt "board14_0|"
-msgid "Guizhou"
+msgid "Jiangxi"
 msgstr ""
 
-#. Province of China: Yunnan
+#. Province of China: Fujian
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:206
 msgctxt "board14_0|"
-msgid "Yunnan"
+msgid "Fujian"
+msgstr ""
+
+#. Province of China: Zhejiang
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board14_0.qml:213
+msgctxt "board14_0|"
+msgid "Zhejiang"
 msgstr ""
 
 #. Province of China: Guangxi
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:213
+#: activities/geo-country/resource/board/board14_0.qml:220
 msgctxt "board14_0|"
 msgid "Guangxi"
 msgstr ""
 
 #. Province of China: Guangdong
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:220
+#: activities/geo-country/resource/board/board14_0.qml:227
 msgctxt "board14_0|"
 msgid "Guangdong"
 msgstr ""
 
 #. Province of China: Hainan
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board14_0.qml:227
-msgctxt "board14_0|"
-msgid "Hainan"
-msgstr ""
-
-#. Province of China: Hebei
-#. +> trunk6 stable6
 #: activities/geo-country/resource/board/board14_0.qml:234
 msgctxt "board14_0|"
-msgid "Hebei"
+msgid "Hainan"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11426,53 +11494,53 @@ msgctxt "board15_0|"
 msgid "Council areas of Scotland (North)"
 msgstr ""
 
-#. Council area of Scotland: Aberdeenshire
+#. Council area of Scotland: Shetland Islands
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board15_0.qml:25
+msgctxt "board15_0|"
+msgid "Shetland Islands"
+msgstr ""
+
+#. Council area of Scotland: Orkney Islands
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_0.qml:32
+msgctxt "board15_0|"
+msgid "Orkney Islands"
+msgstr ""
+
+#. Council area of Scotland: Na h-Eileanan Siar
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_0.qml:39
+msgctxt "board15_0|"
+msgid "Na h-Eileanan Siar"
+msgstr ""
+
+#. Council area of Scotland: Highland
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_0.qml:46
+msgctxt "board15_0|"
+msgid "Highland"
+msgstr ""
+
+#. Council area of Scotland: Moray
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_0.qml:53
+msgctxt "board15_0|"
+msgid "Moray"
+msgstr ""
+
+#. Council area of Scotland: Aberdeenshire
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_0.qml:60
 msgctxt "board15_0|"
 msgid "Aberdeenshire"
 msgstr ""
 
 #. Council area of Scotland: Aberdeen
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_0.qml:32
-msgctxt "board15_0|"
-msgid "Aberdeen"
-msgstr ""
-
-#. Council area of Scotland: Moray
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_0.qml:39
-msgctxt "board15_0|"
-msgid "Moray"
-msgstr ""
-
-#. Council area of Scotland: Na h-Eileanan Siar
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_0.qml:46
-msgctxt "board15_0|"
-msgid "Na h-Eileanan Siar"
-msgstr ""
-
-#. Council area of Scotland: Orkney Islands
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_0.qml:53
-msgctxt "board15_0|"
-msgid "Orkney Islands"
-msgstr ""
-
-#. Council area of Scotland: Shetland Islands
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_0.qml:60
-msgctxt "board15_0|"
-msgid "Shetland Islands"
-msgstr ""
-
-#. Council area of Scotland: Highland
-#. +> trunk6 stable6
 #: activities/geo-country/resource/board/board15_0.qml:67
 msgctxt "board15_0|"
-msgid "Highland"
+msgid "Aberdeen"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11488,172 +11556,172 @@ msgctxt "board15_1|"
 msgid "Angus"
 msgstr ""
 
-#. Council area of Scotland: Dundee
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:31
-msgctxt "board15_1|"
-msgid "Dundee"
-msgstr ""
-
 #. Council area of Scotland: Perth and Kinross
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:38
+#: activities/geo-country/resource/board/board15_1.qml:31
 msgctxt "board15_1|"
 msgid "Perth and Kinross"
 msgstr ""
 
-#. Council area of Scotland: Stirling
+#. Council area of Scotland: Dundee
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:45
+#: activities/geo-country/resource/board/board15_1.qml:38
 msgctxt "board15_1|"
-msgid "Stirling"
+msgid "Dundee"
 msgstr ""
 
 #. Council area of Scotland: Argyll and Bute
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:52
+#: activities/geo-country/resource/board/board15_1.qml:45
 msgctxt "board15_1|"
 msgid "Argyll and Bute"
 msgstr ""
 
-#. Council area of Scotland: Fife
+#. Council area of Scotland: Stirling
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_1.qml:52
+msgctxt "board15_1|"
+msgid "Stirling"
+msgstr ""
+
+#. Council areas of Scotland: Clackmannanshire
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board15_1.qml:59
+msgctxt "board15_1|"
+msgid "Clackmannanshire"
+msgstr ""
+
+#. Council area of Scotland: Fife
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_1.qml:66
 msgctxt "board15_1|"
 msgid "Fife"
 msgstr ""
 
-#. Council areas of Scotland: Scottish Borders
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:66
-msgctxt "board15_1|"
-msgid "Scottish Borders"
-msgstr ""
-
-#. Council areas of Scotland: East Lothian
+#. Council areas of Scotland: West Dunbartonshire
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board15_1.qml:73
 msgctxt "board15_1|"
-msgid "East Lothian"
+msgid "West Dunbartonshire"
 msgstr ""
 
-#. Council areas of Scotland: Midlothian
+#. Council areas of Scotland: East Dunbartonshire
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board15_1.qml:80
 msgctxt "board15_1|"
-msgid "Midlothian"
+msgid "East Dunbartonshire"
+msgstr ""
+
+#. Council areas of Scotland: Falkirk
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_1.qml:87
+msgctxt "board15_1|"
+msgid "Falkirk"
+msgstr ""
+
+#. Council areas of Scotland: Inverclyde
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_1.qml:94
+msgctxt "board15_1|"
+msgid "Inverclyde"
+msgstr ""
+
+#. Council areas of Scotland: Renfrewshire
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_1.qml:101
+msgctxt "board15_1|"
+msgid "Renfrewshire"
+msgstr ""
+
+#. Council areas of Scotland: East Renfrewshire
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_1.qml:108
+msgctxt "board15_1|"
+msgid "East Renfrewshire"
+msgstr ""
+
+#. Council areas of Scotland: Glasgow
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_1.qml:115
+msgctxt "board15_1|"
+msgid "Glasgow"
+msgstr ""
+
+#. Council areas of Scotland: North Lanarkshire
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board15_1.qml:122
+msgctxt "board15_1|"
+msgid "North Lanarkshire"
 msgstr ""
 
 #. Council areas of Scotland: West Lothian
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:87
+#: activities/geo-country/resource/board/board15_1.qml:129
 msgctxt "board15_1|"
 msgid "West Lothian"
 msgstr ""
 
 #. Council areas of Scotland: Edinburgh
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:94
+#: activities/geo-country/resource/board/board15_1.qml:136
 msgctxt "board15_1|"
 msgid "Edinburgh"
 msgstr ""
 
-#. Council areas of Scotland: Falkirk
+#. Council areas of Scotland: Midlothian
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:101
+#: activities/geo-country/resource/board/board15_1.qml:143
 msgctxt "board15_1|"
-msgid "Falkirk"
+msgid "Midlothian"
 msgstr ""
 
-#. Council areas of Scotland: South Lanarkshire
+#. Council areas of Scotland: East Lothian
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:108
+#: activities/geo-country/resource/board/board15_1.qml:150
 msgctxt "board15_1|"
-msgid "South Lanarkshire"
+msgid "East Lothian"
 msgstr ""
 
-#. Council areas of Scotland: North Lanarkshire
+#. Council areas of Scotland: North Ayrshire
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:115
+#: activities/geo-country/resource/board/board15_1.qml:157
 msgctxt "board15_1|"
-msgid "North Lanarkshire"
-msgstr ""
-
-#. Council areas of Scotland: Dumfries and Galloway
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:122
-msgctxt "board15_1|"
-msgid "Dumfries and Galloway"
+msgid "North Ayrshire"
 msgstr ""
 
 #. Council areas of Scotland: South Ayrshire
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:129
+#: activities/geo-country/resource/board/board15_1.qml:164
 msgctxt "board15_1|"
 msgid "South Ayrshire"
 msgstr ""
 
 #. Council areas of Scotland: East Ayrshire
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:136
+#: activities/geo-country/resource/board/board15_1.qml:171
 msgctxt "board15_1|"
 msgid "East Ayrshire"
 msgstr ""
 
-#. Council areas of Scotland: Glasgow
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:143
-msgctxt "board15_1|"
-msgid "Glasgow"
-msgstr ""
-
-#. Council areas of Scotland: East Dunbartonshire
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:150
-msgctxt "board15_1|"
-msgid "East Dunbartonshire"
-msgstr ""
-
-#. Council areas of Scotland: West Dunbartonshire
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:157
-msgctxt "board15_1|"
-msgid "West Dunbartonshire"
-msgstr ""
-
-#. Council areas of Scotland: East Renfrewshire
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:164
-msgctxt "board15_1|"
-msgid "East Renfrewshire"
-msgstr ""
-
-#. Council areas of Scotland: Renfrewshire
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board15_1.qml:171
-msgctxt "board15_1|"
-msgid "Renfrewshire"
-msgstr ""
-
-#. Council areas of Scotland: Inverclyde
+#. Council areas of Scotland: South Lanarkshire
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board15_1.qml:178
 msgctxt "board15_1|"
-msgid "Inverclyde"
+msgid "South Lanarkshire"
 msgstr ""
 
-#. Council areas of Scotland: North Ayrshire
+#. Council areas of Scotland: Scottish Borders
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board15_1.qml:185
 msgctxt "board15_1|"
-msgid "North Ayrshire"
+msgid "Scottish Borders"
 msgstr ""
 
-#. Council areas of Scotland: Clackmannanshire
+#. Council areas of Scotland: Dumfries and Galloway
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board15_1.qml:192
 msgctxt "board15_1|"
-msgid "Clackmannanshire"
+msgid "Dumfries and Galloway"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11662,67 +11730,67 @@ msgctxt "board16_0|"
 msgid "Historical regions of Romania"
 msgstr ""
 
-#. Historical Region of Romania: Oltenia
+#. Historical Region of Romania: Maramureș
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board16_0.qml:24
+msgctxt "board16_0|"
+msgid "Maramureș"
+msgstr ""
+
+#. Historical Region of Romania: Bukovina
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board16_0.qml:31
+msgctxt "board16_0|"
+msgid "Bukovina"
+msgstr ""
+
+#. Historical Region of Romania: Crișana
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board16_0.qml:38
+msgctxt "board16_0|"
+msgid "Crișana"
+msgstr ""
+
+#. Historical Region of Romania: Transylvania
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board16_0.qml:45
+msgctxt "board16_0|"
+msgid "Transylvania"
+msgstr ""
+
+#. Historical Region of Romania: Moldavia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board16_0.qml:52
+msgctxt "board16_0|"
+msgid "Moldavia"
+msgstr ""
+
+#. Historical Region of Romania: Banat
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board16_0.qml:59
+msgctxt "board16_0|"
+msgid "Banat"
+msgstr ""
+
+#. Historical Region of Romania: Oltenia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board16_0.qml:66
 msgctxt "board16_0|"
 msgid "Oltenia"
 msgstr ""
 
 #. Historical Region of Romania: Muntenia
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board16_0.qml:31
+#: activities/geo-country/resource/board/board16_0.qml:73
 msgctxt "board16_0|"
 msgid "Muntenia"
 msgstr ""
 
 #. Historical Region of Romania: Northern Dobruja
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board16_0.qml:38
-msgctxt "board16_0|"
-msgid "Northern Dobruja"
-msgstr ""
-
-#. Historical Region of Romania: Moldavia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board16_0.qml:45
-msgctxt "board16_0|"
-msgid "Moldavia"
-msgstr ""
-
-#. Historical Region of Romania: Bukovina
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board16_0.qml:52
-msgctxt "board16_0|"
-msgid "Bukovina"
-msgstr ""
-
-#. Historical Region of Romania: Transylvania
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board16_0.qml:59
-msgctxt "board16_0|"
-msgid "Transylvania"
-msgstr ""
-
-#. Historical Region of Romania: Maramureș
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board16_0.qml:66
-msgctxt "board16_0|"
-msgid "Maramureș"
-msgstr ""
-
-#. Historical Region of Romania: Crișana
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board16_0.qml:73
-msgctxt "board16_0|"
-msgid "Crișana"
-msgstr ""
-
-#. Historical Region of Romania: Banat
-#. +> trunk6 stable6
 #: activities/geo-country/resource/board/board16_0.qml:80
 msgctxt "board16_0|"
-msgid "Banat"
+msgid "Northern Dobruja"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11731,39 +11799,39 @@ msgctxt "board17_0|"
 msgid "Cultural regions of Lithuania"
 msgstr ""
 
-#. Cultural region of Lithuania: Aukštaitija
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board17_0.qml:24
-msgctxt "board17_0|"
-msgid "Aukštaitija"
-msgstr ""
-
-#. Cultural region of Lithuania: Dzūkija
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board17_0.qml:31
-msgctxt "board17_0|"
-msgid "Dzūkija"
-msgstr ""
-
 #. Cultural region of Lithuania: Lithuania Minor
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board17_0.qml:38
+#: activities/geo-country/resource/board/board17_0.qml:24
 msgctxt "board17_0|"
 msgid "Lithuania Minor"
 msgstr ""
 
 #. Cultural region of Lithuania: Samogitia
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board17_0.qml:45
+#: activities/geo-country/resource/board/board17_0.qml:31
 msgctxt "board17_0|"
 msgid "Samogitia"
 msgstr ""
 
+#. Cultural region of Lithuania: Aukštaitija
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board17_0.qml:38
+msgctxt "board17_0|"
+msgid "Aukštaitija"
+msgstr ""
+
 #. Cultural region of Lithuania: Suvalkija
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board17_0.qml:45
+msgctxt "board17_0|"
+msgid "Suvalkija"
+msgstr ""
+
+#. Cultural region of Lithuania: Dzūkija
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board17_0.qml:52
 msgctxt "board17_0|"
-msgid "Suvalkija"
+msgid "Dzūkija"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11772,137 +11840,137 @@ msgctxt "board18_0|"
 msgid "Autonomous communities or cities of Spain"
 msgstr ""
 
-#. Autonomous communities of Spain: Andalusia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:22
-msgctxt "board18_0|"
-msgid "Andalusia"
-msgstr ""
-
-#. Autonomous communities of Spain: Madrid
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:29
-msgctxt "board18_0|"
-msgid "Madrid"
-msgstr ""
-
 #. Autonomous communities of Spain: Galicia
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:36
+#: activities/geo-country/resource/board/board18_0.qml:22
 msgctxt "board18_0|"
 msgid "Galicia"
 msgstr ""
 
-#. Autonomous communities of Spain: Castile and León
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:43
-msgctxt "board18_0|"
-msgid "Castile and León"
-msgstr ""
-
-#. Autonomous communities of Spain: Castilla-La Mancha
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:50
-msgctxt "board18_0|"
-msgid "Castilla-La Mancha"
-msgstr ""
-
-#. Autonomous communities of Spain: Catalonia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:57
-msgctxt "board18_0|"
-msgid "Catalonia"
-msgstr ""
-
-#. Autonomous communities of Spain: Aragon
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:64
-msgctxt "board18_0|"
-msgid "Aragon"
-msgstr ""
-
-#. Autonomous communities of Spain: Valencia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:71
-msgctxt "board18_0|"
-msgid "Valencia"
-msgstr ""
-
-#. Autonomous communities of Spain: Murcia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:78
-msgctxt "board18_0|"
-msgid "Murcia"
-msgstr ""
-
 #. Autonomous communities of Spain: Asturias
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:85
+#: activities/geo-country/resource/board/board18_0.qml:29
 msgctxt "board18_0|"
 msgid "Asturias"
 msgstr ""
 
-#. Autonomous communities of Spain: Basque Country
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:92
-msgctxt "board18_0|"
-msgid "Basque Country"
-msgstr ""
-
-#. Autonomous communities of Spain: La Rioja
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:99
-msgctxt "board18_0|"
-msgid "La Rioja"
-msgstr ""
-
 #. Autonomous communities of Spain: Cantabria
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:106
+#: activities/geo-country/resource/board/board18_0.qml:36
 msgctxt "board18_0|"
 msgid "Cantabria"
 msgstr ""
 
+#. Autonomous communities of Spain: Basque Country
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:43
+msgctxt "board18_0|"
+msgid "Basque Country"
+msgstr ""
+
 #. Autonomous communities of Spain: Navarre
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:113
+#: activities/geo-country/resource/board/board18_0.qml:50
 msgctxt "board18_0|"
 msgid "Navarre"
 msgstr ""
 
+#. Autonomous communities of Spain: Castile and León
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:57
+msgctxt "board18_0|"
+msgid "Castile and León"
+msgstr ""
+
+#. Autonomous communities of Spain: La Rioja
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:64
+msgctxt "board18_0|"
+msgid "La Rioja"
+msgstr ""
+
+#. Autonomous communities of Spain: Aragon
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:71
+msgctxt "board18_0|"
+msgid "Aragon"
+msgstr ""
+
+#. Autonomous communities of Spain: Catalonia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:78
+msgctxt "board18_0|"
+msgid "Catalonia"
+msgstr ""
+
+#. Autonomous communities of Spain: Madrid
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:85
+msgctxt "board18_0|"
+msgid "Madrid"
+msgstr ""
+
 #. Autonomous communities of Spain: Extremadura
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:120
+#: activities/geo-country/resource/board/board18_0.qml:92
 msgctxt "board18_0|"
 msgid "Extremadura"
 msgstr ""
 
-#. Autonomous communities of Spain: Canary Islands
+#. Autonomous communities of Spain: Castilla-La Mancha
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:127
+#: activities/geo-country/resource/board/board18_0.qml:99
 msgctxt "board18_0|"
-msgid "Canary Islands"
+msgid "Castilla-La Mancha"
+msgstr ""
+
+#. Autonomous communities of Spain: Valencia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:106
+msgctxt "board18_0|"
+msgid "Valencia"
 msgstr ""
 
 #. Autonomous communities of Spain: Balearic Islands
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:134
+#: activities/geo-country/resource/board/board18_0.qml:113
 msgctxt "board18_0|"
 msgid "Balearic Islands"
 msgstr ""
 
+#. Autonomous communities of Spain: Murcia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:120
+msgctxt "board18_0|"
+msgid "Murcia"
+msgstr ""
+
+#. Autonomous communities of Spain: Andalusia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:127
+msgctxt "board18_0|"
+msgid "Andalusia"
+msgstr ""
+
 #. Autonomous communities of Spain: Ceuta
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:141
+#: activities/geo-country/resource/board/board18_0.qml:134
 msgctxt "board18_0|"
 msgid "Ceuta"
 msgstr ""
 
 #. Autonomous communities of Spain: Melilla
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board18_0.qml:148
+#: activities/geo-country/resource/board/board18_0.qml:141
 msgctxt "board18_0|"
 msgid "Melilla"
+msgstr ""
+
+#. Autonomous communities of Spain: Canary Islands
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board18_0.qml:148
+msgctxt "board18_0|"
+msgid "Canary Islands"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -11911,95 +11979,95 @@ msgctxt "board1_0|"
 msgid "Regions of France"
 msgstr ""
 
-#. Region of France: Corsica
+#. Region of France: Hauts de France
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board1_0.qml:27
 msgctxt "board1_0|"
-msgid "Corsica"
+msgid "Hauts de France"
+msgstr ""
+
+#. Region of France: Normandy
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board1_0.qml:35
+msgctxt "board1_0|"
+msgid "Normandy"
+msgstr ""
+
+#. Region of France: Île-de-France
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board1_0.qml:43
+msgctxt "board1_0|"
+msgid "Île-de-France"
+msgstr ""
+
+#. Region of France: Grand est
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board1_0.qml:51
+msgctxt "board1_0|"
+msgid "Grand est"
+msgstr ""
+
+#. Region of France: Brittany
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board1_0.qml:59
+msgctxt "board1_0|"
+msgid "Brittany"
+msgstr ""
+
+#. Region of France: Pays de la Loire
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board1_0.qml:67
+msgctxt "board1_0|"
+msgid "Pays de la Loire"
+msgstr ""
+
+#. Region of France: Centre-Val de Loire
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board1_0.qml:75
+msgctxt "board1_0|"
+msgid "Centre-Val de Loire"
+msgstr ""
+
+#. Region of France: Bourgogne-Franche-Comté
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board1_0.qml:83
+msgctxt "board1_0|"
+msgid "Bourgogne-Franche-Comté"
 msgstr ""
 
 #. Region of France: Nouvelle-Aquitaine
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:35
+#: activities/geo-country/resource/board/board1_0.qml:91
 msgctxt "board1_0|"
 msgid "Nouvelle-Aquitaine"
 msgstr ""
 
+#. Region of France: Auvergne-Rhône-Alpes
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board1_0.qml:99
+msgctxt "board1_0|"
+msgid "Auvergne-Rhône-Alpes"
+msgstr ""
+
 #. Region of France: Occitanie
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:43
+#: activities/geo-country/resource/board/board1_0.qml:107
 msgctxt "board1_0|"
 msgid "Occitanie"
 msgstr ""
 
 #. Region of France: Provence-Alpes-Côte d'Azur
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:51
+#: activities/geo-country/resource/board/board1_0.qml:115
 msgctxt "board1_0|"
 msgid "Provence-Alpes-Côte d'Azur"
 msgstr ""
 
-#. Region of France: Auvergne-Rhône-Alpes
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:59
-msgctxt "board1_0|"
-msgid "Auvergne-Rhône-Alpes"
-msgstr ""
-
-#. Region of France: Centre-Val de Loire
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:67
-msgctxt "board1_0|"
-msgid "Centre-Val de Loire"
-msgstr ""
-
-#. Region of France: Pays de la Loire
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:75
-msgctxt "board1_0|"
-msgid "Pays de la Loire"
-msgstr ""
-
-#. Region of France: Île-de-France
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:83
-msgctxt "board1_0|"
-msgid "Île-de-France"
-msgstr ""
-
-#. Region of France: Brittany
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:91
-msgctxt "board1_0|"
-msgid "Brittany"
-msgstr ""
-
-#. Region of France: Normandy
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:99
-msgctxt "board1_0|"
-msgid "Normandy"
-msgstr ""
-
-#. Region of France: Hauts de France
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:107
-msgctxt "board1_0|"
-msgid "Hauts de France"
-msgstr ""
-
-#. Region of France: Grand est
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board1_0.qml:115
-msgctxt "board1_0|"
-msgid "Grand est"
-msgstr ""
-
-#. Region of France: Bourgogne-Franche-Comté
+#. Region of France: Corsica
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board1_0.qml:123
 msgctxt "board1_0|"
-msgid "Bourgogne-Franche-Comté"
+msgid "Corsica"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -12008,67 +12076,67 @@ msgctxt "board2_0|"
 msgid "States of Germany"
 msgstr ""
 
-#. State of Germany: Thuringia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board2_0.qml:24
-msgctxt "board2_0|"
-msgid "Thuringia"
-msgstr ""
-
 #. State of Germany: Schleswig-Holstein
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board2_0.qml:31
+#: activities/geo-country/resource/board/board2_0.qml:24
 msgctxt "board2_0|"
 msgid "Schleswig-Holstein"
 msgstr ""
 
-#. State of Germany: Saxony
+#. State of Germany: Mecklenburg-Vorpommern
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board2_0.qml:31
+msgctxt "board2_0|"
+msgid "Mecklenburg-Vorpommern"
+msgstr ""
+
+#. State of Germany: Hamburg
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board2_0.qml:38
 msgctxt "board2_0|"
-msgid "Saxony"
+msgid "Hamburg"
 msgstr ""
 
-#. State of Germany: Saxony-Anhalt
+#. State of Germany: Bremen
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board2_0.qml:45
 msgctxt "board2_0|"
-msgid "Saxony-Anhalt"
-msgstr ""
-
-#. State of Germany: Saarland
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board2_0.qml:52
-msgctxt "board2_0|"
-msgid "Saarland"
-msgstr ""
-
-#. State of Germany: Rhineland-Palatinate
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board2_0.qml:59
-msgctxt "board2_0|"
-msgid "Rhineland-Palatinate"
-msgstr ""
-
-#. State of Germany: North Rhine-Westphalia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board2_0.qml:66
-msgctxt "board2_0|"
-msgid "North Rhine-Westphalia"
+msgid "Bremen"
 msgstr ""
 
 #. State of Germany: Lower Saxony
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board2_0.qml:73
+#: activities/geo-country/resource/board/board2_0.qml:52
 msgctxt "board2_0|"
 msgid "Lower Saxony"
 msgstr ""
 
-#. State of Germany: Mecklenburg-Vorpommern
+#. State of Germany: Saxony-Anhalt
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board2_0.qml:59
+msgctxt "board2_0|"
+msgid "Saxony-Anhalt"
+msgstr ""
+
+#. State of Germany: Brandenburg
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board2_0.qml:66
+msgctxt "board2_0|"
+msgid "Brandenburg"
+msgstr ""
+
+#. State of Germany: Berlin
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board2_0.qml:73
+msgctxt "board2_0|"
+msgid "Berlin"
+msgstr ""
+
+#. State of Germany: North Rhine-Westphalia
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board2_0.qml:80
 msgctxt "board2_0|"
-msgid "Mecklenburg-Vorpommern"
+msgid "North Rhine-Westphalia"
 msgstr ""
 
 #. State of Germany: Hesse
@@ -12078,46 +12146,46 @@ msgctxt "board2_0|"
 msgid "Hesse"
 msgstr ""
 
-#. State of Germany: Hamburg
+#. State of Germany: Thuringia
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board2_0.qml:94
 msgctxt "board2_0|"
-msgid "Hamburg"
+msgid "Thuringia"
 msgstr ""
 
-#. State of Germany: Bremen
+#. State of Germany: Saxony
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board2_0.qml:101
 msgctxt "board2_0|"
-msgid "Bremen"
+msgid "Saxony"
 msgstr ""
 
-#. State of Germany: Brandenburg
+#. State of Germany: Rhineland-Palatinate
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board2_0.qml:108
 msgctxt "board2_0|"
-msgid "Brandenburg"
+msgid "Rhineland-Palatinate"
 msgstr ""
 
-#. State of Germany: Berlin
+#. State of Germany: Saarland
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board2_0.qml:115
 msgctxt "board2_0|"
-msgid "Berlin"
-msgstr ""
-
-#. State of Germany: Bavaria
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board2_0.qml:122
-msgctxt "board2_0|"
-msgid "Bavaria"
+msgid "Saarland"
 msgstr ""
 
 #. State of Germany: Baden-Württemberg
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board2_0.qml:129
+#: activities/geo-country/resource/board/board2_0.qml:122
 msgctxt "board2_0|"
 msgid "Baden-Württemberg"
+msgstr ""
+
+#. State of Germany: Bavaria
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board2_0.qml:129
+msgctxt "board2_0|"
+msgid "Bavaria"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -12126,165 +12194,165 @@ msgctxt "board3_0|"
 msgid "Provinces of Argentina"
 msgstr ""
 
-#. Province of Argentina: Tucumán
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:24
-msgctxt "board3_0|"
-msgid "Tucumán"
-msgstr ""
-
-#. Province of Argentina: Tierra del Fuego
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:31
-msgctxt "board3_0|"
-msgid "Tierra del Fuego"
-msgstr ""
-
-#. Province of Argentina: Santiago del Estero
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:38
-msgctxt "board3_0|"
-msgid "Santiago del Estero"
-msgstr ""
-
-#. Province of Argentina: Santa Fe
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:45
-msgctxt "board3_0|"
-msgid "Santa Fe"
-msgstr ""
-
-#. Province of Argentina: Santa Cruz
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:52
-msgctxt "board3_0|"
-msgid "Santa Cruz"
-msgstr ""
-
-#. Province of Argentina: San Luis
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:59
-msgctxt "board3_0|"
-msgid "San Luis"
-msgstr ""
-
-#. Province of Argentina: San Juan
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:66
-msgctxt "board3_0|"
-msgid "San Juan"
-msgstr ""
-
-#. Province of Argentina: Salta
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:73
-msgctxt "board3_0|"
-msgid "Salta"
-msgstr ""
-
-#. Province of Argentina: Río Negro
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:80
-msgctxt "board3_0|"
-msgid "Río Negro"
-msgstr ""
-
-#. Province of Argentina: Neuquén
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:87
-msgctxt "board3_0|"
-msgid "Neuquén"
-msgstr ""
-
-#. Province of Argentina: Misiones
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:94
-msgctxt "board3_0|"
-msgid "Misiones"
-msgstr ""
-
-#. Province of Argentina: Mendoza
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:101
-msgctxt "board3_0|"
-msgid "Mendoza"
-msgstr ""
-
-#. Province of Argentina: La Rioja
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:108
-msgctxt "board3_0|"
-msgid "La Rioja"
-msgstr ""
-
-#. Province of Argentina: La Pampa
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:115
-msgctxt "board3_0|"
-msgid "La Pampa"
-msgstr ""
-
 #. Province of Argentina: Jujuy
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:122
+#: activities/geo-country/resource/board/board3_0.qml:24
 msgctxt "board3_0|"
 msgid "Jujuy"
 msgstr ""
 
+#. Province of Argentina: Salta
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:31
+msgctxt "board3_0|"
+msgid "Salta"
+msgstr ""
+
 #. Province of Argentina: Formosa
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:129
+#: activities/geo-country/resource/board/board3_0.qml:38
 msgctxt "board3_0|"
 msgid "Formosa"
 msgstr ""
 
-#. Province of Argentina: Entre Rios
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:136
-msgctxt "board3_0|"
-msgid "Entre Rios"
-msgstr ""
-
-#. Province of Argentina: Corrientes
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:143
-msgctxt "board3_0|"
-msgid "Corrientes"
-msgstr ""
-
-#. Province of Argentina: Córdoba
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:150
-msgctxt "board3_0|"
-msgid "Córdoba"
-msgstr ""
-
-#. Province of Argentina: Chubut
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:157
-msgctxt "board3_0|"
-msgid "Chubut"
-msgstr ""
-
 #. Province of Argentina: Chaco
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:164
+#: activities/geo-country/resource/board/board3_0.qml:45
 msgctxt "board3_0|"
 msgid "Chaco"
 msgstr ""
 
+#. Province of Argentina: Misiones
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:52
+msgctxt "board3_0|"
+msgid "Misiones"
+msgstr ""
+
+#. Province of Argentina: Tucumán
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:59
+msgctxt "board3_0|"
+msgid "Tucumán"
+msgstr ""
+
 #. Province of Argentina: Catamarca
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:171
+#: activities/geo-country/resource/board/board3_0.qml:66
 msgctxt "board3_0|"
 msgid "Catamarca"
 msgstr ""
 
+#. Province of Argentina: Santiago del Estero
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:73
+msgctxt "board3_0|"
+msgid "Santiago del Estero"
+msgstr ""
+
+#. Province of Argentina: Corrientes
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:80
+msgctxt "board3_0|"
+msgid "Corrientes"
+msgstr ""
+
+#. Province of Argentina: La Rioja
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:87
+msgctxt "board3_0|"
+msgid "La Rioja"
+msgstr ""
+
+#. Province of Argentina: San Juan
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:94
+msgctxt "board3_0|"
+msgid "San Juan"
+msgstr ""
+
+#. Province of Argentina: Santa Fe
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:101
+msgctxt "board3_0|"
+msgid "Santa Fe"
+msgstr ""
+
+#. Province of Argentina: Entre Rios
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:108
+msgctxt "board3_0|"
+msgid "Entre Rios"
+msgstr ""
+
+#. Province of Argentina: Córdoba
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:115
+msgctxt "board3_0|"
+msgid "Córdoba"
+msgstr ""
+
+#. Province of Argentina: San Luis
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:122
+msgctxt "board3_0|"
+msgid "San Luis"
+msgstr ""
+
+#. Province of Argentina: Mendoza
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:129
+msgctxt "board3_0|"
+msgid "Mendoza"
+msgstr ""
+
+#. Province of Argentina: La Pampa
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:136
+msgctxt "board3_0|"
+msgid "La Pampa"
+msgstr ""
+
 #. Province of Argentina: Buenos Aires
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board3_0.qml:186
+#: activities/geo-country/resource/board/board3_0.qml:143
 msgctxt "board3_0|"
 msgid "Buenos Aires"
+msgstr ""
+
+#. Province of Argentina: Neuquén
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:150
+msgctxt "board3_0|"
+msgid "Neuquén"
+msgstr ""
+
+#. Province of Argentina: Río Negro
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:157
+msgctxt "board3_0|"
+msgid "Río Negro"
+msgstr ""
+
+#. Province of Argentina: Chubut
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:164
+msgctxt "board3_0|"
+msgid "Chubut"
+msgstr ""
+
+#. Province of Argentina: Santa Cruz
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:171
+msgctxt "board3_0|"
+msgid "Santa Cruz"
+msgstr ""
+
+#. Province of Argentina: Tierra del Fuego
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board3_0.qml:178
+msgctxt "board3_0|"
+msgid "Tierra del Fuego"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -12293,116 +12361,116 @@ msgctxt "board4_0|"
 msgid "Provinces of Poland"
 msgstr ""
 
-#. Province of Poland: Lower Silesian
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:24
-msgctxt "board4_0|"
-msgid "Lower Silesian"
-msgstr ""
-
 #. Province of Poland: West Pomeranian
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:31
+#: activities/geo-country/resource/board/board4_0.qml:24
 msgctxt "board4_0|"
 msgid "West Pomeranian"
 msgstr ""
 
-#. Province of Poland: Greater Poland
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:38
-msgctxt "board4_0|"
-msgid "Greater Poland"
-msgstr ""
-
-#. Province of Poland: Warmian-Masurian
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:45
-msgctxt "board4_0|"
-msgid "Warmian-Masurian"
-msgstr ""
-
-#. Province of Poland: Holy Cross
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:52
-msgctxt "board4_0|"
-msgid "Holy Cross"
-msgstr ""
-
-#. Province of Poland: Silesian
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:59
-msgctxt "board4_0|"
-msgid "Silesian"
-msgstr ""
-
 #. Province of Poland: Pomeranian
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:66
+#: activities/geo-country/resource/board/board4_0.qml:31
 msgctxt "board4_0|"
 msgid "Pomeranian"
 msgstr ""
 
+#. Province of Poland: Warmian-Masurian
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:38
+msgctxt "board4_0|"
+msgid "Warmian-Masurian"
+msgstr ""
+
 #. Province of Poland: Podlaskie
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:73
+#: activities/geo-country/resource/board/board4_0.qml:45
 msgctxt "board4_0|"
 msgid "Podlaskie"
 msgstr ""
 
-#. Province of Poland: Subcarpathian
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:80
-msgctxt "board4_0|"
-msgid "Subcarpathian"
-msgstr ""
-
-#. Province of Poland: Opole
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:87
-msgctxt "board4_0|"
-msgid "Opole"
-msgstr ""
-
-#. Province of Poland: Masovian
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:94
-msgctxt "board4_0|"
-msgid "Masovian"
-msgstr ""
-
-#. Province of Poland: Lesser Poland
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:101
-msgctxt "board4_0|"
-msgid "Lesser Poland"
-msgstr ""
-
-#. Province of Poland: Łódź
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:108
-msgctxt "board4_0|"
-msgid "Łódź"
-msgstr ""
-
 #. Province of Poland: Lubusz
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:115
+#: activities/geo-country/resource/board/board4_0.qml:52
 msgctxt "board4_0|"
 msgid "Lubusz"
 msgstr ""
 
-#. Province of Poland: Lublin
+#. Province of Poland: Greater Poland
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:122
+#: activities/geo-country/resource/board/board4_0.qml:59
 msgctxt "board4_0|"
-msgid "Lublin"
+msgid "Greater Poland"
 msgstr ""
 
 #. Province of Poland: Kuyavian-Pomeranian
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board4_0.qml:129
+#: activities/geo-country/resource/board/board4_0.qml:66
 msgctxt "board4_0|"
 msgid "Kuyavian-Pomeranian"
+msgstr ""
+
+#. Province of Poland: Łódź
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:73
+msgctxt "board4_0|"
+msgid "Łódź"
+msgstr ""
+
+#. Province of Poland: Masovian
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:80
+msgctxt "board4_0|"
+msgid "Masovian"
+msgstr ""
+
+#. Province of Poland: Lublin
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:87
+msgctxt "board4_0|"
+msgid "Lublin"
+msgstr ""
+
+#. Province of Poland: Lower Silesian
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:94
+msgctxt "board4_0|"
+msgid "Lower Silesian"
+msgstr ""
+
+#. Province of Poland: Opole
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:101
+msgctxt "board4_0|"
+msgid "Opole"
+msgstr ""
+
+#. Province of Poland: Silesian
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:108
+msgctxt "board4_0|"
+msgid "Silesian"
+msgstr ""
+
+#. Province of Poland: Lesser Poland
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:115
+msgctxt "board4_0|"
+msgid "Lesser Poland"
+msgstr ""
+
+#. Province of Poland: Holy Cross
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:122
+msgctxt "board4_0|"
+msgid "Holy Cross"
+msgstr ""
+
+#. Province of Poland: Subcarpathian
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board4_0.qml:129
+msgctxt "board4_0|"
+msgid "Subcarpathian"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -12411,319 +12479,319 @@ msgctxt "board5_0|"
 msgid "Western Provinces of Turkey"
 msgstr ""
 
-#. Province of Turkey: Zonguldak
+#. Province of Turkey: Kırklareli
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board5_0.qml:25
 msgctxt "board5_0|"
-msgid "Zonguldak"
+msgid "Kırklareli"
 msgstr ""
 
-#. Province of Turkey: Yozgat
+#. Province of Turkey: Edirne
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board5_0.qml:32
 msgctxt "board5_0|"
-msgid "Yozgat"
-msgstr ""
-
-#. Province of Turkey: Yalova
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:39
-msgctxt "board5_0|"
-msgid "Yalova"
-msgstr ""
-
-#. Province of Turkey: Uşak
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:46
-msgctxt "board5_0|"
-msgid "Uşak"
+msgid "Edirne"
 msgstr ""
 
 #. Province of Turkey: Tekirdağ
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:53
+#: activities/geo-country/resource/board/board5_0.qml:39
 msgctxt "board5_0|"
 msgid "Tekirdağ"
 msgstr ""
 
-#. Province of Turkey: Sinop
+#. Province of Turkey: İstanbul
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:46
+msgctxt "board5_0|"
+msgid "İstanbul"
+msgstr ""
+
+#. Province of Turkey: Kocaeli
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:53
+msgctxt "board5_0|"
+msgid "Kocaeli"
+msgstr ""
+
+#. Province of Turkey: Sakarya
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board5_0.qml:60
+msgctxt "board5_0|"
+msgid "Sakarya"
+msgstr ""
+
+#. Province of Turkey: Düzce
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:67
+msgctxt "board5_0|"
+msgid "Düzce"
+msgstr ""
+
+#. Province of Turkey: Zonguldak
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:74
+msgctxt "board5_0|"
+msgid "Zonguldak"
+msgstr ""
+
+#. Province of Turkey: Bartın
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:81
+msgctxt "board5_0|"
+msgid "Bartın"
+msgstr ""
+
+#. Province of Turkey: Karabük
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:88
+msgctxt "board5_0|"
+msgid "Karabük"
+msgstr ""
+
+#. Province of Turkey: Kastamonu
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:95
+msgctxt "board5_0|"
+msgid "Kastamonu"
+msgstr ""
+
+#. Province of Turkey: Sinop
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:102
 msgctxt "board5_0|"
 msgid "Sinop"
 msgstr ""
 
 #. Province of Turkey: Samsun
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:67
+#: activities/geo-country/resource/board/board5_0.qml:109
 msgctxt "board5_0|"
 msgid "Samsun"
 msgstr ""
 
-#. Province of Turkey: Sakarya
+#. Province of Turkey: Yalova
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:74
+#: activities/geo-country/resource/board/board5_0.qml:116
 msgctxt "board5_0|"
-msgid "Sakarya"
+msgid "Yalova"
 msgstr ""
 
-#. Province of Turkey: Niğde
+#. Province of Turkey: Bolu
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:81
+#: activities/geo-country/resource/board/board5_0.qml:123
 msgctxt "board5_0|"
-msgid "Niğde"
+msgid "Bolu"
 msgstr ""
 
-#. Province of Turkey: Nevşehir
+#. Province of Turkey: Çankırı
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:88
+#: activities/geo-country/resource/board/board5_0.qml:130
 msgctxt "board5_0|"
-msgid "Nevşehir"
+msgid "Çankırı"
 msgstr ""
 
-#. Province of Turkey: Muğla
+#. Province of Turkey: Çorum
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:95
+#: activities/geo-country/resource/board/board5_0.qml:137
 msgctxt "board5_0|"
-msgid "Muğla"
+msgid "Çorum"
 msgstr ""
 
-#. Province of Turkey: Mersin
+#. Province of Turkey: Amasya
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:102
+#: activities/geo-country/resource/board/board5_0.qml:144
 msgctxt "board5_0|"
-msgid "Mersin"
+msgid "Amasya"
+msgstr ""
+
+#. Province of Turkey: Çanakkale
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:151
+msgctxt "board5_0|"
+msgid "Çanakkale"
+msgstr ""
+
+#. Province of Turkey: Balıkesir
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:158
+msgctxt "board5_0|"
+msgid "Balıkesir"
+msgstr ""
+
+#. Province of Turkey: Bursa
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:165
+msgctxt "board5_0|"
+msgid "Bursa"
+msgstr ""
+
+#. Province of Turkey: Bilecik
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:172
+msgctxt "board5_0|"
+msgid "Bilecik"
+msgstr ""
+
+#. Province of Turkey: Eskişehir
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:179
+msgctxt "board5_0|"
+msgid "Eskişehir"
+msgstr ""
+
+#. Province of Turkey: Ankara
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:186
+msgctxt "board5_0|"
+msgid "Ankara"
+msgstr ""
+
+#. Province of Turkey: Kırıkkale
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:193
+msgctxt "board5_0|"
+msgid "Kırıkkale"
+msgstr ""
+
+#. Province of Turkey: Kirsehir
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:200
+msgctxt "board5_0|"
+msgid "Kirsehir"
+msgstr ""
+
+#. Province of Turkey: Yozgat
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:207
+msgctxt "board5_0|"
+msgid "Yozgat"
+msgstr ""
+
+#. Province of Turkey: İzmir
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:214
+msgctxt "board5_0|"
+msgid "İzmir"
 msgstr ""
 
 #. Province of Turkey: Manisa
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:109
+#: activities/geo-country/resource/board/board5_0.qml:221
 msgctxt "board5_0|"
 msgid "Manisa"
 msgstr ""
 
 #. Province of Turkey: Kütahya
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:116
+#: activities/geo-country/resource/board/board5_0.qml:228
 msgctxt "board5_0|"
 msgid "Kütahya"
 msgstr ""
 
-#. Province of Turkey: Konya
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:123
-msgctxt "board5_0|"
-msgid "Konya"
-msgstr ""
-
-#. Province of Turkey: Kocaeli
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:130
-msgctxt "board5_0|"
-msgid "Kocaeli"
-msgstr ""
-
-#. Province of Turkey: Kirsehir
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:137
-msgctxt "board5_0|"
-msgid "Kirsehir"
-msgstr ""
-
-#. Province of Turkey: Kırklareli
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:144
-msgctxt "board5_0|"
-msgid "Kırklareli"
-msgstr ""
-
-#. Province of Turkey: Kırıkkale
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:151
-msgctxt "board5_0|"
-msgid "Kırıkkale"
-msgstr ""
-
-#. Province of Turkey: Kayseri
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:158
-msgctxt "board5_0|"
-msgid "Kayseri"
-msgstr ""
-
-#. Province of Turkey: Kastamonu
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:165
-msgctxt "board5_0|"
-msgid "Kastamonu"
-msgstr ""
-
-#. Province of Turkey: Karaman
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:172
-msgctxt "board5_0|"
-msgid "Karaman"
-msgstr ""
-
-#. Province of Turkey: Karabük
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:179
-msgctxt "board5_0|"
-msgid "Karabük"
-msgstr ""
-
-#. Province of Turkey: İzmir
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:186
-msgctxt "board5_0|"
-msgid "İzmir"
-msgstr ""
-
-#. Province of Turkey: İstanbul
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:193
-msgctxt "board5_0|"
-msgid "İstanbul"
-msgstr ""
-
-#. Province of Turkey: Isparta
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:200
-msgctxt "board5_0|"
-msgid "Isparta"
-msgstr ""
-
-#. Province of Turkey: Eskişehir
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:207
-msgctxt "board5_0|"
-msgid "Eskişehir"
-msgstr ""
-
-#. Province of Turkey: Edirne
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:214
-msgctxt "board5_0|"
-msgid "Edirne"
-msgstr ""
-
-#. Province of Turkey: Düzce
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:221
-msgctxt "board5_0|"
-msgid "Düzce"
-msgstr ""
-
-#. Province of Turkey: Denizli
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:228
-msgctxt "board5_0|"
-msgid "Denizli"
-msgstr ""
-
-#. Province of Turkey: Çorum
+#. Province of Turkey: Uşak
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board5_0.qml:235
 msgctxt "board5_0|"
-msgid "Çorum"
-msgstr ""
-
-#. Province of Turkey: Çankırı
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:242
-msgctxt "board5_0|"
-msgid "Çankırı"
-msgstr ""
-
-#. Province of Turkey: Çanakkale
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:249
-msgctxt "board5_0|"
-msgid "Çanakkale"
-msgstr ""
-
-#. Province of Turkey: Bursa
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:256
-msgctxt "board5_0|"
-msgid "Bursa"
-msgstr ""
-
-#. Province of Turkey: Burdur
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:263
-msgctxt "board5_0|"
-msgid "Burdur"
-msgstr ""
-
-#. Province of Turkey: Bolu
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:270
-msgctxt "board5_0|"
-msgid "Bolu"
-msgstr ""
-
-#. Province of Turkey: Bilecik
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:277
-msgctxt "board5_0|"
-msgid "Bilecik"
-msgstr ""
-
-#. Province of Turkey: Bartın
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:284
-msgctxt "board5_0|"
-msgid "Bartın"
-msgstr ""
-
-#. Province of Turkey: Balıkesir
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:291
-msgctxt "board5_0|"
-msgid "Balıkesir"
-msgstr ""
-
-#. Province of Turkey: Aydın
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:298
-msgctxt "board5_0|"
-msgid "Aydın"
-msgstr ""
-
-#. Province of Turkey: Antalya
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:305
-msgctxt "board5_0|"
-msgid "Antalya"
-msgstr ""
-
-#. Province of Turkey: Ankara
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:312
-msgctxt "board5_0|"
-msgid "Ankara"
-msgstr ""
-
-#. Province of Turkey: Amasya
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:319
-msgctxt "board5_0|"
-msgid "Amasya"
-msgstr ""
-
-#. Province of Turkey: Aksaray
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:326
-msgctxt "board5_0|"
-msgid "Aksaray"
+msgid "Uşak"
 msgstr ""
 
 #. Province of Turkey: Afyon
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_0.qml:333
+#: activities/geo-country/resource/board/board5_0.qml:242
 msgctxt "board5_0|"
 msgid "Afyon"
+msgstr ""
+
+#. Province of Turkey: Isparta
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:249
+msgctxt "board5_0|"
+msgid "Isparta"
+msgstr ""
+
+#. Province of Turkey: Konya
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:256
+msgctxt "board5_0|"
+msgid "Konya"
+msgstr ""
+
+#. Province of Turkey: Aksaray
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:263
+msgctxt "board5_0|"
+msgid "Aksaray"
+msgstr ""
+
+#. Province of Turkey: Nevşehir
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:270
+msgctxt "board5_0|"
+msgid "Nevşehir"
+msgstr ""
+
+#. Province of Turkey: Niğde
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:277
+msgctxt "board5_0|"
+msgid "Niğde"
+msgstr ""
+
+#. Province of Turkey: Kayseri
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:284
+msgctxt "board5_0|"
+msgid "Kayseri"
+msgstr ""
+
+#. Province of Turkey: Aydın
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:291
+msgctxt "board5_0|"
+msgid "Aydın"
+msgstr ""
+
+#. Province of Turkey: Muğla
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:298
+msgctxt "board5_0|"
+msgid "Muğla"
+msgstr ""
+
+#. Province of Turkey: Denizli
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:305
+msgctxt "board5_0|"
+msgid "Denizli"
+msgstr ""
+
+#. Province of Turkey: Burdur
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:312
+msgctxt "board5_0|"
+msgid "Burdur"
+msgstr ""
+
+#. Province of Turkey: Antalya
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:319
+msgctxt "board5_0|"
+msgid "Antalya"
+msgstr ""
+
+#. Province of Turkey: Karaman
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:326
+msgctxt "board5_0|"
+msgid "Karaman"
+msgstr ""
+
+#. Province of Turkey: Mersin
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_0.qml:333
+msgctxt "board5_0|"
+msgid "Mersin"
 msgstr ""
 
 #. Province of Turkey: Adana
@@ -12739,249 +12807,249 @@ msgctxt "board5_1|"
 msgid "Eastern Provinces of Turkey"
 msgstr ""
 
-#. Province of Turkey: Van
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:24
-msgctxt "board5_1|"
-msgid "Van"
-msgstr ""
-
-#. Province of Turkey: Tunceli
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:31
-msgctxt "board5_1|"
-msgid "Tunceli"
-msgstr ""
-
-#. Province of Turkey: Trabzon
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:38
-msgctxt "board5_1|"
-msgid "Trabzon"
-msgstr ""
-
 #. Province of Turkey: Tokat
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:45
+#: activities/geo-country/resource/board/board5_1.qml:24
 msgctxt "board5_1|"
 msgid "Tokat"
 msgstr ""
 
-#. Province of Turkey: Sivas
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:52
-msgctxt "board5_1|"
-msgid "Sivas"
-msgstr ""
-
-#. Province of Turkey: Şırnak
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:59
-msgctxt "board5_1|"
-msgid "Şırnak"
-msgstr ""
-
-#. Province of Turkey: Siirt
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:66
-msgctxt "board5_1|"
-msgid "Siirt"
-msgstr ""
-
-#. Province of Turkey: Şanlıurfa
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:73
-msgctxt "board5_1|"
-msgid "Şanlıurfa"
-msgstr ""
-
-#. Province of Turkey: Rize
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:80
-msgctxt "board5_1|"
-msgid "Rize"
-msgstr ""
-
-#. Province of Turkey: Osmaniye
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:87
-msgctxt "board5_1|"
-msgid "Osmaniye"
-msgstr ""
-
 #. Province of Turkey: Ordu
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:94
+#: activities/geo-country/resource/board/board5_1.qml:31
 msgctxt "board5_1|"
 msgid "Ordu"
 msgstr ""
 
-#. Province of Turkey: Muş
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:101
-msgctxt "board5_1|"
-msgid "Muş"
-msgstr ""
-
-#. Province of Turkey: Mardin
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:108
-msgctxt "board5_1|"
-msgid "Mardin"
-msgstr ""
-
-#. Province of Turkey: Malatya
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:115
-msgctxt "board5_1|"
-msgid "Malatya"
-msgstr ""
-
-#. Province of Turkey: Kilis
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:122
-msgctxt "board5_1|"
-msgid "Kilis"
-msgstr ""
-
-#. Province of Turkey: Kars
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:129
-msgctxt "board5_1|"
-msgid "Kars"
-msgstr ""
-
-#. Province of Turkey: Kahramanmaraş
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:136
-msgctxt "board5_1|"
-msgid "Kahramanmaraş"
-msgstr ""
-
-#. Province of Turkey: Iğdır
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:143
-msgctxt "board5_1|"
-msgid "Iğdır"
-msgstr ""
-
-#. Province of Turkey: Hatay
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:150
-msgctxt "board5_1|"
-msgid "Hatay"
-msgstr ""
-
-#. Province of Turkey: Hakkari
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:157
-msgctxt "board5_1|"
-msgid "Hakkari"
-msgstr ""
-
-#. Province of Turkey: Gümüşhane
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:164
-msgctxt "board5_1|"
-msgid "Gümüşhane"
-msgstr ""
-
 #. Province of Turkey: Giresun
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:171
+#: activities/geo-country/resource/board/board5_1.qml:38
 msgctxt "board5_1|"
 msgid "Giresun"
 msgstr ""
 
-#. Province of Turkey: Gaziantep
+#. Province of Turkey: Gümüşhane
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:178
+#: activities/geo-country/resource/board/board5_1.qml:45
 msgctxt "board5_1|"
-msgid "Gaziantep"
+msgid "Gümüşhane"
 msgstr ""
 
-#. Province of Turkey: Erzurum
+#. Province of Turkey: Trabzon
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:185
+#: activities/geo-country/resource/board/board5_1.qml:52
 msgctxt "board5_1|"
-msgid "Erzurum"
-msgstr ""
-
-#. Province of Turkey: Erzincan
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:192
-msgctxt "board5_1|"
-msgid "Erzincan"
-msgstr ""
-
-#. Province of Turkey: Elazığ
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:199
-msgctxt "board5_1|"
-msgid "Elazığ"
-msgstr ""
-
-#. Province of Turkey: Diyarbakır
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:206
-msgctxt "board5_1|"
-msgid "Diyarbakır"
-msgstr ""
-
-#. Province of Turkey: Bitlis
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:213
-msgctxt "board5_1|"
-msgid "Bitlis"
-msgstr ""
-
-#. Province of Turkey: Bingöl
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:220
-msgctxt "board5_1|"
-msgid "Bingöl"
+msgid "Trabzon"
 msgstr ""
 
 #. Province of Turkey: Bayburt
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:227
+#: activities/geo-country/resource/board/board5_1.qml:59
 msgctxt "board5_1|"
 msgid "Bayburt"
 msgstr ""
 
-#. Province of Turkey: Batman
+#. Province of Turkey: Rize
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:234
+#: activities/geo-country/resource/board/board5_1.qml:66
 msgctxt "board5_1|"
-msgid "Batman"
+msgid "Rize"
 msgstr ""
 
 #. Province of Turkey: Artvin
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:241
+#: activities/geo-country/resource/board/board5_1.qml:73
 msgctxt "board5_1|"
 msgid "Artvin"
 msgstr ""
 
 #. Province of Turkey: Ardahan
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:248
+#: activities/geo-country/resource/board/board5_1.qml:80
 msgctxt "board5_1|"
 msgid "Ardahan"
 msgstr ""
 
+#. Province of Turkey: Sivas
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:87
+msgctxt "board5_1|"
+msgid "Sivas"
+msgstr ""
+
+#. Province of Turkey: Erzincan
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:94
+msgctxt "board5_1|"
+msgid "Erzincan"
+msgstr ""
+
+#. Province of Turkey: Erzurum
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:101
+msgctxt "board5_1|"
+msgid "Erzurum"
+msgstr ""
+
+#. Province of Turkey: Kars
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:108
+msgctxt "board5_1|"
+msgid "Kars"
+msgstr ""
+
+#. Province of Turkey: Iğdır
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:115
+msgctxt "board5_1|"
+msgid "Iğdır"
+msgstr ""
+
 #. Province of Turkey: Ağrı
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board5_1.qml:255
+#: activities/geo-country/resource/board/board5_1.qml:122
 msgctxt "board5_1|"
 msgid "Ağrı"
 msgstr ""
 
+#. Province of Turkey: Tunceli
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:129
+msgctxt "board5_1|"
+msgid "Tunceli"
+msgstr ""
+
+#. Province of Turkey: Bingöl
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:136
+msgctxt "board5_1|"
+msgid "Bingöl"
+msgstr ""
+
+#. Province of Turkey: Muş
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:143
+msgctxt "board5_1|"
+msgid "Muş"
+msgstr ""
+
+#. Province of Turkey: Kahramanmaraş
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:150
+msgctxt "board5_1|"
+msgid "Kahramanmaraş"
+msgstr ""
+
+#. Province of Turkey: Malatya
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:157
+msgctxt "board5_1|"
+msgid "Malatya"
+msgstr ""
+
+#. Province of Turkey: Elazığ
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:164
+msgctxt "board5_1|"
+msgid "Elazığ"
+msgstr ""
+
+#. Province of Turkey: Diyarbakır
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:171
+msgctxt "board5_1|"
+msgid "Diyarbakır"
+msgstr ""
+
+#. Province of Turkey: Batman
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:178
+msgctxt "board5_1|"
+msgid "Batman"
+msgstr ""
+
+#. Province of Turkey: Siirt
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:185
+msgctxt "board5_1|"
+msgid "Siirt"
+msgstr ""
+
+#. Province of Turkey: Bitlis
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:192
+msgctxt "board5_1|"
+msgid "Bitlis"
+msgstr ""
+
+#. Province of Turkey: Van
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:199
+msgctxt "board5_1|"
+msgid "Van"
+msgstr ""
+
+#. Province of Turkey: Osmaniye
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:206
+msgctxt "board5_1|"
+msgid "Osmaniye"
+msgstr ""
+
+#. Province of Turkey: Gaziantep
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:213
+msgctxt "board5_1|"
+msgid "Gaziantep"
+msgstr ""
+
 #. Province of Turkey: Adıyaman
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:220
+msgctxt "board5_1|"
+msgid "Adıyaman"
+msgstr ""
+
+#. Province of Turkey: Şanlıurfa
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:227
+msgctxt "board5_1|"
+msgid "Şanlıurfa"
+msgstr ""
+
+#. Province of Turkey: Mardin
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:234
+msgctxt "board5_1|"
+msgid "Mardin"
+msgstr ""
+
+#. Province of Turkey: Şırnak
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:241
+msgctxt "board5_1|"
+msgid "Şırnak"
+msgstr ""
+
+#. Province of Turkey: Hakkari
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:248
+msgctxt "board5_1|"
+msgid "Hakkari"
+msgstr ""
+
+#. Province of Turkey: Kilis
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board5_1.qml:255
+msgctxt "board5_1|"
+msgid "Kilis"
+msgstr ""
+
+#. Province of Turkey: Hatay
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board5_1.qml:262
 msgctxt "board5_1|"
-msgid "Adıyaman"
+msgid "Hatay"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -12990,81 +13058,81 @@ msgctxt "board6_0|"
 msgid "Counties of Norway"
 msgstr ""
 
-#. County of Norway: Vestfold og Telemark
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:26
-msgctxt "board6_0|"
-msgid "Vestfold og Telemark"
-msgstr ""
-
-#. County of Norway: Viken
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:33
-msgctxt "board6_0|"
-msgid "Viken"
-msgstr ""
-
-#. County of Norway: Nordland
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:40
-msgctxt "board6_0|"
-msgid "Nordland"
-msgstr ""
-
 #. County of Norway: Troms og Finnmark
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:47
+#: activities/geo-country/resource/board/board6_0.qml:26
 msgctxt "board6_0|"
 msgid "Troms og Finnmark"
 msgstr ""
 
+#. County of Norway: Nordland
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board6_0.qml:33
+msgctxt "board6_0|"
+msgid "Nordland"
+msgstr ""
+
 #. County of Norway: Trøndelag
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:54
+#: activities/geo-country/resource/board/board6_0.qml:40
 msgctxt "board6_0|"
 msgid "Trøndelag"
 msgstr ""
 
-#. County of Norway: Oslo
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:61
-msgctxt "board6_0|"
-msgid "Oslo"
-msgstr ""
-
 #. County of Norway: Møre og Romsdal
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:68
+#: activities/geo-country/resource/board/board6_0.qml:47
 msgctxt "board6_0|"
 msgid "Møre og Romsdal"
 msgstr ""
 
-#. County of Norway: Agder
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:75
-msgctxt "board6_0|"
-msgid "Agder"
-msgstr ""
-
 #. County of Norway: Innlandet
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:82
+#: activities/geo-country/resource/board/board6_0.qml:54
 msgctxt "board6_0|"
 msgid "Innlandet"
 msgstr ""
 
 #. County of Norway: Vestland
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board6_0.qml:89
+#: activities/geo-country/resource/board/board6_0.qml:61
 msgctxt "board6_0|"
 msgid "Vestland"
 msgstr ""
 
+#. County of Norway: Viken
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board6_0.qml:68
+msgctxt "board6_0|"
+msgid "Viken"
+msgstr ""
+
+#. County of Norway: Oslo
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board6_0.qml:75
+msgctxt "board6_0|"
+msgid "Oslo"
+msgstr ""
+
+#. County of Norway: Vestfold og Telemark
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board6_0.qml:82
+msgctxt "board6_0|"
+msgid "Vestfold og Telemark"
+msgstr ""
+
 #. County of Norway: Rogaland
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board6_0.qml:89
+msgctxt "board6_0|"
+msgid "Rogaland"
+msgstr ""
+
+#. County of Norway: Agder
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board6_0.qml:96
 msgctxt "board6_0|"
-msgid "Rogaland"
+msgid "Agder"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13073,193 +13141,193 @@ msgctxt "board7_0|"
 msgid "Federative units of Brazil"
 msgstr ""
 
-#. Federative unit of Brazil: Amazonas
+#. Federative unit of Brazil: Roraima
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board7_0.qml:24
+msgctxt "board7_0|"
+msgid "Roraima"
+msgstr ""
+
+#. Federative unit of Brazil: Amapá
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:31
+msgctxt "board7_0|"
+msgid "Amapá"
+msgstr ""
+
+#. Federative unit of Brazil: Amazonas
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:38
 msgctxt "board7_0|"
 msgid "Amazonas"
 msgstr ""
 
 #. Federative unit of Brazil: Pará
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:31
+#: activities/geo-country/resource/board/board7_0.qml:45
 msgctxt "board7_0|"
 msgid "Pará"
 msgstr ""
 
-#. Federative unit of Brazil: Mato Grosso
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:38
-msgctxt "board7_0|"
-msgid "Mato Grosso"
-msgstr ""
-
-#. Federative unit of Brazil: Minas Gerais
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:45
-msgctxt "board7_0|"
-msgid "Minas Gerais"
-msgstr ""
-
-#. Federative unit of Brazil: Bahia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:52
-msgctxt "board7_0|"
-msgid "Bahia"
-msgstr ""
-
-#. Federative unit of Brazil: Mato Grosso do Sul
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:59
-msgctxt "board7_0|"
-msgid "Mato Grosso do Sul"
-msgstr ""
-
-#. Federative unit of Brazil: Goiás
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:66
-msgctxt "board7_0|"
-msgid "Goiás"
-msgstr ""
-
 #. Federative unit of Brazil: Maranhão
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:73
+#: activities/geo-country/resource/board/board7_0.qml:52
 msgctxt "board7_0|"
 msgid "Maranhão"
 msgstr ""
 
-#. Federative unit of Brazil: Rio Grande do Sul
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:80
-msgctxt "board7_0|"
-msgid "Rio Grande do Sul"
-msgstr ""
-
-#. Federative unit of Brazil: Tocantins
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:87
-msgctxt "board7_0|"
-msgid "Tocantins"
-msgstr ""
-
 #. Federative unit of Brazil: Piauí
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:94
+#: activities/geo-country/resource/board/board7_0.qml:59
 msgctxt "board7_0|"
 msgid "Piauí"
 msgstr ""
 
-#. Federative unit of Brazil: São Paulo
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:101
-msgctxt "board7_0|"
-msgid "São Paulo"
-msgstr ""
-
-#. Federative unit of Brazil: Rondônia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:108
-msgctxt "board7_0|"
-msgid "Rondônia"
-msgstr ""
-
-#. Federative unit of Brazil: Roraima
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:115
-msgctxt "board7_0|"
-msgid "Roraima"
-msgstr ""
-
-#. Federative unit of Brazil: Paraná
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:122
-msgctxt "board7_0|"
-msgid "Paraná"
-msgstr ""
-
-#. Federative unit of Brazil: Acre
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:129
-msgctxt "board7_0|"
-msgid "Acre"
-msgstr ""
-
 #. Federative unit of Brazil: Ceará
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:136
+#: activities/geo-country/resource/board/board7_0.qml:66
 msgctxt "board7_0|"
 msgid "Ceará"
 msgstr ""
 
-#. Federative unit of Brazil: Amapá
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:143
-msgctxt "board7_0|"
-msgid "Amapá"
-msgstr ""
-
-#. Federative unit of Brazil: Pernambuco
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:150
-msgctxt "board7_0|"
-msgid "Pernambuco"
-msgstr ""
-
-#. Federative unit of Brazil: Santa Catarina
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:157
-msgctxt "board7_0|"
-msgid "Santa Catarina"
-msgstr ""
-
-#. Federative unit of Brazil: Paraíba
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:164
-msgctxt "board7_0|"
-msgid "Paraíba"
-msgstr ""
-
 #. Federative unit of Brazil: Rio Grande do Norte
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:171
+#: activities/geo-country/resource/board/board7_0.qml:73
 msgctxt "board7_0|"
 msgid "Rio Grande do Norte"
 msgstr ""
 
-#. Federative unit of Brazil: Espírito Santo
+#. Federative unit of Brazil: Paraíba
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:178
+#: activities/geo-country/resource/board/board7_0.qml:80
 msgctxt "board7_0|"
-msgid "Espírito Santo"
+msgid "Paraíba"
 msgstr ""
 
-#. Federative unit of Brazil: Rio de Janeiro
+#. Federative unit of Brazil: Pernambuco
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:185
+#: activities/geo-country/resource/board/board7_0.qml:87
 msgctxt "board7_0|"
-msgid "Rio de Janeiro"
+msgid "Pernambuco"
 msgstr ""
 
 #. Federative unit of Brazil: Alagoas
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:192
+#: activities/geo-country/resource/board/board7_0.qml:94
 msgctxt "board7_0|"
 msgid "Alagoas"
 msgstr ""
 
 #. Federative unit of Brazil: Sergipe
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board7_0.qml:199
+#: activities/geo-country/resource/board/board7_0.qml:101
 msgctxt "board7_0|"
 msgid "Sergipe"
 msgstr ""
 
+#. Federative unit of Brazil: Tocantins
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:108
+msgctxt "board7_0|"
+msgid "Tocantins"
+msgstr ""
+
+#. Federative unit of Brazil: Acre
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:115
+msgctxt "board7_0|"
+msgid "Acre"
+msgstr ""
+
+#. Federative unit of Brazil: Rondônia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:122
+msgctxt "board7_0|"
+msgid "Rondônia"
+msgstr ""
+
+#. Federative unit of Brazil: Mato Grosso
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:129
+msgctxt "board7_0|"
+msgid "Mato Grosso"
+msgstr ""
+
+#. Federative unit of Brazil: Bahia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:136
+msgctxt "board7_0|"
+msgid "Bahia"
+msgstr ""
+
 #. Federative unit of Brazil: Distrito Federal
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:143
+msgctxt "board7_0|"
+msgid "Distrito Federal"
+msgstr ""
+
+#. Federative unit of Brazil: Goiás
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:150
+msgctxt "board7_0|"
+msgid "Goiás"
+msgstr ""
+
+#. Federative unit of Brazil: Minas Gerais
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:157
+msgctxt "board7_0|"
+msgid "Minas Gerais"
+msgstr ""
+
+#. Federative unit of Brazil: Espírito Santo
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:164
+msgctxt "board7_0|"
+msgid "Espírito Santo"
+msgstr ""
+
+#. Federative unit of Brazil: Mato Grosso do Sul
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:171
+msgctxt "board7_0|"
+msgid "Mato Grosso do Sul"
+msgstr ""
+
+#. Federative unit of Brazil: Rio de Janeiro
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:178
+msgctxt "board7_0|"
+msgid "Rio de Janeiro"
+msgstr ""
+
+#. Federative unit of Brazil: São Paulo
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:185
+msgctxt "board7_0|"
+msgid "São Paulo"
+msgstr ""
+
+#. Federative unit of Brazil: Paraná
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:192
+msgctxt "board7_0|"
+msgid "Paraná"
+msgstr ""
+
+#. Federative unit of Brazil: Santa Catarina
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board7_0.qml:199
+msgctxt "board7_0|"
+msgid "Santa Catarina"
+msgstr ""
+
+#. Federative unit of Brazil: Rio Grande do Sul
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board7_0.qml:206
 msgctxt "board7_0|"
-msgid "Distrito Federal"
+msgid "Rio Grande do Sul"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13275,25 +13343,25 @@ msgctxt "board8_0|"
 msgid "Yukon"
 msgstr ""
 
-#. Provinces and territories of Canada: British Columbia
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board8_0.qml:31
-msgctxt "board8_0|"
-msgid "British Columbia"
-msgstr ""
-
 #. Provinces and territories of Canada: Northwest Territories
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board8_0.qml:38
+#: activities/geo-country/resource/board/board8_0.qml:31
 msgctxt "board8_0|"
 msgid "Northwest Territories"
 msgstr ""
 
 #. Provinces and territories of Canada: Nunavut
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board8_0.qml:45
+#: activities/geo-country/resource/board/board8_0.qml:38
 msgctxt "board8_0|"
 msgid "Nunavut"
+msgstr ""
+
+#. Provinces and territories of Canada: British Columbia
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board8_0.qml:45
+msgctxt "board8_0|"
+msgid "British Columbia"
 msgstr ""
 
 #. Provinces and territories of Canada: Alberta
@@ -13338,25 +13406,25 @@ msgctxt "board8_0|"
 msgid "Newfoundland and Labrador"
 msgstr ""
 
-#. Provinces and territories of Canada: New Brunswick
+#. Provinces and territories of Canada: Prince Edward Island
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board8_0.qml:94
+msgctxt "board8_0|"
+msgid "Prince Edward Island"
+msgstr ""
+
+#. Provinces and territories of Canada: New Brunswick
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board8_0.qml:101
 msgctxt "board8_0|"
 msgid "New Brunswick"
 msgstr ""
 
 #. Provinces and territories of Canada: Nova Scotia
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board8_0.qml:101
-msgctxt "board8_0|"
-msgid "Nova Scotia"
-msgstr ""
-
-#. Provinces and territories of Canada: Prince Edward Island
-#. +> trunk6 stable6
 #: activities/geo-country/resource/board/board8_0.qml:108
 msgctxt "board8_0|"
-msgid "Prince Edward Island"
+msgid "Nova Scotia"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13365,53 +13433,53 @@ msgctxt "board9_0|"
 msgid "States of Mexico"
 msgstr ""
 
-#. State of Mexico: Zacatecas
+#. State of Mexico: Baja California
 #. +> trunk6 stable6
 #: activities/geo-country/resource/board/board9_0.qml:24
 msgctxt "board9_0|"
-msgid "Zacatecas"
-msgstr ""
-
-#. State of Mexico: Yucatán
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:31
-msgctxt "board9_0|"
-msgid "Yucatán"
-msgstr ""
-
-#. State of Mexico: Veracruz
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:38
-msgctxt "board9_0|"
-msgid "Veracruz"
-msgstr ""
-
-#. State of Mexico: Tlaxcala
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:45
-msgctxt "board9_0|"
-msgid "Tlaxcala"
-msgstr ""
-
-#. State of Mexico: Tamaulipas
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:52
-msgctxt "board9_0|"
-msgid "Tamaulipas"
-msgstr ""
-
-#. State of Mexico: Tabasco
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:59
-msgctxt "board9_0|"
-msgid "Tabasco"
+msgid "Baja California"
 msgstr ""
 
 #. State of Mexico: Sonora
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:66
+#: activities/geo-country/resource/board/board9_0.qml:31
 msgctxt "board9_0|"
 msgid "Sonora"
+msgstr ""
+
+#. State of Mexico: Chihuahua
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:38
+msgctxt "board9_0|"
+msgid "Chihuahua"
+msgstr ""
+
+#. State of Mexico: Coahuila
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:45
+msgctxt "board9_0|"
+msgid "Coahuila"
+msgstr ""
+
+#. State of Mexico: Nuevo León
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:52
+msgctxt "board9_0|"
+msgid "Nuevo León"
+msgstr ""
+
+#. State of Mexico: Tamaulipas
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:59
+msgctxt "board9_0|"
+msgid "Tamaulipas"
+msgstr ""
+
+#. State of Mexico: Baja California Sur
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:66
+msgctxt "board9_0|"
+msgid "Baja California Sur"
 msgstr ""
 
 #. State of Mexico: Sinaloa
@@ -13421,172 +13489,172 @@ msgctxt "board9_0|"
 msgid "Sinaloa"
 msgstr ""
 
-#. State of Mexico: San Luis Potosí
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:80
-msgctxt "board9_0|"
-msgid "San Luis Potosí"
-msgstr ""
-
-#. State of Mexico: Quintana Roo
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:87
-msgctxt "board9_0|"
-msgid "Quintana Roo"
-msgstr ""
-
-#. State of Mexico: Querétaro
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:94
-msgctxt "board9_0|"
-msgid "Querétaro"
-msgstr ""
-
-#. State of Mexico: Puebla
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:101
-msgctxt "board9_0|"
-msgid "Puebla"
-msgstr ""
-
-#. State of Mexico: Oaxaca
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:108
-msgctxt "board9_0|"
-msgid "Oaxaca"
-msgstr ""
-
-#. State of Mexico: Nuevo León
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:115
-msgctxt "board9_0|"
-msgid "Nuevo León"
-msgstr ""
-
-#. State of Mexico: Nayarit
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:122
-msgctxt "board9_0|"
-msgid "Nayarit"
-msgstr ""
-
-#. State of Mexico: Morelos
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:129
-msgctxt "board9_0|"
-msgid "Morelos"
-msgstr ""
-
-#. State of Mexico: Michoacán
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:136
-msgctxt "board9_0|"
-msgid "Michoacán"
-msgstr ""
-
-#. State of Mexico: Jalisco
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:143
-msgctxt "board9_0|"
-msgid "Jalisco"
-msgstr ""
-
-#. State of Mexico: Hidalgo
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:150
-msgctxt "board9_0|"
-msgid "Hidalgo"
-msgstr ""
-
-#. State of Mexico: Guerrero
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:157
-msgctxt "board9_0|"
-msgid "Guerrero"
-msgstr ""
-
-#. State of Mexico: Guanajuato
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:164
-msgctxt "board9_0|"
-msgid "Guanajuato"
-msgstr ""
-
-#. State of Mexico: Estado de México
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:171
-msgctxt "board9_0|"
-msgid "Estado de México"
-msgstr ""
-
 #. State of Mexico: Durango
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:178
+#: activities/geo-country/resource/board/board9_0.qml:80
 msgctxt "board9_0|"
 msgid "Durango"
 msgstr ""
 
-#. State of Mexico: Districto Federal
+#. State of Mexico: Zacatecas
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:185
+#: activities/geo-country/resource/board/board9_0.qml:87
 msgctxt "board9_0|"
-msgid "Districto Federal"
+msgid "Zacatecas"
 msgstr ""
 
-#. State of Mexico: Coahuila
+#. State of Mexico: San Luis Potosí
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:192
+#: activities/geo-country/resource/board/board9_0.qml:94
 msgctxt "board9_0|"
-msgid "Coahuila"
+msgid "San Luis Potosí"
 msgstr ""
 
-#. State of Mexico: Chiapas
+#. State of Mexico: Nayarit
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:199
+#: activities/geo-country/resource/board/board9_0.qml:101
 msgctxt "board9_0|"
-msgid "Chiapas"
-msgstr ""
-
-#. State of Mexico: Chihuahua
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:206
-msgctxt "board9_0|"
-msgid "Chihuahua"
-msgstr ""
-
-#. State of Mexico: Campeche
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:213
-msgctxt "board9_0|"
-msgid "Campeche"
-msgstr ""
-
-#. State of Mexico: Baja California
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:220
-msgctxt "board9_0|"
-msgid "Baja California"
-msgstr ""
-
-#. State of Mexico: Baja California Sur
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:227
-msgctxt "board9_0|"
-msgid "Baja California Sur"
-msgstr ""
-
-#. State of Mexico: Colima
-#. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:234
-msgctxt "board9_0|"
-msgid "Colima"
+msgid "Nayarit"
 msgstr ""
 
 #. State of Mexico: Aguascalientes
 #. +> trunk6 stable6
-#: activities/geo-country/resource/board/board9_0.qml:241
+#: activities/geo-country/resource/board/board9_0.qml:108
 msgctxt "board9_0|"
 msgid "Aguascalientes"
+msgstr ""
+
+#. State of Mexico: Jalisco
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:115
+msgctxt "board9_0|"
+msgid "Jalisco"
+msgstr ""
+
+#. State of Mexico: Guanajuato
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:122
+msgctxt "board9_0|"
+msgid "Guanajuato"
+msgstr ""
+
+#. State of Mexico: Querétaro
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:129
+msgctxt "board9_0|"
+msgid "Querétaro"
+msgstr ""
+
+#. State of Mexico: Hidalgo
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:136
+msgctxt "board9_0|"
+msgid "Hidalgo"
+msgstr ""
+
+#. State of Mexico: Colima
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:143
+msgctxt "board9_0|"
+msgid "Colima"
+msgstr ""
+
+#. State of Mexico: Michoacán
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:150
+msgctxt "board9_0|"
+msgid "Michoacán"
+msgstr ""
+
+#. State of Mexico: Estado de México
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:157
+msgctxt "board9_0|"
+msgid "Estado de México"
+msgstr ""
+
+#. State of Mexico: Districto Federal
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:164
+msgctxt "board9_0|"
+msgid "Districto Federal"
+msgstr ""
+
+#. State of Mexico: Tlaxcala
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:171
+msgctxt "board9_0|"
+msgid "Tlaxcala"
+msgstr ""
+
+#. State of Mexico: Puebla
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:178
+msgctxt "board9_0|"
+msgid "Puebla"
+msgstr ""
+
+#. State of Mexico: Veracruz
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:185
+msgctxt "board9_0|"
+msgid "Veracruz"
+msgstr ""
+
+#. State of Mexico: Morelos
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:192
+msgctxt "board9_0|"
+msgid "Morelos"
+msgstr ""
+
+#. State of Mexico: Guerrero
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:199
+msgctxt "board9_0|"
+msgid "Guerrero"
+msgstr ""
+
+#. State of Mexico: Oaxaca
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:206
+msgctxt "board9_0|"
+msgid "Oaxaca"
+msgstr ""
+
+#. State of Mexico: Chiapas
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:213
+msgctxt "board9_0|"
+msgid "Chiapas"
+msgstr ""
+
+#. State of Mexico: Tabasco
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:220
+msgctxt "board9_0|"
+msgid "Tabasco"
+msgstr ""
+
+#. State of Mexico: Campeche
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:227
+msgctxt "board9_0|"
+msgid "Campeche"
+msgstr ""
+
+#. State of Mexico: Yucatán
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:234
+msgctxt "board9_0|"
+msgid "Yucatán"
+msgstr ""
+
+#. State of Mexico: Quintana Roo
+#. +> trunk6 stable6
+#: activities/geo-country/resource/board/board9_0.qml:241
+msgctxt "board9_0|"
+msgid "Quintana Roo"
 msgstr ""
 
 #. Activity title
@@ -13632,13 +13700,13 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board10_0.qml:31
 msgctxt "board10_0|"
-msgid "Kyrgyzstan"
+msgid "Uzbekistan"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board10_0.qml:38
 msgctxt "board10_0|"
-msgid "Tajikistan"
+msgid "Kyrgyzstan"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13650,7 +13718,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board10_0.qml:52
 msgctxt "board10_0|"
-msgid "Uzbekistan"
+msgid "Tajikistan"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13662,43 +13730,43 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board11_0.qml:24
 msgctxt "board11_0|"
-msgid "India"
+msgid "Afghanistan"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board11_0.qml:31
 msgctxt "board11_0|"
-msgid "Sri Lanka"
+msgid "Pakistan"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board11_0.qml:38
 msgctxt "board11_0|"
-msgid "Pakistan"
+msgid "Nepal"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board11_0.qml:45
 msgctxt "board11_0|"
-msgid "Afghanistan"
+msgid "Bhutan"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board11_0.qml:52
 msgctxt "board11_0|"
-msgid "Nepal"
+msgid "Bangladesh"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board11_0.qml:59
 msgctxt "board11_0|"
-msgid "Bangladesh"
+msgid "India"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board11_0.qml:66
 msgctxt "board11_0|"
-msgid "Bhutan"
+msgid "Sri Lanka"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13716,67 +13784,67 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board12_0.qml:24
 msgctxt "board12_0|"
-msgid "Singapore"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:32
-msgctxt "board12_0|"
-msgid "Indonesia"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:39
-msgctxt "board12_0|"
 msgid "Myanmar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:46
-msgctxt "board12_0|"
-msgid "Thailand"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:53
+#: activities/geography/resource/board/board12_0.qml:31
 msgctxt "board12_0|"
 msgid "Laos"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:60
+#: activities/geography/resource/board/board12_0.qml:38
 msgctxt "board12_0|"
 msgid "Vietnam"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:67
+#: activities/geography/resource/board/board12_0.qml:45
+msgctxt "board12_0|"
+msgid "Thailand"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board12_0.qml:52
 msgctxt "board12_0|"
 msgid "Cambodia"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:74
+#: activities/geography/resource/board/board12_0.qml:59
+msgctxt "board12_0|"
+msgid "Philippines"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board12_0.qml:66
 msgctxt "board12_0|"
 msgid "Malaysia"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:81
+#: activities/geography/resource/board/board12_0.qml:73
 msgctxt "board12_0|"
 msgid "Brunei"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:88
+#: activities/geography/resource/board/board12_0.qml:80
+msgctxt "board12_0|"
+msgid "Indonesia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board12_0.qml:87
 msgctxt "board12_0|"
 msgid "East Timor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board12_0.qml:95
+#: activities/geography/resource/board/board12_0.qml:94
 msgctxt "board12_0|"
-msgid "Philippines"
+msgid "Singapore"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13788,31 +13856,31 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board13_0.qml:24
 msgctxt "board13_0|"
-msgid "Japan"
+msgid "Mongolia"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board13_0.qml:31
 msgctxt "board13_0|"
-msgid "China"
+msgid "North Korea"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board13_0.qml:38
 msgctxt "board13_0|"
-msgid "Mongolia"
+msgid "South Korea"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board13_0.qml:45
 msgctxt "board13_0|"
-msgid "North Korea"
+msgid "Japan"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board13_0.qml:52
 msgctxt "board13_0|"
-msgid "South Korea"
+msgid "China"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13830,31 +13898,31 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board14_0.qml:24
 msgctxt "board14_0|"
-msgid "Pitcairn Islands"
+msgid "Hawaii"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board14_0.qml:31
 msgctxt "board14_0|"
-msgid "French Polynesia"
+msgid "Mariana Islands"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board14_0.qml:38
 msgctxt "board14_0|"
-msgid "Papua New Guinea"
+msgid "United States Minor Outlying Islands"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board14_0.qml:45
 msgctxt "board14_0|"
-msgid "Palau"
+msgid "Marshall Islands"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board14_0.qml:52
 msgctxt "board14_0|"
-msgid "Mariana Islands"
+msgid "Palau"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13866,91 +13934,91 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board14_0.qml:66
 msgctxt "board14_0|"
-msgid "Nauru"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:74
-msgctxt "board14_0|"
-msgid "Vanuatu"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:81
-msgctxt "board14_0|"
-msgid "Tuvalu"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:88
-msgctxt "board14_0|"
-msgid "Tonga"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:95
-msgctxt "board14_0|"
-msgid "New Caledonia"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:102
-msgctxt "board14_0|"
-msgid "Marshall Islands"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:109
-msgctxt "board14_0|"
 msgid "Kiribati"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:116
+#: activities/geography/resource/board/board14_0.qml:73
 msgctxt "board14_0|"
-msgid "Fiji"
+msgid "Papua New Guinea"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:123
+#: activities/geography/resource/board/board14_0.qml:80
 msgctxt "board14_0|"
 msgid "Solomon Islands"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:130
+#: activities/geography/resource/board/board14_0.qml:87
 msgctxt "board14_0|"
-msgid "New Zealand"
+msgid "Tuvalu"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:137
-msgctxt "board14_0|"
-msgid "Cook Islands"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:144
+#: activities/geography/resource/board/board14_0.qml:94
 msgctxt "board14_0|"
 msgid "Samoan Islands"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:151
+#: activities/geography/resource/board/board14_0.qml:101
+msgctxt "board14_0|"
+msgid "Cook Islands"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board14_0.qml:108
+msgctxt "board14_0|"
+msgid "French Polynesia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board14_0.qml:115
+msgctxt "board14_0|"
+msgid "Pitcairn Islands"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board14_0.qml:122
+msgctxt "board14_0|"
+msgid "Vanuatu"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board14_0.qml:129
+msgctxt "board14_0|"
+msgid "Fiji"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board14_0.qml:136
+msgctxt "board14_0|"
+msgid "Tonga"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board14_0.qml:143
+msgctxt "board14_0|"
+msgid "New Caledonia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board14_0.qml:150
 msgctxt "board14_0|"
 msgid "Australia"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:158
+#: activities/geography/resource/board/board14_0.qml:157
 msgctxt "board14_0|"
-msgid "United States Minor Outlying Islands"
+msgid "New Zealand"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board14_0.qml:165
+#: activities/geography/resource/board/board14_0.qml:164
 msgctxt "board14_0|"
-msgid "Hawaii"
+msgid "Nauru"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -13968,37 +14036,37 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board1_0.qml:24
 msgctxt "board1_0|"
-msgid "Oceania"
+msgid "Europe"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board1_0.qml:31
 msgctxt "board1_0|"
-msgid "Europe"
+msgid "Asia"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board1_0.qml:38
 msgctxt "board1_0|"
-msgid "Asia"
+msgid "America"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board1_0.qml:45
 msgctxt "board1_0|"
-msgid "Antarctica"
+msgid "Africa"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board1_0.qml:52
 msgctxt "board1_0|"
-msgid "America"
+msgid "Oceania"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board1_0.qml:59
 msgctxt "board1_0|"
-msgid "Africa"
+msgid "Antarctica"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14010,25 +14078,25 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board2_0.qml:24
 msgctxt "board2_0|"
-msgid "United States of America"
+msgid "Greenland"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board2_0.qml:31
 msgctxt "board2_0|"
-msgid "Mexico"
+msgid "Canada"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board2_0.qml:38
 msgctxt "board2_0|"
-msgid "Greenland"
+msgid "United States of America"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board2_0.qml:45
 msgctxt "board2_0|"
-msgid "Canada"
+msgid "Mexico"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14040,85 +14108,85 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:24
 msgctxt "board3_0|"
-msgid "Puerto Rico"
+msgid "Bahamas"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:31
 msgctxt "board3_0|"
-msgid "Panama"
+msgid "Cuba"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:38
 msgctxt "board3_0|"
-msgid "Nicaragua"
+msgid "Mexico"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:45
 msgctxt "board3_0|"
-msgid "Mexico"
+msgid "Jamaica"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:52
 msgctxt "board3_0|"
-msgid "Jamaica"
+msgid "Haiti"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:59
 msgctxt "board3_0|"
-msgid "Honduras"
+msgid "Dominican Republic"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:66
 msgctxt "board3_0|"
-msgid "Haiti"
+msgid "Puerto Rico"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:73
 msgctxt "board3_0|"
-msgid "Guatemala"
+msgid "Belize"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:80
 msgctxt "board3_0|"
-msgid "El Salvador"
+msgid "Guatemala"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:87
 msgctxt "board3_0|"
-msgid "Dominican Republic"
+msgid "Honduras"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:94
 msgctxt "board3_0|"
-msgid "Cuba"
+msgid "El Salvador"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:101
 msgctxt "board3_0|"
-msgid "Costa Rica"
+msgid "Nicaragua"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:108
 msgctxt "board3_0|"
-msgid "Belize"
+msgid "Costa Rica"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board3_0.qml:115
 msgctxt "board3_0|"
-msgid "Bahamas"
+msgid "Panama"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14130,79 +14198,79 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:24
 msgctxt "board4_0|"
-msgid "Venezuela"
+msgid "Panama"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:31
 msgctxt "board4_0|"
-msgid "Uruguay"
+msgid "Colombia"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:38
 msgctxt "board4_0|"
-msgid "Suriname"
+msgid "Venezuela"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:45
 msgctxt "board4_0|"
-msgid "Peru"
+msgid "Guyana"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:52
 msgctxt "board4_0|"
-msgid "Paraguay"
+msgid "Suriname"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:59
 msgctxt "board4_0|"
-msgid "Panama"
+msgid "French Guiana"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:66
 msgctxt "board4_0|"
-msgid "Guyana"
+msgid "Ecuador"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:73
 msgctxt "board4_0|"
-msgid "French Guiana"
+msgid "Peru"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:80
 msgctxt "board4_0|"
-msgid "Ecuador"
+msgid "Brazil"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:87
 msgctxt "board4_0|"
-msgid "Colombia"
+msgid "Bolivia"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:94
 msgctxt "board4_0|"
-msgid "Chile"
+msgid "Paraguay"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:101
 msgctxt "board4_0|"
-msgid "Brazil"
+msgid "Uruguay"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board4_0.qml:108
 msgctxt "board4_0|"
-msgid "Bolivia"
+msgid "Chile"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14220,13 +14288,13 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board5_0.qml:24
 msgctxt "board5_0|"
-msgid "United Kingdom"
+msgid "Iceland"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board5_0.qml:31
 msgctxt "board5_0|"
-msgid "Switzerland"
+msgid "Norway"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14238,85 +14306,85 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board5_0.qml:45
 msgctxt "board5_0|"
-msgid "Spain"
+msgid "Finland"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board5_0.qml:52
 msgctxt "board5_0|"
-msgid "Portugal"
+msgid "Denmark"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board5_0.qml:59
 msgctxt "board5_0|"
-msgid "Norway"
+msgid "United Kingdom"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board5_0.qml:66
 msgctxt "board5_0|"
-msgid "The Netherlands"
+msgid "Ireland"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board5_0.qml:73
 msgctxt "board5_0|"
-msgid "Luxembourg"
+msgid "The Netherlands"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board5_0.qml:81
-msgctxt "board5_0|"
-msgid "Italy"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board5_0.qml:88
-msgctxt "board5_0|"
-msgid "Ireland"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board5_0.qml:95
-msgctxt "board5_0|"
-msgid "Iceland"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board5_0.qml:102
+#: activities/geography/resource/board/board5_0.qml:80
 msgctxt "board5_0|"
 msgid "Germany"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board5_0.qml:109
-msgctxt "board5_0|"
-msgid "France"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board5_0.qml:116
-msgctxt "board5_0|"
-msgid "Finland"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board5_0.qml:123
-msgctxt "board5_0|"
-msgid "Denmark"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board5_0.qml:130
+#: activities/geography/resource/board/board5_0.qml:87
 msgctxt "board5_0|"
 msgid "Belgium"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board5_0.qml:137
+#: activities/geography/resource/board/board5_0.qml:94
 msgctxt "board5_0|"
 msgid "Austria"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board5_0.qml:101
+msgctxt "board5_0|"
+msgid "Switzerland"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board5_0.qml:108
+msgctxt "board5_0|"
+msgid "France"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board5_0.qml:115
+msgctxt "board5_0|"
+msgid "Italy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board5_0.qml:122
+msgctxt "board5_0|"
+msgid "Spain"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board5_0.qml:129
+msgctxt "board5_0|"
+msgid "Portugal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board5_0.qml:136
+msgctxt "board5_0|"
+msgid "Luxembourg"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14328,139 +14396,139 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board6_0.qml:24
 msgctxt "board6_0|"
-msgid "Cyprus"
+msgid "Estonia"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:32
-msgctxt "board6_0|"
-msgid "Greece"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:39
-msgctxt "board6_0|"
-msgid "Ukraine"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:46
-msgctxt "board6_0|"
-msgid "Turkey"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:54
-msgctxt "board6_0|"
-msgid "Slovenia"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:61
-msgctxt "board6_0|"
-msgid "Slovak Republic"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:68
-msgctxt "board6_0|"
-msgid "Montenegro"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:76
-msgctxt "board6_0|"
-msgid "Serbia"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:83
-msgctxt "board6_0|"
-msgid "Russia"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:90
-msgctxt "board6_0|"
-msgid "Romania"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:97
-msgctxt "board6_0|"
-msgid "Poland"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:104
-msgctxt "board6_0|"
-msgid "Moldova"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:111
-msgctxt "board6_0|"
-msgid "North Macedonia"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:119
-msgctxt "board6_0|"
-msgid "Lithuania"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:126
+#: activities/geography/resource/board/board6_0.qml:31
 msgctxt "board6_0|"
 msgid "Latvia"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:133
+#: activities/geography/resource/board/board6_0.qml:38
 msgctxt "board6_0|"
-msgid "Hungary"
+msgid "Russia"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:140
+#: activities/geography/resource/board/board6_0.qml:45
 msgctxt "board6_0|"
-msgid "Estonia"
+msgid "Lithuania"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:147
-msgctxt "board6_0|"
-msgid "Czechia"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:154
-msgctxt "board6_0|"
-msgid "Croatia"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:161
-msgctxt "board6_0|"
-msgid "Bulgaria"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:168
-msgctxt "board6_0|"
-msgid "Bosnia Herzegovina"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:175
+#: activities/geography/resource/board/board6_0.qml:52
 msgctxt "board6_0|"
 msgid "Belarus"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board6_0.qml:182
+#: activities/geography/resource/board/board6_0.qml:59
+msgctxt "board6_0|"
+msgid "Poland"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:66
+msgctxt "board6_0|"
+msgid "Czechia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:73
+msgctxt "board6_0|"
+msgid "Slovak Republic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:80
+msgctxt "board6_0|"
+msgid "Ukraine"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:87
+msgctxt "board6_0|"
+msgid "Hungary"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:94
+msgctxt "board6_0|"
+msgid "Romania"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:101
+msgctxt "board6_0|"
+msgid "Moldova"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:108
+msgctxt "board6_0|"
+msgid "Croatia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:115
+msgctxt "board6_0|"
+msgid "Bosnia Herzegovina"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:122
+msgctxt "board6_0|"
+msgid "Serbia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:129
+msgctxt "board6_0|"
+msgid "Bulgaria"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:136
 msgctxt "board6_0|"
 msgid "Albania"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:143
+msgctxt "board6_0|"
+msgid "Greece"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:150
+msgctxt "board6_0|"
+msgid "Turkey"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:157
+msgctxt "board6_0|"
+msgid "Cyprus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:166
+msgctxt "board6_0|"
+msgid "Slovenia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:173
+msgctxt "board6_0|"
+msgid "Montenegro"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board6_0.qml:181
+msgctxt "board6_0|"
+msgid "North Macedonia"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14472,109 +14540,109 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:24
 msgctxt "board7_0|"
-msgid "Western Sahara"
+msgid "Tunisia"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:31
 msgctxt "board7_0|"
-msgid "Uganda"
+msgid "Morocco"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:38
 msgctxt "board7_0|"
-msgid "Tunisia"
+msgid "Algeria"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:45
 msgctxt "board7_0|"
-msgid "Togo"
+msgid "Libya"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:52
 msgctxt "board7_0|"
-msgid "Sudan"
+msgid "Egypt"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:59
 msgctxt "board7_0|"
-msgid "South Sudan"
+msgid "Western Sahara"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:66
 msgctxt "board7_0|"
-msgid "Somalia"
+msgid "Mauritania"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:73
 msgctxt "board7_0|"
-msgid "Sierra Leone"
+msgid "Mali"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:80
 msgctxt "board7_0|"
-msgid "Senegal"
+msgid "Niger"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:87
 msgctxt "board7_0|"
-msgid "Rwanda"
+msgid "Chad"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:94
 msgctxt "board7_0|"
-msgid "Niger"
+msgid "Sudan"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:101
 msgctxt "board7_0|"
-msgid "Nigeria"
+msgid "Eritrea"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:108
 msgctxt "board7_0|"
-msgid "Morocco"
+msgid "Senegal"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:115
 msgctxt "board7_0|"
-msgid "Mauritania"
+msgid "Gambia"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:122
 msgctxt "board7_0|"
-msgid "Mali"
+msgid "Guinea Bissau"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:129
 msgctxt "board7_0|"
-msgid "Libya"
+msgid "Guinea"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:136
 msgctxt "board7_0|"
-msgid "Liberia"
+msgid "Sierra Leone"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:143
 msgctxt "board7_0|"
-msgid "Kenya"
+msgid "Liberia"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14586,55 +14654,55 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:157
 msgctxt "board7_0|"
-msgid "Guinea"
+msgid "Burkina Faso"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:164
 msgctxt "board7_0|"
-msgid "Guinea Bissau"
+msgid "Ghana"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:171
 msgctxt "board7_0|"
-msgid "Ghana"
+msgid "Togo"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:178
 msgctxt "board7_0|"
-msgid "Gambia"
+msgid "Benin"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:185
 msgctxt "board7_0|"
-msgid "Gabon"
+msgid "Nigeria"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:192
 msgctxt "board7_0|"
-msgid "Eritrea"
+msgid "Cameroon"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:199
 msgctxt "board7_0|"
-msgid "Ethiopia"
+msgid "Central African Republic"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:206
 msgctxt "board7_0|"
-msgid "Equatorial Guinea"
+msgid "South Sudan"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:213
 msgctxt "board7_0|"
-msgid "Egypt"
+msgid "Ethiopia"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14646,37 +14714,37 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:227
 msgctxt "board7_0|"
-msgid "Chad"
+msgid "Somalia"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:234
 msgctxt "board7_0|"
-msgid "Central African Republic"
+msgid "Equatorial Guinea"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:241
 msgctxt "board7_0|"
-msgid "Cameroon"
+msgid "Gabon"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:248
 msgctxt "board7_0|"
-msgid "Burkina Faso"
+msgid "Uganda"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:255
 msgctxt "board7_0|"
-msgid "Benin"
+msgid "Kenya"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board7_0.qml:262
 msgctxt "board7_0|"
-msgid "Algeria"
+msgid "Rwanda"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14688,37 +14756,37 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:24
 msgctxt "board8_0|"
-msgid "Zimbabwe"
+msgid "Equatorial Guinea"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:31
 msgctxt "board8_0|"
-msgid "Zambia"
+msgid "Gabon"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:38
 msgctxt "board8_0|"
-msgid "Uganda"
+msgid "Republic of the Congo"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:45
 msgctxt "board8_0|"
-msgid "Tanzania"
+msgid "Democratic Republic of the Congo"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:52
 msgctxt "board8_0|"
-msgid "Eswatini"
+msgid "Uganda"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:59
 msgctxt "board8_0|"
-msgid "South Africa"
+msgid "Kenya"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14730,79 +14798,79 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:73
 msgctxt "board8_0|"
-msgid "Republic of the Congo"
+msgid "Burundi"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:80
 msgctxt "board8_0|"
-msgid "Namibia"
+msgid "Tanzania"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:87
 msgctxt "board8_0|"
-msgid "Mozambique"
+msgid "Angola"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:94
 msgctxt "board8_0|"
-msgid "Malawi"
+msgid "Zambia"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:101
 msgctxt "board8_0|"
-msgid "Madagascar"
+msgid "Malawi"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:108
 msgctxt "board8_0|"
-msgid "Lesotho"
+msgid "Mozambique"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:115
 msgctxt "board8_0|"
-msgid "Kenya"
+msgid "Madagascar"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:122
 msgctxt "board8_0|"
-msgid "Gabon"
+msgid "Zimbabwe"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:129
 msgctxt "board8_0|"
-msgid "Equatorial Guinea"
+msgid "Botswana"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:136
 msgctxt "board8_0|"
-msgid "Democratic Republic of the Congo"
+msgid "Namibia"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:143
 msgctxt "board8_0|"
-msgid "Burundi"
+msgid "Eswatini"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:150
 msgctxt "board8_0|"
-msgid "Botswana"
+msgid "South Africa"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board8_0.qml:157
 msgctxt "board8_0|"
-msgid "Angola"
+msgid "Lesotho"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14811,23 +14879,23 @@ msgctxt "board9_0|"
 msgid "Western Asia"
 msgstr ""
 
+#. Translators: Strip Asia| and translate only Georgia
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:24
+#: activities/geography/resource/board/board9_0.qml:25
+msgctxt "board9_0|"
+msgid "Asia|Georgia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board9_0.qml:32
 msgctxt "board9_0|"
 msgid "Turkey"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:31
-msgctxt "board9_0|"
-msgid "Cyprus"
-msgstr ""
-
-#. Translators: Strip Asia| and translate only Georgia
-#. +> trunk6 stable6
 #: activities/geography/resource/board/board9_0.qml:39
 msgctxt "board9_0|"
-msgid "Asia|Georgia"
+msgid "Armenia"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14839,31 +14907,31 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board9_0.qml:53
 msgctxt "board9_0|"
-msgid "Armenia"
+msgid "Cyprus"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board9_0.qml:60
 msgctxt "board9_0|"
-msgid "Iran"
+msgid "Lebanon"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board9_0.qml:67
 msgctxt "board9_0|"
-msgid "Iraq"
+msgid "Syria"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board9_0.qml:74
 msgctxt "board9_0|"
-msgid "Syria"
+msgid "Iraq"
 msgstr ""
 
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board9_0.qml:81
 msgctxt "board9_0|"
-msgid "Jordan"
+msgid "Iran"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -14875,55 +14943,55 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/geography/resource/board/board9_0.qml:95
 msgctxt "board9_0|"
-msgid "Palestine"
+msgid "Jordan"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:103
-msgctxt "board9_0|"
-msgid "Lebanon"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:110
-msgctxt "board9_0|"
-msgid "Saudi Arabia"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:117
+#: activities/geography/resource/board/board9_0.qml:102
 msgctxt "board9_0|"
 msgid "Kuwait"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:124
+#: activities/geography/resource/board/board9_0.qml:109
+msgctxt "board9_0|"
+msgid "Egypt"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board9_0.qml:116
+msgctxt "board9_0|"
+msgid "Saudi Arabia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/geography/resource/board/board9_0.qml:123
 msgctxt "board9_0|"
 msgid "Qatar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:131
+#: activities/geography/resource/board/board9_0.qml:130
 msgctxt "board9_0|"
 msgid "United Arab Emirates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:138
+#: activities/geography/resource/board/board9_0.qml:137
 msgctxt "board9_0|"
 msgid "Oman"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:145
+#: activities/geography/resource/board/board9_0.qml:144
 msgctxt "board9_0|"
 msgid "Yemen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/geography/resource/board/board9_0.qml:152
+#: activities/geography/resource/board/board9_0.qml:151
 msgctxt "board9_0|"
-msgid "Egypt"
+msgid "Palestine"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -28549,31 +28617,31 @@ msgid "Version %1:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/core.js:221
+#: core/core.js:240
 msgctxt "core|"
 msgid "Missing sound files!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/core.js:222
+#: core/core.js:241
 msgctxt "core|"
 msgid "This activity uses language sound files, that are not yet installed on your system."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/core.js:225
+#: core/core.js:244
 msgctxt "core|"
 msgid "For downloading the needed sound files go to the Configuration dialog."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/core.js:257
+#: core/core.js:276
 msgctxt "core|"
 msgid "Download in progress"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/core.js:259
+#: core/core.js:278
 msgctxt "core|"
 msgid ""
 "Download in progress.<br/>"
@@ -28581,25 +28649,25 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/core.js:269
+#: core/core.js:288
 msgctxt "core|"
 msgid "Quit?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/core.js:271
+#: core/core.js:290
 msgctxt "core|"
 msgid "Do you really want to quit GCompris?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/core.js:272
+#: core/core.js:291
 msgctxt "core|"
 msgid "Yes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/core.js:273
+#: core/core.js:292
 msgctxt "core|"
 msgid "No"
 msgstr ""

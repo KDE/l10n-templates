@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-02 08:53+0200\n"
+"POT-Creation-Date: 2026-10-14 09:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,64 +18,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. +> trunk6 stable6
-#: devicenotifications.cpp:481
+#: devicenotifications.cpp:504
 #, kde-format
 msgctxt "@title:notifications"
 msgid "Display Detected"
 msgstr ""
 
-#. +> trunk6 stable6
-#: devicenotifications.cpp:482
+#. +> trunk6
+#: devicenotifications.cpp:506
 #, kde-format
-msgid "A display has been connected."
+msgctxt "Display connector (e.g. HDMI-1)"
+msgid "%1 has been connected."
+msgstr ""
+
+#. +> trunk6
+#: devicenotifications.cpp:509
+#, kde-format
+msgctxt "Display manufacturer, model (connector name)"
+msgid "%1 %2 (%3) has been connected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: devicenotifications.cpp:513
+#: devicenotifications.cpp:544
 #, kde-format
 msgctxt "@title:notifications"
 msgid "Display Removed"
 msgstr ""
 
-#. +> trunk6 stable6
-#: devicenotifications.cpp:514
+#. +> trunk6
+#: devicenotifications.cpp:546
 #, kde-format
-msgid "A display has been disconnected."
+msgctxt "Display connector (e.g. HDMI-1)"
+msgid "%1 has been disconnected."
+msgstr ""
+
+#. +> trunk6
+#: devicenotifications.cpp:549
+#, kde-format
+msgctxt "Display manufacturer, model (connector name)"
+msgid "%1 %2 (%3) has been disconnected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: devicenotifications.cpp:558
+#: devicenotifications.cpp:597
 #, kde-format
 msgid "%1 has been connected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: devicenotifications.cpp:558
+#: devicenotifications.cpp:597
 #, kde-format
 msgid "A USB device has been connected."
 msgstr ""
 
+#. +> stable6
+#: devicenotifications.cpp:486
+#, kde-format
+msgid "A display has been connected."
+msgstr ""
+
 #. +> trunk6 stable6
-#: devicenotifications.cpp:563
+#: devicenotifications.cpp:602
 #, kde-format
 msgctxt "@title:notifications"
 msgid "USB Device Detected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: devicenotifications.cpp:601
+#: devicenotifications.cpp:640
 #, kde-format
 msgid "%1 has been disconnected."
 msgstr ""
 
+#. +> stable6
+#: devicenotifications.cpp:523
+#, kde-format
+msgid "A display has been disconnected."
+msgstr ""
+
 #. +> trunk6 stable6
-#: devicenotifications.cpp:601
+#: devicenotifications.cpp:640
 #, kde-format
 msgid "A USB device has been disconnected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: devicenotifications.cpp:606
+#: devicenotifications.cpp:645
 #, kde-format
 msgctxt "@title:notifications"
 msgid "USB Device Removed"
