@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mimetreeparser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-14 09:30+0200\n"
+"POT-Creation-Date: 2026-10-15 07:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -147,25 +147,19 @@ msgid "Wrong passphrase"
 msgstr ""
 
 #. +> trunk6
-#: core/messagepart.cpp:879
+#: core/messagepart.cpp:878
 #, kde-format
-msgid "This message is VS-NfD compliant encrypted but you do not have a matching secret key."
+msgid "This message cannot be decrypted because you do not have a matching secret key."
 msgstr ""
 
 #. +> trunk6 stable6
 #: core/messagepart.cpp:881
 #, kde-format
-msgid "This message is encrypted but you don't have a matching secret key."
-msgstr ""
-
-#. +> trunk6 stable6
-#: core/messagepart.cpp:885
-#, kde-format
 msgid "Crypto plug-in \"%1\" could not decrypt the data."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/messagepart.cpp:886
+#: core/messagepart.cpp:882
 #, kde-format
 msgid "Error: %1"
 msgstr ""
@@ -184,20 +178,29 @@ msgctxt "@info What can be done: Some guidance"
 msgid "What can be done: %1"
 msgstr ""
 
-#. +> trunk6 stable6
-#: core/partmodel.cpp:532
+#. +> trunk6
+#: core/partmodel.cpp:533
 #, kde-format
-msgid "This message is VS-NfD compliant encrypted."
+msgctxt "@info"
+msgid "This message is encrypted (%1)."
 msgstr ""
 
-#. +> trunk6 stable6
-#: core/partmodel.cpp:534
+#. +> trunk6
+#: core/partmodel.cpp:536
 #, kde-format
+msgctxt "@info %1 names the compliance in adjective form (e.g. 'VS-NfD compliant')"
+msgid "This message is encrypted, but the encryption is not %1."
+msgstr ""
+
+#. +> trunk6
+#: core/partmodel.cpp:540
+#, kde-format
+msgctxt "@info"
 msgid "This message is encrypted."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/partmodel.cpp:541
+#: core/partmodel.cpp:547
 #, kde-format
 msgctxt "@info:status"
 msgid "The message is encrypted for the following recipient:"
@@ -436,6 +439,18 @@ msgstr ""
 #: widgets/messagecontainerwidget.cpp:211
 #, kde-format
 msgid "This message is VS-NfD compliant encrypted but you don't have a matching secret key."
+msgstr ""
+
+#. +> stable6
+#: widgets/messagecontainerwidget.cpp:218
+#, kde-format
+msgid "This message is VS-NfD compliant encrypted."
+msgstr ""
+
+#. +> stable6
+#: widgets/messagecontainerwidget.cpp:220
+#, kde-format
+msgid "This message is encrypted."
 msgstr ""
 
 #. +> stable6
@@ -807,6 +822,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Message"
+msgstr ""
+
+#. +> stable6
+#: quick/qml/private/MailPartModel.qml:97
+#: widgets/messagecontainerwidget.cpp:213
+#, kde-format
+msgid "This message is encrypted but you don't have a matching secret key."
 msgstr ""
 
 #. +> stable6

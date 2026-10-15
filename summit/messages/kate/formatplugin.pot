@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-16 07:03+0200\n"
+"POT-Creation-Date: 2026-10-15 07:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,9 +18,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. +> trunk6 stable6
-#: FormatApply.h:22 FormatApply.h:33 FormatApply.h:38 FormatPlugin.cpp:88
-#: FormatPlugin.cpp:245 Formatters.cpp:271 Formatters.cpp:291
-#: Formatters.cpp:314 Formatters.cpp:346
+#: FormatApply.h:22 FormatApply.h:40 FormatApply.h:45 FormatPlugin.cpp:88
+#: FormatPlugin.cpp:234 Formatters.cpp:286 Formatters.cpp:306
+#: Formatters.cpp:329 Formatters.cpp:361
 #, kde-format
 msgid "Format"
 msgstr ""
@@ -32,13 +32,13 @@ msgid "Failed to write a temp file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: FormatApply.h:33
+#: FormatApply.h:40
 #, kde-format
 msgid "Failed to run git diff: git not installed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: FormatApply.h:38
+#: FormatApply.h:45
 #, kde-format
 msgid "Failed to run git diff: %1"
 msgstr ""
@@ -80,37 +80,49 @@ msgid "Disable formatting on save without persisting it in settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: Formatters.cpp:129
+#: Formatters.cpp:130
 #, kde-format
 msgid "%1: Unexpected empty command!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: Formatters.cpp:136
+#: Formatters.cpp:137
 #, kde-format
 msgid "%1 is not installed, please install it to be able to format this document!"
 msgstr ""
 
+#. +> trunk6
+#: Formatters.cpp:154
+#, kde-format
+msgid "%1 crashed"
+msgstr ""
+
+#. +> trunk6
+#: Formatters.cpp:154
+#, kde-format
+msgid "%1 failed with exit code %2"
+msgstr ""
+
 #. +> trunk6 stable6
-#: Formatters.cpp:271
+#: Formatters.cpp:286
 #, kde-format
 msgid "Unknown formatterForJson: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: Formatters.cpp:291
+#: Formatters.cpp:306
 #, kde-format
 msgid "Unknown formatterForPython: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: Formatters.cpp:314
+#: Formatters.cpp:329
 #, kde-format
 msgid "Unknown formatterForYaml: %1, falling back to yamlfmt"
 msgstr ""
 
 #. +> trunk6 stable6
-#: Formatters.cpp:346
+#: Formatters.cpp:361
 #, kde-format
 msgid "Failed to run formatter. Unsupported language %1"
 msgstr ""
