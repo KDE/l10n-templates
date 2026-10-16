@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-15 07:38+0200\n"
+"POT-Creation-Date: 2026-10-17 00:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -106,7 +106,7 @@ msgstr ""
 #. +> trunk6
 #: core/mcp/textautogeneratemcptoolcalljob.cpp:60
 #: core/mcp/textautogeneratemcptoolcalljob.cpp:157
-#: widgets/toolswidget/textautogeneratetoolswidget.cpp:158
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:184
 #, kde-format
 msgid "Error: %1"
 msgstr ""
@@ -137,7 +137,7 @@ msgid "Error: impossible to call tool \"%1\"."
 msgstr ""
 
 #. +> trunk6
-#: core/mcp/textautogeneratemcptoolsmanager.cpp:81
+#: core/mcp/textautogeneratemcptoolsmanager.cpp:92
 #, kde-format
 msgid "Server is invalid or disabled."
 msgstr ""
@@ -721,8 +721,9 @@ msgstr ""
 #: plugins/ollamaonline/ollamaonlineconfigurewidget.cpp:69
 #: widgets/networkpluginconfigure/textautogeneratenetworkpluginconfigurewidget.cpp:49
 #: widgets/projects/textautogenerateprojectwidget.cpp:33
-#: widgets/promptswidget/textautogeneratepromptwidget.cpp:40
-#: widgets/promptswidget/textautogenerateskillwidget.cpp:33
+#: widgets/promptswidget/textautogenerateagentwidget.cpp:29
+#: widgets/promptswidget/textautogeneratepromptwidget.cpp:39
+#: widgets/promptswidget/textautogenerateskillwidget.cpp:32
 #: widgets/tags/textautogeneratetagwidget.cpp:34
 #, kde-format
 msgid "Name:"
@@ -807,7 +808,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelcreatefromexistingmodelwidget.cpp:44
-#: widgets/promptswidget/textautogeneratepromptwidget.cpp:43
+#: widgets/promptswidget/textautogeneratepromptwidget.cpp:42
 #, kde-format
 msgid "Prompt:"
 msgstr ""
@@ -2912,7 +2913,9 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:73
+#: widgets/promptswidget/textautogenerateselectagentlistwidget.cpp:33
 #: widgets/promptswidget/textautogenerateselectpromptlistwidget.cpp:35
+#: widgets/promptswidget/textautogenerateselectskilllistwidget.cpp:33
 #, kde-format
 msgctxt "@action"
 msgid "Edit…"
@@ -3293,6 +3296,21 @@ msgstr ""
 msgid "Icon:"
 msgstr ""
 
+#. +> trunk6
+#: widgets/promptswidget/textautogenerateagentdialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Agent"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/promptswidget/textautogenerateagentwidget.cpp:30
+#: widgets/promptswidget/textautogeneratepromptwidget.cpp:41
+#: widgets/promptswidget/textautogenerateskillwidget.cpp:33
+#, kde-format
+msgid "Description:"
+msgstr ""
+
 #. +> trunk6 stable6
 #: widgets/promptswidget/textautogeneratepromptcategorycombobox.cpp:21
 #, kde-format
@@ -3319,22 +3337,42 @@ msgid "Prompt"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/promptswidget/textautogeneratepromptwidget.cpp:41
+#: widgets/promptswidget/textautogeneratepromptwidget.cpp:40
 #, kde-format
 msgid "Category:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: widgets/promptswidget/textautogeneratepromptwidget.cpp:42
-#: widgets/promptswidget/textautogenerateskillwidget.cpp:34
+#. +> trunk6
+#: widgets/promptswidget/textautogeneratepromptwidget.cpp:43
 #, kde-format
-msgid "Description:"
+msgid "Command Completion:"
 msgstr ""
 
 #. +> trunk6
-#: widgets/promptswidget/textautogeneratepromptwidget.cpp:44
+#: widgets/promptswidget/textautogenerateselectagentlistwidget.cpp:27
 #, kde-format
-msgid "Command Completion:"
+msgctxt "@action"
+msgid "Add Agent…"
+msgstr ""
+
+#. +> trunk6
+#: widgets/promptswidget/textautogenerateselectagentlistwidget.cpp:41
+#, kde-format
+msgctxt "@action"
+msgid "Remove Agent"
+msgstr ""
+
+#. +> trunk6
+#: widgets/promptswidget/textautogenerateselectagentlistwidget.cpp:44
+#, kde-format
+msgid "Do you want to remove this agent (%1)?"
+msgstr ""
+
+#. +> trunk6
+#: widgets/promptswidget/textautogenerateselectagentlistwidget.cpp:45
+#, kde-format
+msgctxt "@title"
+msgid "Remove Agent"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3364,6 +3402,33 @@ msgctxt "@title"
 msgid "Remove Prompt"
 msgstr ""
 
+#. +> trunk6
+#: widgets/promptswidget/textautogenerateselectskilllistwidget.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Add Skill…"
+msgstr ""
+
+#. +> trunk6
+#: widgets/promptswidget/textautogenerateselectskilllistwidget.cpp:41
+#, kde-format
+msgctxt "@action"
+msgid "Remove Skill"
+msgstr ""
+
+#. +> trunk6
+#: widgets/promptswidget/textautogenerateselectskilllistwidget.cpp:44
+#, kde-format
+msgid "Do you want to remove this skill (%1)?"
+msgstr ""
+
+#. +> trunk6
+#: widgets/promptswidget/textautogenerateselectskilllistwidget.cpp:45
+#, kde-format
+msgctxt "@title"
+msgid "Remove Skill"
+msgstr ""
+
 #. +> trunk6 stable6
 #: widgets/promptswidget/textautogenerateskilldialog.cpp:23
 #, kde-format
@@ -3372,7 +3437,7 @@ msgid "Skill"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/promptswidget/textautogenerateskillwidget.cpp:35
+#: widgets/promptswidget/textautogenerateskillwidget.cpp:34
 #, kde-format
 msgid "Instructions:"
 msgstr ""
@@ -3599,27 +3664,45 @@ msgctxt "@title:window"
 msgid "Error"
 msgstr ""
 
+#. +> trunk6
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:42
+#, kde-format
+msgid "Read-only"
+msgstr ""
+
+#. +> trunk6
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:44
+#, kde-format
+msgid "Modifies data"
+msgstr ""
+
+#. +> trunk6
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:46
+#, kde-format
+msgid "May delete or overwrite data"
+msgstr ""
+
 #. +> trunk6 stable6
-#: widgets/toolswidget/textautogeneratetoolswidget.cpp:33
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:59
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Tools:"
 msgstr ""
 
 #. +> trunk6
-#: widgets/toolswidget/textautogeneratetoolswidget.cpp:145
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:171
 #, kde-format
 msgid "Not connected"
 msgstr ""
 
 #. +> trunk6
-#: widgets/toolswidget/textautogeneratetoolswidget.cpp:148
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:174
 #, kde-format
 msgid "Connecting…"
 msgstr ""
 
 #. +> trunk6
-#: widgets/toolswidget/textautogeneratetoolswidget.cpp:152
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:178
 #, kde-format
 msgid "1 tool"
 msgid_plural "%1 tools"
@@ -3627,13 +3710,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: widgets/toolswidget/textautogeneratetoolswidget.cpp:154
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:180
 #, kde-format
 msgid "Loading tools…"
 msgstr ""
 
 #. +> trunk6
-#: widgets/toolswidget/textautogeneratetoolswidget.cpp:161
+#: widgets/toolswidget/textautogeneratetoolswidget.cpp:187
 #, kde-format
 msgid "Tools of MCP server \"%1\" (%2)"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-14 09:30+0200\n"
+"POT-Creation-Date: 2026-10-17 00:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -861,18 +861,18 @@ msgctxt "@action:inmenu"
 msgid "&Show Barcode…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: klipper.cpp:124
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Next History Item"
+msgid "Rotate History Down"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: klipper.cpp:129
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Previous History Item"
+msgid "Rotate History Up"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -883,17 +883,31 @@ msgid "Show Clipboard Items at Mouse Position"
 msgstr ""
 
 #. +> stable5
-#: klipper.cpp:203
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "&Configure Klipper…"
-msgstr ""
-
-#. +> stable5
 #: klipper.cpp:251
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Items at Mouse Position"
+msgstr ""
+
+#. +> stable6 stable5
+#: klipper.cpp:122
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next History Item"
+msgstr ""
+
+#. +> stable6 stable5
+#: klipper.cpp:127
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Previous History Item"
+msgstr ""
+
+#. +> stable5
+#: klipper.cpp:203
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Configure Klipper…"
 msgstr ""
 
 #. +> stable5
@@ -909,20 +923,38 @@ msgstr ""
 msgid "Clipboard history"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: klipper.cpp:411
+#. +> trunk6
+#: klipper.cpp:410
+#, kde-format
+msgid "Newer: "
+msgstr ""
+
+#. +> trunk6
+#: klipper.cpp:417
+#, kde-format
+msgid "Current: "
+msgstr ""
+
+#. +> stable6 stable5
+#: klipper.cpp:422
 #, kde-format
 msgid "up"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: klipper.cpp:418
+#. +> stable6 stable5
+#: klipper.cpp:429
 #, kde-format
 msgid "current"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: klipper.cpp:425
+#. +> trunk6
+#: klipper.cpp:424
+#, kde-format
+msgid "Older: "
+msgstr ""
+
+#. +> stable6 stable5
+#: klipper.cpp:436
 #, kde-format
 msgid "down"
 msgstr ""

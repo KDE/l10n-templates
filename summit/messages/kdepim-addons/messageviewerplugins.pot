@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-31 08:36+0200\n"
+"POT-Creation-Date: 2026-10-17 00:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -315,8 +315,26 @@ msgctxt "@label:textbox"
 msgid "<qt><a href=\"whatsthis1\">Argument format information…</a></qt>"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:48
+#, kde-format
+msgid ""
+"<qt>"
+"<p><strong>These expressions may be used for the arguments:</strong></p>"
+"<ul>"
+"<li>%s - the subject of message</li>"
+"<li>%from - the from email address</li>"
+"<li>%cc - the list of cc email address</li>"
+"<li>%bcc - the list of bcc email address</li>"
+"<li>%body - the body of message</li>"
+"<li>%inreplyto - the reply email address</li>"
+"<li>%akonadiUrl - the akonadi url (as akonadi:?item=187020)</li>"
+"</ul>"
+"</qt>"
+msgstr ""
+
+#. +> stable6
+#: externalscriptplugin/configuredialog/viewerpluginexternaleditwidget.cpp:47
 #, kde-format
 msgid ""
 "<qt>"
