@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-10 13:20+0200\n"
+"POT-Creation-Date: 2026-10-17 10:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -74,6 +74,7 @@ msgstr ""
 #: content/news/2026/akademy-26/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
 #: content/news/2026/dopesheet-status-9-26/index.md:0
+#: content/news/2026/october-testing/index.md:0
 msgid "Jean-Baptiste Mardelle"
 msgstr ""
 
@@ -83,6 +84,7 @@ msgstr ""
 #: content/news/2026/akademy-26/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
 #: content/news/2026/dopesheet-status-9-26/index.md:0
+#: content/news/2026/october-testing/index.md:0
 #: content/news/2026/state-2026/index.md:0
 msgid "Inside"
 msgstr ""
@@ -251,6 +253,7 @@ msgstr ""
 #: content/news/2026/akademy-26/index.md:0
 #: content/news/2026/dopesheet-status-1-26/index.md:0
 #: content/news/2026/dopesheet-status-9-26/index.md:0
+#: content/news/2026/october-testing/index.md:0
 #: content/news/2026/state-2026/index.md:0
 msgid "kdenlive"
 msgstr ""
@@ -841,6 +844,139 @@ msgstr ""
 #. +> trunk5
 #: content/news/2026/dopesheet-status-9-26/index.md:0
 msgid "Parametrized Keyframes - Status Report, September 2026"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:10
+msgid "Kdenlive development for the 26.12 release is very active, and we would like to request some feedback regarding two of the upcoming features."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:12
+msgid "Title Editor"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:14
+msgid "One of the feature is related to the title editor. Our title editor has always been functional but rather limited. A new feature was recently implemented by *klg* that allows having different font styles in a single text block."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:16
+msgid "![](titler-style.jpg \"Title with different styles\")"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:18
+msgid "Note that several other great improvements were made by other contributors, like: Undo/redo support, implemented by *Jaimukund Bhan*, and Copy/paste support, implemented by *chocolate image*."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:20
+msgid "Relative paths for projects"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:22
+msgid "The second large change is the switch to relative paths in project files. This means that if your videos or images are in the same folder as the project file (or a subfolder), you can easily move your work to another drive and reopen it without issue. This should really improve the experience for people editing projects on several computers, or switching between different operating systems. And this should also fix issues for teams doing collaborative work with projects on network drives or removable drives."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:24
+msgid "How you can help"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:26
+msgid "We did some regression testing and have some unit tests for both these new features, of course, but some real-life scenarios may not be covered, which is why having feedback from testers is very valuable to us. Download the binaries from the link below and use this development version (26.11.70) to test the steps as described below, then report your findings in the comments section."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:28
+msgid "To test the title editor changes"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:29
+msgid "The goal is to ensure existing titles display exactly as before and that there are no changes to the position or attributes of the titles."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:30
+msgid "Open your project files, ensure your existing titles display and render correctly."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:31
+msgid "Save your project to a new file, try to reopen and ensure it still displays and renders fine."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:33
+msgid "To test the relative paths changes"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:34
+msgid "The goal is to ensure that all files in existing projects are correctly found, that you can render, save, open again, and all files are still correctly found."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:36
+msgid "Open your projects, ensure that all files appear correctly."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:37
+msgid "Check in the project settings that the `project folder` is correctly detected (default location, parent folder, or custom folder)."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:38
+msgid "Check that rendering works correctly (no missing images ore videos)."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:39
+msgid "Save the project with a new name (Save As), then repeat steps 1 thru 3."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:40
+msgid "If you sometimes edit from multiple computers, save the project under a new name and ensure that you can open and save the project file correctly from your different computers."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:42
+msgid "Download"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:44
+msgid ""
+"{{< alert title=\"Experimental Builds\" color=\"info\" icon=\"info\" >}} These downloads are **for testing only**, please do not use in production.<br>"
+" We do not recommend overwriting your existing projects by saving them with this version.<br>"
+" Reinstall a stable version after you have finished testing. {{</ alert >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:50
+msgid "**Linux Appimage** can be downloaded from [Kdenlive's unstable download folder][1]. Make it executable from your file manager before running it."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:52
+msgid "**Windows installer** can be downloded from [Kdenlive's unstable download folder][2]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:54
+msgid "Development **Flatpak** can be installed from [KDE's cdn server][3]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2026/october-testing/index.md:0
+msgid "Help us test Kdenlive"
 msgstr ""
 
 #. +> trunk5
