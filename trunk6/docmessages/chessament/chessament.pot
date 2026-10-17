@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-07 01:01+0000\n"
+"POT-Creation-Date: 2026-10-17 01:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -305,41 +305,66 @@ msgstr ""
 #. Tag: para
 #: index.docbook:153
 #, no-c-format
-msgid "Number of Wins (<acronym>WIN</acronym>)"
+msgid ""
+"Number of Games Won with Black (over the board) (<acronym>BWG</acronym>)"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:156
 #, no-c-format
+msgid "Number of Wins (<acronym>WIN</acronym>)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:159
+#, no-c-format
+msgid "Rounds one Elected to Play (<acronym>REP</acronym>)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:162
+#, no-c-format
+msgid "Sonneborn-Berger (<acronym>SB</acronym>)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:165
+#, no-c-format
 msgid "Points (<acronym>PTS</acronym>)"
 msgstr ""
 
+#. Tag: para
+#: index.docbook:168
+#, no-c-format
+msgid "Progressive (<acronym>PS</acronym>)"
+msgstr ""
+
 #. Tag: title
-#: index.docbook:163
+#: index.docbook:175
 #, no-c-format
 msgid "Reference"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:166
+#: index.docbook:178
 #, no-c-format
 msgid "The Menubar"
 msgstr ""
 
 #. Tag: title
-#: index.docbook:168
+#: index.docbook:180
 #, no-c-format
 msgid "The File Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:172
+#: index.docbook:184
 #, no-c-format
 msgid "<guimenu>File</guimenu> <guimenuitem>New tournament…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:178
+#: index.docbook:190
 #, no-c-format
 msgid ""
 "<action>Create</action> a new tournament. If there is already an opened "
@@ -347,7 +372,7 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:185
+#: index.docbook:197
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> </"
@@ -355,13 +380,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:194
+#: index.docbook:206
 #, no-c-format
 msgid "<action>Open</action> a &chessament; file."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:201
+#: index.docbook:213
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>S</keycap></"
@@ -370,13 +395,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:210
+#: index.docbook:222
 #, no-c-format
 msgid "<action>Save</action> the tournament under a new name."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:217
+#: index.docbook:229
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>I</keycap></keycombo> </"
@@ -385,7 +410,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:226
+#: index.docbook:238
 #, no-c-format
 msgid ""
 "<action>Import</action> a Tournament Report File (<acronym>TRF</acronym>). "
@@ -393,14 +418,14 @@ msgid ""
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:233
+#: index.docbook:245
 #, no-c-format
 msgid ""
 "<guimenu>File</guimenu> <guimenuitem>Export tournament report…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:239
+#: index.docbook:251
 #, no-c-format
 msgid ""
 "<action>Export</action> the current tournament to a Tournament Report File "
@@ -408,31 +433,31 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:247
+#: index.docbook:259
 #, no-c-format
 msgid "The View Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:251
+#: index.docbook:263
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>Hide finished games</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:257
+#: index.docbook:269
 #, no-c-format
 msgid "<action>Hides</action> the games that have a result entered."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:265
+#: index.docbook:277
 #, no-c-format
 msgid "The Settings Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:269
+#: index.docbook:281
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>,</keycap></"
@@ -441,13 +466,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:278
+#: index.docbook:290
 #, no-c-format
 msgid "<action>Opens</action> the Keyboard Shortcuts window."
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:285
+#: index.docbook:297
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>,</keycap></"
@@ -456,19 +481,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:294
+#: index.docbook:306
 #, no-c-format
 msgid "<action>Opens</action> &chessament; Settings window."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:302
+#: index.docbook:314
 #, no-c-format
 msgid "The Help Menu"
 msgstr ""
 
 #. Tag: menuchoice
-#: index.docbook:306
+#: index.docbook:318
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>I</keycap></"
@@ -477,19 +502,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:315
+#: index.docbook:327
 #, no-c-format
 msgid "<action>Opens</action> the command bar."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:325
+#: index.docbook:337
 #, no-c-format
 msgid "Command Line Options"
 msgstr ""
 
 #. Tag: userinput
-#: index.docbook:329
+#: index.docbook:341
 #, no-c-format
 msgid ""
 "<command>chessament</command> <option>--import-trf <replaceable>file</"
@@ -497,20 +522,20 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:334
+#: index.docbook:346
 #, no-c-format
 msgid ""
 "Import a Tournament Report File (<acronym>TRF</acronym>) as a new tournament."
 msgstr ""
 
 #. Tag: title
-#: index.docbook:344
+#: index.docbook:356
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:345
+#: index.docbook:357
 #, no-c-format
 msgid ""
 "Documentation Copyright &copy; &Manuel.Alcaraz.Zambrano; &Manuel.Alcaraz."
@@ -518,13 +543,13 @@ msgid ""
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:346
+#: index.docbook:358
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
-#: index.docbook:346
+#: index.docbook:358
 #, no-c-format
 msgid "&underCCBYSA4; &underGPL;"
 msgstr ""
