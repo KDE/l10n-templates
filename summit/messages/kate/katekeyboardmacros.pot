@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-06 10:23+0200\n"
+"POT-Creation-Date: 2026-10-20 07:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -94,14 +94,8 @@ msgstr ""
 msgid "Recording…"
 msgstr ""
 
-#. +> stable6
-#: keyboardmacrosplugin.cpp:277
-#, kde-format
-msgid "ended"
-msgstr ""
-
 #. +> trunk6
-#: keyboardmacrosplugin.cpp:278
+#: keyboardmacrosplugin.cpp:277
 #, kde-format
 msgid "Recording ended"
 msgstr ""
@@ -113,7 +107,7 @@ msgid "Recording %1"
 msgstr ""
 
 #. +> trunk6
-#: keyboardmacrosplugin.cpp:279
+#: keyboardmacrosplugin.cpp:277
 #, kde-format
 msgid "Recording canceled"
 msgstr ""
@@ -121,7 +115,20 @@ msgstr ""
 #. +> stable6
 #: keyboardmacrosplugin.cpp:277
 #, kde-format
+msgid "ended"
+msgstr ""
+
+#. +> stable6
+#: keyboardmacrosplugin.cpp:277
+#, kde-format
 msgid "canceled"
+msgstr ""
+
+#. +> trunk6
+#: keyboardmacrosplugin.cpp:327
+#, kde-format
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Saved ‘%1’"
 msgstr ""
 
 #. +> stable6
@@ -131,10 +138,10 @@ msgid "Saved '%1'"
 msgstr ""
 
 #. +> trunk6
-#: keyboardmacrosplugin.cpp:330
+#: keyboardmacrosplugin.cpp:347
 #, kde-format
 msgctxt "%1 is the name of a keyboard macro"
-msgid "Saved ‘%1’"
+msgid "Loaded ‘%1’"
 msgstr ""
 
 #. +> stable6
@@ -144,23 +151,16 @@ msgid "Loaded '%1'"
 msgstr ""
 
 #. +> trunk6
-#: keyboardmacrosplugin.cpp:350
+#: keyboardmacrosplugin.cpp:365
 #, kde-format
 msgctxt "%1 is the name of a keyboard macro"
-msgid "Loaded ‘%1’"
+msgid "Wiped ‘%1’"
 msgstr ""
 
 #. +> stable6
 #: keyboardmacrosplugin.cpp:365
 #, kde-format
 msgid "Wiped '%1'"
-msgstr ""
-
-#. +> trunk6
-#: keyboardmacrosplugin.cpp:368
-#, kde-format
-msgctxt "%1 is the name of a keyboard macro"
-msgid "Wiped ‘%1’"
 msgstr ""
 
 #. +> trunk6 stable6

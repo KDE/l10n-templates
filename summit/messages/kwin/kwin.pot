@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-17 00:24+0200\n"
+"POT-Creation-Date: 2026-10-20 07:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2193,14 +2193,28 @@ msgctxt "@info"
 msgid "<application>%1</application> is asking to control input devices"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/eis/eisprompter.cpp:64
+#, kde-format
+msgctxt "@option:check, %1 is the application name. This option remembers the selection for apps claiming to be a given application name"
+msgid "Remember for apps claiming to be %1"
+msgstr ""
+
+#. +> stable6
 #: plugins/eis/eisprompter.cpp:64
 #, kde-format
 msgctxt "@option:check, %1 is the application name. This option always allow apps claiming to be a given application name to control input devices"
 msgid "Always allow apps claiming to be %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/eis/eisprompter.cpp:66
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Identities of legacy X11 apps cannot be verified. If permitted any app claiming to be <application>%1</application> will be able to control input devices. You can change this setting later on <application>System Settings</application>’ “Legacy X11 App Support” page."
+msgstr ""
+
+#. +> stable6
 #: plugins/eis/eisprompter.cpp:66
 #, kde-kuit-format
 msgctxt "@info:tooltip"
@@ -4431,7 +4445,7 @@ msgid "No open windows"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:319
+#: tabbox/tabbox.cpp:322
 msgid "Walk Through Windows"
 msgstr ""
 
@@ -4446,7 +4460,7 @@ msgid "Walk Through Desktop List"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:320
+#: tabbox/tabbox.cpp:323
 msgid "Walk Through Windows (Reverse)"
 msgstr ""
 
@@ -4461,32 +4475,32 @@ msgid "Walk Through Desktop List (Reverse)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:321
+#: tabbox/tabbox.cpp:324
 msgid "Walk Through Windows Alternative"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:322
+#: tabbox/tabbox.cpp:325
 msgid "Walk Through Windows Alternative (Reverse)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:323
+#: tabbox/tabbox.cpp:326
 msgid "Walk Through Windows of Current Application"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:324
+#: tabbox/tabbox.cpp:327
 msgid "Walk Through Windows of Current Application (Reverse)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:325
+#: tabbox/tabbox.cpp:328
 msgid "Walk Through Windows of Current Application Alternative"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:326
+#: tabbox/tabbox.cpp:329
 msgid "Walk Through Windows of Current Application Alternative (Reverse)"
 msgstr ""
 
@@ -5404,34 +5418,34 @@ msgid "(Not Responding)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1326
+#: workspace.cpp:1335
 #, kde-format
 msgid "Built-in Screen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1339
+#: workspace.cpp:1348
 #, kde-format
 msgctxt "Display label: manufacturer + model name + connector name"
 msgid "%1 %2 %3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1349
+#: workspace.cpp:1358
 #, kde-format
 msgctxt "Display label: manufacturer + model name + serial number"
 msgid "%1 %2 %3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1352
+#: workspace.cpp:1361
 #, kde-format
 msgctxt "Display label: manufacturer + model name"
 msgid "%1 %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1821
+#: workspace.cpp:1830
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""
