@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-17 10:21+0200\n"
+"POT-Creation-Date: 2026-10-21 08:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -46,14 +46,14 @@ msgstr ""
 #. +> trunk6
 #: index.docbook:25
 #, no-c-format
-msgid "2026-04-17"
+msgid "2026-11-08"
 msgstr ""
 
 #. Tag: releaseinfo
 #. +> trunk6
 #: index.docbook:26
 #, no-c-format
-msgid "<releaseinfo>0.1</releaseinfo>"
+msgid "Chessament 1.0"
 msgstr ""
 
 #. Tag: para
@@ -354,215 +354,264 @@ msgstr ""
 #. +> trunk6
 #: index.docbook:175
 #, no-c-format
+msgid "Rating lists"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:177
+#, no-c-format
+msgid "To ease the entering of new players in a tournament, you can use rating lists. To add a new rating list to &chessament;, select <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Chessament…</guimenuitem></menuchoice> and go to the <guibutton>Rating Lists</guibutton> section."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:182
+#, no-c-format
+msgid "&chessament; supports the following rating lists:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:187
+#, no-c-format
+msgid "International Chess Federation (<acronym>FIDE</acronym>): combined list, <acronym>TXT</acronym> format."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:193
+#, no-c-format
 msgid "Reference"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6
-#: index.docbook:178
+#: index.docbook:196
 #, no-c-format
 msgid "The Menubar"
 msgstr ""
 
 #. Tag: title
 #. +> trunk6
-#: index.docbook:180
+#: index.docbook:198
 #, no-c-format
 msgid "The File Menu"
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6
-#: index.docbook:184
+#: index.docbook:202
 #, no-c-format
 msgid "<guimenu>File</guimenu> <guimenuitem>New tournament…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:190
+#: index.docbook:208
 #, no-c-format
 msgid "<action>Create</action> a new tournament. If there is already an opened tournament it will be closed."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6
-#: index.docbook:197
+#: index.docbook:215
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Open…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:206
+#: index.docbook:224
 #, no-c-format
 msgid "<action>Open</action> a &chessament; file."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6
-#: index.docbook:213
+#: index.docbook:231
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>S</keycap></keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Save As…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:222
+#: index.docbook:240
 #, no-c-format
 msgid "<action>Save</action> the tournament under a new name."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6
-#: index.docbook:229
+#: index.docbook:247
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>I</keycap></keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Import tournament report…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:238
+#: index.docbook:256
 #, no-c-format
 msgid "<action>Import</action> a Tournament Report File (<acronym>TRF</acronym>). If there is already a opened tournament it will be closed."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6
-#: index.docbook:245
+#: index.docbook:263
 #, no-c-format
 msgid "<guimenu>File</guimenu> <guimenuitem>Export tournament report…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:251
+#: index.docbook:269
 #, no-c-format
 msgid "<action>Export</action> the current tournament to a Tournament Report File (<acronym>TRF</acronym>)."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6
-#: index.docbook:259
+#: index.docbook:277
 #, no-c-format
 msgid "The View Menu"
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6
-#: index.docbook:263
+#: index.docbook:281
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>Hide finished games</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:269
+#: index.docbook:287
 #, no-c-format
 msgid "<action>Hides</action> the games that have a result entered."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6
-#: index.docbook:277
+#: index.docbook:295
+#, no-c-format
+msgid "The Tournament Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:299
+#, no-c-format
+msgid "<guimenu>Tournament</guimenu> <guimenuitem>Update ratings…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:305
+#, no-c-format
+msgid "<action>Opens</action> a dialog allowing you to update the ratings of the players."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:313
 #, no-c-format
 msgid "The Settings Menu"
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6
-#: index.docbook:281
+#: index.docbook:317
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>,</keycap></keycombo> </shortcut> <guimenu>Settings</guimenu> <guimenuitem>Configure Keyboard Shortcuts…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:290
+#: index.docbook:326
 #, no-c-format
 msgid "<action>Opens</action> the Keyboard Shortcuts window."
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6
-#: index.docbook:297
+#: index.docbook:333
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>,</keycap></keycombo> </shortcut> <guimenu>Settings</guimenu> <guimenuitem>Configure Chessament…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:306
+#: index.docbook:342
 #, no-c-format
 msgid "<action>Opens</action> &chessament; Settings window."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6
-#: index.docbook:314
+#: index.docbook:350
 #, no-c-format
 msgid "The Help Menu"
 msgstr ""
 
 #. Tag: menuchoice
 #. +> trunk6
-#: index.docbook:318
+#: index.docbook:354
 #, no-c-format
 msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>I</keycap></keycombo> </shortcut> <guimenu>Help</guimenu> <guimenuitem>Find Action…</guimenuitem>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:327
+#: index.docbook:363
 #, no-c-format
 msgid "<action>Opens</action> the command bar."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6
-#: index.docbook:337
+#: index.docbook:373
 #, no-c-format
 msgid "Command Line Options"
 msgstr ""
 
 #. Tag: userinput
 #. +> trunk6
-#: index.docbook:341
+#: index.docbook:377
 #, no-c-format
 msgid "<command>chessament</command> <option>--import-trf <replaceable>file</replaceable></option>"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:346
+#: index.docbook:382
 #, no-c-format
 msgid "Import a Tournament Report File (<acronym>TRF</acronym>) as a new tournament."
 msgstr ""
 
 #. Tag: title
 #. +> trunk6
-#: index.docbook:356
+#: index.docbook:392
 #, no-c-format
 msgid "Credits and License"
 msgstr ""
 
 #. Tag: para
 #. +> trunk6
-#: index.docbook:357
+#: index.docbook:393
 #, no-c-format
 msgid "Documentation Copyright &copy; &Manuel.Alcaraz.Zambrano; &Manuel.Alcaraz.Zambrano.mail;"
 msgstr ""
 
 #. Tag: trans_comment
 #. +> trunk6
-#: index.docbook:358
+#: index.docbook:394
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 
 #. Tag: chapter
 #. +> trunk6
-#: index.docbook:358
+#: index.docbook:394
 #, no-c-format
 msgid "&underCCBYSA4; &underGPL;"
 msgstr ""
