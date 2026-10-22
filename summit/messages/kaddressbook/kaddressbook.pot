@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-17 00:23+0200\n"
+"POT-Creation-Date: 2026-10-22 10:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -330,7 +330,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/importexport/contactfields.cpp:106
-#: src/viewertemplates/contact_embedded.html:97
+#: src/viewertemplates/contact_embedded.html:104
 #, kde-format
 msgid "Blog Feed"
 msgstr ""
@@ -1153,8 +1153,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: src/printing/grantlee/themes/default/theme.html:58
 #: src/printing/grantlee/themes/full/theme.html:58
-#: src/viewertemplates/contact_embedded.html:64
-#: src/viewertemplates/contact_embedded.html:81
+#: src/viewertemplates/contact_embedded.html:71
+#: src/viewertemplates/contact_embedded.html:88
 msgid "Website"
 msgstr ""
 
@@ -1163,7 +1163,7 @@ msgstr ""
 #: src/printing/grantlee/themes/default/theme.html:64
 #: src/printing/grantlee/themes/full/theme.html:64
 #: src/printing/ringbinder/rbs_appearance.ui:108
-#: src/viewertemplates/contact_embedded.html:26
+#: src/viewertemplates/contact_embedded.html:33
 #, kde-format
 msgid "Birthday"
 msgstr ""
@@ -1476,8 +1476,13 @@ msgctxt "@info:whatsthis"
 msgid "Choose your desired printing style. See the preview image to help you decide."
 msgstr ""
 
+#. +> trunk6
+#: src/viewertemplates/contact_embedded.html:26
+msgid "Nickname"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/viewertemplates/contact_embedded.html:28
+#: src/viewertemplates/contact_embedded.html:35
 #, kde-format
 msgid "(One year old)"
 msgid_plural "(%1 years old)"
@@ -1485,7 +1490,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: src/viewertemplates/contact_embedded.html:47
+#: src/viewertemplates/contact_embedded.html:54
 msgid "Email"
 msgstr ""
 
