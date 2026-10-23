@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-22 10:17+0200\n"
+"POT-Creation-Date: 2026-10-23 10:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #. +> trunk6 stable6
 #: core/client/mcpserver.cpp:111
@@ -189,6 +190,53 @@ msgstr ""
 #, kde-format
 msgid "Message received from client is too big."
 msgstr ""
+
+#. +> trunk6
+#: widgets/client/addmcpregistryserverdialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Server from MCP Registry"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/addmcpregistryserverwidget.cpp:39
+#, kde-format
+msgctxt "@action:button"
+msgid "Load More"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/addmcpregistryserverwidget.cpp:49
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search in MCP registry…"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/addmcpregistryserverwidget.cpp:137
+#, kde-format
+msgid "Loading…"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/addmcpregistryserverwidget.cpp:154
+#, kde-format
+msgid "Impossible to load servers: %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/addmcpregistryserverwidget.cpp:162
+#, kde-format
+msgid "Invalid answer from MCP registry."
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/addmcpregistryserverwidget.cpp:172
+#, kde-format
+msgid "1 server"
+msgid_plural "%1 servers"
+msgstr[0] ""
+msgstr[1] ""
 
 #. +> trunk6 stable6
 #: widgets/client/addmcpserverdialog.cpp:26
@@ -374,6 +422,79 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Header"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:24
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Select a server to see its information."
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:58
+#, kde-format
+msgid "<b>Version:</b> %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:61
+#, kde-format
+msgid "<b>Repository:</b> %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:64
+#, kde-format
+msgid "<b>Website:</b> %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:70
+#, kde-format
+msgid "Remotes"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:79
+#, kde-format
+msgid "Packages"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:85
+#, kde-format
+msgid "Registry: %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:87
+#, kde-format
+msgid "Transport: %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:90
+#, kde-format
+msgid "Runtime: %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:94
+#, kde-format
+msgid "Environment variables:"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:98
+#, kde-format
+msgid "(required)"
+msgstr ""
+
+#. +> trunk6
+#: widgets/client/mcpregistryserverinfowidget.cpp:101
+#, kde-format
+msgid "(secret)"
 msgstr ""
 
 #. +> trunk6

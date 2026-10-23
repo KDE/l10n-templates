@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-linux-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-30 08:36+0200\n"
+"POT-Creation-Date: 2026-10-23 10:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -4401,7 +4401,7 @@ msgstr ""
 #: content/docs/nix.md:37
 msgid ""
 "<pre>\n"
-"$ nix-env -f '<nixpkgs>' -iA mc\n"
+"$ nix-env -f '&lt;nixpkgs&gt;' -iA mc\n"
 "⋮\n"
 "building '/nix/store/1q2sh2f178jx9fl37gd9ks85ysfvpwd9-user-environment.drv'...\n"
 "</pre>"
@@ -4410,7 +4410,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/docs/nix.md:43
-msgid "This creates a new “environment” which contains all the state changes necessary to make the <code>mc</code> package available, and these can be rolled forward or backward. This is the ''real'' appeal of the Nix package management system, but beyond the scope of this guide."
+msgid "This creates a new “environment” which contains all the state changes necessary to make the <code>mc</code> package available, and these can be rolled forward or backward. This is the *real* appeal of the Nix package management system, but beyond the scope of this guide."
 msgstr ""
 
 #. +> trunk5
@@ -4445,8 +4445,8 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: content/docs/nix.md:60
-msgid "See the section about [[#garbage-collection|garbage collection]] below for how to reclaim space used by packages that you're no longer using."
+#: content/docs/nix.md:60 content/docs/nix.md:100
+msgid "See the section about [garbage collection](#garbage-collection) below for how to reclaim space used by packages that you're no longer using."
 msgstr ""
 
 #. +> trunk5
@@ -4510,11 +4510,6 @@ msgid ""
 "$ nix profile remove silver-searcher\n"
 "</pre>"
 "\n"
-msgstr ""
-
-#. +> trunk5
-#: content/docs/nix.md:100
-msgid "See the section about [garbage collection](#garbage-collection) below for how to reclaim space used by packages that you're no longer using."
 msgstr ""
 
 #. +> trunk5

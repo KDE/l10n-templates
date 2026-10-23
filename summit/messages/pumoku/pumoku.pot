@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pumoku\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-21 08:03+0200\n"
+"POT-Creation-Date: 2026-10-23 10:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16,58 +16,49 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #. +> trunk6
-#: contents/ui/CheckBoardDialog.qml:37
+#: contents/ui/CheckBoardDialog.qml:41
 #, kde-format
 msgctxt "@action:button"
 msgid "Show me"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/CheckBoardDialog.qml:43
+#: contents/ui/CheckBoardDialog.qml:47
 #, kde-format
 msgctxt "@action:button, undo recursively"
 msgid "Scroll back"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/CheckBoardDialog.qml:47
+#: contents/ui/CheckBoardDialog.qml:51
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset game"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/CheckBoardDialog.qml:61
+#: contents/ui/CheckBoardDialog.qml:64
 #, kde-format
 msgctxt "@action:button"
 msgid "Close"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/CheckBoardDialog.qml:80
+#: contents/ui/CheckBoardDialog.qml:82
 #, kde-format
 msgid "All is good!"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/CheckBoardDialog.qml:81
+#: contents/ui/CheckBoardDialog.qml:83
 #, kde-format
-msgid "There are some errors."
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/CheckBoardDialog.qml:82
-#, kde-format
-msgid "Check board: "
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/CheckBoardDialog.qml:82
-#, kde-format
-msgid "There is an error."
-msgstr ""
+msgid "There is an error"
+msgid_plural "There are some errors."
+msgstr[0] ""
+msgstr[1] ""
 
 #. +> trunk6
 #: contents/ui/FinishDialog.qml:53
@@ -169,137 +160,137 @@ msgid "Highlight"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:452
+#: contents/ui/GamePage.qml:464
 #, kde-format
 msgctxt "@action:button"
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:462
+#: contents/ui/GamePage.qml:474
 #, kde-format
 msgctxt "@action:button"
 msgid "Redo"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:472
+#: contents/ui/GamePage.qml:484
 #, kde-format
 msgctxt "@action:button"
 msgid "Hint"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:478
+#: contents/ui/GamePage.qml:490
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Check board"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:485
+#: contents/ui/GamePage.qml:497
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Solve Cell"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:498
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Solve Game"
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/GamePage.qml:502
-#, kde-format
-msgctxt "@title:window"
-msgid "Solve Game?"
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/GamePage.qml:503
-#, kde-format
-msgid "You will lose any changes you have made, this cannot be undone. You can’t solve the puzzle on your own!"
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/GamePage.qml:512
+#: contents/ui/GamePage.qml:510
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set Pencilmarks"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:557
+#: contents/ui/GamePage.qml:555
 #, kde-format
 msgctxt "@action:button"
 msgid "Pencil"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:567
+#: contents/ui/GamePage.qml:565
 #, kde-format
 msgctxt "@action:button"
 msgid "Erase"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:577
+#: contents/ui/GamePage.qml:575
 #, kde-format
 msgctxt "@action:button"
 msgid "Game"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:583
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Reset Game"
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/GamePage.qml:587
-#, kde-format
-msgctxt "@title:window"
-msgid "Reset Game?"
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/GamePage.qml:588 contents/ui/GamePage.qml:606
-#, kde-format
-msgid "You will lose any changes you have made, this cannot be undone."
-msgstr ""
-
-#. +> trunk6
-#: contents/ui/GamePage.qml:597
+#: contents/ui/GamePage.qml:581
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Clear Pencilmarks"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:601
+#: contents/ui/GamePage.qml:585
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reset Game"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:589
+#, kde-format
+msgctxt "@title:window"
+msgid "Reset Game?"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:590 contents/ui/GamePage.qml:618
+#, kde-format
+msgid "You will lose any changes you have made, this cannot be undone."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:599
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Solve Game"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:603
+#, kde-format
+msgctxt "@title:window"
+msgid "Solve Game?"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:604
+#, kde-format
+msgid "You will lose any changes you have made, this cannot be undone. You can’t solve the puzzle on your own!"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:613
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Give Up"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:605
+#: contents/ui/GamePage.qml:617
 #, kde-format
 msgctxt "@title:window"
 msgid "Give Up?"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:665
+#: contents/ui/GamePage.qml:669
 #, kde-format
 msgid "Please select a valid cell to solve."
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/GamePage.qml:668
+#: contents/ui/GamePage.qml:672
 #, kde-format
 msgid "Solve"
 msgstr ""
